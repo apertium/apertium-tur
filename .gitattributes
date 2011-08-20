@@ -1,1 +1,4 @@
 * text=auto !eol
+lexicon/adjectives -text
+lexicon/adverbs -text
+lexicon/nouns -text
