@@ -1,0 +1,27 @@
+
+Multichar_Symbols
+
+%<n%>                                  ! Noun
+%<adj%>                                ! Adjective
+
+LEXICON Root 
+
+NounRoot ;
+AdjRoot ;
+
+LEXICON N-INFL
+
+%<n%>: # ;
+
+LEXICON A-INFL
+
+%<adj%>: # ;
+
+LEXICON AdjRoot
+
+karizmatik A-INFL ; ! "charismatic"
+
+LEXICON NounRoot
+
+otogar N-INFL ; ! "bus station"
+otobus N-INFL ; ! "bus"
