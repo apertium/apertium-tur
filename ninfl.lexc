@@ -22,6 +22,7 @@ Multichar_Symbols
 %{I%}
 %{bI%}
 %{p%}
+%{k%}
 
 LEXICON Root
 Nouns ; 
