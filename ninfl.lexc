@@ -19,8 +19,9 @@ Multichar_Symbols
 %{D%}
 %{A%}
 %{bN%}
-%{I%}
+%{bY%}
 %{bI%}
+%{I%}
 %{p%}
 %{k%}
 %{t%}

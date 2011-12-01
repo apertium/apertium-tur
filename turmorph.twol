@@ -2,7 +2,8 @@ Alphabet
 A B C Ç D E F G Ğ H I İ J K L M N O Ö P Q R S Ş T U Ü V W X Y Z 
 a b c ç d e f g ğ h ı i j k l m n o ö p q r s ş t u ü v w x y z 
 
-%{k%}:k %{p%}:p %{D%}:d
+%{k%}:k %{p%}:p %{D%}:d 
+%{bN%}:0 %{bY%}:0 %{bI%}:0
 %{A%}:a %{I%}:i
 
 %>:0
@@ -17,10 +18,14 @@ FrontVow = İ Ü E O
 BackVow = I U A O 
           ı u a o ; 
 
+Vow = İ Ü E O I U A O
+      i ü e o ı u a o
+      %{A%} %{I%} %{bI%} ;
+
 
 Cns = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W X Y Z 
       b c ç d f g ğ h j k l m n p q r s ş t v w x y z 
-      %{k%} %{p%} %{D%} ;
+      %{k%} %{p%} %{D%} %{bN%} %{bY%} ;
 
 Rules 
 
@@ -28,3 +33,8 @@ Rules
 %{A%}:е <=> [ :FrontVow :Cns* ]/[ %>: | :0 | :i | :u ] _ ;
                                 [ :FrontCns :Cns* ]/[ %>: | :0 ] _ ;
 
+"Not 'buffer' N"
+%{bN%}:n <=> [ :Vow ]/[ %>: | :0 ] _ ; 
+
+!"Not 'buffer' I"
+!%{bI%}:i <=> [ :Cns ]/[ %>: | :0 ] _ ; 
