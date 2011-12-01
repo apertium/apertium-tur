@@ -73,7 +73,6 @@ LEXICON NINFL
 %<n%>:  # ; ! Nominative
 
 LEXICON Nouns
-
 otogar:otogar NINFL ; ! "bus station"
 adam:adam NINFL ; ! "man"
 ev:ev NINFL ; ! "house"
@@ -81,3 +80,16 @@ araba:araba NINFL ; ! "car"
 masa:masa NINFL ; ! "table"
 bilgisayar:bilgisayar NINFL ; ! "computer"
 kitap:kita%{p%} NINFL ; ! "book"
+milyon:milyon NINFL ; ! "million"
+önce:önce NINFL ! "before" **CHECK**
+tanıma:tanıma NINFL ! "recognising" **CHECK**
+danışma:danışma NINFL ! "counselling"
+kahramanlık:kahramanlı%{k%} NINFL ! "bravery"
+nişancı:nişancı NINFL ! "marksman"
+mutlu:mutlu NINFL ! "happy" **CHECK**
+atılma:atılma NINFL ! "embarking" **CHECK**
+askerlik:askerli%{k%} NINFL ! "military service"
+havacılık:havacılık NINFL ! "aviation"
+zorlanma:zorlanma NINFL ! "buffeting"
+çoğulculuk:çoğulculu%{k%} NINFL ! "multiplism"
+
