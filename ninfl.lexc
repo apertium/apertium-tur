@@ -26,11 +26,11 @@ Multichar_Symbols
 LEXICON Root
 Nouns ; 
 
-LEXICON case1              !!! $case1$ = $loc$ | $gen$
+LEXICON case1                     !!! $case1$ = $loc$ | $gen$
 %<loc%>:%>%{D%}%{A%} # ;
 %<gen%>:%>%{bN%}%{I%}n # ;
 
-LEXICON case2              !!! $case2$ = $acc$ | $abl$ | $dat$ | $ins$
+LEXICON case2                     !!! $case2$ = $acc$ | $abl$ | $dat$ | $ins$
 %<acc%>:%>%{bY%} # ;
 %<abl%>:%>%{D%}%{A%}n # ;
 %<dat%>:%>%{bY%}%{A%} # ;
@@ -38,28 +38,28 @@ LEXICON case2              !!! $case2$ = $acc$ | $abl$ | $dat$ | $ins$
 !%<ins%>:%>%{bY%}l%{A%}n # ;
 
 
-LEXICON poss12 !!  $poss12$ = $p1s$ | $p2s$ | $p1p$ | $p2p$
+LEXICON poss12                    !!!  $poss12$ = $p1s$ | $p2s$ | $p1p$ | $p2p$
 %<px1sg%>:%>%{bI%}m case1 ;
 %<px2sg%>:%>%{bI%}n case1 ;
 %<px1pl%>:%>%{bI%}m%{I%}z case1 ;
 %<px2pl%>:%>%{bI%}%{I%}z case1 ;
 
-LEXICON POSS12 !!   $POSS12$ = ($plu$)? $poss12$
+LEXICON POSS12                    !!!   $POSS12$ = ($plu$)? $poss12$
 poss12 ;
 %<pl%>:%>l%{A%}r poss12 ;
 
-LEXICON CASE1  !!! $CASE1$ = ($PLU$)? $case1$ | ($POSS12$ $case1$) | ($POSS3$ $case1p3$)
+LEXICON CASE1                     !!! $CASE1$ = ($PLU$)? $case1$ | ($POSS12$ $case1$) | ($POSS3$ $case1p3$)
 
 case1 ;
 POSS12 ;
 %<pl%>:%>l%{A%}r case1 ;
 
-LEXICON CASE2 !!! $CASE2$ = ($PLU$)? $case2$ | ($POSS12$ $case2$) | ($POSS3$ $case2p3$)
+LEXICON CASE2                     !!! $CASE2$ = ($PLU$)? $case2$ | ($POSS12$ $case2$) | ($POSS3$ $case2p3$)
 
 case2 ;
 POSS12 ;
 
-LEXICON INFL_c1 !!! $INFL_c1$ = $PLU$ | $POSS$ | $CASE2$
+LEXICON INFL_c1                   !!! $INFL_c1$ = $PLU$ | $POSS$ | $CASE2$
 
 CASE2 ;
 POSS12 ;
