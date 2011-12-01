@@ -29,7 +29,7 @@ Cns = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W X Y Z
 Rules 
 
 "A Vowel Harmony"
-%{A%}:е <=> [ :FrontVow :Cns* ]/[ %>: | :0 | :i | :u ] _ ;
+%{A%}:e <=> [ :FrontVow :Cns* ]/[ %>: | :0 | :i | :u ] _ ;
                                 [ :Cns* ]/[ %>: | :0 ] _ ;
 
 "Not 'buffer' N"
