@@ -121,17 +121,17 @@ masa:masa NINFL ; ! "table"
 bilgisayar:bilgisayar NINFL ; ! "computer"
 kitap:kita%{p%} NINFL ; ! "book"
 milyon:milyon NINFL ; ! "million"
-önce:önce NINFL ! "before" **CHECK**
-tanıma:tanıma NINFL ! "recognising" **CHECK**
-danışma:danışma NINFL ! "counselling"
-kahramanlık:kahramanlı%{k%} NINFL ! "bravery"
-nişancı:nişancı NINFL ! "marksman"
-mutlu:mutlu NINFL ! "happy" **CHECK**
-atılma:atılma NINFL ! "embarking" **CHECK**
-askerlik:askerli%{k%} NINFL ! "military service"
-havacılık:havacılık NINFL ! "aviation"
-zorlanma:zorlanma NINFL ! "buffeting"
-çoğulculuk:çoğulculu%{k%} NINFL ! "multiplism"
+önce:önce NINFL ; ! "before" **CHECK**
+tanıma:tanıma NINFL ; ! "recognising" **CHECK**
+danışma:danışma NINFL ; ! "counselling"
+kahramanlık:kahramanlı%{k%} NINFL ; ! "bravery"
+nişancı:nişancı NINFL ; ! "marksman"
+mutlu:mutlu NINFL ; ! "happy" **CHECK**
+atılma:atılma NINFL ; ! "embarking" **CHECK**
+askerlik:askerli%{k%} NINFL ; ! "military service"
+havacılık:havacılık NINFL ; ! "aviation"
+zorlanma:zorlanma NINFL ; ! "buffeting"
+çoğulculuk:çoğulculu%{k%} NINFL ; ! "multiplism"
 
 !! Automatically imported below this line
 !
