@@ -30,12 +30,11 @@ Rules
 
 "A Vowel Harmony"
 %{A%}:e <=> [ :FrontVow :Cns* ]/[ %>: | :0 | :i | :u ] _ ;
-                                [ :Cns* ]/[ %>: | :0 ] _ ;
+                            !    [ :Cns* ]/[ %>: | :0 ] _ ;
 
 "I Vowel Harmony"
 %{I%}:i <=> [ :FrontVow :Cns* ]/[ %>: | :0 ] _ ;
-                                [ :Cns* ]/[ %>: | :0 ] _ ;
-
+                            !    [ :Cns* ]/[ %>: | :0 ] _ ;
 
 "Not 'buffer' N"
 %{bN%}:n <=> [ :Vow ]/[ %>: | :0 ] _ ; 
