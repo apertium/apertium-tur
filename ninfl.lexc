@@ -43,7 +43,7 @@ LEXICON case1                     !!! $case1$ = $loc$ | $gen$
 %<gen%>:%>%{bN%}%{I%}n # ;
 
 LEXICON case2                     !!! $case2$ = $acc$ | $abl$ | $dat$ | $ins$
-%<acc%>:%>%{bY%} # ;
+%<acc%>:%>%{bY%}%{I%} # ;
 %<abl%>:%>%{D%}%{A%}n # ;
 %<dat%>:%>%{bY%}%{A%} # ;
 %<ins%>:%>%{bY%}l%{A%} # ;
