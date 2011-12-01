@@ -35,5 +35,5 @@ Rules
 "Not 'buffer' N"
 %{bN%}:n <=> [ :Vow ]/[ %>: | :0 ] _ ; 
 
-!"Not 'buffer' I"
-!%{bI%}:i <=> [ :Cns ]/[ %>: | :0 ] _ ; 
+"Not 'buffer' I"
+%{bI%}:i <=> [ :Cns ]/[ %>: | :0 ] _ ; 

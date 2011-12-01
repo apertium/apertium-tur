@@ -54,7 +54,7 @@ LEXICON poss12                    !!!  $poss12$ = $p1s$ | $p2s$ | $p1p$ | $p2p$
 %<px1sg%>:%>%{bI%}m case1 ;
 %<px2sg%>:%>%{bI%}n case1 ;
 %<px1pl%>:%>%{bI%}m%{I%}z case1 ;
-%<px2pl%>:%>%{bI%}%{I%}z case1 ;
+%<px2pl%>:%>%{bI%}n%{I%}z case1 ;
 
 LEXICON POSS12                    !!!   $POSS12$ = ($plu$)? $poss12$
 poss12 ;
