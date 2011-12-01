@@ -2,6 +2,7 @@ Multichar_Symbols
 
 %<n%>         ! Noun
 %<prn%>       ! Pronoun
+%<post%>      ! Postposition
 
 %<pers%>      ! Personal
 
@@ -24,8 +25,8 @@ Multichar_Symbols
 %<px1pl%>     ! First person plural possessive
 %<px2pl%>     ! Second person plural possessive
 
-%{A%}         ! Archivowel {A}:
-%{I%}         ! Archivowel {I}: u ü i ı
+%{A%}         ! Archivowel {A}: e (a)
+%{I%}         ! Archivowel {I}: u ü i (ı)
 %{bN%}        ! Buffer 'n': -n- or -ø-
 %{bY%}        ! Buffer 'y': -y- or -ø-
 %{bI%}        ! Buffer 'i': -i- or -ø-
