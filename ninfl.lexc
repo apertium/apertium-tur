@@ -1,7 +1,15 @@
 Multichar_Symbols
 
 %<n%>         ! Noun
+%<prn%>       ! Pronoun
 
+%<pers%>      ! Personal
+
+%<p1%>        ! First person
+%<p2%>        ! Second person
+%<p3%>        ! Third person
+
+%<sg%>        ! Singular
 %<pl%>        ! Plural
 
 %<loc%>       ! Locative
@@ -36,6 +44,7 @@ Multichar_Symbols
 
 LEXICON Root
 Nouns ; 
+Pronouns ;
 
 LEXICON case1                     !!! $case1$ = $loc$ | $gen$
 # ;
@@ -84,7 +93,25 @@ LEXICON NINFL
 
 %<n%>:  # ; ! Nominative
 
+
+LEXICON PERS
+
+ben%<prn%>%<pers%>%<p1%>%<sg%>:ben # ;
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:bana # ;
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:benim # ;
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:beni # ;
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:bende # ;
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:benden # ;
+!ben%<prn%>%<pers%>%<p1%>%<sg%>%<ins%>:benimle # ;
+!ben%<prn%>%<pers%>%<p1%>%<sg%>%<ins%>:benle # ;
+
+LEXICON Pronouns
+
+PERS ;
+
+
 LEXICON Nouns
+
 otogar:otogar NINFL ; ! "bus station"
 adam:adam NINFL ; ! "man"
 ev:ev NINFL ; ! "house"
