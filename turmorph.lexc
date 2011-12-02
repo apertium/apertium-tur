@@ -66,6 +66,7 @@ LEXICON case2
 !%<ins%>:%>%{bY%}l%{A%}n # ;
 
 LEXICON case1p3
+%<nom%>:%> # ;
 %<loc%>:%>%{bN%}d%{A%} # ;
 %<gen%>:%>%{bN%}%{I%}n # ;
 
@@ -146,7 +147,6 @@ CASE2 ;
 
 LEXICON NINFL-COMMON
 
-!%<pl%>:%>l%{A%}r # ;
 POSS ;
 CASE1 ; 
 CASE2 ; 

@@ -11,14 +11,14 @@ Alphabet
 
 Sets
 
-FrontVow = İ Ü E O 
-           i ü e o ; 
+FrontVow = İ Ü E Ö 
+           i ü e ö ; 
 
 BackVow = I U A O 
           ı u a o ; 
 
-Vow = İ Ü E O I U A O
-      i ü e o ı u a o
+Vow = İ Ü E Ö I U A O
+      i ü e ö ı u a o
       %{A%} %{I%} %{bI%} ;
 
 
@@ -39,12 +39,14 @@ Rules
 "Not 'buffer' N"
 %{bN%}:n <=> [ :Vow ]/[ %>: | :0 ] _ ; 
 
-"Not 'buffer' I"
-%{bI%}:i <=> [ :Cns ]/[ %>: | :0 ] _ ; 
+"Not 'buffer' I Back"
+%{bI%}:ı <=> [ :BackVow :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+
+"Not 'buffer' I Front"
+%{bI%}:i <=> [ :FrontVow :Cns* :Cns ]/[ %>: | :0 ] _ ; 
 
 "Not 'buffer' Y"
 %{bY%}:y <=> [ :Vow ]/[ %>: | :0 ] _ ; 
 
-
 "p -> b"
-%{p%}:b <=>  _ %>: [ :Vow ] ; 
+%{p%}:b <=>  _ %>: [ :Vow | %{bN%}:0 :Vow ] ; 
