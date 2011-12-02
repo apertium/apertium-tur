@@ -42,5 +42,9 @@ Rules
 "Not 'buffer' I"
 %{bI%}:i <=> [ :Cns ]/[ %>: | :0 ] _ ; 
 
+"Not 'buffer' Y"
+%{bY%}:y <=> [ :Vow ]/[ %>: | :0 ] _ ; 
+
+
 "p -> b"
 %{p%}:b <=>  _ %>: [ :Vow ] ; 
