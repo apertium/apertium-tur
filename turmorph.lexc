@@ -62,7 +62,7 @@ Pronouns ;
 !! Case morphology
 
 LEXICON case1                     
-%<nom%>:%> # ;
+!%<nom%>:%> # ;
 %<loc%>:%>%{D%}%{A%} # ;
 %<gen%>:%>%{bN%}%{I%}n # ;
 
@@ -74,7 +74,7 @@ LEXICON case2
 !%<ins%>:%>%{bY%}l%{A%}n # ;
 
 LEXICON case1p3
-%<nom%>:%> # ;
+!%<nom%>:%> # ;
 %<loc%>:%>%{bN%}d%{A%} # ;
 %<gen%>:%>%{bN%}%{I%}n # ;
 
@@ -126,7 +126,7 @@ poss12 ;
 
 LEXICON POSS3
 
-poss3
+poss3 ;
 %<pl%>:%>l%{A%}r poss3 ;
 
 LEXICON POSS
