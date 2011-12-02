@@ -13,6 +13,7 @@ Multichar_Symbols
 %<sg%>        ! Singular
 %<pl%>        ! Plural
 
+%<nom%>       ! Nominative (unmarked)
 %<loc%>       ! Locative
 %<gen%>       ! Genitive
 %<acc%>       ! Accusative 
@@ -22,14 +23,17 @@ Multichar_Symbols
 
 %<px1sg%>     ! First person singular possessive
 %<px2sg%>     ! Second person singular possessive
+%<px3sg%>     ! Third person singular possessive
 %<px1pl%>     ! First person plural possessive
 %<px2pl%>     ! Second person plural possessive
+%<px3pl%>     ! Third person plural possessive
 
 %{A%}         ! Archivowel {A}: e (a)
 %{I%}         ! Archivowel {I}: u ü i (ı)
 %{bN%}        ! Buffer 'n': -n- or -ø-
 %{bY%}        ! Buffer 'y': -y- or -ø-
 %{bI%}        ! Buffer 'i': -i- or -ø-
+%{bS%}        ! Buffer 's': -s- or -ø-
 %{D%}         ! 
 %{p%}         ! Archicons {p}: p b 
 %{k%}         ! Archicons {k}: k ğ
@@ -47,53 +51,109 @@ LEXICON Root
 Nouns ; 
 Pronouns ;
 
-LEXICON case1                     !!! $case1$ = $loc$ | $gen$
-# ;
+!! Case morphology
+
+LEXICON case1                     
+%<nom%>:%> # ;
 %<loc%>:%>%{D%}%{A%} # ;
 %<gen%>:%>%{bN%}%{I%}n # ;
 
-LEXICON case2                     !!! $case2$ = $acc$ | $abl$ | $dat$ | $ins$
+LEXICON case2                    
 %<acc%>:%>%{bY%}%{I%} # ;
 %<abl%>:%>%{D%}%{A%}n # ;
 %<dat%>:%>%{bY%}%{A%} # ;
 %<ins%>:%>%{bY%}l%{A%} # ;
 !%<ins%>:%>%{bY%}l%{A%}n # ;
 
+LEXICON case1p3
+%<loc%>:%>%{bN%}d%{A%} # ;
+%<gen%>:%>%{bN%}%{I%}n # ;
 
-LEXICON poss12                    !!!  $poss12$ = $p1s$ | $p2s$ | $p1p$ | $p2p$
+LEXICON case2p3
+%<acc%>:%>%{bN%}%{I%} # ;
+%<abl%>:%>%{bN%}d%{A%}n # ;
+%<dat%>:%>%{bN%}%{A%} # ;
+%<ins%>:%>%{bY%}l%{A%} # ;
+!%<ins%>:%>%{bY%}l%{A%}n # ;
+
+!! Possessive morphology
+
+LEXICON poss12-2                    
+%<px1sg%>:%>%{bI%}m case2 ;
+%<px2sg%>:%>%{bI%}n case2 ;
+%<px1pl%>:%>%{bI%}m%{I%}z case2 ;
+%<px2pl%>:%>%{bI%}n%{I%}z case2 ;
+
+
+LEXICON poss12-1
 %<px1sg%>:%>%{bI%}m case1 ;
 %<px2sg%>:%>%{bI%}n case1 ;
 %<px1pl%>:%>%{bI%}m%{I%}z case1 ;
 %<px2pl%>:%>%{bI%}n%{I%}z case1 ;
 
-LEXICON POSS12                    !!!   $POSS12$ = ($plu$)? $poss12$
+LEXICON poss3-2
+
+%<px3sg%>:%>%{bS%}%{I%} case2p3 ;
+%<px3pl%>:%>l%{A%}r%{I%} case2p3 ;
+
+LEXICON poss3-1
+
+%<px3sg%>:%>%{bS%}%{I%} case1p3 ;
+%<px3pl%>:%>l%{A%}r%{I%} case1p3 ;
+
+LEXICON poss
+
+poss12-1  ;
+poss12-2  ;
+poss3-1 ;
+poss3-2 ;
+
+!! Combinatorial morphology
+
+LEXICON POSS12
+
 poss12 ;
 %<pl%>:%>l%{A%}r poss12 ;
 
-LEXICON CASE1                     !!! $CASE1$ = ($PLU$)? $case1$ | ($POSS12$ $case1$) | ($POSS3$ $case1p3$)
+LEXICON POSS3
+
+poss3
+%<pl%>:%>l%{A%}r poss3 ;
+
+LEXICON POSS
+
+POSS12 ;
+POSS3 ; 
+
+LEXICON CASE1
 
 case1 ;
-POSS12 ;
 %<pl%>:%>l%{A%}r case1 ;
+poss12-1 ; 
+poss3-1;
 
-LEXICON CASE2                     !!! $CASE2$ = ($PLU$)? $case2$ | ($POSS12$ $case2$) | ($POSS3$ $case2p3$)
+LEXICON CASE2
 
 case2 ;
-POSS12 ;
-
-LEXICON INFL_c1                   !!! $INFL_c1$ = $PLU$ | $POSS$ | $CASE2$
-
-CASE2 ;
-POSS12 ;
 %<pl%>:%>l%{A%}r case2 ;
+poss12-2 ;
+poss3-2; 
+
+LEXICON CASE 
+
+CASE1 ; 
+CASE2 ; 
+
+LEXICON NINFL-COMMON
+
+!%<pl%>:%>l%{A%}r # ;
+POSS ;
+CASE1 ; 
+CASE2 ; 
 
 LEXICON NINFL
 
-%<n%>: INFL_c1 ;
-%<n%>: CASE1 ;
-
-%<n%>:  # ; ! Nominative
-
+%<n%>: NINFL-COMMON  ; 
 
 LEXICON PERS
 
