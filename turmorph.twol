@@ -27,6 +27,9 @@ Cns = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W X Y Z
       b c ç d f g ğ h j k l m n p q r s ş t v w x y z 
       %{k%} %{p%} %{D%} %{bN%} %{bY%} ;
 
+UnvoicedCns = F Ş T K Ç P
+              f ş t k ç p  ;
+
 Rules 
 
 "A Vowel Harmony"
@@ -53,4 +56,7 @@ Rules
 %{bS%}:s <=>  [ :Vow ]/[ %>: | :0 ] _ ;
 
 "p -> b"
-%{p%}:b <=>  _ %>: [ :Vow | %{bN%}:0 :Vow ] ; 
+%{p%}:b <=>  _ %>: [ :Vow | %{bN%}:0 :Vow | %{bY%}:0 :Vow | %{bS%}:0 :Vow ] ; 
+
+"d devoicing in ablative and locative"
+%{D%}:t <=> [ %{p%}:p | UnvoicedCns ] %>: _ ;

@@ -319,6 +319,7 @@ yetmezlik:yetmezli%{k%}%{compn%} NINFL ; ! ""
 yıllık:yıllık NINFL ; ! ""
 yönetici:yönetici NINFL ; ! ""
 yükümlülük:yükümlülü%{k%} NINFL ; ! ""
+kitabevi:kitabevi NINFL ; ! ""
 
 
 !! Automatically imported / unchecked below this line
@@ -10761,7 +10762,6 @@ yükümlülük:yükümlülü%{k%} NINFL ; ! ""
 !kıtaat:kıtaat NINFL ; ! ""
 !kitabe:kitabe NINFL ; ! ""
 !kitabet:kitabet NINFL ; ! ""
-!kitabevi:kitabevi NINFL ; ! ""
 !kitabi:kitabi NINFL ; ! ""
 !kitap:kita%{p%} NINFL ; ! ""
 !kitapçık:kitapçı%{k%} NINFL ; ! ""
