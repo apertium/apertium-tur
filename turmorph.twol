@@ -6,6 +6,7 @@ Alphabet
  %{k%}:k  %{p%}:p  %{D%}:d 
  %{bN%}:0 %{bY%}:0 %{bI%}:0 %{bS%}:0
  %{A%}:a  %{I%}:ı
+ %{del%}:0 %{dels%}:0
 
  %>:0     ;
 
@@ -47,6 +48,9 @@ Rules
 
 "Not 'buffer' Y"
 %{bY%}:y <=> [ :Vow ]/[ %>: | :0 ] _ ; 
+
+"Not 'buffer' S"
+%{bS%}:s <=>  [ :Vow ]/[ %>: | :0 ] _ ;
 
 "p -> b"
 %{p%}:b <=>  _ %>: [ :Vow | %{bN%}:0 :Vow ] ; 
