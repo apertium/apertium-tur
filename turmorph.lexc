@@ -132,6 +132,7 @@ askerlik:askerli%{k%} NINFL ; ! "military service"
 havacılık:havacılık NINFL ; ! "aviation"
 zorlanma:zorlanma NINFL ; ! "buffeting"
 çoğulculuk:çoğulculu%{k%} NINFL ; ! "multiplism"
+fiş:fiş NINFL ; ! "plug"
 
 !! Automatically imported below this line
 !
@@ -23166,4 +23167,3 @@ zorlanma:zorlanma NINFL ; ! "buffeting"
 !içeri:içeri:%{%} NINFL ; ! ""
 !abece:abe:%{%}ce:%{%} NINFL ; ! ""
 !dışarı:dışarı:%{%} NINFL ; ! ""
-!fiş:fiş NINFL ; ! ""
