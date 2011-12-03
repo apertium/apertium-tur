@@ -79,7 +79,6 @@ Pronouns ;
 !! Case morphology
 
 LEXICON case1                     
-!%<nom%>:%> # ;
 %<loc%>:%>%{D%}%{A%} # ;
 %<gen%>:%>%{bN%}%{I%}n # ;
 
@@ -91,7 +90,6 @@ LEXICON case2
 !%<ins%>:%>%{bY%}l%{A%}n # ;
 
 LEXICON case1p3
-!%<nom%>:%> # ;
 %<loc%>:%>%{bN%}d%{A%} # ;
 %<gen%>:%>%{bN%}%{I%}n # ;
 
@@ -138,13 +136,17 @@ poss3-2 ;
 
 LEXICON POSS12
 
-poss12 ;
-%<pl%>:%>l%{A%}r poss12 ;
+poss12-1 ;
+poss12-2 ;
+%<pl%>:%>l%{A%}r poss12-1 ;
+%<pl%>:%>l%{A%}r poss12-2 ;
 
 LEXICON POSS3
 
-poss3 ;
-%<pl%>:%>l%{A%}r poss3 ;
+poss3-1 ;
+poss3-2 ;
+%<pl%>:%>l%{A%}r poss3-1 ;
+%<pl%>:%>l%{A%}r poss3-2 ;
 
 LEXICON POSS
 
@@ -165,10 +167,10 @@ case2 ;
 poss12-2 ;
 poss3-2; 
 
-LEXICON CASE 
+!LEXICON CASE 
 
-CASE1 ; 
-CASE2 ; 
+!CASE1 ; 
+!CASE2 ; 
 
 LEXICON NINFL-COMMON
 
@@ -178,6 +180,7 @@ CASE2 ;
 
 LEXICON NINFL
 
+%<n%>: # ; 
 %<n%>: NINFL-COMMON  ; 
 
 LEXICON NUMINFL
@@ -197,7 +200,7 @@ LEXICON CAINFL
 
 %<cnjadv%>: # ; 
 
-LEXICON PERS
+LEXICON PRONPERS
 
 ben%<prn%>%<pers%>%<p1%>%<sg%>:ben # ;
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:bana # ;
@@ -207,6 +210,60 @@ ben%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:bende # ;
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:benden # ;
 !ben%<prn%>%<pers%>%<p1%>%<sg%>%<ins%>:benimle # ;
 !ben%<prn%>%<pers%>%<p1%>%<sg%>%<ins%>:benle # ;
+
+sen%<prn%>%<pers%>%<p2%>%<sg%>:sen # ;
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:sana # ;
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:senim # ;
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:seni # ;
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:sende # ;
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:senden # ;
+!sen%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:senimle # ;
+!sen%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:senle # ;
+
+o%<prn%>%<pers%>%<p3%>%<sg%>:o # ;
+o%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:ona # ;
+o%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:onun # ;
+o%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:onu # ;
+o%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ondan # ;
+o%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:onda # ;
+!o%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:oimle # ;
+!o%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:ole # ;
+
+biz%<prn%>%<pers%>%<p1%>%<pl%>:biz # ;
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:bize # ;
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:bizim # ;
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:bizi # ;
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:bizde # ;
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizden # ;
+!biz%<prn%>%<pers%>%<p1%>%<pl%>%<ins%>:bizimle # ;
+!biz%<prn%>%<pers%>%<p1%>%<pl%>%<ins%>:bizle # ;
+
+siz%<prn%>%<pers%>%<p2%>%<pl%>:siz # ;
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:size # ;
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:sizim # ;
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:sizi # ;
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:sizde # ;
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizden # ;
+!siz%<prn%>%<pers%>%<p3%>%<pl%>%<ins%>:sizimle # ;
+!siz%<prn%>%<pers%>%<p3%>%<pl%>%<ins%>:sizle # ;
+
+onlar%<prn%>%<pers%>%<p3%>%<pl%>:onlar # ;
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:onlara # ;
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:onların # ;
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<acc%>:onları # ;
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:onlardan # ;
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:onlarda # ;
+!onlar%<prn%>%<pers%>%<p3%>%<pl%>%<ins%>:onlarimle # ;
+!onlar%<prn%>%<pers%>%<p3%>%<pl%>%<ins%>:onlarle # ;
+
+LEXICON PRONDEM
+
+%<prn%>%<dem%>: NINFL-COMMON ; 
+
+LEXICON PRONITG
+
+%<prn%>%<itg%>: NINFL-COMMON ; 
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
@@ -225,7 +282,17 @@ için:için POSTINFL ; ! "for"
 
 LEXICON Pronouns
 
-PERS ;
+PRONPERS ;
+
+bu%<prn%>%<dem%>:bu # ; ! "this"
+bu:bun PRONDEM ; ! "this"
+şu%<prn%>%<dem%>:şu # ; ! "that"
+şu:şun PRONDEM ; ! "that"
+
+ne:ne PRONITG ; ! ""
+hangi:hangi PRONITG ; ! ""
+nere:nere PRONITG ; ! ""
+kim:kim PRONITG ; ! ""
 
 LEXICON Numerals 
 
