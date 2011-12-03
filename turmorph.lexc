@@ -19,6 +19,7 @@ Multichar_Symbols
 %<ref%>       ! Reflexive
 
 %<top%>       ! Toponym
+%<al%>        ! Others (altres)
 %<ant%>       ! Anthroponym
 %<cog%>       ! Surname (cognomen)
 
@@ -192,6 +193,12 @@ LEXICON NPTOPINFL
 
 %<np%>%<top%>: # ; 
 %<np%>%<top%>: NINFL-COMMON  ; 
+
+LEXICON NPALINFL
+
+%<np%>%<al%>: # ; 
+%<np%>%<al%>: NINFL-COMMON  ; 
+
 
 LEXICON AINFL
 
@@ -5660,6 +5667,8 @@ Ingiltere:Ingiltere NPTOPINFL ; ! ""
 Irak:Irak NPTOPINFL ; ! ""
 Iran:Iran NPTOPINFL ; ! ""
 Ispanya:Ispanya NPTOPINFL ; ! ""
+İtalya:İtalya NPTOPINFL ; ! ""
+İstanbul:İstanbul NPTOPINFL ; ! ""
 Israil:Israil NPTOPINFL ; ! ""
 Istanbul:Istanbul NPTOPINFL ; ! ""
 Jakarta:Jakarta NPTOPINFL ; ! ""
@@ -5688,6 +5697,7 @@ Lüksemburg:Lüksemburg NPTOPINFL ; ! ""
 Macaristan:Macaristan NPTOPINFL ; ! ""
 Madagaskar:Madagaskar NPTOPINFL ; ! ""
 Madrid:Madrid NPTOPINFL ; ! ""
+Makedonya:Makedonya NPTOPINFL ; ! "Macedonia"
 Malezya:Malezya NPTOPINFL ; ! ""
 Malta:Malta NPTOPINFL ; ! ""
 Manhattan:Manhattan NPTOPINFL ; ! ""
@@ -5696,11 +5706,23 @@ Mezopotamya:Mezopotamya NPTOPINFL ; ! ""
 Nepal:Nepal NPTOPINFL ; ! ""
 Norveç:Norveç NPTOPINFL ; ! ""
 Panama:Panama NPTOPINFL ; ! ""
+Romanya:Romanya NPTOPINFL ; ! ""
 Rusya:Rusya NPTOPINFL ; ! ""
+Saraybosna:Saraybosna NPTOPINFL ; ! "Sarajevo"
 Sırbistan:Sırbistan NPTOPINFL ; ! "Serbia"
+Sofya:Sofya NPTOPINFL ; ! "Sofia"
 Türkiye:Türkiye NPTOPINFL ; ! ""
 Çekoslovakya:Çekoslovakya NPTOPINFL ; ! ""
 Çeçenistan:Çeçenistan NPTOPINFL ; ! ""
+Üsküp:Üsküp NPTOPINFL ; ! "Skopje"
+Yugoslavya:Yugoslavya NPTOPINFL ; ! "Yugoslavia"
+Yunanistan:Yunanistan NPTOPINFL ; ! "Greece"
+Zagreb:Zagreb NPTOPINFL ; ! "Zagreb"
+
+
+Reuters:Reuters NPALINFL ; ! "Reuters"
+Makfax:Makfax NPALINFL ; ! "Makfax"
+Rompres:Rompres NPALINFL ; ! "Rompres"
 
 LEXICON Adjectives 
 

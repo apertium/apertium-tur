@@ -1,3 +1,6 @@
+!! List of people who will hate this file:
+!!     1. Firespeaker
+
 Alphabet
 
  A B C Ç D E F G Ğ H I İ J K L M N O Ö P Q R S Ş T U Ü V W X Y Z 
@@ -54,8 +57,6 @@ Rules
 %{I%}:ü <=> [ :ü :Cns* ]/[ %>: | :0 ] _ ;
                             !    [ :Cns* ]/[ %>: | :0 ] _ ;
 
-
-
 "Not 'buffer' N"
 %{bN%}:n <=> [ :Vow ]/[ %>: | :0 ] _ ; 
 
@@ -74,8 +75,6 @@ Rules
 "Not 'buffer' I Front (ü)"
 %{bI%}:ü <=> [ :ü :Cns* :Cns ]/[ %>: | :0 ] _ ; 
              [ :ö :Cns* :Cns ]/[ %>: | :0 ] _ ; 
-
-
 
 "Not 'buffer' Y"
 %{bY%}:y <=> [ :Vow ]/[ %>: | :0 ] _ ; 
