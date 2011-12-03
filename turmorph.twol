@@ -18,6 +18,9 @@ FrontVow = İ Ü E Ö
 FrontVowNotUe = İ E Ö
                 i e ö ;
 
+BackVowNotUO = I A 
+          ı a ; 
+
 BackVow = I U A O 
           ı u a o ; 
 
@@ -56,11 +59,23 @@ Rules
 "Not 'buffer' N"
 %{bN%}:n <=> [ :Vow ]/[ %>: | :0 ] _ ; 
 
-"Not 'buffer' I Back"
-%{bI%}:ı <=> [ :BackVow :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+"Not 'buffer' {bI} Back (ı)"
+%{bI%}:ı <=> [ :a :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+             [ :ı :Cns* :Cns ]/[ %>: | :0 ] _ ; 
 
-"Not 'buffer' I Front"
-%{bI%}:i <=> [ :FrontVow :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+"Not 'buffer' I Back (u)"
+%{bI%}:u <=> [ :u :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+             [ :o :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+
+"Not 'buffer' I Front (i)"
+%{bI%}:i <=> [ :i :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+             [ :e :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+
+"Not 'buffer' I Front (ü)"
+%{bI%}:ü <=> [ :ü :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+             [ :ö :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+
+
 
 "Not 'buffer' Y"
 %{bY%}:y <=> [ :Vow ]/[ %>: | :0 ] _ ; 
