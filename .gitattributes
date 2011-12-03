@@ -1,5 +1,14 @@
 * text=auto !eol
 /Makefile -text
-/nouns-check.lexc -text
+/nouns-check.lexc.xaa -text
+/nouns-check.lexc.xab -text
+/nouns-check.lexc.xac -text
+/nouns-check.lexc.xad -text
+/nouns-check.lexc.xae -text
+/nouns-check.lexc.xaf -text
+/nouns-check.lexc.xag -text
+/nouns-check.lexc.xah -text
+/nouns-check.lexc.xai -text
+/nouns-check.lexc.xaj -text
 /turmorph.lexc -text
 /turmorph.twol -text
