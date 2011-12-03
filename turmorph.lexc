@@ -253,11 +253,11 @@ LEXICON VINFL-COMMON
 
 LEXICON VIVINFL 
 
-%<v%>%<iv%> VINFL-COMMON ;
+%<v%>%<iv%>: VINFL-COMMON ;
 
 LEXICON VTVINFL 
 
-%<v%>%<tv%> VINFL-COMMON ;
+%<v%>%<tv%>: VINFL-COMMON ;
 
 
 LEXICON POSTINFL
@@ -404,6 +404,7 @@ LEXICON Numerals
 sıfır:sıfır NUMINFL ; ! "zero"
 bir:bir NUMINFL ; ! "one"
 iki:iki NUMINFL ; ! "two"
+iki:İki NUMINFL ; ! "two"
 üç:üç NUMINFL ; ! "three"
 dört:dör%{t%} NUMINFL ; ! "four"
 beş:beş NUMINFL ; ! "five"
@@ -8953,6 +8954,7 @@ var%<v%>%<exi%>:var # ;
 çok%<v%>%<neg%>%<exi%>:çok # ;
 
 iç:iç VTVINFL ; ! "drink"
+ol:ol VIVINFL ; ! "be"
 git:git VIVINFL ; ! "go"
 gel:gel VIVINFL ; ! "come"
 
