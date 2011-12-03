@@ -179,7 +179,7 @@ LEXICON NINFL
 LEXICON NUMINFL
 
 %<num%>: NINFL-COMMON ;
-%<num%>%<ord%>:%>%{bI%}nc%{I%} NINFL-COMMON ;
+%<num%>%<ord%>:%>%{bI%}nc%{I%} NINFL-COMMON ; ! This is <D_IncI> in TRmorph
 
 LEXICON PERS
 

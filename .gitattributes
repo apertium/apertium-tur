@@ -1,7 +1,4 @@
 * text=auto !eol
 /Makefile -text
-lexicon/adjectives -text
-lexicon/adverbs -text
-lexicon/nouns -text
 /turmorph.lexc -text
 /turmorph.twol -text
