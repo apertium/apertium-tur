@@ -202,6 +202,7 @@ PERS ;
 
 LEXICON Numerals 
 
+sıfır:sıfır NUMINFL ; ! "zero"
 bir:bir NUMINFL ; ! "one"
 iki:iki NUMINFL ; ! "two"
 üç:üç NUMINFL ; ! "three"
@@ -211,6 +212,21 @@ altı:altı NUMINFL ; ! "six"
 yedi:yedi NUMINFL ; ! "seven"
 sekiz:sekiz NUMINFL ; ! "eight"
 dokuz:dokuz NUMINFL ; ! "nine"
+on:on NUMINFL ; ! "ten"
+yirmi:yirmi NUMINFL ; ! "twenty"
+otuz:otuz NUMINFL ; ! "thirty"
+kırk:kırk NUMINFL ; ! "fourty"
+elli:elli NUMINFL ; ! "fifty"
+altmış:altmış NUMINFL ; ! "sixty"
+yetmiş:yetmiş NUMINFL ; ! "seventy"
+seksen:seksen NUMINFL ; ! "eighty"
+doksan:doksan NUMINFL ; ! "ninety"
+yüz:yüz NUMINFL ; ! "hundred"
+bin:bin NUMINFL ; ! "thousand"
+milyon:milyon NUMINFL ; ! "million"
+milyar:milyar NUMINFL ; ! "billion"
+trilyon:trilyon NUMINFL ; ! "trillion"
+
 
 LEXICON Nouns
 
