@@ -5,8 +5,10 @@
 Multichar_Symbols
 
 %<n%>         ! Noun
+%<v%>         ! Verb
 %<prn%>       ! Pronoun
 %<num%>       ! Numeral
+%<adj%>       ! Adjective
 %<np%>        ! Proper noun
 %<post%>      ! Postposition
 %<cnjcoo%>    ! Co-ordinating conjunction
@@ -18,6 +20,8 @@ Multichar_Symbols
 %<dem%>       ! Demonstrative
 %<ind%>       ! Indefinite
 %<ref%>       ! Reflexive
+%<neg%>       ! Negative
+%<exi%>       ! Existential
 
 %<top%>       ! Toponym
 %<al%>        ! Others (altres)
@@ -50,6 +54,16 @@ Multichar_Symbols
 %<px2pl%>     ! Second person plural possessive
 %<px3pl%>     ! Third person plural possessive
 
+%<sent%>      ! Sentence marker
+%<guio%>      ! Hyphen
+%<cm%>        ! Comma
+%<apos%>      ! Apostrophe
+%<rquot%>     ! Quote marker (right hand side) 
+%<lquot%>     ! Quote marker (left hand side) 
+%<rpar%>      ! Parenthetical marker (right hand side) 
+%<lpar%>      ! Parenthetical marker (left hand side) 
+
+
 %{A%}         ! Archivowel {A}: e (a)
 %{I%}         ! Archivowel {I}: u ü i (ı)
 %{bN%}        ! Buffer 'n': -n- or -ø-
@@ -77,6 +91,8 @@ Postpositions ;
 Conjunctions ; 
 Pronouns ;
 ProperNouns ;
+Punctuation ;
+Verbs ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -7328,3 +7344,35 @@ kırmızı:kırmızı AINFL ; ! "red"
 temiz:temiz AINFL ; ! "clean"
 yeşil:yeşil AINFL ; ! "green"
 büyük:büyük AINFL ; ! "big"
+
+LEXICON Verbs
+
+var%<v%>%<exi%>:var # ;
+çok%<v%>%<neg%>%<exi%>:çok # ;
+
+
+LEXICON Punctuation
+
+.%<sent%>:. # ;
+..%<sent%>:.. # ;
+...%<sent%>:... # ;
+%;%<sent%>:%; # ;
+%:%<sent%>:%: # ;
+%!%<sent%>:%! # ;
+%-%<guio%>:%- # ;
+%—%<guio%>:%— # ;
+,%<cm%>:, # ;
+%?%<sent%>:%? # ; 
+%'%<apos%>:%' # ;
+%"%<sent%>:%" # ;
+%«%<lquot%>:%« # ;
+%»%<rquot%>:%» # ;
+%”%<rquot%>:%” # ;
+%“%<lquot%>:%“ # ;
+%(%<lpar%>:%( # ;
+%]%<rpar%>:%] # ;
+%[%<lpar%>:%[ # ;
+%)%<rpar%>:%) # ;
+\%<sent%>:\ # ;
+/%<sent%>:/ # ;
+
