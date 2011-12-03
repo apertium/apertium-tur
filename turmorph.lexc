@@ -9,6 +9,8 @@ Multichar_Symbols
 %<num%>       ! Numeral
 %<np%>        ! Proper noun
 %<post%>      ! Postposition
+%<cnjcoo%>    ! Co-ordinating conjunction
+%<cnjadv%>    ! Adverbial conjunction
 
 %<pers%>      ! Personal
 %<ord%>       ! Ordinal
@@ -66,6 +68,8 @@ Multichar_Symbols
 LEXICON Root
 Nouns ; 
 Numerals ; 
+Postpositions ; 
+Conjunctions ; 
 Pronouns ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -185,6 +189,14 @@ LEXICON POSTINFL
 
 %<post%>: # ;
 
+LEXICON CCINFL
+
+%<cnjcoo%>: # ; 
+
+LEXICON CAINFL
+
+%<cnjadv%>: # ; 
+
 LEXICON PERS
 
 ben%<prn%>%<pers%>%<p1%>%<sg%>:ben # ;
@@ -199,6 +211,13 @@ ben%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:benden # ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Conjunctions
+
+ve:ve CCINFL ; ! "and"
+ama:ama CCINFL ; ! "but"
+
+şöyle% ki:şöyle% ki CAINFL ; ! "so that"
 
 LEXICON Postpositions
 
