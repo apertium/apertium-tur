@@ -1,4 +1,5 @@
 * text=auto !eol
 /Makefile -text
+/nouns-check.lexc -text
 /turmorph.lexc -text
 /turmorph.twol -text
