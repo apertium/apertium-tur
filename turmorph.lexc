@@ -369,10 +369,10 @@ havacılık:havacılık NINFL ; ! "aviation"
 zorlanma:zorlanma NINFL ; ! "buffeting"
 çoğulculuk:çoğulculu%{k%} NINFL ; ! "multiplism"
 fiş:fiş NINFL ; ! "plug"
+süt:süt NINFL ; ! "milk"
+limon:limon NINFL ; ! "lemon"
 
-limon:limon NINFL ; ! ""
 kuru:kuru NINFL ; ! ""
-süt:süt NINFL ; ! ""
 malı:malı NINFL ; ! ""
 
 ab:ab NINFL ; ! ""
