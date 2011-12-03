@@ -52,18 +52,18 @@ Multichar_Symbols
 %{bY%}        ! Buffer 'y': -y- or -ø-
 %{bI%}        ! Buffer 'i': -i- or -ø-
 %{bS%}        ! Buffer 's': -s- or -ø-
-%{D%}         ! 
+%{D%}         ! Archicons {D}: d t
 %{p%}         ! Archicons {p}: p b 
 %{k%}         ! Archicons {k}: k ğ
 %{t%}         ! Archicons {t}: t d
 %{c%}         ! Archicons {c}: c ç 
-%{compn%}     ! 
+%{compn%}     ! Do not allow possessives
 %{dup%}       ! 
 %{del%}       ! 
 %{dels%}      ! 
-%{pA%}        ! 
-%{pU%}        ! 
-%{pO%}        ! 
+%{pA%}        ! Unharmonised 'a'
+%{pU%}        ! Unharmonised 'u'
+%{pO%}        ! Unharmonised 'o'
 
 LEXICON Root
 Nouns ; 
