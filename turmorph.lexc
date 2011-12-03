@@ -74,6 +74,7 @@ Adjectives ;
 Postpositions ; 
 Conjunctions ; 
 Pronouns ;
+ProperNouns ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -186,6 +187,11 @@ LEXICON NINFL
 %<n%>: # ; 
 %<n%>%<pl%>:%>l%{A%}r # ; 
 %<n%>: NINFL-COMMON  ; 
+
+LEXICON NPTOPINFL
+
+%<np%>%<top%>: # ; 
+%<np%>%<top%>: NINFL-COMMON  ; 
 
 LEXICON AINFL
 
@@ -5590,6 +5596,12 @@ sütkız:sütkız%{compn%} NINFL ; ! ""
 içeri:içeri:%{%} NINFL ; ! ""
 abece:abe:%{%}ce:%{%} NINFL ; ! ""
 dışarı:dışarı:%{%} NINFL ; ! ""
+
+LEXICON ProperNouns
+
+Sırbistan:Sırbistan NPTOPINFL ; ! "Serbia"
+Hırvatistan:Hırvatistan NPTOPINFL ; ! "Croatia"
+Bulgaristan:Bulgaristan NPTOPINFL ; ! "Bulgaria"
 
 LEXICON Adjectives 
 
