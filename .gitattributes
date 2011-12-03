@@ -1,7 +1,5 @@
 * text=auto !eol
 /Makefile -text
-/nouns-check.lexc.xaa -text
-/nouns-check.lexc.xab -text
 /nouns-check.lexc.xac -text
 /nouns-check.lexc.xad -text
 /nouns-check.lexc.xae -text
