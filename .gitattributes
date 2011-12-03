@@ -1,7 +1,6 @@
 * text=auto !eol
 /Makefile -text
 /miscategorised.lexc -text
-/nouns-check.lexc.xad -text
 /nouns-check.lexc.xae -text
 /nouns-check.lexc.xaf -text
 /nouns-check.lexc.xag -text
