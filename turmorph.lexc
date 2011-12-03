@@ -181,6 +181,10 @@ LEXICON NUMINFL
 %<num%>: NINFL-COMMON ;
 %<num%>%<ord%>:%>%{bI%}nc%{I%} NINFL-COMMON ; ! This is <D_IncI> in TRmorph
 
+LEXICON POSTINFL
+
+%<post%>: # ;
+
 LEXICON PERS
 
 ben%<prn%>%<pers%>%<p1%>%<sg%>:ben # ;
@@ -195,6 +199,10 @@ ben%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:benden # ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Postpositions
+
+için:için POSTINFL ; ! "for"
 
 LEXICON Pronouns
 
