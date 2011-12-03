@@ -200,6 +200,7 @@ LEXICON AINFL
 
 LEXICON NUMINFL
 
+%<num%>: # ;
 %<num%>: NINFL-COMMON ;
 %<num%>%<ord%>:%>%{bI%}nc%{I%} NINFL-COMMON ; ! This is <D_IncI> in TRmorph
 
