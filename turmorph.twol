@@ -40,6 +40,11 @@ Rules
 %{I%}:i <=> [ :FrontVow :Cns* ]/[ %>: | :0 ] _ ;
                             !    [ :Cns* ]/[ %>: | :0 ] _ ;
 
+"I Vowel Harmony (back 'u')"
+%{I%}:u <=> [ :u :Cns* ]/[ %>: | :0 ] _ ;
+                            !    [ :Cns* ]/[ %>: | :0 ] _ ;
+
+
 "Not 'buffer' N"
 %{bN%}:n <=> [ :Vow ]/[ %>: | :0 ] _ ; 
 

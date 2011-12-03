@@ -70,6 +70,7 @@ Multichar_Symbols
 LEXICON Root
 Nouns ; 
 Numerals ; 
+Adjectives ; 
 Postpositions ; 
 Conjunctions ; 
 Pronouns ;
@@ -183,6 +184,12 @@ CASE2 ;
 LEXICON NINFL
 
 %<n%>: # ; 
+%<n%>%<pl%>:%>l%{A%}r # ; 
+%<n%>: NINFL-COMMON  ; 
+
+LEXICON AINFL
+
+%<adj%>: # ; 
 %<n%>: NINFL-COMMON  ; 
 
 LEXICON NUMINFL
@@ -308,7 +315,6 @@ birisi:birisi PRONIND ; ! "anyone, anybody"
 
 kendi:kendi PRONREF ; ! "self"
 
-
 LEXICON Numerals 
 
 sıfır:sıfır NUMINFL ; ! "zero"
@@ -336,7 +342,6 @@ milyon:milyon NUMINFL ; ! "million"
 milyar:milyar NUMINFL ; ! "billion"
 trilyon:trilyon NUMINFL ; ! "trillion"
 
-
 LEXICON Nouns
 
 tanıma:tanıma NINFL ; ! "recognising" 
@@ -357,6 +362,12 @@ havacılık:havacılık NINFL ; ! "aviation"
 zorlanma:zorlanma NINFL ; ! "buffeting"
 çoğulculuk:çoğulculu%{k%} NINFL ; ! "multiplism"
 fiş:fiş NINFL ; ! "plug"
+
+limon:limon NINFL ; ! ""
+kuru:kuru NINFL ; ! ""
+süt:süt NINFL ; ! ""
+malı:malı NINFL ; ! ""
+
 ab:ab NINFL ; ! ""
 abajur:abajur NINFL ; ! ""
 abaküs:abaküs NINFL ; ! ""
@@ -5579,3 +5590,11 @@ sütkız:sütkız%{compn%} NINFL ; ! ""
 içeri:içeri:%{%} NINFL ; ! ""
 abece:abe:%{%}ce:%{%} NINFL ; ! ""
 dışarı:dışarı:%{%} NINFL ; ! ""
+
+LEXICON Adjectives 
+
+kırmızı:kırmızı AINFL ; ! "red"
+temiz:temiz AINFL ; ! "clean"
+yeşil:yeşil AINFL ; ! "green"
+büyük:büyük AINFL ; ! "big"
+
