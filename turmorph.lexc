@@ -6,9 +6,21 @@ Multichar_Symbols
 
 %<n%>         ! Noun
 %<prn%>       ! Pronoun
+%<num%>       ! Numeral
+%<np%>        ! Proper noun
 %<post%>      ! Postposition
 
 %<pers%>      ! Personal
+%<ord%>       ! Ordinal
+%<dem%>       ! Demonstrative
+
+%<top%>       ! Toponym
+%<ant%>       ! Anthroponym
+%<cog%>       ! Surname (cognomen)
+
+%<m%>         ! Masculine
+%<f%>         ! Feminine
+%<mf%>        ! Masculine / feminine
 
 %<p1%>        ! First person
 %<p2%>        ! Second person
@@ -53,6 +65,7 @@ Multichar_Symbols
 
 LEXICON Root
 Nouns ; 
+Numerals ; 
 Pronouns ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -163,6 +176,11 @@ LEXICON NINFL
 
 %<n%>: NINFL-COMMON  ; 
 
+LEXICON NUMINFL
+
+%<num%>: NINFL-COMMON ;
+%<num%>%<ord%>:%>%{bI%}nc%{I%} NINFL-COMMON ;
+
 LEXICON PERS
 
 ben%<prn%>%<pers%>%<p1%>%<sg%>:ben # ;
@@ -182,8 +200,19 @@ LEXICON Pronouns
 
 PERS ;
 
-LEXICON Nouns
+LEXICON Numerals 
 
+bir:bir NUMINFL ; ! "one"
+iki:iki NUMINFL ; ! "two"
+üç:üç NUMINFL ; ! "three"
+dört:dör%{t%} NUMINFL ; ! "four"
+beş:beş NUMINFL ; ! "five"
+altı:altı NUMINFL ; ! "six"
+yedi:yedi NUMINFL ; ! "seven"
+sekiz:sekiz NUMINFL ; ! "eight"
+dokuz:dokuz NUMINFL ; ! "nine"
+
+LEXICON Nouns
 
 tanıma:tanıma NINFL ; ! "recognising" 
 atılma:atılma NINFL ; ! "embarking"
