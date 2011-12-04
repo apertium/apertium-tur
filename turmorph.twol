@@ -92,4 +92,4 @@ Rules
 
 
 "d devoicing in ablative and locative"
-%{D%}:t <=> [ %{p%}:p | UnvoicedCns ] %>: _ ;
+%{D%}:t <=> [ %{t%}:t | %{p%}:p | UnvoicedCns ] %>: _ ;
