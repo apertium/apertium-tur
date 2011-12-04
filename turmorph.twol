@@ -6,10 +6,11 @@ Alphabet
  A B C Ç D E F G Ğ H I İ J K L M N O Ö P Q R S Ş T U Ü V W X Y Z 
  a b c ç d e f g ğ h ı i j k l m n o ö p q r s ş t u ü v w x y z 
 
- %{k%}:k  %{p%}:p  %{D%}:d %{K%}:k %{t%}:t
+ %{k%}:k  %{p%}:p  %{D%}:d %{K%}:k %{t%}:t %{c%}:ç
  %{bN%}:0 %{bY%}:0 %{bI%}:0 %{bS%}:0
  %{A%}:a  %{I%}:ı
- %{del%}:0 %{dels%}:0
+ %{dup%}:0 %{del%}:0 %{dels%}:0 %{compn%}:0
+ %{pA%}:a %{pU%}:u %{pO%}:o
 
  %'
 
@@ -84,12 +85,25 @@ Rules
 "Not 'buffer' S"
 %{bS%}:s <=>  [ :Vow ]/[ %>: | :0 ] _ ;
 
-"p -> b"
-%{p%}:b <=>  _ %>: [ :Vow | %{bN%}:0 :Vow | %{bY%}:0 :Vow | %{bS%}:0 :Vow ] ; 
+"Final stop devoicing"
+Vx:Vy <=> _ %>: [ :Vow | %{bN%}:0 :Vow | %{bY%}:0 :Vow | %{bS%}:0 :Vow ] ;
+         where Vx         in ( %{p%} %{t%} %{c%} )
+               Vy         in (   b     d     c   )
+               matched ; 
 
-"t -> d"
-%{t%}:d <=>  _ %>: [ :Vow | %{bN%}:0 :Vow | %{bY%}:0 :Vow | %{bS%}:0 :Vow ] ; 
+"{k} devoicing"
+%{k%}:ğ <=>  _ %>: [ :Vow | %{bN%}:0 :Vow | %{bY%}:0 :Vow | %{bS%}:0 :Vow ] ;
+            except
+                   :n _ %>: [ :Vow | %{bN%}:0 :Vow | %{bY%}:0 :Vow | %{bS%}:0 :Vow ] ; 
 
+"{k} devoicing after n"
+%{k%}:g <=>  :n  _ %>: [ :Vow | %{bN%}:0 :Vow | %{bY%}:0 :Vow | %{bS%}:0 :Vow ] ;
+
+!  p ->  b : şarap -> şarabı 
+!  ç ->  c : ağaç -> ağacı
+!  k ->  ğ : bebek -> bebeği
+! nk -> ng : renk -> rengi
+!  t ->  d : tat  -> tadı
 
 "d devoicing in ablative and locative"
 %{D%}:t <=> [ %{t%}:t | %{p%}:p | UnvoicedCns ] %>: _ ;
