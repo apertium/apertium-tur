@@ -58,7 +58,9 @@ Multichar_Symbols
 %<tv%>        ! Transitive
 
 %<ger1%>      ! Gerund #1: -mA
-%<ger2%>      ! Gerund #1: -mAK
+%<ger2%>      ! Gerund #2: -mAK
+%<fger%>      ! Future gerund #1: -{bY}AcAk
+%<impp%>      ! Imperfect participle #1: -{bY}ArAk
 
 %<sent%>      ! Sentence marker
 %<guio%>      ! Hyphen
@@ -250,6 +252,10 @@ LEXICON VINFL-COMMON
 %<ger1%>:%>m%{A%} NINFL-COMMON ;
 %<ger2%>:%>m%{A%}%{K%} # ;
 %<ger2%>:%>m%{A%}%{K%} NINFL-COMMON ;
+%<fger%>:%>%{bY%}%{A%}c%{A%}k # ;
+%<fger%>:%>%{bY%}%{A%}c%{A%}k NINFL-COMMON ;
+%<impp%>:%>%{bY%}%{A%}r%{A%}%{k%} # ;
+%<impp%>:%>%{bY%}%{A%}r%{A%}%{k%} NINFL-COMMON ;
 
 LEXICON VIVINFL 
 
@@ -358,8 +364,11 @@ ve:ve CCINFL ; ! "and"
 ama:ama CCINFL ; ! "but"
 ile:ile CCINFL ; ! "and"
 ya:ya CCINFL ; ! "either/or"
+ye:ye CCINFL ; ! "either/or"
 veya:veya CCINFL ; ! "either/or"
 ne:ne CCINFL ; ! "neither/nor"
+da:da CCINFL ; ! ""
+de:de CCINFL ; ! ""
 
 şöyle% ki:şöyle% ki CAINFL ; ! "so that"
 
