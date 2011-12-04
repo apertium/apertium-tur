@@ -240,7 +240,7 @@ LEXICON NPALINFL
 
 LEXICON NPANTMINFL
 
-%<np%>%<ant%>%<f%>: # ; 
+%<np%>%<ant%>%<m%>: # ; 
 %<np%>%<ant%>%<m%>:%' NINFL-COMMON  ; 
 
 LEXICON NPANTFINFL
@@ -411,6 +411,10 @@ LEXICON PRONREF
 
 %<prn%>%<ref%>: NINFL-COMMON ; 
 
+LEXICON DETDEM
+
+%<det%>%<dem%>: # ;
+
 LEXICON DETIND
 
 %<det%>%<ind%>: # ;
@@ -492,13 +496,14 @@ kendi:kendi PRONREF ; ! "self"
 LEXICON Determiners
 
 bir:bir DETIND ;  ! "a"
-bu:bu DETIND ;  ! "this"
-şu:şu DETIND ;  ! "that"
 diğer:diğer DETIND ;  ! "other"
 öteki:öteki DETIND ;  ! "other"
 öbür:öbür DETIND ;  ! "other"
 her:her DETIND ;  ! "every"
 aynı:aynı DETIND ;  ! "same"
+
+bu:bu DETDEM ;  ! "this"
+şu:şu DETDEM ;  ! "that"
 
 bütün:bütün DETQNT;  ! "all"
 tüm:tüm DETQNT;  ! "all"
@@ -15301,6 +15306,8 @@ Beta:Beta NPALINFL ; ! ""
 Ergenekon:Ergenekon NPALINFL ; ! ""
 SEtimes:SEtimes NPALINFL ; ! ""
 Sırp% Ordusu:Sırp% Ordusu NPALINFL ; ! ""
+Super% Galeb:Super% Galeb NPALINFL ; ! ""
+Super% Galeb% G4:Super% Galeb% G4 NPALINFL ; ! ""
 Wikimedia:Wikimedia NPALINFL ; ! ""
 Yüksek% Seçim% Kurulu:Yüksek% Seçim% Kurulu NPALINFL ; ! ""
 
