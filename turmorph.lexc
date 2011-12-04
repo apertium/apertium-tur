@@ -67,6 +67,7 @@ Multichar_Symbols
 %<ger4%>      ! Gerund #4: -{bY}{I}ş
 %<ger5%>      ! Gerund #5: -{bY}{A}n
 %<ger6%>      ! Gerund #6: -{bY}{A}r{A}k
+%<ger7%>      ! Gerund #7: -{bY}{I}p
 %<fger%>      ! Future gerund #1: -{bY}{A}c{A}k
 %<impp%>      ! Imperfect participle #1: -{bY}{A}r{A}k
 
@@ -364,6 +365,8 @@ LEXICON VINFL-COMMON
 %<ger5%>:%>%{bY%}%{A%}n NINFL-COMMON ;
 %<ger6%>:%>%{bY%}%{A%}r%{A%}k # ;
 %<ger6%>:%>%{bY%}%{A%}r%{A%}k NINFL-COMMON ;
+%<ger7%>:%>%{bY%}%{I%}p # ;
+%<ger7%>:%>%{bY%}%{I%}p NINFL-COMMON ;
 %<fger%>:%>%{bY%}%{A%}c%{A%}k # ;
 %<fger%>:%>%{bY%}%{A%}c%{A%}k NINFL-COMMON ;
 %<impp%>:%>%{bY%}%{A%}r%{A%}%{k%} # ;
@@ -15446,6 +15449,8 @@ Abhazya:Abhazya NPTOPINFL ; ! ""
 Afganistan:Afganistan NPTOPINFL ; ! ""
 Afrika:Afrika NPTOPINFL ; ! ""
 Amerika:Amerika NPTOPINFL ; ! ""
+Alicante:Alicante NPTOPINFL ; ! ""
+Alacant:Alacant NPTOPINFL ; ! ""
 Amsterdam:Amsterdam NPTOPINFL ; ! ""
 Angola:Angola NPTOPINFL ; ! ""
 Ankara:Ankara NPTOPINFL ; ! ""
@@ -15506,6 +15511,7 @@ Ispanya:Ispanya NPTOPINFL ; ! ""
 İtalya:İtalya NPTOPINFL ; ! ""
 Istanbul:Istanbul NPTOPINFL ; ! ""
 İstanbul:İstanbul NPTOPINFL ; ! ""
+İspanya:İspanya NPTOPINFL ; ! ""
 Israil:Israil NPTOPINFL ; ! ""
 İsrail:İsrail NPTOPINFL ; ! ""
 İran:İran NPTOPINFL ; ! ""
@@ -15576,7 +15582,8 @@ Podujevo:Podujevo NPTOPINFL ; ! "Podujevo"
 Portugal:Portugal NPTOPINFL ; ! "Portugal"
 Skopje:Skopje NPTOPINFL ; ! "Skopje"
 Slovenija:Slovenija NPTOPINFL ; ! "Slovenia"
-Zagreb:Zagreb NPTOPINFL ! "Zagreb"
+Zagreb:Zagreb NPTOPINFL ; ! "Zagreb"
+Valensiya:Valensiya NPTOPINFL ; ! "Valencia"
 
 
 Reuters:Reuters NPALINFL ; ! "Reuters"
@@ -16681,7 +16688,7 @@ Roxana:Roxana NPANTFINFL ; ! "Roxana"
 Roxanne:Roxanne NPANTFINFL ; ! "Roxanne"
 Sabrina:Sabrina NPANTFINFL ; ! "Sabrina"
 Sade:Sade NPANTFINFL ; ! "Sade"
-Santa:Santa NPANTFINFL ; ! "Santa"
+Barbara:Barbara NPANTFINFL ; ! "Barbara"
 Sarah:Sarah NPANTFINFL ; ! "Sarah"
 Sarina:Sarina NPANTFINFL ; ! "Sarina"
 Selma:Selma NPANTFINFL ; ! "Selma"
