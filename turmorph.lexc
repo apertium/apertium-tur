@@ -9,6 +9,7 @@ Multichar_Symbols
 %<prn%>       ! Pronoun
 %<num%>       ! Numeral
 %<adj%>       ! Adjective
+%<det%>       ! Determiner
 %<np%>        ! Proper noun
 %<post%>      ! Postposition
 %<cnjcoo%>    ! Co-ordinating conjunction
@@ -46,6 +47,8 @@ Multichar_Symbols
 %<dat%>       ! Dative
 %<abl%>       ! Ablative
 %<ins%>       ! Instrumental
+
+%<attr%>      ! Attributive
 
 %<px1sg%>     ! First person singular possessive
 %<px2sg%>     ! Second person singular possessive
@@ -99,6 +102,7 @@ Adjectives ;
 Postpositions ; 
 Conjunctions ; 
 Pronouns ;
+Determiners ;
 ProperNouns ;
 Punctuation ;
 Verbs ;
@@ -212,6 +216,8 @@ CASE2 ;
 LEXICON NINFL
 
 %<n%>: # ; 
+%<n%>%<attr%>:%>k%{I%} # ;  ! This is the attributive adjective use of -kI
+%<n%>%<attr%>:%>k%{I%} NINFL-COMMON ; ! This is the attribute adjective 0 derived into a noun
 %<n%>%<pl%>:%>l%{A%}r # ; 
 %<n%>: NINFL-COMMON  ; 
 
@@ -354,6 +360,11 @@ LEXICON PRONREF
 
 %<prn%>%<ref%>: NINFL-COMMON ; 
 
+LEXICON DETIND
+
+%<det%>%<ind%>: # ;
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                          L E X I C O N                                  !!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -407,6 +418,10 @@ birisi:birisi PRONIND ; ! "anyone, anybody"
 öteki:öteki PRONIND ; ! "other"
 
 kendi:kendi PRONREF ; ! "self"
+
+LEXICON Determiners
+
+diğer:diğer DETIND ;  ! "other"
 
 LEXICON Numerals 
 
