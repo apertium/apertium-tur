@@ -70,6 +70,7 @@ Multichar_Symbols
 %<opt%>       ! Optative: -{bI}yor
 %<past%>      ! Past: -{D}{I}
 %<narr%>      ! Narrative past: -m{I}ş
+%<imp%>       ! Imperative: -ø
 
 %<sent%>      ! Sentence marker
 %<guio%>      ! Hyphen
@@ -209,10 +210,10 @@ case2 ;
 poss12-2 ;
 poss3-2; 
 
-!LEXICON CASE 
+LEXICON CASE 
 
-!CASE1 ; 
-!CASE2 ; 
+CASE1 ; 
+CASE2 ; 
 
 LEXICON NINFL-COMMON
 
@@ -268,6 +269,31 @@ LEXICON NUMINFL
 %<num%>: NINFL-COMMON ;
 %<num%>%<ord%>:%>%{bI%}nc%{I%} NINFL-COMMON ; ! This is <D_IncI> in TRmorph
 
+LEXICON NUMERAL-LOOP
+
+NUMERAL-LIST ;
+%. NUMERAL-LIST ;
+%, NUMERAL-LIST  ;
+!%. NUMINFL ; ! Dir/RL
+!%, NUMINFL ; ! Dir/RL
+%%%<num%>:%% CASE ;
+NUMINFL ;
+
+LEXICON NUMERAL-LIST 
+
+%0 NUMERAL-LOOP ;
+1 NUMERAL-LOOP ;
+2 NUMERAL-LOOP ;
+3 NUMERAL-LOOP ;
+4 NUMERAL-LOOP ;
+5 NUMERAL-LOOP ;
+6 NUMERAL-LOOP ;
+7 NUMERAL-LOOP ;
+8 NUMERAL-LOOP ;
+9 NUMERAL-LOOP ;
+%% NUMERAL-LOOP ;
+
+
 LEXICON V-PERS-G1
 
 %<p1%>%<sg%>:%>m # ;
@@ -298,6 +324,19 @@ LEXICON V-PERS-OPT-G3
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z # ;
 %<p3%>%<pl%>:%>l%{A%}r # ;
 
+LEXICON V-PERS-IMP-G4
+
+%<p2%>%<sg%>:%>s%{A%}n%{A%} # ;
+!%<p2%>%<sg%>:%> # ;
+%<p2%>%<frm%>%<sg%>:%>%{bY%}%{I%}n #;
+!%<p2%>%<frm%>%<sg%>:%>%{bY%}%{I%}n%{I%}z #;
+!%<p2%>%<frm%>%<sg%>:%>s%{A%}n%{I%}z%{A%} # ;
+%<p3%>%<sg%>:%>s%{I%}n # ;
+%<p2%>%<pl%>:%>%{bY%}%{I%}n #;
+%<p2%>%<pl%>:%>%{bY%}%{I%}n%{I%}z #;
+%<p2%>%<pl%>:%>s%{A%}n%{I%}z%{A%} # ;
+%<p3%>%<pl%>:%>s%{I%}nl%{A%}r # ;
+
 LEXICON VINFL-COMMON
 
 %<ger1%>:%>m%{A%} # ;
@@ -313,6 +352,7 @@ LEXICON VINFL-COMMON
 %<opt%>:%>%{bY%}%{A%} V-PERS-OPT-G3 ;
 %<past%>:%>%{D%}%{I%} V-PERS-G1 ;
 %<narr%>:%>m%{I%}ş V-PERS-COP-G2 ;
+%<imp%>:%> V-PERS-IMP-G4 ;
 
 LEXICON VIVINFL 
 
@@ -516,6 +556,8 @@ fazla:fazla DETQNT;  ! "much, many"
 biraz:biraz DETQNT;  ! "a little"
 
 LEXICON Numerals 
+
+NUMERAL-LIST ; ! [0-9]+
 
 sıfır:sıfır NUMINFL ; ! "zero"
 bir:bir NUMINFL ; ! "one"
@@ -16682,7 +16724,9 @@ oku:oku VTVINFL ; ! "read"
 ol:ol VIVINFL ; ! "be"
 git:git VIVINFL ; ! "go"
 gel:gel VIVINFL ; ! "come"
-et:e%{t%} VTVINFL ; ! "make
+et:e%{t%} VTVINFL ; ! "make"
+söyle:söyle VTVINFL ; ! "say"
+aç:aç VTVINFL ; ! "open"
 
 LEXICON Punctuation
 
