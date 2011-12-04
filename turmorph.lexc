@@ -507,6 +507,7 @@ birtakım:birtakım DETQNT;  ! "some"
 bazı:bazı DETQNT;  ! "some"
 kimi:kimi DETQNT;  ! "some"
 fazla:fazla DETQNT;  ! "much, many"
+çok:ço%{k%} DETQNT; ! "much, many"
 biraz:biraz DETQNT;  ! "a little"
 
 LEXICON Numerals 
@@ -15495,7 +15496,6 @@ centilmen:centilmen AINFL ; ! ""
 çirkin:çirkin AINFL ; ! ""
 çıtkırıldım:çıtkırıldım AINFL ; ! ""
 coğrafi:coğrafi AINFL ; ! ""
-çok:ço%{k%} AINFL ; ! ""
 çökük:çökü%{k%} AINFL ; ! ""
 çürükçül:çürükçül AINFL ; ! ""
 dağınık:dağını%{k%} AINFL ; ! ""
@@ -16364,7 +16364,7 @@ tıbben:tıbben ADVINFL ; ! ""
 LEXICON Verbs
 
 var%<v%>%<exi%>:var # ;
-çok%<v%>%<neg%>%<exi%>:çok # ;
+yok%<v%>%<neg%>%<exi%>:yok # ;
 
 iç:iç VTVINFL ; ! "drink"
 oku:oku VTVINFL ; ! "read"
