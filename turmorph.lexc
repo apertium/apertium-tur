@@ -78,6 +78,7 @@ Multichar_Symbols
 %<pii%>       ! Imperfect: -m{A}kt{A}
 %<oblig%>     ! Obligative: -m{A}l{I}
 %<aor%>       ! Aorist: -{A}r or -{bI}r
+%<pih%>       ! Habitual: Aorist + -{D}{I}
 
 %<sent%>      ! Sentence marker
 %<guio%>      ! Hyphen
@@ -384,6 +385,7 @@ LEXICON VIVINFL-CAUS_DIR-AOR_AR
 %<v%>%<iv%>: VINFL-COMMON ;
 %<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<iv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
 %<v%>%<iv%>%<caus%>:%>%{D%}%{I%}r VINFL-COMMON ;
 !
 !LEXICON VIVINFL-CAUS_AR-AOR_IR
@@ -395,6 +397,7 @@ LEXICON VIVINFL-CAUS_AR-AOR_AR
 %<v%>%<iv%>: VINFL-COMMON ;
 %<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<iv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
 %<v%>%<iv%>%<caus%>:%>%{A%}r VINFL-COMMON ;
 
 
@@ -408,22 +411,25 @@ LEXICON VIVINFL-CAUS_DIR-AOR_IR
 
 %<v%>%<iv%>: VINFL-COMMON ;
 %<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
-%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}r VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
+%<v%>%<iv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
+%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}r VINFL-COMMON ;
 
 !
 LEXICON VIVINFL-CAUS_DIR-AOR_AR
 %<v%>%<iv%>: VINFL-COMMON ;
 %<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
-%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}r VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<iv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
+%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}r VINFL-COMMON ;
 !
 LEXICON VIVINFL-CAUS_IR-AOR_AR
 ! art<iv><caus_ir><aor_ar>
 %<v%>%<iv%>: VINFL-COMMON ;
 %<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
-%<v%>%<iv%>%<caus%>:%>%{I%}r VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<iv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
+%<v%>%<iv%>%<caus%>:%>%{I%}r VINFL-COMMON ;
 !
 LEXICON VIVINFL-CAUS_IRREG-AOR_IR
 ! IRREG does not get causative (it's in the lexicon ?)
@@ -431,6 +437,7 @@ LEXICON VIVINFL-CAUS_IRREG-AOR_IR
 %<v%>%<iv%>: VINFL-COMMON ;
 %<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
+%<v%>%<iv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
 !
 LEXICON VIVINFL-CAUS_IRREG-AOR_AR
 ! IRREG does not get causative (it's in the lexicon ?)
@@ -438,6 +445,7 @@ LEXICON VIVINFL-CAUS_IRREG-AOR_AR
 %<v%>%<iv%>: VINFL-COMMON ;
 %<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<iv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
 !
 !LEXICON VIVINFL-CAUS_IT-AOR_IR
 !%<v%>%<iv%>: VINFL-COMMON ;
@@ -452,8 +460,9 @@ LEXICON VIVINFL-CAUS_IRREG-AOR_AR
 LEXICON VIVINFL-CAUS_T-AOR_IR
 %<v%>%<iv%>: VINFL-COMMON ;
 %<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
-%<v%>%<iv%>%<caus%>:%>t VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
+%<v%>%<iv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
+%<v%>%<iv%>%<caus%>:%>t VINFL-COMMON ;
 !
 !!! TV BELOW
 !
@@ -469,6 +478,7 @@ LEXICON VTVINFL-CAUS_DIR-AOR_AR
 %<v%>%<tv%>: VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
 %<v%>%<tv%>%<caus%>:%>%{D%}%{I%}r VINFL-COMMON ;
 %<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
 !
@@ -477,6 +487,7 @@ LEXICON VTVINFL-CAUS_AR-AOR_IR
 %<v%>%<tv%>: VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
 %<v%>%<tv%>%<caus%>:%>%{A%}r VINFL-COMMON ;
 %<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
 !
@@ -485,6 +496,7 @@ LEXICON VTVINFL-CAUS_AR-AOR_AR
 %<v%>%<tv%>: VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
 %<v%>%<tv%>%<caus%>:%>%{A%}r VINFL-COMMON ;
 %<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
 !
@@ -492,6 +504,7 @@ LEXICON VTVINFL-CAUS_ART-AOR_AR
 ! çık<tv><caus_art><aor_ar>
 %<v%>%<tv%>: VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
 %<v%>%<tv%>%<caus%>:%>%{A%}rt VINFL-COMMON ;
 %<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
 !
@@ -500,6 +513,7 @@ LEXICON VTVINFL-CAUS_DIR-AOR_IR
 %<v%>%<tv%>: VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
 %<v%>%<tv%>%<caus%>:%>%{D%}%{I%}r VINFL-COMMON ;
 %<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
 !
@@ -507,6 +521,7 @@ LEXICON VTVINFL-CAUS_DIR-AOR_AR
 %<v%>%<tv%>: VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
 %<v%>%<tv%>%<caus%>:%>%{D%}%{I%}r VINFL-COMMON ;
 %<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
 !
@@ -514,6 +529,7 @@ LEXICON VTVINFL-CAUS_IR-AOR_AR
 %<v%>%<tv%>: VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
 %<v%>%<tv%>%<caus%>:%>%{I%}r VINFL-COMMON ;
 %<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
 !
@@ -522,6 +538,7 @@ LEXICON VTVINFL-CAUS_IRREG-AOR_AR
 %<v%>%<tv%>: VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
 %<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
 !
 LEXICON VTVINFL-CAUS_IT-AOR_IR
@@ -529,6 +546,7 @@ LEXICON VTVINFL-CAUS_IT-AOR_IR
 %<v%>%<tv%>: VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
 %<v%>%<tv%>%<caus%>:%>%{I%}t VINFL-COMMON ;
 %<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
 !
@@ -537,6 +555,7 @@ LEXICON VTVINFL-CAUS_IT-AOR_AR
 %<v%>%<tv%>: VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
 %<v%>%<tv%>%<caus%>:%>%{I%}t VINFL-COMMON ;
 %<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
 !
@@ -545,6 +564,7 @@ LEXICON VTVINFL-CAUS_T-AOR_IR
 %<v%>%<tv%>: VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
 %<v%>%<tv%>%<caus%>:%>t VINFL-COMMON ;
 %<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
 
