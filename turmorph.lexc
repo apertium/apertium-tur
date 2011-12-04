@@ -61,8 +61,10 @@ Multichar_Symbols
 %<iv%>        ! Intransitive
 %<tv%>        ! Transitive
 
-%<ger1%>      ! Gerund #1: -mA
-%<ger2%>      ! Gerund #2: -mAK
+%<ger1%>      ! Gerund #1: -m{A}
+%<ger2%>      ! Gerund #2: -m{A}{K}
+%<ger3%>      ! Gerund #3: -d{I}k
+%<ger4%>      ! Gerund #4: -{bY}{I}ş
 %<fger%>      ! Future gerund #1: -{bY}AcAk
 %<impp%>      ! Imperfect participle #1: -{bY}ArAk
 
@@ -99,6 +101,7 @@ Multichar_Symbols
 %{k%}         ! Archicons {k}: k ğ
 %{t%}         ! Archicons {t}: t d
 %{c%}         ! Archicons {c}: c ç 
+%{LN%}        ! Archicons {LN}: l n
 %{compn%}     ! Do not allow possessives
 %{dup%}       ! 
 %{del%}       ! 
@@ -106,6 +109,8 @@ Multichar_Symbols
 %{pA%}        ! Unharmonised 'a'
 %{pU%}        ! Unharmonised 'u'
 %{pO%}        ! Unharmonised 'o'
+
+%>            ! Morpheme boundary
 
 LEXICON Root
 Nouns ; 
@@ -348,6 +353,10 @@ LEXICON VINFL-COMMON
 %<ger1%>:%>m%{A%} NINFL-COMMON ;
 %<ger2%>:%>m%{A%}%{K%} # ;
 %<ger2%>:%>m%{A%}%{K%} NINFL-COMMON ;
+%<ger3%>:%>d%{I%}%{K%} # ;
+%<ger3%>:%>d%{I%}%{K%} NINFL-COMMON ;
+%<ger4%>:%>%{bY%}%{I%}ş # ;
+%<ger4%>:%>%{bY%}%{I%}ş NINFL-COMMON ;
 %<fger%>:%>%{bY%}%{A%}c%{A%}k # ;
 %<fger%>:%>%{bY%}%{A%}c%{A%}k NINFL-COMMON ;
 %<impp%>:%>%{bY%}%{A%}r%{A%}%{k%} # ;
@@ -363,25 +372,182 @@ LEXICON VINFL-COMMON
 %<pii%>:%>m%{A%}kt%{A%} V-PERS-COP-G2 ;
 %<oblig%>:%>m%{A%}l%{I%} V-PERS-COP-G2 ;
 
-LEXICON VIVINFL 
-
+!! Enumerate the possibilities for verb combinations in Turkish (go go turmorph!)
+!! Unmarked entries get -t for causative if they end in l, r, or a vowel, otherwise -DIr. 
+!
+!LEXICON VIVINFL-CAUS_T-AOR_AR
+!%<v%>%<iv%>: VINFL-COMMON ;
+!%<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+!%<v%>%<iv%>%<caus%>:%>t  VINFL-COMMON ;
+!
+LEXICON VIVINFL-CAUS_DIR-AOR_AR
 %<v%>%<iv%>: VINFL-COMMON ;
-%<v%>%<iv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ; 
-
-LEXICON VTVINFL 
-
-%<v%>%<tv%>: VINFL-COMMON ;
-%<v%>%<tv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
-
-LEXICON VIVINFL-AOR_AR
-
-%<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}r VINFL-COMMON ;
+!
+!LEXICON VIVINFL-CAUS_AR-AOR_IR
+!%<v%>%<iv%>: VINFL-COMMON ;
+!%<v%>%<iv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
+!%<v%>%<iv%>%<caus%>:%>%{A%}r VINFL-COMMON ;
+!
+LEXICON VIVINFL-CAUS_AR-AOR_AR
+%<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<iv%>%<caus%>:%>%{A%}r VINFL-COMMON ;
 
-LEXICON VTVINFL-AOR_AR
 
+!LEXICON VIVINFL-CAUS_ART-AOR_AR
+!%<v%>%<iv%>: VINFL-COMMON ;
+!%<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+!%<v%>%<iv%>%<caus%>:%>%{A%}rt VINFL-COMMON ;
+!
+
+LEXICON VIVINFL-CAUS_DIR-AOR_IR
+
+%<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}r VINFL-COMMON ;
+%<v%>%<iv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
+
+!
+LEXICON VIVINFL-CAUS_DIR-AOR_AR
+%<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<iv%>%<caus%>:%>%{D%}%{I%}r VINFL-COMMON ;
+%<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+!
+LEXICON VIVINFL-CAUS_IR-AOR_AR
+! art<iv><caus_ir><aor_ar>
+%<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<iv%>%<caus%>:%>%{I%}r VINFL-COMMON ;
+%<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+!
+LEXICON VIVINFL-CAUS_IRREG-AOR_IR
+! IRREG does not get causative (it's in the lexicon ?)
+! gel<iv><caus_irreg>
+%<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<iv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
+!
+LEXICON VIVINFL-CAUS_IRREG-AOR_AR
+! IRREG does not get causative (it's in the lexicon ?)
+! ay<iv><caus_irreg><aor_ar>
+%<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+!
+!LEXICON VIVINFL-CAUS_IT-AOR_IR
+!%<v%>%<iv%>: VINFL-COMMON ;
+!%<v%>%<iv%>%<caus%>:%>%{I%}t VINFL-COMMON ;
+!%<v%>%<iv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
+!
+!LEXICON VIVINFL-CAUS_IT-AOR_AR
+!%<v%>%<iv%>: VINFL-COMMON ;
+!%<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+!%<v%>%<iv%>%<caus%>:%>%{I%}t VINFL-COMMON ;
+!
+LEXICON VIVINFL-CAUS_T-AOR_IR
+%<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<iv%>%<caus%>:%>t VINFL-COMMON ;
+%<v%>%<iv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
+!
+!!! TV BELOW
+!
+!LEXICON VTVINFL-CAUS_T-AOR_AR
+!
+!%<v%>%<tv%>: VINFL-COMMON ;
+!%<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+!%<v%>%<tv%>%<caus%>:%>t VINFL-COMMON ;
+!%<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
+!
+LEXICON VTVINFL-CAUS_DIR-AOR_AR
+! aç<t><tv><aor_ar>
+%<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<caus%>:%>%{D%}%{I%}r VINFL-COMMON ;
+%<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
+!
+LEXICON VTVINFL-CAUS_AR-AOR_IR
+! kulluk e<t><tv><caus_ar>
+%<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<tv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<caus%>:%>%{A%}r VINFL-COMMON ;
+%<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
+!
+LEXICON VTVINFL-CAUS_AR-AOR_AR
+! gi<t><tv><caus_ar><aor_ar> 
+%<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<caus%>:%>%{A%}r VINFL-COMMON ;
+%<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
+!
+LEXICON VTVINFL-CAUS_ART-AOR_AR
+! çık<tv><caus_art><aor_ar>
 %<v%>%<tv%>: VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<caus%>:%>%{A%}rt VINFL-COMMON ;
+%<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
+!
+LEXICON VTVINFL-CAUS_DIR-AOR_IR
+! al<tv><caus_dir>
+%<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<tv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<caus%>:%>%{D%}%{I%}r VINFL-COMMON ;
+%<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
+!
+LEXICON VTVINFL-CAUS_DIR-AOR_AR
+%<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<caus%>:%>%{D%}%{I%}r VINFL-COMMON ;
+%<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
+!
+LEXICON VTVINFL-CAUS_IR-AOR_AR  
+%<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<caus%>:%>%{I%}r VINFL-COMMON ;
+%<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
+!
+LEXICON VTVINFL-CAUS_IRREG-AOR_AR
+! IRREG does not get causative
+%<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
+!
+LEXICON VTVINFL-CAUS_IT-AOR_IR
+! üş<tv><caus_it>
+%<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<tv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<caus%>:%>%{I%}t VINFL-COMMON ;
+%<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
+!
+LEXICON VTVINFL-CAUS_IT-AOR_AR
+! ak<tv><caus_it><aor_ar>
+%<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<caus%>:%>%{I%}t VINFL-COMMON ;
+%<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
+!
+LEXICON VTVINFL-CAUS_T-AOR_IR
+! bekle<tv><caus_t>
+%<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<tv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
+%<v%>%<tv%>%<caus%>:%>t VINFL-COMMON ;
+%<v%>%<tv%>%<pass%>:%>%{bI%}%{LN%} VINFL-COMMON ;
+
 
 
 LEXICON POSTINFL
@@ -14285,6 +14451,8 @@ paçoz:paçoz NINFL ; ! ""
 padişah:padişah NINFL ; ! ""
 padok:pado%{k%} NINFL ; ! ""
 pafta:pafta NINFL ; ! ""
+parti:parti NINFL ; ! ""
+internet:internet NINFL ; ! ""
 paganizm:paganizm NINFL ; ! ""
 pagoda:pagoda NINFL ; ! ""
 pah:pah NINFL ; ! ""
@@ -15309,8 +15477,11 @@ Irak:Irak NPTOPINFL ; ! ""
 Iran:Iran NPTOPINFL ; ! ""
 Ispanya:Ispanya NPTOPINFL ; ! ""
 İtalya:İtalya NPTOPINFL ; ! ""
+Istanbul:Istanbul NPTOPINFL ; ! ""
 İstanbul:İstanbul NPTOPINFL ; ! ""
 Israil:Israil NPTOPINFL ; ! ""
+İsrail:İsrail NPTOPINFL ; ! ""
+İran:İran NPTOPINFL ; ! ""
 Istanbul:Istanbul NPTOPINFL ; ! ""
 Jakarta:Jakarta NPTOPINFL ; ! ""
 Japonya:Japonya NPTOPINFL ; ! ""
@@ -15347,6 +15518,8 @@ Mezopotamya:Mezopotamya NPTOPINFL ; ! ""
 Nepal:Nepal NPTOPINFL ; ! ""
 Norveç:Norveç NPTOPINFL ; ! ""
 Panama:Panama NPTOPINFL ; ! ""
+Podgorica:Podgorica NPTOPINFL ; ! ""
+Priştine:Priştine NPTOPINFL ; ! ""
 Romanya:Romanya NPTOPINFL ; ! ""
 Rusya:Rusya NPTOPINFL ; ! ""
 Saraybosna:Saraybosna NPTOPINFL ; ! "Sarajevo"
@@ -15360,12 +15533,14 @@ Washington:Washington NPTOPINFL ; ! "Washington"
 Yugoslavya:Yugoslavya NPTOPINFL ; ! "Yugoslavia"
 Yunanistan:Yunanistan NPTOPINFL ; ! "Greece"
 Zagreb:Zagreb NPTOPINFL ; ! "Zagreb"
+Banja% Luka:Banja% Luka NPTOPINFL ; ! ""
 
 
 Reuters:Reuters NPALINFL ; ! "Reuters"
 Makfax:Makfax NPALINFL ; ! "Makfax"
 Rompres:Rompres NPALINFL ; ! "Rompres"
 AGİT:AGİT NPALINFL ; ! ""
+Dnevnik:Dnevnik NPALINFL ; ! ""
 Anonymous:Anonymous NPALINFL ; ! ""
 Beta:Beta NPALINFL ; ! ""
 Ergenekon:Ergenekon NPALINFL ; ! ""
@@ -15383,6 +15558,12 @@ Francis:Francis NPANTMINFL ; ! ""
 Yusuf:Yusuf NPANTMINFL ; ! ""
 Omer:Omer NPANTMINFL ; ! ""
 Nikola:Nikola NPANTMINFL ; ! ""
+Michael:Michael NPANTMINFL ; ! ""
+Goran:Goran NPANTMINFL ; ! ""
+Ivo:Ivo NPANTMINFL ; ! ""
+Vojislav:Vojislav NPANTMINFL ; ! ""
+Ratko:Ratko NPANTMINFL ; ! ""
+Javier:Javier NPANTMINFL ; ! ""
 
 Sezgi:Sezgi NPANTFINFL ; ! "Sezgi"
 Tolgonay:Tolgonay NPANTFINFL ; ! "Tolgonay"
@@ -15396,7 +15577,9 @@ Grossi:Grossi NPCOGINFL ; ! "Grossi"
 Tyers:Tyers NPCOGINFL ; ! ""
 Washington:Washington NPCOGINFL ; ! ""
 Mladiç:Mladiç NPCOGINFL ; ! ""
+Petersen:Petersen NPCOGINFL ; ! ""
 Adlesiç:Adlesiç NPCOGINFL ; ! ""
+Popescu:Popescu NPCOGINFL ; ! ""
 Anciç:Anciç NPCOGINFL ; ! ""
 Andriç:Andriç NPCOGINFL ; ! ""
 Antunoviç:Antunoviç NPCOGINFL ; ! ""
@@ -16748,22 +16931,493 @@ LEXICON Verbs
 var%<v%>%<exi%>:var # ;
 yok%<v%>%<neg%>%<exi%>:yok # ;
 
-ol:ol VIVINFL ; ! "be"
-aç:aç VTVINFL ; ! "open"
-don:don VIVINFL-AOR_AR ; ! "freeze"
-et:e%{t%} VTVINFL-AOR_AR ; ! "make"
-eş:eş VTVINFL-AOR_AR ; ! "scratch"
-eş:eş VIVINFL-AOR_AR ; ! "scratch"
-gel:gel VIVINFL ; ! "come"
-git:git VIVINFL ; ! "go"
-iç:iç VTVINFL-AOR_AR ; ! "drink"
-kabul% et:kabul% e%{t%} VTVINFL-AOR_AR ; ! "admit, acknowledge"
-kap:kap VTVINFL-AOR_AR ; ! "snatch, seize, grab"
-oku:oku VTVINFL ; ! "read"
-söyle:söyle VTVINFL ; ! "say"
-yak:yak VIVINFL-AOR_AR ; ! "fire"
-yan:yan VIVINFL-AOR_AR ; ! "burn, be on fire"
-yap:yap VTVINFL-AOR_AR ; ! "do, make"
+ol:ol VIVINFL-CAUS_DIR-AOR_IR ; ! "be"
+aç:aç VTVINFL-CAUS_DIR-AOR_AR ; ! "open"
+don:don VIVINFL-CAUS_DIR-AOR_AR ; ! "freeze"
+et:e%{t%} VTVINFL-CAUS_DIR-AOR_AR ; ! "make"
+eş:eş VTVINFL-CAUS_DIR-AOR_AR ; ! "scratch"
+eş:eş VIVINFL-CAUS_DIR-AOR_AR ; ! "scratch"
+gel:gel VIVINFL-CAUS_IRREG-AOR_IR ; ! "come"
+git:git VIVINFL-CAUS_AR-AOR_AR ; ! "go"
+iç:iç VTVINFL-CAUS_IR-AOR_AR ; ! "drink"
+kabul% et:kabul% e%{t%} VTVINFL-CAUS_DIR-AOR_AR ; ! "admit, acknowledge"
+kap:kap VTVINFL-CAUS_DIR-AOR_AR ; ! "snatch, seize, grab"
+yak:yak VIVINFL-CAUS_DIR-AOR_AR ; ! "fire"
+yan:yan VIVINFL-CAUS_DIR-AOR_AR ; ! "burn, be on fire"
+oku:oku VTVINFL-CAUS_T-AOR_IR ; ! "read"
+söyle:söyle VTVINFL-CAUS_T-AOR_IR ; ! "say"
+yap:yap VTVINFL-CAUS_DIR-AOR_AR ; ! "do, make"
+
+bekle:bekle VTVINFL-CAUS_T-AOR_IR ; ! ""
+ak:ak VTVINFL-CAUS_IT-AOR_AR ; ! ""
+üş:üş VTVINFL-CAUS_IT-AOR_IR ; ! ""
+al:al VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+çık:çık VTVINFL-CAUS_ART-AOR_AR ; ! ""
+git:gi%{t%} VTVINFL-CAUS_AR-AOR_AR ; ! ""
+kulluk% et:kulluk% e%{t%} VTVINFL-CAUS_AR-AOR_IR ; ! ""
+ay:ay VIVINFL-CAUS_IRREG-AOR_AR ; ! ""
+art:art VIVINFL-CAUS_IR-AOR_AR ; ! ""
+üz:üz VTVINFL-CAUS_IRREG-AOR_AR ; ! ""
+
+ak:ak VTVINFL-CAUS_IT-AOR_AR ; ! ""
+al:al VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+aş:aş VTVINFL-CAUS_IR-AOR_AR ; ! ""
+bat:bat VIVINFL-CAUS_IR-AOR_AR ; ! ""
+bekle:bekle VTVINFL-CAUS_T-AOR_IR ; ! ""
+bur:bur VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+burk:burk VTVINFL-CAUS_IT-AOR_AR ; ! ""
+buy:buy VIVINFL-CAUS_IRREG-AOR_AR ; ! ""
+de:de VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+del:del VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+der:der VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+dil:dil VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+doğ:doğ VIVINFL-CAUS_IR-AOR_AR ; ! ""
+dur:dur VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+dür:dür VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+düzenle:düzenle VTVINFL-CAUS_T-AOR_IR ; ! ""
+er:er VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+ger:ger VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+geç:geç VTVINFL-CAUS_IR-AOR_AR ; ! ""
+gi:gi VTVINFL-CAUS_AR-AOR_AR ; ! ""
+iç:iç VTVINFL-CAUS_IR-AOR_AR ; ! ""
+kal:kal VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+kaldır:kaldır VTVINFL-CAUS_T-AOR_IR ; ! ""
+kar:kar VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+kaç:kaç VTVINFL-CAUS_IR-AOR_AR ; ! ""
+kur:kur VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+kır:kır VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+sal:sal VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+ser:ser VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+sil:sil VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+sok:sok VTVINFL-CAUS_IRREG-AOR_AR ; ! ""
+sol:sol VIVINFL-CAUS_DIR-AOR_AR ; ! ""
+sür:sür VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+taş:taş VIVINFL-CAUS_IR-AOR_AR ; ! ""
+tık:tık VTVINFL-CAUS_IRREG-AOR_AR ; ! ""
+tırs:tırs VTVINFL-CAUS_IT-AOR_AR ; ! ""
+uç:uç VIVINFL-CAUS_IR-AOR_AR ; ! ""
+ver:ver VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+vur:vur VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+yar:yar VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+yat:yat VIVINFL-CAUS_IR-AOR_AR ; ! ""
+ye:ye VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+yel:yel VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+yer% ver:yer% ver VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+yit:yit VIVINFL-CAUS_IR-AOR_AR ; ! ""
+yol:yol VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+yor:yor VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+yıl:yıl VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+çal:çal VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+çel:çel VTVINFL-CAUS_DIR-AOR_AR ; ! ""
+çık:çık VTVINFL-CAUS_ART-AOR_AR ; ! ""
+öl:öl VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+şaş:şaş VTVINFL-CAUS_IR-AOR_AR ; ! ""
+şiş:şiş VIVINFL-CAUS_IR-AOR_AR ; ! ""
+
+acık:acık VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+acılan:acılan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+adaklan:adaklan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+adlan:adlan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+aklan:aklan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+aksilen:aksilen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+akçıllan:akçıllan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+akıllan:akıllan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+alevlen:alevlen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+anlaş:anlaş VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+antlaş:antlaş VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+apış:apış VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+aran:aran VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+ardaklan:ardaklan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+arlan:arlan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+arsızlan:arsızlan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+arın:arın VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+arızalan:arızalan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+avun:avun VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+aydınlan:aydınlan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+aylan:aylan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+ayrış:ayrış VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+aytış:aytış VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+azgınlaş:azgınlaş VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+azlolun:azlolun VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+açın:açın VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+ağalan:ağalan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+ağdalan:ağdalan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+ağıllan:ağıllan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+ağın:ağın VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+ağırşaklan:ağırşaklan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+aşın:aşın VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+babalan:babalan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+defnolun:defnolun VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+dehşetlen:dehşetlen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+delilen:delilen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+densizlen:densizlen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+depren:depren VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+depreş:depreş VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+deriş:deriş VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+dertlen:dertlen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+devin:devin VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+değerlen:değerlen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+değiş:değiş VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+didin:didin VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+diklen:diklen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+dilen:dilen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+dillen:dillen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+dinlen:dinlen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+diren:diren VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+diret:diret VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+direş:direş VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+dolaş:dolaş VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+doluk:doluk VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+duygulan:duygulan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+dökün:dökün VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+dırdırlan:dırdırlan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+dırlan:dırlan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+dırlaş:dırlaş VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+edeplen:edeplen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+edin:edin VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+efelen:efelen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+efkarlan:efkarlan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+elen:elen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+endişelen:endişelen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+erkeklen:erkeklen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+esaslan:esaslan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+eseflen:eseflen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+etlen:etlen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+evhamlan:evhamlan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+evinlen:evinlen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+evlen:evlen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+eğlen:eğlen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+eğleş:eğleş VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+eşin:eşin VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+fenlen:fenlen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+fingirdeş:fingirdeş VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+gamlan:gamlan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+gayretlen:gayretlen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+gazaplan:gazaplan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+gecik:gecik VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+geliş:geliş VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+genleş:genleş VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+gerek:gerek VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+gerin:gerin VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+gevezelen:gevezelen VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+gezin:gezin VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+geçin:geçin VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+geçiş:geçiş VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+giyin:giyin VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+homurdan:homurdan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+san:san VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+yakın:yakın VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+çözün:çözün VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+çırpın:çırpın VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+
+aban:aban VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+aksat:aksat VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+akıt:akıt VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+aldan:aldan VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+aldat:aldat VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+alçalt:alçalt VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+alıkoy:alıkoy VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+anlat:anlat VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+arıt:arıt VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+asılan:asılan VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+atlat:atlat VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+avut:avut VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+ayart:ayart VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+aydınlat:aydınlat VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+ayılt:ayılt VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+azıt:azıt VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+aşırt:aşırt VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+devit:devit VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+değin:değin VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+dokun:dokun VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+dolan:dolan VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+dönüş:dönüş VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+düzelt:düzelt VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+düşün:düşün VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+dımbırdat:dımbırdat VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+eriş:eriş VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+eğin:eğin VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+eğit:eğit VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+eğrit:eğrit VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+gereksin:gereksin VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+giriş:giriş VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+takış:takış VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+tıkat:tıkat VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+
+acındır:acındır VTVINFL-CAUS_T-AOR_IR ; ! ""
+ada:ada VTVINFL-CAUS_T-AOR_IR ; ! ""
+afsunla:afsunla VTVINFL-CAUS_T-AOR_IR ; ! ""
+aktar:aktar VTVINFL-CAUS_T-AOR_IR ; ! ""
+alala:alala VTVINFL-CAUS_T-AOR_IR ; ! ""
+alazla:alazla VTVINFL-CAUS_T-AOR_IR ; ! ""
+algıla:algıla VTVINFL-CAUS_T-AOR_IR ; ! ""
+alıştır:alıştır VTVINFL-CAUS_T-AOR_IR ; ! ""
+anla:anla VTVINFL-CAUS_T-AOR_IR ; ! ""
+ansı:ansı VTVINFL-CAUS_T-AOR_IR ; ! ""
+anımsa:anımsa VTVINFL-CAUS_T-AOR_IR ; ! ""
+apar:apar VTVINFL-CAUS_T-AOR_IR ; ! ""
+arakla:arakla VTVINFL-CAUS_T-AOR_IR ; ! ""
+araştır:araştır VTVINFL-CAUS_T-AOR_IR ; ! ""
+ardıl:ardıl VTVINFL-CAUS_T-AOR_IR ; ! ""
+artakal:artakal VTVINFL-CAUS_T-AOR_IR ; ! ""
+ata:ata VTVINFL-CAUS_T-AOR_IR ; ! ""
+atıl:atıl VTVINFL-CAUS_T-AOR_IR ; ! ""
+atıştır:atıştır VTVINFL-CAUS_T-AOR_IR ; ! ""
+ayarla:ayarla VTVINFL-CAUS_T-AOR_IR ; ! ""
+ayrıl:ayrıl VTVINFL-CAUS_T-AOR_IR ; ! ""
+ayrımsa:ayrımsa VTVINFL-CAUS_T-AOR_IR ; ! ""
+ayır:ayır VTVINFL-CAUS_T-AOR_IR ; ! ""
+azımsa:azımsa VTVINFL-CAUS_T-AOR_IR ; ! ""
+açımla:açımla VTVINFL-CAUS_T-AOR_IR ; ! ""
+açınsa:açınsa VTVINFL-CAUS_T-AOR_IR ; ! ""
+ağırsa:ağırsa VTVINFL-CAUS_T-AOR_IR ; ! ""
+aşağıla:aşağıla VTVINFL-CAUS_T-AOR_IR ; ! ""
+aşır:aşır VTVINFL-CAUS_T-AOR_IR ; ! ""
+bağda:bağda VTVINFL-CAUS_T-AOR_IR ; ! ""
+besle:besle VTVINFL-CAUS_T-AOR_IR ; ! ""
+defle:defle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dehle:dehle VTVINFL-CAUS_T-AOR_IR ; ! ""
+demetle:demetle VTVINFL-CAUS_T-AOR_IR ; ! ""
+demle:demle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dene:dene VTVINFL-CAUS_T-AOR_IR ; ! ""
+denetle:denetle VTVINFL-CAUS_T-AOR_IR ; ! ""
+deneyle:deneyle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dengele:dengele VTVINFL-CAUS_T-AOR_IR ; ! ""
+denkle:denkle VTVINFL-CAUS_T-AOR_IR ; ! ""
+denşir:denşir VTVINFL-CAUS_T-AOR_IR ; ! ""
+depola:depola VTVINFL-CAUS_T-AOR_IR ; ! ""
+derecele:derecele VTVINFL-CAUS_T-AOR_IR ; ! ""
+derle:derle VTVINFL-CAUS_T-AOR_IR ; ! ""
+destekle:destekle VTVINFL-CAUS_T-AOR_IR ; ! ""
+destele:destele VTVINFL-CAUS_T-AOR_IR ; ! ""
+devir:devir VTVINFL-CAUS_T-AOR_IR ; ! ""
+devral:devral VTVINFL-CAUS_T-AOR_IR ; ! ""
+değir:değir VTVINFL-CAUS_T-AOR_IR ; ! ""
+değirmile:değirmile VTVINFL-CAUS_T-AOR_IR ; ! ""
+değnekle:değnekle VTVINFL-CAUS_T-AOR_IR ; ! ""
+deşele:deşele VTVINFL-CAUS_T-AOR_IR ; ! ""
+didikle:didikle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dikizle:dikizle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dile:dile VTVINFL-CAUS_T-AOR_IR ; ! ""
+dilimle:dilimle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dinamitle:dinamitle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dinle:dinle VTVINFL-CAUS_T-AOR_IR ; ! ""
+diple:diple VTVINFL-CAUS_T-AOR_IR ; ! ""
+dipçikle:dipçikle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dire:dire VTVINFL-CAUS_T-AOR_IR ; ! ""
+direnle:direnle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dirgenle:dirgenle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dirsekle:dirsekle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dizginle:dizginle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dizile:dizile VTVINFL-CAUS_T-AOR_IR ; ! ""
+dizle:dizle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dişeğile:dişeğile VTVINFL-CAUS_T-AOR_IR ; ! ""
+dişle:dişle VTVINFL-CAUS_T-AOR_IR ; ! ""
+doku:doku VTVINFL-CAUS_T-AOR_IR ; ! ""
+dola:dola VTVINFL-CAUS_T-AOR_IR ; ! ""
+dolandır:dolandır VTVINFL-CAUS_T-AOR_IR ; ! ""
+dona:dona VTVINFL-CAUS_T-AOR_IR ; ! ""
+dorukla:dorukla VTVINFL-CAUS_T-AOR_IR ; ! ""
+dosyala:dosyala VTVINFL-CAUS_T-AOR_IR ; ! ""
+doyur:doyur VTVINFL-CAUS_T-AOR_IR ; ! ""
+doğra:doğra VTVINFL-CAUS_T-AOR_IR ; ! ""
+doğrula:doğrula VTVINFL-CAUS_T-AOR_IR ; ! ""
+doğur:doğur VTVINFL-CAUS_T-AOR_IR ; ! ""
+duldala:duldala VTVINFL-CAUS_T-AOR_IR ; ! ""
+dumanla:dumanla VTVINFL-CAUS_T-AOR_IR ; ! ""
+durula:durula VTVINFL-CAUS_T-AOR_IR ; ! ""
+duvakla:duvakla VTVINFL-CAUS_T-AOR_IR ; ! ""
+duyumsa:duyumsa VTVINFL-CAUS_T-AOR_IR ; ! ""
+duyur:duyur VTVINFL-CAUS_T-AOR_IR ; ! ""
+duşakla:duşakla VTVINFL-CAUS_T-AOR_IR ; ! ""
+dölle:dölle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dörtle:dörtle VTVINFL-CAUS_T-AOR_IR ; ! ""
+döşe:döşe VTVINFL-CAUS_T-AOR_IR ; ! ""
+düdükle:düdükle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dürtükle:dürtükle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dürtüşle:dürtüşle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dürümle:dürümle VTVINFL-CAUS_T-AOR_IR ; ! ""
+düzenle:düzenle VTVINFL-CAUS_T-AOR_IR ; ! ""
+düzle:düzle VTVINFL-CAUS_T-AOR_IR ; ! ""
+düğmele:düğmele VTVINFL-CAUS_T-AOR_IR ; ! ""
+düğümle:düğümle VTVINFL-CAUS_T-AOR_IR ; ! ""
+düşle:düşle VTVINFL-CAUS_T-AOR_IR ; ! ""
+dışla:dışla VTVINFL-CAUS_T-AOR_IR ; ! ""
+ebele:ebele VTVINFL-CAUS_T-AOR_IR ; ! ""
+ebrula:ebrula VTVINFL-CAUS_T-AOR_IR ; ! ""
+efsunla:efsunla VTVINFL-CAUS_T-AOR_IR ; ! ""
+ekle:ekle VTVINFL-CAUS_T-AOR_IR ; ! ""
+eklemle:eklemle VTVINFL-CAUS_T-AOR_IR ; ! ""
+ele:ele VTVINFL-CAUS_T-AOR_IR ; ! ""
+elektrikle:elektrikle VTVINFL-CAUS_T-AOR_IR ; ! ""
+eleştir:eleştir VTVINFL-CAUS_T-AOR_IR ; ! ""
+elle:elle VTVINFL-CAUS_T-AOR_IR ; ! ""
+emayla:emayla VTVINFL-CAUS_T-AOR_IR ; ! ""
+emle:emle VTVINFL-CAUS_T-AOR_IR ; ! ""
+emreyle:emreyle VTVINFL-CAUS_T-AOR_IR ; ! ""
+emzir:emzir VTVINFL-CAUS_T-AOR_IR ; ! ""
+endazele:endazele VTVINFL-CAUS_T-AOR_IR ; ! ""
+endeksle:endeksle VTVINFL-CAUS_T-AOR_IR ; ! ""
+ene:ene VTVINFL-CAUS_T-AOR_IR ; ! ""
+engelle:engelle VTVINFL-CAUS_T-AOR_IR ; ! ""
+enikle:enikle VTVINFL-CAUS_T-AOR_IR ; ! ""
+ensele:ensele VTVINFL-CAUS_T-AOR_IR ; ! ""
+erginle:erginle VTVINFL-CAUS_T-AOR_IR ; ! ""
+ertele:ertele VTVINFL-CAUS_T-AOR_IR ; ! ""
+esenle:esenle VTVINFL-CAUS_T-AOR_IR ; ! ""
+eser:eser VTVINFL-CAUS_T-AOR_IR ; ! ""
+esindir:esindir VTVINFL-CAUS_T-AOR_IR ; ! ""
+esinle:esinle VTVINFL-CAUS_T-AOR_IR ; ! ""
+esle:esle VTVINFL-CAUS_T-AOR_IR ; ! ""
+etekle:etekle VTVINFL-CAUS_T-AOR_IR ; ! ""
+eterle:eterle VTVINFL-CAUS_T-AOR_IR ; ! ""
+etiketle:etiketle VTVINFL-CAUS_T-AOR_IR ; ! ""
+etki:etki VTVINFL-CAUS_T-AOR_IR ; ! ""
+etkile:etkile VTVINFL-CAUS_T-AOR_IR ; ! ""
+ever:ever VTVINFL-CAUS_T-AOR_IR ; ! ""
+evir:evir VTVINFL-CAUS_T-AOR_IR ; ! ""
+evlekle:evlekle VTVINFL-CAUS_T-AOR_IR ; ! ""
+eyerle:eyerle VTVINFL-CAUS_T-AOR_IR ; ! ""
+ezberle:ezberle VTVINFL-CAUS_T-AOR_IR ; ! ""
+eğele:eğele VTVINFL-CAUS_T-AOR_IR ; ! ""
+eğir:eğir VTVINFL-CAUS_T-AOR_IR ; ! ""
+eğle:eğle VTVINFL-CAUS_T-AOR_IR ; ! ""
+eşele:eşele VTVINFL-CAUS_T-AOR_IR ; ! ""
+eşitle:eşitle VTVINFL-CAUS_T-AOR_IR ; ! ""
+eşle:eşle VTVINFL-CAUS_T-AOR_IR ; ! ""
+faksla:faksla VTVINFL-CAUS_T-AOR_IR ; ! ""
+faturala:faturala VTVINFL-CAUS_T-AOR_IR ; ! ""
+fidele:fidele VTVINFL-CAUS_T-AOR_IR ; ! ""
+filarizle:filarizle VTVINFL-CAUS_T-AOR_IR ; ! ""
+filizle:filizle VTVINFL-CAUS_T-AOR_IR ; ! ""
+firketele:firketele VTVINFL-CAUS_T-AOR_IR ; ! ""
+fiskele:fiskele VTVINFL-CAUS_T-AOR_IR ; ! ""
+fitille:fitille VTVINFL-CAUS_T-AOR_IR ; ! ""
+fitle:fitle VTVINFL-CAUS_T-AOR_IR ; ! ""
+fitnele:fitnele VTVINFL-CAUS_T-AOR_IR ; ! ""
+fişle:fişle VTVINFL-CAUS_T-AOR_IR ; ! ""
+flitle:flitle VTVINFL-CAUS_T-AOR_IR ; ! ""
+fosfatla:fosfatla VTVINFL-CAUS_T-AOR_IR ; ! ""
+fotoğrafla:fotoğrafla VTVINFL-CAUS_T-AOR_IR ; ! ""
+frenle:frenle VTVINFL-CAUS_T-AOR_IR ; ! ""
+frezele:frezele VTVINFL-CAUS_T-AOR_IR ; ! ""
+fırçala:fırçala VTVINFL-CAUS_T-AOR_IR ; ! ""
+fırınla:fırınla VTVINFL-CAUS_T-AOR_IR ; ! ""
+fısfısla:fısfısla VTVINFL-CAUS_T-AOR_IR ; ! ""
+fısla:fısla VTVINFL-CAUS_T-AOR_IR ; ! ""
+fıçıla:fıçıla VTVINFL-CAUS_T-AOR_IR ; ! ""
+fışkıla:fışkıla VTVINFL-CAUS_T-AOR_IR ; ! ""
+gadrol:gadrol VTVINFL-CAUS_T-AOR_IR ; ! ""
+gagala:gagala VTVINFL-CAUS_T-AOR_IR ; ! ""
+galvanizle:galvanizle VTVINFL-CAUS_T-AOR_IR ; ! ""
+gammazla:gammazla VTVINFL-CAUS_T-AOR_IR ; ! ""
+garantile:garantile VTVINFL-CAUS_T-AOR_IR ; ! ""
+garipse:garipse VTVINFL-CAUS_T-AOR_IR ; ! ""
+gebrele:gebrele VTVINFL-CAUS_T-AOR_IR ; ! ""
+gemle:gemle VTVINFL-CAUS_T-AOR_IR ; ! ""
+genelle:genelle VTVINFL-CAUS_T-AOR_IR ; ! ""
+gerekse:gerekse VTVINFL-CAUS_T-AOR_IR ; ! ""
+gerçekle:gerçekle VTVINFL-CAUS_T-AOR_IR ; ! ""
+getir:getir VTVINFL-CAUS_T-AOR_IR ; ! ""
+gevele:gevele VTVINFL-CAUS_T-AOR_IR ; ! ""
+gezle:gezle VTVINFL-CAUS_T-AOR_IR ; ! ""
+geçerle:geçerle VTVINFL-CAUS_T-AOR_IR ; ! ""
+geçgeçle:geçgeçle VTVINFL-CAUS_T-AOR_IR ; ! ""
+geçir:geçir VTVINFL-CAUS_T-AOR_IR ; ! ""
+gider:gider VTVINFL-CAUS_T-AOR_IR ; ! ""
+girenle:girenle VTVINFL-CAUS_T-AOR_IR ; ! ""
+gizle:gizle VTVINFL-CAUS_T-AOR_IR ; ! ""
+göster:göster VTVINFL-CAUS_T-AOR_IR ; ! ""
+götür:götür VTVINFL-CAUS_T-AOR_IR ; ! ""
+kav:kav VTVINFL-CAUS_T-AOR_IR ; ! ""
+kavur:kavur VTVINFL-CAUS_T-AOR_IR ; ! ""
+kovuştur:kovuştur VTVINFL-CAUS_T-AOR_IR ; ! ""
+kışkır:kışkır VTVINFL-CAUS_T-AOR_IR ; ! ""
+nitelendir:nitelendir VTVINFL-CAUS_T-AOR_IR ; ! ""
+sıyrıl:sıyrıl VTVINFL-CAUS_T-AOR_IR ; ! ""
+yakar:yakar VTVINFL-CAUS_T-AOR_IR ; ! ""
+çevir:çevir VTVINFL-CAUS_T-AOR_IR ; ! ""
+çıkar:çıkar VTVINFL-CAUS_T-AOR_IR ; ! ""
+
+acı:acı VIVINFL-CAUS_T-AOR_IR ; ! ""
+afalla:afalla VIVINFL-CAUS_T-AOR_IR ; ! ""
+affol:affol VIVINFL-CAUS_T-AOR_IR ; ! ""
+ağar:ağar VIVINFL-CAUS_T-AOR_IR ; ! ""
+ağla:ağla VIVINFL-CAUS_T-AOR_IR ; ! ""
+ağna:ağna VIVINFL-CAUS_T-AOR_IR ; ! ""
+ağrı:ağrı VIVINFL-CAUS_T-AOR_IR ; ! ""
+agula:agula VIVINFL-CAUS_T-AOR_IR ; ! ""
+ahla:ahla VIVINFL-CAUS_T-AOR_IR ; ! ""
+aksa:aksa VIVINFL-CAUS_T-AOR_IR ; ! ""
+aksır:aksır VIVINFL-CAUS_T-AOR_IR ; ! ""
+alçal:alçal VIVINFL-CAUS_T-AOR_IR ; ! ""
+alıkonul:alıkonul VIVINFL-CAUS_T-AOR_IR ; ! ""
+anır:anır VIVINFL-CAUS_T-AOR_IR ; ! ""
+asıl:asıl VIVINFL-CAUS_T-AOR_IR ; ! ""
+ayıl:ayıl VIVINFL-CAUS_T-AOR_IR ; ! ""
+azal:azal VIVINFL-CAUS_T-AOR_IR ; ! ""
+defol:defol VIVINFL-CAUS_T-AOR_IR ; ! ""
+delir:delir VIVINFL-CAUS_T-AOR_IR ; ! ""
+demirle:demirle VIVINFL-CAUS_T-AOR_IR ; ! ""
+devril:devril VIVINFL-CAUS_T-AOR_IR ; ! ""
+devrol:devrol VIVINFL-CAUS_T-AOR_IR ; ! ""
+devşir:devşir VIVINFL-CAUS_T-AOR_IR ; ! ""
+dikel:dikel VIVINFL-CAUS_T-AOR_IR ; ! ""
+dinel:dinel VIVINFL-CAUS_T-AOR_IR ; ! ""
+dingilde:dingilde VIVINFL-CAUS_T-AOR_IR ; ! ""
+diril:diril VIVINFL-CAUS_T-AOR_IR ; ! ""
+dişe:dişe VIVINFL-CAUS_T-AOR_IR ; ! ""
+doğrul:doğrul VIVINFL-CAUS_T-AOR_IR ; ! ""
+domal:domal VIVINFL-CAUS_T-AOR_IR ; ! ""
+donakal:donakal VIVINFL-CAUS_T-AOR_IR ; ! ""
+dönel:dönel VIVINFL-CAUS_T-AOR_IR ; ! ""
+dönele:dönele VIVINFL-CAUS_T-AOR_IR ; ! ""
+durakla:durakla VIVINFL-CAUS_T-AOR_IR ; ! ""
+duraksa:duraksa VIVINFL-CAUS_T-AOR_IR ; ! ""
+durala:durala VIVINFL-CAUS_T-AOR_IR ; ! ""
+durul:durul VIVINFL-CAUS_T-AOR_IR ; ! ""
+düzel:düzel VIVINFL-CAUS_T-AOR_IR ; ! ""
+eğil:eğil VIVINFL-CAUS_T-AOR_IR ; ! ""
+eğril:eğril VIVINFL-CAUS_T-AOR_IR ; ! ""
+ekşi:ekşi VIVINFL-CAUS_T-AOR_IR ; ! ""
+eksil:eksil VIVINFL-CAUS_T-AOR_IR ; ! ""
+elver:elver VIVINFL-CAUS_T-AOR_IR ; ! ""
+epri:epri VIVINFL-CAUS_T-AOR_IR ; ! ""
+ergi:ergi VIVINFL-CAUS_T-AOR_IR ; ! ""
+eri:eri VIVINFL-CAUS_T-AOR_IR ; ! ""
+eski:eski VIVINFL-CAUS_T-AOR_IR ; ! ""
+esne:esne VIVINFL-CAUS_T-AOR_IR ; ! ""
+esri:esri VIVINFL-CAUS_T-AOR_IR ; ! ""
+evse:evse VIVINFL-CAUS_T-AOR_IR ; ! ""
+farı:farı VIVINFL-CAUS_T-AOR_IR ; ! ""
+felfelle:felfelle VIVINFL-CAUS_T-AOR_IR ; ! ""
+ferahla:ferahla VIVINFL-CAUS_T-AOR_IR ; ! ""
+fihristle:fihristle VIVINFL-CAUS_T-AOR_IR ; ! ""
+fırla:fırla VIVINFL-CAUS_T-AOR_IR ; ! ""
+fışılda:fışılda VIVINFL-CAUS_T-AOR_IR ; ! ""
+fışla:fışla VIVINFL-CAUS_T-AOR_IR ; ! ""
+fosla:fosla VIVINFL-CAUS_T-AOR_IR ; ! ""
+fosurda:fosurda VIVINFL-CAUS_T-AOR_IR ; ! ""
+gakla:gakla VIVINFL-CAUS_T-AOR_IR ; ! ""
+gaşyol:gaşyol VIVINFL-CAUS_T-AOR_IR ; ! ""
+gazla:gazla VIVINFL-CAUS_T-AOR_IR ; ! ""
+geber:geber VIVINFL-CAUS_T-AOR_IR ; ! ""
+gecele:gecele VIVINFL-CAUS_T-AOR_IR ; ! ""
+gedil:gedil VIVINFL-CAUS_T-AOR_IR ; ! ""
+geğir:geğir VIVINFL-CAUS_T-AOR_IR ; ! ""
+gencel:gencel VIVINFL-CAUS_T-AOR_IR ; ! ""
+genişle:genişle VIVINFL-CAUS_T-AOR_IR ; ! ""
+gerile:gerile VIVINFL-CAUS_T-AOR_IR ; ! ""
+gevre:gevre VIVINFL-CAUS_T-AOR_IR ; ! ""
+gevşe:gevşe VIVINFL-CAUS_T-AOR_IR ; ! ""
+gezele:gezele VIVINFL-CAUS_T-AOR_IR ; ! ""
+gıcırda:gıcırda VIVINFL-CAUS_T-AOR_IR ; ! ""
+ışılda:ışılda VIVINFL-CAUS_T-AOR_IR ; ! ""
+kıkırda:kıkırda VIVINFL-CAUS_T-AOR_IR ; ! ""
+kıvrıl:kıvrıl VIVINFL-CAUS_T-AOR_IR ; ! ""
+uğulda:uğulda VIVINFL-CAUS_T-AOR_IR ; ! ""
+
+
 
 LEXICON Punctuation
 
