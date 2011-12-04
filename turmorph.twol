@@ -6,7 +6,7 @@ Alphabet
  A B C Ç D E F G Ğ H I İ J K L M N O Ö P Q R S Ş T U Ü V W X Y Z 
  a b c ç d e f g ğ h ı i j k l m n o ö p q r s ş t u ü v w x y z 
 
- %{k%}:k  %{p%}:p  %{D%}:d %{K%}:k
+ %{k%}:k  %{p%}:p  %{D%}:d %{K%}:k %{t%}:t
  %{bN%}:0 %{bY%}:0 %{bI%}:0 %{bS%}:0
  %{A%}:a  %{I%}:ı
  %{del%}:0 %{dels%}:0
@@ -36,7 +36,7 @@ Vow = İ Ü E Ö I U A O
 
 Cns = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W X Y Z 
       b c ç d f g ğ h j k l m n p q r s ş t v w x y z 
-      %{k%} %{p%} %{D%} %{bN%} %{bY%} %' ;
+      %{k%} %{p%} %{t%} %{D%} %{bN%} %{bY%} %' ;
 
 UnvoicedCns = F Ş T K Ç P
               f ş t k ç p  ;
@@ -86,6 +86,10 @@ Rules
 
 "p -> b"
 %{p%}:b <=>  _ %>: [ :Vow | %{bN%}:0 :Vow | %{bY%}:0 :Vow | %{bS%}:0 :Vow ] ; 
+
+"t -> d"
+%{t%}:d <=>  _ %>: [ :Vow | %{bN%}:0 :Vow | %{bY%}:0 :Vow | %{bS%}:0 :Vow ] ; 
+
 
 "d devoicing in ablative and locative"
 %{D%}:t <=> [ %{p%}:p | UnvoicedCns ] %>: _ ;
