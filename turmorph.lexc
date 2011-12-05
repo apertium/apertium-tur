@@ -63,20 +63,20 @@ Multichar_Symbols
 
 %<ger1%>      ! Gerund #1: -m{A}
 %<ger2%>      ! Gerund #2: -m{A}{K}
-%<ger3%>      ! Gerund #3: -d{I}k
+%<ger3%>      ! Gerund #3: -d{I}{k}
 %<ger4%>      ! Gerund #4: -{bY}{I}ş
 %<ger5%>      ! Gerund #5: -{bY}{A}n
 %<ger6%>      ! Gerund #6: -{bY}{A}r{A}k
 %<ger7%>      ! Gerund #7: -{bY}{I}p
-%<fger%>      ! Future gerund #1: -{bY}{A}c{A}k
-%<impp%>      ! Imperfect participle #1: -{bY}{A}r{A}k
+%<fger%>      ! Future gerund #1: -{bY}{A}c{A}{k}
+%<impp%>      ! Imperfect participle #1: -{bY}{A}r{A}{k}
 
 %<cont%>      ! Present continuous: -{bI}yor
 %<opt%>       ! Optative: -{bY}{A}
 %<past%>      ! Past: -{D}{I}
 %<evid%>      ! Evidential past: -m{I}ş
 %<imp%>       ! Imperative: -ø
-%<fut%>       ! Future: -{bY}{A}c{A}k
+%<fut%>       ! Future: -{bY}{A}c{A}{k}
 %<cond%>      ! Conditional: -s{A}
 %<pii%>       ! Imperfect: -m{A}kt{A}
 %<oblig%>     ! Obligative: -m{A}l{I}
@@ -100,9 +100,9 @@ Multichar_Symbols
 %{bI%}        ! Buffer 'i': -i- or -ø-
 %{bS%}        ! Buffer 's': -s- or -ø-
 %{D%}         ! Archicons {D}: d t
-%{K%}         ! Archicons {K}: k ğ
+%{K%}         ! Archicons {K}: k ğ y
 %{p%}         ! Archicons {p}: p b 
-%{k%}         ! Archicons {k}: k ğ
+%{k%}         ! Archicons {k}: k ğ g
 %{t%}         ! Archicons {t}: t d
 %{c%}         ! Archicons {c}: c ç 
 %{LN%}        ! Archicons {LN}: l n
@@ -357,18 +357,16 @@ LEXICON VINFL-COMMON
 %<ger1%>:%>m%{A%} NINFL-COMMON ;
 %<ger2%>:%>m%{A%}%{K%} # ;
 %<ger2%>:%>m%{A%}%{K%} NINFL-COMMON ;
-%<ger3%>:%>d%{I%}%{K%} # ;
-%<ger3%>:%>d%{I%}%{K%} NINFL-COMMON ;
+%<ger3%>:%>d%{I%}%{k%} # ;
+%<ger3%>:%>d%{I%}%{k%} NINFL-COMMON ;
 %<ger4%>:%>%{bY%}%{I%}ş # ;
 %<ger4%>:%>%{bY%}%{I%}ş NINFL-COMMON ;
 %<ger5%>:%>%{bY%}%{A%}n # ;
 %<ger5%>:%>%{bY%}%{A%}n NINFL-COMMON ;
-%<ger6%>:%>%{bY%}%{A%}r%{A%}k # ;
-%<ger6%>:%>%{bY%}%{A%}r%{A%}k NINFL-COMMON ;
 %<ger7%>:%>%{bY%}%{I%}p # ;
 %<ger7%>:%>%{bY%}%{I%}p NINFL-COMMON ;
-%<fger%>:%>%{bY%}%{A%}c%{A%}k # ;
-%<fger%>:%>%{bY%}%{A%}c%{A%}k NINFL-COMMON ;
+%<fger%>:%>%{bY%}%{A%}c%{A%}%{k%} # ;
+%<fger%>:%>%{bY%}%{A%}c%{A%}%{k%} NINFL-COMMON ;
 %<impp%>:%>%{bY%}%{A%}r%{A%}%{k%} # ;
 %<impp%>:%>%{bY%}%{A%}r%{A%}%{k%} NINFL-COMMON ;
 
@@ -377,7 +375,7 @@ LEXICON VINFL-COMMON
 %<past%>:%>%{D%}%{I%} V-PERS-G1 ;
 %<evid%>:%>m%{I%}ş V-PERS-COP-G2 ;
 %<imp%>:%> V-PERS-IMP-G4 ;
-%<fut%>:%>%{bY%}%{A%}c%{A%}k V-PERS-COP-G2 ; 
+%<fut%>:%>%{bY%}%{A%}c%{A%}%{k%} V-PERS-COP-G2 ; 
 %<cond%>:%>s%{A%} V-PERS-G1 ;
 %<pii%>:%>m%{A%}kt%{A%} V-PERS-COP-G2 ;
 %<oblig%>:%>m%{A%}l%{I%} V-PERS-COP-G2 ;
@@ -15612,6 +15610,11 @@ Michael:Michael NPANTMINFL ; ! ""
 Goran:Goran NPANTMINFL ; ! ""
 Ivo:Ivo NPANTMINFL ; ! ""
 Vojislav:Vojislav NPANTMINFL ; ! ""
+Miroslav:Miroslav NPANTMINFL ; ! ""
+Radoslav:Radoslav NPANTMINFL ; ! ""
+Tomislav:Tomislav NPANTMINFL ; ! ""
+Borislav:Borislav NPANTMINFL ; ! ""
+Tomislav:Tomislav NPANTMINFL ; ! ""
 Ratko:Ratko NPANTMINFL ; ! ""
 Javier:Javier NPANTMINFL ; ! ""
 Aleksandar:Aleksandar NPANTMINFL ; ! "Aleksandar"
@@ -16159,6 +16162,7 @@ Pasquale:Pasquale NPANTMINFL ; ! "Pasquale"
 Pastor:Pastor NPANTMINFL ; ! "Pastor"
 Patrice:Patrice NPANTMINFL ; ! "Patrice"
 Patrick:Patrick NPANTMINFL ; ! "Patrick"
+Paddy:Paddy NPANTMINFL ; ! "Paddy
 Paulo:Paulo NPANTMINFL ; ! "Paulo"
 Paul:Paul NPANTMINFL ; ! "Paul"
 Pau:Pau NPANTMINFL ; ! "Pau"
@@ -16748,6 +16752,7 @@ Washington:Washington NPCOGINFL ; ! ""
 Mladiç:Mladiç NPCOGINFL ; ! ""
 Petersen:Petersen NPCOGINFL ; ! ""
 Adlesiç:Adlesiç NPCOGINFL ; ! ""
+Ashdown:Ashdown NPCOGINFL ; ! ""
 Popescu:Popescu NPCOGINFL ; ! ""
 Anciç:Anciç NPCOGINFL ; ! ""
 Andriç:Andriç NPCOGINFL ; ! ""
