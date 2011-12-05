@@ -63,7 +63,7 @@ Multichar_Symbols
 
 %<ger1%>      ! Gerund #1: -m{A}
 %<ger2%>      ! Gerund #2: -m{A}{K}
-%<ger3%>      ! Gerund #3: -d{I}{k}
+%<ger3%>      ! Gerund #3: -{D}{I}{k}
 %<ger4%>      ! Gerund #4: -{bY}{I}ş
 %<ger5%>      ! Gerund #5: -{bY}{A}n
 %<ger6%>      ! Gerund #6: -{bY}{A}r{A}k
@@ -357,8 +357,8 @@ LEXICON VINFL-COMMON
 %<ger1%>:%>m%{A%} NINFL-COMMON ;
 %<ger2%>:%>m%{A%}%{K%} # ;
 %<ger2%>:%>m%{A%}%{K%} NINFL-COMMON ;
-%<ger3%>:%>d%{I%}%{k%} # ;
-%<ger3%>:%>d%{I%}%{k%} NINFL-COMMON ;
+%<ger3%>:%>%{D%}%{I%}%{k%} # ;
+%<ger3%>:%>%{D%}%{I%}%{k%} NINFL-COMMON ;
 %<ger4%>:%>%{bY%}%{I%}ş # ;
 %<ger4%>:%>%{bY%}%{I%}ş NINFL-COMMON ;
 %<ger5%>:%>%{bY%}%{A%}n # ;
