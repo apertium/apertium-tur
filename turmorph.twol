@@ -109,5 +109,9 @@ Vx:Vy <=> _ %>: [ :Vow | %{bN%}:0 :Vow | %{bY%}:0 :Vow | %{bS%}:0 :Vow ] ;
 "d devoicing in ablative and locative"
 %{D%}:t <=> [ %{t%}:t | %{p%}:p | UnvoicedCns ] %>: _ ;
 
-"LN in passive"
-%{LN%}:n <=> :l %>: _ ;
+"l/n alternation in passive"
+%{LN%}:n <=> [ :Vow | :l ]  %>: _ ;
+             [ :Vow | :l ]  %>: %{bI%}: _ ; 
+
+! If stem ends with *a vowel or `l'* {LN} becomes `n'.
+! Otherwise it is `l'.
