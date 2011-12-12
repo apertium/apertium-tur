@@ -17581,7 +17581,7 @@ SC:SC%{nin%} NPACRINFL ; ! "SC'nin"
 SDP:SDP%{nin%} NPACRINFL ; ! "SDP'nin"
 SDS:SDS%{nin%} NPACRINFL ; ! "SDS'nin"
 SDSM:SDSM%{nin%} NPACRINFL ; ! "SDSM'nin"
-SFOR:SFOR%{nun%} NPACRINFL ; ! SFOR'nun
+SFOR:SFOR%{un%} NPACRINFL ; ! SFOR'un
 SP:SP%{nin%} NPACRINFL ; ! "SP'nin"
 SRNA:SRNA%{nın%} NPACRINFL ; ! "SRNA'nın"
 SRS:SRS%{nin%} NPACRINFL ; ! "SRS'nin"
