@@ -11,6 +11,7 @@ Alphabet
  %{A%}:a  %{I%}:ı
  %{dup%}:0 %{del%}:0 %{dels%}:0 %{compn%}:0
  %{pA%}:a %{pU%}:u %{pO%}:o
+ %{nin%}:0 %{nın%}:0 %{nun%}:0 %{un%}:0 %{in%}:0
 
  %>:0
 
@@ -20,16 +21,19 @@ Alphabet
 Sets
 
 FrontVow = İ Ü E Ö 
-           i ü e ö ; 
+           i ü e ö 
+           %{nin%}; 
 
 FrontVowNotUe = İ E Ö
-                i e ö ;
+                i e ö 
+               %{nin%} ;
 
 BackVowNotUO = I A 
           ı a ; 
 
 BackVow = I U A O 
-          ı u a o ; 
+          ı u a o 
+         %{nun%} %{nın%} %{un%}; 
 
 Vow = İ Ü E Ö I U A O
       i ü e ö ı u a o
@@ -47,22 +51,20 @@ Rules
 
 "A Vowel Harmony"
 %{A%}:e <=> [ :FrontVow :Cns* ]/[ %>: | :0 | :i | :u ] _ ;
-                            !    [ :Cns* ]/[ %>: | :0 ] _ ;
 
 "I Vowel Harmony (not ü)"
 %{I%}:i <=> [ [ :i | :e ] :Cns* ]/[ %>: | :0 ] _ ;
-                            !    [ :Cns* ]/[ %>: | :0 ] _ ;
 
 "I Vowel Harmony (back 'u')"
-%{I%}:u <=> [ [ :o | :u ] :Cns* ]/[ %>: | :0 ] _ ;
-                            !    [ :Cns* ]/[ %>: | :0 ] _ ;
+%{I%}:u <=> [ [ %{un%}: | :o | :u ] :Cns* ]/[ %>: | :0 ] _ ;
 
 "I Vowel Harmony (front 'ü')"
 %{I%}:ü <=> [ [ :ö | :ü ] :Cns* ]/[ %>: | :0 ] _ ;
-                            !    [ :Cns* ]/[ %>: | :0 ] _ ;
 
 "Not 'buffer' N"
 %{bN%}:n <=> [ :Vow | :Vow %' ]/[ %>: | :0 ] _ ; 
+          except 
+             [ %{in%}: | %{un%}: ] %' %>: _ ;
 
 "Not 'buffer' {bI} Back (ı)"
 %{bI%}:ı <=> [ :a :Cns* :Cns ]/[ %>: | :0 ] _ ; 

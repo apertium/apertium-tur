@@ -12,6 +12,7 @@ Multichar_Symbols
 %<det%>       ! Determiner
 %<np%>        ! Proper noun
 %<post%>      ! Postposition
+%<abbr%>      ! Abbreviation
 %<cnjcoo%>    ! Co-ordinating conjunction
 %<cnjsub%>    ! Sub-ordinating conjunction (basically 'ki')
 %<cnjadv%>    ! Adverbial conjunction
@@ -28,6 +29,7 @@ Multichar_Symbols
 %<top%>       ! Toponym
 %<al%>        ! Others (altres)
 %<ant%>       ! Anthroponym
+%<acr%>       ! Acronym
 %<cog%>       ! Surname (cognomen)
 
 %<m%>         ! Masculine
@@ -116,6 +118,12 @@ Multichar_Symbols
 %{pU%}        ! Unharmonised 'u'
 %{pO%}        ! Unharmonised 'o'
 
+%{nin%}
+%{nın%}
+%{nun%}
+%{un%}
+%{in%}
+
 %>            ! Morpheme boundary
 
 LEXICON Root
@@ -128,6 +136,7 @@ Conjunctions ;
 Pronouns ;
 Determiners ;
 ProperNouns ;
+Acronyms ;
 Punctuation ;
 Verbs ;
 
@@ -249,6 +258,12 @@ LEXICON NPTOPINFL
 
 %<np%>%<top%>: # ; 
 %<np%>%<top%>:%' NINFL-COMMON  ; 
+
+LEXICON NPACRINFL
+
+%<np%>%<acr%>: # ; 
+%<np%>%<acr%>:%' NINFL-COMMON  ; 
+
 
 LEXICON NPALINFL
 
@@ -17443,7 +17458,142 @@ McClain:McClain NPCOGINFL ; ! "McClain"
 McCallum:McCallum NPCOGINFL ; ! "McCallum"
 McBride:McBride NPCOGINFL ; ! "McBride"
 
+Gotovina:Gotovina NPCOGINFL ; ! "Gotovina"
 
+Bayramovski:Bayramovski NPCOGINFL ; ! "Bayramovski"
+Boskovski:Boskovski NPCOGINFL ; ! "Boskovski"
+Bozinovski:Bozinovski NPCOGINFL ; ! "Bozinovski"
+Buchkovski:Buchkovski NPCOGINFL ; ! "Buchkovski"
+Buckovski:Buckovski NPCOGINFL ; ! "Buckovski"
+Buçkovski:Buçkovski NPCOGINFL ; ! "Buçkovski"
+Bukovski:Bukovski NPCOGINFL ; ! "Bukovski"
+Buskovski:Buskovski NPCOGINFL ; ! "Buskovski"
+Çakovski:Çakovski NPCOGINFL ; ! "Çakovski"
+Carovski:Carovski NPCOGINFL ; ! "Carovski"
+Çerovski:Çerovski NPCOGINFL ; ! "Çerovski"
+Çiolkovski:Çiolkovski NPCOGINFL ; ! "Çiolkovski"
+Cocorovski:Cocorovski NPCOGINFL ; ! "Cocorovski"
+Colakovski:Colakovski NPCOGINFL ; ! "Colakovski"
+Çolakovski:Çolakovski NPCOGINFL ; ! "Çolakovski"
+Damyanovski:Damyanovski NPCOGINFL ; ! "Damyanovski"
+Dautovski:Dautovski NPCOGINFL ; ! "Dautovski"
+Deskovski:Deskovski NPCOGINFL ; ! "Deskovski"
+Dimitrovski:Dimitrovski NPCOGINFL ; ! "Dimitrovski"
+Elenkovski:Elenkovski NPCOGINFL ; ! "Elenkovski"
+Frangovski:Frangovski NPCOGINFL ; ! "Frangovski"
+Frckovski:Frckovski NPCOGINFL ; ! "Frckovski"
+Ganetsovski:Ganetsovski NPCOGINFL ; ! "Ganetsovski"
+Gestakovski:Gestakovski NPCOGINFL ; ! "Gestakovski"
+Geştakovski:Geştakovski NPCOGINFL ; ! "Geştakovski"
+Gjurovski:Gjurovski NPCOGINFL ; ! "Gjurovski"
+Gurovski:Gurovski NPCOGINFL ; ! "Gurovski"
+Gyurovski:Gyurovski NPCOGINFL ; ! "Gyurovski"
+İvanovski:İvanovski NPCOGINFL ; ! "İvanovski"
+Jekimovski:Jekimovski NPCOGINFL ; ! "Jekimovski"
+Kainovski:Kainovski NPCOGINFL ; ! "Kainovski"
+Kanatlarovski:Kanatlarovski NPCOGINFL ; ! "Kanatlarovski"
+Kanzovski:Kanzovski NPCOGINFL ; ! "Kanzovski"
+Kocovski:Kocovski NPCOGINFL ; ! "Kocovski"
+Kristovskis:Kristovskis NPCOGINFL ; ! "Kristovskis"
+Kumanovski:Kumanovski NPCOGINFL ; ! "Kumanovski"
+Mickovski:Mickovski NPCOGINFL ; ! "Mickovski"
+Mihaylovski:Mihaylovski NPCOGINFL ; ! "Mihaylovski"
+Milosovski:Milosovski NPCOGINFL ; ! "Milosovski"
+Misackovski:Misackovski NPCOGINFL ; ! "Misackovski"
+Mitanovski:Mitanovski NPCOGINFL ; ! "Mitanovski"
+Nesovski:Nesovski NPCOGINFL ; ! "Nesovski"
+Nesovskinin:Nesovskinin NPCOGINFL ; ! "Nesovskinin"
+Osogovski:Osogovski NPCOGINFL ; ! "Osogovski"
+Panovski:Panovski NPCOGINFL ; ! "Panovski"
+Popovski:Popovski NPCOGINFL ; ! "Popovski"
+Proykovski:Proykovski NPCOGINFL ; ! "Proykovski"
+Ristovski:Ristovski NPCOGINFL ; ! "Ristovski"
+Stoyanovski:Stoyanovski NPCOGINFL ; ! "Stoyanovski"
+Stoykovski:Stoykovski NPCOGINFL ; ! "Stoykovski"
+Sulajkovski:Sulajkovski NPCOGINFL ; ! "Sulajkovski"
+Sumkovski:Sumkovski NPCOGINFL ; ! "Sumkovski"
+Svrgovski:Svrgovski NPCOGINFL ; ! "Svrgovski"
+Tarculovski:Tarculovski NPCOGINFL ; ! "Tarculovski"
+Tpenovski:Tpenovski NPCOGINFL ; ! "Tpenovski"
+Traculovski:Traculovski NPCOGINFL ; ! "Traculovski"
+Traykovski:Traykovski NPCOGINFL ; ! "Traykovski"
+Tserovski:Tserovski NPCOGINFL ; ! "Tserovski"
+Velyanovski:Velyanovski NPCOGINFL ; ! "Velyanovski"
+Vraniskovski:Vraniskovski NPCOGINFL ; ! "Vraniskovski"
+Vrcakovski:Vrcakovski NPCOGINFL ; ! "Vrcakovski"
+Yosifovski:Yosifovski NPCOGINFL ; ! "Yosifovski"
+Yovanovski:Yovanovski NPCOGINFL ; ! "Yovanovski"
+Zernovski:Zernovski NPCOGINFL ; ! "Zernovski"
+Zrenkovski:Zrenkovski NPCOGINFL ; ! "Zrenkovski"
+Zrvenkovski:Zrvenkovski NPCOGINFL ; ! "Zrvenkovski"
+Zvenkovski:Zvenkovski NPCOGINFL ; ! "Zvenkovski"
+
+LEXICON Acronyms
+
+AB:AB%{nin%} NPACRINFL ; ! AB'nin
+ABD:ABD%{nin%} NPACRINFL ; ! ABD'nin
+AFP:AFP%{nin%} NPACRINFL ; ! AFP'nin
+AKP:AKP%{nin%} NPACRINFL ; ! "AKP'nin"
+AP:AP%{nin%} NPACRINFL ; ! "AP'nin"
+BBC:BBC%{nin%} NPACRINFL ; ! "BBC'nin"
+BH:BH%{nin%} NPACRINFL ; ! BH'nin
+BHF:BHF%{nin%} NPACRINFL ; ! "BHF'nin"
+BM:BM%{nin%} NPACRINFL ; ! BM'nin
+BNR:BNR%{nin%} NPACRINFL ; ! "BNR'nin"
+BSP:BSP%{nin%} NPACRINFL ; ! "BSP'nin"
+BTA:BTA%{nın%} NPACRINFL ; ! "BTA'nın"
+CNA:CNA%{nın%} NPACRINFL ; ! "CNA'nın"
+CNN:CNN%{in%} NPACRINFL ; ! "CNN'in"
+DP:DP%{nin%} NPACRINFL ; ! "DP'nin"
+DPA:DPA%{nın%} NPACRINFL ; ! "DPA'nın"
+DPMNE:DPMNE%{nin%} NPACRINFL ; ! "DPMNE'nin"
+DS:DS%{in%} NPACRINFL ; ! "DS'in"
+DSS:DSS%{nin%} NPACRINFL ; ! "DSS'nin"
+DUI:DUI%{nin%} NPACRINFL ; ! "DUI'nin"
+EBRD:EBRD%{nin%} NPACRINFL ; ! "EBRD'nin"
+EUFOR:EUFOR%{un%} NPACRINFL ; ! EUFOR'nun
+EULEX:EULEX%{in%} NPACRINFL ; ! "EULEX'in"
+FENA:FENA%{nın%} NPACRINFL ; ! "FENA'nın"
+FT:FT%{nin%} NPACRINFL ; ! "FT'nin"
+GDA:GDA%{nın%} NPACRINFL ; ! "GDA'nın"
+GSYİH:GSYİH%{nin%} NPACRINFL ; ! "GSYİH'nin"
+HDZ:HDZ%{nin%} NPACRINFL ; ! "HDZ'nin"
+HINA:HINA%{nın%} NPACRINFL ; ! "HINA'nın"
+HRT:HRT%{nin%} NPACRINFL ; ! "HRT'nin"
+ICTY:ICTY%{nin%} NPACRINFL ; ! "ICTY'nin"
+IMF:IMF%{nin%} NPACRINFL ; ! "IMF'nin"
+KFOR:KFOR%{un%} NPACRINFL ; ! "KFOR'un"
+KKTC:KKTC%{nin%} NPACRINFL ; ! "KKTC'nin"
+MPA:MPA%{nın%} NPACRINFL ; ! "MPA'nın"
+NATO:NATO%{nun%} NPACRINFL ; ! NATO'nun
+NTV:NTV%{nin%} NPACRINFL ; ! "NTV'nin"
+PACE:PACE%{nin%} NPACRINFL ; ! "PACE'nin"
+PASOK:PASOK%{un%} NPACRINFL ; ! "PASOK'un"
+PBS:PBS%{nin%} NPACRINFL ; ! "PBS'nin"
+PIC:PIC%{nin%} NPACRINFL ; ! "PIC'nin"
+PKK:PKK%{nın%} NPACRINFL ; ! PKK'nın
+PNL:PNL%{nin%} NPACRINFL ; ! "PNL'nin"
+PSD:PSD%{nin%} NPACRINFL ; ! "PSD'nin"
+RTS:RTS%{nin%} NPACRINFL ; ! "RTS'nin"
+SAA:SAA%{nın%} NPACRINFL ; ! "SAA'nın"
+SC:SC%{nin%} NPACRINFL ; ! "SC'nin"
+SDP:SDP%{nin%} NPACRINFL ; ! "SDP'nin"
+SDS:SDS%{nin%} NPACRINFL ; ! "SDS'nin"
+SDSM:SDSM%{nin%} NPACRINFL ; ! "SDSM'nin"
+SFOR:SFOR%{un%} NPACRINFL ; ! SFOR'nun
+SP:SP%{nin%} NPACRINFL ; ! "SP'nin"
+SRNA:SRNA%{nın%} NPACRINFL ; ! "SRNA'nın"
+SRS:SRS%{nin%} NPACRINFL ; ! "SRS'nin"
+STK:STK%{nın%} NPACRINFL ; ! "STK'nın"
+TRT:TRT%{nin%} NPACRINFL ; ! "TRT'nin"
+TV:TV%{nin%} NPACRINFL ; ! "TV'nin"
+UAD:UAD%{nin%} NPACRINFL ; ! "UAD'nin"
+UNDP:UNDP%{nin%} NPACRINFL ; ! "UNDP'nin"
+UNMIK:UNMIK%{in%} NPACRINFL ; ! "UNMIK'in"
+VMRO:VMRO%{nun%} NPACRINFL ; ! "VMRO'nun"
+VOA:VOA%{nın%} NPACRINFL ; ! "VOA'nın"
+YTD:YTD%{nin%} NPACRINFL ; ! "YTD'nin"
+bTV:bTV%{nin%} NPACRINFL ; ! "bTV'nin"
 
 LEXICON Adjectives 
 
