@@ -883,6 +883,8 @@ trilyon:trilyon NUMINFL ; ! "trillion"
 
 LEXICON Nouns
 
+tabi:tabi NINFL ; ! ""
+
 tanıma:tanıma NINFL ; ! "recognising" 
 atılma:atılma NINFL ; ! "embarking"
 otogar:otogar NINFL ; ! "bus station"
@@ -15527,7 +15529,7 @@ hükümet:hükümet NINFL ; ! "government"
 
 LEXICON ProperNouns
 
-Abhazya:Abhazya NPTOPINFL ; ! ""
+Abhazya:Abhazya NPTOPINFL ; ! "Abkhazia"
 Afganistan:Afganistan NPTOPINFL ; ! ""
 Afrika:Afrika NPTOPINFL ; ! ""
 Amerika:Amerika NPTOPINFL ; ! ""
