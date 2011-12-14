@@ -286,6 +286,7 @@ LEXICON NINFL
 LEXICON NPTOPINFL
 
 %<np%>%<top%>: # ; 
+%<adj%>:%>l%{I%}%{k%} # ; 
 %<np%>%<top%>:%' NINFL-COMMON  ; 
 
 LEXICON NPACRINFL
