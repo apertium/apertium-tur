@@ -387,7 +387,7 @@ LEXICON V-PERS-OPT-G3
 LEXICON V-PERS-IMP-G4
 
 %<p2%>%<sg%>:%>s%{A%}n%{A%} # ;
-!%<p2%>%<sg%>:%> # ;
+%<p2%>%<sg%>:%> # ;
 %<p2%>%<frm%>%<sg%>:%>%{bY%}%{I%}n #;
 !%<p2%>%<frm%>%<sg%>:%>%{bY%}%{I%}n%{I%}z #;
 !%<p2%>%<frm%>%<sg%>:%>s%{A%}n%{I%}z%{A%} # ;
@@ -15646,6 +15646,17 @@ Slovenija:Slovenija NPTOPINFL ; ! "Slovenia"
 Zagreb:Zagreb NPTOPINFL ; ! "Zagreb"
 Valensiya:Valensiya NPTOPINFL ; ! "Valencia"
 
+Mostar:Mostar NPTOPINFL ; ! ""
+Ukrayna:Ukrayna NPTOPINFL ; ! ""
+Moskova:Moskova NPTOPINFL ; ! ""
+Kürdistan:Kürdistan NPTOPINFL ; ! ""
+Adriyatik:Adriyatik NPTOPINFL ; ! ""
+Polonya:Polonya NPTOPINFL ; ! ""
+Atlantik:Atlantik NPTOPINFL ; ! ""
+Slovenya:Slovenya NPTOPINFL ; ! ""
+Almanya:Almanya NPTOPINFL ; ! ""
+Atina:Atina NPTOPINFL ; ! ""
+İsviçre:İsviçre NPTOPINFL ; ! ""
 
 Reuters:Reuters NPALINFL ; ! "Reuters"
 Makfax:Makfax NPALINFL ; ! "Makfax"
@@ -15656,6 +15667,7 @@ Anonymous:Anonymous NPALINFL ; ! ""
 Beta:Beta NPALINFL ; ! ""
 Ergenekon:Ergenekon NPALINFL ; ! ""
 SEtimes:SEtimes NPALINFL ; ! ""
+Gazela:Gazela NPALINFL ; ! ""
 Sırp% Ordusu:Sırp% Ordusu NPALINFL ; ! ""
 Super% Galeb:Super% Galeb NPALINFL ; ! ""
 Super% Galeb% G4:Super% Galeb% G4 NPALINFL ; ! ""
@@ -15671,6 +15683,7 @@ Omer:Omer NPANTMINFL ; ! ""
 Nikola:Nikola NPANTMINFL ; ! ""
 Michael:Michael NPANTMINFL ; ! ""
 Goran:Goran NPANTMINFL ; ! ""
+Ahmet:Ahmet NPANTMINFL ; ! ""
 Ivo:Ivo NPANTMINFL ; ! ""
 Vojislav:Vojislav NPANTMINFL ; ! ""
 Miroslav:Miroslav NPANTMINFL ; ! ""
