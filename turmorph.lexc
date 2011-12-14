@@ -52,7 +52,8 @@ Multichar_Symbols
 %<abl%>       ! Ablative
 %<ins%>       ! Instrumental
 
-%<attr%>      ! Attributive: -{K}{I}
+%<attr%>      ! Attributive: -{k}{I}
+%<locattr%>   ! Locative attributive: -{D}{A}{k}{I}
 
 %<px1sg%>     ! First person singular possessive
 %<px2sg%>     ! Second person singular possessive
@@ -280,6 +281,8 @@ LEXICON NINFL
 %<n%>: # ; 
 %<n%>%<attr%>:%>k%{I%} # ;  ! This is the attributive adjective use of -kI, TRmorph <ki>
 %<n%>%<attr%>:%>k%{I%} NINFL-COMMON ; ! This is the attribute adjective 0 derived into a noun, TRmorph <ki>
+%<n%>%<locattr%>:%>%{D%}%{A%}%{k%}%{I%} # ;  ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
+%<n%>%<locattr%>:%>%{D%}%{A%}%{k%}%{I%} NINFL-COMMON ; ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
 %<n%>%<pl%>:%>l%{A%}r clit ; 
 %<n%>: NINFL-COMMON  ; 
 
@@ -288,6 +291,8 @@ LEXICON NPTOPINFL
 %<np%>%<top%>: # ; 
 %<adj%>:%>l%{I%}%{k%} # ; 
 %<np%>%<top%>:%' NINFL-COMMON  ; 
+%<np%>%<top%>%<locattr%>:%'%>%{D%}%{A%}%{k%}%{I%} # ;  ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
+%<np%>%<top%>%<locattr%>:%'%>%{D%}%{A%}%{k%}%{I%} NINFL-COMMON ; ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
 
 LEXICON NPACRINFL
 
@@ -799,6 +804,7 @@ karşın:karşın POSTINFL ; ! ""
 halinde:halinde POSTINFL ; ! ""
 ilgiliydi:ilgiliydi POSTINFL ; ! ""
 yukarı:yukarı POSTINFL ; ! ""
+yaklaşık:yaklaşık POSTINFL ; ! "about, circa"
 
 
 LEXICON Pronouns
@@ -15516,6 +15522,8 @@ rölans:rölans NINFL ; ! ""
 rölanti:rölanti NINFL ; ! ""
 rölativite:rölativite NINFL ; ! ""
 rölativizm:rölativizm NINFL ; ! ""
+hükümet:hükümet NINFL ; ! "government"
+üyelik:üyelik NINFL ; ! "membership"
 
 LEXICON ProperNouns
 
@@ -15672,6 +15680,7 @@ Slovenya:Slovenya NPTOPINFL ; ! ""
 Almanya:Almanya NPTOPINFL ; ! ""
 Atina:Atina NPTOPINFL ; ! ""
 İsviçre:İsviçre NPTOPINFL ; ! ""
+Srebrenica:Srebrenica NPTOPINFL ; ! "Srebrenica"
 
 Reuters:Reuters NPALINFL ; ! "Reuters"
 Makfax:Makfax NPALINFL ; ! "Makfax"
@@ -15688,6 +15697,7 @@ Super% Galeb:Super% Galeb NPALINFL ; ! ""
 Super% Galeb% G4:Super% Galeb% G4 NPALINFL ; ! ""
 Wikimedia:Wikimedia NPALINFL ; ! ""
 Yüksek% Seçim% Kurulu:Yüksek% Seçim% Kurulu NPALINFL ; ! ""
+Southeast% European% Times:Southeast% European% Times NPALINFL ; ! ""
 
 Gianluca:Gianluca NPANTMINFL ; ! "Gianluca"
 Jonathan:Jonathan NPANTMINFL ; ! ""
@@ -16430,6 +16440,8 @@ Yoav:Yoav NPANTMINFL ; ! "Yoav"
 Yuray:Yuray NPANTMINFL ; ! "Yuray"
 Yves:Yves NPANTMINFL ; ! "Yves"
 Zbigniew:Zbigniew NPANTMINFL ; ! "Zbigniew"
+Zoran:Zoran NPANTMINFL ; ! ""
+Tayyip:Tayyip NPANTMINFL ; ! ""
 
 
 Sezgi:Sezgi NPANTFINFL ; ! "Sezgi"
@@ -17607,6 +17619,11 @@ Zvenkovski:Zvenkovski NPCOGINFL ; ! "Zvenkovski"
 Del% Ponte:Del% Ponte NPCOGINFL ; ! ""
 Del% Manzano:Del% Manzano NPCOGINFL ; ! ""
 
+Basescu:Basescu NPCOGINFL ; ! "Basescu"
+Sanader:Sanader NPCOGINFL ; ! "Sanader"
+Berişa:Berişa NPCOGINFL ; ! "Berişa"
+Ahtisaari:Ahtisaari NPCOGINFL ; ! "Ahtisaari"
+
 LEXICON Acronyms
 
 AB:AB%{nin%} NPACRINFL ; ! AB'nin
@@ -17676,7 +17693,11 @@ bTV:bTV%{nin%} NPACRINFL ; ! "bTV'nin"
 
 LEXICON Adjectives 
 
+özel:özel AINFL ; ! "special, private"
 kırmızı:kırmızı AINFL ; ! "red"
+genel:genel AINFL ; ! "general"
+amaçli:amaçli AINFL ; ! "guilty"
+yerel:yerel AINFL ; ! "local"
 temiz:temiz AINFL ; ! "clean"
 yeşil:yeşil AINFL ; ! "green"
 büyük:büyük AINFL ; ! "big"
