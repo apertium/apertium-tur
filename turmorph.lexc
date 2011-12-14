@@ -318,7 +318,18 @@ LEXICON NPCOGINFL
 LEXICON AINFL
 
 %<adj%>: # ; 
+
+NINFL ;
+
+LEXICON AINFL-NAT
+
+%<adj%>: # ; 
+%<n%>: # ; 
+%<n%>:%' NINFL-COMMON  ;  ! Dir/LR
 %<n%>: NINFL-COMMON  ; 
+%<n%>%<pl%>:%>l%{A%}r # ; 
+%<n%>%<pl%>:%>l%{A%}r NINFL-COMMON  ; 
+%<n%>%<pl%>:%>l%{A%}r%' NINFL-COMMON  ;  ! Dir/LR
 
 LEXICON ADVINFL
 
@@ -704,6 +715,8 @@ onlar%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:onlarda # ;
 LEXICON PRONDEM
 
 %<prn%>%<dem%>: NINFL-COMMON ; 
+%<prn%>%<dem%>%<pl%>:%>l%{A%}r # ; 
+%<prn%>%<dem%>%<pl%>:%>l%{A%}r NINFL-COMMON ; 
 
 LEXICON PRONITG
 
@@ -15618,6 +15631,7 @@ Romanya:Romanya NPTOPINFL ; ! ""
 Rusya:Rusya NPTOPINFL ; ! ""
 Saraybosna:Saraybosna NPTOPINFL ; ! "Sarajevo"
 Sırbistan:Sırbistan NPTOPINFL ; ! "Serbia"
+Arnavutluk:Arnavutluk NPTOPINFL ; ! "Albania"
 Sofya:Sofya NPTOPINFL ; ! "Sofia"
 Türkiye:Türkiye NPTOPINFL ; ! ""
 Çekoslovakya:Çekoslovakya NPTOPINFL ; ! ""
@@ -16827,6 +16841,7 @@ Grossi:Grossi NPCOGINFL ; ! "Grossi"
 Tyers:Tyers NPCOGINFL ; ! ""
 Washington:Washington NPCOGINFL ; ! ""
 Mladiç:Mladiç NPCOGINFL ; ! ""
+Karamanlis:Karamanlis NPCOGINFL ; ! ""
 Petersen:Petersen NPCOGINFL ; ! ""
 Adlesiç:Adlesiç NPCOGINFL ; ! ""
 Ashdown:Ashdown NPCOGINFL ; ! ""
@@ -17393,6 +17408,7 @@ Mandela:Mandela NPCOGINFL ; ! "Mandela"
 Mandelson:Mandelson NPCOGINFL ; ! "Mandelson"
 Márquez:Márquez NPCOGINFL ; ! "Márquez"
 McCain:McCain NPCOGINFL ; ! "McCain"
+Lahey:Lahey NPCOGINFL ; ! "Lahey"
 McCarthy:McCarthy NPCOGINFL ; ! "McCarthy"
 McDonnell:McDonnell NPCOGINFL ; ! "McDonnell"
 Messi:Messi NPCOGINFL ; ! "Messi"
@@ -18416,6 +18432,35 @@ teknolojik:teknolojik AINFL ; ! ""
 teorik:teorik AINFL ; ! ""
 trajik:trajik AINFL ; ! ""
 
+Sırp:Sırp AINFL-NAT ; ! "Serb"
+Türk:Türk AINFL-NAT ; ! "Turk"
+Hırvat:Hırvat AINFL-NAT ; ! "Croat"
+Arnavut:Arnavut AINFL-NAT ; ! "Albanian"
+Bulgar:Bulgar AINFL-NAT ; ! "Bulgar"
+Makedon:Makedon AINFL-NAT ; ! "Macedonian"
+Bosnalı:Bosnalı AINFL-NAT ; ! "Bosnian"
+Kosovalı:Kosovalı AINFL-NAT ; ! "Kosovan"
+İngiliz:İngiliz AINFL-NAT ; ! "English"
+İtalyan:İtalyan AINFL-NAT ; ! "Italian"
+Kürt:Kürt AINFL-NAT ; ! "Kurdish"
+Yugoslav:Yugoslav AINFL-NAT ; ! "Yugoslav"
+Fransız:Fransız AINFL-NAT ; ! "French"
+Hollandalı:Hollandalı AINFL-NAT ; ! "Dutch"
+Alman:Alman AINFL-NAT ; ! "German"
+Avustralyalı:Avustralyalı AINFL-NAT ; ! ""
+Avusturyalı:Avusturyalı AINFL-NAT ; ! ""
+Brezilyalı:Brezilyalı AINFL-NAT ; ! ""
+Kenyalı:Kenyalı AINFL-NAT ; ! ""
+Letonyalı:Letonyalı AINFL-NAT ; ! ""
+Libyalı:Libyalı AINFL-NAT ; ! ""
+Makedonyalı:Makedonyalı AINFL-NAT ; ! ""
+Moldavyalı:Moldavyalı AINFL-NAT ; ! ""
+Polonyalı:Polonyalı AINFL-NAT ; ! ""
+Romanyalı:Romanyalı AINFL-NAT ; ! ""
+Yunanlı:Yunanlı AINFL-NAT ; ! "Greek"
+
+Avrupalı:Avrupalı AINFL-NAT ; ! "European"
+Amerikalı:Amerikalı AINFL-NAT ; ! "American"
 
 LEXICON Adverbs 
 
