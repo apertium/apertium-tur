@@ -11,6 +11,7 @@ Multichar_Symbols
 %<adj%>       ! Adjective
 %<det%>       ! Determiner
 %<np%>        ! Proper noun
+%<ij%>        ! Interjection
 %<post%>      ! Postposition
 %<abbr%>      ! Abbreviation
 %<cnjcoo%>    ! Co-ordinating conjunction
@@ -87,6 +88,8 @@ Multichar_Symbols
 %<aor%>       ! Aorist: -{A}r or -{bI}r
 %<pih%>       ! Habitual: Aorist + -{D}{I}
 
+%<qst%>       ! Question particle
+
 %<sent%>      ! Sentence marker
 %<guio%>      ! Hyphen
 %<cm%>        ! Comma
@@ -138,7 +141,9 @@ Determiners ;
 ProperNouns ;
 Acronyms ;
 Punctuation ;
+Interjections ;
 Verbs ;
+Particles ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -146,31 +151,41 @@ Verbs ;
 
 !! Case morphology
 
+LEXICON clit 
+
+%+mi%<qst%>:% m%{I%} # ;
+# ;
+
 LEXICON case1                     
-%<loc%>:%>%{D%}%{A%} # ;
-%<gen%>:%>%{bN%}%{I%}n # ;
+%<loc%>:%>%{D%}%{A%} clit ;
+%<gen%>:%>%{bN%}%{I%}n clit ;
 
 LEXICON case2                    
-%<acc%>:%>%{bY%}%{I%} # ;
-%<abl%>:%>%{D%}%{A%}n # ;
-%<dat%>:%>%{bY%}%{A%} # ;
-%<ins%>:%>%{bY%}l%{A%} # ;
+%<acc%>:%>%{bY%}%{I%} clit ;
+%<abl%>:%>%{D%}%{A%}n clit ;
+%<dat%>:%>%{bY%}%{A%} clit ;
+%<ins%>:%>%{bY%}l%{A%} clit ;
 !%<ins%>:%>%{bY%}l%{A%}n # ;
 
 LEXICON case1p3
-%<loc%>:%>%{bN%}d%{A%} # ;
-%<gen%>:%>%{bN%}%{I%}n # ;
+%<loc%>:%>%{bN%}d%{A%} clit ;
+%<gen%>:%>%{bN%}%{I%}n clit ;
 
 LEXICON case2p3
-%<acc%>:%>%{bN%}%{I%} # ;
-%<abl%>:%>%{bN%}d%{A%}n # ;
-%<dat%>:%>%{bN%}%{A%} # ;
-%<ins%>:%>%{bY%}l%{A%} # ;
+%<acc%>:%>%{bN%}%{I%} clit ;
+%<abl%>:%>%{bN%}d%{A%}n clit ;
+%<dat%>:%>%{bN%}%{A%} clit ;
+%<ins%>:%>%{bY%}l%{A%} clit ;
 !%<ins%>:%>%{bY%}l%{A%}n # ;
 
 !! Possessive morphology
 
 LEXICON poss12-2                    
+%<px1sg%>:%>%{bI%}m # ;
+%<px2sg%>:%>%{bI%}n # ;
+%<px1pl%>:%>%{bI%}m%{I%}z # ;
+%<px2pl%>:%>%{bI%}n%{I%}z # ;
+
 %<px1sg%>:%>%{bI%}m case2 ;
 %<px2sg%>:%>%{bI%}n case2 ;
 %<px1pl%>:%>%{bI%}m%{I%}z case2 ;
@@ -178,6 +193,12 @@ LEXICON poss12-2
 
 
 LEXICON poss12-1
+%<px1sg%>:%>%{bI%}m # ;
+%<px2sg%>:%>%{bI%}n # ;
+%<px1pl%>:%>%{bI%}m%{I%}z # ;
+%<px2pl%>:%>%{bI%}n%{I%}z # ;
+
+
 %<px1sg%>:%>%{bI%}m case1 ;
 %<px2sg%>:%>%{bI%}n case1 ;
 %<px1pl%>:%>%{bI%}m%{I%}z case1 ;
@@ -185,10 +206,18 @@ LEXICON poss12-1
 
 LEXICON poss3-2
 
+%<px3sg%>:%>%{bS%}%{I%} # ;
+%<px3pl%>:%>l%{A%}r%{I%} # ;
+
+
 %<px3sg%>:%>%{bS%}%{I%} case2p3 ;
 %<px3pl%>:%>l%{A%}r%{I%} case2p3 ;
 
 LEXICON poss3-1
+
+%<px3sg%>:%>%{bS%}%{I%} # ;
+%<px3pl%>:%>l%{A%}r%{I%} # ;
+
 
 %<px3sg%>:%>%{bS%}%{I%} case1p3 ;
 %<px3pl%>:%>l%{A%}r%{I%} case1p3 ;
@@ -251,7 +280,7 @@ LEXICON NINFL
 %<n%>: # ; 
 %<n%>%<attr%>:%>k%{I%} # ;  ! This is the attributive adjective use of -kI, TRmorph <ki>
 %<n%>%<attr%>:%>k%{I%} NINFL-COMMON ; ! This is the attribute adjective 0 derived into a noun, TRmorph <ki>
-%<n%>%<pl%>:%>l%{A%}r # ; 
+%<n%>%<pl%>:%>l%{A%}r clit ; 
 %<n%>: NINFL-COMMON  ; 
 
 LEXICON NPTOPINFL
@@ -594,6 +623,11 @@ LEXICON VTVINFL-CAUS_T-AOR_IR
 
 
 
+LEXICON INTERR
+
+%<ij%>: # ;
+
+
 LEXICON POSTINFL
 
 %<post%>: # ;
@@ -672,14 +706,17 @@ LEXICON PRONDEM
 
 LEXICON PRONITG
 
+%<prn%>%<itg%>: # ; 
 %<prn%>%<itg%>: NINFL-COMMON ; 
 
 LEXICON PRONIND
 
+%<prn%>%<ind%>: # ; 
 %<prn%>%<ind%>: NINFL-COMMON ; 
 
 LEXICON PRONREF
 
+%<prn%>%<ref%>: # ; 
 %<prn%>%<ref%>: NINFL-COMMON ; 
 
 LEXICON DETDEM
@@ -744,6 +781,11 @@ süresince:süresince POSTINFL ; ! ""
 üzere:üzere POSTINFL ; ! ""
 ilgili:ilgili POSTINFL ; ! ""
 
+karşın:karşın POSTINFL ; ! ""
+halinde:halinde POSTINFL ; ! ""
+ilgiliydi:ilgiliydi POSTINFL ; ! ""
+yukarı:yukarı POSTINFL ; ! ""
+
 
 LEXICON Pronouns
 
@@ -772,6 +814,8 @@ diğer:diğer DETIND ;  ! "other"
 öbür:öbür DETIND ;  ! "other"
 her:her DETIND ;  ! "every"
 aynı:aynı DETIND ;  ! "same"
+hiçbir:hiçbir DETIND ;  ! "no"
+herhangi:herhangi DETIND ;  ! "any"
 
 bu:bu DETDEM ;  ! "this"
 şu:şu DETDEM ;  ! "that"
@@ -785,6 +829,7 @@ kimi:kimi DETQNT;  ! "some"
 fazla:fazla DETQNT;  ! "much, many"
 çok:ço%{k%} DETQNT; ! "much, many"
 biraz:biraz DETQNT;  ! "a little"
+birçok:birçok DETQNT ;  ! "many"
 
 LEXICON Numerals 
 
@@ -17529,6 +17574,9 @@ Zrenkovski:Zrenkovski NPCOGINFL ; ! "Zrenkovski"
 Zrvenkovski:Zrvenkovski NPCOGINFL ; ! "Zrvenkovski"
 Zvenkovski:Zvenkovski NPCOGINFL ; ! "Zvenkovski"
 
+Del% Ponte:Del% Ponte NPCOGINFL ; ! ""
+Del% Manzano:Del% Manzano NPCOGINFL ; ! ""
+
 LEXICON Acronyms
 
 AB:AB%{nin%} NPACRINFL ; ! AB'nin
@@ -20170,6 +20218,20 @@ kredile:kredile VIVINFL-CAUS_T-AOR_IR  ; ! "?"
 rakamla:rakamla VTVINFL-CAUS_T-AOR_IR  ; ! "?"
 uzaksa:uzaksa VTVINFL-CAUS_T-AOR_IR  ; ! "?"
 !toprakla:toprakla AOR_-AOR_T-AOR_IR  ; ! "to earth"
+
+LEXICON Interjections
+
+tabi% ki:tabi% ki INTERR ; ! ""
+tabii% ki:tabii% ki INTERR ; ! ""
+şöyle:şöyle INTERR ; ! ""
+peki:peki INTERR ; ! ""
+
+LEXICON Particles 
+
+mi%<qst%>:mi # ; 
+mi%<qst%>:mu # ; 
+mi%<qst%>:mü # ; 
+mi%<qst%>:mı # ; 
 
 LEXICON Punctuation
 
