@@ -66,6 +66,7 @@ Multichar_Symbols
 %<tv%>        ! Transitive
 %<pass%>      ! Passive
 %<caus%>      ! Causative
+%<abil%>      ! Abilitative
 
 %<ger1%>      ! Gerund #1: -m{A}
 %<ger2%>      ! Gerund #2: -m{A}{K}
@@ -101,6 +102,7 @@ Multichar_Symbols
 %<lpar%>      ! Parenthetical marker (left hand side) 
 
 
+%{e%}         ! e or ''
 %{A%}         ! Archivowel {A}: e (a)
 %{I%}         ! Archivowel {I}: u ü i (ı)
 %{bN%}        ! Buffer 'n': -n- or -ø-
@@ -154,6 +156,7 @@ Particles ;
 
 LEXICON clit 
 
+%+mi%<qst%>:% m%{I%}%{bS%} poss-end ;
 %+mi%<qst%>:% m%{I%} # ;
 # ;
 
@@ -180,6 +183,15 @@ LEXICON case2p3
 !%<ins%>:%>%{bY%}l%{A%}n # ;
 
 !! Possessive morphology
+
+LEXICON poss-end
+
+%<px1sg%>:%>%{bI%}m # ;
+%<px2sg%>:%>%{bI%}n # ;
+%<px1pl%>:%>%{bI%}m%{I%}z # ;
+%<px2pl%>:%>%{bI%}n%{I%}z # ;
+%<px3sg%>:%>%{bS%}%{I%} # ;
+%<px3pl%>:%>l%{A%}r%{I%} # ;
 
 LEXICON poss12-2                    
 %<px1sg%>:%>%{bI%}m # ;
@@ -281,8 +293,8 @@ LEXICON NINFL
 %<n%>: # ; 
 %<n%>%<attr%>:%>k%{I%} # ;  ! This is the attributive adjective use of -kI, TRmorph <ki>
 %<n%>%<attr%>:%>k%{I%} NINFL-COMMON ; ! This is the attribute adjective 0 derived into a noun, TRmorph <ki>
-%<n%>%<locattr%>:%>%{D%}%{A%}%{k%}%{I%} # ;  ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
-%<n%>%<locattr%>:%>%{D%}%{A%}%{k%}%{I%} NINFL-COMMON ; ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
+%<n%>%<locattr%>:%>%{D%}%{A%}%{k%}i # ;  ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
+%<n%>%<locattr%>:%>%{D%}%{A%}%{k%}i NINFL-COMMON ; ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
 %<n%>%<pl%>:%>l%{A%}r clit ; 
 %<n%>: NINFL-COMMON  ; 
 
@@ -291,8 +303,8 @@ LEXICON NPTOPINFL
 %<np%>%<top%>: # ; 
 %<adj%>:%>l%{I%}%{k%} # ; 
 %<np%>%<top%>:%' NINFL-COMMON  ; 
-%<np%>%<top%>%<locattr%>:%'%>%{D%}%{A%}%{k%}%{I%} # ;  ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
-%<np%>%<top%>%<locattr%>:%'%>%{D%}%{A%}%{k%}%{I%} NINFL-COMMON ; ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
+%<np%>%<top%>%<locattr%>:%'%>%{D%}%{A%}%{k%}i # ;  ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
+%<np%>%<top%>%<locattr%>:%'%>%{D%}%{A%}%{k%}i NINFL-COMMON ; ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
 
 LEXICON NPACRINFL
 
@@ -383,13 +395,13 @@ LEXICON V-PERS-G1
 
 LEXICON V-PERS-COP-G2
 
-%<p1%>%<sg%>:%>%{bY%}%{I%}m # ;
-%<p2%>%<sg%>:%>s%{I%}n # ;
-%<p2%>%<frm%>%<sg%>:%>s%{I%}n%{I%}z # ;
-%<p3%>%<sg%>:%> # ;
-%<p1%>%<pl%>:%>%{bY%}%{I%}z # ;
-%<p2%>%<pl%>:%>s%{I%}n%{I%}z # ;
-%<p3%>%<pl%>:%>l%{A%}r # ;
+%<p1%>%<sg%>:%>%{bY%}%{I%}m clit ;
+%<p2%>%<sg%>:%>s%{I%}n  clit ;
+%<p2%>%<frm%>%<sg%>:%>s%{I%}n%{I%}z  clit ;
+%<p3%>%<sg%>:%>  clit ;
+%<p1%>%<pl%>:%>%{bY%}%{I%}z  clit ;
+%<p2%>%<pl%>:%>s%{I%}n%{I%}z  clit ;
+%<p3%>%<pl%>:%>l%{A%}r  clit ;
 
 LEXICON V-PERS-OPT-G3
 
@@ -437,7 +449,7 @@ LEXICON VINFL-COMMON
 %<opt%>:%>%{bY%}%{A%} V-PERS-OPT-G3 ;
 %<past%>:%>%{D%}%{I%} V-PERS-G1 ;
 %<evid%>:%>m%{I%}ş V-PERS-COP-G2 ;
-%<imp%>:%> V-PERS-IMP-G4 ;
+%<imp%>: V-PERS-IMP-G4 ;
 %<fut%>:%>%{bY%}%{A%}c%{A%}%{k%} V-PERS-COP-G2 ; 
 %<cond%>:%>s%{A%} V-PERS-G1 ;
 %<pii%>:%>m%{A%}kt%{A%} V-PERS-COP-G2 ;
@@ -453,6 +465,8 @@ LEXICON VINFL-COMMON
 !
 LEXICON VIVINFL-CAUS_DIR-AOR_AR
 %<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
 %<v%>%<iv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -465,6 +479,8 @@ LEXICON VIVINFL-CAUS_DIR-AOR_AR
 !
 LEXICON VIVINFL-CAUS_AR-AOR_AR
 %<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
 %<v%>%<iv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -480,6 +496,9 @@ LEXICON VIVINFL-CAUS_AR-AOR_AR
 LEXICON VIVINFL-CAUS_DIR-AOR_IR
 
 %<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>%<aor%>:%>%{bY%}%{A%}bil%>%{bI%}r V-PERS-COP-G2 ; ! add to all!
 %<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
 %<v%>%<iv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -488,6 +507,9 @@ LEXICON VIVINFL-CAUS_DIR-AOR_IR
 !
 LEXICON VIVINFL-CAUS_DIR-AOR_AR
 %<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>%<aor%>:%>%{bY%}%{A%}bil%>%{A%}r V-PERS-COP-G2 ;
 %<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
 %<v%>%<iv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -496,6 +518,8 @@ LEXICON VIVINFL-CAUS_DIR-AOR_AR
 LEXICON VIVINFL-CAUS_IR-AOR_AR
 ! art<iv><caus_ir><aor_ar>
 %<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
 %<v%>%<iv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -505,6 +529,8 @@ LEXICON VIVINFL-CAUS_IRREG-AOR_IR
 ! IRREG does not get causative (it's in the lexicon ?)
 ! gel<iv><caus_irreg>
 %<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
 %<v%>%<iv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -513,6 +539,8 @@ LEXICON VIVINFL-CAUS_IRREG-AOR_AR
 ! IRREG does not get causative (it's in the lexicon ?)
 ! ay<iv><caus_irreg><aor_ar>
 %<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
 %<v%>%<iv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -524,11 +552,15 @@ LEXICON VIVINFL-CAUS_IRREG-AOR_AR
 !
 LEXICON VIVINFL-CAUS_IT-AOR_AR
 %<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
 %<v%>%<iv%>%<caus%>:%>%{I%}t VINFL-COMMON ;
 
 LEXICON VIVINFL-CAUS_T-AOR_IR
 %<v%>%<iv%>: VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<iv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<iv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
 %<v%>%<iv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -546,6 +578,8 @@ LEXICON VIVINFL-CAUS_T-AOR_IR
 LEXICON VTVINFL-CAUS_DIR-AOR_AR
 ! aç<t><tv><aor_ar>
 %<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
 %<v%>%<tv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -555,6 +589,8 @@ LEXICON VTVINFL-CAUS_DIR-AOR_AR
 LEXICON VTVINFL-CAUS_AR-AOR_IR
 ! kulluk e<t><tv><caus_ar>
 %<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
 %<v%>%<tv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -564,6 +600,8 @@ LEXICON VTVINFL-CAUS_AR-AOR_IR
 LEXICON VTVINFL-CAUS_AR-AOR_AR
 ! gi<t><tv><caus_ar><aor_ar> 
 %<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
 %<v%>%<tv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -573,6 +611,8 @@ LEXICON VTVINFL-CAUS_AR-AOR_AR
 LEXICON VTVINFL-CAUS_ART-AOR_AR
 ! çık<tv><caus_art><aor_ar>
 %<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
 %<v%>%<tv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
 %<v%>%<tv%>%<caus%>:%>%{A%}rt VINFL-COMMON ;
@@ -581,6 +621,8 @@ LEXICON VTVINFL-CAUS_ART-AOR_AR
 LEXICON VTVINFL-CAUS_DIR-AOR_IR
 ! al<tv><caus_dir>
 %<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
 %<v%>%<tv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -589,6 +631,8 @@ LEXICON VTVINFL-CAUS_DIR-AOR_IR
 !
 LEXICON VTVINFL-CAUS_DIR-AOR_AR
 %<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
 %<v%>%<tv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -597,6 +641,8 @@ LEXICON VTVINFL-CAUS_DIR-AOR_AR
 !
 LEXICON VTVINFL-CAUS_IR-AOR_AR  
 %<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
 %<v%>%<tv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -606,6 +652,8 @@ LEXICON VTVINFL-CAUS_IR-AOR_AR
 LEXICON VTVINFL-CAUS_IRREG-AOR_AR
 ! IRREG does not get causative
 %<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
 %<v%>%<tv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -614,6 +662,8 @@ LEXICON VTVINFL-CAUS_IRREG-AOR_AR
 LEXICON VTVINFL-CAUS_IT-AOR_IR
 ! üş<tv><caus_it>
 %<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
 %<v%>%<tv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -623,6 +673,8 @@ LEXICON VTVINFL-CAUS_IT-AOR_IR
 LEXICON VTVINFL-CAUS_IT-AOR_AR
 ! ak<tv><caus_it><aor_ar>
 %<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{A%}r V-PERS-COP-G2 ;
 %<v%>%<tv%>%<pih%>:%>%{A%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -632,6 +684,8 @@ LEXICON VTVINFL-CAUS_IT-AOR_AR
 LEXICON VTVINFL-CAUS_T-AOR_IR
 ! bekle<tv><caus_t>
 %<v%>%<tv%>: VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
 %<v%>%<tv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -738,6 +792,12 @@ LEXICON PRONREF
 %<prn%>%<ref%>: # ; 
 %<prn%>%<ref%>: NINFL-COMMON ; 
 
+LEXICON PRONADV
+
+%<prn%>%<adv%>: # ; 
+%<prn%>%<adv%>: NINFL-COMMON ; 
+
+
 LEXICON DETDEM
 
 %<det%>%<dem%>: # ;
@@ -767,6 +827,7 @@ veya:veya CCINFL ; ! "either/or"
 ne:ne CCINFL ; ! "neither/nor"
 da:da CCINFL ; ! ""
 de:de CCINFL ; ! ""
+fakat:fakat CCINFL ; ! ""
 
 şöyle% ki:şöyle% ki CAINFL ; ! "so that"
 
@@ -825,6 +886,8 @@ birisi:birisi PRONIND ; ! "anyone, anybody"
 öteki:öteki PRONIND ; ! "other"
 
 kendi:kendi PRONREF ; ! "self"
+
+ora:ora PRONADV ; ! "" 
 
 LEXICON Determiners
 
@@ -907,7 +970,7 @@ süt:süt NINFL ; ! "milk"
 limon:limon NINFL ; ! "lemon"
 
 ad:ad NINFL ; ! "name"
-ağaç:ağaç NINFL ; ! "tree"
+ağaç:ağa%{c%} NINFL ; ! "tree"
 ağ:ağ NINFL ; ! "hang down"
 ağız:ağız NINFL ; ! "mouth"
 ahir:ahir NINFL ; ! "future"
@@ -8985,7 +9048,8 @@ inak:ina%{k%} NINFL ; ! ""
 inal:inal NINFL ; ! ""
 inam:inam NINFL ; ! ""
 inan:inan NINFL ; ! ""
-inanç:inanç NINFL ; ! ""
+İnan:inan NINFL ; ! "" !Dir/LR
+inanç:inanç NINFL ; ! "" 
 inanca:inanca NINFL ; ! ""
 inat:ina%{t%} NINFL ; ! ""
 inayet:inayet NINFL ; ! ""
@@ -15958,6 +16022,7 @@ Arnavutluk:Arnavutluk NPTOPINFL ; ! "Albania"
 Sofya:Sofya NPTOPINFL ; ! "Sofia"
 Türkiye:Türkiye NPTOPINFL ; ! ""
 Çekoslovakya:Çekoslovakya NPTOPINFL ; ! ""
+Slovakya:Slovakya NPTOPINFL ; ! ""
 Çeçenistan:Çeçenistan NPTOPINFL ; ! ""
 Washington:Washington NPTOPINFL ; ! "Washington"
 Üsküp:Üsküp NPTOPINFL ; ! "Skopje"
@@ -16020,6 +16085,11 @@ Jonathan:Jonathan NPANTMINFL ; ! ""
 Francis:Francis NPANTMINFL ; ! ""
 Yusuf:Yusuf NPANTMINFL ; ! ""
 Omer:Omer NPANTMINFL ; ! ""
+Traian:Traian NPANTMINFL ; ! ""
+Branko:Branko NPANTMINFL ; ! ""
+Radovan:Radovan NPANTMINFL ; ! ""
+Kostas:Kostas NPANTMINFL ; ! ""
+Georgi:Georgi NPANTMINFL ; ! ""
 Nikola:Nikola NPANTMINFL ; ! ""
 Michael:Michael NPANTMINFL ; ! ""
 Goran:Goran NPANTMINFL ; ! ""
@@ -16583,6 +16653,7 @@ Paulo:Paulo NPANTMINFL ; ! "Paulo"
 Paul:Paul NPANTMINFL ; ! "Paul"
 Pau:Pau NPANTMINFL ; ! "Pau"
 Pavel:Pavel NPANTMINFL ; ! "Pavel"
+Filip:Filip NPANTMINFL ; ! "Filip"
 Pedro:Pedro NPANTMINFL ; ! "Pedro"
 Pepe:Pepe NPANTMINFL ; ! "Pepe"
 Percival:Percival NPANTMINFL ; ! "Percival"
@@ -17167,6 +17238,10 @@ Zeta:Zeta NPANTFINFL ; ! "Zeta"
 Grossi:Grossi NPCOGINFL ; ! "Grossi"
 Tyers:Tyers NPCOGINFL ; ! ""
 Washington:Washington NPCOGINFL ; ! ""
+Scheffer:Scheffer NPCOGINFL ; ! ""
+Bush:Bush NPCOGINFL ; ! ""
+Annan:Annan NPCOGINFL ; ! ""
+Dodik:Dodik NPCOGINFL ; ! ""
 Mladiç:Mladiç NPCOGINFL ; ! ""
 Karamanlis:Karamanlis NPCOGINFL ; ! ""
 Petersen:Petersen NPCOGINFL ; ! ""
@@ -17226,6 +17301,7 @@ Deronjiç:Deronjiç NPCOGINFL ; ! ""
 Dink:Dink NPCOGINFL ; ! ""
 Dinkiç:Dinkiç NPCOGINFL ; ! ""
 Djeliç:Djeliç NPCOGINFL ; ! ""
+Papandreu:Papandreu NPCOGINFL ; ! ""
 Djukanoviç:Djukanoviç NPCOGINFL ; ! ""
 Dokiç:Dokiç NPCOGINFL ; ! ""
 Draskoviç:Draskoviç NPCOGINFL ; ! ""
@@ -18017,6 +18093,7 @@ temiz:temiz AINFL ; ! "clean"
 yeşil:yeşil AINFL ; ! "green"
 büyük:büyük AINFL ; ! "big"
 bizimki:bizimki AINFL ; ! ""
+yaşlı:yaşlı AINFL ; ! "old"
 benimki:benimki AINFL ; ! ""
 sizinki:sizinki AINFL ; ! ""
 öyle:öyle AINFL ; ! ""
@@ -18919,6 +18996,7 @@ Moldavyalı:Moldavyalı AINFL-NAT ; ! ""
 Polonyalı:Polonyalı AINFL-NAT ; ! ""
 Romanyalı:Romanyalı AINFL-NAT ; ! ""
 Yunanlı:Yunanlı AINFL-NAT ; ! "Greek"
+Boşnak:Boşnak AINFL-NAT ; ! "Bosniak"
 
 Avrupalı:Avrupalı AINFL-NAT ; ! "European"
 Amerikalı:Amerikalı AINFL-NAT ; ! "American"
@@ -18933,8 +19011,12 @@ evvel% zaman% içinde:evvel% zaman% içinde ADVINFL ; ! ""
 o% zaman:o% zaman ADVINFL ; ! ""
 öyle:öyle ADVINFL ; ! "in that way"
 hâlâ:hâlâ ADVINFL ; ! ""
+yeterince:yeterince ADVINFL ; ! "enough, very"
 fazla:fazla ADVINFL ; ! "too"
+yavaşça:yavaşça ADVINFL ; ! "slowly"
+çabukça:çabukça ADVINFL ; ! "promptly"
 tedbiren:tedbiren ADVINFL ; ! ""
+hayır:hayır ADVINFL ; ! ""
 olabildiğince:olabildiğince ADVINFL ; ! ""
 öldüresiye:öldüresiye ADVINFL ; ! ""
 bazen:bazen ADVINFL ; ! ""
@@ -19297,7 +19379,6 @@ bekle:bekle VTVINFL-CAUS_T-AOR_IR ; ! ""
 bur:bur VTVINFL-CAUS_DIR-AOR_AR ; ! ""
 burk:burk VTVINFL-CAUS_IT-AOR_AR ; ! ""
 buy:buy VIVINFL-CAUS_IRREG-AOR_AR ; ! ""
-de:de VIVINFL-CAUS_DIR-AOR_IR ; ! ""
 del:del VTVINFL-CAUS_DIR-AOR_AR ; ! ""
 der:der VTVINFL-CAUS_DIR-AOR_AR ; ! ""
 dil:dil VTVINFL-CAUS_DIR-AOR_AR ; ! ""
@@ -19329,7 +19410,7 @@ ver:ver VTVINFL-CAUS_DIR-AOR_IR ; ! ""
 vur:vur VTVINFL-CAUS_DIR-AOR_IR ; ! ""
 yar:yar VTVINFL-CAUS_DIR-AOR_AR ; ! ""
 yat:yat VIVINFL-CAUS_IR-AOR_AR ; ! ""
-ye:ye VTVINFL-CAUS_DIR-AOR_IR ; ! ""
+ye:y%{e%} VTVINFL-CAUS_DIR-AOR_IR ; ! ""
 yel:yel VTVINFL-CAUS_DIR-AOR_AR ; ! ""
 yer% ver:yer% ver VTVINFL-CAUS_DIR-AOR_IR ; ! ""
 yit:yit VIVINFL-CAUS_IR-AOR_AR ; ! ""
@@ -20462,7 +20543,8 @@ daral:daral VIVINFL-CAUS_T-AOR_IR ; ! "narrow"
 davran:davran VIVINFL-CAUS_DIR-AOR_IR ; ! "act, treat"
 daya:daya VIVINFL-CAUS_T-AOR_IR ; ! "lean"
 dayan:dayan VIVINFL-CAUS_DIR-AOR_IR ; ! "bear"
-de:de VTVINFL-CAUS_T-AOR_IR ; ! "say"
+de:de VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+de:d%{e%} VTVINFL-CAUS_T-AOR_IR ; ! "say"
 defnet:defnet VTVINFL-CAUS_DIR-AOR_AR ; ! "bury"
 defol:defol VIVINFL-CAUS_T-AOR_IR ; ! "go away"
 değ:değ VTVINFL-CAUS_DIR-AOR_AR ; ! "touch"
@@ -20766,7 +20848,7 @@ kaynaş:kaynaş VIVINFL-CAUS_DIR-AOR_IR ; ! "teem"
 kaz:kaz VTVINFL-CAUS_DIR-AOR_AR ; ! "dig"
 kazan:kazan VTVINFL-CAUS_DIR-AOR_IR ; ! "win"
 kazı:kazı VTVINFL-CAUS_T-AOR_IR ; ! "scrape"
-kazıkla:kazıkla VTVINFL-CAUS_T-AOR_IR ; ! "cheat"
+bakın:bakın VTVINFL-CAUS_T-AOR_IR ; ! "??"
 
 
 kredile:kredile VIVINFL-CAUS_T-AOR_IR  ; ! "?"
