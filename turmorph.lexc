@@ -642,7 +642,7 @@ LEXICON VTVINFL-CAUS_DIR-AOR_IR
 %<v%>%<tv%>: VINFL-COMMON ;
 %<v%>%<tv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
 %<v%>%<tv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
-%<v%>%<tv%>%<abil%>%<neg%>%<aor%>:%>%{bY%}%{A%}%>m%{A%} V-PERS-G1 ;
+%<v%>%<tv%>%<abil%>%<neg%>%<aor%>:%>%{bY%}%{A%}%>m%{A%}z V-PERS-G1 ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
 %<v%>%<tv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
