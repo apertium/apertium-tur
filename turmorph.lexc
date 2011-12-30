@@ -22,6 +22,7 @@ Multichar_Symbols
 %<ord%>       ! Ordinal
 %<dem%>       ! Demonstrative
 %<ind%>       ! Indefinite
+%<itg%>       ! Interrogative
 %<qnt%>       ! Quantifier
 %<ref%>       ! Reflexive
 %<neg%>       ! Negative

@@ -85,7 +85,7 @@ Rules
              [ :ö :Cns* :Cns ]/[ %>: | :0 ] _ ; 
 
 "Not 'buffer' Y"
-%{bY%}:y <=> [ :Vow ]/[ %>: | :0 ] _ ; 
+%{bY%}:y <=> [ :Vow ]/[ %>: | :0 | :%' ] _ ; 
 
 "Not 'buffer' S"
 %{bS%}:s <=>  [ :Vow ]/[ %>: | :0 ] _ ;
