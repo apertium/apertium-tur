@@ -105,6 +105,7 @@ Multichar_Symbols
 
 
 %{e%}         ! e or ''
+%{a%}         ! a or ''
 %{A%}         ! Archivowel {A}: e (a)
 %{I%}         ! Archivowel {I}: u ü i (ı)
 %{bN%}        ! Buffer 'n': -n- or -ø-
@@ -20407,7 +20408,7 @@ an:an VTVINFL-CAUS_DIR-AOR_AR ; ! "make mention of, remind"
 anımsa:anımsa VTVINFL-CAUS_T-AOR_IR ; ! "recall"
 anla:anla VTVINFL-CAUS_T-AOR_IR ; ! "understand"
 anlaş:anlaş VIVINFL-CAUS_DIR-AOR_IR ; ! "agree"
-ara:ara VTVINFL-CAUS_T-AOR_IR ; ! "seek, search, look for"
+ara:ar%{a%} VTVINFL-CAUS_T-AOR_IR ; ! "seek, search, look for"
 arık:arık VIVINFL-CAUS_DIR-AOR_IR ; ! "lose weight"
 arın:arın VIVINFL-CAUS_DIR-AOR_IR ; ! "clarify"
 arıt:arıt VTVINFL-CAUS_DIR-AOR_IR ; ! "purify someone"
