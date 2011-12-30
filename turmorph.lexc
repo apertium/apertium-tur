@@ -26,6 +26,7 @@ Multichar_Symbols
 %<ref%>       ! Reflexive
 %<neg%>       ! Negative
 %<exi%>       ! Existential
+%<cop%>       ! Copula
 
 %<top%>       ! Toponym
 %<al%>        ! Others (altres)
@@ -154,32 +155,38 @@ Particles ;
 
 !! Case morphology
 
-LEXICON clit 
+LEXICON clit
 
 %+mi%<qst%>:% m%{I%}%{bS%} poss-end ;
 %+mi%<qst%>:% m%{I%} # ;
 # ;
 
+LEXICON clit-cop
+
+%+%0%<cop%>: V-PERS-COP-G2-NOSG3 ; 
+
+# ;
+
 LEXICON case1                     
-%<loc%>:%>%{D%}%{A%} clit ;
-%<gen%>:%>%{bN%}%{I%}n clit ;
+%<loc%>:%>%{D%}%{A%} clit-cop ;
+%<gen%>:%>%{bN%}%{I%}n clit-cop ;
 
 LEXICON case2                    
-%<acc%>:%>%{bY%}%{I%} clit ;
-%<abl%>:%>%{D%}%{A%}n clit ;
-%<dat%>:%>%{bY%}%{A%} clit ;
-%<ins%>:%>%{bY%}l%{A%} clit ;
+%<acc%>:%>%{bY%}%{I%} clit-cop ;
+%<abl%>:%>%{D%}%{A%}n clit-cop ;
+%<dat%>:%>%{bY%}%{A%} clit-cop ;
+%<ins%>:%>%{bY%}l%{A%} clit-cop ;
 !%<ins%>:%>%{bY%}l%{A%}n # ;
 
 LEXICON case1p3
-%<loc%>:%>%{bN%}d%{A%} clit ;
-%<gen%>:%>%{bN%}%{I%}n clit ;
+%<loc%>:%>%{bN%}d%{A%} clit-cop ;
+%<gen%>:%>%{bN%}%{I%}n clit-cop ;
 
 LEXICON case2p3
-%<acc%>:%>%{bN%}%{I%} clit ;
-%<abl%>:%>%{bN%}d%{A%}n clit ;
-%<dat%>:%>%{bN%}%{A%} clit ;
-%<ins%>:%>%{bY%}l%{A%} clit ;
+%<acc%>:%>%{bN%}%{I%} clit-cop ;
+%<abl%>:%>%{bN%}d%{A%}n clit-cop ;
+%<dat%>:%>%{bN%}%{A%} clit-cop ;
+%<ins%>:%>%{bY%}l%{A%} clit-cop ;
 !%<ins%>:%>%{bY%}l%{A%}n # ;
 
 !! Possessive morphology
@@ -393,15 +400,21 @@ LEXICON V-PERS-G1
 %<p2%>%<pl%>:%>n%{I%}z # ;
 %<p3%>%<pl%>:%>l%{A%}r # ;
 
-LEXICON V-PERS-COP-G2
+
+LEXICON V-PERS-COP-G2-NOSG3
 
 %<p1%>%<sg%>:%>%{bY%}%{I%}m clit ;
 %<p2%>%<sg%>:%>s%{I%}n  clit ;
 %<p2%>%<frm%>%<sg%>:%>s%{I%}n%{I%}z  clit ;
-%<p3%>%<sg%>:%>  clit ;
 %<p1%>%<pl%>:%>%{bY%}%{I%}z  clit ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  clit ;
 %<p3%>%<pl%>:%>l%{A%}r  clit ;
+
+
+LEXICON V-PERS-COP-G2
+
+%<p3%>%<sg%>:%>  clit ;
+V-PERS-COP-G2-NOSG3 ; 
 
 LEXICON V-PERS-OPT-G3
 
@@ -20582,7 +20595,7 @@ dil:dil VTVINFL-CAUS_DIR-AOR_AR ; ! "slice"
 dile:dile VTVINFL-CAUS_T-AOR_IR ; ! "wish"
 dilimle:dilimle VTVINFL-CAUS_T-AOR_IR ; ! "slice up"
 din:din VIVINFL-CAUS_DIR-AOR_AR ; ! "quiet down"
-dinle:dinle VTVINFL-CAUS_T-AOR_IR ; ! "listen"
+dinle:dinl%{e%} VTVINFL-CAUS_T-AOR_IR ; ! "listen"
 dire:dire VIVINFL-CAUS_T-AOR_IR ; ! "resist"
 dire:dire VTVINFL-CAUS_T-AOR_IR ; ! ""
 diril:diril VIVINFL-CAUS_DIR-AOR_IR ; ! "revive"
