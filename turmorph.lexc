@@ -642,6 +642,7 @@ LEXICON VTVINFL-CAUS_DIR-AOR_IR
 %<v%>%<tv%>: VINFL-COMMON ;
 %<v%>%<tv%>%<abil%>:%>%{bY%}%{A%}bil VINFL-COMMON ;
 %<v%>%<tv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
+%<v%>%<tv%>%<abil%>%<neg%>%<aor%>:%>%{bY%}%{A%}%>m%{A%} V-PERS-G1 ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
 %<v%>%<tv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
@@ -19392,7 +19393,6 @@ yap:yap VTVINFL-CAUS_DIR-AOR_AR ; ! "do, make"
 bekle:bekle VTVINFL-CAUS_T-AOR_IR ; ! ""
 ak:ak VTVINFL-CAUS_IT-AOR_AR ; ! ""
 üş:üş VTVINFL-CAUS_IT-AOR_IR ; ! ""
-al:al VTVINFL-CAUS_DIR-AOR_IR ; ! ""
 çık:çık VTVINFL-CAUS_ART-AOR_AR ; ! ""
 git:gi%{t%} VTVINFL-CAUS_AR-AOR_AR ; ! ""
 kulluk% et:kulluk% e%{t%} VTVINFL-CAUS_AR-AOR_IR ; ! ""
@@ -19401,7 +19401,6 @@ art:art VIVINFL-CAUS_IR-AOR_AR ; ! ""
 üz:üz VTVINFL-CAUS_IRREG-AOR_AR ; ! ""
 
 ak:ak VTVINFL-CAUS_IT-AOR_AR ; ! ""
-al:al VTVINFL-CAUS_DIR-AOR_IR ; ! ""
 aş:aş VTVINFL-CAUS_IR-AOR_AR ; ! ""
 bat:bat VIVINFL-CAUS_IR-AOR_AR ; ! ""
 bekle:bekle VTVINFL-CAUS_T-AOR_IR ; ! ""
