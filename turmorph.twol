@@ -112,9 +112,10 @@ Vx:Vy <=> _ %>: [ :Vow | %{bN%}:0 :Vow | %{bY%}:0 :Vow | %{bS%}:0 :Vow ] ;
 
 "d devoicing in ablative and locative"
 %{D%}:t <=> [ %{k%}:k | %{t%}:t | %{p%}:p | UnvoicedCns ] %>: _ ;
+            %{t%}: %>: _ %{I%}: r ;
 
-"t deletion after t causative"
-t:0 <=>  _ %>: %{D%}:t [ i | ı ] r %>: ;
+"Exception for endings in -{t}"
+%{t%}:0 <=> _ %>: %{D%}: %{I%}: r ; 
 
 "l/n alternation in passive"
 %{LN%}:n <=> [ :Vow | :l ]  %>: _ ;
@@ -141,3 +142,4 @@ t:0 <=>  _ %>: %{D%}:t [ i | ı ] r %>: ;
 
 "{A} deletion from negative before aorist"
 %{A%}:0 <=> %>: m _ %>: %{bI%}: ; 
+
