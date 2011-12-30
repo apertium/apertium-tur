@@ -125,9 +125,12 @@ t:0 <=>  _ %>: %{D%}:t [ i | ı ] r %>: ;
 ! Otherwise it is `l'.
 
 "Exception for verbs de- and ye-"
-%{e%}:0 <=> .#. [ d | y ] _ %>: %{bI%}: ;
+%{e%}:0 <=> .#. [ d | y ] _ %>:  %{bI%}:  ;
           except
             .#. [ d | y ] _ %>: %{bI%}: %{LN%}: ;
+
+"Exception for verbs de- and ye-"
+%{e%}:i <=> .#. [ d | y ] _ %>:  %{bY%}: :e  ;
 
 "Buffer lol"
 %{bI%}:i <=> .#. [ d | y ] :0 %>: _  ; 
