@@ -170,6 +170,7 @@ LEXICON clit-cop
 LEXICON case1                     
 %<loc%>:%>%{D%}%{A%} clit-cop ;
 %<gen%>:%>%{bN%}%{I%}n clit-cop ;
+%<locattr%>:%>%{D%}%{A%}%{K%}i clit-cop ;
 
 LEXICON case2                    
 %<acc%>:%>%{bY%}%{I%} clit-cop ;
@@ -181,6 +182,7 @@ LEXICON case2
 LEXICON case1p3
 %<loc%>:%>%{bN%}d%{A%} clit-cop ;
 %<gen%>:%>%{bN%}%{I%}n clit-cop ;
+%<locattr%>:%>%{bN%}%{D%}%{A%}%{K%}i clit-cop ;
 
 LEXICON case2p3
 %<acc%>:%>%{bN%}%{I%} clit-cop ;
