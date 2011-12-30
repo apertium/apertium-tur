@@ -109,7 +109,7 @@ Vx:Vy <=> _ %>: [ :Vow | %{bN%}:0 :Vow | %{bY%}:0 :Vow | %{bS%}:0 :Vow ] ;
 !  t ->  d : tat  -> tadı
 
 "d devoicing in ablative and locative"
-%{D%}:t <=> [ %{t%}:t | %{p%}:p | UnvoicedCns ] %>: _ ;
+%{D%}:t <=> [ %{k%}:k | %{t%}:t | %{p%}:p | UnvoicedCns ] %>: _ ;
 
 "t deletion after t causative"
 t:0 <=>  _ %>: %{D%}:t [ i | ı ] r %>: ;

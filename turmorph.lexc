@@ -27,6 +27,7 @@ Multichar_Symbols
 %<neg%>       ! Negative
 %<exi%>       ! Existential
 %<cop%>       ! Copula
+%<rel%>       ! Relative
 
 %<top%>       ! Toponym
 %<al%>        ! Others (altres)
@@ -159,11 +160,13 @@ LEXICON clit
 
 %+mi%<qst%>:% m%{I%}%{bS%} poss-end ;
 %+mi%<qst%>:% m%{I%} # ;
+%+%0%<cop%>%<rel%>:%>ken #  ; 
 # ;
 
 LEXICON clit-cop
 
 %+%0%<cop%>: V-PERS-COP-G2-NOSG3 ; 
+%+%0%<cop%>%<past%>:%>%{D%}%{I%} V-PERS-COP-G2 ; 
 
 # ;
 
@@ -300,6 +303,7 @@ CASE2 ;
 LEXICON NINFL
 
 %<n%>: # ; 
+%<n%>: clit-cop ; 
 %<n%>%<attr%>:%>k%{I%} # ;  ! This is the attributive adjective use of -kI, TRmorph <ki>
 %<n%>%<attr%>:%>k%{I%} NINFL-COMMON ; ! This is the attribute adjective 0 derived into a noun, TRmorph <ki>
 %<n%>%<locattr%>:%>%{D%}%{A%}%{k%}i # ;  ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
