@@ -18,6 +18,7 @@ Multichar_Symbols
 %<cnjsub%>    ! Sub-ordinating conjunction (basically 'ki')
 %<cnjadv%>    ! Adverbial conjunction
 
+%<pred%>      ! Predicate
 %<pers%>      ! Personal
 %<ord%>       ! Ordinal
 %<dem%>       ! Demonstrative
@@ -26,7 +27,6 @@ Multichar_Symbols
 %<qnt%>       ! Quantifier
 %<ref%>       ! Reflexive
 %<neg%>       ! Negative
-%<exi%>       ! Existential
 %<cop%>       ! Copula
 %<rel%>       ! Relative
 
@@ -19372,8 +19372,8 @@ tıbben:tıbben ADVINFL ; ! ""
 
 LEXICON Verbs
 
-var%<v%>%<exi%>:var # ;
-yok%<v%>%<neg%>%<exi%>:yok # ;
+var%<pred%>:var # ;
+yok%<pred%>:yok # ;
 
 ol:ol VIVINFL-CAUS_DIR-AOR_IR ; ! "be"
 aç:aç VTVINFL-CAUS_DIR-AOR_AR ; ! "open"
