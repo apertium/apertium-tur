@@ -1,6 +1,8 @@
 * text=auto !eol
 /Makefile -text
 /checked.xae -text
+dev/turkish.py -text
+dev/unknown -text
 /miscategorised.lexc -text
 /turmorph.lexc -text
 /turmorph.twol -text
