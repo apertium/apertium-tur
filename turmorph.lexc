@@ -806,12 +806,13 @@ LEXICON PRONITG
 %<prn%>%<itg%>: # ; 
 %<prn%>%<itg%>: NINFL-COMMON ; 
 
+!! FIXME: This needs fixing
 LEXICON PRONITG-NERE
 
 %<prn%>%<itg%>:e # ; 
 %<prn%>%<itg%>:e NINFL-COMMON ; 
-%<prn%>%<itg%>%<loc%>:de clit ; 
-%<prn%>%<itg%>%<abl%>:den clit ; 
+%<prn%>%<itg%>%<loc%>:de clit ; ! Dir/LR
+%<prn%>%<itg%>%<abl%>:den clit ;  ! Dir/LR
 
 
 LEXICON PRONIND
