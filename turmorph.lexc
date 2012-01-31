@@ -8,6 +8,7 @@ Multichar_Symbols
 %<v%>         ! Verb
 %<prn%>       ! Pronoun
 %<num%>       ! Numeral
+%<adv%>       ! Adverb
 %<adj%>       ! Adjective
 %<det%>       ! Determiner
 %<np%>        ! Proper noun
@@ -19371,6 +19372,7 @@ zihnen:zihnen ADVINFL ; ! ""
 zımnen:zımnen ADVINFL ; ! ""
 zıppadak:zıppada%{k%} ADVINFL ; ! ""
 tıbben:tıbben ADVINFL ; ! ""
+çok:çok ADVINFL ; ! ""
 
 LEXICON Verbs
 
