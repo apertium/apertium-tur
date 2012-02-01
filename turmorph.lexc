@@ -437,7 +437,7 @@ LEXICON V-PERS-OPT-G3
 
 LEXICON V-PERS-IMP-G4
 
-%<p2%>%<sg%>:%>s%{A%}n%{A%} # ;
+%<p2%>%<sg%>:%>s%{A%}n%{A%} # ; ! Dir/LR
 %<p2%>%<sg%>:%> # ;
 %<p2%>%<frm%>%<sg%>:%>%{bY%}%{I%}n #;
 !%<p2%>%<frm%>%<sg%>:%>%{bY%}%{I%}n%{I%}z #;
