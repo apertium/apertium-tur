@@ -1,5 +1,6 @@
 * text=auto !eol
 /Makefile -text
+/TODO -text
 /checked.xae -text
 dev/turkish.py -text
 dev/unknown -text
