@@ -858,8 +858,8 @@ ya:ya CCINFL ; ! "either/or"
 ye:ye CCINFL ; ! "either/or"
 veya:veya CCINFL ; ! "either/or"
 ne:ne CCINFL ; ! "neither/nor"
-da:da CCINFL ; ! ""
-de:de CCINFL ; ! ""
+da:da CCINFL ; ! "" 
+da:de CCINFL ; ! "" ! Dir/LR
 fakat:fakat CCINFL ; ! ""
 
 şöyle% ki:şöyle% ki CAINFL ; ! "so that"
