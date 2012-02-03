@@ -84,7 +84,7 @@ Multichar_Symbols
 
 %<cont%>      ! Present continuous: -{bI}yor
 %<opt%>       ! Optative: -{bY}{A}
-%<past%>      ! Past: -{D}{I}
+%<ifi%>      ! Past: -{D}{I}
 %<evid%>      ! Evidential past: -m{I}ş
 %<imp%>       ! Imperative: -ø
 %<fut%>       ! Future: -{bY}{A}c{A}{k}
@@ -163,13 +163,15 @@ LEXICON clit
 
 %+mi%<qst%>:% m%{I%}%{bS%} poss-end ;
 %+mi%<qst%>:% m%{I%} # ;
-%+%0%<cop%>%<rel%>:%>ken #  ; 
 # ;
 
 LEXICON clit-cop
 
-%+%0%<cop%>: V-PERS-COP-G2-NOSG3 ; 
-%+%0%<cop%>%<past%>:%>%{D%}%{I%} V-PERS-COP-G2 ; 
+%+%i%<cop%>: V-PERS-COP-G2-NOSG3 ; 
+%+%i%<cop%>%<ifi%>:%>%{D%}%{I%} V-PERS-COP-G2 ; 
+%+%i%<cop%>%<evid%>:%>%{bY%}m%{I%}ş V-PERS-COP-G2 ; 
+%+%i%<cop%>%<rel%>:%>ken #  ; 
+clit ;
 
 # ;
 
@@ -469,7 +471,7 @@ LEXICON VINFL-COMMON
 
 %<cont%>:%>%{bI%}yor V-PERS-COP-G2 ;
 %<opt%>:%>%{bY%}%{A%} V-PERS-OPT-G3 ;
-%<past%>:%>%{D%}%{I%} V-PERS-G1 ;
+%<ifi%>:%>%{D%}%{I%} V-PERS-G1 ;
 %<evid%>:%>m%{I%}ş V-PERS-COP-G2 ;
 %<imp%>: V-PERS-IMP-G4 ;
 %<fut%>:%>%{bY%}%{A%}c%{A%}%{k%} V-PERS-COP-G2 ; 
@@ -19378,7 +19380,7 @@ tıbben:tıbben ADVINFL ; ! ""
 LEXICON Verbs
 
 var%<pred%>:var # ;
-yok%<pred%>:yok # ;
+yok%<pred%>:yok clit-cop ;
 
 ol:ol VIVINFL-CAUS_DIR-AOR_IR ; ! "be"
 aç:aç VTVINFL-CAUS_DIR-AOR_AR ; ! "open"

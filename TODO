@@ -2,3 +2,10 @@
 <firespeaker> Let me suggest that it's just <p2><pl>
 <firespeaker> and not <px2pl>
 <firespeaker> that's really lame
+
+$ echo bahçedekinden | hfst-proc tr-cv.automorf.hfst 
+^bahçedekinden/bahçe<n><locattr><px2sg><abl>$
+
+should be: ^bahçedekinden/bahçe<n><locattr><abl>$ 
+
+The -n- is epenthetic pp.68
