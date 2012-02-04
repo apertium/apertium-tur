@@ -902,6 +902,8 @@ ilgiliydi:ilgiliydi POSTINFL ; ! ""
 yukarı:yukarı POSTINFL ; ! ""
 yaklaşık:yaklaşık POSTINFL ; ! "about, circa"
 
+içinde:içinde POSTINFL ; ! "in"
+
 
 LEXICON Pronouns
 
