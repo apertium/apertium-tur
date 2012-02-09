@@ -10014,6 +10014,7 @@ karbüratör:karbüratör NINFL ; ! ""
 karcığar:karcığar NINFL ; ! ""
 kardelen:kardelen NINFL ; ! ""
 kardeş:kardeş NINFL ; ! ""
+kız% kardeş:kız% kardeş NINFL ; ! ""
 kardinal:kardin%{pA%}l NINFL ; ! ""
 kardiyak:kardiyak NINFL ; ! ""
 kardiyograf:kardiyograf NINFL ; ! ""
@@ -15941,6 +15942,9 @@ rölativizm:rölativizm NINFL ; ! ""
 hükümet:hükümet NINFL ; ! "government"
 üyelik:üyelik NINFL ; ! "membership"
 
+an:an NINFL ; ! ""
+
+
 LEXICON ProperNouns
 
 Abhazya:Abhazya NPTOPINFL ; ! "Abkhazia"
@@ -19381,7 +19385,7 @@ tıbben:tıbben ADVINFL ; ! ""
 
 LEXICON Verbs
 
-var%<pred%>:var # ;
+var%<pred%>:var clit-cop ;
 yok%<pred%>:yok clit-cop ;
 
 ol:ol VIVINFL-CAUS_DIR-AOR_IR ; ! "be"
@@ -20261,10 +20265,10 @@ usan:usan VIVINFL-CAUS_DIR-AOR_IR  ; ! "be collected"
 ut:ut VTVINFL-CAUS_DIR-AOR_AR  ; ! "to win in gamble"
 utan:utan VIVINFL-CAUS_DIR-AOR_IR  ; ! "shy"
 uy:uy VIVINFL-CAUS_DIR-AOR_AR  ; ! "adapt"
+uyu:uyu VIVINFL-CAUS_T-AOR_IR  ; ! "sleep"
 uyan:uyan VIVINFL-CAUS_DIR-AOR_IR  ; ! "wake up"
 uyar:uyar VTVINFL-CAUS_DIR-AOR_IR  ; ! "warn"
 uyarla:uyarla VTVINFL-CAUS_T-AOR_IR  ; ! "adjust, adapt"
-uyu:uyu VIVINFL-CAUS_T-AOR_IR  ; ! "sleep"
 uyukla:uyukla VIVINFL-CAUS_T-AOR_IR  ; ! "snooze"
 uyuş:uyuş VIVINFL-CAUS_DIR-AOR_IR  ; ! "run in with"
 üz:üz VTVINFL-CAUS_DIR-AOR_AR  ; ! "upset"
