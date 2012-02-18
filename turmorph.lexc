@@ -720,7 +720,7 @@ LEXICON VTVINFL-CAUS_T-AOR_IR
 
 
 
-LEXICON INTERR
+LEXICON INTERJ
 
 %<ij%>: # ;
 
@@ -1337,6 +1337,8 @@ abdesthane:abdesthane NINFL ; ! ""
 abdülleziz:abdülleziz NINFL ; ! ""
 abece:abece NINFL ; ! ""
 aberasyon:aberasyon NINFL ; ! ""
+ilüstrasyon:ilüstrasyon NINFL ; ! ""
+foto%-ilüstrasyon:foto%-ilüstrasyon NINFL ; ! ""
 abi:abi NINFL ; ! ""
 abide:abide NINFL ; ! ""
 abis:abis NINFL ; ! ""
@@ -17285,6 +17287,7 @@ Scheffer:Scheffer NPCOGINFL ; ! ""
 Bush:Bush NPCOGINFL ; ! ""
 Annan:Annan NPCOGINFL ; ! ""
 Dodik:Dodik NPCOGINFL ; ! ""
+Denktaş:Denktaş NPCOGINFL ; ! ""
 Mladiç:Mladiç NPCOGINFL ; ! ""
 Karamanlis:Karamanlis NPCOGINFL ; ! ""
 Petersen:Petersen NPCOGINFL ; ! ""
@@ -20602,7 +20605,7 @@ der:der VTVINFL-CAUS_DIR-AOR_AR ; ! "collect"
 derle:derle VTVINFL-CAUS_T-AOR_IR ; ! "compile"
 destekle:destekle VIVINFL-CAUS_T-AOR_IR ; ! "support"
 destele:destele VTVINFL-CAUS_T-AOR_IR ; ! "bundle"
-devam et:devam et VTVINFL-CAUS_DIR-AOR_AR ; ! "go on"
+devam% et:devam% et VTVINFL-CAUS_DIR-AOR_AR ; ! "go on"
 devir:devir VTVINFL-CAUS_DIR-AOR_IR ; ! "cut down"
 devral:devral VTVINFL-CAUS_T-AOR_IR ; ! "take over"
 devret:devret VTVINFL-CAUS_DIR-AOR_AR ; ! "assign"
@@ -20833,7 +20836,7 @@ ispatla:ispatla VTVINFL-CAUS_T-AOR_IR ; ! "prove"
 iste:iste VTVINFL-CAUS_T-AOR_IR ; ! "want"
 istifle:istifle VTVINFL-CAUS_T-AOR_IR ; ! "stow"
 it:it VTVINFL-CAUS_DIR-AOR_AR ; ! "push"
-itiraf et:itiraf et VTVINFL-CAUS_DIR-AOR_AR ; ! "confess"
+itiraf% et:itiraf% et VTVINFL-CAUS_DIR-AOR_AR ; ! "confess"
 iv:iv VTVINFL-CAUS_DIR-AOR_AR ; ! "accelarate"
 izle:izle VTVINFL-CAUS_T-AOR_IR ; ! "watch"
 kabar:kabar VIVINFL-CAUS_DIR-AOR_IR ; ! "puff"
@@ -20900,10 +20903,11 @@ uzaksa:uzaksa VTVINFL-CAUS_T-AOR_IR  ; ! "?"
 
 LEXICON Interjections
 
-tabi% ki:tabi% ki INTERR ; ! ""
-tabii% ki:tabii% ki INTERR ; ! ""
-şöyle:şöyle INTERR ; ! ""
-peki:peki INTERR ; ! ""
+tabi% ki:tabi% ki INTERJ ; ! ""
+tabii% ki:tabii% ki INTERJ ; ! ""
+şöyle:şöyle INTERJ ; ! ""
+peki:peki INTERJ ; ! ""
+evet:evet INTERJ ; ! ""
 
 LEXICON Particles 
 
