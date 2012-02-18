@@ -84,7 +84,7 @@ Multichar_Symbols
 
 %<cont%>      ! Present continuous: -{bI}yor
 %<opt%>       ! Optative: -{bY}{A}
-%<ifi%>      ! Past: -{D}{I}
+%<ifi%>       ! Past: -{D}{I}
 %<evid%>      ! Evidential past: -m{I}ş
 %<imp%>       ! Imperative: -ø
 %<fut%>       ! Future: -{bY}{A}c{A}{k}
@@ -168,11 +168,13 @@ LEXICON clit
 LEXICON clit-cop
 
 %+%i%<cop%>:% i V-PERS-COP-G2-NOSG3 ;  ! Dir/LR
-%+%i%<cop%>%<ifi%>:% i%>%{D%}%{I%} V-PERS-COP-G2 ;  ! Dir/LR
+%+%i%<cop%>%<ifi%>:% i%>%{D%}%{I%} V-PERS-G1 ;  ! Dir/LR
+%+%i%<cop%>%<cond%>:% i%>s%{A%} V-PERS-G1 ;  ! Dir/LR
 %+%i%<cop%>%<evid%>:% i%>%{bY%}m%{I%}ş V-PERS-COP-G2 ;  ! Dir/LR
 %+%i%<cop%>%<rel%>:% i%>ken #  ; ! Dir/LR
 %+%i%<cop%>: V-PERS-COP-G2-NOSG3 ; 
-%+%i%<cop%>%<ifi%>:%>%{D%}%{I%} V-PERS-COP-G2 ; 
+%+%i%<cop%>%<ifi%>:%>%{D%}%{I%} V-PERS-G1 ; 
+%+%i%<cop%>%<cond%>:%>%{bY%}s%{A%} V-PERS-G1 ; 
 %+%i%<cop%>%<evid%>:%>%{bY%}m%{I%}ş V-PERS-COP-G2 ; 
 %+%i%<cop%>%<rel%>:%>ken #  ; 
 clit ;
