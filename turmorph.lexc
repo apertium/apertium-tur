@@ -956,6 +956,7 @@ fazla:fazla DETQNT;  ! "much, many"
 çok:ço%{k%} DETQNT; ! "much, many"
 biraz:biraz DETQNT;  ! "a little"
 birçok:birçok DETQNT ;  ! "many"
+birçok:bir% çok DETQNT ;  ! "many" Dir/LR
 
 LEXICON Numerals 
 
