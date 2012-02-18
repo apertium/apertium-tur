@@ -167,6 +167,10 @@ LEXICON clit
 
 LEXICON clit-cop
 
+%+%i%<cop%>:% i V-PERS-COP-G2-NOSG3 ;  ! Dir/LR
+%+%i%<cop%>%<ifi%>:% i%>%{D%}%{I%} V-PERS-COP-G2 ;  ! Dir/LR
+%+%i%<cop%>%<evid%>:% i%>%{bY%}m%{I%}ş V-PERS-COP-G2 ;  ! Dir/LR
+%+%i%<cop%>%<rel%>:% i%>ken #  ; ! Dir/LR
 %+%i%<cop%>: V-PERS-COP-G2-NOSG3 ; 
 %+%i%<cop%>%<ifi%>:%>%{D%}%{I%} V-PERS-COP-G2 ; 
 %+%i%<cop%>%<evid%>:%>%{bY%}m%{I%}ş V-PERS-COP-G2 ; 
@@ -19390,6 +19394,7 @@ LEXICON Verbs
 
 var%<pred%>:var clit-cop ;
 yok%<pred%>:yok clit-cop ;
+değil%<pred%>:değil clit-cop ;
 
 ol:ol VIVINFL-CAUS_DIR-AOR_IR ; ! "be"
 aç:aç VTVINFL-CAUS_DIR-AOR_AR ; ! "open"
