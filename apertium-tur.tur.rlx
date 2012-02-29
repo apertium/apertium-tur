@@ -1,0 +1,702 @@
+###############################################################################
+#
+#	A Constraint Grammar Disambiguator for Turkish
+#
+#
+###############################################################################
+
+###=============================================================================###
+#                           TABLE OF CONTENTS                                   ###
+###################################################################################
+
+
+
+
+
+## DELIMITERS##
+## These delimiters will be useful later on ##
+
+DELIMITERS = "<.>" "<!>" "<?>" ;
+SOFT-DELIMITERS = "<,>" ;
+
+LIST BOS = (>>>) sent ; # Beginning of sentence
+LIST EOS = (<<<) sent ; # End of sentence
+
+### POS ###
+
+
+LIST N = n ;
+LIST NP = np ;
+## We handle NP separately cause NP has some particularities in turkish ##
+
+LIST N-ALL = (n) (np) ;
+
+## This is for when we don't care if it is either N or NP
+
+LIST V = (v) (exist) (nexist) (not) ;
+
+## Exist, nexist and not are rispectively var/yok/değil. They take the place of verbs.
+
+
+LIST V/SP = (exist) (nexist) ;
+
+## Category to handle var and yok
+
+LIST PUNCT = pnct ;
+LIST A = adj ;
+LIST KI = attr ;
+LIST Pred = pred ;
+LIST Adv = adv ;
+LIST Prop = np ;
+LIST Det = det ;
+LIST Post = post ;
+LIST Pron = prn ;
+LIST CC = cnjcoo ;
+LIST CS = cnjsub ;
+LIST CA = cnjadv ;
+LIST Num = num ;
+LIST IJ = ij ;
+LIST NOT = ("yok" pred) ;
+LIST NP = np ;
+LIST Plu = pl ;
+LIST Qst = qst ;
+LIST Neg = neg ;
+LIST Cm = cm ("," cm);
+
+LIST Cog = cog;
+LIST Ant = ant;
+LIST Top = top;
+
+LIST Conju = cm ("," cm)  (cnjcoo) ;
+
+##THIS IS USEFUL FOR ENUMERATION (ex. Gianluca, Francis and Jonathan drink too much beer)
+
+## TYPE OF VERBS ##
+
+LIST V/ACC = v ;
+
+## Verbs taking accusative for the object
+
+LIST V/DAT =  v ;
+
+## Verbs taking dative for the object
+
+LIST V/ABS = v ;
+
+## Verbs with no case marking for the object
+
+LIST V/INT = v ;
+
+## Intransitive verbs
+
+LIST V/Caus = caus ;
+
+## Verbs in the causative form 
+
+LIST Exist = pred ;
+
+## Same as V/SP, do we really need this?
+
+
+LIST PrPers = (prn pers) ;
+
+
+
+## CASES
+
+LIST Acc = (acc) ;
+LIST Dat = (dat) ;
+LIST Gen = (gen) ;
+LIST Ins = (ins) ;
+LIST Abl = (abl) ;
+LIST Loc = (loc) ;
+
+LIST MARKED-Cases = (acc dat gen ins abl loc) ;
+
+SET Abs = N - MARKED-Cases ;
+
+##Nouns in their pure form
+
+
+##PRESENT COPULA MARKERS
+
+LIST Sg1 = ("0" cop p1 sg) ;
+LIST Sg2 = ("0" cop p2 sg) ;
+LIST Sg3 = ("0" cop p3 sg) ;
+LIST Pl1 = ("0" cop p1 sg) ;
+LIST Pl2 = ("0" cop p2 sg) ;
+LIST Pl3 = ("0" cop p3 sg) ;
+
+SET Be = Sg1 | Sg2 | Sg3 | Pl1 | Pl2 | Pl3 ;
+
+## Possessives
+
+LIST PxSg1 = (px1sg) ;
+LIST PxSg2 = (px2sg) ;
+LIST PxSg3 = (px3sg) ;
+LIST PxPl1 = (px1pl) ;
+LIST PxPl2 = (px2pl) ;
+LIST PxPl3 = (px3pl) ;
+
+LIST Poss = (px1sg) (px2sg) (px3sg) (px1pl) (px2pl) (px3pl) ;
+
+## Verbal moods 
+ 
+LIST Imper = imp ;
+LIST Part = part_yan ;
+
+LIST Prc/acak = (part_acak) ;
+
+## CONVERBS
+
+LIST CV-MARKER = (cv) (cv_dik) (cv_acak) (cv_ma) (cv_mak) (cv_dan) (cv_zdan) (cv_ince)  (cv_eli) (cv_ene) (cv_ir) (cv_ar) (cv_ecek) (cv_mis) (cv_iyor) (cv_cesine) (cv_ip);
+
+## VERBAL NOUNS
+
+LIST VN/acak = (vn_acak) ;
+LIST VN/mak = (vn_mak) ;
+LIST VN/dik = (vn_dik) ;
+LIST VN/ma = (vn_ma) ;
+LIST VN/mak = (vn_mak) ;
+LIST VN/yis = (vn_yis) ;
+LIST CP/ken = (v cpl_ken) ;
+LIST CV/mak = (cv_mak) ;
+LIST CV/dik = (cv_dik) ;
+
+
+##DERIVATIVES
+
+LIST Der/0/Adv→N = (adv Dan_0 n) ;
+LIST Der/ki = (adv ki) ;
+LIST Der/0/A→N = (adj Djn_0 n) ;
+LIST Der/lAn = (n D_lAn v) ;
+LIST Der/CI = (v D_CI n) ;
+LIST Der/yIS = (v D_yIS n) ;
+LIST Der/lIk = (n D_lIK n) ;
+LIST Der/lI = (n D_lI n) ;
+
+LIST Der/mA = (v D_mA n) ;
+LIST Der/lA = (n D_lA v) (adj D_lA v) ;
+LIST NP/Sal = (np D_sAl) ;
+LIST N/Sal = (n D_sAl) ;
+LIST A/Sal = (adj D_sAl) ;
+LIST Adv/Dan = (adv Dan_0 n) ;
+LIST N/dcak = (n dcak n) ;
+LIST N/ci = (n ci n) ;
+LIST N/lI = (n dli) ;
+LIST Num/Dmn_O = (num Dmn_0 n) ;
+LIST Der/d_ci/n = (n d_ci *n) ;
+LIST Der/d_ci/a = (n D_CI adj) ;
+LIST Der/d_ci = (n D_CI) ;
+LIST Der/d_cak = (n d_cak n) ;
+LIST Der/npci  = (np d_ci n) ;
+LIST A/Der0/n = (adj Djn_0 n) ;
+LIST NP/D_CI/adj = (np D_CI adj) ;
+LIST Der/yIcI = (v Dvn_yIcI adj) ;
+
+## 
+
+LIST POST-ABS = ("bakımdan"i post) ("hakkında"i post) ("tarafından"i post) ("yüzünden"i post) ("için"i post) ;
+LIST POST-DAT = ("doğru"i post) ("göre"i post) ("kadar"i post) ("karşı"i post)  ("karşın"i post) ;
+LIST POST-ABL = ("önce"i post) ("sonra"i post) ("beri"i post) ("itibaren"i post) ("dolayı"i post) ("başka"i post) ("rağmen"i post) ("yana"i post) ;
+LIST POST-TEM = ("sırasında"i N PxSg3 loc *3s) ;
+LIST POST-MAK = ("için"i post) ;
+LIST POST-GEN = ("yakında"i post) ("ortasında" post) ("üstünde" post) ("altında" post) ;
+
+LIST V-REPORTED-SPEECH = ("de" v) ("söyle" v); 
+
+LIST Aor = aor ;
+LIST Past = past ;
+
+LIST FINITE = narr aor cont fut past pred cpl_di cpl_mis t_makta ;
+
+SET FINITE-NOSUB = FINITE - CP/ken ;
+
+SET PERS = Sg1 | Sg2 | Sg3 | Pl1 | Pl2 | Pl3 ;
+SET POSS = PxSg1 | PxSg2 | PxSg3 | PxPl1 | PxPl2 | PxPl3 ;
+SET NOMINAL = N | A ;
+SET NOM-OR-PRO = NOMINAL | Pron ;
+SET CASES = Acc | Gen | Dat | Abl | Loc | Ins ;
+SET WORD = N | A | V | Det | Post | Pron | CC | CS ;
+SET ABS = N - CASES ;
+
+SET VN = VN/acak | VN/dik | VN/ma | VN/mak | VN/yis ; 
+
+SET OBL-CASE = Acc | Dat | Gen | Ins | Abl ;
+
+SET CLB = CP/ken ;
+
+
+SECTION
+
+###############################################################################
+## Bad rules
+###############################################################################
+
+
+#REMOVE Imper IF (0 N) ;
+REMOVE Imper IF (0 ("değil"i)) ;
+
+###############################################################################
+## Remove redundant derivations 
+###############################################################################
+# Derivations are cool, and should be included for sure in a serious morphological analysis
+# We don't want them in the transfer though, cause they are problematic to handle
+#
+
+REMOVE Adv IF (0 A) (0 (adv ki)) ;
+
+REMOVE NP/Sal ;
+
+REMOVE N/Sal ;
+
+REMOVE A/Sal ;
+
+Remove Der/npci ;
+
+REMOVE N/dcak ;
+
+REMOVE Adv/Dan;
+
+REMOVE A/Der0/n ;
+REMOVE NP/D_CI/adj IF (0 A) ;
+
+
+REMOVE Num/Dmn_O ;
+     ## We really don't want those derivations
+
+
+REMOVE Der/0/A→N IF (0 Der/0/A→N) (0 N) (NOT 1 EOS);
+    ## içindekiler
+    
+REMOVE Der/0/A→N IF (0 Der/0/A→N) (0 A) (NOT 1 EOS);
+
+REMOVE Der/lI IF (0 Der/lI) (0 A OR N) ; 
+
+REMOVE Der/0/Adv→N IF (0 Der/0/Adv→N) (0 Adv);
+    ## Yemek sırasında İsa eline ekmek aldı, şükredip ekmeği böldü ve öğrencilerine verdi.
+
+REMOVE Der/CI IF (0 N) (0 Der/CI) ;
+    ## Yemek sırasında İsa eline ekmek aldı, şükredip ekmeği böldü ve öğrencilerine verdi.
+
+REMOVE Der/lAn IF (0 V) ;
+    ## Aslında MKK'nin iki yıllık bir proje olması planlanmış.
+
+REMOVE Der/yIS IF (0 N) (0 Der/yIS) ;
+    ## Bilişim ve haberleşe teknolijlerinin asıl altyapı göstergelerinde biri olan telefon iletişimi ülke halkının en çok istifade ettiği iletişim aracı olmaya devam etmektedir. 
+
+REMOVE Der/lIk IF (0 N) (0 Der/lIk) ;
+    ## 
+
+REMOVE Der/mA IF (NOT 0C V) (0 Der/mA) ;
+
+   ## THE RULE removes Der/mA just if [0] has some other reading than v (like n)
+
+REMOVE Der/lA IF (0 Der/lA) ;
+
+REMOVE Der/d_ci/n IF (0 Der/d_ci/n) ;
+
+    ## All of this DER/* rules are to cut out derivatives, which are cool but create problems during the translation
+    
+REMOVE Der/d_ci/a IF (0 Der/d_ci/a) ;
+REMOVE Der/d_ci IF (0 Der/d_ci) ;
+REMOVE Der/d_cak IF (0 Der/d_cak) ;
+
+# This is horrid
+REMOVE (v pass) IF (0 ("[a-z]+[aeiou]l"ri v) - (pass));
+    ## Ancak genç pilot, kendisinin de gerildiğini itiraf ediyor.
+
+SELECT N IF (0C VN/acak OR N) ;
+    ## Yaptıkları her şeyi not ediyorum; bir arkadaşlık ilişkimiz var, onlar benim [0]gelecekteki çalışma arkadaşlarım." diyor.
+
+REMOVE Der/yIcI IF (0C Der/yIcI OR A) ;
+    ## Sonuç olarak EUFOR askerleri son zamanlarda meydana gelen uyuşturucu ve diğer yasadışı ve kaçak mal baskınlarında önemli rol oynadılar.
+
+###############################################################################
+## NP internal
+###############################################################################
+
+REMOVE Dat IF (1C Dat) ; 
+    ## Rule 1
+    ## Yemek sırasında İsa eline ekmek aldı, şükredip ekmeği böldü ve öğrencilerine verdi.
+
+REMOVE Acc IF (NOT 0 POSS) (-1 Gen);
+    ## Rule 2
+
+
+
+SELECT N + PxSg2 IF (-1 Sg2 + Gen) ;
+    ## Rule 4
+
+###############################################################################
+## Disambiguate postpositions 
+###############################################################################
+
+REMOVE Acc IF (1C POST-ABS) ;
+    ## Rule 5
+
+SELECT Abl IF (1C POST-ABL) ;
+    ## Rule 6
+
+REMOVE POST-ABS IF (-1C OBL-CASE);
+    ## Rule 7
+    ## 
+    ## 
+    
+REMOVE CC IF (1 EOS) ;
+
+   ## Rule 30
+   ## The reading cnjcoo is dropped if it is at the end of the sentence
+   ## Hepiniz bundan için.
+
+###############################################################################
+
+## REMOVE NOM-OR-PRO + Sg3 IF (1C* V + PERS BARRIER EOS) ;
+    ## Rule 8
+    ## Ondan sonraysa yüzde 6,75'e yükseliyor.
+    ## Eve girmekteyken, bir şey hatırladım.
+
+SELECT V IF (0 N) (0 FINITE) (1 EOS);
+    ## Rule 9
+    ## Içerler
+    ## BUGGED: Ne güzel bir yer! [0]yer gets selected as v, while it is n
+   
+REMOVE V IF (0 V) (0 NOT)  (NOT 1* WORD  BARRIER EOS);
+    ## Rule 10
+
+REMOVE CV-MARKER IF (NOT 1* WORD BARRIER EOS) ;
+    ## Rule 11
+    ## Ahmet dersine çalışıyor.
+    ## Çok içmiş gibi konuşuyor.
+
+## REMOVE Imper IF (NOT 1* ("!")) ;
+    ## Rule 12 
+
+REMOVE CV-MARKER IF (0 N) (0 CV-MARKER)  ; 
+    ## Rule 13
+    ## Yemek sırasında İsa eline ekmek aldı, şükredip ekmeği böldü ve öğrencilerine verdi.
+
+REMOVE CV-MARKER IF (0 V) (0 CV-MARKER) (1 ("ki"i)) ;
+
+   ## Rule 14
+   ## Converbs cannot be before "ki", so that this rule takes CV out when followed by ki
+
+REMOVE CV-MARKER IF (0 V) (1 FINITE) ;
+
+
+REMOVE VN IF (0 N) (0 VN)  (1 POST-TEM) ;
+    
+    ## Rule 15
+    ## [0]Yemek sırasında İsa eline ekmek aldı, şükredip ekmeği böldü ve öğrencilerine verdi.
+
+REMOVE N IF (0 N) (0 A) (1 Num) (2 N) ;
+    
+    ## Rule 16
+    ## This is a really common structure in turkish Adj + Bir + N
+    ## [0]yeni bir araba
+
+SELECT Det IF (0 A) (0 Num) (0 Det) (-1 A) ;
+    ## Rule 17
+    ## yeni [0]bir now selects A+Det
+    
+SELECT Det if (0 Num) (0 Det) (1 N) ;
+    
+    ## Rule 18
+    ## [0]bir orman now selects Det+Num
+    
+    
+REMOVE N IF (0 A) (0 ABS) (NOT 0 Adv)  (1 N) (NOT 1 Ins) (NOT 1 NP);
+
+     ## Rule 19
+     ## This rule removes the reading of [0] as noun in case it has no INSTRUMENTAL CASE, which is used in turkish as
+     ## conjunction sometimes
+     ## [0]aynı anda ## Forms of the type Yeniyle Motosiklet are left <n> + <n>
+     
+
+
+     
+SELECT Post IF (0 POST-ABL) (-1 Abl) ;
+SELECT Abl IF (1 POST-ABL) ;
+
+     ## Rule 19-a
+
+## If [0] is a post-abl (read above, a postposition coming after an ablative case) and all the readings of [-1] have ablative, it's safe to select
+## postp for [0]
+## Saat [-1]iki-den [1] sonra
+
+SELECT Post IF (0 POST-DAT) (-1 Dat) ;
+SELECT Dat IF (1 POST-DAT) ;
+
+## Rule 19-b
+## Same as above, but with dative
+
+SELECT Post IF (0 POST-GEN) (-1 Gen) ;
+SELECT Gen IF (1 POST-GEN) ;
+
+SELECT Post IF (0 POST-ABS) (-1 ABS) ;
+SELECT ABS IF (1 POST-ABS) ;
+     
+
+
+SELECT Post if (-1 VN/mak);
+SELECT VN/mak if (1 POST-MAK) ;
+
+## Rule 19-c-d
+##Same as above, but with cv/mak
+
+REMOVE N IF (-1 ABS) (0 ABS) (0 Adv);
+
+   ## Rule 19-d
+   ## öğrenciler [0]sürekli konuşuyorlar
+   
+
+
+     
+SELECT N if (0 ("Günaydın"i)) ;
+
+    ## Rule 20
+    ## TO BE REMOVED, it is really disgusting!
+    
+SELECT Num if (0 N) (1C A) (2C N) ;
+
+ ## RULE 20-b
+ ## Bu [0]dokuz genç pilotun ...
+
+
+SELECT Adv IF (0 ("en"i)) (1 A) ;
+SELECT Adv IF (0 ("en"i)) (-1 Gen)  ;
+SELECT A IF (-1 ("en"i)) (-2C Gen) ;
+    
+    ## Rule 21 
+    ## This rule selects <adv> for "en" in case it is followed by an adjective
+    ## Dünyanın [0]en güzel kızı evime geldi.
+    
+
+REMOVE PxSg2 IF (0 ("dünya"i)) (0C Gen) (1 ("en"i)) (NOT -1 ("senin"i));
+    
+    ## Rule 23
+    ## [0]Dünyanın en güzel kızı evime geldi.
+    
+REMOVE N IF (0 ("verdi"i)) ((-2 Dat) OR (-1 Dat)) ;
+
+  ## Rule 24
+  ## vermek has such a structure [dat ?unmarked? vermek]
+  ## Bana ekmek [0]verdi
+  ## Bana [0]verdi
+  ## This rule removes the reading of verdi as <n> in case we have a dative in -2 or -1 position
+    
+SELECT V IF (NOT 0 Imper) (NOT -1* FINITE-NOSUB BARRIER CLB) (0 FINITE-NOSUB) (NOT 1* FINITE-NOSUB BARRIER EOS) ;
+
+  ## Rule 25
+  ## This rule, where there is ambiguity for the [0]word, checks if any word preceding [0]
+  ## is a finite verb. If not, it select, where possible, the [0]word as a verb.
+  ## To be checked!!
+  
+SELECT V IF (0 V/SP) (-1 Poss) ;
+
+    ## Rule 26
+    ## Test RULE. Selects V (i.e. in this case exist or nexist realized as var/yok) if the precedent word has
+    ## a possessive in it. It's the typical construction for turkish for "to have" poss + var.
+    ## Dikkat: It should be done probably for all the finite verbs in place of V/SP
+    ## Problems: Bilim var! == i have information or "there is science"
+
+SELECT Poss IF (1 V/SP) ;
+
+   ## Rule 27
+   ## If the following word is V/SP (i.e. var or yok), Poss is selected over the verb "to be" (in the morph
+   ## analyzer 1s2s3s 1p2p3p
+   
+#REMOVE Acc IF (0 PxSg3) (-1 ABS) (-1 N) ;
+
+  ## Rule 28
+  ## This rule should select Possessive for patterns like N + N+poss. This patterns are called "unmarked compound noun"
+  ## i.e. compound nouns where the first noun is not marked with GEN. N has to be replaced with ABS later on.
+  ## Doesn't work well: bu aksam disari cikiyoruz
+  ##                    Neden bunu yapıyor?
+
+SELECT Dat if (0 N) (1 POST-DAT) ;
+
+ ## Rule 30
+ ## Same as rule 29
+ 
+
+REMOVE (v rec caus) IF (0 ("araştır"i)) ;
+REMOVE (v rec) IF (0 ("bul"i)) ;
+REMOVE (v rec) IF (0 ("sık"i)) ;
+REMOVE (v rec) IF (0 ("kalk"i)) ;
+
+
+
+REMOVE A IF (0 A) (0 Det) (-1 A) (1 N) ;
+
+## Siz çok iyi [0]bir doktorsunuz.
+
+REMOVE Det IF (0 Adv) (0 Det) (1 A) ; 
+
+## Siz [0]çok iyi bir doktorsunuz.
+
+REMOVE Sg3 IF (0 Sg3) (1* FINITE BARRIER EOS) ;
+
+REMOVE Sg3 IF (NOT 0 FINITE) (0 Sg3) (1 Sg3) ;
+
+## [0]Murat banyodaydı now removes 3s output for [0] if [1]  has copula or 3s
+## It is impossible to have a 3s (It is Murat) if there is a cpl after it or another 3s.
+    
+    
+REMOVE PxSg2 IF (NOT -1 ("sen"i)) ;
+
+REMOVE PxSg1 IF (NOT -1 ("ben"i)) (NOT -2 ("ben"i)) (NOT 1 ("lazım"i)) ;
+
+REMOVE Det IF (1 (",")) ;
+
+REMOVE PxPl3 IF (NOT -1 Gen OR ABS) ;
+
+REMOVE FINITE IF (1 ("lazım"i)) ;
+
+REMOVE PxSg3 IF ((NOT -1 Gen OR ABS OR BOS) OR (NOT -2 Gen OR ABS OR BOS));
+
+## These rules are used to remove possessives when we are "almost"
+## certain that it cannot be so. It doesn't remove Poss in case of -1 ABS 
+## since turkish has a construction of compound noun in the form of N+ABS
+
+
+REMOVE IJ if (NOT 1* ("!"));
+
+SELECT Det IF (0 ("bu"i)) (1C N) ;
+
+## [0]Bu fikre. When followed by a name, bu can rarely be a Pron
+
+
+REMOVE Plu IF (-1 Num) ;
+
+## Removes the plural reading of [0] when the previous word is a numeral. In turkish
+## sentences like "two apples" are actually "two apple", if there is a numeral before the plural is skipped
+
+REMOVE Acc IF (-1 Gen) ;
+
+## Constructions like "Buranın adı". Adı there is possessive, possessed by [-1] in genitive
+
+REMOVE A IF (1C V) ;
+
+## Adjectives can't be located before verbs
+
+REMOVE Imper IF (1 FINITE) ;
+
+## Removes Imperative if followed by a finite verb
+
+
+SELECT FINITE IF (0 N) (1 EOS) (NOT -1* FINITE BARRIER CLB);
+
+
+## Rule 0100
+## This rule select "to be" (which is mute for the 3d person) in case we have a N
+## in the final position.
+
+SELECT Exist IF (-1 Poss) ;
+
+## Selects var<exist> in case [-1] has a possessive suffix
+
+SELECT Exist IF (-1 Loc) ;
+
+## Selects var<exist> in case [-1] is in locative case
+
+SELECT Acc IF (-1 Abl) (0 ("bir"i)) ;
+
+SELECT A IF (0 Part) ;
+
+## When we meet a participle, which has been lexicalized as Adjective as well, we select Adj
+## [0]geçen yıl
+
+SELECT FINITE IF (1 EOS) ;
+
+REMOVE Plu IF (0 Pron) ;
+
+## Rule to remove pl reading from Pron [0]onlar
+## Not really sure that onlar should be read as onlar 3p
+## Check TRMORPH
+  
+SELECT Prop (-2C Prop) (-1 Conju) (0 Prop) ; 
+   ## Sandra, [0]Ana ve Anja'nın okula kabul edildiği 2007 yılından bu yana, başka hiçbir kadın okula girmeyi başaramadı.
+   ## Ahmet ve [0]Ana bahçedeler.
+
+SELECT Prop (-1 BOS) (0 Prop) (NOT 1 NOMINAL);
+   ## Ana[0] yavaşça bahçenin içinde geziniyor.
+
+REMOVE Acc (0 Acc OR PxSg3) (1C* Acc BARRIER CLB) (NOT 1* V/Caus BARRIER CLB) ;
+REMOVE Acc (0 Acc OR PxSg3) (-1C* Acc BARRIER CLB) (NOT 1* V/Caus BARRIER CLB) ;
+   ## [0]Yaşıtları daha araba kullanmayı yeni öğrenirken, Radovanoviç bir savaş uçağına 4.000m irtifada, 700km/sa hızla manevra yaptırıyor.
+   ## Yaşıtları daha araba kullanmayı [0]yeni öğrenirken, Radovanoviç bir savaş uçağına 4.000m irtifada, 700km/sa hızla manevra yaptırıyor.
+
+SELECT Adv IF (0 ("asla"i)) (1C Neg) ;
+
+## Asla means "never", if followed by a verb in a negative form, it is pretty safe to say that it is adv, and not as+la
+## [0]asla unutmayacağım
+
+SELECT ("kadın"i) ;
+
+SELECT Num IF (1 CA) (2 N) (3 V/SP) ;
+
+## [0]altı da erker var
+## altı selects Num now
+
+REMOVE Imper IF (NOT 1 EOS) ;
+
+SELECT ABS IF (-1 ("ve"i)) (-2 ABS) ;
+
+##Anne ve [0]babalar
+
+REMOVE Post IF (NOT -1 N) ;
+
+REMOVE Prc/acak IF (NOT 0 ABS); 
+## "Yaptıkları her şeyi not ediyorum; bir arkadaşlık ilişkimiz var, onlar benim [0]gelecekteki çalışma arkadaşlarım." diyor.
+
+
+REMOVE Dat IF (1 PUNCT) ;
+
+REMOVE Past IF (1 V) ;
+## Polislerin hepsi [0]yardım etmek istemeyebiliyor.
+
+REMOVE (cpl_di) IF (1 VN/mak LINK 1 V) ;
+## Polislerin hepsi [0]yardım etmek istemeyebiliyor.
+
+REMOVE Aor IF (1 CV/dik);
+## [0]Gerçekler oldukça çatışan sinyaller vermektedir.
+
+
+#REMOVE Post IF (-1C 
+## Bir sabah oralardan geçmekte olan bir prens tabutu ve [0]içindeki güzel kızı görmüş.
+
+REMOVE N IF (0C N OR NP) (1C Cog);
+##[0]Murat Arafat geldi
+
+REMOVE CA IF (0 ("ki"i)) (0 CA OR CS) (-1 V-REPORTED-SPEECH);
+## Gözlerimi açtım [0]ki hastanedeyim.
+
+REMOVE CS IF (0 ("ki"i)) (0 CA OR CS) (NOT -1 V-REPORTED-SPEECH);
+## Gözlerimi açtım [0]ki hastanedeyim.
+
+REMOVE Imper (0 Imper OR (acr)) (0 ("<[A-Z]\+>"r));
+
+SELECT Imper IF (0 (imp p2 sg)) (0 (ger1)) (1 ("!" sent));
+
+REMOVE Imper IF (0 (imp p2 sg)) (0 (pred)) (NOT 1* ("!" sent) BARRIER (sent));
+
+SELECT A IF (-1 ("en")) (0 A OR Adv) (1 N);
+    ## En [0]güzel kız evime geldi.
+
+REMOVE Imper IF (1 Qst);
+    ## Ana'nın de köpeği var mı? 
+
+REMOVE Imper IF (-1 Det);
+    ## Bu bir oyun.
+
+REMOVE Adv IF (0 Adv OR A) (-1 ("çok"));
+    ## Hava bugün çok güzel, yeterince sıcak.
+
+SELECT Prop IF (0 ("<[A-Z]\+>"r)) (0 A OR Prop) (NOT 1C N);
+
+SELECT Pred IF (0 Pred OR N) (1 (sent));
+    ## O gün paramız yoktu.
+    
+SELECT Det if (0 ("bir")) (1C N) ;
+    ## O başka bir hayvan ya da bir kuş 
