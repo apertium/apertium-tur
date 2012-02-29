@@ -1,7 +1,7 @@
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-tur], [0.1.0], [mipasov@gmail.com])
-AM_INIT_AUTOMAKE([apertium-tur], [0.1.0], no-define)
+AC_INIT([apertium-tur], [1.0.0], [francis.tyers@gmail.com])
+AM_INIT_AUTOMAKE([apertium-tur], [1.0.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 
@@ -81,4 +81,15 @@ then
   AC_MSG_ERROR([You don't have cg-comp installed.])
 fi
 
-AC_OUTPUT([Makefile])
+AC_PATH_PROG(PKG_CONFIG, pkg-config, no)
+if test x$ac_cv_path_PKG_CONFIG = x
+then
+  AC_MSG_ERROR([You don't have pkg-config installed.])
+fi
+if test x$ac_cv_path_PKG_CONFIG = xno
+then
+  AC_MSG_ERROR([You don't have pkg-config installed.])
+fi
+
+
+AC_OUTPUT([Makefile apertium-tur-1.0.pc])
