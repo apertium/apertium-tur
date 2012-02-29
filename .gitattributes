@@ -1,9 +1,14 @@
 * text=auto !eol
 /Makefile -text
 /TODO -text
+/apertium-tur.tur.lexc -text
+/apertium-tur.tur.twol -text
 /checked.xae -text
+dev/adv -text
+dev/adv.checked -text
+dev/checked.xae -text
+dev/miscategorised.lexc -text
+dev/proof-lexicon.sh -text
 dev/turkish.py -text
 dev/unknown -text
-/miscategorised.lexc -text
-/turmorph.lexc -text
-/turmorph.twol -text
+dev/verb-morph.lexc -text
