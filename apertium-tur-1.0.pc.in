@@ -1,7 +1,6 @@
 prefix=@prefix@
+exec_prefix=${prefix}
 libdir=@libdir@
-execdir=@execdir@
-sharedir=@sharedir@
 
 Name: apertium-tur
 Description: Finite-state morphological transducer and constraint grammar for Turkish
