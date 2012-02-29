@@ -1,0 +1,7 @@
+prefix=@prefix@
+libdir=@libdir@
+sharedir=@sharedir@
+
+Name: apertium-tur
+Description: Finite-state morphological transducer and constraint grammar for Turkish
+Version: @VERSION@

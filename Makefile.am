@@ -51,10 +51,12 @@ $(LANG1).automorf.hfst: .deps/$(LANG1).LR.hfst
 $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
 	cg-comp $< $@
 
-
 ###############################################################################
 ## Installation stuff
 ###############################################################################
+#
+#   apertium_tr_ttdir:    This is where the compiled binaries go
+#   apertium_tr_ttsrcdir: This is where the source files go
 
 apertium_tr_ttdir=$(prefix)/lib/apertium/$(BASENAME)/
 apertium_tr_ttsrcdir=$(prefix)/share/apertium/$(BASENAME)/
@@ -71,4 +73,4 @@ install-data-local:
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).twol $(DESTDIR)$(apertium_tr_ttsrcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_tr_ttsrcdir)
 
-
+CLEANFILES = -r $(TARGETS_COMMON) .deps/
