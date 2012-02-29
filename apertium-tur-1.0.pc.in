@@ -1,5 +1,6 @@
 prefix=@prefix@
 libdir=@libdir@
+execdir=@execdir@
 sharedir=@sharedir@
 
 Name: apertium-tur

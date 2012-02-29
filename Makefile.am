@@ -11,7 +11,7 @@ TARGETS_COMMON = $(LANG1).automorf.hfst $(LANG1).autogen.hfst \
         $(LANG1).rlx.bin
 
 ###############################################################################
-## tur transducer
+## Turkish transducer
 ###############################################################################
 
 .deps/$(LANG1).twol.hfst: $(BASENAME).$(LANG1).twol
@@ -55,22 +55,22 @@ $(LANG1).rlx.bin: $(BASENAME).$(LANG1).rlx
 ## Installation stuff
 ###############################################################################
 #
-#   apertium_tr_ttdir:    This is where the compiled binaries go
-#   apertium_tr_ttsrcdir: This is where the source files go
+#   apertium_tur_libdir: This is where the compiled binaries go
+#   apertium_tur_srcdir: This is where the source files go
 
-apertium_tr_ttdir=$(prefix)/lib/apertium/$(BASENAME)/
-apertium_tr_ttsrcdir=$(prefix)/share/apertium/$(BASENAME)/
+apertium_turdir=$(prefix)/lib/apertium/$(BASENAME)/
+apertium_tur_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-apertium_tr_tt_DATA=$(LANG1).automorf.hfst $(LANG1).autogen.hfst \
+apertium_tur_DATA=$(LANG1).automorf.hfst $(LANG1).autogen.hfst \
 		    $(LANG1).rlx.bin
 
 pkgconfigdir = $(libdir)/pkgconfig
 pkgconfig_DATA = $(BASENAME)-$(RELEASE).pc
 
 install-data-local:
-	if [ ! -d $(DESTDIR)$(apertium_tr_ttsrcdir) ]; then mkdir -p $(DESTDIR)$(apertium_tr_ttsrcdir); fi
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).lexc $(DESTDIR)$(apertium_tr_ttsrcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).twol $(DESTDIR)$(apertium_tr_ttsrcdir)
-	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_tr_ttsrcdir)
+	if [ ! -d $(DESTDIR)$(apertium_tur_srcdir) ]; then mkdir -p $(DESTDIR)$(apertium_tur_srcdir); fi
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).lexc $(DESTDIR)$(apertium_tur_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).twol $(DESTDIR)$(apertium_tur_srcdir)
+	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_tur_srcdir)
 
 CLEANFILES = -r $(TARGETS_COMMON) .deps/
