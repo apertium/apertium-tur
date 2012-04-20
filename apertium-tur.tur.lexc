@@ -2906,7 +2906,6 @@ beyaban:beyaban NINFL ; ! ""
 beyan:beyan NINFL ; ! ""
 beyanat:beyanat NINFL ; ! ""
 beyanname:beyanname NINFL ; ! ""
-beyaz:beyaz NINFL ; ! ""
 beyazlık:beyazlı%{k%} NINFL ; ! ""
 beyazsinek:beyazsine%{k%} NINFL ; ! ""
 beyaztilki:beyaztilki NINFL ; ! ""
@@ -18181,6 +18180,7 @@ bTV:bTV%{nin%} NPACRINFL ; ! "bTV'nin"
 
 LEXICON Adjectives 
 
+beyaz:beyaz AINFL ; ! "white"
 özel:özel AINFL ; ! "special, private"
 kırmızı:kırmızı AINFL ; ! "red"
 genel:genel AINFL ; ! "general"
