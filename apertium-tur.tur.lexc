@@ -8,7 +8,7 @@ Multichar_Symbols
 %<v%>         ! Verb
 %<prn%>       ! Pronoun
 %<num%>       ! Numeral
-%<adv%>       ! Adverb
+%<adv%>       ! Adverb multichar
 %<adj%>       ! Adjective
 %<det%>       ! Determiner
 %<np%>        ! Proper noun
@@ -20,6 +20,8 @@ Multichar_Symbols
 %<cnjadv%>    ! Adverbial conjunction
 
 %<pred%>      ! Predicate
+%<subst%>     ! Substantive
+
 %<pers%>      ! Personal
 %<ord%>       ! Ordinal
 %<dem%>       ! Demonstrative
@@ -72,19 +74,22 @@ Multichar_Symbols
 %<caus%>      ! Causative
 %<abil%>      ! Abilitative
 
+%<prc1%>      ! Participle #1: -{bY}{I}p
+
+%<gna1%>      ! Verbal adverb #1: -{bY}{I}p
+
 %<ger1%>      ! Gerund #1: -m{A}
 %<ger2%>      ! Gerund #2: -m{A}{K}
 %<ger3%>      ! Gerund #3: -{D}{I}{k}
 %<ger4%>      ! Gerund #4: -{bY}{I}ş
 %<ger5%>      ! Gerund #5: -{bY}{A}n
 %<ger6%>      ! Gerund #6: -{bY}{A}r{A}k
-%<ger7%>      ! Gerund #7: -{bY}{I}p
-%<fger%>      ! Future gerund #1: -{bY}{A}c{A}{k}
+%<ger8%>      ! (Future) gerund #8: -{bY}{A}c{A}{k}
 %<impp%>      ! Imperfect participle #1: -{bY}{A}r{A}{k}
 
 %<cont%>      ! Present continuous: -{bI}yor
 %<opt%>       ! Optative: -{bY}{A}
-%<ifi%>       ! Past: -{D}{I}
+%<past%>       ! Past: -{D}{I}
 %<evid%>      ! Evidential past: -m{I}ş
 %<imp%>       ! Imperative: -ø
 %<fut%>       ! Future: -{bY}{A}c{A}{k}
@@ -136,6 +141,7 @@ Multichar_Symbols
 %{in%}
 
 %>            ! Morpheme boundary
+% 
 
 LEXICON Root
 Nouns ; 
@@ -161,30 +167,35 @@ Particles ;
 
 LEXICON clit
 
-%+mi%<qst%>:% m%{I%}%{bS%} poss-end ;
+!%+mi%<qst%>:% m%{I%}%{bS%} poss-end ;
+%+mi%<qst%>:% m%{I%} V-PERS-COP-G2-NOSG3 ;
 %+mi%<qst%>:% m%{I%} # ;
 # ;
 
 LEXICON clit-cop
 
 %+%i%<cop%>:% i V-PERS-COP-G2-NOSG3 ;  ! Dir/LR
-%+%i%<cop%>%<ifi%>:% i%>%{D%}%{I%} V-PERS-G1 ;  ! Dir/LR
+%+%i%<cop%>%<past%>:% i%>%{D%}%{I%} V-PERS-G1 ;  ! Dir/LR
 %+%i%<cop%>%<cond%>:% i%>s%{A%} V-PERS-G1 ;  ! Dir/LR
 %+%i%<cop%>%<evid%>:% i%>%{bY%}m%{I%}ş V-PERS-COP-G2 ;  ! Dir/LR
 %+%i%<cop%>%<rel%>:% i%>ken #  ; ! Dir/LR
-%+%i%<cop%>: V-PERS-COP-G2-NOSG3 ; 
-%+%i%<cop%>%<ifi%>:%>%{D%}%{I%} V-PERS-G1 ; 
-%+%i%<cop%>%<cond%>:%>%{bY%}s%{A%} V-PERS-G1 ; 
-%+%i%<cop%>%<evid%>:%>%{bY%}m%{I%}ş V-PERS-COP-G2 ; 
-%+%i%<cop%>%<rel%>:%>ken #  ; 
-clit ;
+%+%i%<cop%>: V-PERS-COP-G2-NOSG3 ;
+%+%i%<cop%>%<past%>:%>%{D%}%{I%} V-PERS-G1 ;  
+%+%i%<cop%>%<cond%>:%>%{bY%}s%{A%} V-PERS-G1 ;
+%+%i%<cop%>%<evid%>:%>%{bY%}m%{I%}ş V-PERS-COP-G2 ;
+%+%i%<cop%>%<rel%>:%>ken #  ;
+clit ; 
+!# ;
 
-# ;
+LEXICON DAKI
+
+%<attr%>: # ;
+%<subst%>: clit-cop ; 
 
 LEXICON case1                     
 %<loc%>:%>%{D%}%{A%} clit-cop ;
 %<gen%>:%>%{bN%}%{I%}n clit-cop ;
-%<locattr%>:%>%{D%}%{A%}%{K%}i clit-cop ;
+%<loc%>:%>%{D%}%{A%}%{K%}i DAKI ; 
 
 LEXICON case2                    
 %<acc%>:%>%{bY%}%{I%} clit-cop ;
@@ -196,7 +207,7 @@ LEXICON case2
 LEXICON case1p3
 %<loc%>:%>%{bN%}d%{A%} clit-cop ;
 %<gen%>:%>%{bN%}%{I%}n clit-cop ;
-%<locattr%>:%>%{bN%}%{D%}%{A%}%{K%}i clit-cop ;
+%<loc%>:%>%{bN%}%{D%}%{A%}%{K%}i DAKI ;
 
 LEXICON case2p3
 %<acc%>:%>%{bN%}%{I%} clit-cop ;
@@ -300,6 +311,11 @@ case2 ;
 poss12-2 ;
 poss3-2; 
 
+LEXICON CASE-ONLY
+
+case1 ; 
+case2 ;
+
 LEXICON CASE 
 
 CASE1 ; 
@@ -311,24 +327,37 @@ POSS ;
 CASE1 ; 
 CASE2 ; 
 
+LEXICON CASE-DEM 
+
+case1 ; 
+case2 ; 
+
+
+
+LEXICON SUBST
+
+: # ; 
+: clit-cop ; 
+%<attr%>: clit-cop ;  ! This is the attributive adjective use of -kI, TRmorph <ki>
+!%<n%>%<attr%>:%>k%{I%} # ;  ! This is the attributive adjective use of -kI, TRmorph <ki>
+!%<n%>%<attr%>:%>k%{I%} NINFL-COMMON ; ! This is the attribute adjective 0 derived into a noun, TRmorph <ki>
+%<loc%>:%>%{D%}%{A%}%{k%}i DAKI ; ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
+%<pl%>:%>l%{A%}r clit ; 
+: NINFL-COMMON  ; 
+
+
+
 LEXICON NINFL
 
 %<n%>: # ; 
-%<n%>: clit-cop ; 
-%<n%>%<attr%>:%>k%{I%} # ;  ! This is the attributive adjective use of -kI, TRmorph <ki>
-%<n%>%<attr%>:%>k%{I%} NINFL-COMMON ; ! This is the attribute adjective 0 derived into a noun, TRmorph <ki>
-%<n%>%<locattr%>:%>%{D%}%{A%}%{k%}i # ;  ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
-%<n%>%<locattr%>:%>%{D%}%{A%}%{k%}i NINFL-COMMON ; ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
-%<n%>%<pl%>:%>l%{A%}r clit ; 
-%<n%>: NINFL-COMMON  ; 
+%<n%>: SUBST ; 
 
 LEXICON NPTOPINFL
 
 %<np%>%<top%>: # ; 
 %<adj%>:%>l%{I%}%{k%} # ; 
 %<np%>%<top%>:%' NINFL-COMMON  ; 
-%<np%>%<top%>%<locattr%>:%'%>%{D%}%{A%}%{k%}i # ;  ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
-%<np%>%<top%>%<locattr%>:%'%>%{D%}%{A%}%{k%}i NINFL-COMMON ; ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
+%<np%>%<top%>%<loc%>:%'%>%{D%}%{A%}%{k%}i DAKI ; ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
 
 LEXICON NPACRINFL
 
@@ -359,8 +388,7 @@ LEXICON NPCOGINFL
 LEXICON AINFL
 
 %<adj%>: # ; 
-
-NINFL ;
+%<adj%>%<subst%>: SUBST ; 
 
 LEXICON AINFL-NAT
 
@@ -376,10 +404,12 @@ LEXICON ADVINFL
 
 %<adv%>: # ; 
 
+
 LEXICON NUMINFL
 
 %<num%>: # ;
-%<num%>: NINFL-COMMON ;
+%<num%>%<subst%>: NINFL-COMMON ;
+%<num%>%<ord%>:%>%{bI%}nc%{I%} # ; ! This is <D_IncI> in TRmorph
 %<num%>%<ord%>:%>%{bI%}nc%{I%} NINFL-COMMON ; ! This is <D_IncI> in TRmorph
 
 LEXICON NUMERAL-LOOP
@@ -468,16 +498,21 @@ LEXICON VINFL-COMMON
 %<ger4%>:%>%{bY%}%{I%}ş NINFL-COMMON ;
 %<ger5%>:%>%{bY%}%{A%}n # ;
 %<ger5%>:%>%{bY%}%{A%}n NINFL-COMMON ;
-%<ger7%>:%>%{bY%}%{I%}p # ;
-%<ger7%>:%>%{bY%}%{I%}p NINFL-COMMON ;
-%<fger%>:%>%{bY%}%{A%}c%{A%}%{k%} # ;
-%<fger%>:%>%{bY%}%{A%}c%{A%}%{k%} NINFL-COMMON ;
+%<ger8%>:%>%{bY%}%{A%}c%{A%}%{k%} # ;
+%<ger8%>:%>%{bY%}%{A%}c%{A%}%{k%} NINFL-COMMON ;
 %<impp%>:%>%{bY%}%{A%}r%{A%}%{k%} # ;
 %<impp%>:%>%{bY%}%{A%}r%{A%}%{k%} NINFL-COMMON ;
 
+%<prc1%>:%>%{bY%}%{I%}p # ;
+%<prc1%>:%>%{bY%}%{I%}p clit-cop ;
+
+%<gna1%>:%>%{bY%}%{I%}p # ;
+%<gna1%>:%>%{bY%}%{I%}p clit-cop ;
+
 %<cont%>:%>%{bI%}yor V-PERS-COP-G2 ;
+!%<cont%>:%>%{bI%}yor clit-cop ; ! This should be renamed e.g. <cont><past> 
 %<opt%>:%>%{bY%}%{A%} V-PERS-OPT-G3 ;
-%<ifi%>:%>%{D%}%{I%} V-PERS-G1 ;
+%<past%>:%>%{D%}%{I%} V-PERS-G1 ;
 %<evid%>:%>m%{I%}ş V-PERS-COP-G2 ;
 %<imp%>: V-PERS-IMP-G4 ;
 %<fut%>:%>%{bY%}%{A%}c%{A%}%{k%} V-PERS-COP-G2 ; 
@@ -805,21 +840,21 @@ onlar%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:onlarda # ;
 
 LEXICON PRONDEM
 
-%<prn%>%<dem%>: NINFL-COMMON ; 
+%<prn%>%<dem%>: CASE-DEM ; 
 %<prn%>%<dem%>%<pl%>:%>l%{A%}r # ; 
-%<prn%>%<dem%>%<pl%>:%>l%{A%}r NINFL-COMMON ; 
+%<prn%>%<dem%>%<pl%>:%>l%{A%}r CASE-DEM ; 
 
 LEXICON PRONITG
 
 %<prn%>%<itg%>: # ; 
 %<prn%>%<itg%>: NINFL-COMMON ; 
 
-!! FIXME: This needs fixing
+!! FIXME: This needs fixing 
 LEXICON PRONITG-NERE
 
 %<prn%>%<itg%>:e # ; 
 %<prn%>%<itg%>:e NINFL-COMMON ; 
-%<prn%>%<itg%>%<loc%>:de clit ; ! Dir/LR
+%<prn%>%<itg%>%<loc%>:de clit ;  ! Dir/LR
 %<prn%>%<itg%>%<abl%>:den clit ;  ! Dir/LR
 
 
@@ -866,9 +901,10 @@ ya:ya CCINFL ; ! "either/or"
 ye:ye CCINFL ; ! "either/or"
 veya:veya CCINFL ; ! "either/or"
 ne:ne CCINFL ; ! "neither/nor"
-da:da CCINFL ; ! "" 
+da:da CCINFL ; ! ""
 da:de CCINFL ; ! "" ! Dir/LR
 fakat:fakat CCINFL ; ! ""
+ya% da:ya% da CCINFL ; ! ""
 
 şöyle% ki:şöyle% ki CAINFL ; ! "so that"
 
@@ -876,7 +912,7 @@ ki:ki CSINFL ; ! "that"
 
 LEXICON Postpositions
 
-için:için POSTINFL ; ! "for"
+!için:için POSTINFL ; ! "for"
 ile:ile POSTINFL ; ! "with"
 doğru:doğru POSTINFL ; ! "towards"
 karşı:karşı POSTINFL ; ! "against"
@@ -908,8 +944,8 @@ ilgiliydi:ilgiliydi POSTINFL ; ! ""
 yukarı:yukarı POSTINFL ; ! ""
 yaklaşık:yaklaşık POSTINFL ; ! "about, circa"
 
-içinde:içinde POSTINFL ; ! "in"
 
+!içinde:içinde POSTINFL ; ! "in"
 
 LEXICON Pronouns
 
@@ -921,6 +957,7 @@ bu:bun PRONDEM ; ! "this"
 şu:şun PRONDEM ; ! "that"
 
 ne:ne PRONITG ; ! "what" ***CHECK*** adverb ?
+ne% için:ne% için PRONITG ; ! "what" ***CHECK*** adverb ?
 hangi:hangi PRONITG ; ! ""
 nere:ner PRONITG-NERE ; ! ""
 kim:kim PRONITG ; ! "who"
@@ -935,6 +972,7 @@ ora:ora PRONADV ; ! ""
 LEXICON Determiners
 
 bir:bir DETIND ;  ! "a"
+başka:başka DETIND ;  ! ""
 diğer:diğer DETIND ;  ! "other"
 öteki:öteki DETIND ;  ! "other"
 öbür:öbür DETIND ;  ! "other"
@@ -958,6 +996,7 @@ biraz:biraz DETQNT;  ! "a little"
 birçok:birçok DETQNT ;  ! "many"
 birçok:bir% çok DETQNT ;  ! "many" Dir/LR
 
+
 LEXICON Numerals 
 
 NUMERAL-LIST ; ! [0-9]+
@@ -965,7 +1004,7 @@ NUMERAL-LIST ; ! [0-9]+
 sıfır:sıfır NUMINFL ; ! "zero"
 bir:bir NUMINFL ; ! "one"
 iki:iki NUMINFL ; ! "two"
-iki:İki NUMINFL ; ! "two"
+iki:İki NUMINFL ; ! "two" ! Dir/LR
 üç:üç NUMINFL ; ! "three"
 dört:dör%{t%} NUMINFL ; ! "four"
 beş:beş NUMINFL ; ! "five"
@@ -1800,6 +1839,7 @@ anatomist:anatomist NINFL ; ! ""
 anavaşya:anavaşya NINFL ; ! ""
 anayasa:anayasa NINFL ; ! ""
 andaç:andaç NINFL ; ! ""
+anda:anda NINFL ; ! "time"
 andezit:andezi%{t%} NINFL ; ! ""
 andezit:andezit NINFL ; ! ""
 andropoz:andropoz NINFL ; ! ""
@@ -2478,7 +2518,7 @@ balıkçın:balıkçın NINFL ; ! ""
 bambu:bambu NINFL ; ! ""
 bambul:bambul NINFL ; ! ""
 bamya:bamya NINFL ; ! ""
-ban:ban NINFL ; ! ""
+!ban:ban NINFL ; ! ""
 banak:bana%{k%} NINFL ; ! ""
 bandaj:bandaj NINFL ; ! ""
 bando:bando NINFL ; ! ""
@@ -2890,7 +2930,7 @@ bezirgan:bezirgan NINFL ; ! ""
 bezzaz:bezzaz NINFL ; ! ""
 beğence:beğence NINFL ; ! ""
 beğeni:beğeni NINFL ; ! ""
-beş:beş NINFL ; ! ""
+!beş:beş NINFL ; ! ""
 beşaret:beşaret NINFL ; ! ""
 beşbıyık:beşbıyı%{k%} NINFL ; ! ""
 beşeriyet:beşeriyet NINFL ; ! ""
@@ -6114,6 +6154,7 @@ yarkurul:yarkurul NINFL ; ! ""
 yarma:yarma NINFL ; ! ""
 yarpuz:yarpuz NINFL ; ! ""
 yas:yas NINFL ; ! ""
+yaş:yaş NINFL ; ! "year"
 yasa:yasa NINFL ; ! ""
 yasak:yasa%{k%} NINFL ; ! ""
 yaşam:yaşam NINFL ; ! ""
@@ -6269,8 +6310,8 @@ yoğrum:yoğrum NINFL ; ! ""
 yoğunlukölçer:yoğunlukölçer NINFL ; ! ""
 yoğurt:yoğur%{t%} NINFL ; ! ""
 yoğurthane:yoğurthane NINFL ; ! ""
-yok:yok NINFL ; ! ""
-yok:yo%{k%} NINFL ; ! ""
+!yok:yok NINFL ; ! ""
+!yok:yo%{k%} NINFL ; ! ""
 yoklamacı:yoklamacı NINFL ; ! ""
 yokuş:yokuş NINFL ; ! ""
 yol:yol NINFL ; ! ""
@@ -8276,7 +8317,7 @@ hadis:hadis NINFL ; ! ""
 hadise:hadise NINFL ; ! ""
 hac:ha%{dup%}c NINFL ; ! ""
 hak:ha%{dup%}k NINFL ; ! ""
-hal:ha%{dup%}l NINFL ; ! ""
+! hal:ha%{dup%}l NINFL ; ! ""
 hat:ha%{dup%}t NINFL ; ! ""
 haz:ha%{dup%}z NINFL ; ! ""
 hafakan:hafakan NINFL ; ! ""
@@ -9151,7 +9192,8 @@ inorganik:inorgani%{k%} NINFL ; ! ""
 inşa:inşa NINFL ; ! ""
 inşaat:inşaat NINFL ; ! ""
 insaf:insaf NINFL ; ! ""
-insan:insan NINFL ; ! ""
+insan:insan NINFL ; !""
+insan:İnsan NINFL ; ! "" ! Dir/LR
 insaniçincilik:insaniçincili%{k%} NINFL ; ! ""
 insaniyet:insaniyet NINFL ; ! ""
 insanoğlu:insanoğlu NINFL ; ! ""
@@ -9524,7 +9566,7 @@ ivme:ivme NINFL ; ! ""
 ivmeölçer:ivmeölçer NINFL ; ! ""
 ivmeyazar:ivmeyazar NINFL ; ! ""
 iye:iye NINFL ; ! ""
-iyi:iyi NINFL ; ! ""
+!iyi:iyi NINFL ; ! ""
 iyodür:iyodür NINFL ; ! ""
 iyon:iyon NINFL ; ! ""
 iyonlanma:iyonlanma NINFL ; ! ""
@@ -14737,7 +14779,7 @@ omur:omur NINFL ; ! ""
 omurga:omurga NINFL ; ! ""
 omurilik:omurili%{k%} NINFL ; ! ""
 omuzdaş:omuzdaş NINFL ; ! ""
-on:on NINFL ; ! ""
+!on:on NINFL ; ! ""
 ön:ön NINFL ; ! ""
 onaltılık:onaltılı%{k%} NINFL ; ! ""
 onanizm:onanizm NINFL ; ! ""
@@ -15951,7 +15993,7 @@ rölativizm:rölativizm NINFL ; ! ""
 hükümet:hükümet NINFL ; ! "government"
 üyelik:üyelik NINFL ; ! "membership"
 
-an:an NINFL ; ! ""
+!an:an NINFL ; ! ""
 
 
 LEXICON ProperNouns
@@ -16143,7 +16185,9 @@ Georgi:Georgi NPANTMINFL ; ! ""
 Nikola:Nikola NPANTMINFL ; ! ""
 Michael:Michael NPANTMINFL ; ! ""
 Goran:Goran NPANTMINFL ; ! ""
+Ana:Ana NPANTMINFL ; ! ""
 Ahmet:Ahmet NPANTMINFL ; ! ""
+Ayşe:Ayşe NPANTFINFL ; ! ""
 Ivo:Ivo NPANTMINFL ; ! ""
 Vojislav:Vojislav NPANTMINFL ; ! ""
 Miroslav:Miroslav NPANTMINFL ; ! ""
@@ -18294,7 +18338,7 @@ balaban:balaban AINFL ; ! ""
 balıketi:balıketi AINFL ; ! ""
 barbar:barbar AINFL ; ! ""
 basit:basit AINFL ; ! ""
-başka:başka AINFL ; ! ""
+!başka:başka AINFL ; ! ""
 bayat:bayat AINFL ; ! ""
 baygın:baygın AINFL ; ! ""
 bedeni:bedeni AINFL ; ! ""
@@ -19058,10 +19102,12 @@ LEXICON Adverbs
 
 en:en ADVINFL ; ! "most"
 daha:daha ADVINFL ; ! "more"
+böyle:böyle ADVINFL ; ! "this way!"
 
 o% sıralarda:o% sıralarda ADVINFL ; ! ""
 evvel% zaman% içinde:evvel% zaman% içinde ADVINFL ; ! ""
 o% zaman:o% zaman ADVINFL ; ! ""
+bu% yüzden:bu% yüzden ADVINFL ; ! ""
 öyle:öyle ADVINFL ; ! "in that way"
 hâlâ:hâlâ ADVINFL ; ! ""
 yeterince:yeterince ADVINFL ; ! "enough, very"
@@ -19070,7 +19116,6 @@ yavaşça:yavaşça ADVINFL ; ! "slowly"
 çabukça:çabukça ADVINFL ; ! "promptly"
 tedbiren:tedbiren ADVINFL ; ! ""
 dikkatlice:dikkatlice ADVINFL ; ! "carefully"
-hayır:hayır ADVINFL ; ! ""
 olabildiğince:olabildiğince ADVINFL ; ! ""
 öldüresiye:öldüresiye ADVINFL ; ! ""
 bazen:bazen ADVINFL ; ! ""
@@ -19235,6 +19280,7 @@ hasbelkader:hasbelkader ADVINFL ; ! ""
 hasılı:hasılı ADVINFL ; ! ""
 hassaten:hassaten ADVINFL ; ! ""
 hemen:hemen ADVINFL ; ! ""
+her% zaman:her% zaman ADVINFL ; ! ""
 henüz:henüz ADVINFL ; ! ""
 hep:hep ADVINFL ; ! ""
 hepten:hepten ADVINFL ; ! ""
@@ -19255,7 +19301,7 @@ ismen:ismen ADVINFL ; ! ""
 istinaden:istinaden ADVINFL ; ! ""
 itibaren:itibaren ADVINFL ; ! ""
 ivedilikle:ivedilikle ADVINFL ; ! ""
-iyi:iyi ADVINFL ; ! ""
+!iyi:iyi ADVINFL ; ! ""
 kaçak:kaça%{k%} ADVINFL ; ! ""
 yeni:yeni ADVINFL ; ! ""
 şöyle:şöyle ADVINFL ; ! ""
@@ -19393,6 +19439,7 @@ zıppadak:zıppada%{k%} ADVINFL ; ! ""
 tıbben:tıbben ADVINFL ; ! ""
 çok:çok ADVINFL ; ! ""
 
+
 LEXICON Verbs
 
 var%<pred%>:var clit-cop ;
@@ -19406,7 +19453,7 @@ et:e%{t%} VTVINFL-CAUS_DIR-AOR_AR ; ! "make"
 eş:eş VTVINFL-CAUS_DIR-AOR_AR ; ! "scratch"
 eş:eş VIVINFL-CAUS_DIR-AOR_AR ; ! "scratch"
 gel:gel VIVINFL-CAUS_IRREG-AOR_IR ; ! "come"
-git:git VIVINFL-CAUS_AR-AOR_AR ; ! "go"
+git:gi%{t%} VIVINFL-CAUS_AR-AOR_AR ; ! "go"
 iç:iç VTVINFL-CAUS_IR-AOR_AR ; ! "drink"
 kabul% et:kabul% e%{t%} VTVINFL-CAUS_DIR-AOR_AR ; ! "admit, acknowledge"
 kap:kap VTVINFL-CAUS_DIR-AOR_AR ; ! "snatch, seize, grab"
@@ -19420,7 +19467,7 @@ bekle:bekle VTVINFL-CAUS_T-AOR_IR ; ! ""
 ak:ak VTVINFL-CAUS_IT-AOR_AR ; ! ""
 üş:üş VTVINFL-CAUS_IT-AOR_IR ; ! ""
 çık:çık VTVINFL-CAUS_ART-AOR_AR ; ! ""
-git:gi%{t%} VTVINFL-CAUS_AR-AOR_AR ; ! ""
+!git:gi%{t%} VTVINFL-CAUS_AR-AOR_AR ; ! ""
 kulluk% et:kulluk% e%{t%} VTVINFL-CAUS_AR-AOR_IR ; ! ""
 ay:ay VIVINFL-CAUS_IRREG-AOR_AR ; ! ""
 art:art VIVINFL-CAUS_IR-AOR_AR ; ! ""
@@ -19463,7 +19510,8 @@ uç:uç VIVINFL-CAUS_IR-AOR_AR ; ! ""
 ver:ver VTVINFL-CAUS_DIR-AOR_IR ; ! ""
 vur:vur VTVINFL-CAUS_DIR-AOR_IR ; ! ""
 yar:yar VTVINFL-CAUS_DIR-AOR_AR ; ! ""
-yat:yat VIVINFL-CAUS_IR-AOR_AR ; ! ""
+yat:yat VIVINFL-CAUS_DIR-AOR_AR  ; ! "lie up"
+!yat:yat VIVINFL-CAUS_IR-AOR_AR ; ! ""
 ye:y%{e%} VTVINFL-CAUS_DIR-AOR_IR ; ! ""
 yel:yel VTVINFL-CAUS_DIR-AOR_AR ; ! ""
 yer% ver:yer% ver VTVINFL-CAUS_DIR-AOR_IR ; ! ""
@@ -19570,7 +19618,7 @@ geçiş:geçiş VIVINFL-CAUS_DIR-AOR_IR ; ! ""
 giyin:giyin VIVINFL-CAUS_DIR-AOR_IR ; ! ""
 homurdan:homurdan VIVINFL-CAUS_DIR-AOR_IR ; ! ""
 san:san VIVINFL-CAUS_DIR-AOR_IR ; ! ""
-yakın:yakın VIVINFL-CAUS_DIR-AOR_IR ; ! ""
+! yakın:yakın VIVINFL-CAUS_DIR-AOR_IR ; ! ""
 çözün:çözün VIVINFL-CAUS_DIR-AOR_IR ; ! ""
 çırpın:çırpın VIVINFL-CAUS_DIR-AOR_IR ; ! ""
 
@@ -19973,7 +20021,7 @@ listele:listele VTVINFL-CAUS_T-AOR_IR  ; ! "list"
 mahmuzla:mahmuzla VTVINFL-CAUS_T-AOR_IR  ; ! "rowel"
 mahvet:mahvet VTVINFL-CAUS_DIR-AOR_AR  ; ! "ruin"
 mahvol:mahvol VIVINFL-CAUS_DIR-AOR_IR  ; ! "be spoiled"
-manevra:manevra yap VIVINFL-CAUS_DIR-AOR_AR  ; ! "manoeuver"
+manevra% yap:manevra% yap VIVINFL-CAUS_DIR-AOR_AR  ; ! "manoeuver"
 mayala:mayala VTVINFL-CAUS_T-AOR_IR  ; ! "ferment"
 menet:menet VTVINFL-CAUS_DIR-AOR_AR  ; ! "preclude"
 mevzilen:mevzilen VIVINFL-CAUS_DIR-AOR_IR  ; ! "deploy"
@@ -19999,7 +20047,7 @@ odakla:odakla VTVINFL-CAUS_T-AOR_IR  ; ! "focus"
 öğütle:öğütle VTVINFL-CAUS_T-AOR_IR  ; ! "advise"
 oksitle:oksitle VTVINFL-CAUS_T-AOR_IR  ; ! "oxidise"
 oku:oku VTVINFL-CAUS_T-AOR_IR  ; ! "read"
-ol:ol VTVINFL-CAUS_DIR-AOR_IR  ; ! "be"
+!ol:ol VTVINFL-CAUS_DIR-AOR_IR  ; ! "be"
 öl:öl VIVINFL-CAUS_DIR-AOR_IR  ; ! "die"
 ölç:ölç VTVINFL-CAUS_DIR-AOR_AR  ; ! "measure"
 oluş:oluş VIVINFL-CAUS_DIR-AOR_IR  ; ! "come into existence"
@@ -20045,7 +20093,7 @@ parala:parala VTVINFL-CAUS_T-AOR_IR  ; ! "rip up"
 parçala:parçala VTVINFL-CAUS_T-AOR_IR  ; ! "pull something to pieces"
 parılda:parılda VIVINFL-CAUS_T-AOR_IR  ; ! "gleam"
 parla:parla VIVINFL-CAUS_T-AOR_IR  ; ! "shine"
-pasta:pasta yap VIVINFL-CAUS_DIR-AOR_AR  ; ! "make a cake"
+pasta% yap:pasta% yap VIVINFL-CAUS_DIR-AOR_AR  ; ! "make a cake"
 patla:patla VIVINFL-CAUS_T-AOR_IR  ; ! "explode"
 payla:payla VTVINFL-CAUS_T-AOR_IR  ; ! "rag"
 paylaş:paylaş VTVINFL-CAUS_DIR-AOR_IR  ; ! "share"
@@ -20276,10 +20324,10 @@ usan:usan VIVINFL-CAUS_DIR-AOR_IR  ; ! "be collected"
 ut:ut VTVINFL-CAUS_DIR-AOR_AR  ; ! "to win in gamble"
 utan:utan VIVINFL-CAUS_DIR-AOR_IR  ; ! "shy"
 uy:uy VIVINFL-CAUS_DIR-AOR_AR  ; ! "adapt"
-uyu:uyu VIVINFL-CAUS_T-AOR_IR  ; ! "sleep"
 uyan:uyan VIVINFL-CAUS_DIR-AOR_IR  ; ! "wake up"
 uyar:uyar VTVINFL-CAUS_DIR-AOR_IR  ; ! "warn"
 uyarla:uyarla VTVINFL-CAUS_T-AOR_IR  ; ! "adjust, adapt"
+uyu:uyu VIVINFL-CAUS_T-AOR_IR  ; ! "sleep"
 uyukla:uyukla VIVINFL-CAUS_T-AOR_IR  ; ! "snooze"
 uyuş:uyuş VIVINFL-CAUS_DIR-AOR_IR  ; ! "run in with"
 üz:üz VTVINFL-CAUS_DIR-AOR_AR  ; ! "upset"
@@ -20319,7 +20367,6 @@ yanıl:yanıl VIVINFL-CAUS_T-AOR_IR  ; ! "be mistaken"
 yanıtla:yanıtla VTVINFL-CAUS_T-AOR_IR  ; ! "answer"
 yankıla:yankıla VIVINFL-CAUS_T-AOR_IR  ; ! "resonate"
 yansı:yansı VIVINFL-CAUS_T-AOR_IR  ; ! "be reflected"
-yap:yap VTVINFL-CAUS_DIR-AOR_AR  ; ! "do, make"
 yapış:yapış VIVINFL-CAUS_DIR-AOR_IR  ; ! "adhere"
 yar:yar VTVINFL-CAUS_DIR-AOR_AR  ; ! "split"
 yara:yara VIVINFL-CAUS_T-AOR_IR  ; ! "benefit from"
@@ -20335,7 +20382,6 @@ yaşa:yaşa VTVINFL-CAUS_T-AOR_IR  ; ! "live"
 yasakla:yasakla VTVINFL-CAUS_T-AOR_IR  ; ! "forbid"
 yasla:yasla VTVINFL-CAUS_T-AOR_IR  ; ! "prop"
 yaşlan:yaşlan VIVINFL-CAUS_DIR-AOR_IR  ; ! "get old"
-yat:yat VIVINFL-CAUS_DIR-AOR_AR  ; ! "lie up"
 yatış:yatış VIVINFL-CAUS_DIR-AOR_IR  ; ! "quiet down"
 yavaşla:yavaşla VIVINFL-CAUS_T-AOR_IR  ; ! "slow down"
 yay:yay VTVINFL-CAUS_DIR-AOR_AR  ; ! "spread"
@@ -20699,7 +20745,6 @@ esirge:esirge VTVINFL-CAUS_T-AOR_IR ; ! "be sparing"
 eşitle:eşitle VTVINFL-CAUS_T-AOR_IR ; ! "make equal"
 eski:eski VIVINFL-CAUS_T-AOR_IR ; ! "become old"
 eşle:eşle VTVINFL-CAUS_T-AOR_IR ; ! "match"
-et:et VTVINFL-CAUS_DIR-AOR_AR ; ! "do"
 etiketle:etiketle VTVINFL-CAUS_T-AOR_IR ; ! "tag"
 etkile:etkile VTVINFL-CAUS_T-AOR_IR ; ! "impress"
 ever:ever VTVINFL-CAUS_DIR-AOR_IR ; ! "give somebody in marriage"
@@ -20744,7 +20789,7 @@ gezin:gezin VIVINFL-CAUS_DIR-AOR_IR ; ! "hang around"
 gider:gider VTVINFL-CAUS_DIR-AOR_IR ; ! "supply"
 gir:gir VIVINFL-CAUS_DIR-AOR_AR ; ! "enter"
 giriş:giriş VIVINFL-CAUS_DIR-AOR_IR ; ! "proceed"
-git:git VIVINFL-CAUS_DIR-AOR_AR ; ! "go"
+git:gi%{t%} VIVINFL-CAUS_DIR-AOR_AR ; ! "go"
 giy:giy VTVINFL-CAUS_DIR-AOR_AR ; ! "wear"
 gizle:gizle VTVINFL-CAUS_T-AOR_IR ; ! "hide"
 göğüsle:göğüsle VTVINFL-CAUS_T-AOR_IR ; ! "cope with"
@@ -20915,14 +20960,15 @@ tabi% ki:tabi% ki INTERJ ; ! ""
 tabii% ki:tabii% ki INTERJ ; ! ""
 şöyle:şöyle INTERJ ; ! ""
 peki:peki INTERJ ; ! ""
-evet:evet INTERJ ; ! ""
+evet:evet INTERJ ; ! "YES!"
+hayır:hayır INTERJ ; ! "NO!"
 
 LEXICON Particles 
 
 mi%<qst%>:mi # ; 
-mi%<qst%>:mu # ; 
-mi%<qst%>:mü # ; 
-mi%<qst%>:mı # ; 
+mi%<qst%>:mu # ; ! Dir/LR
+mi%<qst%>:mü # ; ! Dir/LR 
+mi%<qst%>:mı # ; ! Dir/LR 
 
 LEXICON Punctuation
 
