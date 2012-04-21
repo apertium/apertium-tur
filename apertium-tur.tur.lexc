@@ -168,7 +168,7 @@ Particles ;
 LEXICON clit
 
 !%+mi%<qst%>:% m%{I%}%{bS%} poss-end ;
-%+mi%<qst%>:% m%{I%} V-PERS-COP-G2-NOSG3 ;
+%+mi%<qst%>:% m%{I%} V-PERS-COP-G2-NOSG3-FINAL ;
 %+mi%<qst%>:% m%{I%} # ;
 # ;
 
@@ -380,6 +380,10 @@ LEXICON NP-COG-MF
 %<np%>%<cog%>%<mf%>: # ; 
 %<np%>%<cog%>%<mf%>:%' NINFL-COMMON  ; 
 
+LEXICON A2
+
+%<adj%>: # ; 
+
 LEXICON A1
 
 %<adj%>: # ; 
@@ -399,6 +403,10 @@ LEXICON ADV
 
 %<adv%>: # ; 
 
+LEXICON DIGITLEX
+
+%<num%>: # ;
+
 
 LEXICON NUM
 
@@ -406,31 +414,6 @@ LEXICON NUM
 %<num%>%<subst%>: NINFL-COMMON ;
 %<num%>%<ord%>:%>%{bI%}nc%{I%} # ; ! This is <D_IncI> in TRmorph
 %<num%>%<ord%>:%>%{bI%}nc%{I%} NINFL-COMMON ; ! This is <D_IncI> in TRmorph
-
-LEXICON NUMERAL-LOOP
-
-NUMERAL-LIST ;
-%. NUMERAL-LIST ;
-%, NUMERAL-LIST  ;
-!%. NUM ; ! Dir/RL
-!%, NUM ; ! Dir/RL
-%%%<num%>:%% CASE ;
-NUM ;
-
-LEXICON NUMERAL-LIST 
-
-%0 NUMERAL-LOOP ;
-1 NUMERAL-LOOP ;
-2 NUMERAL-LOOP ;
-3 NUMERAL-LOOP ;
-4 NUMERAL-LOOP ;
-5 NUMERAL-LOOP ;
-6 NUMERAL-LOOP ;
-7 NUMERAL-LOOP ;
-8 NUMERAL-LOOP ;
-9 NUMERAL-LOOP ;
-%% NUMERAL-LOOP ;
-
 
 LEXICON V-PERS-G1
 
@@ -441,6 +424,16 @@ LEXICON V-PERS-G1
 %<p1%>%<pl%>:%>%{k%} # ;
 %<p2%>%<pl%>:%>n%{I%}z # ;
 %<p3%>%<pl%>:%>l%{A%}r # ;
+
+
+LEXICON V-PERS-COP-G2-NOSG3-FINAL
+
+%<p1%>%<sg%>:%>%{bY%}%{I%}m # ;
+%<p2%>%<sg%>:%>s%{I%}n  # ;
+%<p2%>%<frm%>%<sg%>:%>s%{I%}n%{I%}z  # ;
+%<p1%>%<pl%>:%>%{bY%}%{I%}z  # ;
+%<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
+%<p3%>%<pl%>:%>l%{A%}r  # ;
 
 
 LEXICON V-PERS-COP-G2-NOSG3
@@ -992,8 +985,6 @@ birçok:birçok DET-QNT ;  ! "many"
 birçok:bir% çok DET-QNT ;  ! "many" Dir/LR
 
 LEXICON Numerals 
-
-NUMERAL-LIST ; ! [0-9]+  ! Use/Circ
 
 sıfır:sıfır NUM ; ! "zero"
 bir:bir NUM ; ! "one"
@@ -18174,6 +18165,10 @@ bTV:bTV%{nin%} NP-ACR ; ! "bTV'nin"
 
 LEXICON Adjectives 
 
+var:var A2 ; ! ""
+yok:yok A2 ; ! ""
+
+
 beyaz:beyaz A1 ; ! "white"
 özel:özel A1 ; ! "special, private"
 kırmızı:kırmızı A1 ; ! "red"
@@ -18321,7 +18316,7 @@ alt:alt A1 ; ! ""
 ana:ana A1 ; ! ""
 analjezik:analjezi%{k%} A1 ; ! ""
 aristokrat:aristokrat A1 ; ! ""
-arka:arka A1 ; ! ""
+!arka:arka A1 ; ! ""
 asabi:asabi A1 ; ! ""
 asi:asi A1 ; ! ""
 askeri:askeri A1 ; ! ""
@@ -20989,3 +20984,6 @@ LEXICON Punctuation
 %)%<rpar%>:%) # ;
 \%<sent%>:\ # ;
 /%<sent%>:/ # ;
+
+<(%0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9)+>  DIGITLEX ; ! Use/Circ
+
