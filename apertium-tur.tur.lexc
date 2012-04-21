@@ -993,7 +993,7 @@ birçok:bir% çok DET-QNT ;  ! "many" Dir/LR
 
 LEXICON Numerals 
 
-NUMERAL-LIST ; ! [0-9]+
+NUMERAL-LIST ; ! [0-9]+  ! Use/Circ
 
 sıfır:sıfır NUM ; ! "zero"
 bir:bir NUM ; ! "one"
