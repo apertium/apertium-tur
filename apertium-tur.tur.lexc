@@ -46,6 +46,7 @@ Multichar_Symbols
 %<p1%>        ! First person
 %<p2%>        ! Second person
 %<p3%>        ! Third person
+%<frm%>       ! Formal
 
 %<sg%>        ! Singular
 %<pl%>        ! Plural
