@@ -403,6 +403,7 @@ LEXICON A3
 LEXICON ADV
 
 %<adv%>: # ; 
+%<adv%>%<attr%>: # ;  ! <adv> as <adj> function
 
 LEXICON DIGITLEX
 
