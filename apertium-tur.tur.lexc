@@ -76,6 +76,7 @@ Multichar_Symbols
 %<prc1%>      ! Participle #1: -{bY}{I}p
 
 %<gna1%>      ! Verbal adverb #1: -{bY}{I}p
+%<gna9%>      ! Verbal adverb #9: -{bY}{A}
 
 %<ger1%>      ! Gerund #1: -m{A}
 %<ger2%>      ! Gerund #2: -m{A}{K}
@@ -495,6 +496,9 @@ LEXICON VINFL-COMMON
 
 %<gna1%>:%>%{bY%}%{I%}p # ;
 %<gna1%>:%>%{bY%}%{I%}p clit-cop ;
+
+%<gna9%>:%>%{bY%}%{A%} # ;
+%<gna9%>:%>%{bY%}%{A%} clit-cop ;
 
 %<cont%>:%>%{bI%}yor V-PERS-COP-G2 ;
 !%<cont%>:%>%{bI%}yor clit-cop ; ! This should be renamed e.g. <cont><past> 
@@ -15978,6 +15982,7 @@ hükümet:hükümet N1 ; ! "government"
 üyelik:üyelik N1 ; ! "membership"
 
 !an:an N1 ; ! ""
+iç:iç N1 ; ! ""
 
 
 LEXICON ProperNouns
