@@ -59,7 +59,6 @@ Multichar_Symbols
 %<ins%>       ! Instrumental
 
 %<attr%>      ! Attributive: -{k}{I}
-%<locattr%>   ! Locative attributive: -{D}{A}{k}{I}
 
 %<px1sg%>     ! First person singular possessive
 %<px2sg%>     ! Second person singular possessive
@@ -331,14 +330,14 @@ case2 ;
 
 LEXICON SUBST
 
-: # ; 
-: clit-cop ; 
+# ; 
+clit-cop ; 
 %<attr%>: clit-cop ;  ! This is the attributive adjective use of -kI, TRmorph <ki>
 !%<n%>%<attr%>:%>k%{I%} # ;  ! This is the attributive adjective use of -kI, TRmorph <ki>
 !%<n%>%<attr%>:%>k%{I%} NINFL-COMMON ; ! This is the attribute adjective 0 derived into a noun, TRmorph <ki>
 %<loc%>:%>%{D%}%{A%}%{k%}i DAKI ; ! This makes an attributive phrase from a noun, TRmorph <loc><ki>
 %<pl%>:%>l%{A%}r clit ; 
-: NINFL-COMMON  ; 
+NINFL-COMMON  ; 
 
 
 
@@ -954,6 +953,7 @@ birisi:birisi PRON-IND ; ! "anyone, anybody"
 öteki:öteki PRON-IND ; ! "other"
 
 kendi:kendi PRON-REF ; ! "self"
+öz:öz PRON-REF ; ! "self"
 
 ora:ora PRON-ADV ; ! "" 
 
@@ -964,7 +964,6 @@ başka:başka DET-IND ;  ! ""
 diğer:diğer DET-IND ;  ! "other"
 öteki:öteki DET-IND ;  ! "other"
 öbür:öbür DET-IND ;  ! "other"
-her:her DET-IND ;  ! "every"
 aynı:aynı DET-IND ;  ! "same"
 hiçbir:hiçbir DET-IND ;  ! "no"
 herhangi:herhangi DET-IND ;  ! "any"
@@ -973,6 +972,7 @@ bu:bu DET-DEM ;  ! "this"
 şu:şu DET-DEM ;  ! "that"
 
 bütün:bütün DET-QNT;  ! "all"
+her:her DET-QNT ;  ! "every"
 tüm:tüm DET-QNT;  ! "all"
 birkaç:birkaç DET-QNT;  ! "all"
 birtakım:birtakım DET-QNT;  ! "some"
@@ -6577,9 +6577,9 @@ semizot:semizot%{compn%} N1 ; ! ""
 soykırım:soykırım%{compn%} N1 ; ! ""
 sutaş:sutaş%{compn%} N1 ; ! ""
 sütkız:sütkız%{compn%} N1 ; ! ""
-içeri:içeri:%{%} N1 ; ! ""
-abece:abe:%{%}ce:%{%} N1 ; ! ""
-dışarı:dışarı:%{%} N1 ; ! ""
+!içeri:içeri:%{%} N1 ; ! ""
+!abece:abe:%{%}ce:%{%} N1 ; ! ""
+!dışarı:dışarı:%{%} N1 ; ! ""
 distribütör:distribütör N1 ; ! ""
 ditiramp:ditiramp N1 ; ! ""
 ditiramp:ditiram%{p%} N1 ; ! ""
@@ -19100,6 +19100,7 @@ o% zaman:o% zaman ADV ; ! ""
 bu% yüzden:bu% yüzden ADV ; ! ""
 öyle:öyle ADV ; ! "in that way"
 hâlâ:hâlâ ADV ; ! ""
+fakat:fakat ADV ; ! ""
 yeterince:yeterince ADV ; ! "enough, very"
 fazla:fazla ADV ; ! "too"
 yavaşça:yavaşça ADV ; ! "slowly"
