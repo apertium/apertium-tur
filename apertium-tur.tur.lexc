@@ -958,6 +958,8 @@ kim:kim PRON-ITG ; ! "who"
 birisi:birisi PRON-IND ; ! "anyone, anybody"
 öteki:öteki PRON-IND ; ! "other"
 
+hiçbir% şey:hiçbir% şey PRON-IND ; ! "nothing" ! Use/MT
+
 kendi:kendi PRON-REF ; ! "self"
 öz:öz PRON-REF ; ! "self"
 
@@ -19105,6 +19107,7 @@ o% sıralarda:o% sıralarda ADV ; ! ""
 evvel% zaman% içinde:evvel% zaman% içinde ADV ; ! ""
 o% zaman:o% zaman ADV ; ! ""
 bu% yüzden:bu% yüzden ADV ; ! ""
+şu% anda:şu% anda ADV ; ! "" ! Use/MT
 öyle:öyle ADV ; ! "in that way"
 hâlâ:hâlâ ADV ; ! ""
 fakat:fakat ADV ; ! ""
@@ -20709,6 +20712,7 @@ düş:düş VIVINFL-CAUS_DIR-AOR_AR ; ! "fall"
 düşle:düşle VTVINFL-CAUS_T-AOR_IR ; ! "dream"
 düşün:düşün VTVINFL-CAUS_DIR-AOR_IR ; ! "think"
 duy:duy VTVINFL-CAUS_DIR-AOR_AR ; ! "hear"
+duy:duy VIVINFL-CAUS_DIR-AOR_AR ; ! "hear"
 duygulan:duygulan VTVINFL-CAUS_DIR-AOR_IR ; ! "be affected"
 duyur:duyur VTVINFL-CAUS_DIR-AOR_IR ; ! "announce"
 düz:düz VTVINFL-CAUS_DIR-AOR_AR ; ! "prepare"
