@@ -21,6 +21,8 @@ Multichar_Symbols
 
 %<pred%>      ! Predicate
 %<subst%>     ! Substantive
+%<attr%>      ! Attributive
+%<advl%>      ! Adverbial
 
 %<pers%>      ! Personal
 %<ord%>       ! Ordinal
@@ -59,7 +61,6 @@ Multichar_Symbols
 %<abl%>       ! Ablative
 %<ins%>       ! Instrumental
 
-%<attr%>      ! Attributive: -{k}{I}
 
 %<px1sg%>     ! First person singular possessive
 %<px2sg%>     ! Second person singular possessive
@@ -334,6 +335,7 @@ LEXICON SUBST
 
 # ; 
 clit-cop ; 
+%<advl%>: # ; 
 %<attr%>: clit-cop ;  ! This is the attributive adjective use of -kI, TRmorph <ki>
 !%<n%>%<attr%>:%>k%{I%} # ;  ! This is the attributive adjective use of -kI, TRmorph <ki>
 !%<n%>%<attr%>:%>k%{I%} NINFL-COMMON ; ! This is the attribute adjective 0 derived into a noun, TRmorph <ki>
@@ -10715,6 +10717,7 @@ kıymet:kıymet N1 ; ! ""
 kıymık:kıymı%{k%} N1 ; ! ""
 kıyye:kıyye N1 ; ! ""
 kız:kız N1 ; ! ""
+küçük% kız:küçük% kız N1 ; ! "" ! Use/MT
 kızak:kıza%{k%} N1 ; ! ""
 kızamık:kızamı%{k%} N1 ; ! ""
 kızamıkçık:kızamıkçı%{k%} N1 ; ! ""
@@ -15991,6 +15994,7 @@ iç:iç N1 ; ! ""
 
 LEXICON ProperNouns
 
+Çubuksarı:Çubuksarı NP-TOP ; ! 
 Abhazya:Abhazya NP-TOP ; ! "Abkhazia"
 Afganistan:Afganistan NP-TOP ; ! ""
 Afrika:Afrika NP-TOP ; ! ""
