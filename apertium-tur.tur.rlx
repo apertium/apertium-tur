@@ -67,6 +67,9 @@ LIST Cog = cog;
 LIST Ant = ant;
 LIST Top = top;
 
+LIST TV = tv ; 
+LIST IV = iv ; 
+
 LIST Conju = cm ("," cm)  (cnjcoo) ;
 
 ##THIS IS USEFUL FOR ENUMERATION (ex. Gianluca, Francis and Jonathan drink too much beer)
@@ -104,12 +107,12 @@ LIST PrPers = (prn pers) ;
 
 ## CASES
 
-LIST Acc = (acc) ;
-LIST Dat = (dat) ;
-LIST Gen = (gen) ;
-LIST Ins = (ins) ;
-LIST Abl = (abl) ;
-LIST Loc = (loc) ;
+LIST Acc = acc ;
+LIST Dat = dat ;
+LIST Gen = gen ;
+LIST Ins = ins ;
+LIST Abl = abl ;
+LIST Loc = loc ;
 
 LIST MARKED-Cases = (acc dat gen ins abl loc) ;
 
@@ -131,12 +134,12 @@ SET Be = Sg1 | Sg2 | Sg3 | Pl1 | Pl2 | Pl3 ;
 
 ## Possessives
 
-LIST PxSg1 = (px1sg) ;
-LIST PxSg2 = (px2sg) ;
-LIST PxSg3 = (px3sg) ;
-LIST PxPl1 = (px1pl) ;
-LIST PxPl2 = (px2pl) ;
-LIST PxPl3 = (px3pl) ;
+LIST PxSg1 = px1sg ;
+LIST PxSg2 = px2sg ;
+LIST PxSg3 = px3sg ;
+LIST PxPl1 = px1pl ;
+LIST PxPl2 = px2pl ;
+LIST PxPl3 = px3pl ;
 
 LIST Poss = (px1sg) (px2sg) (px3sg) (px1pl) (px2pl) (px3pl) ;
 
@@ -219,6 +222,8 @@ SET NOM-OR-PRO = NOMINAL | Pron ;
 SET CASES = Acc | Gen | Dat | Abl | Loc | Ins ;
 SET WORD = N | A | V | Det | Post | Pron | CC | CS ;
 SET ABS = N - CASES ;
+
+SET NOT-NOMINAL = WORD - NOMINAL - ("da" cnjcoo);
 
 SET VN = VN/acak | VN/dik | VN/ma | VN/mak | VN/yis ; 
 
@@ -320,9 +325,8 @@ REMOVE Dat IF (1C Dat) ;
     ## Rule 1
     ## Yemek sırasında İsa eline ekmek aldı, şükredip ekmeği böldü ve öğrencilerine verdi.
 
-REMOVE Acc IF (NOT 0 POSS) (-1 Gen);
+REMOVE Acc IF (NOT 0 POSS) (-1* Gen BARRIER NOT-NOMINAL);
     ## Rule 2
-
 
 
 SELECT N + PxSg2 IF (-1 Sg2 + Gen) ;
@@ -549,11 +553,11 @@ REMOVE PxSg1 IF (NOT -1 ("ben"i)) (NOT -2 ("ben"i)) (NOT 1 ("lazım"i)) ;
 
 REMOVE Det IF (1 (",")) ;
 
-REMOVE PxPl3 IF (NOT -1 Gen OR ABS) ;
 
 REMOVE FINITE IF (1 ("lazım"i)) ;
 
-REMOVE PxSg3 IF ((NOT -1 Gen OR ABS OR BOS) OR (NOT -2 Gen OR ABS OR BOS));
+REMOVE PxPl3 IF (NOT -1* Gen OR ABS OR BOS BARRIER NOT-NOMINAL) ; 
+REMOVE PxSg3 IF (NOT -1* Gen OR ABS OR BOS BARRIER NOT-NOMINAL) ; 
 
 ## These rules are used to remove possessives when we are "almost"
 ## certain that it cannot be so. It doesn't remove Poss in case of -1 ABS 
@@ -572,7 +576,7 @@ REMOVE Plu IF (-1 Num) ;
 ## Removes the plural reading of [0] when the previous word is a numeral. In turkish
 ## sentences like "two apples" are actually "two apple", if there is a numeral before the plural is skipped
 
-REMOVE Acc IF (-1 Gen) ;
+REMOVE Acc IF (-1* Gen BARRIER NOT-NOMINAL) (NOT 1* TV BARRIER CLB) ;
 
 ## Constructions like "Buranın adı". Adı there is possessive, possessed by [-1] in genitive
 
@@ -698,5 +702,8 @@ SELECT Prop IF (0 ("<[A-Z]\+>"r)) (0 A OR Prop) (NOT 1C N);
 SELECT Pred IF (0 Pred OR N) (1 (sent));
     ## O gün paramız yoktu.
     
-SELECT Det if (0 ("bir")) (1C N) ;
+SELECT Det IF (0 ("bir")) (1C N) ;
     ## O başka bir hayvan ya da bir kuş 
+
+SELECT A IF (-1C ("daha")) ; 
+    ## Daha ağır
