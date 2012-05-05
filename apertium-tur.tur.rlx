@@ -706,4 +706,7 @@ SELECT Det IF (0 ("bir")) (1C N) ;
     ## O başka bir hayvan ya da bir kuş 
 
 SELECT A IF (-1C ("daha")) ; 
-    ## Daha ağır
+    ## Daha [0]ağır
+
+REMOVE Gen IF (0 Gen OR Adv) (NOT 1* TV BARRIER CLB);
+    ## Kovayla bira içerim, ama sen bilmezsin. [0]Yarın gelir misin?
