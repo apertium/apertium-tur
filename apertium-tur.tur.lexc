@@ -790,7 +790,7 @@ ben%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:benden # ;
 
 sen%<prn%>%<pers%>%<p2%>%<sg%>:sen # ;
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:sana # ;
-sen%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:senim # ;
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:senin # ;
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:seni # ;
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:sende # ;
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:senden # ;
@@ -817,7 +817,7 @@ biz%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizden # ;
 
 siz%<prn%>%<pers%>%<p2%>%<pl%>:siz # ;
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:size # ;
-siz%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:sizim # ;
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:sizin # ;
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:sizi # ;
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:sizde # ;
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizden # ;
