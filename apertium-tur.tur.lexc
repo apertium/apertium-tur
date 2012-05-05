@@ -685,6 +685,7 @@ LEXICON VTVINFL-CAUS_DIR-AOR_IR
 %<v%>%<tv%>%<abil%>%<neg%>:%>%{bY%}%{A%}%>m%{A%} VINFL-COMMON ;
 %<v%>%<tv%>%<abil%>%<neg%>%<aor%>:%>%{bY%}%{A%}%>m%{A%}z V-PERS-G1 ;
 %<v%>%<tv%>%<neg%>:%>m%{A%} VINFL-COMMON ;
+%<v%>%<tv%>%<neg%>%<aor%>:%>m%{A%}z V-PERS-COP-G2 ;
 %<v%>%<tv%>%<aor%>:%>%{bI%}r V-PERS-COP-G2 ;
 %<v%>%<tv%>%<pih%>:%>%{bI%}r%>%{D%}%{I%} V-PERS-G1 ;
 %<v%>%<tv%>%<caus%>:%>%{D%}%{I%}r VINFL-COMMON ;
