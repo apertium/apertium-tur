@@ -185,7 +185,9 @@ LEXICON clit-cop
 %+%i%<cop%>%<past%>:%>%{D%}%{I%} V-PERS-G1 ;  
 %+%i%<cop%>%<cond%>:%>%{bY%}s%{A%} V-PERS-G1 ;
 %+%i%<cop%>%<evid%>:%>%{bY%}m%{I%}ş V-PERS-COP-G2 ;
-%+%i%<cop%>%<rel%>:%>ken #  ;
+!%+%i%<cop%>%<rel%>:%>ken #  ;
+%<v%>%<iv%>%<aor%>%+i%<cop%>%<rel%>:%>%{A%}rken # ;
+%<v%>%<tv%>%<aor%>%+i%<cop%>%<rel%>:%>%{A%}rken # ;
 clit ; 
 !# ;
 
