@@ -13,6 +13,8 @@
 /autogen.sh -text
 /checked.xae -text
 /configure.ac -text
+dev/25072012-apertium-tur.tur.lexc -text
+dev/25072012-apertium-tur.tur.twol -text
 dev/adv -text
 dev/adv.checked -text
 dev/checked.xae -text

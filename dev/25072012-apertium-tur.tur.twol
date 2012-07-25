@@ -1,0 +1,145 @@
+!! List of people who will hate this file:
+!!     1. Firespeaker
+
+Alphabet
+
+ A B C Ç D E F G Ğ H I İ J K L M N O Ö P Q R S Ş T U Ü V W X Y Z 
+ a b c ç d e f g ğ h ı i j k l m n o ö p q r s ş t u ü v w x y z 
+
+ %{k%}:k  %{p%}:p  %{D%}:d %{K%}:k %{t%}:t %{c%}:ç %{LN%}:l %{e%}:e %{a%}:a
+ %{bN%}:0 %{bY%}:0 %{bI%}:0 %{bS%}:0
+ %{A%}:a  %{I%}:ı
+ %{dup%}:0 %{del%}:0 %{dels%}:0 %{compn%}:0
+ %{pA%}:a %{pU%}:u %{pO%}:o
+ %{nin%}:0 %{nın%}:0 %{nun%}:0 %{un%}:0 %{in%}:0
+
+ %>:0
+
+ %' % ;
+
+
+Sets
+
+FrontVow = İ Ü E Ö 
+           i ü e ö 
+           %{nin%}; 
+
+FrontVowNotUe = İ E Ö
+                i e ö 
+               %{nin%} ;
+
+BackVowNotUO = I A 
+          ı a ; 
+
+BackVow = I U A O 
+          ı u a o 
+         %{nun%} %{nın%} %{un%}; 
+
+Vow = İ Ü E Ö I U A O
+      i ü e ö ı u a o
+      %{A%} %{I%} %{bI%} ;
+
+
+Cns = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W X Y Z 
+      b c ç d f g ğ h j k l m n p q r s ş t v w x y z 
+      %{k%} %{p%} %{t%} %{D%} %{bN%} %{bY%} %' ;
+
+UnvoicedCns = F Ş T K Ç P
+              f ş t k ç p  ;
+
+Rules 
+
+"A Vowel Harmony"
+%{A%}:e <=> [ :FrontVow :Cns* ]/[ %>: | %  | :0 | :i | :u ] _ ;
+            except
+                    %>: m _ %>: %{bI%}: ; 
+
+"I Vowel Harmony (not ü)"
+%{I%}:i <=> [ [ :i | :e ] :Cns* ]/[ %>: | % | :0 ] _ ;
+
+"I Vowel Harmony (back 'u')"
+%{I%}:u <=> [ [ %{un%}: | :o | :u ] :Cns* ]/[ %>: | % | :0 ] _ ;
+
+"I Vowel Harmony (front 'ü')"
+%{I%}:ü <=> [ [ :ö | :ü ] :Cns* ]/[ %>: | % | :0 ] _ ;
+
+"Not 'buffer' N"
+%{bN%}:n <=> [ :Vow | :Vow %' ]/[ %>: | % | :0 ] _ ; 
+          except 
+             [ %{in%}: | %{un%}: ] %' %>: _ ;
+
+"Not 'buffer' {bI} Back (ı)"
+%{bI%}:ı <=> [ :a :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+             [ :ı :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+
+"Not 'buffer' I Back (u)"
+%{bI%}:u <=> [ :u :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+             [ :o :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+
+"Not 'buffer' I Front (i)"
+%{bI%}:i <=> [ :i :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+             [ :e :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+
+"Not 'buffer' I Front (ü)"
+%{bI%}:ü <=> [ :ü :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+             [ :ö :Cns* :Cns ]/[ %>: | :0 ] _ ; 
+
+"Not 'buffer' Y"
+%{bY%}:y <=> [ :Vow ]/[ %>: | :0 | :%' ] _ ; 
+
+"Not 'buffer' S"
+%{bS%}:s <=>  [ :Vow ]/[ %>: | :0 ] _ ;
+
+"Final stop devoicing"
+Vx:Vy <=> _ %>: [ :Vow | %{bN%}:0 :Vow | %{bY%}:0 :Vow | %{bS%}:0 :Vow ] ;
+         where Vx         in ( %{p%} %{t%} %{c%} )
+               Vy         in (   b     d     c   )
+               matched ; 
+
+"{k} devoicing"
+%{k%}:ğ <=>  _ %>: [ :Vow | %{bN%}:0 :Vow | %{bY%}:0 :Vow | %{bS%}:0 :Vow ] ;
+            except
+                   :n _ %>: [ :Vow | %{bN%}:0 :Vow | %{bY%}:0 :Vow | %{bS%}:0 :Vow ] ; 
+
+"{k} devoicing after n"
+%{k%}:g <=>  :n  _ %>: [ :Vow | %{bN%}:0 :Vow | %{bY%}:0 :Vow | %{bS%}:0 :Vow ] ;
+
+!  p ->  b : şarap -> şarabı 
+!  ç ->  c : ağaç -> ağacı
+!  k ->  ğ : bebek -> bebeği
+! nk -> ng : renk -> rengi
+!  t ->  d : tat  -> tadı
+
+"d devoicing in ablative and locative"
+%{D%}:t <=> [ %{k%}:k | %{t%}:t | %{p%}:p | UnvoicedCns ] %>: _ ;
+            %{t%}: %>: _ %{I%}: r ;
+
+"Exception for endings in -{t}"
+%{t%}:0 <=> _ %>: %{D%}: %{I%}: r ; 
+
+"l/n alternation in passive"
+%{LN%}:n <=> [ :Vow | :l ]  %>: _ ;
+             [ :Vow | :l ]  %>: %{bI%}: _ ; 
+             [ %{e%}: | :Vow | :l ]  %>: %{bI%}:i _ ; 
+
+! If stem ends with *a vowel or `l'* {LN} becomes `n'.
+! Otherwise it is `l'.
+
+"Exception for verbs de- and ye-"
+%{e%}:0 <=> .#. [ d | y ] _ %>:  %{bI%}:  ;
+            [ Vow | Cns ]* _ %>: %{bI%}: y o r ; 
+          except
+            .#. [ d | y ] _ %>: %{bI%}: %{LN%}: ;
+
+"Exception for verbs ending in -a"
+%{a%}:0 <=>  _ %>: %{bI%}: y o r  ;
+
+"Exception for verbs de- and ye- (2)"
+%{e%}:i <=> .#. [ d | y ] _ %>:  %{bY%}: :e  ;
+
+"Buffer lol"
+%{bI%}:i <=> .#. [ d | y ] :0 %>: _  ; 
+
+"{A} deletion from negative before aorist"
+%{A%}:0 <=> %>: m _ %>: %{bI%}: ; 
+
