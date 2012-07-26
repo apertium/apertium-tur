@@ -26,6 +26,7 @@ Multichar_Symbols
 %<ij%>         ! Interjection               
 %<abbr%>       ! Abbreviation               
 %<cop%>        ! Copula                     
+%<qst%>        ! Question particle
 !%<ideo%>       ! Ideophone                  
 
 ! Proper noun types
@@ -95,20 +96,19 @@ Multichar_Symbols
 %<evi%>            ! -m{I}s 
 %<fut%>		   ! -{A}C{A}{K}
 
-
-
-
-%{A%}              ! Realised as 'a', 'e' 
-%{I%}              ! Realised as 'i', 'ı' 'ü" "u"
-%{D%}		   ! Realised as "d" "t" - fistikci sahap
-
+%{A%}              ! Becomes 'a' or 'e' 
+%{I%}              ! Becomes 'i', 'ı' 'ü", or "u"
+%{D%}		   ! Becomes "d" or "t" - fistikci sahap
 !
 !
-!
-%{n%}		  ! RealiZed as "n" after a vowel, otherwise null
-%{y%}		  ! Realized as "y" after a vowel, otherwise null
-%{s%}		  ! Realized as "s" after a vowel, otherwise null
-%{i%}		  ! Realized as "i" after a consonant, otherwise null
+%{n%}		   ! Becomes "n" after a vowel, otherwise null
+%{y%}		   ! Becomes "y" after a vowel, otherwise null
+%{s%}		   ! Becomes "s" after a vowel, otherwise null
+%{i%}		   ! Becomes as "i" after a consonant, otherwise null
+
+%>
+%+
+% 
 
 !
 !
@@ -147,12 +147,34 @@ Punctuation ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Clitics 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON CLIT-GENERAL 
+
+%+mi%<qst%>:% m%{I%} # ; 
+%+i%<cop%>%<pres%>:%> V-PERS-COP-G2-NOSG3-FINAL ;
+# ;  !! This is the end of word marker.
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Personal suffixes
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON V-PERS-COP-G2-NOSG3-FINAL
+
+%<p1%>%<sg%>:%>%{y%}%{I%}m # ;
+%<p2%>%<sg%>:%>%{s%}%{I%}n  # ;
+%<p2%>%<frm%>%<sg%>:%>%{s%}%{I%}n%{I%}z  # ;
+%<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
+%<p2%>%<pl%>:%>%{s%}%{I%}n%{I%}z  # ;
+%<p3%>%<pl%>:%>l%{A%}r  # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON SUBST
 
 N-INFL-COMMON ; 
 %<pl%>:%>l%{A%}r N-INFL-COMMON ;
-
 
 !!!!!!!!!!!!!!!!!!!!!!     NOMINAL INFLECTION (N-INFL-COMMON)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -162,9 +184,8 @@ LEXICON CASE
 %<gen%>:%>%{n%}%{I%}n CLIT ;      
 %<dat%>:%>%{y%}%{A%} CLIT ;   
 %<acc%>:%>%{y%}%{I%} CLIT ; ;	      
-%<abl%>:%>%{D%}%{A%}n CLIT-GENERAL ;  
 %<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   
-
+%<abl%>:%>%{D%}%{A%}n CLIT-GENERAL ;  
 
 !!!! POSSESSIVES
 
@@ -182,14 +203,6 @@ LEXICON POSS-REAL
 %<px2pl%>:%>%{i%}n%{I%}z CASE-ETC ;      
 %<px3pl%>>%>l{A%}r%{I%} CASE-ETC ;  
 
+LEXICON N1 
 
-
-
-
-
-
-
-
-
-
-
+%<n%>: SUBST ; 
