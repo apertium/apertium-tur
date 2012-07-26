@@ -237,15 +237,14 @@ LEXICON N3 ! Nationalities which can form language, etc.
 
 LEXICON NUM
 
-%<num%>: # ;                                        ! Beş evi göriyorum.
-%<num%>%<ord%>:%>%{i%}nc%{I%} # ;                   ! Beşinci evi göriyorum.
-%<num%>%<ord%>%<subst%>:%>%{i%}nc%{I%} SUBST ;      ! Beşinciyi göriyorum.
-%<num%>%<subst%>: SUBST ;                           ! Beşi göriyorum.
+%<num%>: # ;                                        ! Beş evi görüyorum.
+%<num%>%<ord%>:%>%{i%}nc%{I%} # ;                   ! Beşinci evi görüyorum.
+%<num%>%<ord%>%<subst%>:%>%{i%}nc%{I%} SUBST ;      ! Beşinciyi görüyorum.
+%<num%>%<subst%>: SUBST ;                           ! Beşi görüyorum.
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Stem lexica
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
 
 LEXICON Numerals
 
