@@ -1,0 +1,105 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!   M O R P H O L O G I C A L · T R A N S D U C E R · F O R · T A T A R     !!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! See http://wiki.apertium.org/wiki/Turkic_lexicon
+
+Multichar_Symbols
+! Followed http://wiki.apertium.org/wiki/Turkic_languages
+
+! Part of speech categories
+%<n%>          ! Noun                       
+%<np%>         ! Proper noun                
+%<adj%>        ! Adjective                  
+%<num%>        ! Numeral                    
+%<prn%>        ! Pronoun                    
+%<det%>        ! Determiner                 
+%<v%>          ! Verb                       
+%<vaux%>       ! Auxilary verb              
+%<adv%>        ! Adverb                     
+%<post%>       ! Postposition               
+%<postadv%>    ! Postadverb                 
+%<cnjcoo%>     ! Co-ordinating conjunction  
+%<cnjsub%>     ! Sub-ordinating conjunction 
+%<cnjadv%>     ! Adverbial conjunction      
+%<part%>       ! Particle                   
+%<ij%>         ! Interjection               
+%<abbr%>       ! Abbreviation               
+%<cop%>        ! Copula                     
+!%<ideo%>       ! Ideophone                  
+
+! Proper noun types
+%<top%>            
+%<ant%>            
+%<cog%>            
+%<org%>            
+%<al%>             
+
+!! gender of anthroponyms 
+%<m%>              ! Masculine    
+%<f%>              ! Feminine     
+
+! "Syntactic" tags. Attributive use of non-adjectives etc. !!!!! NOT SURE I WANT THIS !!!!
+%<attr%>           ! Attributive
+%<subst%>          ! Substantive
+%<advl%>           ! Adverbial
+
+! Number ! Сан ! Число
+%<sg%>             ! Singular  ! Берлек сан  ! Единственное число
+%<pl%>             ! Plural    ! Күплек сан  ! Множественное число
+%<sp%>             ! Singular/Plural (used for formal personal pronoun)
+
+! Possessives 
+%<px1sg%>          ! First person singular
+%<px2sg%>          ! Second person singular
+%<px3sp%>          ! Third person singular/plural
+%<px1pl%>          ! First person plural
+%<px2pl%>          ! Second person singular
+%<px%>             ! General possessive           ! NOT SURE I WANT THIS
+
+! Cases ! "Case is a lie!" (quot.)
+
+%<nom%>            
+%<gen%>            
+%<dat%>            
+%<acc%>            
+%<abl%>            
+%<loc%>            
+%<com%> ! comitative 
+%<prv%> ! privative
+
+! Pronoun types ! Алмашлык төрләре ! Виды местоимений
+%<pers%>           ! Personal
+! Pronoun and determiner types
+%<dem%>            ! Demonstrative
+%<ind%>            ! Indefinite
+%<itg%>            ! Interrogative
+%<qnt%>            ! Quantifier
+%<neg%>            ! Negative    ! NOTE: also used to denote negation in verbs ! what do you mean firespeaker??
+%<ref%>            ! Reflexive
+
+!! Numeral types
+%<ord%>            ! Ordinal
+%<coll%>           ! Collective  
+%<dist%>           ! Distibutive 
+
+! Tense, aspect, mood
+%<imp%>            ! Imperative
+%<cond%>           ! Conditional  ! Шарт  ! Условное  !! -с{A}
+%<caus%>           ! Causative
+%<pass%>           ! Passive
+%<coop%>           ! Cooperative
+
+%<pres%>           ! -{A}
+%<past%>           ! -{D}{I} 
+%<evi%>            ! -m{I}s 
+%<fut%>		   ! -{A}C{A}{K}
+
+
+
+
+
+
+
+
+
