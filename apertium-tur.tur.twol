@@ -31,6 +31,12 @@ Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z
 
 Rules 
 
+"Vowel harmony for archiphoneme {I}"
+%{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 | %>: ] _ ;
+        where 
+            LastVowel in ( i ü e ö ı u a o )
+                   Vy in ( i ü i ü ı u ı u ) 
+            matched;
 
 "Epenthetic consonants after vowel"
 Cx:Cy <=>   :SurVow %>: _ ; 
