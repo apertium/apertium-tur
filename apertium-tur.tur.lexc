@@ -66,8 +66,8 @@ Multichar_Symbols
 %<acc%>            
 %<abl%>            
 %<loc%>            
-%<com%> ! comitative 
-%<prv%> ! privative
+%<ins%>            ! Instrumental=comitative 
+%<abe%>            ! Abessive=privative
 
 ! Pronoun types ! Алмашлык төрләре ! Виды местоимений
 %<pers%>           ! Personal
@@ -81,8 +81,8 @@ Multichar_Symbols
 
 !! Numeral types
 %<ord%>            ! Ordinal
-%<coll%>           ! Collective  
-%<dist%>           ! Distibutive 
+%<coll%>           ! Collective
+%<dist%>           ! Distibutive
 
 ! Tense, aspect, mood
 %<imp%>            ! Imperative
@@ -99,8 +99,8 @@ Multichar_Symbols
 %{A%}              ! Becomes 'a' or 'e' 
 %{I%}              ! Becomes 'i', 'ı' 'ü", or "u"
 %{D%}		   ! Becomes "d" or "t" - fistikci sahap
-!
-!
+
+
 %{n%}		   ! Becomes "n" after a vowel, otherwise null
 %{y%}		   ! Becomes "y" after a vowel, otherwise null
 %{s%}		   ! Becomes "s" after a vowel, otherwise null
@@ -109,18 +109,6 @@ Multichar_Symbols
 %>
 %+
 % 
-
-!
-!
-!
-!
-!
-!
-!
-!
-!!
-!
-!
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -150,11 +138,20 @@ Punctuation ;
 !! Clitics 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON CLIT-GENERAL 
+LEXICON CLIT
 
 %+mı%<qst%>:% m%{I%} # ; 
-%+i%<cop%>%<pres%>:%> V-PERS-COP-G2-NOSG3-FINAL ;
 # ;  !! This is the end of word marker.
+
+LEXICON V-PERS-COP
+
+%+i%<cop%>%<pres%>: V-PERS-COP-G2-NOSG3-FINAL ;
+
+LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears only
+                        ! after nominal parts of speech (and only after some cases).
+                        ! FIXME: to be checked whether leads to any overgeneration
+CLIT ;
+V-PERS-COP ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Personal suffixes
@@ -163,7 +160,7 @@ LEXICON CLIT-GENERAL
 LEXICON V-PERS-COP-G2-NOSG3-FINAL
 
 %<p1%>%<sg%>:%>%{y%}%{I%}m # ;
-%<p2%>%<sg%>:%>%{s%}%{I%}n  # ;
+%<p2%>%<sg%>:%>%{s%}%{I%}n # ;
 %<p2%>%<frm%>%<sg%>:%>%{s%}%{I%}n%{I%}z  # ;
 %<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
 %<p2%>%<pl%>:%>%{s%}%{I%}n%{I%}z  # ;
@@ -178,16 +175,26 @@ N-INFL-COMMON ;
 
 !!!!!!!!!!!!!!!!!!!!!!     NOMINAL INFLECTION (N-INFL-COMMON)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON N-INFL-COMMON
+
+POSS-REAL ;
+CASE-ETC ;
+!ABE-ETC ;
+
 LEXICON CASE 
 
 %<nom%>: CLIT-GENERAL ;               
 %<gen%>:%>%{n%}%{I%}n CLIT ;      
 %<dat%>:%>%{y%}%{A%} CLIT ;   
-%<acc%>:%>%{y%}%{I%} CLIT ; ;	      
+%<acc%>:%>%{y%}%{I%} CLIT ;
 %<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   
 %<abl%>:%>%{D%}%{A%}n CLIT-GENERAL ;  
 
 !!!! POSSESSIVES
+
+LEXICON GENPOSS-ETC 
+
+CASE ;
 
 LEXICON CASE-ETC
 
