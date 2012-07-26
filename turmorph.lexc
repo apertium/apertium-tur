@@ -152,7 +152,7 @@ Punctuation ;
 
 LEXICON CLIT-GENERAL 
 
-%+mi%<qst%>:% m%{I%} # ; 
+%+mı%<qst%>:% m%{I%} # ; 
 %+i%<cop%>%<pres%>:%> V-PERS-COP-G2-NOSG3-FINAL ;
 # ;  !! This is the end of word marker.
 
@@ -203,7 +203,13 @@ LEXICON POSS-REAL
 %<px2pl%>:%>%{i%}n%{I%}z CASE-ETC ;      
 %<px3pl%>:%>l%{A%}r%{I%} CASE-ETC ;  
 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Noun paradigms
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 LEXICON N1 ! Generic noun paradigm.
+           ! e.g. ev, kitap, ...
 
 %<n%>: SUBST ; 
 
@@ -212,6 +218,11 @@ LEXICON N2 ! Compound nouns with compulsory possession.
 
 %<n%>: POSS-REAL ; 
 %<n%>%<pl%>:%>l%{A%}r POSS-REAL ; 
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Stem lexica
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON Nouns 
 
