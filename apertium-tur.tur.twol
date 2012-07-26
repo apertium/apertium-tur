@@ -31,5 +31,9 @@ Cns = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W X Y Z
 
 Rules 
 
-"Epenthetic 's' after vowel"
-%{s%}:s <=> :SurVow %>: _ ;
+"Epenthetic consonants after vowel"
+Cx:Cy <=>   :SurVow %>: _ ; 
+        where
+            Cx in ( %{n%} %{s%} %{y%} ) 
+            Cy in (   n     s     y   ) 
+        matched ; 
