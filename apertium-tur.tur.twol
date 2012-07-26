@@ -58,7 +58,9 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 ! tat>{y}{I} = tadi
 ! fistik>{y}{I} = fistiği
 ! ağaç>{y}{I} = ağacı
-! renk>{y}{I} = rengi
+! renk>{y}{I} ≠ renki
+! gönç>{y}{I} ≠ göncü
+! dekont>{y}{I} ≠ dekondu
 
 "Alternative voicing of 'k' to 'g' after 'n'"
 k:g <=> :n _ %>: (:0) :Vow ;
