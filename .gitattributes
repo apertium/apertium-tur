@@ -23,4 +23,3 @@ dev/proof-lexicon.sh -text
 dev/turkish.py -text
 dev/unknown -text
 dev/verb-morph.lexc -text
-/turmorph.lexc -text
