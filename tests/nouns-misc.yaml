@@ -1,0 +1,14 @@
+Config: 
+  hfst: 
+    App:  hfst-optimised-lookup
+    Gen:  ../tur.autogen.hfst
+    Morph:  ../tur.automorf.hfst
+
+Tests: 
+
+  "[twol] Prevocalic consonant voicing": 
+    kitap<n><nom> : kitap
+    kitap<n><acc> : kitabı
+    tat<n><nom> : tat
+    tat<n><acc> : tadı
+
