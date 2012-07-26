@@ -50,7 +50,7 @@ Cx:Cy <=>   :SurVow %>: _ ;
 
 
 Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
-          _ %>: :р ;
+          _ %>: :p ;
           where Cx in ( p )
                 Cy in ( b )
                 matched;
