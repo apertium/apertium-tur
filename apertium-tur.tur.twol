@@ -29,6 +29,15 @@ Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z
          b c ç d f g ğ h j k l m n p q r s ş t v w y z 
          %' ;
 
+HardVow = a ı o u ;
+
+SoftVow = e i ö ü ;
+
+FlatVow = a e i ı ;
+
+RoundVow = o u ö ü;
+
+
 Rules 
 
 "Vowel harmony for archiphoneme {I}"
