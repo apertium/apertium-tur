@@ -201,8 +201,19 @@ LEXICON POSS-REAL
 %<px3sp%>:%>%{s%}%{I%} CASE-ETC ; 
 %<px1pl%>:%>%{i%}m%{I%}z CASE-ETC ;           
 %<px2pl%>:%>%{i%}n%{I%}z CASE-ETC ;      
-%<px3pl%>>%>l{A%}r%{I%} CASE-ETC ;  
+%<px3pl%>:%>l%{A%}r%{I%} CASE-ETC ;  
 
-LEXICON N1 
+LEXICON N1 ! Generic noun paradigm.
 
 %<n%>: SUBST ; 
+
+LEXICON N2 ! Compound nouns with compulsory possession. 
+           ! e.g. dikiş makinası, dikiş makinaları, ...
+
+%<n%>: POSS-REAL ; 
+%<n%>%<pl%>:%>l%{A%}r POSS-REAL ; 
+
+LEXICON Nouns 
+
+ab:ab N1 ; ! "water"
+dikiş% makinası:dikiş% makina N2 ; ! "sewing machine"
