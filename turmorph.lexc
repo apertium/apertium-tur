@@ -99,6 +99,7 @@ Multichar_Symbols
 
 
 %{A%}              ! Realised as 'a', 'e' 
+%{I%}              ! Realised as 'i', 'ı' 'ü" "u"
 %{D%}		   ! Realised as "d" "t" - fistikci sahap
 
 !
@@ -106,6 +107,8 @@ Multichar_Symbols
 !
 %{n%}		  ! RealiZed as "n" after a vowel, otherwise null
 %{y%}		  ! Realized as "y" after a vowel, otherwise null
+%{s%}		  ! Realized as "s" after a vowel, otherwise null
+%{i%}		  ! Realized as "i" after a consonant, otherwise null
 
 !
 !
@@ -162,6 +165,22 @@ LEXICON CASE
 %<abl%>:%>%{D%}%{A%}n CLIT-GENERAL ;  
 %<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   
 
+
+!!!! POSSESSIVES
+
+LEXICON CASE-ETC
+
+CASE ;
+GENPOSS-ETC ;
+  
+LEXICON POSS-REAL
+
+%<px1sg%>:%>%{I%}m CASE-ETC ;                
+%<px2sg%>:%>%{I%}n CASE-ETC ;                 
+%<px3sp%>:%>%{s%}%{I%} CASE-ETC ; 
+%<px1pl%>:%>%{i%}m%{I%}z CASE-ETC ;           
+%<px2pl%>:%>%{i%}n%{I%}z CASE-ETC ;      
+%<px3pl%>>%>l{A%}r%{I%} CASE-ETC ;  
 
 
 
