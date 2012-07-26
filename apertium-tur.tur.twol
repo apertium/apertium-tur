@@ -30,7 +30,8 @@ Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z
          %' ;
 
 Rules 
-ğ
+
+
 "Epenthetic consonants after vowel"
 Cx:Cy <=>   :SurVow %>: _ ; 
         where
@@ -45,19 +46,19 @@ Cx:Cy <=>   :SurVow %>: _ ;
 ! kitap>{y}{I} = kitabı
 ! anne>{y}{I} = anneyi
 
-
-Voicing for ptkç before vowel !!!
-
-
+"Prevocalic consonant voicing"
 Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
-          
-          where Cx in ( p t k ç)
-                Cy in ( b d ğ c)
+          where Cx in ( p t k ç )
+                Cy in ( b d ğ c )
                 matched;
 
+! kitap>{y}{I} = kitabı
+! tat>{y}{I} = tadi
+! fistik>{y}{I} = fistiği
+! ağaç>{y}{I} = ağacı
+
+"Alternative voicing of 'k' to 'g' after 'n'"
 k:g <=> :n _ %>: (:0) :Vow ;
 
-! kitap = kitabi
-! tat = tadi
-! fistik = fistiği
-! ağaç = ağacı
+! renk>{y}{I} = rengi
+
