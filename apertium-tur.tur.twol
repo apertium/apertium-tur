@@ -48,6 +48,8 @@ Cx:Cy <=>   :SurVow %>: _ ;
 
 "Prevocalic consonant voicing"
 Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
+          except
+                 :n _ %>: (:0) :Vow ;
           where Cx in ( p t k ç )
                 Cy in ( b d ğ c )
                 matched;
@@ -56,6 +58,7 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 ! tat>{y}{I} = tadi
 ! fistik>{y}{I} = fistiği
 ! ağaç>{y}{I} = ağacı
+! renk>{y}{I} = rengi
 
 "Alternative voicing of 'k' to 'g' after 'n'"
 k:g <=> :n _ %>: (:0) :Vow ;
