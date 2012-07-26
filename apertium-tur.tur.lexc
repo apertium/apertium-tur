@@ -226,6 +226,11 @@ LEXICON N2 ! Compound nouns with compulsory possession.
 %<n%>: POSS-REAL ; 
 %<n%>%<pl%>:%>l%{A%}r POSS-REAL ; 
 
+LEXICON N3 ! Nationalities which can form language, etc.
+           ! e.g. turk, turkçe
+
+%<n%>: SUBST ; 
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Stem lexica
