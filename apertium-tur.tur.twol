@@ -38,6 +38,9 @@ Rules
                    Vy in ( i ü i ü ı u ı u ) 
             matched;
 
+! ev>{s}{I}         = evi      =     e:e v:v >:0 {s}:0 {I}:i
+! akü>{n}{I}n       = akünün   = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
+
 "Epenthetic consonants after vowel"
 Cx:Cy <=>   :SurVow %>: _ ; 
         where
@@ -45,12 +48,12 @@ Cx:Cy <=>   :SurVow %>: _ ;
             Cy in (   n     s     y   ) 
         matched ; 
 
-! ev>{s}{I} = evi 
-! ada>{s}{I} = adası
-! adam>{n}{I}n = adamın
-! akü>{n}{I}n = akünün
-! kitap>{y}{I} = kitabı
-! anne>{y}{I} = anneyi
+! ev>{s}{I}         = evi      =      e:e v:v >:0 {s}:0 {I}:i
+! ada>{s}{I}        = adası    =  a:a d:d a:a >:0 {s}:s {I}:ı
+! adam>{n}{I}n      = adamın   = 
+! akü>{n}{I}n       = akünün   = 
+! kitap>{y}{I}      = kitabı   = 
+! anne>{y}{I}       = anneyi   = 
 
 "Prevocalic consonant voicing"
 Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
@@ -60,16 +63,16 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
                 Cy in ( b d ğ c )
                 matched;
 
-! kitap>{y}{I} = kitabı
-! tat>{y}{I} = tadi
-! fistik>{y}{I} = fistiği
-! ağaç>{y}{I} = ağacı
-! renk>{y}{I} ≠ renki
-! gönç>{y}{I} ≠ göncü
-! dekont>{y}{I} ≠ dekondu
+! kitap>{y}{I}      = kitabı   =
+! tat>{y}{I}        = tadi     =
+! fistik>{y}{I}     = fistiği  = 
+! ağaç>{y}{I}       = ağacı    =
+! renk>{y}{I}       ≠ renki    = 
+! gönç>{y}{I}       ≠ göncü    =
+! dekont>{y}{I}     ≠ dekondu  =
 
 "Alternative voicing of 'k' to 'g' after 'n'"
 k:g <=> :n _ %>: (:0) :Vow ;
 
-! renk>{y}{I} = rengi
+! renk>{y}{I}       = rengi    =
 
