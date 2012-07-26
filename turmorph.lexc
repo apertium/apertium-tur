@@ -98,6 +98,75 @@ Multichar_Symbols
 
 
 
+%{A%}              ! Realised as 'a', 'e' 
+%{D%}		   ! Realised as "d" "t" - fistikci sahap
+
+!
+!
+!
+%{n%}		  ! RealiZed as "n" after a vowel, otherwise null
+%{y%}		  ! Realized as "y" after a vowel, otherwise null
+
+!
+!
+!
+!
+!
+!
+!
+!
+!!
+!
+!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!                       M O R P H O T A C T I C S                         !!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Root
+
+ModalParticles ; 
+Copula ; 
+Conjunctions ; 
+Postpositions ; 
+Postadverbs ;
+Pronouns ; 
+Determiners ; 
+Numerals ; 
+Nouns ; 
+ProperNouns ;
+Adjectives ; 
+Adverbs ; 
+Verbs ; 
+Interjections ; 
+Abbreviations ; 
+Punctuation ; 
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON SUBST
+
+N-INFL-COMMON ; 
+%<pl%>:%>l%{A%}r N-INFL-COMMON ;
+
+
+!!!!!!!!!!!!!!!!!!!!!!     NOMINAL INFLECTION (N-INFL-COMMON)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON CASE 
+
+%<nom%>: CLIT-GENERAL ;               
+%<gen%>:%>%{n%}%{I%}n CLIT ;      
+%<dat%>:%>%{y%}%{A%} CLIT ;   
+%<acc%>:%>%{y%}%{I%} CLIT ; ;	      
+%<abl%>:%>%{D%}%{A%}n CLIT-GENERAL ;  
+%<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   
+
+
+
+
+
+
 
 
 
