@@ -44,3 +44,13 @@ Cx:Cy <=>   :SurVow %>: _ ;
 ! akü>{n}{I}n = akünün
 ! kitap>{y}{I} = kitabı
 ! anne>{y}{I} = anneyi
+
+
+!!! Voicing for p before vowel !!!
+
+
+Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
+          _ %>: :р ;
+          where Cx in ( p )
+                Cy in ( b )
+                matched;
