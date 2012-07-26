@@ -1,5 +1,5 @@
 !! List of people who will hate this file:
-!!     1. Firespeaker
+!!     1. Firespeakerwh
 
 Alphabet
 
@@ -25,8 +25,8 @@ Vow    = İ Ü E Ö I U A O
          i ü e ö ı u a o
        %{A%} %{I%} ;
 
-Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W X Y Z 
-         b c ç d f g ğ h j k l m n p q r s ş t v w x y z 
+Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z 
+         b c ç d f g ğ h j k l m n p q r s ş t v w y z 
          %' ;
 
 Rules 
