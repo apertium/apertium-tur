@@ -18,16 +18,16 @@ Alphabet
 Sets
 
 SurVow = İ Ü E Ö I U A O
-      i ü e ö ı u a o ; 
+         i ü e ö ı u a o ; 
 
 
-Vow = İ Ü E Ö I U A O
-      i ü e ö ı u a o
-      %{A%} %{I%} ;
+Vow    = İ Ü E Ö I U A O
+         i ü e ö ı u a o
+       %{A%} %{I%} ;
 
-Cns = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W X Y Z 
-      b c ç d f g ğ h j k l m n p q r s ş t v w x y z 
-      %' ;
+Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W X Y Z 
+         b c ç d f g ğ h j k l m n p q r s ş t v w x y z 
+         %' ;
 
 Rules 
 
@@ -37,3 +37,10 @@ Cx:Cy <=>   :SurVow %>: _ ;
             Cx in ( %{n%} %{s%} %{y%} ) 
             Cy in (   n     s     y   ) 
         matched ; 
+
+! ev>{s}{I} = evi 
+! ada>{s}{I} = adası
+! adam>{n}{I}n = adamın
+! akü>{n}{I}n = akünün
+! kitap>{y}{I} = kitabı
+! anne>{y}{I} = anneyi
