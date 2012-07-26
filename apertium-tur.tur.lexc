@@ -231,10 +231,34 @@ LEXICON N3 ! Nationalities which can form language, etc.
 
 %<n%>: SUBST ; 
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Numeral paradigms
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON NUM
+
+%<num%>: # ;                                        ! Beş evi göriyorum.
+%<num%>%<ord%>:%>%{i%}nc%{I%} # ;                   ! Beşinci evi göriyorum.
+%<num%>%<ord%>%<subst%>:%>%{i%}nc%{I%} SUBST ;      ! Beşinciyi göriyorum.
+%<num%>%<subst%>: SUBST ;                           ! Beşi göriyorum.
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Stem lexica
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+LEXICON Numerals
+
+bir:bir NUM ; ! "one"
+iki:iki NUM ; ! "two"
+üç:üç NUM ; ! "three"
+dört:dört NUM ; ! "four"
+beş:beş NUM ; ! "five"
+altı:altı NUM ; ! "six"
+yedi:yedi NUM ; ! "seven"
+sekiz:sekiz NUM ; ! "eight"
+dokuz:dokuz NUM ; ! "nine"
+on:on NUM ; ! "ten"
 
 LEXICON Nouns 
 
@@ -463,7 +487,6 @@ altbölüm:altbölüm N1 ; ! "subsection"
 alternatif:alternatif N1 ; ! "alternative"
 alternatör:alternatör N1 ; ! "generator"
 altgeçit:altgeçit N1 ; ! "subway"
-altı:altı N1 ; ! "six"
 altıgen:altıgen N1 ; ! "hexagon"
 altın:altın N1 ; ! "gold"
 altmışaltı:altmışaltı N1 ; ! "sixty six"
@@ -768,7 +791,6 @@ berber:berber N1 ; ! "barber"
 berduş:berduş N1 ; ! "tramp"
 bere:bere N1 ; ! "bruise"
 bereket:bereket N1 ; ! "richness"
-beş:beş N1 ; ! "five"
 beşer:beşer N1 ; ! "human"
 beşgen:beşgen N1 ; ! "pentagon"
 beşik:beşik N1 ; ! "cradle"
@@ -834,7 +856,6 @@ bira:bira N1 ; ! "beer"
 birader:birader N1 ; ! "brother "
 birahane:birahane N1 ; ! "pub"
 bırakıt:bırakıt N1 ; ! "estate"
-bir:bir N1 ; ! "one"
 bircilik:bircilik N1 ; ! "monism"
 bircinsten:bircinsten N1 ; ! "fellow"
 bireşim:bireşim N1 ; ! "synthesis"
@@ -1496,7 +1517,6 @@ dokumacı:dokumacı N1 ; ! "weaver"
 dokuma:dokuma N1 ; ! "knitted"
 doküman:doküman N1 ; ! "document"
 dokunulmazlık:dokunulmazlık N1 ; ! "immunity"
-dokuz:dokuz N1 ; ! "nine"
 dolap:dolap N1 ; ! "cabinent"
 dolaşım:dolaşım N1 ; ! "currency"
 dolay:dolay N1 ; ! "surroundings"
@@ -1511,7 +1531,6 @@ dönem:dönem N1 ; ! "period"
 dönemeç:dönemeç N1 ; ! "corner"
 dönence:dönence N1 ; ! "tropic"
 döngü:döngü N1 ; ! "cycle"
-dört:dört N1 ; ! "four"
 dörtgen:dörtgen N1 ; ! "square"
 dörtkenar:dörtkenar N1 ; ! "quadrilateral"
 döş:döş N1 ; ! "bosom"
@@ -2828,7 +2847,6 @@ ikametgah:ikametgah N1 ; ! "dwelling"
 ikamet:ikamet N1 ; ! "residence"
 ikaz:ikaz N1 ; ! "warning"
 ikbal:ikbal N1 ; ! "prosperity"
-iki:iki N1 ; ! "two"
 ikilem:ikilem N1 ; ! "dilemma"
 ikindi:ikindi N1 ; ! "late afternoon "
 ikindiyin:ikindiyin N1 ; ! "late afternoon"
@@ -5130,7 +5148,6 @@ ocak:ocak N1 ; ! "January"
 ölçü:ölçü N1 ; ! "measure"
 ömür:ömür N1 ; ! "life"
 omuz:omuz N1 ; ! "shoulder"
-on:on N1 ; ! "ten"
 ot:ot N1 ; ! "grass"
 parça:parça N1 ; ! "part"
 portal:portal N1 ; ! "portal"
@@ -5147,7 +5164,6 @@ savaş:savaş N1 ; ! "war"
 sebep:sebep N1 ; ! "reason"
 şefkat:şefkat N1 ; ! "affection"
 şeker:şeker N1 ; ! "sugar"
-sekiz:sekiz N1 ; ! "eight"
 selam:selam N1 ; ! "greeting"
 şenlik:şenlik N1 ; ! "festival"
 serhat:serhat N1 ; ! "border"
@@ -5182,7 +5198,6 @@ tipi:tipi N1 ; ! "blizzard"
 tırnak:tırnak N1 ; ! "nail"
 tomurcuk:tomurcuk N1 ; ! "gemma"
 toprak:toprak N1 ; ! "earth"
-üç:üç N1 ; ! "three"
 ülke:ülke N1 ; ! "country"
 umumiyet:umumiyet N1 ; ! "generalness"
 uydu:uydu N1 ; ! "satellite"
@@ -5194,7 +5209,6 @@ vücut:vücut N1 ; ! "body"
 yaban:yaban N1 ; ! "wild"
 yalan:yalan N1 ; ! "lie"
 yazı:yazı N1 ; ! "writing"
-yedi:yedi N1 ; ! "seven"
 yetenek:yetenek N1 ; ! "ability"
 yetmezlik:yetmezlik N1 ; ! "insufficiency"
 yılan:yılan N1 ; ! "snake"
