@@ -231,6 +231,13 @@ LEXICON N3 ! Nationalities which can form language, etc.
 
 %<n%>: SUBST ; 
 
+LEXICON N4 ! Nouns with usage as postpositions. 
+           ! We separate these in case they have some different morphotactics.
+           ! e.g. arka: arkasına, iç: içinde
+
+%<n%>: SUBST ; 
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Numeral paradigms
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -260,6 +267,7 @@ dokuz:dokuz NUM ; ! "nine"
 on:on NUM ; ! "ten"
 
 LEXICON Nouns 
+
 
 aba:aba N1 ; ! "cloth"
 ab:ab N1 ; ! "water"
@@ -469,7 +477,6 @@ alkol:alkol N1 ; ! "alcohol"
 alnaç:alnaç N1 ; ! "front"
 alp:alp N1 ; ! "alp"
 alperen:alperen N1 ; ! "fighter"
-alt:alt N1 ; ! "base"
 altbölüm:altbölüm N1 ; ! "subsection"
 alternatif:alternatif N1 ; ! "alternative"
 alternatör:alternatör N1 ; ! "generator"
@@ -1986,7 +1993,6 @@ gergedan:gergedan N1 ; ! "rhino"
 gergef:gergef N1 ; ! "frame"
 gergef:gergef N1 ; ! "tambour"
 gerici:gerici N1 ; ! "stretcher"
-geri:geri N1 ; ! "back"
 geri:geri N1 ; ! "lag"
 geri:geri N1 ; ! "rest"
 gerilim:gerilim N1 ; ! "tension"
@@ -2718,7 +2724,6 @@ içeri:içeri N1 ; ! "into"
 içerik:içerik N1 ; ! "content"
 içerik:içerik N1 ; ! "ingredient"
 içgüdü:içgüdü N1 ; ! "instinct"
-iç:iç N1 ; ! "inside"
 içim:içim N1 ; ! "taste"
 içki:içki N1 ; ! "beverage"
 icraat:icraat N1 ; ! "performance"
@@ -5174,3 +5179,15 @@ su% topu:su% top N2 ; ! "water polo"
 yanı% başı:yanı% baş N2 ; ! "very close"
 yurt% dışı:yurt% dış N2 ; ! "abroad"
 
+! Here are nouns, forms of which are often classified as 'postpositions'
+alt:alt N4 ; ! "base"
+iç:iç N4 ; ! "inside"
+yüz:yüz N4 ; ! "face"
+arka:arka N4 ; ! "back"
+geri:geri N4 ; ! "back"
+sıra:sıra N4 ; ! "turn"
+ara:ara N4 ; ! "space"
+yak:yak N4 ; ! "close"
+!esna:esna N4 ; ! ""
+!ard:ard N4 ; ! ""
+!hal:hal N4 ; ! ""
