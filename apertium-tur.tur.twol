@@ -47,6 +47,10 @@ Rules
                    Vy in ( i ü i ü ı u ı u ) 
             matched;
 
+"Vowel harmony for archiphoneme {A}"
+%{A}:e <=> [ :SoftVow :Cns* :Cns ]/[ :0 | %>: ] _ ;
+
+
 ! ev>{s}{I}         = evi      =     e:e v:v >:0 {s}:0 {I}:i
 ! akü>{n}{I}n       = akünün   = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
 
