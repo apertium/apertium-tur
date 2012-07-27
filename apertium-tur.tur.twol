@@ -37,6 +37,8 @@ FlatVow = a e i ı ;
 
 RoundVow = o u ö ü;
 
+Cnsdev = f s t k ç ş h p ;
+
 
 Rules 
 
@@ -53,7 +55,18 @@ Rules
 "Vowel harmony for archiphoneme {A}"
 %{A%}:e <=> [ :SoftVow :Cns* :Cns ]/[ :0 | %>: ] _ ;
 
-! ev>l{A}r          = evler    = e:e v:v >:0 l:l {A}:e r:r
+"Devoicing of archiphoneme {D} after CnsDev"
+
+%{D}:t <=> _ [:CnsDev]/[ :0 | %>: ] ;
+
+! ağaç = ağaçtan
+! fıstık = fıstıktan
+! şiş = şişten
+! gunah = gunahtan
+! kebap = kebaptan
+
+! ev>{s}{I}         = evi      =     e:e v:v >:0 {s}:0 {I}:i
+! akü>{n}{I}n       = akünün   = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
 
 "Epenthetic consonants after vowel"
 Cx:Cy <=>   :SurVow %>: _ ; 
