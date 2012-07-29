@@ -29,16 +29,20 @@ Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z
          b c ç d f g ğ h j k l m n p q r s ş t v w y z 
          %' ;
 
-HardVow = a ı o u ;
+HardVow  = a ı o u 
+           A I O U ;
 
-SoftVow = e i ö ü ;
+SoftVow  = e i ö ü 
+           E   Ö Ü ;
 
-FlatVow = a e i ı ;
+FlatVow  = a e i ı 
+           A E   I ;
 
-RoundVow = o u ö ü;
+RoundVow = o u ö ü
+           O U Ö Ü ;
 
-Cnsdev = f s t k ç ş h p ;
-
+Cnsdev   = f s t k ç ş h p 
+           F S T K Ç Ş H P ;
 
 Rules 
 
@@ -55,18 +59,19 @@ Rules
 "Vowel harmony for archiphoneme {A}"
 %{A%}:e <=> [ :SoftVow :Cns* :Cns ]/[ :0 | %>: ] _ ;
 
-"Devoicing of archiphoneme {D} after CnsDev"
+! ev>l{A}r          = evler     =     e:e v:v >:0 l:l {A}:e r:r
 
-%{D}:t <=> _ [:CnsDev]/[ :0 | %>: ] ;
+"Devoicing of archiphoneme {D} after Cnsdev"
+%{D%}:t <=> :Cnsdev %>: _ ; 
 
-! ağaç = ağaçtan
-! fıstık = fıstıktan
-! şiş = şişten
-! gunah = gunahtan
-! kebap = kebaptan
+! ağaç>{D}{A}n      = ağaçtan   = a:a ğ:ğ a:a ç:ç >:0 {D}:t {A}:a n:n
+! fıstık>{D}{A}n    = fıstıktan = 
+! şiş>{D}{A}n       = şişten    =
+! gunah>{D}{A}n     = gunahtan  =
+! kebap>{D}{A}n     = kebaptan  = 
 
-! ev>{s}{I}         = evi      =     e:e v:v >:0 {s}:0 {I}:i
-! akü>{n}{I}n       = akünün   = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
+! ev>{s}{I}         = evi       =     e:e v:v >:0 {s}:0 {I}:i
+! akü>{n}{I}n       = akünün    = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
 
 "Epenthetic consonants after vowel"
 Cx:Cy <=>   :SurVow %>: _ ; 
