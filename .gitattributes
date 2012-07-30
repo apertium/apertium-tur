@@ -6,7 +6,6 @@
 /NEWS -text
 /README -text
 /TODO -text
-/adverbs.lex -text
 /apertium-tur-1.0.pc.in -text
 /apertium-tur.tur.lexc -text
 /apertium-tur.tur.rlx -text
@@ -18,6 +17,7 @@ dev/25072012-apertium-tur.tur.lexc -text
 dev/25072012-apertium-tur.tur.twol -text
 dev/adv -text
 dev/adv.checked -text
+dev/adverbs.lex -text
 dev/checked.xae -text
 dev/miscategorised.lexc -text
 dev/proof-lexicon.sh -text
