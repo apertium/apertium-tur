@@ -78,7 +78,7 @@ Rules
 
 "Buffer N after 3rd singular possessive + dat/loc/abl"
 
-%{pN%}:n <=>  %>: _  %{D%}: ; 
+%{pN%}:n <=>  _ %>: %{D%}: ; 
 
 !arkasıNda
 !memelerinden
