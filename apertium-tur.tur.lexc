@@ -205,7 +205,7 @@ LEXICON POSS-REAL
 
 %<px1sg%>:%>%{I%}m CASE-ETC ;                
 %<px2sg%>:%>%{I%}n CASE-ETC ;                 
-%<px3sp%>:%>%{s%}%{I%}%{nP%} CASE-ETC ; 
+%<px3sp%>:%>%{s%}%{I%}%{pN%} CASE-ETC ; 
 %<px1pl%>:%>%{i%}m%{I%}z CASE-ETC ;           
 %<px2pl%>:%>%{i%}n%{I%}z CASE-ETC ;      
 %<px3pl%>:%>l%{A%}r%{I%}%{pN%} CASE-ETC ;  
