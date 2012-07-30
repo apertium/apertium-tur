@@ -10,6 +10,9 @@ Alphabet
 
  %{n%}:0 %{y%}:0 %{s%}:0 %{i%}:0
 
+%{pN%}:0
+
+
  %>:0
 
  %+ %- %' % ;
@@ -72,6 +75,16 @@ Rules
 
 ! ev>{s}{I}         = evi       =     e:e v:v >:0 {s}:0 {I}:i
 ! akü>{n}{I}n       = akünün    = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
+
+"Buffer N after 3rd singular possessive + dat/loc/abl"
+
+%{pN%}:n <=>  %>: _  %{D%}: ; 
+
+!arkasıNda
+!memelerinden
+!arabasında
+
+
 
 "Epenthetic consonants after vowel"
 Cx:Cy <=>   :SurVow %>: _ ; 
