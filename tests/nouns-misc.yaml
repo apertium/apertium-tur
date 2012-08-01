@@ -16,3 +16,13 @@ Tests:
     kitap<n><pl><nom> : kitaplar
     ev<n><pl><nom> : evler
     saat<n><pl><nom> : saatler 
+    kitap<n><nom>+i<cop><pres><p3><pl> : kitaplar
+    ev<n><nom>+i<cop><pres><p3><pl> : evler
+    saat<n><nom>+i<cop><pres><p3><pl> : saatler 
+
+  "[twol] {A} harmony in dative": 
+    kitap<n><dat> : kitaba
+    anne<n><dat> : anneye 
+    ev<n><dat> : eve
+    saat<n><dat> : saate
+   

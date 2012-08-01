@@ -49,6 +49,8 @@ RoundVow = o u ö ü
 Cnsdev   = f s t k ç ş h p 
            F S T K Ç Ş H P ;
 
+AbstrCns = %{n%} %{y%} %{s%} ;
+
 Rules 
 
 "Vowel harmony for archiphoneme {I}"
@@ -62,10 +64,15 @@ Rules
 ! akü>{n}{I}n       = akünün   = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
 
 "Vowel harmony for archiphoneme {A}"
-%{A%}:e <=> [ [ %{f%}: | :SoftVow ] :Cns* :Cns ]/[ :0 | %>: ] _ ;
+%{A%}:e <=> [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: ] _ ;
+            [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: ] _ ;
 
 ! ev>l{A}r          = evler     =     e:e v:v >:0 l:l {A}:e r:r
 ! saat{f}>l{A}r     = saatler   =     s:s a:a a:a t:t {f}:0 >:0 l:l {A}:e r:r
+! saat{f}>{y}{A}    = saate     =     s:s a:a a:a t:t {f}:0 >:0 {y}:0 {A}:e
+! eve>{y}{A}        = eve       =     e:e v:v >:0 {y}:0 {A}:e
+! kitab>y{A}        = kitaba    =     k:k i:i t:t a:a p:b >:0 {y}:0 {A}:a
+
 
 "Devoicing of archiphoneme {D} after Cnsdev"
 %{D%}:t <=> :Cnsdev %>: _ ; 
