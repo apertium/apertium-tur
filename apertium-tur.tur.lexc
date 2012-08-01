@@ -257,6 +257,11 @@ LEXICON ADV
 
 %<adv%>: # ;
 
+LEXICON INTERJ
+
+%<ij%>: # ;
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Stem lexica
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -5423,3 +5428,8 @@ yukarı:yukarı ADV ; ! "up"
 zaten:zaten ADV ; ! "already"
 zor:zor ADV ; ! "hard"
 
+
+LEXICON Interjections 
+
+evet:evet INTERJ ; ! "yes"
+hayır:hayır INTERJ ; ! "no"
