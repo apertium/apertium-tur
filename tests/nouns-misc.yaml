@@ -9,8 +9,10 @@ Tests:
   "[twol] Prevocalic consonant voicing": 
     kitap<n><nom> : kitap
     kitap<n><acc> : kitabı
+    kitap<n><px3sp><nom> : kitabı
     tat<n><nom> : tat
     tat<n><acc> : tadı
+    tat<n><px3sp><nom> : tadı
 
   "[twol] {A} harmony":
     kitap<n><pl><nom> : kitaplar
