@@ -1,5 +1,5 @@
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!   M O R P H O L O G I C A L · T R A N S D U C E R · F O R · T A T A R     !!
+f!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!   M O R P H O L O G I C A L · T R A N S D U C E R · F O R · TURKISH     !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 ! See http://wiki.apertium.org/wiki/Turkic_lexicon
@@ -46,8 +46,8 @@ Multichar_Symbols
 %<advl%>           ! Adverbial
 
 ! Number ! Сан ! Число
-%<sg%>             ! Singular  ! Берлек сан  ! Единственное число
-%<pl%>             ! Plural    ! Күплек сан  ! Множественное число
+%<sg%>             ! Singular  
+%<pl%>             ! Plural    
 %<sp%>             ! Singular/Plural (used for formal personal pronoun)
 
 ! Possessives 
@@ -67,7 +67,7 @@ Multichar_Symbols
 %<abl%>            
 %<loc%>            
 %<ins%>            ! Instrumental=comitative 
-%<abe%>            ! Abessive=privative
+
 
 ! Pronoun types ! Алмашлык төрләре ! Виды местоимений
 %<pers%>           ! Personal
@@ -397,7 +397,7 @@ ahşap:ahşap N1 ; ! "wooden"
 ahtapot:ahtapot N1 ; ! "octopus"
 ahu:ahu N1 ; ! "antelope"
 ahududu:ahududu N1 ; ! "raspberry"
-ahval:ahval N1 ; ! "condition"
+ahval:ahval%{f%}f N1 ; ! "condition"
 aidat:aidat N1 ; ! "subscription"
 aidiyet:aidiyet N1 ; ! "relation"
 aile:aile N1 ; ! "family"
@@ -5115,7 +5115,7 @@ sebep:sebep N1 ; ! "reason"
 şeker:şeker N1 ; ! "sugar"
 selam:selam N1 ; ! "greeting"
 şenlik:şenlik N1 ; ! "festival"
-serhat:serhat N1 ; ! "border"
+serhat:serhat%{f%} N1 ; ! "border"
 servis:servis N1 ; ! "service"
 sevda:sevda N1 ; ! "love"
 sıcaklık:sıcaklık N1 ; ! "warmth"
@@ -5168,7 +5168,10 @@ yüzyıl:yüzyıl N1 ; ! "century"
 zaman:zaman N1 ; ! "time"
 zevk:zevk N1 ; ! "satisfaction"
 renk:renk N1 ; ! "colour"
-saat:saat%{f%} N1 ; ! "watch"
+saat:saat%{f%} N1 ; ! "time" "Watch" "hour"
+petrol:petrol%{f%} ; ! "oil" as in "Saudi Arabia is full of oil"
+
+
 
 
 
