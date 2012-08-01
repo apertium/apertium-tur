@@ -12,3 +12,7 @@ Tests:
     tat<n><nom> : tat
     tat<n><acc> : tadı
 
+  "[twol] {A} harmony":
+    kitap<n><pl><nom> : kitaplar
+    ev<n><pl><nom> : evler
+    saat<n><pl><nom> : saatler 
