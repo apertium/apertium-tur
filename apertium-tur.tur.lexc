@@ -106,6 +106,10 @@ Multichar_Symbols
 %{s%}		   ! Becomes "s" after a vowel, otherwise null
 %{i%}		   ! Becomes as "i" after a consonant, otherwise null
 %{pN%}		   ! Becomes "n" before dat abl loc and after 3p poss, otherwise null
+
+%{f%}              ! Enforce front harmony
+%{b%}              ! Enforce back harmony
+
 %>
 %+
 % 
@@ -5158,6 +5162,10 @@ yüzyıl:yüzyıl N1 ; ! "century"
 zaman:zaman N1 ; ! "time"
 zevk:zevk N1 ; ! "satisfaction"
 renk:renk N1 ; ! "colour"
+saat:saat%{f%} N1 ; ! "watch"
+
+
+
 acı% biber:acı% biber N1 ; ! "hot pepper"
 açık% hava:açık% hava N1 ; ! "open air"
 ad% çekme:ad% çekme N1 ; ! "fixture"
