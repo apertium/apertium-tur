@@ -20,6 +20,7 @@ dev/adv.checked -text
 dev/adverbs.lex -text
 dev/checked.xae -text
 dev/miscategorised.lexc -text
+dev/postpositions.txt -text
 dev/proof-lexicon.sh -text
 dev/turkish.py -text
 dev/unknown -text

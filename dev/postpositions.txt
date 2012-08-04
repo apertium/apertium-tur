@@ -1,0 +1,163 @@
+=========================================================================================
+UNMARKED FOR POSSESSıON
+=========================================================================================
+
+-----------------------------------------------------------------------------------------
+Nominative/Genitive:
+-----------------------------------------------------------------------------------------
+
+gibi		"like"		"Bizler gibi."
+				"Bunun gibileri bence daha güzel."
+
+için		"for"		"Selim benim için bir şey bıraktı mı?"
+				"Bu çiçekler sizin içinmiş."
+
+ile		"with"		"Başka bir kalem ile."
+				"Mehmet ekmeği kekin bir bıçakla kesti."
+				"Jale işe arabayla gidiyor."
+
+kadar		"as"		"Lenin kadar ünlü."
+
+-----------------------------------------------------------------------------------------
+Dative:
+-----------------------------------------------------------------------------------------
+
+doğru		"towards"	"Akşama doğru kar yağmaya başladı."
+				"Kızler denize doğru koşuyordu."
+
+göre		"according to"	"Hava raporuna göre öğleden sonra yağmur yağacakmış."
+				"Ötekine göre bu otelin pek bir konforu yok."
+				"Bu oda tam sana göre."
+
+kadar		"until"		"Saat bire kadar beklerim."
+				"Cumaya kadar biter."
+				"Beş dakikaya kadar gelirim."
+				"Van'a kadar gidemedik."
+
+karşı		"against"	"Sana karşı değiller."
+				"Tarık Bey'e karşı büyük saygım var."
+				"Sabaha karşı fırtın a dindi."
+
+rağmen		"in spite of"	"Şebnem hastalığına rağmen çalışmaya devam ediyor."
+
+-----------------------------------------------------------------------------------------
+Ablative:
+-----------------------------------------------------------------------------------------
+
+başka		"apart from"	"Bundan başka bir şey var mı?"
+
+beri		"since, for"	"Pazartesiden beri hastayım."
+				"Mehmet ekim başından beri yurtdışındaydı."
+				"Koray 1995'ten beri Kanada'da yaşıyor."
+				"Üç günden beri hastayım."
+				"Koray birkaç yıldan beri Kanada'da yaşamaktaydı."	
+				"O zamandan beri arabamı üç defa değiştirdim."
+				"Yıllardan beri kendine yeni pabuç almamıştı."
+
+bu yana		"since for"	"Pazartesiden bu yana hastayım."
+
+dolayı		"because of"	"Üzüntüsünden dolayı Ayşe o akşamki toplantımıza katılamadı."
+
+ötürü		"because of"	"Üzüntüsünden ötürü Ayşe o akşamki toplantımıza katılamadı."
+
+ibibaren	"from"		"Bu tarife, 1.10.2003 tarihinden itibaren geçerlidir."
+				
+önce		"before"	"Onlar benden önce gelmişler."
+				"Onlar benden beş dakika önce gelmişler."
+				"Bahçenin yağmurdan önceki hali."
+				
+sonra		"after"		"Her yemekten sonra mutlaka bir fıncan Türk kahvesi içer."	
+				"Yemekten biraz sonra Ahmet işine döndü."
+
+yana		"as regards"	"Berna akrabadan yana şanslı sayılır."
+				"İdam cezasından yana değilim."
+
+
+=========================================================================================
+MARKED FOR POSSESSıON
+=========================================================================================
+
+-----------------------------------------------------------------------------------------
+Spatial:
+-----------------------------------------------------------------------------------------
+
+ön		"front"		"Onun önünde beş kişi vardı."
+				"Önümde beş kişi vardı."
+				"Sanık ne zaman yargıç önüne çıkar acaba?"
+				"Can'ın arabası evin önünde."
+				"Can'ın arabası evin önündeki."
+
+arka		"back"		"Dolabın arkasında bir şey var mı?"
+
+iç		"interior"	"Arabayla parkın içinden geçilmez."
+				"Bütün bunları iki saat içinde mi yaptınız?
+				"Ter içinde kalmıştım."
+				"Seyhan korku içinde kapıya hafifçe vurdu."
+				"Ali'nin giyslileri içinde işine yarayacak bir sey bulabilirsin."
+	
+diç		"exterior"
+
+üst		"top"		"Bu tabloyu kanepenin üstüne asalım."
+				"Bu hesapları bir kağıt üstünde yapmak daha kolay olacak."
+
+alt		"bottom"	"Kanepenin altından bir fare çıktı."
+				"Bütün okullar Bakanlık'ın denetimi altına alındı."
+				"Hep babasının etkisi altında yaşadı."
+
+yan		"side"		"Kız benim yanıma geldi."
+				"Ali'nin yaptıkları yanında bunlar pek parlak değil."
+				"Ali'nin yaptıklarının yanında bunlar pek parlak değil."
+
+karşı		"opposite"
+
+ara		"space"		"Genellikle kardeşler arasında kuvvetli bir daya nışma."
+				"Ali'nin giyslileri arasında işine yarayacak bir sey bulabilirsin."
+				"Benim odamla onunki arasında kalın bir duvar vardı."
+				"Harunla aramızdaki gerginlik."
+
+etraf		"surroundings"
+
+çevre		"surroundings"
+
+öte		"far side"
+
+
+-----------------------------------------------------------------------------------------
+Abstract:
+-----------------------------------------------------------------------------------------
+
+açı		"angle"		"Sağlık açısından bukadar çikolata yemek doğru değil."
+
+ad		"name"		""
+
+aracılık	"mediation"	""
+
+bakım		"aspect"	"Sağlık bakımından bukadar çikolata yemek doğru değil."
+
+boy		"length"	"Sahil boyunca küçük köyler vardı."
+				"Konferans boyunca fısıldaşmaya devam ettiler."
+
+gerek		"requirement"	""
+
+hak		"right"		"Ömer benim hakkımda neler söyledi?"
+
+konu		"subject"	"Türkiye'deki depremler konunsunda bir kitap yazmış."
+				"Sendikacılık tarihi konusundaki araştirmalarınız."
+
+neden		"reason"	"Yazların sıcaklığı nedeniyle bu bölgede muz ve hurma yetişmektedir."
+
+sıra		"time"		""
+
+süre		"period"	"Yokluğum süresince komşum her gün uğrayıp kediye yiyecek verdi."
+
+taraf		"side"		""
+
+uğur		"good luck"	"Güzellik uğruna bu kadar sıkıntıya katlanmaya değer mi?"
+
+yer		"place"		""
+
+yol		"way"		""
+
+yüz		"reason"	"Sıcak havalar yüzünden son zamanlarda işler yavaş gidiyor."
+
+
