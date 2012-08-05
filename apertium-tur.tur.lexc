@@ -253,6 +253,73 @@ LEXICON NUM
 %<num%>%<ord%>%<subst%>:%>%{i%}nc%{I%} SUBST ;      ! Beşinciyi görüyorum.
 %<num%>%<subst%>: SUBST ;                           ! Beşi görüyorum.
 
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Verb paradigms
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON V-NONFIN-COMMON
+! This lexicon contains the non-finite forms 
+! (gerunds, verbal adjectives, verbal adverbs, and participles)
+
+%<ger1%>:%>m%{A%}k # ; 
+
+LEXICON V-FIN-COMMON
+! This lexicon contains the finite forms
+
+%<cont%>:%>%{I%}yor # ;
+
+LEXICON V-COMMON 
+
+V-FIN-COMMON ; 
+V-NONFIN-COMMON ;
+
+LEXICON V-NEG 
+
+%<neg%>:%>m%{A%} V-COMMON ; 
+V-COMMON ; 
+
+LEXICON V-DER-COMMON
+! This lexicon contains derived forms that can come after a raw verb
+! stem, or after the causative morpheme.
+
+%<ref%>:%>%{I%}n V-NEG ;
+%<recip%>:%>%{I%}ş V-NEG ;
+V-NEG ; 
+
+LEXICON V-TV-DER
+
+%<pass%>:%>%{I%}%{l%} V-NEG ;
+V-DER-COMMON ; 
+
+LEXICON V-AOR 
+
+LEXICON V-TV-DIR-IR  
+! Ex. al>mak - al>ır>ım - al>dır>mak
+%<v%>%<tv%>: V-TV-DER ; 
+%<v%>%<tv%>%<aor%>:%>%{I%}r V-AOR ;
+%<v%>%<tv%>%<caus%>:%>d%{I%}r V-TV-DER ;
+
+LEXICON V-TV-DIR-AR 
+! Ex. yap>mak - yap>ar>ım - yap>dır>mak
+%<v%>%<tv%>: V-TV-DER ; 
+%<v%>%<tv%>%<aor%>:%>%{A%}r V-AOR ;
+%<v%>%<tv%>%<caus%>:%>d%{I%}r V-TV-DER ;
+
+LEXICON V-IV-DIR-IR 
+! Ex.
+
+%<v%>%<iv%>: V-DER-COMMON ; 
+%<v%>%<iv%>%<aor%>:%>%{I%}r V-AOR ;
+%<v%>%<iv%>%<caus%>:%>d%{I%}r V-TV-DER ;
+
+LEXICON V-IV-DIR-AR 
+! Ex.
+
+%<v%>%<iv%>: V-DER-COMMON ; 
+%<v%>%<iv%>%<aor%>:%>%{I%}r V-AOR ;
+%<v%>%<iv%>%<caus%>:%>d%{I%}r V-TV-DER ;
+
 LEXICON ADV 
 
 %<adv%>: # ;
@@ -260,6 +327,7 @@ LEXICON ADV
 LEXICON INTERJ
 
 %<ij%>: # ;
+
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -5430,6 +5498,13 @@ yine:yine ADV ; ! "again"
 yukarı:yukarı ADV ; ! "up"
 zaten:zaten ADV ; ! "already"
 zor:zor ADV ; ! "hard"
+
+LEXICON Verbs 
+
+al:al V-TV-DIR-IR ; ! "take, buy"
+yap:yap V-TV-DIR-AR ; ! "make, do"
+git:git V-IV-DIR-AR ; ! "go"
+gel:gel V-IV-DIR-IR ; ! "come"
 
 
 LEXICON Interjections 
