@@ -95,7 +95,8 @@ iç		"interior"	"Arabayla parkın içinden geçilmez."
 				"Seyhan korku içinde kapıya hafifçe vurdu."
 				"Ali'nin giyslileri içinde işine yarayacak bir sey bulabilirsin."
 	
-diç		"exterior"
+dışar		"exterior"	"Arkadaslarım evinin dışarında beni bekliyorlar."
+				"Benim yaşamıma saygı duymazsan kendimi içerimden kilitlerim ve dışarımda kalırsın."
 
 üst		"top"		"Bu tabloyu kanepenin üstüne asalım."
 				"Bu hesapları bir kağıt üstünde yapmak daha kolay olacak."
@@ -108,18 +109,21 @@ yan		"side"		"Kız benim yanıma geldi."
 				"Ali'nin yaptıkları yanında bunlar pek parlak değil."
 				"Ali'nin yaptıklarının yanında bunlar pek parlak değil."
 
-karşı		"opposite"
+karşı		"opposite"	"Ordu evi karşında bir aslan var."
+				"Benim karşımda bir kiz oturuyor."
 
 ara		"space"		"Genellikle kardeşler arasında kuvvetli bir daya nışma."
 				"Ali'nin giyslileri arasında işine yarayacak bir sey bulabilirsin."
 				"Benim odamla onunki arasında kalın bir duvar vardı."
 				"Harunla aramızdaki gerginlik."
 
-etraf		"surroundings"
+etraf		"surroundings"	"Evin etrafında bir bahçe var."
+				"Etrafımda kizler var."
 
-çevre		"surroundings"
+çevre		"surroundings"	"Almanya'nın çevresinde barbarlar yaşıyor."	
 
-öte		"far side"
+öte		"far side"	"Sözlerin sebebin ötesinde."
+				"Yıldız dağların ötesinde."
 
 
 -----------------------------------------------------------------------------------------
