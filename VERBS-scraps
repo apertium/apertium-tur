@@ -1,0 +1,166 @@
+LEXICON PERS1  !!!USED FOR CONT, FUT, AOR, EVID
+<p1><sg>:{I}m;
+<p2><sg>:s{I}n;
+<p3><sg>:;
+<p1><pl>:{bY}{I}z;
+<p2><pl>:s{I}n{I}<;
+<p3><pl>:l{A}r;
+
+LEXICON PERS2  !!!USED FOR PAST and CONDITIONAL
+<p1><sg>:m;
+<p2><sg>:n;
+<p3><sg>:;
+<p1><pl>:d{I}k;
+<p2><pl>:{I}n{I}z;
+<p3><pl>:l{A}r;
+
+LEXICON PERS3  !!!USED FOR NECESSITATIVE
+<p1><sg>:{bY}{I}m;
+<p2><sg>:s{I}n;
+<p3><sg>:;
+<p1><pl>:{bY}{I}z;
+<p2><pl>:s{I}n{I}z;
+<p3><pl>:l{A}r;
+
+LEXICON PERS4  !!!USED FOR IMPERATIVE
+<p2><sg>:;
+<p2><pl>:s{A}n{A};
+
+
+
+
+LEXICON VINFL-TV
+
+REC;
+PAS;
+REF;
+CAUS;
+ABIL;
+AOR;
+NEG;
+SET1;
+NECE;
+CONDITIONAL;
+VERBAL-ADVERB;
+INFINITIVE;
+CONVERB-IP;
+PARTICIPLE;
+GERUND;
+IMPERATIVE;
+
+
+
+LEXICON REC
+
+<rec>:{bI}ş;
+CAUS;
+NECE;
+
+LEXICON REF
+<ref>:{bI}n;
+CAUS;
+NECE;
+
+LEXICON PASS
+
+<pass>:{bI}{LN};
+CAUS;
+NECE;
+
+LEXICON CAUS
+CAUS-DIR;
+CAUS-T;
+NECE;
+
+LEXICON CAUS-DIR
+<caus>:dir;
+NEG;
+SET1;
+AOR;
+ABIL;
+NECE;
+
+LEXICON CAUS-T
+<caus>:t;
+NEG;
+SET1;
+AOR;
+ABIL;
+NECE;
+
+LEXICON IMPERFECTIVE
+<impfktv>:m{A}kt{A} PERS3;
+
+LEXICON NEG
+<neg>:m{A} SET1;
+
+LEXICON AOR
+AOR-AR;
+AOR-IR;
+
+LEXICON AOR-AR
+<aor>:{A}r PERS1;
+
+LEXICON AOR-IR
+<aor>:{bI}r PERS1;;
+
+
+
+LEXICON ABIL
+<abil>:{bA}bil SET1;
+<neg><abil>:{bY}{A}m{A} SET1;
+
+
+LEXICON NECE
+
+<nece>:m{A}l{I} PERS3;
+
+LEXICON SET1
+
+PAST;
+EVID;
+CONT;
+FUT;
+NECE;
+
+LEXICON IMPERATIVE
+
+PERS4;
+
+LEXICON GERUND
+<ger1>:m{A} NOMINAL-INFLECTION;
+<ger2>:d{I}k NOMINAL-INFLECTION;
+<ger3>:{I}ş NOMINAL-INFLECTION;
+<ger4>:{bY}{A}c{A}k NOMINAL-INFLECTION;
+
+LEXICON PARTICIPLE
+<part>:{bY}{A}n ADJ-INFLECTION;
+
+
+
+LEXICON INFINITIVE
+<inf>:m{A}k;
+
+LEXICON VERBAL-ADVERB
+<gna1>:{bY}{A}r{A}k;
+
+LEXICON CONVERB-IP
+<gna2>:{bY}{I}p;
+
+LEXICON CONDITIONAL
+<cond>:s{A} PERS2;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
