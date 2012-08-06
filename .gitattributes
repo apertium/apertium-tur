@@ -15,7 +15,6 @@
 /configure.ac -text
 dev/25072012-apertium-tur.tur.lexc -text
 dev/25072012-apertium-tur.tur.twol -text
-dev/VERBS-scraps -text
 dev/adv -text
 dev/adv.checked -text
 dev/adverbs.lex -text
@@ -26,4 +25,7 @@ dev/proof-lexicon.sh -text
 dev/turkish.py -text
 dev/unknown -text
 dev/verb-morph.lexc -text
+dev/verbs/Makefile -text
+dev/verbs/VERBS-scraps -text
+dev/verbs/VERBS-scraps.lexc -text
 tests/nouns-misc.yaml -text
