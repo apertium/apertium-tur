@@ -7,7 +7,15 @@ Multichar_Symbols
 %<sg%>
 %<pl%>
 
+%<necs%>                     ! Necessitive
 
+%<ger1%>                     ! Gerund (verbal noun) 
+
+%<gna1%>                     ! Verbal adverb
+
+%<gpr1%>                     ! Verbal adjective
+
+%<prc1%>                     ! Participle
 
 %{I%}
 %{A%}
@@ -163,7 +171,7 @@ LEXICON ABIL
 
 LEXICON NECE
 
-%<nece%>:%>m%{A%}l%{I%} PERS3 ;
+%<necs%>:%>m%{A%}l%{I%} PERS3 ;
 
 LEXICON SET1
 
@@ -184,9 +192,7 @@ LEXICON GERUND
 %<ger4%>:%>%{y%}%{A%}c%{A%}k SUBST ;
 
 LEXICON PARTICIPLE
-%<part%>:%>%{y%}%{A%}n ATTR ;
-
-
+%<prc1%>:%>%{y%}%{A%}n ATTR ;
 
 LEXICON INFINITIVE
 %<inf%>:%>m%{A%}k # ;
