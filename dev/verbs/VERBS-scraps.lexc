@@ -182,7 +182,7 @@ LEXICON FUTURE-EVIDENTIAL
 
 LEXICON FUTURE-CONDITIONAL
 
-%<fute%>:%>%{y%}%{A%}c%{A%}ks%{A%} SET2 ;
+%<futc%>:%>%{y%}%{A%}c%{A%}ks%{A%} SET2 ;
 
 LEXICON PAST
 
@@ -202,7 +202,7 @@ LEXICON EVIDENTIAL-PERFECT
 
 LEXICON EVIDENTIAL-CONDITIONAL
 
-%<evidp%>:%>m%{I%}şs%{A%} SET2 ;
+%<evidc%>:%>m%{I%}şs%{A%} SET2 ;
 
 LEXICON CONDITIONAL
 
