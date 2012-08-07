@@ -94,6 +94,23 @@ CONVERB-IP ;
 PARTICIPLE ;
 GERUND ;
 IMPERATIVE ;
+CONDITIONAL-CONTINUOUS ;
+CONDITIONAL-EVIDENTIAL ;
+CONDITIONAL-PAST ; 
+EVIDENTIAL-CONDITIONAL ;
+EVIDENTIAL-CONTINUOUS ;
+EVIDENTIAL-PAST ;
+EVIDENTIAL-PERFECT ;
+FUTURE ;
+FUTURE-CONDITIONAL ;
+FUTURE-EVIDENTIAL 
+FUTURE-PERFECT ;
+IMPERFECTIVE ;
+PAST ;
+PAST-CONDITIONAL ;
+PAST-CONTINUOUS ;
+PRESENT-CONTINUOUS ;
+FUTURE-EVIDENTIAL ;
 
 
 
@@ -170,68 +187,67 @@ LEXICON ABIL
 
 LEXICON PRESENT-CONTINUOUS
 
-%<pcont%>:%>%{I%}yor SET1 ;
+%<pcont%>:%>%{I%}yor PERS1 ;
 
 LEXICON PAST-CONTINUOUS
 
-%<pastcnt%>:%>%{I%}yord%{I%} SET1 ;
+%<pastcnt%>:%>%{I%}yord%{I%} PERS1 ;
 
 LEXICON CONDITIONAL-CONTINUOUS
 
-%<condcnt%>:%>%{I%}yors%{A%} SET2 ;
+%<condcnt%>:%>%{I%}yors%{A%} PERS2 ;
 
 LEXICON EVIDENTIAL-CONTINUOUS 
 
-%<evidcnt%>:%>%{I%}yorm%{I%}ş SET1 ;
+%<evidcnt%>:%>%{I%}yorm%{I%}ş PERS1 ;
 
 LEXICON FUTURE
 
-%<fut%>:%>%{y%}%{A%}c%{A%}k SET1 ;
+%<fut%>:%>%{y%}%{A%}c%{A%}k PERS1 ;
 
 LEXICON FUTURE-PERFECT
 
-%<futp%>:%>%{y%}%{A%}c%{A%}kt%{i%} SET2 ;
+%<futp%>:%>%{y%}%{A%}c%{A%}kt%{i%} PERS2 ;
 
 LEXICON FUTURE-EVIDENTIAL
 
-%<fute%>:%>%{y%}%{A%}c%{A%}km%{I%}ş SET1 ;
+%<fute%>:%>%{y%}%{A%}c%{A%}km%{I%}ş PERS1 ;
 
 LEXICON FUTURE-CONDITIONAL
 
-%<futc%>:%>%{y%}%{A%}c%{A%}ks%{A%} SET2 ;
+%<futc%>:%>%{y%}%{A%}c%{A%}ks%{A%} PERS2 ;
 
 LEXICON PAST
 
-%<past%>:%>d%{I%} SET2 ;
+%<past%>:%>d%{I%} PERS2 ;
 
 LEXICON PAST-CONDITIONAL
 
-%<pastc%>:%>d%{I%}ys%{A%} SET2 ;
+%<pastc%>:%>d%{I%}ys%{A%} PERS2 ;
 
 LEXICON EVIDENTIAL-PAST
 
-%<evid%>:%>m%{I%}ş SET1 ;
+%<evid%>:%>m%{I%}ş PERS1 ;
 
 LEXICON EVIDENTIAL-PERFECT
 
-%<evidp%>:%>m%{I%}şt%{I%} SET2 ;
+%<evidp%>:%>m%{I%}şt%{I%} PERS2 ;
 
 LEXICON EVIDENTIAL-CONDITIONAL
 
-%<evidc%>:%>m%{I%}şs%{A%} SET2 ;
+%<evidc%>:%>m%{I%}şs%{A%} PERS2 ;
 
 LEXICON CONDITIONAL
 
-%<cond%>:%>s%{A%} SET2 ;
+%<cond%>:%>s%{A%} PERS2 ;
 
 LEXICON CONDITIONAL-PAST
 
-%<condp%>:%>s%{A%}yd%{I%} SET2 ;
+%<condp%>:%>s%{A%}yd%{I%} PERS2 ;
 
 LEXICON CONDITIONAL-EVIDENTIAL
 
-%<condp%>:%>s%{A%}ym%{I%}ş SET1 ;
-
+%<condp%>:%>s%{A%}ym%{I%}ş PERS1 ;
 
 LEXICON NECE
 
