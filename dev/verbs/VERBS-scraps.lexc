@@ -111,7 +111,7 @@ PAST-CONDITIONAL ;
 PAST-CONTINUOUS ;
 PRESENT-CONTINUOUS ;
 FUTURE-EVIDENTIAL ;
-FINITE-VERBS ;
+
 
 
 LEXICON REC
@@ -142,24 +142,20 @@ NECE ;
 LEXICON CAUS-DIR
 %<caus%>:%>dir NEG ;
 %<caus%>:%>dir FINITE-VERBS ;
-%<caus%>:%>dir AOR ;
 %<caus%>:%>dir ABIL ;
 %<caus%>:%>dir NECE ;
 NEG ;
 FINITE-VERBS ;
-AOR ;
 ABIL ;
 NECE ;
 
 LEXICON CAUS-T
 %<caus%>:%>t NEG ;
 %<caus%>:%>t FINITE-VERBS ;
-%<caus%>:%>t AOR ;
 %<caus%>:%>t ABIL ;
 %<caus%>:%>t NECE ;
 NEG ;
 FINITE-VERBS ;
-AOR ;
 ABIL ;
 NECE ;
 
@@ -167,7 +163,7 @@ LEXICON IMPERFECTIVE
 %<impfktv%>:%>m%{A%}kt%{A%} PERS3 ;
 
 LEXICON NEG
-%<neg%>:%>m%{A%} REGULAR-NEGATIVE ;
+%<neg%>:%>m%{A%}  ;
 
 LEXICON AOR
 AOR-AR ;
@@ -274,7 +270,6 @@ PAST-CONDITIONAL ;
 PAST-CONTINUOUS ;
 PRESENT-CONTINUOUS ;
 FUTURE-EVIDENTIAL ;
-ABIL ;
 AOR ;
 CONDITIONAL;
 
