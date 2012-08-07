@@ -45,12 +45,12 @@ LEXICON ATTR ! Adjective inflection
 
 LEXICON PERS1  !!!USED FOR CONT, FUT, AOR, EVID
 
-%<p1%>%<sg%>:%>%{I%}m  K ;
-%<p2%>%<sg%>:%>s%{I%}n  K ;
-%<p3%>%<sg%>:%>  K ;
-%<p1%>%<pl%>:%>%{y%}%{I%}z  K ;
-%<p2%>%<pl%>:%>s%{I%}n%{I%}z  K ;
-%<p3%>%<pl%>:%>l%{A%}r  K ;
+%<p1%>%<sg%>:%>%{I%}m  # ;
+%<p2%>%<sg%>:%>s%{I%}n  # ;
+%<p3%>%<sg%>:%>  # ;
+%<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
+%<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
+%<p3%>%<pl%>:%>l%{A%}r  # ;
 
 LEXICON PERS2  !!!USED FOR PAST and CONDITIONAL
 
@@ -70,8 +70,8 @@ LEXICON PERS3  !!!USED FOR NECESSITATIVE
 %<p3%>%<pl%>:%>l%{A%}r  K ;
 
 LEXICON PERS4  !!!USED FOR IMPERATIVE
-%<p2%>%<sg%>:%>  K ;
-%<p2%>%<pl%>:%>s%{A%}n%{A%}  K ;
+%<p2%>%<sg%>:%>  # ;
+%<p2%>%<pl%>:%>s%{A%}n%{A%}  # ;
 
 
 
@@ -167,6 +167,54 @@ LEXICON AOR-IR
 LEXICON ABIL
 %<abil%>:%>%{bA%}bil SET1 ;
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} SET1 ;
+
+LEXICON FUTURE
+
+%<fut%>:%>%{y%}%{A%}c%{A%}k SET1 ;
+
+LEXICON FUTURE-PERFECT
+
+%<futp%>:%>%{y%}%{A%}c%{A%}kt%{i%} SET2 ;
+
+LEXICON FUTURE-EVIDENTIAL
+
+%<fute%>:%>%{y%}%{A%}c%{A%}km%{I%}ş SET1 ;
+
+LEXICON FUTURE-CONDITIONAL
+
+%<fute%>:%>%{y%}%{A%}c%{A%}ks%{A%} SET2 ;
+
+LEXICON PAST
+
+%<past%>:%>d%{I%} SET2 ;
+
+LEXICON PAST-CONDITIONAL
+
+%<pastc%>:%>d%{I%}ys%{A%} SET2 ;
+
+LEXICON EVIDENTIAL-PAST
+
+%<evid%>:%>m%{I%}ş SET1 ;
+
+LEXICON EVIDENTIAL-PERFECT
+
+%<evidp%>:%>m%{I%}şt%{I%} SET2 ;
+
+LEXICON EVIDENTIAL-CONDITIONAL
+
+%<evidp%>:%>m%{I%}şs%{A%} SET2 ;
+
+LEXICON CONDITIONAL
+
+%<cond%>:%>s%{A%} SET2 ;
+
+LEXICON CONDITIONAL-PAST
+
+%<condp%>:%>s%{A%}yd%{I%} SET2 ;
+
+LEXICON CONDITIONAL-EVIDENTIAL
+
+%<condp%>:%>s%{A%}ym%{I%}ş SET1 ;
 
 
 LEXICON NECE
