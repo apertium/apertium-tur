@@ -218,3 +218,5 @@ LEXICON Verbs
 
 al:al V-TV-DIR-IR ; ! "buy"
 yap:yap V-TV-DIR-AR ; ! "make, do"
+gel:gel V-IV-DIR-IR ; ! "come"
+ye:ye V-TV-T-IR ; "eat"
