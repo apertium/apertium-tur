@@ -57,7 +57,7 @@ LEXICON PERS2  !!!USED FOR PAST and CONDITIONAL
 %<p1%>%<sg%>:%>m  K ;
 %<p2%>%<sg%>:%>n  K ;
 %<p3%>%<sg%>:%>  K ;
-%<p1%>%<pl%>:%>d%{I%}k  K ;
+%<p1%>%<pl%>:%>k  K ;
 %<p2%>%<pl%>:%>%{I%}n%{I%}z  K ;
 %<p3%>%<pl%>:%>l%{A%}r  K ;
 
@@ -163,7 +163,7 @@ LEXICON IMPERFECTIVE
 %<impfktv%>:%>m%{A%}kt%{A%} PERS3 ;
 
 LEXICON NEG
-%<neg%>:%>m%{A%}  ;
+%<neg%>:%>m%{A%} REGULAR-NEGATIVE ;
 
 LEXICON AOR
 AOR-AR ;
