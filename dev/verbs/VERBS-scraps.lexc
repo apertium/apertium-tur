@@ -168,6 +168,22 @@ LEXICON ABIL
 %<abil%>:%>%{bA%}bil SET1 ;
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} SET1 ;
 
+LEXICON PRESENT-CONTINUOUS
+
+%<pcont%>:%>%{I%}yor SET1 ;
+
+LEXICON PAST-CONTINUOUS
+
+%<pastcnt%>:%>%{I%}yord%{I%} SET1 ;
+
+LEXICON CONDITIONAL-CONTINUOUS
+
+%<condcnt%>:%>%{I%}yors%{A%} SET2 ;
+
+LEXICON EVIDENTIAL-CONTINUOUS 
+
+%<evidcnt%>:%>%{I%}yorm%{I%}ş SET1 ;
+
 LEXICON FUTURE
 
 %<fut%>:%>%{y%}%{A%}c%{A%}k SET1 ;
@@ -266,5 +282,4 @@ LEXICON Verbs
 
 al:al V-TV-DIR-IR ; ! "buy"
 yap:yap V-TV-DIR-AR ; ! "make, do"
-gel:gel V-IV-DIR-IR ; ! "come"
-ye:ye V-TV-T-IR ; "eat"
+
