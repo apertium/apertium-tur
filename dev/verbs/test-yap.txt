@@ -46,7 +46,7 @@
      42 yapmanın
      40 yapacağız
      40 yapacağına
-     33 yapay
+
      31 yapmadı
      31 yapacaklarını
      30 yaptıklarından
@@ -429,7 +429,7 @@
       1 yapılabiliyorken
       1 yapılabildi
       1 yapıalcağını
-      1 yapaydır
+
       1 yaparsın
       1 yaparlarsa
       1 yaparız
