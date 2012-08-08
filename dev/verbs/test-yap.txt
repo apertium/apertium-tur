@@ -357,7 +357,7 @@
       1 yapıştırıldı
       1 yapıştırdığından
 
-      1 yapılmiyor
+
       1 yapılmıştır
       1 yapılmayı
       1 yapılmayarak
@@ -367,8 +367,8 @@
       1 yapılmasıydı
       1 yapılmasıni
       1 yapılmasıdır
-      1 yapılmasi
-      1 yapılmas
+      
+      
       1 yapılmamıştı
       1 yapılmamışken
       1 yapılmamasıyla
