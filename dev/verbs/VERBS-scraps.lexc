@@ -382,7 +382,6 @@ LEXICON ABIL-AR
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} GERUND ;
 %<abil%>:%>%{y%}%{A%}bil NON-FINITE ;
 %<neg%>%<abil%>:%>%{A%} NON-FINITE ;
-%<neg%>%<abil%>:%>%{A%} FINITE-VERBS-AR ;
 %<neg%>%<abil%>:%>%{A%} PERS5 ;
 NON-FINITE ;
 FINITE-VERBS-AR ;
@@ -395,7 +394,6 @@ LEXICON ABIL-IR
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} GERUND ;
 %<abil%>:%>%{y%}%{A%}bil NON-FINITE ;
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} NON-FINITE ;
-%<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} FINITE-VERBS-AR ;
 %<neg%>%<abil%>:%>%{A%} PERS5 ;
 NON-FINITE ;
 FINITE-VERBS-IR ;
