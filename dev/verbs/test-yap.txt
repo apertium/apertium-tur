@@ -29,16 +29,11 @@
     101 yapacakları
      90 yapıldığı
      80 yapıldığını
-     77 yaptırım
      75 yapmaları
-     75 yapım
      74 yapmasına
-     73 yapılandırma
-     72 yapısı
      72 yapılacağı
      68 yapmasını
      68 yapıyordu
-     65 yaptırımlar
      60 yaptıklarını
      58 yapacaklar
      57 yapmaktan
@@ -55,13 +50,11 @@
      31 yapmadı
      31 yapacaklarını
      30 yaptıklarından
-     28 yaptırımların
      28 yaptığına
      27 yapmadan
      27 yapılmıştı
      27 yapılmadı
      26 yapmadığını
-     25 yaptırımlara
      25 yapılsa
      25 yapılmadan
      25 yapıların
@@ -72,7 +65,6 @@
      21 yapmasının
      21 yapılacağına
      20 yapmadığı
-     19 yaptırımları
      19 yapılabilir
      19 yapılabilecek
      18 yapmalarını
@@ -125,8 +117,6 @@
       9 yapabilmek
       9 yapabilecekler
       9 yapabilecek
-      8 yaptırımlardan
-      8 yaptırımı
       8 yaptıklarıyla
       8 yapmamız
       8 yapmamaya
@@ -138,10 +128,8 @@
       8 yapabilecekleri
       7 yaptırmaları
       7 yaptırımlarla
-      7 yaptırıma
       7 yapmışlardı
       7 yapildi
-      6 yaptırımlarını
       6 yaptırdığını
       6 yaptıran
       6 yaptığının
@@ -166,8 +154,6 @@
       6 yaparlar
       6 yapabiliyor
       6 yapabileceklerini
-      5 yaptırımlarına
-      5 yaptırılan
       5 yapmanız
       5 yapmama
       5 yapmadığına
@@ -205,7 +191,6 @@
       4 yapabilirsiniz
       4 yapabileceğimiz
       3 yaptırmasına
-      3 yaptırıldı
       3 yaptıı
       3 yaptığını ileri
       3 yaptğı
