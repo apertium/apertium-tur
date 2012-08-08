@@ -154,7 +154,7 @@
       5 yapmanız
       5 yapmama
       5 yapmadığına
-h
+
       5 yapılmamasını
       5 yapılmamasına
       5 yapılır
@@ -169,10 +169,8 @@ h
       4 yapmadılar
       4 yapmadığında
       4 yapmada
-
       4 yapılmamakla
       4 yapılmalıdır
-      4 yapılmaksızın
       4 yapılıyordu
       4 yapılamayacağı
       4 yapılacaktır
