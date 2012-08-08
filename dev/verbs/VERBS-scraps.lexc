@@ -399,9 +399,9 @@ LEXICON CONDITIONAL-CONTINUOUS
 
 LEXICON EVIDENTIAL-CONTINUOUS 
 
-%<evidcnt%>:%>%{I%}yorm%{I%}ş PERS1-NO3PL ;
-%<evidcnt%>%<p3%>%<pl%>:%>%{I%}yorm%{I%}ş%>l%{A%}r # ; ! Dir/LR
-%<evidcnt%>%<p3%>%<pl%>:%>%{I%}yor%>l%{A%}r%>m%{I%}ş # ; 
+%<evidcnt%>:%>m%{I%}ş PERS1-NO3PL ;
+%<evidcnt%>%<p3%>%<pl%>:%>m%{I%}ş%>d%{I%}%>l%{A%}r # ; ! Dir/LR
+%<evidcnt%>%<p3%>%<pl%>:%>m%{I%}ş%>l%{A%}r%>%d%{I%} # ; 
 
 LEXICON FUTURE
 
