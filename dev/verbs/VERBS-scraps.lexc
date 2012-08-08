@@ -220,15 +220,18 @@ LEXICON V-PERS-COP-G2-NOSG3-FINAL
 %<p2%>%<pl%>:%>%{s%}%{I%}n%{I%}z  # ;
 %<p3%>%<pl%>:%>l%{A%}r  # ;
 
-
-LEXICON PERS1  !!!USED FOR CONT, FUT, AOR, EVID
+LEXICON PERS1-NO3PL 
 
 %<p1%>%<sg%>:%>%{I%}m  # ;
 %<p2%>%<sg%>:%>s%{I%}n  # ;
 %<p3%>%<sg%>:%>  # ;
 %<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
+
+LEXICON PERS1  !!!USED FOR CONT, FUT, AOR, EVID
+
 %<p3%>%<pl%>:%>l%{A%}r  # ;
+PERS1-NO3PL ;
 
 LEXICON PERS2  !!!USED FOR PAST and CONDITIONAL
 
@@ -386,7 +389,9 @@ LEXICON PRESENT-CONTINUOUS
 
 LEXICON PAST-CONTINUOUS
 
-%<pastcnt%>:%>%{I%}yord%{I%} PERS1 ;
+%<pastcnt%>:%>%{I%}yord%{I%} PERS1-NO3PL ;
+%<pastcnt%>%<p3%>%<pl%>:%>%{I%}yord%{I%}%>l%{A%}r # ; ! Dir/LR
+%<pastcnt%>%<p3%>%<pl%>:%>%{I%}yor%>l%{A%}r%>d%{I%} # ; 
 
 LEXICON CONDITIONAL-CONTINUOUS
 
@@ -394,7 +399,9 @@ LEXICON CONDITIONAL-CONTINUOUS
 
 LEXICON EVIDENTIAL-CONTINUOUS 
 
-%<evidcnt%>:%>%{I%}yorm%{I%}ş PERS1 ;
+%<evidcnt%>:%>%{I%}yorm%{I%}ş PERS1-NO3PL ;
+%<evidcnt%>%<p3%>%<pl%>:%>%{I%}yorm%{I%}ş%>l%{A%}r # ; ! Dir/LR
+%<evidcnt%>%<p3%>%<pl%>:%>%{I%}yor%>l%{A%}r%>m%{I%}ş # ; 
 
 LEXICON FUTURE
 
