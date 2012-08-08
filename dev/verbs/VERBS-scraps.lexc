@@ -150,6 +150,7 @@ LEXICON CLIT
 LEXICON V-PERS-COP
 
 %+i%<cop%>%<pres%>: V-PERS-COP-G2-NOSG3-FINAL ;
+%+i%<cop%>%<rel%>:%>ken # ;
 
 LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears only
                         ! after nominal parts of speech (and only after some cases).
