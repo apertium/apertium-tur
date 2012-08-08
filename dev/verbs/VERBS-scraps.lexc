@@ -107,6 +107,7 @@ r??
 %<ger4%>
 
 %<gna1%>                     ! Verbal adverb
+%<gna2%>                     ! Verbal adverb
 
 %<gpr1%>                     ! Verbal adjective
 
@@ -268,12 +269,12 @@ LEXICON PASS-DIR-AR
 
 %<pass%>:%>%{i%}%{L%} CAUS-DIR-AR ;
 %<pass%>:%>%{i%}%{L%} NECE ;
-%<pass%>:%>%{i%}%{L%} PARTICIPLE ;
+%<pass%>:%>%{i%}%{L%} NON-FINITE ;
 %<pass%>:%>%{i%}%{L%} GERUND ;
 %<pass%>:%>%{i%}%{L%} ABIL-AR ;
 CAUS-DIR-AR ;
 NECE ;
-PARTICIPLE ;
+NON-FINITE ;
 GERUND ;
 ABIL-AR ;
 
@@ -295,12 +296,12 @@ LEXICON PASS-DIR-IR
 
 %<pass%>:%>%{i%}%{L%} CAUS-DIR-IR ;
 %<pass%>:%>%{i%}%{L%} NECE ;
-%<pass%>:%>%{i%}%{L%} PARTICIPLE ;
+%<pass%>:%>%{i%}%{L%} NON-FINITE ;
 %<pass%>:%>%{i%}%{L%} GERUND ;
 %<pass%>:%>%{i%}%{L%} ABIL-IR ;
 CAUS-DIR-IR ;
 NECE ;
-PARTICIPLE ;
+NON-FINITE ;
 GERUND ;
 ABIL-IR ;
 
@@ -338,7 +339,7 @@ LEXICON IMPERFECTIVE
 %<impfktv%>:%>m%{A%}kt%{A%} PERS3 ;
 
 LEXICON NEG
-%<neg%>:%>m%{A%} REGULAR-NEGATIVE ;
+%<neg%>:%>m%{a%} REGULAR-NEGATIVE ;
 
 LEXICON AOR-AR
 %<aor%>:%>%{A%}r PERS1 ;
@@ -488,17 +489,14 @@ LEXICON GERUND
 %<ger3%>:%>%{I%}ş SUBST ;
 %<ger4%>:%>%{y%}%{A%}c%{A%}k SUBST ;
 
-LEXICON PARTICIPLE
-%<prc1%>:%>%{y%}%{A%}n ATTR ;
+LEXICON NON-FINITE
 
-LEXICON INFINITIVE
 %<inf%>:%>m%{A%}k SUBST ;
 
-LEXICON VERBAL-ADVERB
-%<gna1%>:%>%{y%}%{A%}r%{A%}k # ;
+%<prc1%>:%>%{y%}%{A%}n ATTR ;
 
-LEXICON CONVERB-IP
-%<gna2%>:%>%{y%}%{I%}p #;
+%<gna1%>:%>%{y%}%{A%}r%{A%}k # ;
+%<gna2%>:%>%{y%}%{I%}p # ;
 
 LEXICON CONDITIONAL
 %<cond%>:%>s%{A%} PERS2 ;
@@ -507,10 +505,7 @@ LEXICON REGULAR-NEGATIVE
 
 NECE ;
 CONDITIONAL ;
-VERBAL-ADVERB ;
-INFINITIVE ;
-CONVERB-IP ;
-PARTICIPLE ;
+NON-FINITE ;
 GERUND ;
 IMPERATIVE ;
 CONDITIONAL-CONTINUOUS ;
@@ -548,10 +543,7 @@ LEXICON V-TV-DIR-IR
 %<v%>%<tv%>: NEG ;
 %<v%>%<tv%>: NECE ;
 %<v%>%<tv%>: CONDITIONAL ;
-%<v%>%<tv%>: VERBAL-ADVERB ;
-%<v%>%<tv%>: INFINITIVE ;
-%<v%>%<tv%>: CONVERB-IP ;
-%<v%>%<tv%>: PARTICIPLE ;
+%<v%>%<tv%>: NON-FINITE ;
 %<v%>%<tv%>: GERUND ;
 %<v%>%<tv%>: IMPERATIVE ;
 %<v%>%<tv%>: CONDITIONAL-CONTINUOUS ;
@@ -588,10 +580,7 @@ LEXICON V-TV-DIR-AR
 %<v%>%<tv%>: NEG ;
 %<v%>%<tv%>: NECE ;
 %<v%>%<tv%>: CONDITIONAL ;
-%<v%>%<tv%>: VERBAL-ADVERB ;
-%<v%>%<tv%>: INFINITIVE ;
-%<v%>%<tv%>: CONVERB-IP ;
-%<v%>%<tv%>: PARTICIPLE ;
+%<v%>%<tv%>: NON-FINITE ;
 %<v%>%<tv%>: GERUND ;
 %<v%>%<tv%>: IMPERATIVE ;
 %<v%>%<tv%>: CONDITIONAL-CONTINUOUS ;
