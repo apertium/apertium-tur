@@ -59,7 +59,6 @@
      25 yapılmadan
      25 yapıların
      25 yapılabileceğini
-     24 yaptigi
      24 yapılmaması
      22 yapılmadığı
      21 yapmasının
@@ -96,7 +95,6 @@
      12 yapılırken
      12 yapabileceği
      11 yaptırdığı
-     11 yapti
      11 yapmamasını
      11 yapıldıktan
      11 yapılabilmesi
