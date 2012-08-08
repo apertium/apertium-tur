@@ -1,4 +1,4 @@
-ah!! List of people who will hate this file:
+!! List of people who will hate this file:
 !!     1. Firespeakerwh
 
 Alphabet
@@ -6,9 +6,11 @@ Alphabet
  A B C Ç D E F G Ğ H I İ J K L M N O Ö P Q R S Ş T U Ü V W X Y Z 
  a b c ç d e f g ğ h ı i j k l m n o ö p q r s ş t u ü v w x y z 
 
- %{A%}:a %{I%}:ı %{D%}:d
+ %{A%}:a %{I%}:ı %{D%}:d %{L%}:l
 
- %{n%}:0 %{y%}:0 %{s%}:0 %{i%}:0
+ %{n%}:0 %{y%}:0 %{s%}:0 
+
+ %{i%}:0 %{a%}:0 
 
  %{f%}:0 %{b%}:0
 
@@ -94,8 +96,6 @@ Rules
 !memelerinden
 !arabasında
 
-
-
 "Epenthetic consonants after vowel"
 Cx:Cy <=>   :SurVow %>: _ ; 
         where
@@ -130,4 +130,12 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
 k:g <=> :n _ %>: (:0) :Vow ;
 
 ! renk>{y}{I}       = rengi    =
+
+"Passive {i} surfacing and harmonising"
+%{i%}:Vy <=> [ :LastVowel :Cns* :Cns ] %>: _ %{L%}: ;
+        where 
+            LastVowel in ( i ü e ö ı u a o )
+                   Vy in ( i ü i ü ı u ı u ) 
+            matched;
+
 
