@@ -21,6 +21,7 @@ Multichar_Symbols
 %{A%}
 
 %{L%}
+%{D%}
 
 %{a%}
 %{i%}
@@ -218,10 +219,10 @@ CAUS-T ;
 NECE ;
 
 LEXICON CAUS-DIR
-%<caus%>:%>dir NEG ;
-%<caus%>:%>dir FINITE-VERBS ;
-%<caus%>:%>dir ABIL ;
-%<caus%>:%>dir NECE ;
+%<caus%>:%>%{D%}%{I%}r NEG ;
+%<caus%>:%>%{D%}%{I%}r FINITE-VERBS ;
+%<caus%>:%>%{D%}%{I%}r ABIL ;
+%<caus%>:%>%{D%}%{I%}r NECE ;
 NEG ;
 FINITE-VERBS ;
 ABIL ;
