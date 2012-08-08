@@ -308,9 +308,11 @@ LEXICON PASS
 %<pass%>:%>%{i%}%{L%} CAUS ;
 %<pass%>:%>%{i%}%{L%} NECE ;
 %<pass%>:%>%{i%}%{L%} PARTICIPLE ;
+%<pass%>:%>%{i%}%{L%} GERUND ;
 CAUS ;
 NECE ;
 PARTICIPLE ;
+GERUND ;
 
 LEXICON CAUS
 CAUS-DIR ;
