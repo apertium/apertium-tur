@@ -28,4 +28,5 @@ dev/verb-morph.lexc -text
 dev/verbs/Makefile -text
 dev/verbs/VERBS-scraps -text
 dev/verbs/VERBS-scraps.lexc -text
+dev/verbs/test-yap.txt -text
 tests/nouns-misc.yaml -text

@@ -33,6 +33,70 @@ LEXICON Root
 Verbs ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON CLIT
+
+%+mı%<qst%>:% m%{I%} # ; 
+# ;  !! This is the end of word marker.
+
+LEXICON V-PERS-COP
+
+%+i%<cop%>%<pres%>: V-PERS-COP-G2-NOSG3-FINAL ;
+
+LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears only
+                        ! after nominal parts of speech (and only after some cases).
+                        ! FIXME: to be checked whether leads to any overgeneration
+CLIT ;
+V-PERS-COP ;
+
+
+LEXICON SUBST
+
+N-INFL-COMMON ; 
+%<pl%>:%>l%{A%}r N-INFL-COMMON ;
+
+LEXICON N-INFL-COMMON
+
+POSS-REAL ;
+CASE-ETC ;
+!ABE-ETC ;
+
+LEXICON CASE 
+
+%<nom%>: CLIT-GENERAL ;               
+%<gen%>:%>%{n%}%{I%}n CLIT ;      
+%<dat%>:%>%{y%}%{A%} CLIT ;   
+%<acc%>:%>%{y%}%{I%} CLIT ;
+%<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   
+%<abl%>:%>%{D%}%{A%}n CLIT-GENERAL ;  
+
+!!!! POSSESSIVES
+
+LEXICON GENPOSS-ETC 
+
+CASE ;
+
+LEXICON CASE-ETC
+
+CASE ;
+GENPOSS-ETC ;
+  
+LEXICON POSS-REAL
+
+%<px1sg%>:%>%{I%}m CASE-ETC ;                
+%<px2sg%>:%>%{I%}n CASE-ETC ;                 
+%<px3sp%>:%>%{s%}%{I%}%{pN%} CASE-ETC ; 
+%<px1pl%>:%>%{i%}m%{I%}z CASE-ETC ;           
+%<px2pl%>:%>%{i%}n%{I%}z CASE-ETC ;      
+%<px3pl%>:%>l%{A%}r%{I%}%{pN%} CASE-ETC ;  
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON K  ! Clitics
 
@@ -46,6 +110,16 @@ LEXICON SUBST ! Nominal inflection
 LEXICON ATTR ! Adjective inflection
 
 # ; 
+
+
+LEXICON V-PERS-COP-G2-NOSG3-FINAL
+
+%<p1%>%<sg%>:%>%{y%}%{I%}m # ;
+%<p2%>%<sg%>:%>%{s%}%{I%}n # ;
+%<p2%>%<frm%>%<sg%>:%>%{s%}%{I%}n%{I%}z  # ;
+%<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
+%<p2%>%<pl%>:%>%{s%}%{I%}n%{I%}z  # ;
+%<p3%>%<pl%>:%>l%{A%}r  # ;
 
 
 LEXICON PERS1  !!!USED FOR CONT, FUT, AOR, EVID
