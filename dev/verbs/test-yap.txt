@@ -17,13 +17,9 @@
     277 yapması
     228 yapılmasını
     199 yaptığını
-    191 yapılanma
     183 yaptılar
     166 yapmış
     165 yapacağını
-    162 yapısal
-    160 yapımı
-    157 yapılarına
     137 yapmakta
     121 yapılacağını
     106 yapmakla
@@ -636,3 +632,7 @@
 
 
     230 yapıcı
+    191 yapılanma
+    162 yapısal
+    160 yapımı
+    157 yapılarına
