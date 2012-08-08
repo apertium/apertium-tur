@@ -70,7 +70,7 @@
      18 yapmalarını
      18 yapmalarına
      18 yapmadıkları
-     18 yapılanmaya
+
      17 yapılmakta
      17 yapıldığına
      17 yapılarak
@@ -86,7 +86,7 @@
      13 yaptırdı
      13 yapmıyor
      13 yapılıp
-     13 yapılanmayı
+
      12 yaptırmak
      12 yaptığından
      12 yapmadıklarını
@@ -218,8 +218,6 @@
       3 yapıldığını ileri
       3 yapılaşmanın
       3 yapılardaki
-      3 yapılandırılmış
-      3 yapılandırılacağını
       3 yapılamayacağını
       3 yapılacaksa
       3 yapılacağının
@@ -413,35 +411,6 @@
       1 yapılaşmayı
       1 yapılaşmaya
       1 yapilanmanin
-      1 yapılanmalarını
-      1 yapılanmaların
-      1 yapılanmaları
-      1 yapılanmalara
-      1 yapılanmalar
-      1 yapılanmakta
-      1 yapılanlara
-      1 yapılanlar
-      1 yapılanıp
-      1 yapılandırmayla
-      1 yapılandırmasında
-      1 yapılandırmanın
-      1 yapılandırmaları
-      1 yapılandırmadıkça
-      1 yapılandırıyor
-      1 yapılandırırken
-      1 yapılandırıp
-      1 yapılandırılmaya
-      1 yapılandırılmasındaki
-      1 yapılandırılmamış
-      1 yapılandırılan
-      1 yapılandırılabilir
-      1 yapılandırdıktan
-      1 yapılandırdı
-      1 yapılandırana
-      1 yapılandıran
-      1 yapılandıracak
-      1 yapılandırabileceği
-      1 yapılandığı
       1 yapılamıyor
       1 yapılamış
       1 yapılamazdı
@@ -618,6 +587,35 @@
       1 yapıcılık
       1 yapıcıların
       1 yapıcılar
+      1 yapılanmalarını
+      1 yapılanmaların
+      1 yapılanmaları
+      1 yapılanmalara
+      1 yapılanmalar
+      1 yapılanmakta
+      1 yapılanlara
+      1 yapılanlar
+      1 yapılanıp
+      1 yapılandırmayla
+      1 yapılandırmasında
+      1 yapılandırmanın
+      1 yapılandırmaları
+      1 yapılandırmadıkça
+      1 yapılandırıyor
+      1 yapılandırırken
+      1 yapılandırıp
+      1 yapılandırılmaya
+      1 yapılandırılmasındaki
+      1 yapılandırılmamış
+      1 yapılandırılan
+      1 yapılandırılabilir
+      1 yapılandırdıktan
+      1 yapılandırdı
+      1 yapılandırana
+      1 yapılandıran
+      1 yapılandıracak
+      1 yapılandırabileceği
+      1 yapılandığı
 
 
 
