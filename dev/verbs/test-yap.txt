@@ -163,7 +163,7 @@
       5 yapabiliriz
       4 yaptırma
       4 yaptığım
-      4 yaprakları
+      4 
       4 yapmamasına
       4 yapmaktadır
       4 yapmadılar
@@ -190,7 +190,7 @@
       3 yaptırmasına
       3 yaptığını ileri
       3 yapsa
-      3 yaprak
+      
       3 yapmazlarsa
       3 yapmayan
       3 yapmasında
@@ -320,8 +320,7 @@
       1 yapsın
       1 yapsaydı
       1 yaprığı
-      1 yapraklarla
-      1 yapraklarını
+  
       1 yaprağına
       1 yapmıyoruz
       1 yapmıyorlar
