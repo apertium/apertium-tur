@@ -254,6 +254,14 @@ LEXICON PERS4  !!!USED FOR IMPERATIVE
 %<p2%>%<sg%>:%>  # ;
 %<p2%>%<pl%>:%>s%{A%}n%{A%}  # ;
 
+LEXICON PERS5  !!!USED FOR negative aorist and abil
+%<p1%>%<sg%>:%>m%{A%}m  CLIT ;
+%<p2%>%<sg%>:%>m%{A%}zs%{I%}n  CLIT ;
+%<p3%>%<sg%>:%>m%{A%}z CLIT ;
+%<p1%>%<pl%>:%>m%{A%}y%{I%}z  CLIT ;
+%<p2%>%<pl%>:%>m%{A%}zs%{I%}n%{I%}z  CLIT ;
+%<p3%>%<pl%>:%>m%{A%}zl%{A%}r  CLIT ;
+
 
 
 LEXICON REC-DIR-AR
@@ -357,9 +365,11 @@ LEXICON NEG
 
 LEXICON AOR-AR
 %<aor%>:%>%{A%}r PERS1 ;
+%<neg%>%<aor%>:%> PERS5;
 
 LEXICON AOR-IR
 %<aor%>:%>%{i%}r PERS1 ;
+%<neg%>%<aor%>:%> PERS5;
 
 LEXICON ABIL-AR
 %<abil%>:%>%{y%}%{A%}bil FINITE-VERBS-IR ;
@@ -367,7 +377,8 @@ LEXICON ABIL-AR
 %<abil%>:%>%{y%}%{A%}bil GERUND ;
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} GERUND ;
 %<abil%>:%>%{y%}%{A%}bil NON-FINITE ;
-%<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} NON-FINITE ;
+%<neg%>%<abil%>:%>%{A%} NON-FINITE ;
+%<neg%>%<abil%>:%>%{A%} PERS5 ;
 NON-FINITE ;
 FINITE-VERBS-AR ;
 GERUND ;
@@ -379,6 +390,7 @@ LEXICON ABIL-IR
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} GERUND ;
 %<abil%>:%>%{y%}%{A%}bil NON-FINITE ;
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} NON-FINITE ;
+%<neg%>%<abil%>:%>%{A%} PERS5 ;
 NON-FINITE ;
 FINITE-VERBS-IR ;
 GERUND ;
