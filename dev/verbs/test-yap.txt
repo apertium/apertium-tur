@@ -237,10 +237,10 @@
       2 yaptıklarımızı
       2 yaptığınızı
       2 yaptığı
-      2 yaptığ
+
       2 yapsak
       2 yapmıştır
-      2 yapmisti
+
       2 yapmışlar
       2 yapmazsak
       2 yapmayacaklarını
@@ -295,7 +295,7 @@
       1 yaptırılmak
       1 yaptırılıyor
       1 yaptırılacak
-      1 yaptirdigini
+
       1 yaptırdığından
       1 yaptırarak
       1 yaptıranlar
@@ -306,11 +306,11 @@
       1 yaptıpı
       1 yaptınız
       1 yaptıklarınızdan
-      1 yaptiklarindan
+
       1 yaptıkların
       1 yaptıklarımız
       1 yaptıkları
-      1 yaptiklari
+
       1 yaptıklar
       1 yaptığınıza
       1 yaptığıı
