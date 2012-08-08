@@ -200,10 +200,6 @@ LEXICON POSS-REAL
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON K  ! Clitics
-
-# ; 
-
 LEXICON SUBST ! Nominal inflection
 
 %<nom%>: # ; 
@@ -235,20 +231,20 @@ LEXICON PERS1  !!!USED FOR CONT, FUT, AOR, EVID
 
 LEXICON PERS2  !!!USED FOR PAST and CONDITIONAL
 
-%<p1%>%<sg%>:%>m  K ;
-%<p2%>%<sg%>:%>n  K ;
-%<p3%>%<sg%>:%>  K ;
-%<p1%>%<pl%>:%>k  K ;
-%<p2%>%<pl%>:%>%{I%}n%{I%}z  K ;
-%<p3%>%<pl%>:%>l%{A%}r  K ;
+%<p1%>%<sg%>:%>m  CLIT ;
+%<p2%>%<sg%>:%>n  CLIT ;
+%<p3%>%<sg%>:%>  CLIT ;
+%<p1%>%<pl%>:%>k  CLIT ;
+%<p2%>%<pl%>:%>%{I%}n%{I%}z  CLIT ;
+%<p3%>%<pl%>:%>l%{A%}r  CLIT ;
 
 LEXICON PERS3  !!!USED FOR NECESSITATIVE
-%<p1%>%<sg%>:%>%{y%}%{I%}m  K ;
-%<p2%>%<sg%>:%>s%{I%}n  K ;
-%<p3%>%<sg%>:%>  K ;
-%<p1%>%<pl%>:%>%{y%}%{I%}z  K ;
-%<p2%>%<pl%>:%>s%{I%}n%{I%}z  K ;
-%<p3%>%<pl%>:%>l%{A%}r  K ;
+%<p1%>%<sg%>:%>%{y%}%{I%}m  CLIT ;
+%<p2%>%<sg%>:%>s%{I%}n  CLIT ;
+%<p3%>%<sg%>:%>  CLIT ;
+%<p1%>%<pl%>:%>%{y%}%{I%}z  CLIT ;
+%<p2%>%<pl%>:%>s%{I%}n%{I%}z  CLIT ;
+%<p3%>%<pl%>:%>l%{A%}r  CLIT ;
 
 LEXICON PERS4  !!!USED FOR IMPERATIVE
 %<p2%>%<sg%>:%>  # ;
@@ -358,7 +354,7 @@ LEXICON AOR-IR
 
 
 LEXICON ABIL
-%<abil%>:%>%{a%}bil FINITE-VERBS ;
+%<abil%>:%>%{y%}%{A%}bil FINITE-VERBS ;
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} FINITE-VERBS ;
 
 LEXICON PRESENT-CONTINUOUS

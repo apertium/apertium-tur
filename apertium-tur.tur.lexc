@@ -1,4 +1,4 @@
-f!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!   M O R P H O L O G I C A L · T R A N S D U C E R · F O R · TURKISH     !!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -3782,7 +3782,7 @@ kıstas:kıstas N1 ; ! "gauge"
 kitabevi:kitabevi N1 ; ! "bookstore"
 kıta:kıta N1 ; ! "continent"
 kitapçık:kitapçık N1 ; ! "booklet"
-kitap:kitap N1 ; ! "book"
+kitap:kitab N1 ; ! "book"
 kıtır:kıtır N1 ; ! "crisp"
 kıtırtı:kıtırtı N1 ; ! "crackle"
 kitle:kitle N1 ; ! "population"
@@ -5237,7 +5237,7 @@ zaman:zaman N1 ; ! "time"
 zevk:zevk N1 ; ! "satisfaction"
 renk:renk N1 ; ! "colour"
 saat:saat%{f%} N1 ; ! "time" "Watch" "hour"
-petrol:petrol%{f%} ; ! "oil" as in "Saudi Arabia is full of oil"
+petrol:petrol%{f%} N1 ; ! "oil" as in "Saudi Arabia is full of oil"
 
 
 

@@ -114,17 +114,15 @@ Cx:Cy <=>   :SurVow %>: _ ;
 Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
           except
                  :n _ %>: (:0) :Vow ;
-          where Cx in ( p t k ç )
-                Cy in ( b d ğ c )
+          where Cx in ( t k ç ) ! p
+                Cy in ( d ğ c ) ! b
                 matched;
 
-! kitap>{y}{I}      = kitabı   =
-! tat>{y}{I}        = tadi     =
-! fistik>{y}{I}     = fistiği  = 
-! ağaç>{y}{I}       = ağacı    =
-! renk>{y}{I}       ≠ renki    = 
-! gönç>{y}{I}       ≠ göncü    =
-! dekont>{y}{I}     ≠ dekondu  =
+"Word final consonant devoicing"
+b:p <=> _ (%>:) [ .#. | %{D%}: ] ;
+
+! kitab>            = kitap
+! kitab>{D}{A}n     = kitaptan   = 
 
 "Alternative voicing of 'k' to 'g' after 'n'"
 k:g <=> :n _ %>: (:0) :Vow ;
