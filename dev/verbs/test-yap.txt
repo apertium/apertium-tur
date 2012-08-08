@@ -110,7 +110,7 @@
       9 yapılmayacak
       9 yapılmayacağı
       9 yapılacaktı
-      9 yapilacak
+
       9 yapamaz
       9 yapabilmek
       9 yapabilecekler
@@ -127,7 +127,7 @@
       7 yaptırmaları
       7 yaptırımlarla
       7 yapmışlardı
-      7 yapildi
+
       6 yaptırdığını
       6 yaptıran
       6 yaptığının
@@ -170,7 +170,7 @@
       4 yapmadılar
       4 yapmadığında
       4 yapmada
-      4 yapilmasi
+
       4 yapılmamakla
       4 yapılmalıdır
       4 yapılmaksızın
@@ -264,7 +264,7 @@
       2 yapımcıların
       2 yapılsaydı
       2 yapılmıyor
-      2 yapilmisti
+
       2 yapılmayacağına
       2 yapılmasıyla
       2 yapılmamıştır
@@ -408,7 +408,7 @@
       1 yapıldğı
       1 yapılaşmayı
       1 yapılaşmaya
-      1 yapilanmanin
+
       1 yapılamıyor
       1 yapılamış
       1 yapılamazdı
@@ -423,7 +423,7 @@
       1 yapılacek
       1 yapılacakken
       1 yapılacağıyla
-      1 yapilacagi
+
       1 yapılablir
       1 yapılabilmesinin
       1 yapılabiliyorken
