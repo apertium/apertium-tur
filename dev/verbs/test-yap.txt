@@ -231,7 +231,6 @@
       2 yaptırabilmek
       2 yaptırabilecekler
       2 yaptım
-      2 yaptıları
       2 yaptıklarını
       2 yaptıklarında
       2 yaptıklarımızı
@@ -252,8 +251,6 @@
       2 yapmaktaki
       2 yapmadıklarında
       2 yapışı
-      2 yapımındaki
-      2 yapımın
       2 yapımcıların
       2 yapılsaydı
       2 yapılmıyor
@@ -267,7 +264,7 @@
       2 yapılamadığı
       2 yapılacağından
       2 yapılabilmesini
-      2 yapığı
+
       2 yaparsak
       2 yapamıyoruz
       2 yapamam
