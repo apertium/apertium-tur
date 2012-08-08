@@ -492,7 +492,7 @@ LEXICON PARTICIPLE
 %<prc1%>:%>%{y%}%{A%}n ATTR ;
 
 LEXICON INFINITIVE
-%<inf%>:%>m%{A%}k # ;
+%<inf%>:%>m%{A%}k SUBST ;
 
 LEXICON VERBAL-ADVERB
 %<gna1%>:%>%{y%}%{A%}r%{A%}k # ;
