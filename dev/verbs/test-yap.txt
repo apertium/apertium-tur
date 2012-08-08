@@ -313,15 +313,12 @@
       1 yapmaz
       1 yapmayız
       1 yapmayın
-      1 yapmayi
       1 yapmayarak
       1 yapmayacaktır
       1 yapmayacağınıza
       1 yapmayacağının
       1 yapmasıyla
       1 yapmasını mı
-      1 yapmasini
-      1 yapmasi
       1 yapmasa
       1 yapmamıza
       1 yapmamıştır
@@ -360,7 +357,6 @@
 
       1 yapılmıştır
       1 yapılmayı
-      1 yapılmayarak
       1 yapılmayan
       1 yapılmayacağının
       1 yapılmayacağından
