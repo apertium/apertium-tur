@@ -363,6 +363,9 @@ LEXICON ABIL-AR
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} FINITE-VERBS-IR ;
 %<abil%>:%>%{y%}%{A%}bil GERUND ;
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} GERUND ;
+%<abil%>:%>%{y%}%{A%}bil NON-FINITE ;
+%<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} NON-FINITE ;
+NON-FINITE ;
 FINITE-VERBS-AR ;
 GERUND ;
 
@@ -371,6 +374,9 @@ LEXICON ABIL-IR
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} FINITE-VERBS-IR ;
 %<abil%>:%>%{y%}%{A%}bil GERUND ;
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} GERUND ;
+%<abil%>:%>%{y%}%{A%}bil NON-FINITE ;
+%<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} NON-FINITE ;
+NON-FINITE ;
 FINITE-VERBS-IR ;
 GERUND ;
 
