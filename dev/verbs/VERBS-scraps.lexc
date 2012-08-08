@@ -309,10 +309,12 @@ LEXICON PASS
 %<pass%>:%>%{i%}%{L%} NECE ;
 %<pass%>:%>%{i%}%{L%} PARTICIPLE ;
 %<pass%>:%>%{i%}%{L%} GERUND ;
+%<pass%>:%>%{i%}%{L%} ABIL ;
 CAUS ;
 NECE ;
 PARTICIPLE ;
 GERUND ;
+ABIL ;
 
 LEXICON CAUS
 CAUS-DIR ;
@@ -360,6 +362,10 @@ LEXICON AOR-IR
 LEXICON ABIL
 %<abil%>:%>%{y%}%{A%}bil FINITE-VERBS ;
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} FINITE-VERBS ;
+%<abil%>:%>%{y%}%{A%}bil GERUND ;
+%<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} GERUND ;
+FINITE-VERBS ;
+GERUND ;
 
 LEXICON PRESENT-CONTINUOUS
 
