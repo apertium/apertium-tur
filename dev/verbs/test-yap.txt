@@ -15,7 +15,6 @@
     293 yapıyor
     278 yapıldı
     277 yapması
-    230 yapıcı
     228 yapılmasını
     199 yaptığını
     191 yapılanma
@@ -634,3 +633,6 @@
       1 yapabileceğimizi
       1 yapabileceğimi
       1 yapabildi
+
+
+    230 yapıcı

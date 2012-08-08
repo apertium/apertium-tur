@@ -14,7 +14,7 @@ Alphabet
 
  %{f%}:0 %{b%}:0
 
-%{pN%}:0
+ %{pN%}:0
 
 
  %>:0
@@ -65,6 +65,15 @@ Rules
 ! ev>{s}{I}         = evi      =     e:e v:v >:0 {s}:0 {I}:i
 ! akü>{n}{I}n       = akünün   = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
 
+"Passive {i} surfacing and harmonising"
+%{i%}:Vy <=> [ :LastVowel :Cns* :Cns ] %>: _ %{L%}: ;
+        where 
+            LastVowel in ( i ü e ö ı u a o )
+                   Vy in ( i ü i ü ı u ı u ) 
+            matched;
+
+! yap>{i}yor       = yapıyor    =     y:y a:a p:p >:0 {i}:ı y:y o:o r:r
+
 "Vowel harmony for archiphoneme {A}"
 %{A%}:e <=> [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: ] _ ;
             [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: ] _ ;
@@ -87,14 +96,6 @@ Rules
 
 ! ev>{s}{I}         = evi       =     e:e v:v >:0 {s}:0 {I}:i
 ! akü>{n}{I}n       = akünün    = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
-
-"Buffer N after 3rd singular possessive + dat/loc/abl"
-
-%{pN%}:n <=>  _ %>: %{D%}: ; 
-
-! arka>{s}{I}{pN}>{D}{A} = arkasında = a:a r:r k:k a:a >:0 {s}:s {I}:ı {pN}:n >:0 {D}:d {A}:a
-!memelerinden
-!arabasında
 
 "Epenthetic consonants after vowel"
 Cx:Cy <=>   :SurVow %>: _ ; 
@@ -129,11 +130,12 @@ k:g <=> :n _ %>: (:0) :Vow ;
 
 ! renk>{y}{I}       = rengi    =
 
-"Passive {i} surfacing and harmonising"
-%{i%}:Vy <=> [ :LastVowel :Cns* :Cns ] %>: _ %{L%}: ;
-        where 
-            LastVowel in ( i ü e ö ı u a o )
-                   Vy in ( i ü i ü ı u ı u ) 
-            matched;
+"Buffer N after 3rd singular possessive + dat/loc/abl"
+%{pN%}:n <=>  _ %>: [ %{D%}: | :SurVow ]/[ :0  ] ; 
+
+! arka>{s}{I}{pN}>{D}{A}     = arkasında = a:a r:r k:k a:a >:0 {s}:s {I}:ı {pN}:n >:0 {D}:d {A}:a
+! yap>m{A}>{s}{I}{pN}>{y}{I} = yapmasını = y:y a:a p:p >:0 m:m {A}:a >:0 {s}:s {I}:ı {pN}:n >:0 {y}:0 {I}:ı
+! memelerinden
+! arabasında
 
 
