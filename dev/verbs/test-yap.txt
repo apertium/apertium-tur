@@ -154,7 +154,7 @@
       5 yapmanız
       5 yapmama
       5 yapmadığına
-      5 yaplan
+h
       5 yapılmamasını
       5 yapılmamasına
       5 yapılır
@@ -202,7 +202,7 @@
       3 yapmalarından
       3 yapmadığının
       3 yapıyorum
-      3 yapiyor
+
       3 yapılmazken
       3 yapılmaz
       3 yapılmamış
@@ -364,7 +364,7 @@
       1 yapmadığımız
       1 yapmadığımı
       1 yapmadan ilerlemenin
-      1 yaplacak
+
       1 yapıyorsunuz
       1 yapıyorsa
       1 yapıştırmasından
@@ -372,7 +372,7 @@
       1 yapıştırılmış
       1 yapıştırıldı
       1 yapıştırdığından
-      1 yapisinda
+
       1 yapılmiyor
       1 yapılmıştır
       1 yapılmayı
