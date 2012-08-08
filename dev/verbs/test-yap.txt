@@ -251,7 +251,7 @@
       2 yapmaktaki
       2 yapmadıklarında
       2 yapışı
-      2 yapımcıların
+
       2 yapılsaydı
       2 yapılmıyor
 
@@ -299,8 +299,8 @@
 
       1 yaptıklar
       1 yaptığınıza
-      1 yaptığıı
-      1 yaptğını
+
+      
       1 yapsın
       1 yapsaydı
       1 yaprığı
@@ -485,11 +485,10 @@
      14 yapımında
      13 yapılarıyla
      12 yapıyı
-     13 yapımcıları
-     11 yapımcısı
+
      11 yapılarında
      10 yapısında
-     10 yapımcı
+     
      10 yapılaşma
      10 yapılanmasında
      10 yapılandırılmasının
