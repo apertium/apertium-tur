@@ -1,5 +1,97 @@
 Multichar_Symbols
 
+
+! Part of speech categories
+%<n%>          ! Noun                       
+%<np%>         ! Proper noun                
+%<adj%>        ! Adjective                  
+%<num%>        ! Numeral                    
+%<prn%>        ! Pronoun                    
+%<det%>        ! Determiner                 
+%<v%>          ! Verb                       
+%<vaux%>       ! Auxilary verb              
+%<adv%>        ! Adverb                     
+%<post%>       ! Postposition               
+%<postadv%>    ! Postadverb                 
+%<cnjcoo%>     ! Co-ordinating conjunction  
+%<cnjsub%>     ! Sub-ordinating conjunction 
+%<cnjadv%>     ! Adverbial conjunction      
+%<part%>       ! Particle                   
+%<ij%>         ! Interjection               
+%<abbr%>       ! Abbreviation               
+%<cop%>        ! Copula                     
+%<qst%>        ! Question particle
+!%<ideo%>       ! Ideophone                  
+
+! Proper noun types
+%<top%>            
+%<ant%>            
+%<cog%>            
+%<org%>            
+%<al%>             
+
+!! gender of anthroponyms 
+%<m%>              ! Masculine    
+%<f%>              ! Feminine     
+
+! "Syntactic" tags. Attributive use of non-adjectives etc. !!!!! NOT SURE I WANT THIS !!!!
+%<attr%>           ! Attributive
+%<subst%>          ! Substantive
+%<advl%>           ! Adverbial
+
+! Number ! Сан ! Число
+%<sg%>             ! Singular  
+%<pl%>             ! Plural    
+%<sp%>             ! Singular/Plural (used for formal personal pronoun)
+
+! Possessives 
+%<px1sg%>          ! First person singular
+%<px2sg%>          ! Second person singular
+%<px3sp%>          ! Third person singular/plural
+%<px1pl%>          ! First person plural
+%<px2pl%>          ! Second person singular
+%<px%>             ! General possessive           ! NOT SURE I WANT THIS
+
+! Cases ! "Case is a lie!" (quot.)
+
+%<nom%>            
+%<gen%>            
+%<dat%>            
+%<acc%>            
+%<abl%>            
+%<loc%>            
+%<ins%>            ! Instrumental=comitative 
+
+
+! Pronoun types ! Алмашлык төрләре ! Виды местоимений
+%<pers%>           ! Personal
+! Pronoun and determiner types
+%<dem%>            ! Demonstrative
+%<ind%>            ! Indefinite
+%<itg%>            ! Interrogative
+%<qnt%>            ! Quantifier
+%<neg%>            ! Negative    ! NOTE: also used to denote negation in verbs ! what do you mean firespeake
+r??
+%<ref%>            ! Reflexive
+
+!! Numeral types
+%<ord%>            ! Ordinal
+%<coll%>           ! Collective
+%<dist%>           ! Distibutive
+
+! Tense, aspect, mood
+%<imp%>            ! Imperative
+%<cond%>           ! Conditional  ! Шарт  ! Условное  !! -с{A}
+%<caus%>           ! Causative
+%<pass%>           ! Passive
+%<coop%>           ! Cooperative
+
+%<pres%>           ! -{A}
+%<past%>           ! -{D}{I} 
+%<evi%>            ! -m{I}s 
+%<fut%>		   ! -{A}C{A}{K}
+
+
 %<p1%>
 %<p2%>
 %<p3%>
@@ -26,7 +118,16 @@ Multichar_Symbols
 %{a%}
 %{i%}
 
-%{y%}
+%{n%}		   ! Becomes "n" after a vowel, otherwise null
+%{y%}		   ! Becomes "y" after a vowel, otherwise null
+%{s%}		   ! Becomes "s" after a vowel, otherwise null
+%{i%}		   ! Becomes as "i" after a consonant, otherwise null
+%{pN%}		   ! Becomes "n" before dat abl loc and after 3p poss, otherwise null
+
+%{f%}              ! Enforce front harmony
+%{b%}              ! Enforce back harmony
+
+
 
 
 LEXICON Root
