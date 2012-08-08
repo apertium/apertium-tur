@@ -188,7 +188,7 @@ h
       4 yapabilirsiniz
       4 yapabileceğimiz
       3 yaptırmasına
-      3 yaptığını ileri
+      3 yaptığını
       3 yapsa
       
       3 yapmazlarsa
@@ -210,7 +210,7 @@ h
       3 yapılmamasından
       3 yapılmalı
       3 yapılış
-      3 yapıldığını ileri
+      3 yapıldığını
       3 yapılaşmanın
       3 yapılardaki
       3 yapılamayacağını
@@ -234,11 +234,11 @@ h
       2 yaptırabilecekler
       2 yaptım
       2 yaptıları
-      2 yaptıklarını ileri
+      2 yaptıklarını
       2 yaptıklarında
       2 yaptıklarımızı
       2 yaptığınızı
-      2 yaptığı ileri
+      2 yaptığı
       2 yaptığ
       2 yapsak
       2 yapmıştır
@@ -311,7 +311,7 @@ h
       1 yaptiklarindan
       1 yaptıkların
       1 yaptıklarımız
-      1 yaptıkları ileri
+      1 yaptıkları
       1 yaptiklari
       1 yaptıklar
       1 yaptığınıza
@@ -360,7 +360,7 @@ h
       1 yapmaı
       1 yapmadıklarıyla
       1 yapmadıklarının
-      1 yapmadığını ileri
+      1 yapmadığını
       1 yapmadığımız
       1 yapmadığımı
       1 yapmadan ilerlemenin
@@ -437,7 +437,7 @@ h
       1 yapamazlar
       1 yapamazdı
       1 yapamayınca
-      1 yapamayacağını ileri
+      1 yapamayacağını
       1 yapamayacagini
       1 yapamayacağına
       1 yapamaması
@@ -449,7 +449,7 @@ h
       1 yapacaklardı
       1 yapacakken
       1 yapacağınız
-      1 yapacağını ileri
+      1 yapacağını
       1 yapacagina
       1 yapacağımızı
       1 yapacağımızdan
