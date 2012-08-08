@@ -360,7 +360,7 @@ PERS4 ;
 
 LEXICON GERUND
 %<ger1%>:%>m%{A%} SUBST ;
-%<ger2%>:%>d%{I%}k SUBST ;
+%<ger2%>:%>%{D%}%{I%}k SUBST ;
 %<ger3%>:%>%{I%}ş SUBST ;
 %<ger4%>:%>%{y%}%{A%}c%{A%}k SUBST ;
 
