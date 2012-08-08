@@ -20,6 +20,11 @@ Multichar_Symbols
 %{I%}
 %{A%}
 
+%{L%}
+
+%{a%}
+%{i%}
+
 %{y%}
 
 
@@ -115,21 +120,21 @@ FUTURE-EVIDENTIAL ;
 
 LEXICON REC
 
-%<rec%>:%>%{bI%}ş CAUS ;
-%<rec%>:%>%{bI%}ş NECE ;
+%<rec%>:%>%{i%}ş CAUS ;
+%<rec%>:%>%{i%}ş NECE ;
 CAUS ;
 NECE ;
 
 LEXICON REF
-%<ref%>:%>%{bI%}n CAUS ;
-%<ref%>:%>%{bI%}n NECE ;
+%<ref%>:%>%{i%}n CAUS ;
+%<ref%>:%>%{i%}n NECE ;
 CAUS ;
 NECE ;
 
 LEXICON PASS
 
-%<pass%>:%>%{bI%}%{LN%} CAUS ;
-%<pass%>:%>%{bI%}%{LN%} NECE ;
+%<pass%>:%>%{i%}%{L%} CAUS ;
+%<pass%>:%>%{i%}%{L%} NECE ;
 CAUS ;
 NECE ;
 
@@ -172,12 +177,12 @@ LEXICON AOR-AR
 %<aor%>:%>%{A%}r PERS1 ;
 
 LEXICON AOR-IR
-%<aor%>:%>%{bI%}r PERS1 ;
+%<aor%>:%>%{i%}r PERS1 ;
 
 
 
 LEXICON ABIL
-%<abil%>:%>%{bA%}bil FINITE-VERBS ;
+%<abil%>:%>%{a%}bil FINITE-VERBS ;
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} FINITE-VERBS ;
 
 LEXICON PRESENT-CONTINUOUS
