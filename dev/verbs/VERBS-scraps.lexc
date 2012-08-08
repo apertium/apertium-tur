@@ -285,12 +285,14 @@ LEXICON PASS-DIR-AR
 %<pass%>:%>%{i%}%{L%} GERUND ;
 %<pass%>:%>%{i%}%{L%} ABIL-AR ;
 %<pass%>:%>%{i%}%{L%} NEG ;
+%<pass%>:%>%{i%}%{L%} AOR-IR ;
 CAUS-DIR-AR ;
 NECE ;
 NON-FINITE ;
 GERUND ;
 ABIL-AR ;
 NEG ;
+AOR-AR ;
 
 
 LEXICON REC-DIR-IR
