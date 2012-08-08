@@ -66,13 +66,14 @@ Rules
 ! akü>{n}{I}n       = akünün   = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
 
 "Passive {i} surfacing and harmonising"
-%{i%}:Vy <=> [ :LastVowel :Cns* :Cns ] %>: _ %{L%}: ;
+%{i%}:Vy <=> [ :LastVowel :Cns* :Cns ] %>: _ [ %{L%}: | :Cns ]/[ :0 ]  ;
         where 
             LastVowel in ( i ü e ö ı u a o )
                    Vy in ( i ü i ü ı u ı u ) 
             matched;
 
-! yap>{i}yor       = yapıyor    =     y:y a:a p:p >:0 {i}:ı y:y o:o r:r
+! yap>{i}yor            = yapıyor    =   y:y a:a p:p >:0 {i}:ı y:y o:o r:r
+! yap>{D}{I}r>{i}r>{I}m = yaptırırım =   y:y a:a p:p >:0 {D}:t {I}:ı r:r >:0 {i}:ı r:r >:0 {I}:ı m:m
 
 "Vowel harmony for archiphoneme {A}"
 %{A%}:e <=> [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: ] _ ;

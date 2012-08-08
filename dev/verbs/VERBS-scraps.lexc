@@ -176,6 +176,7 @@ LEXICON CASE
 %<acc%>:%>%{y%}%{I%} CLIT ;
 %<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   
 %<abl%>:%>%{D%}%{A%}n CLIT-GENERAL ;  
+%<ins%>:%>%{y%}l%{A%} CLIT-GENERAL ;  
 
 !!!! POSSESSIVES
 
@@ -202,11 +203,6 @@ LEXICON POSS-REAL
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-LEXICON SUBST ! Nominal inflection
-
-%<nom%>: # ; 
-
 
 LEXICON ATTR ! Adjective inflection
 
@@ -255,93 +251,87 @@ LEXICON PERS4  !!!USED FOR IMPERATIVE
 
 
 
+LEXICON REC-DIR-AR
 
-LEXICON VINFL-TV
-
-NEG ;
-REC ;
-PASS ;
-REF ;
-CAUS ;
-ABIL ;
-AOR ;
-FINITE-VERBS ;
-NECE ;
-CONDITIONAL ;
-VERBAL-ADVERB ;
-INFINITIVE ;
-CONVERB-IP ;
-PARTICIPLE ;
-GERUND ;
-IMPERATIVE ;
-CONDITIONAL-CONTINUOUS ;
-CONDITIONAL-EVIDENTIAL ;
-CONDITIONAL-PAST ; 
-EVIDENTIAL-CONDITIONAL ;
-EVIDENTIAL-CONTINUOUS ;
-EVIDENTIAL-PAST ;
-EVIDENTIAL-PERFECT ;
-FUTURE ;
-FUTURE-CONDITIONAL ;
-FUTURE-PERFECT ;
-IMPERFECTIVE ;
-PAST ;
-PAST-CONDITIONAL ;
-PAST-CONTINUOUS ;
-PRESENT-CONTINUOUS ;
-FUTURE-EVIDENTIAL ;
-
-
-
-LEXICON REC
-
-%<rec%>:%>%{i%}ş CAUS ;
+%<rec%>:%>%{i%}ş CAUS-DIR-AR ;
 %<rec%>:%>%{i%}ş NECE ;
-CAUS ;
+CAUS-DIR-AR ;
 NECE ;
 
-LEXICON REF
-%<ref%>:%>%{i%}n CAUS ;
+LEXICON REF-DIR-AR
+%<ref%>:%>%{i%}n CAUS-DIR-AR ;
 %<ref%>:%>%{i%}n NECE ;
-CAUS ;
+CAUS-DIR-AR ;
 NECE ;
 
-LEXICON PASS
+LEXICON PASS-DIR-AR
 
-%<pass%>:%>%{i%}%{L%} CAUS ;
+%<pass%>:%>%{i%}%{L%} CAUS-DIR-AR ;
 %<pass%>:%>%{i%}%{L%} NECE ;
 %<pass%>:%>%{i%}%{L%} PARTICIPLE ;
 %<pass%>:%>%{i%}%{L%} GERUND ;
-%<pass%>:%>%{i%}%{L%} ABIL ;
-CAUS ;
+%<pass%>:%>%{i%}%{L%} ABIL-AR ;
+CAUS-DIR-AR ;
 NECE ;
 PARTICIPLE ;
 GERUND ;
-ABIL ;
+ABIL-AR ;
 
-LEXICON CAUS
-CAUS-DIR ;
-CAUS-T ;
+
+LEXICON REC-DIR-IR
+
+%<rec%>:%>%{i%}ş CAUS-DIR-IR ;
+%<rec%>:%>%{i%}ş NECE ;
+CAUS-DIR-IR ;
 NECE ;
 
-LEXICON CAUS-DIR
+LEXICON REF-DIR-IR
+%<ref%>:%>%{i%}n CAUS-DIR-IR ;
+%<ref%>:%>%{i%}n NECE ;
+CAUS-DIR-IR ;
+NECE ;
+
+LEXICON PASS-DIR-IR
+
+%<pass%>:%>%{i%}%{L%} CAUS-DIR-IR ;
+%<pass%>:%>%{i%}%{L%} NECE ;
+%<pass%>:%>%{i%}%{L%} PARTICIPLE ;
+%<pass%>:%>%{i%}%{L%} GERUND ;
+%<pass%>:%>%{i%}%{L%} ABIL-IR ;
+CAUS-DIR-IR ;
+NECE ;
+PARTICIPLE ;
+GERUND ;
+ABIL-IR ;
+
+LEXICON CAUS-DIR-IR
 %<caus%>:%>%{D%}%{I%}r NEG ;
-%<caus%>:%>%{D%}%{I%}r FINITE-VERBS ;
-%<caus%>:%>%{D%}%{I%}r ABIL ;
+%<caus%>:%>%{D%}%{I%}r FINITE-VERBS-IR ;
+%<caus%>:%>%{D%}%{I%}r ABIL-IR ;
 %<caus%>:%>%{D%}%{I%}r NECE ;
 NEG ;
-FINITE-VERBS ;
-ABIL ;
+FINITE-VERBS-IR ;
+ABIL-IR ;
 NECE ;
 
-LEXICON CAUS-T
+LEXICON CAUS-DIR-AR
+%<caus%>:%>%{D%}%{I%}r NEG ;
+%<caus%>:%>%{D%}%{I%}r FINITE-VERBS-IR ;
+%<caus%>:%>%{D%}%{I%}r ABIL-IR ;
+%<caus%>:%>%{D%}%{I%}r NECE ;
+NEG ;
+FINITE-VERBS-AR ;
+ABIL-AR ;
+NECE ;
+
+LEXICON CAUS-T-IR
 %<caus%>:%>t NEG ;
-%<caus%>:%>t FINITE-VERBS ;
-%<caus%>:%>t ABIL ;
+%<caus%>:%>t FINITE-VERBS-IR ;
+%<caus%>:%>t ABIL-IR ;
 %<caus%>:%>t NECE ;
 NEG ;
-FINITE-VERBS ;
-ABIL ;
+FINITE-VERBS-IR ;
+ABIL-IR ;
 NECE ;
 
 LEXICON IMPERFECTIVE
@@ -350,24 +340,26 @@ LEXICON IMPERFECTIVE
 LEXICON NEG
 %<neg%>:%>m%{A%} REGULAR-NEGATIVE ;
 
-LEXICON AOR
-AOR-AR ;
-AOR-IR ;
-
 LEXICON AOR-AR
 %<aor%>:%>%{A%}r PERS1 ;
 
 LEXICON AOR-IR
 %<aor%>:%>%{i%}r PERS1 ;
 
-
-
-LEXICON ABIL
-%<abil%>:%>%{y%}%{A%}bil FINITE-VERBS ;
-%<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} FINITE-VERBS ;
+LEXICON ABIL-AR
+%<abil%>:%>%{y%}%{A%}bil FINITE-VERBS-IR ;
+%<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} FINITE-VERBS-IR ;
 %<abil%>:%>%{y%}%{A%}bil GERUND ;
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} GERUND ;
-FINITE-VERBS ;
+FINITE-VERBS-AR ;
+GERUND ;
+
+LEXICON ABIL-IR
+%<abil%>:%>%{y%}%{A%}bil FINITE-VERBS-IR ;
+%<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} FINITE-VERBS-IR ;
+%<abil%>:%>%{y%}%{A%}bil GERUND ;
+%<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} GERUND ;
+FINITE-VERBS-IR ;
 GERUND ;
 
 LEXICON PRESENT-CONTINUOUS
@@ -439,7 +431,9 @@ LEXICON NECE
 %<necs%>:%>m%{A%}l%{I%} PERS3 ;
 
 
-LEXICON FINITE-VERBS
+LEXICON FINITE-VERBS-AR
+
+AOR-AR ;
 
 IMPERATIVE ;
 CONDITIONAL-CONTINUOUS ;
@@ -458,10 +452,30 @@ PAST-CONDITIONAL ;
 PAST-CONTINUOUS ;
 PRESENT-CONTINUOUS ;
 FUTURE-EVIDENTIAL ;
-AOR ;
 CONDITIONAL;
 
+LEXICON FINITE-VERBS-IR
 
+AOR-IR ;
+
+IMPERATIVE ;
+CONDITIONAL-CONTINUOUS ;
+CONDITIONAL-EVIDENTIAL ;
+CONDITIONAL-PAST ; 
+EVIDENTIAL-CONDITIONAL ;
+EVIDENTIAL-CONTINUOUS ;
+EVIDENTIAL-PAST ;
+EVIDENTIAL-PERFECT ;
+FUTURE ;
+FUTURE-CONDITIONAL ;
+FUTURE-PERFECT ;
+IMPERFECTIVE ;
+PAST ;
+PAST-CONDITIONAL ;
+PAST-CONTINUOUS ;
+PRESENT-CONTINUOUS ;
+FUTURE-EVIDENTIAL ;
+CONDITIONAL;
 
 
 LEXICON IMPERATIVE
@@ -488,14 +502,6 @@ LEXICON CONVERB-IP
 
 LEXICON CONDITIONAL
 %<cond%>:%>s%{A%} PERS2 ;
-
-LEXICON V-TV-DIR-IR
-
-%<v%>%<tv%>: VINFL-TV ;
-
-LEXICON V-TV-DIR-AR 
-
-%<v%>%<tv%>: VINFL-TV ;
 
 LEXICON REGULAR-NEGATIVE 
 
@@ -525,7 +531,85 @@ PAST-CONTINUOUS ;
 PRESENT-CONTINUOUS ;
 
 
+LEXICON V-TV-DIR-IR
 
+
+%<v%>%<tv%>: CAUS-DIR-IR ;
+%<v%>%<tv%>: AOR-IR ;
+
+%<v%>%<tv%>: REC-DIR-IR ;
+%<v%>%<tv%>: PASS-DIR-IR ;
+%<v%>%<tv%>: REF-DIR-IR ;
+
+%<v%>%<tv%>: ABIL-IR ;
+
+%<v%>%<tv%>: FINITE-VERBS-IR ;
+
+%<v%>%<tv%>: NEG ;
+%<v%>%<tv%>: NECE ;
+%<v%>%<tv%>: CONDITIONAL ;
+%<v%>%<tv%>: VERBAL-ADVERB ;
+%<v%>%<tv%>: INFINITIVE ;
+%<v%>%<tv%>: CONVERB-IP ;
+%<v%>%<tv%>: PARTICIPLE ;
+%<v%>%<tv%>: GERUND ;
+%<v%>%<tv%>: IMPERATIVE ;
+%<v%>%<tv%>: CONDITIONAL-CONTINUOUS ;
+%<v%>%<tv%>: CONDITIONAL-EVIDENTIAL ;
+%<v%>%<tv%>: CONDITIONAL-PAST ; 
+%<v%>%<tv%>: EVIDENTIAL-CONDITIONAL ;
+%<v%>%<tv%>: EVIDENTIAL-CONTINUOUS ;
+%<v%>%<tv%>: EVIDENTIAL-PAST ;
+%<v%>%<tv%>: EVIDENTIAL-PERFECT ;
+%<v%>%<tv%>: FUTURE ;
+%<v%>%<tv%>: FUTURE-CONDITIONAL ;
+%<v%>%<tv%>: FUTURE-PERFECT ;
+%<v%>%<tv%>: IMPERFECTIVE ;
+%<v%>%<tv%>: PAST ;
+%<v%>%<tv%>: PAST-CONDITIONAL ;
+%<v%>%<tv%>: PAST-CONTINUOUS ;
+%<v%>%<tv%>: PRESENT-CONTINUOUS ;
+%<v%>%<tv%>: FUTURE-EVIDENTIAL ;
+
+
+LEXICON V-TV-DIR-AR 
+
+%<v%>%<tv%>: CAUS-DIR-AR ;
+%<v%>%<tv%>: AOR-AR ;
+
+%<v%>%<tv%>: REC-DIR-AR ;
+%<v%>%<tv%>: PASS-DIR-AR ;
+%<v%>%<tv%>: REF-DIR-AR ;
+
+%<v%>%<tv%>: ABIL-AR ;
+
+%<v%>%<tv%>: FINITE-VERBS-AR ;
+
+%<v%>%<tv%>: NEG ;
+%<v%>%<tv%>: NECE ;
+%<v%>%<tv%>: CONDITIONAL ;
+%<v%>%<tv%>: VERBAL-ADVERB ;
+%<v%>%<tv%>: INFINITIVE ;
+%<v%>%<tv%>: CONVERB-IP ;
+%<v%>%<tv%>: PARTICIPLE ;
+%<v%>%<tv%>: GERUND ;
+%<v%>%<tv%>: IMPERATIVE ;
+%<v%>%<tv%>: CONDITIONAL-CONTINUOUS ;
+%<v%>%<tv%>: CONDITIONAL-EVIDENTIAL ;
+%<v%>%<tv%>: CONDITIONAL-PAST ; 
+%<v%>%<tv%>: EVIDENTIAL-CONDITIONAL ;
+%<v%>%<tv%>: EVIDENTIAL-CONTINUOUS ;
+%<v%>%<tv%>: EVIDENTIAL-PAST ;
+%<v%>%<tv%>: EVIDENTIAL-PERFECT ;
+%<v%>%<tv%>: FUTURE ;
+%<v%>%<tv%>: FUTURE-CONDITIONAL ;
+%<v%>%<tv%>: FUTURE-PERFECT ;
+%<v%>%<tv%>: IMPERFECTIVE ;
+%<v%>%<tv%>: PAST ;
+%<v%>%<tv%>: PAST-CONDITIONAL ;
+%<v%>%<tv%>: PAST-CONTINUOUS ;
+%<v%>%<tv%>: PRESENT-CONTINUOUS ;
+%<v%>%<tv%>: FUTURE-EVIDENTIAL ;
 
 LEXICON Verbs
 
