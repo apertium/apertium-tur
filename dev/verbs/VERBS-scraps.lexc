@@ -236,7 +236,7 @@ LEXICON PERS2  !!!USED FOR PAST and CONDITIONAL
 %<p2%>%<sg%>:%>n  CLIT ;
 %<p3%>%<sg%>:%>  CLIT ;
 %<p1%>%<pl%>:%>k  CLIT ;
-%<p2%>%<pl%>:%>%{I%}n%{I%}z  CLIT ;
+%<p2%>%<pl%>:%>%{i%}n%{I%}z  CLIT ;
 %<p3%>%<pl%>:%>l%{A%}r  CLIT ;
 
 LEXICON PERS3  !!!USED FOR NECESSITATIVE
