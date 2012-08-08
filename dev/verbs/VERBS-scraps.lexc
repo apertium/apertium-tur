@@ -315,30 +315,36 @@ LEXICON CAUS-DIR-IR
 %<caus%>:%>%{D%}%{I%}r FINITE-VERBS-IR ;
 %<caus%>:%>%{D%}%{I%}r ABIL-IR ;
 %<caus%>:%>%{D%}%{I%}r NECE ;
+%<caus%>:%>%{D%}%{I%}r NON-FINITE ;
 NEG ;
 FINITE-VERBS-IR ;
 ABIL-IR ;
 NECE ;
+NON-FINITE ;
 
 LEXICON CAUS-DIR-AR
 %<caus%>:%>%{D%}%{I%}r NEG ;
 %<caus%>:%>%{D%}%{I%}r FINITE-VERBS-IR ;
 %<caus%>:%>%{D%}%{I%}r ABIL-IR ;
 %<caus%>:%>%{D%}%{I%}r NECE ;
+%<caus%>:%>%{D%}%{I%}r NON-FINITE ;
 NEG ;
 FINITE-VERBS-AR ;
 ABIL-AR ;
 NECE ;
+NON-FINITE ;
 
 LEXICON CAUS-T-IR
 %<caus%>:%>t NEG ;
 %<caus%>:%>t FINITE-VERBS-IR ;
 %<caus%>:%>t ABIL-IR ;
 %<caus%>:%>t NECE ;
+%<caus%>:%>t NON-FINITE ;
 NEG ;
 FINITE-VERBS-IR ;
 ABIL-IR ;
 NECE ;
+NON-FINITE ;
 
 LEXICON IMPERFECTIVE
 %<impfktv%>:%>m%{A%}kt%{A%} PERS3 ;
