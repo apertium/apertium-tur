@@ -273,11 +273,13 @@ LEXICON PASS-DIR-AR
 %<pass%>:%>%{i%}%{L%} NON-FINITE ;
 %<pass%>:%>%{i%}%{L%} GERUND ;
 %<pass%>:%>%{i%}%{L%} ABIL-AR ;
+%<pass%>:%>%{i%}%{L%} NEG ;
 CAUS-DIR-AR ;
 NECE ;
 NON-FINITE ;
 GERUND ;
 ABIL-AR ;
+NEG ;
 
 
 LEXICON REC-DIR-IR
@@ -300,11 +302,13 @@ LEXICON PASS-DIR-IR
 %<pass%>:%>%{i%}%{L%} NON-FINITE ;
 %<pass%>:%>%{i%}%{L%} GERUND ;
 %<pass%>:%>%{i%}%{L%} ABIL-IR ;
+%<pass%>:%>%{i%}%{L%} NEG ;
 CAUS-DIR-IR ;
 NECE ;
 NON-FINITE ;
 GERUND ;
 ABIL-IR ;
+NEG ;
 
 LEXICON CAUS-DIR-IR
 %<caus%>:%>%{D%}%{I%}r NEG ;
@@ -386,7 +390,7 @@ LEXICON FUTURE
 
 LEXICON FUTURE-PERFECT
 
-%<futp%>:%>%{y%}%{A%}c%{A%}kt%{i%} PERS2 ;
+%<futp%>:%>%{y%}%{A%}c%{A%}kt%{I%} PERS2 ;
 
 LEXICON FUTURE-EVIDENTIAL
 
