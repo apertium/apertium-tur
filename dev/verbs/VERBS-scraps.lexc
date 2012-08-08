@@ -534,6 +534,7 @@ LEXICON NON-FINITE
 %<inf%>:%>m%{A%}k SUBST ;
 
 %<prc1%>:%>%{y%}%{A%}n ATTR ;
+%<prc1%>:%>%{y%}%{A%}n SUBST ;
 
 %<gna1%>:%>%{y%}%{A%}r%{A%}k # ;
 %<gna2%>:%>%{y%}%{I%}p # ;
