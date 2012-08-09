@@ -262,6 +262,10 @@ LEXICON PERS5  !!!USED FOR negative aorist and abil
 %<p2%>%<pl%>:%>m%{A%}zs%{I%}n%{I%}z  CLIT ;
 %<p3%>%<pl%>:%>m%{A%}zl%{A%}r  CLIT ;
 
+LEXICON KEN !!! ADVERBIAL FORM 
+
+%<ken%>:%ken # ;
+
 
 
 LEXICON REC-DIR-AR
@@ -370,10 +374,14 @@ LEXICON NEG
 LEXICON AOR-AR
 %<aor%>:%>%{A%}r PERS1 ;
 %<neg%>%<aor%>:%> PERS5;
+%<aor%>:%>%{A%}r KEN ;
+%<aor%>:%>maz KEN ;
 
 LEXICON AOR-IR
 %<aor%>:%>%{i%}r PERS1 ;
 %<neg%>%<aor%>:%> PERS5;
+%<aor%>:%>%{i%}r KEN ;
+%<neg%>%<aor%>:%>maz KEN;
 
 LEXICON ABIL-AR
 %<abil%>:%>%{y%}%{A%}bil FINITE-VERBS-IR ;
