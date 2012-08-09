@@ -472,7 +472,9 @@ LEXICON FUTURE
 
 LEXICON FUTURE-PERFECT
 
-%<futp%>:%>%{y%}%{A%}c%{A%}kt%{I%} PERS2 ;
+%<futp%>:%>%{y%}%{A%}c%{A%}kt%{I%} PERS2-NO3PL ;
+%<futp%>%<p3%>%<pl%>:%>%{y%}%{A%}c{A%}k%>l%{A%}r%>d%{I%}  # ; ! Dir/LR
+
 
 LEXICON FUTURE-EVIDENTIAL
 
