@@ -658,6 +658,7 @@ LEXICON V-TV-DIR-IR
 %<v%>%<tv%>: FUTURE-EVIDENTIAL ;
 %<v%>%<tv%>: AOR-IR-CONDITIONAL ;
 %<v%>%<tv%>: EXHORTATIVE ;
+%<v%>%<tv%>: JUSSIVE ;
 
 
 LEXICON V-TV-DIR-AR 
@@ -697,6 +698,7 @@ LEXICON V-TV-DIR-AR
 %<v%>%<tv%>: PRESENT-CONTINUOUS ;
 %<v%>%<tv%>: FUTURE-EVIDENTIAL ;
 %<v%>%<tv%>: EXHORTATIVE ;
+%<v%>%<tv%>: JUSSIVE ;
 
 LEXICON Verbs
 
