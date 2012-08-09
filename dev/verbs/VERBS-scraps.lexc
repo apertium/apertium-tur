@@ -233,6 +233,7 @@ LEXICON PERS1-NO3PL
 LEXICON PERS1  !!!USED FOR CONT, FUT, AOR, EVID
 
 %<p3%>%<pl%>:%>l%{A%}r  # ;
+%<p3%>%<pl%>%<form%>:%>l%{A%}r{D%}%{I%}r   # ;
 PERS1-NO3PL ;
 
 LEXICON PERS2  !!!USED FOR PAST and CONDITIONAL
