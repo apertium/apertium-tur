@@ -414,6 +414,7 @@ GERUND ;
 LEXICON PRESENT-CONTINUOUS
 
 %<pcont%>:%>%{I%}yor PERS1 ;
+%<pcont%>:%>%{I%}yor KEN ;
 
 LEXICON PAST-CONTINUOUS
 
