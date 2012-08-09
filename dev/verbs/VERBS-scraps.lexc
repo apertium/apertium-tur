@@ -255,6 +255,7 @@ LEXICON PERS3  !!!USED FOR NECESSITATIVE
 
 LEXICON PERS4  !!!USED FOR IMPERATIVE
 %<p2%>%<sg%>:%>  # ;
+%<p2%>%<form%>:%>y%{I%}n # ;
 %<p2%>%<pl%>:%>s%{A%}n%{A%}  # ;
 
 LEXICON PERS5  !!!USED FOR negative aorist and abil
