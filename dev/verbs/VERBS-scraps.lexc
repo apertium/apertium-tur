@@ -496,14 +496,14 @@ LEXICON EVIDENTIAL-PERFECT
 LEXICON AORIST-AR-PERFECT
 
 %<aorp%>:%>%{A%}rd%{I%} PERS2-NO3PL  ;
-%<aorp%>%<p3%>%<pl%>:%>%{A%}r%>l%{A%}r%>d%{I%} PERS2 ; 
+%<aorp%>%<p3%>%<pl%>:%>%{A%}r%>l%{A%}r%>d%{I%} # ; 
 %<neg%>%<aorp%>:%>m%{A%}zd%{I%} PERS2-NO3PL ;
 %<neg%>%<aorp%>:%>m%{A%}zl%{A%}rd%{I%} PERS2 ;
 
 LEXICON AORIST-IR-PERFECT
 
-%<aorp%>:%>%{A%}rd%{I%} PERS2-NO3PL  ;
-%<aorp%>%<p3%>%<pl%>:%>%{i%}r%>l%{A%}r%>d%{I%} PERS2 ; 
+%<aorp%>:%>%{i%}rd%{I%} PERS2-NO3PL  ;
+%<aorp%>%<p3%>%<pl%>:%>%{i%}r%>l%{A%}r%>d%{I%} # ; 
 %<neg%>%<aorp%>:%>m%{A%}zd%{I%} PERS2-NO3PL ;
 %<neg%>%<aorp%>:%>m%{A%}zl%{A%}rd%{I%} PERS2 ;
 
@@ -536,6 +536,7 @@ LEXICON JUSSIVE
 LEXICON FINITE-VERBS-AR
 
 AOR-AR ;
+AORIST-AR-PERFECT ;
 
 IMPERATIVE ;
 CONDITIONAL-CONTINUOUS ;
@@ -559,6 +560,7 @@ CONDITIONAL;
 LEXICON FINITE-VERBS-IR
 
 AOR-IR ;
+AORIST-IR-PERFECT ;
 
 IMPERATIVE ;
 CONDITIONAL-CONTINUOUS ;
