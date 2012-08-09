@@ -337,13 +337,13 @@
       1 yapmaktayken
       1 yapmaktaydılar
       1 yapmaktalar
-      1 yapmaı
+
       1 yapmadıklarıyla
       1 yapmadıklarının
       1 yapmadığını
       1 yapmadığımız
       1 yapmadığımı
-      1 yapmadan ilerlemenin
+
 
       1 yapıyorsunuz
       1 yapıyorsa
@@ -373,8 +373,8 @@
       1 yapılmaktadır
       1 yapılmadıkça
       1 yapılmadığından
-      1 yapılmadan ilerleme
-      1 yapıllmış
+
+
       1 yapılıyorsa
       1 yapılırsa
       1 yapıldığıyla
@@ -415,7 +415,7 @@
       1 yapamazdı
       1 yapamayınca
       1 yapamayacağını
-      1 yapamayacagini
+
       1 yapamayacağına
       1 yapamaması
       1 yapamadıkları
