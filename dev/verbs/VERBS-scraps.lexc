@@ -493,6 +493,20 @@ LEXICON EVIDENTIAL-PERFECT
 
 %<evidp%>:%>m%{I%}şt%{I%} PERS2 ;
 
+LEXICON AORIST-AR-PERFECT
+
+%<aorp%>:%>%{A%}rd%{I%} PERS2-NO3PL  ;
+%<aorp%>%<p3%>%<pl%>:%>%{A%}r%>l%{A%}r%>d%{I%} PERS2 ; 
+%<neg%>%<aorp%>:%>m%{A%}zd%{I%} PERS2-NO3PL ;
+%<neg%>%<aorp%>:%>m%{A%}zl%{A%}rd%{I%} PERS2 ;
+
+LEXICON AORIST-IR-PERFECT
+
+%<aorp%>:%>%{A%}rd%{I%} PERS2-NO3PL  ;
+%<aorp%>%<p3%>%<pl%>:%>%{i%}r%>l%{A%}r%>d%{I%} PERS2 ; 
+%<neg%>%<aorp%>:%>m%{A%}zd%{I%} PERS2-NO3PL ;
+%<neg%>%<aorp%>:%>m%{A%}zl%{A%}rd%{I%} PERS2 ;
+
 LEXICON EVIDENTIAL-CONDITIONAL
 
 %<evidc%>:%>m%{I%}şs%{A%} PERS2 ;
@@ -657,6 +671,7 @@ LEXICON V-TV-DIR-IR
 %<v%>%<tv%>: PRESENT-CONTINUOUS ;
 %<v%>%<tv%>: FUTURE-EVIDENTIAL ;
 %<v%>%<tv%>: AOR-IR-CONDITIONAL ;
+%<v%>%<tv%>: AORIST-IR-PERFECT ;
 %<v%>%<tv%>: EXHORTATIVE ;
 %<v%>%<tv%>: JUSSIVE ;
 
@@ -699,6 +714,7 @@ LEXICON V-TV-DIR-AR
 %<v%>%<tv%>: FUTURE-EVIDENTIAL ;
 %<v%>%<tv%>: EXHORTATIVE ;
 %<v%>%<tv%>: JUSSIVE ;
+%<v%>%<tv%>: AORIST-AR-PERFECT ;
 
 LEXICON Verbs
 
