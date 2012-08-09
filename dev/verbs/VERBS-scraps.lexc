@@ -401,10 +401,12 @@ LEXICON AOR-IR
 LEXICON AOR-IR-CONDITIONAL
 %<aorcond%>:%>%{i%}rs%{A%} PERS2-NO3PL  ;
 %<aorcond%>%<p3%>%<pl%>:%>%{i%}r%>l%{A%}r%>%s%{A%} PERS2 ; 
+%<neg%>%<aor%>:%>mazsa PERS2 ;
 
 LEXICON AOR-AR-CONDITIONAL
 %<aorcond%>:%>%{A%}rs%{A%} PERS2-NO3PL  ;
 %<aorcond%>%<p3%>%<pl%>:%>%{A%}r%>l%{A%}r%>%S%{A%} PERS2 ; 
+%<neg%>%<aor%>:%>mazsa PERS2 ;
 
 LEXICON ABIL-AR
 %<abil%>:%>%{y%}%{A%}bil FINITE-VERBS-IR ;
