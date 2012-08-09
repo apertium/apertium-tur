@@ -89,7 +89,8 @@ r??
 %<pres%>           ! -{A}
 %<past%>           ! -{D}{I} 
 %<evi%>            ! -m{I}s 
-%<fut%>		   ! -{A}C{A}{K}
+%<fut%>		   ! -{A}C{A}{K}  
+%<aorcond%>	   ! conditional aorist arsa/rsa/irse
 
 
 %<p1%>
@@ -244,6 +245,15 @@ LEXICON PERS2  !!!USED FOR PAST and CONDITIONAL
 %<p2%>%<pl%>:%>%{i%}n%{I%}z  CLIT ;
 %<p3%>%<pl%>:%>l%{A%}r  CLIT ;
 
+LEXICON PERS2-NO3PL 
+
+%<p1%>%<sg%>:%>m  # ;
+%<p2%>%<sg%>:%>n  # ;
+%<p3%>%<sg%>:%>  # ;
+%<p3%>%<sg%>%<form%>:%>{D%}%{I%}r  CLIT ;
+%<p1%>%<pl%>:%>k  # ;
+%<p2%>%<pl%>:%>%{i%}n%{I%}z  # ;
+
 LEXICON PERS3  !!!USED FOR NECESSITATIVE
 %<p1%>%<sg%>:%>%{y%}%{I%}m  CLIT ;
 %<p2%>%<sg%>:%>s%{I%}n  CLIT ;
@@ -387,6 +397,14 @@ LEXICON AOR-IR
 %<neg%>%<aor%>:%> PERS5;
 %<aor%>:%>%{i%}r KEN ;
 %<neg%>%<aor%>:%>maz KEN;
+
+LEXICON AOR-IR-CONDITIONAL
+%<aorcond%>:%>%{i%}rs%{A%} PERS2-NO3PL  ;
+%<aorcond%>%<p3%>%<pl%>:%>%{i%}r%>l%{A%}r%>%s%{A%} PERS2 ; 
+
+LEXICON AOR-AR-CONDITIONAL
+%<aorcond%>:%>%{A%}rs%{A%} PERS2-NO3PL  ;
+%<aorcond%>%<p3%>%<pl%>:%>%{A%}r%>l%{A%}r%>%S%{A%} PERS2 ; 
 
 LEXICON ABIL-AR
 %<abil%>:%>%{y%}%{A%}bil FINITE-VERBS-IR ;
@@ -617,6 +635,7 @@ LEXICON V-TV-DIR-IR
 %<v%>%<tv%>: PAST-CONTINUOUS ;
 %<v%>%<tv%>: PRESENT-CONTINUOUS ;
 %<v%>%<tv%>: FUTURE-EVIDENTIAL ;
+%<v%>%<tv%>: AOR-IR-CONDITIONAL ;
 
 
 LEXICON V-TV-DIR-AR 
@@ -627,6 +646,7 @@ LEXICON V-TV-DIR-AR
 %<v%>%<tv%>: REC-DIR-AR ;
 %<v%>%<tv%>: PASS-DIR-AR ;
 %<v%>%<tv%>: REF-DIR-AR ;
+%<v%>%<tv%>: AOR-AR-CONDITIONAL ;
 
 %<v%>%<tv%>: ABIL-AR ;
 
