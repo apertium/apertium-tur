@@ -513,6 +513,11 @@ LEXICON NECE
 
 %<necs%>:%>m%{A%}l%{I%} PERS3 ;
 
+LEXICON JUSSIVE
+
+%<juss%>%<p3%>%<sg%>:%>s%{I%}n # ;
+%<juss%>%<p3%>%<pl%>:%>s%{I%}nl%{A%}r # ;
+
 
 LEXICON FINITE-VERBS-AR
 
