@@ -277,6 +277,11 @@ LEXICON PERS5  !!!USED FOR negative aorist and abil
 %<p2%>%<pl%>:%>m%{A%}zs%{I%}n%{I%}z  CLIT ;
 %<p3%>%<pl%>:%>m%{A%}zl%{A%}r  CLIT ;
 
+LEXICON PERS6 !!! USED By Exhortative
+
+%<p1%>%<sg%>:%>%{y%}%{A%}y%{I%}m  CLIT ;
+%<p1%>%<pl%>:%>%{y%}%{A%}l%{I%}m  CLIT ;
+
 LEXICON KEN !!! ADVERBIAL FORM 
 
 %<ken%>:%ken # ;
@@ -422,7 +427,7 @@ GERUND ;
 
 LEXICON ABIL-IR
 %<abil%>:%>%{y%}%{A%}bil FINITE-VERBS-IR ;
-%<neg%>%<abil%>:%>%{y%}%{A%}m%{a%} FINITE-VERBS-IR ;
+w:%>%{y%}%{A%}m%{a%} FINITE-VERBS-IR ;
 %<abil%>:%>%{y%}%{A%}bil GERUND ;
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} GERUND ;
 %<abil%>:%>%{y%}%{A%}bil NON-FINITE ;
@@ -557,6 +562,12 @@ LEXICON IMPERATIVE
 
 PERS4 ;
 
+LEXICON EXHORTATIVE
+
+PERS6;
+
+
+
 LEXICON GERUND
 %<ger1%>:%>m%{A%} SUBST ;
 %<ger2%>:%>%{D%}%{I%}k SUBST ;
@@ -638,6 +649,7 @@ LEXICON V-TV-DIR-IR
 %<v%>%<tv%>: PRESENT-CONTINUOUS ;
 %<v%>%<tv%>: FUTURE-EVIDENTIAL ;
 %<v%>%<tv%>: AOR-IR-CONDITIONAL ;
+%<v%>%<tv%>: EXHORTATIVE ;
 
 
 LEXICON V-TV-DIR-AR 
@@ -676,6 +688,7 @@ LEXICON V-TV-DIR-AR
 %<v%>%<tv%>: PAST-CONTINUOUS ;
 %<v%>%<tv%>: PRESENT-CONTINUOUS ;
 %<v%>%<tv%>: FUTURE-EVIDENTIAL ;
+%<v%>%<tv%>: EXHORTATIVE ;
 
 LEXICON Verbs
 
