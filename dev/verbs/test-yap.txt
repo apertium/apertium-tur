@@ -288,7 +288,7 @@
       1 yaptıracak
       1 yaptırabileceğiniz
       1 yaptırabileceği
-      1 yaptıpı
+
       1 yaptınız
       1 yaptıklarınızdan
 
@@ -302,9 +302,9 @@
       
       1 yapsın
       1 yapsaydı
-      1 yaprığı
+
   
-      1 yaprağına
+
       1 yapmıyoruz
       1 yapmıyorlar
       1 yapmışlardır
@@ -393,11 +393,8 @@
       1 yapılamamasından
       1 yapılamaması
       1 yapılamakta
-      1 yapılacek
       1 yapılacakken
       1 yapılacağıyla
-
-      1 yapılablir
       1 yapılabilmesinin
       1 yapılabiliyorken
       1 yapılabildi
