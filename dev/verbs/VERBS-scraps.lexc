@@ -225,6 +225,7 @@ LEXICON PERS1-NO3PL
 %<p1%>%<sg%>:%>%{I%}m  # ;
 %<p2%>%<sg%>:%>s%{I%}n  # ;
 %<p3%>%<sg%>:%>  # ;
+%<p3%>%<sg%>%<form%>:%>{D%}%{I%}r  CLIT ;
 %<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
 
@@ -238,6 +239,7 @@ LEXICON PERS2  !!!USED FOR PAST and CONDITIONAL
 %<p1%>%<sg%>:%>m  CLIT ;
 %<p2%>%<sg%>:%>n  CLIT ;
 %<p3%>%<sg%>:%>  CLIT ;
+%<p3%>%<sg%>%<form%>:%>{D%}%{I%}r  CLIT ;
 %<p1%>%<pl%>:%>k  CLIT ;
 %<p2%>%<pl%>:%>%{i%}n%{I%}z  CLIT ;
 %<p3%>%<pl%>:%>l%{A%}r  CLIT ;
@@ -246,6 +248,7 @@ LEXICON PERS3  !!!USED FOR NECESSITATIVE
 %<p1%>%<sg%>:%>%{y%}%{I%}m  CLIT ;
 %<p2%>%<sg%>:%>s%{I%}n  CLIT ;
 %<p3%>%<sg%>:%>  CLIT ;
+%<p3%>%<sg%>%<form%>:%>{D%}%{I%}r  CLIT ;
 %<p1%>%<pl%>:%>%{y%}%{I%}z  CLIT ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  CLIT ;
 %<p3%>%<pl%>:%>l%{A%}r  CLIT ;
@@ -258,6 +261,7 @@ LEXICON PERS5  !!!USED FOR negative aorist and abil
 %<p1%>%<sg%>:%>m%{A%}m  CLIT ;
 %<p2%>%<sg%>:%>m%{A%}zs%{I%}n  CLIT ;
 %<p3%>%<sg%>:%>m%{A%}z CLIT ;
+%<p3%>%<sg%>%<form%>:%>m%{A%}z{D%}%{I%}r  CLIT ;
 %<p1%>%<pl%>:%>m%{A%}y%{I%}z  CLIT ;
 %<p2%>%<pl%>:%>m%{A%}zs%{I%}n%{I%}z  CLIT ;
 %<p3%>%<pl%>:%>m%{A%}zl%{A%}r  CLIT ;

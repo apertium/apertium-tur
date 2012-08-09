@@ -104,7 +104,7 @@
      10 yapamayacağını
      10 yapacaktır
      10 yapacaktı
-      9 yapmaksızın
+
       9 yapmadaki
       9 yapılmayacak
       9 yapılmayacağı
@@ -124,7 +124,6 @@
       8 yapacağım
       8 yapabilecekleri
       7 yaptırmaları
-      7 yaptırımlarla
       7 yapmışlardı
 
       6 yaptırdığını
@@ -209,8 +208,8 @@
       3 yapılmalı
       3 yapılış
       3 yapıldığını
-      3 yapılaşmanın
-      3 yapılardaki
+
+
       3 yapılamayacağını
       3 yapılacaksa
       3 yapılacağının
