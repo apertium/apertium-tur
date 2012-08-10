@@ -499,6 +499,12 @@ NON-FINITE ;
 FINITE-VERBS-AR ;
 GERUND ;
 
+LEXICON ABIL-AR-CONDITIONAL
+
+%<abilcond%>:%>%{A%}bilse PERS2  ;
+%<neg%>%<abilcond%>:%>%{y%}%{A%}m%{A%}z%>s%{A%} PERS2-NO3PL ;
+%<neg%>%<abilcond%>%<p3%>%<pl%>:%>%{y%}%{A%}m%{A%}z%>l%{A%}r%>s%{A%} # ;
+
 LEXICON ABIL-IR
 %<abil%>:%>%{y%}%{A%}bil FINITE-VERBS-IR ;
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{a%} FINITE-VERBS-IR ;
