@@ -100,8 +100,7 @@ Rules
 
 
 "T becomes D before vowel"
-
-%{t%}:d <=>  _ %> :Vow ;
+%{t%}:d <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 
 !
 ! etmek + iyor = ediyor
