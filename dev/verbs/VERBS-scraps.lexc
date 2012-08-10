@@ -800,6 +800,7 @@ LEXICON V-TV-DIR-AR
 %<v%>%<tv%>: EXHORTATIVE ;
 %<v%>%<tv%>: JUSSIVE ;
 %<v%>%<tv%>: AORIST-AR-PERFECT ;
+%<v%>%<tv%>: ABIL-AR-CONDITIONAL;
 
 LEXICON Verbs
 
