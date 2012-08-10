@@ -285,7 +285,7 @@ LEXICON PERS6 !!! USED By Exhortative
 
 LEXICON KEN !!! ADVERBIAL FORM 
 
-%<ken%>:%ken # ;
+%<ken%>:%>ken # ;
 
 
 
@@ -495,7 +495,7 @@ LEXICON PAST-CONDITIONAL
 LEXICON EVIDENTIAL-PAST
 
 %<evid%>:%>m%{I%}ş PERS1 ;
-%<evid%>:%>m%{I%}ş KEN #  ;
+%<evid%>:%>m%{I%}ş KEN ;
 
 LEXICON EVIDENTIAL-PERFECT
 
