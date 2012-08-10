@@ -14,12 +14,16 @@ Alphabet
 
  %{f%}:0 %{b%}:0
 
+ %{t%}:t
+
  %{pN%}:0
 
 
  %>:0
 
  %+ %- %' % ;
+
+
 
 
 Sets
@@ -95,6 +99,14 @@ Rules
 ! kitab>y{A}        = kitaba    =     k:k i:i t:t a:a p:b >:0 {y}:0 {A}:a
 
 
+"T becomes D before vowel"
+
+%{t%}:d <=>  _ %> :Vow ;
+
+!
+! etmek + iyor = ediyor
+
+
 "Devoicing of archiphoneme {D} after Cnsdev"
 %{D%}:t <=> :Cnsdev %>: _ ; 
 
@@ -129,8 +141,8 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
                 Cy in ( d ğ c ) ! b
                 matched;
 
-"Word final consonant devoicing"
-b:p <=> _ (%>:) [ .#. | %{D%}: ] ;
+!"Word final consonant devoicing"
+!b:p <=> _ (%>:) [ .#. | %{D%}: ] ;
 
 ! kitab>            = kitap
 ! kitab>{D}{A}n     = kitaptan   = 
