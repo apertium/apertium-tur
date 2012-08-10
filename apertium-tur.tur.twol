@@ -14,9 +14,7 @@ Alphabet
 
  %{f%}:0 %{b%}:0
 
- %{t%}:t
- 
- %{ç%}:ç
+ %{t%}:t %{ç%}:ç
 
  %{pN%}:0
 
@@ -101,11 +99,14 @@ Rules
 ! kitab>y{A}        = kitaba    =     k:k i:i t:t a:a p:b >:0 {y}:0 {A}:a
 
 
-"T becomes D before vowel"
-%{t%}:d <=>  _ %>: [ :SurVow ]/[ :0 ] ;
-
+"Consonant voicing in verb stems"
+Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
+        where
+            Cx in ( %{t%} %{ç%} ) 
+            Cy in (   d     c   ) 
+        matched ; 
 !
-! etmek + iyor = ediyor
+! e{t}>iyor          = ediyor
 
 
 "Devoicing of archiphoneme {D} after Cnsdev"
