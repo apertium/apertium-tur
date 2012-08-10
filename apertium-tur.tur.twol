@@ -38,7 +38,7 @@ Vow    = İ Ü E Ö I U A O
 
 Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z 
          b c ç d f g ğ h j k l m n p q r s ş t v w y z 
-         %' ;
+         %' %{ç%} %{t%} ;
 
 HardVow  = a ı o u 
            A I O U ;
@@ -102,8 +102,8 @@ Rules
 "Consonant voicing in verb stems"
 Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
         where
-            Cx in ( %{t%} %{ç%} ) 
-            Cy in (   d     c   ) 
+            Cx in ( %{t%} ) 
+            Cy in (   d   ) 
         matched ; 
 !
 ! e{t}>iyor          = ediyor
