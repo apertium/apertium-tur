@@ -159,12 +159,14 @@ LEXICON COPULA
 %+i%<cop%>%<pres%>%<p2%>%<pl%>:%>s%{I%}n%{I%}z # ;                
 %+i%<cop%>%<pres%>%<p3%>%<pl%>:%>%{D%}%{I%}rl%{A%}r # ;    
 
-%+i%<cop%>%<past%>%<p1%>%<sg%>:%>% %{y%}d%{I%}m # ;                
-%+i%<cop%>%<past%>%<p2%>%<sg%>:%>% %{y%}d%{I%}m # ;                
-%+i%<cop%>%<past%>%<p3%>%<sg%>:%>% %{y%}d%{I%} # ;
+%+i%<cop%>%<past%>%<p1%>%<sg%>:%>%{y%}d%{I%}m # ;                
+%+i%<cop%>%<past%>%<p2%>%<sg%>:%>%{y%}d%{I%}m # ;                
+%+i%<cop%>%<past%>%<p3%>%<sg%>:%>%{y%}d%{I%} # ;
 %+i%<cop%>%<past%>%<p1%>%<pl%>:%>%{y%}d%{I%}k # ;                
 %+i%<cop%>%<past%>%<p2%>%<pl%>:%>%{y%}d%{I%}n%{I%}z # ;                
 %+i%<cop%>%<past%>%<p3%>%<pl%>:%>%{y%}d%{I%}l%{A%}r # ;  
+
+%+i%<cop%>%<ken%>:%>%{y%}ken # ;    
 
 LEXICON DEGIL
 
@@ -446,7 +448,7 @@ NECE ;
 NON-FINITE ;
 
 LEXICON IMPERFECTIVE
-%<impfktv%>:%>m%{A%}kt%{A%} PERS3 ;
+%<imper%>:%>m%{A%}kt%{A%} PERS3 ;
 
 LEXICON NEG
 %<neg%>:%>m%{a%} REGULAR-NEGATIVE ;
@@ -455,25 +457,25 @@ LEXICON AOR-AR
 %<aor%>:%>%{A%}r PERS1 ;
 %<neg%>%<aor%>:%> PERS5;
 %<aor%>:%>%{A%}r KEN ;
-%<aor%>:%>maz KEN ;
+%<neg%>%<aor%>:%>m%{A%}z KEN ;
 
 LEXICON AOR-IR
 %<aor%>:%>%{i%}r PERS1 ;
 %<neg%>%<aor%>:%> PERS5;
 %<aor%>:%>%{i%}r KEN ;
-%<neg%>%<aor%>:%>maz KEN;
+%<neg%>%<aor%>:%>m%{A%}z KEN;
 
 LEXICON AOR-IR-CONDITIONAL
 %<aorcond%>:%>%{i%}rs%{A%} PERS2-NO3PL  ;
-%<aorcond%>%<p3%>%<pl%>:%>%{i%}r%>l%{A%}r%>%s%{A%} PERS2 ; 
-%<neg%>%<aor%>:%>m%{A%}zs%{A%} PERS2-NO3PL ;
-%<neg%>%<aor%>:%>m%{A%}zl%{A%}rs%{A%} PERS2 ;
+%<aorcond%>%<p3%>%<pl%>:%>%{i%}r%>l%{A%}r%>%s%{A%} # ; 
+%<neg%>%<aorcond%>:%>m%{A%}z%>s%{A%} PERS2-NO3PL ;
+%<neg%>%<aorcond%>%<p3%>%<pl%>:%>m%{A%}z%>l%{A%}r%>s%{A%} # ;
 
 LEXICON AOR-AR-CONDITIONAL
 %<aorcond%>:%>%{A%}rs%{A%} PERS2-NO3PL  ;
-%<aorcond%>%<p3%>%<pl%>:%>%{A%}r%>l%{A%}r%>%S%{A%} PERS2 ; 
-%<neg%>%<aor%>:%>m%{A%}zs%{A%} PERS2-NO3PL ;
-%<neg%>%<aor%>:%>m%{A%}zl%{A%}rs%{A%} PERS2 ;
+%<aorcond%>%<p3%>%<pl%>:%>%{A%}r%>l%{A%}r%>s%{A%} # ; 
+%<neg%>%<aorcond%>:%>m%{A%}z%>s%{A%} PERS2-NO3PL ;
+%<neg%>%<aorcond%>%<p3%>%<pl%>:%>m%{A%}z%>l%{A%}r%>s%{A%} # ;
 
 LEXICON ABIL-AR
 %<abil%>:%>%{y%}%{A%}bil FINITE-VERBS-IR ;
@@ -489,7 +491,7 @@ GERUND ;
 
 LEXICON ABIL-IR
 %<abil%>:%>%{y%}%{A%}bil FINITE-VERBS-IR ;
-w:%>%{y%}%{A%}m%{a%} FINITE-VERBS-IR ;
+%<neg%>%<abil%>:%>%{y%}%{A%}m%{a%} FINITE-VERBS-IR ;
 %<abil%>:%>%{y%}%{A%}bil GERUND ;
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} GERUND ;
 %<abil%>:%>%{y%}%{A%}bil NON-FINITE ;
@@ -599,6 +601,7 @@ LEXICON FINITE-VERBS-AR
 
 AOR-AR ;
 AORIST-AR-PERFECT ;
+AOR-AR-CONDITIONAL ;
 
 IMPERATIVE ;
 CONDITIONAL-CONTINUOUS ;
@@ -623,6 +626,7 @@ LEXICON FINITE-VERBS-IR
 
 AOR-IR ;
 AORIST-IR-PERFECT ;
+AOR-IR-CONDITIONAL ;
 
 IMPERATIVE ;
 CONDITIONAL-CONTINUOUS ;
