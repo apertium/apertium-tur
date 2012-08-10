@@ -223,6 +223,13 @@ LEXICON SUBST
 N-INFL-COMMON ; 
 %<pl%>:%>l%{A%}r N-INFL-COMMON ;
 
+LEXICON ATTR-SUBST
+
+%<attr%>: CLIT ;
+%<subst%>: CASE ;
+%<subst%>%<pl%>:%>%{L%}%{A%}r CASE ;
+
+
 LEXICON N-INFL-COMMON
 
 POSS-REAL ;
@@ -243,7 +250,8 @@ LEXICON CASE
 
 LEXICON GENPOSS-ETC 
 
-CASE ;
+%<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
+!CASE ;
 
 LEXICON CASE-ETC
 
@@ -617,6 +625,35 @@ LEXICON JUSSIVE
 %<juss%>%<p3%>%<sg%>:%>s%{I%}n # ;
 %<juss%>%<p3%>%<pl%>:%>s%{I%}nl%{A%}r # ;
 
+LEXICON IMPERATIVE
+
+%<imp%>:%> PERS4 ;
+
+LEXICON EXHORTATIVE
+
+%<exh%>:%> PERS6 ;
+
+LEXICON GERUND
+
+%<ger1%>:%>m%{A%} SUBST ;
+%<ger2%>:%>%{D%}%{I%}k SUBST ;
+%<ger3%>:%>%{I%}ş SUBST ;
+%<ger4%>:%>%{y%}%{A%}c%{A%}k SUBST ;
+%<ger5%>:%>%{y%}%{A%}n SUBST ;
+
+LEXICON NON-FINITE
+
+%<inf%>:%>m%{A%}k SUBST ;
+
+%<prc1%>:%>%{y%}%{A%}n ATTR ;
+
+%<gna1%>:%>%{y%}%{A%}r%{A%}k # ;
+%<gna2%>:%>%{y%}%{I%}p # ;
+
+LEXICON CONDITIONAL
+
+%<cond%>:%>s%{A%} PERS2 ;
+
 
 LEXICON FINITE-VERBS-AR
 
@@ -667,36 +704,6 @@ PAST-CONTINUOUS ;
 PRESENT-CONTINUOUS ;
 FUTURE-EVIDENTIAL ;
 CONDITIONAL;
-
-
-LEXICON IMPERATIVE
-
-%<imp%>:%> PERS4 ;
-
-LEXICON EXHORTATIVE
-
-%<exh%>:%> PERS6 ;
-
-
-
-LEXICON GERUND
-%<ger1%>:%>m%{A%} SUBST ;
-%<ger2%>:%>%{D%}%{I%}k SUBST ;
-%<ger3%>:%>%{I%}ş SUBST ;
-%<ger4%>:%>%{y%}%{A%}c%{A%}k SUBST ;
-%<ger5%>:%>%{y%}%{A%}n SUBST ;
-
-LEXICON NON-FINITE
-
-%<inf%>:%>m%{A%}k SUBST ;
-
-%<prc1%>:%>%{y%}%{A%}n ATTR ;
-
-%<gna1%>:%>%{y%}%{A%}r%{A%}k # ;
-%<gna2%>:%>%{y%}%{I%}p # ;
-
-LEXICON CONDITIONAL
-%<cond%>:%>s%{A%} PERS2 ;
 
 LEXICON REGULAR-NEGATIVE 
 
