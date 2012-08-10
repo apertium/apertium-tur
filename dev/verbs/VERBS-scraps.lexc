@@ -320,6 +320,14 @@ LEXICON PERS3  !!!USED FOR NECESSITATIVE
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  CLIT ;
 %<p3%>%<pl%>:%>l%{A%}r  CLIT ;
 
+LEXICON PERS3-PAST
+%<p1%>%<sg%>:%>%{y%}d%{I%}m # ;                
+%<p2%>%<sg%>:%>%{y%}d%{I%}m # ;                
+%<p3%>%<sg%>:%>%{y%}d%{I%} # ;
+%<p1%>%<pl%>:%>%{y%}d%{I%}k # ;                
+%<p2%>%<pl%>:%>%{y%}d%{I%}n%{I%}z # ;                
+%<p3%>%<pl%>:%>%{y%}d%{I%}l%{A%}r # ;  
+
 LEXICON PERS4  !!!USED FOR IMPERATIVE
 %<p2%>%<sg%>:%>  # ;
 %<p2%>%<frm%>:%>y%{I%}n # ;
@@ -590,6 +598,7 @@ LEXICON CONDITIONAL-EVIDENTIAL
 LEXICON NECE
 
 %<necs%>:%>m%{A%}l%{I%} PERS3 ;
+%<necs%>%<past%>:%>m%{A%}l%{I%} PERS3-PAST ;
 
 LEXICON JUSSIVE
 
