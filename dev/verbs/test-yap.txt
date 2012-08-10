@@ -347,11 +347,8 @@
 
       1 yapıyorsunuz
       1 yapıyorsa
-      1 yapıştırmasından
-      1 yapıştırıyor
-      1 yapıştırılmış
-      1 yapıştırıldı
-      1 yapıştırdığından
+     
+      
 
 
       1 yapılmıştır
@@ -379,20 +376,8 @@
       1 yapılırsa
       1 yapıldığıyla
 
-      1 yapılaşmayı
-      1 yapılaşmaya
-
-      1 yapılamıyor
-      1 yapılamış
-      1 yapılamazdı
-      1 yapılamayarak
-      1 yapılamayan
-      1 yapılamayacağında
-      1 yapılaması
-      1 yapılamamış
-      1 yapılamamasından
-      1 yapılamaması
-      1 yapılamakta
+    
+     
       1 yapılacakken
       1 yapılacağıyla
       1 yapılabilmesinin
@@ -405,11 +390,10 @@
       1 yapanlarla
       1 yapanları
       1 yapamıyorsa
-      1 yapamıyorlarsa
+      1 
       1 yapamıyor
       1 yapamazlarsa
       1 yapamazlar
-      1 yapamazdı
       1 yapamayınca
       1 yapamayacağını
 
@@ -438,7 +422,7 @@
       1 yapabiliyor musunuz
       1 yapabilirsem
       1 yapabilirdi
-      1 yapabileyim
+      1 
       1 yapabilecekken
       1 yapabileceğinize
       1 yapabileceğiniz
@@ -477,7 +461,7 @@
      11 yapılarında
      10 yapısında
      
-     10 yapılaşma
+
      10 yapılanmasında
      10 yapılandırılmasının
      10 yapılandırılmasına
