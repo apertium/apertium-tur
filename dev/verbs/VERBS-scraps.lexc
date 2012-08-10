@@ -597,8 +597,8 @@ LEXICON CONDITIONAL-EVIDENTIAL
 
 LEXICON NECE
 
-%<necs%>:%>m%{A%}l%{I%} PERS3 ;
-%<necs%>%<past%>:%>m%{A%}l%{I%} PERS3-PAST ;
+%<nece%>:%>m%{A%}l%{I%} PERS3 ;
+%<necepast%>:%>m%{A%}l%{I%} PERS3-PAST ;
 
 LEXICON JUSSIVE
 
