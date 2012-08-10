@@ -139,25 +139,76 @@ LEXICON Root
 
 Verbs ; 
 
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+LEXICON COPULA
+
+%+i%<cop%>%<pres%>%<p1%>%<sg%>:%>%{y%}%{I%}m # ;                
+%+i%<cop%>%<pres%>%<p2%>%<sg%>:%>s%{I%}n # ;                
+!%+i%<cop%>%<pres%>%<p3%>%<sg%>:%> # ;
+%+i%<cop%>%<pres%>%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;                                
+%+i%<cop%>%<pres%>%<p1%>%<pl%>:%>%{y%}%{I%}z # ;                
+%+i%<cop%>%<pres%>%<p2%>%<pl%>:%>s%{I%}n%{I%}z # ;                
+%+i%<cop%>%<pres%>%<p3%>%<pl%>:%>%{D%}%{I%}rl%{A%}r # ;    
+
+%+i%<cop%>%<past%>%<p1%>%<sg%>:%>% %{y%}d%{I%}m # ;                
+%+i%<cop%>%<past%>%<p2%>%<sg%>:%>% %{y%}d%{I%}m # ;                
+%+i%<cop%>%<past%>%<p3%>%<sg%>:%>% %{y%}d%{I%} # ;
+%+i%<cop%>%<past%>%<p1%>%<pl%>:%>%{y%}d%{I%}k # ;                
+%+i%<cop%>%<past%>%<p2%>%<pl%>:%>%{y%}d%{I%}n%{I%}z # ;                
+%+i%<cop%>%<past%>%<p3%>%<pl%>:%>%{y%}d%{I%}l%{A%}r # ;  
+
+LEXICON DEGIL
+
+%+i%<cop%>%<neg%>%<pres%>%<p1%>%<sg%>:%>değilim # ;     
+%+i%<cop%>%<neg%>%<pres%>%<p2%>%<sg%>:%>değisin # ;                
+%+i%<cop%>%<neg%>%<pres%>%<p3%>%<sg%>:%>değil # ;                
+%+i%<cop%>%<neg%>%<pres%>%<p1%>%<pl%>:%>değiliz # ;                
+%+i%<cop%>%<neg%>%<pres%>%<p2%>%<pl%>:%>değilsiniz # ;                
+%+i%<cop%>%<neg%>%<pres%>%<p3%>%<pl%>:%>değiller # ;   
+
+%+i%<cop%>%<neg%>%<past%>%<p1%>%<sg%>:%>değildim # ;     
+%+i%<cop%>%<neg%>%<past%>%<p2%>%<sg%>:%>değidin # ;                
+%+i%<cop%>%<neg%>%<past%>%<p3%>%<sg%>:%>değildi # ;                
+%+i%<cop%>%<neg%>%<past%>%<p1%>%<pl%>:%>değildik # ;                
+%+i%<cop%>%<neg%>%<past%>%<p2%>%<pl%>:%>değildiniz # ;                
+%+i%<cop%>%<neg%>%<past%>%<p3%>%<pl%>:%>değildiler # ;   
+
+LEXICON DEGIL-QUESTION
+
+%<cop%>%<neg%>:%>% değil QST ;
+
+LEXICON COP
+
+COPULA ;
+DEGIL ;
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON CLIT
 
-%+mı%<qst%>:% m%{I%} # ; 
+%+mı%<qst%>:% m%{I%} V-PERS-COP-G2-NOSG3-FINAL ; 
 # ;  !! This is the end of word marker.
 
-LEXICON V-PERS-COP
+!LEXICON V-PERS-COP
 
-%+i%<cop%>%<pres%>: V-PERS-COP-G2-NOSG3-FINAL ;
-%+i%<cop%>%<rel%>:%>ken # ;
+!%+i%<cop%>%<pres%>: V-PERS-COP-G2-NOSG3-FINAL ;
+!%+i%<cop%>%<rel%>:%>ken # ;
 
 LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears only
                         ! after nominal parts of speech (and only after some cases).
                         ! FIXME: to be checked whether leads to any overgeneration
 CLIT ;
-V-PERS-COP ;
+!V-PERS-COP ;
+COP ;
 
 
 LEXICON SUBST
@@ -210,7 +261,7 @@ LEXICON POSS-REAL
 LEXICON ATTR ! Adjective inflection
 
 # ; 
-
+COP ; 
 
 LEXICON V-PERS-COP-G2-NOSG3-FINAL
 
@@ -226,14 +277,14 @@ LEXICON PERS1-NO3PL
 %<p1%>%<sg%>:%>%{I%}m  # ;
 %<p2%>%<sg%>:%>s%{I%}n  # ;
 %<p3%>%<sg%>:%>  # ;
-%<p3%>%<sg%>%<form%>:%>{D%}%{I%}r  CLIT ;
+%<p3%>%<sg%>%<frm%>:%>{D%}%{I%}r  CLIT ;
 %<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
 
 LEXICON PERS1  !!!USED FOR CONT, FUT, AOR, EVID
 
 %<p3%>%<pl%>:%>l%{A%}r  # ;
-%<p3%>%<pl%>%<form%>:%>l%{A%}r{D%}%{I%}r   # ;
+%<p3%>%<pl%>%<frm%>:%>l%{A%}r{D%}%{I%}r   # ;
 PERS1-NO3PL ;
 
 LEXICON PERS2  !!!USED FOR PAST and CONDITIONAL
@@ -241,7 +292,7 @@ LEXICON PERS2  !!!USED FOR PAST and CONDITIONAL
 %<p1%>%<sg%>:%>m  CLIT ;
 %<p2%>%<sg%>:%>n  CLIT ;
 %<p3%>%<sg%>:%>  CLIT ;
-%<p3%>%<sg%>%<form%>:%>{D%}%{I%}r  CLIT ;
+%<p3%>%<sg%>%<frm%>:%>{D%}%{I%}r  CLIT ;
 %<p1%>%<pl%>:%>k  CLIT ;
 %<p2%>%<pl%>:%>%{i%}n%{I%}z  CLIT ;
 %<p3%>%<pl%>:%>l%{A%}r  CLIT ;
@@ -251,7 +302,7 @@ LEXICON PERS2-NO3PL
 %<p1%>%<sg%>:%>m  # ;
 %<p2%>%<sg%>:%>n  # ;
 %<p3%>%<sg%>:%>  # ;
-%<p3%>%<sg%>%<form%>:%>{D%}%{I%}r  CLIT ;
+%<p3%>%<sg%>%<frm%>:%>{D%}%{I%}r  CLIT ;
 %<p1%>%<pl%>:%>k  # ;
 %<p2%>%<pl%>:%>%{i%}n%{I%}z  # ;
 
@@ -259,21 +310,21 @@ LEXICON PERS3  !!!USED FOR NECESSITATIVE
 %<p1%>%<sg%>:%>%{y%}%{I%}m  CLIT ;
 %<p2%>%<sg%>:%>s%{I%}n  CLIT ;
 %<p3%>%<sg%>:%>  CLIT ;
-%<p3%>%<sg%>%<form%>:%>{D%}%{I%}r  CLIT ;
+%<p3%>%<sg%>%<frm%>:%>{D%}%{I%}r  CLIT ;
 %<p1%>%<pl%>:%>%{y%}%{I%}z  CLIT ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  CLIT ;
 %<p3%>%<pl%>:%>l%{A%}r  CLIT ;
 
 LEXICON PERS4  !!!USED FOR IMPERATIVE
 %<p2%>%<sg%>:%>  # ;
-%<p2%>%<form%>:%>y%{I%}n # ;
+%<p2%>%<frm%>:%>y%{I%}n # ;
 %<p2%>%<pl%>:%>s%{A%}n%{A%}  # ;
 
 LEXICON PERS5  !!!USED FOR negative aorist and abil
 %<p1%>%<sg%>:%>m%{A%}m  CLIT ;
 %<p2%>%<sg%>:%>m%{A%}zs%{I%}n  CLIT ;
 %<p3%>%<sg%>:%>m%{A%}z CLIT ;
-%<p3%>%<sg%>%<form%>:%>m%{A%}z{D%}%{I%}r  CLIT ;
+%<p3%>%<frm%>%<sg%>:%>m%{A%}z{D%}%{I%}r  CLIT ;
 %<p1%>%<pl%>:%>m%{A%}y%{I%}z  CLIT ;
 %<p2%>%<pl%>:%>m%{A%}zs%{I%}n%{I%}z  CLIT ;
 %<p3%>%<pl%>:%>m%{A%}zl%{A%}r  CLIT ;
