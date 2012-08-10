@@ -129,6 +129,7 @@ r??
 %{i%}		   ! Becomes as "i" after a consonant, otherwise null
 %{pN%}		   ! Becomes "n" before dat abl loc and after 3p poss, otherwise null
 %{t%}
+%{ç%}
 
 %{f%}              ! Enforce front harmony
 %{b%}              ! Enforce back harmony
@@ -810,6 +811,6 @@ LEXICON Verbs
 al:al V-TV-DIR-IR ; ! "buy"
 
 yap:yap V-TV-DIR-AR ; ! "make, do"
-aç:aç V-TV-DIR-AR ; ! "open"
+aç:a%{ç%} V-TV-DIR-AR ; ! "open"
 et:e%{t%} V-TV-DIR-AR ; ! "make"
 kes:kes V-TV-DIR-AR ; ! "cut"
