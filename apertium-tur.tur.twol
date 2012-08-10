@@ -56,7 +56,7 @@ AbstrCns = %{n%} %{y%} %{s%} ;
 Rules 
 
 "Vowel harmony for archiphoneme {I}"
-%{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 | %>: ] _ ;
+%{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 | %>: | %  ] _ ;
         where 
             LastVowel in ( i ü e ö ı u a o )
                    Vy in ( i ü i ü ı u ı u ) 
@@ -76,7 +76,7 @@ Rules
 ! yap>{D}{I}r>{i}r>{I}m = yaptırırım =   y:y a:a p:p >:0 {D}:t {I}:ı r:r >:0 {i}:ı r:r >:0 {I}:ı m:m
 
 "Vowel {a} surfacing and harmonising"
-%{a%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ %>: | :0 ] _ %>: [ :Cns ]/[ :0 ]  ;
+%{a%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ %>: | :0 | %   ] _ %>: [ :Cns ]/[ :0 ]  ;
         where 
             LastVowel in ( i ü e ö ı u a o )
                    Vy in ( e e e e a a a a ) 
@@ -85,8 +85,8 @@ Rules
 ! yap>{i}{L}>m{a}>{D}{I} = yapılmadı
 
 "Vowel harmony for archiphoneme {A}"
-%{A%}:e <=> [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: ] _ ;
-            [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: ] _ ;
+%{A%}:e <=> [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
+            [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
 
 ! ev>l{A}r          = evler     =     e:e v:v >:0 l:l {A}:e r:r
 ! saat{f}>l{A}r     = saatler   =     s:s a:a a:a t:t {f}:0 >:0 l:l {A}:e r:r

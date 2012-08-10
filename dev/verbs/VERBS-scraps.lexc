@@ -270,26 +270,27 @@ COP ;
 
 LEXICON V-PERS-COP-G2-NOSG3-FINAL
 
-%<p1%>%<sg%>:%>%{y%}%{I%}m # ;
-%<p2%>%<sg%>:%>%{s%}%{I%}n # ;
-%<p2%>%<frm%>%<sg%>:%>%{s%}%{I%}n%{I%}z  # ;
+%<p1%>%<sg%>:%>%{y%}%{I%}m  # ;
+%<p2%>%<sg%>:%>s%{I%}n  # ;
+%<p3%>%<sg%>:%>  # ;
+%<p3%>%<sg%>%<frm%>:%>{D%}%{I%}r  # ;
 %<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
-%<p2%>%<pl%>:%>%{s%}%{I%}n%{I%}z  # ;
+%<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
 %<p3%>%<pl%>:%>l%{A%}r  # ;
 
 LEXICON PERS1-NO3PL 
 
-%<p1%>%<sg%>:%>%{I%}m  # ;
-%<p2%>%<sg%>:%>s%{I%}n  # ;
-%<p3%>%<sg%>:%>  # ;
+%<p1%>%<sg%>:%>%{I%}m  CLIT ;
+%<p2%>%<sg%>:%>s%{I%}n  CLIT ;
+%<p3%>%<sg%>:%>  CLIT ;
 %<p3%>%<sg%>%<frm%>:%>{D%}%{I%}r  CLIT ;
-%<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
-%<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
+%<p1%>%<pl%>:%>%{y%}%{I%}z  CLIT ;
+%<p2%>%<pl%>:%>s%{I%}n%{I%}z  CLIT ;
 
 LEXICON PERS1  !!!USED FOR CONT, FUT, AOR, EVID
 
-%<p3%>%<pl%>:%>l%{A%}r  # ;
-%<p3%>%<pl%>%<frm%>:%>l%{A%}r{D%}%{I%}r   # ;
+%<p3%>%<pl%>:%>l%{A%}r  CLIT ;
+%<p3%>%<pl%>%<frm%>:%>l%{A%}r{D%}%{I%}r   CLIT ;
 PERS1-NO3PL ;
 
 LEXICON PERS2  !!!USED FOR PAST and CONDITIONAL
@@ -312,6 +313,7 @@ LEXICON PERS2-NO3PL
 %<p2%>%<pl%>:%>%{i%}n%{I%}z  # ;
 
 LEXICON PERS3  !!!USED FOR NECESSITATIVE
+
 %<p1%>%<sg%>:%>%{y%}%{I%}m  CLIT ;
 %<p2%>%<sg%>:%>s%{I%}n  CLIT ;
 %<p3%>%<sg%>:%>  CLIT ;
