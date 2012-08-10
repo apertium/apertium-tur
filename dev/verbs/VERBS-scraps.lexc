@@ -371,7 +371,6 @@ NECE ;
 
 LEXICON PASS-DIR-AR
 
-%<pass%>:%>%{i%}%{L%} CAUS-DIR-AR ;
 %<pass%>:%>%{i%}%{L%} NECE ;
 %<pass%>:%>%{i%}%{L%} NON-FINITE ;
 %<pass%>:%>%{i%}%{L%} GERUND ;
@@ -404,7 +403,6 @@ NECE ;
 
 LEXICON PASS-DIR-IR
 
-%<pass%>:%>%{i%}%{L%} CAUS-DIR-IR ;
 %<pass%>:%>%{i%}%{L%} NECE ;
 %<pass%>:%>%{i%}%{L%} NON-FINITE ;
 %<pass%>:%>%{i%}%{L%} GERUND ;
@@ -428,6 +426,8 @@ LEXICON CAUS-DIR-IR
 %<caus%>:%>%{D%}%{I%}r ABIL-IR ;
 %<caus%>:%>%{D%}%{I%}r NECE ;
 %<caus%>:%>%{D%}%{I%}r NON-FINITE ;
+%<caus%>:%>%{D%}%{I%}r PASS-DIR-IR ;
+PASS-DIR-IR ;
 NEG ;
 FINITE-VERBS-IR ;
 ABIL-IR ;
@@ -440,11 +440,13 @@ LEXICON CAUS-DIR-AR
 %<caus%>:%>%{D%}%{I%}r ABIL-IR ;
 %<caus%>:%>%{D%}%{I%}r NECE ;
 %<caus%>:%>%{D%}%{I%}r NON-FINITE ;
+%<caus%>:%>%{D%}%{I%}r PASS-DIR-AR ;
 NEG ;
 FINITE-VERBS-AR ;
 ABIL-AR ;
 NECE ;
 NON-FINITE ;
+PASS-DIR-AR ;
 
 LEXICON CAUS-T-IR
 %<caus%>:%>t NEG ;
