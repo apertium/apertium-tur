@@ -775,43 +775,43 @@ LEXICON V-TV-DIR-IR
 
 LEXICON V-IV-DIR-IR
 
-%<v%>%<tv%>: CAUS-DIR-IR ;
-%<v%>%<tv%>: AOR-IR ;
+%<v%>%<iv%>: CAUS-DIR-IR ;
+%<v%>%<iv%>: AOR-IR ;
 
-%<v%>%<tv%>: REC-DIR-IR ;
-%<v%>%<tv%>: PASS-DIR-IR ;
-%<v%>%<tv%>: REF-DIR-IR ;
+%<v%>%<iv%>: REC-DIR-IR ;
+%<v%>%<iv%>: PASS-DIR-IR ;
+%<v%>%<iv%>: REF-DIR-IR ;
 
-%<v%>%<tv%>: ABIL-IR ;
+%<v%>%<iv%>: ABIL-IR ;
 
-%<v%>%<tv%>: FINITE-VERBS-IR ;
+%<v%>%<iv%>: FINITE-VERBS-IR ;
 
-%<v%>%<tv%>: NEG ;
-%<v%>%<tv%>: NECE ;
-%<v%>%<tv%>: CONDITIONAL ;
-%<v%>%<tv%>: NON-FINITE ;
-%<v%>%<tv%>: GERUND ;
-%<v%>%<tv%>: IMPERATIVE ;
-%<v%>%<tv%>: CONDITIONAL-CONTINUOUS ;
-%<v%>%<tv%>: CONDITIONAL-EVIDENTIAL ;
-%<v%>%<tv%>: CONDITIONAL-PAST ; 
-%<v%>%<tv%>: EVIDENTIAL-CONDITIONAL ;
-%<v%>%<tv%>: EVIDENTIAL-CONTINUOUS ;
-%<v%>%<tv%>: EVIDENTIAL-PAST ;
-%<v%>%<tv%>: EVIDENTIAL-PERFECT ;
-%<v%>%<tv%>: FUTURE ;
-%<v%>%<tv%>: FUTURE-CONDITIONAL ;
-%<v%>%<tv%>: FUTURE-PERFECT ;
-%<v%>%<tv%>: IMPERFECTIVE ;
-%<v%>%<tv%>: PAST ;
-%<v%>%<tv%>: PAST-CONDITIONAL ;
-%<v%>%<tv%>: PAST-CONTINUOUS ;
-%<v%>%<tv%>: PRESENT-CONTINUOUS ;
-%<v%>%<tv%>: FUTURE-EVIDENTIAL ;
-%<v%>%<tv%>: AOR-IR-CONDITIONAL ;
-%<v%>%<tv%>: AORIST-IR-PERFECT ;
-%<v%>%<tv%>: EXHORTATIVE ;
-%<v%>%<tv%>: JUSSIVE ;
+%<v%>%<iv%>: NEG ;
+%<v%>%<iv%>: NECE ;
+%<v%>%<iv%>: CONDITIONAL ;
+%<v%>%<iv%>: NON-FINITE ;
+%<v%>%<iv%>: GERUND ;
+%<v%>%<iv%>: IMPERATIVE ;
+%<v%>%<iv%>: CONDITIONAL-CONTINUOUS ;
+%<v%>%<iv%>: CONDITIONAL-EVIDENTIAL ;
+%<v%>%<iv%>: CONDITIONAL-PAST ; 
+%<v%>%<iv%>: EVIDENTIAL-CONDITIONAL ;
+%<v%>%<iv%>: EVIDENTIAL-CONTINUOUS ;
+%<v%>%<iv%>: EVIDENTIAL-PAST ;
+%<v%>%<iv%>: EVIDENTIAL-PERFECT ;
+%<v%>%<iv%>: FUTURE ;
+%<v%>%<iv%>: FUTURE-CONDITIONAL ;
+%<v%>%<iv%>: FUTURE-PERFECT ;
+%<v%>%<iv%>: IMPERFECTIVE ;
+%<v%>%<iv%>: PAST ;
+%<v%>%<iv%>: PAST-CONDITIONAL ;
+%<v%>%<iv%>: PAST-CONTINUOUS ;
+%<v%>%<iv%>: PRESENT-CONTINUOUS ;
+%<v%>%<iv%>: FUTURE-EVIDENTIAL ;
+%<v%>%<iv%>: AOR-IR-CONDITIONAL ;
+%<v%>%<iv%>: AORIST-IR-PERFECT ;
+%<v%>%<iv%>: EXHORTATIVE ;
+%<v%>%<iv%>: JUSSIVE ;
 
 
 
@@ -859,39 +859,39 @@ LEXICON V-TV-DIR-AR
 
 LEXICON V-IV-DIR-AR 
 
-%<v%>%<tv%>: CAUS-DIR-AR ;
-%<v%>%<tv%>: AOR-AR ;
-%<v%>%<tv%>: REC-DIR-AR ;
-%<v%>%<tv%>: REF-DIR-AR ;
-%<v%>%<tv%>: AOR-AR-CONDITIONAL ;
-%<v%>%<tv%>: ABIL-AR ;
-%<v%>%<tv%>: FINITE-VERBS-AR ;
-%<v%>%<tv%>: NEG ;
-%<v%>%<tv%>: NECE ;
-%<v%>%<tv%>: CONDITIONAL ;
-%<v%>%<tv%>: NON-FINITE ;
-%<v%>%<tv%>: GERUND ;
-%<v%>%<tv%>: IMPERATIVE ;
-%<v%>%<tv%>: CONDITIONAL-CONTINUOUS ;
-%<v%>%<tv%>: CONDITIONAL-EVIDENTIAL ;
-%<v%>%<tv%>: CONDITIONAL-PAST ; 
-%<v%>%<tv%>: EVIDENTIAL-CONDITIONAL ;
-%<v%>%<tv%>: EVIDENTIAL-CONTINUOUS ;
-%<v%>%<tv%>: EVIDENTIAL-PAST ;
-%<v%>%<tv%>: EVIDENTIAL-PERFECT ;
-%<v%>%<tv%>: FUTURE ;
-%<v%>%<tv%>: FUTURE-CONDITIONAL ;
-%<v%>%<tv%>: FUTURE-PERFECT ;
-%<v%>%<tv%>: IMPERFECTIVE ;
-%<v%>%<tv%>: PAST ;
-%<v%>%<tv%>: PAST-CONDITIONAL ;
-%<v%>%<tv%>: PAST-CONTINUOUS ;
-%<v%>%<tv%>: PRESENT-CONTINUOUS ;
-%<v%>%<tv%>: FUTURE-EVIDENTIAL ;
-%<v%>%<tv%>: EXHORTATIVE ;
-%<v%>%<tv%>: JUSSIVE ;
-%<v%>%<tv%>: AORIST-AR-PERFECT ;
-%<v%>%<tv%>: ABIL-AR-CONDITIONAL;
+%<v%>%<iv%>: CAUS-DIR-AR ;
+%<v%>%<iv%>: AOR-AR ;
+%<v%>%<iv%>: REC-DIR-AR ;
+%<v%>%<iv%>: REF-DIR-AR ;
+%<v%>%<iv%>: AOR-AR-CONDITIONAL ;
+%<v%>%<iv%>: ABIL-AR ;
+%<v%>%<iv%>: FINITE-VERBS-AR ;
+%<v%>%<iv%>: NEG ;
+%<v%>%<iv%>: NECE ;
+%<v%>%<iv%>: CONDITIONAL ;
+%<v%>%<iv%>: NON-FINITE ;
+%<v%>%<iv%>: GERUND ;
+%<v%>%<iv%>: IMPERATIVE ;
+%<v%>%<iv%>: CONDITIONAL-CONTINUOUS ;
+%<v%>%<iv%>: CONDITIONAL-EVIDENTIAL ;
+%<v%>%<iv%>: CONDITIONAL-PAST ; 
+%<v%>%<iv%>: EVIDENTIAL-CONDITIONAL ;
+%<v%>%<iv%>: EVIDENTIAL-CONTINUOUS ;
+%<v%>%<iv%>: EVIDENTIAL-PAST ;
+%<v%>%<iv%>: EVIDENTIAL-PERFECT ;
+%<v%>%<iv%>: FUTURE ;
+%<v%>%<iv%>: FUTURE-CONDITIONAL ;
+%<v%>%<iv%>: FUTURE-PERFECT ;
+%<v%>%<iv%>: IMPERFECTIVE ;
+%<v%>%<iv%>: PAST ;
+%<v%>%<iv%>: PAST-CONDITIONAL ;
+%<v%>%<iv%>: PAST-CONTINUOUS ;
+%<v%>%<iv%>: PRESENT-CONTINUOUS ;
+%<v%>%<iv%>: FUTURE-EVIDENTIAL ;
+%<v%>%<iv%>: EXHORTATIVE ;
+%<v%>%<iv%>: JUSSIVE ;
+%<v%>%<iv%>: AORIST-AR-PERFECT ;
+%<v%>%<iv%>: ABIL-AR-CONDITIONAL;
 
 
 LEXICON Verbs
