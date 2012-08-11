@@ -640,10 +640,11 @@ LEXICON GERUND
 %<ger3%>:%>%{I%}ş SUBST ;
 %<ger4%>:%>%{y%}%{A%}c%{A%}k SUBST ;
 %<ger5%>:%>%{y%}%{A%}n SUBST ;
+%<ger6%>:%>m%{A%}k SUBST ;
 
 LEXICON NON-FINITE
 
-%<inf%>:%>m%{A%}k SUBST ;
+%<inf%>:%>m%{A%}k # ;
 
 %<prc1%>:%>%{y%}%{A%}n ATTR ;
 
@@ -772,6 +773,49 @@ LEXICON V-TV-DIR-IR
 %<v%>%<tv%>: JUSSIVE ;
 
 
+LEXICON V-IV-DIR-IR
+
+%<v%>%<tv%>: CAUS-DIR-IR ;
+%<v%>%<tv%>: AOR-IR ;
+
+%<v%>%<tv%>: REC-DIR-IR ;
+%<v%>%<tv%>: PASS-DIR-IR ;
+%<v%>%<tv%>: REF-DIR-IR ;
+
+%<v%>%<tv%>: ABIL-IR ;
+
+%<v%>%<tv%>: FINITE-VERBS-IR ;
+
+%<v%>%<tv%>: NEG ;
+%<v%>%<tv%>: NECE ;
+%<v%>%<tv%>: CONDITIONAL ;
+%<v%>%<tv%>: NON-FINITE ;
+%<v%>%<tv%>: GERUND ;
+%<v%>%<tv%>: IMPERATIVE ;
+%<v%>%<tv%>: CONDITIONAL-CONTINUOUS ;
+%<v%>%<tv%>: CONDITIONAL-EVIDENTIAL ;
+%<v%>%<tv%>: CONDITIONAL-PAST ; 
+%<v%>%<tv%>: EVIDENTIAL-CONDITIONAL ;
+%<v%>%<tv%>: EVIDENTIAL-CONTINUOUS ;
+%<v%>%<tv%>: EVIDENTIAL-PAST ;
+%<v%>%<tv%>: EVIDENTIAL-PERFECT ;
+%<v%>%<tv%>: FUTURE ;
+%<v%>%<tv%>: FUTURE-CONDITIONAL ;
+%<v%>%<tv%>: FUTURE-PERFECT ;
+%<v%>%<tv%>: IMPERFECTIVE ;
+%<v%>%<tv%>: PAST ;
+%<v%>%<tv%>: PAST-CONDITIONAL ;
+%<v%>%<tv%>: PAST-CONTINUOUS ;
+%<v%>%<tv%>: PRESENT-CONTINUOUS ;
+%<v%>%<tv%>: FUTURE-EVIDENTIAL ;
+%<v%>%<tv%>: AOR-IR-CONDITIONAL ;
+%<v%>%<tv%>: AORIST-IR-PERFECT ;
+%<v%>%<tv%>: EXHORTATIVE ;
+%<v%>%<tv%>: JUSSIVE ;
+
+
+
+
 LEXICON V-TV-DIR-AR 
 
 %<v%>%<tv%>: CAUS-DIR-AR ;
@@ -812,6 +856,43 @@ LEXICON V-TV-DIR-AR
 %<v%>%<tv%>: JUSSIVE ;
 %<v%>%<tv%>: AORIST-AR-PERFECT ;
 %<v%>%<tv%>: ABIL-AR-CONDITIONAL;
+
+LEXICON V-IV-DIR-AR 
+
+%<v%>%<tv%>: CAUS-DIR-AR ;
+%<v%>%<tv%>: AOR-AR ;
+%<v%>%<tv%>: REC-DIR-AR ;
+%<v%>%<tv%>: REF-DIR-AR ;
+%<v%>%<tv%>: AOR-AR-CONDITIONAL ;
+%<v%>%<tv%>: ABIL-AR ;
+%<v%>%<tv%>: FINITE-VERBS-AR ;
+%<v%>%<tv%>: NEG ;
+%<v%>%<tv%>: NECE ;
+%<v%>%<tv%>: CONDITIONAL ;
+%<v%>%<tv%>: NON-FINITE ;
+%<v%>%<tv%>: GERUND ;
+%<v%>%<tv%>: IMPERATIVE ;
+%<v%>%<tv%>: CONDITIONAL-CONTINUOUS ;
+%<v%>%<tv%>: CONDITIONAL-EVIDENTIAL ;
+%<v%>%<tv%>: CONDITIONAL-PAST ; 
+%<v%>%<tv%>: EVIDENTIAL-CONDITIONAL ;
+%<v%>%<tv%>: EVIDENTIAL-CONTINUOUS ;
+%<v%>%<tv%>: EVIDENTIAL-PAST ;
+%<v%>%<tv%>: EVIDENTIAL-PERFECT ;
+%<v%>%<tv%>: FUTURE ;
+%<v%>%<tv%>: FUTURE-CONDITIONAL ;
+%<v%>%<tv%>: FUTURE-PERFECT ;
+%<v%>%<tv%>: IMPERFECTIVE ;
+%<v%>%<tv%>: PAST ;
+%<v%>%<tv%>: PAST-CONDITIONAL ;
+%<v%>%<tv%>: PAST-CONTINUOUS ;
+%<v%>%<tv%>: PRESENT-CONTINUOUS ;
+%<v%>%<tv%>: FUTURE-EVIDENTIAL ;
+%<v%>%<tv%>: EXHORTATIVE ;
+%<v%>%<tv%>: JUSSIVE ;
+%<v%>%<tv%>: AORIST-AR-PERFECT ;
+%<v%>%<tv%>: ABIL-AR-CONDITIONAL;
+
 
 LEXICON Verbs
 
