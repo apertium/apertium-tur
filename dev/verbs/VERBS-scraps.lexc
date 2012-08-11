@@ -385,7 +385,7 @@ LEXICON PASS-DIR-AR
 %<pass%>:%>%{i%}%{L%} GERUND ;
 %<pass%>:%>%{i%}%{L%} ABIL-AR ;
 %<pass%>:%>%{i%}%{L%} NEG ;
-%<pass%>:%>%{i%}%{L%} AOR-IR ;
+%<pass%>:%>%{i%}%{L%} AOR-AR ;
 %<pass%>:%>%{i%}%{L%} AOR-IR-CONDITIONAL ;
 CAUS-DIR-AR ;
 NECE ;
@@ -919,6 +919,6 @@ yap:yap V-TV-DIR-AR ; ! "make, do"
 aç:a%{ç%} V-TV-DIR-AR ; ! "open"
 et:e%{t%} V-TV-DIR-AR ; ! "make"
 kes:kes V-TV-DIR-AR ; ! "cut"
-gir:gir V-IV-DIR-IR ; ! enter"
+gir:gir V-IV-DIR-AR ; ! enter"
 
 
