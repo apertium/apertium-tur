@@ -777,15 +777,10 @@ LEXICON V-IV-DIR-IR
 
 %<v%>%<iv%>: CAUS-DIR-IR ;
 %<v%>%<iv%>: AOR-IR ;
-
 %<v%>%<iv%>: REC-DIR-IR ;
-%<v%>%<iv%>: PASS-DIR-IR ;
 %<v%>%<iv%>: REF-DIR-IR ;
-
 %<v%>%<iv%>: ABIL-IR ;
-
 %<v%>%<iv%>: FINITE-VERBS-IR ;
-
 %<v%>%<iv%>: NEG ;
 %<v%>%<iv%>: NECE ;
 %<v%>%<iv%>: CONDITIONAL ;
@@ -814,22 +809,16 @@ LEXICON V-IV-DIR-IR
 %<v%>%<iv%>: JUSSIVE ;
 
 
-
-
 LEXICON V-TV-DIR-AR 
 
 %<v%>%<tv%>: CAUS-DIR-AR ;
 %<v%>%<tv%>: AOR-AR ;
-
 %<v%>%<tv%>: REC-DIR-AR ;
 %<v%>%<tv%>: PASS-DIR-AR ;
 %<v%>%<tv%>: REF-DIR-AR ;
 %<v%>%<tv%>: AOR-AR-CONDITIONAL ;
-
 %<v%>%<tv%>: ABIL-AR ;
-
 %<v%>%<tv%>: FINITE-VERBS-AR ;
-
 %<v%>%<tv%>: NEG ;
 %<v%>%<tv%>: NECE ;
 %<v%>%<tv%>: CONDITIONAL ;
@@ -903,5 +892,5 @@ aç:a%{ç%} V-TV-DIR-AR ; ! "open"
 et:e%{t%} V-TV-DIR-AR ; ! "make"
 kes:kes V-TV-DIR-AR ; ! "cut"
 gir:gir V-IV-DIR-IR ; ! enter"
-git:gi%{t%} V-IV-DIR-IR ; ! "go"
+
 
