@@ -1,0 +1,10 @@
+Config:
+  hfst: 
+    App: hfst-optimised-lookup
+    Gen: VERBS-scraps.gen.hfst
+    Morph: VERBS-scraps.hfst
+
+Tests:
+
+  "Present continuous":
+     yap<v><tv><pcont><p1><sg> : yapıyorum

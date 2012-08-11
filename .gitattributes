@@ -29,4 +29,5 @@ dev/verbs/Makefile -text
 dev/verbs/VERBS-scraps -text
 dev/verbs/VERBS-scraps.lexc -text
 dev/verbs/test-yap.txt -text
+dev/verbs/verbs.yaml -text
 tests/nouns-misc.yaml -text
