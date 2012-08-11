@@ -803,7 +803,7 @@ LEXICON V-TV-DIR-IR
 
 LEXICON V-IV-DIR-IR
 
-%<v%>%<iv%>: CAUS-DIR-IR ;
+%<v%>%<iv%>: IV-CAUS-DIR-IR ;
 %<v%>%<iv%>: AOR-IR ;
 %<v%>%<iv%>: REC-DIR-IR ;
 %<v%>%<iv%>: REF-DIR-IR ;
@@ -839,7 +839,7 @@ LEXICON V-IV-DIR-IR
 
 LEXICON V-TV-DIR-AR 
 
-%<v%>%<tv%>: IV-CAUS-DIR-AR ;
+%<v%>%<tv%>: CAUS-DIR-AR ;
 %<v%>%<tv%>: AOR-AR ;
 %<v%>%<tv%>: REC-DIR-AR ;
 %<v%>%<tv%>: PASS-DIR-AR ;
