@@ -386,7 +386,7 @@ LEXICON PASS-DIR-AR
 %<pass%>:%>%{i%}%{L%} ABIL-AR ;
 %<pass%>:%>%{i%}%{L%} NEG ;
 %<pass%>:%>%{i%}%{L%} AOR-AR ;
-%<pass%>:%>%{i%}%{L%} AOR-IR-CONDITIONAL ;
+%<pass%>:%>%{i%}%{L%} AOR-AR-CONDITIONAL ;
 CAUS-DIR-AR ;
 NECE ;
 NON-FINITE ;
@@ -394,7 +394,7 @@ GERUND ;
 ABIL-AR ;
 NEG ;
 AOR-AR ;
-AOR-IR-CONDITIONAL ;
+AOR-AR-CONDITIONAL ;
 
 
 LEXICON REC-DIR-IR
