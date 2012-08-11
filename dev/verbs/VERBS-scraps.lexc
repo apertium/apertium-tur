@@ -902,3 +902,6 @@ yap:yap V-TV-DIR-AR ; ! "make, do"
 aç:a%{ç%} V-TV-DIR-AR ; ! "open"
 et:e%{t%} V-TV-DIR-AR ; ! "make"
 kes:kes V-TV-DIR-AR ; ! "cut"
+gir:gir V-IV-DIR-IR ; ! enter"
+git:gi%{t%} V-IV-DIR-IR ; ! "go"
+
