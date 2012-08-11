@@ -283,7 +283,7 @@ LEXICON V-PERS-COP-G2-NOSG3-FINAL
 %<p1%>%<sg%>:%>%{y%}%{I%}m  # ;
 %<p2%>%<sg%>:%>s%{I%}n  # ;
 %<p3%>%<sg%>:%>  # ;
-%<p3%>%<sg%>%<frm%>:%>{D%}%{I%}r  # ;
+%<p3%>%<frm%>%<sg%>:%>{D%}%{I%}r  # ;
 %<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
 %<p3%>%<pl%>:%>l%{A%}r  # ;
@@ -293,7 +293,7 @@ LEXICON PERS1-NO3PL
 %<p1%>%<sg%>:%>%{I%}m  CLIT ;
 %<p2%>%<sg%>:%>s%{I%}n  CLIT ;
 %<p3%>%<sg%>:%>  CLIT ;
-%<p3%>%<sg%>%<frm%>:%>{D%}%{I%}r  CLIT ;
+%<p3%>%<frm%>%<sg%>:%>{D%}%{I%}r  CLIT ;
 %<p1%>%<pl%>:%>%{y%}%{I%}z  CLIT ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  CLIT ;
 
@@ -308,7 +308,7 @@ LEXICON PERS2  !!!USED FOR PAST and CONDITIONAL
 %<p1%>%<sg%>:%>m  CLIT ;
 %<p2%>%<sg%>:%>n  CLIT ;
 %<p3%>%<sg%>:%>  CLIT ;
-%<p3%>%<sg%>%<frm%>:%>{D%}%{I%}r  CLIT ;
+%<p3%>%<frm%>%<sg%>:%>{D%}%{I%}r  CLIT ;
 %<p1%>%<pl%>:%>k  CLIT ;
 %<p2%>%<pl%>:%>%{i%}n%{I%}z  CLIT ;
 %<p3%>%<pl%>:%>l%{A%}r  CLIT ;
@@ -318,7 +318,7 @@ LEXICON PERS2-NO3PL
 %<p1%>%<sg%>:%>m  # ;
 %<p2%>%<sg%>:%>n  # ;
 %<p3%>%<sg%>:%>  # ;
-%<p3%>%<sg%>%<frm%>:%>{D%}%{I%}r  CLIT ;
+%<p3%>%<frm%>%<sg%>:%>{D%}%{I%}r  CLIT ;
 %<p1%>%<pl%>:%>k  # ;
 %<p2%>%<pl%>:%>%{i%}n%{I%}z  # ;
 
@@ -327,7 +327,7 @@ LEXICON PERS3  !!!USED FOR NECESSITATIVE
 %<p1%>%<sg%>:%>%{y%}%{I%}m  CLIT ;
 %<p2%>%<sg%>:%>s%{I%}n  CLIT ;
 %<p3%>%<sg%>:%>  CLIT ;
-%<p3%>%<sg%>%<frm%>:%>{D%}%{I%}r  CLIT ;
+%<p3%>%<frm%>%<sg%>:%>{D%}%{I%}r  CLIT ;
 %<p1%>%<pl%>:%>%{y%}%{I%}z  CLIT ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  CLIT ;
 %<p3%>%<pl%>:%>l%{A%}r  CLIT ;
@@ -617,7 +617,7 @@ LEXICON CONDITIONAL-EVIDENTIAL
 
 LEXICON NECE
 
-%<nece%>:%>m%{A%}l%{I%} PERS3 ;
+%<nece%>:%>m%{A%}l%{I%} PERS3 ;             ! prc, + copula
 %<necepast%>:%>m%{A%}l%{I%} PERS3-PAST ;
 
 LEXICON JUSSIVE
