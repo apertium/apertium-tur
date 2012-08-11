@@ -471,6 +471,20 @@ NECE ;
 NON-FINITE ;
 PASS-DIR-AR ;
 
+LEXICON IV-CAUS-DIR-AR
+%<caus%>:%>%{D%}%{I%}r NEG ;
+%<caus%>:%>%{D%}%{I%}r FINITE-VERBS-IR ;
+%<caus%>:%>%{D%}%{I%}r ABIL-IR ;
+%<caus%>:%>%{D%}%{I%}r NECE ;
+%<caus%>:%>%{D%}%{I%}r NON-FINITE ;
+%<caus%>:%>%{D%}%{I%}r PASS-DIR-AR ;
+NEG ;
+FINITE-VERBS-AR ;
+ABIL-AR ;
+NECE ;
+NON-FINITE ;
+
+
 LEXICON CAUS-T-IR
 %<caus%>:%>t NEG ;
 %<caus%>:%>t FINITE-VERBS-IR ;
@@ -825,7 +839,7 @@ LEXICON V-IV-DIR-IR
 
 LEXICON V-TV-DIR-AR 
 
-%<v%>%<tv%>: CAUS-DIR-AR ;
+%<v%>%<tv%>: IV-CAUS-DIR-AR ;
 %<v%>%<tv%>: AOR-AR ;
 %<v%>%<tv%>: REC-DIR-AR ;
 %<v%>%<tv%>: PASS-DIR-AR ;
