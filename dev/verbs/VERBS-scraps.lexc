@@ -378,6 +378,20 @@ LEXICON REF-DIR-AR
 CAUS-DIR-AR ;
 NECE ;
 
+LEXICON IV-REC-DIR-AR
+
+%<rec%>:%>%{i%}ş IV-CAUS-DIR-AR ;
+%<rec%>:%>%{i%}ş NECE ;
+IV-CAUS-DIR-AR ;
+NECE ;
+
+LEXICON IV-REF-DIR-AR
+%<ref%>:%>%{i%}n IV-CAUS-DIR-AR ;
+%<ref%>:%>%{i%}n NECE ;
+IV-CAUS-DIR-AR ;
+NECE ;
+
+
 LEXICON PASS-DIR-AR
 
 %<pass%>:%>%{i%}%{L%} NECE ;
@@ -408,6 +422,19 @@ LEXICON REF-DIR-IR
 %<ref%>:%>%{i%}n CAUS-DIR-IR ;
 %<ref%>:%>%{i%}n NECE ;
 CAUS-DIR-IR ;
+NECE ;
+
+LEXICON IV-REC-DIR-IR
+
+%<rec%>:%>%{i%}ş IV-CAUS-DIR-IR ;
+%<rec%>:%>%{i%}ş NECE ;
+IV-CAUS-DIR-IR ;
+NECE ;
+
+LEXICON IV-REF-DIR-IR
+%<ref%>:%>%{i%}n IV-CAUS-DIR-IR ;
+%<ref%>:%>%{i%}n NECE ;
+IV-CAUS-DIR-IR ;
 NECE ;
 
 LEXICON PASS-DIR-IR
@@ -805,8 +832,8 @@ LEXICON V-IV-DIR-IR
 
 %<v%>%<iv%>: IV-CAUS-DIR-IR ;
 %<v%>%<iv%>: AOR-IR ;
-%<v%>%<iv%>: REC-DIR-IR ;
-%<v%>%<iv%>: REF-DIR-IR ;
+%<v%>%<iv%>: IV-REC-DIR-IR ;
+%<v%>%<iv%>: IV-REF-DIR-IR ;
 %<v%>%<iv%>: ABIL-IR ;
 %<v%>%<iv%>: FINITE-VERBS-IR ;
 %<v%>%<iv%>: NEG ;
@@ -878,8 +905,8 @@ LEXICON V-IV-DIR-AR
 
 %<v%>%<iv%>: IV-CAUS-DIR-IR ;
 %<v%>%<iv%>: AOR-AR ;
-%<v%>%<iv%>: REC-DIR-AR ;
-%<v%>%<iv%>: REF-DIR-AR ;
+%<v%>%<iv%>: IV-REC-DIR-AR ;
+%<v%>%<iv%>: IV-REF-DIR-AR ;
 %<v%>%<iv%>: AOR-AR-CONDITIONAL ;
 %<v%>%<iv%>: ABIL-AR ;
 %<v%>%<iv%>: FINITE-VERBS-AR ;
