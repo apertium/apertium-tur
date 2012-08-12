@@ -934,7 +934,7 @@ LEXICON V-TV-DIR-AR
 
 LEXICON V-TV-T-AR 
 
-%<v%>%<tv%>: CAUS-T-IR ;
+%<v%>%<tv%>: CAUS-T-AR ;
 %<v%>%<tv%>: AOR-AR ;
 %<v%>%<tv%>: REC-T-AR ;
 %<v%>%<tv%>: PASS-T-AR ;
