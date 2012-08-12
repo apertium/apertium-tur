@@ -144,8 +144,6 @@ LEXICON Root
 
 Verbs ; 
 
-
-
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -155,15 +153,12 @@ LEXICON ATTR ! Adjective inflection
 # ; 
 COP ; 
 
-
-
-
 LEXICON V-TV-DIR-AR 
 
 !!! Lexicon for transitive verbs taking the causative in -dir and the aorist in -AR !!!
 
 %<v%>%<tv%>: ABIL-AR ;
-%<v%>%<tv%>: ABIL-CONDITIONAL;
+%<v%>%<tv%>: ABIL-CONDITIONAL ;
 %<v%>%<tv%>: AOR-AR ;
 %<v%>%<tv%>: AOR-AR-CONDITIONAL ;
 %<v%>%<tv%>: AORIST-AR-PERFECT ;
@@ -347,7 +342,7 @@ NON-FINITE ;
 
 LEXICON ABIL-CONDITIONAL
 
-%<abil>%<cond%>:%>%{A%}bilse PERS2  ;
+%<abil%>%<cond%>:%>%{A%}bilse PERS2  ;
 %<neg%>%<abil%>%<cond%>:%>%{y%}%{A%}m%{A%}z%>s%{A%} PERS2-NO3PL ;
 %<neg%>%<abil%>%<cond%>%<p3%>%<pl%>:%>%{y%}%{A%}m%{A%}z%>l%{A%}r%>s%{A%} # ;
 
@@ -798,17 +793,4 @@ git:gi%{t%} V-IV-DIR-AR ; ! "go"
 
 de:d%{e%} V-IV-DIR-IR ; ! "say"
 oyna:oyna V-TV-T-IR ; ! "play"
-
-
-
-
-
-
-
-
-
-
-
-
-
 
