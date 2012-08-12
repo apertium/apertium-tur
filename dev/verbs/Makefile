@@ -1,4 +1,4 @@
-FILE=Clean_FILE
+FILE=VERBS-scraps
 all:
 	hfst-lexc -f foma $(FILE).lexc -o $(FILE).lexc.hfst
 	hfst-twolc -f foma -i ../../apertium-tur.tur.twol -o $(FILE).twol.hfst
