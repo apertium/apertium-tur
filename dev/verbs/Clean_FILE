@@ -347,9 +347,9 @@ NON-FINITE ;
 
 LEXICON ABIL-CONDITIONAL
 
-%<abilcond%>:%>%{A%}bilse PERS2  ;
-%<neg%>%<abilcond%>:%>%{y%}%{A%}m%{A%}z%>s%{A%} PERS2-NO3PL ;
-%<neg%>%<abilcond%>%<p3%>%<pl%>:%>%{y%}%{A%}m%{A%}z%>l%{A%}r%>s%{A%} # ;
+%<abil>%<cond%>:%>%{A%}bilse PERS2  ;
+%<neg%>%<abil%>%<cond%>:%>%{y%}%{A%}m%{A%}z%>s%{A%} PERS2-NO3PL ;
+%<neg%>%<abil%>%<cond%>%<p3%>%<pl%>:%>%{y%}%{A%}m%{A%}z%>l%{A%}r%>s%{A%} # ;
 
 LEXICON AOR-AR
 
