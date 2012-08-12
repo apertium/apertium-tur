@@ -9,3 +9,6 @@ Tests:
   "Present continuous":
      yap<v><tv><pcont><p1><sg> : yapıyorum
 
+  "Passive":
+     oyna<v><tv><pass><pcont><p1><sg> : oynanıyorum
+     oyna<v><tv><ref><pcont><p1><sg> : oynanıyorum

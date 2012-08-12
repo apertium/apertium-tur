@@ -121,7 +121,6 @@ r??
 %{D%}
 
 %{a%}
-%{i%}
 
 %{n%}		   ! Becomes "n" after a vowel, otherwise null
 %{y%}		   ! Becomes "y" after a vowel, otherwise null
@@ -130,6 +129,7 @@ r??
 %{pN%}		   ! Becomes "n" before dat abl loc and after 3p poss, otherwise null
 %{t%}
 %{ç%}
+%{e%}
 
 %{f%}              ! Enforce front harmony
 %{b%}              ! Enforce back harmony
@@ -950,5 +950,5 @@ gir:gir V-IV-DIR-AR ; ! enter"
 git:gi%{t%} V-IV-DIR-AR ; ! "go"
 öl:öl V-IV-DIR-IR ; ! "die"
 
-de:d%{e%} V-IV-T-IR ; ! "say"
+de:d%{e%} V-IV-DIR-IR ; ! "say"
 oyna:oyna V-TV-T-IR ; ! "play"
