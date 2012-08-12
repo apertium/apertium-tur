@@ -16,8 +16,12 @@ Tests:
   "Aorist present":
      yap<v><tv><aor><p1><sg> : yaparım
 
+  "Passive aorist conditional": 
+     yap<v><tv><pass><aorcond><p3><sg> : yapılırsa
+
   "Abilitative Conditional":
      yap<v><tv><abil><cond><p1><sg>: yapabilsem
 
   "Causative":
      oyna<v><tv><caus><aor><p1><sg> : oynatırım
+

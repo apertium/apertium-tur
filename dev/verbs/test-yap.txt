@@ -46,7 +46,6 @@
      42 yapmanın
      40 yapacağız
      40 yapacağına
-
      31 yapmadı
      31 yapacaklarını
      30 yaptıklarından
@@ -68,7 +67,6 @@
      18 yapmalarını
      18 yapmalarına
      18 yapmadıkları
-
      17 yapılmakta
      17 yapıldığına
      17 yapılarak
@@ -84,7 +82,6 @@
      13 yaptırdı
      13 yapmıyor
      13 yapılıp
-
      12 yaptırmak
      12 yaptığından
      12 yapmadıklarını
@@ -104,12 +101,10 @@
      10 yapamayacağını
      10 yapacaktır
      10 yapacaktı
-
       9 yapmadaki
       9 yapılmayacak
       9 yapılmayacağı
       9 yapılacaktı
-
       9 yapamaz
       9 yapabilmek
       9 yapabilecekler
@@ -125,7 +120,6 @@
       8 yapabilecekleri
       7 yaptırmaları
       7 yapmışlardı
-
       6 yaptırdığını
       6 yaptıran
       6 yaptığının
@@ -153,7 +147,6 @@
       5 yapmanız
       5 yapmama
       5 yapmadığına
-
       5 yapılmamasını
       5 yapılmamasına
       5 yapılır
@@ -187,7 +180,6 @@
       3 yaptırmasına
       3 yaptığını
       3 yapsa
-      
       3 yapmazlarsa
       3 yapmayan
       3 yapmasında
@@ -199,7 +191,6 @@
       3 yapmalarından
       3 yapmadığının
       3 yapıyorum
-
       3 yapılmazken
       3 yapılmaz
       3 yapılmamış
@@ -208,8 +199,6 @@
       3 yapılmalı
       3 yapılış
       3 yapıldığını
-
-
       3 yapılamayacağını
       3 yapılacaksa
       3 yapılacağının
@@ -235,10 +224,8 @@
       2 yaptıklarımızı
       2 yaptığınızı
       2 yaptığı
-
       2 yapsak
       2 yapmıştır
-
       2 yapmışlar
       2 yapmazsak
       2 yapmayacaklarını
@@ -249,11 +236,8 @@
       2 yapmamakta
       2 yapmaktaki
       2 yapmadıklarında
-
-
       2 yapılsaydı
       2 yapılmıyor
-
       2 yapılmayacağına
       2 yapılmasıyla
       2 yapılmamıştır
@@ -263,7 +247,6 @@
       2 yapılamadığı
       2 yapılacağından
       2 yapılabilmesini
-
       2 yaparsak
       2 yapamıyoruz
       2 yapamam
@@ -288,23 +271,15 @@
       1 yaptıracak
       1 yaptırabileceğiniz
       1 yaptırabileceği
-
       1 yaptınız
       1 yaptıklarınızdan
-
       1 yaptıkların
       1 yaptıklarımız
       1 yaptıkları
-
       1 yaptıklar
       1 yaptığınıza
-
-      
       1 yapsın
       1 yapsaydı
-
-  
-
       1 yapmıyoruz
       1 yapmıyorlar
       1 yapmışlardır
@@ -333,24 +308,16 @@
       1 yapmalarıyla
       1 yapmalarıydı
       1 yapmalarında
-
       1 yapmaktayken
       1 yapmaktaydılar
       1 yapmaktalar
-
       1 yapmadıklarıyla
       1 yapmadıklarının
       1 yapmadığını
       1 yapmadığımız
       1 yapmadığımı
-
-
       1 yapıyorsunuz
       1 yapıyorsa
-     
-      
-
-
       1 yapılmıştır
       1 yapılmayı
       1 yapılmayan
@@ -359,8 +326,6 @@
       1 yapılmasıydı
       1 yapılmasını
       1 yapılmasıdır
-      
-      
       1 yapılmamıştı
       1 yapılmamışken
       1 yapılmamasıyla
@@ -370,14 +335,9 @@
       1 yapılmaktadır
       1 yapılmadıkça
       1 yapılmadığından
-
-
       1 yapılıyorsa
       1 yapılırsa
       1 yapıldığıyla
-
-    
-     
       1 yapılacakken
       1 yapılacağıyla
       1 yapılabilmesinin
@@ -396,7 +356,6 @@
       1 yapamazlar
       1 yapamayınca
       1 yapamayacağını
-
       1 yapamayacağına
       1 yapamaması
       1 yapamadıkları
@@ -407,7 +366,6 @@
       1 yapacakken
       1 yapacağınız
       1 yapacağını
-
       1 yapacağımızı
       1 yapacağımızdan
       1 yapacağımıza
@@ -422,7 +380,6 @@
       1 yapabiliyor musunuz
       1 yapabilirsem
       1 yapabilirdi
-      1 
       1 yapabilecekken
       1 yapabileceğinize
       1 yapabileceğiniz
@@ -430,146 +387,3 @@
       1 yapabileceğimizi
       1 yapabileceğimi
       1 yapabildi
-
-===============================================================================
-
-    230 yapıcı
-    191 yapılanma
-    162 yapısal
-    160 yapımı
-    157 yapılarına
-     72 yapı
-     62 yapıları
-     55 yapılandırılması
-     44 yapısını
-     37 yapının
-     36 yapımına
-     34 yapısının
-     30 yapılar
-     30 yapılanmanın
-     26 yapılanması
-     25 yapılarının
-     24 yapılarını
-     23 yapıya
-     23 yapılara
-     22 yapımını
-     16 yapısına
-     14 yapımında
-     13 yapılarıyla
-     12 yapıyı
-
-     11 yapılarında
-     10 yapısında
-     
-
-     10 yapılanmasında
-     10 yapılandırılmasının
-     10 yapılandırılmasına
-     10 yapılana      
-      9 yapıda
-      8 yapılandırmak
-      7 yapısıyla
-      7 yapımıyla
-      7 yapılandırılmasında
-      7 yapılabileceği
-      6 yapımının
-      6 yapılarından
-      6 yapılandırmaya
-      6 yapılandırması
-      6 yapılandırılmasını
-      5 yapımları
-      5 yapılanmasına
-      5 yapıla
-      4 yapın
-      4 yapımlar
-      4 yapımcılığını
-      4 yapıma
-      4 yapılarla
-      4 yapılardan
-      4 yapılarda
-      4 yapılanmayla
-      4 yapılanmasını
-      4 yapılandırmayı
-      3 yapımcılarının
-      3 yapımcılarına
-      1 yapılı
-      3 yapılanmadan
-      3 yapılanmada
-      3 yapılanların
-      3 yapıdan
-      3 yapıdaki
-      2 yapıyla
-      2 yapıtının
-      2 yapıtını
-      2 yapılarındaki
-      2 yapılanmasıyla
-      2 yapılanları
-      2 yapılanlardan
-      2 yapılandırmakta
-      2 yapılandırmada
-      2 yapılandırılmasıyla
-      2 yapılandırılarak
-      2 yapılandırılacak
-      2 yapılandırarak
-      1 yapışını
-      1 yapısındaki
-      1 yapısıdır
-      1 yapımlarında
-      1 yapımlara
-      1 yapımla
-      1 yapımından
-      1 yapımda
-      1 yapımcısına
-      1 yapımcılığının
-      1 yapımcılarından
-      1 yapımcılara
-      1 yapımcılar
-      1 yapılna
-      1 yapılasını
-      1 yapılarımız
-      1 yapılarca
-      1 yapılanmasının
-      1 yapılanmasından
-      1 yapıcımları
-      1 yapıcılık
-      1 yapıcıların
-      1 yapıcılar
-      1 yapılanmalarını
-      1 yapılanmaların
-      1 yapılanmaları
-      1 yapılanmalara
-      1 yapılanmalar
-      1 yapılanmakta
-      1 yapılanlara
-      1 yapılanlar
-      1 yapılanıp
-      1 yapılandırmayla
-      1 yapılandırmasında
-      1 yapılandırmanın
-      1 yapılandırmaları
-      1 yapılandırmadıkça
-      1 yapılandırıyor
-      1 yapılandırırken
-      1 yapılandırıp
-      1 yapılandırılmaya
-      1 yapılandırılmasındaki
-      1 yapılandırılmamış
-      1 yapılandırılan
-      1 yapılandırılabilir
-      1 yapılandırdıktan
-      1 yapılandırdı
-      1 yapılandırana
-      1 yapılandıran
-      1 yapılandıracak
-      1 yapılandırabileceği
-      1 yapılandığı
-
-
-
-
-
-
-
-
-
-
