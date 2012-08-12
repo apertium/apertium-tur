@@ -372,10 +372,23 @@ LEXICON REC-DIR-AR
 CAUS-DIR-AR ;
 NECE ;
 
+LEXICON REC-T-AR
+
+%<rec%>:%>%{i%}ş CAUS-DIR-AR ;
+%<rec%>:%>%{i%}ş NECE ;
+CAUS-T-AR ;
+NECE ;
+
 LEXICON REF-DIR-AR
 %<ref%>:%>%{i%}n CAUS-DIR-AR ;
 %<ref%>:%>%{i%}n NECE ;
 CAUS-DIR-AR ;
+NECE ;
+
+LEXICON REF-T-AR
+%<ref%>:%>%{i%}n CAUS-T-AR ;
+%<ref%>:%>%{i%}n NECE ;
+CAUS-T-AR ;
 NECE ;
 
 LEXICON IV-REC-DIR-AR
@@ -402,6 +415,24 @@ LEXICON PASS-DIR-AR
 %<pass%>:%>%{i%}%{L%} AOR-AR ;
 %<pass%>:%>%{i%}%{L%} AOR-AR-CONDITIONAL ;
 CAUS-DIR-AR ;
+NECE ;
+NON-FINITE ;
+GERUND ;
+ABIL-AR ;
+NEG ;
+AOR-AR ;
+AOR-AR-CONDITIONAL ;
+
+LEXICON PASS-T-AR
+
+%<pass%>:%>%{i%}%{L%} NECE ;
+%<pass%>:%>%{i%}%{L%} NON-FINITE ;
+%<pass%>:%>%{i%}%{L%} GERUND ;
+%<pass%>:%>%{i%}%{L%} ABIL-AR ;
+%<pass%>:%>%{i%}%{L%} NEG ;
+%<pass%>:%>%{i%}%{L%} AOR-AR ;
+%<pass%>:%>%{i%}%{L%} AOR-AR-CONDITIONAL ;
+CAUS-T-AR ;
 NECE ;
 NON-FINITE ;
 GERUND ;
@@ -512,14 +543,14 @@ NECE ;
 NON-FINITE ;
 
 
-LEXICON CAUS-T-IR
+LEXICON CAUS-T-AR
 %<caus%>:%>t NEG ;
 %<caus%>:%>t FINITE-VERBS-IR ;
 %<caus%>:%>t ABIL-IR ;
 %<caus%>:%>t NECE ;
 %<caus%>:%>t NON-FINITE ;
 NEG ;
-FINITE-VERBS-IR ;
+FINITE-VERBS-AR ;
 ABIL-IR ;
 NECE ;
 NON-FINITE ;
@@ -568,9 +599,9 @@ GERUND ;
 
 LEXICON ABIL-AR-CONDITIONAL
 
-%<abilcond%>:%>%{A%}bilse PERS2  ;
-%<neg%>%<abilcond%>:%>%{y%}%{A%}m%{A%}z%>s%{A%} PERS2-NO3PL ;
-%<neg%>%<abilcond%>%<p3%>%<pl%>:%>%{y%}%{A%}m%{A%}z%>l%{A%}r%>s%{A%} # ;
+%<abil%>%<cond%>:%>%{A%}bilse PERS2  ;
+%<neg%>%<abil%>%<cond%>:%>%{y%}%{A%}m%{A%}z%>s%{A%} PERS2-NO3PL ;
+%<neg%>%<abil%>%<cond%>%<p3%>%<pl%>:%>%{y%}%{A%}m%{A%}z%>l%{A%}r%>s%{A%} # ;
 
 LEXICON ABIL-IR
 %<abil%>:%>%{y%}%{A%}bil FINITE-VERBS-IR ;
@@ -901,6 +932,44 @@ LEXICON V-TV-DIR-AR
 %<v%>%<tv%>: AORIST-AR-PERFECT ;
 %<v%>%<tv%>: ABIL-AR-CONDITIONAL;
 
+LEXICON V-TV-T-AR 
+
+%<v%>%<tv%>: CAUS-T-IR ;
+%<v%>%<tv%>: AOR-AR ;
+%<v%>%<tv%>: REC-T-AR ;
+%<v%>%<tv%>: PASS-T-AR ;
+%<v%>%<tv%>: REF-T-AR ;
+%<v%>%<tv%>: AOR-AR-CONDITIONAL ;
+%<v%>%<tv%>: ABIL-AR ;
+%<v%>%<tv%>: FINITE-VERBS-AR ;
+%<v%>%<tv%>: NEG ;
+%<v%>%<tv%>: NECE ;
+%<v%>%<tv%>: CONDITIONAL ;
+%<v%>%<tv%>: NON-FINITE ;
+%<v%>%<tv%>: GERUND ;
+%<v%>%<tv%>: IMPERATIVE ;
+%<v%>%<tv%>: CONDITIONAL-CONTINUOUS ;
+%<v%>%<tv%>: CONDITIONAL-EVIDENTIAL ;
+%<v%>%<tv%>: CONDITIONAL-PAST ; 
+%<v%>%<tv%>: EVIDENTIAL-CONDITIONAL ;
+%<v%>%<tv%>: EVIDENTIAL-CONTINUOUS ;
+%<v%>%<tv%>: EVIDENTIAL-PAST ;
+%<v%>%<tv%>: EVIDENTIAL-PERFECT ;
+%<v%>%<tv%>: FUTURE ;
+%<v%>%<tv%>: FUTURE-CONDITIONAL ;
+%<v%>%<tv%>: FUTURE-PERFECT ;
+%<v%>%<tv%>: IMPERFECTIVE ;
+%<v%>%<tv%>: PAST ;
+%<v%>%<tv%>: PAST-CONDITIONAL ;
+%<v%>%<tv%>: PAST-CONTINUOUS ;
+%<v%>%<tv%>: PRESENT-CONTINUOUS ;
+%<v%>%<tv%>: FUTURE-EVIDENTIAL ;
+%<v%>%<tv%>: EXHORTATIVE ;
+%<v%>%<tv%>: JUSSIVE ;
+%<v%>%<tv%>: AORIST-AR-PERFECT ;
+%<v%>%<tv%>: ABIL-AR-CONDITIONAL;
+
+
 LEXICON V-IV-DIR-AR 
 
 %<v%>%<iv%>: IV-CAUS-DIR-IR ;
@@ -951,4 +1020,4 @@ git:gi%{t%} V-IV-DIR-AR ; ! "go"
 öl:öl V-IV-DIR-IR ; ! "die"
 
 de:d%{e%} V-IV-DIR-IR ; ! "say"
-oyna:oyna V-TV-T-IR ; ! "play"
+oyna:oyna V-TV-T-AR ; ! "play"
