@@ -784,7 +784,20 @@ LEXICON PERS6 !!! USED By Exhortative
 %<p1%>%<pl%>:%>%{y%}%{A%}l%{I%}m  CLIT ;
 
 
+LEXICON Verbs
 
+al:al V-TV-DIR-IR ; ! "buy"
+yap:yap V-TV-DIR-AR ; ! "make, do"
+aç:a%{ç%} V-TV-DIR-AR ; ! "open"
+et:e%{t%} V-TV-DIR-AR ; ! "make"
+kes:kes V-TV-DIR-AR ; ! "cut"
+
+gir:gir V-IV-DIR-AR ; ! enter"
+git:gi%{t%} V-IV-DIR-AR ; ! "go"
+öl:öl V-IV-DIR-IR ; ! "die"
+
+de:d%{e%} V-IV-DIR-IR ; ! "say"
+oyna:oyna V-TV-T-IR ; ! "play"
 
 
 
