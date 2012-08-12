@@ -14,7 +14,7 @@ Alphabet
 
  %{f%}:0 %{b%}:0
 
- %{t%}:t %{ç%}:ç
+ %{t%}:t %{ç%}:ç %{e%}:e
 
  %{pN%}:0
 
@@ -34,7 +34,7 @@ SurVow = İ Ü E Ö I U A O
 
 Vow    = İ Ü E Ö I U A O
          i ü e ö ı u a o
-       %{A%} %{I%} ;
+       %{A%} %{I%} %{e%} ;
 
 Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z 
          b c ç d f g ğ h j k l m n p q r s ş t v w y z 
@@ -44,7 +44,7 @@ HardVow  = a ı o u
            A I O U ;
 
 SoftVow  = e i ö ü 
-           E   Ö Ü ;
+           E İ Ö Ü ;
 
 FlatVow  = a e i ı 
            A E   I ;
@@ -71,6 +71,7 @@ Rules
 
 "Vowel {i} surfacing and harmonising"
 %{i%}:Vy <=> [ :LastVowel :Cns* :Cns ] %>: _ [ %{L%}: | :Cns ]/[ :0 ]  ;
+             [ :LastVowel [ :Cns* | %>: ] :Cns ] %>: _ [ %{L%}: | :Cns ]/[ :0 ]  ; ! oynatırım
         where 
             LastVowel in ( i ü e ö ı u a o )
                    Vy in ( i ü i ü ı u ı u ) 
@@ -78,6 +79,8 @@ Rules
 
 ! yap>{i}yor            = yapıyor    =   y:y a:a p:p >:0 {i}:ı y:y o:o r:r
 ! yap>{D}{I}r>{i}r>{I}m = yaptırırım =   y:y a:a p:p >:0 {D}:t {I}:ı r:r >:0 {i}:ı r:r >:0 {I}:ı m:m
+! oyna>{i}{L}>{I}yor>   = oynalıyor  =   o:o y:y n:n a:a >:0 {i}:0 {L}:l >:0 {i}:ı y:y o:o r:r 
+! oyna>t>{i}r>{I}m      = oynatırım  =   o:o y:y n:n a:a >:0 t:t >:0 {i}:ı r:r >:0 {I}:ı m:m
 
 "Vowel {a} surfacing and harmonising"
 %{a%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ %>: | :0 | %   ] _ %>: [ :Cns ]/[ :0 ]  ;
@@ -109,6 +112,16 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 ! e{t}>iyor          = ediyor
 
 
+"Vowel deletion in verb stems"
+Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
+        where
+            Cx in ( %{e%} ) 
+            Cy in (   0   ) 
+        matched ; 
+!
+! d{e}>iyor          = diyor
+
+
 "Devoicing of archiphoneme {D} after Cnsdev"
 %{D%}:t <=> :Cnsdev %>: _ ; 
 
@@ -136,9 +149,10 @@ Cx:Cy <=>   :SurVow (:0) %>: _ ;
 ! anne>{y}{I}       = anneyi   = 
 
 "Prevocalic consonant voicing"
-Cx:Cy <=> :Vow (:0) _ %>: (:0) :Vow ;
+Cx:Cy <=> :Vow (:0) _ %>: (:0) :SurVow ;
           except
-                 :n _ %>: (:0) :Vow ;
+                 :n _ %>: (:0) :SurVow ;
+                    _ %>: (:0) %{i%}: ;
           where Cx in ( t k ç ) ! p
                 Cy in ( d ğ c ) ! b
                 matched;
@@ -162,4 +176,8 @@ k:g <=> :n _ %>: (:0) :Vow ;
 ! memelerinden
 ! arabasında
 
+"Consonant alternation in passive"
+%{L%}:n <=>  [ :Vow | :l ]  %>: _ ;
+             [ :Vow | :l ]  %>: %{i%}: _ ; 
+             [ %{e%}: | :Vow | :l ]  %>: %{i%}:i _ ; 
 

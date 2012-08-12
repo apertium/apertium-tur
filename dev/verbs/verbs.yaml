@@ -17,4 +17,7 @@ Tests:
      yap<v><tv><aor><p1><sg> : yaparım
 
   "Abilitative Conditional":
-     yap<v><tv><abilcond><p1><sg>: yapabilsem
+     yap<v><tv><abil><cond><p1><sg>: yapabilsem
+
+  "Causative":
+     oyna<v><tv><caus><aor><p1><sg> : oynatırım
