@@ -413,7 +413,7 @@ LEXICON PASS-DIR-AR
 %<pass%>:%>%{i%}%{L%} ABIL-AR ;
 %<pass%>:%>%{i%}%{L%} NEG ;
 %<pass%>:%>%{i%}%{L%} AOR-IR ;
-%<pass%>:%>%{i%}%{L%} AOR-AR-CONDITIONAL ;
+%<pass%>:%>%{i%}%{L%} AOR-IR-CONDITIONAL ;
 CAUS-DIR-AR ;
 NECE ;
 NON-FINITE ;
@@ -431,7 +431,7 @@ LEXICON PASS-T-AR
 %<pass%>:%>%{i%}%{L%} ABIL-AR ;
 %<pass%>:%>%{i%}%{L%} NEG ;
 %<pass%>:%>%{i%}%{L%} AOR-AR ;
-%<pass%>:%>%{i%}%{L%} AOR-AR-CONDITIONAL ;
+%<pass%>:%>%{i%}%{L%} AOR-IR-CONDITIONAL ;
 CAUS-T-AR ;
 NECE ;
 NON-FINITE ;
