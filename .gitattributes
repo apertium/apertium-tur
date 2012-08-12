@@ -25,6 +25,7 @@ dev/proof-lexicon.sh -text
 dev/turkish.py -text
 dev/unknown -text
 dev/verb-morph.lexc -text
+dev/verbs/Clean_FILE -text
 dev/verbs/Makefile -text
 dev/verbs/VERBS-scraps -text
 dev/verbs/VERBS-scraps.lexc -text
