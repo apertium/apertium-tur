@@ -236,6 +236,38 @@ POSS-REAL ;
 CASE-ETC ;
 !ABE-ETC ;
 
+LEXICON LIK 
+
+!!! Here we are with a very weird derivational suffix. -l<I>k is a very weird suffix, resembling
+!!! -ness in English, -ezza -ità in Italian. -l<I>k can be attached to either nouns or adjectives
+!!! or even adverbs 
+!!! i.e.  kral "king" + l<I>k = krallık "kingdom" 
+!!! i.e.  yorgun "tired" + l<I>k =yorgunluk "tiredness" 
+!!! i.e.  yavaş "slow" + l<I>k = yavaşlık  "slowness" 
+!!! One may argue that yavaş and yorgun may be both adverbs and adjectives
+!!! The question within turkish is a bit shady and there is no real difference 
+!!! between modifiers. In other words, for now we simply don't care.
+
+%<n_lik%>: l%{I%}k SUBST ;
+
+LEXICON LI
+
+!!! -l<I> is a suffix making adjectives out of nouns and other adjectives.
+!!! Note that together with a name of country/city/town it makes the name of the inhabitant.
+!!! It's one of the few suffixes not taking ' when matching a Proper Noun
+!!! i.e. Ankara + l<I> = Ankaralı
+
+%<adj_li%>: l%{I%} ATTR ; 
+
+LEXICON LA
+
+!!! It may be argued that L<A> is comitative/instrumental case, as it takes the same slot of 
+!!! cases (given that they exist, lol). Anyway, for practical purposes we are setting it also separated
+!!! It may be removed later on
+
+
+%<adj_li%>: l%{A%} ATTR ;  
+
 LEXICON CASE 
 
 %<nom%>: CLIT-GENERAL ;               
