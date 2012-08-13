@@ -1838,10 +1838,6 @@ uç:uç V-IV-IR-AR ; ! "fly"
 yit:yit V-IV-IR-AR ; ! "vanish"
 şaş:şaş V-TV-IR-AR ; ! "wonder"
 şiş:şiş V-IV-IR-AR ; ! "swell"
-!LEXICON VIVINFL-CAUS_T-AOR_AR
-LEXICON V-IV-T-IR
-!LEXICON VTVINFL-CAUS_T-AOR_AR
-LEXICON V-TV-T-IR
 oku:oku V-TV-T-IR ; ! "read"
 söyle:söyle V-TV-T-IR ; ! "say"
 bekle:bekle V-TV-T-IR ; ! "wait"
