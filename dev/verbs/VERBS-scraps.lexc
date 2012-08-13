@@ -477,14 +477,18 @@ AOR-AR-CONDITIONAL ;
 LEXICON REC-DIR-IR
 
 %<rec%>:%>%{i%}ş CAUS-DIR-IR ;
+%<rec%>:%>%{i%}ş CAUS-IR-AR ;
 %<rec%>:%>%{i%}ş NECE ;
 CAUS-DIR-IR ;
+CAUS-IR-AR ;
 NECE ;
 
 LEXICON REF-DIR-IR
 %<ref%>:%>%{i%}n CAUS-DIR-IR ;
+%<ref%>:%>%{i%}n CAUS-IR-AR ;
 %<ref%>:%>%{i%}n NECE ;
 CAUS-DIR-IR ;
+CAUS-IR-AR ;
 NECE ;
 
 LEXICON IV-REC-DIR-IR
@@ -512,6 +516,7 @@ LEXICON PASS-DIR-IR
 
 AOR-IR-CONDITIONAL ;
 CAUS-DIR-IR ;
+CAUS-IR-AR ;
 NECE ;
 NON-FINITE ;
 GERUND ;
@@ -532,6 +537,23 @@ FINITE-VERBS-IR ;
 ABIL-IR ;
 NECE ;
 NON-FINITE ;
+
+LEXICON CAUS-IR-AR
+
+%<caus%>:%>%{i%}r NEG ;
+%<caus%>:%>%{i%}r FINITE-VERBS-AR ;
+%<caus%>:%>%{i%}r ABIL-IR ;
+%<caus%>:%>%{i%}r NECE ;
+%<caus%>:%>%{i%}r NON-FINITE ;
+%<caus%>:%>%{i%}r PASS-DIR-IR ;
+PASS-DIR-IR ;
+NEG ;
+FINITE-VERBS-AR ;
+ABIL-IR ;
+NECE ;
+NON-FINITE ;
+
+
 
 LEXICON IV-CAUS-DIR-IR
 %<caus%>:%>%{D%}%{I%}r NEG ;
@@ -889,6 +911,47 @@ LEXICON V-TV-DIR-IR
 %<v%>%<tv%>: JUSSIVE ;
 
 
+LEXICON V-TV-IR-AR
+
+
+%<v%>%<tv%>: CAUS-IR-AR ;
+%<v%>%<tv%>: AOR-IR ;
+
+%<v%>%<tv%>: REC-DIR-IR ;
+%<v%>%<tv%>: PASS-DIR-IR ;
+%<v%>%<tv%>: REF-DIR-IR ;
+
+%<v%>%<tv%>: ABIL-IR ;
+
+%<v%>%<tv%>: FINITE-VERBS-IR ;
+
+%<v%>%<tv%>: NEG ;
+%<v%>%<tv%>: NECE ;
+%<v%>%<tv%>: CONDITIONAL ;
+%<v%>%<tv%>: NON-FINITE ;
+%<v%>%<tv%>: GERUND ;
+%<v%>%<tv%>: IMPERATIVE ;
+%<v%>%<tv%>: CONDITIONAL-CONTINUOUS ;
+%<v%>%<tv%>: CONDITIONAL-EVIDENTIAL ;
+%<v%>%<tv%>: CONDITIONAL-PAST ; 
+%<v%>%<tv%>: EVIDENTIAL-CONDITIONAL ;
+%<v%>%<tv%>: EVIDENTIAL-CONTINUOUS ;
+%<v%>%<tv%>: EVIDENTIAL-PAST ;
+%<v%>%<tv%>: EVIDENTIAL-PERFECT ;
+%<v%>%<tv%>: FUTURE ;
+%<v%>%<tv%>: FUTURE-CONDITIONAL ;
+%<v%>%<tv%>: FUTURE-PERFECT ;
+%<v%>%<tv%>: IMPERFECTIVE ;
+%<v%>%<tv%>: PAST ;
+%<v%>%<tv%>: PAST-CONDITIONAL ;
+%<v%>%<tv%>: PAST-CONTINUOUS ;
+%<v%>%<tv%>: PRESENT-CONTINUOUS ;
+%<v%>%<tv%>: FUTURE-EVIDENTIAL ;
+%<v%>%<tv%>: AOR-IR-CONDITIONAL ;
+%<v%>%<tv%>: AORIST-IR-PERFECT ;
+%<v%>%<tv%>: EXHORTATIVE ;
+%<v%>%<tv%>: JUSSIVE ;
+
 LEXICON V-IV-DIR-IR
 
 %<v%>%<iv%>: IV-CAUS-DIR-IR ;
@@ -1051,3 +1114,5 @@ git:gi%{t%} V-IV-DIR-AR ; ! "go"
 
 de:d%{e%} V-IV-DIR-IR ; ! "say"
 oyna:oyna V-TV-T-AR ; ! "play"
+taş:taş V-TV-IR-AR ; ! ""
+
