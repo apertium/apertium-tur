@@ -61,6 +61,8 @@ Rules
 
 "Vowel harmony for archiphoneme {I}"
 %{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 | %>: | %  ] _ ;
+        except
+                                             %{e%}:0 %>: _ ;
         where 
             LastVowel in ( i ü e ö ı u a o )
                    Vy in ( i ü i ü ı u ı u ) 
@@ -68,6 +70,11 @@ Rules
 
 ! ev>{s}{I}         = evi      =     e:e v:v >:0 {s}:0 {I}:i
 ! akü>{n}{I}n       = akünün   = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
+
+"Special harmony for {e}"
+%{I%}:i <=> %{e%}:0 %>: _ ; 
+
+! 
 
 "Vowel {i} surfacing and harmonising"
 %{i%}:Vy <=> [ :LastVowel :Cns* :Cns ] %>: _ [ %{L%}: | :Cns ]/[ :0 ]  ;
