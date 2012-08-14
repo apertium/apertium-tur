@@ -164,9 +164,6 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :SurVow ;
                 Cy in ( d ğ c ) ! b
                 matched;
 
-!"Word final consonant devoicing"
-!b:p <=> _ (%>:) [ .#. | %{D%}: ] ;
-
 ! kitab>            = kitap
 ! kitab>{D}{A}n     = kitaptan   = 
 

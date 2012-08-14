@@ -108,6 +108,7 @@ Multichar_Symbols
 %{s%}		   ! Becomes "s" after a vowel, otherwise null
 %{i%}		   ! Becomes as "i" after a consonant, otherwise null
 %{pN%}		   ! Becomes "n" before dat abl loc and after 3p poss, otherwise null
+%{e%}
 
 %{f%}              ! Enforce front harmony
 %{b%}              ! Enforce back harmony
