@@ -145,7 +145,80 @@ LEXICON Root
 Verbs ; 
 Nouns ;
 
-!!!!!!!!!!!!!!!!!!!!!!     NOMINAL INFLECTION (N-INFL-COMMON)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+LEXICON LIK 
+
+!!! Here we are with a very weird derivational suffix. -l<I>k is a very weird suffix, resembling
+!!! -ness in English, -ezza -ità in Italian. -l<I>k can be attached to either nouns or adjectives
+!!! or even adverbs 
+!!! i.e.  kral "king" + l<I>k = krallık "kingdom" 
+!!! i.e.  yorgun "tired" + l<I>k =yorgunluk "tiredness" 
+!!! i.e.  yavaş "slow" + l<I>k = yavaşlık  "slowness" 
+!!! One may argue that yavaş and yorgun may be both adverbs and adjectives
+!!! The question within turkish is a bit shady and there is no real difference 
+!!! between modifiers. In other words, for now we simply don't care.
+
+%<n_lik%>:%>l%{I%}k SUBST ;
+
+LEXICON LI
+
+!!! -l<I> is a suffix making adjectives out of nouns and other adjectives.
+!!! Note that together with a name of country/city/town it makes the name of the inhabitant.
+!!! It's one of the few suffixes not taking ' when matching a Proper Noun
+!!! i.e. Ankara + l<I> = Ankaralı
+
+%<adj_li%>:%>l%{I%} ATTR ; 
+
+LEXICON LA
+
+!!! It may be argued that L<A> is comitative/instrumental case, as it takes the same slot of 
+!!! cases (given that they exist, lol). Anyway, for practical purposes we are setting it also separated
+!!! It may be removed later on
+
+%<adj_li%>:%>l%{A%} ATTR ;  
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON CLIT
+
+%+mı%<qst%>:% m%{I%} V-PERS-COP-G2-NOSG3-FINAL ; 
+# ;  !! This is the end of word marker.
+
+!LEXICON V-PERS-COP
+
+!%+i%<cop%>%<pres%>: V-PERS-COP-G2-NOSG3-FINAL ;
+!%+i%<cop%>%<rel%>:%>ken # ;
+
+LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears only
+                        ! after nominal parts of speech (and only after some cases).
+                        ! FIXME: to be checked whether leads to any overgeneration
+CLIT ;
+!V-PERS-COP ;
+COP ;
+
+LEXICON SUBST
+
+N-INFL-COMMON ; 
+%<pl%>:%>l%{A%}r N-INFL-COMMON ;
+
+LEXICON ATTR ! Adjective inflection
+
+CLIT ; 
+# ; 
+
+LEXICON ATTR-SUBST
+
+%<attr%>: CLIT ;
+%<subst%>: CASE ;
+%<subst%>%<pl%>:%>%{L%}%{A%}r CASE ;
 
 LEXICON N-INFL-COMMON
 
@@ -161,12 +234,15 @@ LEXICON CASE
 %<acc%>:%>%{y%}%{I%} CLIT ;
 %<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   
 %<abl%>:%>%{D%}%{A%}n CLIT-GENERAL ;  
+%<ins%>:%>%{y%}l%{A%} CLIT-GENERAL ;  
 
 !!!! POSSESSIVES
 
 LEXICON GENPOSS-ETC 
 
-CASE ;
+%<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
+%<px%>:%>%{n%}%{I%}ki%{pN%} CASE ;
+!CASE ;
 
 LEXICON CASE-ETC
 
@@ -181,7 +257,6 @@ LEXICON POSS-REAL
 %<px1pl%>:%>%{i%}m%{I%}z CASE-ETC ;           
 %<px2pl%>:%>%{i%}n%{I%}z CASE-ETC ;      
 %<px3pl%>:%>l%{A%}r%{I%}%{pN%} CASE-ETC ;  
-
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Noun paradigms
@@ -208,6 +283,7 @@ LEXICON N4 ! Nouns with usage as postpositions.
            ! e.g. arka: arkasına, iç: içinde
 
 %<n%>: SUBST ; 
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -261,117 +337,6 @@ DEGIL ;
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-LEXICON CLIT
-
-%+mı%<qst%>:% m%{I%} V-PERS-COP-G2-NOSG3-FINAL ; 
-# ;  !! This is the end of word marker.
-
-!LEXICON V-PERS-COP
-
-!%+i%<cop%>%<pres%>: V-PERS-COP-G2-NOSG3-FINAL ;
-!%+i%<cop%>%<rel%>:%>ken # ;
-
-LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears only
-                        ! after nominal parts of speech (and only after some cases).
-                        ! FIXME: to be checked whether leads to any overgeneration
-CLIT ;
-!V-PERS-COP ;
-COP ;
-
-
-LEXICON SUBST
-
-N-INFL-COMMON ; 
-%<pl%>:%>l%{A%}r N-INFL-COMMON ;
-
-LEXICON ATTR-SUBST
-
-%<attr%>: CLIT ;
-%<subst%>: CASE ;
-%<subst%>%<pl%>:%>%{L%}%{A%}r CASE ;
-
-
-LEXICON N-INFL-COMMON
-
-POSS-REAL ;
-CASE-ETC ;
-!ABE-ETC ;
-
-LEXICON LIK 
-
-!!! Here we are with a very weird derivational suffix. -l<I>k is a very weird suffix, resembling
-!!! -ness in English, -ezza -ità in Italian. -l<I>k can be attached to either nouns or adjectives
-!!! or even adverbs 
-!!! i.e.  kral "king" + l<I>k = krallık "kingdom" 
-!!! i.e.  yorgun "tired" + l<I>k =yorgunluk "tiredness" 
-!!! i.e.  yavaş "slow" + l<I>k = yavaşlık  "slowness" 
-!!! One may argue that yavaş and yorgun may be both adverbs and adjectives
-!!! The question within turkish is a bit shady and there is no real difference 
-!!! between modifiers. In other words, for now we simply don't care.
-
-%<n_lik%>: l%{I%}k SUBST ;
-
-LEXICON LI
-
-!!! -l<I> is a suffix making adjectives out of nouns and other adjectives.
-!!! Note that together with a name of country/city/town it makes the name of the inhabitant.
-!!! It's one of the few suffixes not taking ' when matching a Proper Noun
-!!! i.e. Ankara + l<I> = Ankaralı
-
-%<adj_li%>: l%{I%} ATTR ; 
-
-LEXICON LA
-
-!!! It may be argued that L<A> is comitative/instrumental case, as it takes the same slot of 
-!!! cases (given that they exist, lol). Anyway, for practical purposes we are setting it also separated
-!!! It may be removed later on
-
-
-%<adj_li%>: l%{A%} ATTR ;  
-
-LEXICON CASE 
-
-%<nom%>: CLIT-GENERAL ;               
-%<gen%>:%>%{n%}%{I%}n CLIT ;      
-%<dat%>:%>%{y%}%{A%} CLIT ;   
-%<acc%>:%>%{y%}%{I%} CLIT ;
-%<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   
-%<abl%>:%>%{D%}%{A%}n CLIT-GENERAL ;  
-%<ins%>:%>%{y%}l%{A%} CLIT-GENERAL ;  
-
-!!!! POSSESSIVES
-
-LEXICON GENPOSS-ETC 
-
-%<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
-%<px%>:%>%{n%}%{I%}ki%{pN%} CASE ;
-!CASE ;
-
-LEXICON CASE-ETC
-
-CASE ;
-GENPOSS-ETC ;
-  
-LEXICON POSS-REAL
-
-%<px1sg%>:%>%{I%}m CASE-ETC ;                
-%<px2sg%>:%>%{I%}n CASE-ETC ;                 
-%<px3sp%>:%>%{s%}%{I%}%{pN%} CASE-ETC ; 
-%<px1pl%>:%>%{i%}m%{I%}z CASE-ETC ;           
-%<px2pl%>:%>%{i%}n%{I%}z CASE-ETC ;      
-%<px3pl%>:%>l%{A%}r%{I%}%{pN%} CASE-ETC ;  
-
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
-LEXICON ATTR ! Adjective inflection
-
-# ; 
-COP ; 
 
 LEXICON V-PERS-COP-G2-NOSG3-FINAL
 
