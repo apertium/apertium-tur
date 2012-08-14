@@ -57,6 +57,8 @@ Multichar_Symbols
 %<px1pl%>          ! First person plural
 %<px2pl%>          ! Second person singular
 %<px%>             ! General possessive           ! NOT SURE I WANT THIS
+                   ! - Bu hangi kapı ? Evinki ya da barakanınkı ?
+                   !   "which door is that?  the house's or the shed's?"
 
 ! Cases ! "Case is a lie!" (quot.)
 
@@ -193,6 +195,7 @@ LEXICON CASE
 %<acc%>:%>%{y%}%{I%} CLIT ;
 %<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   
 %<abl%>:%>%{D%}%{A%}n CLIT-GENERAL ;  
+%<ins%>:%>%{y%}l%{A%} CLIT-GENERAL ;     
 
 !!!! POSSESSIVES
 
