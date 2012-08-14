@@ -201,6 +201,9 @@ LEXICON CASE
 
 LEXICON GENPOSS-ETC 
 
+%<px%>:%>%{n%}%{I%}ki%{pN%} CASE ;
+%<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
+
 CASE ;
 
 LEXICON CASE-ETC
