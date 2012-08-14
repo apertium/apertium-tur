@@ -369,6 +369,13 @@ LEXICON REC-T-AR
 CAUS-T-AR ;
 NECE ;
 
+LEXICON REC-T-AR
+
+%<rec%>:%>%{i%}ş CAUS-DIR-IR ;
+%<rec%>:%>%{i%}ş NECE ;
+CAUS-T-IR ;
+NECE ;
+
 LEXICON REF-DIR-AR
 %<ref%>:%>%{i%}n CAUS-DIR-AR ;
 %<ref%>:%>%{i%}n NECE ;
@@ -380,6 +387,13 @@ LEXICON REF-T-AR
 %<ref%>:%>%{i%}n NECE ;
 CAUS-T-AR ;
 NECE ;
+
+LEXICON REF-T-IR
+%<ref%>:%>%{i%}n CAUS-T-IR ;
+%<ref%>:%>%{i%}n NECE ;
+CAUS-T-IR ;
+NECE ;
+
 
 LEXICON IV-REC-DIR-AR
 
@@ -430,6 +444,24 @@ ABIL-AR ;
 NEG ;
 AOR-AR ;
 AOR-AR-CONDITIONAL ;
+
+LEXICON PASS-T-IR
+
+%<pass%>:%>%{i%}%{L%} NECE ;
+%<pass%>:%>%{i%}%{L%} NON-FINITE ;
+%<pass%>:%>%{i%}%{L%} GERUND ;
+%<pass%>:%>%{i%}%{L%} ABIL-IR ;
+%<pass%>:%>%{i%}%{L%} NEG ;
+%<pass%>:%>%{i%}%{L%} AOR-IR ;
+%<pass%>:%>%{i%}%{L%} AOR-IR-CONDITIONAL ;
+CAUS-T-IR ;
+NECE ;
+NON-FINITE ;
+GERUND ;
+ABIL-IR ;
+NEG ;
+AOR-IR ;
+AOR-IR-CONDITIONAL ;
 
 
 LEXICON REC-DIR-IR
@@ -563,6 +595,18 @@ LEXICON CAUS-T-AR
 %<caus%>:%>t NON-FINITE ;
 NEG ;
 FINITE-VERBS-AR ;
+ABIL-IR ;
+NECE ;
+NON-FINITE ;
+
+LEXICON CAUS-T-IR
+%<caus%>:%>t NEG ;
+%<caus%>:%>t FINITE-VERBS-IR ;
+%<caus%>:%>t ABIL-IR ;
+%<caus%>:%>t NECE ;
+%<caus%>:%>t NON-FINITE ;
+NEG ;
+FINITE-VERBS-IR ;
 ABIL-IR ;
 NECE ;
 NON-FINITE ;
@@ -994,6 +1038,43 @@ LEXICON V-TV-T-AR
 %<v%>%<tv%>: AOR-AR-CONDITIONAL ;
 %<v%>%<tv%>: ABIL-AR ;
 %<v%>%<tv%>: FINITE-VERBS-AR ;
+%<v%>%<tv%>: NEG ;
+%<v%>%<tv%>: NECE ;
+%<v%>%<tv%>: CONDITIONAL ;
+%<v%>%<tv%>: NON-FINITE ;
+%<v%>%<tv%>: GERUND ;
+%<v%>%<tv%>: IMPERATIVE ;
+%<v%>%<tv%>: CONDITIONAL-CONTINUOUS ;
+%<v%>%<tv%>: CONDITIONAL-EVIDENTIAL ;
+%<v%>%<tv%>: CONDITIONAL-PAST ; 
+%<v%>%<tv%>: EVIDENTIAL-CONDITIONAL ;
+%<v%>%<tv%>: EVIDENTIAL-CONTINUOUS ;
+%<v%>%<tv%>: EVIDENTIAL-PAST ;
+%<v%>%<tv%>: EVIDENTIAL-PERFECT ;
+%<v%>%<tv%>: FUTURE ;
+%<v%>%<tv%>: FUTURE-CONDITIONAL ;
+%<v%>%<tv%>: FUTURE-PERFECT ;
+%<v%>%<tv%>: IMPERFECTIVE ;
+%<v%>%<tv%>: PAST ;
+%<v%>%<tv%>: PAST-CONDITIONAL ;
+%<v%>%<tv%>: PAST-CONTINUOUS ;
+%<v%>%<tv%>: PRESENT-CONTINUOUS ;
+%<v%>%<tv%>: FUTURE-EVIDENTIAL ;
+%<v%>%<tv%>: EXHORTATIVE ;
+%<v%>%<tv%>: JUSSIVE ;
+%<v%>%<tv%>: AORIST-AR-PERFECT ;
+%<v%>%<tv%>: ABIL-AR-CONDITIONAL;
+
+LEXICON V-TV-T-IR 
+
+%<v%>%<tv%>: CAUS-T-IR ;
+%<v%>%<tv%>: AOR-IR;
+%<v%>%<tv%>: REC-T-IR ;
+%<v%>%<tv%>: PASS-T-IR ;
+%<v%>%<tv%>: REF-T-IR ;
+%<v%>%<tv%>: AOR-IR-CONDITIONAL ;
+%<v%>%<tv%>: ABIL-IR ;
+%<v%>%<tv%>: FINITE-VERBS-IR ;
 %<v%>%<tv%>: NEG ;
 %<v%>%<tv%>: NECE ;
 %<v%>%<tv%>: CONDITIONAL ;
