@@ -1181,9 +1181,7 @@ LEXICON V-IV-DIR-AR
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON ADV 
 
-%<adv%>: # ;
 
 LEXICON INTERJ
 
@@ -6231,6 +6229,44 @@ mecburen:mecburen ADV3 ; ! "compulsorily"
 metazori:metazori ADV3 ; ! "compulsory"
 muhtemelen:muhtemelen ADV3 ; ! "magnificently"
 münferiden:münferiden ADV3 ; ! "solely"
+
+
+akıllıca:akıllıca  ADV2 ; ! "smartly"
+amiyane:amiyane  ADV2 ; ! vulgarly
+apaçık:apaçık  ADV2 ; ! "obviously"
+aşağı:aşağı  ADV2 ; ! "lowly"
+az:az  ADV2 ; ! "little"
+azıcık:azıcık  ADV2 ; ! "slightly"
+başlıca:başlıca  ADV2 ; ! "chiefly"
+bertaraf:bertaraf  ADV2 ; ! "aside"
+besbelli:besbelli  ADV2 ; ! "evidently"
+bilfiil:bilfiil  ADV2 ; ! "defacto"
+bilhassa:bilhassa  ADV2 ; ! "specially"
+biteviye:biteviye  ADV2 ; ! "ceaslessly"
+çabuk:çabuk  ADV2 ; ! "fast"
+çabucak:çabucak  ADV2 ; ! "fastly"
+dahilen:dahilen  ADV2 ; ! "internally"
+direkt:direkt  ADV2 ; ! "direct"
+düpedüz:düpedüz  ADV2 ; ! "palpably"
+epey:epey  ADV2 ; ! "reasonably"
+fazla:fazla  ADV2 ; ! "excessive"
+geç:geç  ADV2 ; ! "late"
+geri:geri  ADV2 ; ! "back""inverted"
+gerisingeri:gerisingeri  ADV2 ; ! "backwards"
+gerisingeriye:gerisingeriye  ADV2 ; ! "backwards"
+gitgide:gitgide  ADV2 ; ! "gradually"
+gıyaben:gıyaben  ADV2 ; ! "inabsentia"
+hakimane:hakimane  ADV2 ; ! "philosophically"
+halisane:halisane ADV2 ! "sincerely"
+ilk:ilk ADV2 ; ! "first"
+irticalen:irticalen ADV2 ; ! "impromptu"
+kısmen:kısmen ADV2 ; ! "partly" "tolerable"
+kuşkusuz:kuşkusuz ADV2 ; ! "indubitably"
+masumane:masumane ADV2 ; ! "innocent/ly"
+zor:zor ADV2 ; ! "hard"
+
+acele:acele ADV1 ; ! "fastly"
+
 
 
 
