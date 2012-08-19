@@ -1370,6 +1370,7 @@ bu:bu DET-DEM ; ! "this"
 
 hep:hep DET-QNT ; ! "no"
 bir:bir DET-IND ; ! "a, one"
+birkaç:birkaç DET-IND ; ! "some"
 
 hiç% bir:hiç% bir DET-NEG ; ! ""
 
@@ -1386,7 +1387,6 @@ hiç% bir:hiç% bir DET-NEG ; ! ""
 күпләгән:күпләгән DET-QNT ; ! ""
 һәрбер:һәрбер DET-QNT ; ! ""
 һәртөрле:һәртөрле DET-QNT ; ! ""
-берәр:берәр DET-IND ; ! "some"
 әллә% кай:әллә% кай DET-IND ; ! "" Use/MT
 кайбер:кайбер DET-IND ; ! "some"
 кайсыбер:кайсыбер DET-IND ; ! "some"
