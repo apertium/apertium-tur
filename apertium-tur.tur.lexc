@@ -326,7 +326,7 @@ LEXICON NUM
 %<num%>%<subst%>: SUBST ;                           ! Beşi görüyorum.
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!! Adverbs paradigms
+!! Adverb paradigms
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON ADV1
@@ -343,6 +343,30 @@ LEXICON ADV2
 LEXICON ADV3
 
 %<adv%>: # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! Adjective paradigms
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON A1
+
+%<adj%>: # ; 
+%<adj%>%<subst%>: SUBST ;
+%<adj%>%<advl%>: # ;
+
+LEXICON A2
+
+%<adj%>: # ;
+%<adj%>%<subst%>: SUBST ;
+
+LEXICON A3
+
+%<adj%>: # ;
+%<adj%>%<advl%>: # ;
+
+LEXICON A4
+
+%<adj%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Verb paradigms
@@ -6879,6 +6903,11 @@ Gilan% Eyaleti:Gilan% Eyaleti NP2-TOP ; ! ""
 Kıbrıs% Cumhuriyeti:Kıbrıs% Cumhuriyeti NP2-TOP ; ! ""
 Sırp% Cumhuriyeti:Sırp% Cumhuriyeti NP2-TOP ; ! "Respublika Srpska"
 Sovyet% Sosyalist% Cumhuriyetler% Birliği:Sovyet% Sosyalist% Cumhuriyetler% Birliği NP2-TOP ; ! ""
+
+LEXICON Adjectives
+
+var:var A4 ; ! "existing" 
+yok:yok A4 ; ! "non-existing"
 
 LEXICON Adverbs 
 
