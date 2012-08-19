@@ -1369,6 +1369,8 @@ bu:bu DET-DEM ; ! "this"
 şu:şu DET-DEM ; ! "this"
 
 hep:hep DET-QNT ; ! "no"
+bütün:bütün DET-QNT ; ! "every"
+
 bir:bir DET-IND ; ! "a, one"
 birkaç:birkaç DET-IND ; ! "some"
 
@@ -1383,7 +1385,6 @@ hiç% bir:hiç% bir DET-NEG ; ! ""
 барлык:барлык DET-QNT ; ! ""
 берничә:берничә DET-QNT ; ! "some"
 бер% рәт:бер% рәт DET-QNT ; ! "several" Use/MT
-бөтен:бөтен DET-QNT ; ! ""
 күпләгән:күпләгән DET-QNT ; ! ""
 һәрбер:һәрбер DET-QNT ; ! ""
 һәртөрле:һәртөрле DET-QNT ; ! ""
