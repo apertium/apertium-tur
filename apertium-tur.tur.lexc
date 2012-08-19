@@ -813,6 +813,9 @@ LEXICON AOR-AR-CONDITIONAL
 %<neg%>%<aorcond%>:%>m%{A%}z%>s%{A%} PERS2-NO3PL ;
 %<neg%>%<aorcond%>%<p3%>%<pl%>:%>m%{A%}z%>l%{A%}r%>s%{A%} # ;
 
+
+
+
 LEXICON ABIL-AR
 %<abil%>:%>%{y%}%{A%}bil FINITE-VERBS-IR ;
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{a%} FINITE-VERBS-IR ;
@@ -896,6 +899,12 @@ LEXICON EVIDENTIAL-PAST
 
 %<evid%>:%>m%{I%}ş PERS1 ;
 %<evid%>:%>m%{I%}ş KEN ;
+
+
+LEXICON DOUBLE-EVIDENTIAL
+
+%<evid2%>:%>m%{I%}şm%{I%}ş PERS1 ;
+%<neg%>%<evid2%>:%>m%{A%}m%{I%}şm%{I%}ş PERS1 ;
 
 LEXICON EVIDENTIAL-PERFECT
 
@@ -1085,6 +1094,8 @@ LEXICON V-TV-DIR-IR
 %<v%>%<tv%>: AORIST-IR-PERFECT ;
 %<v%>%<tv%>: EXHORTATIVE ;
 %<v%>%<tv%>: JUSSIVE ;
+%<v%>%<tv%>: DOUBLE-EVIDENTIAL;
+
 
 
 LEXICON V-TV-IR-AR
@@ -1127,6 +1138,8 @@ LEXICON V-TV-IR-AR
 %<v%>%<tv%>: AORIST-IR-PERFECT ;
 %<v%>%<tv%>: EXHORTATIVE ;
 %<v%>%<tv%>: JUSSIVE ;
+%<v%>%<tv%>: DOUBLE-EVIDENTIAL;
+
 
 LEXICON V-IV-DIR-IR
 
@@ -1162,6 +1175,8 @@ LEXICON V-IV-DIR-IR
 %<v%>%<iv%>: AORIST-IR-PERFECT ;
 %<v%>%<iv%>: EXHORTATIVE ;
 %<v%>%<iv%>: JUSSIVE ;
+%<v%>%<iv%>: DOUBLE-EVIDENTIAL;
+
 
 
 LEXICON V-TV-DIR-AR 
@@ -1201,6 +1216,8 @@ LEXICON V-TV-DIR-AR
 %<v%>%<tv%>: JUSSIVE ;
 %<v%>%<tv%>: AORIST-AR-PERFECT ;
 %<v%>%<tv%>: ABIL-AR-CONDITIONAL;
+%<v%>%<tv%>: DOUBLE-EVIDENTIAL;
+
 
 LEXICON V-TV-T-AR 
 
@@ -1238,6 +1255,8 @@ LEXICON V-TV-T-AR
 %<v%>%<tv%>: JUSSIVE ;
 %<v%>%<tv%>: AORIST-AR-PERFECT ;
 %<v%>%<tv%>: ABIL-AR-CONDITIONAL;
+%<v%>%<tv%>: DOUBLE-EVIDENTIAL;
+
 
 LEXICON V-IV-T-IR 
 
@@ -1274,6 +1293,8 @@ LEXICON V-IV-T-IR
 %<v%>%<iv%>: JUSSIVE ;
 %<v%>%<iv%>: AORIST-AR-PERFECT ;
 %<v%>%<iv%>: ABIL-AR-CONDITIONAL;
+%<v%>%<iv%>: DOUBLE-EVIDENTIAL;
+
 
 
 
@@ -1313,6 +1334,8 @@ LEXICON V-TV-T-IR
 %<v%>%<tv%>: JUSSIVE ;
 %<v%>%<tv%>: AORIST-AR-PERFECT ;
 %<v%>%<tv%>: ABIL-AR-CONDITIONAL;
+%<v%>%<tv%>: DOUBLE-EVIDENTIAL;
+
 
 
 LEXICON V-IV-DIR-AR 
@@ -1349,7 +1372,9 @@ LEXICON V-IV-DIR-AR
 %<v%>%<iv%>: EXHORTATIVE ;
 %<v%>%<iv%>: JUSSIVE ;
 %<v%>%<iv%>: AORIST-AR-PERFECT ;
-%<v%>%<iv%>: ABIL-AR-CONDITIONAL;
+%<v%>%<iv%>: ABIL-AR-CONDITIONAL ;
+%<v%>%<iv%>: DOUBLE-EVIDENTIAL ;
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
