@@ -114,6 +114,11 @@ Multichar_Symbols
 %{f%}              ! Enforce front harmony
 %{b%}              ! Enforce back harmony
 
+%{o%}              ! Back round
+%{ı%}              ! Back unround
+%{ö%}              ! Front round
+%{i%}              ! Front unround
+
 %>
 %+
 % 
@@ -7058,14 +7063,17 @@ BiH:BiH NP1-TOP ; ! ""
 SSCB:SSCB NP1-TOP ; ! ""
 
 ! Organisations
-NATO:NATO NP1-ORG ; ! ""
-PKK:PKK NP1-ORG ; ! ""
+NATO:NATO%{o%} NP1-ORG ; ! ""
+PKK:PKK%{ı%} NP1-ORG ; ! ""
 UNMIK:UNMIK NP1-ORG ; ! ""
-IMF:IMF  NP1-ORG ; ! ""
-AFP:AFP NP1-ORG ; ! ""
+IMF:IMF%{i%}  NP1-ORG ; ! ""
+GSYİH:GSYİH%{i%}  NP1-ORG ; ! ""
+AFP:AFP%{i%} NP1-ORG ; ! ""
 UNICEF:UNICEF NP1-ORG ; ! ""
-UNESCO:UNESCO NP1-ORG ; ! ""
-WHO:WHO NP1-ORG ; ! ""
+UNESCO:UNESCO%{o%} NP1-ORG ; ! ""
+WHO:WHO%{o%} NP1-ORG ; ! ""
+PASOK:PASOK%{o%}%{r%} NP1-ORG ; ! ""
+KFOR:KFOR%{o%}%{r%} NP1-ORG ; ! ""
 
 ! Other
 Southeast% European% Times:Southeast% European% Times NP1-AL ; ! ""

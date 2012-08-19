@@ -15,6 +15,8 @@ Alphabet
  %{f%}:0 %{b%}:0
 
  %{t%}:t %{ç%}:ç %{e%}:e
+ 
+ %{o%}:0 %{i%}:0 %{ö%}:0 %{ı%}:0
 
  %{pN%}:0
 
@@ -34,7 +36,10 @@ SurVow = İ Ü E Ö I U A O
 
 Vow    = İ Ü E Ö I U A O
          i ü e ö ı u a o
-       %{A%} %{I%} %{e%} ;
+       %{A%} %{I%} %{e%} 
+       %{o%} %{i%} %{ö%} %{ı%} ;
+
+AbstrVow =  %{o%} %{i%} %{ö%} %{ı%} ;
 
 Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z 
          b c ç d f g ğ h j k l m n p q r s ş t v w y z 
@@ -74,7 +79,14 @@ Rules
 "Special harmony for {e}"
 %{I%}:i <=> %{e%}:0 %>: _ ; 
 
-! 
+! d{e}>{I}yor         = diyor      =                                 d:d {e}:0 >:0 {I}:i y:y o:o r:r
+! NATO{o}'>{n}{I}n    = NATO'nun   =           N:N A:A T:T O:O {o}:0 ':' >:0 {n}:n {I}:u n:n
+! IMF{i}'>{n}{I}n     = IMF'nin    =               I:I M:M F:F {i}:0 ':' >:0 {n}:n {I}:i n:n
+! PKK{ı}'>{n}{I}n     = PKK'nın    =               P:P K:K K:K {ı}:0 ':' >:0 {n}:n {I}:ı n:n
+! KFOR{o}{r}>{n}{I}n  = KFOR'un    =     K:K F:F O:O R:R {o}:0 {r}:0 ':' >:0 {n}:0 {I}:u n:n 
+! PASOK{o}{r}>{n}{I}n = PASOK'un   = P:P A:A S:S O:O K:K {o}:0 {r}:0 ':' >:0 {n}:0 {I}:u n:n
+
+
 
 "Vowel {i} surfacing and harmonising"
 %{i%}:Vy <=> [ :LastVowel :Cns* :Cns ] %>: _ [ %{L%}: | :Cns ]/[ :0 ]  ;
@@ -144,7 +156,7 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 ! akü>{n}{I}n       = akünün    = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
 
 "Epenthetic consonants after vowel"
-Cx:Cy <=>   :SurVow/ (%':) (:0) %>: _ ; 
+Cx:Cy <=> [ AbstrVow: | :SurVow ] (%':) (:0) %>: _ ; 
         where
             Cx in ( %{n%} %{s%} %{y%} ) 
             Cy in (   n     s     y   ) 
