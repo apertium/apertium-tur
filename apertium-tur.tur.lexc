@@ -1188,6 +1188,12 @@ LEXICON INTERJ
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON POST
+
+%<post%>: # ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 LEXICON DET-DEM
 
 %<det%>%<dem%>: # ;
@@ -1215,6 +1221,32 @@ LEXICON DET-REF
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Stem lexica
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Postpositions
+
+! Nominative
+gibi:gibi POST ; ! ""
+için:için POST ; ! ""
+ile:ile POST ; ! ""
+kadar:kadar POST ; ! ""
+
+! Dative
+doğru:doğru POST ; ! ""
+göre:göre POST ; ! ""
+kadar:kadar POST ; ! ""
+karşı:karşı POST ; ! ""
+rağmen:rağmen POST ; ! ""
+
+! Ablative
+başka:başka POST ; ! ""
+beri:beri POST ; ! ""
+bu% yana:bu% yana POST ; ! ""
+dolayı:dolayı POST ; ! ""
+ötürü:ötürü POST ; ! ""
+ibibaren:ibibaren POST ; ! ""
+önce:önce POST ; ! ""
+sonra:sonra POST ; ! ""
+yana:yana POST ; ! ""
 
 LEXICON  Conjunctions
 
