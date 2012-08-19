@@ -170,11 +170,6 @@ V-PERS-COP ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON SUBST
-
-N-INFL-COMMON ; 
-%<pl%>:%>l%{A%}r N-INFL-COMMON ;
-
 LEXICON ATTR ! Adjective inflection
 
 CLIT ;
@@ -188,12 +183,33 @@ LEXICON ATTR-SUBST
 
 !!!!!!!!!!!!!!!!!!!!!!     NOMINAL INFLECTION (N-INFL-COMMON)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-LEXICON N-INFL-COMMON
+LEXICON CASE-NONOM
+
+%<gen%>:%>%{n%}%{I%}n CLIT ;      
+%<dat%>:%>%{y%}%{A%} CLIT ;   
+%<acc%>:%>%{y%}%{I%} CLIT ;
+%<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   
+%<abl%>:%>%{D%}%{A%}n CLIT-GENERAL ;  
+%<ins%>:%>%{y%}l%{A%} CLIT-GENERAL ;     
+
+LEXICON GENPOSS-ETC-NONOM
+
+%<px%>:%>%{n%}%{I%}ki%{pN%} CASE-NONOM ;
+%<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
+
+CASE-NONOM ;
+
+LEXICON CASE-ETC-NONOM
+
+CASE-NONOM ;
+GENPOSS-ETC-NONOM ;
+
+LEXICON N-INFL-COMMON-NONOM
 
 POSS-REAL ;
-CASE-ETC ;
+CASE-ETC-NONOM ;
 !ABE-ETC ;
-
+ 
 LEXICON CASE 
 
 %<nom%>: CLIT-GENERAL ;               
@@ -227,6 +243,16 @@ LEXICON POSS-REAL
 %<px2pl%>:%>%{i%}n%{I%}z CASE-ETC ;      
 %<px3pl%>:%>l%{A%}r%{I%}%{pN%} CASE-ETC ;  
 
+LEXICON N-INFL-COMMON
+
+POSS-REAL ;
+CASE-ETC ;
+!ABE-ETC ;
+
+LEXICON SUBST
+
+N-INFL-COMMON ; 
+%<pl%>:%>l%{A%}r N-INFL-COMMON ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Noun paradigms
@@ -254,10 +280,18 @@ LEXICON N4 ! Nouns with usage as postpositions.
 
 %<n%>: SUBST ; 
 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON NP-TOP
+
+%<np%>%<top%>%<nom%>: # ;
+%<np%>%<top%>:%' N-INFL-COMMON-NONOM ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-!!!!!!!!			CONJUNCTIONS, CAUSE EVEN SENTENCES AND WORDS WANNA BE TOGETHER !!!!!!!!!!!
+!!!!!!!!	CONJUNCTIONS, CAUSE EVEN SENTENCES AND WORDS WANNA BE TOGETHER !!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON CA
@@ -6216,6 +6250,12 @@ yak:yak N4 ; ! "close"
 !esna:esna N4 ; ! ""
 !ard:ard N4 ; ! ""
 !hal:hal N4 ; ! ""
+
+LEXICON ProperNouns
+
+Sırbistan:Sırbistan NP-TOP ; ! "Serbia"
+
+
 
 LEXICON Adverbs 
 
