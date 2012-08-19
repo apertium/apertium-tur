@@ -116,6 +116,7 @@ Multichar_Symbols
 %>
 %+
 % 
+%~
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!                       M O R P H O T A C T I C S                         !!!
@@ -1190,6 +1191,122 @@ LEXICON INTERJ
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Stem lexica
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON  Conjunctions
+
+ve:ve CC ; ! "and"
+ama:ama CC ; ! "but"
+ile:ile CC ; ! "and"
+ya:ya CC ; ! "either/or"
+ye:ye CC ; ! "either/or"
+veya:veya CC ; ! "either/or"
+ne:ne CC ; ! "neither/nor"
+da:da CC ; ! ""
+da:de CC ; ! "" ! Dir/LR
+fakat:fakat CC ; ! ""
+ya% da:ya% da CC ; ! ""
+ya da:ya da CC ; 
+ama:ama CC ; 
+ancak:ancak CC ; 
+ve:ve CC ; 
+çünkü:çünkü CC ; 
+fakat:fakat CC ; 
+ha:ha CC ; 
+hem:hem CC ; 
+ila:ila CC ; 
+ile:ile CC ; 
+lakin:lakin CC ; 
+ne:ne CC ; 
+veya:veya CC ; 
+veyahut:veyahut CC ; 
+ya:ya CC ; 
+için:için CC ; 
+gerek:gerek CC ; 
+ha:ha CC ; 
+kah:kah CC ; 
+ne:ne CC ; 
+
+ki:ki CS ; 
+diye:diye CS ; 
+olarak:olarak CS ; 
+gibi:gibi CS ; 
+eğer:eğer CS ; 
+şayet:şayet CS ; 
+
+adeta:adeta CA ; 
+aksine:aksine CA ; 
+ama:ama CA ; 
+ancak:ancak CA ; 
+bari:bari CA ; 
+belki:belki CA ; 
+bilakis:bilakis CA ; 
+bile:bile CA ; 
+çünkü:çünkü CA ; 
+da:%~da CA ; ! Dir/RL
+da:da CA ; ! Dir/LR
+da:de CA ; ! Dir/LR
+dahası:dahası CA ; 
+demek:demek CA ; 
+dolayısıyla:dolayısıyla CA ; 
+fakat:fakat CA ; 
+halbuki:halbuki CA ; 
+hani:hani CA ; 
+hatta:hatta CA ; 
+hele:hele CA ; 
+işte:işte CA ; 
+ister:ister CA ; 
+keşke:keşke CA ; 
+keza:keza CA ; 
+ki:ki CA ; 
+kısacası:kısacası CA ; 
+lakin:lakin CA ; 
+mamafih:mamafih CA ; 
+meğer:meğer CA ; 
+meğerki:meğerki CA ; 
+meğerse:meğerse CA ; 
+mesela:mesela CA ; 
+nasılsa:nasılsa CA ; 
+neyse:neyse CA ; 
+nitekim:nitekim CA ; 
+olsun:olsun CA ; 
+örneğin:örneğin CA ; 
+öyleyse:öyleyse CA ; 
+oysa:oysa CA ; 
+oysa ki:oysa ki CA ; 
+oysaki:oysaki CA ; 
+peki:peki CA ; 
+sonra:sonra CA ; 
+sözgelişi:sözgelişi CA ; 
+tersine:tersine CA ; 
+üstelik:üstelik CA ; 
+ve:ve CA ; 
+velhasıl:velhasıl CA ; 
+veya:veya CA ; 
+veyahut:veyahut CA ; 
+ya:ya CA ; 
+yalnız:yalnız CA ; 
+yani:yani CA ; 
+yeter:yeter CA ; 
+yok:yok CA ; 
+zaten:zaten CA ; 
+zira:zira CA ; 
+tabii% ki:tabii% ki CA ; 
+hiç% olmazsa:hiç% olmazsa CA ; 
+yok% mu:yok% mu CA ; 
+var% ya:var% ya CA ; 
+ne% de% olsa:ne% de% olsa CA ; 
+o% halde:o% halde CA ; 
+yeter% ki:yeter% ki CA ; 
+bunun% üzerine:bunun% üzerine CA ; 
+demek% ki:demek% ki CA ; 
+daha% doğrusu:daha% doğrusu CA ; 
+şöyle% ki:şöyle% ki CA ; 
+başka% bir% deyişle:başka% bir% deyişle CA ; 
+nasıl% ki:nasıl% ki CA ; 
+ne% var% ki:ne% var% ki CA ; 
+ya% da:ya% da CA ; 
+bundan% dolayı:bundan% dolayı CA ; 
+
 
 LEXICON Numerals
 
@@ -7462,121 +7579,4 @@ LEXICON Interjections
 
 evet:evet INTERJ ; ! "yes"
 hayır:hayır INTERJ ; ! "no"
-
-LEXICON  Conjunctions
-
-ve:ve CC ; ! "and"
-ama:ama CC ; ! "but"
-ile:ile CC ; ! "and"
-ya:ya CC ; ! "either/or"
-ye:ye CC ; ! "either/or"
-veya:veya CC ; ! "either/or"
-ne:ne CC ; ! "neither/nor"
-da:da CC ; ! ""
-da:de CC ; ! "" ! Dir/LR
-fakat:fakat CC ; ! ""
-ya% da:ya% da CC ; ! ""
-ya da:ya da CC ; 
-ama:ama CC ; 
-ancak:ancak CC ; 
-ve:ve CC ; 
-çünkü:çünkü CC ; 
-fakat:fakat CC ; 
-ha:ha CC ; 
-hem:hem CC ; 
-ila:ila CC ; 
-ile:ile CC ; 
-lakin:lakin CC ; 
-ne:ne CC ; 
-veya:veya CC ; 
-veyahut:veyahut CC ; 
-ya:ya CC ; 
-için:için CC ; 
-gerek:gerek CC ; 
-hem:hem CC ; 
-ha:ha CC ; 
-kah:kah CC ; 
-ne:ne CC ; 
-
-
-tabii% ki:tabii% ki CA ; 
-hiç% olmazsa:hiç% olmazsa CA ; 
-yok% mu:yok% mu CA ; 
-var% ya:var% ya CA ; 
-ne% de% olsa:ne% de% olsa CA ; 
-o% halde:o% halde CA ; 
-yeter% ki:yeter% ki CA ; 
-bunun% üzerine:bunun% üzerine CA ; 
-demek% ki:demek% ki CA ; 
-daha% doğrusu:daha% doğrusu CA ; 
-şöyle% ki:şöyle% ki CA ; 
-başka% bir% deyişle:başka% bir% deyişle CA ; 
-nasıl% ki:nasıl% ki CA ; 
-ne% var% ki:ne% var% ki CA ; 
-ya% da:ya% da CA ; 
-bundan% dolayı:bundan% dolayı CA ; 
-adeta:adeta CA ; 
-aksine:aksine CA ; 
-ama:ama CA ; 
-ancak:ancak CA ; 
-bari:bari CA ; 
-belki:belki CA ; 
-bilakis:bilakis CA ; 
-bile:bile CA ; 
-çünkü:çünkü CA ; 
-da:da CA ; 
-dahası:dahası CA ; 
-de:de CA ; 
-demek:demek CA ; 
-dolayısıyla:dolayısıyla CA ; 
-fakat:fakat CA ; 
-halbuki:halbuki CA ; 
-hani:hani CA ; 
-hatta:hatta CA ; 
-hele:hele CA ; 
-işte:işte CA ; 
-ister:ister CA ; 
-keşke:keşke CA ; 
-keza:keza CA ; 
-ki:ki CA ; 
-kısacası:kısacası CA ; 
-lakin:lakin CA ; 
-mamafih:mamafih CA ; 
-meğer:meğer CA ; 
-meğerki:meğerki CA ; 
-meğerse:meğerse CA ; 
-mesela:mesela CA ; 
-nasılsa:nasılsa CA ; 
-neyse:neyse CA ; 
-nitekim:nitekim CA ; 
-olsun:olsun CA ; 
-örneğin:örneğin CA ; 
-öyleyse:öyleyse CA ; 
-oysa:oysa CA ; 
-oysa ki:oysa ki CA ; 
-oysaki:oysaki CA ; 
-peki:peki CA ; 
-sonra:sonra CA ; 
-sözgelişi:sözgelişi CA ; 
-tersine:tersine CA ; 
-üstelik:üstelik CA ; 
-ve:ve CA ; 
-velhasıl:velhasıl CA ; 
-veya:veya CA ; 
-veyahut:veyahut CA ; 
-ya:ya CA ; 
-yalnız:yalnız CA ; 
-yani:yani CA ; 
-yeter:yeter CA ; 
-yok:yok CA ; 
-zaten:zaten CA ; 
-zira:zira CA ; 
-
-ki:ki CS ; 
-diye:diye CS ; 
-olarak:olarak CS ; 
-gibi:gibi CS ; 
-eğer:eğer CS ; 
-şayet:şayet CS ; 
-
 
