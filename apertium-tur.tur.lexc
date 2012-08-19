@@ -1198,6 +1198,44 @@ LEXICON V-TV-T-AR
 %<v%>%<tv%>: AORIST-AR-PERFECT ;
 %<v%>%<tv%>: ABIL-AR-CONDITIONAL;
 
+LEXICON V-IV-T-IR 
+
+%<v%>%<iv%>: CAUS-T-IR ;
+%<v%>%<iv%>: AOR-IR;
+%<v%>%<iv%>: REC-T-IR ;
+%<v%>%<iv%>: REF-T-IR ;
+%<v%>%<iv%>: AOR-IR-CONDITIONAL ;
+%<v%>%<iv%>: ABIL-IR ;
+%<v%>%<iv%>: FINITE-VERBS-IR ;
+%<v%>%<iv%>: NEG ;
+%<v%>%<iv%>: NECE ;
+%<v%>%<iv%>: CONDITIONAL ;
+%<v%>%<iv%>: NON-FINITE ;
+%<v%>%<iv%>: GERUND ;
+%<v%>%<iv%>: IMPERATIVE ;
+%<v%>%<iv%>: CONDITIONAL-CONTINUOUS ;
+%<v%>%<iv%>: CONDITIONAL-EVIDENTIAL ;
+%<v%>%<iv%>: CONDITIONAL-PAST ; 
+%<v%>%<iv%>: EVIDENTIAL-CONDITIONAL ;
+%<v%>%<iv%>: EVIDENTIAL-CONTINUOUS ;
+%<v%>%<iv%>: EVIDENTIAL-PAST ;
+%<v%>%<iv%>: EVIDENTIAL-PERFECT ;
+%<v%>%<iv%>: FUTURE ;
+%<v%>%<iv%>: FUTURE-CONDITIONAL ;
+%<v%>%<iv%>: FUTURE-PERFECT ;
+%<v%>%<iv%>: IMPERFECTIVE ;
+%<v%>%<iv%>: PAST ;
+%<v%>%<iv%>: PAST-CONDITIONAL ;
+%<v%>%<iv%>: PAST-CONTINUOUS ;
+%<v%>%<iv%>: PRESENT-CONTINUOUS ;
+%<v%>%<iv%>: FUTURE-EVIDENTIAL ;
+%<v%>%<iv%>: EXHORTATIVE ;
+%<v%>%<iv%>: JUSSIVE ;
+%<v%>%<iv%>: AORIST-AR-PERFECT ;
+%<v%>%<iv%>: ABIL-AR-CONDITIONAL;
+
+
+
 LEXICON V-TV-T-IR 
 
 %<v%>%<tv%>: CAUS-T-IR ;
