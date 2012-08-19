@@ -7353,6 +7353,17 @@ Zog:Zog NP1-ANT-M ; ! ""
 Zoran:Zoran NP1-ANT-M ; ! ""
 Zsolt:Zsolt NP1-ANT-M ; ! ""
 
+! Anthroponyms (girls)
+
+Sezgi:Sezgi NP1-ANT-F ; ! ""
+
+! Cognomen
+
+Grossi:Grossi NP1-COG-MF ; ! ""
+Tyers:Tyers NP1-COG-MF ; ! ""
+Salimzyanov:Salimzyanov NP1-COG-MF ; ! ""
+Washington:Washington NP1-COG-MF ; ! ""
+Erdoğan:Erdoğan NP1-COG-MF ; ! ""
 
 
 LEXICON Adjectives
