@@ -15,7 +15,7 @@ Tests:
     tat<n><px3sp><nom> : tadı
 
   "[twol] {A} harmony":
-    kitap<n><pl><nom> : kitaplar
+	kitap<n><pl><nom> : kitaplar
     ev<n><pl><nom> : evler
     saat<n><pl><nom> : saatler 
     kitap<n><nom>+i<cop><pres><p3><pl> : kitaplar
@@ -30,5 +30,7 @@ Tests:
     
 	"[lexc] regular verbs in MAK":
        al<v><tv><pastcnt><p1><sg> : alıyordum
+       al<v><tv><evidp><p1><sg> : almıştım
+       al<v><tv><condcnt><p1><sg> : alıyorsam
 	 
    
