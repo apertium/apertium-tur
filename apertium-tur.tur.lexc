@@ -938,7 +938,7 @@ LEXICON CONDITIONAL-PAST
 
 LEXICON CONDITIONAL-EVIDENTIAL
 
-%<condp%>:%>s%{A%}ym%{I%}ş PERS1 ;
+%<conde%>:%>s%{A%}ym%{I%}ş PERS1 ;
 
 LEXICON NECE
 
