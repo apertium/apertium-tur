@@ -142,7 +142,7 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 ! akü>{n}{I}n       = akünün    = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
 
 "Epenthetic consonants after vowel"
-Cx:Cy <=>   :SurVow/[ %': ] (:0) %>: _ ; 
+Cx:Cy <=>   :SurVow/ (%':) (:0) %>: _ ; 
         where
             Cx in ( %{n%} %{s%} %{y%} ) 
             Cy in (   n     s     y   ) 
