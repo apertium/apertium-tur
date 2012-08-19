@@ -784,7 +784,7 @@ LEXICON PRESENT-CONTINUOUS
 
 LEXICON PAST-CONTINUOUS
 
-%<pastcnt%>:%>%{I%}yord%{I%} PERS1-NO3PL ;
+%<pastcnt%>:%>%{I%}yord%{I%} PERS2-NO3PL ;
 %<pastcnt%>%<p3%>%<pl%>:%>%{I%}yord%{I%}%>l%{A%}r # ; ! Dir/LR
 %<pastcnt%>%<p3%>%<pl%>:%>%{I%}yor%>l%{A%}r%>d%{I%} # ; 
 
@@ -811,6 +811,8 @@ LEXICON FUTURE-PERFECT
 LEXICON FUTURE-EVIDENTIAL
 
 %<fute%>:%>%{y%}%{A%}c%{A%}km%{I%}ş PERS1 ;
+%<fute%>:%>%{y%}%{A%}c%{A%}km%{I%}ş CONDITIONAL ;
+
 
 LEXICON FUTURE-CONDITIONAL
 
