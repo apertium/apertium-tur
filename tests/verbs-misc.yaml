@@ -27,4 +27,14 @@ Config:
     
     yağ<v><iv><evid><p3><sg> : yağmış
     gel<v><iv><evid><p3><frm><sg> : gelmiştir
+    gel<v><iv><evid><p1><sg> : gelmişim
+    gel<v><iv><evidp><p1><sg> : gelmiştim
+    
+    gel<v><iv><evidc><p1><sg> : gelmişsem    
+    gel<v><iv><nece><p1><sg> : gelmeliyim
+    gel<v><iv><past><p1><sg> : geldim
+    gel<v><iv><pastc><p1><sg> : geldiysem 
+    gel<v><iv><cond><p1><sg> : gelsem
+    gel<v><iv><condp><p1><sg> : gelseydim
+    gel<v><iv><exh><p1><sg> : geleyim
     
