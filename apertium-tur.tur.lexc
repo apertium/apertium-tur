@@ -298,14 +298,14 @@ LEXICON NP2-TOP
 
 LEXICON PRON-DEM-BU
 
-bu%<prn%>%<dem%>%<nom%>:bu CLIT-GENERAL ;
-bu%<prn%>%<dem%>%<gen%>:bunun CLIT ;
-bu%<prn%>%<dem%>%<dat%>:buna CLIT ;
-bu%<prn%>%<dem%>%<acc%>:bunu CLIT ;
-bu%<prn%>%<dem%>%<abl%>:bundan CLIT-GENERAL ;
-bu%<prn%>%<dem%>%<loc%>:bunda CLIT-GENERAL ;
-bu%<prn%>%<dem%>%<px%>:bunuki%{pN%} CASE ;
-bu%<prn%>%<dem%>%<loc%>:bundaki ATTR-SUBST ;
+%<prn%>%<dem%>%<nom%>: CLIT-GENERAL ;
+%<prn%>%<dem%>%<gen%>:nun CLIT ;
+%<prn%>%<dem%>%<dat%>:na CLIT ;
+%<prn%>%<dem%>%<acc%>:nu CLIT ;
+%<prn%>%<dem%>%<abl%>:ndan CLIT-GENERAL ;
+%<prn%>%<dem%>%<loc%>:nda CLIT-GENERAL ;
+%<prn%>%<dem%>%<px%>:nuki%{pN%} CASE ;
+%<prn%>%<dem%>%<loc%>:ndaki ATTR-SUBST ;
 !bu%<prn%>%<dem%>%<sim%>:мондый CASE ;
 !bu%<prn%>%<dem%>%<sim%>%<px3sp%>:мондые%{n%} CASE ; ! FIXME CHECK мондый%{I%}%{n%} instead?
 !bu%<prn%>%<dem%>%<sim%>%<pl%>:мондыйлар CASE ;
@@ -313,10 +313,10 @@ bu%<prn%>%<dem%>%<loc%>:bundaki ATTR-SUBST ;
 !bu%<prn%>%<dem%>%<adv%>:болай CLIT-GENERAL ;
 !bu%<prn%>%<dem%>%<qnt%>:bu% кадәр CLIT ;
 !bu%<prn%>%<dem%>%<qnt%>:монча CLIT ; ! Dir/LR
-bu%<prn%>%<dem%>%<px3sp%>:bunu%{pN%} CASE ;
+%<prn%>%<dem%>%<px3sp%>:nu%{pN%} CASE ;
 
-bu%<prn%>%<dem%>%<pl%>:bunlar CASE-ETC ;
-bu%<prn%>%<dem%>%<pl%>%<px3sp%>:bunları%{pN%} CASE ;
+%<prn%>%<dem%>%<pl%>:nlar CASE-ETC ;
+%<prn%>%<dem%>%<pl%>%<px3sp%>:nları%{pN%} CASE ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1457,7 +1457,8 @@ bundan% dolayı:bundan% dolayı CA ;
 
 LEXICON Pronouns
 
-PRON-DEM-BU ; ! "this"
+bu:bu PRON-DEM-BU ; ! "this"
+şu:şu PRON-DEM-BU ; ! "this"
 
 LEXICON Determiners
 
