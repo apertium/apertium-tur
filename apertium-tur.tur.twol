@@ -142,7 +142,7 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 ! akü>{n}{I}n       = akünün    = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
 
 "Epenthetic consonants after vowel"
-Cx:Cy <=>   :SurVow (:0) %>: _ ; 
+Cx:Cy <=>   :SurVow/[ %': ] (:0) %>: _ ; 
         where
             Cx in ( %{n%} %{s%} %{y%} ) 
             Cy in (   n     s     y   ) 
@@ -154,6 +154,7 @@ Cx:Cy <=>   :SurVow (:0) %>: _ ;
 ! akü>{n}{I}n       = akünün   = 
 ! kitap>{y}{I}      = kitabı   = 
 ! anne>{y}{I}       = anneyi   = 
+! Sofya'>y{I}       = Sofya'yı 
 
 "Prevocalic consonant voicing"
 Cx:Cy <=> :Vow (:0) _ %>: (:0) :SurVow ;
