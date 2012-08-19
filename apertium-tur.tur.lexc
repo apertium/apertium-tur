@@ -296,6 +296,31 @@ LEXICON NP2-TOP
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON PRON-DEM-BU
+
+bu%<prn%>%<dem%>%<nom%>:bu CLIT-GENERAL ;
+bu%<prn%>%<dem%>%<gen%>:bunun CLIT ;
+bu%<prn%>%<dem%>%<dat%>:buna CLIT ;
+bu%<prn%>%<dem%>%<acc%>:bunu CLIT ;
+bu%<prn%>%<dem%>%<abl%>:bundan CLIT-GENERAL ;
+bu%<prn%>%<dem%>%<loc%>:bunda CLIT-GENERAL ;
+bu%<prn%>%<dem%>%<px%>:bunuki%{pN%} CASE ;
+bu%<prn%>%<dem%>%<loc%>:bundaki ATTR-SUBST ;
+!bu%<prn%>%<dem%>%<sim%>:мондый CASE ;
+!bu%<prn%>%<dem%>%<sim%>%<px3sp%>:мондые%{n%} CASE ; ! FIXME CHECK мондый%{I%}%{n%} instead?
+!bu%<prn%>%<dem%>%<sim%>%<pl%>:мондыйлар CASE ;
+!bu%<prn%>%<dem%>%<sim%>%<pl%>%<px3sp%>:мондыйлары%{n%} CASE ;
+!bu%<prn%>%<dem%>%<adv%>:болай CLIT-GENERAL ;
+!bu%<prn%>%<dem%>%<qnt%>:bu% кадәр CLIT ;
+!bu%<prn%>%<dem%>%<qnt%>:монча CLIT ; ! Dir/LR
+bu%<prn%>%<dem%>%<px3sp%>:bunu%{pN%} CASE ;
+
+bu%<prn%>%<dem%>%<pl%>:bunlar CASE-ETC ;
+bu%<prn%>%<dem%>%<pl%>%<px3sp%>:bunları%{pN%} CASE ;
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !!!!!!!!	CONJUNCTIONS, CAUSE EVEN SENTENCES AND WORDS WANNA BE TOGETHER !!!!!!!!!!!
@@ -1429,6 +1454,10 @@ nasıl% ki:nasıl% ki CA ;
 ne% var% ki:ne% var% ki CA ; 
 ya% da:ya% da CA ; 
 bundan% dolayı:bundan% dolayı CA ; 
+
+LEXICON Pronouns
+
+PRON-DEM-BU ; ! "this"
 
 LEXICON Determiners
 
