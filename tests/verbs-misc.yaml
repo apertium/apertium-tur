@@ -21,5 +21,10 @@ Config:
     
     gel<v><iv><aor><p1><sg> : gelirim
     ol<v><iv><aor><p3><sg> : olur
+    ol<v><iv><neg><aor><p3><sg> : olmaz
+    gel<v><iv><aorp><p1><sg> : gelirdim
+    gel<v><iv><aorcond><p1><sg> : gelirsem
     
+    yağ<v><iv><evid><p3><sg> : yağmış
+    gel<v><iv><evid><p3><frm><sg> : gelmiştir
     
