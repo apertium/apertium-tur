@@ -6909,6 +6909,12 @@ LEXICON Adjectives
 var:var A4 ; ! "existing" 
 yok:yok A4 ; ! "non-existing"
 
+iyi:iyi A1 ; ! "good"
+
+ölü:ölü A2 ; ! "dead"
+
+ana:ana A4 ; ! "main"
+
 LEXICON Adverbs 
 
 acilen:acilen ADV3 ; ! "promtply"
