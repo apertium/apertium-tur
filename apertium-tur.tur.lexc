@@ -109,6 +109,7 @@ Multichar_Symbols
 %{i%}		   ! Becomes as "i" after a consonant, otherwise null
 %{pN%}		   ! Becomes "n" before dat abl loc and after 3p poss, otherwise null
 %{e%}
+%{t%}
 
 %{f%}              ! Enforce front harmony
 %{b%}              ! Enforce back harmony
@@ -6554,6 +6555,7 @@ Kopenhag:Kopenhag NP1-TOP ; ! ""
 Koper:Koper NP1-TOP ; ! ""
 Köprülü:Köprülü NP1-TOP ; ! ""
 Kore:Kore NP1-TOP ; ! ""
+Kosova:Kosova NP1-TOP ; ! ""
 Köstendil:Köstendil NP1-TOP ; ! ""
 Kotor:Kotor NP1-TOP ; ! ""
 Kozani:Kozani NP1-TOP ; ! ""
@@ -6603,6 +6605,7 @@ Madrid:Madrid NP1-TOP ; ! ""
 Mağara:Mağara NP1-TOP ; ! ""
 Mahkeme:Mahkeme NP1-TOP ; ! ""
 Maine:Maine NP1-TOP ; ! ""
+Makedonya:Makedonya NP1-TOP ; ! ""
 Málaga:Málaga NP1-TOP ; ! ""
 Malavi:Malavi NP1-TOP ; ! ""
 Malezya:Malezya NP1-TOP ; ! ""
@@ -6873,7 +6876,6 @@ Zenica:Zenica NP1-TOP ; ! ""
 Zhuanglar:Zhuanglar NP1-TOP ; ! ""
 Zimbabve:Zimbabve NP1-TOP ; ! ""
 Ziştovi:Ziştovi NP1-TOP ; ! ""
-Makedonya:Makedonya NP1-TOP ; ! ""
 Eski% Zağra:Eski% Zağra NP1-TOP ; ! ""
 Novi% Sad:Novi% Sad NP1-TOP ; ! ""
 Sri% Lanka:Sri% Lanka NP1-TOP ; ! ""
