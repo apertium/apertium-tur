@@ -319,9 +319,9 @@ LEXICON NP1-ANT-F
 
 LEXICON NP1-COG-MF
 
-%<np%>%<ant%>%<mf%>%<nom%>: # ;
-%<np%>%<ant%>%<mf%>:%' N-INFL-COMMON-NONOM ;
-%<np%>%<ant%>%<mf%>%<attr%>: # ;
+%<np%>%<cog%>%<mf%>%<nom%>: # ;
+%<np%>%<cog%>%<mf%>:%' N-INFL-COMMON-NONOM ;
+%<np%>%<cog%>%<mf%>%<attr%>: # ;
 
 
 
