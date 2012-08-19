@@ -475,7 +475,7 @@ LEXICON PERS3  !!!USED FOR NECESSITATIVE
 
 LEXICON PERS3-PAST
 %<p1%>%<sg%>:%>%{y%}d%{I%}m # ;                
-%<p2%>%<sg%>:%>%{y%}d%{I%}m # ;                
+%<p2%>%<sg%>:%>%{y%}d%{I%}n # ;                
 %<p3%>%<sg%>:%>%{y%}d%{I%} # ;
 %<p1%>%<pl%>:%>%{y%}d%{I%}k # ;                
 %<p2%>%<pl%>:%>%{y%}d%{I%}n%{I%}z # ;                
@@ -764,6 +764,8 @@ NON-FINITE ;
 
 LEXICON IMPERFECTIVE
 %<imper%>:%>m%{A%}kt%{A%} PERS3 ;
+%<imperp%>:%>m%{A%}kt%{A%} PERS3-PAST ;
+
 
 LEXICON NEG
 %<neg%>:%>m%{a%} REGULAR-NEGATIVE ;
