@@ -12,6 +12,12 @@ Tests:
  "[twol] Vowel deletion in verb stems before -{I}yor":
     oyna<v><tv><pastcnt><p1><sg> : oynuyordum
 
+ "[lexc] Passives": 
+    yap<v><tv><pass><fut><p3><sg> : yapılacak
+
+ "[lexc] Causatives in -{D}{I}r":
+    yap<v><tv><caus><fut><p3><sg> : yaptıracak
+
  "[lexc] regular verbs in MAK":
  
 

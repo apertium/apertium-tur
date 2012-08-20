@@ -1546,6 +1546,7 @@ LEXICON Postpositions
 gibi:gibi POST ; ! ""
 için:İçin POST ; ! "" ! Dir/LR
 için:için POST ; ! ""
+ile:İle POST ; ! "" ! Dir/LR
 ile:ile POST ; ! ""
 kadar:kadar POST ; ! ""
 
@@ -1571,6 +1572,7 @@ LEXICON  Conjunctions
 
 ve:ve CC ; ! "and"
 ama:ama CC ; ! "but"
+ile:İle CC ; ! "and" ! Dir/LR
 ile:ile CC ; ! "and"
 ya:ya CC ; ! "either/or"
 ye:ye CC ; ! "either/or"
@@ -1589,7 +1591,6 @@ fakat:fakat CC ;
 ha:ha CC ; 
 hem:hem CC ; 
 ila:ila CC ; 
-ile:ile CC ; 
 lakin:lakin CC ; 
 ne:ne CC ; 
 veya:veya CC ; 
@@ -4532,6 +4533,7 @@ istikamet:istikamet N1 ; ! "direction"
 istikbal:istikbal N1 ; ! "future"
 istiklal:istiklal N1 ; ! "freedom"
 istiklal:istiklal N1 ; ! "liberty"
+istikrar:İstİkrar N1 ; ! "stability" ! Dir/LR
 istikrar:istikrar N1 ; ! "stability"
 istikrar:istikrar N1 ; ! "steady"
 istikraz:istikraz N1 ; ! "loan"
@@ -7429,12 +7431,16 @@ Hizbullah:Hizbullah NP1-ANT-M ; ! ""
 Horst:Horst NP1-ANT-M ; ! ""
 Hrant:Hrant NP1-ANT-M ; ! ""
 Hristo:Hristo NP1-ANT-M ; ! ""
+Igor:İgor NP1-ANT-M ; ! "" ! Dir/LR
 Igor:Igor NP1-ANT-M ; ! ""
-Ilija:Ilija NP1-ANT-M ; ! ""
+Ilija:Ilija NP1-ANT-M ; ! "" 
+Ilija:İlija NP1-ANT-M ; ! "" ! Dir/LR
 Ivan:Ivan NP1-ANT-M ; ! ""
-İvica:İvica NP1-ANT-M ; ! ""
-Ivica:Ivica NP1-ANT-M ; ! ""
+Ivan:İvan NP1-ANT-M ; ! "" ! Dir/LR
+Ivica:İvica NP1-ANT-M ; ! "" ! Dir/LR
+Ivica:Ivica NP1-ANT-M ; ! "" 
 Ivo:Ivo NP1-ANT-M ; ! ""
+Ivo:İvo NP1-ANT-M ; ! "" ! Dir/LR
 Jacques:Jacques NP1-ANT-M ; ! ""
 James:James NP1-ANT-M ; ! ""
 Jan:Jan NP1-ANT-M ; ! ""
@@ -7789,7 +7795,7 @@ Imsireviç:Imsireviç NP1-COG-MF ; ! ""
 Ivaniseviç:Ivaniseviç NP1-COG-MF ; ! ""
 İvaniseviç:İvaniseviç NP1-COG-MF ; ! ""
 Ivoseviç:Ivoseviç NP1-COG-MF ; ! ""
-İvoseviç:İvoseviç NP1-COG-MF ; ! ""
+Ivoseviç:İvoseviç NP1-COG-MF ; ! "" ! Dir/LR
 Jakovljeviç:Jakovljeviç NP1-COG-MF ; ! ""
 Janicijeviç:Janicijeviç NP1-COG-MF ; ! ""
 Janjuseviç:Janjuseviç NP1-COG-MF ; ! ""
@@ -9497,6 +9503,48 @@ Galazovski:Galazovski NP1-COG-MF ; ! ""
 Strezovski:Strezovski NP1-COG-MF ; ! ""
 Kanzovski:Kanzovski NP1-COG-MF ; ! ""
 
+Alexandrov:Alexandrov NP1-COG-MF ; ! ""
+Asparuhov:Asparuhov NP1-COG-MF ; ! ""
+Atanasov:Atanasov NP1-COG-MF ; ! ""
+Beronov:Beronov NP1-COG-MF ; ! ""
+Bliznakov:Bliznakov NP1-COG-MF ; ! ""
+Borisov:Borisov NP1-COG-MF ; ! ""
+Borissov:Borissov NP1-COG-MF ; ! ""
+Brasov:Brasov NP1-COG-MF ; ! ""
+Dimitrov:Dimitrov NP1-COG-MF ; ! ""
+Gerdzhikov:Gerdzhikov NP1-COG-MF ; ! ""
+Gerjikov:Gerjikov NP1-COG-MF ; ! ""
+Grigorov:Grigorov NP1-COG-MF ; ! ""
+Ivanov:Ivanov NP1-COG-MF ; ! ""
+İvanov:İvanov NP1-COG-MF ; ! ""
+Konstantinov:Konstantinov NP1-COG-MF ; ! ""
+Kostov:Kostov NP1-COG-MF ; ! ""
+Lavrov:Lavrov NP1-COG-MF ; ! ""
+Mikov:Mikov NP1-COG-MF ; ! ""
+Nikiforov:Nikiforov NP1-COG-MF ; ! ""
+Nikolov:Nikolov NP1-COG-MF ; ! ""
+Ovçarov:Ovçarov NP1-COG-MF ; ! ""
+Ovcharov:Ovcharov NP1-COG-MF ; ! ""
+Panayotov:Panayotov NP1-COG-MF ; ! ""
+Parvanov:Parvanov NP1-COG-MF ; ! ""
+Penov:Penov NP1-COG-MF ; ! ""
+Petkanov:Petkanov NP1-COG-MF ; ! ""
+Petkov:Petkov NP1-COG-MF ; ! ""
+Petrov:Petrov NP1-COG-MF ; ! ""
+Siderov:Siderov NP1-COG-MF ; ! ""
+Stankov:Stankov NP1-COG-MF ; ! ""
+Stefanov:Stefanov NP1-COG-MF ; ! ""
+Stoyanov:Stoyanov NP1-COG-MF ; ! ""
+Stoykov:Stoykov NP1-COG-MF ; ! ""
+Svinarov:Svinarov NP1-COG-MF ; ! ""
+Sviranov:Sviranov NP1-COG-MF ; ! ""
+Titov:Titov NP1-COG-MF ; ! ""
+Todorov:Todorov NP1-COG-MF ; ! ""
+Trajkov:Trajkov NP1-COG-MF ; ! ""
+Tsenkov:Tsenkov NP1-COG-MF ; ! ""
+Velikov:Velikov NP1-COG-MF ; ! ""
+Yordanov:Yordanov NP1-COG-MF ; ! ""
+
 
 
 LEXICON Adjectives
@@ -9504,6 +9552,7 @@ LEXICON Adjectives
 var:var A4 ; ! "existing" 
 yok:yok A4 ; ! "non-existing"
 
+iyi:İyi A1 ; ! "good" ! Dir/LR
 iyi:iyi A1 ; ! "good"
 yeni:yeni A1 ; ! "new"
 büyük:büyük A1 ; ! "big"
@@ -9766,6 +9815,7 @@ gitgide:gitgide  ADV2 ; ! "gradually"
 gıyaben:gıyaben  ADV2 ; ! "inabsentia"
 hakimane:hakimane  ADV2 ; ! "philosophically"
 halisane:halisane ADV2 ! "sincerely"
+ilk:İlk ADV2 ; ! "first" ! Dir/LR
 ilk:ilk ADV2 ; ! "first"
 irticalen:irticalen ADV2 ; ! "impromptu"
 kısmen:kısmen ADV2 ; ! "partly" "tolerable"
@@ -9823,7 +9873,6 @@ et:e%{t%} V-TV-DIR-AR ; ! "make"
 eş:eş V-TV-DIR-AR ; ! "scratch"
 kabul% et:kabul% e%{t%} V-TV-DIR-AR ; ! "admit, acknowledge" ! Use/MT
 kap:kap V-TV-DIR-AR ; ! "snatch, seize, grab"
-yap:yap V-TV-DIR-AR ; ! "do, make"
 kes:kes V-TV-DIR-AR  ; ! "cut"
 keşfet:keşfet V-TV-DIR-AR  ; ! "discover"
 kıl:kıl V-TV-DIR-AR  ; ! "make"
@@ -10539,6 +10588,7 @@ isle:isle V-TV-T-IR ; ! "smoke"
 işle:işle V-TV-T-IR ; ! "commit"
 ısmarla:ısmarla V-TV-T-IR ; ! "treat"
 ispatla:ispatla V-TV-T-IR ; ! "prove"
+iste:İste V-TV-T-IR ; ! "want" ! Dir/LR
 iste:iste V-TV-T-IR ; ! "want"
 istifle:istifle V-TV-T-IR ; ! "stow"
 izle:izle V-TV-T-IR ; ! "watch"
