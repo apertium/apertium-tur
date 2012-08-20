@@ -340,6 +340,72 @@ LEXICON NP1-AL
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON PRON-PERS-INFL
+
+CASE-ETC ;
+
+LEXICON PRON-PERS
+
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:ben CLIT ; 
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:benim CLIT ; 
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:bana CLIT ; 
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:beni CLIT ; 
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:bende CLIT ; 
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:benden CLIT ; 
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<px%>:benimki CASE ; 
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:bendeki ATTR-SUBST ; 
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<adv%>:bence CLIT ; 
+
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:sen CLIT ; 
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:senin CLIT ; 
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:sana CLIT ; 
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:seni CLIT ; 
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:sende CLIT ; 
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:senden CLIT ; 
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<px%>:seninki CASE ; 
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:sendeki ATTR-SUBST ; 
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<adv%>:sence CLIT ; 
+
+o%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:o CLIT ; 
+o%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:onun CLIT ; 
+o%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:ona CLIT ; 
+o%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:onu CLIT ; 
+o%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:onda CLIT ; 
+o%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ondan CLIT ; 
+o%<prn%>%<pers%>%<p3%>%<sg%>%<px%>:onunki CASE ; 
+o%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:ondeki ATTR-SUBST ; 
+o%<prn%>%<pers%>%<p3%>%<sg%>%<adv%>:once CLIT ; 
+
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:biz CLIT ; 
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:bizim CLIT ; 
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:bize CLIT ; 
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:bizi CLIT ; 
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizde CLIT ; 
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:bizdiz CLIT ; 
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<px%>:bizimki CASE ; 
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizdeki ATTR-SUBST ; 
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<adv%>:bizce CLIT ; 
+
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:siz CLIT ; 
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:sizin CLIT ; 
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:size CLIT ; 
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:sizi CLIT ; 
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizde CLIT ; 
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:sizdiz CLIT ; 
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<px%>:sizinki CASE ; 
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizdeki ATTR-SUBST ; 
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<adv%>:sizce CLIT ; 
+
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<nom%>:onlar CLIT ; 
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:onların CLIT ; 
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:onlara CLIT ; 
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<acc%>:onları CLIT ; 
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:onlarda CLIT ; 
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:onlardan CLIT ; 
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<px%>:onlarınki CASE ; 
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:onlardeki ATTR-SUBST ; 
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<adv%>:onlarca CLIT ; 
+
 LEXICON PRON-DEM-BU
 
 %<prn%>%<dem%>%<nom%>: CLIT-GENERAL ;
@@ -361,6 +427,61 @@ LEXICON PRON-DEM-BU
 
 %<prn%>%<dem%>%<pl%>:nlar CASE-ETC ;
 %<prn%>%<dem%>%<pl%>%<px3sp%>:nları%{pN%} CASE ;
+
+LEXICON PRON-IND
+
+%<prn%>%<ind%>: N-INFL-COMMON ; ! FIXME: Check contlex
+
+LEXICON PRON-ITG-INFL
+
+%<prn%>%<itg%>: SUBST ;
+
+LEXICON PRON-ITG 
+
+ne:ne PRON-ITG-INFL ; ! "what"
+neyi:neyi PRON-ITG-INFL ; ! "what"
+niye:niye PRON-ITG-INFL ; ! "what"
+kim:kim PRON-ITG-INFL ; ! "who"
+
+LEXICON PRON-QNT
+
+%<prn%>%<qnt%>: N-INFL-COMMON ; ! FIXME: Check contlex
+
+LEXICON PRON-NEG
+
+%<prn%>%<neg%>: CASE ;
+
+LEXICON PRON-REF-ADV
+
+CASE-ETC ;
+%<adv%>:ç%{A%} CLIT ;
+
+LEXICON PRON-REF
+
+! FIXME:
+! Listing all forms here because of overgeneration with *өздерім,
+! *өздеріміз, *өзіңдер etc while linking to POSS-REAL. This was the idea.
+! Now they are handled more like personal pronouns (the same tags in the same
+! order), so they should pass transfer without any trouble.
+!-----
+! A remaining problem with reflexive pronoun is that it takes personal copula
+! suffixes "selectively": e.g. prn.refl.px1sg would take only cop.px1sg
+! (prn.ref.px3sp seems to take all of them though).
+! A little bit of overgeneration won't hurt anyone :), but I think that odd
+! forms could be filtered out somehow later. Don't know how to do it./04Aug, IS/
+
+! FIXME DISCUSS Write full forms for the lower side and put only PRON-DEF in the
+! Root Lexicon
+
+
+%<prn%>%<ref%>%<p1%>%<sg%>:%>%{I%}m PRON-REF-ADV ;
+%<prn%>%<ref%>%<p2%>%<sg%>:%>%{I%}n PRON-REF-ADV ;
+%<prn%>%<ref%>%<p3%>%<sg%>:%>%{s%}%{I%}%{pN%} PRON-REF-ADV ;
+%<prn%>%<ref%>%<p1%>%<pl%>:%>%{I%}m%{I%}z PRON-REF-ADV ;
+%<prn%>%<ref%>%<p2%>%<pl%>:%>%{I%}n%{I%}z PRON-REF-ADV ;
+%<prn%>%<ref%>%<p3%>%<pl%>:%>l%{A%}r%>%{I%}%{pN%} PRON-REF-ADV ;
+
+
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1566,9 +1687,25 @@ bundan% dolayı:bundan% dolayı CA ;
 
 LEXICON Pronouns
 
+PRON-PERS ; 
+
+PRON-ITG ; 
+
 bu:bu PRON-DEM-BU ; ! "this"
 şu:şu PRON-DEM-BU ; ! "this"
 o:o PRON-DEM-BU ; ! "this"
+
+başka:başka PRON-IND ; ! "other"
+
+varlık:varlık PRON-QNT ; ! ""
+
+hiçbir% şey:hiçbirşey PRON-NEG ; ! "nothing" ! Dir/LR
+hiçbir% şey:hiç% birşey PRON-NEG ; ! "nothing" ! Dir/LR
+hiçbir% şey:hiçbir% şey PRON-NEG ; ! "nothing"
+hiç% kimse:hiç% kimse PRON-NEG ; ! "nobody"
+
+öz:öz PRON-REF ; ! "self"
+kendi:kendi PRON-REF ; ! "self"
 
 LEXICON Determiners
 
