@@ -200,3 +200,8 @@ k:g <=> :n _ %>: (:0) :Vow ;
              [ :Vow | :l ]  %>: %{i%}: _ ; 
              [ %{e%}: | :Vow | :l ]  %>: %{i%}:i _ ; 
 
+"Deletion of stem vowel before -{I}yor"
+Vx:0 <=> _ %>: %{I%}: y o r ; 
+       where Vx in ( a e i o u ı ö ü ) ;
+
+! oyna>{I}yor    = oynuyor = o:o y:y n:n a:0 >:0 {I}:u y:y o:o r:r
