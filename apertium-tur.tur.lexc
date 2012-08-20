@@ -7294,6 +7294,8 @@ UEFA:UEFA NP1-ORG ; ! ""
 UNFICYP:UNFICYP NP1-ORG ; ! ""
 HSBC:HSBC NP1-ORG ; ! ""
 MSNBC:MSNBC NP1-ORG ; ! ""
+Interpol:Interpol NP1-ORG ; ! ""
+Microsoft:Microsoft NP1-ORG ; ! ""
 
 ! Other
 Southeast% European% Times:Southeast% European% Times NP1-AL ; ! ""
@@ -7303,6 +7305,9 @@ B92:B92 NP1-AL ; ! ""
 EUobserver:EUobserver NP1-AL ; ! ""
 EUpolitix:EUpolitix NP1-AL ; ! ""
 EUCOM:EUCOM NP1-AL ; ! ""
+Eurovision:Eurovision NP1-AL ; ! ""
+EurActiv:EurActiv NP1-AL ; ! ""
+
 
 
 ! Anthroponyms
@@ -7427,6 +7432,7 @@ Hristo:Hristo NP1-ANT-M ; ! ""
 Igor:Igor NP1-ANT-M ; ! ""
 Ilija:Ilija NP1-ANT-M ; ! ""
 Ivan:Ivan NP1-ANT-M ; ! ""
+İvica:İvica NP1-ANT-M ; ! ""
 Ivica:Ivica NP1-ANT-M ; ! ""
 Ivo:Ivo NP1-ANT-M ; ! ""
 Jacques:Jacques NP1-ANT-M ; ! ""
