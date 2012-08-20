@@ -8475,12 +8475,14 @@ iyi:iyi A1 ; ! "good"
 yeni:yeni A1 ; ! "new"
 büyük:büyük A1 ; ! "big"
 eski:eski A1 ; ! "old"
+güzel:güzel A1 ; ! "pretty, beautiful"
 
 ölü:ölü A2 ; ! "dead"
 siya:siya A2 ; ! "black"
 
 ana:ana A4 ; ! "main"
 milli:milli A4 ; ! "national"
+ekonomik:ekonomik A4 ; ! "economic"
 
 LEXICON Adverbs 
 
