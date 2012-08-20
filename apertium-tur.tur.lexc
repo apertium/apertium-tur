@@ -4361,6 +4361,8 @@ insiyak:insiyak N1 ; ! "incentive"
 intaç:intaç N1 ; ! "concluding"
 integral:integral N1 ; ! "integral"
 intermezzo:intermezzo N1 ; ! "intermezzo"
+internet:İnternet N1 ; ! "internet" ! Dir/LR
+internet:internet N1 ; ! "internet"
 intiba:intiba N1 ; ! "impression"
 intibak:intibak N1 ; ! "adaptation"
 intifa:intifa N1 ; ! "advantage"
