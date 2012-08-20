@@ -15,6 +15,7 @@ Tests:
  "[lexc] Passives": 
     yap<v><tv><pass><fut><p3><sg> : yapılacak
     yap<v><tv><pass><past><p3><sg> : yapıldı
+    yap<v><tv><pass><evid><p3><sg> : yapılmış
 
  "[lexc] Causatives in -{D}{I}r":
     yap<v><tv><caus><fut><p3><sg> : yaptıracak
