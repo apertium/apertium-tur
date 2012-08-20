@@ -1,0 +1,16 @@
+DELIMITERS = "<.>" "<!>" "<?>" ;
+SOFT-DELIMITERS = "<,>" ;
+
+LIST BOS = (>>>) sent ; # Beginning of sentence
+LIST EOS = (<<<) sent ; # End of sentence
+
+LIST Cog = (np cog);
+
+LIST Gen = gen ; 
+
+LIST Px2Sg = px2sg ; 
+
+SECTION 
+
+REMOVE Cog + Px2Sg IF (0 Cog + Gen) ; 
+    ## Cinciç'in anısına Belgrad'da binlerce kişi toplandı.
