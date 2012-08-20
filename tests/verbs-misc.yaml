@@ -5,9 +5,15 @@ Config:
     Morph:  ../tur.automorf.hfst
 
 Tests:
-    
- "[lexc] regular verbs in MAK":
+
+ "[twol] {t} -> d":
+    et<v><tv><pass><cont><p3><sg> : ediliyor
+
+ "[twol] Vowel deletion in verb stems before -{I}yor":
     oyna<v><tv><pastcnt><p1><sg> : oynuyordum
+
+ "[lexc] regular verbs in MAK":
+ 
 
     al<v><tv><pastcnt><p1><sg> : alıyordum
     al<v><tv><evidp><p1><sg> : almıştım
