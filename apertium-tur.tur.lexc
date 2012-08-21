@@ -205,10 +205,10 @@ LEXICON NUM-DIGIT
 
 ! Measurement units
 
-км:км SQRD ;
-мм:мм SQRD ;
-см:см SQRD ;
-м:м SQRD ;
+km:km SQRD ;
+mm:mm SQRD ;
+sm:sm SQRD ;
+m:m SQRD ;
 
 LEXICON LASTDIGIT
 

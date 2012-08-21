@@ -12,6 +12,7 @@ Tests:
 
   "[lexc] Accusative":
     1<num><subst><acc> : 1'i
+    1<num><subst><px3sp><nom> : 1'i
     2<num><subst><acc> : 2'yi
     3<num><subst><acc> : 3'ü
     4<num><subst><acc> : 4'ü
