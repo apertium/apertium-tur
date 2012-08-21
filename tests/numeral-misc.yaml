@@ -1,0 +1,79 @@
+Config: 
+  hfst: 
+    App:  hfst-optimised-lookup
+    Gen:  ../tur.autogen.hfst
+    Morph:  ../tur.automorf.hfst
+
+Tests: 
+
+#  "[lexc] Nominative": 
+#    1<num><subst><nom> : 1
+#    1<num> : 1
+
+  "[lexc] Accusative":
+    1<num><subst><acc> : 1'i
+    2<num><subst><acc> : 2'yi
+    3<num><subst><acc> : 3'ü
+    4<num><subst><acc> : 4'ü
+    5<num><subst><acc> : 5'i
+    6<num><subst><acc> : 6'yı
+    7<num><subst><acc> : 7'yi
+    8<num><subst><acc> : 8'i
+    9<num><subst><acc> : 9'u
+
+  "[lexc] Genitive": 
+    1<num><subst><gen> : 1'in
+    2<num><subst><gen> : 2'nin
+    3<num><subst><gen> : 3'ün
+    4<num><subst><gen> : 4'ün
+    5<num><subst><gen> : 5'in
+    6<num><subst><gen> : 6'nın
+    7<num><subst><gen> : 7'nin
+    8<num><subst><gen> : 8'in
+    9<num><subst><gen> : 9'un
+
+  "[lexc] Dative": 
+    1<num><subst><dat> : 1'e
+    2<num><subst><dat> : 2'ye
+    3<num><subst><dat> : 3'e
+    4<num><subst><dat> : 4'e
+    5<num><subst><dat> : 5'e
+    6<num><subst><dat> : 6'ya
+    7<num><subst><dat> : 7'ye
+    8<num><subst><dat> : 8'e
+    9<num><subst><dat> : 9'a
+
+  "[lexc] Locative": 
+    1<num><subst><loc> : 1'de
+    2<num><subst><loc> : 2'de
+    3<num><subst><loc> : 3'te
+    4<num><subst><loc> : 4'te
+    5<num><subst><loc> : 5'te
+    6<num><subst><loc> : 6'da
+    7<num><subst><loc> : 7'de
+    8<num><subst><loc> : 8'de
+    9<num><subst><loc> : 9'da
+
+  "[lexc] Ablative": 
+    1<num><subst><abl> : 1'den
+    2<num><subst><abl> : 2'den
+    3<num><subst><abl> : 3'ten
+    4<num><subst><abl> : 4'ten
+    5<num><subst><abl> : 5'ten
+    6<num><subst><abl> : 6'dan
+    7<num><subst><abl> : 7'den
+    8<num><subst><abl> : 8'den
+    9<num><subst><abl> : 9'dan
+
+  "[lexc] Ordinal": 
+    1<num><ord> : 1'inci
+    2<num><ord> : 2'nci
+    3<num><ord> : 3'üncü
+    4<num><ord> : 4'üncü
+    5<num><ord> : 5'inci
+    6<num><ord> : 6'ncı
+    7<num><ord> : 7'nci
+    8<num><ord> : 8'inci
+    9<num><ord> : 9'uncu
+
+
