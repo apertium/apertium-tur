@@ -109,15 +109,18 @@ Multichar_Symbols
 %{i%}		   ! Becomes as "i" after a consonant, otherwise null
 %{pN%}		   ! Becomes "n" before dat abl loc and after 3p poss, otherwise null
 %{e%}
+
 %{t%}
 
 %{f%}              ! Enforce front harmony
-%{b%}              ! Enforce back harmony
+
+%{p%}              ! Last consonant unvoiced (Cnsdev)
+%{b%}              ! Last consonant voiced
 
 %{o%}              ! Back round
 %{ı%}              ! Back unround
 %{ö%}              ! Front round
-%{i%}              ! Front unround
+%{ii%}             ! Front unround
 
 %>
 %+
@@ -146,11 +149,131 @@ Verbs ;
 Interjections ; 
 Abbreviations ; 
 Punctuation ; 
+Digits ;  ! Use/Circ
 
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!
+!!!!                            N U M E R A L S 
+!!!!
+!!!! WARNING: This section should not be modified without consultation. 
+!!!!          Test cases are in dev/numerals.
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+LEXICON SQRD
+! This lexicon includes common ways of writing squared, cubed etc.
+
+²%<num%>:2 # ;  ! Dir/LR
+³%<num%>:3 # ;  ! Dir/LR
+²%<num%>:² # ;
+³%<num%>:³ # ;
+%<num%>: # ;
+
+LEXICON NUM-DIGIT
+
+%<num%>: # ;
+%<num%>%<subst%>%<nom%>: # ;
+%<num%>%<subst%>:%' SUBST-NONOM ;
+%<num%>%<subst%>: SUBST-NONOM ; ! Dir/LR
+
+%<num%>%<ord%>:%'%{i%}nc%{I%} # ;
+%<num%>%<ord%>%<subst%>%<nom%>:%'%{I%}nc%{I%} # ;
+%<num%>%<ord%>%<subst%>:%'%{I%}nc%{i%} SUBST-NONOM ;
+
+!%<num%>%<coll%>%<advl%>:%-%{A%}у # ;
+!%<num%>%<coll%>%<nom%>:%-%{A%}у # ;
+!%<num%>%<coll%>:%-%{A%}у SUBST-NONOM ;
+
+!%<num%>%<percent%>:%% # ;
+!%<num%>%<percent%>%<subst%>%<nom%>:%% # ;
+!%<num%>%<percent%>%<subst%>:%%%{а%}%{з%}%- SUBST-NONOM ;
+
+
+!°С%<num%>:°С # ;
+!°С%<num%>%<subst%>%<nom%>:°С # ;
+!°С%<num%>%<subst%>:°С%{а%}%{с%}%- SUBST-NONOM ;
+!°С%<num%>%<subst%>:°С%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+!°С%<num%>:ºС # ; ! Dir/LR
+!°С%<num%>%<subst%>%<nom%>:ºС # ; ! Dir/LR
+!°С%<num%>%<subst%>:ºС%{а%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+!°С%<num%>%<subst%>:ºС%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+!°С%<num%>:С # ; ! Dir/LR
+!°С%<num%>%<subst%>%<nom%>:С # ; ! Dir/LR
+!°С%<num%>%<subst%>:С%{а%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+!°С%<num%>%<subst%>:С%{э%}%{с%}%- SUBST-NONOM ; ! Dir/LR
+
+! Measurement units
+
+км:км SQRD ;
+мм:мм SQRD ;
+см:см SQRD ;
+м:м SQRD ;
+
+LEXICON LASTDIGIT
+
+1:1%{ii%}%{b%}           NUM-DIGIT ; ! "bir"
+2:2%{ii%}                NUM-DIGIT ; ! "iki"
+3:3%{ö%}%{p%}           NUM-DIGIT ; ! "üç"
+4:4%{ö%}%{p%}           NUM-DIGIT ; ! "dört"
+5:5%{ii%}%{p%}           NUM-DIGIT ; ! "beş"
+6:6%{ı%}                NUM-DIGIT ; ! "altı"
+7:7%{ii%}                NUM-DIGIT ; ! "yedi"
+8:8%{ii%}%{b%}           NUM-DIGIT ; ! "sekiz"
+9:9%{o%}%{b%}           NUM-DIGIT ; ! "dokuz"
+
+LEXICON LASTDIGIT-REST
+
+1%0:1%0%{o%}%{b%}       NUM-DIGIT ; ! "on"
+2%0:2%0%{ii%}            NUM-DIGIT ; ! "yirmi"
+3%0:3%0%{o%}%{b%}       NUM-DIGIT ; ! "otuz"
+4%0:4%0%{ı%}%{p%}       NUM-DIGIT ; ! "kırk"
+5%0:5%0%{ii%}            NUM-DIGIT ; ! "elli"
+6%0:6%0%{ı%}%{p%}       NUM-DIGIT ; ! "altmış"
+7%0:7%0%{ii%}%{p%}       NUM-DIGIT ; ! "yetmiş"
+8%0:8%0%{ii%}%{b%}       NUM-DIGIT ; ! "seksen"
+9%0:9%0%{ı%}%{b%}       NUM-DIGIT ; ! "doksan"
+
+LEXICON POWERS
+%0%0:%0%0%{ö%}%{b%}     NUM-DIGIT ; ! "yüz"
+%0%0%0:%0%0%0%{ii%}%{b%} NUM-DIGIT ; ! "bin"
+
+LEXICON LOOP
+
+%,:%, DIGITLEX ;
+%.:%. DIGITLEX ;
+%,:%, LASTDIGIT ;
+%.:%. LASTDIGIT ;
+%,:%, LASTDIGIT-REST ;
+%.:%. LASTDIGIT-REST ;
+%,:%, POWERS ;
+%.:%. POWERS ;
+      DIGITLEX ;
+      LASTDIGIT ;
+      LASTDIGIT-REST ;
+      POWERS ;
+
+LEXICON DIGITLEX
+
+%0:%0 LOOP ;
+1:1   LOOP ;
+2:2   LOOP ;
+3:3   LOOP ;
+4:4   LOOP ;
+5:5   LOOP ;
+6:6   LOOP ;
+7:7   LOOP ;
+8:8   LOOP ;
+9:9   LOOP ;
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!       N U M E R A L     L E X I C O N     E N D S     H E R E 
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Clitics 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON CLIT
 
@@ -254,6 +377,11 @@ LEXICON N-INFL-COMMON
 POSS-REAL ;
 CASE-ETC ;
 !ABE-ETC ;
+
+LEXICON SUBST-NONOM
+
+N-INFL-COMMON-NONOM ; 
+%<pl%>:%>l%{A%}r N-INFL-COMMON ;
 
 LEXICON SUBST
 
@@ -7268,8 +7396,8 @@ AFP:AFP%{i%} NP1-ORG ; ! ""
 UNICEF:UNICEF NP1-ORG ; ! ""
 UNESCO:UNESCO%{o%} NP1-ORG ; ! ""
 WHO:WHO%{o%} NP1-ORG ; ! ""
-PASOK:PASOK%{o%}%{r%} NP1-ORG ; ! ""
-KFOR:KFOR%{o%}%{r%} NP1-ORG ; ! ""
+PASOK:PASOK%{o%}%{p%} NP1-ORG ; ! ""
+KFOR:KFOR%{o%}%{b%} NP1-ORG ; ! ""
 BBC:BBC NP1-ORG ; ! ""
 AKP:AKP NP1-ORG ; ! ""
 VMRO:VMRO NP1-ORG ; ! ""
@@ -9566,6 +9694,601 @@ ana:ana A4 ; ! "main"
 milli:milli A4 ; ! "national"
 ekonomik:ekonomik A4 ; ! "economic"
 
+uzunca:uzunca A3 ;  ! "tallish"
+budala:budala A2 ;  ! "fool"
+ela:ela A2 ;  ! "haler (colour)"
+kabartma:kabartma A2 ;  ! "raised"
+fena:fena A3 ;  ! "evil, bad, foul"
+bedava:bedava A3 ;  ! "free"
+utangaç:utangaç A4 ;  ! "embarrassed"
+muhtaç:muhtaç A4 ;  ! "destitute, needy"
+kerpiç:kerpiç A2 ;  ! "puddled clay, cob"
+iğrenç:iğrenç  A3 ;  ! "disgusting"
+korkunç:korkunç A4 ;  ! "terrifying"
+gebe:gebe A4 ;  ! "pregnant"
+pembe:pembe A2 ;  ! "pink"
+ipince:ipince  A4 ;  ! "very thin"
+rasgele:rasgele A3 ;  ! "random"
+kekeme:kekeme A4 ;  ! "stutturer"
+yegane:yegane A4 ;  ! "single, only"
+avare:avare A4 ;  ! "vagrant"
+enjekte:enjekte A4 ;  ! "injective"
+emaye:emaye A2 ;  ! "varnish"
+saf:saf A2 ;  ! "pure"
+pasif:pasif A2 ;  ! "nonactive, passive"
+progresif:progresif A4 ;  ! "progressive"
+federatif:federatif A4 ;  ! "federative"
+reaktif:reaktif A4 ;  ! "reactive"
+aktif:aktif A2 ;  ! "active"
+radyoaktif:radyoaktif A4 ;  ! "radioactive"
+objektif:objektif A2 ;  ! "objective"
+subjektif:sübjektif A4 ;  ! "subjectif"
+sağ:sağ A2 ;  ! "alive"
+kavgacı:kavgacı A2 ;  ! "aggressive"
+şakacı:şakacı A2 ;  ! "prankster"
+iftiracı:iftiracı A2 ;  ! "backbiter"
+nükteci:nükteci A2 ;  ! "humorous"
+geçici:geçici A4 ;  ! "temporary"
+akıcı:akıcı A4;  ! "fluent"
+çekici:çekici A4 ;  ! "attractive"
+sıkıcı:sıkıcı A4 ;  ! "boring"
+kalıcı:kalıcı A4 ;  ! "permenant"
+dilici:dilici A2 ;  ! "chopper"
+gücendirici:gücendirici A4 ;  ! "invidious"
+eğlendirici:eğlendirici A4 ;  ! "amusing"
+bilgilendirici:bilgilendirici A4 ;  ! "informative"
+tiksindirici:tiksindirici A4 ;  ! "abominevole"
+caydırıcı:caydırıcı A4 ;  ! "deterrent"
+azmettirici:azmettirici A4 ;  ! "instigator"
+bulaşıcı:bulaşıcı A4 ;  ! "contagious"
+kesici:kesici A2 ;  ! "cutter"
+rahatlatıcı:rahatlatıcı A4 ;  ! "relaxing, restful"
+yaratıcı:yaratıcı A4 ;  ! "creative"
+yumuşatıcı:yumuşatıcı A2 ;  ! "softening"
+sersemletici:sersemletici A4 ;  ! "reeling, shocking"
+eğitici:eğitici A4 ;  ! "educative"
+sağaltıcı:sağaltıcı A4 ;  ! "curative"
+bunaltıcı:bunaltıcı A4 ;  ! "depressing, suffocating"
+düzeltici:düzeltici A2 ;  ! "proofreader"
+yanıltıcı:yanıltıcı A4 ;  ! "deceptive"
+ürpertici:ürpertici A4;  ! "creeping"
+yurtiçi:yurtiçi A4 ;  ! "domestic"
+açıklayıcı:açıklayıcı A4 ;  ! "expressive"
+etkileyici:etkileyici A4 ;  ! "effective"
+gerçekçi:gerçekçi A2 ;  ! "realist"
+işbirlikçi:işbirlikçi A2 ;  ! "collaborative"
+ırkçı:ırkçı A2 ;  ! "racist"
+devrimci:devrimci A2 ;  ! "revolutionist"
+kinci:kinci A2 ;  ! "hater"
+ısrarcı:ısrarcı A4 ;  ! "persistent"
+inatçı:inatçı A4 ;  ! "stubborn, obstinate, stubborn"
+cumhuriyetçi:cumhuriyetçi A2 ;  ! "republican"
+ciddi:ciddi A3 ;  ! "serious"
+felsefi:felsefi A4 ;  ! "philosophic"
+tesadüfi:tesadüfi A4 ;  ! "accidental, accidental"
+kahverengi:kahverengi A2 ;  ! "brown"
+haki:haki A2 ;  ! "khaki"
+sakıncalı:sakıncalı A4 ;  ! "prejudicial, suspect"
+aşamalı:aşamalı A2 ;  ! "progressive"
+fırtınalı:fırtınalı A4 ;  ! "stormy"
+hatalı:hatalı A4 ;  ! "defective, defective"
+amaçli:amaçli A2 ;  ! "guilty"
+sevinçli:sevinçli A4 ;  ! "cheerful"
+göreceli:göreceli A4 ;  ! "relative"
+düşünceli:düşünceli A4 ;  ! "thoughtful"
+deli:deli A1 ;  ! "crazy"
+tepkimeli:tepkimeli A4 ;  ! "reactive"
+neşeli:neşeli A4 ;  ! "joyous"
+endişeli:endişeli A4 ;  ! "nervous"
+cilveli:cilveli A4 ;  ! "flirtatious"
+keyifli:keyifli A4 ;  ! "cheerful"
+yağlı:yağlı A4 ;  ! "greasy"
+kaygılı:kaygılı A4 ;  ! "concerned"
+etkili:etkili A4 ;  ! "influential"
+yetkili:yetkili A2 ;  ! "authorized"
+başarılı:başarılı A4 ;  ! "successful, successful"
+sarılı:sarılı A4 ;  ! "yellowish"
+becerili:becerili A4 ;  ! "talented"
+dezavantajlı:dezavantajlı A4 ;  ! "disadvantaged"
+akli:akli A4 ;  ! "rational"
+meraklı:meraklı A4 ;  ! "curious, curious"
+gerekli:gerekli A4 ;  ! "necessary, necessary"
+istekli:istekli A4 ;  ! "willing"
+balçıklı:balçıklı A4 ;  ! "slimy"
+karşılıklı:karşılıklı A4 ;  ! "reciprocal"
+dayanıklı:dayanıklı A4 ;  ! "enduring, durable, durable"
+becerikli:becerikli A4 ;  ! "talented"
+yakışıklı:yakışıklı A4 ;  ! "handsome"
+mantıklı:mantıklı A4 ;  ! "reasonable"
+renkli:renkli A4 ;  ! "colourful"
+dallı:dallı A4 ;  ! "branched"
+akıllı:akıllı A1 ;  ! "intelligent, smart, clever"
+killi:killi A4 ;  ! "loamy"
+kıllı:kıllı A4 ;  ! "hairy"
+milli:milli A4 ;  ! "national"
+anlamlı:anlamlı A4 ;  ! "meaningful"
+namlı:namlı A4 ;  ! "renowned"
+kapsamlı:kapsamlı A4 ;  ! "comprehensive"
+kıdemli:kıdemli A2 ;  ! "senior"
+görkemli:görkemli A4 ;  ! "magnificient"
+nemli:nemli A4 ;  ! "moitureous"
+sistemli:sistemli A4 ;  ! "systematic"
+bağımlı:bağımlı A4 ;  ! "addict"
+ılımlı:ılımlı A2 ;  ! "moderate"
+verimli:verimli A4 ;  ! "fertile, fruitfull"
+deneyimli:deneyimli A4 ;  ! "experienced"
+azimli:azimli A4 ;  ! "strong minded"
+canlı:canlı A1 ;  ! "alive, alive"
+vicdanlı:vicdanlı A4 ;  ! "fair"
+kanlı:kanlı A2 ;  ! "bloody"
+dikenli:dikenli A4 ;  ! "spined"
+düzenli:düzenli A4 ;  ! "ordered, ordered"
+karlı:karlı A4 ;  ! "snowy"
+yararlı:yararlı A4 ;  ! "beneficial"
+esrarlı:esrarlı A4 ;  ! "mysterious"
+tutarlı:tutarlı A4 ;  ! "consistent"
+biberli:biberli A4 ;  ! "peppery"
+geçerli:geçerli A4 ;  ! "valid"
+kederli:kederli A4 ;  ! "sorrowful"
+tedbirli:tedbirli A4 ;  ! "cautious"
+kibirli:kibirli A4 ;  ! "arrogant, arrogant"
+sihirli:sihirli A4 ;  ! "magical"
+kirli:kirli A4 ;  ! "dirty, dirty"
+paslı:paslı A4 ;  ! "rusty"
+taşlı:taşlı A4 ;  ! "stony"
+yaşlı:yaşlı A4 ;  ! "old"
+güneşli:güneşli A4 ;  ! "sunny"
+sesli:sesli A4 ;  ! "noisy"
+elverişli:elverişli A4 ;  ! "convenient"
+kaprisli:kaprisli A4 ;  ! "capricious"
+dikkatli:dikkatli A4 ;  ! "attentive"
+baharatlı:baharatlı A4 ;  ! "spicy"
+ihtiyatlı:ihtiyatlı A4 ;  ! "deliberative"
+şiddetli:şiddetli A4 ;  ! "severe, violent"
+etli:etli A4 ;  ! "fleshy"
+felâketli:felâketli A4 ;  ! "calamitous"
+bereketli:bereketli A4 ;  ! "fertile, fertile"
+merhametli:merhametli A4 ;  ! "kind"
+kıymetli:kıymetli A4 ;  ! "valuable"
+ücretli:ücretli A2 ;  ! "salaried, paid"
+dehşetli:dehşetli A4 ;  ! "terrifying"
+kasvetli:kasvetli A4 ;  ! "gloomy"
+kuvvetli:kuvvetli A4 ;  ! "powerful"
+lezzetli:lezzetli A4 ;  ! "tasty"
+çeşitli:çeşitli A4 ;  ! "varied, varied"
+alaylı:alaylı A1 ;  ! "sarcastic"
+gazlı:gazlı A4 ;  ! "gassy"
+samimi:samimi A4 ;  ! "sincere"
+resmi:resmi A4 ;  ! "formal, offical"
+kısmi:kısmi A4 ;  ! "partial"
+ruhani:ruhani A4 ;  ! "spiritual"
+ani:ani A4 ;  ! "sudden"
+insani:insani  A4 ;  ! "humanistic"
+hayvani:hayvani A4 ;  ! "brutish"
+dini:dini A4 ;  ! "religous"
+sarı:sarı A2 ;  ! "yellow"
+eğri:eğri A1 ;  ! "skew, curve"
+aşırı:aşırı A4 ;  ! "excessive, excessive"
+cimri:cimri A4 ;  ! "mean"
+zaruri:zaruri A4 ;  ! "indispensable"
+olası:olası A4 ;  ! "probable"
+esasi:esasi A4 ;  ! "basic"
+vahşi:vahşi A4 ;  ! "wild"
+aksi:aksi A4 ;  ! "agressive"
+hissi:hissi A4 ;  ! "sentimental"
+mavi:mavi A2 ;  ! "blue"
+dünyevi:dünyevi A4 ;  ! "earthly"
+kırmızı:kırmızı A2 ;  ! "red"
+sıcak:sıcak A2 ;  ! "hot"
+alçak:alçak A4 ;  ! "low"
+fıkırdak:fıkırdak A4 ;  ! "flirty"
+ahmak:ahmak A4 ;  ! "fool, fool, fool"
+oynak:oynak A4 ;  ! "playing"
+pak:pak A4 ;  ! "clean"
+sarımtırak:sarımtırak A4 ;  ! "yellowish"
+kurak:kurak A4 ;  ! "arid"
+uzak:uzak A2 ;  ! "far"
+titrek:titrek A4 ;  ! "quavering"
+gevrek:gevrek A2 ;  ! "crusty, rusk"
+seyrek:seyrek A4 ;  ! "rare"
+tek:tek A1 ;  ! "single, only"
+laik:laik A4 ;  ! "secular"
+apaçık:apaçık A4 ;  ! "prominent"
+sadık:sadık A4 ;  ! "loyal"
+periodik:periodik A4 ;  ! "periodical"
+spesifik:spesifik A4 ;  ! "specific"
+eğik:eğik A4 ;  ! "skewed"
+zoolojik:zoolojik A4 ;  ! "zoological"
+enerjik:enerjik A4 ;  ! "energetic"
+komik:komik A4 ;  ! "funny"
+yenik:yenik A4 ;  ! "defeated"
+yalpık:yalpık A4 ;  ! "broad and shallow, flat"
+teleskopik:teleskopik A4 ;  ! "telescopic"
+kalorik:kalorik A4 ;  ! "caloric"
+karmaşık:karmaşık A4 ;  ! "complicated"
+şık:şık A4 ;  ! "stylish"
+atik:atik A4 ;  ! "quick"
+aromatik:aromatik A4 ;  ! "aromatic"
+sempatik:sempatik A4 ;  ! "sympathic"
+yatık:yatık A2 ;  ! "sloping"
+galaktik:galaktik A4 ;  ! "galactic"
+çevik:çevik A4 ;  ! "active"
+layık:layık A4 ;  ! "worth"
+günlük:günlük A2 ;  ! "daily"
+soluk:soluk A2 ;  ! "pale"
+sönük:sönük A4 ;  ! "pale"
+buruk:buruk A2 ;  ! "puckery"
+çürük:çürük A2 ;  ! "rotten"
+büyük:büyük A2 ;  ! "big"
+bozuk:bozuk A4 ;  ! "out of order, broken"
+global:global  A4 ;  ! "global"
+doğal:doğal A4 ;  ! "natural"
+anormal:anormal A4 ;  ! "abnormal"
+orjinal:orjinal A4 ;  ! "original"
+topal:topal A4 ;  ! "lame"
+serebral:serebral A4 ;  ! "cerebral"
+federal:federal A4 ;  ! "federal"
+kıtasal:kıtasal A4 ;  ! "continental"
+yasal:yasal A4 ;  ! "legal"
+kutupsal:kutupsal A4 ;  ! "polar"
+dışsal:dışsal A4 ;  ! "external"
+anıtsal:anıtsal A4 ;  ! "monumental"
+kutsal:kutsal A4 ;  ! "holy"
+duygusal:duygusal A4 ;  ! "emotional"
+orbital:orbital A4 ;  ! "orbital"
+mental:mental A4 ;  ! "mental"
+aptal:aptal A4 ;  ! "fool"
+oval:oval A4 ;  ! "elliptical"
+güncel:güncel A4 ;  ! "current"
+paralel:paralel A2 ;  ! "paralel"
+beynelmilel:beynelmilel A4 ;  ! "international"
+genel:genel A4 ;  ! "general"
+fonksiyonel:fonksiyonel A4 ;  ! "functional"
+rasyonel:rasyonel A4 ;  ! "rationale"
+nesnel:nesnel A4 ;  ! "objective"
+yerel:yerel A4 ;  ! "local"
+konjonktürel:konjonktürel A4 ;  ! "cyclical"
+kültürel:kültürel A1 ;  ! "cultural"
+yörüngesel:yörüngesel A4 ;  ! "orbital"
+dairesel:dairesel A4 ;  ! "roundy"
+küresel:küresel A4 ;  ! "global"
+tarihsel:tarihsel A4 ;  ! "historical"
+bitkisel:bitkisel A4 ;  ! "botanical"
+kişisel:kişisel A4 ;  ! "personal"
+matematiksel:matematiksel A4 ;  ! "mathematical"
+bilimsel:bilimsel A4 ;  ! "scientific, scientific"
+eğitimsel:eğitimsel A4 ;  ! "educational"
+törensel:törensel A4 ;  ! "ceremonial"
+evrensel:evrensel A4 ;  ! "international"
+zihinsel:zihinsel A4 ;  ! "mental"
+kentsel:kentsel A4 ;  ! "civic"
+deneysel:deneysel A4 ;  ! "empirical"
+yüzeysel:yüzeysel A4 ;  ! "surfical"
+entellektüel:entellektüel A2 ;  ! "intellectual"
+endüstriyel:endüstriyel A4 ;  ! "industrial"
+özel:özel A4 ;  ! "special, private"
+gelişigüzel:gelişigüzel A4 ;  ! "randomly"
+acil:acil A4 ;  ! "emergency"
+gafil:gafil A4 ;  ! "remiss, careless"
+cahil:cahil A4 ;  ! "illiterate"
+yeşil:yeşil A2 ;  ! "green"
+kızıl:kızıl A2 ;  ! "red"
+bol:bol A4 ;  ! "loose, baggy"
+meşgul:meşgul A4 ;  ! "busy"
+meçhul:meçhul A4 ;  ! "unknown, indeterminate, "
+sağlam:sağlam A4 ;  ! "unharmed, intact"
+zalim:zalim A4 ;  ! "cruel"
+som:som A4 ;  ! "pure"
+gariban:gariban A4 ;  ! "wretch"
+durağan:durağan A4 ;  ! "constant"
+alıngan:alıngan A4 ;  ! "resentful"
+kaygan:kaygan A4 ;  ! "slippery"
+yapışkan:yapışkan A4 ;  ! "adhesive, sticky"
+konuşkan:konuşkan A4 ;  ! "communicative"
+somurtkan:somurtkan A4 ;  ! "surly"
+pişman:pişman A4 ;  ! "regretful"
+çekingen:çekingen A4 ;  ! "timid, recessive"
+ergen:ergen A4 ;  ! "adolescent"
+beklenmeyen:beklenmeyen A4 ;  ! "unexpected"
+çılgın:çılgın A4 ;  ! "crazy"
+engin:engin A4 ;  ! "offing, immense"
+metin:metin A4 ;  ! "hard"
+monoton:monoton A4 ;  ! "monotonous"
+solgun:solgun A4 ;  ! "pale"
+uygun:uygun A4 ;  ! "appropriate, suitable, appropriate"
+topyekün:topyekün A4 ;  ! "total"
+galip:galip A4 ;  ! "winner"
+garip:garip A4 ;  ! "poor, weird"
+naçar:naçar A4 ;  ! "helpless"
+dar:dar A4 ;  ! "narrow"
+riyakar:riyakar A4 ;  ! "hypocritical"
+hilekar:hilekar A4 ;  ! "cheater"
+milyarder:milyarder A4 ;  ! "billionaire"
+eşdeğer:eşdeğer A4 ;  ! "equivalent"
+moleküler:moleküler A4 ;  ! "molecular"
+popüler:popüler A4 ;  ! "popular"
+primer:primer A4 ;  ! "primary"
+milyoner:milyoner A4 ;  ! "millionaire"
+koşer:koşer A4 ;  ! "kosher"
+otoriter:otoriter A4 ;  ! "authoritative"
+vatansever:vatansever A4 ;  ! "patriot"
+hayırsever:hayırsever A4 ;  ! "beneficient"
+misafirperver:misafirperver A4 ;  ! "hospitable"
+kadir:kadir A4 ;  ! "powerful, mighty"
+sağır:sağır A4 ;  ! "deaf"
+güvenilir:güvenilir A4 ;  ! "dependable, trustable"
+anlaşılır:anlaşılır A4 ;  ! "understandable"
+ışınır:ışınır A4 ;  ! "fluorescent"
+mor:mor A2 ;  ! "purple"
+cesur:cesur A4 ;  ! "brave, brave"
+çağdaş:çağdaş A4 ;  ! "contemporary, contemporary"
+anlamdaş:anlamdaş A4 ;  ! "synonymous"
+ekspres:ekspres A2 ;  ! "express"
+nefis:nefis A4 ;  ! "scrumptious"
+pis:pis A4 ;  ! "dirty"
+lüks:lüks A2 ;  ! "molting"
+bomboş:bomboş A4 ;  ! "empty"
+hoş:hoş A3 ;  ! "nice, nice"
+ters:ters A1 ;  ! "adverse"
+mat:mat A4 ;  ! "pale"
+pat:pat A4 ;  ! "flat"
+sabit:sabit A4 ;  ! "stable"
+yiğit:yiğit A2;  ! "spunky, spartan"
+eşit:eşit A4 ;  ! "equal"
+standart:standart A2 ;  ! "standart"
+cömert:cömert A4 ;  ! "generous"
+serbest:serbest A3 ;  ! "free"
+turuncu:turuncu A2 ;  ! "orange"
+alçakgönüllü:alçakgönüllü A1 ;  ! "modest"
+gönüllü:gönüllü A1 ;  ! "volunteer"
+koşullu:koşullu A1 ;  ! "conditional"
+kumlu:kumlu A4 ;  ! "sandy"
+olumlu:olumlu A4 ;  ! "positive, positive"
+motivasyonlu:motivasyonl4 A1 ;  ! "motivated"
+dopdolu:dopdolu A4;  ! "chockful"
+dolu:dolu A2 ;  ! "full"
+dönüşlü:dönüşlü A4 ;  ! "round"
+bulutlu:bulutlu A4 ;  ! "cloudy"
+kokulu:kokulu A4 ;  ! "odorous"
+kuşkulu:kuşkulu A4 ;  ! "doubtful"
+gürültülü:gürültülü A4 ;  ! "noisy"
+tuzlu:tuzlu A4 ;  ! "salty"
+kolay:kolay A1 ;  ! "easy"
+yatay:yatay A4 ;  ! "horizontal"
+dışbükey:dışbükey A4 ;  ! "convex"
+toy:toy A4 ;  ! "raw"
+kaçınılamaz:kaçınılamaz A4 ;  ! "inevitable"
+anlaşılmaz:anlaşılmaz A4 ;  ! "inconceivable"
+bağnaz:bağnaz A4 ;  ! "narrow-minded"
+kurnaz:kurnaz A4 ;  ! "subtle"
+beyaz:beyaz A2 ;  ! "white"
+melez:melez A4 ;  ! "hybrid"
+erişilemez:erişilemez A4 ;  ! "unachievable"
+erişilmez:erişilmez A4 ;  ! "unreachable"
+tez:tez A3 ;  ! "prompt"
+cılız:cılız A4 ;  ! "puny"
+temiz:temiz A3 ;  ! "clean"
+!faydasız:faydasız A1 ;  ! "useless"
+!vefasız:vefasız A1 ;  ! "unfaithful"
+!acımasız:acımasız A1 ;  ! "cruel, ruthless"
+!havasız:havasız A1 ;  ! "airless"
+!tarafsız:tarafsız A1 ;  ! "objective"
+!bilgisiz:bilgisiz A1 ;  ! "insensible"
+!ilgisiz:ilgisiz A1 ;  ! "uninterested"
+!kaygısız:kaygısız A1 ;  ! "careless"
+!etkisiz:etkisiz A1 ;  ! "inoperative, noneffective"
+!başarısız:başarısız A1 ;  ! "unsuccessful"
+!haksız:haksız A1 ;  ! "unjust"
+!aralıksız:aralıksız A1 ;  ! "non-stop"
+!beceriksiz:beceriksiz A1 ;  ! "awkward, clumsy, clumsy"
+!eksiksiz:eksiksiz A1 ;  ! "whole, complete"
+!mantıksız:mantıksız A1 ;  ! "illogical"
+!farksız:farksız A1 ;  ! "same"
+!dilsiz:dilsiz A1 ;  ! "tongueless"
+!gamsız:gamsız A1 ;  ! "carefree"
+!anlamsız:anlamsız A1 ;  ! "meaningless, meaningless, meaningless"
+!!biçimsiz:biçimsiz A1 ;  ! "shapeless"
+!çelimsiz:çelimsiz A1 ;  ! "feeble"
+!eğitimsiz:eğitimsiz A1 ;  ! "uneducated"
+!cansız:cansız A1 ;  ! "spiritless"
+!kansız:kansız A1 ;  ! "bloodless"
+!!yansız:yansız A1 ;  ! "objective"
+!tutarsız:tutarsız A1 ;  ! "inconsistent"
+!değersiz:değersiz A1 ;  ! "valueless"
+!sabırsız:sabırsız A1 ;  ! "impatient"
+!belirsiz:belirsiz A1 ;  ! "ambigous, indefinite"
+!sınırsız:sınırsız A1 ;  ! "limitless"
+!eşsiz:eşsiz A1 ;  ! "unique"
+!gösterişsiz:gösterişsiz A1 ;  ! "simple"
+!elverişsiz:elverişsiz A1 ;  ! "inconvenient"
+!işsiz:işsiz A1 ;  ! "unemployed"
+!münasebetsiz:münasebetsiz A1 ;  ! "tactless"
+!merhametsiz:merhametsiz A1 ;  ! "ruthless"
+!titiz:titiz A1 ;  ! "rigorous"
+!açgöz:açgöz A1 ;  ! "greedy"
+!güçsüz:güçsüz A1 ;  ! "weak"
+!olumsuz:olumsuz A1 ;  ! "negative"
+!tutumsuz:tutumsuz A1 ;  ! "wasteful"
+!lüzumsuz:lüzumsuz A1 ;  ! "unnecessary"
+!sonsuz:sonsuz A1 ;  ! "forever"
+!uygunsuz:uygunsuz A1 ;  ! "inappropriate"
+!kanunsuz:kanunsuz A1 ;  ! "illegal"
+!kusursuz:kusursuz A1 ;  ! "perfect"
+!duygusuz:duygusuz A1 ;  ! "emotionless"
+!korkusuz:korkusuz A1 ;  ! "fearless"
+!uykusuz:uykusuz A1 ;  ! "sleepless"
+!hoşgörüsüz:hoşgörüsüz A1 ;  ! "intolerant"!
+
+kurmaca:kurmaca A2 ;  ! ""
+başlıca:başlıca A4 ;  ! ""
+falanca:falanca A4 ;  ! ""
+koskoca:koskoca A4 ;  ! ""
+paramparça:paramparça A4 ;  ! ""
+hovarda:hovarda A2 ;  ! ""
+tenha:tenha A4 ;  ! ""
+lenduha:lenduha A4 ;  ! ""
+harika:harika A4 ;  ! ""
+sıska:sıska A4 ;  ! ""
+ala:ala A2 ;  ! ""
+ukala:ukala A4 ;  ! ""
+fazla:fazla A3 ;  ! ""
+mülemma:mülemma A2 ;  ! ""
+yosma:yosma A4 ;  ! ""
+müstesna:müstesna A3 ;  ! ""
+sapa:sapa A4 ;  ! ""
+hoppa:hoppa A4 ;  ! ""
+kapkara:kapkara A3 ;  ! ""
+maskara:maskara A4 ;  ! ""
+dobra:dobra A4 ;  ! ""
+ücra:ücra A4 ;  ! ""
+devasa:devasa A4 ;  ! ""
+kıranta:kıranta A4 ;  ! ""
+orta:orta A2 ;  ! ""
+hasta:hasta A4 ;  ! ""
+rüsva:rüsva A4 ;  ! ""
+kıyasıya:kıyasıya A3 ;  ! ""
+fasarya:fasarya A4 ;  ! ""
+geç:geç A3 ;  ! ""
+güleç:güleç A4 ;  ! ""
+iç:iç A2 ;  ! ""
+bilgiç:bilgiç A4 ;  ! ""
+kıskanç:kıskanç A4 ;  ! ""
+genç:genç A4 ;  ! ""
+gülünç:gülünç A4 ;  ! ""
+puluç:puluç A1 ;  ! ""
+yad:yad A4 ;  ! ""
+göçebe:göçebe A4 ;  ! ""
+pespembe:pespembe A2 ;  ! ""
+izbe:izbe A4 ;  ! ""
+ince:ince A4 ;  ! ""
+yüce:yüce A4 ;  ! ""
+fevkalade:fevkalade A4 ;  ! ""
+ziyade:ziyade A4 ;  ! ""
+nadide:nadide A4 ;  ! ""
+güzide:güzide A4 ;  ! ""
+pejmürde:pejmürde A1 ;  ! ""
+bilge:bilge A4 ;  ! ""
+hamile:hamile A4 ;  ! ""
+izole:izole A4 ;  ! ""
+şahane:şahane A4 ;  ! ""
+şairane:şairane A4 ;  ! ""
+fakirane:fakirane A4 ;  ! ""
+simultane:simultane A4 ;  ! ""
+rafine:rafine A4 ;  ! ""
+körpe:körpe A1 ;  ! ""
+yekpare:yekpare A3 ;  ! ""
+abstre:abstre A4 ;  ! ""
+sahte:sahte A4 ;  ! ""
+konserve:konserve A2 ;  ! ""
+şeriye:şeriye A4 ;  ! ""
+taze:taze A3 ;  ! ""
+taptaze:taptaze A3 ;  ! ""
+geveze:geveze A4 ;  ! ""
+şeffaf:şeffaf A4 ;  ! ""
+tuhaf:tuhaf A4 ;  ! ""
+çirkef:çirkef A4 ;  ! ""
+eşref:eşref A4 ;  ! ""
+hafif:hafif A4 ;  ! ""
+zarif:zarif A4 ;  ! ""
+mutasarrıf:mutasarrıf A4 ;  ! ""
+negatif:negatif A4 ;  ! ""
+latif:latif A4 ;  ! ""
+primitif:primitif A4 ;  ! ""
+zayıf:zayıf A4 ;  ! ""
+çiğ:çiğ A4 ;  ! ""
+sığ:sığ A4 ;  ! ""
+küstah:küstah A4 ;  ! ""
+simsiyah:simsiyah A2 ;  ! ""
+müsterih:müsterih A4 ;  ! ""
+nezih:nezih A4 ;  ! ""
+şuh:şuh A4 ;  ! ""
+irticai:irticai A4 ;  ! ""
+cezai:cezai A4 ;  ! ""
+asabi:asabi A3 ;  ! ""
+tıbbi:tıbbi A4 ;  ! ""
+ecnebi:ecnebi A4 ;  ! ""
+harbi:harbi A4 ;  ! ""
+acı:acı A4 ;  ! ""
+feci:feci A4 ;  ! ""
+sahici:sahici A4 ;  ! ""
+yırtıcı:yırtıcı A4 ;  ! ""
+mızıkçı:mızıkçı A4 ;  ! ""
+sağlamcı:sağlamcı A4 ;  ! ""
+yabancı:yabancı A4 ;  ! ""
+kafatasçı:kafatasçı A4 ;  ! ""
+iktisadi:iktisadi A4 ;  ! ""
+türedi:türedi A4 ;  ! ""
+ivedi:ivedi A4 ;  ! ""
+zibidi:zibidi A4 ;  ! ""
+davudi:davudi A4 ;  ! ""
+coğrafi:coğrafi A4 ;  ! ""
+izafi:izafi A4 ;  ! ""
+cerrahi:cerrahi A4 ;  ! ""
+ahlaki:ahlaki A4 ;  ! ""
+!sonraki:sonraki A4 ;  ! ""
+zoraki:zoraki A4 ;  ! ""
+tiryaki:tiryaki A4 ;  ! ""
+!önceki:önceki A4 ;  ! ""
+zeki:zeki A4 ;  ! ""
+!şimdiki:şimdiki A4 ;  ! ""
+sıkı:sıkı A1 ;  ! ""
+!benimki:benimki A1 ;  ! ""
+!bizimki:bizimki A1 ;  ! ""
+!sizinki:sizinki A1 ;  ! ""
+türki:türki A2 ;  ! ""
+eski:eski A2 ;  ! ""
+pahalı:pahalı A4 ;  ! ""
+sendikalı:sendikalı A4 ;  ! ""
+kapalı:kapalı A4 ;  ! ""
+taşralı:taşralı A4 ;  ! ""
+sustalı:sustalı A4 ;  ! ""
+adli:adli A4 ;  ! ""
+tehlikeli:tehlikeli A4 ;  ! ""
+bağlı:bağlı A4 ;  ! ""
+sevgili:sevgili A2 ;  ! ""
+ekili:ekili A4 ;  ! ""
+yatılı:yatılı A4 ;  ! ""
+dokunaklı:dokunaklı A4 ;  ! ""
+emekli:emekli A2 ;  ! ""
+sürekli:sürekli A3 ;  ! ""
+acıklı:acıklı A4 ;  ! ""
+hazırlıklı:hazırlıklı A4 ;  ! ""
+farklı:farklı A4 ;  ! ""
+önemli:önemli A4 ;  ! ""
+biçimli:biçimli A3 ;  ! ""
+eğitimli:eğitimli A4 ;  ! ""
+sevimli:sevimli A4 ;  ! ""
+capcanlı:capcanlı A3 ;  ! ""
+yeterli:yeterli A4 ;  ! ""
+yerli:yerli A4 ;  ! ""
+belirli:belirli A4 ;  ! ""
+ağırbaşlı:ağırbaşlı A4 ;  ! ""
+asli:asli A4 ;  ! ""
+dişli:dişli A4 ;  ! ""
+yağışlı:yağışlı A4 ;  ! ""
+kullanışlı:kullanışlı A4 ;  ! ""
+tatlı:tatlı A1 ;  ! ""
+müstevli:müstevli A1 ;  ! ""
+tufeyli:tufeyli A4 ;  ! ""
+gizli:gizli A3 ;  ! ""
+hızlı:hızlı A3 ;  ! ""
+hami:hami A4 ;  ! ""
+yarı:yarı A1 ;  ! ""
+hicri:hicri A4 ;  ! ""
+seferi:seferi A2 ;  ! ""
+askeri:askeri A4 ;  ! ""
+diri:diri A4 ;  ! ""
+dipdiri:dipdiri A4 ;  ! ""
+favori:favori A2 ;  ! ""
+sivri:sivri A2 ;  ! ""
+sayrı:sayrı A4 ;  ! ""
+uluslararası:uluslararası A4 ;  ! ""
+milletlerarası:milletlerarası A4 ;  ! ""
+vasi:vasi A4 ;  ! ""
+dişi:dişi A2 ;  ! ""
+erdişi:erdişi A4 ;  ! ""
+ekşi:ekşi A2 ;  ! ""
+
 LEXICON Adverbs 
 
 acilen:acilen ADV3 ; ! "promtply"
@@ -11045,4 +11768,18 @@ LEXICON Punctuation
 %)%<rpar%>:%) # ;
 \%<sent%>:\ # ;
 /%<sent%>:/ # ;
+
+!==============!
+ LEXICON Digits ! Use/Circ
+!==============!
+
+
+%0:%0 NUM ;  ! Use/Circ
+№:№ DIGITLEX ;  ! Use/Circ
+DIGITLEX ; ! Use/Circ
+LASTDIGIT ; ! Use/Circ
+LASTDIGIT-REST ; ! Use/Circ
+
+! FIXME: We probably need a flag diacritic here, or an alternative '<percent>' lexicon
+%%:%% DIGITLEX ;  ! Use/Circ
 
