@@ -284,6 +284,7 @@ LEXICON V-PERS-COP
 
 %+i%<cop%>%<pres%>: V-PERS-COP-G2-NOSG3-FINAL ;
 
+
 LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears only
                         ! after nominal parts of speech (and only after some cases).
                         ! FIXME: to be checked whether leads to any overgeneration
@@ -708,6 +709,7 @@ LEXICON V-PERS-COP-G2-NOSG3-FINAL
 %<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
 %<p3%>%<pl%>:%>l%{A%}r  # ;
+
 
 LEXICON PERS1-NO3PL 
 
@@ -1903,9 +1905,12 @@ sekiz:sekiz NUM ; ! "eight"
 dokuz:dokuz NUM ; ! "nine"
 on:on NUM ; ! "ten"
 
-LEXICON Nouns 
+LEXICON Nouns
 
-
+ 
+sandalye:sandalye N1 ; ! "chair"
+oğlan:oğlan N1 ; ! "boy"
+soru:soru N1 ; ! "problem"
 aba:aba N1 ; ! "cloth"
 abajur:abajur N1 ; ! "lampshade"
 abaküs:abaküs N1 ; ! "abacus"
@@ -3303,6 +3308,7 @@ eser:eser N1 ; ! "production"
 es:es N1 ; ! "rest"
 eş:eş N1 ; ! "spouse"
 eşey:eşey N1 ; ! "sex"
+şey:şey N1 ; ! "thıng"
 esham:esham N1 ; ! "shares"
 eşik:eşik N1 ; ! "threshold"
 esin:esin N1 ; ! "inspiration"
@@ -9718,6 +9724,7 @@ milli:milli A4 ; ! "national"
 ekonomik:ekonomik A4 ; ! "economic"
 
 uzunca:uzunca A3 ;  ! "tallish"
+soğuk:soğuk A1 ;  ! "tallish"
 budala:budala A2 ;  ! "fool"
 ela:ela A2 ;  ! "haler (colour)"
 kabartma:kabartma A2 ;  ! "raised"
