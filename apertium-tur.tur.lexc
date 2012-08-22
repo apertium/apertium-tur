@@ -479,6 +479,8 @@ ben%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:benden CLIT ;
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<px%>:benimki CASE ; 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:bendeki ATTR-SUBST ; 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<adv%>:bence CLIT ; 
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<com%>:benimle # ; 
+
 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:sen CLIT ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:senin CLIT ; 
@@ -489,6 +491,8 @@ sen%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:senden CLIT ;
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<px%>:seninki CASE ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:sendeki ATTR-SUBST ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<adv%>:sence CLIT ; 
+sen%<prn%>%<pers%>%<p1%>%<sg%>%<com%>:seninle # ; 
+
 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:o CLIT ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:onun CLIT ; 
@@ -499,6 +503,7 @@ o%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ondan CLIT ;
 o%<prn%>%<pers%>%<p3%>%<sg%>%<px%>:onunki CASE ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:ondeki ATTR-SUBST ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<adv%>:once CLIT ; 
+o%<prn%>%<pers%>%<p1%>%<sg%>%<com%>:onunla # ; 
 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:biz CLIT ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:bizim CLIT ; 
@@ -509,6 +514,8 @@ biz%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:bizdiz CLIT ;
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<px%>:bizimki CASE ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizdeki ATTR-SUBST ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<adv%>:bizce CLIT ; 
+biz%<prn%>%<pers%>%<p1%>%<sg%>%<com%>:bizimle # ; 
+
 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:siz CLIT ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:sizin CLIT ; 
@@ -519,6 +526,8 @@ siz%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:sizdiz CLIT ;
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<px%>:sizinki CASE ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizdeki ATTR-SUBST ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<adv%>:sizce CLIT ; 
+siz%<prn%>%<pers%>%<p1%>%<sg%>%<com%>:sizinle # ; 
+
 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<nom%>:onlar CLIT ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:onların CLIT ; 
@@ -529,6 +538,8 @@ onlar%<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:onlardan CLIT ;
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<px%>:onlarınki CASE ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:onlardeki ATTR-SUBST ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<adv%>:onlarca CLIT ; 
+onlar%<prn%>%<pers%>%<p1%>%<sg%>%<com%>:onlarınla # ; 
+
 
 LEXICON PRON-DEM-BU
 
@@ -1220,6 +1231,8 @@ LEXICON GERUND
 LEXICON NON-FINITE
 
 %<inf%>:%>m%{A%}k # ;
+
+
 
 %<prc1%>:%>%{y%}%{A%}n ATTR ;
 

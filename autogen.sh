@@ -31,7 +31,7 @@ fi
 
 rm -f config.cache acconfig.h
 
-DARWINPATH=/opt/local/bin
+DARWINPATH=/usr/local/bin/
 
 echo "- aclocal."		&& \
 if test x$(uname -s) = xDarwin; then $DARWINPATH/aclocal -I /opt/local/share/aclocal ; else aclocal ; fi && \
