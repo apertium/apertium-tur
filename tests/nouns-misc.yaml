@@ -31,11 +31,11 @@ Tests:
    "POSSESSIVES":
 
    ev<n><px1sg> : evim
-   ev<n><px1sg> : evin
-   ev<n><px1sg> : evi
-   ev<n><px1sg> : evimiz
-   ev<n><px1sg> : eviniz
-   ev<n><px1sg> : evleri
+   ev<n><px2sg> : evin
+   ev<n><px3sg> : evi
+   ev<n><px1pl> : evimiz
+   ev<n><px2pl> : eviniz
+   ev<n><px3pl> : evleri
 
  
  
