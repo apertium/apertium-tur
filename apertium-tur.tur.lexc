@@ -1084,7 +1084,7 @@ LEXICON ABIL-AR
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} GERUND ;
 %<abil%>:%>%{y%}%{A%}bil NON-FINITE ;
 %<neg%>%<abil%>:%>%{A%} NON-FINITE ;
-%<neg%>%<abil%>:%>%{A%} PERS5 ;
+%<neg%>%<abil%>:%>%{y%}%{A%}m%{a%} PERS5 ;
 NON-FINITE ;
 
 GERUND ;
@@ -1102,7 +1102,7 @@ LEXICON ABIL-IR
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} GERUND ;
 %<abil%>:%>%{y%}%{A%}bil NON-FINITE ;
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} NON-FINITE ;
-%<neg%>%<abil%>:%>%{A%} PERS5 ;
+%<neg%>%<abil%>:%>%{y%}%{A%} PERS5 ;
 NON-FINITE ;
 FINITE-VERBS-IR ;
 GERUND ;
@@ -6675,6 +6675,13 @@ zevk:zevk N1 ; ! "satisfaction"
 renk:renk N1 ; ! "colour"
 saat:saat%{f%} N1 ; ! "time" "Watch" "hour"
 petrol:petrol%{f%} N1 ; ! "oil" as in "Saudi Arabia is full of oil"
+yaş:yaş N1 ; ! "age"
+ses:ses N1 ; ! "voice, sound"
+pencere:pencere N1 ; ! "window" 
+yer:yer N1 ; ! "window" 
+su:su N1 ; ! "water" @@@@ SPECIAL CASE FOR MANY CASES
+
+
 
 acı% biber:acı% biber N1 ; ! "hot pepper"
 açık% hava:açık% hava N1 ; ! "open air"
@@ -6764,6 +6771,7 @@ Avusturyalı:Avusturyalı N1 ; ! ""
 Afrikalı:Afrikalı N1 ; ! "African"
 Slav:Slav N1 ; ! "slavic"
 Habeş:Habeş N1 ; ! "ethiopian"
+
 
 
 LEXICON ProperNouns
@@ -10827,6 +10835,10 @@ komutа:komutа A4 ;  ! ""
 LEXICON Adverbs 
 
 acilen:acilen ADV3 ; ! "promtply"
+yeterince:yeterince ADV3 ; ! "enough"
+yavaşça:yavaşça ADV3 ; ! "enough"
+
+
 ahiren:ahiren ADV3 ; ! "lately"
 ailecek:ailecek ADV3 ; ! "as a family"
 akabinde:akabinde ADV3 ; ! "immediately afterwards"
@@ -11080,6 +11092,7 @@ kısmen:kısmen ADV2 ; ! "partly" "tolerable"
 kuşkusuz:kuşkusuz ADV2 ; ! "indubitably"
 masumane:masumane ADV2 ; ! "innocent/ly"
 zor:zor ADV2 ; ! "hard"
+
 
 acele:acele ADV1 ; ! "fastly"
 
