@@ -6465,6 +6465,19 @@ müşteri:müşteri N1 ; ! "customer"
 müsteşar:müsteşar N1 ; ! "undersecretary"
 muştu:muştu N1 ; ! "good news"
 cevap:cevap N1 ; ! "answer"
+yapılanma:yapılanma N1 ; ! "settlement"
+polis:polis N1 ; ! "police"
+Cumhurbaşkan:Cumhurbaşkan N1 ; ! "presıdent of republıc"
+parti:parti N1 ; ! "party"
+reform:reform N1 ; ! "reform"
+
+sekreter:sekreter N1 ; ! "secretary"
+Pazar:Pazar N1 ; ! "Sunday or market"
+terör:terör N1 ; ! " terror"
+ordu:ordu N1 ; ! " army"
+
+
+
 müsvedde:müsvedde N1 ; ! "copy"
 mutabakat:mutabakat N1 ; ! "agreement"
 mutabakat:mutabakat N1 ; ! "commitment"
