@@ -915,18 +915,14 @@ AOR-IR-CONDITIONAL ;
 LEXICON REC-DIR-IR
 
 %<rec%>:%>%{i%}ş CAUS-DIR-IR ;
-%<rec%>:%>%{i%}ş CAUS-IR-AR ;
 %<rec%>:%>%{i%}ş NECE ;
 CAUS-DIR-IR ;
-CAUS-IR-AR ;
 NECE ;
 
 LEXICON REF-DIR-IR
 %<ref%>:%>%{i%}n CAUS-DIR-IR ;
-%<ref%>:%>%{i%}n CAUS-IR-AR ;
 %<ref%>:%>%{i%}n NECE ;
 CAUS-DIR-IR ;
-CAUS-IR-AR ;
 NECE ;
 
 LEXICON IV-REC-DIR-IR
@@ -954,7 +950,6 @@ LEXICON PASS-DIR-IR
 
 AOR-IR-CONDITIONAL ;
 CAUS-DIR-IR ;
-CAUS-IR-AR ;
 NECE ;
 NON-FINITE ;
 GERUND ;
