@@ -632,8 +632,9 @@ LEXICON PRON-REF
 %<prn%>%<ref%>%<p2%>%<pl%>:%>%{I%}n%{I%}z PRON-REF-ADV ;
 %<prn%>%<ref%>%<p3%>%<pl%>:%>l%{A%}r%>%{I%}%{pN%} PRON-REF-ADV ;
 
+LEXICON PRON-ADV 
 
-
+%<prn%>%<adv%>: CASE-NONOM ; 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -708,7 +709,7 @@ LEXICON A3
 
 LEXICON A4
 
-%<adj%>: # ;
+%<adj%>: CLIT-GENERAL ; ! FIXME: Check for overgeneration e.g. vardiyim
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Verb paradigms
@@ -1857,6 +1858,10 @@ hiç% kimse:hiç% kimse PRON-NEG ; ! "nobody"
 
 öz:öz PRON-REF ; ! "self"
 kendi:kendi PRON-REF ; ! "self"
+
+ora:ora PRON-ADV ; 
+bura:bura PRON-ADV ; 
+şura:şura PRON-ADV ; 
 
 LEXICON Determiners
 

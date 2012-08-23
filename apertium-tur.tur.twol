@@ -177,6 +177,7 @@ Cx:Cy <=> :Vow (:0) _ %>: (:0) :SurVow ;
           except
                  :n _ %>: (:0) :SurVow ;
                     _ %>: (:0) %{i%}: ;
+                    _ %>: (:0) %{I%}: y:y o:o r:r ; 
           where Cx in ( t k ç ) ! p
                 Cy in ( d ğ c ) ! b
                 matched;
