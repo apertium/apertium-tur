@@ -10,6 +10,8 @@ LIST Gen = gen ;
 
 LIST Px2Sg = px2sg ; 
 
+LIST Cop = cop ; 
+
 SECTION 
 
 REMOVE Cog + Px2Sg IF (0 Cog + Gen) ; 
