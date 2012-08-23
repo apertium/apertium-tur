@@ -1753,6 +1753,11 @@ ibibaren:ibibaren POST ; ! ""
 sonra:sonra POST ; ! ""
 yana:yana POST ; ! ""
 
+! Comitative
+
+ilgili:ilgili POST ; ! "regarding"
+
+
 LEXICON  Conjunctions
 
 ve:ve CC ; ! "and"
@@ -6473,6 +6478,10 @@ reform:reform N1 ; ! "reform"
 
 sekreter:sekreter N1 ; ! "secretary"
 Pazar:Pazar N1 ; ! "Sunday or market"
+Pazartesi:Pazartesi N1 ; ! "Monday"
+Pazar:Pazar N1 ; ! "Sunday or market"
+
+
 terör:terör N1 ; ! " terror"
 ordu:ordu N1 ; ! " army"
 
