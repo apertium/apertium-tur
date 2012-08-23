@@ -102,6 +102,7 @@ Multichar_Symbols
 %{A%}              ! Becomes 'a' or 'e' 
 %{I%}              ! Becomes 'i', 'ı' 'ü", or "u"
 %{D%}		   ! Becomes "d" or "t" - fistikci sahap
+%{L%}              ! 
 
 
 %{n%}		   ! Becomes "n" after a vowel, otherwise null
@@ -456,6 +457,12 @@ LEXICON NP1-ORG
 %<np%>%<org%>%<nom%>: # ;
 %<np%>%<org%>:%' N-INFL-COMMON-NONOM ;
 %<np%>%<org%>%<attr%>: # ;
+
+LEXICON NP2-ORG
+
+%<np%>%<org%>%<px3sp%>%<nom%>: # ;
+%<np%>%<org%>%<px3sp%>:%'%{pN%} N-INFL-COMMON-NONOM ;
+
 
 LEXICON NP1-ANT-M
 
@@ -7485,6 +7492,7 @@ HSBC:HSBC NP1-ORG ; ! ""
 MSNBC:MSNBC NP1-ORG ; ! ""
 Interpol:Interpol NP1-ORG ; ! ""
 Microsoft:Microsoft NP1-ORG ; ! ""
+Sırp% Ordusu:Sırp% Ordusu NP1-ORG ; ! ""
 
 ! Other
 Southeast% European% Times:Southeast% European% Times NP1-AL ; ! ""
@@ -7823,6 +7831,18 @@ Tyers:Tyers NP1-COG-MF ; ! ""
 Salimzyanov:Salimzyanov NP1-COG-MF ; ! ""
 Washington:Washington NP1-COG-MF ; ! ""
 Erdoğan:Erdoğan NP1-COG-MF ; ! ""
+
+Tayyip:Tayyip NP1-ANT-M ; ! ""
+Ağustos:Ağustos NP1-ANT-M ; ! ""
+Rehn:Rehn NP1-COG-MF ; ! ""
+Kostunica:Kostunica NP1-COG-MF ; ! ""
+del% Ponte:del% Ponte NP1-COG-MF ; ! ""
+Ashdown:Ashdown NP1-COG-MF ; ! ""
+Sanader:Sanader NP1-COG-MF ; ! ""
+Berişa:Berişa NP1-COG-MF ; ! ""
+Ahtisaari:Ahtisaari NP1-COG-MF ; ! ""
+Gotovina:Gotovina NP1-COG-MF ; ! ""
+Tariceanu:Tariceanu NP1-COG-MF ; ! ""
 
 Basescu:Basescu NP1-COG-MF ; ! ""
 Popescu:Popescu NP1-COG-MF ; ! ""

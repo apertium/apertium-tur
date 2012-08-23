@@ -17,6 +17,8 @@ Alphabet
  %{t%}:t %{ç%}:ç %{e%}:e
 
  %{o%}:0 %{ö%}:0 %{ı%}:0 %{p%}:0 %{b%}:0 ! For numerals and abbreviations / acronyms
+ 
+ %{ii%}:0
 
  %{pN%}:0
 
