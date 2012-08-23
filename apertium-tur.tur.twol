@@ -155,7 +155,7 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 ! akü>{n}{I}n       = akünün    = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
 
 "Epenthetic consonants after vowel"
-Cx:Cy <=>   :SurVow/ (%':) (:0) %>: _ ; 
+Cx:Cy <=>   :SurVow (%':) (:0) %>: _ ; 
         where
             Cx in ( %{n%} %{s%} %{y%} ) 
             Cy in (   n     s     y   ) 
@@ -200,7 +200,7 @@ k:g <=> :n _ %>: (:0) :Vow ;
              [ %{e%}: | :Vow | :l ]  %>: %{i%}:i _ ; 
 
 "Deletion of stem vowel before -{I}yor"
-Vx:0 <=> _ %>: %{I%}: y o r ;
+Vx:0 <=> _ %>: %{I%}: y:y o:o r:r  ;
        where Vx in ( a e i o u ı ö ü ) ;
  	  	 
 ! oyna>{I}yor    = oynuyor = o:o y:y n:n a:0 >:0 {I}:u y:y o:o r:r

@@ -366,8 +366,8 @@ GENPOSS-ETC ;
   
 LEXICON POSS-REAL
 
-%<px1sg%>:%>%{I%}m CASE-ETC ;                
-%<px2sg%>:%>%{I%}n CASE-ETC ;                 
+%<px1sg%>:%>%{i%}m CASE-ETC ;                
+%<px2sg%>:%>%{i%}n CASE-ETC ;                 
 %<px3sp%>:%>%{s%}%{I%}%{pN%} CASE-ETC ; 
 %<px1pl%>:%>%{i%}m%{I%}z CASE-ETC ;           
 %<px2pl%>:%>%{i%}n%{I%}z CASE-ETC ;      
@@ -11757,7 +11757,7 @@ aksa:aksa V-TV-T-IR ; ! "limp"
 algıla:algıla V-TV-T-IR ; ! "comprehend"
 anımsa:anımsa V-TV-T-IR ; ! "recall"
 anla:anla V-TV-T-IR ; ! "understand"
-ara:ar%{a%} V-TV-T-IR ; ! "seek, search, look for"
+ara:ara V-TV-T-IR ; ! "seek, search, look for"
 aşağıla:aşağıla V-TV-T-IR ; ! "insult"
 ata:ata V-TV-T-IR ; ! "assign"
 ayarla:ayarla V-TV-T-IR ; ! "adjust, set"
