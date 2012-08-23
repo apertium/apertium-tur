@@ -282,17 +282,32 @@ LEXICON CLIT
 %+mı%<qst%>:% m%{I%} PERS3 ; 
 # ;  !! This is the end of word marker.
 
+LEXICON CLIT-NOPERS
+
+%+mı%<qst%>:% m%{I%} # ; 
+# ;  !! This is the end of word marker.
+
+
 LEXICON V-PERS-COP
 
 %+i%<cop%>%<pres%>: V-PERS-COP-G2-NOSG3-FINAL ;
 %+i%<cop%>%<past%>:%>{D%}%{I%} PERS3 ;
 
+LEXICON V-NOPERS-COP
+
+%+i%<cop%>%<pres%>: V-PERS-COP-G2-NOSG3-FINAL ;
+%+i%<cop%>%<past%>:%>{D%}%{I%} PERS3 ;
 
 LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears only
                         ! after nominal parts of speech (and only after some cases).
                         ! FIXME: to be checked whether leads to any overgeneration
 CLIT ;
 V-PERS-COP ;
+
+LEXICON CLIT-NOPERS
+
+CLIT-NOPERS ;
+V-NOPERS-COP ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Personal suffixes
@@ -709,7 +724,7 @@ LEXICON A3
 
 LEXICON A4
 
-%<adj%>: CLIT-GENERAL ; ! FIXME: Check for overgeneration e.g. vardiyim
+%<adj%>: CLIT-NOPERS ; ! FIXME: Check for overgeneration e.g. vardiyim
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Verb paradigms
