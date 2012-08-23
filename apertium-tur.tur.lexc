@@ -416,6 +416,7 @@ LEXICON N1 ! Generic noun paradigm.
            ! e.g. ev, kitap, ...
 
 %<n%>: SUBST ; 
+%<n%>%<attr%>: # ;  
 
 LEXICON N2 ! Compound nouns with compulsory possession. 
            ! e.g. dikiş makinası, dikiş makinaları, ...
@@ -1957,6 +1958,12 @@ sekiz:sekiz NUM ; ! "eight"
 dokuz:dokuz NUM ; ! "nine"
 on:on NUM ; ! "ten"
 
+yüz:yüz NUM ; ! "hundred"
+bin:bin NUM ; ! "thousand"
+milyon:milyon NUM ; ! "million"
+milyar:milyar NUM ; ! "milliard"
+bilyon:bilyon NUM ; ! "billion"
+
 LEXICON Nouns
  
 sandalye:sandalye N1 ; ! "chair"
@@ -1965,7 +1972,6 @@ Perşembe:Perşembe N1 ; ! "Thursday"
 Başbakan:Başbakan N1 ; ! "Prime minister"
 Cuma:Cuma N1 ; ! "Friday"
 Mart:Mart N1 ; ! "March"
-milyon:milyon N1 ; ! "million"
 Mayıs:Mayıs N1 ; ! "May"
 üyelik:üyelik N1 ; ! "Membership"
 Haziran:Haziran N1 ; ! "June"
@@ -7600,6 +7606,7 @@ Olli:Olli NP1-ANT-M ; ! ""
 Stipe:Stipe NP1-ANT-M ; ! ""
 Jaap:Jaap NP1-ANT-M ; ! ""
 Abdullah:Abdullah NP1-ANT-M ; ! ""
+Kasım:Kasım NP1-ANT-M ; ! ""
 Kostas:Kostas NP1-ANT-M ; ! ""
 Adalet:Adalet NP1-ANT-M ; ! ""
 Adam:Adam NP1-ANT-M ; ! ""
