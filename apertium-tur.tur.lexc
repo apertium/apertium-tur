@@ -1734,6 +1734,7 @@ için:için POST ; ! ""
 ile:İle POST ; ! "" ! Dir/LR
 ile:ile POST ; ! ""
 kadar:kadar POST ; ! ""
+hakkında:hakkında POST ; ! "regarding"
 
 ! Dative
 doğru:doğru POST ; ! ""
@@ -1959,6 +1960,33 @@ on:on NUM ; ! "ten"
 LEXICON Nouns
  
 sandalye:sandalye N1 ; ! "chair"
+Salı:Salı N1 ; ! "Tuesday"
+Perşembe:Perşembe N1 ; ! "Thursday"
+Başbakan:Başbakan N1 ; ! "Prime minister"
+Cuma:Cuma N1 ; ! "Friday"
+Mart:Mart N1 ; ! "March"
+milyon:milyon N1 ; ! "million"
+Mayıs:Mayıs N1 ; ! "May"
+üyelik:üyelik N1 ; ! "Membership"
+Haziran:Haziran N1 ; ! "June"
+Ocak:Ocak N1 ; ! "January"
+Nisan:Nisan N1 ; ! "April"
+Cuma:Cuma N1 ; ! "Friday"
+Ekim:Ekim N1 ; ! "October"
+işbirlik:işbirlik N1 ; ! "union"
+Aralık:Aralık N1 ; ! "December"
+Temmuz:Temmuz N1 ; ! "July"
+Eylül:Eylül N1 ; ! "September"
+suç:suç N1 ; ! "crime"
+güvenlik:güvenlik N1 ; ! "security"
+Cumartesi:Cumartesi N1 ; ! "Saturday"
+ziyaret:ziyaret N1 ; ! "vısıt"
+hükümet:hükümet N1 ; ! "government"
+
+
+
+
+sandalye:sandalye N1 ; ! "chair"
 oğlan:oğlan N1 ; ! "boy"
 soru:soru N1 ; ! "problem"
 aba:aba N1 ; ! "cloth"
@@ -2182,6 +2210,11 @@ ambulans:ambulans N1 ; ! "ambulance"
 amca:amca N1 ; ! "uncle"
 amel:amel N1 ; ! "deed"
 amele:amele N1 ; ! "worker"
+Çarşamba:Çarşamba N1 ; ! "wednesday"
+
+
+
+
 ameliyat:ameliyat N1 ; ! "surgeon"
 ameliyathane:ameliyathane N1 ; ! "surgery"
 amfi:amfi N1 ; ! "theater"
@@ -6794,9 +6827,14 @@ yak:yak N4 ; ! "close"
 taraf:taraf N4 ; ! ""
 sonra:sonra N4 ; ! ""
 üst:üst N4 ; ! ""
+üzer:üzer N4 ; ! ""
+
+
 etraf:etraf N4 ; ! ""
 karş:karş N4 ; ! ""
 ön:ön N4 ; !
+yön:yön N4 ; ! "on"
+
 !esna:esna N4 ; ! ""
 !ard:ard N4 ; ! ""
 !hal:hal N4 ; ! ""
@@ -9800,7 +9838,13 @@ eski:eski A1 ; ! "old"
 güzel:güzel A1 ; ! "pretty, beautiful"
 
 ölü:ölü A2 ; ! "dead"
-siya:siya A2 ; ! "black"
+yaklaşık:yaklaşık A2 ; ! "approximate"
+amaçlı:amaçlı A2 ; ! "orıented"
+ortak:ortak A2 ; ! "partner"
+
+
+
+siyasi:siyasi A2 ; ! "political"
 
 ana:ana A4 ; ! "main"
 milli:milli A4 ; ! "national"
@@ -10928,6 +10972,8 @@ acilen:acilen ADV3 ; ! "promtply"
 yeterince:yeterince ADV3 ; ! "enough"
 yavaşça:yavaşça ADV3 ; ! "enough"
 dikkatlice:dikkatlice ADV3 ; ! "with attention"
+şekilde:şekilde ADV3 ; ! "in a manner"
+
 
 ahiren:ahiren ADV3 ; ! "lately"
 ailecek:ailecek ADV3 ; ! "as a family"
@@ -11897,6 +11943,8 @@ düğümle:düğümle V-TV-T-IR ; ! "knot"
 durakla:durakla V-TV-T-IR ; ! "pause"
 düşle:düşle V-TV-T-IR ; ! "dream"
 düzenle:düzenle V-TV-T-IR ; ! "arrange"
+delirt:delirt V-TV-T-IR ; ! "arrange"
+
 ekle:ekle V-TV-T-IR ; ! "add"
 ele:ele V-TV-T-IR ; ! "eliminate"
 engelle:engelle V-TV-T-IR ; ! "block"
