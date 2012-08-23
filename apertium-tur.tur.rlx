@@ -14,3 +14,6 @@ SECTION
 
 REMOVE Cog + Px2Sg IF (0 Cog + Gen) ; 
     ## Cinciç'in anısına Belgrad'da binlerce kişi toplandı.
+
+REMOVE Cop IF (NOT 1 EOS) ;
+    ## Eczanelerde satılan ilaçlar da bu alanda rağbet görüyor.
