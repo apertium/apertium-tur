@@ -889,6 +889,9 @@ LEXICON PASS-DIR-AR
 %<pass%>:%>%{i%}%{L%} NEG ;
 %<pass%>:%>%{i%}%{L%} AOR-IR ;
 %<pass%>:%>%{i%}%{L%} AOR-IR-CONDITIONAL ;
+%<pass%>:%>%{i%}%{L%} FINITE-VERBS-IR ;
+
+
 CAUS-DIR-AR ;
 NECE ;
 NON-FINITE ;
@@ -907,6 +910,8 @@ LEXICON PASS-T-AR
 %<pass%>:%>%{i%}%{L%} NEG ;
 %<pass%>:%>%{i%}%{L%} AOR-AR ;
 %<pass%>:%>%{i%}%{L%} AOR-IR-CONDITIONAL ;
+%<pass%>:%>%{i%}%{L%} FINITE-VERBS-IR ;
+
 CAUS-T-AR ;
 NECE ;
 NON-FINITE ;
@@ -925,6 +930,8 @@ LEXICON PASS-T-IR
 %<pass%>:%>%{i%}%{L%} NEG ;
 %<pass%>:%>%{i%}%{L%} AOR-IR ;
 %<pass%>:%>%{i%}%{L%} AOR-IR-CONDITIONAL ;
+%<pass%>:%>%{i%}%{L%} FINITE-VERBS-IR ;
+
 CAUS-T-IR ;
 NECE ;
 NON-FINITE ;
@@ -965,6 +972,8 @@ LEXICON PASS-DIR-IR
 
 %<pass%>:%>%{i%}%{L%} NECE ;
 %<pass%>:%>%{i%}%{L%} NON-FINITE ;
+%<pass%>:%>%{i%}%{L%} FINITE-VERBS-IR ;
+
 %<pass%>:%>%{i%}%{L%} GERUND ;
 %<pass%>:%>%{i%}%{L%} ABIL-IR ;
 %<pass%>:%>%{i%}%{L%} NEG ;
