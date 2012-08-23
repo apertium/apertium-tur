@@ -564,15 +564,15 @@ LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<pl%>:nlar CASE-ETC ;
 %<prn%>%<dem%>%<pl%>%<px3sp%>:nları%{pN%} CASE ;
 
+LEXICON PRON-ITG-NERE
 
-nere%<prn%>%<itg%>%<gen%>:nerenin # ;
-nere%<prn%>%<itg%>%<dat%>:nereye #  ;
-nere%<prn%>%<itg%>%<acc%>:nereyi # ;
-nere%<prn%>%<itg%>%<abl%>:nereden # ;
-nere%<prn%>%<itg%>%<loc%>:nerede # ;
-nere%<prn%>%<itg%>%<px%>:neresi # ;
-nere%<prn%>%<itg%>%<loc%>:neredeki # ;
-
+%<prn%>%<itg%>%<gen%>:%>nin # ;
+%<prn%>%<itg%>%<dat%>:%>ye #  ;
+%<prn%>%<itg%>%<acc%>:%>yi # ;
+%<prn%>%<itg%>%<abl%>:%>den # ;
+%<prn%>%<itg%>%<loc%>:%>de # ;
+%<prn%>%<itg%>%<px%>:%>si CASE ;
+%<prn%>%<itg%>%<loc%>:%>deki ATTR-SUBST ;
 
 LEXICON PRON-IND
 
@@ -588,6 +588,8 @@ ne:ne PRON-ITG-INFL ; ! "what"
 neyi:neyi PRON-ITG-INFL ; ! "what"
 niye:niye PRON-ITG-INFL ; ! "what"
 kim:kim PRON-ITG-INFL ; ! "who"
+
+nere:nere PRON-ITG-NERE ; ! ""
 
 LEXICON PRON-QNT
 
@@ -1916,7 +1918,6 @@ dokuz:dokuz NUM ; ! "nine"
 on:on NUM ; ! "ten"
 
 LEXICON Nouns
-
  
 sandalye:sandalye N1 ; ! "chair"
 oğlan:oğlan N1 ; ! "boy"
@@ -6429,7 +6430,7 @@ müşteri:müşteri N1 ; ! "client"
 müşteri:müşteri N1 ; ! "customer"
 müsteşar:müsteşar N1 ; ! "undersecretary"
 muştu:muştu N1 ; ! "good news"
-cevap:cevap N1 ; | "answer"
+cevap:cevap N1 ; ! "answer"
 müsvedde:müsvedde N1 ; ! "copy"
 mutabakat:mutabakat N1 ; ! "agreement"
 mutabakat:mutabakat N1 ; ! "commitment"
