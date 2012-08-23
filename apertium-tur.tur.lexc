@@ -279,13 +279,13 @@ LEXICON DIGITLEX
 
 LEXICON CLIT
 
-%+mı%<qst%>:% m%{I%} # ; 
+%+mı%<qst%>:% m%{I%} PERS3 ; 
 # ;  !! This is the end of word marker.
 
 LEXICON V-PERS-COP
 
 %+i%<cop%>%<pres%>: V-PERS-COP-G2-NOSG3-FINAL ;
-%+i%<cop%>%<pres%>:%>{D%}%{I%} PERS2 ;
+%+i%<cop%>%<past%>:%>{D%}%{I%} PERS3 ;
 
 
 LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears only
