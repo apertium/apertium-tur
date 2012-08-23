@@ -1736,6 +1736,8 @@ ile:İle POST ; ! "" ! Dir/LR
 ile:ile POST ; ! ""
 kadar:kadar POST ; ! ""
 hakkında:hakkında POST ; ! "regarding"
+halinde:halinde POST ; ! "ın case of"
+
 
 ! Dative
 doğru:doğru POST ; ! ""
@@ -1800,6 +1802,8 @@ olarak:olarak CS ;
 gibi:gibi CS ; 
 eğer:eğer CS ; 
 şayet:şayet CS ; 
+nedeniyle:nedeniyle CS ; 
+
 
 adeta:adeta CA ; 
 aksine:aksine CA ; 
@@ -1988,6 +1992,37 @@ güvenlik:güvenlik N1 ; ! "security"
 Cumartesi:Cumartesi N1 ; ! "Saturday"
 ziyaret:ziyaret N1 ; ! "vısıt"
 hükümet:hükümet N1 ; ! "government"
+seçim:seçim N1 ; ! "electıon"
+üyesi:üyesi N1 ; ! "member"
+karar:karar N1 ; ! "decısıon"
+yardımcı:yardımcı N1 ; ! "deputy"
+sayı:sayı N1 ; ! "number"
+ortaklık:ortaklık N1 ; ! "assocıatıon"
+teslim:teslim N1 ; ! "delivery"
+avro:avro N1 ; ! "euro"
+demeç:demeç N1 ; ! "statement"
+İstikrar:İstikrar N1 ; ! "stabılıty"
+yargı:yargı N1 ; ! "justıce or judgement"
+adlı:adlı N1 ; ! "judiciary"
+İçiş:İçiş N1 ; ! ""
+sözcü:sözcü N1 ; ! "spokesman"
+hükümet:hükümet N1 ; ! "government"
+hükümet:hükümet N1 ; ! "government"
+hükümet:hükümet N1 ; ! "government"
+hükümet:hükümet N1 ; ! "government"
+hükümet:hükümet N1 ; ! "government"
+hükümet:hükümet N1 ; ! "government"
+hükümet:hükümet N1 ; ! "government"
+hükümet:hükümet N1 ; ! "government"
+hükümet:hükümet N1 ; ! "government"
+hükümet:hükümet N1 ; ! "government"
+hükümet:hükümet N1 ; ! "government"
+hükümet:hükümet N1 ; ! "government"
+hükümet:hükümet N1 ; ! "government"
+hükümet:hükümet N1 ; ! "government"
+hükümet:hükümet N1 ; ! "government"
+
+
 
 
 
@@ -9875,6 +9910,7 @@ LEXICON Adjectives
 
 var:var A4 ; ! "existing" 
 yok:yok A4 ; ! "non-existing"
+yönelik:yönelik A4 ! 'devoted'
 
 iyi:İyi A1 ; ! "good" ! Dir/LR
 iyi:iyi A1 ; ! "good"
@@ -9884,6 +9920,8 @@ eski:eski A1 ; ! "old"
 güzel:güzel A1 ; ! "pretty, beautiful"
 
 ölü:ölü A2 ; ! "dead"
+yıllık:yıllık A2 ; ! "annual"
+
 yaklaşık:yaklaşık A2 ; ! "approximate"
 amaçlı:amaçlı A2 ; ! "orıented"
 ortak:ortak A2 ; ! "partner"
@@ -9895,7 +9933,7 @@ siyasi:siyasi A2 ; ! "political"
 ana:ana A4 ; ! "main"
 milli:milli A4 ; ! "national"
 ekonomik:ekonomik A4 ; ! "economic"
-
+bölgesel:bölgesel A4 ! "regional"
 uzunca:uzunca A3 ;  ! "tallish"
 soğuk:soğuk A1 ;  ! "tallish"
 budala:budala A2 ;  ! "fool"
@@ -10999,6 +11037,8 @@ yetersiz:yetersiz A4 ;  ! ""
 sessiz:sessiz A1 ;  ! ""
 ıssız:ıssız A3 ;  ! ""
 leziz:leziz A4 ;  ! ""
+konulu:konulu A4 ;  ! ""
+
 paragöz:paragöz A4 ;  ! ""
 gürbüz:gürbüz A4 ;  ! ""
 ucuz:ucuz A4 ;  ! ""
@@ -11305,6 +11345,8 @@ tıpatıp:tıpatıp ADV3 ; ! "alike"
 toptan:toptan ADV3 ; ! "collectively"
 yakında:yakında ADV3 ; ! "soon"
 yalnız:yalnız ADV3 ; ! "only"
+yalnızca:yalnızca ADV3 ; ! "only"
+
 yanısıra:yanısıra ADV3 ; ! "along"
 yarın:yarın ADV3 ; ! "tomorrow"
 yavaş:yavaş ADV3 ; ! "slowly"
