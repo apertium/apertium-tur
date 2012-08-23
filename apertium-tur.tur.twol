@@ -36,7 +36,7 @@ SurVow = İ Ü E Ö I U A O
 
 Vow    = İ Ü E Ö I U A O
          i ü e ö ı u a o
-       %{A%} %{I%} %{e%} ;
+       %{A%} %{I%} %{e%} %{a%} %{i%} ;
 
 Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z 
          b c ç d f g ğ h j k l m n p q r s ş t v w y z 
@@ -101,6 +101,9 @@ Rules
 
 "Vowel {a} surfacing and harmonising"
 %{a%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ %>: | :0 | %   ] _ %>: [ :Cns ]/[ :0 ]  ;
+        except
+                                                          _ %>: %{I%}:  ;
+      
         where 
             LastVowel in ( i ü e ö ı u a o )
                    Vy in ( e e e e a a a a ) 

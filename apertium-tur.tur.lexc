@@ -97,6 +97,7 @@ Multichar_Symbols
 %<past%>           ! -{D}{I} 
 %<evi%>            ! -m{I}s 
 %<fut%>		   ! -{A}C{A}{K}
+%<pcont%>          ! 
 
 %{A%}              ! Becomes 'a' or 'e' 
 %{I%}              ! Becomes 'i', 'ı' 'ü", or "u"
@@ -109,6 +110,7 @@ Multichar_Symbols
 %{i%}		   ! Becomes as "i" after a consonant, otherwise null
 %{pN%}		   ! Becomes "n" before dat abl loc and after 3p poss, otherwise null
 %{e%}
+%{a%}
 
 %{t%}
 
