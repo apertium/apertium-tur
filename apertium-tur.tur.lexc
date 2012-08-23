@@ -6505,20 +6505,17 @@ muştu:muştu N1 ; ! "good news"
 cevap:cevap N1 ; ! "answer"
 yapılanma:yapılanma N1 ; ! "settlement"
 polis:polis N1 ; ! "police"
-Cumhurbaşkan:Cumhurbaşkan N1 ; ! "presıdent of republıc"
+cumhurbaşkan:cumhurbaşkan N1 ; ! "presıdent of republıc"
 parti:parti N1 ; ! "party"
 reform:reform N1 ; ! "reform"
+parlamento:parlamento N1 ; ! "parlament
 
 sekreter:sekreter N1 ; ! "secretary"
-Pazar:Pazar N1 ; ! "Sunday or market"
-Pazartesi:Pazartesi N1 ; ! "Monday"
-Pazar:Pazar N1 ; ! "Sunday or market"
+pazar:pazar N1 ; ! "Sunday or market"
+pazartesi:pazartesi N1 ; ! "Monday"
 
-
-terör:terör N1 ; ! " terror"
-ordu:ordu N1 ; ! " army"
-
-
+terör:terör N1 ; ! "terror"
+ordu:ordu N1 ; ! "army"
 
 müsvedde:müsvedde N1 ; ! "copy"
 mutabakat:mutabakat N1 ; ! "agreement"
@@ -6979,6 +6976,7 @@ Böhlen:Böhlen NP1-TOP ; ! ""
 Bolivya:Bolivya NP1-TOP ; ! ""
 Bonn:Bonn NP1-TOP ; ! ""
 Bor:Bor NP1-TOP ; ! ""
+Bosna-Hersek:Bosna% Hersek NP1-TOP ; ! "" ! Dir/LR
 Bosna-Hersek:Bosna-Hersek NP1-TOP ; ! ""
 Boston:Boston NP1-TOP ; ! ""
 Botsvana:Botsvana NP1-TOP ; ! ""
@@ -7493,6 +7491,14 @@ Suudi% Arabistan:Suudi% Arabistan NP1-TOP ; ! ""
 Yeni% Zağra:Yeni% Zağra NP1-TOP ; ! ""
 Yeni% Zelanda:Yeni% Zelanda NP1-TOP ; ! ""
 
+! Seas
+Atlantik% Denizi:Atlantik% Denizi NP2-TOP ; ! ""
+Ege% Denizi:Ege% Denizi NP2-TOP ; ! ""
+Adriyatik% Denizi:Adriyatik% Denizi NP2-TOP ; ! ""
+İyon% Denizi:İyon% Denizi NP2-TOP ; ! ""
+Hazar% Denizi:Hazar% Denizi NP2-TOP ; ! ""
+Yunan% Denizi:Yunan% Denizi NP2-TOP ; ! ""
+Baltık% Denizi:Baltık% Denizi NP2-TOP ; ! ""
 
 ! Rivers 
 İskar:İskar NP1-TOP ; ! ""
@@ -7559,10 +7565,20 @@ OECD:OECD NP1-ORG ; ! ""
 UEFA:UEFA NP1-ORG ; ! ""
 UNFICYP:UNFICYP NP1-ORG ; ! ""
 HSBC:HSBC NP1-ORG ; ! ""
+IATA:IATA NP1-ORG ; ! ""
+BM:BM NP1-ORG ; ! "UN (United Nations)"
 MSNBC:MSNBC NP1-ORG ; ! ""
 Interpol:Interpol NP1-ORG ; ! ""
 Microsoft:Microsoft NP1-ORG ; ! ""
 Sırp% Ordusu:Sırp% Ordusu NP2-ORG ; ! ""
+Sırbistan% Parlamentosu:Sırbistan% Parlamentosu NP2-ORG ; ! ""
+Avrupa% Parlamentosu:Avrupa% Parlamentosu NP2-ORG ; ! ""
+Avrupa% Komisyonu:Avrupa% Komisyonu NP2-ORG ; ! ""
+Sırp% Sosyalist% Partisi:Sırp% Sosyalist% Partisi NP2-ORG ; ! ""
+Sosyalist% Demokrat% Partisi:Sosyalist% Demokrat% Partisi NP2-ORG ; ! ""
+Sosyalist% Parti:Sosyalist% Parti NP1-ORG ; ! ""
+Demokrat% Parti:Demokrat% Parti NP1-ORG ; ! ""
+Sosyalist% Enternasyonel:Sosyalist% Enternasyonel NP1-ORG ; ! ""
 
 ! Other
 Southeast% European% Times:Southeast% European% Times NP1-AL ; ! ""
@@ -7574,12 +7590,17 @@ EUpolitix:EUpolitix NP1-AL ; ! ""
 EUCOM:EUCOM NP1-AL ; ! ""
 Eurovision:Eurovision NP1-AL ; ! ""
 EurActiv:EurActiv NP1-AL ; ! ""
+SAA:SAA NP1-AL ; ! "Stabilisation and Association Agreement"
 
 
 
 ! Anthroponyms
 
+Olli:Olli NP1-ANT-M ; ! ""
+Stipe:Stipe NP1-ANT-M ; ! ""
+Jaap:Jaap NP1-ANT-M ; ! ""
 Abdullah:Abdullah NP1-ANT-M ; ! ""
+Kostas:Kostas NP1-ANT-M ; ! ""
 Adalet:Adalet NP1-ANT-M ; ! ""
 Adam:Adam NP1-ANT-M ; ! ""
 Adnan:Adnan NP1-ANT-M ; ! ""
@@ -7893,6 +7914,7 @@ Zsolt:Zsolt NP1-ANT-M ; ! ""
 
 Sezgi:Sezgi NP1-ANT-F ; ! ""
 Anna:Anna NP1-ANT-F ; ! ""
+Carla:Carla NP1-ANT-F ; ! ""
 
 ! Cognomen
 
@@ -7907,7 +7929,9 @@ Ağustos:Ağustos NP1-ANT-M ; ! ""
 Rehn:Rehn NP1-COG-MF ; ! ""
 Kostunica:Kostunica NP1-COG-MF ; ! ""
 del% Ponte:del% Ponte NP1-COG-MF ; ! ""
+de% Hoop:de% Hoop NP1-COG-MF ; ! ""
 Ashdown:Ashdown NP1-COG-MF ; ! ""
+Sarkozy:Sarkozy NP1-COG-MF ; ! ""
 Sanader:Sanader NP1-COG-MF ; ! ""
 Berişa:Berişa NP1-COG-MF ; ! ""
 Ahtisaari:Ahtisaari NP1-COG-MF ; ! ""
@@ -9822,6 +9846,21 @@ Trajkov:Trajkov NP1-COG-MF ; ! ""
 Tsenkov:Tsenkov NP1-COG-MF ; ! ""
 Velikov:Velikov NP1-COG-MF ; ! ""
 Yordanov:Yordanov NP1-COG-MF ; ! ""
+
+Karamanlis:Karamanlis NP1-COG-MF ; ! ""
+Scheffer:Scheffer NP1-COG-MF ; ! ""
+Dodik:Dodik NP1-COG-MF ; ! ""
+Bush:Bush NP1-COG-MF ; ! ""
+Annan:Annan NP1-COG-MF ; ! ""
+Gruevski:Gruevski NP1-COG-MF ; ! ""
+Georgievski:Georgievski NP1-COG-MF ; ! ""
+Manasievski:Manasievski NP1-COG-MF ; ! ""
+Bocevski:Bocevski NP1-COG-MF ; ! ""
+Prcevski:Prcevski NP1-COG-MF ; ! ""
+Jolevski:Jolevski NP1-COG-MF ; ! ""
+Stavrevski:Stavrevski NP1-COG-MF ; ! ""
+Manevski:Manevski NP1-COG-MF ; ! ""
+Prçevski:Prçevski NP1-COG-MF ; ! ""
 
 
 
