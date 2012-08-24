@@ -591,7 +591,6 @@ LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<loc%>:nda CLIT-GENERAL ;
 %<prn%>%<dem%>%<px%>:nuki%{pN%} CASE ;
 %<prn%>%<dem%>%<loc%>:ndaki ATTR-SUBST ;
-%<prn%>%<dem%>%<com%>:nunla CLIT ;
 !bu%<prn%>%<dem%>%<sim%>:мондый CASE ;
 !bu%<prn%>%<dem%>%<sim%>%<px3sp%>:мондые%{n%} CASE ; ! FIXME CHECK мондый%{I%}%{n%} instead?
 !bu%<prn%>%<dem%>%<sim%>%<pl%>:мондыйлар CASE ;
@@ -1756,6 +1755,10 @@ takdirde:takdirde POST ; ! "in case of"
 boyunca:boyunca POST ; ! "during"
 haline:haline POST ; ! "into"
 
+! Genıtıve
+
+ardından:ardından POST ; ! ""
+
 
 ! Dative
 doğru:doğru POST ; ! ""
@@ -1912,12 +1915,12 @@ o:o PRON-DEM-BU ; ! "this"
 
 başka:başka PRON-IND ; ! "other"
 
-varlık:varlık PRON-QNT ; ! ""
 
 hiçbir% şey:hiçbirşey PRON-NEG ; ! "nothing" ! Dir/LR
 hiçbir% şey:hiç% birşey PRON-NEG ; ! "nothing" ! Dir/LR
 hiçbir% şey:hiçbir% şey PRON-NEG ; ! "nothing"
 hiç% kimse:hiç% kimse PRON-NEG ; ! "nobody"
+herkes:herkes PRON-QNT ; ! "everybody"
 
 öz:öz PRON-REF ; ! "self"
 kendi:kendi PRON-REF ; ! "self"
@@ -1969,6 +1972,12 @@ herhangi% bir:herhangi% bir DET-IND ; ! "anyone"
 ne% kadar:ne% kadar DET-ITG ; ! "how much"
 
 
+!!!!TO BE REVIEWED !!!!
+
+binlerce:binlerce DET-QNT ; ! "thousands of"
+yüzlerce:yüzlerce DET-QNT ; ! "hundreds of"
+
+
 LEXICON Numerals
 
 bir:bir NUM ; ! "one"
@@ -1993,6 +2002,13 @@ LEXICON Nouns
 
 !!!NEW!!!
 
+
+neden:neden N1 ; ! "reason"
+başsavcı:başsavcı N1 ; ! "general procurator"
+sergi:sergi N1 ; ! "show"
+şeffaflık:şeffaflık{·%} N1 ; ! " transparency"
+komşuluk:komşuluk{·%}  N1 ; ! "neighborhod"
+ofis:ofis N1 ; ! "office"
 saldırı:saldırı N1 ; ! "attack"
 umut:umut{·%} N1 ; ! "hope"
 yetki:yetki N1 ; ! "authorization"
@@ -2015,13 +2031,13 @@ tespit:tespit N1 ; ! "evaluation"
 öğretim:öğretim N1 ; ! "study"
 sorumlu:sorumlu N1 ; ! "responsible"
 askı:askı N1 ; ! "rack"
-kaçakçılık:kaçakçılık N1 ; ! "smuggling"
+kaçakçılık:kaçakçılık{·%} N1 ; ! "smuggling"
 üretim:üretim N1 ; ! "production"
 değişiklik:değişiklik{·%} N1 ; ! "change"
 bağımsızlık:bağımsızlık{·%} N1 ; ! "indipendence"
 seyahat:seyahat N1 ; ! "travel"
 teklif:teklif N1 ; ! "proposal"
-ihtiyaç:ihtiyaç N1 ; ! "help"
+ihtiyaç:ihtiyaç{·%} N1 ; ! "help"
 saygı:saygı N1 ; ! "respect"
 tedbir:tedbir N1 ; ! "precaution"
 grup:grup{·%} N1 ; ! "group"
@@ -2057,7 +2073,8 @@ festival:festival%{f%} N1 ; ! "festival"
 net:net N1 ; ! "net"
 Müslüman:Müslüman N1 ; ! "muslim"
 ün:ün N1 ; ! "reputation"
-yürürlük:yürürlük N1 ; ! "operation"
+yürürlük:yürürlük{·%} N1 ; ! "operation"
+liderlik:liderlik{·%} N1 ; ! "leadership"
 tepki:tepki N1 ; ! "reaction"
 tahmin:tahmin N1 ; ! "extimation"
 tarım:tarım N1 ; ! "agriculture"
@@ -2087,7 +2104,7 @@ cumhurbaşkanlık:cumhurbaşkanlık{·%} N1 ; ! "presidentship"
 spor:spor N1 ; ! "sport"
 rol:rol N1 ; ! "role"
 şiddet:şiddet N1 ; ! "violence"
-sahiplik:sahiplik N1 ; ! "ownership"
+sahiplik:sahiplik{·%} N1 ; ! "ownership"
 sahip:sahip{·%} N1 ; ! "owner"
 tür:tür N1 ; ! "type" 
 şirket:şirket N1 ; ! "company"
@@ -3278,7 +3295,7 @@ dikim:dikim N1 ; ! "sewing"
 dikişçi:dikişçi N1 ; ! "sewer"
 dikiş:dikiş N1 ; ! "sewing"
 dikiz:dikiz N1 ; ! "peep"
-dikkat:dikkat N1 ; ! "caution"
+dikkat:dikkat%{f%} N1 ; ! "caution"
 diktatör:diktatör N1 ; ! "dictator"
 dikte:dikte N1 ; ! "dictation"
 dil:dil N1 ; ! "tongue"
@@ -6742,6 +6759,7 @@ nakdi:nakdi N1 ; ! "cash"
 nakil:nakil N1 ; ! "transport"
 nakış:nakış N1 ; ! "decoration"
 nakit:nakit N1 ; ! "cash"
+tercih:tercih N1 ; ! "preference" 
 nakkaş:nakkaş N1 ; ! "painter"
 nakliyat:nakliyat N1 ; ! "transport"
 nakliye:nakliye N1 ; ! "transport"
@@ -6957,6 +6975,7 @@ yol:yol N1 ; ! 'way'
 hale:hale N1 ; ! '???'
 temel:temel N1 ; ! "base"
 bağımsızlık:bağımsızlık N1 ; ! "indipendence"
+cumhuriyet:cumhuriyet N1 ; ! "republic"
 
 
 
@@ -6980,6 +6999,7 @@ cadı% süpürgesi:cadı% süpürge N2 ; ! "witches' brooms"
 dikiş% makinası:dikiş% makina N2 ; ! "sewing machine"
 doz% aşımı:doz% aşım N2 ; ! "overdose"
 el% kızı:el% kız N2 ; ! "strange woman"
+kamuoy:kamuoy N2 ; ! " public opinion"
 mal% varlığı:mal% varlık N2 ; ! "property"
 şarap% evi:şarap% ev N2 ; ! "cellar"
 su% topu:su% top N2 ; ! "water polo"
@@ -7001,10 +7021,17 @@ teşkil:teşkil N1 ; ! "organization"
 sol:sol N1 ; ! "left"
 protesto:protesto N1 ; ! " protest"
 silah:silah N1 ; ! "weapon"
-yanlıs:yanlıs N1 ; ! "mistake"
+yanlısı:yanlısı N1 ; ! "proponent"
 doğalgaz:doğalgaz N1 ; ! "natural gas"
 gazeteci:gazeteci N1 ; ! "journalist"
-
+karşıt:karşıt N1 ; ! "opponent"
+zirve:zirve N1 ; ! "summit"
+şarkıcı:şarkıcı N1 ; ! "singer"
+yönetici:yönetici N1 ; ! "administrator"
+santral:santral N1 ; ! "operator"
+patlak:patlak N1 ; ! "burst"
+çerçeve:çerçeve N1 ; ! "framework"
+uyarı:uyarı N1 ; ! "advice"
 
 
 ! Here are nouns, forms of which are often classified as 'postpositions'
@@ -7059,6 +7086,7 @@ Alman:Alman N3 ; ! "German"
 Kırgız:Kırgız N3 ; ! "Kirghiz"
 Gürcistanlı:Gürcistanlı N3 ; ! "Georgian"
 Romanyalı:Romanyalı N3 ; ! "Romanian"
+Roman:Roman N3 ; ! "roman"
 
 
 Yugoslav:Yugoslav N1 ; ! ""
@@ -7077,6 +7105,8 @@ Avusturyalı:Avusturyalı N1 ; ! ""
 Afrikalı:Afrikalı N1 ; ! "African"
 Slav:Slav N1 ; ! "slavic"
 Habeş:Habeş N1 ; ! "ethiopian"
+Lybialı:Lybialı N1 ; ! "lybian"
+Karadağlı:Karadağlı N1 ; ! "montenegrino"
 
 
 
@@ -7697,6 +7727,8 @@ Adriyatik% Denizi:Adriyatik% Denizi NP2-TOP ; ! ""
 Hazar% Denizi:Hazar% Denizi NP2-TOP ; ! ""
 Yunan% Denizi:Yunan% Denizi NP2-TOP ; ! ""
 Baltık% Denizi:Baltık% Denizi NP2-TOP ; ! ""
+Karadeniz:Karadeniz NP1-TOP ; ! "black sea"
+Akdeniz:Akdeniz NP1-TOP ; ! "Mediterranean Sea"
 
 ! Rivers 
 İskar:İskar NP1-TOP ; ! ""
@@ -7742,6 +7774,9 @@ KFOR:KFOR%{o%}%{b%} NP1-ORG ; ! ""
 BBC:BBC NP1-ORG ; ! ""
 SETimes:SETimes NP1-ORG ; ! ""
 Times:Times NP1-ORG ; ! ""
+Olimpiyat:Olimpiyat NP1-ORG ; ! "olympics"
+GSYİH:GSYİH NP1-ORG ; ! 
+FT:FT NP1-ORG ; ! 
 
 Getty% Images:Getty% Images NP1-ORG ; ! ""
 SC:SC NP1-ORG ; ! ""
@@ -7786,6 +7821,32 @@ Sosyalist% Demokrat% Partisi:Sosyalist% Demokrat% Partisi NP2-ORG ; ! ""
 Sosyalist% Parti:Sosyalist% Parti NP1-ORG ; ! ""
 Demokrat% Parti:Demokrat% Parti NP1-ORG ; ! ""
 Sosyalist% Enternasyonel:Sosyalist% Enternasyonel NP1-ORG ; ! ""
+BHF:BHF NP1-ORG ; ! ""
+YTD:YTD NP1-ORG ; ! ""
+PSD:PSD NP1-ORG ; ! ""
+GDA:GDA NP1-ORG ; ! ""
+DSS:DSS NP1-ORG ; ! ""
+CHP:CHP NP1-ORG ; ! ""
+DUI:DUI NP1-ORG ; ! ""
+LDK:LDK NP1-ORG ; ! ""
+DS:DS NP1-ORG ; ! ""
+UAD:UAD NP1-ORG ; ! ""
+SDSM:SDSM NP1-ORG ; ! ""
+DP:DP NP1-ORG ; ! ""
+HINA:HINA NP1-ORG ; ! ""
+KKTC:KKTC NP1-ORG ; ! ""
+PDK:PDK NP1-ORG ; ! ""
+MIA:MIA NP1-ORG ; ! ""
+G17:G17 NP1-ORG ; ! ""
+UPI:UPI NP1-ORG ; ! ""
+AKI:AKI NP1-ORG ; ! "" 
+KLA:KLA NP1-ORG ; ! ""
+SNSD:SNSD NP1-ORG ; ! ""
+DPS:DPS NP1-ORG ; ! ""
+SDA:SDA NP1-ORG ; ! ""
+PIC:PIC NP1-ORG ; ! ""
+KSF:KSF NP1-ORG ; ! ""
+
 
 ! Other
 Southeast% European% Times:Southeast% European% Times NP1-AL ; ! ""
@@ -11257,6 +11318,7 @@ sessiz:sessiz A1 ;  ! ""
 ıssız:ıssız A3 ;  ! ""
 leziz:leziz A4 ;  ! ""
 konulu:konulu A4 ;  ! ""
+ayrı:ayrı A4 ; ! ""
 
 paragöz:paragöz A4 ;  ! ""
 gürbüz:gürbüz A4 ;  ! ""
@@ -11502,7 +11564,7 @@ metazori:metazori ADV3 ; ! "compulsory"
 muhtemelen:muhtemelen ADV3 ; ! "magnificently"
 münferiden:münferiden ADV3 ; ! "solely"
 
-
+öte:öte ADV1 ; ! "the other"
 akıllıca:akıllıca  ADV2 ; ! "smartly"
 amiyane:amiyane  ADV2 ; ! vulgarly
 apaçık:apaçık  ADV2 ; ! "obviously"
@@ -11550,6 +11612,8 @@ nitekim:nitekim ADV3 ; ! "thusly"
 öğleyin:öğleyin ADV3 ; ! "at noon"
 olabildiğince:olabildiğince ADV3 ; ! "as far as"
 olduğunca:olduğunca ADV3 ; ! "as  as"
+açıkça:açıkça ADV3 ; ! "openly"
+kesinlikle:kesinlikle ADV3 ; ! "absolutely"
 önce:önce ADV1 ; ! "previously" @@@@ postp
 öyle:öyle ADV1 ; ! "thusly"
 böyle:böyle ADV1 ; ! "thusly"
@@ -11588,6 +11652,7 @@ yap:yap V-TV-DIR-AR ; ! "make, do"
 gel:gel V-IV-DIR-IR ; ! "come"
 gel:gel V-IV-DIR-IR ; ! "come"
 yayınlan:yayınlan V-IV-DIR-IR ; ! "issue"
+yayınla:yayınla V-TV-T-IR ; ! "publish"
 gerçekleş:gerçekleş{·%} V-IV-DIR-IR ; ! "to materialize"
 aç:aç V-TV-DIR-AR ; ! "open"
 kes:kes V-TV-DIR-AR ; ! "cut"
@@ -11734,6 +11799,7 @@ bat:bat V-TV-DIR-AR ; ! "sink, go bankrupt"
 becer:becer V-TV-DIR-IR ; ! "accomplish"
 beğen:beğen V-TV-DIR-IR ; ! "like, advire"
 belir:belir V-TV-T-IR ; ! "appear"
+artır:artır V-TV-T-IR ; ! "help"
 
 biç:biç V-TV-DIR-AR ; ! "decorate"
 bil:bil V-TV-DIR-IR ; ! "know"
@@ -11789,6 +11855,7 @@ doyur:doyur V-TV-DIR-IR ; ! "feed"
 düşün:düşün V-TV-DIR-IR ; ! "think"
 duy:duy V-TV-DIR-AR ; ! "hear"
 duygulan:duygulan V-TV-DIR-IR ; ! "be affected"
+uygulan:uygulan V-TV-DIR-IR ; ! "apply"
 duyur:duyur V-TV-DIR-IR ; ! "announce"
 düz:düz V-TV-DIR-AR ; ! "prepare"
 edin:edin V-TV-DIR-IR ; ! "obtain"
@@ -12683,6 +12750,7 @@ yeşer:yeşer V-IV-T-IR  ; ! "come into leaf"
 yuhala:yuhala V-IV-T-IR  ; ! "jeer at"
 yumuşa:yumuşa V-IV-T-IR  ; ! "soften"
 yürü:yürü V-IV-T-IR  ; ! "walk"
+yürüt:yürüt V-TV-DIR-AR ; ! "perform"
 zayıfla:zayıfla V-IV-T-IR  ; ! "lose weight"
 zenginle:zenginle V-IV-T-IR  ; ! "get rich"
 zıpla:zıpla V-IV-T-IR  ; ! "jump"
