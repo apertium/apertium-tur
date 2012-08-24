@@ -591,6 +591,7 @@ LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<loc%>:nda CLIT-GENERAL ;
 %<prn%>%<dem%>%<px%>:nuki%{pN%} CASE ;
 %<prn%>%<dem%>%<loc%>:ndaki ATTR-SUBST ;
+%<prn%>%<dem%>%<com%>:nunla CLIT ;
 !bu%<prn%>%<dem%>%<sim%>:мондый CASE ;
 !bu%<prn%>%<dem%>%<sim%>%<px3sp%>:мондые%{n%} CASE ; ! FIXME CHECK мондый%{I%}%{n%} instead?
 !bu%<prn%>%<dem%>%<sim%>%<pl%>:мондыйлар CASE ;
@@ -1990,8 +1991,40 @@ bilyon:bilyon NUM ; ! "billion"
 
 LEXICON Nouns
 
-!!!!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!
+!!!NEW!!!
 
+saldırı:saldırı N1 ; ! "attack"
+umut:umut{·%} N1 ; ! "hope"
+yetki:yetki N1 ; ! "authorization"
+sahne:sahne N1 ; ! "stage"
+veriler:veriler N1 ; ! "parameter"
+suçlu:suçlu N1 ; ! "criminal"
+fikir:fikir N1 ; ! "idea"
+örnek:örnek{·%} N1 ; ! "representative"
+dikkat:dikkat N1 ; ! "attention"
+olanak:olanak{·%} N1 ; ! "possibility"
+yardım:yardım N1 ; ! "help"
+rakam:rakam N1 ; ! "figure"
+bank:bank N1 ; ! "Bank"
+teknoloji:teknoloji N1 ; ! "technology"
+ödül:ödül N1 ; ! "award"
+şehir:şehir N1 ; ! "city" @@@ There is a deletion
+özgürlük:özgürlük{·%} N1 ; ! "freedom"
+öğrenci:öğrenci N1 ; ! "student"
+tespit:tespit N1 ; ! "evaluation"
+öğretim:öğretim N1 ; ! "study"
+sorumlu:sorumlu N1 ; ! "responsible"
+askı:askı N1 ; ! "rack"
+kaçakçılık:kaçakçılık N1 ; ! "smuggling"
+üretim:üretim N1 ; ! "production"
+değişiklik:değişiklik{·%} N1 ; ! "change"
+bağımsızlık:bağımsızlık{·%} N1 ; ! "indipendence"
+seyahat:seyahat N1 ; ! "travel"
+teklif:teklif N1 ; ! "proposal"
+ihtiyaç:ihtiyaç N1 ; ! "help"
+saygı:saygı N1 ; ! "respect"
+tedbir:tedbir N1 ; ! "precaution"
+grup:grup{·%} N1 ; ! "group"
 strateji:strateji N1 ; ! "strategy"
 tavsiye:tavsiye N1 ; ! "suggestion"
 uzman:uzman N1 ; ! "expert"
@@ -2002,7 +2035,7 @@ tanık:tanık{·%} N1 ; ! "witness"
 bankacılık:bankacılık{·%} N1 ; ! "banking"
 euroluk:euroluk{·%} N1 ; ! "euro"
 yapıcı:yapıcı N1 ; ! "actuator"
-Temsilci:Temsilci N1 ; ! "agent"
+temsilci:temsilci N1 ; ! "agent"
 okul:okul N1 ; ! "school"
 öncelik:öncelik{·%} N1 ; ! "priority"
 soykırım:soykırım N1 ; ! "genocide"
@@ -10053,6 +10086,35 @@ Prçevski:Prçevski NP1-COG-MF ; ! ""
 
 LEXICON Adjectives
 
+!!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
+
+
+
+
+ticari:ticari A4 ; ! "commercial"
+vadeli:vadeli A4 ; ! "deferred"
+tarihli:tarihli A4 ; ! "historical"
+silahlı:silahlı A4 ; ! "armed"
+hakkı:hakkı A4 ; ! "related to right"
+toplumsal:toplumsal A4 ; ! "social"
+kısmı:kısmı A4 ; ! "partial"
+taraflı:taraflı A4 ; ! "biased"
+geleneksel:geleneksel A4 ; ! "general"
+adil:adil A4 ; ! "rightful"
+dayalı:dayalı A4 ; ! "based"
+kararlı:kararlı A4 ; ! "decided"
+memnun:memnun A4 ; ! "happy"
+güvenli:güvenli A4 ; ! "secure"
+toplu:toplu A4 ; ! "collective"
+zorlu:zorlu A4 ; ! "challenging"
+resmen:resmen A4 ; ! "official"
+istikrarlı:istikrarlı A4 ; ! "stable"
+kurumsal:kurumsal A4 ; ! "institutional"
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
 var:var A4 ; ! "existing" 
 yok:yok A4 ; ! "non-existing"
 yönelik:yönelik A4 ; ! "devoted"
@@ -11488,8 +11550,9 @@ nitekim:nitekim ADV3 ; ! "thusly"
 öğleyin:öğleyin ADV3 ; ! "at noon"
 olabildiğince:olabildiğince ADV3 ; ! "as far as"
 olduğunca:olduğunca ADV3 ; ! "as  as"
-önce:önce ADV3 ; ! "previously" @@@@ postp
-öyle:öyle ADV3 ; ! "thusly"
+önce:önce ADV1 ; ! "previously" @@@@ postp
+öyle:öyle ADV1 ; ! "thusly"
+böyle:böyle ADV1 ; ! "thusly"
 pek:pek ADV3 ; ! "scarcely"
 sabahleyin:sabahleyin ADV3 ; ! "in the morning"
 sadece:sadece ADV3 ; ! "only"
