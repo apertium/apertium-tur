@@ -7655,6 +7655,11 @@ Olli:Olli NP1-ANT-M ; ! ""
 Stipe:Stipe NP1-ANT-M ; ! ""
 Jaap:Jaap NP1-ANT-M ; ! ""
 Abdullah:Abdullah NP1-ANT-M ; ! ""
+Calin:Calin NP1-ANT-M ; ! ""
+Stelyos:Stelyos NP1-ANT-M ; ! ""
+Sergey:Sergey NP1-ANT-M ; ! ""
+Prvoslav:Prvoslv NP1-ANT-M ; ! ""
+Josip:Josip NP1-ANT-M ; ! ""
 Kasım:Kasım NP1-ANT-M ; ! ""
 Kostas:Kostas NP1-ANT-M ; ! ""
 Adalet:Adalet NP1-ANT-M ; ! ""
@@ -7777,6 +7782,8 @@ Igor:İgor NP1-ANT-M ; ! "" ! Dir/LR
 Igor:Igor NP1-ANT-M ; ! ""
 Ilija:Ilija NP1-ANT-M ; ! "" 
 Ilija:İlija NP1-ANT-M ; ! "" ! Dir/LR
+Ivaylo:İvaylo NP1-ANT-M ; ! "" ! Dir/LR
+Ivaylo:Ivaylo NP1-ANT-M ; ! ""
 Ivan:Ivan NP1-ANT-M ; ! ""
 Ivan:İvan NP1-ANT-M ; ! "" ! Dir/LR
 Ivica:İvica NP1-ANT-M ; ! "" ! Dir/LR
@@ -7981,6 +7988,7 @@ Washington:Washington NP1-COG-MF ; ! ""
 Erdoğan:Erdoğan NP1-COG-MF ; ! ""
 Rice:Rice NP1-COG-MF ; ! ""
 Schilling:Schilling NP1-COG-MF ; ! ""
+Rohan:Rohan NP1-COG-MF ; ! ""
 
 Tayyip:Tayyip NP1-ANT-M ; ! ""
 Ağustos:Ağustos NP1-ANT-M ; ! ""
@@ -8092,6 +8100,8 @@ Basescu:Basescu NP1-COG-MF ; ! ""
 Babescu:Babescu NP1-COG-MF ; ! ""
 Artopolescu:Artopolescu NP1-COG-MF ; ! ""
 Andreescu:Andreescu NP1-COG-MF ; ! ""
+
+Stanişev:Stanişev NP1-COG-MF ; ! ""
 
 Abraseviç:Abraseviç NP1-COG-MF ; ! ""
 Anastasiyeviç:Anastasijeviç NP1-COG-MF ; ! "" ! Dir/LR
