@@ -1751,6 +1751,9 @@ ile:ile POST ; ! ""
 kadar:kadar POST ; ! ""
 hakkında:hakkında POST ; ! "regarding"
 halinde:halinde POST ; ! "ın case of"
+takdirde:takdirde POST ; ! "in case of" 
+boyunca:boyunca POST ; ! "during"
+haline:haline POST ; ! "into"
 
 
 ! Dative
@@ -1759,6 +1762,7 @@ göre:göre POST ; ! ""
 kadar:kadar POST ; ! ""
 karşı:karşı POST ; ! ""
 rağmen:rağmen POST ; ! ""
+ait:ait POST ; ! ""
 
 ! Ablative
 başka:başka POST ; ! ""
@@ -1985,7 +1989,27 @@ milyar:milyar NUM ; ! "milliard"
 bilyon:bilyon NUM ; ! "billion"
 
 LEXICON Nouns
- 
+
+!!!!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!
+
+festival:festival%{f%} N1 ; ! "festival"
+net:net N1 ; ! "net"
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+vize:vize N1 ; ! "visa"
+cumhurbaşkanlık:cumhurbaşkanlık{·%} N1 ; ! "presidentship"
+spor:spor N1 ; ! "sport"
+rol:rol N1 ; ! "role"
+şiddet:şiddet N1 ; ! "violence"
+sahiplik:sahiplik N1 ; ! "ownership"
+sahip:sahip{·%} N1 ; ! "owner"
+tür:tür N1 ; ! "type" 
+şirket:şirket N1 ; ! "company"
+süreç:süreç{·%} N1 ; ! "process"
+yolsuzluk:yolsuzluk{·%} N1 ; ! "corruption"
 sandalye:sandalye N1 ; ! "chair"
 Salı:Salı N1 ; ! "Tuesday"
 Perşembe:Perşembe N1 ; ! "Thursday"
@@ -2017,8 +2041,7 @@ sayı:sayı N1 ; ! "number"
 ortaklık:ortaklık%{·%} N1 ; ! "assocıatıon"
 teslim:teslim N1 ; ! "delivery"
 avro:avro N1 ; ! "euro"
-avroluk:avroluk N1 ; ! "euro"
-
+avroluk:avroluk{·%} N1 ; ! "euro"
 demeç:demeç N1 ; ! "statement"
 İstikrar:İstikrar N1 ; ! "stabılıty"
 yargı:yargı N1 ; ! "justıce or judgement"
@@ -2026,20 +2049,16 @@ adlı:adlı N1 ; ! "judiciary"
 İçiş:İçiş N1 ; ! ""
 sözcü:sözcü N1 ; ! "spokesman"
 yurt:yurt%{·%} N1 ; ! ""
-
-
-!!!!!!!!!! ADDED AFTERNOON FRIDAY !!!!!!!!!!!!
-
+art:art%{·%} N1 ; ! ""
 para:para N1 ; ! "money"
 üyelik:üyelik%{·%} N1 ; ! 'membershıp'
 üye:üye N1 ; ! 'member'
-
-
-
-
-
-
-
+tehdit:tehdit{·%} N1 ; ! "menace"
+şiddet:şiddet N1 ; ! "violence"
+talep:talep{·%} N1 ; ! "request"
+yönetim:yönetim N1 ; ! "administration"
+oran:oran N1 ; ! "proportion"
+teşvik:teşvik N1 ; ! "urge"
 sandalye:sandalye N1 ; ! "chair"
 oğlan:oğlan N1 ; ! "boy"
 soru:soru N1 ; ! "problem"
@@ -6852,7 +6871,10 @@ su:su N1 ; ! "water" @@@@ SPECIAL CASE FOR MANY CASES
 süre:süre N1 ; ! 'tıme perıod'
 çözüm:çözüm N1 ; ! 'solutıon'
 yol:yol N1 ; ! 'way'
-hale:hale N1 ; ! 'way'
+hale:hale N1 ; ! '???'
+temel:temel N1 ; ! "base"
+bağımsızlık:bağımsızlık N1 ; ! "indipendence"
+
 
 
 
@@ -6880,6 +6902,27 @@ mal% varlığı:mal% varlık N2 ; ! "property"
 su% topu:su% top N2 ; ! "water polo"
 yanı% başı:yanı% baş N2 ; ! "very close"
 yurt% dışı:yurt% dış N2 ; ! "abroad"
+ticaret:ticaret N1 ; !  "commerce"
+toplum:toplum N1 ; ! "society"
+vergi:vergi N1 ; ! "tax"
+kez:kez N1 ; ! "time"
+toplantı:toplantı N1 ; ! "meeting"
+mevkidaş:mevkidaş N1 ; ! "counterpart"
+dizi:dizi N1 ; ! "series"
+önem:önem N1 ; ! "importance"
+zarar:zarar N1 ; ! "injury"
+euro:euro N1 ; ! "euro"
+potansiyel:potansiyel N1 ; ! "potential"
+rapor:rapor N1 ; ! "report"
+teşkil:teşkil N1 ; ! "organization"
+sol:sol N1 ; ! "left"
+protesto:protesto N1 ; ! " protest"
+silah:silah N1 ; ! "weapon"
+yanlıs:yanlıs N1 ; ! "mistake"
+doğalgaz:doğalgaz N1 ; ! "natural gas"
+gazeteci:gazeteci N1 ; ! "journalist"
+
+
 
 ! Here are nouns, forms of which are often classified as 'postpositions'
 alt:alt N4 ; ! "base"
@@ -7615,6 +7658,8 @@ PASOK:PASOK%{o%}%{p%} NP1-ORG ; ! ""
 KFOR:KFOR%{o%}%{b%} NP1-ORG ; ! ""
 BBC:BBC NP1-ORG ; ! ""
 SETimes:SETimes NP1-ORG ; ! ""
+Times:Times NP1-ORG ; ! ""
+
 Getty% Images:Getty% Images NP1-ORG ; ! ""
 SC:SC NP1-ORG ; ! ""
 The% Times:The% Times NP1-ORG ; ! ""
@@ -9956,47 +10001,45 @@ Stavrevski:Stavrevski NP1-COG-MF ; ! ""
 Manevski:Manevski NP1-COG-MF ; ! ""
 Prçevski:Prçevski NP1-COG-MF ; ! ""
 
-
-
 LEXICON Adjectives
 
 var:var A4 ; ! "existing" 
 yok:yok A4 ; ! "non-existing"
-yönelik:yönelik A4 ; ! 'devoted'
-mali:mali A4 ; ! ' economıcal'
+yönelik:yönelik A4 ; ! "devoted"
+mali:mali A4 ; ! "economıcal"
 düşük:düşük A4 ; ! 'low'
-
+önceki:önceki A4 ; ! "previous"
+hakkındaki:hakkındaki A4 ; ! "in concerning"
+sonraki:sonraki A4 ; ! "next"
+yılki:yılki A4 ; ! "yearly"
+ikili:ikili A4 ; ! "dual"
+belli:belli A4 ; ! "evident"
 iyi:İyi A1 ; ! "good" ! Dir/LR
 iyi:iyi A1 ; ! "good"
 yeni:yeni A1 ; ! "new"
 büyük:büyük A1 ; ! "big"
 eski:eski A1 ; ! "old"
 güzel:güzel A1 ; ! "pretty, beautiful"
-
 ölü:ölü A2 ; ! "dead"
 yıllık:yıllık A2 ; ! "annual"
-
 yaklaşık:yaklaşık A2 ; ! "approximate"
 amaçlı:amaçlı A2 ; ! "orıented"
-ortak:ortak%{·%} A2 ; ! "partner"
+ortak:ortak%{·%} A2 ; ! ""
 dış:dış A2 ; ! "partner"
-
-
-
-
 siyasi:siyasi A2 ; ! "political"
-
 ana:ana A4 ; ! "main"
 milli:milli A4 ; ! "national"
 tam:tam A4 ; ! 'exact'
 ekonomik:ekonomik A4 ; ! "economic"
 bölgesel:bölgesel A4 ; ! "regional"
-uzunca:uzunca A3 ;  ! "tallish"
-soğuk:soğuk A1 ;  ! "cold'
+uzunca:uzunca A3 ; ! "tallish"
+soğuk:soğuk A1 ; ! "cold'
 zor:zor A1 ; ! "hard"
 dair:dair A4 ; ! "lower"
-organize:organize A2 ! "organized"
-
+organize:organize A2 ; ! "organized"
+nihai:nihai A4 ; ! "ultimate"
+teknik:teknik A2 ; ! "technic"
+yasadışı:yasadışı A4 ; ! "illegal"
 budala:budala A2 ;  ! "fool"
 ela:ela A2 ;  ! "haler (colour)"
 kabartma:kabartma A2 ;  ! "raised"
@@ -10007,6 +10050,7 @@ muhtaç:muhtaç A4 ;  ! "destitute, needy"
 kerpiç:kerpiç A2 ;  ! "puddled clay, cob"
 iğrenç:iğrenç  A3 ;  ! "disgusting"
 korkunç:korkunç A4 ;  ! "terrifying"
+merkezli:merkezli A4 ; ! "based"
 gebe:gebe A4 ;  ! "pregnant"
 pembe:pembe A2 ;  ! "pink"
 ipince:ipince  A4 ;  ! "very thin"
@@ -10058,6 +10102,7 @@ yurtiçi:yurtiçi A4 ;  ! "domestic"
 açıklayıcı:açıklayıcı A4 ;  ! "expressive"
 etkileyici:etkileyici A4 ;  ! "effective"
 gerçekçi:gerçekçi A2 ;  ! "realist"
+gerçek:gerçek A4 ; ! "real"
 işbirlikçi:işbirlikçi A2 ;  ! "collaborative"
 ırkçı:ırkçı A2 ;  ! "racist"
 devrimci:devrimci A2 ;  ! "revolutionist"
@@ -10533,6 +10578,7 @@ tiryaki:tiryaki A4 ;  ! ""
 !önceki:önceki A4 ;  ! ""
 zeki:zeki A4 ;  ! ""
 !şimdiki:şimdiki A4 ;  ! ""
+şimdi:şimdi A1 ; ! "now"
 sıkı:sıkı A1 ;  ! ""
 !benimki:benimki A1 ;  ! ""
 !bizimki:bizimki A1 ;  ! ""
@@ -11122,7 +11168,8 @@ yeterince:yeterince ADV3 ; ! "enough"
 yavaşça:yavaşça ADV3 ; ! "enough"
 dikkatlice:dikkatlice ADV3 ; ! "with attention"
 şekilde:şekilde ADV3 ; ! "in a manner"
-
+özellikle:özellikle ADV3 ; ! "especially
+oldukça:oldukça ADV3 ; ! "quite"
 
 ahiren:ahiren ADV3 ; ! "lately"
 ailecek:ailecek ADV3 ; ! "as a family"
@@ -11273,6 +11320,7 @@ güzün:güzün ADV3 ; ! "at autumn"
 hakça:hakça ADV3 ; ! "fairly"
 hakikaten:hakikaten ADV3 ; ! "in fact"
 hala:hala ADV3 ; ! "still"
+hâlâ:hâlâ ADV3 ; ! "still" 
 halen:halen ADV3 ; ! "currently"
 hani:hani ADV3 ; ! "actually"
 harfiyen:harfiyen ADV3 ; ! "literally"
@@ -11425,6 +11473,9 @@ LEXICON Verbs
 al:al V-TV-DIR-IR ; ! "take, buy"
 yap:yap V-TV-DIR-AR ; ! "make, do"
 gel:gel V-IV-DIR-IR ; ! "come"
+gel:gel V-IV-DIR-IR ; ! "come"
+yayınlan:yayınlan V-IV-DIR-IR ; ! "issue"
+gerçekleş:gerçekleş{·%} V-IV-DIR-IR ; ! "to materialize"
 aç:aç V-TV-DIR-AR ; ! "open"
 kes:kes V-TV-DIR-AR ; ! "cut"
 et:et%{·%} V-TV-DIR-AR ; ! "make"
