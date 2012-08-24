@@ -660,6 +660,7 @@ LEXICON PRON-REF
 %<prn%>%<ref%>%<p1%>%<pl%>:%>%{I%}m%{I%}z PRON-REF-ADV ;
 %<prn%>%<ref%>%<p2%>%<pl%>:%>%{I%}n%{I%}z PRON-REF-ADV ;
 %<prn%>%<ref%>%<p3%>%<pl%>:%>l%{A%}r%>%{I%}%{pN%} PRON-REF-ADV ;
+%<prn%>%<ref%>: # ;
 
 LEXICON PRON-ADV 
 
@@ -1862,6 +1863,8 @@ velhasıl:velhasıl CA ;
 veya:veya CA ; 
 veyahut:veyahut CA ; 
 ya:ya CA ; 
+günkü:günkü CA ; 
+
 yalnız:yalnız CA ; 
 yani:yani CA ; 
 yeter:yeter CA ; 
@@ -2007,12 +2010,22 @@ sayı:sayı N1 ; ! "number"
 ortaklık:ortaklık N1 ; ! "assocıatıon"
 teslim:teslim N1 ; ! "delivery"
 avro:avro N1 ; ! "euro"
+avroluk:avroluk N1 ; ! "euro"
+
 demeç:demeç N1 ; ! "statement"
 İstikrar:İstikrar N1 ; ! "stabılıty"
 yargı:yargı N1 ; ! "justıce or judgement"
 adlı:adlı N1 ; ! "judiciary"
 İçiş:İçiş N1 ; ! ""
 sözcü:sözcü N1 ; ! "spokesman"
+
+
+!!!!!!!!!! ADDED AFTERNOON FRIDAY !!!!!!!!!!!!
+
+para:para N1 ; ! "money"
+üyelik:üyelik N1 ; ! 'membershıp'
+üye:üye N1 ; ! 'member'
+
 
 
 
@@ -6835,6 +6848,10 @@ ses:ses N1 ; ! "voice, sound"
 pencere:pencere N1 ; ! "window" 
 yer:yer N1 ; ! "window" 
 su:su N1 ; ! "water" @@@@ SPECIAL CASE FOR MANY CASES
+süre:süre N1 ; ! 'tıme perıod'
+çözüm:çözüm N1 ; ! 'solutıon'
+yol:yol N1 ; ! 'way'
+hale:hale N1 ; ! 'way'
 
 
 
@@ -6992,6 +7009,8 @@ Azerbaycan:Azerbaycan NP1-TOP ; ! ""
 Baf:Baf NP1-TOP ; ! ""
 Bağdat:Bağdat NP1-TOP ; ! ""
 Bahreyn:Bahreyn NP1-TOP ; ! ""
+Balkan:Balkan NP1-TOP ; ! ""
+Balkanlar:Balkanlar NP1-TOP ; ! ""
 Bakü:Bakü NP1-TOP ; ! ""
 Bali:Bali NP1-TOP ; ! ""
 Bangkok:Bangkok NP1-TOP ; ! ""
@@ -7594,6 +7613,12 @@ WHO:WHO%{o%} NP1-ORG ; ! ""
 PASOK:PASOK%{o%}%{p%} NP1-ORG ; ! ""
 KFOR:KFOR%{o%}%{b%} NP1-ORG ; ! ""
 BBC:BBC NP1-ORG ; ! ""
+SETimes:SETimes NP1-ORG ; ! ""
+Getty% Images:Getty% Images NP1-ORG ; ! ""
+SC:SC NP1-ORG ; ! ""
+The% Times:The% Times NP1-ORG ; ! ""
+STK:STK NP1-ORG ; ! ""
+
 AKP:AKP NP1-ORG ; ! ""
 VMRO:VMRO NP1-ORG ; ! ""
 DPA:DPA NP1-ORG ; ! ""
@@ -9935,7 +9960,9 @@ LEXICON Adjectives
 
 var:var A4 ; ! "existing" 
 yok:yok A4 ; ! "non-existing"
-yönelik:yönelik A4 ! 'devoted'
+yönelik:yönelik A4 ; ! 'devoted'
+mali:mali A4 ; ! ' economıcal'
+düşük:düşük A4 ; ! 'low'
 
 iyi:İyi A1 ; ! "good" ! Dir/LR
 iyi:iyi A1 ; ! "good"
@@ -9950,6 +9977,8 @@ yıllık:yıllık A2 ; ! "annual"
 yaklaşık:yaklaşık A2 ; ! "approximate"
 amaçlı:amaçlı A2 ; ! "orıented"
 ortak:ortak A2 ; ! "partner"
+dış:dış A2 ; ! "partner"
+
 
 
 
@@ -9957,10 +9986,15 @@ siyasi:siyasi A2 ; ! "political"
 
 ana:ana A4 ; ! "main"
 milli:milli A4 ; ! "national"
+tam:tam A4 ; ! 'exact'
 ekonomik:ekonomik A4 ; ! "economic"
-bölgesel:bölgesel A4 ! "regional"
+bölgesel:bölgesel A4 ; ! "regional"
 uzunca:uzunca A3 ;  ! "tallish"
-soğuk:soğuk A1 ;  ! "tallish"
+soğuk:soğuk A1 ;  ! "cold'
+zor:zor A1 ; ! "hard"
+dair:dair A4 ; ! "lower"
+organize:organize A2 ! "organized"
+
 budala:budala A2 ;  ! "fool"
 ela:ela A2 ;  ! "haler (colour)"
 kabartma:kabartma A2 ;  ! "raised"
@@ -11076,6 +11110,8 @@ yolsuz:yolsuz A4 ;  ! ""
 mutsuz:mutsuz A4 ;  ! ""
 yüzsüz:yüzsüz A4 ;  ! ""
 komutа:komutа A4 ;  ! ""
+gereken:gereken A4 ;  ! ""
+kısa:kısa A1 ; ! "short"
 
 LEXICON Adverbs 
 
