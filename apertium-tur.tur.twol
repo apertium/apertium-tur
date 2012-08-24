@@ -14,13 +14,15 @@ Alphabet
 
  %{f%}:0 %{b%}:0
 
- %{t%}:t %{ç%}:ç %{e%}:e
+ %{e%}:e
 
  %{o%}:0 %{ö%}:0 %{ı%}:0 %{p%}:0 %{b%}:0 ! For numerals and abbreviations / acronyms
  
  %{ii%}:0
 
  %{pN%}:0
+
+ %{·%}:0 ! Voicing
 
 
  %>:0
@@ -89,17 +91,19 @@ Rules
 ! PASOK{o}{r}>{n}{I}n = PASOK'un   = P:P A:A S:S O:O K:K {o}:0 {r}:0 ':' >:0 {n}:0 {I}:u n:n
 
 "Vowel {i} surfacing and harmonising"
-%{i%}:Vy <=> [ :LastVowel :Cns* :Cns ] %>: _ [ %{L%}: | :Cns ]/[ :0 ]  ;
-             [ :LastVowel [ :Cns* | %>: ] :Cns ] %>: _ [ %{L%}: | :Cns ]/[ :0 ]  ; ! oynatırım
+%{i%}:Vy <=> [ :LastVowel :Cns* :Cns ] (:0) %>: _ [ %{L%}: | :Cns ]/[ :0 ]  ;
+             [ :LastVowel [ :Cns* | %>: ] :Cns ] (:0) %>: _ [ %{L%}: | :Cns ]/[ :0 ]  ; ! oynatırım
         where 
             LastVowel in ( i ü e ö ı u a o )
                    Vy in ( i ü i ü ı u ı u ) 
             matched;
 
-! yap>{i}yor            = yapıyor    =   y:y a:a p:p >:0 {i}:ı y:y o:o r:r
+! yap>{i}yor            = yapıyor    =               y:y a:a p:p >:0 {i}:ı y:y o:o r:r
 ! yap>{D}{I}r>{i}r>{I}m = yaptırırım =   y:y a:a p:p >:0 {D}:t {I}:ı r:r >:0 {i}:ı r:r >:0 {I}:ı m:m
-! oyna>{i}{L}>{I}yor>   = oynalıyor  =   o:o y:y n:n a:a >:0 {i}:0 {L}:l >:0 {i}:ı y:y o:o r:r 
+! oyna>{i}{L}>{I}yor>   = oynalıyor  =           o:o y:y n:n a:a >:0 {i}:0 {L}:l >:0 {i}:ı y:y o:o r:r 
 ! oyna>t>{i}r>{I}m      = oynatırım  =   o:o y:y n:n a:a >:0 t:t >:0 {i}:ı r:r >:0 {I}:ı m:m
+! et{·}>{i}{L}>{y}{A}n  = edilen     =             e:e t:d {·}:0 >:0 {i}:i {L}:l >:0 {y}:0 {A}:e n:n
+! yap>{i}{L}>{y}{A}n    = yapılan    =   y:y a:a p:p >:0 {i}:ı {L}:l >:0 {y}:0 {A}:a n:n
 
 "Vowel {a} surfacing and harmonising"
 %{a%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ %>: | :0 | %   ] _ %>: [ :Cns ]/[ :0 ]  ;
@@ -146,14 +150,15 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 
 
 "Devoicing of archiphoneme {D} after CnsDev"
-%{D%}:t <=> [ :CnsDev | %{t%}: ] (%':)  %>: _ ; 
+%{D%}:t <=> :CnsDev (%':)  %>: _ ; 
+            :CnsDev %{·%}: (%':)  %>: _ ; 
 
 ! ağaç>{D}{A}n      = ağaçtan   = a:a ğ:ğ a:a ç:ç >:0 {D}:t {A}:a n:n
 ! fıstık>{D}{A}n    = fıstıktan = 
 ! şiş>{D}{A}n       = şişten    =
 ! gunah>{D}{A}n     = gunahtan  =
 ! kebap>{D}{A}n     = kebaptan  = 
-! e{t}>{D}{I}       = etti      = e:e {t}:t >:0 {D}:t {I}:i
+! et{·}>{D}{I}      = etti      = e:e t:t %{·%}:0 >:0 {D}:t {I}:i
 
 
 ! ev>{s}{I}         = evi       =     e:e v:v >:0 {s}:0 {I}:i
@@ -175,20 +180,18 @@ Cx:Cy <=>   :SurVow (%':) (:0) %>: _ ;
 ! Sofya'>y{I}       = Sofya'yı 
 
 "Prevocalic consonant voicing"
-Cx:Cy <=> :Vow (:0) _ %>: (:0) :SurVow ;
+Cx:Cy <=> :Vow (:0) _ %{·%}: %>: (:0) :SurVow ;
           except
-                 :n _ %>: (:0) :SurVow ;
-                    _ %>: (:0) %{i%}: ;
-                    _ %>: (:0) %{I%}: y:y o:o r:r ; 
-          where Cx in ( t k ç ) ! p
-                Cy in ( d ğ c ) ! b
+                 :n _ %{·%}: %>: (:0) :SurVow ;
+          where Cx in ( t k ç p )
+                Cy in ( d ğ c b )
                 matched;
 
 ! kitab>            = kitap
 ! kitab>{D}{A}n     = kitaptan   = 
 
 "Alternative voicing of 'k' to 'g' after 'n'"
-k:g <=> :n _ %>: (:0) :Vow ;
+k:g <=> :n _ %{·%}: %>: (:0) :Vow ;
 
 ! renk>{y}{I}       = rengi    =
 
