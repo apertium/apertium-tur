@@ -453,6 +453,12 @@ LEXICON NP3-TOP
 %<np%>%<top%>%<pl%>%<px3sp%>%<nom%>: # ;
 %<np%>%<top%>%<pl%>%<px3sp%>:%'%{pN%} CASE-ETC-NONOM ;
 
+LEXICON NP4-TOP
+
+%<np%>%<top%>%<pl%>%<nom%>: # ;
+%<np%>%<top%>%<pl%>:%' N-INFL-COMMON-NONOM ;
+
+
 LEXICON NP1-ORG
 
 %<np%>%<org%>%<nom%>: # ;
@@ -1973,7 +1979,7 @@ LEXICON Nouns
 sandalye:sandalye N1 ; ! "chair"
 Salı:Salı N1 ; ! "Tuesday"
 Perşembe:Perşembe N1 ; ! "Thursday"
-Başbakan:Başbakan N1 ; ! "Prime minister"
+başbakan:başbakan N1 ; ! "Prime minister"
 Cuma:Cuma N1 ; ! "Friday"
 Mart:Mart N1 ; ! "March"
 Mayıs:Mayıs N1 ; ! "May"
@@ -6541,7 +6547,28 @@ pazar:pazar N1 ; ! "Sunday or market"
 pazartesi:pazartesi N1 ; ! "Monday"
 
 terör:terör N1 ; ! "terror"
+terörist:terörist N1 ; ! "terrorist"
+sektör:sektör N1 ; ! "sector"
+statüs:statüs N1 ; ! "status"
+boykot:boykot N1 ; ! "boycot"
+program:program N1 ; ! "program"
+sistem:sistem N1 ; ! "system"
+festival:festival N1 ; ! "festival"
+televizyon:televizyon N1 ; ! "television"
+üniversitete:üniversitete N1 ; ! "university"
+referandum:referandum N1 ; ! "referendum"
 ordu:ordu N1 ; ! "army"
+proje:proje N1 ; ! "project"
+turizm:turizm N1 ; ! "tourism"
+plan:plan N1 ; ! "plan"
+politika:politika N1 ; ! "policy" FIXME: Check
+
+entegrasyon:entegrasyon N1 ; ! "" 
+operasyon:operasyon N1 ; ! "" 
+misyon:misyon N1 ; ! "" 
+organizasyon:organizasyon N1 ; ! "" 
+turist:turist N1 ; ! "" 
+analist:analist N1 ; ! "" 
 
 müsvedde:müsvedde N1 ; ! "copy"
 mutabakat:mutabakat N1 ; ! "agreement"
@@ -6916,6 +6943,7 @@ LEXICON ProperNouns
 Sırbistan:Sırbistan NP1-TOP ; ! "Serbia"
 Arnavutluk:Arnavutluk NP1-TOP ; ! "Albania"
 Aarhus:Aarhus NP1-TOP ; ! ""
+Dayton:Dayton NP1-TOP ; ! ""
 Abhazya:Abhazya NP1-TOP ; ! ""
 Açe:Açe NP1-TOP ; ! ""
 Açe:Açe NP1-TOP ; ! ""
@@ -7547,6 +7575,7 @@ Sırp% Cumhuriyeti:Sırp% Cumhuriyeti NP2-TOP ; ! "Respublika Srpska"
 
 Amerika% Birleşik% Devletleri:Amerika% Birleşik% Devletleri NP3-TOP ; ! ""
 Sovyet% Sosyalist% Cumhuriyetler% Birliği:Sovyet% Sosyalist% Cumhuriyetler% Birliği NP3-TOP ; ! ""
+Balkanlar:Balkanlar NP4-TOP ; ! ""
 
 ABD:ABD NP1-TOP ; ! ""
 AB:AB NP1-TOP ; ! ""
@@ -7950,6 +7979,8 @@ Tyers:Tyers NP1-COG-MF ; ! ""
 Salimzyanov:Salimzyanov NP1-COG-MF ; ! ""
 Washington:Washington NP1-COG-MF ; ! ""
 Erdoğan:Erdoğan NP1-COG-MF ; ! ""
+Rice:Rice NP1-COG-MF ; ! ""
+Schilling:Schilling NP1-COG-MF ; ! ""
 
 Tayyip:Tayyip NP1-ANT-M ; ! ""
 Ağustos:Ağustos NP1-ANT-M ; ! ""
