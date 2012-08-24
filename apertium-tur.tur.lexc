@@ -6547,7 +6547,7 @@ pazartesi:pazartesi N1 ; ! "Monday"
 terör:terör N1 ; ! "terror"
 terörist:terörist N1 ; ! "terrorist"
 sektör:sektör N1 ; ! "sector"
-statüs:statüs N1 ; ! "status"
+statü:statü N1 ; ! "status" ! FIXME: Check
 boykot:boykot N1 ; ! "boycot"
 program:program N1 ; ! "program"
 sistem:sistem N1 ; ! "system"
