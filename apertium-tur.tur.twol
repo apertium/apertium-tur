@@ -22,7 +22,7 @@ Alphabet
 
  %{pN%}:0
 
- %{·%}:0 ! Voicing
+ %{v%}:0 ! Voicing
 
 
  %>:0
@@ -151,14 +151,14 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 
 "Devoicing of archiphoneme {D} after CnsDev"
 %{D%}:t <=> :CnsDev (%':)  %>: _ ; 
-            :CnsDev %{·%}: (%':)  %>: _ ; 
+            :CnsDev %{v%}: (%':)  %>: _ ; 
 
 ! ağaç>{D}{A}n      = ağaçtan   = a:a ğ:ğ a:a ç:ç >:0 {D}:t {A}:a n:n
 ! fıstık>{D}{A}n    = fıstıktan = 
 ! şiş>{D}{A}n       = şişten    =
 ! gunah>{D}{A}n     = gunahtan  =
 ! kebap>{D}{A}n     = kebaptan  = 
-! et{·}>{D}{I}      = etti      = e:e t:t %{·%}:0 >:0 {D}:t {I}:i
+! et{·}>{D}{I}      = etti      = e:e t:t %{v%}:0 >:0 {D}:t {I}:i
 
 
 ! ev>{s}{I}         = evi       =     e:e v:v >:0 {s}:0 {I}:i
@@ -180,10 +180,10 @@ Cx:Cy <=>   :SurVow (%':) (:0) %>: _ ;
 ! Sofya'>y{I}       = Sofya'yı 
 
 "Prevocalic consonant voicing"
-!Cx:Cy <=> :Vow (:0) _ %{·%}: %>: (:0) :SurVow ;
-Cx:Cy <=> _ %{·%}: %>: (:0) :SurVow ;
+!Cx:Cy <=> :Vow (:0) _ %{v%}: %>: (:0) :SurVow ;
+Cx:Cy <=> _ %{v%}: %>: (:0) :SurVow ;
           except
-                 :n _ %{·%}: %>: (:0) :SurVow ;
+                 :n _ %{v%}: %>: (:0) :SurVow ;
           where Cx in ( t k ç p )
                 Cy in ( d ğ c b )
                 matched;
@@ -192,7 +192,7 @@ Cx:Cy <=> _ %{·%}: %>: (:0) :SurVow ;
 ! kitab>{D}{A}n     = kitaptan   = 
 
 "Alternative voicing of 'k' to 'g' after 'n'"
-k:g <=> :n _ %{·%}: %>: (:0) :Vow ;
+k:g <=> :n _ %{v%}: %>: (:0) :Vow ;
 
 ! renk>{y}{I}       = rengi    =
 

@@ -5,6 +5,7 @@ LIST BOS = (>>>) sent ; # Beginning of sentence
 LIST EOS = (<<<) sent ; # End of sentence
 
 LIST N = n ; 
+LIST Prop = np ; 
 LIST Pron = prn ; 
 LIST Det = det ; 
 LIST Cop = cop ; 
@@ -32,3 +33,5 @@ REMOVE Pron + Nom IF (0 Det) (1C N) ;
 
 REMOVE Imper IF (NOT 0C Imper) ;
     ## Bunlar, bu hafta içinde dünyanın dört bir yanından İtalyan başkentine [0]akın etmiş olan yaklaşık dört milyon hacı ve yaslı kalabalığa katıldı.
+
+
