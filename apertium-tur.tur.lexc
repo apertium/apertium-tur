@@ -8209,6 +8209,8 @@ Zog:Zog NP1-ANT-M ; ! ""
 Zoran:Zoran NP1-ANT-M ; ! ""
 Zsolt:Zsolt NP1-ANT-M ; ! ""
 
+Martti:Martti NP1-ANT-M ; ! ""
+
 ! Anthroponyms (girls)
 
 Sezgi:Sezgi NP1-ANT-F ; ! ""
@@ -8227,6 +8229,11 @@ Schilling:Schilling NP1-COG-MF ; ! ""
 Rohan:Rohan NP1-COG-MF ; ! ""
 Barroso:Barroso NP1-COG-MF ; ! ""
 Biden:Biden NP1-COG-MF ; ! ""
+Nastase:Nastase NP1-COG-MF ; ! ""
+Babacan:Babacan NP1-COG-MF ; ! ""
+Talat:Talat NP1-COG-MF ; ! ""
+Moisiu:Moisiu NP1-COG-MF ; ! ""
+Seydiu:Seydiu NP1-COG-MF ; ! ""
 
 Tayyip:Tayyip NP1-ANT-M ; ! ""
 Ağustos:Ağustos NP1-ANT-M ; ! ""
