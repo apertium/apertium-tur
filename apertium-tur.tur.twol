@@ -83,6 +83,10 @@ Rules
 "Special harmony for {e}"
 %{I%}:i <=> %{e%}:0 %>: _ ; 
 
+"Special harmony for {e} 2 "
+%{e%}:i <=>  _ %>: %{y%}:y ; 
+
+
 ! 
 ! d{e}>{I}yor         = diyor      =                                 d:d {e}:0 >:0 {I}:i y:y o:o r:r
 ! NATO{o}'>{n}{I}n    = NATO'nun   =           N:N A:A T:T O:O {o}:0 ':' >:0 {n}:n {I}:u n:n
