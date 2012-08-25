@@ -36,6 +36,10 @@ Multichar_Symbols
 %<org%>            
 %<al%>             
 
+%<p1%>
+%<p2%>
+%<p3%>
+
 !! gender of anthroponyms 
 %<m%>              ! Masculine    
 %<f%>              ! Feminine     
@@ -197,7 +201,7 @@ LEXICON NUM-DIGIT
 
 !%<num%>%<percent%>:%% # ;
 !%<num%>%<percent%>%<subst%>%<nom%>:%% # ;
-!%<num%>%<percent%>%<subst%>:%%%{а%}%{з%}%- SUBST-NONOM ;
+!%<num%>%<percent%>%<subst%>:%%{а%}%{з%}%- SUBST-NONOM ;
 
 
 !°С%<num%>:°С # ;
@@ -424,6 +428,8 @@ LEXICON N1 ! Generic noun paradigm.
 
 %<n%>: SUBST ; 
 %<n%>%<attr%>: # ;  
+%<n%>%<abe%>:%>s%{I%}z # ;
+%<n%>%<abe%>%<subst%>:%>s%{I%}z SUBST ;
 
 LEXICON N2 ! Compound nouns with compulsory possession. 
            ! e.g. dikiş makinası, dikiş makinaları, ...
@@ -441,6 +447,12 @@ LEXICON N4 ! Nouns with usage as postpositions.
            ! e.g. arka: arkasına, iç: içinde
 
 %<n%>: SUBST ; 
+
+LEXICON N5
+
+%<n%>%<nom%>: # ;
+%<n%>:%' N-INFL-COMMON-NONOM ;
+%<n%>%<attr%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -2006,86 +2018,86 @@ LEXICON Nouns
 neden:neden N1 ; ! "reason"
 başsavcı:başsavcı N1 ; ! "general procurator"
 sergi:sergi N1 ; ! "show"
-şeffaflık:şeffaflık{·%} N1 ; ! " transparency"
-komşuluk:komşuluk{·%}  N1 ; ! "neighborhod"
+şeffaflık:şeffaflık%{·%} N1 ; ! " transparency"
+komşuluk:komşuluk%{·%}  N1 ; ! "neighborhod"
 ofis:ofis N1 ; ! "office"
 saldırı:saldırı N1 ; ! "attack"
-umut:umut{·%} N1 ; ! "hope"
+umut:umut%{·%} N1 ; ! "hope"
 yetki:yetki N1 ; ! "authorization"
 sahne:sahne N1 ; ! "stage"
 veriler:veriler N1 ; ! "parameter"
 suçlu:suçlu N1 ; ! "criminal"
 fikir:fikir N1 ; ! "idea"
-örnek:örnek{·%} N1 ; ! "representative"
+örnek:örnek%{·%} N1 ; ! "representative"
 dikkat:dikkat N1 ; ! "attention"
-olanak:olanak{·%} N1 ; ! "possibility"
+olanak:olanak%{·%} N1 ; ! "possibility"
 yardım:yardım N1 ; ! "help"
 rakam:rakam N1 ; ! "figure"
 bank:bank N1 ; ! "Bank"
 teknoloji:teknoloji N1 ; ! "technology"
 ödül:ödül N1 ; ! "award"
 şehir:şehir N1 ; ! "city" @@@ There is a deletion
-özgürlük:özgürlük{·%} N1 ; ! "freedom"
+özgürlük:özgürlük%{·%} N1 ; ! "freedom"
 öğrenci:öğrenci N1 ; ! "student"
 tespit:tespit N1 ; ! "evaluation"
 öğretim:öğretim N1 ; ! "study"
 sorumlu:sorumlu N1 ; ! "responsible"
 askı:askı N1 ; ! "rack"
-kaçakçılık:kaçakçılık{·%} N1 ; ! "smuggling"
+kaçakçılık:kaçakçılık%{·%} N1 ; ! "smuggling"
 üretim:üretim N1 ; ! "production"
-değişiklik:değişiklik{·%} N1 ; ! "change"
-bağımsızlık:bağımsızlık{·%} N1 ; ! "indipendence"
+değişiklik:değişiklik%{·%} N1 ; ! "change"
+bağımsızlık:bağımsızlık%{·%} N1 ; ! "indipendence"
 seyahat:seyahat N1 ; ! "travel"
 teklif:teklif N1 ; ! "proposal"
-ihtiyaç:ihtiyaç{·%} N1 ; ! "help"
+ihtiyaç:ihtiyaç%{·%} N1 ; ! "help"
 saygı:saygı N1 ; ! "respect"
 tedbir:tedbir N1 ; ! "precaution"
-grup:grup{·%} N1 ; ! "group"
+grup:grup%{·%} N1 ; ! "group"
 strateji:strateji N1 ; ! "strategy"
 tavsiye:tavsiye N1 ; ! "suggestion"
 uzman:uzman N1 ; ! "expert"
 tiyatro:tiyatro N1 ; ! "teatro"
 Şampiyona:Şampiyona N1 ; ! "Championship"
 finanse:finanse N1 ; ! "finance"
-tanık:tanık{·%} N1 ; ! "witness"
-bankacılık:bankacılık{·%} N1 ; ! "banking"
-euroluk:euroluk{·%} N1 ; ! "euro"
+tanık:tanık%{·%} N1 ; ! "witness"
+bankacılık:bankacılık%{·%} N1 ; ! "banking"
+euroluk:euroluk%{·%} N1 ; ! "euro"
 yapıcı:yapıcı N1 ; ! "actuator"
 temsilci:temsilci N1 ; ! "agent"
 okul:okul N1 ; ! "school"
-öncelik:öncelik{·%} N1 ; ! "priority"
+öncelik:öncelik%{·%} N1 ; ! "priority"
 soykırım:soykırım N1 ; ! "genocide"
-araç:araç{·%} N1 ; ! "means"
+araç:araç%{·%} N1 ; ! "means"
 zafer:zafer N1 ; ! "triumph"
 şans:şans N1 ; ! "chance"
 Sanat:Sanat N1 ; ! "art"
 temas:temas N1 ; ! "contact"
 tasarruf:tasarruf N1 ; ! "possession"
-sorumluluk:sorumluluk{·%} N1 ; ! "commitment"
+sorumluluk:sorumluluk%{·%} N1 ; ! "commitment"
 yasa:yasa N1 ; ! "law"
-etkinlik:etkinlik{·%}  N1 ; ! "activity"
+etkinlik:etkinlik%{·%}  N1 ; ! "activity"
 seviye:seviye N1 ; ! "level"
 tehlike:tehlike N1 ; ! "danger"
 Ortodoks:Ortodoks N1 ; ! "orthodox"
-olasılık:olasılık{·%} N1 ; ! "probability"
+olasılık:olasılık%{·%} N1 ; ! "probability"
 saye:saye N1 ; ! "help"
 festival:festival%{f%} N1 ; ! "festival"
 net:net N1 ; ! "net"
 Müslüman:Müslüman N1 ; ! "muslim"
 ün:ün N1 ; ! "reputation"
-yürürlük:yürürlük{·%} N1 ; ! "operation"
-liderlik:liderlik{·%} N1 ; ! "leadership"
+yürürlük:yürürlük%{·%} N1 ; ! "operation"
+liderlik:liderlik%{·%} N1 ; ! "leadership"
 tepki:tepki N1 ; ! "reaction"
 tahmin:tahmin N1 ; ! "extimation"
 tarım:tarım N1 ; ! "agriculture"
 övgü:övgü N1 ; ! "praise"
 takım:takım N1 ; ! "team"
-işsizlik:işsizlik{·%} N1 ; ! "unemployment"
+işsizlik:işsizlik%{·%} N1 ; ! "unemployment"
 rekabet:rekabet N1 ; ! "competition"
 yanıt:yanıt N1 ; ! "answer"
-başkanlık:başkanlık{·%} N1 ; ! "leadership"
+başkanlık:başkanlık%{·%} N1 ; ! "leadership"
 uygulama:uygulama N1 ; ! "application"
-sonuç:sonuç{·%}  N1 ; ! "result"
+sonuç:sonuç%{·%}  N1 ; ! "result"
 diyalog:diyalog N1 ; ! "dialogue"
 şart:şart N1 ; ! "condition"
 siyaset:siyaset N1 ; ! "politics"
@@ -2100,37 +2112,43 @@ verici:verici N1 ; ! "donor"
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 vize:vize N1 ; ! "visa"
-cumhurbaşkanlık:cumhurbaşkanlık{·%} N1 ; ! "presidentship"
+cumhurbaşkanlık:cumhurbaşkanlık%{·%} N1 ; ! "presidentship"
 spor:spor N1 ; ! "sport"
 rol:rol N1 ; ! "role"
 şiddet:şiddet N1 ; ! "violence"
-sahiplik:sahiplik{·%} N1 ; ! "ownership"
-sahip:sahip{·%} N1 ; ! "owner"
+sahiplik:sahiplik%{·%} N1 ; ! "ownership"
+sahip:sahip%{·%} N1 ; ! "owner"
 tür:tür N1 ; ! "type" 
 şirket:şirket N1 ; ! "company"
-süreç:süreç{·%} N1 ; ! "process"
-yolsuzluk:yolsuzluk{·%} N1 ; ! "corruption"
+süreç:süreç%{·%} N1 ; ! "process"
+yolsuzluk:yolsuzluk%{·%} N1 ; ! "corruption"
 sandalye:sandalye N1 ; ! "chair"
+başbakan:başbakan N1 ; ! "Prime minister"
+üyelik:üyelik%{·%} N1 ; ! "membership"
+
+
+Pazartesi:Pazartesi N1 ; ! "Monday"
 Salı:Salı N1 ; ! "Tuesday"
 Perşembe:Perşembe N1 ; ! "Thursday"
-başbakan:başbakan N1 ; ! "Prime minister"
 Cuma:Cuma N1 ; ! "Friday"
-Mart:Mart N1 ; ! "March"
-Mayıs:Mayıs N1 ; ! "May"
-üyelik:üyelik%{·%} N1 ; ! "membership"
-Haziran:Haziran N1 ; ! "June"
-Ocak:Ocak N1 ; ! "January"
-Nisan:Nisan N1 ; ! "April"
-Cuma:Cuma N1 ; ! "Friday"
-Ekim:Ekim N1 ; ! "October"
+Cumartesi:Cumartesi N1 ; ! "Saturday"
+
+Ocak:Ocak N5 ; ! "January"
+Şubat:Şubat N5 ; ! "February"
+Mart:Mart N5 ; ! "March"
+Nisan:Nisan N5 ; ! "April"
+Mayıs:Mayıs N5 ; ! "May"
+Haziran:Haziran N5 ; ! "June"
+Temmuz:Temmuz N5 ; ! "July"
+Eylül:Eylül N5 ; ! "September"
+Ekim:Ekim N5 ; ! "October"
+Aralık:Aralık%{·%} N5 ; ! "December"
+
+
 işbirlik:İşbirlik%{·%} N1 ; ! "union" ! Dir/LR
 işbirlik:işbirlik%{·%} N1 ; ! "union"
-Aralık:Aralık%{·%} N1 ; ! "December"
-Temmuz:Temmuz N1 ; ! "July"
-Eylül:Eylül N1 ; ! "September"
 suç:suç N1 ; ! "crime"
 güvenlik:güvenlik%{·%} N1 ; ! "security"
-Cumartesi:Cumartesi N1 ; ! "Saturday"
 ziyaret:ziyaret N1 ; ! "vısıt"
 hükümet:hükümet N1 ; ! "government"
 seçim:seçim N1 ; ! "electıon"
@@ -2141,7 +2159,7 @@ sayı:sayı N1 ; ! "number"
 ortaklık:ortaklık%{·%} N1 ; ! "assocıatıon"
 teslim:teslim N1 ; ! "delivery"
 avro:avro N1 ; ! "euro"
-avroluk:avroluk{·%} N1 ; ! "euro"
+avroluk:avroluk%{·%} N1 ; ! "euro"
 demeç:demeç N1 ; ! "statement"
 İstikrar:İstikrar N1 ; ! "stabılıty"
 yargı:yargı N1 ; ! "justıce or judgement"
@@ -2153,9 +2171,9 @@ art:art%{·%} N1 ; ! ""
 para:para N1 ; ! "money"
 üyelik:üyelik%{·%} N1 ; ! 'membershıp'
 üye:üye N1 ; ! 'member'
-tehdit:tehdit{·%} N1 ; ! "menace"
+tehdit:tehdit%{·%} N1 ; ! "menace"
 şiddet:şiddet N1 ; ! "violence"
-talep:talep{·%} N1 ; ! "request"
+talep:talep%{·%} N1 ; ! "request"
 yönetim:yönetim N1 ; ! "administration"
 oran:oran N1 ; ! "proportion"
 teşvik:teşvik N1 ; ! "urge"
@@ -6675,7 +6693,6 @@ parlamento:parlamento N1 ; ! "parlament
 
 sekreter:sekreter N1 ; ! "secretary"
 pazar:pazar N1 ; ! "Sunday or market"
-pazartesi:pazartesi N1 ; ! "Monday"
 
 terör:terör N1 ; ! "terror"
 terörist:terörist N1 ; ! "terrorist"
@@ -6924,7 +6941,6 @@ sonuncu:sonuncu N1 ; ! "last"
 sorun:sorun N1 ; ! "problem"
 soy:soy N1 ; ! "breed"
 söz:söz N1 ; ! "word"
-şubat:şubat N1 ; ! "February"
 sükunet:sükunet N1 ; ! "quietness"
 süpürge:süpürge N1 ; ! "broom"
 sütyen:sütyen N1 ; ! "bra"
@@ -7719,6 +7735,8 @@ Suudi% Arabistan:Suudi% Arabistan NP1-TOP ; ! ""
 Yeni% Zağra:Yeni% Zağra NP1-TOP ; ! ""
 Yeni% Zelanda:Yeni% Zelanda NP1-TOP ; ! ""
 
+Çuvaşistan:Çuvaşistan NP1-TOP ; ! ""
+
 ! Seas
 Atlantik% Denizi:Atlantik% Denizi NP2-TOP ; ! ""
 Ege% Denizi:Ege% Denizi NP2-TOP ; ! ""
@@ -7729,6 +7747,7 @@ Yunan% Denizi:Yunan% Denizi NP2-TOP ; ! ""
 Baltık% Denizi:Baltık% Denizi NP2-TOP ; ! ""
 Karadeniz:Karadeniz NP1-TOP ; ! "black sea"
 Akdeniz:Akdeniz NP1-TOP ; ! "Mediterranean Sea"
+
 
 ! Rivers 
 İskar:İskar NP1-TOP ; ! ""
@@ -7748,9 +7767,13 @@ Erdel% Prensliği:Erdel% Prensliği NP2-TOP ; ! ""
 Gilan% Eyaleti:Gilan% Eyaleti NP2-TOP ; ! ""
 Kıbrıs% Cumhuriyeti:Kıbrıs% Cumhuriyeti NP2-TOP ; ! ""
 Sırp% Cumhuriyeti:Sırp% Cumhuriyeti NP2-TOP ; ! "Respublika Srpska"
+Rusya% Sovyet% Federatif% Sosyalist% Cumhuriyeti:Rusya% Sovyet% Federatif% Sosyalist% Cumhuriyeti NP2-TOP ; ! ""
+Ermenistan% Sovyet% Sosyalist% Cumhuriyeti:Ermenistan% Sovyet% Sosyalist% Cumhuriyeti NP2-TOP ; ! ""
+Çuvaşistan% Özerk% Sovyet% Sosyalist% Cumhuriyeti:Çuvaşistan$% Özerk% Sovyet% Sosyalist% Cumhuriyeti NP2-TOP ; ! ""
 
 Amerika% Birleşik% Devletleri:Amerika% Birleşik% Devletleri NP3-TOP ; ! ""
 Sovyet% Sosyalist% Cumhuriyetler% Birliği:Sovyet% Sosyalist% Cumhuriyetler% Birliği NP3-TOP ; ! ""
+
 Balkanlar:Balkanlar NP4-TOP ; ! ""
 
 ABD:ABD NP1-TOP ; ! ""
@@ -11653,7 +11676,7 @@ gel:gel V-IV-DIR-IR ; ! "come"
 gel:gel V-IV-DIR-IR ; ! "come"
 yayınlan:yayınlan V-IV-DIR-IR ; ! "issue"
 yayınla:yayınla V-TV-T-IR ; ! "publish"
-gerçekleş:gerçekleş{·%} V-IV-DIR-IR ; ! "to materialize"
+gerçekleş:gerçekleş%{·%} V-IV-DIR-IR ; ! "to materialize"
 aç:aç V-TV-DIR-AR ; ! "open"
 kes:kes V-TV-DIR-AR ; ! "cut"
 et:et%{·%} V-TV-DIR-AR ; ! "make"
