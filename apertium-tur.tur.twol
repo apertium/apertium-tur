@@ -180,7 +180,8 @@ Cx:Cy <=>   :SurVow (%':) (:0) %>: _ ;
 ! Sofya'>y{I}       = Sofya'yı 
 
 "Prevocalic consonant voicing"
-Cx:Cy <=> :Vow (:0) _ %{·%}: %>: (:0) :SurVow ;
+!Cx:Cy <=> :Vow (:0) _ %{·%}: %>: (:0) :SurVow ;
+Cx:Cy <=> _ %{·%}: %>: (:0) :SurVow ;
           except
                  :n _ %{·%}: %>: (:0) :SurVow ;
           where Cx in ( t k ç p )
