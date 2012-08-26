@@ -139,20 +139,14 @@ Rules
 %{A%}:e <=> [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
             [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
        except
-             AbstrVow:0 [ :0 | :Cns | :%' | % ]* _ ;
+             [ %{ii%}:0 | %{ö%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
 
 "Underlying vowel harmony for archiphoneme {A}"
-%{A%}:Vy <=> Vx:0 [ :0 | :Cns | :%' | % ]* _ ;
+%{A%}:e <=> [ %{ii%}:0 | %{ö%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
         except 
-             [ AbstrVow: - Vx: ] [ :0 | :Cns | :%' | % ]* _ ; 
+             [ AbstrVow: - [ %{ii%}: | %{ö%}: ] ] [ :0 | :Cns | :%' | % ]* _ ; 
              [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
              [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
-
-        where 
-              Vx in ( %{ii%} %{o%} %{ö%} %{ı%} ) 
-              Vy   in (   e     a     e     a   )  
-               matched ;
-
 
 ! ev>l{A}r          = evler     =     e:e v:v >:0 l:l {A}:e r:r
 ! saat{f}>l{A}r     = saatler   =     s:s a:a a:a t:t {f}:0 >:0 l:l {A}:e r:r
@@ -160,6 +154,7 @@ Rules
 ! eve>{y}{A}        = eve       =     e:e v:v >:0 {y}:0 {A}:e
 ! kitab>y{A}        = kitaba    =     k:k i:i t:t a:a p:b >:0 {y}:0 {A}:a
 ! 4{ö}{p}'>{y}{A}   = 4'e       =       4:4 {ö}:0 {p}:0 ':' >:0 {y}:0 {A}:e
+! ol>m{A}k          = olmak     =     o:o l:l >:0 {A}:a k:k
 
 
 "Consonant voicing in verb stems"
