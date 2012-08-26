@@ -15,23 +15,32 @@ Tests:
     1<num><subst><px3sp><nom> : 1'i
     2<num><subst><acc> : 2'yi
     3<num><subst><acc> : 3'ü
+    3<num><subst><px3sp><nom> : 3'ü
     4<num><subst><acc> : 4'ü
+    4<num><subst><px3sp><nom> : 4'ü
     5<num><subst><acc> : 5'i
+    5<num><subst><px3sp><nom> : 5'i
     6<num><subst><acc> : 6'yı
     7<num><subst><acc> : 7'yi
     8<num><subst><acc> : 8'i
+    8<num><subst><px3sp><nom> : 8'i
     9<num><subst><acc> : 9'u
+    9<num><subst><px3sp><nom> : 9'u
 
   "[lexc] Genitive": 
     1<num><subst><gen> : 1'in
     2<num><subst><gen> : 2'nin
+    2<num><subst><px2sg><gen> : 2'nin
     3<num><subst><gen> : 3'ün
     4<num><subst><gen> : 4'ün
     5<num><subst><gen> : 5'in
     6<num><subst><gen> : 6'nın
+    6<num><subst><px2sg><gen> : 6'nın
     7<num><subst><gen> : 7'nin
+    7<num><subst><px2sg><gen> : 7'nin
     8<num><subst><gen> : 8'in
     9<num><subst><gen> : 9'un
+
 
   "[lexc] Dative": 
     1<num><subst><dat> : 1'e

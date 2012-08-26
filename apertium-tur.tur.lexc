@@ -10218,6 +10218,8 @@ kurumsal:kurumsal A4 ; ! "institutional"
 
 var:var A4 ; ! "existing" 
 yok:yok A4 ; ! "non-existing"
+değil:değil A4 ; ! ""
+
 yönelik:yönelik A4 ; ! "devoted"
 mali:mali A4 ; ! "economıcal"
 düşük:düşük A4 ; ! 'low'

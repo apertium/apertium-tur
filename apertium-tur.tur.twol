@@ -47,6 +47,8 @@ Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z
          b c ç d f g ğ h j k l m n p q r s ş t v w y z 
          %' %{ç%} %{t%} ;
 
+AbstrVow = %{ii%} %{ö%} %{o%} %{ı%} ; 
+
 HardVow  = a ı o u 
            A I O U ;
 
@@ -70,13 +72,24 @@ Rules
 %{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 | %>: | %  ] _ ;
         except
                                              %{e%}:0 %>: _ ;
+                                         AbstrVow:0 [ :0 | :Cns | :%' | % ]* _ ; 
         where 
             LastVowel in ( i ü e ö ı u a o )
                    Vy in ( i ü i ü ı u ı u ) 
             matched;
 
-! ev>{s}{I}         = evi      =     e:e v:v >:0 {s}:0 {I}:i
-! akü>{n}{I}n       = akünün   = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
+"Underlying vowel harmony for archiphoneme {I}"
+%{I%}:Vy <=> Vx:0 [ :0 | :Cns | :%' | % ]* _ ;
+        except 
+             [ AbstrVow: - Vx: ] [ :0 | :Cns | :%' | % ]* _ ; 
+                                              %{e%}:0 %>: _ ;
+        where 
+              Vx in ( %{ii%} %{o%} %{ö%} %{ı%} ) 
+              Vy   in (   i     u     ü     ı   )  
+               matched ;
+
+! ev>{s}{I}           = evi      =     e:e v:v >:0 {s}:0 {I}:i
+! akü>{n}{I}n         = akünün   = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
 ! 4{ö}{p}'>{I}nc{I}   = 4'üncü   = 4:4 {ö}:0 {p}:0 ':' >:0 {i}:ü n:n c:c {I}:ü
 ! 4{ö}{p}'>{n}{I}n    = 4'ün     = 4:4 {ö}:0 {p}:0 ':' >:0 {n}:0 {I}:ü n:n
 
@@ -125,6 +138,21 @@ Rules
 "Vowel harmony for archiphoneme {A}"
 %{A%}:e <=> [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
             [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
+       except
+             AbstrVow:0 [ :0 | :Cns | :%' | % ]* _ ;
+
+"Underlying vowel harmony for archiphoneme {A}"
+%{A%}:Vy <=> Vx:0 [ :0 | :Cns | :%' | % ]* _ ;
+        except 
+             [ AbstrVow: - Vx: ] [ :0 | :Cns | :%' | % ]* _ ; 
+             [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
+             [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
+
+        where 
+              Vx in ( %{ii%} %{o%} %{ö%} %{ı%} ) 
+              Vy   in (   e     a     e     a   )  
+               matched ;
+
 
 ! ev>l{A}r          = evler     =     e:e v:v >:0 l:l {A}:e r:r
 ! saat{f}>l{A}r     = saatler   =     s:s a:a a:a t:t {f}:0 >:0 l:l {A}:e r:r
@@ -155,8 +183,8 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 
 
 "Devoicing of archiphoneme {D} after CnsDev"
-%{D%}:t <=> :CnsDev (%':)  %>: _ ; 
-            :CnsDev %{v%}: (%':)  %>: _ ; 
+%{D%}:t <=> [ %{p%}: | :CnsDev ] (%':)  %>: _ ; 
+            [ %{p%}: | :CnsDev ]  %{v%}: (%':)  %>: _ ; 
 
 ! ağaç>{D}{A}n      = ağaçtan   = a:a ğ:ğ a:a ç:ç >:0 {D}:t {A}:a n:n
 ! fıstık>{D}{A}n    = fıstıktan = 
@@ -170,7 +198,7 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 ! akü>{n}{I}n       = akünün    = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
 
 "Epenthetic consonants after vowel"
-Cx:Cy <=>   :SurVow (%':) (:0) %>: _ ; 
+Cx:Cy <=>  [ AbstrVow: | :SurVow ] (%':) (:0) %>: _ ; 
         where
             Cx in ( %{n%} %{s%} %{y%} ) 
             Cy in (   n     s     y   ) 
