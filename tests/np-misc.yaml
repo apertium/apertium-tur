@@ -4,30 +4,27 @@ Config:
     Gen:  ../tur.autogen.hfst
     Morph:  ../tur.automorf.hfst
 
+Tests:
 
-"[lexc] Accusative":
+  "[lexc] Accusative":
     NATO<np><org><acc> : NATO'yu
     PASOK<np><org><acc> : PASOK'u
-    BH<np><org><acc> : BH'yi
-  
-
+    PASOK<np><org><px3sp><nom> : PASOK'u
+    BH<np><top><acc> : BH'yi
 
   "[lexc] Dative": 
     NATO<np><org><dat> : NATO'ya
     PASOK<np><org><dat> : PASOK'a
-    BH<np><org><dat> : BH'ye
+    BH<np><top><dat> : BH'ye
   
   "[lexc] Locative": 
     NATO<np><org><loc> : NATO'da
     PASOK<np><org><loc> : PASOK'ta
-    BH<np><org><loc> : BH'de
-      
-
+    BH<np><top><loc> : BH'de
 
   "[lexc] Ablative": 
-   
     NATO<np><org><abl> : NATO'dan
     PASOK<np><org><abl> : PASOK'tan
-    BH<np><org><abl> : BH'den
+    BH<np><top><abl> : BH'den
   
 
