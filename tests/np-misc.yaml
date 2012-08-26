@@ -1,0 +1,33 @@
+Config: 
+  hfst: 
+    App:  hfst-optimised-lookup
+    Gen:  ../tur.autogen.hfst
+    Morph:  ../tur.automorf.hfst
+
+
+"[lexc] Accusative":
+    NATO<np><org><acc> : NATO'yu
+    PASOK<np><org><acc> : PASOK'u
+    BH<np><org><acc> : BH'yi
+  
+
+
+  "[lexc] Dative": 
+    NATO<np><org><dat> : NATO'ya
+    PASOK<np><org><dat> : PASOK'a
+    BH<np><org><dat> : BH'ye
+  
+  "[lexc] Locative": 
+    NATO<np><org><loc> : NATO'da
+    PASOK<np><org><loc> : PASOK'ta
+    BH<np><org><loc> : BH'de
+      
+
+
+  "[lexc] Ablative": 
+   
+    NATO<np><org><abl> : NATO'dan
+    PASOK<np><org><abl> : PASOK'tan
+    BH<np><org><abl> : BH'den
+  
+

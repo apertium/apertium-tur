@@ -2014,6 +2014,16 @@ LEXICON Nouns
 
 !!!NEW!!!
 
+ithal:ithal N1 ; ! "importation"
+kökenli:kökenli N1 ; ! "origin"
+üstünlük:üstünlük%{v%} N1 ; ! "superiority"
+rekor:rekor N1 ; ! "record"
+borcu:borcu N1 ; ! "debt"
+tazminat:tazminat N1 ; ! "compensation"
+ayrımcılık:ayrımcılık%{v%} N1 ; ! "non-discrimination"
+yatırım:yatırım N1 ; ! "investment"
+sonbahar:sonbahar N1 ; ! "autumn"
+özelleştirme:özelleştirme N1 ; ! " privatization"
 
 neden:neden N1 ; ! "reason"
 başsavcı:başsavcı N1 ; ! "general procurator"
@@ -7860,6 +7870,30 @@ KSF:KSF NP1-ORG ; ! ""
 SDP:SDP NP1-ORG ; ! ""
 SP:SP NP1-ORG ; ! ""
 
+!!! TO BE REVIEWED !!!
+
+RFE:RFE NP1-ORG ; ! ""
+RL:RL NP1-ORG ; ! ""
+SE:SE NP1-ORG ; ! ""
+BSP:BSP NP1-ORG ; ! ""
+KDV:KDV NP1-AL ; ! ""
+TV:TV NP1-AL ; ! ""
+HIV:HIV NP1-AL ; ! ""
+CEFTA:CEFTA NP1-AL ; ! ""
+GERB:GERB NP1-AL ; ! ""
+SRS:SRS NP-ORG ; ! ""
+MSK:MSK NP-ORG ; ! ""
+BDP:BDP NP-ORG ; ! ""
+MPA:MPA NP-AL ; ! ""
+AIDS:AIDS NP-AL ; ! "" 
+
+
+
+
+
+!!!!!!!!!!!!!!!!!!!
+
+
 Interpol:Interpol NP1-ORG ; ! ""
 Microsoft:Microsoft NP1-ORG ; ! ""
 
@@ -10934,7 +10968,7 @@ makroekonomik:makroekonomik A4 ;  ! ""
 ritmik:ritmik A4 ;  ! ""
 organik:organik A4 ;  ! ""
 sanık:sanık%{v%} A1 ;  ! ""
-uyanık:uyanık A5 ;  ! ""
+uyanık:uyanık A4 ;  ! ""
 fotojenik:fotojenik A4 ;  ! ""
 şizofrenik:şizofrenik A4 ;  ! ""
 hijyenik:hijyenik A4 ;  ! ""
@@ -11084,7 +11118,8 @@ yalıtkan:yalıtkan A4 ;  ! ""
 soğutkan:soğutkan A4 ;  ! ""
 unutkan:unutkan A4 ;  ! ""
 kocaman:kocaman A4 ;  ! ""
-koskocaman:koskocaman A5 ;  ! ""
+koskocaman:koskocaman A4 ;  ! ""
+değil:değil A4 ; ! "not"
 kahraman:kahraman A2 ;  ! ""
 toraman:toraman A4 ;  ! ""
 yaman:yaman A4 ;  ! ""
