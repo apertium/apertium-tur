@@ -7776,19 +7776,19 @@ Sovyet% Sosyalist% Cumhuriyetler% Birliği:Sovyet% Sosyalist% Cumhuriyetler% Bir
 
 Balkanlar:Balkanlar NP4-TOP ; ! ""
 
-ABD:ABD NP1-TOP ; ! ""
-AB:AB NP1-TOP ; ! ""
-BH:BH NP1-TOP ; ! ""
-BiH:BiH NP1-TOP ; ! ""
+ABD:ABD%{ii%} NP1-TOP ; ! ""
+AB:AB%{ii%} NP1-TOP ; ! ""
+BH:BH%{ii%} NP1-TOP ; ! ""
+BiH:BiH%{ii%} NP1-TOP ; ! ""
 SSCB:SSCB NP1-TOP ; ! ""
 
 ! Organisations
 NATO:NATO%{o%} NP1-ORG ; ! ""
 PKK:PKK%{ı%} NP1-ORG ; ! ""
 UNMIK:UNMIK NP1-ORG ; ! ""
-IMF:IMF%{i%}  NP1-ORG ; ! ""
-GSYİH:GSYİH%{i%}  NP1-ORG ; ! ""
-AFP:AFP%{i%} NP1-ORG ; ! ""
+IMF:IMF%{ii%}  NP1-ORG ; ! ""
+GSYİH:GSYİH%{ii%}  NP1-ORG ; ! ""
+AFP:AFP%{ii%} NP1-ORG ; ! ""
 UNICEF:UNICEF NP1-ORG ; ! ""
 UNESCO:UNESCO%{o%} NP1-ORG ; ! ""
 WHO:WHO%{o%} NP1-ORG ; ! ""
@@ -7798,11 +7798,11 @@ BBC:BBC NP1-ORG ; ! ""
 SETimes:SETimes NP1-ORG ; ! ""
 Times:Times NP1-ORG ; ! ""
 Olimpiyat:Olimpiyat NP1-ORG ; ! "olympics"
-GSYİH:GSYİH NP1-ORG ; ! 
+GSYİH:GSYİH%{ı%} NP1-ORG ; ! 
 FT:FT NP1-ORG ; ! 
 
 Getty% Images:Getty% Images NP1-ORG ; ! ""
-SC:SC NP1-ORG ; ! ""
+SC:SC%{ii%} NP1-ORG ; ! ""
 The% Times:The% Times NP1-ORG ; ! ""
 STK:STK NP1-ORG ; ! ""
 
@@ -7831,7 +7831,7 @@ UEFA:UEFA NP1-ORG ; ! ""
 UNFICYP:UNFICYP NP1-ORG ; ! ""
 HSBC:HSBC NP1-ORG ; ! ""
 IATA:IATA NP1-ORG ; ! ""
-BM:BM NP1-ORG ; ! "UN (United Nations)"
+BM:BM%{ii%} NP1-ORG ; ! "UN (United Nations)"
 MSNBC:MSNBC NP1-ORG ; ! ""
 BHF:BHF NP1-ORG ; ! ""
 YTD:YTD NP1-ORG ; ! ""
