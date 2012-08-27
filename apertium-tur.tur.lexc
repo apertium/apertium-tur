@@ -1858,9 +1858,6 @@ belki:belki CA ;
 bilakis:bilakis CA ; 
 bile:bile CA ; 
 çünkü:çünkü CA ; 
-da:%~da CA ; ! Dir/RL
-da:da CA ; ! Dir/LR
-da:de CA ; ! Dir/LR
 dahası:dahası CA ; 
 demek:demek CA ; 
 dolayısıyla:dolayısıyla CA ; 
@@ -1895,7 +1892,6 @@ sonra:sonra CA ;
 sözgelişi:sözgelişi CA ; 
 tersine:tersine CA ; 
 üstelik:üstelik CA ; 
-ve:ve CA ; 
 velhasıl:velhasıl CA ; 
 veya:veya CA ; 
 veyahut:veyahut CA ; 
@@ -1983,7 +1979,7 @@ bu% kadar:bu% kadar DET-QNT ; ! "this much"
 o% kadar:o% kadar DET-QNT ; ! "this much"
 çok:çok DET-QNT ; ! "many"
 çoğu:çoğu DET-QNT ; ! "many" 
-az:az DET-QNT ; ! "a little"
+!az:az DET-QNT ; ! "a little"
 fazla:fazla DET-QNT ; ! "a lot"
 hiçbir:hiçbir DET-QNT ; ! "nothing"
 her:her DET-DEM ; ! "every"
@@ -11888,7 +11884,6 @@ akıllıca:akıllıca  ADV2 ; ! "smartly"
 amiyane:amiyane  ADV2 ; ! vulgarly
 apaçık:apaçık  ADV2 ; ! "obviously"
 aşağı:aşağı  ADV2 ; ! "lowly"
-az:az  ADV2 ; ! "little"
 azıcık:azıcık  ADV2 ; ! "slightly"
 başlıca:başlıca  ADV2 ; ! "chiefly"
 bertaraf:bertaraf  ADV2 ; ! "aside"
@@ -12882,7 +12877,7 @@ avun:avun V-IV-DIR-IR ; ! "solace"
 ay:ay V-IV-DIR-AR ; ! "awake?"
 aydınlan:aydınlan V-IV-DIR-IR ; ! "light up"
 ayıl:ayıl V-IV-DIR-IR ; ! "regain consciousness"
-az:az V-IV-DIR-AR ; ! "become depraved"
+az:az V-IV-DIR-AR ; ! "to rut"
 bağdaş:bağdaş V-IV-DIR-IR ; ! "agree with"
 bağır:bağır V-IV-DIR-IR ; ! "shout"
 barın:barın V-IV-DIR-IR ; ! "shelter"

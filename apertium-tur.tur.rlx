@@ -5,11 +5,17 @@ LIST BOS = (>>>) sent ; # Beginning of sentence
 LIST EOS = (<<<) sent ; # End of sentence
 
 LIST N = n ; 
+LIST V = v ; 
 LIST Prop = np ; 
 LIST Pron = prn ; 
 LIST Num = num ; 
 LIST A = adj ; 
 LIST Det = det ; 
+LIST Adv = adv ; 
+LIST CC = cnjcoo ; 
+LIST CS = cnjsub ; 
+LIST Interj = ij ; 
+LIST Post = post ; 
 LIST Cop = cop ; 
 
 LIST Px2Sg = px2sg ; 
@@ -27,9 +33,15 @@ LIST Ger = ger1 ger2 ger3 ;
 
 LIST Imper = imp ; 
 
-SET PRE-N = Det | Num | Attr | A | Gen | ("-") ;
+SET PRE-N = Det | Num | Attr | A | Gen | ("-") ; # CC 
 
 SET NOMINAL-HEAD = N | Ger | Subst ; 
+
+SET WORD = N | V | A | Post | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
+SET MARK =  (",") | ("\\") | ("\;") ; #"
+SET WORDMARK = WORD | MARK ;
+
+SET NPNHA = WORDMARK - PRE-N - Adv ;
 
 SECTION 
 
@@ -50,3 +62,9 @@ REMOVE Num + Nom IF (1C Num) ;
 
 REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) ; 
     ## Bu araba 11,5 milyar avroluk.
+
+SELECT Adv IF (0 ("en")) (1 A) ; 
+    ## En az 11,5 milyar avroluk ve ...
+
+REMOVE Subst + Nom IF (1* N + Nom BARRIER NPNHA)  ; 
+    ## En az 11,5 milyar avroluk ve ...
