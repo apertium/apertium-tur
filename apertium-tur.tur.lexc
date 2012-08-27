@@ -2091,7 +2091,7 @@ tehlike:tehlike N1 ; ! "danger"
 Ortodoks:Ortodoks N1 ; ! "orthodox"
 olasılık:olasılık%{v%} N1 ; ! "probability"
 saye:saye N1 ; ! "help"
-festival:festival%{f%} N1 ; ! "festival"
+festival:festival%{ii%} N1 ; ! "festival"
 net:net N1 ; ! "net"
 Müslüman:Müslüman N1 ; ! "muslim"
 ün:ün N1 ; ! "reputation"
@@ -2118,6 +2118,18 @@ olay:olay N1 ; ! "event"
 röportaj:röportajda N1 ; ! "reportage"
 puan:puan N1 ; ! "score"
 verici:verici N1 ; ! "donor"
+
+!!!!! NEW !!!!
+
+arşiv:arşiv N1 ; ! "archive"
+milletvekil:milletvekil N2 ; ! "MP"
+diplomasi:diplomasi N1 ; ! "diplomacy"
+tur:tur N1 ; ! "tour"
+rolü:rolü N1 ; ! "role"
+yanlış:yanlış%{v%} N1 ; ! "mistake"
+milliyetçi:milliyetçi N1 ; ! "nationalist"
+radyo:radyo N1 ; ! "radio"
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -7807,18 +7819,18 @@ WHO:WHO%{o%} NP1-ORG ; ! ""
 PASOK:PASOK%{o%}%{p%} NP1-ORG ; ! ""
 KFOR:KFOR%{o%}%{b%} NP1-ORG ; ! ""
 BBC:BBC NP1-ORG ; ! ""
-SETimes:SETimes NP1-ORG ; ! ""
-Times:Times NP1-ORG ; ! ""
+SETimes:SETimes{ı%} NP1-ORG ; ! ""
+Times:Times{ı%} NP1-ORG ; ! ""
 Olimpiyat:Olimpiyat NP1-ORG ; ! "olympics"
 GSYİH:GSYİH%{ı%} NP1-ORG ; ! 
-FT:FT NP1-ORG ; ! 
+FT:FT{ii%} NP1-ORG ; ! 
 
 Getty% Images:Getty% Images NP1-ORG ; ! ""
 SC:SC%{ii%} NP1-ORG ; ! ""
 The% Times:The% Times NP1-ORG ; ! ""
 STK:STK NP1-ORG ; ! ""
 
-AKP:AKP NP1-ORG ; ! ""
+AKP:AKP{ii%} NP1-ORG ; ! ""
 VMRO:VMRO NP1-ORG ; ! ""
 DPA:DPA NP1-ORG ; ! ""
 SFOR:SFOR NP1-ORG ; ! ""
@@ -7826,17 +7838,17 @@ AGİT:AGİT NP1-ORG ; ! ""
 ICTY:ICTY NP1-ORG ; ! ""
 EULEX:EULEX NP1-ORG ; ! ""
 VMRO%-DPMNE:VMRO%-DPMNE NP1-ORG ; ! ""
-HDZ:HDZ NP1-ORG ; ! ""
+HDZ:HDZ{ii%} NP1-ORG ; ! ""
 EUFOR:EUFOR NP1-ORG ; ! ""
 VOA:VOA NP1-ORG ; ! ""
 EBRD:EBRD NP1-ORG ; ! ""
-CNN:CNN NP1-ORG ; ! ""
+CNN:CNN{ii%} NP1-ORG ; ! ""
 USAID:USAID NP1-ORG ; ! ""
 PACE:PACE NP1-ORG ; ! "Parliamentary Assembly of the Council of Europe"
 CoE:CoE NP1-ORG ; ! "Council of Europe"
-UDMR:UDMR NP1-ORG ; ! ""
-WTO:WTO NP1-ORG ; ! ""
-EIB:EIB NP1-ORG ; ! ""
+UDMR:UDMR{ii%} NP1-ORG ; ! ""
+WTO:WTO%{o%} NP1-ORG ; ! ""
+EIB:EIB{ii%} NP1-ORG ; ! ""
 JAT:JAT NP1-ORG ; ! ""
 UNDP:UNDP NP1-ORG ; ! ""
 OECD:OECD NP1-ORG ; ! ""
@@ -10287,9 +10299,9 @@ LEXICON Adjectives
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
-
-
-
+kritik:kritik A2 ; ! "critic"
+çaplı:çaplı A4 ; ! "big sized"
+ünlü:ünlü A4 ; ! "important"
 ticari:ticari A4 ; ! "commercial"
 vadeli:vadeli A4 ; ! "deferred"
 tarihli:tarihli A4 ; ! "historical"
