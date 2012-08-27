@@ -27,7 +27,10 @@ LIST Subst = subst ;
 LIST Attr = attr ; 
 LIST Advl = advl ; 
 
+LIST Ant = (np ant);
 LIST Cog = (np cog);
+
+LIST Recip = rec ; 
 
 LIST Ger = ger1 ger2 ger3 ; 
 
@@ -43,19 +46,25 @@ SET WORDMARK = WORD | MARK ;
 
 SET NPNHA = WORDMARK - PRE-N - Adv ;
 
-SECTION 
+
+SECTION
+
+REMOVE V + Recip IF (0 V - Recip) ; 
+    ## Samaras liderliğindeki koalisyon, PASOK ve küçük Demokratik Sol tarafından oluşmasına karşın, ...
 
 REMOVE Cog + Px2Sg IF (0 Cog + Gen) ; 
     ## [0]Cinciç'in anısına Belgrad'da binlerce kişi toplandı.
+
+REMOVE Imper IF (NOT 0C Imper) ;
+    ## Bunlar, bu hafta içinde dünyanın dört bir yanından İtalyan başkentine [0]akın etmiş olan yaklaşık dört milyon hacı ve yaslı kalabalığa katıldı.
+
+SECTION 
 
 REMOVE Cop IF (NOT 1 EOS) ;
     ## Eczanelerde satılan [0]ilaçlar da bu alanda rağbet görüyor.
 
 REMOVE Pron + Nom IF (0 Det) (1C N) ;
     ## Bunlar, [0]bu hafta içinde dünyanın dört bir yanından İtalyan başkentine akın etmiş olan yaklaşık dört milyon hacı ve yaslı kalabalığa katıldı.
-
-REMOVE Imper IF (NOT 0C Imper) ;
-    ## Bunlar, bu hafta içinde dünyanın dört bir yanından İtalyan başkentine [0]akın etmiş olan yaklaşık dört milyon hacı ve yaslı kalabalığa katıldı.
 
 REMOVE Num + Nom IF (1C Num) ; 
     ## Bu araba [0]11,5 milyar avroluk.
@@ -68,3 +77,6 @@ SELECT Adv IF (0 ("en")) (1 A) ;
 
 REMOVE Subst + Nom IF (1* N + Nom BARRIER NPNHA)  ; 
     ## En az 11,5 milyar avroluk ve ...
+
+REMOVE N + Nom IF (0 Attr OR Nom) (1C Nom) ;
+    ## Samaras'ın AB-IMF-ECB troykası tarafından talep edilen ve krizi daha da derinleştiren, ...
