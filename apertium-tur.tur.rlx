@@ -18,10 +18,12 @@ LIST Interj = ij ;
 LIST Post = post ; 
 LIST Cop = cop ; 
 
+LIST Px3Sp = px3sp ; 
 LIST Px2Sg = px2sg ; 
 
 LIST Nom = nom ; 
 LIST Gen = gen ; 
+LIST Abe = abe ; 
 
 LIST Subst = subst ; 
 LIST Attr = attr ; 
@@ -31,6 +33,7 @@ LIST Ant = (np ant);
 LIST Cog = (np cog);
 
 LIST Recip = rec ; 
+LIST Caus = caus ; 
 
 LIST Ger = ger1 ger2 ger3 ; 
 
@@ -49,14 +52,29 @@ SET NPNHA = WORDMARK - PRE-N - Adv ;
 
 SECTION
 
+#
+## Remove productive derivations when there are lexicalised alternatives
+#
+
 REMOVE V + Recip IF (0 V - Recip) ; 
     ## Samaras liderliğindeki koalisyon, PASOK ve küçük Demokratik Sol tarafından oluşmasına karşın, ...
+
+REMOVE V + Caus IF (0 V - Caus) ; 
+    ## ... , yan emekli aylıklarının kaldırılmasını içermesi bekleniyor.
+
+REMOVE N + Abe IF (0 A) ; 
+    ## , yaklaşık 2 milyon kişiyi işsiz bırakan ve ekonomiyi yüzde 7 oranında küçülten tasarruf tedbirlerinin devamı yönündeki ısrarına karşı direniyor.
+
+#
+## Unlikely readings can be discarded, we can write rules to select these in certain contexts.
+#
 
 REMOVE Cog + Px2Sg IF (0 Cog + Gen) ; 
     ## [0]Cinciç'in anısına Belgrad'da binlerce kişi toplandı.
 
 REMOVE Imper IF (NOT 0C Imper) ;
     ## Bunlar, bu hafta içinde dünyanın dört bir yanından İtalyan başkentine [0]akın etmiş olan yaklaşık dört milyon hacı ve yaslı kalabalığa katıldı.
+
 
 SECTION 
 
@@ -80,3 +98,6 @@ REMOVE Subst + Nom IF (1* N + Nom BARRIER NPNHA)  ;
 
 REMOVE N + Nom IF (0 Attr OR Nom) (1C Nom) ;
     ## Samaras'ın AB-IMF-ECB troykası tarafından talep edilen ve krizi daha da derinleştiren, ...
+
+SELECT Attr (0 Nom) (1C Px3Sp + Nom) ; 
+    ## Girit Üniversitesi ekonomi öğretim üyesi ve ...
