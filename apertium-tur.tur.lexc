@@ -2027,6 +2027,7 @@ LEXICON Nouns
 
 !!!NEW!!!
 
+troyka:troyka N1 ; ! ""
 akademisyen:akademisyen N1 ; ! "academician"
 ayaklanma:ayaklanma N1 ; ! "revolt"
 drahmi:drahmi N1 ; ! "drakma"
@@ -2041,7 +2042,6 @@ yargıç:yargıç N1 ; ! "commissioner"
 yerleşim:yerleşim N1 ; ! "settlement"
 yükün:yükün N1 ; ! "gateway"
 zorluk:zorluk%{v%} N1 ; ! "difficulty"
-troyka:troyka N1 ; ! "troika"
 trafik:trafik N1 ; ! "trafik" 
 performans:performans N1 ; ! "performance"
 özerklik:özerklik%{v%} N1 ; ! "sovereignity"
@@ -7899,6 +7899,7 @@ BiH:BiH%{ii%} NP1-TOP ; ! ""
 SSCB:SSCB NP1-TOP ; ! ""
 
 ! Organisations
+Troyka:Troyka NP1-ORG ; ! ""
 ECB:ECB{ii%} NP1-ORG ; ! ""
 SYRIZA:SYRIZA NP1-ORG ; ! ""
 NATO:NATO%{o%} NP1-ORG ; ! ""
@@ -8023,6 +8024,8 @@ Tribune:Tribune NP1-AL ; ! ""
 Interpol:Interpol NP1-ORG ; ! ""
 Microsoft:Microsoft NP1-ORG ; ! ""
 
+Avrupa% ve% Dış% Politika% Vakfı:Avrupa% ve% Dış% Politika% Vakfı NP2-ORG ; ! ""
+Radikal% Sol% Koalisyonu:Radikal% Sol% Koalisyonu NP2-ORG ; ! ""
 Sırp% Ordusu:Sırp% Ordusu NP2-ORG ; ! ""
 Sırbistan% Parlamentosu:Sırbistan% Parlamentosu NP2-ORG ; ! ""
 Avrupa% Parlamentosu:Avrupa% Parlamentosu NP2-ORG ; ! ""
