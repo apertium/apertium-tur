@@ -2024,6 +2024,7 @@ LEXICON Nouns
 
 !!!NEW!!!
 
+patika:patika N1 ; "path"
 Büyükelçilik:Büyükelçilik%{v%} N1 ; ! embassy"
 yurtdış:yurtdış N2 ; ! "abroad"
 bütünleşme:bütünleşme N1 ; ! "consolidation"
@@ -2125,7 +2126,7 @@ yanıt:yanıt N1 ; ! "answer"
 başkanlık:başkanlık%{v%} N1 ; ! "leadership"
 uygulama:uygulama N1 ; ! "application"
 sonuç:sonuç%{v%}  N1 ; ! "result"
-diyalog:diyalog N1 ; ! "dialogue"
+diyalog:diyalog{v%} N1 ; ! "dialogue"
 şart:şart N1 ; ! "condition"
 siyaset:siyaset N1 ; ! "politics"
 dolarlık:dolarlık N1 ; ! "dollar"
@@ -7868,13 +7869,15 @@ GSYİH:GSYİH%{ı%} NP1-ORG ; !
 FT:FT{ii%} NP1-ORG ; ! 
 Telekom:Telekom NP1-ORG ; ! "telecom"
 Gazprom:Gazprom NP1-ORG ; ! ""
+Financial% Times:Financial% Times{ı%} NP1-ORG ; ! ""
 
 Getty% Images:Getty% Images NP1-ORG ; ! ""
 SC:SC%{ii%} NP1-ORG ; ! ""
 The% Times:The% Times NP1-ORG ; ! ""
-STK:STK NP1-ORG ; ! ""
+STK:STK NP1-ORG{ii%} ; ! ""
 
 AKP:AKP{ii%} NP1-ORG ; ! ""
+AP:AP{ii%} NP1-ORG ; ! ""
 VMRO:VMRO NP1-ORG ; ! ""
 DPA:DPA NP1-ORG ; ! ""
 SFOR:SFOR NP1-ORG ; ! ""
@@ -7943,8 +7946,20 @@ GERB:GERB NP1-AL ; ! ""
 SRS:SRS NP1-ORG ; ! "Serbian Radical Party"
 MSK:MSK NP1-ORG ; ! ""
 BDP:BDP NP1-ORG ; ! ""
+Bloomberg:Bloomberg NP1-ORG ; ! ""
+Facebook:Facebook NP1-ORG ; ! ""
+Mediapool:Mediapool NP1-ORG ; ! ""
+The% Guardian:The% Guardian NP1-ORG ; ! ""
+Euronews:Euronews NP1-ORG ; ! ""
+
+
+
 MPA:MPA NP1-AL ; ! ""
 AIDS:AIDS NP1-AL ; ! ""  @?@
+International:International NP1-AL ; ! ""
+News NP1-AL ; ! "" @@@
+Nabucco:Nabucco NP1-AL ; ! ""
+Tribune:Tribune NP1-AL ; ! ""
 
 
 
