@@ -7874,7 +7874,7 @@ Financial% Times:Financial% Times{ı%} NP1-ORG ; ! ""
 Getty% Images:Getty% Images NP1-ORG ; ! ""
 SC:SC%{ii%} NP1-ORG ; ! ""
 The% Times:The% Times NP1-ORG ; ! ""
-STK:STK NP1-ORG{ii%} ; ! ""
+STK:STK{ii%} NP1-ORG ; ! ""
 
 AKP:AKP{ii%} NP1-ORG ; ! ""
 AP:AP{ii%} NP1-ORG ; ! ""
