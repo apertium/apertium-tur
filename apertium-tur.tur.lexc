@@ -1769,6 +1769,7 @@ takdirde:takdirde POST ; ! "in case of"
 boyunca:boyunca POST ; ! "during"
 haline:haline POST ; ! "into"
 uyarınca:uyarınca POST; ! "according to"
+kala:kala POST ; ! "til"
 
 ! Genıtıve
 
@@ -1919,6 +1920,7 @@ nasıl% ki:nasıl% ki CA ;
 ne% var% ki:ne% var% ki CA ; 
 ya% da:ya% da CA ; 
 bundan% dolayı:bundan% dolayı CA ; 
+yoksa:yoksa CA ; 
 
 LEXICON Pronouns
 
@@ -2022,6 +2024,7 @@ LEXICON Nouns
 
 !!!NEW!!!
 
+Büyükelçilik:Büyükelçilik%{v%} N1 ; ! embassy"
 yurtdış:yurtdış N2 ; ! "abroad"
 bütünleşme:bütünleşme N1 ; ! "consolidation"
 doğrultu:doğrultu N1 ; ! "direction"
@@ -2036,6 +2039,8 @@ yatırım:yatırım N1 ; ! "investment"
 sonbahar:sonbahar N1 ; ! "autumn"
 özelleştirme:özelleştirme N1 ; ! " privatization"
 görevli:görevli N1 ; ! "functionary"
+personel:personel N1 ; ! "staff"
+
 
 neden:neden N1 ; ! "reason"
 başsavcı:başsavcı N1 ; ! "general procurator"
@@ -2092,7 +2097,7 @@ soykırım:soykırım N1 ; ! "genocide"
 araç:araç%{v%} N1 ; ! "means"
 zafer:zafer N1 ; ! "triumph"
 şans:şans N1 ; ! "chance"
-Sanat:Sanat N1 ; ! "art"
+sanat:sanat N1 ; ! "art"
 temas:temas N1 ; ! "contact"
 tasarruf:tasarruf N1 ; ! "possession"
 sorumluluk:sorumluluk%{v%} N1 ; ! "commitment"
@@ -2436,6 +2441,10 @@ amca:amca N1 ; ! "uncle"
 amel:amel N1 ; ! "deed"
 amele:amele N1 ; ! "worker"
 Çarşamba:Çarşamba N1 ; ! "wednesday"
+yapı:yapı N1 ; ! "structure"
+döviz:döviz N1 ; ! "currency exchange"
+paket:paket N1 ; ! "package"
+
 
 
 
@@ -7034,7 +7043,7 @@ sermaye:sermaye N1 ; ! "capital"
 
 yükümlülük:yükümlülük%{v%} N1 ; ! "liability"
 üreticisi:üreticisi N1 ; ! "producer"
-yıldönümü:yıldönümü N2 ; ! "anniversary"
+yıldönüm:yıldönüm N2 ; ! "anniversary"
 
 
 
@@ -7063,6 +7072,10 @@ mal% varlığı:mal% varlık N2 ; ! "property"
 su% topu:su% top N2 ; ! "water polo"
 yanı% başı:yanı% baş N2 ; ! "very close"
 yurt% dışı:yurt% dış N2 ; ! "abroad"
+olağanüst:olağanüst N2 ; ! "straordinary"
+demiryol:demiryol N2 ; ! "railway"
+rejim:rejim N1 ; ! "regime"
+zanlı:zanlı N1 ; ! 'culprıt'
 ticaret:ticaret N1 ; !  "commerce"
 toplum:toplum N1 ; ! "society"
 vergi:vergi N1 ; ! "tax"
@@ -7090,6 +7103,7 @@ santral:santral N1 ; ! "operator"
 patlak:patlak N1 ; ! "burst"
 çerçeve:çerçeve N1 ; ! "framework"
 uyarı:uyarı N1 ; ! "advice"
+olimpiyat:olimpiyat N1 ; ! "olympics"
 
 
 ! Here are nouns, forms of which are often classified as 'postpositions'
@@ -7853,6 +7867,7 @@ Olimpiyat:Olimpiyat NP1-ORG ; ! "olympics"
 GSYİH:GSYİH%{ı%} NP1-ORG ; ! 
 FT:FT{ii%} NP1-ORG ; ! 
 Telekom:Telekom NP1-ORG ; ! "telecom"
+Gazprom:Gazprom NP1-ORG ; ! ""
 
 Getty% Images:Getty% Images NP1-ORG ; ! ""
 SC:SC%{ii%} NP1-ORG ; ! ""
@@ -8304,6 +8319,8 @@ Sezgi:Sezgi NP1-ANT-F ; ! ""
 Anna:Anna NP1-ANT-F ; ! ""
 Carla:Carla NP1-ANT-F ; ! ""
 Linda:Linda NP1-ANT-F ; ! ""
+Laura:Laura NP1-ANT-F ; ! ""
+izni:izni NP1-ANT-F ; ! ""	
 
 ! Cognomen
 
@@ -10343,6 +10360,8 @@ LEXICON Adjectives
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
+
+kayıtlı:kayıtlı A4 ; ! "recorded"
 sınırlı:sınırlı A2 ; ! "qualified"
 riyatik:riyatik A2 ; ! "two faced"
 başlıklı:başlıklı A2 ; ! "headed"
@@ -10373,6 +10392,8 @@ zorlu:zorlu A4 ; ! "challenging"
 resmen:resmen A4 ; ! "official"
 istikrarlı:istikrarlı A4 ; ! "stable"
 kurumsal:kurumsal A4 ; ! "institutional"
+yapısal:yapısal A4 ; ! "constitutional"
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -11507,7 +11528,7 @@ kaçınılmaz:kaçınılmaz A4 ;  ! ""
 taşınmaz:taşınmaz A4 ;  ! ""
 vurdumduymaz:vurdumduymaz A4 ;  ! ""
 ahraz:ahraz A4 ;  ! ""
-az:az A3 ;  ! ""
+az:az A1 ;  ! ""
 varyemez:varyemez A4 ;  ! ""
 tükenmez:tükenmez A4 ;  ! ""
 naçiz:naçiz A4 ;  ! ""
@@ -11810,6 +11831,7 @@ zor:zor ADV2 ; ! "hard"
 
 
 acele:acele ADV1 ; ! "fastly"
+çok:çok%{v%} ADV1 ; ! "lot"
 
 
 
@@ -11861,6 +11883,7 @@ gel:gel V-IV-DIR-IR ; ! "come"
 gel:gel V-IV-DIR-IR ; ! "come"
 yayınlan:yayınlan V-IV-DIR-IR ; ! "issue"
 yayınla:yayınla V-TV-T-IR ; ! "publish"
+amaçla:amaçla V-TV-T-IR ; ! "accuse"
 gerçekleş:gerçekleş%{v%} V-IV-DIR-IR ; ! "to materialize"
 aç:aç V-TV-DIR-AR ; ! "open"
 kes:kes V-TV-DIR-AR ; ! "cut"
