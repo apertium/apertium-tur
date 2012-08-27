@@ -602,7 +602,9 @@ LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<abl%>:ndan CLIT-GENERAL ;
 %<prn%>%<dem%>%<loc%>:nda CLIT-GENERAL ;
 %<prn%>%<dem%>%<px%>:nuki%{pN%} CASE ;
-%<prn%>%<dem%>%<loc%>:ndaki ATTR-SUBST ;
+%<prn%>%<dem%>%<loc%>%<attr%>:ndaki ATTR-SUBST ;
+%<prn%>%<dem%>%<com%>:nunla # ;
+
 !bu%<prn%>%<dem%>%<sim%>:мондый CASE ;
 !bu%<prn%>%<dem%>%<sim%>%<px3sp%>:мондые%{n%} CASE ; ! FIXME CHECK мондый%{I%}%{n%} instead?
 !bu%<prn%>%<dem%>%<sim%>%<pl%>:мондыйлар CASE ;
@@ -1781,6 +1783,7 @@ karşı:karşı POST ; ! ""
 rağmen:rağmen POST ; ! ""
 ait:ait POST ; ! ""
 dek:dek POST ; ! "until"
+aykırı:aykırı POST ; ! "against"
 
 ! Ablative
 başka:başka POST ; ! ""
@@ -2019,6 +2022,9 @@ LEXICON Nouns
 
 !!!NEW!!!
 
+yurtdış:yurtdış N2 ; ! "abroad"
+bütünleşme:bütünleşme N1 ; ! "consolidation"
+doğrultu:doğrultu N1 ; ! "direction"
 ithal:ithal N1 ; ! "importation"
 kökenli:kökenli N1 ; ! "origin"
 üstünlük:üstünlük%{v%} N1 ; ! "superiority"
@@ -2029,7 +2035,7 @@ ayrımcılık:ayrımcılık%{v%} N1 ; ! "non-discrimination"
 yatırım:yatırım N1 ; ! "investment"
 sonbahar:sonbahar N1 ; ! "autumn"
 özelleştirme:özelleştirme N1 ; ! " privatization"
-görevli:﻿görevli N1 ; ! "functionary"
+görevli:görevli N1 ; ! "functionary"
 
 neden:neden N1 ; ! "reason"
 başsavcı:başsavcı N1 ; ! "general procurator"
@@ -6739,6 +6745,8 @@ turizm:turizm N1 ; ! "tourism"
 plan:plan N1 ; ! "plan"
 politika:politika N1 ; ! "policy" FIXME: Check
 cep:cep N1 ; ! "pocket"
+şef:şef N1 ; ! "head/boss"
+birara:birara N1 ; ! "moment"
 
 entegrasyon:entegrasyon N1 ; ! "" 
 operasyon:operasyon N1 ; ! "" 
@@ -7019,9 +7027,14 @@ süre:süre N1 ; ! 'tıme perıod'
 yol:yol N1 ; ! 'way'
 hale:hale N1 ; ! '???'
 temel:temel N1 ; ! "base"
-bağımsızlık:bağımsızlık N1 ; ! "indipendence"
+bağımsızlık:bağımsızlık%{v%} N1 ; ! "indipendence"
 cumhuriyet:cumhuriyet N1 ; ! "republic"
+zam:zam N1 ; ! "raise"
+sermaye:sermaye N1 ; ! "capital"
 
+yükümlülük:yükümlülük%{v%} N1 ; ! "liability"
+üreticisi:üreticisi N1 ; ! "producer"
+yıldönümü:yıldönümü N2 ; ! "anniversary"
 
 
 
@@ -7153,6 +7166,8 @@ Habeş:Habeş N1 ; ! "ethiopian"
 Lybialı:Lybialı N1 ; ! "lybian"
 Karadağlı:Karadağlı N1 ; ! "montenegrino"
 Macar:Macar N1 ; ! ""hungarian"
+İslamcı:İslamcı N1 ; ! "islamist"
+Kıbrıslı:Kıbrıslı N1 ; ! "cypriot"
 
 !!!!SPECIAL!!!!
 
@@ -7162,6 +7177,7 @@ km:km N1 ;  ! "km"
 
 LEXICON ProperNouns
 
+Anadolu:Anadolu NP1-TOP ; ! "Anatolia"
 Sırbistan:Sırbistan NP1-TOP ; ! "Serbia"
 Arnavutluk:Arnavutluk NP1-TOP ; ! "Albania"
 Aarhus:Aarhus NP1-TOP ; ! ""
@@ -10327,6 +10343,13 @@ LEXICON Adjectives
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
+sınırlı:sınırlı A2 ; ! "qualified"
+riyatik:riyatik A2 ; ! "two faced"
+başlıklı:başlıklı A2 ; ! "headed"
+uyumlu:uyumlu A2 ; ! "compatible"
+antik:antik A4 ; ! "ancient"
+hukuki:hukuki A2; ! "judicial"
+şüpheli:şüpheli A2 ; ! "suspect"
 beta:beta A2 ; ! "beta"
 kritik:kritik A2 ; ! "critic"
 çaplı:çaplı A4 ; ! "big sized"
@@ -10337,7 +10360,7 @@ tarihli:tarihli A4 ; ! "historical"
 silahlı:silahlı A4 ; ! "armed"
 hakkı:hakkı A4 ; ! "related to right"
 toplumsal:toplumsal A4 ; ! "social"
-kısmı:kısmı A4 ; ! "partial"
+kısmı:kısmı A2 ; ! "partial"
 taraflı:taraflı A4 ; ! "biased"
 geleneksel:geleneksel A4 ; ! "general"
 adil:adil A4 ; ! "rightful"
@@ -11468,7 +11491,7 @@ duru:duru A4 ;  ! ""
 kupkuru:kupkuru A4 ;  ! ""
 kuru:kuru A4 ;  ! ""
 çocuksu:çocuksu A4 ;  ! ""
-kötü:kötü A3 ;  ! ""
+kötü:kötü A1 ;  ! ""
 koyu:koyu A4 ;  ! ""
 yapay:yapay A4 ;  ! ""
 dikey:dikey A4 ;  ! ""
