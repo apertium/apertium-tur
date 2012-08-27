@@ -7,6 +7,8 @@ LIST EOS = (<<<) sent ; # End of sentence
 LIST N = n ; 
 LIST Prop = np ; 
 LIST Pron = prn ; 
+LIST Num = num ; 
+LIST A = adj ; 
 LIST Det = det ; 
 LIST Cop = cop ; 
 
@@ -15,10 +17,19 @@ LIST Px2Sg = px2sg ;
 LIST Nom = nom ; 
 LIST Gen = gen ; 
 
+LIST Subst = subst ; 
+LIST Attr = attr ; 
+LIST Advl = advl ; 
+
 LIST Cog = (np cog);
+
+LIST Ger = ger1 ger2 ger3 ; 
 
 LIST Imper = imp ; 
 
+SET PRE-N = Det | Num | Attr | A | Gen | ("-") ;
+
+SET NOMINAL-HEAD = N | Ger | Subst ; 
 
 SECTION 
 
@@ -34,4 +45,8 @@ REMOVE Pron + Nom IF (0 Det) (1C N) ;
 REMOVE Imper IF (NOT 0C Imper) ;
     ## Bunlar, bu hafta içinde dünyanın dört bir yanından İtalyan başkentine [0]akın etmiş olan yaklaşık dört milyon hacı ve yaslı kalabalığa katıldı.
 
+REMOVE Num + Nom IF (1C Num) ; 
+    ## Bu araba [0]11,5 milyar avroluk.
 
+REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) ; 
+    ## Bu araba 11,5 milyar avroluk.
