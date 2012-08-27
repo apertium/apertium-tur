@@ -1846,7 +1846,7 @@ eğer:eğer CS ;
 şayet:şayet CS ; 
 nedeniyle:nedeniyle CS ; 
 
-nispeten:nispeten ; 
+nispeten:nispeten CA ; 
 adeta:adeta CA ; 
 aksine:aksine CA ; 
 ama:ama CA ; 
