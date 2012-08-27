@@ -791,7 +791,7 @@ LEXICON PERS1-NO3PL
 LEXICON PERS1  !!!USED FOR CONT, FUT, AOR, EVID
 
 %<p3%>%<pl%>:%>l%{A%}r  CLIT ;
-%<p3%>%<pl%>%<frm%>:%>l%{A%}r{D%}%{I%}r   CLIT ;
+%<p3%>%<pl%>%<frm%>:%>l%{A%}r%{D%}%{I%}r   CLIT ;
 PERS1-NO3PL ;
 
 LEXICON PERS2  !!!USED FOR PAST and CONDITIONAL
@@ -840,7 +840,7 @@ LEXICON PERS5  !!!USED FOR negative aorist and abil
 %<p1%>%<sg%>:%>m%{A%}m  CLIT ;
 %<p2%>%<sg%>:%>m%{A%}zs%{I%}n  CLIT ;
 %<p3%>%<sg%>:%>m%{A%}z CLIT ;
-%<p3%>%<frm%>%<sg%>:%>m%{A%}z{D%}%{I%}r  CLIT ;
+%<p3%>%<frm%>%<sg%>:%>m%{A%}z%{D%}%{I%}r  CLIT ;
 %<p1%>%<pl%>:%>m%{A%}y%{I%}z  CLIT ;
 %<p2%>%<pl%>:%>m%{A%}zs%{I%}n%{I%}z  CLIT ;
 %<p3%>%<pl%>:%>m%{A%}zl%{A%}r  CLIT ;
@@ -1209,7 +1209,7 @@ LEXICON FUTURE
 LEXICON FUTURE-PERFECT
 
 %<futp%>:%>%{y%}%{A%}c%{A%}kt%{I%} PERS2-NO3PL ;
-%<futp%>%<p3%>%<pl%>:%>%{y%}%{A%}c{A%}k%>l%{A%}r%>d%{I%}  # ; ! Dir/LR
+%<futp%>%<p3%>%<pl%>:%>%{y%}%{A%}c%{A%}k%>l%{A%}r%>d%{I%}  # ; ! Dir/LR
 
 
 LEXICON FUTURE-EVIDENTIAL
@@ -2034,22 +2034,22 @@ götürü:götürü N1 ; ! "lump sum"
 öfke:öfke N1 ; ! "anger"
 peşin:peşin N1 ; ! "payment in advance"
 risk:risk N1 ; ! "risk"
-seçenek:seçenek{v%} N1 ;  ! "choice"
+seçenek:seçenek%{v%} N1 ;  ! "choice"
 subay:subay N1 ; ! "military officer"
 temdit:temdit N1 ; ! "continuance"
 yargıç:yargıç N1 ; ! "commissioner"
 yerleşim:yerleşim N1 ; ! "settlement"
 yükün:yükün N1 ; ! "gateway"
-zorluk:zorluk{v%} N1 ; ! "difficulty"
+zorluk:zorluk%{v%} N1 ; ! "difficulty"
 troyka:troyka N1 ; ! "troika"
 trafik:trafik N1 ; ! "trafik" 
 performans:performans N1 ; ! "performance"
-özerklik:özerklik{v%} N1 ; ! "sovereignity"
+özerklik:özerklik%{v%} N1 ; ! "sovereignity"
 rüşvet:rüşvet N1 ; ! "bribe"
-emeklilik:emeklilik{v%} N1 ; ! "retirement"
+emeklilik:emeklilik%{v%} N1 ; ! "retirement"
 zemin:zemin N1 ; ! "ground"
 önlem:önlem N1 ; ! "measure"
-varlık:varlık{v%} N1 ; ! "existence, capital"
+varlık:varlık%{v%} N1 ; ! "existence, capital"
 otomobil:otomobil N1 ; ! "car"
 şikayet:şikayet N1 ; ! "complaint"
 sanatçı:sanatçı N1 ; ! "artist"
@@ -2057,8 +2057,8 @@ sanatçı:sanatçı N1 ; ! "artist"
 operatör:operatör N1 ; ! "operator"
 yatırımcı:yatırımcı N1 ; ! "investor"
 onay:onay N1 ; ! "approval"
-danışmanlık:danışmanlık{v%} N1 ; ! "consultancy"
-takip:takip{v%} N1 ; ! "pursuit"
+danışmanlık:danışmanlık%{v%} N1 ; ! "consultancy"
+takip:takip%{v%} N1 ; ! "pursuit"
 tavır:tavır N1 ; ! "attitude"
 ekip:ekip%{v%} N1 ; ! "team"
 yazar:yazar N1 ; ! "author"
@@ -2164,7 +2164,7 @@ yanıt:yanıt N1 ; ! "answer"
 başkanlık:başkanlık%{v%} N1 ; ! "leadership"
 uygulama:uygulama N1 ; ! "application"
 sonuç:sonuç%{v%}  N1 ; ! "result"
-diyalog:diyalog{v%} N1 ; ! "dialogue"
+diyalog:diyalog%{v%} N1 ; ! "dialogue"
 şart:şart N1 ; ! "condition"
 siyaset:siyaset N1 ; ! "politics"
 dolarlık:dolarlık N1 ; ! "dollar"
@@ -2596,7 +2596,7 @@ avlu:avlu N1 ; ! "garden"
 avrat:avrat N1 ; ! "wife"
 avuç:avuç N1 ; ! "palm"
 avukat:avukat N1 ; ! "lawyer"
-ayak:ayak{v%} N1 ; ! "foot"
+ayak:ayak%{v%} N1 ; ! "foot"
 ayakkabı:ayakkabı N1 ; ! "shoe"
 ayar:ayar N1 ; ! "adjustment"
 ay:ay N1 ; ! "moon"
@@ -7146,11 +7146,11 @@ patlak:patlak N1 ; ! "burst"
 uyarı:uyarı N1 ; ! "advice"
 olimpiyat:olimpiyat N1 ; ! "olympics"
 tutum:tutum N1 ; ! "manner"
-eksiklik:eksiklik{v%} N1 ; ! "lack"
-aracılık:aracılık{v%} N1 ; ! "mediation"
+eksiklik:eksiklik%{v%} N1 ; ! "lack"
+aracılık:aracılık%{v%} N1 ; ! "mediation"
 oyuncu:oyuncu N1 ; ! "player"
 havayol:havayol N2 ; ! "airway"
-yoksulluk:yoksulluk{v%} N1 ; ! "need"
+yoksulluk:yoksulluk%{v%} N1 ; ! "need"
 oyun:oyun N1 ; ! "game"
 
 
@@ -7915,13 +7915,13 @@ KFOR:KFOR%{o%}%{b%} NP1-ORG ; ! ""
 BBC:BBC NP1-ORG ; ! ""
 SETimes:SETimes%{ı%} NP1-ORG ; ! ""
 Bild:Bild NP1-ORG ; ! ""
-Times:Times{ı%} NP1-ORG ; ! ""
+Times:Times%{ı%} NP1-ORG ; ! ""
 Olimpiyat:Olimpiyat NP1-ORG ; ! "olympics"
 GSYİH:GSYİH%{ı%} NP1-ORG ; ! 
-FT:FT{ii%} NP1-ORG ; ! 
+FT:FT%{ii%} NP1-ORG ; ! 
 Telekom:Telekom NP1-ORG ; ! "telecom"
 Gazprom:Gazprom NP1-ORG ; ! ""
-Financial% Times:Financial% Times{ı%} NP1-ORG ; ! ""
+Financial% Times:Financial% Times%{ı%} NP1-ORG ; ! ""
 
 Getty% Images:Getty% Images NP1-ORG ; ! ""
 SC:SC%{ii%} NP1-ORG ; ! ""
@@ -12240,7 +12240,7 @@ katet:katet V-TV-DIR-AR ; ! "make"
 katlet:katlet V-TV-DIR-AR ; ! "massacre"
 kavur:kavur V-TV-DIR-IR ; ! "roast"
 kaybet:kaybet V-TV-DIR-AR ; ! "lose"
-kaydet:kaydet{v%} V-TV-DIR-AR ; ! "save"
+kaydet:kaydet%{v%} V-TV-DIR-AR ; ! "save"
 kayır:kayır V-TV-DIR-IR ; ! "show favour"
 kaz:kaz V-TV-DIR-AR ; ! "dig"
 kazan:kazan V-TV-DIR-IR ; ! "win"
