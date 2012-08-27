@@ -134,6 +134,8 @@ Multichar_Symbols
 %{ö%}              ! Front round
 %{ii%}             ! Front unround
 
+%{u%}              ! Harmonising "deletion/insertion vowel"
+
 %{v%}              ! Apply voicing rules
 
 %>
@@ -2994,7 +2996,6 @@ burhan:burhan N1 ; ! "witness"
 büro:büro N1 ; ! "office"
 bürokrasi:bürokrasi N1 ; ! " bureaucracy"
 burs:burs N1 ; ! "scholarship"
-burun:burun N1 ; ! "nose"
 buruşuk:buruşuk N1 ; ! "crease"
 buse:buse N1 ; ! "kiss"
 büst:büst N1 ; ! "sculpture"
@@ -7235,11 +7236,12 @@ Kıbrıslı:Kıbrıslı N1 ; ! "cypriot"
 
 !!!!SPECIAL!!!!
 
-km:km N1 ;  ! "km"
+km:km N1 ;  ! "km" ! FIXME: abbr
 ton:ton N1 ; ! "ton"
 üçlü:üçlü N1 ; ! "triad" 
 
-
+şekil:şek%{u%}l N1 ; ! "shape"
+burun:bur%{u%}n N1 ; ! "nose"
 
 LEXICON ProperNouns
 
@@ -10695,7 +10697,7 @@ resmi:resmi A4 ;  ! "formal, offical"
 kısmi:kısmi A4 ;  ! "partial"
 ruhani:ruhani A4 ;  ! "spiritual"
 ani:ani A4 ;  ! "sudden"
-insani:insani  A4 ;  ! "humanistic"
+insani:insani A4 ;  ! "humanistic"
 hayvani:hayvani A4 ;  ! "brutish"
 dini:dini A4 ;  ! "religous"
 sarı:sarı A2 ;  ! "yellow"

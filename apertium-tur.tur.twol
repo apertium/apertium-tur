@@ -11,7 +11,7 @@ Alphabet
 
  %{n%}:0 %{y%}:0 %{s%}:0 
 
- %{i%}:0 %{a%}:0 
+ %{i%}:0 %{a%}:0 %{u%}:0 
 
  %{f%}:0 %{b%}:0
 
@@ -45,7 +45,7 @@ Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z
          b c ç d f g ğ h j k l m n p q r s ş t v w y z 
          %' %{ç%} %{t%} ;
 
-AbstrVow = %{ii%} %{ö%} %{o%} %{ı%} ; 
+AbstrVow = %{ii%} %{ö%} %{o%} %{ı%} %{u%} ; 
 
 HardVow  = a ı o u 
            A I O U ;
@@ -107,7 +107,7 @@ Rules
 ! PASOK{o}{r}>{n}{I}n = PASOK'un   = P:P A:A S:S O:O K:K {o}:0 {r}:0 ':' >:0 {n}:0 {I}:u n:n
 
 "Vowel {i} surfacing and harmonising"
-%{i%}:Vy <=> [ :LastVowel :Cns* :Cns ] (:0) %>: _ [ %{L%}: | :Cns ]/[ :0 ]  ;
+%{i%}:Vy <=>           [ :LastVowel :Cns* :Cns ] (:0) %>: _ [ %{L%}: | :Cns ]/[ :0 ]  ;
              [ :LastVowel [ :Cns* | %>: ] :Cns ] (:0) %>: _ [ %{L%}: | :Cns ]/[ :0 ]  ; ! oynatırım
         where 
             LastVowel in ( i ü e ö ı u a o )
@@ -120,6 +120,22 @@ Rules
 ! oyna>t>{i}r>{I}m      = oynatırım  =   o:o y:y n:n a:a >:0 t:t >:0 {i}:ı r:r >:0 {I}:ı m:m
 ! et{·}>{i}{L}>{y}{A}n  = edilen     =             e:e t:d {·}:0 >:0 {i}:i {L}:l >:0 {y}:0 {A}:e n:n
 ! yap>{i}{L}>{y}{A}n    = yapılan    =   y:y a:a p:p >:0 {i}:ı {L}:l >:0 {y}:0 {A}:a n:n
+
+"Unepenthesis in stems"
+%{u%}:0 <=> _ [ :Cns :SurVow ]/[ :0 | %>: ] ;
+
+! bur{u}n               = burun      =
+! bur{u}n>{i}m          = burnum     =  
+
+"Vowel {u} nominative epenthesis"
+%{u%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>:] ;
+        where 
+            LastVowel in ( i ü e ö ı u a o )
+                   Vy in ( i ü i ü ı u ı u ) 
+            matched;
+
+! bur{u}n               = burun      =
+! bur{u}n>{i}m          = burnum     =  
 
 "Vowel {a} surfacing and harmonising"
 %{a%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ %>: | :0 | %   ] _ %>: [ :Cns ]/[ :0 ]  ;
