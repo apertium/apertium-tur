@@ -2027,7 +2027,21 @@ LEXICON Nouns
 
 !!!NEW!!!
 
-
+akademisyen:akademisyen N1 ; ! "academician"
+ayaklanma:ayaklanma N1 ; ! "revolt"
+drahmi:drahmi N1 ; ! "drakma"
+götürü:götürü N1 ; ! "lump sum"
+öfke:öfke N1 ; ! "anger"
+peşin:peşin N1 ; ! "payment in advance"
+risk:risk N1 ; ! "risk"
+seçenek:seçenek{v%} N1 ;  ! "choice"
+subay:subay N1 ; ! "military officer"
+temdit:temdit N1 ; ! "continuance"
+yargıç:yargıç N1 ; ! "commissioner"
+yerleşim:yerleşim N1 ; ! "settlement"
+yükün:yükün N1 ; ! "gateway"
+zorluk:zorluk{v%} N1 ; ! "difficulty"
+troyka:troyka N1 ; ! "troika"
 trafik:trafik N1 ; ! "trafik" 
 performans:performans N1 ; ! "performance"
 özerklik:özerklik{v%} N1 ; ! "sovereignity"
@@ -2582,7 +2596,7 @@ avlu:avlu N1 ; ! "garden"
 avrat:avrat N1 ; ! "wife"
 avuç:avuç N1 ; ! "palm"
 avukat:avukat N1 ; ! "lawyer"
-ayak:ayak N1 ; ! "foot"
+ayak:ayak{v%} N1 ; ! "foot"
 ayakkabı:ayakkabı N1 ; ! "shoe"
 ayar:ayar N1 ; ! "adjustment"
 ay:ay N1 ; ! "moon"
@@ -7885,6 +7899,8 @@ BiH:BiH%{ii%} NP1-TOP ; ! ""
 SSCB:SSCB NP1-TOP ; ! ""
 
 ! Organisations
+ECB:ECB{ii%} NP1-ORG ; ! ""
+SYRIZA:SYRIZA NP1-ORG ; ! ""
 NATO:NATO%{o%} NP1-ORG ; ! ""
 PKK:PKK%{ı%} NP1-ORG ; ! ""
 UNMIK:UNMIK NP1-ORG ; ! ""
@@ -7897,7 +7913,8 @@ WHO:WHO%{o%} NP1-ORG ; ! ""
 PASOK:PASOK%{o%}%{p%} NP1-ORG ; ! ""
 KFOR:KFOR%{o%}%{b%} NP1-ORG ; ! ""
 BBC:BBC NP1-ORG ; ! ""
-SETimes:SETimes{ı%} NP1-ORG ; ! ""
+SETimes:SETimes%{ı%} NP1-ORG ; ! ""
+Bild:Bild NP1-ORG ; ! ""
 Times:Times{ı%} NP1-ORG ; ! ""
 Olimpiyat:Olimpiyat NP1-ORG ; ! "olympics"
 GSYİH:GSYİH%{ı%} NP1-ORG ; ! 
@@ -8038,6 +8055,7 @@ G17% Plus:G17% Plus NP1-AL ; ! ""
 
 ! Anthroponyms
 
+Antonis:Antonis NP1-ANT-M ; ! ""
 Olli:Olli NP1-ANT-M ; ! ""
 Stipe:Stipe NP1-ANT-M ; ! ""
 Jaap:Jaap NP1-ANT-M ; ! ""
@@ -8375,6 +8393,9 @@ izni:izni NP1-ANT-F ; ! ""
 
 ! Cognomen
 
+Stathakis:Stathakis NP1-COG-MF ; ! ""
+Tzogopoulos:Tzogopoulos NP1-COG-MF ; ! ""
+Samaras:Samaras NP1-COG-MF ; ! ""
 Kaddafi:Kaddafi NP1-COG-MF ; ! ""
 Grossi:Grossi NP1-COG-MF ; ! ""
 Tyers:Tyers NP1-COG-MF ; ! ""
@@ -10415,6 +10436,7 @@ LEXICON Adjectives
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
+yoksul:yoksul A2 ; ! "poor"
 barışçı:barışçı A2 ; ! "pacifist"
 maddi:maddi A2 ; ! "concrete"
 süreli:süreli A2 ; ! "transitory periodic"
@@ -11938,6 +11960,7 @@ tekrar:tekrar ADV3 ; ! "again"
 LEXICON Verbs 
 
 al:al V-TV-DIR-IR ; ! "take, buy"
+derinleştir:derinleştir V-TV-T-IR ; ! "deepen"
 yap:yap V-TV-DIR-AR ; ! "make, do"
 gel:gel V-IV-DIR-IR ; ! "come"
 gel:gel V-IV-DIR-IR ; ! "come"
