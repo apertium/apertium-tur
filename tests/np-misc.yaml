@@ -9,22 +9,25 @@ Tests:
   "[lexc] Accusative":
     NATO<np><org><acc> : NATO'yu
     PASOK<np><org><acc> : PASOK'u
-    PASOK<np><org><px3sp><nom> : PASOK'u
-    BH<np><top><acc> : BH'yi
+    BH<np><org><acc> : BH'yi
+    Belgrad<np><top><acc> : Belgrad'ı
+  
 
   "[lexc] Dative": 
     NATO<np><org><dat> : NATO'ya
     PASOK<np><org><dat> : PASOK'a
     BH<np><top><dat> : BH'ye
+    Belgrad<np><top><acc> : Belgrad'ı
   
   "[lexc] Locative": 
     NATO<np><org><loc> : NATO'da
     PASOK<np><org><loc> : PASOK'ta
-    BH<np><top><loc> : BH'de
+    BH<np><org><loc> : BH'de
+    Belgrad<np><top><loc> : Belgrad'da    
 
   "[lexc] Ablative": 
     NATO<np><org><abl> : NATO'dan
     PASOK<np><org><abl> : PASOK'tan
     BH<np><top><abl> : BH'den
-  
+    Belgrad<np><top><dat> : Belgrad'dan 
 

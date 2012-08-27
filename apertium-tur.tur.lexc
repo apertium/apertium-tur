@@ -1846,7 +1846,7 @@ eğer:eğer CS ;
 şayet:şayet CS ; 
 nedeniyle:nedeniyle CS ; 
 
-
+nispeten:nispeten ; 
 adeta:adeta CA ; 
 aksine:aksine CA ; 
 ama:ama CA ; 
@@ -2027,6 +2027,22 @@ LEXICON Nouns
 
 !!!NEW!!!
 
+
+trafik:trafik N1 ; ! "trafik" 
+performans:performans N1 ; ! "performance"
+özerklik:özerklik{v%} N1 ; ! "sovereignity"
+rüşvet:rüşvet N1 ; ! "bribe"
+emeklilik:emeklilik{v%} N1 ; ! "retirement"
+zemin:zemin N1 ; ! "ground"
+önlem:önlem N1 ; ! "measure"
+varlık:varlık{v%} N1 ; ! "existence, capital"
+otomobil:otomobil N1 ; ! "car"
+şikayet:şikayet N1 ; ! "complaint"
+sanatçı:sanatçı N1 ; ! "artist"
+ücret:ücret N1 ; ! "price"
+operatör:operatör N1 ; ! "operator"
+yatırımcı:yatırımcı N1 ; ! "investor"
+onay:onay N1 ; ! "approval"
 danışmanlık:danışmanlık{v%} N1 ; ! "consultancy"
 takip:takip{v%} N1 ; ! "pursuit"
 tavır:tavır N1 ; ! "attitude"
@@ -7204,6 +7220,7 @@ Kıbrıslı:Kıbrıslı N1 ; ! "cypriot"
 !!!!SPECIAL!!!!
 
 km:km N1 ;  ! "km"
+ton:ton N1 ; ! "ton"
 üçlü:üçlü N1 ; ! "triad" 
 
 
@@ -10482,6 +10499,8 @@ yasadışı:yasadışı A4 ; ! "illegal"
 budala:budala A2 ;  ! "fool"
 ela:ela A2 ;  ! "haler (colour)"
 kabartma:kabartma A2 ;  ! "raised"
+ortaklaşa:ortaklaşa A3; ! "collectively"
+hidroelektrik:hidroelektrik A4 ; ! "hydroelectric"
 fena:fena A3 ;  ! "evil, bad, foul"
 bedava:bedava A3 ;  ! "free"
 utangaç:utangaç A4 ;  ! "embarrassed"
