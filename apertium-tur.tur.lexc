@@ -641,6 +641,7 @@ ne:ne PRON-ITG-INFL ; ! "what"
 neyi:neyi PRON-ITG-INFL ; ! "what"
 niye:niye PRON-ITG-INFL ; ! "what"
 kim:kim PRON-ITG-INFL ; ! "who"
+hangi:hangi PRON-ITG-INFL ; ! "which"
 
 nere:nere PRON-ITG-NERE ; ! ""
 
@@ -2025,6 +2026,7 @@ LEXICON Nouns
 
 !!!NEW!!!
 
+yazar:yazar N1 ; ! "author"
 patika:patika N1 ; ! "path"
 Büyükelçilik:Büyükelçilik%{v%} N1 ; ! embassy"
 yurtdış:yurtdış N2 ; ! "abroad"
@@ -7042,6 +7044,8 @@ bağımsızlık:bağımsızlık%{v%} N1 ; ! "indipendence"
 cumhuriyet:cumhuriyet N1 ; ! "republic"
 zam:zam N1 ; ! "raise"
 sermaye:sermaye N1 ; ! "capital"
+öneri:öneri N1 ; ! "offer"
+üste:üste N1 ; ! "???" @@@
 
 yükümlülük:yükümlülük%{v%} N1 ; ! "liability"
 üreticisi:üreticisi N1 ; ! "producer"
@@ -7106,6 +7110,12 @@ patlak:patlak N1 ; ! "burst"
 çerçeve:çerçeve N1 ; ! "framework"
 uyarı:uyarı N1 ; ! "advice"
 olimpiyat:olimpiyat N1 ; ! "olympics"
+tutum:tutum N1 ; ! "manner"
+eksiklik:eksiklik{v%} N1 ; ! "lack"
+aracılık:aracılık{v%} N1 ; ! "mediation"
+oyuncu:oyuncu N1 ; ! "player"
+havayol:havayol N2 ; ! "airway"
+yoksulluk:yoksulluk{v%} N1 ; ! "need"
 
 
 ! Here are nouns, forms of which are often classified as 'postpositions'
@@ -7121,6 +7131,7 @@ taraf:taraf N4 ; ! ""
 sonra:sonra N4 ; ! ""
 üst:üst N4 ; ! ""
 üzer:üzer N4 ; ! ""
+karşı:karşı ; ! "front"
 
 
 etraf:etraf N4 ; ! ""
@@ -8166,6 +8177,7 @@ Klaus:Klaus NP1-ANT-M ; ! ""
 Kofi:Kofi NP1-ANT-M ; ! ""
 Konstantin:Konstantin NP1-ANT-M ; ! ""
 Kukes:Kukes NP1-ANT-M ; ! ""
+Taci:Taci NP1-ANT-M ; ! ""
 Lamberto:Lamberto NP1-ANT-M ; ! ""
 Lazar:Lazar NP1-ANT-M ; ! ""
 Lech:Lech NP1-ANT-M ; ! ""
@@ -8341,7 +8353,7 @@ izni:izni NP1-ANT-F ; ! ""
 
 ! Cognomen
 
-
+Kaddafi:Kaddafi NP1-COG-MF ; ! ""
 Grossi:Grossi NP1-COG-MF ; ! ""
 Tyers:Tyers NP1-COG-MF ; ! ""
 Salimzyanov:Salimzyanov NP1-COG-MF ; ! ""
@@ -8433,7 +8445,6 @@ Winterstein:Winterstein NP1-COG-MF ; ! ""
 Wolfenstein:Wolfenstein NP1-COG-MF ; ! ""
 
 Tayyip:Tayyip NP1-ANT-M ; ! ""
-Ağustos:Ağustos NP1-ANT-M ; ! ""
 Rehn:Rehn NP1-COG-MF ; ! ""
 Kostunica:Kostunica NP1-COG-MF ; ! ""
 del% Ponte:del% Ponte NP1-COG-MF ; ! ""
@@ -10374,6 +10385,8 @@ Jolevski:Jolevski NP1-COG-MF ; ! ""
 Stavrevski:Stavrevski NP1-COG-MF ; ! ""
 Manevski:Manevski NP1-COG-MF ; ! ""
 Prçevski:Prçevski NP1-COG-MF ; ! ""
+Rama:Rama NP1-COG-MF ; ! ""
+Blerta NP1-COG-MF ; ! ""
 
 LEXICON Adjectives
 
@@ -12102,6 +12115,7 @@ dik:dik V-TV-DIR-AR ; ! "sew"
 dil:dil V-TV-DIR-AR ; ! "slice"
 diz:diz V-TV-DIR-AR ; ! "align"
 dök:dök V-TV-DIR-AR ; ! "pour"
+açıklan:açıklan V-TV-DIR-IR ; ! "make open"
 dolaş:dolaş V-TV-DIR-IR ; ! "walk around"
 döv:döv V-TV-DIR-AR ; ! "hit"
 doyur:doyur V-TV-DIR-IR ; ! "feed"
