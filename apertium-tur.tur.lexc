@@ -1766,6 +1766,7 @@ halinde:halinde POST ; ! "ın case of"
 takdirde:takdirde POST ; ! "in case of" 
 boyunca:boyunca POST ; ! "during"
 haline:haline POST ; ! "into"
+uyarınca:uyarınca POST; ! "according to"
 
 ! Genıtıve
 
@@ -1934,6 +1935,9 @@ hiçbir% şey:hiç% birşey PRON-NEG ; ! "nothing" ! Dir/LR
 hiçbir% şey:hiçbir% şey PRON-NEG ; ! "nothing"
 hiç% kimse:hiç% kimse PRON-NEG ; ! "nobody"
 herkes:herkes PRON-QNT ; ! "everybody"
+kimse:kimse PRON-QNT ; ! "nobody"
+birisi:birisi PRON-QNT ; ! "somebody"
+bazıları:bazıları PRON-QNT ; ! "some of them"
 
 öz:öz PRON-REF ; ! "self"
 kendi:kendi PRON-REF ; ! "self"
@@ -1997,7 +2001,7 @@ bir:bir NUM ; ! "one"
 iki:İki NUM ; ! "two" ! Dir/LR
 iki:iki NUM ; ! "two"
 üç:üç NUM ; ! "three"
-dört:dört NUM ; ! "four"
+dört:dört%{v%} NUM ; ! "four"
 beş:beş NUM ; ! "five"
 altı:altı NUM ; ! "six"
 yedi:yedi NUM ; ! "seven"
@@ -2025,6 +2029,7 @@ ayrımcılık:ayrımcılık%{v%} N1 ; ! "non-discrimination"
 yatırım:yatırım N1 ; ! "investment"
 sonbahar:sonbahar N1 ; ! "autumn"
 özelleştirme:özelleştirme N1 ; ! " privatization"
+görevli:﻿görevli N1 ; ! "functionary"
 
 neden:neden N1 ; ! "reason"
 başsavcı:başsavcı N1 ; ! "general procurator"
@@ -6733,6 +6738,7 @@ proje:proje N1 ; ! "project"
 turizm:turizm N1 ; ! "tourism"
 plan:plan N1 ; ! "plan"
 politika:politika N1 ; ! "policy" FIXME: Check
+cep:cep N1 ; ! "pocket"
 
 entegrasyon:entegrasyon N1 ; ! "" 
 operasyon:operasyon N1 ; ! "" 
@@ -7146,6 +7152,11 @@ Slav:Slav N1 ; ! "slavic"
 Habeş:Habeş N1 ; ! "ethiopian"
 Lybialı:Lybialı N1 ; ! "lybian"
 Karadağlı:Karadağlı N1 ; ! "montenegrino"
+Macar:Macar N1 ; ! ""hungarian"
+
+!!!!SPECIAL!!!!
+
+km:km N1 ;  ! "km"
 
 
 
@@ -7825,6 +7836,7 @@ Times:Times{ı%} NP1-ORG ; ! ""
 Olimpiyat:Olimpiyat NP1-ORG ; ! "olympics"
 GSYİH:GSYİH%{ı%} NP1-ORG ; ! 
 FT:FT{ii%} NP1-ORG ; ! 
+Telekom:Telekom NP1-ORG ; ! "telecom"
 
 Getty% Images:Getty% Images NP1-ORG ; ! ""
 SC:SC%{ii%} NP1-ORG ; ! ""
@@ -7924,6 +7936,7 @@ Sosyalist% Partisi:Sosyalist% Partisi NP2-ORG ; ! ""
 Demokrat% Parti:Demokrat% Parti NP1-ORG ; ! ""
 Demokrat% Partisi:Demokrat% Partisi NP2-ORG ; ! ""
 Sosyalist% Enternasyonel:Sosyalist% Enternasyonel NP1-ORG ; ! ""
+Beta:Beta NP1-ORG ; ! ""
 
 ! Other
 Southeast% European% Times:Southeast% European% Times NP1-AL ; ! ""
@@ -8258,6 +8271,7 @@ William:William NP1-ANT-M ; ! ""
 Wolfgang:Wolfgang NP1-ANT-M ; ! ""
 Yiannis:Yiannis NP1-ANT-M ; ! ""
 Yves:Yves NP1-ANT-M ; ! ""
+Yorgo:Yorgo NP1-ANT-M ; ! ""
 Zdravko:Zdravko NP1-ANT-M ; ! ""
 Zeljko:Zeljko NP1-ANT-M ; ! ""
 Zlatan:Zlatan NP1-ANT-M ; ! ""
@@ -8273,6 +8287,7 @@ Martti:Martti NP1-ANT-M ; ! ""
 Sezgi:Sezgi NP1-ANT-F ; ! ""
 Anna:Anna NP1-ANT-F ; ! ""
 Carla:Carla NP1-ANT-F ; ! ""
+Linda:Linda NP1-ANT-F ; ! ""
 
 ! Cognomen
 
@@ -9458,6 +9473,9 @@ Zukorliç:Zukorliç NP1-COG-MF ; ! ""
 Zuvaniç:Zuvaniç NP1-COG-MF ; ! ""
 
 
+Haşim:Haşim NP1-COG-MF ; ! ""
+
+
 
 Aartsen:Aartsen NP1-COG-MF ; ! ""
 Andersen:Andersen NP1-COG-MF ; ! ""
@@ -10309,6 +10327,7 @@ LEXICON Adjectives
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
+beta:beta A2 ; ! "beta"
 kritik:kritik A2 ; ! "critic"
 çaplı:çaplı A4 ; ! "big sized"
 ünlü:ünlü A4 ; ! "important"
@@ -10624,7 +10643,10 @@ oval:oval A4 ;  ! "elliptical"
 güncel:güncel A4 ;  ! "current"
 paralel:paralel A2 ;  ! "paralel"
 beynelmilel:beynelmilel A4 ;  ! "international"
-genel:genel A4 ;  ! "general"
+genel:genel A2 ;  ! "general"
+özgür:özgür A4 ; ! "free"
+normal:normal A3 ; ! "normal"
+ayrıntılı:ayrıntılı A4 ; ! "elaborate"
 fonksiyonel:fonksiyonel A4 ;  ! "functional"
 rasyonel:rasyonel A4 ;  ! "rationale"
 nesnel:nesnel A4 ;  ! "objective"
@@ -10813,7 +10835,7 @@ harika:harika A4 ;  ! ""
 sıska:sıska A4 ;  ! ""
 ala:ala A2 ;  ! ""
 ukala:ukala A4 ;  ! ""
-fazla:fazla A3 ;  ! ""
+fazla:fazla A1 ;  ! ""
 mülemma:mülemma A2 ;  ! ""
 yosma:yosma A4 ;  ! ""
 müstesna:müstesna A3 ;  ! ""
@@ -11962,6 +11984,7 @@ bat:bat V-TV-DIR-AR ; ! "sink, go bankrupt"
 becer:becer V-TV-DIR-IR ; ! "accomplish"
 beğen:beğen V-TV-DIR-IR ; ! "like, advire"
 belir:belir V-TV-T-IR ; ! "appear"
+belirt:belirt V-TV-DIR-IR ; ! "make appear"﻿
 artır:artır V-TV-T-IR ; ! "help"
 
 biç:biç V-TV-DIR-AR ; ! "decorate"
