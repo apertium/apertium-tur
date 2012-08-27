@@ -7913,9 +7913,9 @@ WHO:WHO%{o%} NP1-ORG ; ! ""
 PASOK:PASOK%{o%}%{p%} NP1-ORG ; ! ""
 KFOR:KFOR%{o%}%{b%} NP1-ORG ; ! ""
 BBC:BBC NP1-ORG ; ! ""
-SETimes:SETimes%{ı%} NP1-ORG ; ! ""
+SETimes:SETimes%{ı%}%{b%} NP1-ORG ; ! ""
 Bild:Bild NP1-ORG ; ! ""
-Times:Times%{ı%} NP1-ORG ; ! ""
+Times:Times%{ı%}%{b%} NP1-ORG ; ! ""
 Olimpiyat:Olimpiyat NP1-ORG ; ! "olympics"
 GSYİH:GSYİH%{ı%} NP1-ORG ; ! 
 FT:FT%{ii%} NP1-ORG ; ! 

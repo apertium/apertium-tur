@@ -17,10 +17,8 @@ Alphabet
 
  %{e%}:e
 
- %{o%}:0 %{ö%}:0 %{ı%}:0 %{p%}:0 %{b%}:0 ! For numerals and abbreviations / acronyms
+ %{ii%}:0 %{o%}:0 %{ö%}:0 %{ı%}:0 %{p%}:0 %{b%}:0 ! For numerals and abbreviations / acronyms
  
- %{ii%}:0
-
  %{pN%}:0
 
  %{v%}:0 ! Voicing
@@ -139,7 +137,7 @@ Rules
 %{A%}:e <=> [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
             [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
        except
-             [ %{ii%}:0 | %{ö%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
+             [ %{ii%}:0 | %{ö%}:0 | %{ı%}:0 | %{o%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
 
 "Underlying vowel harmony for archiphoneme {A}"
 %{A%}:e <=> [ %{ii%}:0 | %{ö%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
@@ -148,14 +146,14 @@ Rules
              [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
              [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
 
-! ev>l{A}r          = evler     =     e:e v:v >:0 l:l {A}:e r:r
-! saat{f}>l{A}r     = saatler   =     s:s a:a a:a t:t {f}:0 >:0 l:l {A}:e r:r
-! saat{f}>{y}{A}    = saate     =     s:s a:a a:a t:t {f}:0 >:0 {y}:0 {A}:e
-! eve>{y}{A}        = eve       =     e:e v:v >:0 {y}:0 {A}:e
-! kitab>y{A}        = kitaba    =     k:k i:i t:t a:a p:b >:0 {y}:0 {A}:a
-! 4{ö}{p}'>{y}{A}   = 4'e       =       4:4 {ö}:0 {p}:0 ':' >:0 {y}:0 {A}:e
-! ol>m{A}k          = olmak     =     o:o l:l >:0 {A}:a k:k
-
+! ev>l{A}r              = evler     =     e:e v:v >:0 l:l {A}:e r:r
+! saat{f}>l{A}r         = saatler   =     s:s a:a a:a t:t {f}:0 >:0 l:l {A}:e r:r
+! saat{f}>{y}{A}        = saate     =     s:s a:a a:a t:t {f}:0 >:0 {y}:0 {A}:e
+! eve>{y}{A}            = eve       =     e:e v:v >:0 {y}:0 {A}:e
+! kitab>y{A}            = kitaba    =     k:k i:i t:t a:a p:b >:0 {y}:0 {A}:a
+! 4{ö}{p}'>{y}{A}       = 4'e       =       4:4 {ö}:0 {p}:0 ':' >:0 {y}:0 {A}:e
+! ol>m{A}k              = olmak     =     o:o l:l >:0 {A}:a k:k
+! SETimes{ı}{b}'>{y}{A} = SETimes'a =     S:S E:E T:T i:i m:m e:e s:s {ı}:0 {b}:0 ':' >:0 {y}:0 {A}:a
 
 "Consonant voicing in verb stems"
 Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
