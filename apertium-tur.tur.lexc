@@ -1774,6 +1774,7 @@ kala:kala POST ; ! "til"
 ! Genıtıve
 
 ardından:ardından POST ; ! ""
+aleyhinde:aleyhinde POST ; ! "against" @@@ALSO NOM
 
 
 ! Dative
@@ -7187,6 +7188,7 @@ Kıbrıslı:Kıbrıslı N1 ; ! "cypriot"
 !!!!SPECIAL!!!!
 
 km:km N1 ;  ! "km"
+üçlü:üçlü N1 ; ! "triad" 
 
 
 
@@ -8346,6 +8348,8 @@ Salimzyanov:Salimzyanov NP1-COG-MF ; ! ""
 Washington:Washington NP1-COG-MF ; ! ""
 Erdoğan:Erdoğan NP1-COG-MF ; ! ""
 Rice:Rice NP1-COG-MF ; ! ""
+Taçi:Taçi NP1-COG-MF ; ! ""
+Ciocoiu:Ciocoiu NP1-COG-MF ; ! ""
 Schilling:Schilling NP1-COG-MF ; ! ""
 Rohan:Rohan NP1-COG-MF ; ! ""
 Barroso:Barroso NP1-COG-MF ; ! ""
@@ -10375,7 +10379,9 @@ LEXICON Adjectives
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
-
+maddi:maddi A2 ; ! "concrete"
+süreli:süreli A2 ; ! "transitory periodic"
+bağlantılı:bağlantılı A2 ; ! " connected"
 kayıtlı:kayıtlı A4 ; ! "recorded"
 sınırlı:sınırlı A2 ; ! "qualified"
 riyatik:riyatik A2 ; ! "two faced"
