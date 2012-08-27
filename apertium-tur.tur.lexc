@@ -1946,6 +1946,7 @@ kimse:kimse PRON-QNT ; ! "nobody"
 birisi:birisi PRON-QNT ; ! "somebody"
 bazıları:bazıları PRON-QNT ; ! "some of them"
 
+birbirine:birbirine PRON-REF ; ! "each other" @@@@ CHeCK
 öz:öz PRON-REF ; ! "self"
 kendi:kendi PRON-REF ; ! "self"
 
@@ -2026,6 +2027,10 @@ LEXICON Nouns
 
 !!!NEW!!!
 
+danışmanlık:danışmanlık{v%} N1 ; ! "consultancy"
+takip:takip{v%} N1 ; ! "pursuit"
+tavır:tavır N1 ; ! "attitude"
+ekip:ekip%{v%} N1 ; ! "team"
 yazar:yazar N1 ; ! "author"
 patika:patika N1 ; ! "path"
 Büyükelçilik:Büyükelçilik%{v%} N1 ; ! embassy"
@@ -7116,6 +7121,7 @@ aracılık:aracılık{v%} N1 ; ! "mediation"
 oyuncu:oyuncu N1 ; ! "player"
 havayol:havayol N2 ; ! "airway"
 yoksulluk:yoksulluk{v%} N1 ; ! "need"
+oyun:oyun N1 ; ! "game"
 
 
 ! Here are nouns, forms of which are often classified as 'postpositions'
@@ -7131,11 +7137,10 @@ taraf:taraf N4 ; ! ""
 sonra:sonra N4 ; ! ""
 üst:üst N4 ; ! ""
 üzer:üzer N4 ; ! ""
-karşı:karşı ; ! "front"
+karşı:karşı N4 ; ! "front"
 
 
 etraf:etraf N4 ; ! ""
-karş:karş N4 ; ! ""
 ön:ön N4 ; !
 yön:yön N4 ; ! "on"
 
@@ -8444,6 +8449,7 @@ Bartenstein:Bartenstein NP1-COG-MF ; ! ""
 Winterstein:Winterstein NP1-COG-MF ; ! ""
 Wolfenstein:Wolfenstein NP1-COG-MF ; ! ""
 
+İbrahim:İbrahim NP1-ANT-M  ; ! ""
 Tayyip:Tayyip NP1-ANT-M ; ! ""
 Rehn:Rehn NP1-COG-MF ; ! ""
 Kostunica:Kostunica NP1-COG-MF ; ! ""
@@ -10392,6 +10398,7 @@ LEXICON Adjectives
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
+barışçı:barışçı A2 ; ! "pacifist"
 maddi:maddi A2 ; ! "concrete"
 süreli:süreli A2 ; ! "transitory periodic"
 bağlantılı:bağlantılı A2 ; ! " connected"
