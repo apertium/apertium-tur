@@ -11878,7 +11878,8 @@ metazori:metazori ADV3 ; ! "compulsory"
 muhtemelen:muhtemelen ADV3 ; ! "magnificently"
 münferiden:münferiden ADV3 ; ! "solely"
 
-öte:öte ADV1 ; ! "the other"
+aksi% takdirde:aksi% takdirde ADV3 ; ! "otherwise" ! Use/MT
+öte:öte ADV1 ; ! "the other" @@@ß
 akıllıca:akıllıca  ADV2 ; ! "smartly"
 amiyane:amiyane  ADV2 ; ! vulgarly
 apaçık:apaçık  ADV2 ; ! "obviously"
