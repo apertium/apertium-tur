@@ -2019,11 +2019,14 @@ bin:bin NUM ; ! "thousand"
 milyon:milyon NUM ; ! "million"
 milyar:milyar NUM ; ! "milliard"
 bilyon:bilyon NUM ; ! "billion"
+trilyon:trilyon NUM ; ! "trillion"
+katrilyon:katrilyon NUM ; ! ""
 
 LEXICON Nouns
 
 !!!NEW!!!
 
+tüketici:tüketici N1 ; ! "consumer"
 ek:ek%{v%} N1 ; ! Dir/LR
 ek:ek N1 ; ! ""
 troyka:troyka N1 ; ! ""
@@ -2239,6 +2242,7 @@ ortaklık:ortaklık%{v%} N1 ; ! "assocıatıon"
 teslim:teslim N1 ; ! "delivery"
 avro:avro N1 ; ! "euro"
 avroluk:avroluk%{v%} N1 ; ! "euro"
+liralık:liralık%{v%} N1 ;  ! ""
 hektarlık:hektarlık%{v%} N1 ; ! 'hectar'
 demeç:demeç N1 ; ! "statement"
 İstikrar:İstikrar N1 ; ! "stabılıty"
@@ -2485,7 +2489,7 @@ amele:amele N1 ; ! "worker"
 yapı:yapı N1 ; ! "structure"
 döviz:döviz N1 ; ! "currency exchange"
 paket:paket N1 ; ! "package"
-
+arkadaş:arkadaş%{v%} N1 ; ! "friend""
 
 
 
@@ -7197,8 +7201,10 @@ piyasa:piyasa N1 ; ! "piazza" as in the market
 pratik:pratik N1 ; ! "practice"
 haftalık:haftalık%{v%} N1 ; ! "week"
 yolcu:yolcu N1 ; ! "passenger"
-
-
+sene:sene N1 ; ! "year"
+pilot:pilot N1 ; ! "pilot""
+yorum:yorum N1 ; ! "interpretation"
+pay:pay N1 ; ! "share"
 
 
 ! Here are nouns, forms of which are often classified as 'postpositions'
@@ -8105,7 +8111,10 @@ Beta:Beta NP1-ORG ; ! ""
 Makfax:Makfax NP1-ORG ; ! ''
 Echo:Echo NP1-ORG ; ! ""
 Deutsche% Bank:Deutsche% Bank NP1-ORG ; ! ""
-
+Renault:Renault NP1-ORG ; ! ""
+MHP:MHP%{ii%}  NP1-ORG ; ! ""
+Ford:Ford NP1-ORG ; ! ""
+CNBC:CNBC%{ii%} NP1-ORG ; !! ""
 
 ! Other
 Southeast% European% Times:Southeast% European% Times NP1-AL ; ! ""
@@ -8481,6 +8490,9 @@ Jadranka:Jadranka NP1-ANT-F ; ! ""
 
 ! Cognomen
 
+Sabancı:Sabancı NP1-COG-MF ; ! ""
+Atatürk:Atatürk NP1-COG-MF ; ! ""
+Schumacher:Schumacher NP1-COG-MF ; ! ""
 Ashton:Ashton NP1-COG-MF ; ! ""
 Frattini:Frattini NP1-COG-MF ; ! ""
 Verheugen:Verheugen NP1-COG-MF ; ! ""
@@ -8603,7 +8615,7 @@ Berişa:Berişa NP1-COG-MF ; ! ""
 Ahtisaari:Ahtisaari NP1-COG-MF ; ! ""
 Gotovina:Gotovina NP1-COG-MF ; ! ""
 Tariceanu:Tariceanu NP1-COG-MF ; ! ""
-
+Bülent:Bülent NP1-COG-MF ;  ! ""
 Basescu:Basescu NP1-COG-MF ; ! ""
 Popescu:Popescu NP1-COG-MF ; ! ""
 Basescu:Basescu NP1-COG-MF ; ! ""
@@ -8700,6 +8712,7 @@ Basescu:Basescu NP1-COG-MF ; ! ""
 Babescu:Babescu NP1-COG-MF ; ! ""
 Artopolescu:Artopolescu NP1-COG-MF ; ! ""
 Andreescu:Andreescu NP1-COG-MF ; ! ""
+Özilhan:Özilhan NP1-COG-MF ; ! ""
 
 Stanişev:Stanişev NP1-COG-MF ; ! ""
 
@@ -8748,6 +8761,7 @@ Cuceviç:Cuceviç NP1-COG-MF ; ! ""
 Curceviç:Curceviç NP1-COG-MF ; ! ""
 Deleviç:Deleviç NP1-COG-MF ; ! ""
 Dervişeviç:Dervişeviç NP1-COG-MF ; ! ""
+Derviş:Derviş NP1-COG-MF ; ! ""
 Deviç:Deviç NP1-COG-MF ; ! ""
 Dimitriyeviç:Dimitrijeviç NP1-COG-MF ; ! "" ! Dir/LR
 Dimitriyeviç:Dimitriyeviç NP1-COG-MF ; ! ""
@@ -10534,11 +10548,18 @@ Manevski:Manevski NP1-COG-MF ; ! ""
 Prçevski:Prçevski NP1-COG-MF ; ! ""
 Rama:Rama NP1-COG-MF ; ! ""
 Blerta NP1-COG-MF ; ! ""
+Ecevit:Ecevit NP1-COG-MF ; ! ""
+Hisarcıklıoğlu:Hisarcıklıoğlu NP1-COG-MF ;  ! ""
 
 LEXICON Adjectives
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
+otomotiv:otomotiv A2 ; ! "automotive"
+sağlıklı:sağlıklı A4 ; ! "healthy"
+sayılı:sayılı A4 ; ! "limited"
+itibari:itibari A2 ; ! "titular"
+lazım:lazım A4 ; ! 'necessary'
 diğer:diğer A2 ; ! "the other"
 yoksul:yoksul A2 ; ! "poor"
 barışçı:barışçı A2 ; ! "pacifist"
@@ -11749,9 +11770,13 @@ yüzsüz:yüzsüz A4 ;  ! ""
 komutа:komutа A4 ;  ! ""
 gereken:gereken A4 ;  ! ""
 kısa:kısa A1 ; ! "short"
+değerli:değerli A1 ; ! "different"
+
 
 LEXICON Adverbs 
 
+
+mutlaka:mutlaka ADV3 ; ! "certainly"
 şeklinde:şeklinde ADV3 ; ! "in that way"
 acilen:acilen ADV3 ; ! "promtply"
 yeterince:yeterince ADV3 ; ! "enough"
@@ -11927,7 +11952,7 @@ hepten:hepten ADV3 ; ! "completely"
 herhalde:herhalde ADV3 ; ! "in any case"
 hiç:hiç ADV3 ; ! "none"
 hükmen:hükmen ADV3 ; ! "de jure"
-içeri:içeri ADV3 ; ! "indoor"
+içeri:içeri ADV1 ; ! "indoor"
 ihtiyaten:ihtiyaten ADV3 ; ! "as precaution"
 ikindileri:ikindileri ADV3 ; !" in the afternoons"
 ikindiyin:ikindiyin ADV3 ; ! "at afternoon"
