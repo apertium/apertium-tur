@@ -1988,7 +1988,6 @@ tüm:tüm DET-DEM ; ! "the whole"
 aynı:aynı DET-DEM ; ! "the same"
 öteki:öteki DET-DEM ; ! "the other"
 öbür:öbür DET-DEM ; !  "the other"
-diğer:diğer DET-DEM ; ! "the other"
 tek:tek DET-IND ; ! "a" 
 herhangi:herhangi DET-IND ; ! "any"
 herhangi% bir:herhangi% bir DET-IND ; ! "anyone"
@@ -2218,8 +2217,10 @@ Nisan:Nisan N5 ; ! "April"
 Mayıs:Mayıs N5 ; ! "May"
 Haziran:Haziran N5 ; ! "June"
 Temmuz:Temmuz N5 ; ! "July"
+Ağustos:Ağustos N5 ; ! "august"
 Eylül:Eylül N5 ; ! "September"
 Ekim:Ekim N5 ; ! "October"
+Kasım:Kasım N5 ; ! "November"
 Aralık:Aralık%{v%} N5 ; ! "December"
 
 
@@ -2238,6 +2239,7 @@ ortaklık:ortaklık%{v%} N1 ; ! "assocıatıon"
 teslim:teslim N1 ; ! "delivery"
 avro:avro N1 ; ! "euro"
 avroluk:avroluk%{v%} N1 ; ! "euro"
+hektarlık:hektarlık%{v%} N1 ; ! 'hectar'
 demeç:demeç N1 ; ! "statement"
 İstikrar:İstikrar N1 ; ! "stabılıty"
 yargı:yargı N1 ; ! "justıce or judgement"
@@ -6781,7 +6783,7 @@ statü:statü N1 ; ! "status" ! FIXME: Check
 boykot:boykot N1 ; ! "boycot"
 program:program N1 ; ! "program"
 sistem:sistem N1 ; ! "system"
-festival:festival N1 ; ! "festival"
+festival:festival%{f%} N1 ; ! "festival"
 televizyon:televizyon N1 ; ! "television"
 üniversite:üniversite N1 ; ! "university"
 referandum:referandum N1 ; ! "referendum"
@@ -7079,6 +7081,21 @@ zam:zam N1 ; ! "raise"
 sermaye:sermaye N1 ; ! "capital"
 öneri:öneri N1 ; ! "offer"
 üste:üste N1 ; ! "???" @@@
+recep:recep N1 ; ! "holy month" =@@@??
+ilişki:ilişki N1 ; ! "relation"
+yangın:yangın N1 ; ! "fire"
+orman:orman N1 ; ! "woods"
+uçak:uçak N1 ; ! "plane"
+işletme:işletme N1 ; ! "management"
+işletme:İşletme N1 ; ! "management"
+ormanlık:ormanlık%{v%} N1 ; ! "woods"
+kızılçam:kızılçam N1 ; ! "red pine"
+belde:belde N1 ; ! "town" 
+arazöz:arazöz N1 ; ! "sprinkler"
+müdürlük:müdürlük%{v%} N1 ; ! "direction"
+mezarlık:mezarlık%{v%} N1 ; ! "cemetery"
+mazı:mazı N1 ; ! "oak gall"
+
 
 yükümlülük:yükümlülük%{v%} N1 ; ! "liability"
 üreticisi:üreticisi N1 ; ! "producer"
@@ -7150,9 +7167,42 @@ oyuncu:oyuncu N1 ; ! "player"
 havayol:havayol N2 ; ! "airway"
 yoksulluk:yoksulluk%{v%} N1 ; ! "need"
 oyun:oyun N1 ; ! "game"
+vade:vade N1 ; ! "term of payment"
+oda:oda N1 ; ! "room"
+tesis:tesis N1 ; ! "facility"
+mağlup:mağlup%{v%} N1 ; ! "beat"
+iyileştirme:iyileştirme N1 ; ! "rehabilitation"
+tören:tören N1 ; ! "ceremony"
+kâr:kâr N1 ; ! "profit"
+ürün:ürün N1 ; ! "product"
+pazarlık:pazarlık%{v%} N1 ; ! "commerce/contractation"
+cesaret:cesaret N1 ; ! "courage"
+yaklaşım:yaklaşım N1 ; ! "approach"
+fikri:fikri N1 ; ! "intellectual"
+dolar:dolar N1 ; ! "dollar"
+aşırılık:aşırılık%{v%} N1 ; ! "excess"
+katılımcı:katılımcı N1 ; ! "paretecipant"
+insanlık:insanlık%{v%} N1 ; ! "humanity"
+iyileşme:iyileşme N1 ; ! "recover"
+karayol:karayol N2 ; ! "highway"
+öğrenim:öğrenim N1 ; ! "study"
+veto:veto N1 ; ! "veto"
+şüphe:şüphe N1 ; ! "doubt"
+teşkilat:teşkilat N1 ; ! "governance"
+kırıklık:kırıklık%{v%} N1 ; ! "weakness"
+emir:em%{u%}r N1 ; ! "order"
+taşımacılık:taşımacılık%{v%} N1 ; ! "transportation"
+kilometrelik:kilometrelik%{v%} N1 ; ! "kilometre"
+piyasa:piyasa N1 ; ! "piazza" as in the market 
+pratik:pratik N1 ; ! "practice"
+haftalık:haftalık%{v%} N1 ; ! "week"
+yolcu:yolcu N1 ; ! "passenger"
+
+
 
 
 ! Here are nouns, forms of which are often classified as 'postpositions'
+
 alt:alt N4 ; ! "base"
 iç:iç N4 ; ! "inside"
 yüz:yüz N4 ; ! "face"
@@ -7228,6 +7278,7 @@ Karadağlı:Karadağlı N1 ; ! "montenegrino"
 Macar:Macar N1 ; ! ""hungarian"
 İslamcı:İslamcı N1 ; ! "islamist"
 Kıbrıslı:Kıbrıslı N1 ; ! "cypriot"
+Belgradlı:Belgradlı N1 ; ! "belgradian ?"
 
 !!!!SPECIAL!!!!
 
@@ -7240,6 +7291,7 @@ burun:bur%{u%}n N1 ; ! "nose"
 
 LEXICON ProperNouns
 
+Milas:Milas NP1-TOP ; ! ' '
 Anadolu:Anadolu NP1-TOP ; ! "Anatolia"
 Sırbistan:Sırbistan NP1-TOP ; ! "Serbia"
 Arnavutluk:Arnavutluk NP1-TOP ; ! "Albania"
@@ -7849,8 +7901,17 @@ Sri% Lanka:Sri% Lanka NP1-TOP ; ! ""
 Suudi% Arabistan:Suudi% Arabistan NP1-TOP ; ! ""
 Yeni% Zağra:Yeni% Zağra NP1-TOP ; ! ""
 Yeni% Zelanda:Yeni% Zelanda NP1-TOP ; ! ""
-
+Sofia:Sofia NP1-TOP ; ! ""
 Çuvaşistan:Çuvaşistan NP1-TOP ; ! ""
+Lefkoşe:Lefkoşe NP1-TOP ; ! ""
+Van:Van NP1-TOP ; ! ""
+York:York NP1-TOP ; ! ""
+New% York: New% York NP1-TOP ; ! ""
+Bizans:Bizans  NP1-TOP ; ! ""
+Transilvanya:Transilvanya NP1-TOP ; ! ""
+Avrasya:Avrasya NP1-TOP ; ! ""
+Bosna-Hersekli:Bosna-Hersekli NP1-TOP ; ! ""
+Durres:Durres NP1-TOP ; ! ""
 
 ! Seas
 Atlantik% Denizi:Atlantik% Denizi NP2-TOP ; ! ""
@@ -7872,6 +7933,8 @@ Ren:Ren NP1-TOP ; ! ""
 Sava:Sava NP1-TOP ; ! ""
 Struma:Struma NP1-TOP ; ! ""
 Volga:Volga NP1-TOP ; ! ""
+Ortadoğu:Ortadoğu N1-TOP ; ! ''
+Belene:Belene N1-TOP ; ! ""
 
 Mora% Yarımadası:Mora% Yarımadası NP2-TOP ; ! ""
 Maya% halkları:Maya% halkları NP2-TOP ; ! ""
@@ -7896,6 +7959,7 @@ AB:AB%{ii%} NP1-TOP ; ! ""
 BH:BH%{ii%} NP1-TOP ; ! ""
 BiH:BiH%{ii%} NP1-TOP ; ! ""
 SSCB:SSCB NP1-TOP ; ! ""
+EU:EU NP1-TOP ; ! ""
 
 ! Organisations
 Troyka:Troyka NP1-ORG ; ! ""
@@ -7927,6 +7991,7 @@ Getty% Images:Getty% Images NP1-ORG ; ! ""
 SC:SC%{ii%} NP1-ORG ; ! ""
 The% Times:The% Times NP1-ORG ; ! ""
 STK:STK{ii%} NP1-ORG ; ! ""
+PfP:PfP%{ii%} NP1-ORG ; ! ""
 
 AKP:AKP{ii%} NP1-ORG ; ! ""
 AP:AP{ii%} NP1-ORG ; ! ""
@@ -8037,6 +8102,10 @@ Demokrat% Parti:Demokrat% Parti NP1-ORG ; ! ""
 Demokrat% Partisi:Demokrat% Partisi NP2-ORG ; ! ""
 Sosyalist% Enternasyonel:Sosyalist% Enternasyonel NP1-ORG ; ! ""
 Beta:Beta NP1-ORG ; ! ""
+Makfax:Makfax NP1-ORG ; ! ''
+Echo:Echo NP1-ORG ; ! ""
+Deutsche% Bank:Deutsche% Bank NP1-ORG ; ! ""
+
 
 ! Other
 Southeast% European% Times:Southeast% European% Times NP1-AL ; ! ""
@@ -8057,6 +8126,8 @@ G17% Plus:G17% Plus NP1-AL ; ! ""
 
 ! Anthroponyms
 
+Nebojsa:Nebojsa NP1-ANT-M ; ! ""
+Valentin:Valentin NP1-ANT-M ; ! ""
 Antonis:Antonis NP1-ANT-M ; ! ""
 Olli:Olli NP1-ANT-M ; ! ""
 Stipe:Stipe NP1-ANT-M ; ! ""
@@ -8381,8 +8452,17 @@ Zlatko:Zlatko NP1-ANT-M ; ! ""
 Zog:Zog NP1-ANT-M ; ! ""
 Zoran:Zoran NP1-ANT-M ; ! ""
 Zsolt:Zsolt NP1-ANT-M ; ! ""
+Muhamet:Muhamet NP1-ANT-M ; ! ""
+Yusuf:Yusuf NP1-ANT-M ; ! ""
+Alexander:Alexander NP1-ANT-M ; ! ""
 
 Martti:Martti NP1-ANT-M ; ! ""
+Dusan:Dusan NP1-ANT-M ; ! ""
+Jean:Jean NP1-ANT-M ; ! ""
+Bozidar:Bozidar NP1-ANT-M ; ! ""
+Süleyman:Süleyman NP1-ANT-M ; ! ""
+Boyko:Boyko NP1-ANT-M ; ! ""
+
 
 ! Anthroponyms (girls)
 
@@ -8392,9 +8472,30 @@ Carla:Carla NP1-ANT-F ; ! ""
 Linda:Linda NP1-ANT-F ; ! ""
 Laura:Laura NP1-ANT-F ; ! ""
 izni:izni NP1-ANT-F ; ! ""	
+Natasa:Natasa NP1-ANT-F ; ! ""
+Nataşa:Nataşa NP1-ANT-F ; ! ""
+Bojana:Bojana NP1-ANT-F ; ! ""
+Angela:Angela NP1-ANT-F ; ! ""
+Marija:Marija NP1-ANT-F ; ! ""
+Jadranka:Jadranka NP1-ANT-F ; ! ""
 
 ! Cognomen
 
+Ashton:Ashton NP1-COG-MF ; ! ""
+Frattini:Frattini NP1-COG-MF ; ! ""
+Verheugen:Verheugen NP1-COG-MF ; ! ""
+Nimetz:Nimetz NP1-COG-MF ; ! ""
+Barbutov:Barbutov NP1-COG-MF ; ! ""
+Brammertz:Brammertz NP1-COG-MF ; ! ""
+Labus:Labus NP1-COG-MF ; ! ""
+Hristofiyas:Hristofiyas NP1-COG-MF ; ! ""
+Geoana:Geoana NP1-COG-MF ; ! ""
+Prlenda:Prlenda NP1-COG-MF ;  ! ""
+Inzko:Inzko NP1-COG-MF ; ! ""
+Krasniki:Krasniki NP1-COG-MF ; ! ""
+Milososki:Milososki NP1-COG-MF ; ! ""
+Bakoyanni:Bakoyanni NP1-COG-MF ; ! ""
+Clinton:Clinton NP1-COG-MF ; ! ""
 Stathakis:Stathakis NP1-COG-MF ; ! ""
 Tzogopoulos:Tzogopoulos NP1-COG-MF ; ! ""
 Samaras:Samaras NP1-COG-MF ; ! ""
@@ -10438,6 +10539,7 @@ LEXICON Adjectives
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
+diğer:diğer A2 ; ! "the other"
 yoksul:yoksul A2 ; ! "poor"
 barışçı:barışçı A2 ; ! "pacifist"
 maddi:maddi A2 ; ! "concrete"

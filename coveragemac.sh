@@ -1,6 +1,6 @@
 DIX=~/apertium/apertium-tur/apertium-tur.tur.lexc
 BIN=~/apertium/apertium-tur/tur.automorf.hfst
-cat tr.crp | apertium-destxt | hfst-proc -w $BIN | apertium-retxt | sed 's/\$\W*\^/$\n^/g' > /tmp/tr.coverage.txt
+cat tr.crp  | apertium-destxt | hfst-proc -w $BIN | apertium-retxt | gsed 's/\$\W*\^/$\n^/g' > /tmp/tr.coverage.txt
 
 EDICT=`cat $DIX | grep -e ' N[0-9] ; ' -e ' A[0-9] ; ' -e ' NUM ; ' -e ' PRON-.* ;' -e ' ADV[0-9] ; ' -e ' NP[0-9].* ;' -e ' V.* ; ' | wc -l`; 
 
