@@ -14,6 +14,7 @@
 /checked.xae -text
 /configure.ac -text
 /coveragemac.sh -text
+/coveragescrhips -text
 dev/25072012-apertium-tur.tur.lexc -text
 dev/25072012-apertium-tur.tur.rlx -text
 dev/25072012-apertium-tur.tur.twol -text
@@ -34,6 +35,7 @@ dev/verbs/VERBS-scraps -text
 dev/verbs/VERBS-scraps.lexc -text
 dev/verbs/test-yap.txt -text
 dev/verbs/verbs.yaml -text
+/parallel -text
 tests/nouns-misc.yaml -text
 tests/np-misc.yaml -text
 tests/numeral-misc.yaml -text

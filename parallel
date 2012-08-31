@@ -1,0 +1,17 @@
+#!/usr/bin/bash
+
+# set these to the right files:
+hfstbin=tur.automorf.hfst
+corpus=corpusgenaa
+outfile=/tmp/tr.coverage.txt 
+
+
+ncores=$(sysctl -n machdep.cpu.thread_count)
+blocks=$(calc -p "round($(wc -c < $corpus) / 4)")
+
+date
+
+< "$corpus" parallel --block $blocks --pipe -k "apertium-destxt | hfst-proc -w $hfstbin | apertium-retxt" | gsed 's/\$\W*\^/$\n^/g' > "$outfile"
+
+date
+
