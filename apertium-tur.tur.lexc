@@ -1844,7 +1844,6 @@ veya:veya CC ;
 veyahut:veyahut CC ; 
 ya:ya CC ; 
 için:için CC ; 
-gerek:gerek CC ; 
 ha:ha CC ; 
 kah:kah CC ; 
 ne:ne CC ; 
@@ -1966,7 +1965,8 @@ bu:bu DET-DEM ; ! "this"
 şu:şu DET-DEM ; ! "this"
 o:o DET-DEM ; ! "this"
 
-hep:hep DET-QNT ; ! "no"
+hep:hep DET-QNT ; ! "all"
+hepsi:hepsi DET-QNT ; ! "all"
 bütün:bütün DET-QNT ; ! "every"
 
 bir:bir DET-IND ; ! "a, one"
@@ -2034,6 +2034,15 @@ LEXICON Nouns
 
 !!!NEW!!!
 
+saha:saha N1 ; ! "field"
+oy:oy N1 ; ! "vote"
+sürpriz:sürpriz N1 ; ! "surprise"
+savcı:savcı N1 ; ! "solicitor"
+sefer:sefer N1 ; ! "expedition"
+organ:organ N1 ; ! "organ"
+gerek:gerek%{v%} N1 ; ! "need"
+eşlik:eşlik%{v%} N1 ; ! "company"
+refah:refah N1 ; ! ""
 tüketici:tüketici N1 ; ! "consumer"
 ek:ek%{v%} N1 ; ! Dir/LR
 ek:ek N1 ; ! ""
@@ -7312,13 +7321,18 @@ sarmal:sarmal N1 ; ! "scroll"
 roman:roman N1 ; ! "novel"
 final:final N1 ; ! "final"
 Paşa:Paşa N1 ; ! "pascià"
+tip:tip N1 ; ! "type"
+elektronik:elektronik N1 ; ! "electronics"
+başlatılma:başlatılma N1 ; ! "inizatization"
+çıkar:çıkar N1 ; ! "Benefit"
+
 
 
 !!!!LANGUAGES!!!!!
 
 İngilizce:İngilizce N1 ; ! "english"
 Türkçe:Türkçe N1 ; ! "turkish"
-Rusça:Rusça N1 ; ! "turkish"
+Rusça:Rusça N1 ; ! "russian"
 
 
 
@@ -10792,8 +10806,10 @@ LEXICON Adjectives
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
+
 otomotiv:otomotiv A2 ; ! "automotive"
 sağlıklı:sağlıklı A4 ; ! "healthy"
+kırsal:kırsal a4 ; ! "rural"
 karasal:karasal A4 ; ! "continental"
 sayılı:sayılı A4 ; ! "limited"
 itibari:itibari A2 ; ! "titular"
@@ -11348,7 +11364,8 @@ güleç:güleç A4 ;  ! ""
 !iç:iç A2 ;  ! ""
 bilgiç:bilgiç A4 ;  ! ""
 kıskanç:kıskanç A4 ;  ! ""
-genç:genç A4 ;  ! ""
+genç:genç%{v%} A2 ;  ! ""
+haklı:haklı A4; ! "rightful"
 gülünç:gülünç A4 ;  ! ""
 puluç:puluç A1 ;  ! ""
 yad:yad A4 ;  ! ""
