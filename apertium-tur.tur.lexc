@@ -7206,6 +7206,8 @@ pilot:pilot N1 ; ! "pilot""
 yorum:yorum N1 ; ! "interpretation"
 pay:pay N1 ; ! "share"
 
+şebeke:şebeke N1 ; ! "network"
+
 
 ! Here are nouns, forms of which are often classified as 'postpositions'
 
@@ -7285,15 +7287,53 @@ Macar:Macar N1 ; ! ""hungarian"
 İslamcı:İslamcı N1 ; ! "islamist"
 Kıbrıslı:Kıbrıslı N1 ; ! "cypriot"
 Belgradlı:Belgradlı N1 ; ! "belgradian ?"
+iklim:iklim N1 ; ! "climate"
+ocak:ocak%{v%} N1 ; ! "furnace"
+şube:şube N1 ; ! "site/location"
+ulaşım:ulaşım N1 ; ! "transportation"
+hayvancılık:hayvancılık%{v%} N1 ; ! "animalhood"
+kanalizasyon:kanalizasyon N1 ; ! "sewer"
+asfalt:asfalt N1 ; ! "asphalt"
+muhtarlık:muhtarlık%{v%} N1 ; ! "headmanship"
+albüm:albüm N1 ; ! "album"
+sezon:sezon N1 ; ! "season"
+transfer:transfer N1 ; ! "transfer"
+imparatorluk:İmparatorluk%{v%} N1 ; ! "empire"
+futbolcu:futbolcu N1 ; ! "football player"
+site:site N1 ; ! "site"
+sinema:sinema N1 ; ! "cinema"
+resim:resim N1 ; ! "picture"
+logo:logo N1 ; ! " logo"
+profil:profil N1 ; ! "profile"
+video:video N1 ; ! "video"
+kullanıcı:kullanıcı N1 ; ! "user"
+sayfa:sayfa N1 ; ! "page"
+şair:şair N1 ; ! "poet"
+sarmal:sarmal N1 ; ! "scroll"
+roman:roman N1 ; ! "novel"
+final:final N1 ; ! "final"
+YÖNLENDİRME:YÖNLENDİRME N1 ; ! "guidance"
+
+
 
 !!!!SPECIAL!!!!
 
 km:km N1 ;  ! "km" ! FIXME: abbr
 ton:ton N1 ; ! "ton"
+cm:cm N1 ;  ! "cm"
+
+
+
 üçlü:üçlü N1 ; ! "triad" 
 
 şekil:şek%{u%}l N1 ; ! "shape"
 burun:bur%{u%}n N1 ; ! "nose"
+isim:is%{u%}m N1 ; ! "name"
+oğul:oğ%{u%}l N1 ; ! "son"
+şehir:şeh%{u%}r N1 ; ! "city"
+
+
+
 
 LEXICON ProperNouns
 
@@ -7939,8 +7979,8 @@ Ren:Ren NP1-TOP ; ! ""
 Sava:Sava NP1-TOP ; ! ""
 Struma:Struma NP1-TOP ; ! ""
 Volga:Volga NP1-TOP ; ! ""
-Ortadoğu:Ortadoğu N1-TOP ; ! ''
-Belene:Belene N1-TOP ; ! ""
+Ortadoğu:Ortadoğu NP1-TOP ; ! ''
+Belene:Belene NP1-TOP ; ! ""
 
 Mora% Yarımadası:Mora% Yarımadası NP2-TOP ; ! ""
 Maya% halkları:Maya% halkları NP2-TOP ; ! ""
@@ -7968,6 +8008,9 @@ SSCB:SSCB NP1-TOP ; ! ""
 EU:EU NP1-TOP ; ! ""
 
 ! Organisations
+
+Yerelnet:Yerelnet NP1-ORG ; ! ""
+PTT:PTT{ii%} NP1-ORG ; ! ""
 Troyka:Troyka NP1-ORG ; ! ""
 ECB:ECB{ii%} NP1-ORG ; ! ""
 SYRIZA:SYRIZA NP1-ORG ; ! ""
@@ -8130,6 +8173,7 @@ EurActiv:EurActiv NP1-AL ; ! ""
 SAA:SAA NP1-AL ; ! "Stabilisation and Association Agreement"
 G17:G17 NP1-AL ; ! ""
 G17% Plus:G17% Plus NP1-AL ; ! ""
+Vikipedi:Vikipedi NP1-AL ; ! ""
 
 
 
@@ -10619,6 +10663,7 @@ ikili:ikili A4 ; ! "dual"
 belli:belli A4 ; ! "evident"
 iyi:İyi A1 ; ! "good" ! Dir/LR
 iyi:iyi A1 ; ! "good"
+tüzel:tüzel A4 ; ! "corporate"
 yeni:yeni A1 ; ! "new"
 büyük:büyük A1 ; ! "big"
 eski:eski A1 ; ! "old"

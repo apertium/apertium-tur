@@ -2,7 +2,7 @@
 
 # set these to the right files:
 hfstbin=tur.automorf.hfst
-corpus=corpusgenaa
+corpus=~/corpus/trwiki.clean.crp
 outfile=/tmp/tr.coverage.txt 
 
 
