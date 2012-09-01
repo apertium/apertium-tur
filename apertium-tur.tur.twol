@@ -70,7 +70,7 @@ Rules
 %{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 | %>: | %  ] _ ;
         except
                                              %{e%}:0 %>: _ ;
-                                         AbstrVow:0 [ :0 | :Cns | :%' | % ]* _ ; 
+                                         [ AbstrVow:0 - %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
         where 
             LastVowel in ( i ü e ö ı u a o )
                    Vy in ( i ü i ü ı u ı u ) 
@@ -81,6 +81,7 @@ Rules
         except 
              [ AbstrVow: - Vx: ] [ :0 | :Cns | :%' | % ]* _ ; 
                                               %{e%}:0 %>: _ ;
+                      [ %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
         where 
               Vx in ( %{ii%} %{o%} %{ö%} %{ı%} ) 
               Vy   in (   i     u     ü     ı   )  
@@ -123,12 +124,22 @@ Rules
 
 "Unepenthesis in stems"
 %{u%}:0 <=> _ [ :Cns :SurVow ]/[ :0 | %>: ] ;
+            _ :Cns %>: %{n%}: %{I%}: :n .#. ; 
+            _ :Cns %>: %{y%}: %{I%}: .#. ; 
+            _ :Cns %>: %{y%}: %{A%}: .#. ; 
 
 ! bur{u}n               = burun      =
 ! bur{u}n>{i}m          = burnum     =  
+! şeh{u}r               = şehir      =
+! şeh{u}r>{y}{I}        = şehri      =  
 
 "Vowel {u} nominative epenthesis"
 %{u%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>:] ;
+        except 
+            _ :Cns %>: %{n%}: %{I%}: :n .#. ;
+            _ :Cns %>: %{y%}: %{I%}: .#. ;
+            _ :Cns %>: %{y%}: %{A%}: .#. ;
+
         where 
             LastVowel in ( i ü e ö ı u a o )
                    Vy in ( i ü i ü ı u ı u ) 
