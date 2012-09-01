@@ -2113,7 +2113,6 @@ rakam:rakam N1 ; ! "figure"
 bank:bank N1 ; ! "Bank"
 teknoloji:teknoloji N1 ; ! "technology"
 ödül:ödül N1 ; ! "award"
-şehir:şehir N1 ; ! "city" @@@ There is a deletion
 özgürlük:özgürlük%{v%} N1 ; ! "freedom"
 öğrenci:öğrenci N1 ; ! "student"
 tespit:tespit N1 ; ! "evaluation"
@@ -7313,7 +7312,6 @@ sayfa:sayfa N1 ; ! "page"
 sarmal:sarmal N1 ; ! "scroll"
 roman:roman N1 ; ! "novel"
 final:final N1 ; ! "final"
-YÖNLENDİRME:YÖNLENDİRME N1 ; ! "guidance"
 Paşa:Paşa N1 ; ! "pascià"
 
 
@@ -7336,10 +7334,8 @@ cm:cm N1 ;  ! "cm"
 
 şekil:şek%{u%}l N1 ; ! "shape"
 burun:bur%{u%}n N1 ; ! "nose"
-isim:is%{u%}m N1 ; ! "name"
-oğul:oğ%{u%}l N1 ; ! "son"
 şehir:şeh%{u%}r N1 ; ! "city"
-
+ 
 
 
 
@@ -8370,6 +8366,7 @@ Vikipedi:Vikipedi NP1-AL ; ! ""
 
 ! Anthroponyms
 
+Hasan:Hasan NP1-ANT-M ;  !!
 Nebojsa:Nebojsa NP1-ANT-M ; ! ""
 Valentin:Valentin NP1-ANT-M ; ! ""
 Antonis:Antonis NP1-ANT-M ; ! ""
@@ -10877,6 +10874,7 @@ tam:tam A4 ; ! 'exact'
 ekonomik:ekonomik A4 ; ! "economic"
 bölgesel:bölgesel A4 ; ! "regional"
 uzunca:uzunca A3 ; ! "tallish"
+millî:millî A4 ; ! "national"
 soğuk:soğuk A1 ; ! "cold'
 zor:zor A1 ; ! "hard"
 dair:dair A4 ; ! "lower"
