@@ -2185,9 +2185,6 @@ olay:olay N1 ; ! "event"
 röportaj:röportajda N1 ; ! "reportage"
 puan:puan N1 ; ! "score"
 verici:verici N1 ; ! "donor"
-
-!!!!! NEW !!!!
-
 arşiv:arşiv N1 ; ! "archive"
 milletvekil:milletvekil N2 ; ! "MP"
 diplomasi:diplomasi N1 ; ! "diplomacy"
@@ -2196,10 +2193,6 @@ rolü:rolü N1 ; ! "role"
 yanlış:yanlış%{v%} N1 ; ! "mistake"
 milliyetçi:milliyetçi N1 ; ! "nationalist"
 radyo:radyo N1 ; ! "radio"
-
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
 vize:vize N1 ; ! "visa"
 cumhurbaşkanlık:cumhurbaşkanlık%{v%} N1 ; ! "presidentship"
 spor:spor N1 ; ! "sport"
@@ -7323,6 +7316,11 @@ final:final N1 ; ! "final"
 YÖNLENDİRME:YÖNLENDİRME N1 ; ! "guidance"
 Paşa:Paşa N1 ; ! "pascià"
 
+
+!!!!LANGUAGES!!!!!
+
+İngilizce:İngilizce N1 ; ! "english"
+Türkçe:Türkçe N1 ; ! "turkish"
 
 
 
