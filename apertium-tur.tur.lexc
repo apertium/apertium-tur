@@ -124,7 +124,8 @@ Multichar_Symbols
 %{e%}
 %{a%}
 
-%{f%}              ! Enforce front harmony
+%{fö%}             ! Enforce rounded front harmony
+%{fi%}             ! Enforce unrounded front harmony
 
 %{p%}              ! Last consonant unvoiced (Cnsdev)
 %{b%}              ! Last consonant voiced
@@ -455,6 +456,14 @@ LEXICON N5
 %<n%>%<nom%>: # ;
 %<n%>:%' N-INFL-COMMON-NONOM ;
 %<n%>%<attr%>: # ;
+
+LEXICON N6 ! Languages which aren't nationalities
+           ! e.g. 
+
+%<n%>: SUBST ; 
+%<n%>%<attr%>: # ;
+%<n%>%<advl%>: # ;
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -2373,7 +2382,7 @@ ahşap:ahşap N1 ; ! "wooden"
 ahtapot:ahtapot N1 ; ! "octopus"
 ahu:ahu N1 ; ! "antelope"
 ahududu:ahududu N1 ; ! "raspberry"
-ahval:ahval%{f%}f N1 ; ! "condition"
+ahval:ahval%{fi%} N1 ; ! "condition"
 aidat:aidat N1 ; ! "subscription"
 aidiyet:aidiyet N1 ; ! "relation"
 aile:aile N1 ; ! "family"
@@ -3400,7 +3409,7 @@ dikim:dikim N1 ; ! "sewing"
 dikişçi:dikişçi N1 ; ! "sewer"
 dikiş:dikiş N1 ; ! "sewing"
 dikiz:dikiz N1 ; ! "peep"
-dikkat:dikkat%{f%} N1 ; ! "caution"
+dikkat:dikkat%{fi%} N1 ; ! "caution"
 diktatör:diktatör N1 ; ! "dictator"
 dikte:dikte N1 ; ! "dictation"
 dil:dil N1 ; ! "tongue"
@@ -6787,7 +6796,7 @@ statü:statü N1 ; ! "status" ! FIXME: Check
 boykot:boykot N1 ; ! "boycot"
 program:program N1 ; ! "program"
 sistem:sistem N1 ; ! "system"
-festival:festival%{f%} N1 ; ! "festival"
+festival:festival%{fi%} N1 ; ! "festival"
 televizyon:televizyon N1 ; ! "television"
 üniversite:üniversite N1 ; ! "university"
 referandum:referandum N1 ; ! "referendum"
@@ -7016,7 +7025,7 @@ sebep:sebep N1 ; ! "reason"
 şeker:şeker N1 ; ! "sugar"
 selam:selam N1 ; ! "greeting"
 şenlik:şenlik%{v%} N1 ; ! "festival"
-serhat:serhat%{f%} N1 ; ! "border"
+serhat:serhat%{fi%} N1 ; ! "border"
 servis:servis N1 ; ! "service"
 sevda:sevda N1 ; ! "love"
 sıcaklık:sıcaklık%{v%} N1 ; ! "warmth"
@@ -7067,8 +7076,8 @@ yüzyıl:yüzyıl N1 ; ! "century"
 zaman:zaman N1 ; ! "time"
 zevk:zevk N1 ; ! "satisfaction"
 renk:renk%{v%} N1 ; ! "colour"
-saat:saat%{f%} N1 ; ! "time" "Watch" "hour"
-petrol:petrol%{f%} N1 ; ! "oil" as in "Saudi Arabia is full of oil"
+saat:saat%{fi%} N1 ; ! "time" "Watch" "hour"
+petrol:petrol%{fö%} N1 ; ! "oil" as in "Saudi Arabia is full of oil"
 yaş:yaş N1 ; ! "age"
 ses:ses N1 ; ! "voice, sound"
 pencere:pencere N1 ; ! "window" 
