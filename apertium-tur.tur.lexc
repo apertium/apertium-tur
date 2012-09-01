@@ -4956,7 +4956,6 @@ isilik:isilik%{v%} N1 ; ! "heat rash"
 ışıltı:ışıltı N1 ; ! "blaze"
 ışıltı:ışıltı N1 ; ! "flash"
 ışıltı:ışıltı N1 ; ! "shining"
-isim:isim N1 ; ! "name"
 ışın:ışın N1 ; ! "beam"
 ısın:ısın N1 ; ! "calorie"
 ısıölçer:ısıölçer N1 ; ! "thermometer"
@@ -7273,8 +7272,6 @@ Kırgız:Kırgız N3 ; ! "Kirghiz"
 Gürcistanlı:Gürcistanlı N3 ; ! "Georgian"
 Romanyalı:Romanyalı N3 ; ! "Romanian"
 Roman:Roman N3 ; ! "roman"
-
-
 Yugoslav:Yugoslav N1 ; ! ""
 Boşnak:Boşnak N1 ; ! ""
 Amerikan:Amerikan N1 ; ! ""
@@ -7298,6 +7295,7 @@ Macar:Macar N1 ; ! ""hungarian"
 Kıbrıslı:Kıbrıslı N1 ; ! "cypriot"
 Belgradlı:Belgradlı N1 ; ! "belgradian ?"
 iklim:iklim N1 ; ! "climate"
+iklim:İklim N1 ; ! "climate" ! MT USE / Hack
 ocak:ocak%{v%} N1 ; ! "furnace"
 şube:şube N1 ; ! "site/location"
 ulaşım:ulaşım N1 ; ! "transportation"
@@ -7323,6 +7321,8 @@ sarmal:sarmal N1 ; ! "scroll"
 roman:roman N1 ; ! "novel"
 final:final N1 ; ! "final"
 YÖNLENDİRME:YÖNLENDİRME N1 ; ! "guidance"
+Paşa:Paşa N1 ; ! "pascià"
+
 
 
 
@@ -7354,7 +7354,6 @@ Arnavutluk:Arnavutluk NP1-TOP ; ! "Albania"
 Aarhus:Aarhus NP1-TOP ; ! ""
 Dayton:Dayton NP1-TOP ; ! ""
 Abhazya:Abhazya NP1-TOP ; ! ""
-Açe:Açe NP1-TOP ; ! ""
 Açe:Açe NP1-TOP ; ! ""
 Adana:Adana NP1-TOP ; ! ""
 Afganistan:Afganistan NP1-TOP ; ! ""
@@ -7968,6 +7967,28 @@ Transilvanya:Transilvanya NP1-TOP ; ! ""
 Avrasya:Avrasya NP1-TOP ; ! ""
 Bosna-Hersekli:Bosna-Hersekli NP1-TOP ; ! ""
 Durres:Durres NP1-TOP ; ! ""
+
+
+!!!!! TURKISH CITIES !!!!!
+
+Ankara:Ankara NP1-TOP ; ! ""
+İstanbul:İstanbul NP1-TOP ; ! ""
+İzmir:İzmir NP1-TOP ; ! ""
+Şanlıurfa:Şanlıurfa NP1-TOP ; ! ""
+Bursa:Bursa NP1-TOP ; ! ""
+Adana:Adana NP1-TOP ; ! ""
+Konya:Konya NP1-TOP ; ! ""
+Antalya:Antalya NP1-TOP ; ! ""
+Gaziantep:Gaziantep NP1-TOP ; ! ""
+Mersin:Mersin NP1-TOP ; ! ""
+Van:Van NP1-TOP ; ! ""
+Adana:Adana NP1-TOP ; ! ""
+Eskişehir:Eskişehir NP1-TOP ; ! ""
+Trabzon:Trabzon NP1-TOP ; ! ""
+Sivas:Sivas NP1-TOP ; ! ""
+Erzurum:Erzurum NP1-TOP ; ! ""
+
+
 
 ! Seas
 Atlantik% Denizi:Atlantik% Denizi NP2-TOP ; ! ""
@@ -8929,6 +8950,11 @@ Babescu:Babescu NP1-COG-MF ; ! ""
 Artopolescu:Artopolescu NP1-COG-MF ; ! ""
 Andreescu:Andreescu NP1-COG-MF ; ! ""
 Özilhan:Özilhan NP1-COG-MF ; ! ""
+Hitler:Hitler NP1-COG-MF ; ! ""
+Stalin:Stalin NP1-COG-MF ; ! ""
+Mussolini:Mussolini NP1-COG-MF ; ! ""
+Churchill:Churchill NP1-COG-MF ; ! ""
+
 
 Stanişev:Stanişev NP1-COG-MF ; ! ""
 
@@ -11993,6 +12019,7 @@ değerli:değerli A1 ; ! "different"
 LEXICON Adverbs 
 
 
+her% halde:her% halde ADV3 ; ! "in any case"
 mutlaka:mutlaka ADV3 ; ! "certainly"
 şeklinde:şeklinde ADV3 ; ! "in that way"
 acilen:acilen ADV3 ; ! "promtply"
