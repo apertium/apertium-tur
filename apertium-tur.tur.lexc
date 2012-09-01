@@ -1860,7 +1860,6 @@ nedeniyle:nedeniyle CS ;
 nispeten:nispeten CA ; 
 adeta:adeta CA ; 
 aksine:aksine CA ; 
-ama:ama CA ; 
 ancak:ancak CA ; 
 bari:bari CA ; 
 belki:belki CA ; 
@@ -10795,6 +10794,7 @@ LEXICON Adjectives
 
 otomotiv:otomotiv A2 ; ! "automotive"
 sağlıklı:sağlıklı A4 ; ! "healthy"
+karasal:karasal A4 ; ! "continental"
 sayılı:sayılı A4 ; ! "limited"
 itibari:itibari A2 ; ! "titular"
 lazım:lazım A4 ; ! 'necessary'
