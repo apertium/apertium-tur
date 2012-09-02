@@ -8082,6 +8082,7 @@ Bosna-Hersekli:Bosna-Hersekli NP1-TOP ; ! ""
 Durres:Durres NP1-TOP ; ! ""
 Vlora:Vlora NP1-TOP ; ! ""
 Bitola:Bitola NP1-TOP ; ! ""
+Bosna:Bosna NP1-TOP ; ! ""
 
 
 !!!!! TURKISH CITIES !!!!!
@@ -8155,6 +8156,7 @@ EU:EU NP1-TOP ; ! ""
 
 ! Organisations
 
+Euobserver:Euobserver NP1-ORG ; ! ""
 AP:AP{ii%} NP1-ORG ; ! ""
 CANDU:CANDU NP1-ORG ; ! ""
 UNDP:UNDP{ii%} NP1-ORG ; ! ""
@@ -10952,6 +10954,7 @@ Blerta NP1-COG-MF ; ! ""
 Ecevit:Ecevit NP1-COG-MF ; ! ""
 Hisarcıklıoğlu:Hisarcıklıoğlu NP1-COG-MF ;  ! ""
 Holkeri:Holkeri NP1-COG-MF ; ! ""
+Ki-moon:Ki-moon NP1-COG-MF ; ! ""
 
 LEXICON Adjectives
 
@@ -12544,6 +12547,7 @@ et:et%{v%} V-TV-DIR-AR ; ! "make"
 teşekkür% et:teşekkür et%{v%}  V-TV-DIR-AR ; ! "thank"
 eş:eş V-TV-DIR-AR ; ! "scratch"
 kabul% et:kabul% et%{v%} V-TV-DIR-AR ; ! "admit, acknowledge" ! Use/MT
+istifa% et:istifa% et%{v%} V-TV-DIR-AR ; ! "resign"
 kap:kap V-TV-DIR-AR ; ! "snatch, seize, grab"
 kes:kes V-TV-DIR-AR  ; ! "cut"
 keşfet:keşfet V-TV-DIR-AR  ; ! "discover"
@@ -12631,6 +12635,7 @@ varsay:varsay V-TV-DIR-AR  ; ! "assume"
 ver:ver V-TV-DIR-IR  ; ! "give up"
 vur:vur V-TV-DIR-IR  ; ! "hit"
 yak:yak V-TV-DIR-AR  ; ! "burn"
+iyileştir:iyileştir V-TV-T-IR ; ! "cure"
 yalıt:yalıt V-TV-DIR-IR  ; ! "isolate"
 yar:yar V-TV-DIR-AR  ; ! "split"
 yas:yas V-TV-DIR-AR  ; ! "stave"
@@ -13393,7 +13398,7 @@ utan:utan V-IV-DIR-IR  ; ! "shy"
 uyan:uyan V-IV-DIR-IR  ; ! "wake up"
 uyuş:uyuş V-IV-DIR-IR  ; ! "run in with"
 uzlaş:uzlaş V-IV-DIR-IR  ; ! "make a deal"
-var:var V-IV-DIR-IR  ; ! "arrive"
+var:var V-TV-DIR-IR  ; ! "arrive"
 varol:varol V-IV-DIR-IR  ; ! "exist"
 vazgeç:vazgeç V-IV-DIR-AR  ; ! "give up"
 yağ:yağ V-IV-DIR-AR  ; ! "rain down on"
