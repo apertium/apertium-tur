@@ -1789,6 +1789,7 @@ boyunca:boyunca POST ; ! "during"
 haline:haline POST ; ! "into"
 uyarınca:uyarınca POST; ! "according to"
 kala:kala POST ; ! "til"
+edici:edici POST ; ! @@@ really weird behaviour
 
 ! Genıtıve
 
