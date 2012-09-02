@@ -2014,10 +2014,18 @@ ne% kadar:ne% kadar DET-ITG ; ! "how much"
 
 binlerce:binlerce DET-QNT ; ! "thousands of"
 yüzlerce:yüzlerce DET-QNT ; ! "hundreds of"
+düzinelerce:düzinelerce DET-QNT ; ! "dozens of"
+milyonlarca:milyonlarca DET-QNT ; ! "millions of"
+
+
+birer:birer DET-QNT ; ! "one each"
+tümü:tümü DET-QNT ; ! "all of"
+
 
 
 LEXICON Numerals
 
+sıfır:sıfır NUM ; ! "zero"
 bir:bir NUM ; ! "one"
 iki:İki NUM ; ! "two" ! Dir/LR
 iki:iki NUM ; ! "two"
@@ -2047,6 +2055,9 @@ LEXICON Nouns
 
 !!!NEW!!!
 
+
+süt:süt N1 ; ! " milke"
+beraat:beraat N1 ; ! "exoneration"
 saha:saha N1 ; ! "field"
 oy:oy N1 ; ! "vote"
 sürpriz:sürpriz N1 ; ! "surprise"
@@ -2228,6 +2239,8 @@ yolsuzluk:yolsuzluk%{v%} N1 ; ! "corruption"
 sandalye:sandalye N1 ; ! "chair"
 başbakan:başbakan N1 ; ! "Prime minister"
 üyelik:üyelik%{v%} N1 ; ! "membership"
+suikast:suikast N1 ; ! "assassination"
+
 
 
 Pazartesi:Pazartesi N1 ; ! "Monday"
@@ -7122,6 +7135,13 @@ müdürlük:müdürlük%{v%} N1 ; ! "direction"
 mezarlık:mezarlık%{v%} N1 ; ! "cemetery"
 mazı:mazı N1 ; ! "oak gall"
 sanayi:sanayi N1 ; ! "industry" @@@ SPECIAL SUFFIX
+tutar:tutar N1 ; ! "sum"
+erte:erte N1 ; ! "the after"
+yük:yük N1 ; ! "load"
+gerginlik:gerginlik%{v%} N1 ; ! "tension"
+sporcu:sporcu N1 ; ! "athlete"
+takdir:takdir N1 ; ! "appreciation"
+
 
 
 yükümlülük:yükümlülük%{v%} N1 ; ! "liability"
@@ -7295,6 +7315,10 @@ otel:otel N1 ; ! "hotel"
 fizibilite:fizibilite N1 ; ! "feasibility"
 gözlemci:gözlemci N1 ; ! "observer"
 azaltılma:azaltılma N1 ; ! "abatement"
+ademi:ademi N1 ; ! "decentralization"
+profesör:profesör N1 ; ! "professor"
+koordinatör:koordinatör N1 ; ! "coordinator"
+denk:denk%{v%} N1 ;  ! "counterbalance"
 
 
 
@@ -7380,6 +7404,7 @@ Kıbrıslı:Kıbrıslı N1 ; ! "cypriot"
 Belgradlı:Belgradlı N1 ; ! "belgradian ?"
 Hıristiyan:Hıristiyan N1 ; ! "Christian"
 Katolik:Katolik%{v%} N1 ; ! " catholic"
+Çinli:Çinli N1 ; ! "chinese"
 
 
 
@@ -10875,7 +10900,10 @@ LEXICON Adjectives
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
-
+bireysel:bireysel A4 ; ! "singular"
+cazip:cazip A4 ; ! "alluring"
+geçersiz:geçersiz A4 ; ! "useless"
+yazık:yazık A4 ;  ! " poor"
 dijital:dijital A4 ; ! "digital"
 tamamı:tamamı A4 ; ! "complete"
 bombalı:bombalı A4 ;  ! "armed with bomb"
@@ -12097,6 +12125,7 @@ sessiz:sessiz A1 ;  ! ""
 leziz:leziz A4 ;  ! ""
 konulu:konulu A4 ;  ! ""
 ayrı:ayrı A4 ; ! ""
+görüşlü:görüşlü A4 ; ! "sighted"
 
 paragöz:paragöz A4 ;  ! ""
 gürbüz:gürbüz A4 ;  ! ""
@@ -12117,7 +12146,9 @@ değerli:değerli A1 ; ! "different"
 
 LEXICON Adverbs 
 
-
+kolayca:kolayca ADV£ ; ! "easily"
+şimdilik:şimdilik ADV3 ; ! "for now"
+halde:halde ADV3 ; ! "although"
 her% halde:her% halde ADV3 ; ! "in any case"
 mutlaka:mutlaka ADV3 ; ! "certainly"
 şeklinde:şeklinde ADV3 ; ! "in that way"
