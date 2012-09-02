@@ -1123,6 +1123,7 @@ LEXICON CAUS-T-IR
 %<caus%>:%>t ABIL-IR ;
 %<caus%>:%>t NECE ;
 %<caus%>:%>t NON-FINITE ;
+%<caus%>:%>t PASS-T-IR ;
 NEG ;
 FINITE-VERBS-IR ;
 ABIL-IR ;
