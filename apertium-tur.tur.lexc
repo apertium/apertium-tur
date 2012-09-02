@@ -27,6 +27,7 @@ Multichar_Symbols
 %<abbr%>       ! Abbreviation               
 %<cop%>        ! Copula                     
 %<qst%>        ! Question particle
+%<title%>      ! Personal/professional titles
 !%<ideo%>       ! Ideophone                  
 
 ! Proper noun types
@@ -153,6 +154,7 @@ LEXICON Root
 ModalParticles ; 
 Copula ; 
 Conjunctions ; 
+Titles ; 
 Postpositions ; 
 Postadverbs ;
 Pronouns ; 
@@ -1762,6 +1764,10 @@ LEXICON DET-REF
 
 %<det%>%<ref%>: # ;
 
+LEXICON TIT 
+
+%<title%>: # ; 
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Stem lexica
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1813,6 +1819,7 @@ yana:yana POST ; ! ""
 ! Comitative
 
 ilgili:ilgili POST ; ! "regarding"
+İlgili:İlgili POST ; ! """ HACK MT USE
 
 
 LEXICON  Conjunctions
@@ -2029,6 +2036,11 @@ milyar:milyar NUM ; ! "milliard"
 bilyon:bilyon NUM ; ! "billion"
 trilyon:trilyon NUM ; ! "trillion"
 katrilyon:katrilyon NUM ; ! ""
+
+LEXICON Titles
+
+Profesör:Profesör TIT ; ! ""
+
 
 LEXICON Nouns
 
@@ -7075,7 +7087,7 @@ yüzyıl:yüzyıl N1 ; ! "century"
 zaman:zaman N1 ; ! "time"
 zevk:zevk N1 ; ! "satisfaction"
 renk:renk%{v%} N1 ; ! "colour"@@@@@@@
-saat:saat% N1 ; ! "time" "Watch" "hour"
+saat:saat N1 ; ! "time" "Watch" "hour"
 yaş:yaş N1 ; ! "age"
 ses:ses N1 ; ! "voice, sound"
 pencere:pencere N1 ; ! "window" 
@@ -7112,6 +7124,9 @@ yükümlülük:yükümlülük%{v%} N1 ; ! "liability"
 üreticisi:üreticisi N1 ; ! "producer"
 yıldönüm:yıldönüm N2 ; ! "anniversary"
 petrol:petrol N1 ; ! ""
+İlişki:İlişki N1 ; ! "relation"
+İstatistik:İstatistik%{v%} N1 ; ! "statistics"
+ilerleme:ilerleme N1 ; ! "advancement"
 
 
 
@@ -7232,6 +7247,7 @@ sigorta:sigorta N1 ; ! "insurance"
 merkeziyet:merkeziyet N1 ; ! "centrality"
 işadam:işadam N2 ; ! "worker"
 rakip:rakip%{v%} N1 ; !" comptetitor"
+teşekkür:teşekkür N1 ; ! "appreciation"
 
 ! Here are nouns, forms of which are often classified as 'postpositions'
 
@@ -8213,6 +8229,10 @@ Renault:Renault NP1-ORG ; ! ""
 MHP:MHP%{ii%}  NP1-ORG ; ! ""
 Ford:Ford NP1-ORG ; ! ""
 CNBC:CNBC%{ii%} NP1-ORG ; !! ""
+Xinhua:Xinhua NP1-ORG ; ! ""
+Herald% Tribune:Herald% Tribune NP1-ORG ; ! ""
+
+
 
 !!!!FOOTBALL TEAMS !!!!
 
@@ -8752,6 +8772,7 @@ Jadranka:Jadranka NP1-ANT-F ; ! ""
 
 ! Cognomen
 
+Stojanovska:Stojanovska NP1-COG-F ; ! "" @@@@
 Sabancı:Sabancı NP1-COG-MF ; ! ""
 Atatürk:Atatürk NP1-COG-MF ; ! ""
 Schumacher:Schumacher NP1-COG-MF ; ! ""
@@ -10823,12 +10844,13 @@ LEXICON Adjectives
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
+numaralı:numaralı A4 ; ! "numbered"
 yasak:yasak A2 ; ! "forbidden"
 ırklı:ırklı A4 ; ! "racial"
 aleyhinde:aleyhinde A2 ; ! "opponent"
 otomotiv:otomotiv A2 ; ! "automotive"
 sağlıklı:sağlıklı A4 ; ! "healthy"
-kırsal:kırsal a4 ; ! "rural"
+kırsal:kırsal A4 ; ! "rural"
 karasal:karasal A4 ; ! "continental"
 sayılı:sayılı A4 ; ! "limited"
 itibari:itibari A2 ; ! "titular"
@@ -12377,6 +12399,7 @@ gerçekleş:gerçekleş%{v%} V-IV-DIR-IR ; ! "to materialize"
 aç:aç V-TV-DIR-AR ; ! "open"
 kes:kes V-TV-DIR-AR ; ! "cut"
 et:et%{v%} V-TV-DIR-AR ; ! "make"
+teşekkür% et:teşekkür et%{v%}  V-TV-DIR-AR ; ! "thank"
 eş:eş V-TV-DIR-AR ; ! "scratch"
 kabul% et:kabul% et%{v%} V-TV-DIR-AR ; ! "admit, acknowledge" ! Use/MT
 kap:kap V-TV-DIR-AR ; ! "snatch, seize, grab"
