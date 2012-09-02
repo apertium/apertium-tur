@@ -7074,9 +7074,8 @@ yıl:yıl N1 ; ! "year"
 yüzyıl:yüzyıl N1 ; ! "century"
 zaman:zaman N1 ; ! "time"
 zevk:zevk N1 ; ! "satisfaction"
-renk:renk%{v%} N1 ; ! "colour"
-saat:saat%{fi%} N1 ; ! "time" "Watch" "hour"
-petrol:petrol%{fö%} N1 ; ! "oil" as in "Saudi Arabia is full of oil"
+renk:renk%{v%} N1 ; ! "colour"@@@@@@@
+saat:saat% N1 ; ! "time" "Watch" "hour"
 yaş:yaş N1 ; ! "age"
 ses:ses N1 ; ! "voice, sound"
 pencere:pencere N1 ; ! "window" 
@@ -7112,6 +7111,7 @@ mazı:mazı N1 ; ! "oak gall"
 yükümlülük:yükümlülük%{v%} N1 ; ! "liability"
 üreticisi:üreticisi N1 ; ! "producer"
 yıldönüm:yıldönüm N2 ; ! "anniversary"
+petrol:petrol N1 ; ! ""
 
 
 
@@ -7213,10 +7213,25 @@ sene:sene N1 ; ! "year"
 pilot:pilot N1 ; ! "pilot""
 yorum:yorum N1 ; ! "interpretation"
 pay:pay N1 ; ! "share"
-
+kararlılık:kararlılık%{v%} N1 ; ! "resolution"
 şebeke:şebeke N1 ; ! "network"
-
-
+sokak:sokak%{v%} N1 ; ! "street"
+kanal:kanal N1 ; ! "channel"
+şampiyon:şampiyon N1 ; ! " champion"
+web:web N1 ; ! "web"
+otoyol:otoyol N1 ; ! " car way"
+arabuluculuk:arabuluculuk%{v%} N1 ; ! " mediatorship"
+yıldız:yıldız N1 ; ! "star"
+telekom:telekom N1 ; ! "telecom"
+kurucu:kurucu N1 ; ! "founder"
+yazılım:yazılım N1 ; ! "software"
+tıp:tıp N1 ; ! "medicine"
+tenis:tenis N1 ; ! "tennis"
+oturum:oturum N1 ; ! "meeting"
+sigorta:sigorta N1 ; ! "insurance"
+merkeziyet:merkeziyet N1 ; ! "centrality"
+işadam:işadam N2 ; ! "worker"
+rakip:rakip%{v%} N1 ; !" comptetitor"
 
 ! Here are nouns, forms of which are often classified as 'postpositions'
 
@@ -7325,6 +7340,7 @@ tip:tip N1 ; ! "type"
 elektronik:elektronik N1 ; ! "electronics"
 başlatılma:başlatılma N1 ; ! "inizatization"
 çıkar:çıkar N1 ; ! "Benefit"
+mayın:mayın N1 ; ! "mine"
 
 
 
@@ -8848,6 +8864,7 @@ Bartenstein:Bartenstein NP1-COG-MF ; ! ""
 Winterstein:Winterstein NP1-COG-MF ; ! ""
 Wolfenstein:Wolfenstein NP1-COG-MF ; ! ""
 
+Ramazan:Ramazan NP1-ANT-M ; ! ""
 İbrahim:İbrahim NP1-ANT-M  ; ! ""
 Tayyip:Tayyip NP1-ANT-M ; ! ""
 Rehn:Rehn NP1-COG-MF ; ! ""
@@ -10806,7 +10823,9 @@ LEXICON Adjectives
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
-
+yasak:yasak A2 ; ! "forbidden"
+ırklı:ırklı A4 ; ! "racial"
+aleyhinde:aleyhinde A2 ; ! "opponent"
 otomotiv:otomotiv A2 ; ! "automotive"
 sağlıklı:sağlıklı A4 ; ! "healthy"
 kırsal:kırsal a4 ; ! "rural"
@@ -11467,7 +11486,7 @@ sürekli:sürekli A3 ;  ! ""
 acıklı:acıklı A4 ;  ! ""
 hazırlıklı:hazırlıklı A4 ;  ! ""
 farklı:farklı A4 ;  ! ""
-önemli:önemli A4 ;  ! ""
+önemli:önemli A2 ;  ! ""
 biçimli:biçimli A3 ;  ! ""
 eğitimli:eğitimli A4 ;  ! ""
 sevimli:sevimli A4 ;  ! ""
