@@ -1172,7 +1172,7 @@ LEXICON ABIL-AR
 %<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} GERUND ;
 %<abil%>:%>%{y%}%{A%}bil NON-FINITE ;
 %<neg%>%<abil%>:%>%{A%} NON-FINITE ;
-%<neg%>%<abil%>:%>%{y%}%{A%}m%{a%} PERS5 ;
+%<neg%>%<abil%>:%>%{y%}%{A%} PERS5 ;
 NON-FINITE ;
 
 GERUND ;
@@ -1973,7 +1973,7 @@ bu:bu DET-DEM ; ! "this"
 şu:şu DET-DEM ; ! "this"
 o:o DET-DEM ; ! "this"
 
-hep:hep DET-QNT ; ! "all"
+hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
 hepsi:hepsi DET-QNT ; ! "all"
 bütün:bütün DET-QNT ; ! "every"
 
@@ -2018,6 +2018,7 @@ düzinelerce:düzinelerce DET-QNT ; ! "dozens of"
 milyonlarca:milyonlarca DET-QNT ; ! "millions of"
 
 
+
 birer:birer DET-QNT ; ! "one each"
 tümü:tümü DET-QNT ; ! "all of"
 
@@ -2045,10 +2046,12 @@ milyar:milyar NUM ; ! "milliard"
 bilyon:bilyon NUM ; ! "billion"
 trilyon:trilyon NUM ; ! "trillion"
 katrilyon:katrilyon NUM ; ! ""
+buçuk:buçuk NUM ; ! "half"
 
 LEXICON Titles
 
 Profesör:Profesör TIT ; ! ""
+Dr:Dr TIT ; ! ""
 
 
 LEXICON Nouns
@@ -7152,6 +7155,7 @@ petrol:petrol N1 ; ! ""
 İstatistik:İstatistik%{v%} N1 ; ! "statistics"
 ilerleme:ilerleme N1 ; ! "advancement"
 İlerleme:İlerleme N1 ; ! "advancement" USE/MT
+gençlik:gençlik N1 ; ! "youth"
 
 
 
@@ -7319,6 +7323,21 @@ ademi:ademi N1 ; ! "decentralization"
 profesör:profesör N1 ; ! "professor"
 koordinatör:koordinatör N1 ; ! "coordinator"
 denk:denk%{v%} N1 ;  ! "counterbalance"
+derecelendirme:derecelendirme N1 ; ! "classification"
+unsur:unsur N1 ; ! "element" 
+tane:tane N1 ; ! "piece" "unit"
+test:test N1 ; ! "test"
+başbakanlık:başbakanlık%{v%} N1 ; ! "prime-ministership"
+tatmin:tatmin N1 ; ! "satisfaction"
+taslak:taslak N1 ; ! "tracing"
+siyasetçi:siyasetçi N1 ; ! "policy-maker"
+aklama:aklama N1 ; ! "exoneration"
+yaşam:yaşam N1 ; ! "life"
+stand:stand N1 ; ! "stand"
+
+
+
+
 
 
 
@@ -7405,6 +7424,8 @@ Belgradlı:Belgradlı N1 ; ! "belgradian ?"
 Hıristiyan:Hıristiyan N1 ; ! "Christian"
 Katolik:Katolik%{v%} N1 ; ! " catholic"
 Çinli:Çinli N1 ; ! "chinese"
+Hollandalı:Hollandalı N1 ; ! "dutch"
+
 
 
 
@@ -7415,6 +7436,8 @@ Katolik:Katolik%{v%} N1 ; ! " catholic"
 İngilizce:İngilizce N1 ; ! "english"
 Türkçe:Türkçe N1 ; ! "turkish"
 Rusça:Rusça N1 ; ! "russian"
+Arnavutça:Arnavutça N1 ; ! "albanian"
+
 
 
 
@@ -8057,6 +8080,8 @@ Transilvanya:Transilvanya NP1-TOP ; ! ""
 Avrasya:Avrasya NP1-TOP ; ! ""
 Bosna-Hersekli:Bosna-Hersekli NP1-TOP ; ! ""
 Durres:Durres NP1-TOP ; ! ""
+Vlora:Vlora NP1-TOP ; ! ""
+Bitola:Bitola NP1-TOP ; ! ""
 
 
 !!!!! TURKISH CITIES !!!!!
@@ -8130,6 +8155,10 @@ EU:EU NP1-TOP ; ! ""
 
 ! Organisations
 
+AP:AP{ii%} NP1-ORG ; ! ""
+CANDU:CANDU NP1-ORG ; ! ""
+UNDP:UNDP{ii%} NP1-ORG ; ! ""
+NIS:NIS{ii%} NP1-ORG ; ! "Serbia industry petroil blabla"
 Yerelnet:Yerelnet NP1-ORG ; ! ""
 PTT:PTT{ii%} NP1-ORG ; ! ""
 Troyka:Troyka NP1-ORG ; ! ""
@@ -8171,10 +8200,10 @@ VMRO:VMRO NP1-ORG ; ! ""
 DPA:DPA NP1-ORG ; ! ""
 SFOR:SFOR NP1-ORG ; ! ""
 AGİT:AGİT NP1-ORG ; ! ""
-ICTY:ICTY NP1-ORG ; ! ""
+ICTY:ICTY%{ii%} NP1-ORG ; ! ""
 EULEX:EULEX NP1-ORG ; ! ""
 VMRO%-DPMNE:VMRO%-DPMNE NP1-ORG ; ! ""
-HDZ:HDZ{ii%} NP1-ORG ; ! ""
+HDZ:HDZ%{ii%} NP1-ORG ; ! ""
 EUFOR:EUFOR NP1-ORG ; ! ""
 VOA:VOA NP1-ORG ; ! ""
 EBRD:EBRD NP1-ORG ; ! ""
@@ -8241,6 +8270,8 @@ Facebook:Facebook NP1-ORG ; ! ""
 Mediapool:Mediapool NP1-ORG ; ! ""
 The% Guardian:The% Guardian NP1-ORG ; ! ""
 Euronews:Euronews NP1-ORG ; ! ""
+The% Wall% Street% Journal:The% Wall% Street% Journal NP1-ORG ; ! ""
+
 
 
 
@@ -8285,7 +8316,9 @@ CNBC:CNBC%{ii%} NP1-ORG ; !! ""
 Xinhua:Xinhua NP1-ORG ; ! ""
 Herald% Tribune:Herald% Tribune NP1-ORG ; ! ""
 New% York% Daily% News:New% York% Daily% News NP1-ORG ; ! ""
-
+Ergenekon:Ergenekon NP1-ORG ; ! ""
+Kathimerini:Kathimerini NP1-ORG ; ! ""
+Vetevendosje:Vetevendosje NP1-ORG ; ! ""
 
 
 !!!!FOOTBALL TEAMS !!!!
@@ -8465,11 +8498,15 @@ SAA:SAA NP1-AL ; ! "Stabilisation and Association Agreement"
 G17:G17 NP1-AL ; ! ""
 G17% Plus:G17% Plus NP1-AL ; ! ""
 Vikipedi:Vikipedi NP1-AL ; ! ""
+The% New% Press:The% New% Press NP1-AL ; ! ""
+Radio% Foniki:Radio% Foniki NP1-AL ; ! ""
+Europe:Europe NP1-AL ; ! ""
 
 
 
 ! Anthroponyms
 
+Esad:Esad NP1-ANT-M ; ! ""
 Hasan:Hasan NP1-ANT-M ;  !!
 Nebojsa:Nebojsa NP1-ANT-M ; ! ""
 Valentin:Valentin NP1-ANT-M ; ! ""
@@ -8807,11 +8844,14 @@ Jean:Jean NP1-ANT-M ; ! ""
 Bozidar:Bozidar NP1-ANT-M ; ! ""
 Süleyman:Süleyman NP1-ANT-M ; ! ""
 Boyko:Boyko NP1-ANT-M ; ! ""
+Racan:Racan NP1-ANT-M ; ! ""
 
 
 ! Anthroponyms (girls)
 
 Sezgi:Sezgi NP1-ANT-F ; ! ""
+Jelena:Jelena NP1-ANT-F ; ! ""
+Maria:Maria NP1-ANT-F ; ! ""
 Anna:Anna NP1-ANT-F ; ! ""
 Carla:Carla NP1-ANT-F ; ! ""
 Linda:Linda NP1-ANT-F ; ! ""
@@ -8823,10 +8863,22 @@ Bojana:Bojana NP1-ANT-F ; ! ""
 Angela:Angela NP1-ANT-F ; ! ""
 Marija:Marija NP1-ANT-F ; ! ""
 Jadranka:Jadranka NP1-ANT-F ; ! ""
+Dora:Dora NP1-ANT-F ; ! ""
+Svetla:Svetla NP1-ANT-F ; ! ""
+Biljana:Biljana NP1-ANT-F ; ! ""
 
 ! Cognomen
 
+Kosumi:Kosumi NP1-COG-MF ; ! ""
+Kermabon:Kermabon NP1-COG-MF ; ! ""
+de% Kermabon:de% Kermabon NP1-COG-MF ; ! ""
+Hristofyas:Hristofyas NP1-COG-MF ; ! ""
+Selimay:Selimay NP1-COG-MF ; ! ""
+Boc:Boc NP1-COG-MF ; ! ""
+Pamuk:Pamuk NP1-COG-MF ; ! ""
+Rücker:Rücker NP1-COG-MF ; ! ""
 Moon:Moon NP1-COG-MF ; ! ""
+Sekerinska:Sekerinska NP1-COG-MF ; ! "@@@ F
 Dimitrova:Dimitrova NP1-COG-MF ; ! @@@ F
 Stojanovska:Stojanovska NP1-COG-MF ; ! "" @@@ F
 Sabancı:Sabancı NP1-COG-MF ; ! ""
@@ -9264,6 +9316,8 @@ Zeçeviç:Zeçeviç NP1-COG-MF ; ! ""
 Zirojeviç:Zirojeviç NP1-COG-MF ; ! ""
 Zrnoyeviç:Zrnoyeviç NP1-COG-MF ; ! ""
 Zubceviç:Zubceviç NP1-COG-MF ; ! ""
+Wisner:Wisner NP1-COG-MF ; ! ""
+Papa:Papa NP1-COG-MF ; ! ""
 
 Adlesiç:Adlesiç NP1-COG-MF ; ! ""
 Adziç:Adziç NP1-COG-MF ; ! ""
@@ -9810,6 +9864,8 @@ Prijiç:Prijiç NP1-COG-MF ; ! ""
 Prliç:Prliç NP1-COG-MF ; ! ""
 Prpiç:Prpiç NP1-COG-MF ; ! ""
 Pukaniç:Pukaniç NP1-COG-MF ; ! ""
+Sancak:Sancak NP1-COG-MF ; ! ""
+Füle:Füle NP1-COG-MF ; ! ""
 Puljiç:Puljiç NP1-COG-MF ; ! ""
 Pulyiç:Pulyiç NP1-COG-MF ; ! ""
 Puratiç:Puratiç NP1-COG-MF ; ! ""
@@ -10895,11 +10951,18 @@ Rama:Rama NP1-COG-MF ; ! ""
 Blerta NP1-COG-MF ; ! ""
 Ecevit:Ecevit NP1-COG-MF ; ! ""
 Hisarcıklıoğlu:Hisarcıklıoğlu NP1-COG-MF ;  ! ""
+Holkeri:Holkeri NP1-COG-MF ; ! ""
 
 LEXICON Adjectives
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
+dolaylı:dolaylı A4 ; ! "indirect"
+sorunlu:sorunlu A4 ; ! "problematic"
+ölçekli:ölçekli A4 ; ! "scaled"
+ezici:ezici A4 ; ! "devastating"
+tıpkı:tıpkı A2 ; ! "the same"
+teşekküllü:teşekküllü A4 ; ! "organized"
 bireysel:bireysel A4 ; ! "singular"
 cazip:cazip A4 ; ! "alluring"
 geçersiz:geçersiz A4 ; ! "useless"
@@ -12146,7 +12209,10 @@ değerli:değerli A1 ; ! "different"
 
 LEXICON Adverbs 
 
-kolayca:kolayca ADV£ ; ! "easily"
+
+bazen:bazen ADV3 ; ! "sometimes"
+defalarca:defalarca ADV3 ; ! "over and over"
+kolayca:kolayca ADV3 ; ! "easily"
 şimdilik:şimdilik ADV3 ; ! "for now"
 halde:halde ADV3 ; ! "although"
 her% halde:her% halde ADV3 ; ! "in any case"
@@ -12744,7 +12810,7 @@ kat:kat V-TV-DIR-AR ; ! "add"
 katet:katet V-TV-DIR-AR ; ! "make"
 katlet:katlet V-TV-DIR-AR ; ! "massacre"
 kavur:kavur V-TV-DIR-IR ; ! "roast"
-kaybet:kaybet V-TV-DIR-AR ; ! "lose"
+kaybet:kaybet%{v%} V-TV-DIR-AR ; ! "lose"
 kaydet:kaydet%{v%} V-TV-DIR-AR ; ! "save"
 kayır:kayır V-TV-DIR-IR ; ! "show favour"
 kaz:kaz V-TV-DIR-AR ; ! "dig"
