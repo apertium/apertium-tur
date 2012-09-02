@@ -2196,6 +2196,7 @@ başkanlık:başkanlık%{v%} N1 ; ! "leadership"
 uygulama:uygulama N1 ; ! "application"
 sonuç:sonuç%{v%}  N1 ; ! "result"
 diyalog:diyalog%{v%} N1 ; ! "dialogue"
+tahsis:tahsis N1 ; ! "allocation"
 şart:şart N1 ; ! "condition"
 siyaset:siyaset N1 ; ! "politics"
 dolarlık:dolarlık N1 ; ! "dollar"
@@ -8130,6 +8131,8 @@ FT:FT%{ii%} NP1-ORG ; !
 Telekom:Telekom NP1-ORG ; ! "telecom"
 Gazprom:Gazprom NP1-ORG ; ! ""
 Financial% Times:Financial% Times%{ı%} NP1-ORG ; ! ""
+Deutsche% Telekom:Deutsche% Telekom NP1-ORG ; ! ""
+Deutsche% Welle:Deutsche% Welle NP1-ORG ; ! ""
 
 Getty% Images:Getty% Images NP1-ORG ; ! ""
 SC:SC%{ii%} NP1-ORG ; ! ""
@@ -10873,6 +10876,7 @@ LEXICON Adjectives
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
 
+dijital:dijital A4 ; ! "digital"
 tamamı:tamamı A4 ; ! "complete"
 bombalı:bombalı A4 ;  ! "armed with bomb"
 fiziksel:fiziksel A4 ; ! "physical"
