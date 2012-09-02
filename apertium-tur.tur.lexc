@@ -7130,6 +7130,7 @@ petrol:petrol N1 ; ! ""
 İlişki:İlişki N1 ; ! "relation"
 İstatistik:İstatistik%{v%} N1 ; ! "statistics"
 ilerleme:ilerleme N1 ; ! "advancement"
+İlerleme:İlerleme N1 ; ! "advancement" USE/MT
 
 
 
@@ -7285,6 +7286,19 @@ başlatılma:başlatılma N1 ; ! "inizatization"
 mayın:mayın N1 ; ! "mine"
 tedavi:tedavi N1 ; ! "cure"
 atıf:atıf%{v%} N1 ; ! "attribute"
+üyeli:üyeli N1 ; ! "membership"
+şimşek:şimşek%{v%} N1 ; ! "lightining"
+çıkmaz:çıkmaz N1 ; ! "dilemma"
+kilo:kilo N1 ; ! "kilo" @@@@@ abbr?
+otel:otel N1 ; ! "hotel"
+fizibilite:fizibilite N1 ; ! "feasibility"
+gözlemci:gözlemci N1 ; ! "observer"
+azaltılma:azaltılma N1 ; ! "abatement"
+
+
+
+
+
 
 ! Here are nouns, forms of which are often classified as 'postpositions'
 
@@ -7364,6 +7378,8 @@ Macar:Macar N1 ; ! ""hungarian"
 Kıbrıslı:Kıbrıslı N1 ; ! "cypriot"
 Belgradlı:Belgradlı N1 ; ! "belgradian ?"
 Hıristiyan:Hıristiyan N1 ; ! "Christian"
+Katolik:Katolik%{v%} N1 ; ! " catholic"
+
 
 
 
@@ -8188,6 +8204,7 @@ TV:TV NP1-AL ; ! ""
 HIV:HIV NP1-AL ; ! "" @?@
 CEFTA:CEFTA NP1-AL ; ! ""
 GERB:GERB NP1-AL ; ! ""
+Nobel:Nobel NP1-AL ; ! ""
 SRS:SRS NP1-ORG ; ! "Serbian Radical Party"
 MSK:MSK NP1-ORG ; ! ""
 BDP:BDP NP1-ORG ; ! ""
@@ -10855,6 +10872,13 @@ LEXICON Adjectives
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
+
+tamamı:tamamı A4 ; ! "complete"
+bombalı:bombalı A4 ;  ! "armed with bomb"
+fiziksel:fiziksel A4 ; ! "physical"
+isimli:isimli A4 ; ! "named"
+saatlik:saatlik A4 ; ! "hourly"
+asgari:asgari A4 ; ! "minimum"
 daimi:daimi A4 ; ! ""
 yazılı:yazılı A4 ; ! "written"
 destekli:destekli A4 ; ! "supported"
@@ -12128,6 +12152,7 @@ aslında:aslında ADV3 ; ! "actually"
 atfen:atfen ADV3 ; ! "based on"
 aylarca:aylarca ADV3 ; ! "for months"
 aylardır:aylardır ADV3 ; ! "for months"
+yıllarca:yıllarca ADV3 ; ! "for years"
 aynen:aynen ADV3 ; ! "exactly"
 ayrıca:ayrıca ADV3 ; ! "also"
 badema:badema ADV3 ; ! "henceforth"
@@ -13419,7 +13444,9 @@ hoşlan:hoşlan V-IV-DIR-IR ; ! "like"
 ilgilen:ilgilen V-IV-DIR-IR ; ! "be interested"
 iliş:iliş V-IV-DIR-IR ; ! "perch"
 imren:imren V-IV-DIR-IR ; ! "envy"
-inan:inan V-IV-DIR-IR ; ! "believe"
+inan:inan V-TV-DIR-IR ; ! "believe"
+bağla:bağla V-TV-T-IR ; ! "connect"
+
 incel:incel V-IV-DIR-AR ; ! "get thinner"
 ışıklan:ışıklan V-IV-DIR-IR ; ! "lighten"
 ısın:ısın V-IV-DIR-IR ; ! "get warmer"

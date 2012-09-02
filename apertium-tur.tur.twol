@@ -237,8 +237,8 @@ Cx:Cy <=>  [ AbstrVow: | :SurVow ] (%':) (:0) %>: _ ;
 Cx:Cy <=> _ %{v%}: %>: (:0) :SurVow ;
           except
                  :n _ %{v%}: %>: (:0) :SurVow ;
-          where Cx in ( t k ç p )
-                Cy in ( d ğ c b )
+          where Cx in ( t k ç p g )
+                Cy in ( d ğ c b ğ )
                 matched;
 
 ! kitab>            = kitap
