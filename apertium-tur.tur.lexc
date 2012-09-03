@@ -8157,6 +8157,7 @@ EU:EU NP1-TOP ; ! ""
 
 ! Organisations
 
+Daily% Mail:Daily% Mail NP1-ORG ; ! ""
 Euobserver:Euobserver NP1-ORG ; ! ""
 AP:AP{ii%} NP1-ORG ; ! ""
 CANDU:CANDU NP1-ORG ; ! ""
