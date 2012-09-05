@@ -38,6 +38,8 @@ dev/verbs/verbs.yaml -text
 eval/Makefile -text
 eval/README -text
 eval/evaluate-morph.py -text
+eval/ref.1000.txt -text
+eval/src.1000.txt -text
 /parallel -text
 tests/nouns-misc.yaml -text
 tests/np-misc.yaml -text
