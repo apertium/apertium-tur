@@ -69,6 +69,9 @@ REMOVE N + Abe IF (0 A) ;
 ## Unlikely readings can be discarded, we can write rules to select these in certain contexts.
 #
 
+SELECT Adv IF (0 ("yarın")) ;
+    ## Yarın gelir misin?
+
 REMOVE Cog + Px2Sg IF (0 Cog + Gen) ; 
     ## [0]Cinciç'in anısına Belgrad'da binlerce kişi toplandı.
 
