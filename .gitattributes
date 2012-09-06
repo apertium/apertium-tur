@@ -35,11 +35,11 @@ dev/verbs/VERBS-scraps -text
 dev/verbs/VERBS-scraps.lexc -text
 dev/verbs/test-yap.txt -text
 dev/verbs/verbs.yaml -text
-eval/Makefile -text
-eval/README -text
-eval/evaluate-morph.py -text
-eval/ref.1000.txt -text
-eval/src.1000.txt -text
+eval/morph/Makefile -text
+eval/morph/README -text
+eval/morph/evaluate-morph.py -text
+eval/morph/ref.1000.txt -text
+eval/morph/src.1000.txt -text
 /parallel -text
 tests/nouns-misc.yaml -text
 tests/np-misc.yaml -text
