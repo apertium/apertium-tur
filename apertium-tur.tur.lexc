@@ -304,6 +304,12 @@ LEXICON CLIT-NOPERS
 %+mı%<qst%>:% m%{I%} # ; 
 # ;  !! This is the end of word marker.
 
+LEXICON COPULA-LOCATIVE 
+
+!this is the copula which can go after nouns in locative cases and after adjectives. "to be in sometihng" "to be something"
+
+%<cop%>%<pres%>: PERS-COP-PRES ; 
+
 
 LEXICON V-PERS-COP
 
@@ -617,16 +623,7 @@ LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<px%>:nuki%{pN%} CASE ;
 %<prn%>%<dem%>%<loc%>%<attr%>:ndaki ATTR-SUBST ;
 %<prn%>%<dem%>%<com%>:nunla # ;
-
-!bu%<prn%>%<dem%>%<sim%>:мондый CASE ;
-!bu%<prn%>%<dem%>%<sim%>%<px3sp%>:мондые%{n%} CASE ; ! FIXME CHECK мондый%{I%}%{n%} instead?
-!bu%<prn%>%<dem%>%<sim%>%<pl%>:мондыйлар CASE ;
-!bu%<prn%>%<dem%>%<sim%>%<pl%>%<px3sp%>:мондыйлары%{n%} CASE ;
-!bu%<prn%>%<dem%>%<adv%>:болай CLIT-GENERAL ;
-!bu%<prn%>%<dem%>%<qnt%>:bu% кадәр CLIT ;
-!bu%<prn%>%<dem%>%<qnt%>:монча CLIT ; ! Dir/LR
 %<prn%>%<dem%>%<px3sp%>:nu%{pN%} CASE ;
-
 %<prn%>%<dem%>%<pl%>:nlar CASE-ETC ;
 %<prn%>%<dem%>%<pl%>%<px3sp%>:nları%{pN%} CASE ;
 
@@ -779,6 +776,21 @@ LEXICON A4
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Verb paradigms
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+!!!!!!!COPULA SUFFIXES!!!!!!
+
+
+LEXICON PERS-COP-PRES
+
+%<p1%>%<sg%>:%>%{y%}%{I%}m  # ;
+%<p2%>%<sg%>:%>s%{I%}n  # ;
+%<p3%>%<sg%>:%>%{D%}%{I%}r  # ;
+%<p3%>%<frm%>%<sg%>:%>{D%}%{I%}r  # ;
+%<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
+%<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
+%<p3%>%<pl%>:%>l%{A%}r  # ;
+
 
 
 LEXICON V-PERS-COP-G2-NOSG3-FINAL
@@ -7335,6 +7347,8 @@ siyasetçi:siyasetçi N1 ; ! "policy-maker"
 aklama:aklama N1 ; ! "exoneration"
 yaşam:yaşam N1 ; ! "life"
 stand:stand N1 ; ! "stand"
+gemi:gemi N1 ; ! "boat"
+
 
 
 
