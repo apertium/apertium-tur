@@ -22,6 +22,7 @@ dev/adv -text
 dev/adv.checked -text
 dev/adverbs.lex -text
 dev/checked.xae -text
+dev/countstems.sh -text
 dev/miscategorised.lexc -text
 dev/numerals.txt -text
 dev/postpositions.txt -text
