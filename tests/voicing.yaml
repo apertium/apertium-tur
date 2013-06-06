@@ -21,6 +21,10 @@ Tests:
     leb<n><px3sp><nom> : lebi
     leb<n><pl><nom> : lebler
     leb<n><nom>+i<cop><pres><p2><sg> : lebsin
+    dağ<n><dat> : dağa
+    dağ<n><px3sp><nom> : dağı
+    dağ<n><pl><nom> : dağlar
+    dağ<n><nom>+i<cop><pres><p2><sg> : dağsın
 
   "[twol] nouns with always variant cons, voiceless":
     kitap<n><pl><nom> : kitaplar
