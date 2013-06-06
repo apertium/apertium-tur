@@ -1,0 +1,51 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  ../tur.autogen.hfst
+    Morph:  ../tur.automorf.hfst
+
+Tests:
+
+  "[twol] nouns with always voiceless cons":
+    at<n><dat> : ata
+    at<n><px3sp><nom> : atı
+    at<n><pl><nom> : atlar
+    at<n><nom>+i<cop><pres><p2><sg> : atsın
+
+  "[twol] nouns with always voiced cons":
+    ad<n><dat> : ada
+    ad<n><px3sp><nom> : adı
+    ad<n><pl><nom> : adlar
+    ad<n><nom>+i<cop><pres><p2><sg> : adsın
+
+  "[twol] nouns with always variant cons, voiceless":
+    kitap<n><pl><nom> : kitaplar
+    kitap<n><nom>+i<cop><pres><p2><sg> : kitapsın
+    cevap<n><pl><nom> : cevaplar
+    cevap<n><nom>+i<cop><pres><p2><sg> : cevapsın
+    yurt<n><pl><nom> : yurtlar
+    yurt<n><nom>+i<cop><pres><p2><sg> : yurtsun
+    güç<n><pl><nom> : güçler
+    güç<n><nom>+i<cop><pres><p2><sg> : güçsün
+    ağaç<n><pl><nom> : ağaçlar
+    ağaç<n><nom>+i<cop><pres><p2><sg> : ağaçsın
+    köpek<n><pl><nom> : köpekler
+    köpek<n><nom>+i<cop><pres><p2><sg> : köpeksin
+    kulak<n><pl><nom> : kulaklar
+    kulak<n><nom>+i<cop><pres><p2><sg> : kulaksın
+
+  "[twol] nouns with always variant cons, voiced":
+    kitap<n><dat> : kitaba
+    kitap<n><px3sp><nom> : kitabı
+    cevap<n><dat> : cevaba
+    cevap<n><px3sp><nom> : cevabı
+    yurt<n><dat> : yurda
+    yurt<n><px3sp><nom> : yurdu
+    güç<n><dat> : güce
+    güç<n><px3sp><nom> : gücü
+    ağaç<n><dat> : ağaca
+    ağaç<n><px3sp><nom> : ağacı
+    köpek<n><dat> : köpeğe
+    köpek<n><px3sp><nom> : köpeği
+    kulak<n><dat> : kulağa
+    kulak<n><px3sp><nom> : kulağı
