@@ -25,6 +25,10 @@ Tests:
     dağ<n><px3sp><nom> : dağı
     dağ<n><pl><nom> : dağlar
     dağ<n><nom>+i<cop><pres><p2><sg> : dağsın
+    jeolog<n><dat> : jeologa
+    jeolog<n><px3sp><nom> : jeologu
+    jeolog<n><pl><nom> : jeologlar
+    jeolog<n><nom>+i<cop><pres><p2><sg> : jeologsun
 
   "[twol] nouns with always variant cons, voiceless":
     kitap<n><pl><nom> : kitaplar
