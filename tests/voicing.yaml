@@ -17,6 +17,10 @@ Tests:
     ad<n><px3sp><nom> : adı
     ad<n><pl><nom> : adlar
     ad<n><nom>+i<cop><pres><p2><sg> : adsın
+    leb<n><dat> : lebe
+    leb<n><px3sp><nom> : lebi
+    leb<n><pl><nom> : lebler
+    leb<n><nom>+i<cop><pres><p2><sg> : lebsin
 
   "[twol] nouns with always variant cons, voiceless":
     kitap<n><pl><nom> : kitaplar
