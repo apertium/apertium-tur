@@ -23,6 +23,8 @@ Alphabet
 
  %{v%}:0 ! Voicing
 
+ %{fi%}:0 ! force front vowel harmony
+
 
  %>:0
 
@@ -67,7 +69,7 @@ AbstrCns = %{n%} %{y%} %{s%} ;
 Rules 
 
 "Vowel harmony for archiphoneme {I}"
-%{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 | %>: | %  ] _ ;
+%{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ [ :0 - %{fi%}:0 ] | %>: | %  ] _ ;
         except
                                              %{e%}:0 %>: _ ;
                                          [ AbstrVow:0 - %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
@@ -83,8 +85,8 @@ Rules
                                               %{e%}:0 %>: _ ;
                       [ %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
         where 
-              Vx in ( %{ii%} %{o%} %{ö%} %{ı%} ) 
-              Vy   in (   i     u     ü     ı   )  
+              Vx in ( %{fi%} %{ii%} %{o%} %{ö%} %{ı%} ) 
+              Vy   in (  i      i     u     ü     ı   )  
                matched ;
 
 ! ev>{s}{I}           = evi      =     e:e v:v >:0 {s}:0 {I}:i
@@ -167,9 +169,9 @@ Rules
              [ %{ii%}:0 | %{ö%}:0 | %{ı%}:0 | %{o%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
 
 "Underlying vowel harmony for archiphoneme {A}"
-%{A%}:e <=> [ %{ii%}:0 | %{ö%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
+%{A%}:e <=> [ %{fi%}:0 | %{ii%}:0 | %{ö%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
         except 
-             [ AbstrVow: - [ %{ii%}: | %{ö%}: ] ] [ :0 | :Cns | :%' | % ]* _ ; 
+             [ AbstrVow: - [ %{fi%}:0 | %{ii%}: | %{ö%}: ] ] [ :0 | :Cns | :%' | % ]* _ ; 
              [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
              [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
 
@@ -234,7 +236,11 @@ Cx:Cy <=>  [ AbstrVow: | :SurVow ] (%':) (:0) %>: _ ;
 
 "Prevocalic consonant voicing"
 !Cx:Cy <=> :Vow (:0) _ %{v%}: %>: (:0) :SurVow ;
-Cx:Cy <=> _ %{v%}: %>: (:0) :SurVow ;
+!Cx:Cy <=> _ %{v%}:0/[ :0 - %{v%}:0 ] :SurVow ;
+! because the immediately above thing doesn't seem to work right,
+!   you need to put %{v%} RIGHT AFTER the consonant that voices:
+!   no other :0 stuff can intervene
+Cx:Cy <=> _ %{v%}:0 [ :0 - %{v%}:0 ]* :SurVow ;
           except
                  :n _ %{v%}: %>: (:0) :SurVow ;
           where Cx in ( t k ç p g )

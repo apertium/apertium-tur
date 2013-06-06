@@ -1,0 +1,53 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  ../tur.autogen.hfst
+    Morph:  ../tur.automorf.hfst
+
+Tests:
+
+  "[twol] some nouns, suffixes starting in vowels":
+    saat<n><dat> : saate
+    saat<n><px3sp><nom> : saati
+    dikkat<n><dat> : dikkate
+    dikkat<n><px3sp><nom> : dikkati
+    idrak<n><dat> : idrake
+    idrak<n><px3sp><nom> : idraki
+    harf<n><dat> : harfe
+    harf<n><px3sp><nom> : harfi
+    terminal<n><dat> : terminale
+    terminal<n><px3sp><nom> : terminali
+    festival<n><dat> : festivale
+    festival<n><px3sp><nom> : festivali
+
+  "[twol] some nouns, suffixes starting in consonants":
+    saat<n><pl><nom> : saatler
+    saat<n><nom>+i<cop><pres><p2><sg> : saatsin
+    dikkat<n><pl><nom> : dikkatler
+    dikkat<n><nom>+i<cop><pres><p2><sg> : dikkatsin
+    idrak<n><pl><nom> : idrakler
+    idrak<n><nom>+i<cop><pres><p2><sg> : idraksin
+    harf<n><pl><nom> : harfler
+    harf<n><nom>+i<cop><pres><p2><sg> : harfsin
+    terminal<n><pl><nom> : terminaller
+    terminal<n><nom>+i<cop><pres><p2><sg> : terminalsin
+    festival<n><pl><nom> : festivaller
+    festival<n><nom>+i<cop><pres><p2><sg> : festivalsin
+
+  "[twol] an adjective":
+    meşgul<adj><subst><pl><nom> : meşguller
+    meşgul<adj><subst><dat> : meşgule
+    meşgul<adj><subst><px3sp><nom> : meşguli
+
+  "[twol] interaction with 'devoicing', suffixes starting in vowels":
+    kalp<n><dat> : kalbe
+    kalp<n><px3sp><nom> : kalbi
+    harp<n><dat> :  harbe
+    harp<n><px3sp><nom> : harbi
+
+  "[twol] interaction with 'devoicing', suffixes starting in consonants":
+    kalp<n><pl><nom> : kalpler
+    kalp<n><nom>+i<cop><pres><p2><sg> : kalpsin
+    harp<n><pl><nom> :  harpler
+    harp<n><nom>+i<cop><pres><p2><sg> : harpsin
+

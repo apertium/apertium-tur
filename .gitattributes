@@ -42,6 +42,7 @@ eval/morph/evaluate-morph.py -text
 eval/morph/ref.1000.txt -text
 eval/morph/src.1000.txt -text
 /parallel -text
+tests/irreg-vowelharmony.yaml -text
 tests/nouns-misc.yaml -text
 tests/np-misc.yaml -text
 tests/numeral-misc.yaml -text
