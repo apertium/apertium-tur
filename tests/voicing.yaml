@@ -61,3 +61,6 @@ Tests:
     köpek<n><px3sp><nom> : köpeği
     kulak<n><dat> : kulağa
     kulak<n><px3sp><nom> : kulağı
+
+  "[twol] interaction with epenthetic vowels":
+    nakit<n><px3sp><nom> : nakti

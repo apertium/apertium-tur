@@ -79,11 +79,12 @@ Rules
             matched;
 
 "Underlying vowel harmony for archiphoneme {I}"
-%{I%}:Vy <=> Vx:0 [ :0 | :Cns | :%' | % ]* _ ;
+!%{I%}:Vy <=> Vx:0 [ :0 | :Cns | :%' | % ]* _ ;
+%{I%}:Vy <=> Vx:0/[ [ :0 - Vx: ] | :Cns | :%' | % ]* _ ;
         except 
              [ AbstrVow: - Vx: ] [ :0 | :Cns | :%' | % ]* _ ; 
                                               %{e%}:0 %>: _ ;
-                      [ %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
+!                      [ %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
         where 
               Vx in ( %{fi%} %{ii%} %{o%} %{ö%} %{ı%} ) 
               Vy   in (  i      i     u     ü     ı   )  
@@ -124,24 +125,34 @@ Rules
 ! et{·}>{i}{L}>{y}{A}n  = edilen     =             e:e t:d {·}:0 >:0 {i}:i {L}:l >:0 {y}:0 {A}:e n:n
 ! yap>{i}{L}>{y}{A}n    = yapılan    =   y:y a:a p:p >:0 {i}:ı {L}:l >:0 {y}:0 {A}:a n:n
 
-"Unepenthesis in stems"
-%{u%}:0 <=> _ [ :Cns :SurVow ]/[ :0 | %>: ] ;
-            _ :Cns %>: %{n%}: %{I%}: :n .#. ; 
-            _ :Cns %>: %{y%}: %{I%}: .#. ; 
-            _ :Cns %>: %{y%}: %{A%}: .#. ; 
+!"Unepenthesis in stems"
+!%{u%}:0 <=> _ [ :Cns :SurVow ]/[ :0 | %>: ] ;
+!            _ :Cns %>: %{n%}: %{I%}: :n .#. ; 
+!            _ :Cns %>: %{y%}: %{I%}: .#. ; 
+!            _ :Cns %>: %{y%}: %{A%}: .#. ; 
+
 
 ! bur{u}n               = burun      =
 ! bur{u}n>{i}m          = burnum     =  
 ! şeh{u}r               = şehir      =
 ! şeh{u}r>{y}{I}        = şehri      =  
+! nak{fi}{u}t           = nakit
+! nak{fi}{u}t>{s}{I}    = nakti
 
-"Vowel {u} nominative epenthesis"
-%{u%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>:] ;
-        except 
-            _ :Cns %>: %{n%}: %{I%}: :n .#. ;
-            _ :Cns %>: %{y%}: %{I%}: .#. ;
-            _ :Cns %>: %{y%}: %{A%}: .#. ;
+!"Vowel {u} nominative epenthesis"
+!%{u%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>:] ;
+!        except 
+!            _ :Cns %>: %{n%}: %{I%}: :n .#. ;
+!            _ :Cns %>: %{y%}: %{I%}: .#. ;
+!            _ :Cns %>: %{y%}: %{A%}: .#. ;
+!
+!        where 
+!            LastVowel in ( i ü e ö ı u a o )
+!                   Vy in ( i ü i ü ı u ı u ) 
+!            matched;
 
+"High-vowel epenthesis, surfacing of {u} when not syllable-final"
+%{u%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 - [ %{fi%}: | %{u%}: ] ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>: ] ;
         where 
             LastVowel in ( i ü e ö ı u a o )
                    Vy in ( i ü i ü ı u ı u ) 
@@ -149,6 +160,14 @@ Rules
 
 ! bur{u}n               = burun      =
 ! bur{u}n>{i}m          = burnum     =  
+
+"Irregular high-vowel epenthesis"
+%{u%}:i <=> [ :Cns %{fi%}: ]/[ :0 - [ %{fi%}: | %{u%}: ] ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>: ] ;
+
+
+! nak{fi}{u}t           = nakit
+! nak{fi}{u}t>{s}{I}    = nakti
+
 
 "Vowel {a} surfacing and harmonising"
 %{a%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ %>: | :0 | %   ] _ %>: [ :Cns ]/[ :0 ]  ;
@@ -171,7 +190,7 @@ Rules
 "Underlying vowel harmony for archiphoneme {A}"
 %{A%}:e <=> [ %{fi%}:0 | %{ii%}:0 | %{ö%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
         except 
-             [ AbstrVow: - [ %{fi%}:0 | %{ii%}: | %{ö%}: ] ] [ :0 | :Cns | :%' | % ]* _ ; 
+             [ AbstrVow: - [ %{fi%}:0 | %{ii%}: | %{ö%}: | %{u%}:] ] [ :0 | :Cns | :%' | % ]* _ ; 
              [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
              [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
 

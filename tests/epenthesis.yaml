@@ -1,0 +1,26 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  ../tur.autogen.hfst
+    Morph:  ../tur.automorf.hfst
+
+Tests:
+
+  "[twol] forms where there should be no vowel":
+    şehir<n><px3sp><nom> : şehri
+    şehir<n><dat> : şehre
+    burun<n><px3sp><nom> : burnu
+    burun<n><dat> : burna
+
+  "[twol] forms where the vowel should epenthesise":
+    şehir<n><nom> : şehir
+    şehir<n><abl> : şehirden
+    şehir<n><nom>+i<cop><pres><p2><sg> : şehirsin
+    burun<n><nom> : burun
+    burun<n><abl> : burundan
+    burun<n><nom>+i<cop><pres><p2><sg> : burunsun
+
+  "[twol] interaction with irregular vowel harmony":
+    nakit<n><nom> : nakit
+    nakit<n><px3sp><nom> : nakti
+    nakit<n><dat> : nakte
