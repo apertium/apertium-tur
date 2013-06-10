@@ -1,0 +1,21 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  ../tur.autogen.hfst
+    Morph:  ../tur.automorf.hfst
+
+Tests:
+
+  "[lexc] invisible copula":
+    öğrenci<n><nom>+i<cop><pres><p2><sg> : öğrencisin
+    öğrenci<n><nom>+mi<qst>+i<cop><pres><p2><sg> : öğrenci misin
+    öğrenci<n><nom>+i<cop><past><p2><sg> : öğrenciydin
+    öğrenci<n><nom>+mi<qst>+i<cop><past><p2><sg> : öğrenci miyin
+
+  "[lexc] some non-eyewitness past-tense verb forms":
+    öğren<v><tv><evid><p2><sg> : öğrenmişsin
+    öğren<v><tv><evid><p2><sg>+mi<qst> : öğrenmiş misin
+
+  "[lexc] some eyewitness past-tense verb forms":
+    öğren<v><tv><past><p2><sg> : öğrendin
+    öğren<v><tv><past><p2><sg>+mi<qst> : öğrendin mi
