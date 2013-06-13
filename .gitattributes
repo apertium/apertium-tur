@@ -48,5 +48,6 @@ tests/nouns-misc.yaml -text
 tests/np-misc.yaml -text
 tests/numeral-misc.yaml -text
 tests/qst-position.yaml -text
+tests/verb-classes.yaml -text
 tests/verbs-misc.yaml -text
 tests/voicing.yaml -text

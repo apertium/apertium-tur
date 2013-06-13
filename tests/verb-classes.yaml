@@ -1,0 +1,47 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  ../tur.autogen.hfst
+    Morph:  ../tur.automorf.hfst
+
+Tests:
+
+ "[lexc] Verbs ending in a vowel":
+    ara<v><tv><aor><p1><sg> : ararım
+    başla<v><tv><aor><p1><sg> : başlarım
+    bekle<v><tv><aor><p1><sg> : beklerim
+    de<v><tv><aor><p1><sg> : derim
+    hazırla<v><tv><aor><p1><sg> : hazırlarım
+    oyna<v><iv><aor><p1><sg> : oynarım
+
+ "[lexc] Polysyllabic verbs stems":
+    kullan<v><tv><aor><p1><sg> : kullanırım
+    beğen<v><tv><aor><p1><sg> : beğenirim
+    ayrıl<v><iv><aor><p1><sg> : ayrılırım
+    bit<v><iv><caus><aor><p1><sg> : bitiririm
+    otur<v><iv><aor><p1><sg> : otururum
+    götür<v><tv><aor><p1><sg> : götürürüm
+
+ "[lexc] Monosyllabic verb stems with A":
+    aç<v><tv><aor><p1><sg> : açarım
+    çık<v><iv><aor><p1><sg> : çıkarım
+    dön<v><iv><aor><p1><sg> : dönerim
+    düş<v><iv><aor><p1><sg> : düşerim
+    et<v><tv><aor><p1><sg> : ederim
+    git<v><iv><aor><p1><sg> : giderim
+    gir<v><iv><aor><p1><sg> : girerim
+
+ "[lexc] Monosyllabic verb stems with I (closed class)":
+    al<v><tv><aor><p1><sg> : alırım
+    bil<v><tv><aor><p1><sg> : bilirim
+    bul<v><tv><aor><p1><sg> : bulurum
+    dur<v><iv><aor><p1><sg> : dururum
+    gel<v><iv><aor><p1><sg> : gelirim
+    gör<v><tv><aor><p1><sg> : görürüm
+    kal<v><iv><aor><p1><sg> : kalırım
+    ol<v><iv><aor><p1><sg> : olurum
+    öl<v><iv><aor><p1><sg> : ölürüm
+    san<v><iv><aor><p1><sg> : sanırım
+    var<v><iv><aor><p1><sg> : varırım
+    ver<v><tv><aor><p1><sg> : veririm
+    vur<v><tv><aor><p1><sg> : vururum
