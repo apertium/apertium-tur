@@ -1074,6 +1074,21 @@ NECE ;
 NON-FINITE ;
 
 
+LEXICON IV-CAUS-IR-AR
+
+%<caus%>:%>%{i%}r NEG ;
+%<caus%>:%>%{i%}r FINITE-VERBS-AR ;
+%<caus%>:%>%{i%}r ABIL-IR ;
+%<caus%>:%>%{i%}r NECE ;
+%<caus%>:%>%{i%}r NON-FINITE ;
+%<caus%>:%>%{i%}r PASS-DIR-IR ;
+! PASS-DIR-IR ;
+NEG ;
+FINITE-VERBS-AR ;
+ABIL-IR ;
+NECE ;
+NON-FINITE ;
+
 
 LEXICON IV-CAUS-DIR-IR
 %<caus%>:%>%{D%}%{I%}r NEG ;
@@ -1504,6 +1519,43 @@ LEXICON V-TV-IR-AR
 %<v%>%<tv%>: DOUBLE-EVIDENTIAL;
 
 
+LEXICON V-IV-IR-AR
+
+%<v%>%<iv%>: IV-CAUS-IR-AR ;      ! CHECK
+%<v%>%<iv%>: AOR-AR ;             ! CHECK
+%<v%>%<iv%>: IV-REC-IR-AR ;       ! CHECK
+%<v%>%<iv%>: IV-REF-IR-AR ;       ! CHECK
+%<v%>%<iv%>: ABIL-AR ;            ! CHECK
+%<v%>%<iv%>: FINITE-VERBS-AR ;    ! CHECK
+%<v%>%<iv%>: NEG ;
+%<v%>%<iv%>: NECE ;
+%<v%>%<iv%>: CONDITIONAL ;
+%<v%>%<iv%>: NON-FINITE ;
+%<v%>%<iv%>: GERUND ;
+%<v%>%<iv%>: IMPERATIVE ;
+%<v%>%<iv%>: CONDITIONAL-CONTINUOUS ;
+%<v%>%<iv%>: CONDITIONAL-EVIDENTIAL ;
+%<v%>%<iv%>: CONDITIONAL-PAST ; 
+%<v%>%<iv%>: EVIDENTIAL-CONDITIONAL ;
+%<v%>%<iv%>: EVIDENTIAL-CONTINUOUS ;
+%<v%>%<iv%>: EVIDENTIAL-PAST ;
+%<v%>%<iv%>: EVIDENTIAL-PERFECT ;
+%<v%>%<iv%>: FUTURE ;
+%<v%>%<iv%>: FUTURE-CONDITIONAL ;
+%<v%>%<iv%>: FUTURE-PERFECT ;
+%<v%>%<iv%>: IMPERFECTIVE ;
+%<v%>%<iv%>: PAST ;
+%<v%>%<iv%>: PAST-CONDITIONAL ;
+%<v%>%<iv%>: PAST-CONTINUOUS ;
+%<v%>%<iv%>: PRESENT-CONTINUOUS ;
+%<v%>%<iv%>: FUTURE-EVIDENTIAL ;
+%<v%>%<iv%>: AOR-IR-CONDITIONAL ;
+%<v%>%<iv%>: AORIST-IR-PERFECT ;
+%<v%>%<iv%>: EXHORTATIVE ;
+%<v%>%<iv%>: JUSSIVE ;
+%<v%>%<iv%>: DOUBLE-EVIDENTIAL;
+
+
 LEXICON V-IV-DIR-IR
 
 %<v%>%<iv%>: IV-CAUS-DIR-IR ;
@@ -1630,6 +1682,44 @@ LEXICON V-IV-T-IR
 %<v%>%<iv%>: AOR-IR-CONDITIONAL ;
 %<v%>%<iv%>: ABIL-IR ;
 %<v%>%<iv%>: FINITE-VERBS-IR ;
+%<v%>%<iv%>: NEG ;
+%<v%>%<iv%>: NECE ;
+%<v%>%<iv%>: CONDITIONAL ;
+%<v%>%<iv%>: NON-FINITE ;
+%<v%>%<iv%>: GERUND ;
+%<v%>%<iv%>: IMPERATIVE ;
+%<v%>%<iv%>: CONDITIONAL-CONTINUOUS ;
+%<v%>%<iv%>: CONDITIONAL-EVIDENTIAL ;
+%<v%>%<iv%>: CONDITIONAL-PAST ; 
+%<v%>%<iv%>: EVIDENTIAL-CONDITIONAL ;
+%<v%>%<iv%>: EVIDENTIAL-CONTINUOUS ;
+%<v%>%<iv%>: EVIDENTIAL-PAST ;
+%<v%>%<iv%>: EVIDENTIAL-PERFECT ;
+%<v%>%<iv%>: FUTURE ;
+%<v%>%<iv%>: FUTURE-CONDITIONAL ;
+%<v%>%<iv%>: FUTURE-PERFECT ;
+%<v%>%<iv%>: IMPERFECTIVE ;
+%<v%>%<iv%>: PAST ;
+%<v%>%<iv%>: PAST-CONDITIONAL ;
+%<v%>%<iv%>: PAST-CONTINUOUS ;
+%<v%>%<iv%>: PRESENT-CONTINUOUS ;
+%<v%>%<iv%>: FUTURE-EVIDENTIAL ;
+%<v%>%<iv%>: EXHORTATIVE ;
+%<v%>%<iv%>: JUSSIVE ;
+%<v%>%<iv%>: AORIST-AR-PERFECT ;
+%<v%>%<iv%>: ABIL-AR-CONDITIONAL;
+%<v%>%<iv%>: DOUBLE-EVIDENTIAL;
+
+
+LEXICON V-IV-T-AR 
+
+%<v%>%<iv%>: CAUS-T-AR ;           ! CHECK
+%<v%>%<iv%>: AOR-AR;               ! CHECK
+%<v%>%<iv%>: REC-T-AR ;            ! CHECK
+%<v%>%<iv%>: REF-T-AR ;            ! CHECK
+%<v%>%<iv%>: AOR-IR-CONDITIONAL ;  ! CHECK
+%<v%>%<iv%>: ABIL-AR ;             ! CHECK
+%<v%>%<iv%>: FINITE-VERBS-AR ;     ! CHECK
 %<v%>%<iv%>: NEG ;
 %<v%>%<iv%>: NECE ;
 %<v%>%<iv%>: CONDITIONAL ;
@@ -13016,6 +13106,7 @@ oyala:oyala V-TV-T-IR  ; ! "put off"
 öyküle:öyküle V-TV-T-IR  ; ! "narrate"
 oyla:oyla V-TV-T-IR  ; ! "vote"
 oyna:oyna V-TV-T-IR  ; ! "play"
+oyna:oyna V-IV-T-IR  ; ! "play"
 öze:öze V-TV-T-IR  ; ! "be wordy"
 özetle:özetle V-TV-T-IR  ; ! "summary"
 özle:özle V-TV-T-IR  ; ! "miss"
@@ -13417,7 +13508,7 @@ utan:utan V-IV-DIR-IR  ; ! "shy"
 uyan:uyan V-IV-DIR-IR  ; ! "wake up"
 uyuş:uyuş V-IV-DIR-IR  ; ! "run in with"
 uzlaş:uzlaş V-IV-DIR-IR  ; ! "make a deal"
-var:var V-TV-DIR-IR  ; ! "arrive"
+var:var V-IV-DIR-IR  ; ! "arrive"            ! Takes dative "object", so is IV
 varol:varol V-IV-DIR-IR  ; ! "exist"
 vazgeç:vazgeç V-IV-DIR-AR  ; ! "give up"
 yağ:yağ V-IV-DIR-AR  ; ! "rain down on"
@@ -13484,7 +13575,7 @@ bileş:bileş V-IV-DIR-IR ; ! "consist"
 bilin:bilin V-IV-DIR-IR ; ! "be known"
 bilinçlen:bilinçlen V-IV-DIR-IR ; ! "become conscious"
 birik:birik V-IV-DIR-IR ; ! "consist"
-bit:bit V-IV-DIR-AR ; ! "finish"
+bit:bit V-IV-IR-AR ; ! "finish"
 böbürlen:böbürlen V-IV-DIR-IR ; ! "brag"
 bozul:bozul V-IV-DIR-IR ; ! "be destroyed"
 bulaş:bulaş V-IV-DIR-IR ; ! "be mixed up"
