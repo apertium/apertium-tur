@@ -50,4 +50,5 @@ tests/numeral-misc.yaml -text
 tests/qst-position.yaml -text
 tests/verb-classes.yaml -text
 tests/verbs-misc.yaml -text
+tests/verbs-passive.yaml -text
 tests/voicing.yaml -text

@@ -1,0 +1,37 @@
+Config: 
+  hfst: 
+    App:  hfst-lookup
+    Gen:  ../tur.autogen.hfst
+    Morph:  ../tur.automorf.hfst
+
+Tests:
+
+# başlan-, çiğnen-, isten-, korun-, oynan-, boyan-, yaşan-, söylen-, okun-, yıkan-
+  "[twol] passives after vowels":
+    ye<v><tv><pass><past><p3><sg> : yendi
+    çiğne<v><tv><pass><past><p3><sg> : çiğnendi
+    iste<v><tv><pass><past><p3><sg> : istendi
+    koru<v><tv><pass><past><p3><sg> : korundu
+    oyna<v><tv><pass><past><p3><sg> : oynandı
+    boya<v><tv><pass><past><p3><sg> : boyandı
+    yaşa<v><tv><pass><past><p3><sg> : yaşandı
+    oku<v><tv><pass><past><p3><sg> : okundu
+    yıka<v><tv><pass><past><p3><sg> : yıkandı
+
+  "[twol] passives after l without interceding vowel":
+    kal<v><tv><pass><past><p3><sg> : kalındı
+    çal<v><tv><pass><past><p3><sg> : çalındı
+    al<v><tv><pass><past><p3><sg> : alındı
+    sil<v><tv><pass><past><p3><sg> : silindi
+
+  "[twol] passives after l with interceding vowel":
+    başla<v><tv><pass><past><p3><sg> : başlandı
+    söyle<v><tv><pass><past><p3><sg> : söylendi
+    hazırla<v><tv><pass><past><p3><sg> : hazırlandı
+    sula<v><tv><pass><past><p3><sg> : sulandı
+
+  "[twol] passives after consonants":
+    sor<v><tv><pass><past><p3><sg> : soruldu
+    beğen<v><tv><pass><past><p3><sg> : beğenildi
+    çevir<v><tv><pass><past><p3><sg> : çevirildi
+    kullan<v><tv><pass><past><p3><sg> : kullanıldı
