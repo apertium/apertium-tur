@@ -41,6 +41,7 @@ eval/morph/README -text
 eval/morph/evaluate-morph.py -text
 eval/morph/ref.1000.txt -text
 eval/morph/src.1000.txt -text
+/modes.xml -text
 /parallel -text
 tests/epenthesis.yaml -text
 tests/irreg-vowelharmony.yaml -text
