@@ -41,6 +41,9 @@ Multichar_Symbols
 %<p2%>
 %<p3%>
 
+%<tv%>
+%<iv%>
+
 !! gender of anthroponyms 
 %<m%>              ! Masculine    
 %<f%>              ! Feminine     
@@ -151,12 +154,12 @@ Multichar_Symbols
 
 LEXICON Root
 
-ModalParticles ; 
-Copula ; 
+!ModalParticles ; 
+!Copula ; 
 Conjunctions ; 
 Titles ; 
 Postpositions ; 
-Postadverbs ;
+!Postadverbs ;
 Pronouns ; 
 Determiners ; 
 Numerals ; 
@@ -166,7 +169,7 @@ Adjectives ;
 Adverbs ; 
 Verbs ; 
 Interjections ; 
-Abbreviations ; 
+!Abbreviations ; 
 Punctuation ; 
 Digits ;  ! Use/Circ
 
@@ -513,13 +516,13 @@ LEXICON NP1-ANT-M
 
 %<np%>%<ant%>%<m%>%<nom%>: # ;
 %<np%>%<ant%>%<m%>:%' N-INFL-COMMON-NONOM ;
-%<np%>%<ant%>%<m%>%<attr%>: # ;
+!%<np%>%<ant%>%<m%>%<attr%>: # ;
 
 LEXICON NP1-ANT-F
 
 %<np%>%<ant%>%<f%>%<nom%>: # ;
 %<np%>%<ant%>%<f%>:%' N-INFL-COMMON-NONOM ;
-%<np%>%<ant%>%<f%>%<attr%>: # ;
+!%<np%>%<ant%>%<f%>%<attr%>: # ;
 
 LEXICON NP1-COG-MF
 
@@ -629,13 +632,14 @@ LEXICON PRON-DEM-BU
 
 LEXICON PRON-ITG-NERE
 
-%<prn%>%<itg%>%<gen%>:%>nin # ;
-%<prn%>%<itg%>%<dat%>:%>ye #  ;
-%<prn%>%<itg%>%<acc%>:%>yi # ;
-%<prn%>%<itg%>%<abl%>:%>den # ;
-%<prn%>%<itg%>%<loc%>:%>de # ;
-%<prn%>%<itg%>%<px%>:%>si CASE ;
-%<prn%>%<itg%>%<loc%>:%>deki ATTR-SUBST ;
+%<prn%>%<itg%>%<gen%>:%>enin # ;
+%<prn%>%<itg%>%<dat%>:%>eye #  ;
+%<prn%>%<itg%>%<acc%>:%>eyi # ;
+%<prn%>%<itg%>%<abl%>:%>eden # ;
+%<prn%>%<itg%>%<loc%>:%>ede # ;
+%<prn%>%<itg%>%<loc%>:%>de # ; ! Dir/LR
+%<prn%>%<itg%>%<px%>:%>esi CASE ;
+%<prn%>%<itg%>%<loc%>:%>edeki ATTR-SUBST ;
 
 LEXICON PRON-IND
 
@@ -653,7 +657,7 @@ niye:niye PRON-ITG-INFL ; ! "what"
 kim:kim PRON-ITG-INFL ; ! "who"
 hangi:hangi PRON-ITG-INFL ; ! "which"
 
-nere:nere PRON-ITG-NERE ; ! ""
+nere:ner PRON-ITG-NERE ; ! ""
 
 LEXICON PRON-QNT
 
@@ -1523,8 +1527,8 @@ LEXICON V-IV-IR-AR
 
 %<v%>%<iv%>: IV-CAUS-IR-AR ;      ! CHECK
 %<v%>%<iv%>: AOR-AR ;             ! CHECK
-%<v%>%<iv%>: IV-REC-IR-AR ;       ! CHECK
-%<v%>%<iv%>: IV-REF-IR-AR ;       ! CHECK
+!%<v%>%<iv%>: IV-REC-IR-AR ;       ! CHECK
+!%<v%>%<iv%>: IV-REF-IR-AR ;       ! CHECK
 %<v%>%<iv%>: ABIL-AR ;            ! CHECK
 %<v%>%<iv%>: FINITE-VERBS-AR ;    ! CHECK
 %<v%>%<iv%>: NEG ;
@@ -1677,7 +1681,7 @@ LEXICON V-IV-T-IR
 
 %<v%>%<iv%>: CAUS-T-IR ;
 %<v%>%<iv%>: AOR-IR;
-%<v%>%<iv%>: REC-T-IR ;
+!%<v%>%<iv%>: REC-T-IR ;
 %<v%>%<iv%>: REF-T-IR ;
 %<v%>%<iv%>: AOR-IR-CONDITIONAL ;
 %<v%>%<iv%>: ABIL-IR ;
@@ -1755,7 +1759,7 @@ LEXICON V-TV-T-IR
 
 %<v%>%<tv%>: CAUS-T-IR ;
 %<v%>%<tv%>: AOR-IR;
-%<v%>%<tv%>: REC-T-IR ;
+!%<v%>%<tv%>: REC-T-IR ;
 %<v%>%<tv%>: PASS-T-IR ;
 %<v%>%<tv%>: REF-T-IR ;
 %<v%>%<tv%>: AOR-IR-CONDITIONAL ;
@@ -2081,6 +2085,7 @@ hepsi:hepsi DET-QNT ; ! "all"
 bütün:bütün DET-QNT ; ! "every"
 
 bir:bir DET-IND ; ! "a, one"
+başka:başka DET-IND ; ! "other"
 birkaç:birkaç DET-IND ; ! "some"
 
 hiç% bir:hiç% bir DET-NEG ; ! ""
@@ -5774,6 +5779,7 @@ kızak:kızak N1 ; ! "sled"
 kızan:kızan N1 ; ! "boy"
 kızartı:kızartı N1 ; ! "rush"
 kızkardeş:kızkardeş N1 ; ! "sister"
+kız% kardeş:kız% kardeş N1 ; ! "sister"
 kız:kız N1 ; ! "girl"
 klakson:klakson N1 ; ! "horn"
 klan:klan N1 ; ! "clan"
@@ -8961,6 +8967,7 @@ Racan:Racan NP1-ANT-M ; ! ""
 ! Anthroponyms (girls)
 
 Sezgi:Sezgi NP1-ANT-F ; ! ""
+Ayşe:Ayşe NP1-ANT-F ; ! ""
 Jelena:Jelena NP1-ANT-F ; ! ""
 Maria:Maria NP1-ANT-F ; ! ""
 Anna:Anna NP1-ANT-F ; ! ""
@@ -12321,6 +12328,7 @@ değerli:değerli A1 ; ! "different"
 
 LEXICON Adverbs 
 
+bu% yüzden:bu% yüzden ADV3 ; ! ""
 
 bazen:bazen ADV3 ; ! "sometimes"
 defalarca:defalarca ADV3 ; ! "over and over"
@@ -12929,8 +12937,8 @@ kaydet:kaydet%{v%} V-TV-DIR-AR ; ! "save"
 kayır:kayır V-TV-DIR-IR ; ! "show favour"
 kaz:kaz V-TV-DIR-AR ; ! "dig"
 kazan:kazan V-TV-DIR-IR ; ! "win"
-kulluk% et:kulluk% et%{v%} V-TV-AR-IR ; ! "to serve"
-gi:gi V-TV-AR-AR ; ! "to put on"
+!kulluk% et:kulluk% et%{v%} V-TV-AR-IR ; ! "to serve"
+!gi:gi V-TV-AR-AR ; ! "to put on"
 iç:iç V-TV-IR-AR ; ! "drink"
 aş:aş V-TV-IR-AR ; ! "go beyond / exaggerate"
 geç:geç V-TV-IR-AR ; ! "pass"
@@ -13685,7 +13693,7 @@ kaydol:kaydol V-IV-DIR-IR ; ! "sign in"
 kaygılan:kaygılan V-IV-DIR-IR ; ! "worry about"
 kaynaklan:kaynaklan V-IV-DIR-IR ; ! "arise from"
 kaynaş:kaynaş V-IV-DIR-IR ; ! "teem"
-git:git%{v%} V-IV-AR-AR ; ! "go"
+!git:git%{v%} V-IV-AR-AR ; ! "go"
 art:art V-IV-IR-AR ; ! "increase"
 bat:bat V-IV-IR-AR ; ! "sink/fail"
 doğ:doğ V-IV-IR-AR ; ! "rise" "be born"
@@ -13820,16 +13828,16 @@ hayır:hayır INTERJ ; ! "no"
 
 LEXICON Punctuation
 
-.%<sent%>:. # ;
-..%<sent%>:.. # ;
-...%<sent%>:... # ;
+%.%<sent%>:%. # ;
+%.%.%<sent%>:%.%. # ;
+%.%.%.%<sent%>:%.%.%. # ;
 %;%<sent%>:%; # ;
 %:%<sent%>:%: # ;
 %!%<sent%>:%! # ;
 %-%<guio%>:%- # ;
 %—%<guio%>:%— # ;
 ,%<cm%>:, # ;
-%?%<sent%>:%? # ; 
+%?%<sent%>:%? # ;
 %'%<apos%>:%' # ;
 %"%<sent%>:%" # ;
 %«%<lquot%>:%« # ;
@@ -13840,8 +13848,10 @@ LEXICON Punctuation
 %]%<rpar%>:%] # ;
 %[%<lpar%>:%[ # ;
 %)%<rpar%>:%) # ;
-\%<sent%>:\ # ;
-/%<sent%>:/ # ;
+%\%<sent%>:%\ # ;
+%/%<sent%>:%/ # ;
+
+
 
 !==============!
  LEXICON Digits ! Use/Circ
@@ -13856,4 +13866,3 @@ LASTDIGIT-REST ; ! Use/Circ
 
 ! FIXME: We probably need a flag diacritic here, or an alternative '<percent>' lexicon
 %%:%% DIGITLEX ;  ! Use/Circ
-

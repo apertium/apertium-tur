@@ -113,6 +113,8 @@ Rules
 "Vowel {i} surfacing and harmonising"
 %{i%}:Vy <=>           [ :LastVowel :Cns* :Cns ] (:0) %>: _ [ %{L%}: | :Cns ]/[ :0 ]  ;
              [ :LastVowel [ :Cns* | %>: ] :Cns ] (:0) %>: _ [ %{L%}: | :Cns ]/[ :0 ]  ; ! oynatırım
+        except
+                                         [ AbstrVow:0 - %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
         where 
             LastVowel in ( i ü e ö ı u a o )
                    Vy in ( i ü i ü ı u ı u ) 
