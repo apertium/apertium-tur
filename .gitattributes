@@ -27,6 +27,7 @@ dev/miscategorised.lexc -text
 dev/numerals.txt -text
 dev/postpositions.txt -text
 dev/proof-lexicon.sh -text
+dev/tr-cv-phrases.txt -text
 dev/turkish.py -text
 dev/unknown -text
 dev/verb-morph.lexc -text
