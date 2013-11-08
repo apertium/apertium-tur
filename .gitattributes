@@ -11,10 +11,7 @@
 /apertium-tur.tur.rlx -text
 /apertium-tur.tur.twol -text
 /autogen.sh -text
-/checked.xae -text
 /configure.ac -text
-/coveragemac.sh -text
-/coveragescrhips -text
 dev/25072012-apertium-tur.tur.lexc -text
 dev/25072012-apertium-tur.tur.rlx -text
 dev/25072012-apertium-tur.tur.twol -text
@@ -23,8 +20,11 @@ dev/adv.checked -text
 dev/adverbs.lex -text
 dev/checked.xae -text
 dev/countstems.sh -text
+dev/coveragemac.sh -text
+dev/coveragescrhips -text
 dev/miscategorised.lexc -text
 dev/numerals.txt -text
+dev/parallel -text
 dev/postpositions.txt -text
 dev/proof-lexicon.sh -text
 dev/tr-cv-phrases.txt -text
@@ -43,7 +43,6 @@ eval/morph/evaluate-morph.py -text
 eval/morph/ref.1000.txt -text
 eval/morph/src.1000.txt -text
 /modes.xml -text
-/parallel -text
 tests/epenthesis.yaml -text
 tests/irreg-vowelharmony.yaml -text
 tests/nouns-misc.yaml -text
