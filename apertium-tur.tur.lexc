@@ -1944,7 +1944,7 @@ da:da CC ; ! ""
 da:de CC ; ! "" ! Dir/LR
 fakat:fakat CC ; ! ""
 ya% da:ya% da CC ; ! ""
-ya da:ya da CC ; 
+ya% da:ya% da CC ; 
 ama:ama CC ; 
 ancak:ancak CC ; 
 ve:ve CC ; 
@@ -2007,7 +2007,7 @@ olsun:olsun CA ;
 örneğin:örneğin CA ; 
 öyleyse:öyleyse CA ; 
 oysa:oysa CA ; 
-oysa ki:oysa ki CA ; 
+oysa% ki:oysa% ki CA ; 
 oysaki:oysaki CA ; 
 peki:peki CA ; 
 sonra:sonra CA ; 
@@ -8495,7 +8495,7 @@ Ankaraspor:Ankaraspor NP1-ORG ; ! ""
 Fatih% Karagümrük:Fatih% Karagümrük NP1-ORG ; ! ""
 Giresunspor:Giresunspor NP1-ORG ; ! ""
 İstanbul% Büyükşehir% Belediyespor:İstanbul% Büyükşehir% Belediyespor NP1-ORG ; ! ""
-Kardemir Karabükspor NP1-ORG ; ! ""
+Kardemir% Karabükspor:Kardemir% Karabükspor NP1-ORG ; ! ""
 Manisaspor:Manisaspor NP1-ORG ; ! ""
 Vanspor:Vanspor NP1-ORG ; ! ""
 Zeytinburnuspor:Zeytinburnuspor NP1-ORG ; ! ""
@@ -12592,7 +12592,7 @@ gerisingeriye:gerisingeriye  ADV2 ; ! "backwards"
 gitgide:gitgide  ADV2 ; ! "gradually"
 gıyaben:gıyaben  ADV2 ; ! "inabsentia"
 hakimane:hakimane  ADV2 ; ! "philosophically"
-halisane:halisane ADV2 ! "sincerely"
+halisane:halisane ADV2 ; ! "sincerely"
 ilk:İlk ADV2 ; ! "first" ! Dir/LR
 ilk:ilk ADV2 ; ! "first"
 irticalen:irticalen ADV2 ; ! "impromptu"
@@ -12661,7 +12661,7 @@ gerçekleş:gerçekleş%{v%} V-IV-DIR-IR ; ! "to materialize"
 aç:aç V-TV-DIR-AR ; ! "open"
 kes:kes V-TV-DIR-AR ; ! "cut"
 et:et%{v%} V-TV-DIR-AR ; ! "make"
-teşekkür% et:teşekkür et%{v%}  V-TV-DIR-AR ; ! "thank"
+teşekkür% et:teşekkür% et%{v%}  V-TV-DIR-AR ; ! "thank"
 eş:eş V-TV-DIR-AR ; ! "scratch"
 kabul% et:kabul% et%{v%} V-TV-DIR-AR ; ! "admit, acknowledge" ! Use/MT
 istifa% et:istifa% et%{v%} V-TV-DIR-AR ; ! "resign"
@@ -13451,7 +13451,7 @@ on:on V-IV-DIR-AR  ; ! "be happy"
 onurlan:onurlan V-IV-DIR-IR  ; ! "be honoured"
 öt:öt V-IV-DIR-AR  ; ! "warble"
 övün:övün V-IV-DIR-IR  ; ! "brag about"
-oy:oy al V-IV-DIR-IR  ; ! "receive vote"
+oy% al:oy% al V-IV-DIR-IR  ; ! "receive vote"
 oy% ver:oy% ver V-IV-DIR-IR  ; ! "vote"
 pasta% yap:pasta% yap V-IV-DIR-AR  ; ! "make a cake"
 pekiş:pekiş V-IV-DIR-IR  ; ! "solidify"
@@ -13523,8 +13523,8 @@ yağ:yağ V-IV-DIR-AR  ; ! "rain down on"
 yakar:yakar V-IV-DIR-IR  ; ! "invoke"
 !yakın:yakın V-IV-DIR-IR  ; ! "complain"
 yakış:yakış V-IV-DIR-IR  ; ! "become, befit"
-yaklaş:yaklaş V-IV-DIR-IR  ; ! "approach"
-yan:yan V-IV-DIR-AR  ; ! "burn, take fire"
+yaklaş:yaklaş V-IV-DIR-IR ; ! "approach"
+yan:yan V-IV-DIR-AR ; ! "burn, take fire"
 yanaş:yanaş V-IV-DIR-IR  ; ! "lend oneself to"
 yapış:yapış V-IV-DIR-IR  ; ! "adhere"
 yararlan:yararlan V-IV-DIR-IR  ; ! "benefit from"
@@ -13535,7 +13535,7 @@ yatış:yatış V-IV-DIR-IR  ; ! "quiet down"
 yelten:yelten V-IV-DIR-IR  ; ! "attempt"
 yerin:yerin V-IV-DIR-IR  ; ! "be sorry"
 yerleş:yerleş V-IV-DIR-IR  ; ! "settle"
-yer:yer ver V-IV-DIR-IR  ; ! "give place to"
+yer% ver:yer% ver V-IV-DIR-IR  ; ! "give place to"
 yet:yet V-IV-DIR-AR  ; ! "suffice"
 yetin:yetin V-IV-DIR-IR  ; ! "confine oneself to"
 yetiş:yetiş V-IV-DIR-IR  ; ! "catch up with"
