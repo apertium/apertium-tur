@@ -100,6 +100,7 @@ Multichar_Symbols
 %<caus%>           ! Causative
 %<pass%>           ! Passive
 %<coop%>           ! Cooperative
+%<rec%>            ! Reciprocal (?)
 
 %<pres%>           ! -{A}
 %<past%>           ! -{D}{I} 
