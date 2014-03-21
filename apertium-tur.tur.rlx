@@ -104,3 +104,7 @@ REMOVE N + Nom IF (0 Attr OR Nom) (1C Nom) ;
 
 SELECT Attr (0 Nom) (1C Px3Sp + Nom) ; 
     ## Girit Üniversitesi ekonomi öğretim üyesi ve ...
+
+SELECT Post IF
+	(-1C N)
+	## hayat dolu

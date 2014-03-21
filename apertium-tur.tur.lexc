@@ -319,12 +319,12 @@ LEXICON COPULA-LOCATIVE
 LEXICON V-PERS-COP
 
 %+i%<cop%>%<pres%>: V-PERS-COP-G2-NOSG3-FINAL ;
-%+i%<cop%>%<past%>:%>%{y%}%{D%}%{I%} PERS3 ;
+%+i%<cop%>%<ifi%>:%>%{y%}%{D%}%{I%} PERS3 ;
 
 LEXICON V-NOPERS-COP
 
 %+i%<cop%>%<pres%>: V-PERS-COP-G2-NOSG3-FINAL ;
-%+i%<cop%>%<past%>:%>%{D%}%{I%} PERS3 ;
+%+i%<cop%>%<ifi%>:%>%{D%}%{I%} PERS3 ;
 
 LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears only
                         ! after nominal parts of speech (and only after some cases).
@@ -334,7 +334,7 @@ V-PERS-COP ;
 
 LEXICON CLIT-NOPERS
 
-CLIT-NOPERS ;
+!!! CLIT-NOPERS ;  ! FIXME:Cyclic
 V-NOPERS-COP ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1898,6 +1898,7 @@ haline:haline POST ; ! "into"
 uyarınca:uyarınca POST; ! "according to"
 kala:kala POST ; ! "til"
 edici:edici POST ; ! @@@ really weird behaviour
+dolu:dolu POST ; ! "for the/an entire" (e.g. "hayat dolu")
 
 ! Genıtıve
 
@@ -7147,6 +7148,7 @@ nutuk:nutuk N1 ; ! "sermon"
 nutuk:nutuk N1 ; ! "speech"
 nüve:nüve N1 ; ! "core"
 nüve:nüve N1 ; ! "soul"
+öğretmen:öğretmen N1 ; ! "teacher"
 ölçü:ölçü N1 ; ! "measure"
 ömür:ömür N1 ; ! "life"
 omuz:omuz N1 ; ! "shoulder"
@@ -7450,7 +7452,8 @@ yaşam:yaşam N1 ; ! "life"
 stand:stand N1 ; ! "stand"
 gemi:gemi N1 ; ! "boat"
 
-
+!! JNW Nouns
+vücud:vücud N1 ; ! "body"
 
 
 
