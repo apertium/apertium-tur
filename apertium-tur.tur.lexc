@@ -47,6 +47,7 @@ Multichar_Symbols
 !! gender of anthroponyms 
 %<m%>              ! Masculine    
 %<f%>              ! Feminine     
+%<mf%>             ! Either
 
 ! "Syntactic" tags. Attributive use of non-adjectives etc. !!!!! NOT SURE I WANT THIS !!!!
 %<attr%>           ! Attributive
@@ -8834,6 +8835,7 @@ Mirsad:Mirsad NP1-ANT-M ; ! ""
 Mladen:Mladen NP1-ANT-M ; ! ""
 Mladjan:Mladjan NP1-ANT-M ; ! ""
 Momcilo:Momcilo NP1-ANT-M ; ! ""
+Mori:Mori NP1-ANT-M ; ! ""
 Muhammed:Muhammed NP1-ANT-M ; ! ""
 Mustafa:Mustafa NP1-ANT-M ; ! ""
 Nejat:Nejat NP1-ANT-M ; ! ""
@@ -9049,6 +9051,7 @@ Burns:Burns NP1-COG-MF ; ! ""
 Powell:Powell NP1-COG-MF ; ! ""
 Simitis:Simitis NP1-COG-MF ; ! ""
 Schwarz:Schwarz NP1-COG-MF ; ! ""
+Schwartz:Schwartz NP1-COG-MF ; ! ""
 Steiner:Steiner NP1-COG-MF ; ! ""
 Dink:Dink NP1-COG-MF ; ! ""
 Chirac:Chirac NP1-COG-MF ; ! ""
