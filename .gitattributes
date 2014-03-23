@@ -22,6 +22,7 @@ dev/checked.xae -text
 dev/countstems.sh -text
 dev/coveragemac.sh -text
 dev/coveragescrhips -text
+dev/editdist.py -text
 dev/miscategorised.lexc -text
 dev/numerals.txt -text
 dev/parallel -text
@@ -43,6 +44,10 @@ eval/morph/evaluate-morph.py -text
 eval/morph/ref.1000.txt -text
 eval/morph/src.1000.txt -text
 /modes.xml -text
+speller/editdist.default.txt -text
+speller/index.xml -text
+speller/strings.default.txt -text
+speller/words.default.txt -text
 tests/epenthesis.yaml -text
 tests/irreg-vowelharmony.yaml -text
 tests/nouns-misc.yaml -text
