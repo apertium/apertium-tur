@@ -18,6 +18,8 @@ LIST Interj = ij ;
 LIST Post = post ; 
 LIST Cop = cop ; 
 
+LIST Sg2 = (prn pers p2 sg) ;
+
 LIST Px3Sp = px3sp ; 
 LIST Px2Sg = px2sg ; 
 
@@ -36,6 +38,7 @@ LIST Recip = rec ;
 LIST Caus = caus ; 
 
 LIST Ger = ger1 ger2 ger3 ; 
+LIST Finite = evid ifi past aor pres ;
 
 LIST Imper = imp ; 
 
@@ -105,6 +108,15 @@ REMOVE N + Nom IF (0 Attr OR Nom) (1C Nom) ;
 SELECT Attr (0 Nom) (1C Px3Sp + Nom) ; 
     ## Girit Üniversitesi ekonomi öğretim üyesi ve ...
 
+
+SECTION
+
 SELECT Post IF
 	(-1C N)
 	## hayat dolu
+
+SELECT Finite IF (1 EOS) ;
+	# as opposed to Ger readings
+
+REMOVE Px2Sg IF (NOT -1* Sg2 BARRIER N) ;
+	# 1994'te vücudunda bir gariplik hissetmiş.

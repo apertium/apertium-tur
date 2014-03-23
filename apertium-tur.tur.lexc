@@ -104,8 +104,8 @@ Multichar_Symbols
 %<rec%>            ! Reciprocal (?)
 
 %<pres%>           ! -{A}
-%<past%>           ! -{D}{I} 
-%<evi%>            ! -m{I}s 
+%<ifi%>            ! -{D}{I} 
+%<past%>           ! -m{I}s 
 %<fut%>		   ! -{A}C{A}{K}
 %<pcont%>          ! 
 
@@ -1281,7 +1281,7 @@ LEXICON FUTURE-CONDITIONAL
 
 LEXICON PAST
 
-%<past%>:%>%{D%}%{I%} PERS2 ;
+%<ifi%>:%>%{D%}%{I%} PERS2 ;
 
 LEXICON PAST-CONDITIONAL
 
@@ -1289,8 +1289,8 @@ LEXICON PAST-CONDITIONAL
 
 LEXICON EVIDENTIAL-PAST
 
-%<evid%>:%>m%{I%}ş PERS1 ;
-%<evid%>:%>m%{I%}ş KEN ;
+%<past%>:%>m%{I%}ş PERS1 ;
+%<past%>:%>m%{I%}ş KEN ;
 
 
 LEXICON DOUBLE-EVIDENTIAL
@@ -4027,6 +4027,7 @@ garez:garez N1 ; ! "animosity"
 gargara:gargara N1 ; ! "gargle"
 gar:gar N1 ; ! "station"
 garip:garip N1 ; ! "exotism"
+gariplik:gariplik N1 ; ! "strangeness"
 gark:gark N1 ; ! "drowning"
 garnizon:garnizon N1 ; ! "garrison"
 garp:garp N1 ; ! "west"
