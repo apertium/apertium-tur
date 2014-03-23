@@ -116,6 +116,16 @@ Multichar_Symbols
 %<ger5%>           !
 %<ger6%>           !
 
+%<sent%>      ! Sentence marker
+%<guio%>      ! Hyphen
+%<cm%>        ! Comma
+%<apos%>      ! Apostrophe
+%<rquot%>     ! Quote marker (right hand side)
+%<lquot%>     ! Quote marker (left hand side)
+%<rpar%>      ! Parenthetical marker (right hand side)
+%<lpar%>      ! Parenthetical marker (left hand side)
+
+
 %{A%}              ! Becomes 'a' or 'e' 
 %{I%}              ! Becomes 'i', 'ı' 'ü", or "u"
 %{D%}		   ! Becomes "d" or "t" - fistikci sahap
