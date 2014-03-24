@@ -103,7 +103,6 @@ Multichar_Symbols
 %<coop%>           ! Cooperative
 %<rec%>            ! Reciprocal (?)
 
-%<pres%>           ! -{A}
 %<ifi%>            ! -{D}{I} 
 %<past%>           ! -m{I}s 
 %<fut%>		   ! -{A}C{A}{K}
@@ -325,17 +324,17 @@ LEXICON COPULA-LOCATIVE
 
 !this is the copula which can go after nouns in locative cases and after adjectives. "to be in sometihng" "to be something"
 
-%<cop%>%<pres%>: PERS-COP-PRES ; 
+%<cop%>%<aor%>: PERS-COP-PRES ; 
 
 
 LEXICON V-PERS-COP
 
-%+i%<cop%>%<pres%>: V-PERS-COP-G2-NOSG3-FINAL ;
+%+i%<cop%>%<aor%>: V-PERS-COP-G2-NOSG3-FINAL ;
 %+i%<cop%>%<ifi%>:%>%{y%}%{D%}%{I%} PERS3 ;
 
 LEXICON V-NOPERS-COP
 
-%+i%<cop%>%<pres%>: V-PERS-COP-G2-NOSG3-FINAL ;
+%+i%<cop%>%<aor%>: V-PERS-COP-G2-NOSG3-FINAL ;
 %+i%<cop%>%<ifi%>:%>%{D%}%{I%} PERS3 ;
 
 LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears only
@@ -831,7 +830,7 @@ PERS-COP-PRES ;
 
 LEXICON COPULA
 %+i%<cop%>:%{y%} COPULA-TNS ;
-%+i%<cop%>%<pres%>:% m%{I%} PERS-COP-PRES-MI ;
+%+i%<cop%>%<aor%>:% m%{I%} PERS-COP-PRES-MI ;
 
 LEXICON PERS-COP-PRES-MI
 
