@@ -1,0 +1,13 @@
+Config: 
+  hfst: 
+    App:  hfst-optimised-lookup
+    Gen:  ../tur.autogen.hfst
+    Morph:  ../tur.automorf.hfst
+
+Tests:
+
+ "[twol] forms of etmek":
+    et<v><tv><aor><p3><sg> : eder
+    et<v><tv><aor><p1><sg> : ederim
+    et<v><tv><ifi><p1><sg> : ettim
+    et<v><tv><pass><cont><p3><sg> : ediliyor

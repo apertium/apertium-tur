@@ -49,6 +49,7 @@ speller/index.xml -text
 speller/strings.default.txt -text
 speller/words.default.txt -text
 tests/epenthesis.yaml -text
+tests/etmek.yaml -text
 tests/irreg-vowelharmony.yaml -text
 tests/nouns-misc.yaml -text
 tests/np-misc.yaml -text
