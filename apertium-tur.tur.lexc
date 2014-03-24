@@ -111,7 +111,7 @@ Multichar_Symbols
 %<inf%>
 
 %<ger1%>           !
-%<ger2%>           !
+%<ger_past%>           !
 %<ger3%>           !
 %<ger4%>           !
 %<ger5%>           !
@@ -1398,7 +1398,7 @@ LEXICON EXHORTATIVE
 LEXICON GERUND
 
 %<ger1%>:%>m%{A%} SUBST ;
-%<ger2%>:%>%{D%}%{I%}k%{v%} SUBST ;
+%<ger_past%>:%>%{D%}%{I%}k%{v%} SUBST ;
 %<ger3%>:%>%{I%}ş SUBST ;
 %<ger4%>:%>%{y%}%{A%}c%{A%}k%{v%} SUBST ;
 %<ger5%>:%>%{y%}%{A%}n SUBST ;
@@ -13918,10 +13918,12 @@ kara:kara V-IV-T-IR ; ! "brown"
 kayna:kayna V-IV-T-IR ; ! "boil"
 
 !! JNW Verbs
-şaşır V-IV-T-IR ; ! "to be surprised"
-üne% kavuş V-IV-DIR-IR ; ! "to become famous" ! Use/MT ! FIXME: Check IR/DIR
-değer% ver V-TV-DIR-IR  ; ! "appreciate"
-kahvaltı% et V-IV-DIR-AR ; ! "have breakfast" ! Use/MT
+şaşır:şaşır V-IV-T-IR ; ! "to be surprised"
+üne% kavuş:üne% kavuş V-IV-DIR-IR ; ! "to become famous" ! Use/MT ! FIXME: Check IR/DIR
+değer% ver:değer% ver V-TV-DIR-IR  ; ! "appreciate"
+kahvaltı% et:kahvaltı% et V-IV-DIR-AR ; ! "have breakfast" ! Use/MT
+dans% et:dans% et V-IV-DIR-AR ; ! Use/MT
+davet% et:davet% et V-TV-DIR-AR ; ! Use/MT
 
 
 

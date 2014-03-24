@@ -128,6 +128,11 @@ SELECT Post IF
 SELECT Finite IF (1 EOS) ;
 	# as opposed to Ger readings
 
+REMOVE N IF
+	(0 Finite)
+	(1 MARK) ;
+	# kahvaltı eder
+
 REMOVE Px2Sg IF (NOT -1* Sg2 BARRIER N) ;
 	# 1994'te vücudunda bir gariplik hissetmiş.
 
