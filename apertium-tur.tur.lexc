@@ -704,13 +704,19 @@ LEXICON PRON-REF
 ! Root Lexicon
 
 
-%<prn%>%<ref%>%<p1%>%<sg%>:%>%{I%}m PRON-REF-ADV ;
-%<prn%>%<ref%>%<p2%>%<sg%>:%>%{I%}n PRON-REF-ADV ;
-%<prn%>%<ref%>%<p3%>%<sg%>:%>%{s%}%{I%}%{pN%} PRON-REF-ADV ;
-%<prn%>%<ref%>%<p1%>%<pl%>:%>%{I%}m%{I%}z PRON-REF-ADV ;
-%<prn%>%<ref%>%<p2%>%<pl%>:%>%{I%}n%{I%}z PRON-REF-ADV ;
-%<prn%>%<ref%>%<p3%>%<pl%>:%>l%{A%}r%>%{I%}%{pN%} PRON-REF-ADV ;
-%<prn%>%<ref%>: # ;
+!%<prn%>%<ref%>%<p1%>%<sg%>:%>%{I%}m PRON-REF-ADV ;
+!%<prn%>%<ref%>%<p2%>%<sg%>:%>%{I%}n PRON-REF-ADV ;
+!%<prn%>%<ref%>%<p3%>%<sg%>:%>%{s%}%{I%}%{pN%} PRON-REF-ADV ;
+!%<prn%>%<ref%>%<p1%>%<pl%>:%>%{I%}m%{I%}z PRON-REF-ADV ;
+!%<prn%>%<ref%>%<p2%>%<pl%>:%>%{I%}n%{I%}z PRON-REF-ADV ;
+!%<prn%>%<ref%>%<p3%>%<pl%>:%>l%{A%}r%>%{I%}%{pN%} PRON-REF-ADV ;
+!%<prn%>%<ref%>: # ;
+
+
+%<prn%>%<ref%>: POSS-REAL ;
+%<prn%>%<ref%>%<pl%>:%>%{L%}%{A%}р POSS-REAL ; 
+
+
 
 LEXICON PRON-ADV 
 
@@ -1861,6 +1867,10 @@ LEXICON POST
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON DET-REF
+
+%<det%>%<ref%>: # ;
+
 LEXICON DET-DEM
 
 %<det%>%<dem%>: # ;
@@ -2105,6 +2115,7 @@ birkaç:birkaç DET-IND ; ! "some"
 
 hiç% bir:hiç% bir DET-NEG ; ! ""
 
+kendi:kendi DET-REF ; ! ""
 birkaç% tane:birkaç% tane DET-QNT ; ! "some units"
 birtakım:birtakım DET-QNT ; ! "several"
 birçok:birçok DET-QNT ; ! "a lot of"
