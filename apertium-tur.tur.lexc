@@ -489,6 +489,19 @@ LEXICON N6 ! Languages which aren't nationalities
 %<n%>%<attr%>: # ;
 %<n%>%<advl%>: # ;
 
+LEXICON N-COMPOUND-PX-COMMON
+
+:%>%{S%}%{I%}%{n%} CASE-ETC ;
+POSS-REAL ;   ! for stuff like "биздин аба ырайыбыз" and even "анын аба ырайы",
+              ! which should have a <px3sp> analysis
+
+
+LEXICON N-INFL-3PX-COMPOUND
+
+%<n%>: N-COMPOUND-PX-COMMON ;
+%<n%>%<pl%>:%>%{L%}%{A%}р%>%{S%}%{I%}%{n%} CASE-ETC ;
+
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -7495,7 +7508,8 @@ taksit:taksit N1 ; ! "(loan/debt) payment"
 yemek:yemek%{v%} N1 ; ! "food"
 öğle% yemek:öğle% yemek%{v%} N1 ; ! "lunch"
 ölüm:ölüm N1 ; ! "death"
-
+sevgi:sevgi N1 ; ! "love"
+dünyanın% dört% bir% yanı:dünyanın% dört% bir% yan N-INFL-3PX-COMPOUND ; ! 
 
 
 
@@ -8353,6 +8367,7 @@ The% Times:The% Times NP1-ORG ; ! ""
 STK:STK{ii%} NP1-ORG ; ! ""
 PfP:PfP%{ii%} NP1-ORG ; ! ""
 
+ABC:ABC{ii%} NP1-ORG ; ! "ABC"
 AKP:AKP{ii%} NP1-ORG ; ! ""
 AP:AP{ii%} NP1-ORG ; ! ""
 VMRO:VMRO NP1-ORG ; ! ""
@@ -13878,6 +13893,7 @@ kayna:kayna V-IV-T-IR ; ! "boil"
 
 !! JNW Verbs
 şaşır V-IV-T-IR ; ! "to be surprised"
+üne% kavuş V-IV-DIR-IR ; ! "to become famous" ! Use/MT ! FIXME: Check IR/DIR
 
 
 LEXICON Interjections 
