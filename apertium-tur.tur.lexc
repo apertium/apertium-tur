@@ -835,13 +835,13 @@ LEXICON COPULA
 
 LEXICON PERS-COP-PRES-MI
 
-%<p1%>%<sg%>%+%mi%<qst%>:%>%{y%}%{I%}m  # ;
-%<p2%>%<sg%>%+%mi%<qst%>:%>s%{I%}n  # ;
-%<p3%>%<sg%>%+%mi%<qst%>:%>%{D%}%{I%}r  # ;
-%<p3%>%<frm%>%<sg%>%+%mi%<qst%>:%>%{D%}%{I%}r  # ;
-%<p1%>%<pl%>%+%mi%<qst%>:%>%{y%}%{I%}z  # ;
-%<p2%>%<pl%>%+%mi%<qst%>:%>s%{I%}n%{I%}z  # ;
-%<p3%>%<pl%>%+%mi%<qst%>:%>l%{A%}r  # ;
+%<p1%>%<sg%>%+%mı%<qst%>:%>%{y%}%{I%}m  # ;
+%<p2%>%<sg%>%+%mı%<qst%>:%>s%{I%}n  # ;
+%<p3%>%<sg%>%+%mı%<qst%>:%>%{D%}%{I%}r  # ;
+%<p3%>%<frm%>%<sg%>%+%mı%<qst%>:%>%{D%}%{I%}r  # ;
+%<p1%>%<pl%>%+%mı%<qst%>:%>%{y%}%{I%}z  # ;
+%<p2%>%<pl%>%+%mı%<qst%>:%>s%{I%}n%{I%}z  # ;
+%<p3%>%<pl%>%+%mı%<qst%>:%>l%{A%}r  # ;
 
 LEXICON PERS-COP-PRES
 
