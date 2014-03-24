@@ -108,6 +108,8 @@ Multichar_Symbols
 %<past%>           ! -m{I}s 
 %<fut%>		   ! -{A}C{A}{K}
 %<pcont%>          ! 
+%<aor%>
+%<inf%>
 
 %<ger1%>           !
 %<ger2%>           !
@@ -2554,6 +2556,7 @@ akıbet:akıbet N1 ; ! "event"
 akıcılık:akıcılık%{v%} N1 ; ! "smoothness"
 akide:akide N1 ; ! "belief"
 akıl:akıl N1 ; ! "mente"
+akıl:ak%{u%}l N1 ; ! "mente" ! Dir/LR
 akım:akım N1 ; ! "flow"
 akın:akın N1 ; ! "invasion"
 akıntı:akıntı N1 ; ! "current"
@@ -7465,9 +7468,14 @@ gemi:gemi N1 ; ! "boat"
 
 !! JNW Nouns
 vücud:vücud N1 ; ! "body"
-
-
-
+tekerlek:tekerlek N1 ; ! "wheel"
+bakıcı:bakıcı N1 ; ! "nurse/caregiver"
+bebeklik:bebeklik N1 ; ! "state of being a baby"
+popo:popo N1 ; ! "butt, bottom"
+ayrıntı:ayrıntı N1 ; ! "detail"
+!bütün ayrıntı N1 ; ! "all detail(s..)" ! Use/MT
+uyku:uyku N1 ; ! "sleep"
+vakit:vak%{fi%}%{u%}t N1 ; ! "time"
 
 
 
@@ -12343,6 +12351,8 @@ gereken:gereken A4 ;  ! ""
 kısa:kısa A1 ; ! "short"
 değerli:değerli A1 ; ! "different"
 
+!! JNW Adjectives
+tekerlekli:tekerlekli A3 ; ! "wheeled"
 
 LEXICON Adverbs 
 

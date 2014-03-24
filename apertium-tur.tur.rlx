@@ -19,8 +19,10 @@ LIST Post = post ;
 LIST Cop = cop ; 
 
 LIST Sg2 = (prn pers p2 sg) ;
+LIST Pl3 = (prn pers p3 pl) ;
 
 LIST Px3Sp = px3sp ; 
+LIST Px3Pl = px3pl ; 
 LIST Px2Sg = px2sg ; 
 
 LIST Nom = nom ; 
@@ -120,3 +122,8 @@ SELECT Finite IF (1 EOS) ;
 
 REMOVE Px2Sg IF (NOT -1* Sg2 BARRIER N) ;
 	# 1994'te vücudunda bir gariplik hissetmiş.
+
+REMOVE Px3Pl IF (NOT -1* Pl3 BARRIER N) ;
+	# 60'lık vücudu artık dans _derslerini_ kaldıramayacak kadar bitkinleşmiş.
+
+
