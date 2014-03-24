@@ -790,20 +790,24 @@ LEXICON ADV3
 !! Adjective paradigms
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+LEXICON ADJ-CLIT
+
+CLIT-NOPERS ;
+
 LEXICON A1
 
-%<adj%>: # ; 
+%<adj%>: ADJ-CLIT ; 
 %<adj%>%<subst%>: SUBST ;
 %<adj%>%<advl%>: # ;
 
 LEXICON A2
 
-%<adj%>: # ;
+%<adj%>: ADJ-CLIT ;
 %<adj%>%<subst%>: SUBST ;
 
 LEXICON A3
 
-%<adj%>: # ;
+%<adj%>: ADJ-CLIT ;
 %<adj%>%<advl%>: # ;
 
 LEXICON A4
