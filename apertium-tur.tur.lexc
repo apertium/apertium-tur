@@ -2351,7 +2351,7 @@ dolarlık:dolarlık N1 ; ! "dollar"
 örgüt:örgüt N1 ; ! "organization"
 ihlal:ihlal N1 ; ! "invasion"
 olay:olay N1 ; ! "event"
-röportaj:röportajda N1 ; ! "reportage"
+röportaj:röportaj N1 ; ! "interview"
 puan:puan N1 ; ! "score"
 verici:verici N1 ; ! "donor"
 arşiv:arşiv N1 ; ! "archive"
@@ -3395,7 +3395,7 @@ cop:cop N1 ; ! "nightstick"
 çöplük:çöplük%{v%} N1 ; ! "trash"
 çorap:çorap N1 ; ! "socks"
 çorba:çorba N1 ; ! "soup"
-çörek:çörek N1 ; ! "cake"
+çörek:çörek N1 ; ! "scone/pastry"
 dadı:dadı N1 ; ! "nanny"
 dağarcık:dağarcık N1 ; ! "wallet"
 dağdağa:dağdağa N1 ; ! "rumble"
@@ -5296,7 +5296,7 @@ jet:jet N1 ; ! "jet"
 jeton:jeton N1 ; ! "token"
 jilet:jilet N1 ; ! "blade"
 jilet:jilet N1 ; ! "razor"
-jimnastik:jimnastik N1 ; ! "gym"
+jimnastik:jimnastik%{v%} N1 ; ! "gym"
 jip:jip N1 ; ! "jeep"
 joker:joker N1 ; ! "joker"
 joker:joker N1 ; ! "wildcard"
@@ -7394,6 +7394,7 @@ piyasa:piyasa N1 ; ! "piazza" as in the market
 pratik:pratik N1 ; ! "practice"
 haftalık:haftalık%{v%} N1 ; ! "week"
 yolcu:yolcu N1 ; ! "passenger"
+yolculuk:yolculuk N1 ; ! "trip,voyage"
 sene:sene N1 ; ! "year"
 pilot:pilot N1 ; ! "pilot""
 yorum:yorum N1 ; ! "interpretation"
@@ -7487,7 +7488,13 @@ ayrıntı:ayrıntı N1 ; ! "detail"
 !bütün ayrıntı N1 ; ! "all detail(s..)" ! Use/MT
 uyku:uyku N1 ; ! "sleep"
 vakit:vak%{fi%}%{u%}t N1 ; ! "time"
-
+sunucu:sunucu N1 ; ! "MC, host"
+rahatlık:rahatlık N1 ; ! "pleasure"
+taksit:taksit N1 ; ! "(loan/debt) payment"
+öğle:öğle N1 ; ! "noon"
+yemek:yemek%{v%} N1 ; ! "food"
+öğle% yemek:öğle% yemek%{v%} N1 ; ! "lunch"
+ölüm:ölüm N1 ; ! "death"
 
 
 
@@ -8998,6 +9005,8 @@ Bozidar:Bozidar NP1-ANT-M ; ! ""
 Süleyman:Süleyman NP1-ANT-M ; ! ""
 Boyko:Boyko NP1-ANT-M ; ! ""
 Racan:Racan NP1-ANT-M ; ! ""
+Ted:Ted NP1-ANT-M ; ! "Ted"
+Mitch:Mitch NP1-ANT-M ; ! "Mitch"
 
 
 ! Anthroponyms (girls)
@@ -11108,6 +11117,8 @@ Ecevit:Ecevit NP1-COG-MF ; ! ""
 Hisarcıklıoğlu:Hisarcıklıoğlu NP1-COG-MF ;  ! ""
 Holkeri:Holkeri NP1-COG-MF ; ! ""
 Ki-moon:Ki-moon NP1-COG-MF ; ! ""
+Koppel:Koppe%{ı%}l NP1-COG-MF ; ! "Koppel"
+Albom:Albom NP1-COG-MF ; ! "Albom"
 
 LEXICON Adjectives
 
@@ -12364,6 +12375,7 @@ değerli:değerli A1 ; ! "different"
 
 !! JNW Adjectives
 tekerlekli:tekerlekli A3 ; ! "wheeled"
+ilginç:ilginç A1 ; ! "interesting"  ! FIXME: CHECK A1
 
 LEXICON Adverbs 
 
@@ -12684,6 +12696,10 @@ yine:yine ADV3 ; ! "again"
 yukarı:yukarı ADV3 ; ! "up"
 zaten:zaten ADV3 ; ! "already"
 tekrar:tekrar ADV3 ; ! "again"
+
+!! JNW Adverbs
+
+sade:sade ADV3 ; ! "only/just"
 
 
 LEXICON Verbs 
@@ -13859,6 +13875,9 @@ inle:inle V-IV-T-IR ; ! "sough"
 kana:kana V-IV-T-IR ; ! "bleed"
 kara:kara V-IV-T-IR ; ! "brown"
 kayna:kayna V-IV-T-IR ; ! "boil"
+
+!! JNW Verbs
+şaşır V-IV-T-IR ; ! "to be surprised"
 
 
 LEXICON Interjections 
