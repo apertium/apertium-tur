@@ -12415,6 +12415,7 @@ değerli:değerli A1 ; ! "different"
 !! JNW Adjectives
 tekerlekli:tekerlekli A3 ; ! "wheeled"
 ilginç:ilginç A1 ; ! "interesting"  ! FIXME: CHECK A1
+ağaçlıklı:ağaçlıklı A3 ; ! "betreed" ! FIXME: CHECK A3
 
 LEXICON Adverbs 
 
