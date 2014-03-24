@@ -51,3 +51,12 @@ Tests:
     harp<n><pl><nom> :  harpler
     harp<n><nom>+i<cop><pres><p2><sg> : harpsin
 
+  "[twol] interaction with epenthesis":
+    vakit<n><nom> : vakit
+    vakit<n><acc> : vakti
+    vakit<n><dat> : vakte
+    vakit<n><loc> : vakitte
+    vakit<n><px3sp><nom> : vakti
+    vakit<n><px3sp><acc> : vaktini
+    vakit<n><px3sp><dat> : vaktine
+    vakit<n><px3sp><loc> : vaktinde
