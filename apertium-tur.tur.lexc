@@ -823,6 +823,7 @@ LEXICON A4
 
 !!!!!!!COPULA SUFFIXES!!!!!!
 
+
 LEXICON COPULA-TNS
 PAST ;
 CONDITIONAL ;
@@ -830,8 +831,17 @@ PERS-COP-PRES ;
 
 LEXICON COPULA
 %+i%<cop%>:%{y%} COPULA-TNS ;
-%+i%<cop%>%<pres%>%+mi%<qst%>:% m%{I%} PERS-COP-PRES ;
+%+i%<cop%>%<pres%>:% m%{I%} PERS-COP-PRES-MI ;
 
+LEXICON PERS-COP-PRES-MI
+
+%<p1%>%<sg%>%+%mi%<qst%>:%>%{y%}%{I%}m  # ;
+%<p2%>%<sg%>%+%mi%<qst%>:%>s%{I%}n  # ;
+%<p3%>%<sg%>%+%mi%<qst%>:%>%{D%}%{I%}r  # ;
+%<p3%>%<frm%>%<sg%>%+%mi%<qst%>:%>%{D%}%{I%}r  # ;
+%<p1%>%<pl%>%+%mi%<qst%>:%>%{y%}%{I%}z  # ;
+%<p2%>%<pl%>%+%mi%<qst%>:%>s%{I%}n%{I%}z  # ;
+%<p3%>%<pl%>%+%mi%<qst%>:%>l%{A%}r  # ;
 
 LEXICON PERS-COP-PRES
 
