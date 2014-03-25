@@ -89,6 +89,7 @@ Multichar_Symbols
 %<qnt%>            ! Quantifier
 %<neg%>            ! Negative    ! NOTE: also used to denote negation in verbs ! what do you mean firespeaker??
 %<ref%>            ! Reflexive
+%<recip%>          ! Reciprocal
 
 !! Numeral types
 %<ord%>            ! Ordinal
@@ -688,6 +689,11 @@ nere:ner PRON-ITG-NERE ; ! ""
 LEXICON PRON-QNT
 
 %<prn%>%<qnt%>: N-INFL-COMMON ; ! FIXME: Check contlex
+
+LEXICON PRON-RECIP
+
+%<prn%>%<recip%>: POSS-REAL ;
+
 
 LEXICON PRON-NEG
 
@@ -2141,7 +2147,7 @@ kimse:kimse PRON-QNT ; ! "nobody"
 birisi:birisi PRON-QNT ; ! "somebody"
 bazıları:bazıları PRON-QNT ; ! "some of them"
 
-birbirine:birbirine PRON-REF ; ! "each other" @@@@ CHeCK
+birbiri:birbir PRON-RECIP ; ! "each other" 
 öz:öz PRON-REF ; ! "self"
 kendi:kendi PRON-REF ; ! "self"
 
