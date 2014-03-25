@@ -24,9 +24,7 @@ Tests:
     güzel<adj>+i<cop><neg><past><p1><sg>+mı<qst> : güzel değilmiş miyim
     güzel<adj>+i<cop><neg><cond><p1><sg>+mı<qst> : güzel değil miysem
 
-
-
- "[lexc] after aor":
+  "[lexc] after aor":
     git<v><iv><gpr_aor>+i<cop><aor><p1><sg> : giderim
     git<v><iv><gpr_aor>+i<cop><ifi><p1><sg> : giderdim
     git<v><iv><gpr_aor>+i<cop><past><p1><sg> : gidermişim
@@ -36,8 +34,7 @@ Tests:
     git<v><iv><gpr_aor>+i<cop><past><p1><sg>+mı<qst> : gidermiş miyim
     git<v><iv><gpr_aor>+i<cop><cond><p1><sg>+mı<qst> : gider miysem
 
-
- "[lexc] after fut":
+  "[lexc] after fut":
     git<v><iv><gpr_fut>+i<cop><aor><p1><sg> : gideceğim
     git<v><iv><gpr_fut>+i<cop><ifi><p1><sg> : gidecektim
     git<v><iv><gpr_fut>+i<cop><past><p1><sg> : gidecekmişim
@@ -47,8 +44,7 @@ Tests:
     git<v><iv><gpr_fut>+i<cop><past><p1><sg>+mı<qst> : gidecekmiş miyim
     git<v><iv><gpr_fut>+i<cop><cond><p1><sg>+mı<qst> : gidecek miysem
 
-
- "[lexc] after past":
+  "[lexc] after past":
     git<v><iv><gpr_past>+i<cop><aor><p1><sg> : gitmişim
     git<v><iv><gpr_past>+i<cop><ifi><p1><sg> : gitmiştim
     git<v><iv><gpr_past>+i<cop><past><p1><sg> : gitmişmişim

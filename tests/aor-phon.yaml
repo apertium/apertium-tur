@@ -1,0 +1,21 @@
+Config: 
+  hfst: 
+    App:  hfst-optimised-lookup
+    Gen:  ../tur.autogen.hfst
+    Morph:  ../tur.automorf.hfst
+
+Tests:
+
+  "[twol] {i} aor after vowel":
+    pudrala<v><tv><aor><p3><sg> : pudralar
+    pudrala<v><tv><aor><p1><sg> : pudralarım
+
+  "[twol] {i} aor after cons":
+    yen<v><tv><aor><p3><sg> : yenir
+    yen<v><tv><aor><p1><sg> : yenirim
+
+  "[twol] {i}aor after passive":
+    pudrala<v><tv><pass><aor><p3><sg> : pudralanır
+    pudrala<v><tv><pass><aor><p1><sg> : pudralanırım
+
+
