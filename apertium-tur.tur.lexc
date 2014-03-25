@@ -110,10 +110,10 @@ Multichar_Symbols
 %<aor%>
 %<inf%>
 
-%<ger1%>           !
+%<ger%>           !
 %<ger_past%>           !
-%<ger3%>           !
-%<ger4%>           !
+%<ger_abst%>           !
+%<ger_fut%>           !
 %<ger5%>           !
 %<ger6%>           !
 
@@ -825,6 +825,7 @@ LEXICON A4
 
 LEXICON COPULA-TNS
 PAST ;
+EVIDENTIAL-PAST ;
 CONDITIONAL ;
 PERS-COP-PRES ;
 
@@ -1226,17 +1227,20 @@ LEXICON IMPERFECTIVE
 LEXICON NEG
 %<neg%>:%>m%{a%} REGULAR-NEGATIVE ;
 
+LEXICON AOR-COMMON
+
+%<neg%>%<aor%>:%>m%{A%}z KEN ;
+%<neg%>%<aor%>:%> PERS5;
+
 LEXICON AOR-AR
 %<aor%>:%>%{A%}r PERS1 ;
-%<neg%>%<aor%>:%> PERS5;
 %<aor%>:%>%{A%}r KEN ;
-%<neg%>%<aor%>:%>m%{A%}z KEN ;
+AOR-COMMON ;
 
 LEXICON AOR-IR
 %<aor%>:%>%{i%}r PERS1 ;
-%<neg%>%<aor%>:%> PERS5;
 %<aor%>:%>%{i%}r KEN ;
-%<neg%>%<aor%>:%>m%{A%}z KEN;
+AOR-COMMON ;
 
 LEXICON AOR-IR-CONDITIONAL
 %<aorcond%>:%>%{i%}rs%{A%} PERS2-NO3PL  ;
@@ -1397,23 +1401,32 @@ LEXICON EXHORTATIVE
 
 LEXICON GERUND
 
-%<ger1%>:%>m%{A%} SUBST ;
+NON-FINITE ;
+
+LEXICON GERUNDS
+
+%<ger%>:%>m%{A%} SUBST ;
 %<ger_past%>:%>%{D%}%{I%}k%{v%} SUBST ;
-%<ger3%>:%>%{I%}ş SUBST ;
-%<ger4%>:%>%{y%}%{A%}c%{A%}k%{v%} SUBST ;
-%<ger5%>:%>%{y%}%{A%}n SUBST ;
+%<ger_abst%>:%>%{I%}ş SUBST ;
+%<ger_fut%>:%>%{y%}%{A%}c%{A%}k%{v%} SUBST ;
+!!! %<ger_aor%>:%>%{i%}r or %{A%}r ?
+! %<ger5%>:%>%{y%}%{A%}n SUBST ;
 %<ger6%>:%>m%{A%}k%{v%} SUBST ;
+
 
 LEXICON NON-FINITE
 
 %<inf%>:%>m%{A%}k # ;
 
-
+GERUNDS ;
 
 %<prc1%>:%>%{y%}%{A%}n ATTR ;
 
 %<gna1%>:%>%{y%}%{A%}r%{A%}k # ;
 %<gna2%>:%>%{y%}%{I%}p # ;
+
+
+
 
 LEXICON CONDITIONAL
 

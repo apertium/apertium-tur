@@ -1,0 +1,59 @@
+Config: 
+  hfst: 
+    App:  hfst-optimised-lookup
+    Gen:  ../tur.autogen.hfst
+    Morph:  ../tur.automorf.hfst
+
+Tests:
+
+  "[lexc] after an adjective":
+    güzel<adj>+i<cop><aor><p1><sg> : güzelim
+    güzel<adj>+i<cop><ifi><p1><sg> : güzeldim
+    güzel<adj>+i<cop><past><p1><sg> : güzelmişim
+    güzel<adj>+i<cop><cond><p1><sg> : güzelsem
+    güzel<adj>+i<cop><aor><p1><sg>+mı<qst> : güzel miyim
+    güzel<adj>+i<cop><ifi><p1><sg>+mı<qst> : güzel miydim
+    güzel<adj>+i<cop><past><p1><sg>+mı<qst> : güzelmiş miyim
+    güzel<adj>+i<cop><cond><p1><sg>+mı<qst> : güzel miysem
+    güzel<adj>+i<cop><neg><aor><p1><sg> : güzel değilim
+    güzel<adj>+i<cop><neg><ifi><p1><sg> : güzel değildim
+    güzel<adj>+i<cop><neg><past><p1><sg> : güzel değilmişim
+    güzel<adj>+i<cop><neg><cond><p1><sg> : güzel değilsem
+    güzel<adj>+i<cop><neg><aor><p1><sg>+mı<qst> : güzel değil miyim
+    güzel<adj>+i<cop><neg><ifi><p1><sg>+mı<qst> : güzel değil miydim
+    güzel<adj>+i<cop><neg><past><p1><sg>+mı<qst> : güzel değilmiş miyim
+    güzel<adj>+i<cop><neg><cond><p1><sg>+mı<qst> : güzel değil miysem
+
+
+
+ "[lexc] after aor":
+    git<v><iv><gpr_aor>+i<cop><aor><p1><sg> : giderim
+    git<v><iv><gpr_aor>+i<cop><ifi><p1><sg> : giderdim
+    git<v><iv><gpr_aor>+i<cop><past><p1><sg> : gidermişim
+    git<v><iv><gpr_aor>+i<cop><cond><p1><sg> : gidersem
+    git<v><iv><gpr_aor>+i<cop><aor><p1><sg>+mı<qst> : gider miyim
+    git<v><iv><gpr_aor>+i<cop><ifi><p1><sg>+mı<qst> : gider miydim
+    git<v><iv><gpr_aor>+i<cop><past><p1><sg>+mı<qst> : gidermiş miyim
+    git<v><iv><gpr_aor>+i<cop><cond><p1><sg>+mı<qst> : gider miysem
+
+
+ "[lexc] after fut":
+    git<v><iv><gpr_fut>+i<cop><aor><p1><sg> : gideceğim
+    git<v><iv><gpr_fut>+i<cop><ifi><p1><sg> : gidecektim
+    git<v><iv><gpr_fut>+i<cop><past><p1><sg> : gidecekmişim
+    git<v><iv><gpr_fut>+i<cop><cond><p1><sg> : gideceksem
+    git<v><iv><gpr_fut>+i<cop><aor><p1><sg>+mı<qst> : gidecek miyim
+    git<v><iv><gpr_fut>+i<cop><ifi><p1><sg>+mı<qst> : gidecek miydim
+    git<v><iv><gpr_fut>+i<cop><past><p1><sg>+mı<qst> : gidecekmiş miyim
+    git<v><iv><gpr_fut>+i<cop><cond><p1><sg>+mı<qst> : gidecek miysem
+
+
+ "[lexc] after past":
+    git<v><iv><gpr_past>+i<cop><aor><p1><sg> : gitmişim
+    git<v><iv><gpr_past>+i<cop><ifi><p1><sg> : gitmiştim
+    git<v><iv><gpr_past>+i<cop><past><p1><sg> : gitmişmişim
+    git<v><iv><gpr_past>+i<cop><cond><p1><sg> : gitmişsem
+    git<v><iv><gpr_past>+i<cop><aor><p1><sg>+mı<qst> : gitmiş miyim
+    git<v><iv><gpr_past>+i<cop><ifi><p1><sg>+mı<qst> : gitmiş miydim
+    git<v><iv><gpr_past>+i<cop><past><p1><sg>+mı<qst> : gitmişmiş miyim
+    git<v><iv><gpr_past>+i<cop><cond><p1><sg>+mı<qst> : gitmiş miysem
