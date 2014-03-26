@@ -306,6 +306,148 @@ LEXICON DIGITLEX
 !!!!       N U M E R A L     L E X I C O N     E N D S     H E R E 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+!!!!!!
+!! JNW's rewrite of verb morphology
+!!!!!!
+
+LEXICON V-AR-TV
+%<v%>%<tv%>: V-DERIV-AR
+
+LEXICON V-AR-IV
+%<v%>%<iv%>: V-DERIV-AR
+
+LEXICON V-DERIV-AR
+!! FIXME: <pass>, <caus>, <rec>
+V-INFL-AR ;
+
+LEXICON V-DERIV-IR
+!! FIXME: <pass>, <caus>, <rec>
+V-INFL-IR ;
+
+LEXICON V-INFL-AR
+
+V-AOR-AR ;
+V-TENSE-COMMON ;
+
+LEXICON V-INFL-IR
+
+V-AOR-IR ;
+V-TENSE-COMMON ;
+
+LEXICON V-AOR-IR
+%<aor%>:%>%{i%}r COPULA ;
+V-AOR-NEG ;
+
+LEXICON V-AOR-AR
+%<aor%>:%>%{A%}r COPULA ;
+V-AOR-NEG ;
+
+LEXICON V-AOR-NEG
+%<aor%>%<neg%>:%>m%{A%}z COPULA ;
+
+LEXICON V-TENSE-COMMON
+
+V-TENSE-MA ;
+V-ABIL ;
+
+LEXICON V-TENSE-MA
+
+V-TENSE-MA-COMMON ;
+V-TENSE-MA-NEG ;
+
+LEXICON V-TENSE-MA-NEG
+
+%<neg%>:%>m%{A%} V-TENSE-MA-COMMON ;
+
+LEXICON V-TENSE-MA-COMMON
+
+V-PROG ;
+V-FUT ;
+V-PAST ;
+V-IFI-COND ;
+
+LEXICON V-IFI-COND
+
+V-IFI ;
+V-COND ;
+
+LEXICON V-PROG
+
+%<prog%>:%>%{I%}yor COPULA ;
+
+LEXICON V-FUT
+
+%<fut%>:%>%{y%}%{A%}c%{A%}k COPULA ;
+
+LEXICON V-ABIL
+
+%<abil%>:%>%{y%}%{A%}bil COPULA ;
+%<neg%>%<abil%>:%>%{y%}%{A%}m%{a%} COPULA ;
+
+LEXICON V-PAST
+
+%<past%>:%>m{I%}ş COPULA ;
+
+LEXICON V-IFI
+
+%<ifi%>:%>d{I%} V-IFI-COND-PRS ;
+
+LEXICON V-COND
+
+%<cond%>:%>s{A%} V-IFI-COND-PRS ;
+!!! FIXME: BACK TO THE COPULA PART II
+
+LEXICON V-IFI-COND-PRS
+
+%<p1%>%<sg%>:%>m  V-IFI-COND-QST ;
+%<p2%>%<sg%>:%>n  V-IFI-COND-QST ;
+%<p3%>%<sg%>:%>  V-IFI-COND-QST ;
+%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r  V-IFI-COND-QST ;
+%<p1%>%<pl%>:%>k  V-IFI-COND-QST ;
+%<p2%>%<pl%>:%>%{i%}n%{I%}z  V-IFI-COND-QST ;
+%<p3%>%<pl%>:%>l%{A%}r  V-IFI-COND-QST ;
+
+LEXICON V-IFI-COND-QST
+%<qst%>:%+m%{I%} # ;
+# ;
+
+!!!!!!!COPULA SUFFIXES!!!!!!
+
+
+LEXICON COPULA-TNS
+V-PAST ;
+V-IFI-COND ;
+COPULA-AOR ;
+
+LEXICON COPULA
+%+i%<cop%>:%{y%} COPULA-TNS ;
+
+LEXICON COPULA-AOR
+
+%<aor%>: PERS-COP-PRES ;
+%<aor%>:%+m%{I%} PERS-COP-PRES-MI ;
+
+LEXICON PERS-COP-PRES-MI
+
+%<p1%>%<sg%>%+%mı%<qst%>:%>%{y%}%{I%}m  # ;
+%<p2%>%<sg%>%+%mı%<qst%>:%>s%{I%}n  # ;
+%<p3%>%<sg%>%+%mı%<qst%>:%>%{D%}%{I%}r  # ;
+%<p3%>%<frm%>%<sg%>%+%mı%<qst%>:%>%{D%}%{I%}r  # ;
+%<p1%>%<pl%>%+%mı%<qst%>:%>%{y%}%{I%}z  # ;
+%<p2%>%<pl%>%+%mı%<qst%>:%>s%{I%}n%{I%}z  # ;
+%<p3%>%<pl%>%+%mı%<qst%>:%>l%{A%}r  # ;
+
+LEXICON PERS-COP-PRES
+
+%<p1%>%<sg%>:%>%{y%}%{I%}m  # ;
+%<p2%>%<sg%>:%>s%{I%}n  # ;
+%<p3%>%<sg%>:%>%{D%}%{I%}r  # ;
+%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r  # ;
+%<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
+%<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
+%<p3%>%<pl%>:%>l%{A%}r  # ;
+
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Clitics 
@@ -825,39 +967,6 @@ LEXICON A4
 !! Verb paradigms
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-
-!!!!!!!COPULA SUFFIXES!!!!!!
-
-
-LEXICON COPULA-TNS
-PAST ;
-EVIDENTIAL-PAST ;
-CONDITIONAL ;
-PERS-COP-PRES ;
-
-LEXICON COPULA
-%+i%<cop%>:%{y%} COPULA-TNS ;
-%+i%<cop%>%<aor%>:% m%{I%} PERS-COP-PRES-MI ;
-
-LEXICON PERS-COP-PRES-MI
-
-%<p1%>%<sg%>%+%mı%<qst%>:%>%{y%}%{I%}m  # ;
-%<p2%>%<sg%>%+%mı%<qst%>:%>s%{I%}n  # ;
-%<p3%>%<sg%>%+%mı%<qst%>:%>%{D%}%{I%}r  # ;
-%<p3%>%<frm%>%<sg%>%+%mı%<qst%>:%>%{D%}%{I%}r  # ;
-%<p1%>%<pl%>%+%mı%<qst%>:%>%{y%}%{I%}z  # ;
-%<p2%>%<pl%>%+%mı%<qst%>:%>s%{I%}n%{I%}z  # ;
-%<p3%>%<pl%>%+%mı%<qst%>:%>l%{A%}r  # ;
-
-LEXICON PERS-COP-PRES
-
-%<p1%>%<sg%>:%>%{y%}%{I%}m  # ;
-%<p2%>%<sg%>:%>s%{I%}n  # ;
-%<p3%>%<sg%>:%>%{D%}%{I%}r  # ;
-%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r  # ;
-%<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
-%<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
-%<p3%>%<pl%>:%>l%{A%}r  # ;
 
 
 
@@ -13527,7 +13636,8 @@ kayıtla:kayıtla V-TV-T-IR ; ! "restrict"
 kazı:kazı V-TV-T-IR ; ! "scrape"
 
 gir:gir V-IV-DIR-AR ; ! enter"
-git:git%{v%} V-IV-DIR-AR ; ! "go"
+!git:git%{v%} V-IV-DIR-AR ; ! "go"
+git:git%{v%} V-AR-IV ; ! "go"
 öl:öl V-IV-DIR-IR ; ! "die"
 de:d%{e%} V-IV-DIR-IR ; ! "say"
 ol:ol V-IV-DIR-IR ; ! "be"
@@ -13764,7 +13874,7 @@ gez:gez V-IV-DIR-AR ; ! "go around"
 gezin:gezin V-IV-DIR-IR ; ! "hang around"
 gir:gir V-IV-DIR-AR ; ! "enter"
 giriş:giriş V-IV-DIR-IR ; ! "proceed"
-git:git%{v%} V-IV-DIR-AR ; ! "go"
+!git:git%{v%} V-IV-DIR-AR ; ! "go"
 görevlen:görevlen V-IV-DIR-IR ; ! "take a mission"
 görün:görün V-IV-DIR-IR ; ! "appear"
 gözük:gözük V-IV-DIR-IR ; ! "to be seem"
