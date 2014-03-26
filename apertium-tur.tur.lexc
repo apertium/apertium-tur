@@ -311,10 +311,10 @@ LEXICON DIGITLEX
 !!!!!!
 
 LEXICON V-AR-TV
-%<v%>%<tv%>: V-DERIV-AR
+%<v%>%<tv%>: V-DERIV-AR ; 
 
-LEXICON V-AR-IV
-%<v%>%<iv%>: V-DERIV-AR
+LEXICON V-AR-IV 
+%<v%>%<iv%>: V-DERIV-AR ;
 
 LEXICON V-DERIV-AR
 !! FIXME: <pass>, <caus>, <rec>
