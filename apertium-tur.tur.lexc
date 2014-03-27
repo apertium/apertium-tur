@@ -454,16 +454,16 @@ LEXICON V-COND
 
 LEXICON V-IFI-COND-PRS
 
-%<p1%>%<sg%>:%>m  V-IFI-COND-QST ;
-%<p2%>%<sg%>:%>n  V-IFI-COND-QST ;
-%<p3%>%<sg%>:%>  V-IFI-COND-QST ;
-%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r  V-IFI-COND-QST ;
-%<p1%>%<pl%>:%>k  V-IFI-COND-QST ;
-%<p2%>%<pl%>:%>%{i%}n%{I%}z  V-IFI-COND-QST ;
-%<p3%>%<pl%>:%>l%{A%}r  V-IFI-COND-QST ;
+%<p1%>%<sg%>:%>m V-IFI-COND-QST ;
+%<p2%>%<sg%>:%>n V-IFI-COND-QST ;
+%<p3%>%<sg%>:%> V-IFI-COND-QST ;
+%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r V-IFI-COND-QST ;
+%<p1%>%<pl%>:%>k V-IFI-COND-QST ;
+%<p2%>%<pl%>:%>%{i%}n%{I%}z V-IFI-COND-QST ;
+%<p3%>%<pl%>:%>l%{A%}r V-IFI-COND-QST ;
 
 LEXICON V-IFI-COND-QST
-%<qst%>:%+m%{I%} # ;
+%<qst%>:% m%{I%} # ;
 # ;
 
 !!!!!!!COPULA SUFFIXES!!!!!!
@@ -480,7 +480,7 @@ LEXICON COPULA
 LEXICON COPULA-AOR
 
 %<aor%>: PERS-COP-PRES ;
-%<aor%>:%+m%{I%} PERS-COP-PRES-MI ;
+%<aor%>:% m%{I%} PERS-COP-PRES-MI ;
 
 LEXICON PERS-COP-PRES-MI
 
