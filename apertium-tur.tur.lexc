@@ -377,7 +377,7 @@ LEXICON V-PROG
 
 LEXICON V-FUT
 
-%<fut%>:%>%{y%}%{A%}c%{A%}k COPULA ;
+%<fut%>:%>%{y%}%{A%}c%{A%}k%{v%} COPULA ;
 
 LEXICON V-ABIL
 
@@ -390,7 +390,7 @@ LEXICON V-PAST
 
 LEXICON V-IFI
 
-%<ifi%>:%>d{I%} V-IFI-COND-PRS ;
+%<ifi%>:%>%{D%}{I%} V-IFI-COND-PRS ;
 
 LEXICON V-COND
 

@@ -246,8 +246,10 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 
 
 "Devoicing of archiphoneme {D} after CnsDev"
-%{D%}:t <=> [ %{p%}: | :CnsDev ] (%':)  %>: _ ; 
-            [ %{p%}: | :CnsDev ]  %{v%}: (%':)  %>: _ ; 
+%{D%}:t <=> [ %{p%}: | :CnsDev ] [ :0 - %{p%}: ]* _ ; 
+
+!%{D%}:t <=> [ %{p%}: | :CnsDev ] (%':)  %>: _ ; 
+!            [ %{p%}: | :CnsDev ]  %{v%}: (%':)  %>: _ ; 
 
 ! ağaç>{D}{A}n      = ağaçtan   = a:a ğ:ğ a:a ç:ç >:0 {D}:t {A}:a n:n
 ! fıstık>{D}{A}n    = fıstıktan = 

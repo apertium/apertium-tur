@@ -9,11 +9,11 @@ Tests:
   "[lexc] after an adjective":
     güzel<adj>+i<cop><aor><p1><sg> : güzelim
     güzel<adj>+i<cop><ifi><p1><sg> : güzeldim
-    güzel<adj>+i<cop><past><p1><sg> : güzelmişim
+    güzel<adj>+i<cop><past>+i<cop><aor><p1><sg> : güzelmişim
     güzel<adj>+i<cop><cond><p1><sg> : güzelsem
     güzel<adj>+i<cop><aor><p1><sg>+mı<qst> : güzel miyim
     güzel<adj>+i<cop><ifi><p1><sg>+mı<qst> : güzel miydim
-    güzel<adj>+i<cop><past><p1><sg>+mı<qst> : güzelmiş miyim
+    güzel<adj>+i<cop><past>+i<cop><aor><p1><sg>+mı<qst> : güzelmiş miyim
     güzel<adj>+i<cop><cond><p1><sg>+mı<qst> : güzel miysem
     güzel<adj>+i<cop><neg><aor><p1><sg> : güzel değilim
     güzel<adj>+i<cop><neg><ifi><p1><sg> : güzel değildim
@@ -27,40 +27,40 @@ Tests:
   "[lexc] after aor":
     git<v><iv><aor>+i<cop><aor><p1><sg> : giderim
     git<v><iv><aor>+i<cop><ifi><p1><sg> : giderdim
-    git<v><iv><aor>+i<cop><past><p1><sg> : gidermişim
+    git<v><iv><aor>+i<cop><past>+i<cop><aor><p1><sg> : gidermişim
     git<v><iv><aor>+i<cop><cond><p1><sg> : gidersem
     git<v><iv><aor>+i<cop><aor><p1><sg>+mı<qst> : gider miyim
     git<v><iv><aor>+i<cop><ifi><p1><sg>+mı<qst> : gider miydim
-    git<v><iv><aor>+i<cop><past><p1><sg>+mı<qst> : gidermiş miyim
+    git<v><iv><aor>+i<cop><past>+i<cop><aor><p1><sg>+mı<qst> : gidermiş miyim
     git<v><iv><aor>+i<cop><cond><p1><sg>+mı<qst> : gider miysem
 
   "[lexc] after fut":
     git<v><iv><fut>+i<cop><aor><p1><sg> : gideceğim
     git<v><iv><fut>+i<cop><ifi><p1><sg> : gidecektim
-    git<v><iv><fut>+i<cop><past><p1><sg> : gidecekmişim
+    git<v><iv><fut>+i<cop><past>+i<cop><aor><p1><sg> : gidecekmişim
     git<v><iv><fut>+i<cop><cond><p1><sg> : gideceksem
     git<v><iv><fut>+i<cop><aor><p1><sg>+mı<qst> : gidecek miyim
     git<v><iv><fut>+i<cop><ifi><p1><sg>+mı<qst> : gidecek miydim
-    git<v><iv><fut>+i<cop><past><p1><sg>+mı<qst> : gidecekmiş miyim
+    git<v><iv><fut>+i<cop><past>+i<cop><aor><p1><sg>+mı<qst> : gidecekmiş miyim
     git<v><iv><fut>+i<cop><cond><p1><sg>+mı<qst> : gidecek miysem
 
   "[lexc] after past":
     git<v><iv><past>+i<cop><aor><p1><sg> : gitmişim
     git<v><iv><past>+i<cop><ifi><p1><sg> : gitmiştim
-    git<v><iv><past>+i<cop><past><p1><sg> : gitmişmişim
+    git<v><iv><past>+i<cop><past>+i<cop><aor><p1><sg> : gitmişmişim
     git<v><iv><past>+i<cop><cond><p1><sg> : gitmişsem
     git<v><iv><past>+i<cop><aor><p1><sg>+mı<qst> : gitmiş miyim
     git<v><iv><past>+i<cop><ifi><p1><sg>+mı<qst> : gitmiş miydim
-    git<v><iv><past>+i<cop><past><p1><sg>+mı<qst> : gitmişmiş miyim
+    git<v><iv><past>+i<cop><past>+i<cop><aor><p1><sg>+mı<qst> : gitmişmiş miyim
     git<v><iv><past>+i<cop><cond><p1><sg>+mı<qst> : gitmiş miysem
 
   "[lexc] after progressive":
     git<v><iv><prog>+i<cop><aor><p1><sg> : gidiyorum
     git<v><iv><prog>+i<cop><ifi><p1><sg> : gidiyordum
-    git<v><iv><prog>+i<cop><past><p1><sg> : gitmiyormuşum
+    git<v><iv><prog>+i<cop><past>+i<cop><aor><p1><sg> : gitmiyormuşum
     git<v><iv><prog>+i<cop><cond><p1><sg> : gitmiyorsam
     git<v><iv><prog>+i<cop><aor><p1><sg>+mı<qst> : gidiyor muyum
     git<v><iv><prog>+i<cop><ifi><p1><sg>+mı<qst> : gidiyor muydum
-    git<v><iv><prog>+i<cop><past><p1><sg>+mı<qst> : gidiyorumuş muyum
+    git<v><iv><prog>+i<cop><past>+i<cop><aor><p1><sg>+mı<qst> : gidiyorumuş muyum
     git<v><iv><prog>+i<cop><cond><p1><sg>+mı<qst> : gidiyor muysam
 
