@@ -118,6 +118,10 @@ Multichar_Symbols
 %<ger5%>           !
 %<ger6%>           !
 
+%<gna_prf%>
+%<gna_impf%>
+%<gpr_subj%>
+
 %<sent%>      ! Sentence marker
 %<guio%>      ! Hyphen
 %<cm%>        ! Comma
@@ -318,18 +322,69 @@ LEXICON V-AR-IV
 
 LEXICON V-DERIV-AR
 !! FIXME: <pass>, <caus>, <rec>
-V-INFL-AR ;
+V-FIN-AR ;
+V-NONFIN-AR ;
 
 LEXICON V-DERIV-IR
 !! FIXME: <pass>, <caus>, <rec>
-V-INFL-IR ;
+V-FIN-IR ;
+V-NONFIN-IR ;
 
-LEXICON V-INFL-AR
+
+LEXICON V-GERUNDS-COMMON
+
+%<ger%>:%>m%{A%} SUBST ;
+%<ger_past%>:%>%{D%}%{I%}k%{v%} SUBST ;
+%<ger_abst%>:%>%{I%}ş SUBST ;
+%<ger_fut%>:%>%{y%}%{A%}c%{A%}k%{v%} SUBST ;
+! %<ger5%>:%>%{y%}%{A%}n SUBST ;
+%<ger6%>:%>m%{A%}k%{v%} SUBST ;
+
+LEXICON V-GERUNDS-AOR-AR
+
+%<ger_aor%>:%>%{A%}r SUBST ;
+
+LEXICON V-GERUNDS-AOR-IR
+
+%<ger_aor%>:%>%{i%}r SUBST ;
+
+LEXICON V-NONFIN-IR
+
+V-NONFIN-COMMON ;
+V-GERUNDS-COMMON ;
+V-GERUNDS-AOR-IR ;
+
+LEXICON V-NONFIN-AR
+
+V-NONFIN-COMMON ;
+V-GERUNDS-COMMON ;
+V-GERUNDS-AOR-AR ;
+
+
+LEXICON V-NONFIN-COMMON
+
+%<inf%>:%>m%{A%}k # ;
+V-GPR ;
+V-GNA ;
+
+LEXICON V-GPR
+
+%<gpr_subj%>:%>%{y%}%{A%}n ATTR ;
+
+LEXICON V-GNA
+
+%<gna_impf%>:%>%{y%}%{A%}r%{A%}k # ;
+%<gna_prf%>:%>%{y%}%{I%}p # ;
+
+
+
+
+LEXICON V-FIN-AR
 
 V-AOR-AR ;
 V-TENSE-COMMON ;
 
-LEXICON V-INFL-IR
+LEXICON V-FIN-IR
 
 V-AOR-IR ;
 V-TENSE-COMMON ;
