@@ -627,8 +627,9 @@ LEXICON COPULA-COND
 
 LEXICON CLIT
 
-%+mı%<qst%>:% m%{I%} PERS3 ; 
+! %+mı%<qst%>:% m%{I%} PERS3 ; 
 # ;  !! This is the end of word marker.
+COPULA-MIMIS ;
 
 LEXICON CLIT-NOPERS
 
