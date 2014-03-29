@@ -113,6 +113,7 @@ Multichar_Symbols
 
 %<ger%>           !
 %<ger_past%>           !
+%<ger_aor%>           !
 %<ger_abst%>           !
 %<ger_fut%>           !
 %<ger5%>           !
@@ -172,6 +173,7 @@ Multichar_Symbols
 
 LEXICON Root
 
+Miscellaneous ; 
 !ModalParticles ; 
 !Copula ; 
 Conjunctions ; 
@@ -2250,6 +2252,16 @@ LEXICON TIT
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Stem lexica
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+LEXICON Miscellaneous 
+
+! FIXME: give the proper continuation lexicon
+
+mı%<qst%>:mı # ; ! Dir/LR
+mı%<qst%>:mi # ; ! Dir/LR
+mı%<qst%>:mu # ; ! Dir/LR
+mı%<qst%>:mü # ; ! Dir/LR
+mı%<qst%>:%~mı # ; ! Dir/RL
 
 LEXICON Postpositions
 
@@ -14240,8 +14252,8 @@ kayna:kayna V-IV-T-IR ; ! "boil"
 üne% kavuş:üne% kavuş V-IV-DIR-IR ; ! "to become famous" ! Use/MT ! FIXME: Check IR/DIR
 değer% ver:değer% ver V-TV-DIR-IR  ; ! "appreciate"
 kahvaltı% et:kahvaltı% et V-IV-DIR-AR ; ! "have breakfast" ! Use/MT
-dans% et:dans% et V-AR-IV ; ! Use/MT
-davet% et:davet% et V-AR-TV ; ! Use/MT
+dans% et:dans% et%{v%} V-AR-IV ; ! Use/MT
+davet% et:davet% et%{v%} V-AR-TV ; ! Use/MT
 
 
 
