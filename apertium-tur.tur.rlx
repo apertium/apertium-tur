@@ -140,6 +140,6 @@ REMOVE Px3Pl IF (NOT -1* Pl3 BARRIER N) ;
 	# 60'lık vücudu artık dans _derslerini_ kaldıramayacak kadar bitkinleşmiş.
 
 REMOVE V IF
-	(0 ("yemek" n))
-	(1 ("ye" v)) ;
+	(0 ("yemek") + N)
+	(1 ("ye") + V) ;
 	# yemek yer ...
