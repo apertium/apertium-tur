@@ -118,7 +118,7 @@ Multichar_Symbols
 %<ger5%>           !
 %<ger6%>           !
 
-%<gna_prf%>
+%<gna_perf%>
 %<gna_impf%>
 %<gpr_rsub%>  ! past-tense subject-relative verbal adjective {y}{A}n
 
@@ -323,6 +323,9 @@ LEXICON V-AR-IV
 LEXICON V-IR-IV 
 %<v%>%<iv%>: V-DERIV-IR ;
 
+LEXICON V-IR-TV 
+%<v%>%<tv%>: V-DERIV-IR ;
+
 LEXICON V-DERIV-AR
 !! FIXME: <pass>, <caus>, <rec>
 V-FIN-AR ;
@@ -330,6 +333,10 @@ V-NONFIN-AR ;
 
 LEXICON V-DERIV-IR
 !! FIXME: <pass>, <caus>, <rec>
+%<pass%>:%>%{i%}%{L%} V-DERIV-IR-COMMON ;
+V-DERIV-IR-COMMON ;
+
+LEXICON V-DERIV-IR-COMMON
 V-FIN-IR ;
 V-NONFIN-IR ;
 
@@ -382,7 +389,7 @@ LEXICON V-GPR
 LEXICON V-GNA
 
 %<gna_impf%>:%>%{y%}%{A%}r%{A%}k # ;
-%<gna_prf%>:%>%{y%}%{I%}p # ;
+%<gna_perf%>:%>%{y%}%{I%}p # ;
 
 LEXICON V-FIN-AR
 
@@ -13157,7 +13164,8 @@ yalıt:yalıt V-TV-DIR-IR  ; ! "isolate"
 yar:yar V-TV-DIR-AR  ; ! "split"
 yas:yas V-TV-DIR-AR  ; ! "stave"
 yay:yay V-TV-DIR-AR  ; ! "spread"
-yaz:yaz V-TV-DIR-AR  ; ! "write"
+!yaz:yaz V-TV-DIR-AR  ; ! "write"
+yaz:yaz V-AR-TV ; ! "write"
 ye:y%{e%} V-TV-DIR-IR  ; ! "ear"
 yen:yen V-TV-DIR-IR  ; ! "win"
 yığ:yığ V-TV-DIR-AR  ; ! "accumulate"
@@ -13472,7 +13480,8 @@ kotar:kotar V-TV-T-IR  ; ! "dish up"
 kötüle:kötüle V-TV-T-IR  ; ! "revile"
 kovala:kovala V-TV-T-IR  ; ! "chase"
 kovuştur:kovuştur V-TV-T-IR  ; ! "prosecute"
-kucakla:kucakla V-TV-T-IR  ; ! "embrace"
+!kucakla:kucakla V-TV-T-IR  ; ! "embrace"
+kucakla:kucakla V-IR-TV  ; ! "embrace"
 küçümse:küçümse V-TV-T-IR  ; ! "despise"
 kümele:kümele V-TV-T-IR  ; ! "heap up"
 kundakla:kundakla V-TV-T-IR  ; ! "swaddle"
@@ -14043,7 +14052,8 @@ eriş:eriş V-IV-DIR-IR ; ! "reach"
 evlen:evlen V-IV-DIR-IR ; ! "marry"
 gecik:gecik V-IV-DIR-IR ; ! "delay, be late"
 geçin:geçin V-IV-DIR-IR ; ! "get on well"
-gel:gel V-IV-DIR-IR ; ! "come to a stop"
+!gel:gel V-IV-DIR-IR ; ! "come to a stop"
+gel:gel V-IR-IV ; ! "come to a stop"
 gerek:gerek V-IV-DIR-IR ; ! "require"
 gereksin:gereksin V-IV-DIR-IR ; ! "be in need of"
 geril:geril V-IV-DIR-IR ; ! "strain"
