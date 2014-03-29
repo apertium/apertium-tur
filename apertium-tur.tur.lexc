@@ -120,7 +120,7 @@ Multichar_Symbols
 
 %<gna_prf%>
 %<gna_impf%>
-%<gpr_subj%>
+%<gpr_rsub%>  ! past-tense subject-relative verbal adjective {y}{A}n
 
 %<sent%>      ! Sentence marker
 %<guio%>      ! Hyphen
@@ -377,7 +377,7 @@ LEXICON V-INF
 
 LEXICON V-GPR
 
-%<gpr_subj%>:%>%{y%}%{A%}n ATTR ;
+%<gpr_rsub%>:%>%{y%}%{A%}n ATTR ;
 
 LEXICON V-GNA
 

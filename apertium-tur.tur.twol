@@ -246,7 +246,7 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 
 
 "Devoicing of archiphoneme {D} after CnsDev"
-%{D%}:t <=> [ %{p%}: | :CnsDev ] [ :0 - %{p%}: ]* _ ; 
+%{D%}:t <=> [ %{p%}: | :CnsDev ] [ [ :0 - %{p%}: ] | :%' ]* _ ; 
 
 !%{D%}:t <=> [ %{p%}: | :CnsDev ] (%':)  %>: _ ; 
 !            [ %{p%}: | :CnsDev ]  %{v%}: (%':)  %>: _ ; 
