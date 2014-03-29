@@ -47,7 +47,7 @@ Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z
          b c ç d f g ğ h j k l m n p q r s ş t v w y z 
          %' %{ç%} %{t%} ;
 
-AbstrVow = %{ii%} %{ö%} %{o%} %{ı%} %{u%} ; 
+AbstrVow = %{fi%} %{ii%} %{ö%} %{o%} %{ı%} %{u%} ; 
 
 HardVow  = a ı o u 
            A I O U ;
@@ -69,7 +69,7 @@ AbstrCns = %{n%} %{y%} %{s%} ;
 Rules 
 
 "Vowel harmony for archiphoneme {I}"
-%{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ [ :0 - %{fi%}:0 ] | %>: | %  ] _ ;
+%{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ [ :0 - [ AbstrVow:0 - %{u%}: ] ] | %>: | %  ] _ ;
         except
                                              %{e%}:0 %>: _ ;
                                          [ AbstrVow:0 - %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
@@ -78,7 +78,7 @@ Rules
                    Vy in ( i ü i ü ı u ı u ) 
             matched;
 
-"Underlying vowel harmony for archiphoneme {I}"
+"Vowel harmony to abstract vowels for archiphoneme {I}"
 !%{I%}:Vy <=> Vx:0 [ :0 | :Cns | :%' | % ]* _ ;
 %{I%}:Vy <=> Vx:0/[ [ :0 - Vx: ] | :Cns | :%' | % ]* _ ;
         except 
@@ -131,8 +131,8 @@ Rules
 ! PASOK{o}{r}>{n}{I}n = PASOK'un   = P:P A:A S:S O:O K:K {o}:0 {r}:0 ':' >:0 {n}:0 {I}:u n:n
 
 "Vowel {i} surfacing and harmonising"
-%{i%}:Vy <=>           [ :LastVowel :Cns* :Cns ] (:0) %>: _ [ %{L%}: | :Cns ]/[ :0 ]  ;
-             [ :LastVowel [ :Cns* | %>: ] :Cns ] (:0) %>: _ [ %{L%}: | :Cns ]/[ :0 ]  ; ! oynatırım
+%{i%}:Vy <=>           [ :LastVowel :Cns* :Cns ]/[ [ :0 - [ AbstrVow:0 - %{u%}: ] ] | %>: | %  ] _ [ %{L%}: | :Cns ]/[ :0 ]  ;
+             [ :LastVowel [ :Cns* | %>: ] :Cns ]/[ [ :0 - [ AbstrVow:0 - %{u%}: ] ] | %>: | %  ] _ [ %{L%}: | :Cns ]/[ :0 ]  ; ! oynatırım
         except
                                          [ AbstrVow:0 - %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
         where 

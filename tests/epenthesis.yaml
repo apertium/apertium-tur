@@ -11,6 +11,9 @@ Tests:
     şehir<n><dat> : şehre
     burun<n><px3sp><nom> : burnu
     burun<n><dat> : burna
+    akıl<n><px3sp><nom> : aklı
+    akıl<n><px1sg><nom> : aklım
+    akıl<n><dat> : akla
 
   "[twol] forms where the vowel should epenthesise":
     şehir<n><nom> : şehir
@@ -19,6 +22,10 @@ Tests:
     burun<n><nom> : burun
     burun<n><abl> : burundan
     burun<n><nom>+i<cop><pres><p2><sg> : burunsun
+    akıl<n><nom> : akıl
+    akıl<n><abl> : akıldan
+    akıl<n><nom>+i<cop><pres><p2><sg> : akılsın
+
 
   "[twol] interaction with irregular vowel harmony":
     nakit<n><nom> : nakit
