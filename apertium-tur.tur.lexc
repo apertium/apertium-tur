@@ -320,6 +320,9 @@ LEXICON V-AR-TV
 LEXICON V-AR-IV 
 %<v%>%<iv%>: V-DERIV-AR ;
 
+LEXICON V-IR-IV 
+%<v%>%<iv%>: V-DERIV-IR ;
+
 LEXICON V-DERIV-AR
 !! FIXME: <pass>, <caus>, <rec>
 V-FIN-AR ;
@@ -1708,7 +1711,7 @@ LEXICON NON-FINITE
 
 GERUNDS ;
 
-%<prc1%>:%>%{y%}%{A%}n ATTR ;
+!%<prc1%>:%>%{y%}%{A%}n ATTR ;
 
 %<gna1%>:%>%{y%}%{A%}r%{A%}k # ;
 %<gna2%>:%>%{y%}%{I%}p # ;
@@ -13818,7 +13821,8 @@ don:don V-IV-DIR-AR ; ! "freeze"
 eş:eş V-IV-DIR-AR ; ! "scratch"
 yak:yak V-IV-DIR-AR ; ! "fire"
 yan:yan V-IV-DIR-AR ; ! "burn, be on fire"
-kal:kal V-IV-DIR-IR ; ! "stay"
+!kal:kal V-IV-DIR-IR ; ! "stay"
+kal:kal V-IR-IV ; ! "stay"
 yat:yat V-IV-DIR-AR  ; ! "lie up"
 kesiş:kesiş V-IV-DIR-IR  ; ! "intersect"
 kirlen:kirlen V-IV-DIR-IR  ; ! "be raped"
