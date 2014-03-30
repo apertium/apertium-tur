@@ -183,7 +183,7 @@ REMOVE V IF
 #	(0 Px3Sp)
 #	(NOT 1* Tv BARRIER V) ;
 
-SELECT Acc IF
+REMOVE Acc IF
 	(0C Px3Sp OR Acc)
 	(1C* Acc BARRIER Tv) ;
 	#  60'lık _vücudu_ artık dans derslerini kaldıramayacak kadar bitkinleşmiş.
