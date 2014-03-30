@@ -121,6 +121,8 @@ Multichar_Symbols
 
 %<gna_perf%>
 %<gna_impf%>
+%<gna_when%>  ! at the same time as
+
 %<gpr_rsub%>  ! past-tense subject-relative verbal adjective {y}{A}n
 %<gpr_past%>  ! past-tense object-relative verbal adjective {D}{I}k{v}
 %<gpr_aor%>   ! 
@@ -429,6 +431,7 @@ LEXICON V-GNA
 
 %<gna_impf%>:%>%{y%}%{A%}r%{A%}k # ;
 %<gna_perf%>:%>%{y%}%{I%}p # ;
+%<gna_when%>:%>%{y%}%{I%}nc%{A%} # ;
 
 LEXICON V-FIN-AR
 
@@ -13155,7 +13158,8 @@ mahvet:mahvet V-TV-DIR-AR  ; ! "ruin"
 menet:menet V-TV-DIR-AR  ; ! "preclude"
 naklet:naklet V-TV-DIR-AR  ; ! "recount, transport"
 not% al:not% al V-TV-DIR-IR  ; ! "take a note" ! Use/MT
-öğren:öğren V-TV-DIR-IR  ; ! "learn"
+!öğren:öğren V-TV-DIR-IR  ; ! "learn"
+öğren:öğren V-IR-TV ; ! "learn"
 öğret:öğret V-TV-DIR-IR  ; ! "teach"
 öğüt:öğüt V-TV-DIR-IR  ; ! "digest"
 ölç:ölç V-TV-DIR-AR  ; ! "measure"
