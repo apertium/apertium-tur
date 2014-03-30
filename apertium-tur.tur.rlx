@@ -39,7 +39,7 @@ LIST Cog = (np cog);
 LIST Recip = rec ; 
 LIST Caus = caus ; 
 
-LIST Ger = ger1 ger2 ger3 ; 
+LIST Ger = ger1 ger2 ger3 ger_aor ;
 LIST Finite = evid ifi past aor pres ;
 
 LIST Imper = imp ; 
@@ -86,7 +86,9 @@ REMOVE Imper IF (NOT 0C Imper) ;
 
 SECTION 
 
-REMOVE Cop IF (NOT 1 EOS) ;
+REMOVE Cop IF
+	(1 N)
+	(NOT 1 EOS) ;
     ## Eczanelerde satılan [0]ilaçlar da bu alanda rağbet görüyor.
 
 REMOVE Pron + Nom IF (0 Det) (1C N) ;
@@ -127,6 +129,11 @@ SELECT Post IF
 
 SELECT Finite IF (1 EOS) ;
 	# as opposed to Ger readings
+
+# select finite subreading at the end of a sentence
+SELECT Sub:1 Finite IF
+	(0 Ger)
+	(1 EOS OR MARK) ;
 
 REMOVE N IF
 	(0 Finite)
