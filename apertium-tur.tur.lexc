@@ -349,6 +349,7 @@ LEXICON V-DERIV-IR
 !! FIXME: <pass>, <caus>, <rec>
 %<pass%>:%>%{i%}%{L%} V-DERIV-IR-COMMON ;
 %<caus%>:%>%{D%}%{I%}r V-DERIV-IR-COMMON ;
+%<caus%>%<pass%>:%>%{D%}%{I%}r%>%{i%}%{L%} V-DERIV-IR-COMMON ;
 V-DERIV-IR-COMMON ;
 
 LEXICON V-DERIV-IR-COMMON
@@ -13148,7 +13149,8 @@ her% sabah:her% sabah ADV3 ; ! "every morning" Use/MT
 
 LEXICON Verbs 
 
-al:al V-TV-DIR-IR ; ! "take, buy"
+!al:al V-TV-DIR-IR ; ! "take, buy"
+al:al V-IR-TV ; ! "take, buy"
 derinleştir:derinleştir V-TV-T-IR ; ! "deepen"
 ! yap:yap V-TV-DIR-AR ; ! "make, do"
 yap:yap V-AR-TV ; ! "make, do"
