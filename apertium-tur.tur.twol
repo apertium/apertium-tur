@@ -80,7 +80,7 @@ Rules
 
 "Vowel harmony to abstract vowels for archiphoneme {I}"
 !%{I%}:Vy <=> Vx:0 [ :0 | :Cns | :%' | % ]* _ ;
-%{I%}:Vy <=> Vx:0/[ [ :0 - Vx: ] | :Cns | :%' | % ]* _ ;
+%{I%}:Vy <=> Vx:0 [ [ :0 - Vx: ] | :Cns | :%' | % ]* _ ;
         except 
              [ AbstrVow: - [ Vx: | %{u%}: ] ] [ :0 | :Cns | :%' | % ]* _ ; 
                                               %{e%}:0 %>: _ ;
@@ -263,7 +263,7 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 ! akü>{n}{I}n       = akünün    = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
 
 "Epenthetic consonants after vowel"
-Cx:Cy <=>  [ AbstrVow: | :SurVow ] (%':) (:0) %>: _ ; 
+Cx:Cy <=>  [ [ AbstrVow: - %{fi%}: ] | :SurVow ] (%':) (:0) %>: _ ; 
         where
             Cx in ( %{n%} %{s%} %{y%} ) 
             Cy in (   n     s     y   ) 

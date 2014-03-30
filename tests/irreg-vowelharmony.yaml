@@ -22,22 +22,22 @@ Tests:
 
   "[twol] some nouns, suffixes starting in consonants":
     saat<n><pl><nom> : saatler
-    saat<n><nom>+i<cop><pres><p2><sg> : saatsin
+    saat<n><nom>+i<cop><aor><p2><sg> : saatsin
     dikkat<n><pl><nom> : dikkatler
-    dikkat<n><nom>+i<cop><pres><p2><sg> : dikkatsin
+    dikkat<n><nom>+i<cop><aor><p2><sg> : dikkatsin
     idrak<n><pl><nom> : idrakler
-    idrak<n><nom>+i<cop><pres><p2><sg> : idraksin
+    idrak<n><nom>+i<cop><aor><p2><sg> : idraksin
     harf<n><pl><nom> : harfler
-    harf<n><nom>+i<cop><pres><p2><sg> : harfsin
+    harf<n><nom>+i<cop><aor><p2><sg> : harfsin
     terminal<n><pl><nom> : terminaller
-    terminal<n><nom>+i<cop><pres><p2><sg> : terminalsin
+    terminal<n><nom>+i<cop><aor><p2><sg> : terminalsin
     festival<n><pl><nom> : festivaller
-    festival<n><nom>+i<cop><pres><p2><sg> : festivalsin
+    festival<n><nom>+i<cop><aor><p2><sg> : festivalsin
 
   "[twol] an adjective":
     meşgul<adj><subst><pl><nom> : meşguller
     meşgul<adj><subst><dat> : meşgule
-    meşgul<adj><subst><px3sp><nom> : meşguli
+    meşgul<adj><subst><px3sp><nom> : meşgulü
 
   "[twol] interaction with 'devoicing', suffixes starting in vowels":
     kalp<n><dat> : kalbe
@@ -47,9 +47,9 @@ Tests:
 
   "[twol] interaction with 'devoicing', suffixes starting in consonants":
     kalp<n><pl><nom> : kalpler
-    kalp<n><nom>+i<cop><pres><p2><sg> : kalpsin
+    kalp<n><nom>+i<cop><aor><p2><sg> : kalpsin
     harp<n><pl><nom> :  harpler
-    harp<n><nom>+i<cop><pres><p2><sg> : harpsin
+    harp<n><nom>+i<cop><aor><p2><sg> : harpsin
 
   "[twol] interaction with epenthesis":
     vakit<n><nom> : vakit
