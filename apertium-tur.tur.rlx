@@ -172,6 +172,7 @@ REMOVE Acc IF
 SELECT Acc
 	(0 Px3Sp)
 	(1 Tv)
+	# herkesi şaşırtacak
 
 SELECT N IF
 	(0 V + Ger) ;
