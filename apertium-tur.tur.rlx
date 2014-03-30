@@ -143,3 +143,10 @@ REMOVE V IF
 	(0 ("yemek") + N)
 	(1 ("ye") + V) ;
 	# yemek yer ...
+
+#SELECT the non Px* reading IF
+#	(0 Px3Sg)
+#	(NOT (-1* (Sg3 + Gen) OR (N + Gen)) BARRIER N) ;
+#	# Sonra arkadaşlarımı evde güzel bir öğle yemeğine davet ederim
+#	# ^öğle yemeğine/öğle yemeği<n><dat>/öğle yemeği<n><px2sg><dat>/öğle yemeği<n><px3sp><dat>$
+
