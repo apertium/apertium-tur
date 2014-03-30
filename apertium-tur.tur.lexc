@@ -122,6 +122,7 @@ Multichar_Symbols
 %<ger_aor%>           !
 %<ger_abst%>           !
 %<ger_fut%>           !
+%<ger_when%>       !
 %<ger5%>           !
 %<ger6%>           !
 
@@ -369,6 +370,7 @@ LEXICON V-GERUNDS
 %<ger_fut%>:%>%{y%}%{A%}c%{A%}k%{v%} V-GERUNDS-COMMON ;
 ! %<ger5%>:%>%{y%}%{A%}n V-GERUNDS-COMMON ;
 %<ger6%>:%>m%{A%}k%{v%} V-GERUNDS-COMMON ;
+%<ger_when%>:%>%{y%}%{I%}nc%{A%} CASE-NONOM ;  ! FIXME: CHECK: I think this doesn't take POSS stuff? -JNW
 
 LEXICON V-GERUNDS-AOR-AR
 
