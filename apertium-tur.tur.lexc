@@ -340,6 +340,7 @@ V-NONFIN-AR ;
 LEXICON V-DERIV-IR
 !! FIXME: <pass>, <caus>, <rec>
 %<pass%>:%>%{i%}%{L%} V-DERIV-IR-COMMON ;
+%<caus%>:%>%{D%}%{I%}r V-DERIV-IR-COMMON ;
 V-DERIV-IR-COMMON ;
 
 LEXICON V-DERIV-IR-COMMON
@@ -14102,7 +14103,8 @@ coş:coş V-IV-DIR-AR ; ! "emotionalise"
 dalgalan:dalgalan V-IV-DIR-IR ; ! "wave"
 davran:davran V-IV-DIR-IR ; ! "act, treat"
 dayan:dayan V-IV-DIR-IR ; ! "bear"
-değerlen:değerlen V-IV-DIR-IR ; ! "increase in value"
+! değerlen:değerlen V-IV-DIR-IR ; ! "increase in value"
+değerlen:değerlen V-IR-IV ; ! "increase in value"
 devrol:devrol V-IV-DIR-IR ; ! "devolve on"
 didin:didin V-IV-DIR-IR ; ! "moil"
 din:din V-IV-DIR-AR ; ! "quiet down"
