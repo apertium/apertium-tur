@@ -818,7 +818,7 @@ LEXICON N6 ! Languages which aren't nationalities
 
 LEXICON N-COMPOUND-PX-COMMON
 
-:%>%{S%}%{I%}%{n%} CASE-ETC ;
+:%>%{s%}%{I%}%{pN%} CASE-ETC ;
 POSS-REAL ;   ! for stuff like "биздин аба ырайыбыз" and even "анын аба ырайы",
               ! which should have a <px3sp> analysis
 
@@ -7855,7 +7855,7 @@ rahatlık:rahatlık N1 ; ! "pleasure"
 taksit:taksit N1 ; ! "(loan/debt) payment"
 öğle:öğle N1 ; ! "noon"
 yemek:yemek%{v%} N1 ; ! "food"
-öğle% yemek:öğle% yemek%{v%} N1 ; ! "lunch"
+öğle% yemeği:öğle% yemek%{v%} N-INFL-3PX-COMPOUND ; ! "lunch"
 ölüm:ölüm N1 ; ! "death"
 sevgi:sevgi N1 ; ! "love"
 dünyanın% dört% bir% yanı:dünyanın% dört% bir% yan N-INFL-3PX-COMPOUND ; ! 
