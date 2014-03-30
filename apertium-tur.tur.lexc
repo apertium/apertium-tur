@@ -81,6 +81,7 @@ Multichar_Symbols
 
 
 ! Pronoun types ! Алмашлык төрләре ! Виды местоимений
+
 %<pers%>           ! Personal
 ! Pronoun and determiner types
 %<dem%>            ! Demonstrative
@@ -103,6 +104,8 @@ Multichar_Symbols
 %<pass%>           ! Passive
 %<coop%>           ! Cooperative
 %<rec%>            ! Reciprocal (?)
+
+%<dub%>            ! dubative -mIş
 
 %<ifi%>            ! -{D}{I} 
 %<past%>           ! -m{I}s 
@@ -560,7 +563,7 @@ LEXICON V-IFI-COND-QST
 
 
 LEXICON COPULA-MIMIS-DUB
-%{m%}%{I%}ş:%<dub%> COPULA-MIMIS-COMMON ;
+%<dub%>:%{m%}%{I%}ş COPULA-MIMIS-COMMON ;
 COPULA-MIMIS-COMMON ;
 
 LEXICON COPULA-MIMIS-COMMON
@@ -607,7 +610,7 @@ COPULA-MISMI-COP ;
 
 LEXICON COPULA-MISMI-DUB
 
-%{m%}%{I%}ş:%<dub%> COPULA-MISMI-MI ;
+%<dub%>:%{m%}%{I%}ş COPULA-MISMI-MI ;
 COPULA-MISMI-MI ;
 
 LEXICON COPULA-MISMI
