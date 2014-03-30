@@ -54,6 +54,8 @@ Multichar_Symbols
 %<subst%>          ! Substantive
 %<advl%>           ! Adverbial
 
+%<abstr%>          ! Abstract suffix -LIK
+
 ! Number ! Сан ! Число
 %<sg%>             ! Singular  
 %<pl%>             ! Plural    
@@ -230,6 +232,8 @@ LEXICON NUM-DIGIT
 %<num%>%<ord%>:%'%{i%}nc%{I%} # ;
 %<num%>%<ord%>%<subst%>%<nom%>:%'%{I%}nc%{I%} # ;
 %<num%>%<ord%>%<subst%>:%'%{I%}nc%{i%} SUBST-NONOM ;
+
+%<num%>%<abstr%>:%'l%{I%}k # ;
 
 !%<num%>%<coll%>%<advl%>:%-%{A%}у # ;
 !%<num%>%<coll%>%<nom%>:%-%{A%}у # ;
