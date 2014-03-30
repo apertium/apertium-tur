@@ -14179,7 +14179,8 @@ kabar:kabar V-IV-DIR-IR ; ! "puff"
 kaç:kaç V-IV-DIR-AR ; ! "escape"
 kaçın:kaçın V-IV-DIR-IR ; ! "avoid"
 kal:kal V-IV-DIR-IR ; ! "stay"
-kalk:kalk V-IV-DIR-AR ; ! "get up"
+!kalk:kalk V-IV-DIR-AR ; ! "get up"
+kalk:kalk V-AR-IV ; ! "get up"
 kalkış:kalkış V-IV-DIR-IR ; ! "attend"
 kan:kan V-IV-DIR-AR ; ! "be cheated"
 kapıl:kapıl V-IV-DIR-IR ; ! "be carried away"
@@ -14330,6 +14331,7 @@ dans% et:dans% et%{v%} V-AR-IV ; ! "dance" Use/MT
 davet% et:davet% et%{v%} V-AR-TV ; ! "invite" Use/MT
 satın% al:satın% al V-IR-TV ; ! "buy" ! Use/MT
 yarat:yarat V-IR-TV ; ! "create" ! Use/MT
+bakış% at:bakış% at V-AR-TV ; ! "glance at / look at [suddenly]"
 
 
 
