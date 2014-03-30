@@ -44,7 +44,7 @@ LIST Recip = rec ;
 LIST Caus = caus ; 
 
 LIST Ger = ger ger1 ger2 ger3 ger_aor ;
-LIST Finite = evid ifi past aor pres ;
+LIST Finite = evid ifi past aor pres fut ;
 
 LIST Imper = imp ; 
 
