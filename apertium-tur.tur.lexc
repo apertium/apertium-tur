@@ -13117,6 +13117,7 @@ tekrar:tekrar ADV3 ; ! "again"
 !! JNW Adverbs
 
 sade:sade ADV3 ; ! "only/just"
+gönlünce:gönlünce ADV3 ; ! "as much as one wants"
 
 
 LEXICON Verbs 
@@ -13425,7 +13426,8 @@ kaç:kaç V-TV-IR-AR ; ! "escape"
 şaş:şaş V-TV-IR-AR ; ! "wonder"
 oku:oku V-TV-T-IR ; ! "read"
 söyle:söyle V-TV-T-IR ; ! "say"
-bekle:bekle V-TV-T-IR ; ! "wait"
+!bekle:bekle V-TV-T-IR ; ! "wait"
+bekle:bekle V-IR-TV ; ! "wait"
 düzenle:düzenle V-TV-T-IR ; ! "straight"
 kaldır:kaldır V-TV-T-IR ; ! "raise"
 acındır:acındır V-TV-T-IR ; ! "excite"
@@ -13894,9 +13896,11 @@ kazı:kazı V-TV-T-IR ; ! "scrape"
 gir:gir V-IV-DIR-AR ; ! enter"
 !git:git%{v%} V-IV-DIR-AR ; ! "go"
 git:git%{v%} V-AR-IV ; ! "go"
-öl:öl V-IV-DIR-IR ; ! "die"
+! öl:öl V-IV-DIR-IR ; ! "die"
+öl:öl V-IR-IV ; ! "die"
 de:d%{e%} V-IV-DIR-IR ; ! "say"
-ol:ol V-IV-DIR-IR ; ! "be"
+! ol:ol V-IV-DIR-IR ; ! "be"
+ol:ol V-IR-IV ; ! "be"
 don:don V-IV-DIR-AR ; ! "freeze"
 eş:eş V-IV-DIR-AR ; ! "scratch"
 yak:yak V-IV-DIR-AR ; ! "fire"
@@ -14244,7 +14248,8 @@ yalvar:yalvar V-IV-T-IR  ; ! "invoke"
 yanıl:yanıl V-IV-T-IR  ; ! "be mistaken"
 yankıla:yankıla V-IV-T-IR  ; ! "resonate"
 yansı:yansı V-IV-T-IR  ; ! "be reflected"
-yara:yara V-IV-T-IR  ; ! "benefit from"
+! yara:yara V-IV-T-IR  ; ! "benefit from"
+yara:yara V-IR-IV ; ! "benefit from"
 yavaşla:yavaşla V-IV-T-IR  ; ! "slow down"
 yeşer:yeşer V-IV-T-IR  ; ! "come into leaf"
 yuhala:yuhala V-IV-T-IR  ; ! "jeer at"
@@ -14314,7 +14319,8 @@ değer% ver:değer% ver V-TV-DIR-IR  ; ! "appreciate"
 kahvaltı% et:kahvaltı% et V-IV-DIR-AR ; ! "have breakfast" ! Use/MT
 dans% et:dans% et%{v%} V-AR-IV ; ! "dance" Use/MT
 davet% et:davet% et%{v%} V-AR-TV ; ! "invite" Use/MT
-satın% al:satın% al V-IR-TV ; ! "buy" Use/MT
+satın% al:satın% al V-IR-TV ; ! "buy" ! Use/MT
+yarat:yarat V-IR-TV ; ! "create" ! Use/MT
 
 
 
