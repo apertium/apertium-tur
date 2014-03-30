@@ -181,7 +181,7 @@ Miscellaneous ;
 Conjunctions ; 
 Titles ; 
 Postpositions ; 
-!Postadverbs ;
+Postadverbs ;
 Pronouns ; 
 Determiners ; 
 Numerals ; 
@@ -481,7 +481,7 @@ LEXICON V-NEC
 LEXICON V-ABIL
 
 %<abil%>:%>%{y%}%{A%}bil V-ABIL-COMMON ;
-%<neg%>%<abil%>:%>%{y%}%{A%}m%{a%} V-ABIL-COMMON ;
+%<neg%>%<abil%>:%>%{y%}%{A%}m%{A%}z V-ABIL-COMMON ;
 
 LEXICON V-ABIL-COMMON
 
@@ -1109,6 +1109,11 @@ LEXICON CS
 LEXICON CC 
 
 %<cnjcoo%>: # ;
+
+LEXICON POSTADV
+
+%<postadv%>: # ;
+
 
 
 
@@ -2286,6 +2291,10 @@ mı%<qst%>:mi # ; ! Dir/LR
 mı%<qst%>:mu # ; ! Dir/LR
 mı%<qst%>:mü # ; ! Dir/LR
 mı%<qst%>:%~mı # ; ! Dir/RL
+
+LEXICON Postadverbs
+
+ise:ise POSTADV ;
 
 LEXICON Postpositions
 
@@ -14281,8 +14290,9 @@ kayna:kayna V-IV-T-IR ; ! "boil"
 üne% kavuş:üne% kavuş V-IV-DIR-IR ; ! "to become famous" ! Use/MT ! FIXME: Check IR/DIR
 değer% ver:değer% ver V-TV-DIR-IR  ; ! "appreciate"
 kahvaltı% et:kahvaltı% et V-IV-DIR-AR ; ! "have breakfast" ! Use/MT
-dans% et:dans% et%{v%} V-AR-IV ; ! Use/MT
-davet% et:davet% et%{v%} V-AR-TV ; ! Use/MT
+dans% et:dans% et%{v%} V-AR-IV ; ! "dance" Use/MT
+davet% et:davet% et%{v%} V-AR-TV ; ! "invite" Use/MT
+satın% al:satın% al V-IR-TV ; ! "buy" Use/MT
 
 
 
