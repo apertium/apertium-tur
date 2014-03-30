@@ -122,6 +122,8 @@ Multichar_Symbols
 %<gna_perf%>
 %<gna_impf%>
 %<gpr_rsub%>  ! past-tense subject-relative verbal adjective {y}{A}n
+%<gpr_past%>  ! past-tense object-relative verbal adjective {D}{I}k{v}
+%<gpr_aor%>   ! 
 
 %<sent%>      ! Sentence marker
 %<guio%>      ! Hyphen
@@ -342,15 +344,19 @@ LEXICON V-DERIV-IR-COMMON
 V-FIN-IR ;
 V-NONFIN-IR ;
 
-
 LEXICON V-GERUNDS-COMMON
 
-%<ger%>:%>m%{A%} SUBST ;
-%<ger_past%>:%>%{D%}%{I%}k%{v%} SUBST ;
-%<ger_abst%>:%>%{I%}ş SUBST ;
-%<ger_fut%>:%>%{y%}%{A%}c%{A%}k%{v%} SUBST ;
-! %<ger5%>:%>%{y%}%{A%}n SUBST ;
-%<ger6%>:%>m%{A%}k%{v%} SUBST ;
+N-INFL-COMMON ; 
+
+
+LEXICON V-GERUNDS
+
+%<ger%>:%>m%{A%} V-GERUNDS-COMMON ;
+%<ger_past%>:%>%{D%}%{I%}k%{v%} V-GERUNDS-COMMON ;
+%<ger_abst%>:%>%{I%}ş V-GERUNDS-COMMON ;
+%<ger_fut%>:%>%{y%}%{A%}c%{A%}k%{v%} V-GERUNDS-COMMON ;
+! %<ger5%>:%>%{y%}%{A%}n V-GERUNDS-COMMON ;
+%<ger6%>:%>m%{A%}k%{v%} V-GERUNDS-COMMON ;
 
 LEXICON V-GERUNDS-AOR-AR
 
@@ -363,14 +369,14 @@ LEXICON V-GERUNDS-AOR-IR
 LEXICON V-NONFIN-IR
 
 V-NONFIN-COMMON ;
-V-GERUNDS-COMMON ;
 V-GERUNDS-AOR-IR ;
+V-GPR-AOR-IR ;
 
 LEXICON V-NONFIN-AR
 
 V-NONFIN-COMMON ;
-V-GERUNDS-COMMON ;
 V-GERUNDS-AOR-AR ;
+V-GPR-AOR-AR ;
 
 
 LEXICON V-NONFIN-COMMON
@@ -378,17 +384,34 @@ LEXICON V-NONFIN-COMMON
 V-INF ;
 V-GPR ;
 V-GNA ;
+V-GERUNDS ;
 
 LEXICON V-INF
 
 %<inf%>:%>m%{A%}k # ;
 %<neg%>%<inf%>:%>m%{A%}%>m%{A%}k # ;
 
-LEXICON V-GPR
+LEXICON V-GPR-AOR-AR
 
-%<gpr_rsub%>:%>%{y%}%{A%}n ATTR ;
+%<gpr_aor%>:%>%{A%}r V-GPR-COMMON ;
+
+LEXICON V-GPR-AOR-IR
+
+%<gpr_aor%>:%>%{i%}r V-GPR-COMMON ;
+
+LEXICON V-GPR
+!! Verbal adjectives
+
+%<gpr_rsub%>:%>%{y%}%{A%}n V-GPR-COMMON ;
+%<gpr_past%>:%>%{D%}%{I%}k%{v%} V-GPR-COMMON ;
+
+LEXICON V-GPR-COMMON
+
+ATTR ;
+%<subst%>: SUBST ;
 
 LEXICON V-GNA
+!! Verbal adverbs
 
 %<gna_impf%>:%>%{y%}%{A%}r%{A%}k # ;
 %<gna_perf%>:%>%{y%}%{I%}p # ;
@@ -600,7 +623,7 @@ LEXICON PERS-COP-PRES
 
 %<p1%>%<sg%>:%>%{y%}%{I%}m  # ;
 %<p2%>%<sg%>:%>s%{I%}n  # ;
-%<p3%>%<sg%>:%>%{D%}%{I%}r  # ;
+%<p3%>%<sg%>: # ;
 %<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r  # ;
 %<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
@@ -640,6 +663,7 @@ LEXICON COPULA-COND
 LEXICON CLIT
 
 ! %+mı%<qst%>:% m%{I%} PERS3 ; 
+%+mı%<qst%>:% m%{I%} # ;               ! generic Q marker, no copula
 # ;  !! This is the end of word marker.
 COPULA-MIMIS ;
 
@@ -12767,6 +12791,7 @@ ailecek:ailecek ADV3 ; ! "as a family"
 akabinde:akabinde ADV3 ; ! "immediately afterwards"
 akşamları:akşamları ADV3 ; ! "at night" i.e. "i feel much better at night"
 akşamleyin:akşamleyin ADV3 ; ! "at night"
+akşam:akşam ADV3; ! "in the evening"
 aksine:aksine ADV3 ; ! "on the contrary"
 alelacele:alelacele ADV3 ; ! "Hastly" 
 alelusul:alelusul ADV3 ; ! "as a matter of form"
@@ -13134,7 +13159,8 @@ say:say V-TV-DIR-AR  ; ! "count"
 seç:seç V-TV-DIR-AR  ; ! "choose"
 ser:ser V-TV-DIR-AR  ; ! "spread over"
 serp:serp V-TV-DIR-AR  ; ! "sprinkle"
-sev:sev V-TV-DIR-AR  ; ! "love"
+! sev:sev V-TV-DIR-AR  ; ! "love"
+sev:sev V-AR-TV ; ! "love"
 seyret:seyret%{v%} V-TV-DIR-AR  ; ! "watch"
 sez:sez V-TV-DIR-AR  ; ! "perceive"
 sik:sik V-TV-DIR-AR  ; ! "fuck"
