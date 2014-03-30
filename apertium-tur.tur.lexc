@@ -513,8 +513,8 @@ LEXICON V-IFI-COND-QST
 !!!!!!!COPULA SUFFIXES!!!!!!
 
 
-LEXICON COPULA-TNS-COMMON
-V-PAST ;
+!LEXICON COPULA-TNS-COMMON
+!V-PAST ;
 
 
 LEXICON COPULA-MIMIS-DUB
@@ -13253,7 +13253,8 @@ büz:büz V-TV-DIR-AR ; ! "constrict"
 çal:çal V-TV-DIR-AR ; ! "steal"
 çarpıt:çarpıt V-TV-DIR-IR ; ! "warp"
 çat:çat V-TV-DIR-AR ; ! "impinge on"
-çek:çek V-TV-DIR-AR ; ! "pull"
+!çek:çek V-TV-DIR-AR ; ! "pull"
+çek:çek V-AR-TV ; ! "pull"
 çel:çel V-TV-DIR-AR ; ! "tempt"
 çeliş:çeliş V-TV-DIR-IR ; ! "contradict"
 çevir:çevir V-TV-DIR-IR ; ! "translate"
