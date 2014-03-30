@@ -18,7 +18,7 @@ LIST Interj = ij ;
 LIST Post = post ; 
 LIST Cop = cop ; 
 
-LIST Tv = (v tv) ;
+LIST Tv = (v tv) (v iv caus) ;
 
 LIST Sg2 = (prn pers p2 sg) ;
 LIST Pl3 = (prn pers p3 pl) ;
@@ -168,6 +168,10 @@ REMOVE V IF
 REMOVE Acc IF
 	(0 Px3Sp)
 	(NOT 1* Tv BARRIER V) ;
+
+SELECT Acc
+	(0 Px3Sp)
+	(1 Tv)
 
 SELECT N IF
 	(0 V + Ger) ;
