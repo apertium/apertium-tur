@@ -106,6 +106,7 @@ Multichar_Symbols
 %<rec%>            ! Reciprocal (?)
 
 %<dub%>            ! dubative -mIş
+%<abil%>           ! abilative
 
 %<ifi%>            ! -{D}{I} 
 %<past%>           ! -m{I}s 
@@ -502,13 +503,28 @@ LEXICON V-NEC
 
 LEXICON V-ABIL
 
-%<abil%>:%>%{y%}%{A%}bil V-ABIL-COMMON ;
-%<neg%>%<abil%>:%>%{y%}%{A%}m%{A%}z V-ABIL-COMMON ;
+%<abil%>:%>%{y%}%{A%}bil V-ABIL-AFF ;
+%<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} V-ABIL-NEG ;
 
-LEXICON V-ABIL-COMMON
+LEXICON V-ABIL-NEG
 
-COPULA-MIMIS ;
-V-AOR-IR ;
+V-TENSE-MA-COMMON ;
+%<aor%>: V-ABIL-AOR-NEG-PERS ;
+
+LEXICON V-ABIL-AFF
+
+V-TENSE-MA-COMMON ;
+%<aor%>:%>%{i%}r COPULA-MIMIS ;
+
+LEXICON V-ABIL-AOR-NEG-PERS
+
+%<p1%>%<sg%>:%>m  COPULA-MIMIS ;
+%<p2%>%<sg%>:z%>s%{I%}n  COPULA-MIMIS ;
+%<p3%>%<sg%>:z%> COPULA-MIMIS ;
+%<p3%>%<frm%>%<sg%>:z%>%{D%}%{I%}r  COPULA-MIMIS ;
+%<p1%>%<pl%>:%>m%{I%}z  COPULA-MIMIS ;
+%<p2%>%<pl%>:z%>s%{I%}n%{I%}z  COPULA-MIMIS ;
+%<p3%>%<pl%>:z%>l%{A%}r  COPULA-MIMIS ;
 
 LEXICON V-PAST
 
@@ -13301,7 +13317,8 @@ bin:bin V-TV-DIR-AR ; ! "mount, ride"
 !bırak:bırak V-TV-DIR-IR ; ! "leave, give up"
 bırak:bırak V-IR-TV ; ! "leave, give up"
 birleş:birleş V-TV-DIR-IR ; ! "unite"
-bitkinleş:bitkinleş V-IV-DIR-IR ; ! "to be exhausted"  ! FIXME: CHECK IR/AR
+! bitkinleş:bitkinleş V-IV-DIR-IR ; ! "to be exhausted"  ! FIXME: CHECK IR/AR
+bitkinleş:bitkinleş V-IR-IV ; ! "to be exhausted"  ! FIXME: CHECK IR/AR
 boğ:boğ V-TV-DIR-AR ; ! "choke"
 böl:böl V-TV-DIR-AR ; ! "divide"
 borçlan:borçlan V-TV-DIR-IR ; ! "owe"
@@ -13392,7 +13409,8 @@ havalan:havalan V-TV-DIR-IR ; ! "take off"
 haykır:haykır V-TV-DIR-IR ; ! "yell"
 hazmet:hazmet V-TV-DIR-AR ; ! "digest"
 hicvet:hicvet V-TV-DIR-AR ; ! "satirisied"
-hisset:hisset V-TV-DIR-AR ; ! "feel"
+! hisset:hisset V-TV-DIR-AR ; ! "feel"
+hisset:hisset V-AR-TV ; ! "feel"
 hükmet:hükmet V-TV-DIR-AR ; ! "rule over"
 iade% et:iade% et%{v%} V-TV-DIR-AR ; ! "give back"
 iç:iç V-TV-DIR-AR ; ! "drink"
@@ -14178,7 +14196,7 @@ incel:incel V-IV-DIR-AR ; ! "get thinner"
 kabar:kabar V-IV-DIR-IR ; ! "puff"
 kaç:kaç V-IV-DIR-AR ; ! "escape"
 kaçın:kaçın V-IV-DIR-IR ; ! "avoid"
-kal:kal V-IV-DIR-IR ; ! "stay"
+!kal:kal V-IV-DIR-IR ; ! "stay"
 !kalk:kalk V-IV-DIR-AR ; ! "get up"
 kalk:kalk V-AR-IV ; ! "get up"
 kalkış:kalkış V-IV-DIR-IR ; ! "attend"
