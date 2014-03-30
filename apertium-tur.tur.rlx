@@ -87,6 +87,10 @@ REMOVE Cog + Px2Sg IF (0 Cog + Gen) ;
 REMOVE Imper IF (NOT 0C Imper) ;
     ## Bunlar, bu hafta içinde dünyanın dört bir yanından İtalyan başkentine [0]akın etmiş olan yaklaşık dört milyon hacı ve yaslı kalabalığa katıldı.
 
+SELECT Det IF
+	(1 N) ;
+	# [0]bazı şeyleri farklı yapardık
+	## needs to be in this section so that acc/px3sp stuff doesn't happen
 
 SECTION 
 
@@ -167,13 +171,13 @@ REMOVE V IF
 #	# Sonra arkadaşlarımı evde güzel bir öğle yemeğine davet ederim
 #	# ^öğle yemeğine/öğle yemeği<n><dat>/öğle yemeği<n><px2sg><dat>/öğle yemeği<n><px3sp><dat>$
 
-REMOVE Acc IF
-	(0 Px3Sp)
-	(NOT 1* Tv BARRIER V) ;
+#REMOVE Acc IF
+#	(0 Px3Sp)
+#	(NOT 1* Tv BARRIER V) ;
 
-SELECT Acc
+SELECT Acc IF
 	(0 Px3Sp)
-	(1 Tv)
+	((1* Tv BARRIER V) OR (1*/1 Tv BARRIER V))
 	# herkesi şaşırtacak
 
 SELECT N IF
