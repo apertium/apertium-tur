@@ -403,7 +403,21 @@ LEXICON V-GPR
 !! Verbal adjectives
 
 %<gpr_rsub%>:%>%{y%}%{A%}n V-GPR-COMMON ;
-%<gpr_past%>:%>%{D%}%{I%}k%{v%} V-GPR-COMMON ;
+%<gpr_past%>:%>%{D%}%{I%}k%{v%} V-GPR-DIK-COMMON ;
+
+LEXICON V-GPR-DIK-COMMON 
+
+V-GPR-COMMON ;
+V-GPR-DIK-PERS ;
+
+LEXICON V-GPR-DIK-PERS
+
+%<p1%>%<sg%>:%>%{i%}m # ;
+%<p2%>%<sg%>:%>%{i%}n # ;
+%<p3%>%<sp%>:%>%{s%}%{I%}%{pN%} # ;
+%<p1%>%<pl%>:%>%{i%}m%{I%}z # ;
+%<p2%>%<pl%>:%>%{i%}n%{I%}z # ;
+%<p3%>%<pl%>:%>l%{A%}r%{I%}%{pN%} # ;
 
 LEXICON V-GPR-COMMON
 
@@ -2827,7 +2841,6 @@ talep:talep%{v%} N1 ; ! "request"
 yönetim:yönetim N1 ; ! "administration"
 oran:oran N1 ; ! "proportion"
 teşvik:teşvik N1 ; ! "urge"
-sandalye:sandalye N1 ; ! "chair"
 oğlan:oğlan N1 ; ! "boy"
 soru:soru N1 ; ! "problem"
 aba:aba N1 ; ! "cloth"
@@ -7892,6 +7905,7 @@ yemek:yemek%{v%} N1 ; ! "food"
 ölüm:ölüm N1 ; ! "death"
 sevgi:sevgi N1 ; ! "love"
 dünyanın% dört% bir% yanı:dünyanın% dört% bir% yan N-INFL-3PX-COMPOUND ; ! 
+buluşma:buluşma N1 ; ! "meeting" ! Use/MT
 
 
 
@@ -13272,7 +13286,8 @@ bil:bil V-TV-DIR-IR ; ! "know"
 bildir:bildir V-TV-DIR-IR ; ! "state, notify"
 bilgilen:bilgilen V-TV-DIR-IR ; ! "learn"
 bin:bin V-TV-DIR-AR ; ! "mount, ride"
-bırak:bırak V-TV-DIR-IR ; ! "leave, give up"
+!bırak:bırak V-TV-DIR-IR ; ! "leave, give up"
+bırak:bırak V-IR-TV ; ! "leave, give up"
 birleş:birleş V-TV-DIR-IR ; ! "unite"
 bitkinleş:bitkinleş V-IV-DIR-IR ; ! "to be exhausted"  ! FIXME: CHECK IR/AR
 boğ:boğ V-TV-DIR-AR ; ! "choke"
@@ -14085,7 +14100,8 @@ dokun:dokun V-IV-DIR-IR ; ! "touch"
 dol:dol V-IV-DIR-AR ; ! "fill up"
 dolan:dolan V-IV-DIR-IR ; ! "ramble"
 don:don V-IV-DIR-AR ; ! "freeze"
-dön:dön V-IV-DIR-AR ; ! "turn"
+!dön:dön V-IV-DIR-AR ; ! "turn"
+dön:dön V-AR-IV ; ! "turn"
 dönüş:dönüş V-IV-DIR-IR ; ! "return to"
 doy:doy V-IV-DIR-AR ; ! "be full up"
 dur:dur V-IV-DIR-IR ; ! "stop"

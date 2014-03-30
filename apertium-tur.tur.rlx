@@ -18,6 +18,8 @@ LIST Interj = ij ;
 LIST Post = post ; 
 LIST Cop = cop ; 
 
+LIST Tv = (v tv) ;
+
 LIST Sg2 = (prn pers p2 sg) ;
 LIST Pl3 = (prn pers p3 pl) ;
 
@@ -27,6 +29,7 @@ LIST Px2Sg = px2sg ;
 
 LIST Nom = nom ; 
 LIST Gen = gen ; 
+LIST Acc = acc ; 
 LIST Abe = abe ; 
 
 LIST Subst = subst ; 
@@ -39,7 +42,7 @@ LIST Cog = (np cog);
 LIST Recip = rec ; 
 LIST Caus = caus ; 
 
-LIST Ger = ger1 ger2 ger3 ger_aor ;
+LIST Ger = ger ger1 ger2 ger3 ger_aor ;
 LIST Finite = evid ifi past aor pres ;
 
 LIST Imper = imp ; 
@@ -90,6 +93,10 @@ REMOVE Cop IF
 	(1 N)
 	(NOT 1 EOS) ;
     ## Eczanelerde satılan [0]ilaçlar da bu alanda rağbet görüyor.
+
+REMOVE Cop IF
+	(0 N)
+	(NOT 1 EOS) ;
 
 REMOVE Pron + Nom IF (0 Det) (1C N) ;
     ## Bunlar, [0]bu hafta içinde dünyanın dört bir yanından İtalyan başkentine akın etmiş olan yaklaşık dört milyon hacı ve yaslı kalabalığa katıldı.
@@ -157,3 +164,9 @@ REMOVE V IF
 #	# Sonra arkadaşlarımı evde güzel bir öğle yemeğine davet ederim
 #	# ^öğle yemeğine/öğle yemeği<n><dat>/öğle yemeği<n><px2sg><dat>/öğle yemeği<n><px3sp><dat>$
 
+REMOVE Acc IF
+	(0 Px3Sp)
+	(NOT 1* Tv BARRIER V) ;
+
+SELECT N IF
+	(0 V + Ger) ;
