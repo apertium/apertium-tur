@@ -45,7 +45,7 @@ LIST Cog = (np cog);
 LIST Recip = rec ; 
 LIST Caus = caus ; 
 
-LIST Ger = ger ger1 ger2 ger3 ger_aor ger_fut ;
+LIST Ger = ger ger1 ger2 ger3 ger_aor ger_fut ger_abst ;
 LIST Finite = evid ifi past aor pres fut ;
 
 LIST Imper = imp ; 
@@ -179,7 +179,7 @@ REMOVE V IF
 
 SELECT Acc IF
 	(0 Px3Sp)
-	((1* Tv BARRIER V) OR (1*/1 Tv BARRIER V))
+	((1* Tv BARRIER V OR Acc) OR (1*/1 Tv BARRIER V OR Acc))
 	# herkesi şaşırtacak
 
 SELECT N IF
