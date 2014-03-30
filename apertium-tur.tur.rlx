@@ -20,7 +20,7 @@ LIST Interj = ij ;
 LIST Post = post ; 
 LIST Cop = cop ; 
 
-LIST Tv = (v tv) (v iv caus) ;
+LIST Tv = (v tv) (v iv caus) (=tv) ;
 
 LIST Sg2 = (prn pers p2 sg) ;
 LIST Pl3 = (prn pers p3 pl) ;
@@ -62,6 +62,12 @@ SET NPNHA = WORDMARK - PRE-N - Adv ;
 
 
 SECTION
+
+#
+## Hacks for subreadings 
+#
+
+ADD (=tv) (*) IF ((0 Tv) OR (0/1 Tv)) (NOT 0 (=tv)) ;
 
 #
 ## Remove productive derivations when there are lexicalised alternatives
@@ -178,9 +184,9 @@ REMOVE V IF
 #	(NOT 1* Tv BARRIER V) ;
 
 SELECT Acc IF
-	(0 Px3Sp)
-	((1* Tv BARRIER V OR Acc) OR (1*/1 Tv BARRIER V OR Acc))
-	# herkesi şaşırtacak
+	(0C Px3Sp OR Acc)
+	(1C* Acc BARRIER Tv) ;
+	#  60'lık _vücudu_ artık dans derslerini kaldıramayacak kadar bitkinleşmiş.
 
 SELECT N IF
 	(0 V + Ger) ;
@@ -193,3 +199,8 @@ SELECT Gen IF
 
 SELECT Advl IF
 	(1 Cop LINK 0/1 V) ;
+
+
+AFTER-SECTIONS
+
+SUBSTITUTE (=tv) (*) (*) ; 
