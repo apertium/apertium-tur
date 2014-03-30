@@ -177,3 +177,6 @@ SELECT Gen IF
 	(0 ("biz"))
 	(1* Px1Pl BARRIER EOS) ;
 	# "bizim" not biz+i<cop><aor><p1><sg>
+
+SELECT Advl IF
+	(1 Cop LINK 0/1 V) ;
