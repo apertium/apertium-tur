@@ -43,7 +43,7 @@ LIST Cog = (np cog);
 LIST Recip = rec ; 
 LIST Caus = caus ; 
 
-LIST Ger = ger ger1 ger2 ger3 ger_aor ;
+LIST Ger = ger ger1 ger2 ger3 ger_aor ger_fut ;
 LIST Finite = evid ifi past aor pres fut ;
 
 LIST Imper = imp ; 
@@ -135,12 +135,14 @@ SELECT Post IF
 	(-1C N)
 	## hayat dolu
 
-SELECT Finite IF (1 EOS) ;
+SELECT Finite IF
+	(0 Ger)
+	(1 EOS) ;
 	# as opposed to Ger readings
 
 # select finite subreading at the end of a sentence
 SELECT Sub:1 Finite IF
-	(0 Ger)
+	(0/1 Ger)
 	(1 EOS OR MARK) ;
 
 REMOVE N IF
