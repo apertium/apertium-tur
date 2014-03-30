@@ -26,6 +26,7 @@ LIST Pl3 = (prn pers p3 pl) ;
 LIST Px3Sp = px3sp ; 
 LIST Px3Pl = px3pl ; 
 LIST Px2Sg = px2sg ; 
+LIST Px1Pl = px1pl ; 
 
 LIST Nom = nom ; 
 LIST Gen = gen ; 
@@ -170,3 +171,9 @@ REMOVE Acc IF
 
 SELECT N IF
 	(0 V + Ger) ;
+
+SELECT Gen IF
+	(0 Cop)
+	(0 ("biz"))
+	(1* Px1Pl BARRIER EOS) ;
+	# "bizim" not biz+i<cop><aor><p1><sg>
