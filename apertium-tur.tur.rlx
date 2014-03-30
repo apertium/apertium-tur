@@ -1,6 +1,8 @@
 DELIMITERS = "<.>" "<!>" "<?>" ;
 SOFT-DELIMITERS = "<,>" ;
 
+SUBREADINGS = RTL ; # Alternate, right-to-lfet (main reading on the right)
+
 LIST BOS = (>>>) sent ; # Beginning of sentence
 LIST EOS = (<<<) sent ; # End of sentence
 
