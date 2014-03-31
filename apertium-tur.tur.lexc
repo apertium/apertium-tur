@@ -14358,7 +14358,7 @@ kayna:kayna V-IV-T-IR ; ! "boil"
 
 !! JNW Verbs
 şaşır:şaşır V-IV-T-IR ; ! "to be surprised"
-üne% kavuş:üne% kavuş V-IV-DIR-IR ; ! "to become famous" ! Use/MT ! FIXME: Check IR/DIR
+üne% kavuş:üne% kavuş V-IR-IV ; ! "to become famous" ! Use/MT ! FIXME: Check IR/DIR
 değer% ver:değer% ver V-TV-DIR-IR  ; ! "appreciate"
 kahvaltı% et:kahvaltı% et V-IV-DIR-AR ; ! "have breakfast" ! Use/MT
 dans% et:dans% et%{v%} V-AR-IV ; ! "dance" Use/MT
