@@ -154,8 +154,9 @@ SELECT Finite IF
 
 # select finite subreading at the end of a sentence
 SELECT Sub:1 Finite IF
-	(0/1 Ger)
+	#(0/1 Ger)                # FIXME: why does this only work when commented
 	(1 EOS OR MARK) ;
+	# Hayattaki son dersi "kendi ölümü" [0]olacakmış.
 
 REMOVE N IF
 	(0 Finite)
