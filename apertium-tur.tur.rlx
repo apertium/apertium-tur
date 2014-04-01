@@ -45,7 +45,8 @@ LIST Cog = (np cog);
 LIST Recip = rec ; 
 LIST Caus = caus ; 
 
-LIST Ger = ger ger1 ger2 ger3 ger_aor ger_fut ger_abst ;
+LIST Gpr = gpr_past gpr_fut gpr_rsub ;
+LIST Ger = ger ger1 ger2 ger3 ger_aor ger_fut ger_abst ger_past ;
 LIST Finite = evid ifi past aor pres fut ;
 
 LIST Imper = imp ; 
@@ -200,6 +201,10 @@ SELECT Gen IF
 
 SELECT Advl IF
 	(1 Cop LINK 0/1 V) ;
+
+REMOVE Ger IF
+	(0 Gpr)
+	(1* N BARRIER (NOT PRE-N)) ;
 
 
 AFTER-SECTIONS
