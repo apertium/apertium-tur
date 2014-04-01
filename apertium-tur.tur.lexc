@@ -427,12 +427,12 @@ V-GPR-DIK-PERS ;
 
 LEXICON V-GPR-DIK-PERS
 
-%<p1%>%<sg%>:%>%{i%}m # ;
-%<p2%>%<sg%>:%>%{i%}n # ;
-%<p3%>%<sp%>:%>%{s%}%{I%}%{pN%} # ;
-%<p1%>%<pl%>:%>%{i%}m%{I%}z # ;
-%<p2%>%<pl%>:%>%{i%}n%{I%}z # ;
-%<p3%>%<pl%>:%>l%{A%}r%{I%}%{pN%} # ;
+%<px1sg%>:%>%{i%}m # ;
+%<px2sg%>:%>%{i%}n # ;
+%<px3sp%>:%>%{s%}%{I%}%{pN%} # ;
+%<px1pl%>:%>%{i%}m%{I%}z # ;
+%<px2pl%>:%>%{i%}n%{I%}z # ;
+%<px3pl%>:%>l%{A%}r%{I%}%{pN%} # ;
 
 LEXICON V-GPR-COMMON
 
