@@ -2569,6 +2569,7 @@ bir% kısım:bir% kısım DET-QNT ; ! "some"
 bu% kadar:bu% kadar DET-QNT ; ! "this much"
 şu% kadar:şu% kadar DET-QNT ; ! "that much"
 o% kadar:o% kadar DET-QNT ; ! "this much"
+ne% kadar:ne% kadar DET-QNT ; ! "how much"
 çok:çok DET-QNT ; ! "many"
 çoğu:çoğu DET-QNT ; ! "many" 
 !az:az DET-QNT ; ! "a little"
@@ -14360,7 +14361,7 @@ kayna:kayna V-IV-T-IR ; ! "boil"
 şaşır:şaşır V-IV-T-IR ; ! "to be surprised"
 üne% kavuş:üne% kavuş V-IR-IV ; ! "to become famous" ! Use/MT ! FIXME: Check IR/DIR
 değer% ver:değer% ver V-TV-DIR-IR  ; ! "appreciate"
-kahvaltı% et:kahvaltı% et V-IV-DIR-AR ; ! "have breakfast" ! Use/MT
+kahvaltı% et:kahvaltı% et V-AR-IV ; ! "have breakfast" ! Use/MT
 dans% et:dans% et%{v%} V-AR-IV ; ! "dance" Use/MT
 davet% et:davet% et%{v%} V-AR-TV ; ! "invite" Use/MT
 satın% al:satın% al V-IR-TV ; ! "buy" ! Use/MT
