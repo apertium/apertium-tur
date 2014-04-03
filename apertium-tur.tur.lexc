@@ -742,7 +742,7 @@ LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears o
                         ! after nominal parts of speech (and only after some cases).
                         ! FIXME: to be checked whether leads to any overgeneration
 CLIT ;
-V-PERS-COP ;
+COPULA-MIMIS ;
 
 LEXICON CLIT-NOPERS
 
