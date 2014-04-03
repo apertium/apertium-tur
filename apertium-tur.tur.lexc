@@ -14361,7 +14361,7 @@ kayna:kayna V-IV-T-IR ; ! "boil"
 şaşır:şaşır V-IV-T-IR ; ! "to be surprised"
 üne% kavuş:üne% kavuş V-IR-IV ; ! "to become famous" ! Use/MT ! FIXME: Check IR/DIR
 değer% ver:değer% ver V-TV-DIR-IR  ; ! "appreciate"
-kahvaltı% et:kahvaltı% et V-AR-IV ; ! "have breakfast" ! Use/MT
+kahvaltı% et:kahvaltı% et%{v%} V-AR-IV ; ! "have breakfast" ! Use/MT
 dans% et:dans% et%{v%} V-AR-IV ; ! "dance" Use/MT
 davet% et:davet% et%{v%} V-AR-TV ; ! "invite" Use/MT
 satın% al:satın% al V-IR-TV ; ! "buy" ! Use/MT
