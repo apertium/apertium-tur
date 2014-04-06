@@ -249,6 +249,12 @@ SELECT Prc IF
 		(1/1 ("ol" v))
 	);
 
+REMOVE Gen IF
+	(1 ("kadar")) ;
+
+REMOVE Sub:1 Gen IF
+	(1 ("kadar")) ;
+
 SELECT Sub:1 Finite IF
 	(0 Advl) ;
 	# ölürken
