@@ -122,7 +122,7 @@ REMOVE Pron + Nom IF (0 Det) (1C N) ;
 REMOVE Num + Nom IF (1C Num) ; 
     ## Bu araba [0]11,5 milyar avroluk.
 
-REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) ; 
+REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ; 
     ## Bu araba 11,5 milyar avroluk.
 
 SELECT Adv IF (0 ("en")) (1 A) ; 
@@ -191,8 +191,22 @@ REMOVE V IF
 
 REMOVE Acc IF
 	(0C Px3Sp OR Acc)
-	(1C* Acc BARRIER Tv) ;
-	#  60'lık _vücudu_ artık dans derslerini kaldıramayacak kadar bitkinleşmiş.
+	(
+		(1C* Acc BARRIER Tv) 
+		#  60'lık [0]vücudu artık dans derslerini kaldıramayacak kadar bitkinleşmiş.
+		OR
+		(NOT 1C* Tv BARRIER EOS)
+	);
+
+REMOVE Sub:1 Acc IF
+	(0C/1 Px3Sp OR Acc)
+	(
+		(1C* Acc BARRIER Tv) 
+		OR
+		(NOT 1C* Tv BARRIER EOS)
+		#  Mori Schwartz, hayat dolu bir üniversite [0]profesörüydü.
+	);
+
 
 SELECT N IF
 	(0 V + Ger) ;
