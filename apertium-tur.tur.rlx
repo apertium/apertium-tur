@@ -211,6 +211,10 @@ REMOVE Sub:1 Acc IF
 		#  Mori Schwartz, hayat dolu bir üniversite [0]profesörüydü.
 	);
 
+REMOVE Gpr + Acc IF
+	(0 Gpr + Px3Sp)
+	(1 N) ;
+	# Mori'nin bu sorulara [0]verdiği yanıtlar Türkçede de yayımlandı.
 
 SELECT N IF
 	(0 V + Ger) ;
@@ -235,6 +239,7 @@ SELECT Gna IF
 SELECT SUB:1 Gna IF
 	( (0 Sg3) OR (0/1 Sg3) )
 	(1 COMMA) ;
+	# Kucaklanıp [0]kaldırılır, başkası tarafından [0]yıkanır, poposu pudralanır olmuş.
 
 SELECT Prc IF
 	(
@@ -252,6 +257,8 @@ SELECT ("düşün") IF
 SELECT ("hayattayken") IF
 	(0/1 ("hayat") + N + Loc) ;
 
+SELECT ("yanıt") IF
+	(-1 ("ver") + V ) ;
 
 
 AFTER-SECTIONS
