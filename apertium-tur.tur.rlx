@@ -48,7 +48,7 @@ LIST Caus = caus ;
 
 LIST Gpr = gpr_past gpr_fut gpr_rsub gpr_aor ;
 LIST Gna = gna_aor ;
-LIST Prc = prc_aor ;
+LIST Prc = prc ;
 LIST Ger = ger ger1 ger2 ger3 ger_aor ger_fut ger_abst ger_past ;
 LIST Finite = evid ifi past aor pres fut ;
 
@@ -214,7 +214,11 @@ SELECT Gna IF
 	(1 (",")) ;
 
 SELECT Prc IF
-	(1 ("ol" v)) ;
+	(
+		(1 ("ol" v))
+		OR
+		(1/1 ("ol" v))
+	);
 
 AFTER-SECTIONS
 

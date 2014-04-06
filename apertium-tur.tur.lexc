@@ -130,7 +130,7 @@ Multichar_Symbols
 %<gna_impf%>
 %<gna_when%>  ! at the same time as
 %<gna_aor%>
-%<prc_aor%>
+%<prc%>
 
 %<gpr_rsub%>  ! past-tense subject-relative verbal adjective {y}{A}n
 %<gpr_past%>  ! past-tense object-relative verbal adjective {D}{I}k{v}
@@ -411,13 +411,13 @@ LEXICON V-INF
 LEXICON V-AOR-NONFIN-AR
 
 %<gpr_aor%>:%>%{A%}r V-GPR-COMMON ;
-%<prc_aor%>:%>%{A%}r V-PRC-COMMON ;
+%<prc%>:%>%{A%}r V-PRC-COMMON ;
 %<gna_aor%>:%>%{A%}r V-GNA-COMMON ;
 
 LEXICON V-AOR-NONFIN-IR
 
 %<gpr_aor%>:%>%{i%}r V-GPR-COMMON ;
-%<prc_aor%>:%>%{i%}r V-PRC-COMMON ;
+%<prc%>:%>%{i%}r V-PRC-COMMON ;
 %<gna_aor%>:%>%{i%}r V-GNA-COMMON ;
 
 LEXICON V-PRC-COMMON
