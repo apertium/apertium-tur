@@ -351,7 +351,8 @@ V-NONFIN-AR ;
 LEXICON V-DERIV-IR
 !! FIXME: <pass>, <caus>, <rec>
 %<pass%>:%>%{i%}%{L%} V-DERIV-IR-COMMON ;
-%<caus%>:%>%{D%}%{I%}r V-DERIV-IR-COMMON ;
+%<caus%>:%>%{D%}%{I%}r V-DERIV-IR-COMMON ;  ! FIXME
+%<caus%>:%>t V-DERIV-IR-COMMON ;            ! FIXME Dir/LR
 %<caus%>%<pass%>:%>%{D%}%{I%}r%>%{i%}%{L%} V-DERIV-IR-COMMON ;
 V-DERIV-IR-COMMON ;
 
@@ -529,11 +530,13 @@ LEXICON V-ABIL-NEG
 
 V-TENSE-MA-COMMON ;
 %<aor%>: V-ABIL-AOR-NEG-PERS ;
+V-GERUNDS ;
 
 LEXICON V-ABIL-AFF
 
 V-TENSE-MA-COMMON ;
 %<aor%>:%>%{i%}r COPULA-MIMIS ;
+V-GERUNDS ;
 
 LEXICON V-ABIL-AOR-NEG-PERS
 
@@ -14384,7 +14387,8 @@ kara:kara V-IV-T-IR ; ! "brown"
 kayna:kayna V-IV-T-IR ; ! "boil"
 
 !! JNW Verbs
-şaşır:şaşır V-IV-T-IR ; ! "to be surprised"
+!şaşır:şaşır V-IV-T-IR ; ! "to be surprised"
+şaşır:şaşır V-IR-IV ; ! "to be surprised"
 üne% kavuş:üne% kavuş V-IR-IV ; ! "to become famous" ! Use/MT ! FIXME: Check IR/DIR
 değer% ver:değer% ver V-TV-DIR-IR  ; ! "appreciate"
 kahvaltı% et:kahvaltı% et%{v%} V-AR-IV ; ! "have breakfast" ! Use/MT
