@@ -147,6 +147,17 @@ Rules
 ! et{·}>{i}{L}>{y}{A}n  = edilen     =             e:e t:d {·}:0 >:0 {i}:i {L}:l >:0 {y}:0 {A}:e n:n
 ! yap>{i}{L}>{y}{A}n    = yapılan    =   y:y a:a p:p >:0 {i}:ı {L}:l >:0 {y}:0 {A}:a n:n
 
+"Vowel harmony to abstract vowels for archiphoneme {i}"
+%{i%}:Vy <=> Vx:0 [ [ :0 - Vx: ] | :Cns | :%' | % ]* _ ;
+        except 
+             [ AbstrVow: - [ Vx: | %{u%}: ] ] [ :0 | :Cns | :%' | % ]* _ ; 
+                                              %{e%}:0 %>: _ ;
+!                      [ %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
+        where 
+              Vx in ( %{fi%} %{ii%} %{o%} %{ö%} %{ı%} ) 
+              Vy   in (  i      i     u     ü     ı   )  
+               matched ;
+
 !"Unepenthesis in stems"
 !%{u%}:0 <=> _ [ :Cns :SurVow ]/[ :0 | %>: ] ;
 !            _ :Cns %>: %{n%}: %{I%}: :n .#. ; 

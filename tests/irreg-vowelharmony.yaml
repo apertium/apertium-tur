@@ -54,6 +54,7 @@ Tests:
   "[twol] interaction with epenthesis":
     vakit<n><nom> : vakit
     vakit<n><acc> : vakti
+    vakit<n><px2pl><nom> : vaktiniz
     vakit<n><dat> : vakte
     vakit<n><loc> : vakitte
     vakit<n><px3sp><nom> : vakti
