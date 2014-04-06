@@ -193,6 +193,10 @@ REMOVE V IF
 	(0 ("yemek") + N)
 	(1 ("ye") + V) ;
 	# yemek yer ...
+REMOVE N IF
+	(-1 ("yemek") + N) 
+	(0 ("ye") + V) ;
+	# yemek yer ...
 
 #SELECT the non Px* reading IF
 #	(0 Px3Sg)
@@ -245,12 +249,20 @@ REMOVE Ger IF
 
 SELECT Gna IF
 	( (0 Sg3) OR (0/1 Sg3) )
-	(1 COMMA) ;
+	(
+		(1 COMMA)
+		OR
+		(1 CC)
+	) ;
 
 SELECT SUB:1 Gna IF
 	( (0 Sg3) OR (0/1 Sg3) )
-	(1 COMMA) ;
-	# Kucaklanıp [0]kaldırılır, başkası tarafından [0]yıkanır, poposu pudralanır olmuş.
+	(
+		(1 COMMA)
+		# Kucaklanıp [0]kaldırılır, başkası tarafından [0]yıkanır, poposu pudralanır olmuş.
+		OR
+		(1 CC)
+	) ;
 
 SELECT Prc IF
 	(
