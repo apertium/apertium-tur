@@ -36,6 +36,7 @@ LIST Nom = nom ;
 LIST Gen = gen ; 
 LIST Acc = acc ; 
 LIST Abe = abe ; 
+LIST Loc = loc ; 
 
 LIST Subst = subst ; 
 LIST Attr = attr ; 
@@ -247,6 +248,10 @@ SELECT Sub:1 ("düşün") IF
 
 SELECT ("düşün") IF
 	(0 ("düş") + V + Ref) ;
+
+SELECT ("hayattayken") IF
+	(0/1 ("hayat") + N + Loc) ;
+
 
 
 AFTER-SECTIONS

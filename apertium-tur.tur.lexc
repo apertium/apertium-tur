@@ -13171,6 +13171,7 @@ tekrar:tekrar ADV3 ; ! "again"
 sade:sade ADV3 ; ! "only/just"
 gönlünce:gönlünce ADV3 ; ! "as much as one wants"
 her% sabah:her% sabah ADV3 ; ! "every morning" Use/MT
+hayattayken:hayattayken ADV3 ; ! "while alive" Use/MT
 
 
 LEXICON Verbs 
@@ -13487,7 +13488,8 @@ oku:oku V-TV-T-IR ; ! "read"
 söyle:söyle V-IR-TV ; ! "say"
 !bekle:bekle V-TV-T-IR ; ! "wait"
 bekle:bekle V-IR-TV ; ! "wait"
-düzenle:düzenle V-TV-T-IR ; ! "straight"
+!düzenle:düzenle V-TV-T-IR ; ! "straight"
+düzenle:düzenle V-IR-TV ; ! "straight"
 kaldır:kaldır V-TV-T-IR ; ! "raise"
 acındır:acındır V-TV-T-IR ; ! "excite"
 ada:ada V-TV-T-IR ; ! "dedicate"
