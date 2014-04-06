@@ -290,13 +290,11 @@ SELECT ("hayattayken") IF
 SELECT ("yanıt") IF
 	(-1 ("ver") + V ) ;
 
-SELECT ("uzan") IF
-	(
-		(0 ("uza") + V )
-		OR
-		(0/1 ("uza") + V )
-	);
+SELECT Sub:1 ("uzan") IF
+	(0/1 ("uza") + V );
 
+SELECT ("uzan") IF
+	(0 ("uza") + V ) ;
 
 
 AFTER-SECTIONS
