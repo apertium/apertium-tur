@@ -24,6 +24,7 @@ LIST Tv = (v tv) (v iv caus) (=tv) ;
 
 LIST Sg2 = (prn pers p2 sg) ;
 LIST Pl3 = (prn pers p3 pl) ;
+LIST Sg3 = (prn pers p3 sg) ;
 
 LIST Px3Sp = px3sp ; 
 LIST Px3Pl = px3pl ; 
@@ -45,7 +46,9 @@ LIST Cog = (np cog);
 LIST Recip = rec ; 
 LIST Caus = caus ; 
 
-LIST Gpr = gpr_past gpr_fut gpr_rsub ;
+LIST Gpr = gpr_past gpr_fut gpr_rsub gpr_aor ;
+LIST Gna = gna_aor ;
+LIST Prc = prc_aor ;
 LIST Ger = ger ger1 ger2 ger3 ger_aor ger_fut ger_abst ger_past ;
 LIST Finite = evid ifi past aor pres fut ;
 
@@ -206,6 +209,12 @@ REMOVE Ger IF
 	(0 Gpr)
 	(1* N BARRIER (NOT PRE-N)) ;
 
+SELECT Gna IF
+	(0 Sg3)
+	(1 (",")) ;
+
+SELECT Prc IF
+	(1 ("ol" v)) ;
 
 AFTER-SECTIONS
 
