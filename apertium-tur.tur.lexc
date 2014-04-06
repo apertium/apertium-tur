@@ -1206,6 +1206,11 @@ LEXICON ADJ-CLIT
 COPULA-MIMIS ;
 # ;
 
+LEXICON PRED-CLIT
+
+COPULA-MIMIS ;
+# ;
+
 LEXICON A1
 
 %<adj%>: ADJ-CLIT ; 
@@ -14205,7 +14210,7 @@ iliş:iliş V-IV-DIR-IR ; ! "perch"
 imren:imren V-IV-DIR-IR ; ! "envy"
 ! inan:inan V-TV-DIR-IR ; ! "believe"
 inan:inan V-IR-TV ; ! "believe"
-bağla:bağla V-TV-T-IR ; ! "connect"
+bağla:bağla V-IR-TV ; ! "connect"
 
 incel:incel V-IV-DIR-AR ; ! "get thinner"
 ışıklan:ışıklan V-IV-DIR-IR ; ! "lighten"
