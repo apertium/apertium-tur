@@ -121,6 +121,14 @@ REMOVE Cop IF
 	(0 N)
 	(NOT 1 EOS) ;
 
+REMOVE Cop IF
+	(1 Post) ;
+
+REMOVE Gpr IF
+	( (0 Ger) OR (0/1 Ger) )
+	(1 Post) ;
+
+
 REMOVE Pron + Nom IF (0 Det) (1C N) ;
     ## Bunlar, [0]bu hafta içinde dünyanın dört bir yanından İtalyan başkentine akın etmiş olan yaklaşık dört milyon hacı ve yaslı kalabalığa katıldı.
 
@@ -248,6 +256,7 @@ SELECT Prc IF
 		OR
 		(1/1 ("ol" v))
 	);
+	
 
 REMOVE Gen IF
 	(1 ("kadar")) ;
