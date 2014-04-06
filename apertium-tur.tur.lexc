@@ -384,13 +384,13 @@ LEXICON V-NONFIN-IR
 
 V-NONFIN-COMMON ;
 V-GERUNDS-AOR-IR ;
-V-GPR-AOR-IR ;
+V-AOR-NONFIN-IR ;
 
 LEXICON V-NONFIN-AR
 
 V-NONFIN-COMMON ;
 V-GERUNDS-AOR-AR ;
-V-GPR-AOR-AR ;
+V-AOR-NONFIN-AR ;
 
 
 LEXICON V-NONFIN-COMMON
@@ -406,13 +406,23 @@ LEXICON V-INF
 %<inf%>:%>m%{A%}k # ;
 %<neg%>%<inf%>:%>m%{A%}%>m%{A%}k # ;
 
-LEXICON V-GPR-AOR-AR
+LEXICON V-AOR-NONFIN-AR
 
 %<gpr_aor%>:%>%{A%}r V-GPR-COMMON ;
+%<prc_aor%>:%>%{A%}r V-PRC-COMMON ;
+%<gna_aor%>:%>%{A%}r V-GNA-COMMON ;
 
-LEXICON V-GPR-AOR-IR
+LEXICON V-AOR-NONFIN-IR
 
 %<gpr_aor%>:%>%{i%}r V-GPR-COMMON ;
+%<prc_aor%>:%>%{i%}r V-PRC-COMMON ;
+%<gna_aor%>:%>%{i%}r V-GNA-COMMON ;
+
+LEXICON V-PRC-COMMON
+CLIT-NOPERS ;
+
+LEXICON V-GNA-COMMON
+CLIT-NOPERS ;
 
 LEXICON V-GPR
 !! Verbal adjectives
