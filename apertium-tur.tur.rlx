@@ -45,6 +45,7 @@ LIST Cog = (np cog);
 
 LIST Recip = rec ; 
 LIST Caus = caus ; 
+LIST Ref = ref ;
 
 LIST Gpr = gpr_past gpr_fut gpr_rsub gpr_aor ;
 LIST Gna = gna_aor ;
@@ -219,6 +220,13 @@ SELECT Prc IF
 		OR
 		(1/1 ("ol" v))
 	);
+
+SELECT Sub:1 ("düşün") IF
+	(0/1 ("düş") + V + Ref) ;
+
+SELECT ("düşün") IF
+	(0 ("düş") + V + Ref) ;
+
 
 AFTER-SECTIONS
 
