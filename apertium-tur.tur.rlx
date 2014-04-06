@@ -61,6 +61,8 @@ SET NOMINAL-HEAD = N | Ger | Subst ;
 
 SET WORD = N | V | A | Post | Pron | Det | Adv | CC | CS | Interj | Num | ("\?") ;
 SET MARK =  (",") | ("\\") | ("\;") ; #"
+SET PHRASEMARK =  ("\\") | ("\;") ; #"
+SET COMMA = (",") ;
 SET WORDMARK = WORD | MARK ;
 
 SET NPNHA = WORDMARK - PRE-N - Adv ;
@@ -160,7 +162,7 @@ SELECT Finite IF
 # select finite subreading at the end of a sentence
 SELECT Sub:1 Finite IF
 	#(0/1 Ger)                # FIXME: why does this only work when commented
-	(1 EOS OR MARK) ;
+	(1 EOS OR PHRASEMARK) ;
 	# Hayattaki son dersi "kendi ölümü" [0]olacakmış.
 
 REMOVE N IF
@@ -225,8 +227,12 @@ REMOVE Ger IF
 	(1* N BARRIER (NOT PRE-N)) ;
 
 SELECT Gna IF
-	(0 Sg3)
-	(1 (",")) ;
+	( (0 Sg3) OR (0/1 Sg3) )
+	(1 COMMA) ;
+
+SELECT Sub:1 Gna IF
+	( (0 Sg3) OR (0/1 Sg3) )
+	(1 COMMA) ;
 
 SELECT Prc IF
 	(
