@@ -129,6 +129,8 @@ Multichar_Symbols
 %<gna_perf%>
 %<gna_impf%>
 %<gna_when%>  ! at the same time as
+%<gna_aor%>
+%<prc_aor%>
 
 %<gpr_rsub%>  ! past-tense subject-relative verbal adjective {y}{A}n
 %<gpr_past%>  ! past-tense object-relative verbal adjective {D}{I}k{v}
