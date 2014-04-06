@@ -23,6 +23,7 @@ LIST Cop = cop ;
 LIST Tv = (v tv) (v iv caus) (=tv) ;
 
 LIST Pers = (prn pers) ;  # Use e.g. Sg3 + Pers to match pronouns
+LIST Pl1 = (p1 pl) ;
 LIST Sg2 = (p2 sg) ;
 LIST Pl3 = (p3 pl) ;
 LIST Sg3 = (p3 sg) ;
@@ -30,6 +31,7 @@ LIST Sg3 = (p3 sg) ;
 LIST Px3Sp = px3sp ; 
 LIST Px3Pl = px3pl ; 
 LIST Px2Sg = px2sg ; 
+LIST Px2Pl = px2pl ; 
 LIST Px1Pl = px1pl ; 
 
 LIST Nom = nom ; 
@@ -263,6 +265,10 @@ SELECT SUB:1 Gna IF
 		OR
 		(1 CC)
 	) ;
+
+SELECT Px2Pl IF
+	(0 Ger)
+	(0 Pl1) ;
 
 SELECT Prc IF
 	(
