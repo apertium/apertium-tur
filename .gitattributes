@@ -30,6 +30,7 @@ dev/numerals.txt -text
 dev/parallel -text
 dev/postpositions.txt -text
 dev/proof-lexicon.sh -text
+dev/test-prefix.sh -text
 dev/tr-cv-phrases.txt -text
 dev/turkish.py -text
 dev/unknown -text
