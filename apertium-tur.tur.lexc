@@ -195,7 +195,7 @@ Postpositions ;
 Postadverbs ;
 Pronouns ; 
 Determiners ; 
-Numerals ; 
+Numerals ; ! Use/Circ
 Nouns ; 
 ProperNouns ;
 Adjectives ; 
@@ -1826,9 +1826,9 @@ GERUNDS ;
 
 
 
-LEXICON CONDITIONAL
-
-%<cond%>:%>s%{A%} PERS2 ;
+!LEXICON CONDITIONAL
+!
+!%<cond%>:%>s%{A%} PERS2 ;
 
 
 LEXICON FINITE-VERBS-AR
