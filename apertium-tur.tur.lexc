@@ -484,7 +484,7 @@ LEXICON V-AOR-AR
 V-AOR-NEG ;
 
 LEXICON V-AOR-NEG
-%<aor%>%<neg%>:%>m%{A%}z COPULA-MIMIS ;
+%<neg%>%<aor%>:%>m%{A%}z COPULA-MIMIS ;
 
 LEXICON V-TENSE-COMMON
 
