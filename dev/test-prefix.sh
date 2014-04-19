@@ -35,7 +35,12 @@ TMPOUT1=`mktemp /tmp/tmp.o1.XXXXXXXXXX`;
 TMPOUT2=`mktemp /tmp/tmp.o2.XXXXXXXXXX`;
 TMPINVERT=`mktemp /tmp/tmp.i.XXXXXXXXXX`;
 
-echo "~[ \$[ %<num%> ] 
+echo "~[ \$[ %<num%> ] |
+ \$ [ %<subst%> ] |
+ \$ [ %<neg%> ] |
+ \$ [ %<p2%> ] |
+ \$ [ %<p3%> ] |
+ \$ [ %<qst%> ] 
 ] ;" | hfst-regexp2fst -S -o $TMPFILTER
 printf "$1" | python3.3 $TMPSCRIPT | $SED 's/^/"/g' | $SED 's/$/?*"/g';
 echo ""
@@ -45,4 +50,4 @@ hfst-compose-intersect -1 $TMPINVERT -2 $TMPREGEX -o $TMPOUT1
 hfst-compose-intersect -1 $TMPOUT1 -2 $TMPFILTER -o $TMPOUT2
 hfst-fst2strings $TMPOUT2 
 
-rm $TMPFILTER $TMPREGEX $TMPOUT1 $TMPOUT2 $TMPINVERT $TMPSCRIPT
+#rm $TMPFILTER $TMPREGEX $TMPOUT1 $TMPOUT2 $TMPINVERT $TMPSCRIPT

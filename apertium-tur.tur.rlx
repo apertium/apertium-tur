@@ -33,6 +33,7 @@ LIST Px3Pl = px3pl ;
 LIST Px2Sg = px2sg ; 
 LIST Px2Pl = px2pl ; 
 LIST Px1Pl = px1pl ; 
+LIST Px1Sg = px1sg ;
 
 LIST Nom = nom ; 
 LIST Gen = gen ; 
@@ -54,9 +55,11 @@ LIST Advl = advl ;
 
 LIST Gpr = gpr_past gpr_fut gpr_rsub gpr_aor ;
 LIST Gna = gna_aor ;
-LIST Prc = prc ;
+LIST Prc = prc prc_aor ;
 LIST Ger = ger ger1 ger2 ger3 ger_aor ger_fut ger_abst ger_past ;
 LIST Finite = evid ifi past aor pres fut ;
+
+SET POSS = Px1Sg | Px2Sg | Px3Sp | Px1Pl | Px2Pl ; 
 
 LIST Imper = imp ; 
 
@@ -228,6 +231,8 @@ REMOVE Sub:1 Acc IF
 		#  Mori Schwartz, hayat dolu bir üniversite [0]profesörüydü.
 	);
 
+REMOVE Gpr - Subst IF (NOT 1 N) ;
+
 REMOVE Gpr + Acc IF
 	(0 Gpr + Px3Sp)
 	(1 N) ;
@@ -255,7 +260,10 @@ SELECT Gna IF
 		(1 COMMA)
 		OR
 		(1 CC)
-	) ;
+	)
+	(NOT 1 COMMA LINK 1 CC) ;
+
+REMOVE Gna IF (1 COMMA LINK 1 CC) ;
 
 SELECT SUB:1 Gna IF
 	( (0 Sg3) OR (0/1 Sg3) )
@@ -269,13 +277,6 @@ SELECT SUB:1 Gna IF
 SELECT Px2Pl IF
 	(0 Ger)
 	(0 Pl1) ;
-
-SELECT Prc IF
-	(
-		(1 ("ol" v))
-		OR
-		(1/1 ("ol" v))
-	);
 
 REMOVE Sub:1 Gen IF
 	(1 ("kadar")) ;
@@ -302,6 +303,35 @@ SELECT Sub:1 ("uzan") IF
 SELECT ("uzan") IF
 	(0 ("uza") + V ) ;
 
+
+#REMOVE Prc IF (NOT 1 V) 
+#              (NOT 1 Cop LINK 0/1 V) ;
+
+REMOVE Prc IF (NOT 1 V) (NOT 1 Cop) ;
+
+REMOVE Prc IF (1 COMMA) ; 
+
+#SELECT Prc IF
+#	(
+#		(1 ("ol" v))
+#		OR
+#		(1/1 ("ol" v))
+#	);
+
+SECTION
+
+#	"i" cop aor p3 sg ADD:82 SUBSTITUTE:322
+#		"bil" v tv ger_aor nom
+#	"i" cop aor p3 sg ADD:82 SUBSTITUTE:322
+#		"bil" v tv gpr_aor subst nom
+
+REMOVE SUB:1 Ger IF (0 Cop LINK 0/1 Ger) ;
+
+REMOVE SUB:1 Gpr IF (0 Cop LINK 0/1 Gpr) ;
+
+REMOVE Subst + Nom IF (0 (*) - Subst - Nom) ;
+
+REMOVE Ger IF (NOT 0 POSS) (0 Cop LINK 0/1 V) ;
 
 AFTER-SECTIONS
 
