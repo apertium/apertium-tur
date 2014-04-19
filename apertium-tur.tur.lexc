@@ -116,6 +116,7 @@ Multichar_Symbols
 %<pcont%>          ! 
 %<aor%>
 %<inf%>
+%<prog%>
 
 %<ger%>           !
 %<ger_past%>           !

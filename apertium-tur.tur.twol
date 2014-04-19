@@ -218,11 +218,13 @@ Rules
 %{A%}:e <=> [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
             [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
        except
+              _ %>: %{I%}: y:y o:o r:r ;
              [ %{ii%}:0 | %{ö%}:0 | %{ı%}:0 | %{o%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
 
 "Underlying vowel harmony for archiphoneme {A}"
 %{A%}:e <=> [ %{fi%}:0 | %{ii%}:0 | %{ö%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
         except 
+              _ %>: %{I%}: y:y o:o r:r ;
              [ AbstrVow: - [ %{fi%}:0 | %{ii%}: | %{ö%}: | %{u%}:] ] [ :0 | :Cns | :%' | % ]* _ ; 
              [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
              [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
@@ -325,5 +327,8 @@ k:g <=> :n _ %{v%}: %>: (:0) :Vow ;
 "Deletion of stem vowel before -{I}yor"
 Vx:0 <=> _ %>: %{I%}: y:y o:o r:r  ;
        where Vx in ( a e i o u ı ö ü ) ;
+
+"Deletion of %{A%} before -{I}yor"
+%{A%}:0 <=> _ %>: %{I%}: y:y o:o r:r ;
  	  	 
 ! oyna>{I}yor    = oynuyor = o:o y:y n:n a:0 >:0 {I}:u y:y o:o r:r
