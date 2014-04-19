@@ -406,6 +406,7 @@ LEXICON V-NONFIN-COMMON
 !V-INF ;
 V-GPR ;
 V-GNA ;
+V-PRC ;
 V-GERUNDS ;
 IMPERATIVE ;
 
@@ -414,18 +415,21 @@ IMPERATIVE ;
 !%<inf%>:%>m%{A%}k # ;
 !%<neg%>%<inf%>:%>m%{A%}%>m%{A%}k # ;
 
+LEXICON V-PRC
+
+%<prc%>:%>m%{A%}k V-PRC-COMMON ;
+%<neg%>%<prc%>:%>m%{A%}%>m%{A%}k V-PRC-COMMON ;
+
 LEXICON V-AOR-NONFIN-AR
 
 %<gpr_aor%>:%>%{A%}r V-GPR-COMMON ;
 %<prc_aor%>:%>%{A%}r V-PRC-COMMON ;
-%<prc%>:%>m%{A%}k V-PRC-COMMON ;
 %<gna_aor%>:%>%{A%}r V-GNA-COMMON ;
 
 LEXICON V-AOR-NONFIN-IR
 
 %<gpr_aor%>:%>%{i%}r V-GPR-COMMON ;
 %<prc_aor%>:%>%{i%}r V-PRC-COMMON ;
-%<prc%>:%>m%{A%}k V-PRC-COMMON ;
 %<gna_aor%>:%>%{i%}r V-GNA-COMMON ;
 
 LEXICON V-PRC-COMMON
