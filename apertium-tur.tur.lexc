@@ -13383,7 +13383,8 @@ belirt:belirt V-TV-DIR-IR ; ! "make appear"﻿
 artır:artır V-TV-T-IR ; ! "help"
 
 biç:biç V-TV-DIR-AR ; ! "decorate"
-bil:bil V-TV-DIR-IR ; ! "know"
+! bil:bil V-TV-DIR-IR ; ! "know"
+bil:bil V-IR-TV ; ! "know"
 bildir:bildir V-TV-DIR-IR ; ! "state, notify"
 bilgilen:bilgilen V-TV-DIR-IR ; ! "learn"
 bin:bin V-TV-DIR-AR ; ! "mount, ride"
