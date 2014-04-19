@@ -123,6 +123,8 @@ Multichar_Symbols
 %<ger_abst%>           !
 %<ger_fut%>           !
 %<ger_when%>       !
+%<ger_pabs%>
+%<ger_impf%>
 %<ger5%>           !
 %<ger6%>           !
 
@@ -367,21 +369,22 @@ N-INFL-COMMON ;
 
 LEXICON V-GERUNDS
 
-%<ger%>:%>m%{A%} V-GERUNDS-COMMON ;
-%<ger_past%>:%>%{D%}%{I%}k%{v%} V-GERUNDS-COMMON ;
-%<ger_abst%>:%>%{I%}ş V-GERUNDS-COMMON ;
-%<ger_fut%>:%>%{y%}%{A%}c%{A%}k%{v%} V-GERUNDS-COMMON ;
-! %<ger5%>:%>%{y%}%{A%}n V-GERUNDS-COMMON ;
-%<ger6%>:%>m%{A%}k%{v%} V-GERUNDS-COMMON ;
+%<ger%>:%>m%{A%} GER-SUBST; ! was V-GERUNDS-COMMON ;
+%<ger_past%>:%>%{D%}%{I%}k%{v%} GER-SUBST; ! was V-GERUNDS-COMMON ;
+%<ger_abst%>:%>%{I%}ş GER-SUBST; ! was V-GERUNDS-COMMON ;
+%<ger_fut%>:%>%{y%}%{A%}c%{A%}k%{v%} GER-SUBST; ! was V-GERUNDS-COMMON ;
+%<ger_impf%>:%>%{y%}%{A%}n GER-SUBST ; ! was V-GERUNDS-COMMON ;
+%<ger6%>:%>m%{A%}k%{v%} GER-SUBST ;  ! was: V-GERUNDS-COMMON
 %<ger_when%>:%>%{y%}%{I%}nc%{A%} CASE-NONOM ;  ! FIXME: CHECK: I think this doesn't take POSS stuff? -JNW
+%<ger_pabs%>:%>m%{I%}ş GER-SUBST ;
 
 LEXICON V-GERUNDS-AOR-AR
 
-%<ger_aor%>:%>%{A%}r SUBST ;
+%<ger_aor%>:%>%{A%}r GER-SUBST ; ! was: SUBST
 
 LEXICON V-GERUNDS-AOR-IR
 
-%<ger_aor%>:%>%{i%}r SUBST ;
+%<ger_aor%>:%>%{i%}r GER-SUBST ; ! was: SUBST
 
 LEXICON V-NONFIN-IR
 
@@ -830,13 +833,19 @@ LEXICON GENPOSS-ETC
 %<px%>:%>%{n%}%{I%}ki%{pN%} CASE ;
 %<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
 
-CASE ;
+! CASE ;  ! FIXME: CHECK
 
 LEXICON CASE-ETC
 
 CASE ;
 GENPOSS-ETC ;
   
+LEXICON GER-CASE-ETC
+
+CASE ;
+! GER-GENPOSS-ETC ;
+ 
+
 LEXICON POSS-REAL
 
 %<px1sg%>:%>%{i%}m CASE-ETC ;                
@@ -846,11 +855,27 @@ LEXICON POSS-REAL
 %<px2pl%>:%>%{i%}n%{I%}z CASE-ETC ;      
 %<px3pl%>:%>l%{A%}r%{I%}%{pN%} CASE-ETC ;  
 
+LEXICON GER-POSS-REAL
+
+%<px1sg%>:%>%{i%}m GER-CASE-ETC ;
+%<px2sg%>:%>%{i%}n GER-CASE-ETC ;
+%<px3sp%>:%>%{s%}%{I%}%{pN%} GER-CASE-ETC ;
+%<px1pl%>:%>%{i%}m%{I%}z GER-CASE-ETC ;
+%<px2pl%>:%>%{i%}n%{I%}z GER-CASE-ETC ;
+%<px3pl%>:%>l%{A%}r%{I%}%{pN%} GER-CASE-ETC ;
+
+
 LEXICON N-INFL-COMMON
 
 POSS-REAL ;
 CASE-ETC ;
 !ABE-ETC ;
+
+LEXICON GER-N-INFL-COMMON
+
+GER-POSS-REAL ;
+GER-CASE-ETC ;
+!GER-ABE-ETC ;
 
 LEXICON SUBST-NONOM
 
@@ -861,6 +886,13 @@ LEXICON SUBST
 
 N-INFL-COMMON ; 
 %<pl%>:%>l%{A%}r N-INFL-COMMON ;
+
+LEXICON GER-SUBST
+
+GER-N-INFL-COMMON ; 
+%<pl%>:%>l%{A%}r GER-N-INFL-COMMON ;
+
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Noun paradigms
