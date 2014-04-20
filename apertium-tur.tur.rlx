@@ -28,6 +28,8 @@ LIST Sg2 = (p2 sg) ;
 LIST Pl3 = (p3 pl) ;
 LIST Sg3 = (p3 sg) ;
 
+LIST Pl = pl ;
+
 LIST Px3Sp = px3sp ; 
 LIST Px3Pl = px3pl ; 
 LIST Px2Sg = px2sg ; 
@@ -333,6 +335,8 @@ REMOVE SUB:1 Gpr IF (0 Cop LINK 0/1 Gpr) ;
 REMOVE Subst + Nom IF (0 (*) - Subst - Nom) ;
 
 REMOVE Ger IF (NOT 0 POSS) (0 Cop LINK 0/1 V) ;
+
+REMOVE Cop IF (-1 BOS) (0 Cop LINK 0/1 N - Pl) (0 N + Pl) (1 EOS) ;
 
 AFTER-SECTIONS
 

@@ -7774,7 +7774,7 @@ recep:recep N1 ; ! "holy month" =@@@??
 ilişki:ilişki N1 ; ! "relation"
 yangın:yangın N1 ; ! "fire"
 orman:orman N1 ; ! "woods"
-uçak:uçak N1 ; ! "plane"
+uçak:uçak%{v%} N1 ; ! "plane"
 işletme:işletme N1 ; ! "management"
 işletme:İşletme N1 ; ! "management"
 ormanlık:ormanlık%{v%} N1 ; ! "woods"
