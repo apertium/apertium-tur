@@ -27,6 +27,7 @@ LIST Pl1 = (p1 pl) ;
 LIST Sg2 = (p2 sg) ;
 LIST Pl3 = (p3 pl) ;
 LIST Sg3 = (p3 sg) ;
+LIST Sg1 = (p1 sg) ;
 
 LIST Pl = pl ;
 
@@ -321,12 +322,9 @@ REMOVE Prc IF (1 COMMA) ;
 #		(1/1 ("ol" v))
 #	);
 
-SECTION
+REMOVE Cop + Sg1 IF (0 Sg1 OR Sg3) (0 Px1Sg) (-1C Pers + Sg1 + Gen) ; 
 
-#	"i" cop aor p3 sg ADD:82 SUBSTITUTE:322
-#		"bil" v tv ger_aor nom
-#	"i" cop aor p3 sg ADD:82 SUBSTITUTE:322
-#		"bil" v tv gpr_aor subst nom
+SECTION
 
 REMOVE SUB:1 Ger IF (0 Cop LINK 0/1 Ger) ;
 
