@@ -146,6 +146,7 @@ Multichar_Symbols
 %<apos%>      ! Apostrophe
 %<rquot%>     ! Quote marker (right hand side)
 %<lquot%>     ! Quote marker (left hand side)
+%<quot%>      ! Quote marker 
 %<rpar%>      ! Parenthetical marker (right hand side)
 %<lpar%>      ! Parenthetical marker (left hand side)
 
@@ -14465,7 +14466,7 @@ LEXICON Punctuation
 ,%<cm%>:, # ;
 %?%<sent%>:%? # ;
 %'%<apos%>:%' # ;
-%"%<sent%>:%" # ;
+%"%<quot%>:%" # ;
 %«%<lquot%>:%« # ;
 %»%<rquot%>:%» # ;
 %”%<rquot%>:%” # ;
