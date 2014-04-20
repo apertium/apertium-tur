@@ -19,6 +19,7 @@ LIST CS = cnjsub ;
 LIST Interj = ij ; 
 LIST Post = post ; 
 LIST Cop = cop ; 
+LIST Qst = qst ; 
 
 LIST Tv = (v tv) (v iv caus) (=tv) ;
 
@@ -236,6 +237,8 @@ REMOVE Sub:1 Acc IF
 
 REMOVE Gpr - Subst IF (NOT 1 N) ;
 
+REMOVE SUB:1 Gpr - Subst IF (NOT 1 N) ;
+
 REMOVE Gpr + Acc IF
 	(0 Gpr + Px3Sp)
 	(1 N) ;
@@ -313,7 +316,12 @@ SELECT ("uzan") IF
 
 REMOVE Prc IF (NOT 1 V) (NOT 1 Cop) ;
 
-REMOVE Prc IF (1 COMMA) ; 
+REMOVE SUB:1 Prc IF (NOT 1 V) (NOT 1 Cop) ;
+
+REMOVE Prc IF ((1 COMMA) OR (1 EOS)); 
+
+REMOVE SUB:1 Prc IF ((1 COMMA) OR (1 EOS)); 
+
 
 #SELECT Prc IF
 #	(
@@ -326,9 +334,9 @@ REMOVE Cop + Sg1 IF (0 Sg1 OR Sg3) (0 Px1Sg) (-1C Pers + Sg1 + Gen) ;
 
 SECTION
 
-REMOVE SUB:1 Ger IF (0 Cop LINK 0/1 Ger) ;
+REMOVE SUB:1 Ger IF ((0 Cop LINK 0/1 Ger) OR (0 Qst LINK 0/1 Ger)) ;
 
-REMOVE SUB:1 Gpr IF (0 Cop LINK 0/1 Gpr) ;
+REMOVE SUB:1 Gpr IF ((0 Cop LINK 0/1 Gpr) OR (0 Qst LINK 0/1 Ger)) ;
 
 REMOVE Subst + Nom IF (0 (*) - Subst - Nom) ;
 
