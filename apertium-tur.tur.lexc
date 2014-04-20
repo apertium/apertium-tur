@@ -13221,314 +13221,314 @@ LEXICON Verbs
 
 !al:al V-TV-DIR-IR ; ! "take, buy"
 al:al V-IR-TV ; ! "take, buy"
-derinleştir:derinleştir V-TV-T-IR ; ! "deepen"
+derinleştir:derinleştir V-IR-TV ; ! "deepen" (T)
 ! yap:yap V-TV-DIR-AR ; ! "make, do"
 yap:yap V-AR-TV ; ! "make, do"
-gel:gel V-IV-DIR-IR ; ! "come"
-gel:gel V-IV-DIR-IR ; ! "come"
-yayınlan:yayınlan V-IV-DIR-IR ; ! "issue"
-yayınla:yayınla V-TV-T-IR ; ! "publish"
-amaçla:amaçla V-TV-T-IR ; ! "accuse"
-gerçekleş:gerçekleş%{v%} V-IV-DIR-IR ; ! "to materialize"
-aç:aç V-TV-DIR-AR ; ! "open"
-kes:kes V-TV-DIR-AR ; ! "cut"
-et:et%{v%} V-TV-DIR-AR ; ! "make"
-teşekkür% et:teşekkür% et%{v%}  V-TV-DIR-AR ; ! "thank"
-eş:eş V-TV-DIR-AR ; ! "scratch"
-kabul% et:kabul% et%{v%} V-TV-DIR-AR ; ! "admit, acknowledge" ! Use/MT
-istifa% et:istifa% et%{v%} V-TV-DIR-AR ; ! "resign"
-kap:kap V-TV-DIR-AR ; ! "snatch, seize, grab"
-kes:kes V-TV-DIR-AR  ; ! "cut"
-keşfet:keşfet V-TV-DIR-AR  ; ! "discover"
-kıl:kıl V-TV-DIR-AR  ; ! "make"
-kır:kır V-TV-DIR-AR  ; ! "break"
-kırk:kırk V-TV-DIR-AR  ; ! "shear"
-kirlet:kirlet V-TV-DIR-IR  ; ! "dirty"
-kırp:kırp V-TV-DIR-AR  ; ! "trim"
-kıs:kıs V-TV-DIR-AR  ; ! "put down, reduce"
-kıy:kıy V-TV-DIR-AR  ; ! "chop up"
-kov:kov V-TV-DIR-AR  ; ! "repel"
-koy:koy V-TV-DIR-AR  ; ! "put"
-kullan:kullan V-TV-DIR-IR  ; ! "use"
-kur:kur V-TV-DIR-AR  ; ! "set"
-kuşan:kuşan V-TV-DIR-IR  ; ! "gird oneself with"
-kuşat:kuşat V-TV-DIR-IR  ; ! "hedge round"
-lağvet:lağvet V-TV-DIR-AR  ; ! "proscribe"
-mahvet:mahvet V-TV-DIR-AR  ; ! "ruin"
-menet:menet V-TV-DIR-AR  ; ! "preclude"
-naklet:naklet V-TV-DIR-AR  ; ! "recount, transport"
-not% al:not% al V-TV-DIR-IR  ; ! "take a note" ! Use/MT
+gel:gel V-IR-IV ; ! "come" (DIR)
+gel:gel V-IR-IV ; ! "come" (DIR)
+yayınlan:yayınlan V-IR-IV ; ! "issue" (DIR)
+yayınla:yayınla V-IR-TV ; ! "publish" (T)
+amaçla:amaçla V-IR-TV ; ! "accuse" (T)
+gerçekleş:gerçekleş%{v%} V-IR-IV ; ! "to materialize" (DIR)
+aç:aç V-AR-TV ; ! "open" (DIR)
+kes:kes V-AR-TV ; ! "cut" (DIR)
+et:et%{v%} V-AR-TV ; ! "make" (DIR)
+teşekkür% et:teşekkür% et%{v%}  V-AR-TV ; ! "thank" (DIR)
+eş:eş V-AR-TV ; ! "scratch" (DIR)
+kabul% et:kabul% et%{v%} V-AR-TV ; ! "admit, acknowledge" ! Use/MT (DIR)
+istifa% et:istifa% et%{v%} V-AR-TV ; ! "resign" (DIR)
+kap:kap V-AR-TV ; ! "snatch, seize, grab" (DIR)
+kes:kes V-AR-TV ; ! "cut" (DIR)
+keşfet:keşfet V-AR-TV ; ! "discover" (DIR)
+kıl:kıl V-AR-TV ; ! "make" (DIR)
+kır:kır V-AR-TV ; ! "break" (DIR)
+kırk:kırk V-AR-TV ; ! "shear" (DIR)
+kirlet:kirlet V-IR-TV ; ! "dirty" (DIR)
+kırp:kırp V-AR-TV ; ! "trim" (DIR)
+kıs:kıs V-AR-TV ; ! "put down, reduce" (DIR)
+kıy:kıy V-AR-TV ; ! "chop up" (DIR)
+kov:kov V-AR-TV ; ! "repel" (DIR)
+koy:koy V-AR-TV ; ! "put" (DIR)
+kullan:kullan V-IR-TV ; ! "use" (DIR)
+kur:kur V-AR-TV ; ! "set" (DIR)
+kuşan:kuşan V-IR-TV ; ! "gird oneself with" (DIR)
+kuşat:kuşat V-IR-TV ; ! "hedge round" (DIR)
+lağvet:lağvet V-AR-TV ; ! "proscribe" (DIR)
+mahvet:mahvet V-AR-TV ; ! "ruin" (DIR)
+menet:menet V-AR-TV ; ! "preclude" (DIR)
+naklet:naklet V-AR-TV ; ! "recount, transport" (DIR)
+not% al:not% al V-IR-TV ; ! "take a note" ! Use/MT (DIR)
 !öğren:öğren V-TV-DIR-IR  ; ! "learn"
 öğren:öğren V-IR-TV ; ! "learn"
-öğret:öğret V-TV-DIR-IR  ; ! "teach"
-öğüt:öğüt V-TV-DIR-IR  ; ! "digest"
-ölç:ölç V-TV-DIR-AR  ; ! "measure"
-öngör:öngör V-TV-DIR-IR  ; ! "set forth"
-öp:öp V-TV-DIR-AR  ; ! "kiss"
-ör:ör V-TV-DIR-IR  ; ! "knit"
-ört:ört V-TV-DIR-AR  ; ! "cover"
-ov:ov V-TV-DIR-AR  ; ! "rub"
-öv:öv V-TV-DIR-AR  ; ! "praise"
-oy:oy V-TV-DIR-AR  ; ! "carve"
-özen:özen V-TV-DIR-IR  ; ! "imitate someone"
-paylaş:paylaş V-TV-DIR-IR  ; ! "share"
-reddet:reddet%{v%} V-TV-DIR-AR  ; ! "refuse"
-resmet:resmet V-TV-DIR-AR  ; ! "illustrate"
-saç:saç V-TV-DIR-AR  ; ! "scatter"
-sahiplen:sahiplen V-TV-DIR-IR  ; ! "lay claims to"
-sal:sal V-TV-DIR-AR  ; ! "release"
-salıver:salıver V-TV-DIR-IR  ; ! "demobilise"
-sar:sar V-TV-DIR-AR  ; ! "cover"
-sat:sat V-TV-DIR-AR  ; ! "sell"
-sav:sav V-TV-DIR-AR  ; ! "ward off"
-savun:savun V-TV-DIR-IR  ; ! "defend"
-say:say V-TV-DIR-AR  ; ! "count"
-seç:seç V-TV-DIR-AR  ; ! "choose"
-ser:ser V-TV-DIR-AR  ; ! "spread over"
-serp:serp V-TV-DIR-AR  ; ! "sprinkle"
+öğret:öğret V-IR-TV ; ! "teach" (DIR)
+öğüt:öğüt V-IR-TV ; ! "digest" (DIR)
+ölç:ölç V-AR-TV ; ! "measure" (DIR)
+öngör:öngör V-IR-TV ; ! "set forth" (DIR)
+öp:öp V-AR-TV ; ! "kiss" (DIR)
+ör:ör V-IR-TV ; ! "knit" (DIR)
+ört:ört V-AR-TV ; ! "cover" (DIR)
+ov:ov V-AR-TV ; ! "rub" (DIR)
+öv:öv V-AR-TV ; ! "praise" (DIR)
+oy:oy V-AR-TV ; ! "carve" (DIR)
+özen:özen V-IR-TV ; ! "imitate someone" (DIR)
+paylaş:paylaş V-IR-TV ; ! "share" (DIR)
+reddet:reddet%{v%} V-AR-TV ; ! "refuse" (DIR)
+resmet:resmet V-AR-TV ; ! "illustrate" (DIR)
+saç:saç V-AR-TV ; ! "scatter" (DIR)
+sahiplen:sahiplen V-IR-TV ; ! "lay claims to" (DIR)
+sal:sal V-AR-TV ; ! "release" (DIR)
+salıver:salıver V-IR-TV ; ! "demobilise" (DIR)
+sar:sar V-AR-TV ; ! "cover" (DIR)
+sat:sat V-AR-TV ; ! "sell" (DIR)
+sav:sav V-AR-TV ; ! "ward off" (DIR)
+savun:savun V-IR-TV ; ! "defend" (DIR)
+say:say V-AR-TV ; ! "count" (DIR)
+seç:seç V-AR-TV ; ! "choose" (DIR)
+ser:ser V-AR-TV ; ! "spread over" (DIR)
+serp:serp V-AR-TV ; ! "sprinkle" (DIR)
 ! sev:sev V-TV-DIR-AR  ; ! "love"
 sev:sev V-AR-TV ; ! "love"
-seyret:seyret%{v%} V-TV-DIR-AR  ; ! "watch"
-sez:sez V-TV-DIR-AR  ; ! "perceive"
-sik:sik V-TV-DIR-AR  ; ! "fuck"
-sık:sık V-TV-DIR-AR  ; ! "squeeze"
-sil:sil V-TV-DIR-AR  ; ! "erase, delete"
-silk:silk V-TV-DIR-AR  ; ! "shake something out"
-sok:sok V-TV-DIR-AR  ; ! "thrust"
-sök:sök V-TV-DIR-AR  ; ! "rip"
-sor:sor V-TV-DIR-AR  ; ! "ask"
-soy:soy V-TV-DIR-AR  ; ! "rob ,  strip"
-sun:sun V-TV-DIR-AR  ; ! "compere"
-süpür:süpür V-TV-DIR-IR  ; ! "sweep"
-sür:sür V-TV-DIR-AR  ; ! "drive"
-süz:süz V-TV-DIR-AR  ; ! "filter"
-tak:tak V-TV-DIR-AR  ; ! "affix"
-tart:tart V-TV-DIR-AR  ; ! "weigh"
-tartış:tartış V-TV-DIR-IR  ; ! "dispute"
-tat:tat V-TV-DIR-AR  ; ! "taste"
-temsil% et:temsil% et%{v%} V-TV-DIR-AR  ; ! "symbolise"
-tep:tep V-TV-DIR-AR  ; ! "kick"
-terket:terket V-TV-DIR-AR  ; ! "leave"
-terk% et:terk% et%{v%} V-TV-DIR-AR  ; ! "leave someone"
-tık:tık V-TV-DIR-AR  ; ! "cram into"
-tüket:tüket V-TV-DIR-IR  ; ! "consume"
-tut:tut V-TV-DIR-AR  ; ! "keep"
-um:um V-TV-DIR-AR  ; ! "expect"
-umut% et:umut% et%{v%} V-TV-DIR-AR  ; ! "hope"
-unut:unut V-TV-DIR-IR  ; ! "unutmak"
-üret:üret V-TV-DIR-IR  ; ! "produce"
-üslen:üslen V-TV-DIR-IR  ; ! "use place for military base"
-üstlen:üstlen V-TV-DIR-IR  ; ! "undertake"
-ut:ut V-TV-DIR-AR  ; ! "to win in gamble"
-uyar:uyar V-TV-DIR-IR  ; ! "warn"
-üz:üz V-TV-DIR-AR  ; ! "upset"
-varsay:varsay V-TV-DIR-AR  ; ! "assume"
+seyret:seyret%{v%} V-AR-TV ; ! "watch" (DIR)
+sez:sez V-AR-TV ; ! "perceive" (DIR)
+sik:sik V-AR-TV ; ! "fuck" (DIR)
+sık:sık V-AR-TV ; ! "squeeze" (DIR)
+sil:sil V-AR-TV ; ! "erase, delete" (DIR)
+silk:silk V-AR-TV ; ! "shake something out" (DIR)
+sok:sok V-AR-TV ; ! "thrust" (DIR)
+sök:sök V-AR-TV ; ! "rip" (DIR)
+sor:sor V-AR-TV ; ! "ask" (DIR)
+soy:soy V-AR-TV ; ! "rob ,  strip" (DIR)
+sun:sun V-AR-TV ; ! "compere" (DIR)
+süpür:süpür V-IR-TV ; ! "sweep" (DIR)
+sür:sür V-AR-TV ; ! "drive" (DIR)
+süz:süz V-AR-TV ; ! "filter" (DIR)
+tak:tak V-AR-TV ; ! "affix" (DIR)
+tart:tart V-AR-TV ; ! "weigh" (DIR)
+tartış:tartış V-IR-TV ; ! "dispute" (DIR)
+tat:tat V-AR-TV ; ! "taste" (DIR)
+temsil% et:temsil% et%{v%} V-AR-TV ; ! "symbolise" (DIR)
+tep:tep V-AR-TV ; ! "kick" (DIR)
+terket:terket V-AR-TV ; ! "leave" (DIR)
+terk% et:terk% et%{v%} V-AR-TV ; ! "leave someone" (DIR)
+tık:tık V-AR-TV ; ! "cram into" (DIR)
+tüket:tüket V-IR-TV ; ! "consume" (DIR)
+tut:tut V-AR-TV ; ! "keep" (DIR)
+um:um V-AR-TV ; ! "expect" (DIR)
+umut% et:umut% et%{v%} V-AR-TV ; ! "hope" (DIR)
+unut:unut V-IR-TV ; ! "unutmak" (DIR)
+üret:üret V-IR-TV ; ! "produce" (DIR)
+üslen:üslen V-IR-TV ; ! "use place for military base" (DIR)
+üstlen:üstlen V-IR-TV ; ! "undertake" (DIR)
+ut:ut V-AR-TV ; ! "to win in gamble" (DIR)
+uyar:uyar V-IR-TV ; ! "warn" (DIR)
+üz:üz V-AR-TV ; ! "upset" (DIR)
+varsay:varsay V-AR-TV ; ! "assume" (DIR)
 !ver:ver V-TV-DIR-IR  ; ! "give up"
 ver:ver V-IR-TV ; ! "give up"
-vur:vur V-TV-DIR-IR  ; ! "hit"
-yak:yak V-TV-DIR-AR  ; ! "burn"
-iyileştir:iyileştir V-TV-T-IR ; ! "cure"
-yalıt:yalıt V-TV-DIR-IR  ; ! "isolate"
-yar:yar V-TV-DIR-AR  ; ! "split"
-yas:yas V-TV-DIR-AR  ; ! "stave"
-yay:yay V-TV-DIR-AR  ; ! "spread"
+vur:vur V-IR-TV ; ! "hit" (DIR)
+yak:yak V-AR-TV ; ! "burn" (DIR)
+iyileştir:iyileştir V-IR-TV ; ! "cure" (T)
+yalıt:yalıt V-IR-TV ; ! "isolate" (DIR)
+yar:yar V-AR-TV ; ! "split" (DIR)
+yas:yas V-AR-TV ; ! "stave" (DIR)
+yay:yay V-AR-TV ; ! "spread" (DIR)
 !yaz:yaz V-TV-DIR-AR  ; ! "write"
 yaz:yaz V-AR-TV ; ! "write"
 !ye:y%{e%} V-TV-DIR-IR  ; ! "ear"
 ye:y%{e%} V-IR-TV ; ! "ear"
-yen:yen V-TV-DIR-IR  ; ! "win"
-yığ:yığ V-TV-DIR-AR  ; ! "accumulate"
-yık:yık V-TV-DIR-AR  ; ! "demolish"
-yıprat:yıprat V-TV-DIR-IR  ; ! "wear out"
-yırt:yırt V-TV-DIR-AR  ; ! "tear"
-yoğur:yoğur V-TV-DIR-IR  ; ! "knead"
-yol:yol V-TV-DIR-AR  ; ! "strip bare"
-yönet:yönet V-TV-DIR-IR  ; ! "manage"
-yont:yont V-TV-DIR-IR  ; ! "sculp"
-yor:yor V-TV-DIR-AR  ; ! "ascribe"
-yorul:yorul V-IV-DIR-IR  ; ! "get tired"  ! FIXME: CHECK AR/IR
-yum:yum V-TV-DIR-AR  ; ! "clench"
-yut:yut V-TV-DIR-AR  ; ! "swallow"
-yüz:yüz V-TV-DIR-AR  ; ! "swim"
-zannet:zannet V-TV-DIR-AR  ; ! "suppose"
-zikret:zikret V-TV-DIR-AR  ; ! "commemorate, mention"
-abar:abar V-TV-DIR-IR ; ! "exaggerate"
-aç:aç V-TV-DIR-AR ; ! "open"
-affet:affet V-TV-DIR-AR ; ! "forgive"
-ak:ak V-TV-DIR-AR ; ! "flow, leak"
-akset:akset V-TV-DIR-AR ; ! "be heard"
-aktar:aktar V-TV-DIR-IR ; ! "transfer"
+yen:yen V-IR-TV ; ! "win" (DIR)
+yığ:yığ V-AR-TV ; ! "accumulate" (DIR)
+yık:yık V-AR-TV ; ! "demolish" (DIR)
+yıprat:yıprat V-IR-TV ; ! "wear out" (DIR)
+yırt:yırt V-AR-TV ; ! "tear" (DIR)
+yoğur:yoğur V-IR-TV ; ! "knead" (DIR)
+yol:yol V-AR-TV ; ! "strip bare" (DIR)
+yönet:yönet V-IR-TV ; ! "manage" (DIR)
+yont:yont V-IR-TV ; ! "sculp" (DIR)
+yor:yor V-AR-TV ; ! "ascribe" (DIR)
+yorul:yorul V-IR-IV ; ! "get tired"  ! FIXME: CHECK AR/IR (DIR)
+yum:yum V-AR-TV ; ! "clench" (DIR)
+yut:yut V-AR-TV ; ! "swallow" (DIR)
+yüz:yüz V-AR-TV ; ! "swim" (DIR)
+zannet:zannet V-AR-TV ; ! "suppose" (DIR)
+zikret:zikret V-AR-TV ; ! "commemorate, mention" (DIR)
+abar:abar V-IR-TV ; ! "exaggerate" (DIR)
+aç:aç V-AR-TV ; ! "open" (DIR)
+affet:affet V-AR-TV ; ! "forgive" (DIR)
+ak:ak V-AR-TV ; ! "flow, leak" (DIR)
+akset:akset V-AR-TV ; ! "be heard" (DIR)
+aktar:aktar V-IR-TV ; ! "transfer" (DIR)
 ! al:al V-TV-DIR-IR ; ! "take, buy"
-alçal:alçal V-TV-DIR-IR ; ! "lower"
-alevlen:alevlen V-TV-DIR-IR ; ! "catch on fire"
-alıkoy:alıkoy V-TV-DIR-AR ; ! "detain, stop"
-alış:alış V-TV-DIR-IR ; ! "familiarise with"
-an:an V-TV-DIR-AR ; ! "make mention of, remind"
-arıt:arıt V-TV-DIR-IR ; ! "purify someone"
-as:as V-TV-DIR-AR ; ! "hang, suspend"
-aş:aş V-TV-DIR-AR ; ! "overcome??"
-at:at V-TV-DIR-AR ; ! "throw"
-atfet:atfet V-TV-DIR-IR ; ! "attrube"
-aydınlat:aydınlat V-TV-DIR-IR ; ! "enlighten"
-ayrış:ayrış V-TV-DIR-IR ; ! "decompose"
-azlet:azlet V-TV-DIR-AR ; ! "dismiss"
-azmet:azmet V-TV-DIR-AR ; ! "determine"
-bahset:bahset V-TV-DIR-AR ; ! "talk about"
-bahşet:bahşet V-TV-DIR-AR ; ! "forgive"
-bak:bak V-TV-DIR-AR ; ! "look at"
-ban:ban V-TV-DIR-AR ; ! "dip into"
-bas:bas V-TV-DIR-AR ; ! "press"
-başar:başar V-TV-DIR-IR ; ! "success"
-başvur:başvur V-TV-DIR-IR ; ! "apply"
-bat:bat V-TV-DIR-AR ; ! "sink, go bankrupt"
-becer:becer V-TV-DIR-IR ; ! "accomplish"
-beğen:beğen V-TV-DIR-IR ; ! "like, advire"
-belir:belir V-TV-T-IR ; ! "appear"
-belirt:belirt V-TV-DIR-IR ; ! "make appear"﻿
-artır:artır V-TV-T-IR ; ! "help"
+alçal:alçal V-IR-TV ; ! "lower" (DIR)
+alevlen:alevlen V-IR-TV ; ! "catch on fire" (DIR)
+alıkoy:alıkoy V-AR-TV ; ! "detain, stop" (DIR)
+alış:alış V-IR-TV ; ! "familiarise with" (DIR)
+an:an V-AR-TV ; ! "make mention of, remind" (DIR)
+arıt:arıt V-IR-TV ; ! "purify someone" (DIR)
+as:as V-AR-TV ; ! "hang, suspend" (DIR)
+aş:aş V-AR-TV ; ! "overcome??" (DIR)
+at:at V-AR-TV ; ! "throw" (DIR)
+atfet:atfet V-IR-TV ; ! "attrube" (DIR)
+aydınlat:aydınlat V-IR-TV ; ! "enlighten" (DIR)
+ayrış:ayrış V-IR-TV ; ! "decompose" (DIR)
+azlet:azlet V-AR-TV ; ! "dismiss" (DIR)
+azmet:azmet V-AR-TV ; ! "determine" (DIR)
+bahset:bahset V-AR-TV ; ! "talk about" (DIR)
+bahşet:bahşet V-AR-TV ; ! "forgive" (DIR)
+bak:bak V-AR-TV ; ! "look at" (DIR)
+ban:ban V-AR-TV ; ! "dip into" (DIR)
+bas:bas V-AR-TV ; ! "press" (DIR)
+başar:başar V-IR-TV ; ! "success" (DIR)
+başvur:başvur V-IR-TV ; ! "apply" (DIR)
+bat:bat V-AR-TV ; ! "sink, go bankrupt" (DIR)
+becer:becer V-IR-TV ; ! "accomplish" (DIR)
+beğen:beğen V-IR-TV ; ! "like, advire" (DIR)
+belir:belir V-IR-TV ; ! "appear" (T)
+belirt:belirt V-IR-TV ; ! "make appear"﻿ (DIR)
+artır:artır V-IR-TV ; ! "help" (T)
 
-biç:biç V-TV-DIR-AR ; ! "decorate"
+biç:biç V-AR-TV ; ! "decorate" (DIR)
 ! bil:bil V-TV-DIR-IR ; ! "know"
 bil:bil V-IR-TV ; ! "know"
-bildir:bildir V-TV-DIR-IR ; ! "state, notify"
-bilgilen:bilgilen V-TV-DIR-IR ; ! "learn"
-bin:bin V-TV-DIR-AR ; ! "mount, ride"
+bildir:bildir V-IR-TV ; ! "state, notify" (DIR)
+bilgilen:bilgilen V-IR-TV ; ! "learn" (DIR)
+bin:bin V-AR-TV ; ! "mount, ride" (DIR)
 !bırak:bırak V-TV-DIR-IR ; ! "leave, give up"
 bırak:bırak V-IR-TV ; ! "leave, give up"
-birleş:birleş V-TV-DIR-IR ; ! "unite"
+birleş:birleş V-IR-TV ; ! "unite" (DIR)
 ! bitkinleş:bitkinleş V-IV-DIR-IR ; ! "to be exhausted"  ! FIXME: CHECK IR/AR
 bitkinleş:bitkinleş V-IR-IV ; ! "to be exhausted"  ! FIXME: CHECK IR/AR
-boğ:boğ V-TV-DIR-AR ; ! "choke"
-böl:böl V-TV-DIR-AR ; ! "divide"
-borçlan:borçlan V-TV-DIR-IR ; ! "owe"
-boşal:boşal V-TV-DIR-IR ; ! "be emptied"
-boz:boz V-TV-DIR-AR ; ! "break down"
-bük:bük V-TV-DIR-AR ; ! "bend"
-bul:bul V-TV-DIR-IR ; ! "find"
-bulan:bulan V-TV-DIR-IR ; ! "cloud"
-bur:bur V-TV-DIR-IR ; ! "wring"
-büz:büz V-TV-DIR-AR ; ! "constrict"
-çal:çal V-TV-DIR-AR ; ! "steal"
-çarpıt:çarpıt V-TV-DIR-IR ; ! "warp"
-çat:çat V-TV-DIR-AR ; ! "impinge on"
+boğ:boğ V-AR-TV ; ! "choke" (DIR)
+böl:böl V-AR-TV ; ! "divide" (DIR)
+borçlan:borçlan V-IR-TV ; ! "owe" (DIR)
+boşal:boşal V-IR-TV ; ! "be emptied" (DIR)
+boz:boz V-AR-TV ; ! "break down" (DIR)
+bük:bük V-AR-TV ; ! "bend" (DIR)
+bul:bul V-IR-TV ; ! "find" (DIR)
+bulan:bulan V-IR-TV ; ! "cloud" (DIR)
+bur:bur V-IR-TV ; ! "wring" (DIR)
+büz:büz V-AR-TV ; ! "constrict" (DIR)
+çal:çal V-AR-TV ; ! "steal" (DIR)
+çarpıt:çarpıt V-IR-TV ; ! "warp" (DIR)
+çat:çat V-AR-TV ; ! "impinge on" (DIR)
 !çek:çek V-TV-DIR-AR ; ! "pull"
 çek:çek V-AR-TV ; ! "pull"
-çel:çel V-TV-DIR-AR ; ! "tempt"
-çeliş:çeliş V-TV-DIR-IR ; ! "contradict"
-çevir:çevir V-TV-DIR-IR ; ! "translate"
-cezbet:cezbet V-TV-DIR-AR ; ! "attract"
-çıkar:çıkar V-TV-DIR-IR ; ! "eject, remove"
-çim:çim V-TV-DIR-AR ; ! "grass"
-çırp:çırp V-TV-DIR-AR ; ! "whisk"
-çiz:çiz V-TV-DIR-AR ; ! "draw"
-çök:çök V-TV-DIR-AR ; ! "collapse, fall down"
-çöz:çöz V-TV-DIR-AR ; ! "solve"
-dağıt:dağıt V-TV-DIR-IR ; ! "distribute"
-dal:dal V-TV-DIR-AR ; ! "dive"
-damıt:damıt V-TV-DIR-IR ; ! "distill"
-danış:danış V-TV-DIR-IR ; ! "consult"
-defnet:defnet V-TV-DIR-AR ; ! "bury"
-değ:değ V-TV-DIR-AR ; ! "touch"
-değin:değin V-TV-DIR-IR ; ! "mention"
-değiş:değiş V-TV-DIR-IR ; ! "change"
-del:del V-TV-DIR-AR ; ! "drill"
-der:der V-TV-DIR-AR ; ! "collect"
-devam% et:devam% et%{v%} V-TV-DIR-AR ; ! "go on"
-devir:devir V-TV-DIR-IR ; ! "cut down"
-devret:devret V-TV-DIR-AR ; ! "assign"
-dik:dik V-TV-DIR-AR ; ! "sew"
-dil:dil V-TV-DIR-AR ; ! "slice"
-diz:diz V-TV-DIR-AR ; ! "align"
-dök:dök V-TV-DIR-AR ; ! "pour"
-açıklan:açıklan V-TV-DIR-IR ; ! "make open"
-dolaş:dolaş V-TV-DIR-IR ; ! "walk around"
-döv:döv V-TV-DIR-AR ; ! "hit"
-doyur:doyur V-TV-DIR-IR ; ! "feed"
+çel:çel V-AR-TV ; ! "tempt" (DIR)
+çeliş:çeliş V-IR-TV ; ! "contradict" (DIR)
+çevir:çevir V-IR-TV ; ! "translate" (DIR)
+cezbet:cezbet V-AR-TV ; ! "attract" (DIR)
+çıkar:çıkar V-IR-TV ; ! "eject, remove" (DIR)
+çim:çim V-AR-TV ; ! "grass" (DIR)
+çırp:çırp V-AR-TV ; ! "whisk" (DIR)
+çiz:çiz V-AR-TV ; ! "draw" (DIR)
+çök:çök V-AR-TV ; ! "collapse, fall down" (DIR)
+çöz:çöz V-AR-TV ; ! "solve" (DIR)
+dağıt:dağıt V-IR-TV ; ! "distribute" (DIR)
+dal:dal V-AR-TV ; ! "dive" (DIR)
+damıt:damıt V-IR-TV ; ! "distill" (DIR)
+danış:danış V-IR-TV ; ! "consult" (DIR)
+defnet:defnet V-AR-TV ; ! "bury" (DIR)
+değ:değ V-AR-TV ; ! "touch" (DIR)
+değin:değin V-IR-TV ; ! "mention" (DIR)
+değiş:değiş V-IR-TV ; ! "change" (DIR)
+del:del V-AR-TV ; ! "drill" (DIR)
+der:der V-AR-TV ; ! "collect" (DIR)
+devam% et:devam% et%{v%} V-AR-TV ; ! "go on" (DIR)
+devir:devir V-IR-TV ; ! "cut down" (DIR)
+devret:devret V-AR-TV ; ! "assign" (DIR)
+dik:dik V-AR-TV ; ! "sew" (DIR)
+dil:dil V-AR-TV ; ! "slice" (DIR)
+diz:diz V-AR-TV ; ! "align" (DIR)
+dök:dök V-AR-TV ; ! "pour" (DIR)
+açıklan:açıklan V-IR-TV ; ! "make open" (DIR)
+dolaş:dolaş V-IR-TV ; ! "walk around" (DIR)
+döv:döv V-AR-TV ; ! "hit" (DIR)
+doyur:doyur V-IR-TV ; ! "feed" (DIR)
 düşün:düşün V-IR-TV ; ! "think"
-duy:duy V-TV-DIR-AR ; ! "hear"
-duygulan:duygulan V-TV-DIR-IR ; ! "be affected"
-uygulan:uygulan V-TV-DIR-IR ; ! "apply"
-duyur:duyur V-TV-DIR-IR ; ! "announce"
-düz:düz V-TV-DIR-AR ; ! "prepare"
-edin:edin V-TV-DIR-IR ; ! "obtain"
-eğit:eğit V-TV-DIR-IR ; ! "teach"
-ek:ek V-TV-DIR-AR ; ! "plant"
-eleştir:eleştir V-TV-DIR-IR ; ! "cricitize"
-em:em V-TV-DIR-AR ; ! "lick"
-emret:emret V-TV-DIR-AR ; ! "command"
-endişelen:endişelen V-TV-DIR-IR ; ! "worry about"
-es:es V-TV-DIR-AR ; ! "blow"
-eş:eş V-TV-DIR-AR ; ! "dig up"
-ever:ever V-TV-DIR-IR ; ! "give somebody in marriage"
-ez:ez V-TV-DIR-AR ; ! "crush"
-farket:farket V-TV-DIR-AR ; ! "realize, notice"
-faydalan:faydalan V-TV-DIR-IR ; ! "exploit"
-feshet:feshet V-TV-DIR-AR ; ! "repeal"
-fethet:fethet V-TV-DIR-AR ; ! "conquer"
-geç:geç V-TV-DIR-AR ; ! "pass"
-geliş:geliş V-TV-DIR-IR ; ! "develop"
-ger:ger V-TV-DIR-AR ; ! "stretch"
-getir:getir V-TV-DIR-IR ; ! "bring"
-gider:gider V-TV-DIR-IR ; ! "supply"
-giy:giy V-TV-DIR-AR ; ! "wear"
-göm:göm V-TV-DIR-AR ; ! "bury"
-gönder:gönder V-TV-DIR-IR ; ! "send"
+duy:duy V-AR-TV ; ! "hear" (DIR)
+duygulan:duygulan V-IR-TV ; ! "be affected" (DIR)
+uygulan:uygulan V-IR-TV ; ! "apply" (DIR)
+duyur:duyur V-IR-TV ; ! "announce" (DIR)
+düz:düz V-AR-TV ; ! "prepare" (DIR)
+edin:edin V-IR-TV ; ! "obtain" (DIR)
+eğit:eğit V-IR-TV ; ! "teach" (DIR)
+ek:ek V-AR-TV ; ! "plant" (DIR)
+eleştir:eleştir V-IR-TV ; ! "cricitize" (DIR)
+em:em V-AR-TV ; ! "lick" (DIR)
+emret:emret V-AR-TV ; ! "command" (DIR)
+endişelen:endişelen V-IR-TV ; ! "worry about" (DIR)
+es:es V-AR-TV ; ! "blow" (DIR)
+eş:eş V-AR-TV ; ! "dig up" (DIR)
+ever:ever V-IR-TV ; ! "give somebody in marriage" (DIR)
+ez:ez V-AR-TV ; ! "crush" (DIR)
+farket:farket V-AR-TV ; ! "realize, notice" (DIR)
+faydalan:faydalan V-IR-TV ; ! "exploit" (DIR)
+feshet:feshet V-AR-TV ; ! "repeal" (DIR)
+fethet:fethet V-AR-TV ; ! "conquer" (DIR)
+geç:geç V-AR-TV ; ! "pass" (DIR)
+geliş:geliş V-IR-TV ; ! "develop" (DIR)
+ger:ger V-AR-TV ; ! "stretch" (DIR)
+getir:getir V-IR-TV ; ! "bring" (DIR)
+gider:gider V-IR-TV ; ! "supply" (DIR)
+giy:giy V-AR-TV ; ! "wear" (DIR)
+göm:göm V-AR-TV ; ! "bury" (DIR)
+gönder:gönder V-IR-TV ; ! "send" (DIR)
 ! gör:gör V-TV-DIR-IR ; ! "see"
 gör:gör V-IR-TV ; ! "see"
-göster:göster V-TV-DIR-IR ; ! "show"
-götür:götür V-TV-DIR-IR ; ! "carry"
-gücen:gücen V-TV-DIR-IR ; ! "be hurt"
-güt:güt V-TV-DIR-AR ; ! "shepherd"
-güven:güven V-TV-DIR-IR ; ! "trust"
-haberleş:haberleş V-TV-DIR-IR ; ! "be in touch"
-hafifse:hafifse V-TV-DIR-IR ; ! "play down"
-hallet:hallet V-TV-DIR-AR ; ! "solve"
-hapset:hapset V-TV-DIR-AR ; ! "put in prison"
-haşla:haşla V-TV-DIR-IR ; ! "boil"
-havalan:havalan V-TV-DIR-IR ; ! "take off"
-haykır:haykır V-TV-DIR-IR ; ! "yell"
-hazmet:hazmet V-TV-DIR-AR ; ! "digest"
-hicvet:hicvet V-TV-DIR-AR ; ! "satirisied"
+göster:göster V-IR-TV ; ! "show" (DIR)
+götür:götür V-IR-TV ; ! "carry" (DIR)
+gücen:gücen V-IR-TV ; ! "be hurt" (DIR)
+güt:güt V-AR-TV ; ! "shepherd" (DIR)
+güven:güven V-IR-TV ; ! "trust" (DIR)
+haberleş:haberleş V-IR-TV ; ! "be in touch" (DIR)
+hafifse:hafifse V-IR-TV ; ! "play down" (DIR)
+hallet:hallet V-AR-TV ; ! "solve" (DIR)
+hapset:hapset V-AR-TV ; ! "put in prison" (DIR)
+haşla:haşla V-IR-TV ; ! "boil" (DIR)
+havalan:havalan V-IR-TV ; ! "take off" (DIR)
+haykır:haykır V-IR-TV ; ! "yell" (DIR)
+hazmet:hazmet V-AR-TV ; ! "digest" (DIR)
+hicvet:hicvet V-AR-TV ; ! "satirisied" (DIR)
 ! hisset:hisset V-TV-DIR-AR ; ! "feel"
 hisset:hisset V-AR-TV ; ! "feel"
-hükmet:hükmet V-TV-DIR-AR ; ! "rule over"
-iade% et:iade% et%{v%} V-TV-DIR-AR ; ! "give back"
-iç:iç V-TV-DIR-AR ; ! "drink"
-içer:içer V-TV-DIR-IR ; ! "include"
-ilet:ilet V-TV-DIR-IR ; ! "send"
-in:in V-TV-DIR-AR ; ! "go down"
-incin:incin V-TV-DIR-IR ; ! "hurt"
-incit:incit V-TV-DIR-IR ; ! "hurt"
-ısır:ısır V-TV-DIR-IR ; ! "bite"
-işit:işit V-TV-DIR-IR ; ! "hear"
-ısıt:ısıt V-TV-DIR-IR ; ! "heat"
-it:it V-TV-DIR-AR ; ! "push"
-itiraf% et:itiraf% et V-TV-DIR-AR ; ! "confess"
-iv:iv V-TV-DIR-AR ; ! "accelarate"
-kabullen:kabullen V-TV-DIR-IR ; ! "confess"
-kak:kak V-TV-DIR-AR ; ! "push"
-kap:kap V-TV-DIR-AR ; ! "snatch"
-kapış:kapış V-TV-DIR-IR ; ! "compete"
-kapsa:kapsa V-TV-DIR-IR ; ! "include"
-kar:kar V-TV-DIR-AR ; ! "mix"
-kas:kas V-TV-DIR-AR ; ! "strain"
-kastet:kastet V-TV-DIR-AR ; ! "aim at"
-kat:kat V-TV-DIR-AR ; ! "add"
-katet:katet V-TV-DIR-AR ; ! "make"
-katlet:katlet V-TV-DIR-AR ; ! "massacre"
-kavur:kavur V-TV-DIR-IR ; ! "roast"
-kaybet:kaybet%{v%} V-TV-DIR-AR ; ! "lose"
-kaydet:kaydet%{v%} V-TV-DIR-AR ; ! "save"
-kayır:kayır V-TV-DIR-IR ; ! "show favour"
-kaz:kaz V-TV-DIR-AR ; ! "dig"
-kazan:kazan V-TV-DIR-IR ; ! "win"
+hükmet:hükmet V-AR-TV ; ! "rule over" (DIR)
+iade% et:iade% et%{v%} V-AR-TV ; ! "give back" (DIR)
+iç:iç V-AR-TV ; ! "drink" (DIR)
+içer:içer V-IR-TV ; ! "include" (DIR)
+ilet:ilet V-IR-TV ; ! "send" (DIR)
+in:in V-AR-TV ; ! "go down" (DIR)
+incin:incin V-IR-TV ; ! "hurt" (DIR)
+incit:incit V-IR-TV ; ! "hurt" (DIR)
+ısır:ısır V-IR-TV ; ! "bite" (DIR)
+işit:işit V-IR-TV ; ! "hear" (DIR)
+ısıt:ısıt V-IR-TV ; ! "heat" (DIR)
+it:it V-AR-TV ; ! "push" (DIR)
+itiraf% et:itiraf% et V-AR-TV ; ! "confess" (DIR)
+iv:iv V-AR-TV ; ! "accelarate" (DIR)
+kabullen:kabullen V-IR-TV ; ! "confess" (DIR)
+kak:kak V-AR-TV ; ! "push" (DIR)
+kap:kap V-AR-TV ; ! "snatch" (DIR)
+kapış:kapış V-IR-TV ; ! "compete" (DIR)
+kapsa:kapsa V-IR-TV ; ! "include" (DIR)
+kar:kar V-AR-TV ; ! "mix" (DIR)
+kas:kas V-AR-TV ; ! "strain" (DIR)
+kastet:kastet V-AR-TV ; ! "aim at" (DIR)
+kat:kat V-AR-TV ; ! "add" (DIR)
+katet:katet V-AR-TV ; ! "make" (DIR)
+katlet:katlet V-AR-TV ; ! "massacre" (DIR)
+kavur:kavur V-IR-TV ; ! "roast" (DIR)
+kaybet:kaybet%{v%} V-AR-TV ; ! "lose" (DIR)
+kaydet:kaydet%{v%} V-AR-TV ; ! "save" (DIR)
+kayır:kayır V-IR-TV ; ! "show favour" (DIR)
+kaz:kaz V-AR-TV ; ! "dig" (DIR)
+kazan:kazan V-IR-TV ; ! "win" (DIR)
 !kulluk% et:kulluk% et%{v%} V-TV-AR-IR ; ! "to serve"
 !gi:gi V-TV-AR-AR ; ! "to put on"
-iç:iç V-TV-IR-AR ; ! "drink"
-aş:aş V-TV-IR-AR ; ! "go beyond / exaggerate"
-geç:geç V-TV-IR-AR ; ! "pass"
-kaç:kaç V-TV-IR-AR ; ! "escape"
-şaş:şaş V-TV-IR-AR ; ! "wonder"
+iç:iç V-AR-TV ; ! "drink" (IR)
+aş:aş V-AR-TV ; ! "go beyond / exaggerate" (IR)
+geç:geç V-AR-TV ; ! "pass" (IR)
+kaç:kaç V-AR-TV ; ! "escape" (IR)
+şaş:şaş V-AR-TV ; ! "wonder" (IR)
 !oku:oku V-TV-T-IR ; ! "read"
 oku:oku V-IR-TV ; ! "read"
 !söyle:söyle V-TV-T-IR ; ! "say"
@@ -13537,473 +13537,473 @@ söyle:söyle V-IR-TV ; ! "say"
 bekle:bekle V-IR-TV ; ! "wait"
 !düzenle:düzenle V-TV-T-IR ; ! "straight"
 düzenle:düzenle V-IR-TV ; ! "straight"
-kaldır:kaldır V-TV-T-IR ; ! "raise"
-acındır:acındır V-TV-T-IR ; ! "excite"
-ada:ada V-TV-T-IR ; ! "dedicate"
-afsunla:afsunla V-TV-T-IR ; ! "conjure"
-aktar:aktar V-TV-T-IR ; ! "transfer"
-alala:alala V-TV-T-IR ; ! "mask"
-alazla:alazla V-TV-T-IR ; ! "scorch"
-algıla:algıla V-TV-T-IR ; ! "perceive"
-alıştır:alıştır V-TV-T-IR ; ! "adjust"
-anla:anla V-TV-T-IR ; ! "understand"
-ansı:ansı V-TV-T-IR ; ! "remember"
-anımsa:anımsa V-TV-T-IR ; ! "remember"
-apar:apar V-TV-T-IR ; ! "carry away"
-arakla:arakla V-TV-T-IR ; ! "pinch"
-araştır:araştır V-TV-T-IR ; ! "seek"
-ardıl:ardıl V-TV-T-IR ; ! "pester"
-artakal:artakal V-TV-T-IR ; ! "remain"
-ata:ata V-TV-T-IR ; ! "assign"
-atıl:atıl V-TV-T-IR ; ! "rush"
-atıştır:atıştır V-TV-T-IR ; ! "stoke"
-ayarla:ayarla V-TV-T-IR ; ! "adjust"
-ayrıl:ayrıl V-TV-T-IR ; ! "leave"
-ayrımsa:ayrımsa V-TV-T-IR ; ! "perceive"
-ayır:ayır V-TV-T-IR ; ! "separate"
-azımsa:azımsa V-TV-T-IR ; ! "underestimate"
-açımla:açımla V-TV-T-IR ; ! "comment"
-açınsa:açınsa V-TV-T-IR ; ! "develop"
-ağırsa:ağırsa V-TV-T-IR ; ! "to do something slowly / the turkish way"
-aşağıla:aşağıla V-TV-T-IR ; ! "insult"
-aşır:aşır V-TV-T-IR ; ! "steal"
-bağda:bağda V-TV-T-IR ; ! "intertwine"
-besle:besle V-TV-T-IR ; ! "feed"
-defle:defle V-TV-T-IR ; ! "repel"
-dehle:dehle V-TV-T-IR ; ! "urge on"
-demetle:demetle V-TV-T-IR ; ! "sheave"
-demle:demle V-TV-T-IR ; ! "brew"
-dene:dene V-TV-T-IR ; ! "try"
-denetle:denetle V-TV-T-IR ; ! "check"
-deneyle:deneyle V-TV-T-IR ; ! "to experiment with"
-dengele:dengele V-TV-T-IR ; ! "balance"
-denkle:denkle V-TV-T-IR ; ! "compensate"
-denşir:denşir V-TV-T-IR ; ! "denature"
-depola:depola V-TV-T-IR ; ! "deposit"
-derecele:derecele V-TV-T-IR ; ! "graduate"
-derle:derle V-TV-T-IR ; ! "compile"
-destekle:destekle V-TV-T-IR ; ! "support"
-destele:destele V-TV-T-IR ; ! "tie"
-devir:devir V-TV-T-IR ; ! "upset"
-devral:devral V-TV-T-IR ; ! "take over"
-değir:değir V-TV-T-IR ; ! "drop"
-değirmile:değirmile V-TV-T-IR ; ! "to make circular"
-değnekle:değnekle V-TV-T-IR ; ! "to cane"
-deşele:deşele V-TV-T-IR ; ! "research"
-didikle:didikle V-TV-T-IR ; ! "forage"
-dikizle:dikizle V-TV-T-IR ; ! "pry"
-dile:dile V-TV-T-IR ; ! "wish"
-dilimle:dilimle V-TV-T-IR ; ! "slice"
-dinamitle:dinamitle V-TV-T-IR ; ! "torpedo"
-diple:diple V-TV-T-IR ; ! "fail"
-dipçikle:dipçikle V-TV-T-IR ; ! "to club"
-direnle:direnle V-TV-T-IR ; ! "to pitchfork"
-dirsekle:dirsekle V-TV-T-IR ; ! "to elbow"
-dizginle:dizginle V-TV-T-IR ; ! "restrain"
-dizile:dizile V-TV-T-IR ; ! "arrange"
-dizle:dizle V-TV-T-IR ; ! "to knee /fall on knees"
-dişle:dişle V-TV-T-IR ; ! "dent"
-doku:doku V-TV-T-IR ; ! "knit"
-dola:dola V-TV-T-IR ; ! "coil up"
-dolandır:dolandır V-TV-T-IR ; ! "swindle"
-dona:dona V-TV-T-IR ; ! "frost"
-dorukla:dorukla V-TV-T-IR ; ! "fill"
-dosyala:dosyala V-TV-T-IR ; ! "file"
-doyur:doyur V-TV-T-IR ; ! "saturate"
-doğra:doğra V-TV-T-IR ; ! "chop"
-doğrula:doğrula V-TV-T-IR ; ! "confirm"
-doğur:doğur V-TV-T-IR ; ! "cause" / "have a baby"
-duldala:duldala V-TV-T-IR ; ! "shelter"
-dumanla:dumanla V-TV-T-IR ; ! "smoke out"
-durula:durula V-TV-T-IR ; ! "hesitate"
-duvakla:duvakla V-TV-T-IR ; ! "bridebeveil"
-duyumsa:duyumsa V-TV-T-IR ; ! "feel"
-duyur:duyur V-TV-T-IR ; ! "announce"
-dölle:dölle V-TV-T-IR ; ! "inseminate"
-dörtle:dörtle V-TV-T-IR ; ! "to put in four"
-döşe:döşe V-TV-T-IR ; ! "furnish"
-düdükle:düdükle V-TV-T-IR ; ! "fuck"
-dürtükle:dürtükle V-TV-T-IR ; ! "poke"
-dürümle:dürümle V-TV-T-IR ; ! "to roll"
-düzenle:düzenle V-TV-T-IR ; ! "order" "sort"
-düzle:düzle V-TV-T-IR ; ! "even"
-düğmele:düğmele V-TV-T-IR ; ! "button up"
-düğümle:düğümle V-TV-T-IR ; ! "loop"
-düşle:düşle V-TV-T-IR ; ! "imagine"
-dışla:dışla V-TV-T-IR ; ! "to ostracize"
-ebele:ebele V-TV-T-IR ; ! "tag"
-ebrula:ebrula V-TV-T-IR ; ! "marble"
-kelepçele:kelepçele V-TV-T-IR  ; ! "manacle"
-kemir:kemir V-TV-T-IR  ; ! "nibble"
-kenetle:kenetle V-TV-T-IR  ; ! "clamp"
-kilitle:kilitle V-TV-T-IR  ; ! "lock"
-kına:kına V-TV-T-IR  ; ! "censure"
-kirala:kirala V-TV-T-IR  ; ! "rent, hire"
-kırbaçla:kırbaçla V-TV-T-IR  ; ! "sjambok"
-kireçle:kireçle V-TV-T-IR  ; ! "whitewash"
-kısıtla:kısıtla V-TV-T-IR  ; ! "restrict"
-kıyasla:kıyasla V-TV-T-IR  ; ! "compare"
-kızakla:kızakla V-TV-T-IR  ; ! "skid"
-klorla:klorla V-TV-T-IR  ; ! "chlorinate"
-kokla:kokla V-TV-T-IR  ; ! "nose, smell"
-kökle:kökle V-TV-T-IR  ; ! "take root"
-kolla:kolla V-TV-T-IR  ; ! "watch for"
-konukla:konukla V-TV-T-IR  ; ! "entertain"
-kopar:kopar V-TV-T-IR  ; ! "pull apart"
-körle:körle V-TV-T-IR  ; ! "poke fun"
-koru:koru V-TV-T-IR  ; ! "save, protect"
-körükle:körükle V-TV-T-IR  ; ! "rush up"
-köstekle:köstekle V-TV-T-IR  ; ! "clog"
-koşulla:koşulla V-TV-T-IR  ; ! "condition"
-kotar:kotar V-TV-T-IR  ; ! "dish up"
-kötüle:kötüle V-TV-T-IR  ; ! "revile"
-kovala:kovala V-TV-T-IR  ; ! "chase"
-kovuştur:kovuştur V-TV-T-IR  ; ! "prosecute"
+kaldır:kaldır V-IR-TV ; ! "raise" (T)
+acındır:acındır V-IR-TV ; ! "excite" (T)
+ada:ada V-IR-TV ; ! "dedicate" (T)
+afsunla:afsunla V-IR-TV ; ! "conjure" (T)
+aktar:aktar V-IR-TV ; ! "transfer" (T)
+alala:alala V-IR-TV ; ! "mask" (T)
+alazla:alazla V-IR-TV ; ! "scorch" (T)
+algıla:algıla V-IR-TV ; ! "perceive" (T)
+alıştır:alıştır V-IR-TV ; ! "adjust" (T)
+anla:anla V-IR-TV ; ! "understand" (T)
+ansı:ansı V-IR-TV ; ! "remember" (T)
+anımsa:anımsa V-IR-TV ; ! "remember" (T)
+apar:apar V-IR-TV ; ! "carry away" (T)
+arakla:arakla V-IR-TV ; ! "pinch" (T)
+araştır:araştır V-IR-TV ; ! "seek" (T)
+ardıl:ardıl V-IR-TV ; ! "pester" (T)
+artakal:artakal V-IR-TV ; ! "remain" (T)
+ata:ata V-IR-TV ; ! "assign" (T)
+atıl:atıl V-IR-TV ; ! "rush" (T)
+atıştır:atıştır V-IR-TV ; ! "stoke" (T)
+ayarla:ayarla V-IR-TV ; ! "adjust" (T)
+ayrıl:ayrıl V-IR-TV ; ! "leave" (T)
+ayrımsa:ayrımsa V-IR-TV ; ! "perceive" (T)
+ayır:ayır V-IR-TV ; ! "separate" (T)
+azımsa:azımsa V-IR-TV ; ! "underestimate" (T)
+açımla:açımla V-IR-TV ; ! "comment" (T)
+açınsa:açınsa V-IR-TV ; ! "develop" (T)
+ağırsa:ağırsa V-IR-TV ; ! "to do something slowly / the turkish way" (T)
+aşağıla:aşağıla V-IR-TV ; ! "insult" (T)
+aşır:aşır V-IR-TV ; ! "steal" (T)
+bağda:bağda V-IR-TV ; ! "intertwine" (T)
+besle:besle V-IR-TV ; ! "feed" (T)
+defle:defle V-IR-TV ; ! "repel" (T)
+dehle:dehle V-IR-TV ; ! "urge on" (T)
+demetle:demetle V-IR-TV ; ! "sheave" (T)
+demle:demle V-IR-TV ; ! "brew" (T)
+dene:dene V-IR-TV ; ! "try" (T)
+denetle:denetle V-IR-TV ; ! "check" (T)
+deneyle:deneyle V-IR-TV ; ! "to experiment with" (T)
+dengele:dengele V-IR-TV ; ! "balance" (T)
+denkle:denkle V-IR-TV ; ! "compensate" (T)
+denşir:denşir V-IR-TV ; ! "denature" (T)
+depola:depola V-IR-TV ; ! "deposit" (T)
+derecele:derecele V-IR-TV ; ! "graduate" (T)
+derle:derle V-IR-TV ; ! "compile" (T)
+destekle:destekle V-IR-TV ; ! "support" (T)
+destele:destele V-IR-TV ; ! "tie" (T)
+devir:devir V-IR-TV ; ! "upset" (T)
+devral:devral V-IR-TV ; ! "take over" (T)
+değir:değir V-IR-TV ; ! "drop" (T)
+değirmile:değirmile V-IR-TV ; ! "to make circular" (T)
+değnekle:değnekle V-IR-TV ; ! "to cane" (T)
+deşele:deşele V-IR-TV ; ! "research" (T)
+didikle:didikle V-IR-TV ; ! "forage" (T)
+dikizle:dikizle V-IR-TV ; ! "pry" (T)
+dile:dile V-IR-TV ; ! "wish" (T)
+dilimle:dilimle V-IR-TV ; ! "slice" (T)
+dinamitle:dinamitle V-IR-TV ; ! "torpedo" (T)
+diple:diple V-IR-TV ; ! "fail" (T)
+dipçikle:dipçikle V-IR-TV ; ! "to club" (T)
+direnle:direnle V-IR-TV ; ! "to pitchfork" (T)
+dirsekle:dirsekle V-IR-TV ; ! "to elbow" (T)
+dizginle:dizginle V-IR-TV ; ! "restrain" (T)
+dizile:dizile V-IR-TV ; ! "arrange" (T)
+dizle:dizle V-IR-TV ; ! "to knee /fall on knees" (T)
+dişle:dişle V-IR-TV ; ! "dent" (T)
+doku:doku V-IR-TV ; ! "knit" (T)
+dola:dola V-IR-TV ; ! "coil up" (T)
+dolandır:dolandır V-IR-TV ; ! "swindle" (T)
+dona:dona V-IR-TV ; ! "frost" (T)
+dorukla:dorukla V-IR-TV ; ! "fill" (T)
+dosyala:dosyala V-IR-TV ; ! "file" (T)
+doyur:doyur V-IR-TV ; ! "saturate" (T)
+doğra:doğra V-IR-TV ; ! "chop" (T)
+doğrula:doğrula V-IR-TV ; ! "confirm" (T)
+doğur:doğur V-IR-TV ; ! "cause" / "have a baby" (T)
+duldala:duldala V-IR-TV ; ! "shelter" (T)
+dumanla:dumanla V-IR-TV ; ! "smoke out" (T)
+durula:durula V-IR-TV ; ! "hesitate" (T)
+duvakla:duvakla V-IR-TV ; ! "bridebeveil" (T)
+duyumsa:duyumsa V-IR-TV ; ! "feel" (T)
+duyur:duyur V-IR-TV ; ! "announce" (T)
+dölle:dölle V-IR-TV ; ! "inseminate" (T)
+dörtle:dörtle V-IR-TV ; ! "to put in four" (T)
+döşe:döşe V-IR-TV ; ! "furnish" (T)
+düdükle:düdükle V-IR-TV ; ! "fuck" (T)
+dürtükle:dürtükle V-IR-TV ; ! "poke" (T)
+dürümle:dürümle V-IR-TV ; ! "to roll" (T)
+düzenle:düzenle V-IR-TV ; ! "order" "sort" (T)
+düzle:düzle V-IR-TV ; ! "even" (T)
+düğmele:düğmele V-IR-TV ; ! "button up" (T)
+düğümle:düğümle V-IR-TV ; ! "loop" (T)
+düşle:düşle V-IR-TV ; ! "imagine" (T)
+dışla:dışla V-IR-TV ; ! "to ostracize" (T)
+ebele:ebele V-IR-TV ; ! "tag" (T)
+ebrula:ebrula V-IR-TV ; ! "marble" (T)
+kelepçele:kelepçele V-IR-TV ; ! "manacle" (T)
+kemir:kemir V-IR-TV ; ! "nibble" (T)
+kenetle:kenetle V-IR-TV ; ! "clamp" (T)
+kilitle:kilitle V-IR-TV ; ! "lock" (T)
+kına:kına V-IR-TV ; ! "censure" (T)
+kirala:kirala V-IR-TV ; ! "rent, hire" (T)
+kırbaçla:kırbaçla V-IR-TV ; ! "sjambok" (T)
+kireçle:kireçle V-IR-TV ; ! "whitewash" (T)
+kısıtla:kısıtla V-IR-TV ; ! "restrict" (T)
+kıyasla:kıyasla V-IR-TV ; ! "compare" (T)
+kızakla:kızakla V-IR-TV ; ! "skid" (T)
+klorla:klorla V-IR-TV ; ! "chlorinate" (T)
+kokla:kokla V-IR-TV ; ! "nose, smell" (T)
+kökle:kökle V-IR-TV ; ! "take root" (T)
+kolla:kolla V-IR-TV ; ! "watch for" (T)
+konukla:konukla V-IR-TV ; ! "entertain" (T)
+kopar:kopar V-IR-TV ; ! "pull apart" (T)
+körle:körle V-IR-TV ; ! "poke fun" (T)
+koru:koru V-IR-TV ; ! "save, protect" (T)
+körükle:körükle V-IR-TV ; ! "rush up" (T)
+köstekle:köstekle V-IR-TV ; ! "clog" (T)
+koşulla:koşulla V-IR-TV ; ! "condition" (T)
+kotar:kotar V-IR-TV ; ! "dish up" (T)
+kötüle:kötüle V-IR-TV ; ! "revile" (T)
+kovala:kovala V-IR-TV ; ! "chase" (T)
+kovuştur:kovuştur V-IR-TV ; ! "prosecute" (T)
 !kucakla:kucakla V-TV-T-IR  ; ! "embrace"
 kucakla:kucakla V-IR-TV  ; ! "embrace"
-küçümse:küçümse V-TV-T-IR  ; ! "despise"
-kümele:kümele V-TV-T-IR  ; ! "heap up"
-kundakla:kundakla V-TV-T-IR  ; ! "swaddle"
-kurcala:kurcala V-TV-T-IR  ; ! "rake up"
-kurgula:kurgula V-TV-T-IR  ; ! "fictionalise"
-kurşunla:kurşunla V-TV-T-IR  ; ! "cover with lead"
-kurtar:kurtar V-TV-T-IR  ; ! "rescue"
-kurula:kurula V-TV-T-IR  ; ! "dry something"
-kutla:kutla V-TV-T-IR  ; ! "celebrate"
-kutsa:kutsa V-TV-T-IR  ; ! "bless"
-lafla:lafla V-TV-T-IR  ; ! "chat"
-lanetle:lanetle V-TV-T-IR  ; ! "curse"
-lekele:lekele V-TV-T-IR  ; ! "stain"
-limanla:limanla V-TV-T-IR  ; ! "squeeze lemon"
-listele:listele V-TV-T-IR  ; ! "list"
-mahmuzla:mahmuzla V-TV-T-IR  ; ! "rowel"
-mayala:mayala V-TV-T-IR  ; ! "ferment"
-mühürle:mühürle V-TV-T-IR  ; ! "seal"
-müjdele:müjdele V-TV-T-IR  ; ! "harbinger"
-nitele:nitele V-TV-T-IR  ; ! "describe"
-nitelendir:nitelendir V-TV-T-IR  ; ! "qualify"
-noktala:noktala V-TV-T-IR  ; ! "stop"
-odakla:odakla V-TV-T-IR  ; ! "focus"
-öde:öde V-TV-T-IR  ; ! "pay"
-öğütle:öğütle V-TV-T-IR  ; ! "advise"
-oksitle:oksitle V-TV-T-IR  ; ! "oxidise"
-omuzla:omuzla V-TV-T-IR  ; ! "shoulder"
-ona:ona V-TV-T-IR  ; ! "assent"
-onar:onar V-TV-T-IR  ; ! "repair"
-onayla:onayla V-TV-T-IR  ; ! "confirm"
-önemse:önemse V-TV-T-IR  ; ! "care"
-öner:öner V-TV-T-IR  ; ! "offer"
-önle:önle V-TV-T-IR  ; ! "prevent"
-oranla:oranla V-TV-T-IR  ; ! "proportion"
-örgütle:örgütle V-TV-T-IR  ; ! "organise"
-örnekle:örnekle V-TV-T-IR  ; ! "ensample"
-ortala:ortala V-TV-T-IR  ; ! "center"
-ovala:ovala V-TV-T-IR  ; ! "rub"
-oyala:oyala V-TV-T-IR  ; ! "put off"
-öyküle:öyküle V-TV-T-IR  ; ! "narrate"
-oyla:oyla V-TV-T-IR  ; ! "vote"
-oyna:oyna V-TV-T-IR  ; ! "play"
-oyna:oyna V-IV-T-IR  ; ! "play"
-öze:öze V-TV-T-IR  ; ! "be wordy"
-özetle:özetle V-TV-T-IR  ; ! "summary"
-özle:özle V-TV-T-IR  ; ! "miss"
-paketle:paketle V-TV-T-IR  ; ! "pack"
-parala:parala V-TV-T-IR  ; ! "rip up"
-parçala:parçala V-TV-T-IR  ; ! "pull something to pieces"
-payla:payla V-TV-T-IR  ; ! "rag"
-pazarla:pazarla V-TV-T-IR  ; ! "to market"
-perçinle:perçinle V-TV-T-IR  ; ! "clench"
-planla:planla V-TV-T-IR  ; ! "plan"
-pohpohla:pohpohla V-TV-T-IR  ; ! "palaver"
-pompala:pompala V-TV-T-IR  ; ! "pomp"
-poşetle:poşetle V-TV-T-IR  ; ! "pack"
-postala:postala V-TV-T-IR  ; ! "post"
-programla:programla V-TV-T-IR  ; ! "program"
-puanla:puanla V-TV-T-IR  ; ! "grade, give points"
+küçümse:küçümse V-IR-TV ; ! "despise" (T)
+kümele:kümele V-IR-TV ; ! "heap up" (T)
+kundakla:kundakla V-IR-TV ; ! "swaddle" (T)
+kurcala:kurcala V-IR-TV ; ! "rake up" (T)
+kurgula:kurgula V-IR-TV ; ! "fictionalise" (T)
+kurşunla:kurşunla V-IR-TV ; ! "cover with lead" (T)
+kurtar:kurtar V-IR-TV ; ! "rescue" (T)
+kurula:kurula V-IR-TV ; ! "dry something" (T)
+kutla:kutla V-IR-TV ; ! "celebrate" (T)
+kutsa:kutsa V-IR-TV ; ! "bless" (T)
+lafla:lafla V-IR-TV ; ! "chat" (T)
+lanetle:lanetle V-IR-TV ; ! "curse" (T)
+lekele:lekele V-IR-TV ; ! "stain" (T)
+limanla:limanla V-IR-TV ; ! "squeeze lemon" (T)
+listele:listele V-IR-TV ; ! "list" (T)
+mahmuzla:mahmuzla V-IR-TV ; ! "rowel" (T)
+mayala:mayala V-IR-TV ; ! "ferment" (T)
+mühürle:mühürle V-IR-TV ; ! "seal" (T)
+müjdele:müjdele V-IR-TV ; ! "harbinger" (T)
+nitele:nitele V-IR-TV ; ! "describe" (T)
+nitelendir:nitelendir V-IR-TV ; ! "qualify" (T)
+noktala:noktala V-IR-TV ; ! "stop" (T)
+odakla:odakla V-IR-TV ; ! "focus" (T)
+öde:öde V-IR-TV ; ! "pay" (T)
+öğütle:öğütle V-IR-TV ; ! "advise" (T)
+oksitle:oksitle V-IR-TV ; ! "oxidise" (T)
+omuzla:omuzla V-IR-TV ; ! "shoulder" (T)
+ona:ona V-IR-TV ; ! "assent" (T)
+onar:onar V-IR-TV ; ! "repair" (T)
+onayla:onayla V-IR-TV ; ! "confirm" (T)
+önemse:önemse V-IR-TV ; ! "care" (T)
+öner:öner V-IR-TV ; ! "offer" (T)
+önle:önle V-IR-TV ; ! "prevent" (T)
+oranla:oranla V-IR-TV ; ! "proportion" (T)
+örgütle:örgütle V-IR-TV ; ! "organise" (T)
+örnekle:örnekle V-IR-TV ; ! "ensample" (T)
+ortala:ortala V-IR-TV ; ! "center" (T)
+ovala:ovala V-IR-TV ; ! "rub" (T)
+oyala:oyala V-IR-TV ; ! "put off" (T)
+öyküle:öyküle V-IR-TV ; ! "narrate" (T)
+oyla:oyla V-IR-TV ; ! "vote" (T)
+oyna:oyna V-IR-TV ; ! "play" (T)
+oyna:oyna V-IR-IV ; ! "play" (T)
+öze:öze V-IR-TV ; ! "be wordy" (T)
+özetle:özetle V-IR-TV ; ! "summary" (T)
+özle:özle V-IR-TV ; ! "miss" (T)
+paketle:paketle V-IR-TV ; ! "pack" (T)
+parala:parala V-IR-TV ; ! "rip up" (T)
+parçala:parçala V-IR-TV ; ! "pull something to pieces" (T)
+payla:payla V-IR-TV ; ! "rag" (T)
+pazarla:pazarla V-IR-TV ; ! "to market" (T)
+perçinle:perçinle V-IR-TV ; ! "clench" (T)
+planla:planla V-IR-TV ; ! "plan" (T)
+pohpohla:pohpohla V-IR-TV ; ! "palaver" (T)
+pompala:pompala V-IR-TV ; ! "pomp" (T)
+poşetle:poşetle V-IR-TV ; ! "pack" (T)
+postala:postala V-IR-TV ; ! "post" (T)
+programla:programla V-IR-TV ; ! "program" (T)
+puanla:puanla V-IR-TV ; ! "grade, give points" (T)
 pudrala:pudrala V-IR-TV ; ! "powder"
-rendele:rendele V-TV-T-IR  ; ! "plane"
-resimle:resimle V-TV-T-IR  ; ! "illustrate"
-sabitle:sabitle V-TV-T-IR  ; ! "fasten up"
-sağla:sağla V-TV-T-IR  ; ! "provide"
-sahnele:sahnele V-TV-T-IR  ; ! "put on the stage"
-sakatla:sakatla V-TV-T-IR  ; ! "injure"
-sakla:sakla V-TV-T-IR  ; ! "hide"
-salgıla:salgıla V-TV-T-IR  ; ! "secreter"
-salla:salla V-TV-T-IR  ; ! "jounce"
-sansürle:sansürle V-TV-T-IR  ; ! "censor"
-sapla:sapla V-TV-T-IR  ; ! "stick"
-sapta:sapta V-TV-T-IR  ; ! "determine"
-şartla:şartla V-TV-T-IR  ; ! "condition"
-savla:savla V-TV-T-IR  ; ! "assert"
-savur:savur V-TV-T-IR  ; ! "scatter"
-sayla:sayla V-TV-T-IR  ; ! "choose"
-selamla:selamla V-TV-T-IR  ; ! "salute"
-sergile:sergile V-TV-T-IR  ; ! "exhibit"
-serpiştir:serpiştir V-TV-T-IR  ; ! "sprinkle"
-sıfırla:sıfırla V-TV-T-IR  ; ! "reset, zero"
-şifrele:şifrele V-TV-T-IR  ; ! "code"
-sigortala:sigortala V-TV-T-IR  ; ! "insure"
-silahla:silahla V-TV-T-IR  ; ! "arm"
-silkele:silkele V-TV-T-IR  ; ! "shake something out"
-simgele:simgele V-TV-T-IR  ; ! "symbolise"
-sına:sına V-TV-T-IR  ; ! "put to the proof"
-sınıfla:sınıfla V-TV-T-IR  ; ! "classify"
-sınırla:sınırla V-TV-T-IR  ; ! "limit"
-sinirle:sinirle V-TV-T-IR  ; ! "torture"
-sırala:sırala V-TV-T-IR  ; ! "array"
-sırla:sırla V-TV-T-IR  ; ! "varnish"
-sırtla:sırtla V-TV-T-IR  ; ! "take on one's back"
-şişele:şişele V-TV-T-IR  ; ! "bottle"
-sıva:sıva V-TV-T-IR  ; ! "parget"
-sıvazla:sıvazla V-TV-T-IR  ; ! "caress"
-sıyır:sıyır V-TV-T-IR  ; ! "abrade"
-soğur:soğur V-TV-T-IR  ; ! "absorb"
-solla:solla V-TV-T-IR  ; ! "overtake a vehicle"
-sömür:sömür V-TV-T-IR  ; ! "exploit"
-sonuçla:sonuçla V-TV-T-IR  ; ! "bring to an end"
-sorgula:sorgula V-TV-T-IR  ; ! "interrogate"
-soruştur:soruştur V-TV-T-IR  ; ! "investigate"
+rendele:rendele V-IR-TV ; ! "plane" (T)
+resimle:resimle V-IR-TV ; ! "illustrate" (T)
+sabitle:sabitle V-IR-TV ; ! "fasten up" (T)
+sağla:sağla V-IR-TV ; ! "provide" (T)
+sahnele:sahnele V-IR-TV ; ! "put on the stage" (T)
+sakatla:sakatla V-IR-TV ; ! "injure" (T)
+sakla:sakla V-IR-TV ; ! "hide" (T)
+salgıla:salgıla V-IR-TV ; ! "secreter" (T)
+salla:salla V-IR-TV ; ! "jounce" (T)
+sansürle:sansürle V-IR-TV ; ! "censor" (T)
+sapla:sapla V-IR-TV ; ! "stick" (T)
+sapta:sapta V-IR-TV ; ! "determine" (T)
+şartla:şartla V-IR-TV ; ! "condition" (T)
+savla:savla V-IR-TV ; ! "assert" (T)
+savur:savur V-IR-TV ; ! "scatter" (T)
+sayla:sayla V-IR-TV ; ! "choose" (T)
+selamla:selamla V-IR-TV ; ! "salute" (T)
+sergile:sergile V-IR-TV ; ! "exhibit" (T)
+serpiştir:serpiştir V-IR-TV ; ! "sprinkle" (T)
+sıfırla:sıfırla V-IR-TV ; ! "reset, zero" (T)
+şifrele:şifrele V-IR-TV ; ! "code" (T)
+sigortala:sigortala V-IR-TV ; ! "insure" (T)
+silahla:silahla V-IR-TV ; ! "arm" (T)
+silkele:silkele V-IR-TV ; ! "shake something out" (T)
+simgele:simgele V-IR-TV ; ! "symbolise" (T)
+sına:sına V-IR-TV ; ! "put to the proof" (T)
+sınıfla:sınıfla V-IR-TV ; ! "classify" (T)
+sınırla:sınırla V-IR-TV ; ! "limit" (T)
+sinirle:sinirle V-IR-TV ; ! "torture" (T)
+sırala:sırala V-IR-TV ; ! "array" (T)
+sırla:sırla V-IR-TV ; ! "varnish" (T)
+sırtla:sırtla V-IR-TV ; ! "take on one's back" (T)
+şişele:şişele V-IR-TV ; ! "bottle" (T)
+sıva:sıva V-IR-TV ; ! "parget" (T)
+sıvazla:sıvazla V-IR-TV ; ! "caress" (T)
+sıyır:sıyır V-IR-TV ; ! "abrade" (T)
+soğur:soğur V-IR-TV ; ! "absorb" (T)
+solla:solla V-IR-TV ; ! "overtake a vehicle" (T)
+sömür:sömür V-IR-TV ; ! "exploit" (T)
+sonuçla:sonuçla V-IR-TV ; ! "bring to an end" (T)
+sorgula:sorgula V-IR-TV ; ! "interrogate" (T)
+soruştur:soruştur V-IR-TV ; ! "investigate" (T)
 !söyle:söyle V-TV-T-IR  ; ! "tell"
-stokla:stokla V-TV-T-IR  ; ! "stock up"
-suçla:suçla V-TV-T-IR  ; ! "accuse"
-sula:sula V-TV-T-IR  ; ! "water"
-sürü:sürü V-TV-T-IR  ; ! "drag along"
-sürükle:sürükle V-TV-T-IR  ; ! "drag along"
-süsle:süsle V-TV-T-IR  ; ! "decorate"
-tabakla:tabakla V-TV-T-IR  ; ! "curry"
-tamamla:tamamla V-TV-T-IR  ; ! "complete"
-tanı:tanı V-TV-T-IR  ; ! "recognise"
-tanıkla:tanıkla V-TV-T-IR  ; ! "produce a witness"
-tanıla:tanıla V-TV-T-IR  ; ! "diagnose"
-tanımla:tanımla V-TV-T-IR  ; ! "describe"
-tara:tara V-TV-T-IR  ; ! "comb"
-tarakla:tarakla V-TV-T-IR  ; ! "comb"
-tartakla:tartakla V-TV-T-IR  ; ! "manhandle"
-tasarımla:tasarımla V-TV-T-IR  ; ! "design"
-tasarla:tasarla V-TV-T-IR  ; ! "design"
-taşı:taşı V-TV-T-IR  ; ! "carry"
-taşla:taşla V-TV-T-IR  ; ! "stone"
-tazele:tazele V-TV-T-IR  ; ! "freshen up"
-tekmele:tekmele V-TV-T-IR  ; ! "kick"
-tekrarla:tekrarla V-TV-T-IR  ; ! "repeat"
-tembihle:tembihle V-TV-T-IR  ; ! "caution, charge"
-temizle:temizle V-TV-T-IR  ; ! "clean"
-tepele:tepele V-TV-T-IR  ; ! "defeat"
-terasla:terasla V-TV-T-IR  ; ! "terrace"
-tersle:tersle V-TV-T-IR  ; ! "scold"
-tıka:tıka V-TV-T-IR  ; ! "stuff up"
-tıkla:tıkla V-TV-T-IR  ; ! "click"
-tırpanla:tırpanla V-TV-T-IR  ; ! "scythe"
-tokatla:tokatla V-TV-T-IR  ; ! "slap"
-topakla:topakla V-TV-T-IR  ; ! "pelletise"
-toparla:toparla V-TV-T-IR  ; ! "rake together"
+stokla:stokla V-IR-TV ; ! "stock up" (T)
+suçla:suçla V-IR-TV ; ! "accuse" (T)
+sula:sula V-IR-TV ; ! "water" (T)
+sürü:sürü V-IR-TV ; ! "drag along" (T)
+sürükle:sürükle V-IR-TV ; ! "drag along" (T)
+süsle:süsle V-IR-TV ; ! "decorate" (T)
+tabakla:tabakla V-IR-TV ; ! "curry" (T)
+tamamla:tamamla V-IR-TV ; ! "complete" (T)
+tanı:tanı V-IR-TV ; ! "recognise" (T)
+tanıkla:tanıkla V-IR-TV ; ! "produce a witness" (T)
+tanıla:tanıla V-IR-TV ; ! "diagnose" (T)
+tanımla:tanımla V-IR-TV ; ! "describe" (T)
+tara:tara V-IR-TV ; ! "comb" (T)
+tarakla:tarakla V-IR-TV ; ! "comb" (T)
+tartakla:tartakla V-IR-TV ; ! "manhandle" (T)
+tasarımla:tasarımla V-IR-TV ; ! "design" (T)
+tasarla:tasarla V-IR-TV ; ! "design" (T)
+taşı:taşı V-IR-TV ; ! "carry" (T)
+taşla:taşla V-IR-TV ; ! "stone" (T)
+tazele:tazele V-IR-TV ; ! "freshen up" (T)
+tekmele:tekmele V-IR-TV ; ! "kick" (T)
+tekrarla:tekrarla V-IR-TV ; ! "repeat" (T)
+tembihle:tembihle V-IR-TV ; ! "caution, charge" (T)
+temizle:temizle V-IR-TV ; ! "clean" (T)
+tepele:tepele V-IR-TV ; ! "defeat" (T)
+terasla:terasla V-IR-TV ; ! "terrace" (T)
+tersle:tersle V-IR-TV ; ! "scold" (T)
+tıka:tıka V-IR-TV ; ! "stuff up" (T)
+tıkla:tıkla V-IR-TV ; ! "click" (T)
+tırpanla:tırpanla V-IR-TV ; ! "scythe" (T)
+tokatla:tokatla V-IR-TV ; ! "slap" (T)
+topakla:topakla V-IR-TV ; ! "pelletise" (T)
+toparla:toparla V-IR-TV ; ! "rake together" (T)
 ! topla:topla V-TV-T-IR  ; ! "pick up, total"
 topla:topla V-IR-TV ; ! "pick up, total"
-tütsüle:tütsüle V-TV-T-IR  ; ! "kipper"
-tutukla:tutukla V-TV-T-IR  ; ! "arrest"
-tuzla:tuzla V-TV-T-IR  ; ! "salt down"
-üçle:üçle V-TV-T-IR  ; ! "divide by three"
-uğurla:uğurla V-TV-T-IR  ; ! "see off"
-umursa:umursa V-TV-T-IR  ; ! "care, regard"
-ünle:ünle V-TV-T-IR  ; ! "call out to proclaim"
-üstele:üstele V-TV-T-IR  ; ! "persist"
-uyarla:uyarla V-TV-T-IR  ; ! "adjust, adapt"
-vergile:vergile V-TV-T-IR  ; ! "tax"
-vurgula:vurgula V-TV-T-IR  ; ! "emphasise"
-yabancıla:yabancıla V-TV-T-IR  ; ! "not know beans about"
-yadırga:yadırga V-TV-T-IR  ; ! "find odd"
-yadsı:yadsı V-TV-T-IR  ; ! "ignore"
-yaftala:yaftala V-TV-T-IR  ; ! "brand"
-yağla:yağla V-TV-T-IR  ; ! "anoint"
-yağmala:yağmala V-TV-T-IR  ; ! "plunder"
-yakala:yakala V-TV-T-IR  ; ! "catch"
-yakınsa:yakınsa V-TV-T-IR  ; ! "converge"
-yala:yala V-TV-T-IR  ; ! "lick"
-yalanla:yalanla V-TV-T-IR  ; ! "contradict"
-yalpala:yalpala V-TV-T-IR  ; ! "stagger"
-yama:yama V-TV-T-IR  ; ! "revamp"
-yanıtla:yanıtla V-TV-T-IR  ; ! "answer"
-yarala:yarala V-TV-T-IR  ; ! "injure"
-yargıla:yargıla V-TV-T-IR  ; ! "judge"
-yarıla:yarıla V-TV-T-IR  ; ! "be halfway through"
-yasa:yasa V-TV-T-IR  ; ! "legislate"
-yaşa:yaşa V-TV-T-IR  ; ! "live"
-yasakla:yasakla V-TV-T-IR  ; ! "forbid"
-yasla:yasla V-TV-T-IR  ; ! "prop"
+tütsüle:tütsüle V-IR-TV ; ! "kipper" (T)
+tutukla:tutukla V-IR-TV ; ! "arrest" (T)
+tuzla:tuzla V-IR-TV ; ! "salt down" (T)
+üçle:üçle V-IR-TV ; ! "divide by three" (T)
+uğurla:uğurla V-IR-TV ; ! "see off" (T)
+umursa:umursa V-IR-TV ; ! "care, regard" (T)
+ünle:ünle V-IR-TV ; ! "call out to proclaim" (T)
+üstele:üstele V-IR-TV ; ! "persist" (T)
+uyarla:uyarla V-IR-TV ; ! "adjust, adapt" (T)
+vergile:vergile V-IR-TV ; ! "tax" (T)
+vurgula:vurgula V-IR-TV ; ! "emphasise" (T)
+yabancıla:yabancıla V-IR-TV ; ! "not know beans about" (T)
+yadırga:yadırga V-IR-TV ; ! "find odd" (T)
+yadsı:yadsı V-IR-TV ; ! "ignore" (T)
+yaftala:yaftala V-IR-TV ; ! "brand" (T)
+yağla:yağla V-IR-TV ; ! "anoint" (T)
+yağmala:yağmala V-IR-TV ; ! "plunder" (T)
+yakala:yakala V-IR-TV ; ! "catch" (T)
+yakınsa:yakınsa V-IR-TV ; ! "converge" (T)
+yala:yala V-IR-TV ; ! "lick" (T)
+yalanla:yalanla V-IR-TV ; ! "contradict" (T)
+yalpala:yalpala V-IR-TV ; ! "stagger" (T)
+yama:yama V-IR-TV ; ! "revamp" (T)
+yanıtla:yanıtla V-IR-TV ; ! "answer" (T)
+yarala:yarala V-IR-TV ; ! "injure" (T)
+yargıla:yargıla V-IR-TV ; ! "judge" (T)
+yarıla:yarıla V-IR-TV ; ! "be halfway through" (T)
+yasa:yasa V-IR-TV ; ! "legislate" (T)
+yaşa:yaşa V-IR-TV ; ! "live" (T)
+yasakla:yasakla V-IR-TV ; ! "forbid" (T)
+yasla:yasla V-IR-TV ; ! "prop" (T)
 !yayımla:yayımla V-TV-T-IR  ; ! "publish"
 yayımla:yayımla V-IR-TV ; ! "publish"
-yeğle:yeğle V-TV-T-IR  ; ! "prefer"
-yemle:yemle V-TV-T-IR  ; ! "bait"
-yenile:yenile V-TV-T-IR  ; ! "renew"
+yeğle:yeğle V-IR-TV ; ! "prefer" (T)
+yemle:yemle V-IR-TV ; ! "bait" (T)
+yenile:yenile V-IR-TV ; ! "renew" (T)
 yıka:yıka V-IR-TV  ; ! "wash"
-yılla:yılla V-TV-T-IR  ; ! "wait a long time"
-yinele:yinele V-TV-T-IR  ; ! "renew"
-yokla:yokla V-TV-T-IR  ; ! "fumble for"
-yolla:yolla V-TV-T-IR  ; ! "send"
-yorumla:yorumla V-TV-T-IR  ; ! "comment"
-yükle:yükle V-TV-T-IR  ; ! "load"
-yumrukla:yumrukla V-TV-T-IR  ; ! "pound, punch, pommel"
-yuvala:yuvala V-TV-T-IR  ; ! "nest"
-yuvarla:yuvarla V-TV-T-IR  ; ! "roll"
-zamanla:zamanla V-TV-T-IR  ; ! "time"
-zedele:zedele V-TV-T-IR  ; ! "bruise, injure"
-zehirle:zehirle V-TV-T-IR  ; ! "poinson"
-zımbala:zımbala V-TV-T-IR  ; ! "staple"
-zincirle:zincirle V-TV-T-IR  ; ! "enchain"
-zorla:zorla V-TV-T-IR  ; ! "compel"
-ada:ada V-TV-T-IR ; ! "it also means devote"
-ağrı:ağrı V-TV-T-IR ; ! "ache"
-aksa:aksa V-TV-T-IR ; ! "limp"
-algıla:algıla V-TV-T-IR ; ! "comprehend"
-anımsa:anımsa V-TV-T-IR ; ! "recall"
-anla:anla V-TV-T-IR ; ! "understand"
-ara:ara V-TV-T-IR ; ! "seek, search, look for"
-aşağıla:aşağıla V-TV-T-IR ; ! "insult"
-ata:ata V-TV-T-IR ; ! "assign"
-ayarla:ayarla V-TV-T-IR ; ! "adjust, set"
-ayıpla:ayıpla V-TV-T-IR ; ! "blame"
-ayır:ayır V-TV-T-IR ; ! "seperate"
-ayrımsa:ayrımsa V-TV-T-IR ; ! "distingush"
-azımsa:azımsa V-TV-T-IR ; ! "undervalue"
+yılla:yılla V-IR-TV ; ! "wait a long time" (T)
+yinele:yinele V-IR-TV ; ! "renew" (T)
+yokla:yokla V-IR-TV ; ! "fumble for" (T)
+yolla:yolla V-IR-TV ; ! "send" (T)
+yorumla:yorumla V-IR-TV ; ! "comment" (T)
+yükle:yükle V-IR-TV ; ! "load" (T)
+yumrukla:yumrukla V-IR-TV ; ! "pound, punch, pommel" (T)
+yuvala:yuvala V-IR-TV ; ! "nest" (T)
+yuvarla:yuvarla V-IR-TV ; ! "roll" (T)
+zamanla:zamanla V-IR-TV ; ! "time" (T)
+zedele:zedele V-IR-TV ; ! "bruise, injure" (T)
+zehirle:zehirle V-IR-TV ; ! "poinson" (T)
+zımbala:zımbala V-IR-TV ; ! "staple" (T)
+zincirle:zincirle V-IR-TV ; ! "enchain" (T)
+zorla:zorla V-IR-TV ; ! "compel" (T)
+ada:ada V-IR-TV ; ! "it also means devote" (T)
+ağrı:ağrı V-IR-TV ; ! "ache" (T)
+aksa:aksa V-IR-TV ; ! "limp" (T)
+algıla:algıla V-IR-TV ; ! "comprehend" (T)
+anımsa:anımsa V-IR-TV ; ! "recall" (T)
+anla:anla V-IR-TV ; ! "understand" (T)
+ara:ara V-IR-TV ; ! "seek, search, look for" (T)
+aşağıla:aşağıla V-IR-TV ; ! "insult" (T)
+ata:ata V-IR-TV ; ! "assign" (T)
+ayarla:ayarla V-IR-TV ; ! "adjust, set" (T)
+ayıpla:ayıpla V-IR-TV ; ! "blame" (T)
+ayır:ayır V-IR-TV ; ! "seperate" (T)
+ayrımsa:ayrımsa V-IR-TV ; ! "distingush" (T)
+azımsa:azımsa V-IR-TV ; ! "undervalue" (T)
 !başla:başla V-TV-T-IR ; ! "start"
 başla:başla V-IR-TV ; ! "start"
 !bekle:bekle V-TV-T-IR ; ! "wait"
-belirle:belirle V-TV-T-IR ; ! "indicate"
-bellе:bellе V-TV-T-IR ; ! "memorise"
-benimse:benimse V-TV-T-IR ; ! "embark on"
-benze:benze V-TV-T-IR ; ! "resemble"
-besle:besle V-TV-T-IR ; ! "feed"
-beze:beze V-TV-T-IR ; ! "decorate"
-bila:bila V-TV-T-IR ; ! "sharpen"
-bölümle:bölümle V-TV-T-IR ; ! "sort, classify"
-bombala:bombala V-TV-T-IR ; ! "to bomb"
-boşa:boşa V-TV-T-IR ; ! "get divorce"
-boya:boya V-TV-T-IR ; ! "to paint"
-buda:buda V-TV-T-IR ; ! "prune"
-bula:bula V-TV-T-IR ; ! "cover"
-bürü:bürü V-TV-T-IR ; ! "suffuse"
-bütünle:bütünle V-TV-T-IR ; ! "integrate"
-büyükse:büyükse V-TV-T-IR ; ! "esttem highly"
-büyüle:büyüle V-TV-T-IR ; ! "ensorcel, bewitch"
-çabala:çabala V-TV-T-IR ; ! "study"
-çağır:çağır V-TV-T-IR ; ! "call"
-çağla:çağla V-TV-T-IR ; ! "murmur"
-çalkala:çalkala V-TV-T-IR ; ! "shake"
-çatırda:çatırda V-TV-T-IR ; ! "crackle"
-çatla:çatla V-TV-T-IR ; ! "crack, split"
-cevapla:cevapla V-TV-T-IR ; ! "answer"
-cevap% ver:cevap% ver V-TV-T-IR ; ! "answer" ! Use/MT ! FIXME: Check
-çevrele:çevrele V-TV-T-IR ; ! "encompass"
-çiftle:çiftle V-TV-T-IR ; ! "double"
-çiğne:çiğne V-TV-T-IR ; ! "chew"
-cilala:cilala V-TV-T-IR ; ! "polish"
-çınla:çınla V-TV-T-IR ; ! "tinkle"
-çözümle:çözümle V-TV-T-IR ; ! "analyse"
-çürü:çürü V-TV-T-IR ; ! "rot"
-damgala:damgala V-TV-T-IR ; ! "imprint"
+belirle:belirle V-IR-TV ; ! "indicate" (T)
+bellе:bellе V-IR-TV ; ! "memorise" (T)
+benimse:benimse V-IR-TV ; ! "embark on" (T)
+benze:benze V-IR-TV ; ! "resemble" (T)
+besle:besle V-IR-TV ; ! "feed" (T)
+beze:beze V-IR-TV ; ! "decorate" (T)
+bila:bila V-IR-TV ; ! "sharpen" (T)
+bölümle:bölümle V-IR-TV ; ! "sort, classify" (T)
+bombala:bombala V-IR-TV ; ! "to bomb" (T)
+boşa:boşa V-IR-TV ; ! "get divorce" (T)
+boya:boya V-IR-TV ; ! "to paint" (T)
+buda:buda V-IR-TV ; ! "prune" (T)
+bula:bula V-IR-TV ; ! "cover" (T)
+bürü:bürü V-IR-TV ; ! "suffuse" (T)
+bütünle:bütünle V-IR-TV ; ! "integrate" (T)
+büyükse:büyükse V-IR-TV ; ! "esttem highly" (T)
+büyüle:büyüle V-IR-TV ; ! "ensorcel, bewitch" (T)
+çabala:çabala V-IR-TV ; ! "study" (T)
+çağır:çağır V-IR-TV ; ! "call" (T)
+çağla:çağla V-IR-TV ; ! "murmur" (T)
+çalkala:çalkala V-IR-TV ; ! "shake" (T)
+çatırda:çatırda V-IR-TV ; ! "crackle" (T)
+çatla:çatla V-IR-TV ; ! "crack, split" (T)
+cevapla:cevapla V-IR-TV ; ! "answer" (T)
+cevap% ver:cevap% ver V-IR-TV ; ! "answer" ! Use/MT ! FIXME: Check (T)
+çevrele:çevrele V-IR-TV ; ! "encompass" (T)
+çiftle:çiftle V-IR-TV ; ! "double" (T)
+çiğne:çiğne V-IR-TV ; ! "chew" (T)
+cilala:cilala V-IR-TV ; ! "polish" (T)
+çınla:çınla V-IR-TV ; ! "tinkle" (T)
+çözümle:çözümle V-IR-TV ; ! "analyse" (T)
+çürü:çürü V-IR-TV ; ! "rot" (T)
+damgala:damgala V-IR-TV ; ! "imprint" (T)
 !de:d%{e%} V-TV-T-IR ; ! "say"
 de:d%{e%} V-IR-TV ; ! "say"
-demirle:demirle V-TV-T-IR ; ! "anchor"
-dene:dene V-TV-T-IR ; ! "try"
-denetle:denetle V-TV-T-IR ; ! "check"
-dengele:dengele V-TV-T-IR ; ! "equalise"
-depola:depola V-TV-T-IR ; ! "store"
-derle:derle V-TV-T-IR ; ! "compile"
-destele:destele V-TV-T-IR ; ! "bundle"
-devral:devral V-TV-T-IR ; ! "take over"
-devril:devril V-TV-T-IR ; ! "overthrown"
-dikizle:dikizle V-TV-T-IR ; ! "peek"
-dile:dile V-TV-T-IR ; ! "wish"
-dilimle:dilimle V-TV-T-IR ; ! "slice up"
-dinle:dinl%{e%} V-TV-T-IR ; ! "listen"
-dişle:dişle V-TV-T-IR ; ! "nibble"
-dizginle:dizginle V-TV-T-IR ; ! "bridle"
-doğra:doğra V-TV-T-IR ; ! "chop up"
-doğrula:doğrula V-TV-T-IR ; ! "confirm"
-doku:doku V-TV-T-IR ; ! "knit"
-dola:dola V-TV-T-IR ; ! "whirl"
-dölle:dölle V-TV-T-IR ; ! "fertilize"
-dona:dona V-TV-T-IR ; ! "decorate"
-dosyala:dosyala V-TV-T-IR ; ! "file"
-düğümle:düğümle V-TV-T-IR ; ! "knot"
-durakla:durakla V-TV-T-IR ; ! "pause"
-düşle:düşle V-TV-T-IR ; ! "dream"
-düzenle:düzenle V-TV-T-IR ; ! "arrange"
-delirt:delirt V-TV-T-IR ; ! "arrange"
+demirle:demirle V-IR-TV ; ! "anchor" (T)
+dene:dene V-IR-TV ; ! "try" (T)
+denetle:denetle V-IR-TV ; ! "check" (T)
+dengele:dengele V-IR-TV ; ! "equalise" (T)
+depola:depola V-IR-TV ; ! "store" (T)
+derle:derle V-IR-TV ; ! "compile" (T)
+destele:destele V-IR-TV ; ! "bundle" (T)
+devral:devral V-IR-TV ; ! "take over" (T)
+devril:devril V-IR-TV ; ! "overthrown" (T)
+dikizle:dikizle V-IR-TV ; ! "peek" (T)
+dile:dile V-IR-TV ; ! "wish" (T)
+dilimle:dilimle V-IR-TV ; ! "slice up" (T)
+dinle:dinl%{e%} V-IR-TV ; ! "listen" (T)
+dişle:dişle V-IR-TV ; ! "nibble" (T)
+dizginle:dizginle V-IR-TV ; ! "bridle" (T)
+doğra:doğra V-IR-TV ; ! "chop up" (T)
+doğrula:doğrula V-IR-TV ; ! "confirm" (T)
+doku:doku V-IR-TV ; ! "knit" (T)
+dola:dola V-IR-TV ; ! "whirl" (T)
+dölle:dölle V-IR-TV ; ! "fertilize" (T)
+dona:dona V-IR-TV ; ! "decorate" (T)
+dosyala:dosyala V-IR-TV ; ! "file" (T)
+düğümle:düğümle V-IR-TV ; ! "knot" (T)
+durakla:durakla V-IR-TV ; ! "pause" (T)
+düşle:düşle V-IR-TV ; ! "dream" (T)
+düzenle:düzenle V-IR-TV ; ! "arrange" (T)
+delirt:delirt V-IR-TV ; ! "arrange" (T)
 
-ekle:ekle V-TV-T-IR ; ! "add"
-ele:ele V-TV-T-IR ; ! "eliminate"
-engelle:engelle V-TV-T-IR ; ! "block"
-eri:eri V-TV-T-IR ; ! "melt down"
-ertele:ertele V-TV-T-IR ; ! "postpone"
-esirge:esirge V-TV-T-IR ; ! "be sparing"
-eşitle:eşitle V-TV-T-IR ; ! "make equal"
-eşle:eşle V-TV-T-IR ; ! "match"
-etiketle:etiketle V-TV-T-IR ; ! "tag"
-etkile:etkile V-TV-T-IR ; ! "impress"
-eyle:eyle V-TV-T-IR ; ! "make"
-ezberle:ezberle V-TV-T-IR ; ! "memorize"
-faksla:faksla V-TV-T-IR ; ! "fax"
-faturala:faturala V-TV-T-IR ; ! "billing"
-fırınla:fırınla V-TV-T-IR ; ! "ovendry"
-fotoğrafla:fotoğrafla V-TV-T-IR ; ! "photo"
-frenle:frenle V-TV-T-IR ; ! "brake"
-gammazla:gammazla V-TV-T-IR ; ! "inform agains"
-garantile:garantile V-TV-T-IR ; ! "guarentee"
-genelle:genelle V-TV-T-IR ; ! "generalise"
-genişle:genişle V-TV-T-IR ; ! "expand"
-gevele:gevele V-TV-T-IR ; ! "mumble"
-gizle:gizle V-TV-T-IR ; ! "hide"
-göğüsle:göğüsle V-TV-T-IR ; ! "cope with"
-gölgele:gölgele V-TV-T-IR ; ! "shadow"
-görüntüle:görüntüle V-TV-T-IR ; ! "display"
-göze:göze V-TV-T-IR ; ! "darn"
-gözetle:gözetle V-TV-T-IR ; ! "observe"
-gözle:gözle V-TV-T-IR ; ! "watch"
-gözlemle:gözlemle V-TV-T-IR ; ! "observe"
-grupla:grupla V-TV-T-IR ; ! "group"
-hakla:hakla V-TV-T-IR ; ! "beat"
-harca:harca V-TV-T-IR ; ! "spend"
-harla:harla V-TV-T-IR ; ! "flare up"
-harmanla:harmanla V-TV-T-IR ; ! "blend"
-hatırla:hatırla V-TV-T-IR ; ! "remember"
-hazırla:hazırla V-TV-T-IR ; ! "prepare"
-hedefle:hedefle V-TV-T-IR ; ! "aim"
-hesapla:hesapla V-TV-T-IR ; ! "work out"
-hırpala:hırpala V-TV-T-IR ; ! "beat"
-ilaçla:ilaçla V-TV-T-IR ; ! "medicate"
-imzala:imzala V-TV-T-IR ; ! "sign"
-incele:incele V-TV-T-IR ; ! "analyse"
-indirge:indirge V-TV-T-IR ; ! "degrade"
-irdele:irdele V-TV-T-IR ; ! "examine"
-işaretle:işaretle V-TV-T-IR ; ! "mark"
-ıskala:ıskala V-TV-T-IR ; ! "miss"
-ısla:ısla V-TV-T-IR ; ! "get wet"
-isle:isle V-TV-T-IR ; ! "smoke"
-işle:işle V-TV-T-IR ; ! "commit"
-ısmarla:ısmarla V-TV-T-IR ; ! "treat"
-ispatla:ispatla V-TV-T-IR ; ! "prove"
-iste:İste V-TV-T-IR ; ! "want" ! Dir/LR
+ekle:ekle V-IR-TV ; ! "add" (T)
+ele:ele V-IR-TV ; ! "eliminate" (T)
+engelle:engelle V-IR-TV ; ! "block" (T)
+eri:eri V-IR-TV ; ! "melt down" (T)
+ertele:ertele V-IR-TV ; ! "postpone" (T)
+esirge:esirge V-IR-TV ; ! "be sparing" (T)
+eşitle:eşitle V-IR-TV ; ! "make equal" (T)
+eşle:eşle V-IR-TV ; ! "match" (T)
+etiketle:etiketle V-IR-TV ; ! "tag" (T)
+etkile:etkile V-IR-TV ; ! "impress" (T)
+eyle:eyle V-IR-TV ; ! "make" (T)
+ezberle:ezberle V-IR-TV ; ! "memorize" (T)
+faksla:faksla V-IR-TV ; ! "fax" (T)
+faturala:faturala V-IR-TV ; ! "billing" (T)
+fırınla:fırınla V-IR-TV ; ! "ovendry" (T)
+fotoğrafla:fotoğrafla V-IR-TV ; ! "photo" (T)
+frenle:frenle V-IR-TV ; ! "brake" (T)
+gammazla:gammazla V-IR-TV ; ! "inform agains" (T)
+garantile:garantile V-IR-TV ; ! "guarentee" (T)
+genelle:genelle V-IR-TV ; ! "generalise" (T)
+genişle:genişle V-IR-TV ; ! "expand" (T)
+gevele:gevele V-IR-TV ; ! "mumble" (T)
+gizle:gizle V-IR-TV ; ! "hide" (T)
+göğüsle:göğüsle V-IR-TV ; ! "cope with" (T)
+gölgele:gölgele V-IR-TV ; ! "shadow" (T)
+görüntüle:görüntüle V-IR-TV ; ! "display" (T)
+göze:göze V-IR-TV ; ! "darn" (T)
+gözetle:gözetle V-IR-TV ; ! "observe" (T)
+gözle:gözle V-IR-TV ; ! "watch" (T)
+gözlemle:gözlemle V-IR-TV ; ! "observe" (T)
+grupla:grupla V-IR-TV ; ! "group" (T)
+hakla:hakla V-IR-TV ; ! "beat" (T)
+harca:harca V-IR-TV ; ! "spend" (T)
+harla:harla V-IR-TV ; ! "flare up" (T)
+harmanla:harmanla V-IR-TV ; ! "blend" (T)
+hatırla:hatırla V-IR-TV ; ! "remember" (T)
+hazırla:hazırla V-IR-TV ; ! "prepare" (T)
+hedefle:hedefle V-IR-TV ; ! "aim" (T)
+hesapla:hesapla V-IR-TV ; ! "work out" (T)
+hırpala:hırpala V-IR-TV ; ! "beat" (T)
+ilaçla:ilaçla V-IR-TV ; ! "medicate" (T)
+imzala:imzala V-IR-TV ; ! "sign" (T)
+incele:incele V-IR-TV ; ! "analyse" (T)
+indirge:indirge V-IR-TV ; ! "degrade" (T)
+irdele:irdele V-IR-TV ; ! "examine" (T)
+işaretle:işaretle V-IR-TV ; ! "mark" (T)
+ıskala:ıskala V-IR-TV ; ! "miss" (T)
+ısla:ısla V-IR-TV ; ! "get wet" (T)
+isle:isle V-IR-TV ; ! "smoke" (T)
+işle:işle V-IR-TV ; ! "commit" (T)
+ısmarla:ısmarla V-IR-TV ; ! "treat" (T)
+ispatla:ispatla V-IR-TV ; ! "prove" (T)
+iste:İste V-IR-TV ; ! "want" ! Dir/LR (T)
 !iste:iste V-TV-T-IR ; ! "want"
 iste:iste V-IR-TV ; ! "want"
-istifle:istifle V-TV-T-IR ; ! "stow"
-izle:izle V-TV-T-IR ; ! "watch"
-kağıtla:kağıtla V-TV-T-IR ; ! "paper"
-kalıpla:kalıpla V-TV-T-IR ; ! "block"
-kamçıla:kamçıla V-TV-T-IR ; ! "whip"
-kanıtla:kanıtla V-TV-T-IR ; ! "prove"
-kapa:kapa V-TV-T-IR ; ! "close"
-kapla:kapla V-TV-T-IR ; ! "cover"
-karala:karala V-TV-T-IR ; ! "scrawl"
-karışla:karışla V-TV-T-IR ; ! "span"
-karşıla:karşıla V-TV-T-IR ; ! "meet"
-karşıtla:karşıtla V-TV-T-IR ; ! "put forward an opposite theory"
-katla:katla V-TV-T-IR ; ! "fold"
-kavra:kavra V-TV-T-IR ; ! "comprehend"
-kayıtla:kayıtla V-TV-T-IR ; ! "restrict"
-kazı:kazı V-TV-T-IR ; ! "scrape"
+istifle:istifle V-IR-TV ; ! "stow" (T)
+izle:izle V-IR-TV ; ! "watch" (T)
+kağıtla:kağıtla V-IR-TV ; ! "paper" (T)
+kalıpla:kalıpla V-IR-TV ; ! "block" (T)
+kamçıla:kamçıla V-IR-TV ; ! "whip" (T)
+kanıtla:kanıtla V-IR-TV ; ! "prove" (T)
+kapa:kapa V-IR-TV ; ! "close" (T)
+kapla:kapla V-IR-TV ; ! "cover" (T)
+karala:karala V-IR-TV ; ! "scrawl" (T)
+karışla:karışla V-IR-TV ; ! "span" (T)
+karşıla:karşıla V-IR-TV ; ! "meet" (T)
+karşıtla:karşıtla V-IR-TV ; ! "put forward an opposite theory" (T)
+katla:katla V-IR-TV ; ! "fold" (T)
+kavra:kavra V-IR-TV ; ! "comprehend" (T)
+kayıtla:kayıtla V-IR-TV ; ! "restrict" (T)
+kazı:kazı V-IR-TV ; ! "scrape" (T)
 
-gir:gir V-IV-DIR-AR ; ! enter"
+gir:gir V-AR-IV ; ! enter" (DIR)
 !git:git%{v%} V-IV-DIR-AR ; ! "go"
 git:git%{v%} V-AR-IV ; ! "go"
 ! öl:öl V-IV-DIR-IR ; ! "die"
@@ -14012,428 +14012,428 @@ git:git%{v%} V-AR-IV ; ! "go"
 de:d%{e%} V-IR-IV ; ! "say"
 ! ol:ol V-IV-DIR-IR ; ! "be"
 ol:ol V-IR-IV ; ! "be"
-don:don V-IV-DIR-AR ; ! "freeze"
-eş:eş V-IV-DIR-AR ; ! "scratch"
-yak:yak V-IV-DIR-AR ; ! "fire"
-yan:yan V-IV-DIR-AR ; ! "burn, be on fire"
+don:don V-AR-IV ; ! "freeze" (DIR)
+eş:eş V-AR-IV ; ! "scratch" (DIR)
+yak:yak V-AR-IV ; ! "fire" (DIR)
+yan:yan V-AR-IV ; ! "burn, be on fire" (DIR)
 !kal:kal V-IV-DIR-IR ; ! "stay"
 kal:kal V-IR-IV ; ! "stay"
-yat:yat V-IV-DIR-AR  ; ! "lie up"
-kesiş:kesiş V-IV-DIR-IR  ; ! "intersect"
-kirlen:kirlen V-IV-DIR-IR  ; ! "be raped"
-kız:kız V-IV-DIR-AR  ; ! "be angry"
-kızış:kızış V-IV-DIR-IR  ; ! "rut"
-kökenlen:kökenlen V-IV-DIR-IR  ; ! "take root"
-kokuş:kokuş V-IV-DIR-IR  ; ! "putrefy"
-kon:kon V-IV-DIR-AR  ; ! "perch"
-konumlan:konumlan V-IV-DIR-IR  ; ! "situate, position"
-konuş:konuş V-IV-DIR-IR  ; ! "talk"
-konuşlan:konuşlan V-IV-DIR-IR  ; ! "to deploy"
-kop:kop V-IV-DIR-AR  ; ! "shear off"
-koş:koş V-IV-DIR-AR  ; ! "run"
-küfret:küfret V-IV-DIR-AR  ; ! "revile"
-kus:kus V-IV-DIR-AR  ; ! "vomit"
-küs:küs V-IV-DIR-AR  ; ! "become stunted"
-kuşkulan:kuşkulan V-IV-DIR-IR  ; ! "suspect"
-kuvvetlen:kuvvetlen V-IV-DIR-IR  ; ! "strengthen"
-mahvol:mahvol V-IV-DIR-IR  ; ! "be spoiled"
-manevra% yap:manevra% yap V-IV-DIR-AR  ; ! "manoeuver"
-mevzilen:mevzilen V-IV-DIR-IR  ; ! "deploy"
-meylet:meylet V-IV-DIR-AR  ; ! "be inclined"
-neşelen:neşelen V-IV-DIR-IR  ; ! "rejoice"
-niyetlen:niyetlen V-IV-DIR-IR  ; ! "intend, plan"
-nükset:nükset V-IV-DIR-AR  ; ! "recur"
-öfkelen:öfkelen V-IV-DIR-IR  ; ! "be furious"
+yat:yat V-AR-IV ; ! "lie up" (DIR)
+kesiş:kesiş V-IR-IV ; ! "intersect" (DIR)
+kirlen:kirlen V-IR-IV ; ! "be raped" (DIR)
+kız:kız V-AR-IV ; ! "be angry" (DIR)
+kızış:kızış V-IR-IV ; ! "rut" (DIR)
+kökenlen:kökenlen V-IR-IV ; ! "take root" (DIR)
+kokuş:kokuş V-IR-IV ; ! "putrefy" (DIR)
+kon:kon V-AR-IV ; ! "perch" (DIR)
+konumlan:konumlan V-IR-IV ; ! "situate, position" (DIR)
+konuş:konuş V-IR-IV ; ! "talk" (DIR)
+konuşlan:konuşlan V-IR-IV ; ! "to deploy" (DIR)
+kop:kop V-AR-IV ; ! "shear off" (DIR)
+koş:koş V-AR-IV ; ! "run" (DIR)
+küfret:küfret V-AR-IV ; ! "revile" (DIR)
+kus:kus V-AR-IV ; ! "vomit" (DIR)
+küs:küs V-AR-IV ; ! "become stunted" (DIR)
+kuşkulan:kuşkulan V-IR-IV ; ! "suspect" (DIR)
+kuvvetlen:kuvvetlen V-IR-IV ; ! "strengthen" (DIR)
+mahvol:mahvol V-IR-IV ; ! "be spoiled" (DIR)
+manevra% yap:manevra% yap V-AR-IV ; ! "manoeuver" (DIR)
+mevzilen:mevzilen V-IR-IV ; ! "deploy" (DIR)
+meylet:meylet V-AR-IV ; ! "be inclined" (DIR)
+neşelen:neşelen V-IR-IV ; ! "rejoice" (DIR)
+niyetlen:niyetlen V-IR-IV ; ! "intend, plan" (DIR)
+nükset:nükset V-AR-IV ; ! "recur" (DIR)
+öfkelen:öfkelen V-IR-IV ; ! "be furious" (DIR)
 ! öl:öl V-IV-DIR-IR  ; ! "die"
-oluş:oluş V-IV-DIR-IR  ; ! "come into existence"
-on:on V-IV-DIR-AR  ; ! "be happy"
-onurlan:onurlan V-IV-DIR-IR  ; ! "be honoured"
-öt:öt V-IV-DIR-AR  ; ! "warble"
-övün:övün V-IV-DIR-IR  ; ! "brag about"
-oy% al:oy% al V-IV-DIR-IR  ; ! "receive vote"
-oy% ver:oy% ver V-IV-DIR-IR  ; ! "vote"
-pasta% yap:pasta% yap V-IV-DIR-AR  ; ! "make a cake"
-pekiş:pekiş V-IV-DIR-IR  ; ! "solidify"
-piş:piş V-IV-DIR-AR  ; ! "cook"
-pus:pus V-IV-DIR-AR  ; ! "shrink"
-sabırsızlan:sabırsızlan V-IV-DIR-IR  ; ! "lose patience"
-sakın:sakın V-IV-DIR-IR  ; ! "aboid"
-san:san V-IV-DIR-AR  ; ! "suppose"
-sap:sap V-IV-DIR-AR  ; ! "deviate"
-şaş:şaş V-IV-DIR-AR  ; ! "amaze"
-sataş:sataş V-IV-DIR-IR  ; ! "tease"
-savaş:savaş V-IV-DIR-IR  ; ! "battle, fight"
-savuş:savuş V-IV-DIR-IR  ; ! "slip away"
-sek:sek V-IV-DIR-AR  ; ! "rebound"
-şekillen:şekillen V-IV-DIR-IR  ; ! "take shape-form"
-şiddetlen:şiddetlen V-IV-DIR-IR  ; ! "become stronger"
-sığ:sığ V-IV-DIR-AR  ; ! "fit into"
-sığın:sığın V-IV-DIR-IR  ; ! "refuge"
-silahlan:silahlan V-IV-DIR-IR  ; ! "arm"
-silahsızlan:silahsızlan V-IV-DIR-IR  ; ! "be disarmed"
-silkin:silkin V-IV-DIR-IR  ; ! "shake oneself"
-sin:sin V-IV-DIR-AR  ; ! "permeate"
-sın:sın V-IV-DIR-AR  ; ! "feel frightened"
-sinirlen:sinirlen V-IV-DIR-IR  ; ! "get angry"
-şiş:şiş V-IV-DIR-AR  ; ! "swell"
-sız:sız V-IV-DIR-AR  ; ! "leak"
-sokul:sokul V-IV-DIR-IR  ; ! "sidle up to"
-sol:sol V-IV-DIR-AR  ; ! "fade"
-sön:sön V-IV-DIR-AR  ; ! "be deflated"
-soyun:soyun V-IV-DIR-IR  ; ! "strip"
-sözleş:sözleş V-IV-DIR-IR  ; ! "promise each other"
-şükret:şükret V-IV-DIR-AR  ; ! "render thanks"
-şüphelen:şüphelen V-IV-DIR-IR  ; ! "suspect"
-sürtüş:sürtüş V-IV-DIR-IR  ; ! "dispute"
-sus:sus V-IV-DIR-AR  ; ! "to be quiet"
-taçlan:taçlan V-IV-DIR-IR  ; ! "be crowned"
-tanış:tanış V-IV-DIR-IR  ; ! "meet"
-tap:tap V-IV-DIR-AR  ; ! "worship"
-tapın:tapın V-IV-DIR-IR  ; ! "idolise"
-taş:taş V-IV-DIR-AR  ; ! "pour out"
-tatlan:tatlan V-IV-DIR-IR  ; ! "sweeten"
-tepin:tepin V-IV-DIR-IR  ; ! "kick and stamp"
-tiksin:tiksin V-IV-DIR-IR  ; ! "be disgusted"
-tırman:tırman V-IV-DIR-IR  ; ! "climb"
-tokuş:tokuş V-IV-DIR-IR  ; ! "collide"
-tozlan:tozlan V-IV-DIR-IR  ; ! "get dusty"
+oluş:oluş V-IR-IV ; ! "come into existence" (DIR)
+on:on V-AR-IV ; ! "be happy" (DIR)
+onurlan:onurlan V-IR-IV ; ! "be honoured" (DIR)
+öt:öt V-AR-IV ; ! "warble" (DIR)
+övün:övün V-IR-IV ; ! "brag about" (DIR)
+oy% al:oy% al V-IR-IV ; ! "receive vote" (DIR)
+oy% ver:oy% ver V-IR-IV ; ! "vote" (DIR)
+pasta% yap:pasta% yap V-AR-IV ; ! "make a cake" (DIR)
+pekiş:pekiş V-IR-IV ; ! "solidify" (DIR)
+piş:piş V-AR-IV ; ! "cook" (DIR)
+pus:pus V-AR-IV ; ! "shrink" (DIR)
+sabırsızlan:sabırsızlan V-IR-IV ; ! "lose patience" (DIR)
+sakın:sakın V-IR-IV ; ! "aboid" (DIR)
+san:san V-AR-IV ; ! "suppose" (DIR)
+sap:sap V-AR-IV ; ! "deviate" (DIR)
+şaş:şaş V-AR-IV ; ! "amaze" (DIR)
+sataş:sataş V-IR-IV ; ! "tease" (DIR)
+savaş:savaş V-IR-IV ; ! "battle, fight" (DIR)
+savuş:savuş V-IR-IV ; ! "slip away" (DIR)
+sek:sek V-AR-IV ; ! "rebound" (DIR)
+şekillen:şekillen V-IR-IV ; ! "take shape-form" (DIR)
+şiddetlen:şiddetlen V-IR-IV ; ! "become stronger" (DIR)
+sığ:sığ V-AR-IV ; ! "fit into" (DIR)
+sığın:sığın V-IR-IV ; ! "refuge" (DIR)
+silahlan:silahlan V-IR-IV ; ! "arm" (DIR)
+silahsızlan:silahsızlan V-IR-IV ; ! "be disarmed" (DIR)
+silkin:silkin V-IR-IV ; ! "shake oneself" (DIR)
+sin:sin V-AR-IV ; ! "permeate" (DIR)
+sın:sın V-AR-IV ; ! "feel frightened" (DIR)
+sinirlen:sinirlen V-IR-IV ; ! "get angry" (DIR)
+şiş:şiş V-AR-IV ; ! "swell" (DIR)
+sız:sız V-AR-IV ; ! "leak" (DIR)
+sokul:sokul V-IR-IV ; ! "sidle up to" (DIR)
+sol:sol V-AR-IV ; ! "fade" (DIR)
+sön:sön V-AR-IV ; ! "be deflated" (DIR)
+soyun:soyun V-IR-IV ; ! "strip" (DIR)
+sözleş:sözleş V-IR-IV ; ! "promise each other" (DIR)
+şükret:şükret V-AR-IV ; ! "render thanks" (DIR)
+şüphelen:şüphelen V-IR-IV ; ! "suspect" (DIR)
+sürtüş:sürtüş V-IR-IV ; ! "dispute" (DIR)
+sus:sus V-AR-IV ; ! "to be quiet" (DIR)
+taçlan:taçlan V-IR-IV ; ! "be crowned" (DIR)
+tanış:tanış V-IR-IV ; ! "meet" (DIR)
+tap:tap V-AR-IV ; ! "worship" (DIR)
+tapın:tapın V-IR-IV ; ! "idolise" (DIR)
+taş:taş V-AR-IV ; ! "pour out" (DIR)
+tatlan:tatlan V-IR-IV ; ! "sweeten" (DIR)
+tepin:tepin V-IR-IV ; ! "kick and stamp" (DIR)
+tiksin:tiksin V-IR-IV ; ! "be disgusted" (DIR)
+tırman:tırman V-IR-IV ; ! "climb" (DIR)
+tokuş:tokuş V-IR-IV ; ! "collide" (DIR)
+tozlan:tozlan V-IR-IV ; ! "get dusty" (DIR)
 !tüken:tüken V-IV-DIR-IR  ; ! "be exhausted"
 tüken:tüken V-IR-IV ; ! "be exhausted"
-tüt:tüt V-IV-DIR-AR  ; ! "fumatory"
-tutun:tutun V-IV-DIR-IR  ; ! "adsorb"
-tutuş:tutuş V-IV-DIR-IR  ; ! "ignite"
-uç:uç V-IV-DIR-AR  ; ! "fly"
-uçuş:uçuş V-IV-DIR-IR  ; ! "flit"
-uğraş:uğraş V-IV-DIR-IR  ; ! "strive"
-ulaş:ulaş V-IV-DIR-IR  ; ! "reach"
-umutlan:umutlan V-IV-DIR-IR  ; ! "begin to hope"
-ürk:ürk V-IV-DIR-AR  ; ! "scare"
-ürper:ürper V-IV-DIR-IR  ; ! "shudder"
-üş:üş V-IV-DIR-AR  ; ! "concentrate at somewhere"
-usan:usan V-IV-DIR-IR  ; ! "be collected"
-utan:utan V-IV-DIR-IR  ; ! "shy"
+tüt:tüt V-AR-IV ; ! "fumatory" (DIR)
+tutun:tutun V-IR-IV ; ! "adsorb" (DIR)
+tutuş:tutuş V-IR-IV ; ! "ignite" (DIR)
+uç:uç V-AR-IV ; ! "fly" (DIR)
+uçuş:uçuş V-IR-IV ; ! "flit" (DIR)
+uğraş:uğraş V-IR-IV ; ! "strive" (DIR)
+ulaş:ulaş V-IR-IV ; ! "reach" (DIR)
+umutlan:umutlan V-IR-IV ; ! "begin to hope" (DIR)
+ürk:ürk V-AR-IV ; ! "scare" (DIR)
+ürper:ürper V-IR-IV ; ! "shudder" (DIR)
+üş:üş V-AR-IV ; ! "concentrate at somewhere" (DIR)
+usan:usan V-IR-IV ; ! "be collected" (DIR)
+utan:utan V-IR-IV ; ! "shy" (DIR)
 !uy:uy V-IV-DIR-AR  ; ! "adapt"
-uyan:uyan V-IV-DIR-IR  ; ! "wake up"
-uyuş:uyuş V-IV-DIR-IR  ; ! "run in with"
-uzlaş:uzlaş V-IV-DIR-IR  ; ! "make a deal"
-var:var V-IV-DIR-IR  ; ! "arrive"            ! Takes dative "object", so is IV
-varol:varol V-IV-DIR-IR  ; ! "exist"
-vazgeç:vazgeç V-IV-DIR-AR  ; ! "give up"
-yağ:yağ V-IV-DIR-AR  ; ! "rain down on"
-yakar:yakar V-IV-DIR-IR  ; ! "invoke"
+uyan:uyan V-IR-IV ; ! "wake up" (DIR)
+uyuş:uyuş V-IR-IV ; ! "run in with" (DIR)
+uzlaş:uzlaş V-IR-IV ; ! "make a deal" (DIR)
+var:var V-IR-IV ; ! "arrive"            ! Takes dative "object", so is IV (DIR)
+varol:varol V-IR-IV ; ! "exist" (DIR)
+vazgeç:vazgeç V-AR-IV ; ! "give up" (DIR)
+yağ:yağ V-AR-IV ; ! "rain down on" (DIR)
+yakar:yakar V-IR-IV ; ! "invoke" (DIR)
 !yakın:yakın V-IV-DIR-IR  ; ! "complain"
-yakış:yakış V-IV-DIR-IR  ; ! "become, befit"
-yaklaş:yaklaş V-IV-DIR-IR ; ! "approach"
-yan:yan V-IV-DIR-AR ; ! "burn, take fire"
-yanaş:yanaş V-IV-DIR-IR  ; ! "lend oneself to"
-yapış:yapış V-IV-DIR-IR  ; ! "adhere"
-yararlan:yararlan V-IV-DIR-IR  ; ! "benefit from"
-yaraş:yaraş V-IV-DIR-IR  ; ! "befit, beseem, behoove"
-yarış:yarış V-IV-DIR-IR  ; ! "race"
-yaşlan:yaşlan V-IV-DIR-IR  ; ! "get old"
-yatış:yatış V-IV-DIR-IR  ; ! "quiet down"
-yelten:yelten V-IV-DIR-IR  ; ! "attempt"
-yerin:yerin V-IV-DIR-IR  ; ! "be sorry"
-yerleş:yerleş V-IV-DIR-IR  ; ! "settle"
-yer% ver:yer% ver V-IV-DIR-IR  ; ! "give place to"
-yet:yet V-IV-DIR-AR  ; ! "suffice"
-yetin:yetin V-IV-DIR-IR  ; ! "confine oneself to"
-yetiş:yetiş V-IV-DIR-IR  ; ! "catch up with"
-yıl:yıl V-IV-DIR-AR  ; ! "give up"
-yıpran:yıpran V-IV-DIR-IR  ; ! "rub off"
-yit:yit V-IV-DIR-AR  ; ! "be lost"
-yoğrul:yoğrul V-IV-DIR-IR  ; ! "be kneaded"
-yoksun:yoksun V-IV-DIR-IR  ; ! "lack"
-yönel:yönel V-IV-DIR-IR  ; ! "tend towards"
-yücel:yücel V-IV-DIR-IR  ; ! "be exalted"
-yüksel:yüksel V-IV-DIR-IR  ; ! "rise"
-yun:yun V-IV-DIR-AR  ; ! "bathe"
-yüzleş:yüzleş V-IV-DIR-IR  ; ! "face"
-zulmet:zulmet V-IV-DIR-AR  ; ! "oppress"
-adlan:adlan V-IV-DIR-IR ; ! "call"
-ağar:ağar V-IV-DIR-IR ; ! "get white"
-ağın:ağın V-IV-DIR-IR ; ! "roll on the ground"
-aklan:aklan V-IV-DIR-IR ; ! "be cleaned"
-aldan:aldan V-IV-DIR-IR ; ! "be deceived, tricked"
-aldat:aldat V-IV-DIR-IR ; ! "cheat"
-alıkonul:alıkonul V-IV-DIR-IR ; ! "be derailed"
-anlaş:anlaş V-IV-DIR-IR ; ! "agree"
-arık:arık V-IV-DIR-IR ; ! "lose weight"
-arın:arın V-IV-DIR-IR ; ! "clarify"
-arızalan:arızalan V-IV-DIR-IR ; ! "break down, go out of order"
-art:art V-IV-DIR-AR ; ! "increase"
-aşın:aşın V-IV-DIR-IR ; ! "rub off"
-atış:atış V-IV-DIR-IR ; ! "bicker"
-avun:avun V-IV-DIR-IR ; ! "solace"
-ay:ay V-IV-DIR-AR ; ! "awake?"
-aydınlan:aydınlan V-IV-DIR-IR ; ! "light up"
-ayıl:ayıl V-IV-DIR-IR ; ! "regain consciousness"
-az:az V-IV-DIR-AR ; ! "to rut"
-bağdaş:bağdaş V-IV-DIR-IR ; ! "agree with"
-bağır:bağır V-IV-DIR-IR ; ! "shout"
-barın:barın V-IV-DIR-IR ; ! "shelter"
-barış:barış V-IV-DIR-IR ; ! "reunite"
-başgöster:başgöster V-IV-DIR-IR ; ! "arise"
-başkaldır:başkaldır V-IV-DIR-IR ; ! "revolt"
-bay:bay V-IV-DIR-AR ; ! "turn somebody off"
-benzeş:benzeş V-IV-DIR-IR ; ! "be in acord with"
-bez:bez V-IV-DIR-AR ; ! "fed up"
-bık:bık V-IV-DIR-AR ; ! "fed up"
-bileş:bileş V-IV-DIR-IR ; ! "consist"
-bilin:bilin V-IV-DIR-IR ; ! "be known"
-bilinçlen:bilinçlen V-IV-DIR-IR ; ! "become conscious"
-birik:birik V-IV-DIR-IR ; ! "consist"
-bit:bit V-IV-IR-AR ; ! "finish"
-böbürlen:böbürlen V-IV-DIR-IR ; ! "brag"
-bozul:bozul V-IV-DIR-IR ; ! "be destroyed"
-bulaş:bulaş V-IV-DIR-IR ; ! "be mixed up"
-bunal:bunal V-IV-DIR-IR ; ! "get bored"
-buy:buy V-IV-DIR-IR ; ! "enjoin"
-buyur:buyur V-IV-DIR-IR ; ! "command"
-çak:çak V-IV-DIR-AR ; ! "notice"
-çakış:çakış V-IV-DIR-IR ; ! "collide"
-çalış:çalış V-IV-DIR-IR ; ! "study, work"
-canlan:canlan V-IV-DIR-IR ; ! "to ignite"
-çap:çap V-IV-DIR-AR ; ! "rush"
-çarp:çarp V-IV-DIR-AR ; ! "strike, hit"
-çatış:çatış V-IV-DIR-IR ; ! "conflict"
-cay:cay V-IV-DIR-AR ; ! "retract"
-çekin:çekin V-IV-DIR-IR ; ! "abstain"
-çekiş:çekiş V-IV-DIR-IR ; ! "debate"
-cesaretlen:cesaretlen V-IV-DIR-IR ; ! "take courage"
-çık:çık V-IV-DIR-AR ; ! "get out, exit"
-çıkış:çıkış V-IV-DIR-IR ; ! "round on"
-çırpın:çırpın V-IV-DIR-IR ; ! "flutter"
-çoğal:çoğal V-IV-DIR-IR ; ! "increase, propagate"
-coş:coş V-IV-DIR-AR ; ! "emotionalise"
-dalgalan:dalgalan V-IV-DIR-IR ; ! "wave"
-davran:davran V-IV-DIR-IR ; ! "act, treat"
-dayan:dayan V-IV-DIR-IR ; ! "bear"
+yakış:yakış V-IR-IV ; ! "become, befit" (DIR)
+yaklaş:yaklaş V-IR-IV ; ! "approach" (DIR)
+yan:yan V-AR-IV ; ! "burn, take fire" (DIR)
+yanaş:yanaş V-IR-IV ; ! "lend oneself to" (DIR)
+yapış:yapış V-IR-IV ; ! "adhere" (DIR)
+yararlan:yararlan V-IR-IV ; ! "benefit from" (DIR)
+yaraş:yaraş V-IR-IV ; ! "befit, beseem, behoove" (DIR)
+yarış:yarış V-IR-IV ; ! "race" (DIR)
+yaşlan:yaşlan V-IR-IV ; ! "get old" (DIR)
+yatış:yatış V-IR-IV ; ! "quiet down" (DIR)
+yelten:yelten V-IR-IV ; ! "attempt" (DIR)
+yerin:yerin V-IR-IV ; ! "be sorry" (DIR)
+yerleş:yerleş V-IR-IV ; ! "settle" (DIR)
+yer% ver:yer% ver V-IR-IV ; ! "give place to" (DIR)
+yet:yet V-AR-IV ; ! "suffice" (DIR)
+yetin:yetin V-IR-IV ; ! "confine oneself to" (DIR)
+yetiş:yetiş V-IR-IV ; ! "catch up with" (DIR)
+yıl:yıl V-AR-IV ; ! "give up" (DIR)
+yıpran:yıpran V-IR-IV ; ! "rub off" (DIR)
+yit:yit V-AR-IV ; ! "be lost" (DIR)
+yoğrul:yoğrul V-IR-IV ; ! "be kneaded" (DIR)
+yoksun:yoksun V-IR-IV ; ! "lack" (DIR)
+yönel:yönel V-IR-IV ; ! "tend towards" (DIR)
+yücel:yücel V-IR-IV ; ! "be exalted" (DIR)
+yüksel:yüksel V-IR-IV ; ! "rise" (DIR)
+yun:yun V-AR-IV ; ! "bathe" (DIR)
+yüzleş:yüzleş V-IR-IV ; ! "face" (DIR)
+zulmet:zulmet V-AR-IV ; ! "oppress" (DIR)
+adlan:adlan V-IR-IV ; ! "call" (DIR)
+ağar:ağar V-IR-IV ; ! "get white" (DIR)
+ağın:ağın V-IR-IV ; ! "roll on the ground" (DIR)
+aklan:aklan V-IR-IV ; ! "be cleaned" (DIR)
+aldan:aldan V-IR-IV ; ! "be deceived, tricked" (DIR)
+aldat:aldat V-IR-IV ; ! "cheat" (DIR)
+alıkonul:alıkonul V-IR-IV ; ! "be derailed" (DIR)
+anlaş:anlaş V-IR-IV ; ! "agree" (DIR)
+arık:arık V-IR-IV ; ! "lose weight" (DIR)
+arın:arın V-IR-IV ; ! "clarify" (DIR)
+arızalan:arızalan V-IR-IV ; ! "break down, go out of order" (DIR)
+art:art V-AR-IV ; ! "increase" (DIR)
+aşın:aşın V-IR-IV ; ! "rub off" (DIR)
+atış:atış V-IR-IV ; ! "bicker" (DIR)
+avun:avun V-IR-IV ; ! "solace" (DIR)
+ay:ay V-AR-IV ; ! "awake?" (DIR)
+aydınlan:aydınlan V-IR-IV ; ! "light up" (DIR)
+ayıl:ayıl V-IR-IV ; ! "regain consciousness" (DIR)
+az:az V-AR-IV ; ! "to rut" (DIR)
+bağdaş:bağdaş V-IR-IV ; ! "agree with" (DIR)
+bağır:bağır V-IR-IV ; ! "shout" (DIR)
+barın:barın V-IR-IV ; ! "shelter" (DIR)
+barış:barış V-IR-IV ; ! "reunite" (DIR)
+başgöster:başgöster V-IR-IV ; ! "arise" (DIR)
+başkaldır:başkaldır V-IR-IV ; ! "revolt" (DIR)
+bay:bay V-AR-IV ; ! "turn somebody off" (DIR)
+benzeş:benzeş V-IR-IV ; ! "be in acord with" (DIR)
+bez:bez V-AR-IV ; ! "fed up" (DIR)
+bık:bık V-AR-IV ; ! "fed up" (DIR)
+bileş:bileş V-IR-IV ; ! "consist" (DIR)
+bilin:bilin V-IR-IV ; ! "be known" (DIR)
+bilinçlen:bilinçlen V-IR-IV ; ! "become conscious" (DIR)
+birik:birik V-IR-IV ; ! "consist" (DIR)
+bit:bit V-AR-IV ; ! "finish" (IR)
+böbürlen:böbürlen V-IR-IV ; ! "brag" (DIR)
+bozul:bozul V-IR-IV ; ! "be destroyed" (DIR)
+bulaş:bulaş V-IR-IV ; ! "be mixed up" (DIR)
+bunal:bunal V-IR-IV ; ! "get bored" (DIR)
+buy:buy V-IR-IV ; ! "enjoin" (DIR)
+buyur:buyur V-IR-IV ; ! "command" (DIR)
+çak:çak V-AR-IV ; ! "notice" (DIR)
+çakış:çakış V-IR-IV ; ! "collide" (DIR)
+çalış:çalış V-IR-IV ; ! "study, work" (DIR)
+canlan:canlan V-IR-IV ; ! "to ignite" (DIR)
+çap:çap V-AR-IV ; ! "rush" (DIR)
+çarp:çarp V-AR-IV ; ! "strike, hit" (DIR)
+çatış:çatış V-IR-IV ; ! "conflict" (DIR)
+cay:cay V-AR-IV ; ! "retract" (DIR)
+çekin:çekin V-IR-IV ; ! "abstain" (DIR)
+çekiş:çekiş V-IR-IV ; ! "debate" (DIR)
+cesaretlen:cesaretlen V-IR-IV ; ! "take courage" (DIR)
+çık:çık V-AR-IV ; ! "get out, exit" (DIR)
+çıkış:çıkış V-IR-IV ; ! "round on" (DIR)
+çırpın:çırpın V-IR-IV ; ! "flutter" (DIR)
+çoğal:çoğal V-IR-IV ; ! "increase, propagate" (DIR)
+coş:coş V-AR-IV ; ! "emotionalise" (DIR)
+dalgalan:dalgalan V-IR-IV ; ! "wave" (DIR)
+davran:davran V-IR-IV ; ! "act, treat" (DIR)
+dayan:dayan V-IR-IV ; ! "bear" (DIR)
 ! değerlen:değerlen V-IV-DIR-IR ; ! "increase in value"
 değerlen:değerlen V-IR-IV ; ! "increase in value"
-devrol:devrol V-IV-DIR-IR ; ! "devolve on"
-didin:didin V-IV-DIR-IR ; ! "moil"
-din:din V-IV-DIR-AR ; ! "quiet down"
-diril:diril V-IV-DIR-IR ; ! "revive"
-doğ:doğ V-IV-DIR-AR ; ! "born"
-doğrul:doğrul V-IV-DIR-IR ; ! "straighten up"
-dokun:dokun V-IV-DIR-IR ; ! "touch"
-dol:dol V-IV-DIR-AR ; ! "fill up"
-dolan:dolan V-IV-DIR-IR ; ! "ramble"
-don:don V-IV-DIR-AR ; ! "freeze"
+devrol:devrol V-IR-IV ; ! "devolve on" (DIR)
+didin:didin V-IR-IV ; ! "moil" (DIR)
+din:din V-AR-IV ; ! "quiet down" (DIR)
+diril:diril V-IR-IV ; ! "revive" (DIR)
+doğ:doğ V-AR-IV ; ! "born" (DIR)
+doğrul:doğrul V-IR-IV ; ! "straighten up" (DIR)
+dokun:dokun V-IR-IV ; ! "touch" (DIR)
+dol:dol V-AR-IV ; ! "fill up" (DIR)
+dolan:dolan V-IR-IV ; ! "ramble" (DIR)
+don:don V-AR-IV ; ! "freeze" (DIR)
 !dön:dön V-IV-DIR-AR ; ! "turn"
 dön:dön V-AR-IV ; ! "turn"
-dönüş:dönüş V-IV-DIR-IR ; ! "return to"
-doy:doy V-IV-DIR-AR ; ! "be full up"
-dur:dur V-IV-DIR-IR ; ! "stop"
-dürt:dürt V-IV-DIR-AR ; ! "poke"
-durul:durul V-IV-DIR-IR ; ! "calm down"
-düş:düş V-IV-DIR-AR ; ! "fall"
-duy:duy V-IV-DIR-AR ; ! "hear"
-düzel:düzel V-IV-DIR-IR ; ! "get better"
-eğ:eğ V-IV-DIR-AR ; ! "bend"
-eğil:eğil V-IV-DIR-IR ; ! "incline"
-eğin:eğin V-IV-DIR-IR ; ! "tend"
-eğlen:eğlen V-IV-DIR-IR ; ! "have fun"
-elver:elver V-IV-DIR-IR ; ! "be convenient"
-er:er V-IV-DIR-AR ; ! "attain"
-eriş:eriş V-IV-DIR-IR ; ! "reach"
-evlen:evlen V-IV-DIR-IR ; ! "marry"
-gecik:gecik V-IV-DIR-IR ; ! "delay, be late"
-geçin:geçin V-IV-DIR-IR ; ! "get on well"
+dönüş:dönüş V-IR-IV ; ! "return to" (DIR)
+doy:doy V-AR-IV ; ! "be full up" (DIR)
+dur:dur V-IR-IV ; ! "stop" (DIR)
+dürt:dürt V-AR-IV ; ! "poke" (DIR)
+durul:durul V-IR-IV ; ! "calm down" (DIR)
+düş:düş V-AR-IV ; ! "fall" (DIR)
+duy:duy V-AR-IV ; ! "hear" (DIR)
+düzel:düzel V-IR-IV ; ! "get better" (DIR)
+eğ:eğ V-AR-IV ; ! "bend" (DIR)
+eğil:eğil V-IR-IV ; ! "incline" (DIR)
+eğin:eğin V-IR-IV ; ! "tend" (DIR)
+eğlen:eğlen V-IR-IV ; ! "have fun" (DIR)
+elver:elver V-IR-IV ; ! "be convenient" (DIR)
+er:er V-AR-IV ; ! "attain" (DIR)
+eriş:eriş V-IR-IV ; ! "reach" (DIR)
+evlen:evlen V-IR-IV ; ! "marry" (DIR)
+gecik:gecik V-IR-IV ; ! "delay, be late" (DIR)
+geçin:geçin V-IR-IV ; ! "get on well" (DIR)
 !gel:gel V-IV-DIR-IR ; ! "come to a stop"
 gel:gel V-IR-IV ; ! "come to a stop"
 !gerek:gerek V-IV-DIR-IR ; ! "require"
 gerek:gerek V-IR-IV ; ! "require"
-gereksin:gereksin V-IV-DIR-IR ; ! "be in need of"
-geril:geril V-IV-DIR-IR ; ! "strain"
-gez:gez V-IV-DIR-AR ; ! "go around"
-gezin:gezin V-IV-DIR-IR ; ! "hang around"
-gir:gir V-IV-DIR-AR ; ! "enter"
-giriş:giriş V-IV-DIR-IR ; ! "proceed"
+gereksin:gereksin V-IR-IV ; ! "be in need of" (DIR)
+geril:geril V-IR-IV ; ! "strain" (DIR)
+gez:gez V-AR-IV ; ! "go around" (DIR)
+gezin:gezin V-IR-IV ; ! "hang around" (DIR)
+gir:gir V-AR-IV ; ! "enter" (DIR)
+giriş:giriş V-IR-IV ; ! "proceed" (DIR)
 !git:git%{v%} V-IV-DIR-AR ; ! "go"
-görevlen:görevlen V-IV-DIR-IR ; ! "take a mission"
-görün:görün V-IV-DIR-IR ; ! "appear"
-gözük:gözük V-IV-DIR-IR ; ! "to be seem"
-güçlen:güçlen V-IV-DIR-IR ; ! "get strong"
-gül:gül V-IV-DIR-AR ; ! "laugh"
-güreş:güreş V-IV-DIR-IR ; ! "wrestle"
-gururlan:gururlan V-IV-DIR-IR ; ! "be proud of"
-hafifle:hafifle V-IV-DIR-IR ; ! "get lighter"
-hallol:hallol V-IV-DIR-IR ; ! "be solved"
-hamlet:hamlet V-IV-DIR-AR ; ! "attribute"
-hareketlen:hareketlen V-IV-DIR-IR ; ! "get move"
-hastalan:hastalan V-IV-DIR-IR ; ! "get ill"
-heveslen:heveslen V-IV-DIR-IR ; ! "aspire"
-heyecanlan:heyecanlan V-IV-DIR-IR ; ! "get excited"
-hızlan:hızlan V-IV-DIR-IR ; ! "gain speed"
-homurdan:homurdan V-IV-DIR-IR ; ! "murmur"
-hoşlan:hoşlan V-IV-DIR-IR ; ! "like"
-ilgilen:ilgilen V-IV-DIR-IR ; ! "be interested"
-iliş:iliş V-IV-DIR-IR ; ! "perch"
-imren:imren V-IV-DIR-IR ; ! "envy"
+görevlen:görevlen V-IR-IV ; ! "take a mission" (DIR)
+görün:görün V-IR-IV ; ! "appear" (DIR)
+gözük:gözük V-IR-IV ; ! "to be seem" (DIR)
+güçlen:güçlen V-IR-IV ; ! "get strong" (DIR)
+gül:gül V-AR-IV ; ! "laugh" (DIR)
+güreş:güreş V-IR-IV ; ! "wrestle" (DIR)
+gururlan:gururlan V-IR-IV ; ! "be proud of" (DIR)
+hafifle:hafifle V-IR-IV ; ! "get lighter" (DIR)
+hallol:hallol V-IR-IV ; ! "be solved" (DIR)
+hamlet:hamlet V-AR-IV ; ! "attribute" (DIR)
+hareketlen:hareketlen V-IR-IV ; ! "get move" (DIR)
+hastalan:hastalan V-IR-IV ; ! "get ill" (DIR)
+heveslen:heveslen V-IR-IV ; ! "aspire" (DIR)
+heyecanlan:heyecanlan V-IR-IV ; ! "get excited" (DIR)
+hızlan:hızlan V-IR-IV ; ! "gain speed" (DIR)
+homurdan:homurdan V-IR-IV ; ! "murmur" (DIR)
+hoşlan:hoşlan V-IR-IV ; ! "like" (DIR)
+ilgilen:ilgilen V-IR-IV ; ! "be interested" (DIR)
+iliş:iliş V-IR-IV ; ! "perch" (DIR)
+imren:imren V-IR-IV ; ! "envy" (DIR)
 ! inan:inan V-TV-DIR-IR ; ! "believe"
 inan:inan V-IR-TV ; ! "believe"
 bağla:bağla V-IR-TV ; ! "connect"
 
-incel:incel V-IV-DIR-AR ; ! "get thinner"
-ışıklan:ışıklan V-IV-DIR-IR ; ! "lighten"
-ısın:ısın V-IV-DIR-IR ; ! "get warmer"
-kabar:kabar V-IV-DIR-IR ; ! "puff"
-kaç:kaç V-IV-DIR-AR ; ! "escape"
-kaçın:kaçın V-IV-DIR-IR ; ! "avoid"
+incel:incel V-AR-IV ; ! "get thinner" (DIR)
+ışıklan:ışıklan V-IR-IV ; ! "lighten" (DIR)
+ısın:ısın V-IR-IV ; ! "get warmer" (DIR)
+kabar:kabar V-IR-IV ; ! "puff" (DIR)
+kaç:kaç V-AR-IV ; ! "escape" (DIR)
+kaçın:kaçın V-IR-IV ; ! "avoid" (DIR)
 !kal:kal V-IV-DIR-IR ; ! "stay"
 !kalk:kalk V-IV-DIR-AR ; ! "get up"
 kalk:kalk V-AR-IV ; ! "get up"
-kalkış:kalkış V-IV-DIR-IR ; ! "attend"
-kan:kan V-IV-DIR-AR ; ! "be cheated"
-kapıl:kapıl V-IV-DIR-IR ; ! "be carried away"
-karar:karar V-IV-DIR-IR ; ! "darken"
-karış:karış V-IV-DIR-IR ; ! "mix in"
-karşılaş:karşılaş V-IV-DIR-IR ; ! "confront"
-katıl:katıl V-IV-DIR-IR ; ! "join in"
-kavuş:kavuş V-IV-DIR-IR ; ! "rejoin"
-kay:kay V-IV-DIR-AR ; ! "slide"
-kaybol:kaybol V-IV-DIR-IR ; ! "get lost"
-kaydol:kaydol V-IV-DIR-IR ; ! "sign in"
-kaygılan:kaygılan V-IV-DIR-IR ; ! "worry about"
-kaynaklan:kaynaklan V-IV-DIR-IR ; ! "arise from"
-kaynaş:kaynaş V-IV-DIR-IR ; ! "teem"
+kalkış:kalkış V-IR-IV ; ! "attend" (DIR)
+kan:kan V-AR-IV ; ! "be cheated" (DIR)
+kapıl:kapıl V-IR-IV ; ! "be carried away" (DIR)
+karar:karar V-IR-IV ; ! "darken" (DIR)
+karış:karış V-IR-IV ; ! "mix in" (DIR)
+karşılaş:karşılaş V-IR-IV ; ! "confront" (DIR)
+katıl:katıl V-IR-IV ; ! "join in" (DIR)
+kavuş:kavuş V-IR-IV ; ! "rejoin" (DIR)
+kay:kay V-AR-IV ; ! "slide" (DIR)
+kaybol:kaybol V-IR-IV ; ! "get lost" (DIR)
+kaydol:kaydol V-IR-IV ; ! "sign in" (DIR)
+kaygılan:kaygılan V-IR-IV ; ! "worry about" (DIR)
+kaynaklan:kaynaklan V-IR-IV ; ! "arise from" (DIR)
+kaynaş:kaynaş V-IR-IV ; ! "teem" (DIR)
 !git:git%{v%} V-IV-AR-AR ; ! "go"
-art:art V-IV-IR-AR ; ! "increase"
-bat:bat V-IV-IR-AR ; ! "sink/fail"
-doğ:doğ V-IV-IR-AR ; ! "rise" "be born"
-taş:taş V-IV-IR-AR ; ! "run over"
-uç:uç V-IV-IR-AR ; ! "fly"
+art:art V-AR-IV ; ! "increase" (IR)
+bat:bat V-AR-IV ; ! "sink/fail" (IR)
+doğ:doğ V-AR-IV ; ! "rise" "be born" (IR)
+taş:taş V-AR-IV ; ! "run over" (IR)
+uç:uç V-AR-IV ; ! "fly" (IR)
 !yat:yat V-IV-IR-AR ; ! "lay down"
-yit:yit V-IV-IR-AR ; ! "vanish"
-şiş:şiş V-IV-IR-AR ; ! "swell"
-kımılda:kımılda V-IV-T-IR  ; ! "budge"
-kıpırda:kıpırda V-IV-T-IR  ; ! "budge"
-kısal:kısal V-IV-T-IR  ; ! "got shorter"
-kışkır:kışkır V-IV-T-IR  ; ! "provoke"
-kıvra:kıvra V-IV-T-IR  ; ! "be curled"
-kızar:kızar V-IV-T-IR  ; ! "blush ,  be roasted"
-köhne:köhne V-IV-T-IR  ; ! "go out of date"
-konakla:konakla V-IV-T-IR  ; ! "stop over"
-körel:körel V-IV-T-IR  ; ! "atrophy"
-kötümse:kötümse V-IV-T-IR  ; ! "belittle"
-küçül:küçül V-IV-T-IR  ; ! "wane"
-külle:külle V-IV-T-IR  ; ! "cover with ashes"
-kurtul:kurtul V-IV-T-IR  ; ! "ve rescued"
-kuru:kuru V-IV-T-IR  ; ! "dry"
-miyavla:miyavla V-IV-T-IR  ; ! "meow"
-morar:morar V-IV-T-IR  ; ! "become bruised"
-otla:otla V-IV-T-IR  ; ! "pasture"
-otur:otur V-IV-T-IR  ; ! "sit"
-ötür:ötür V-IV-T-IR  ; ! "have diarrhoea"
-panikle:panikle V-IV-T-IR  ; ! "get into a panic"
-parılda:parılda V-IV-T-IR  ; ! "gleam"
-parla:parla V-IV-T-IR  ; ! "shine"
-patla:patla V-IV-T-IR  ; ! "explode"
-püskür:püskür V-IV-T-IR  ; ! "spout"
-rahatla:rahatla V-IV-T-IR  ; ! "relax"
-rastla:rastla V-IV-T-IR  ; ! "encounter"
-sabahla:sabahla V-IV-T-IR  ; ! "sit up all night"
-sağal:sağal V-IV-T-IR  ; ! "recover"
-sendele:sendele V-IV-T-IR  ; ! "stumble"
-serinle:serinle V-IV-T-IR  ; ! "cool off, become cooler?"
-sersemle:sersemle V-IV-T-IR  ; ! "stagger"
-seyrel:seyrel V-IV-T-IR  ; ! "become rare"
-sıçra:sıçra V-IV-T-IR  ; ! "bound"
-şişmanla:şişmanla V-IV-T-IR  ; ! "put on weight"
-sıyrıl:sıyrıl V-IV-T-IR  ; ! "squirm out of"
-soğu:soğu V-IV-T-IR  ; ! "get cold"
-solu:solu V-IV-T-IR  ; ! "breathe"
-susa:susa V-IV-T-IR  ; ! "be thirsty"
-tekle:tekle V-IV-T-IR  ; ! "stutter"
-terle:terle V-IV-T-IR  ; ! "sweat"
-tökezle:tökezle V-IV-T-IR  ; ! "stumble"
-tükür:tükür V-IV-T-IR  ; ! "spit"
-türe:türe V-IV-T-IR  ; ! "derive"
-ucuzla:ucuzla V-IV-T-IR  ; ! "become cheap"
-ufal:ufal V-IV-T-IR  ; ! "become smaller"
-uğra:uğra V-IV-T-IR  ; ! "make a brief visit to"
-üre:üre V-IV-T-IR  ; ! "procreate"
-uyu:uyu V-IV-T-IR  ; ! "sleep"
-uyukla:uyukla V-IV-T-IR  ; ! "snooze"
+yit:yit V-AR-IV ; ! "vanish" (IR)
+şiş:şiş V-AR-IV ; ! "swell" (IR)
+kımılda:kımılda V-IR-IV ; ! "budge" (T)
+kıpırda:kıpırda V-IR-IV ; ! "budge" (T)
+kısal:kısal V-IR-IV ; ! "got shorter" (T)
+kışkır:kışkır V-IR-IV ; ! "provoke" (T)
+kıvra:kıvra V-IR-IV ; ! "be curled" (T)
+kızar:kızar V-IR-IV ; ! "blush ,  be roasted" (T)
+köhne:köhne V-IR-IV ; ! "go out of date" (T)
+konakla:konakla V-IR-IV ; ! "stop over" (T)
+körel:körel V-IR-IV ; ! "atrophy" (T)
+kötümse:kötümse V-IR-IV ; ! "belittle" (T)
+küçül:küçül V-IR-IV ; ! "wane" (T)
+külle:külle V-IR-IV ; ! "cover with ashes" (T)
+kurtul:kurtul V-IR-IV ; ! "ve rescued" (T)
+kuru:kuru V-IR-IV ; ! "dry" (T)
+miyavla:miyavla V-IR-IV ; ! "meow" (T)
+morar:morar V-IR-IV ; ! "become bruised" (T)
+otla:otla V-IR-IV ; ! "pasture" (T)
+otur:otur V-IR-IV ; ! "sit" (T)
+ötür:ötür V-IR-IV ; ! "have diarrhoea" (T)
+panikle:panikle V-IR-IV ; ! "get into a panic" (T)
+parılda:parılda V-IR-IV ; ! "gleam" (T)
+parla:parla V-IR-IV ; ! "shine" (T)
+patla:patla V-IR-IV ; ! "explode" (T)
+püskür:püskür V-IR-IV ; ! "spout" (T)
+rahatla:rahatla V-IR-IV ; ! "relax" (T)
+rastla:rastla V-IR-IV ; ! "encounter" (T)
+sabahla:sabahla V-IR-IV ; ! "sit up all night" (T)
+sağal:sağal V-IR-IV ; ! "recover" (T)
+sendele:sendele V-IR-IV ; ! "stumble" (T)
+serinle:serinle V-IR-IV ; ! "cool off, become cooler?" (T)
+sersemle:sersemle V-IR-IV ; ! "stagger" (T)
+seyrel:seyrel V-IR-IV ; ! "become rare" (T)
+sıçra:sıçra V-IR-IV ; ! "bound" (T)
+şişmanla:şişmanla V-IR-IV ; ! "put on weight" (T)
+sıyrıl:sıyrıl V-IR-IV ; ! "squirm out of" (T)
+soğu:soğu V-IR-IV ; ! "get cold" (T)
+solu:solu V-IR-IV ; ! "breathe" (T)
+susa:susa V-IR-IV ; ! "be thirsty" (T)
+tekle:tekle V-IR-IV ; ! "stutter" (T)
+terle:terle V-IR-IV ; ! "sweat" (T)
+tökezle:tökezle V-IR-IV ; ! "stumble" (T)
+tükür:tükür V-IR-IV ; ! "spit" (T)
+türe:türe V-IR-IV ; ! "derive" (T)
+ucuzla:ucuzla V-IR-IV ; ! "become cheap" (T)
+ufal:ufal V-IR-IV ; ! "become smaller" (T)
+uğra:uğra V-IR-IV ; ! "make a brief visit to" (T)
+üre:üre V-IR-IV ; ! "procreate" (T)
+uyu:uyu V-IR-IV ; ! "sleep" (T)
+uyukla:uyukla V-IR-IV ; ! "snooze" (T)
 !uza:uza V-IV-T-IR  ; ! "get longer"
 uza:uza V-IR-IV ; ! "get longer"
 uzan:uzan V-IR-IV ; ! "reach"
-yalvar:yalvar V-IV-T-IR  ; ! "invoke"
-yanıl:yanıl V-IV-T-IR  ; ! "be mistaken"
-yankıla:yankıla V-IV-T-IR  ; ! "resonate"
-yansı:yansı V-IV-T-IR  ; ! "be reflected"
+yalvar:yalvar V-IR-IV ; ! "invoke" (T)
+yanıl:yanıl V-IR-IV ; ! "be mistaken" (T)
+yankıla:yankıla V-IR-IV ; ! "resonate" (T)
+yansı:yansı V-IR-IV ; ! "be reflected" (T)
 ! yara:yara V-IV-T-IR  ; ! "benefit from"
 yara:yara V-IR-IV ; ! "benefit from"
-yavaşla:yavaşla V-IV-T-IR  ; ! "slow down"
-yeşer:yeşer V-IV-T-IR  ; ! "come into leaf"
-yuhala:yuhala V-IV-T-IR  ; ! "jeer at"
-yumuşa:yumuşa V-IV-T-IR  ; ! "soften"
+yavaşla:yavaşla V-IR-IV ; ! "slow down" (T)
+yeşer:yeşer V-IR-IV ; ! "come into leaf" (T)
+yuhala:yuhala V-IR-IV ; ! "jeer at" (T)
+yumuşa:yumuşa V-IR-IV ; ! "soften" (T)
 ! yürü:yürü V-IV-T-IR  ; ! "walk"
 yürü:yürü V-IR-IV ; ! "walk"
-yürüt:yürüt V-TV-DIR-AR ; ! "perform"
-zayıfla:zayıfla V-IV-T-IR  ; ! "lose weight"
-zenginle:zenginle V-IV-T-IR  ; ! "get rich"
-zıpla:zıpla V-IV-T-IR  ; ! "jump"
-acı:acı V-IV-T-IR ; ! "pity something"
-afalla:afalla V-IV-T-IR ; ! "consternation"
-ağla:ağla V-IV-T-IR ; ! "cry, weep"
-ağna:ağna V-IV-T-IR ; ! "wallow"
-alkışla:alkışla V-IV-T-IR ; ! "clap"
-atla:atla V-IV-T-IR ; ! "jump"
-ayrıl:ayrıl V-IV-T-IR ; ! "leave"
-azal:azal V-IV-T-IR ; ! "decrease"
-bocala:bocala V-IV-T-IR ; ! "falter"
-buna:buna V-IV-T-IR ; ! "go senile"
-bütçele:bütçele V-IV-T-IR ; ! "budget"
-büyü:büyü V-IV-T-IR ; ! "grow up"
-çeşitle:çeşitle V-IV-T-IR ; ! "vary"
-cezala:cezala V-IV-T-IR ; ! "punish"
-çuvalla:çuvalla V-IV-T-IR ; ! "fail"
-dağıl:dağıl V-IV-T-IR ; ! "disperse"
-damla:damla V-IV-T-IR ; ! "drop off"
-daral:daral V-IV-T-IR ; ! "narrow"
-daya:daya V-IV-T-IR ; ! "lean"
-defol:defol V-IV-T-IR ; ! "go away"
-destekle:destekle V-IV-T-IR ; ! "support"
-dire:dire V-IV-T-IR ; ! "resist"
-dışla:dışla V-IV-T-IR ; ! "externalise"
-döşe:döşe V-IV-T-IR ; ! "spread"
-duraksa:duraksa V-IV-T-IR ; ! "come to a stop"
-eğle:eğle V-IV-T-IR ; ! "delay"
-eksil:eksil V-IV-T-IR ; ! "decrease"
-endeksle:endeksle V-IV-T-IR ; ! "index"
-esinle:esinle V-IV-T-IR ; ! "inspire"
-eski:eski V-IV-T-IR ; ! "become old"
-ferahla:ferahla V-IV-T-IR ; ! "feel relieved"
-filizle:filizle V-IV-T-IR ; ! "pullulate"
-fırla:fırla V-IV-T-IR ; ! "shoot ahead"
-fiyatla:fiyatla V-IV-T-IR ; ! "go up in price"
-gecele:gecele V-IV-T-IR ; ! "spend the night"
-gerçekle:gerçekle V-IV-T-IR ; ! "confirm"
-gerile:gerile V-IV-T-IR ; ! "retrograde"
-gevşe:gevşe V-IV-T-IR ; ! "relax"
-gülümse:gülümse V-IV-T-IR ; ! "smile"
-havla:havla V-IV-T-IR ; ! "bark"
-havuzla:havuzla V-IV-T-IR ; ! "drydock"
-hopla:hopla V-IV-T-IR ; ! "jump"
-horla:horla V-IV-T-IR ; ! "snore"
-hortla:hortla V-IV-T-IR ; ! "rise from the dead"
-ihtiyarla:ihtiyarla V-IV-T-IR ; ! "get old"
-ilerle:ilerle V-IV-T-IR ; ! "proceed"
-ilgile:ilgile V-IV-T-IR ; ! "to interested"
-inle:inle V-IV-T-IR ; ! "sough"
-ışılda:ışılda V-IV-T-IR ; ! "shine"
-kana:kana V-IV-T-IR ; ! "bleed"
-kara:kara V-IV-T-IR ; ! "brown"
-kayna:kayna V-IV-T-IR ; ! "boil"
+yürüt:yürüt V-AR-TV ; ! "perform" (DIR)
+zayıfla:zayıfla V-IR-IV ; ! "lose weight" (T)
+zenginle:zenginle V-IR-IV ; ! "get rich" (T)
+zıpla:zıpla V-IR-IV ; ! "jump" (T)
+acı:acı V-IR-IV ; ! "pity something" (T)
+afalla:afalla V-IR-IV ; ! "consternation" (T)
+ağla:ağla V-IR-IV ; ! "cry, weep" (T)
+ağna:ağna V-IR-IV ; ! "wallow" (T)
+alkışla:alkışla V-IR-IV ; ! "clap" (T)
+atla:atla V-IR-IV ; ! "jump" (T)
+ayrıl:ayrıl V-IR-IV ; ! "leave" (T)
+azal:azal V-IR-IV ; ! "decrease" (T)
+bocala:bocala V-IR-IV ; ! "falter" (T)
+buna:buna V-IR-IV ; ! "go senile" (T)
+bütçele:bütçele V-IR-IV ; ! "budget" (T)
+büyü:büyü V-IR-IV ; ! "grow up" (T)
+çeşitle:çeşitle V-IR-IV ; ! "vary" (T)
+cezala:cezala V-IR-IV ; ! "punish" (T)
+çuvalla:çuvalla V-IR-IV ; ! "fail" (T)
+dağıl:dağıl V-IR-IV ; ! "disperse" (T)
+damla:damla V-IR-IV ; ! "drop off" (T)
+daral:daral V-IR-IV ; ! "narrow" (T)
+daya:daya V-IR-IV ; ! "lean" (T)
+defol:defol V-IR-IV ; ! "go away" (T)
+destekle:destekle V-IR-IV ; ! "support" (T)
+dire:dire V-IR-IV ; ! "resist" (T)
+dışla:dışla V-IR-IV ; ! "externalise" (T)
+döşe:döşe V-IR-IV ; ! "spread" (T)
+duraksa:duraksa V-IR-IV ; ! "come to a stop" (T)
+eğle:eğle V-IR-IV ; ! "delay" (T)
+eksil:eksil V-IR-IV ; ! "decrease" (T)
+endeksle:endeksle V-IR-IV ; ! "index" (T)
+esinle:esinle V-IR-IV ; ! "inspire" (T)
+eski:eski V-IR-IV ; ! "become old" (T)
+ferahla:ferahla V-IR-IV ; ! "feel relieved" (T)
+filizle:filizle V-IR-IV ; ! "pullulate" (T)
+fırla:fırla V-IR-IV ; ! "shoot ahead" (T)
+fiyatla:fiyatla V-IR-IV ; ! "go up in price" (T)
+gecele:gecele V-IR-IV ; ! "spend the night" (T)
+gerçekle:gerçekle V-IR-IV ; ! "confirm" (T)
+gerile:gerile V-IR-IV ; ! "retrograde" (T)
+gevşe:gevşe V-IR-IV ; ! "relax" (T)
+gülümse:gülümse V-IR-IV ; ! "smile" (T)
+havla:havla V-IR-IV ; ! "bark" (T)
+havuzla:havuzla V-IR-IV ; ! "drydock" (T)
+hopla:hopla V-IR-IV ; ! "jump" (T)
+horla:horla V-IR-IV ; ! "snore" (T)
+hortla:hortla V-IR-IV ; ! "rise from the dead" (T)
+ihtiyarla:ihtiyarla V-IR-IV ; ! "get old" (T)
+ilerle:ilerle V-IR-IV ; ! "proceed" (T)
+ilgile:ilgile V-IR-IV ; ! "to interested" (T)
+inle:inle V-IR-IV ; ! "sough" (T)
+ışılda:ışılda V-IR-IV ; ! "shine" (T)
+kana:kana V-IR-IV ; ! "bleed" (T)
+kara:kara V-IR-IV ; ! "brown" (T)
+kayna:kayna V-IR-IV ; ! "boil" (T)
 
 !! JNW Verbs
 !şaşır:şaşır V-IV-T-IR ; ! "to be surprised"
 şaşır:şaşır V-IR-IV ; ! "to be surprised"
 üne% kavuş:üne% kavuş V-IR-IV ; ! "to become famous" ! Use/MT ! FIXME: Check IR/DIR
-değer% ver:değer% ver V-TV-DIR-IR  ; ! "appreciate"
+değer% ver:değer% ver V-IR-TV ; ! "appreciate" (DIR)
 kahvaltı% et:kahvaltı% et%{v%} V-AR-IV ; ! "have breakfast" ! Use/MT
 dans% et:dans% et%{v%} V-AR-IV ; ! "dance" Use/MT
 davet% et:davet% et%{v%} V-AR-TV ; ! "invite" Use/MT
