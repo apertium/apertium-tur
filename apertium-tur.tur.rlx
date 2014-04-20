@@ -272,7 +272,8 @@ SELECT SUB:1 Gna IF
 		# Kucaklanıp [0]kaldırılır, başkası tarafından [0]yıkanır, poposu pudralanır olmuş.
 		OR
 		(1 CC)
-	) ;
+	) 
+	(NOT 1 COMMA LINK 1 CC) ;
 
 SELECT Px2Pl IF
 	(0 Ger)
