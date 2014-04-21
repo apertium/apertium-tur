@@ -1021,6 +1021,12 @@ LEXICON NP1-AL
 %<np%>%<al%>:%' N-INFL-COMMON-NONOM ;
 %<np%>%<al%>%<attr%>: # ;
 
+LEXICON NP-TOP-ACR
+
+%<np%>%<top%>%<nom%>: # ;
+%<np%>%<top%>:%' N-INFL-COMMON-NONOM ;
+%<np%>%<top%>%<attr%>: # ;
+
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -8811,12 +8817,12 @@ Sovyet% Sosyalist% Cumhuriyetler% Birliği:Sovyet% Sosyalist% Cumhuriyetler% Bir
 
 Balkanlar:Balkanlar NP4-TOP ; ! ""
 
-ABD:ABD%{ii%} NP1-TOP ; ! ""
-AB:AB%{ii%} NP1-TOP ; ! ""
-BH:BH%{ii%} NP1-TOP ; ! ""
-BiH:BiH%{ii%} NP1-TOP ; ! ""
-SSCB:SSCB NP1-TOP ; ! ""
-EU:EU NP1-TOP ; ! ""
+ABD:ABD%{ii%} NP-TOP-ACR ; ! ""
+AB:AB%{ii%} NP-TOP-ACR ; ! ""
+BH:BH%{ii%} NP-TOP-ACR ; ! ""
+BiH:BiH%{ii%} NP-TOP-ACR ; ! ""
+SSCB:SSCB NP-TOP-ACR ; ! ""
+EU:EU NP-TOP-ACR ; ! ""
 
 ! Organisations
 
