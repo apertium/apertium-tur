@@ -36,6 +36,8 @@ dev/tr-cv-phrases.txt -text
 dev/turkish.py -text
 dev/unknown -text
 dev/verb-morph.lexc -text
+dev/verbmorph.dot -text
+dev/verbmorph.png -text
 dev/verbs/Clean_FILE.lexc -text
 dev/verbs/Makefile -text
 dev/verbs/VERBS-scraps -text

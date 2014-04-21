@@ -1,0 +1,261 @@
+digraph g {
+
+	graph [
+		rankdir = "LR"
+	];
+
+	node [
+		fontsize = "16"
+		shape = "ellipse"
+	];
+	
+	edge [
+	];
+
+	"V-INFL" [
+		label = "Verb Stem"
+		shape = "record"
+	];
+
+	"V-DERIV" [
+		label = "<f0> ‹pass›(I)L| <f1> ‹caus›DIr/t/etc. | <f2> ‹rec›(I)ş"
+		shape = "record"
+	];
+
+	"V-INFL-COMMON" [
+		shape = circle
+		label = ""
+		height=.1,width=.1
+	]
+
+
+	"V-TENSE-MA" [
+		shape = circle
+		label = ""
+		height=.1,width=.1
+	]
+
+	"V-TENSE-MA-NEG" [
+		label = "‹neg›MA"
+		shape = "record"
+	];
+
+	"V-TENSE-ABIL" [
+		label = "<f0> ‹abil›Abil |<f1> ‹abil›‹neg›(y)AmA"
+		shape = "record"
+	]
+
+	"V-IFI-COND" [
+		shape = circle, //diamond
+		//style=filled
+		//label="V-IFI-COND"
+		label = ""
+		height=.1,width=.1
+	];
+
+	"V-COND" [
+		label = "‹cond›sA"
+		shape = "record"
+	];
+
+	"V-IFI" [
+		label = "‹ifi›DI"
+		shape = "record"
+	];
+
+	"V-IFI-COND-COMMON" [
+		shape = circle
+		label = ""
+		height=.1,width=.1
+	] ;
+
+	"V-IFI-COP" [
+		label = "+i‹cop›"
+		shape = record
+	] ;
+
+	"V-COND-COP" [
+		label = "+i‹cop›"
+		shape = record
+	] ;
+
+	"V-IFI-COP-COND" [
+		label = "‹cond›sA"
+		shape = record
+	] ;
+
+	"V-COND-COP-IFI" [
+		label = "‹ifi›DI"
+		shape = "record"
+	] ;
+
+	"V-IFI-COND-COMMON2" [
+		shape = circle
+		label = ""
+		height=.1,width=.1
+	] ;
+
+	"V-IFI-COND-PERS" [
+		label = "<f0> ‹p1›‹sg›m |<f1> ‹p2›‹sg›n |<f2> ‹p3›‹sg› |<f3> ‹p1›‹pl›k |<f4> ‹p2›‹pl›nIz |<f5> ‹p3›‹pl›lAr"
+		shape = "record"
+	] ;
+
+	"V-IFI-COND-PERS-MI" [
+		label = "+mı‹qst›"
+		shape = "record"
+	] ;
+
+	"V-AOR" [
+		label = "<f0> ‹aor›Ir/Ar |<f1> ‹neg›‹aor›mAz"
+		shape = "record"
+	];
+
+	"V-INFL-PRE-COP" [
+		shape = circle
+		label = ""
+		height=.1,width=.1
+	] ;
+
+	"V-TENSE-MA-COMMON" [
+		//label = "<f0> ‹prog›Iyor |<f1> ‹fut›(y)AcAk |<f2> ‹past›mIş |<f3> ‹opt›(y)A |<f4> ‹nec›mAlI"
+		//shape = "record"
+		shape = circle
+		label = ""
+		height=.1,width=.1
+	] ;
+
+	"V-PROG" [
+		label = "‹prog›Iyor"
+		shape = record
+	] ;
+
+	"V-FUT" [
+		label = "‹fut›(y)AcAk"
+		shape = record
+	] ;
+
+	"V-PAST" [
+		label = "‹past›mIş"
+		shape = record
+	] ;
+	
+	"V-OPT" [
+		label = "‹opt›(y)A"
+		shape = record
+	] ;
+	
+	"V-NEC" [
+		label = "‹nec›mAlI"
+		shape = record
+	] ;
+
+	"V-DUB" [
+		label = "‹dub›mIş"
+		shape = record
+	] ;
+
+	"V-DUB-COMMON" [
+		shape = circle
+		label = ""
+		height=.1,width=.1
+	] ;
+
+	"V-MI" [
+		label = "+mı‹qst›"
+		shape = record
+	] ;
+
+	"V-MI-COMMON" [
+		shape = circle
+		label = ""
+		height=.1,width=.1
+	] ;
+
+	"V-COP" [
+		label = "+i‹cop›"
+		shape = record
+	] ;
+
+	"V-COP-IFI" [
+		label = "‹ifi›DI"
+		shape = record
+	] ;
+
+	"V-COP-IFI-PERS" [
+		label = "<f0> ‹p1›‹sg›m |<f1> ‹p2›‹sg›n |<f2> ‹p3›‹sg› |<f3> ‹p1›‹pl›k |<f4> ‹p2›‹pl›nIz |<f5> ‹p3›‹pl›lAr"
+		shape = "record"
+	] ;
+
+	"V-COP-AOR" [
+		label = "‹aor›"
+		shape = "record"
+	] ;
+
+	"V-COP-AOR-PERS" [
+		label = "<f0> ‹p1›‹sg›(y)Im |<f1> ‹p2›‹sg›sIn |<f2> ‹p3›‹sg› |<f3> ‹p3›‹sg›‹frm›DIr |<f4> ‹p1›‹pl›(y)Iz |<f5> ‹p2›‹pl›sInIz |<f6> ‹p3›‹pl›lAr"
+		shape = "record"
+	] ;
+
+
+
+	"V-INFL" -> "V-DERIV" ;
+	"V-INFL" -> "V-INFL-COMMON" ;
+	"V-DERIV" -> "V-INFL-COMMON" ;
+
+	"V-INFL-COMMON" -> "V-TENSE-MA" ;
+
+	"V-TENSE-MA" -> "V-TENSE-MA-COMMON" ;
+	"V-TENSE-MA" -> "V-TENSE-MA-NEG" ;
+
+	"V-INFL-COMMON" -> "V-TENSE-ABIL" ;
+	"V-TENSE-ABIL" -> "V-TENSE-MA-COMMON" ;
+	"V-TENSE-ABIL" -> "V-AOR" ;
+
+	"V-INFL-COMMON" -> "V-AOR" ;
+	"V-AOR" -> "V-INFL-PRE-COP" ;
+
+	"V-TENSE-MA-NEG" -> "V-TENSE-MA-COMMON";
+	"V-TENSE-MA-COMMON" -> "V-IFI-COND" ;
+	"V-TENSE-MA-COMMON" -> "V-PROG" ;
+	"V-TENSE-MA-COMMON" -> "V-FUT" ;
+	"V-TENSE-MA-COMMON" -> "V-PAST" ;
+	"V-TENSE-MA-COMMON" -> "V-OPT" ;
+	"V-TENSE-MA-COMMON" -> "V-NEC" ;
+
+	"V-IFI-COND" -> "V-IFI" ;
+	"V-IFI-COND" -> "V-COND" ;
+
+	"V-IFI" -> "V-IFI-COND-COMMON" ;
+	"V-COND" -> "V-IFI-COND-COMMON" ;
+	"V-IFI" -> "V-IFI-COP" ;
+	"V-COND" -> "V-COND-COP" ;
+	"V-IFI-COP" -> "V-IFI-COP-COND" ;
+	"V-COND-COP" -> "V-COND-COP-IFI" ;
+	"V-IFI-COP-COND" -> "V-IFI-COND-COMMON2" ;
+	"V-COND-COP-IFI" -> "V-IFI-COND-COMMON2" ;
+	"V-IFI-COND-COMMON" -> "V-IFI-COND-COMMON2" ;
+	"V-IFI-COND-COMMON2" -> "V-IFI-COND-PERS" ;
+	"V-IFI-COND-PERS" -> "V-IFI-COND-PERS-MI" ;
+
+
+	"V-PROG" -> "V-INFL-PRE-COP" ;
+	"V-FUT" -> "V-INFL-PRE-COP" ;
+	"V-PAST" -> "V-INFL-PRE-COP" ;
+	"V-OPT" -> "V-INFL-PRE-COP" ;
+	"V-NEC" -> "V-INFL-PRE-COP" ;
+
+	"V-INFL-PRE-COP" -> "V-DUB" ;
+	"V-DUB" -> "V-DUB-COMMON" ;
+	"V-INFL-PRE-COP" -> "V-DUB-COMMON" ;
+	"V-DUB-COMMON" -> "V-IFI-COP" ;
+
+	"V-DUB-COMMON" -> "V-MI" ;
+	"V-DUB-COMMON" -> "V-MI-COMMON" ;
+	"V-MI" -> "V-MI-COMMON" ;
+
+	"V-MI-COMMON" -> "V-COP" ;
+	"V-COP" -> "V-COP-IFI" ;
+	"V-COP-IFI" -> "V-COP-IFI-PERS" ;
+	"V-MI-COMMON" -> "V-COP-AOR" ;
+	"V-COP-AOR" -> "V-COP-AOR-PERS" ;
+}
