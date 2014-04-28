@@ -15,39 +15,59 @@ digraph g {
 	edge [
 	];
 
+	subgraph clusterV_INFL { style=filled; color=lightgrey;
+	label="V-INFL" ;
 	"V-INFL" [
 		label = "Verb Stem"
 		shape = "record"
 	];
+	}
 
+	subgraph clusterV_DERIV { style=filled; color=lightgrey;
+	label="V-DERIV" ;
 	"V-DERIV" [
 		label = "<f0> ‹pass›(I)L| <f1> ‹caus›DIr/t/etc. | <f2> ‹rec›(I)ş"
 		shape = "record"
 	];
+	}
 
+	subgraph clusterV_INFL_COMMON { style=filled; color=lightgrey;
+	label="V-INFL-COMMON" ;
 	"V-INFL-COMMON" [
 		shape = circle
 		label = ""
+		//xlabel = "V-INFL-COMMON"
 		height=.1,width=.1
-	]
+	];
+	}
 
-
+	subgraph clusterV_TENSE_MA { style=filled; color=lightgrey;
+	label="V-TENSE-MA" ;
 	"V-TENSE-MA" [
 		shape = circle
 		label = ""
 		height=.1,width=.1
-	]
+	];
+	}
 
+	subgraph clusterV_TENSE_MA_NEG { style=filled; color=lightgrey;
+	label="V-TENSE-MA-NEG" ;
 	"V-TENSE-MA-NEG" [
 		label = "‹neg›MA"
 		shape = "record"
 	];
+	}
 
+	subgraph clusterV_TENSE_ABIL { style=filled; color=lightgrey;
+	label="V-TENSE-ABIL" ;
 	"V-TENSE-ABIL" [
 		label = "<f0> ‹abil›Abil |<f1> ‹abil›‹neg›(y)AmA"
 		shape = "record"
-	]
+	];
+	}
 
+	subgraph clusterV_IFI_COND { style=filled; color=lightgrey;
+	label="V-IFI-COND" ;
 	"V-IFI-COND" [
 		shape = circle, //diamond
 		//style=filled
@@ -55,73 +75,112 @@ digraph g {
 		label = ""
 		height=.1,width=.1
 	];
+	}
 
+	subgraph clusterV_COND { style=filled; color=lightgrey;
+	label="V-COND" ;
 	"V-COND" [
 		label = "‹cond›sA"
 		shape = "record"
 	];
+	}
 
+	subgraph clusterV_IFI { style=filled; color=lightgrey;
+	label="V-IFI" ;
 	"V-IFI" [
 		label = "‹ifi›DI"
 		shape = "record"
 	];
+	}
 
+	subgraph clusterV_IFI_COND_COMMON { style=filled; color=lightgrey;
+	label="V-IFI-COND-COMMON" ;
 	"V-IFI-COND-COMMON" [
 		shape = circle
 		label = ""
 		height=.1,width=.1
 	] ;
+	}
 
+	subgraph clusterV_IFI_COP { style=filled; color=lightgrey;
+	label="V-IFI-COP" ;
 	"V-IFI-COP" [
 		label = "+i‹cop›"
 		shape = record
 	] ;
+	}
 
+	subgraph clusterV_COND_COP { style=filled; color=lightgrey;
+	label="V-COND-COP" ;
 	"V-COND-COP" [
 		label = "+i‹cop›"
 		shape = record
 	] ;
+	}
 
+	subgraph clusterV_IFI_COP_COND { style=filled; color=lightgrey;
+	label="V-IFI-COP-COND" ;
 	"V-IFI-COP-COND" [
 		label = "‹cond›sA"
 		shape = record
 	] ;
+	}
 
+	subgraph clusterV_COND_COP_IFI { style=filled; color=lightgrey;
+	label="V-COND-COP-IFI" ;
 	"V-COND-COP-IFI" [
 		label = "‹ifi›DI"
 		shape = "record"
 	] ;
+	}
 
+	subgraph clusterV_IFI_COND_COMMON2 { style=filled; color=lightgrey;
+	label="V-IFI-COND-COMMON2" ;
 	"V-IFI-COND-COMMON2" [
 		shape = circle
 		label = ""
 		//xlabel = "V-IFI-COND-COMMON2"
 		height=.1,width=.1
 	] ;
+	}
 
+	subgraph clusterV_IFI_COND_PERS { style=filled; color=lightgrey;
+	label="V-IFI-COND-PERS" ;
 	"V-IFI-COND-PERS" [
 		label = "<f0> ‹p1›‹sg›m |<f1> ‹p2›‹sg›n |<f2> ‹p3›‹sg› |<f3> ‹p1›‹pl›k |<f4> ‹p2›‹pl›nIz |<f5> ‹p3›‹pl›lAr"
 		shape = "record"
 	] ;
+	}
 
+	subgraph clusterV_IFI_COND_PERS_MI { style=filled; color=lightgrey;
+	label="V-IFI-COND-PERS-MI" ;
 	"V-IFI-COND-PERS-MI" [
 		label = "+mı‹qst›"
 		shape = "record"
 	] ;
+	}
 
+	subgraph clusterV_AOR { style=filled; color=lightgrey;
+	label="V-AOR" ;
 	"V-AOR" [
 		label = "<f0> ‹aor›Ir/Ar |<f1> ‹neg›‹aor›mAz"
 		//xlabel = "V-AOR"
 		shape = "record"
 	];
+	}
 
+	subgraph clusterV_INFL_PRE_COP { style=filled; color=lightgrey;
+	label="V-INFL-PRE-COP" ;
 	"V-INFL-PRE-COP" [
 		shape = circle
 		label = ""
 		//xlabel = "V-INFL-PRE-COP"
 		height=.1,width=.1
 	] ;
+	}
 
+	subgraph clusterV_TENSE_MA_COMMON { style=filled; color=lightgrey;
+	label="V-TENSE-MA-COMMON" ;
 	"V-TENSE-MA-COMMON" [
 		//label = "<f0> ‹prog›Iyor |<f1> ‹fut›(y)AcAk |<f2> ‹past›mIş |<f3> ‹opt›(y)A |<f4> ‹nec›mAlI"
 		//shape = "record"
@@ -130,91 +189,134 @@ digraph g {
 		//xlabel = "V-TENSE-MA-COMMON"
 		height=.1,width=.1
 	] ;
+	}
 
+	subgraph clusterV_PROG { style=filled; color=lightgrey;
+	label="V-PROG" ;
 	"V-PROG" [
 		label = "‹prog›Iyor"
 		//xlabel = "V-PROG"
 		shape = record
 	] ;
+	}
 
+	subgraph clusterV_FUT { style=filled; color=lightgrey;
+	label="V-FUT" ;
 	"V-FUT" [
 		label = "‹fut›(y)AcAk"
 		//xlabel = "V-FUT"
 		shape = record
 	] ;
+	}
 
+	subgraph clusterV_PAST { style=filled; color=lightgrey;
+	label="V-PAST" ;
 	"V-PAST" [
 		label = "‹past›mIş"
 		//xlabel = "V-PAST"
 		shape = record
 	] ;
+	}
 	
+	subgraph clusterV_OPT { style=filled; color=lightgrey;
+	label="V-OPT" ;
 	"V-OPT" [
 		label = "‹opt›(y)A"
 		//xlabel = "V-OPT"
 		shape = record
 	] ;
+	}
 	
+	subgraph clusterV_NEC { style=filled; color=lightgrey;
+	label="V-NEC" ;
 	"V-NEC" [
 		label = "‹nec›mAlI"
 		//xlabel = "V-NEC"
 		shape = record
 	] ;
+	}
 
+	subgraph clusterV_DUB { style=filled; color=lightgrey;
+	label="V_DUB" ;
 	"V-DUB" [
 		label = "‹dub›mIş"
 		//xlabel = "V-DUB"
 		shape = record
 	] ;
+	}
 
+	subgraph clusterV_DUB_COMMON { style=filled; color=lightgrey;
+	label="V-DUB-COMMON" ;
 	"V-DUB-COMMON" [
 		shape = circle
 		label = ""
 		//xlabel = "V-DUB-COMMON"
 		height=.1,width=.1
 	] ;
+	}
 
+	subgraph clusterV_MI { style=filled; color=lightgrey;
+	label="V-MI" ;
 	"V-MI" [
 		label = "+mı‹qst›"
 		//xlabel = "V-MI"
 		shape = record
 	] ;
+	}
 
+	subgraph clusterV_MI_COMMON { style=filled; color=lightgrey;
+	label="V-MI-COMMON" ;
 	"V-MI-COMMON" [
 		shape = circle
 		label = ""
 		//xlabel = "V-MI-COMMON"
 		height=.1,width=.1
 	] ;
+	}
 
+	subgraph clusterV_COP { style=filled; color=lightgrey;
+	label="V-COP" ;
 	"V-COP" [
 		label = "+i‹cop›"
 		//xlabel = "V-COP"
 		shape = record
 	] ;
+	}
 
+	subgraph clusterV_COP_IFI { style=filled; color=lightgrey;
+	label="V-COP-IFI" ;
 	"V-COP-IFI" [
 		label = "‹ifi›DI"
 		//xlabel = "V-COP-IFI"
 		shape = record
 	] ;
+	}
 
+	subgraph clusterV_COP_IFI_PERS { style=filled; color=lightgrey;
+	label="V-COP-IFI-PERS" ;
 	"V-COP-IFI-PERS" [
 		label = "<f0> ‹p1›‹sg›m |<f1> ‹p2›‹sg›n |<f2> ‹p3›‹sg› |<f3> ‹p1›‹pl›k |<f4> ‹p2›‹pl›nIz |<f5> ‹p3›‹pl›lAr"
 		//xlabel = "V-COP-IFI-PERS"
 		shape = "record"
 	] ;
+	}
 
+	subgraph clusterV_COP_AOR { style=filled; color=lightgrey;
+	label="V_COP_AOR" ;
 	"V-COP-AOR" [
 		label = "‹aor›"
 		//xlabel = "V-COP-AOR"
 		shape = "record"
 	] ;
+	}
 
+	subgraph clusterV_COP_AOR_PERS { style=filled; color=lightgrey;
+	label="V-COP-AOR-PERS" ;
 	"V-COP-AOR-PERS" [
 		label = "<f0> ‹p1›‹sg›(y)Im |<f1> ‹p2›‹sg›sIn |<f2> ‹p3›‹sg› |<f3> ‹p3›‹sg›‹frm›DIr |<f4> ‹p1›‹pl›(y)Iz |<f5> ‹p2›‹pl›sInIz |<f6> ‹p3›‹pl›lAr"
 		shape = "record"
 	] ;
+	}
 
 
 
@@ -224,7 +326,7 @@ digraph g {
 
 	"V-INFL-COMMON" -> "V-TENSE-MA" ;
 
-	"V-TENSE-MA" -> "V-TENSE-MA-COMMON" [constraint=false]  ;
+	"V-TENSE-MA" -> "V-TENSE-MA-COMMON"  [constraint=false]  ;
 	"V-TENSE-MA" -> "V-TENSE-MA-NEG" ;
 
 	"V-INFL-COMMON" -> "V-TENSE-ABIL" ;
@@ -270,7 +372,7 @@ digraph g {
 	"V-DUB-COMMON" -> "V-IFI-COP" ;
 
 	"V-DUB-COMMON" -> "V-MI" ; // [taillabel="V-DUB-COMMON",labelangle=90]  ;
-	"V-DUB-COMMON" -> "V-MI-COMMON" [constraint=false] ;
+	"V-DUB-COMMON" -> "V-MI-COMMON"  [constraint=false] ;
 	"V-MI" -> "V-MI-COMMON" ; // [taillabel="V-MI",labelangle=90] ;
 
 	"V-MI-COMMON" -> "V-COP" ;
