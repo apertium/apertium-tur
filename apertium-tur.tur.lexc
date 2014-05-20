@@ -180,6 +180,8 @@ Multichar_Symbols
 
 %{v%}              ! Apply voicing rules
 
+%{z%}              ! Realise as z, delete in p1 forms
+
 %>
 %+
 % 
@@ -482,20 +484,20 @@ V-AOR-IR ;
 V-TENSE-COMMON ;
 
 LEXICON V-AOR-IR
-%<aor%>:%>%{i%}r COPULA-MIMIS ;
+%<aor%>:%>%{i%}r V-INFL-PRE-COP ;
 V-AOR-NEG ;
 
 LEXICON V-AOR-AR
-%<aor%>:%>%{A%}r COPULA-MIMIS ;
+%<aor%>:%>%{A%}r V-INFL-PRE-COP ;
 V-AOR-NEG ;
 
 LEXICON V-AOR-NEG
-%<neg%>%<aor%>:%>m%{A%}z COPULA-MIMIS ;
+%<neg%>%<aor%>:%>m%{A%}%{z%} V-INFL-PRE-COP ;
 
 LEXICON V-TENSE-COMMON
 
 V-TENSE-MA ;
-V-ABIL ;
+V-TENSE-ABIL ;
 
 LEXICON V-TENSE-MA
 
@@ -533,75 +535,108 @@ LEXICON V-NEC
 %<nec%>:%>m%{A%}l%{I%} COPULA-MISMI ;
 
 
-LEXICON V-ABIL
+LEXICON V-TENSE-ABIL
 
-%<abil%>:%>%{y%}%{A%}bil V-ABIL-AFF ;
-%<neg%>%<abil%>:%>%{y%}%{A%}m%{A%} V-ABIL-NEG ;
+%<abil%>:%>%{y%}%{A%}bil V-TENSE-ABIL-AFF ;
+%<abil%>%<neg%>:%>%{y%}%{A%}m%{A%} V-TENSE-ABIL-NEG ;
 
-LEXICON V-ABIL-NEG
-
-V-TENSE-MA-COMMON ;
-%<aor%>: V-ABIL-AOR-NEG-PERS ;
-V-GERUNDS ;
-
-LEXICON V-ABIL-AFF
+LEXICON V-TENSE-ABIL-NEG
 
 V-TENSE-MA-COMMON ;
-%<aor%>:%>%{i%}r COPULA-MIMIS ;
+%<aor%>:%{z%} V-INFL-PRE-COP ;
 V-GERUNDS ;
 
-LEXICON V-ABIL-AOR-NEG-PERS
+LEXICON V-TENSE-ABIL-AFF
 
-%<p1%>%<sg%>:%>m  COPULA-MIMIS ;
-%<p2%>%<sg%>:z%>s%{I%}n  COPULA-MIMIS ;
-%<p3%>%<sg%>:z%> COPULA-MIMIS ;
-%<p3%>%<frm%>%<sg%>:z%>%{D%}%{I%}r  COPULA-MIMIS ;
-%<p1%>%<pl%>:%>m%{I%}z  COPULA-MIMIS ;
-%<p2%>%<pl%>:z%>s%{I%}n%{I%}z  COPULA-MIMIS ;
-%<p3%>%<pl%>:z%>l%{A%}r  COPULA-MIMIS ;
+V-TENSE-MA-COMMON ;
+%<aor%>:%>%{i%}r V-INFL-PRE-COP ;
+V-GERUNDS ;
+
+
+
+!LEXICON V-TENSE-ABIL-AOR-NEG-PERS
+!
+!%<p1%>%<sg%>:%>m  COPULA-MIMIS ;
+!%<p2%>%<sg%>:z%>s%{I%}n  COPULA-MIMIS ;
+!%<p3%>%<sg%>:z%> COPULA-MIMIS ;
+!%<p3%>%<frm%>%<sg%>:z%>%{D%}%{I%}r  COPULA-MIMIS ;
+!%<p1%>%<pl%>:%>m%{I%}z  COPULA-MIMIS ;
+!%<p2%>%<pl%>:z%>s%{I%}n%{I%}z  COPULA-MIMIS ;
+!%<p3%>%<pl%>:z%>l%{A%}r  COPULA-MIMIS ;
 
 LEXICON V-PAST
 
-%<past%>:%>m{I%}ş COPULA-MISMI ;
+%<past%>:%>m%{I%}ş COPULA-MISMI ;
 
 LEXICON V-OPT
 
 %<opt%>:%>%{y%}%{A%} COPULA-MISMI ;
 
-LEXICON V-IFI-COMMON
+LEXICON V-IFI-COND-COMMON
 
-V-IFI-COND-PRS ;
-COPULA-IFI-MI ;
+V-IFI-COND-PERS ;
+!COPULA-IFI-MI ;
 
 LEXICON V-IFI
 
-%<ifi%>:%>%{D%}{I%} V-IFI-COMMON ;
+%<ifi%>:%>%{D%}%{I%} V-IFI-COND-COMMON ;
+%<ifi%>:%>%{D%}%{I%} V-IFI-COP ;
+
 
 LEXICON V-COND-COMMON
 
-V-IFI-COND-PRS ;
+V-IFI-COND-PERS ;
 COPULA-IFI ;
 
 LEXICON V-COND
 
-%<cond%>:%>s{A%} V-COND-COMMON ;
+%<cond%>:%>s%{A%} V-COND-COP ;
+%<cond%>:%>s%{A%} V-IFI-COND-COMMON ;
 
-!LEXICON V-IFI-COND-PRS
+LEXICON V-COND-COP
+%+i%<cop%>:%>%{y%} V-COND-COP-IFI ;
+
+LEXICON V-COND-COP-IFI
+%<ifi%>:%>%{D%}%{I%} V-IFI-COND-COMMON ;
+
+!LEXICON V-IFI-COND-PERS
 !
-!V-IFI-COND-PRS ;
+!V-IFI-COND-PERS ;
 !COPULA-COND ;
 
-LEXICON V-IFI-COND-PRS
+LEXICON V-COP-PERS
 
-%<p1%>%<sg%>:%>m V-IFI-COND-QST ;
-%<p2%>%<sg%>:%>n V-IFI-COND-QST ;
-%<p3%>%<sg%>:%> V-IFI-COND-QST ;
-%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r V-IFI-COND-QST ;
-%<p1%>%<pl%>:%>k V-IFI-COND-QST ;
-%<p2%>%<pl%>:%>%{i%}n%{I%}z V-IFI-COND-QST ;
-%<p3%>%<pl%>:%>l%{A%}r V-IFI-COND-QST ;
+%<p1%>%<sg%>:%>%{y%}%{I%}m  # ;
+%<p2%>%<sg%>:%>s%{I%}n  # ;
+%<p3%>%<sg%>: # ;
+%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r  # ;
+%<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
+%<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
+%<p3%>%<pl%>:%>l%{A%}r  # ;
 
-LEXICON V-IFI-COND-QST
+
+LEXICON V-COP-IFI-PERS 
+
+%<p1%>%<sg%>:%>m # ;
+%<p2%>%<sg%>:%>n # ;
+%<p3%>%<sg%>:%> # ;
+%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
+%<p1%>%<pl%>:%>k # ;
+%<p2%>%<pl%>:%>%{i%}n%{I%}z # ;
+%<p3%>%<pl%>:%>l%{A%}r # ;
+
+
+LEXICON V-IFI-COND-PERS
+
+%<p1%>%<sg%>:%>m V-IFI-COND-PERS-QST ;
+%<p2%>%<sg%>:%>n V-IFI-COND-PERS-QST ;
+%<p3%>%<sg%>:%> V-IFI-COND-PERS-QST ;
+%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r V-IFI-COND-PERS-QST ;
+%<p1%>%<pl%>:%>k V-IFI-COND-PERS-QST ;
+%<p2%>%<pl%>:%>%{i%}n%{I%}z V-IFI-COND-PERS-QST ;
+%<p3%>%<pl%>:%>l%{A%}r V-IFI-COND-PERS-QST ;
+
+LEXICON V-IFI-COND-PERS-QST
 %+mı%<qst%>:% m%{I%} # ;
 # ;
 
@@ -611,6 +646,37 @@ LEXICON V-IFI-COND-QST
 !LEXICON COPULA-TNS-COMMON
 !V-PAST ;
 
+LEXICON V-INFL-PRE-COP
+V-DUB ;
+V-DUB-COMMON ;
+
+LEXICON V-DUB
+%<dub%>:%>m%{I%}ş V-DUB-COMMON ;
+V-DUB-COMMON ;
+
+LEXICON V-DUB-COMMON
+V-IFI-COP ;
+V-MI ;
+V-MI-COMMON ;
+
+LEXICON V-IFI-COP
+%+i%<cop%>:%>%{y%} V-IFI-COP-COND ;
+
+LEXICON V-MI
+%+mı%<qst%>:% m%{I%} V-MI-COMMON ;
+
+LEXICON V-MI-COMMON
+V-COP-PERS ;
+V-COP ;
+
+LEXICON V-COP
+%+i%<cop%>:%>%{y%} V-COP-IFI ;
+
+LEXICON V-COP-IFI
+%<ifi%>:%{D%}%{I%} V-COP-IFI-PERS ;
+
+LEXICON V-IFI-COP-COND
+%<cond%>:%>s%{A%} V-IFI-COND-COMMON ;
 
 LEXICON COPULA-MIMIS-DUB
 %<dub%>:%>m%{I%}ş COPULA-MIMIS-COMMON ;
@@ -717,10 +783,10 @@ LEXICON COPULA-IFI-PRS
 %<p3%>%<pl%>:%>l%{A%}r # ;
 
 LEXICON COPULA-IFI
-%<ifi%>:%>%{D%}{I%} COPULA-IFI-PRS ;
+%<ifi%>:%>%{D%}%{I%} COPULA-IFI-PRS ;
 
-LEXICON COPULA-IFI-MI
-%+i%<cop%>%<ifi%>:%>%{y%}%>%{D%}%{I%} V-IFI-COND-PRS ;
+!LEXICON COPULA-IFI-MI
+!%+i%<cop%>%<ifi%>:%>%{y%}%>%{D%}%{I%} V-IFI-COND-PERS ;
 
 LEXICON COPULA-AOR
 
@@ -728,7 +794,7 @@ LEXICON COPULA-AOR
 
 LEXICON COPULA-COND
 
-%<cond%>:s%{A%} V-IFI-COND-PRS ;
+%<cond%>:s%{A%} V-IFI-COND-PERS ;
 
 
 

@@ -17,6 +17,8 @@ Alphabet
 
  %{e%}:e
 
+ %{z%}:z
+
  %{ii%}:0 %{o%}:0 %{ö%}:0 %{ı%}:0 %{p%}:0 %{b%}:0 ! For numerals and abbreviations / acronyms
  
  %{pN%}:0
@@ -73,6 +75,7 @@ Rules
         except
                                              %{e%}:0 %>: _ ;
                                          [ AbstrVow:0 - %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
+                               [ %{z%}:0 %>: %{y%}: ]/:0 _ ;
         where 
             LastVowel in ( i ü e ö ı u a o )
                    Vy in ( i ü i ü ı u ı u ) 
@@ -85,6 +88,7 @@ Rules
              [ AbstrVow: - [ Vx: | %{u%}: ] ] [ :0 | :Cns | :%' | % ]* _ ; 
                                               %{e%}:0 %>: _ ;
 !                      [ %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
+                                [ %{z%}:0 %>: %{y%}: ]/:0 _ ;
         where 
               Vx in ( %{fi%} %{ii%} %{o%} %{ö%} %{ı%} ) 
               Vy   in (  i      i     u     ü     ı   )  
@@ -117,6 +121,9 @@ Rules
 
 "Special harmony for {e}"
 %{I%}:i <=> %{e%}:0 %>: _ ; 
+
+"Delete %{I%} after %{z%} in aorist forms with %{y%}"
+%{I%}:0 <=> [ %{z%}:0 %>: %{y%}: ]/:0 _ ;
 
 "Special harmony for {e} 2 "
 %{e%}:i <=>  _ %>: %{y%}:y ; 

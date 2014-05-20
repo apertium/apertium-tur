@@ -66,6 +66,24 @@ digraph g {
 	];
 	}
 
+	subgraph clusterV_TENSE_ABIL_NEG { style=filled; color=lightgrey;
+	label="V-TENSE-ABIL-NEG" ;
+	"V-TENSE-ABIL-NEG" [
+		shape = circle,
+		label = ""
+		height=.1,width=.1
+	];
+	}
+
+	subgraph clusterV_TENSE_ABIL_AFF { style=filled; color=lightgrey;
+	label="V-TENSE-ABIL-AFF" ;
+	"V-TENSE-ABIL-AFF" [
+		shape = circle,
+		label = ""
+		height=.1,width=.1
+	];
+	}
+
 	subgraph clusterV_IFI_COND { style=filled; color=lightgrey;
 	label="V-IFI-COND" ;
 	"V-IFI-COND" [
@@ -163,11 +181,22 @@ digraph g {
 	subgraph clusterV_AOR { style=filled; color=lightgrey;
 	label="V-AOR" ;
 	"V-AOR" [
+		//label = "‹aor›Ir/Ar"
 		label = "<f0> ‹aor›Ir/Ar |<f1> ‹neg›‹aor›mAz"
 		//xlabel = "V-AOR"
 		shape = "record"
 	];
 	}
+
+//	subgraph clusterV_AOR_NEG { style=filled; color=lightgrey;
+//	label="V-AOR-NEG" ;
+//	"V-AOR-NEG" [
+//		label = "‹neg›‹aor›mAz"
+//		//xlabel = "V-AOR"
+//		shape = "record"
+//	];
+//	}
+
 
 	subgraph clusterV_INFL_PRE_COP { style=filled; color=lightgrey;
 	label="V-INFL-PRE-COP" ;
@@ -237,7 +266,7 @@ digraph g {
 	}
 
 	subgraph clusterV_DUB { style=filled; color=lightgrey;
-	label="V_DUB" ;
+	label="V-DUB" ;
 	"V-DUB" [
 		label = "‹dub›mIş"
 		//xlabel = "V-DUB"
@@ -330,11 +359,16 @@ digraph g {
 	"V-TENSE-MA" -> "V-TENSE-MA-NEG" ;
 
 	"V-INFL-COMMON" -> "V-TENSE-ABIL" ;
-	"V-TENSE-ABIL" -> "V-TENSE-MA-COMMON" ;
-	"V-TENSE-ABIL" -> "V-AOR" ;
+	"V-TENSE-ABIL":f0 -> "V-TENSE-ABIL-AFF" ;
+	"V-TENSE-ABIL":f1 -> "V-TENSE-ABIL-NEG" ;
+	"V-TENSE-ABIL-AFF" -> "V-TENSE-MA-COMMON" ;
+	"V-TENSE-ABIL-NEG" -> "V-TENSE-MA-COMMON" ;
+	"V-TENSE-ABIL-AFF" -> "V-AOR" ;
 
 	"V-INFL-COMMON" -> "V-AOR" ;
+//	"V-INFL-COMMON" -> "V-AOR-NEG" ;
 	"V-AOR" -> "V-INFL-PRE-COP" ;
+//	"V-AOR-NEG" -> "V-INFL-PRE-COP" ;
 
 	"V-TENSE-MA-NEG" -> "V-TENSE-MA-COMMON";
 	"V-TENSE-MA-COMMON" -> "V-IFI-COND" ;
