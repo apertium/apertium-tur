@@ -75,7 +75,7 @@ Rules
         except
                                              %{e%}:0 %>: _ ;
                                          [ AbstrVow:0 - %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
-                               [ %{z%}:0 %>: %{y%}: ]/:0 _ ;
+                      [ %{z%}:0 %>: %{y%}: %{I%}: m ]/:0 _ ;
         where 
             LastVowel in ( i ü e ö ı u a o )
                    Vy in ( i ü i ü ı u ı u ) 
@@ -124,6 +124,9 @@ Rules
 
 "Delete %{I%} after %{z%} in aorist forms with %{y%}"
 %{I%}:0 <=> [ %{z%}:0 %>: %{y%}: ]/:0 _ ;
+
+"Delete %{z%} in aorist forms with %{y%}"
+%{z%}:0 <=> _ [ %>: %{y%}: ]/:0 ;
 
 "Special harmony for {e} 2 "
 %{e%}:i <=>  _ %>: %{y%}:y ; 
@@ -284,6 +287,8 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 
 "Epenthetic consonants after vowel"
 Cx:Cy <=>  [ [ AbstrVow: - %{fi%}: ] | :SurVow ] (%':) (:0) %>: _ ; 
+        except
+            %{z%}:0 %>: _ %{I%}: m ;
         where
             Cx in ( %{n%} %{s%} %{y%} ) 
             Cy in (   n     s     y   ) 

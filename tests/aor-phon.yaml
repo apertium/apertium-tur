@@ -1,6 +1,6 @@
 Config: 
   hfst: 
-    App:  hfst-optimised-lookup
+    App:  hfst-lookup
     Gen:  ../tur.autogen.hfst
     Morph:  ../tur.automorf.hfst
 
@@ -14,8 +14,20 @@ Tests:
     yen<v><tv><aor><p3><sg> : yenir
     yen<v><tv><aor><p1><sg> : yenirim
 
-  "[twol] {i}aor after passive":
+  "[twol] {i} aor after passive":
     pudrala<v><tv><pass><aor><p3><sg> : pudralanır
     pudrala<v><tv><pass><aor><p1><sg> : pudralanırım
+
+  "[twol] forms with {z}:0":
+    git<v><iv><neg><aor><p1><sg> : gitmem
+    git<v><iv><neg><aor><p1><pl> : gitmeyiz
+    git<v><iv><abil><neg><aor><p1><sg> : gidemem
+    git<v><iv><abil><neg><aor><p1><pl> : gidemeyiz
+
+  "[twol] forms with {z}:z":
+    git<v><iv><neg><aor><p2><sg> : gitmezsin
+    git<v><iv><neg><aor><p2><pl> : gitmezsiniz
+    git<v><iv><abil><neg><aor><p2><sg> : gidemezsin
+    git<v><iv><abil><neg><aor><p2><pl> : gidemezsiniz
 
 
