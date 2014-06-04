@@ -75,7 +75,7 @@ Rules
         except
                                              %{e%}:0 %>: _ ;
                                          [ AbstrVow:0 - %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
-                      [ %{z%}:0 %>: %{y%}: %{I%}: m ]/:0 _ ;
+                      [ %{z%}:0 %>: %{y%}: ]/:0 _ :m ;
         where 
             LastVowel in ( i ü e ö ı u a o )
                    Vy in ( i ü i ü ı u ı u ) 
@@ -122,8 +122,8 @@ Rules
 "Special harmony for {e}"
 %{I%}:i <=> %{e%}:0 %>: _ ; 
 
-"Delete %{I%} after %{z%} in aorist forms with %{y%}"
-%{I%}:0 <=> [ %{z%}:0 %>: %{y%}: ]/:0 _ ;
+"Delete %{I%} after %{z%} in p1.sg aorist form (but leave in p1.pl)"
+%{I%}:0 <=> [ %{z%}:0 %>: %{y%}: ]/:0 _ :m ;
 
 "Delete %{z%} in aorist forms with %{y%}"
 %{z%}:0 <=> _ [ %>: %{y%}: ]/:0 ;
