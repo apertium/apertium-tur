@@ -261,8 +261,16 @@ REMOVE Ger IF
 	(
 		(1* N BARRIER (NOT PRE-N))
 		OR
-		(0/2* N BARRIER (NOT PRE-N))
+		(1*/2 N BARRIER (NOT PRE-N))
 	) ;
+
+# Olmak istediğim insan mıyım
+# "<insan mıyım>"
+# 	"i" cop aor p1 sg
+# 		"mı" qst
+# 			"insan" n nom
+
+
 
 SELECT Gna IF
 	( (0 Sg3) OR (0/1 Sg3) )
