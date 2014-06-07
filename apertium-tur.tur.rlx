@@ -258,7 +258,11 @@ SELECT Advl IF
 
 REMOVE Ger IF
 	(0 Gpr)
-	(1* N BARRIER (NOT PRE-N)) ;
+	(
+		(1* N BARRIER (NOT PRE-N))
+		OR
+		(0/2* N BARRIER (NOT PRE-N))
+	) ;
 
 SELECT Gna IF
 	( (0 Sg3) OR (0/1 Sg3) )
