@@ -259,9 +259,7 @@ SELECT Advl IF
 REMOVE Ger IF
 	(0 Gpr)
 	(
-		(1* N BARRIER (NOT PRE-N))
-		OR
-		(1*/2 N BARRIER (NOT PRE-N))
+		(1*/* N BARRIER (NOT PRE-N))
 	) ;
 
 # Olmak istediğim insan mıyım
