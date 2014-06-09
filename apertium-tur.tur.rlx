@@ -283,7 +283,7 @@ REMOVE Ger IF
 
 
 MAP (@HARGLE) P3Pred
-	( (1* COMMA ) OR (1* CC) ) ;
+	( (1 COMMA ) OR (1 CC) ) ;
 
 
 REMOVE Gna IF (1 COMMA LINK 1 CC) ;
