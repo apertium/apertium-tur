@@ -123,10 +123,10 @@ Rules
 %{I%}:i <=> %{e%}:0 %>: _ ; 
 
 "Delete %{I%} after %{z%} in p1.sg aorist form (but leave in p1.pl)"
-%{I%}:0 <=> [ %{z%}:0 %>: %{y%}: ]/:0 _ :m ;
+%{I%}:0 <=> [ %{A%}: %{z%}:0 %>: %{y%}: ]/:0 _ :m ;
 
 "Delete %{z%} in aorist forms with %{y%}"
-%{z%}:0 <=> _ [ %>: %{y%}: ]/:0 ;
+%{z%}:0 <=> %{A%}: _ [ %>: %{y%}: ]/:0 ;
 
 "Special harmony for {e} 2 "
 %{e%}:i <=>  _ %>: %{y%}:y ; 
@@ -288,7 +288,7 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 "Epenthetic consonants after vowel"
 Cx:Cy <=>  [ [ AbstrVow: - %{fi%}: ] | :SurVow ] (%':) (:0) %>: _ ; 
         except
-            %{z%}:0 %>: _ %{I%}: m ;
+            %{A%}: %{z%}:0 %>: _ %{I%}: m ;
         where
             Cx in ( %{n%} %{s%} %{y%} ) 
             Cy in (   n     s     y   ) 
@@ -340,7 +340,8 @@ k:g <=> :n _ %{v%}: %>: (:0) :Vow ;
 Vx:0 <=> _ %>: %{I%}: y:y o:o r:r  ;
        where Vx in ( a e i o u ı ö ü ) ;
 
-"Deletion of %{A%} before -{I}yor"
+"Deletion of %{A%} before -{I}yor and after a vowel"
 %{A%}:0 <=> _ %>: %{I%}: y:y o:o r:r ;
- 	  	 
-! oyna>{I}yor    = oynuyor = o:o y:y n:n a:0 >:0 {I}:u y:y o:o r:r
+ 	        ! oyna>{I}yor    = oynuyor = o:o y:y n:n a:0 >:0 {I}:u y:y o:o r:r
+           :Vow/[ :0 - [ AbstrCns: | AbstrVow: ] ]  _ ;
+           ! başla>{A}y{I}m = başlayım

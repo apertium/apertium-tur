@@ -60,6 +60,7 @@ Multichar_Symbols
 %<sg%>             ! Singular  
 %<pl%>             ! Plural    
 %<sp%>             ! Singular/Plural (used for formal personal pronoun)
+%<frm%>
 
 ! Possessives 
 %<px1sg%>          ! First person singular
@@ -516,6 +517,7 @@ V-FUT ;
 V-NEC ;
 V-OPT ;
 V-PAST ;
+V-IMP ;
 
 LEXICON V-IFI-COND
 
@@ -571,6 +573,22 @@ LEXICON V-PAST
 LEXICON V-OPT
 
 %<opt%>:%>%{y%}%{A%} COPULA-MISMI ;
+
+LEXICON V-IMP-PERS
+
+%<p1%>%<sg%>:%>%{y%}%{A%}y%{I%}m V-IFI-COND-PERS-QST ; ! Dir/LR
+%<p1%>%<sg%>:%>%{A%}y%{I%}m V-IFI-COND-PERS-QST ;
+%<p2%>%<sg%>:%> V-IFI-COND-PERS-QST ;
+%<p2%>%<frm%>:%>%{y%}%{I%}n V-IFI-COND-PERS-QST ;
+%<p3%>%<sg%>:%>s%{I%}n V-IFI-COND-PERS-QST ;
+%<p1%>%<pl%>:%>%{y%}%{A%}l%{I%}m V-IFI-COND-PERS-QST ;
+%<p2%>%<pl%>:%>s%{A%}n%{A%} V-IFI-COND-PERS-QST ; ! FIXME: not just softened sg?
+%<p3%>%<pl%>:%>s%{I%}n V-IFI-COND-PERS-QST ;
+
+
+LEXICON V-IMP
+
+%<imp%>: V-IMP-PERS ;
 
 LEXICON V-IFI-COND-COMMON
 
