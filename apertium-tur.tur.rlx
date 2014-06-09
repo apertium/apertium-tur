@@ -69,6 +69,7 @@ SET POSS = Px1Sg | Px2Sg | Px3Sp | Px1Pl | Px2Pl ;
 
 LIST Imper = imp ; 
 LIST Opt = opt ;
+LIST Pot = pot ;
 
 SET PRE-N = Det | Num | Attr | A | Gen | ("-") ; # CC 
 
@@ -114,13 +115,14 @@ SELECT Adv IF (0 ("yarın")) ;
 REMOVE Cog + Px2Sg IF (0 Cog + Gen) ; 
     ## [0]Cinciç'in anısına Belgrad'da binlerce kişi toplandı.
 
-#REMOVE Imper IF (NOT 0C Imper) ;
-REMOVE Imper IF (NOT 0C/* Opt OR Imper) ;
+REMOVE Imper IF (NOT 0C Imper) ;
     ## Bunlar, bu hafta içinde dünyanın dört bir yanından İtalyan başkentine [0]akın etmiş olan yaklaşık dört milyon hacı ve yaslı kalabalığa katıldı.
 
-REMOVE Opt IF (0/* Imper) ;
+#REMOVE Imper IF (NOT 0C/* Imper OR Pot) ;
 
-REMOVE SUB:1 Opt IF (0/* Imper) ;
+REMOVE Pot IF (0/* Opt) ;
+
+REMOVE SUB:1 Pot IF (0/* Opt) ;
 
 SELECT Det IF
 	(1 N) ;
