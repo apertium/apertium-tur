@@ -23,6 +23,8 @@ LIST Qst = qst ;
 
 LIST Tv = (v tv) (v iv caus) (=tv) ;
 
+LIST P3Pred = (aor p3 sg) ;
+
 LIST Pers = (prn pers) ;  # Use e.g. Sg3 + Pers to match pronouns
 LIST Pl1 = (p1 pl) ;
 LIST Sg2 = (p2 sg) ;
@@ -270,14 +272,19 @@ REMOVE Ger IF
 
 
 
-SELECT Gna IF
-	( 0/* Sg3 )
-	(
-		(1 COMMA)
-		OR
-		(1 CC)
-	)
-	(NOT 1 COMMA LINK 1 CC) ;
+#SELECT Gna IF
+#	( 0/* Sg3 )
+#	(
+#		(1 COMMA)
+#		OR
+#		(1 CC)
+#	)
+#	(NOT 1 COMMA LINK 1 CC) ;
+
+
+MAP (@HARGLE) P3Pred
+	( (1* COMMA ) OR (1* CC) ) ;
+
 
 REMOVE Gna IF (1 COMMA LINK 1 CC) ;
 
