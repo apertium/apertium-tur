@@ -60,7 +60,7 @@ LIST Advl = advl ;
 LIST Gpr = gpr_past gpr_fut gpr_rsub gpr_aor ;
 LIST Gna = gna_aor ;
 LIST Prc = prc prc_aor ;
-LIST Ger = ger ger1 ger2 ger3 ger_aor ger_fut ger_abst ger_past ;
+LIST Ger = ger ger1 ger2 ger3 ger_aor ger_fut ger_abst ger_pabs ger_past ;
 LIST Finite = evid ifi past aor pres fut ;
 
 SET POSS = Px1Sg | Px2Sg | Px3Sp | Px1Pl | Px2Pl ; 
@@ -271,7 +271,7 @@ REMOVE Ger IF
 
 
 SELECT Gna IF
-	( (0 Sg3) OR (0/1 Sg3) )
+	( 0/* Sg3 )
 	(
 		(1 COMMA)
 		OR
@@ -282,7 +282,7 @@ SELECT Gna IF
 REMOVE Gna IF (1 COMMA LINK 1 CC) ;
 
 SELECT SUB:1 Gna IF
-	( (0 Sg3) OR (0/1 Sg3) )
+	( 0/* Sg3 )
 	(
 		(1 COMMA)
 		# Kucaklanıp [0]kaldırılır, başkası tarafından [0]yıkanır, poposu pudralanır olmuş.
