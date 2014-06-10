@@ -355,6 +355,13 @@ LEXICON V-IR-TV
 
 LEXICON V-DERIV-AR
 !! FIXME: <pass>, <caus>, <rec>
+%<pass%>:%>%{i%}%{L%} V-DERIV-IR-COMMON ;
+%<caus%>:%>%{D%}%{I%}r V-DERIV-IR-COMMON ;  ! FIXME
+%<caus%>:%>t V-DERIV-IR-COMMON ;            ! FIXME Dir/LR
+%<caus%>%<pass%>:%>%{D%}%{I%}r%>%{i%}%{L%} V-DERIV-IR-COMMON ;
+V-DERIV-AR-COMMON ;
+
+LEXICON V-DERIV-AR-COMMON
 V-FIN-AR ;
 V-NONFIN-AR ;
 
