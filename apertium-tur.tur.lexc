@@ -2540,7 +2540,6 @@ aykırı:aykırı POST ; ! "against"
 ! Ablative
 başka:başka POST ; ! ""
 beri:beri POST ; ! ""
-bu% yana:bu% yana POST ; ! ""
 dolayı:dolayı POST ; ! ""
 ötürü:ötürü POST ; ! ""
 ibibaren:ibibaren POST ; ! ""
@@ -9249,7 +9248,7 @@ Zaragoza:Zaragoza NP1-ORG ; ! ""
 
 ! Other
 Southeast% European% Times:Southeast% European% Times NP1-AL ; ! ""
-Reuters:Reuters NP1-AL ; ! ""
+Reuters:Reuters NP1-ORG ; ! ""
 AP:AP NP1-AL ; ! ""
 B92:B92 NP1-AL ; ! ""
 EUobserver:EUobserver NP1-AL ; ! ""
@@ -13315,6 +13314,7 @@ sade:sade ADV3 ; ! "only/just"
 gönlünce:gönlünce ADV3 ; ! "as much as one wants"
 her% sabah:her% sabah ADV3 ; ! "every morning" Use/MT
 hayattayken:hayattayken ADV3 ; ! "while alive" Use/MT
+bu% yana:bu% yana ADV3 ; ! "with ablative: from X until now / from X onwards"
 
 
 LEXICON Verbs 
