@@ -1126,7 +1126,8 @@ LEXICON NP1-AL-PL
 %<np%>%<al%>%<nom%>: # ;
 %<np%>%<al%>:%' N-INFL-COMMON-NONOM ;
 %<np%>%<al%>%<attr%>: # ;
-%<np%>%<al%>%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON-NONOM ;
+%<np%>%<al%>%<pl%>%<nom%>:%>l%{A%}r # ;
+%<np%>%<al%>%<pl%>:%>l%{A%}r%' N-INFL-COMMON-NONOM ;
 
 LEXICON NP1-AL
 
