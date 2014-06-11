@@ -704,6 +704,7 @@ V-COP ;
 
 LEXICON V-COP
 %+i%<cop%>:%>%{y%} V-COP-IFI ;
+%<aor%>%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r  # ;
 
 LEXICON V-COP-IFI
 %<ifi%>:%{D%}%{I%} V-COP-IFI-PERS ;
@@ -801,7 +802,6 @@ LEXICON PERS-COP-PRES
 %<p1%>%<sg%>:%>%{y%}%{I%}m  # ;
 %<p2%>%<sg%>:%>s%{I%}n  # ;
 %<p3%>%<sg%>: # ;
-%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r  # ;
 %<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
 %<p3%>%<pl%>:%>l%{A%}r  # ;
@@ -1121,6 +1121,12 @@ LEXICON NP1-COG-MF
 %<np%>%<cog%>%<mf%>%<attr%>: # ;
 
 
+LEXICON NP1-AL-PL
+
+%<np%>%<al%>%<nom%>: # ;
+%<np%>%<al%>:%' N-INFL-COMMON-NONOM ;
+%<np%>%<al%>%<attr%>: # ;
+%<np%>%<al%>%<pl%>:%>%{L%}%{A%}р N-INFL-COMMON-NONOM ;
 
 LEXICON NP1-AL
 
@@ -9053,6 +9059,8 @@ Mediapool:Mediapool NP1-ORG ; ! ""
 The% Guardian:The% Guardian NP1-ORG ; ! ""
 Euronews:Euronews NP1-ORG ; ! ""
 The% Wall% Street% Journal:The% Wall% Street% Journal NP1-ORG ; ! ""
+Sovyet:Sovyet NP1-AL-PL ; ! ""
+Super% G4:Super% G4 NP1-AL ; ! ""
 
 
 
