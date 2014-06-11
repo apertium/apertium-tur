@@ -742,8 +742,9 @@ COPULA-MIMIS-COP ;
 
 LEXICON COPULA-MIMIS
 
-!COPULA-MIMIS-MI ;
-V-INFL-PRE-COP ;
+COPULA-MIMIS-MI ;
+!V-INFL-PRE-COP ;
+!COPULA-MIMIS-COP ;
 
 LEXICON COPULA-MISMI-COMMON
 
@@ -841,7 +842,7 @@ LEXICON CLIT
 ! %+mı%<qst%>:% m%{I%} PERS3 ; 
 %+mı%<qst%>:% m%{I%} # ;               ! generic Q marker, no copula
 # ;  !! This is the end of word marker.
-COPULA-MIMIS ;
+! COPULA-MIMIS ;
 
 LEXICON CLIT-NOPERS
 
@@ -8224,6 +8225,7 @@ cm:cm N1 ;  ! "cm"
 şekil:şek%{u%}l N1 ; ! "shape"
 burun:bur%{u%}n N1 ; ! "nose"
 şehir:şeh%{u%}r N1 ; ! "city"
+oğul:oğ%{u%}l N1 ; ! "son"
  
 
 
