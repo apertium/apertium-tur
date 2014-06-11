@@ -47,6 +47,8 @@ LIST Acc = acc ;
 LIST Abe = abe ; 
 LIST Loc = loc ; 
 
+LIST Case = nom gen acc abe loc dat abl ;
+
 LIST Subst = subst ; 
 LIST Attr = attr ; 
 LIST Advl = advl ; 
@@ -253,6 +255,12 @@ REMOVE Gpr + Acc IF
 	(0 Gpr + Px3Sp)
 	(1 N) ;
 	# Mori'nin bu sorulara [0]verdiği yanıtlar Türkçede de yayımlandı.
+
+SELECT Gpr if
+	(0 Finite)
+	(NOT 0 Case)
+	(1 N) ;
+	# yapar iş
 
 SELECT N IF
 	(0 V + Ger) ;
