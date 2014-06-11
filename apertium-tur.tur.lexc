@@ -704,7 +704,7 @@ V-COP ;
 
 LEXICON V-COP
 %+i%<cop%>:%>%{y%} V-COP-IFI ;
-%+i%<cop%>%<aor%>%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
+COPULA-P3-PERS ;
 
 LEXICON V-COP-IFI
 %<ifi%>:%{D%}%{I%} V-COP-IFI-PERS ;
@@ -722,7 +722,14 @@ COPULA-COND ;
 
 LEXICON COPULA-MIMIS-COP
 %+i%<cop%>:%>%{y%} COPULA-MIMIS-DUB ;
+COPULA-P3-PERS ;
+
+LEXICON COPULA-P3-PERS
+
 %+i%<cop%>%<aor%>%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
+%+i%<cop%>%<aor%>%<p3%>%<sg%>: # ;
+%+i%<cop%>%<aor%>%<p3%>%<pl%>:%>l%{A%}r # ;
+
 
 !LEXICON COPULA-NOMI
 !%+i%<cop%>:%>%{y%} COPULA-TNS ;
@@ -803,10 +810,14 @@ LEXICON PERS-COP-PRES
 
 %<p1%>%<sg%>:%>%{y%}%{I%}m  # ;
 %<p2%>%<sg%>:%>s%{I%}n  # ;
-%<p3%>%<sg%>: # ;
+! %<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
+%<p3%>%<sg%>: # ;  ! FIXME!!!
 %<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
-%<p3%>%<pl%>:%>l%{A%}r  # ;
+%<p3%>%<pl%>:%>l%{A%}r # ;  ! FIXME!!!
+
+
+
 
 LEXICON COPULA-IFI-PRS
 !!! +mı<qst> YOK!
