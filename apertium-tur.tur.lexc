@@ -653,7 +653,7 @@ LEXICON V-COP-IFI-PERS
 %<p1%>%<sg%>:%>m # ;
 %<p2%>%<sg%>:%>n # ;
 %<p3%>%<sg%>:%> # ;
-%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
+!%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
 %<p1%>%<pl%>:%>k # ;
 %<p2%>%<pl%>:%>%{i%}n%{I%}z # ;
 %<p3%>%<pl%>:%>l%{A%}r # ;
@@ -704,7 +704,7 @@ V-COP ;
 
 LEXICON V-COP
 %+i%<cop%>:%>%{y%} V-COP-IFI ;
-%<aor%>%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r  # ;
+%+i%<cop%>%<aor%>%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
 
 LEXICON V-COP-IFI
 %<ifi%>:%{D%}%{I%} V-COP-IFI-PERS ;
@@ -722,6 +722,7 @@ COPULA-COND ;
 
 LEXICON COPULA-MIMIS-COP
 %+i%<cop%>:%>%{y%} COPULA-MIMIS-DUB ;
+%+i%<cop%>%<aor%>%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
 
 !LEXICON COPULA-NOMI
 !%+i%<cop%>:%>%{y%} COPULA-TNS ;
