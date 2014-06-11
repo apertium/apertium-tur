@@ -1373,6 +1373,14 @@ LEXICON ADV3
 
 %<adv%>: # ;
 
+LEXICON ADV4
+
+%<adv%>: # ; ! this is for when the adverb is used as an adverb
+%<adv%>%<subst%>: SUBST ;
+%<adv%>%<attr%>:ki # ;
+
+
+
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Adjective paradigms
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -12082,7 +12090,7 @@ değil:değil A4 ; ! ""
 yönelik:yönelik A4 ; ! "devoted"
 mali:mali A4 ; ! "economıcal"
 düşük:düşük A4 ; ! 'low'
-önceki:önceki A4 ; ! "previous"
+! önceki:önceki A4 ; ! "previous"
 hakkındaki:hakkındaki A4 ; ! "in concerning"
 sonraki:sonraki A4 ; ! "next"
 yılki:yılki A4 ; ! "yearly"
@@ -13543,7 +13551,7 @@ olabildiğince:olabildiğince ADV3 ; ! "as far as"
 olduğunca:olduğunca ADV3 ; ! "as  as"
 açıkça:açıkça ADV3 ; ! "openly"
 kesinlikle:kesinlikle ADV3 ; ! "absolutely"
-önce:önce ADV1 ; ! "previously" @@@@ postp
+önce:önce ADV4 ; ! "previously" @@@@ postp
 öyle:öyle ADV1 ; ! "thusly"
 böyle:böyle ADV1 ; ! "thusly"
 pek:pek ADV3 ; ! "scarcely"
@@ -13551,7 +13559,7 @@ sabahleyin:sabahleyin ADV3 ; ! "in the morning"
 sabah:sabah ADV3 ; ! "in the morning"
 sadece:sadece ADV3 ; ! "only"
 sanki:sanki ADV3 ; ! "in a manner, nearly"
-sonra:sonra ADV3 ; ! "after, afterwards" @@@ also postp
+sonra:sonra ADV4 ; ! "after, afterwards" @@@ also postp
 sonradan:sonradan ADV3 ; ! "later on"
 sonunda:sonunda ADV3 ; ! "at the end"
 şöyle:şöyle ADV3 ; ! "in that way"
