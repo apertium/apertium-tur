@@ -7806,7 +7806,6 @@ nüans:nüans N1 ; ! "tone"
 nüfus:nüfus N1 ; ! "inhabitant"
 nüfus:nüfus N1 ; ! "population"
 nüfuz:nüfuz N1 ; ! "power"
-nükleer:nükleer N1 ; ! "nuclear"
 nükte:nükte N1 ; ! "joke"
 nükte:nükte N1 ; ! "wit"
 numara:numara N1 ; ! "number"
@@ -13271,6 +13270,7 @@ değerli:değerli A1 ; ! "different"
 tekerlekli:tekerlekli A3 ; ! "wheeled"
 ilginç:ilginç A1 ; ! "interesting"  ! FIXME: CHECK A1
 ağaçlıklı:ağaçlıklı A3 ; ! "betreed" ! FIXME: CHECK A3
+nükleer:nükleer A4 ; ! "nuclear"
 
 LEXICON Adverbs 
 
