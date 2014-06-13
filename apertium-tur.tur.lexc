@@ -1038,7 +1038,9 @@ LEXICON N2 ! Compound nouns with compulsory possession.
 LEXICON N3 ! Nationalities which can form language, etc.
            ! e.g. turk, turkçe
 
-%<n%>: SUBST ; 
+!%<n%>: SUBST ; 
+%<adj%>: ADJ-CLIT ;
+%<adj%>%<subst%>: ADJ-CLIT ;
 
 LEXICON N4 ! Nouns with usage as postpositions. 
            ! We separate these in case they have some different morphotactics.
@@ -8638,6 +8640,7 @@ Mozambik:Mozambik NP1-TOP ; ! ""
 Mpumalanga:Mpumalanga NP1-TOP ; ! ""
 Mumbai:Mumbai NP1-TOP ; ! ""
 Münih:Münih NP1-TOP ; ! ""
+Musul:Musul NP1-TOP ; ! ""
 Myanmar:Myanmar NP1-TOP ; ! ""
 Nairobi:Nairobi NP1-TOP ; ! ""
 Namibya:Namibya NP1-TOP ; ! ""
