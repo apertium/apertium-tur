@@ -1026,8 +1026,9 @@ LEXICON N1 ! Generic noun paradigm.
 
 %<n%>: SUBST ; 
 %<n%>%<attr%>: # ;  
-%<n%>%<abe%>:%>s%{I%}z # ;
-%<n%>%<abe%>%<subst%>:%>s%{I%}z SUBST ;
+%<n%>%<nom%>%+sız%<post%>:%>s%{I%}z # ;
+!%<n%>%<abe%>:%>s%{I%}z # ;
+!%<n%>%<abe%>%<subst%>:%>s%{I%}z SUBST ;
 
 LEXICON N2 ! Compound nouns with compulsory possession. 
            ! e.g. dikiş makinası, dikiş makinaları, ...
