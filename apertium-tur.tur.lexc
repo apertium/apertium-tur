@@ -1375,7 +1375,8 @@ LEXICON NUM
 LEXICON ADV1
 
 %<adv%>: # ; ! this is for when the adverb is used as an adverb
-%<adv%>%<subst%>: SUBST ;
+! %<adv%>%<subst%>: SUBST ;
+%<prn%>: SUBST ;
 %<adv%>%<attr%>: # ;
 
 LEXICON ADV2
@@ -13552,8 +13553,8 @@ masumane:masumane ADV2 ; ! "innocent/ly"
 zor:zor ADV2 ; ! "hard"
 
 
-acele:acele ADV1 ; ! "fastly"
-çok:çok%{v%} ADV1 ; ! "lot"
+acele:acele ADV2 ; ! "fastly"
+çok:çok%{v%} ADV2 ; ! "lot"
 
 
 
