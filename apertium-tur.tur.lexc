@@ -700,12 +700,12 @@ LEXICON V-MI
 %+mı%<qst%>:% m%{I%} V-MI-COMMON ;
 
 LEXICON V-MI-COMMON
-V-COP-PERS ;
 V-COP ;
 
 LEXICON V-COP
 %+i%<cop%>:%>%{y%} V-COP-IFI ;
-COPULA-P3-PERS ;
+%+i%<cop%>%<aor%>: V-COP-PERS ;
+%+i%<cop%>%<aor%>: COPULA-P3-PERS ;
 
 LEXICON V-COP-IFI
 %<ifi%>:%{D%}%{I%} V-COP-IFI-PERS ;
@@ -723,13 +723,13 @@ COPULA-COND ;
 
 LEXICON COPULA-MIMIS-COP
 %+i%<cop%>:%>%{y%} COPULA-MIMIS-DUB ;
-COPULA-P3-PERS ;
+%+i%<cop%>%<aor%>: COPULA-P3-PERS ;
 
 LEXICON COPULA-P3-PERS
 
-%+i%<cop%>%<aor%>%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
-%+i%<cop%>%<aor%>%<p3%>%<sg%>: # ;
-%+i%<cop%>%<aor%>%<p3%>%<pl%>:%>l%{A%}r # ;
+%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
+%<p3%>%<sg%>: # ;
+%<p3%>%<pl%>:%>l%{A%}r # ;
 
 
 !LEXICON COPULA-NOMI
