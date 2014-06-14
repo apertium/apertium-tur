@@ -13771,7 +13771,7 @@ bak:bak V-AR-TV ; ! "look at" (DIR)
 ban:ban V-AR-TV ; ! "dip into" (DIR)
 bas:bas V-AR-TV ; ! "press" (DIR)
 başar:başar V-IR-TV ; ! "success" (DIR)
-başvur:başvur V-IR-TV ; ! "apply" (DIR)
+başvur:başvur V-IR-IV ; ! "apply (for something)" (DIR) JNW
 bat:bat V-AR-TV ; ! "sink, go bankrupt" (DIR)
 becer:becer V-IR-TV ; ! "accomplish" (DIR)
 beğen:beğen V-IR-TV ; ! "like, advire" (DIR)
