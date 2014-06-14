@@ -288,7 +288,8 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 "Epenthetic consonants after vowel"
 Cx:Cy <=>  [ [ AbstrVow: - %{fi%}: ] | :SurVow ] (%':) (:0) %>: _ ; 
         except
-            %{A%}: %{z%}:0 %>: _ %{I%}: m ;
+           %{A%}: %{z%}:0 %>: _ %{I%}: m ;
+                          %>: _ ; ! git<v><iv><ger><nom>+i<cop><aor><p3><sg> : git{v}>m{A}>{y} : gitme
         where
             Cx in ( %{n%} %{s%} %{y%} ) 
             Cy in (   n     s     y   ) 
