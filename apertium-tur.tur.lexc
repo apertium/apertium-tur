@@ -1208,7 +1208,7 @@ biz%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:bizdiz CLIT ;
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<px%>:bizimki CASE ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizdeki ATTR-SUBST ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<adv%>:bizce CLIT ; 
-biz%<prn%>%<pers%>%<p1%>%<sg%>%<ins%>:bizimle # ; 
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<ins%>:bizimle # ; 
 
 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:siz CLIT ; 
@@ -1220,7 +1220,7 @@ siz%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:sizdiz CLIT ;
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<px%>:sizinki CASE ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizdeki ATTR-SUBST ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<adv%>:sizce CLIT ; 
-siz%<prn%>%<pers%>%<p2%>%<sg%>%<ins%>:sizinle # ; 
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:sizinle # ; 
 
 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<nom%>:onlar CLIT ; 
@@ -1232,7 +1232,7 @@ onlar%<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:onlardan CLIT ;
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<px%>:onlarınki CASE ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:onlardeki ATTR-SUBST ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<adv%>:onlarca CLIT ; 
-onlar%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:onlarınla # ; 
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<ins%>:onlarınla # ; 
 
 
 LEXICON PRON-DEM-BU
