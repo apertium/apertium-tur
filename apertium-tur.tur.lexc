@@ -539,15 +539,15 @@ V-COND ;
 
 LEXICON V-PROG
 
-%<prog%>:%>%{I%}yor COPULA-MISMI ;
+%<prog%>:%>%{I%}yor V-INFL-PRE-COP ;
 
 LEXICON V-FUT
 
-%<fut%>:%>%{y%}%{A%}c%{A%}k%{v%} COPULA-MISMI ;
+%<fut%>:%>%{y%}%{A%}c%{A%}k%{v%} V-INFL-PRE-COP ;
 
 LEXICON V-NEC
 
-%<nec%>:%>m%{A%}l%{I%} COPULA-MISMI ;
+%<nec%>:%>m%{A%}l%{I%} V-INFL-PRE-COP ;
 
 
 LEXICON V-TENSE-ABIL
@@ -581,11 +581,11 @@ V-GERUNDS ;
 
 LEXICON V-PAST
 
-%<past%>:%>m%{I%}ş COPULA-MISMI ;
+%<past%>:%>m%{I%}ş V-INFL-PRE-COP ;
 
 LEXICON V-POT
 
-%<pot%>:%>%{y%}%{A%} COPULA-MISMI ;
+%<pot%>:%>%{y%}%{A%} V-INFL-PRE-COP ;
 
 LEXICON V-OPT-PERS
 

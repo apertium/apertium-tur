@@ -247,10 +247,10 @@ digraph g {
 	] ;
 	}
 	
-	subgraph clusterV_OPT { style=filled; color=lightgrey;
-	label="V-OPT" ;
-	"V-OPT" [
-		label = "‹opt›(y)A"
+	subgraph clusterV_POT { style=filled; color=lightgrey;
+	label="V-POT" ;
+	"V-POT" [
+		label = "‹pot›(y)A"
 		//xlabel = "V-OPT"
 		shape = record
 	] ;
@@ -375,7 +375,7 @@ digraph g {
 	"V-TENSE-MA-COMMON" -> "V-PROG" ;
 	"V-TENSE-MA-COMMON" -> "V-FUT" ;
 	"V-TENSE-MA-COMMON" -> "V-PAST" ;
-	"V-TENSE-MA-COMMON" -> "V-OPT" ;
+	"V-TENSE-MA-COMMON" -> "V-POT" ;
 	"V-TENSE-MA-COMMON" -> "V-NEC" ;
 
 	"V-IFI-COND" -> "V-IFI" ;
@@ -397,7 +397,7 @@ digraph g {
 	"V-PROG" -> "V-INFL-PRE-COP" ;
 	"V-FUT" -> "V-INFL-PRE-COP" ;
 	"V-PAST" -> "V-INFL-PRE-COP" ;
-	"V-OPT" -> "V-INFL-PRE-COP" ;
+	"V-POT" -> "V-INFL-PRE-COP" ;
 	"V-NEC" -> "V-INFL-PRE-COP" ;
 
 	"V-INFL-PRE-COP" -> "V-DUB" ;
