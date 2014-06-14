@@ -1396,6 +1396,10 @@ LEXICON ADV4
 %<adv%>%<subst%>: SUBST ;
 %<adv%>%<attr%>:ki # ;
 
+LEXICON ADV-ITG
+
+%<adv%>%<itg%>: # ; 
+
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -7741,7 +7745,7 @@ nefes:nefes N1 ; ! "breathe"
 nefis:nefis N1 ; ! "essence"
 nefiy:nefiy N1 ; ! "banishment"
 nefret:nefret N1 ; ! "hatred"
-nehir:nehir N1 ; ! "river"
+nehir:neh%{u%}r N1 ; ! "river"
 nehiy:nehiy N1 ; ! "prohibition"
 nekahet:nekahet N1 ; ! "recovery"
 nema:nema N1 ; ! "interest"
@@ -13610,6 +13614,7 @@ gönlünce:gönlünce ADV3 ; ! "as much as one wants"
 her% sabah:her% sabah ADV3 ; ! "every morning" Use/MT
 hayattayken:hayattayken ADV3 ; ! "while alive" Use/MT
 bu% yana:bu% yana ADV3 ; ! "with ablative: from X until now / from X onwards"
+nasıl:nasıl ADV-ITG ; ! "how" ! FIXME: also adj?  or det?
 
 
 LEXICON Verbs 
@@ -13836,6 +13841,7 @@ dil:dil V-AR-TV ; ! "slice" (DIR)
 diz:diz V-AR-TV ; ! "align" (DIR)
 dök:dök V-AR-TV ; ! "pour" (DIR)
 açıklan:açıklan V-IR-TV ; ! "make open" (DIR)
+açıkla:açıkla V-IR-TV ; ! "explain"
 dolaş:dolaş V-IR-TV ; ! "walk around" (DIR)
 döv:döv V-AR-TV ; ! "hit" (DIR)
 doyur:doyur V-IR-TV ; ! "feed" (DIR)
