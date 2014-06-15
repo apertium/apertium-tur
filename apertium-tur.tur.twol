@@ -124,12 +124,14 @@ Rules
 
 "Delete %{I%} after %{z%} in p1.sg aorist form (but leave in p1.pl)"
 %{I%}:0 <=> [ %{A%}: %{z%}:0 %>: %{y%}: ]/:0 _ :m ;
+        except
+            %{e%}:0 %>: _ ;
 
 "Delete %{z%} in aorist forms with %{y%}"
 %{z%}:0 <=> %{A%}: _ [ %>: %{y%}: ]/:0 ;
 
 "Special harmony for {e} 2 "
-%{e%}:i <=>  _ %>: %{y%}:y ; 
+%{e%}:i <=>  _ %>: %{y%}: ; 
 
 
 ! 
@@ -260,6 +262,8 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 
 "Vowel deletion in verb stems"
 Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
+        except
+            _ %>: %{y%}: ;  ! avoid conflict with {e} 2 rule
         where
             Cx in ( %{e%} ) 
             Cy in (   0   ) 
