@@ -24,7 +24,9 @@ LIST Qst = qst ;
 LIST Tv = (v tv) (v iv caus) (=tv) ;
 
 #LIST P3Pred = (aor p3 sg) ;
-LIST NoPred = nec prog fut past pot ;
+LIST NoPred = nec prog fut past ;
+              # tags that are things that can have no person agreement
+              # pot is explicity excluded
 
 LIST Pers = (prn pers) ;  # Use e.g. Sg3 + Pers to match pronouns
 LIST Pl1 = (p1 pl) ;
@@ -401,6 +403,12 @@ REMOVE Cop IF (-1 BOS) (0 Cop LINK 0/1 N - Pl) (0 N + Pl) (1 EOS) ;
 
 
 REMOVE Cop IF (0 (@HARGLE));
+
+SELECT Cop IF
+	(NOT 0 (@HARGLE))
+	((1 COMMA) OR (1 EOS)); 
+
+
 
 AFTER-SECTIONS
 
