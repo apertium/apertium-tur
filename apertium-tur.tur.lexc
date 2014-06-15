@@ -8154,6 +8154,7 @@ sevgi:sevgi N1 ; ! "love"
 dünyanın% dört% bir% yanı:dünyanın% dört% bir% yan N-INFL-3PX-COMPOUND ; ! 
 buluşma:buluşma N1 ; ! "meeting" ! Use/MT
 bebeklik:bebeklik%{v%} N1 ; ! "baby-hood"
+pasta:pasta N1 ; ! "cake"
 
 
 
@@ -14455,7 +14456,7 @@ onurlan:onurlan V-IR-IV ; ! "be honoured" (DIR)
 övün:övün V-IR-IV ; ! "brag about" (DIR)
 oy% al:oy% al V-IR-IV ; ! "receive vote" (DIR)
 oy% ver:oy% ver V-IR-IV ; ! "vote" (DIR)
-pasta% yap:pasta% yap V-AR-IV ; ! "make a cake" (DIR)
+! pasta% yap:pasta% yap V-AR-IV ; ! "make a cake" (DIR)
 pekiş:pekiş V-IR-IV ; ! "solidify" (DIR)
 piş:piş V-AR-IV ; ! "cook" (DIR)
 pus:pus V-AR-IV ; ! "shrink" (DIR)
