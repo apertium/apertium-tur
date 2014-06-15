@@ -2704,7 +2704,7 @@ yeter:yeter CA ;
 yok:yok CA ; 
 zaten:zaten CA ; 
 zira:zira CA ; 
-tabii% ki:tabii% ki CA ; 
+!tabii% ki:tabii% ki CA ; 
 hiç% olmazsa:hiç% olmazsa CA ; 
 yok% mu:yok% mu CA ; 
 var% ya:var% ya CA ; 
@@ -14844,6 +14844,7 @@ satın% al:satın% al V-IR-TV ; ! "buy" ! Use/MT
 yarat:yarat V-IR-TV ; ! "create" ! Use/MT
 bakış% at:bakış% at V-AR-TV ; ! "glance at / look at [suddenly]"
 karar% ver:karar% ver V-IR-TV ; ! "decide" ! Use/MT
+sevin:sevin V-IR-IV ; ! "be pleased, rejoice"
 
 
 
@@ -14851,6 +14852,9 @@ LEXICON Interjections
 
 evet:evet INTERJ ; ! "yes"
 hayır:hayır INTERJ ; ! "no"
+tabii% ki:tabii% ki INTERJ ;  ! "of course"
+tabii% ki:tabi% ki INTERJ ;  ! "of course" ! Dir/LR
+tabii% ki:tabî% ki INTERJ ;  ! "of course" ! Dir/LR
 
 
 LEXICON Punctuation
