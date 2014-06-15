@@ -266,7 +266,8 @@ SELECT Gpr if
 	# yapar iş
 
 SELECT N IF
-	(0 V + Ger) ;
+	(0 V + Ger)
+	(NOT 1/* ("ol") + V) ;
 
 SELECT Gen IF
 	(0 Cop)
