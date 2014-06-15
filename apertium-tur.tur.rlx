@@ -135,7 +135,11 @@ REMOVE Imper IF (NOT 0C Imper) ;
 
 REMOVE Pot IF (0/* Opt) ;
 
+REMOVE Pot IF (NOT 0C/* Pot) ;
+
 REMOVE SUB:1 Pot IF (0/* Opt) ;
+
+REMOVE SUB:1 Pot IF (NOT 0C/* Pot) ;
 
 SELECT Det IF
 	(1 N) ;
