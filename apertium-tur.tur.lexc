@@ -424,7 +424,7 @@ V-GPR ;
 V-GNA ;
 V-PRC ;
 V-GERUNDS ;
-IMPERATIVE ;
+!IMPERATIVE ;
 
 !LEXICON V-INF
 !
@@ -601,9 +601,12 @@ LEXICON V-OPT
 
 LEXICON V-IMP
 
-%<imp%>%<p2%>%<sg%>:%> V-IFI-COND-PERS-QST ;
-%<imp%>%<p2%>%<frm%>:%>%{y%}%{I%}n V-IFI-COND-PERS-QST ;
-%<imp%>%<p2%>%<pl%>:%>s%{A%}n%{A%} V-IFI-COND-PERS-QST ; ! FIXME: not just softened sg?
+%<imp%>%<p2%>%<sg%>: V-IFI-COND-PERS-QST ;            ! sen (p2.sg)
+%<imp%>%<p2%>%<pl%>:%>%{y%}%{I%}n V-IFI-COND-PERS-QST ; ! siz (p2.sg.frm, p2.pl.*)
+%<imp%>%<p2%>%<pl%>%<frm%>:%>%{y%}%{I%}n%{I%}z V-IFI-COND-PERS-QST ; ! super polite
+
+%<imp%>%<p2%>%<sg%>:%>s%{A%}n%{A%} V-IFI-COND-PERS-QST ; !
+%<imp%>%<p2%>%<pl%>:%>s%{A%}n%{I%}z%{A%} V-IFI-COND-PERS-QST ; ! mostly plural non-polite
 
 
 LEXICON V-IFI-COND-COMMON
