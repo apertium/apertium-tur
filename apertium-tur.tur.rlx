@@ -359,9 +359,13 @@ REMOVE Cop IF (1/* ("ol") + V );
 
 REMOVE Ger IF (1/* ("ol") + V );
 
+SELECT Ger IF (1 Post);
+
 REMOVE SUB:1 Prc IF (NOT 1 V) (NOT 1 Cop) ;
 
 REMOVE Prc IF ((1 COMMA) OR (1 EOS)); 
+
+SELECT Cop IF ((1 COMMA) OR (1 EOS)); 
 
 REMOVE SUB:1 Prc IF ((1 COMMA) OR (1 EOS)); 
 
