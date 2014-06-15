@@ -31,6 +31,7 @@ LIST Sg2 = (p2 sg) ;
 LIST Pl3 = (p3 pl) ;
 LIST Sg3 = (p3 sg) ;
 LIST Sg1 = (p1 sg) ;
+LIST VPers = p1 p2 p3 ;
 
 LIST Pl = pl ;
 
@@ -63,9 +64,11 @@ LIST Advl = advl ;
 
 LIST Gpr = gpr_past gpr_fut gpr_rsub gpr_aor ;
 LIST Gna = gna_aor ;
-LIST Prc = prc prc_aor ;
+LIST Prc = prc ;
 LIST Ger = ger ger1 ger2 ger3 ger_aor ger_fut ger_abst ger_pabs ger_past ;
 LIST Finite = evid ifi past aor pres fut ;
+LIST Aor = aor ;
+LIST AorFin = (aor VPers) ;
 
 SET POSS = Px1Sg | Px2Sg | Px3Sp | Px1Pl | Px2Pl ; 
 
@@ -348,6 +351,12 @@ SELECT ("uzan") IF
 #              (NOT 1 Cop LINK 0/1 V) ;
 
 REMOVE Prc IF (NOT 1 V) (NOT 1 Cop) ;
+
+# SELECT Aor IF (1/* ("ol") + V );
+
+REMOVE Cop IF (1/* ("ol") + V );
+
+REMOVE Ger IF (1/* ("ol") + V );
 
 REMOVE SUB:1 Prc IF (NOT 1 V) (NOT 1 Cop) ;
 
