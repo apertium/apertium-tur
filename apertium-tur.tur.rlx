@@ -38,7 +38,8 @@ LIST VPers = p1 p2 p3 ;
 
 LIST Pl = pl ;
 
-LIST Px3Sp = px3sp ; 
+LIST Px3Sp = px3sg px3pl; 
+LIST Px3Sg = px3sg ; 
 LIST Px3Pl = px3pl ; 
 LIST Px2Sg = px2sg ; 
 LIST Px2Pl = px2pl ; 
@@ -195,8 +196,12 @@ SELECT Det (0 ("bir")) (-1C A) (1C N);
 SECTION
 
 SELECT Post IF
-	(-1C N)
+	(-1C N) ;
 	## hayat dolu
+
+SELECT Post IF
+	(0 ("için"))
+	(-1 Ger + Nom) ;
 
 SELECT Finite IF
 	(0 Ger)
@@ -333,6 +338,9 @@ SELECT Px2Pl IF
 
 REMOVE Sub:1 Gen IF
 	(1 ("kadar")) ;
+
+REMOVE Gen IF
+	(0 ("için") LINK NOT 1 POSS);
 
 SELECT Sub:1 Finite IF
 	(0 Advl) ;
