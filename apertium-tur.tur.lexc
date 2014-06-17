@@ -2609,8 +2609,11 @@ yana:yana POST ; ! ""
 ! Comitative
 
 ilgili:ilgili POST ; ! "regarding"
-İlgili:İlgili POST ; ! """ HACK MT USE
+İlgili:İlgili POST ; ! "" ! Use/MT
 
+
+! To sort
+hariç:hariç POST ; ! "besides"
 
 LEXICON  Conjunctions
 
