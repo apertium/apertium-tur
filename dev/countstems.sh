@@ -2,7 +2,7 @@
 
 LEXC=../apertium-tur.tur.lexc
 
-allcounts=`hfst-lexc --format foma $LEXC -o /dev/null | grep Root | sed 's/,/\n/g'`
+allcounts=`foma -e "read lexc $LEXC" -e "quit" | grep Root | sed 's/,/\n/g'`
 
 for line in $allcounts; do
 	thing=`echo $line | sed -r 's/(.*)\.\.\.([0-9]*),?/\1/'`;
