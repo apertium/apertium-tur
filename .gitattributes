@@ -31,6 +31,7 @@ dev/parallel -text
 dev/postpositions.txt -text
 dev/proof-lexicon.sh -text
 dev/replace-old-verbs.regex -text
+dev/spellrelax.twol -text
 dev/test-prefix.sh -text
 dev/tr-cv-phrases.txt -text
 dev/turkish.py -text
