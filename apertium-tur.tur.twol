@@ -77,8 +77,8 @@ Rules
                                          [ AbstrVow:0 - %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
                       [ %{z%}:0 %>: %{y%}: ]/:0 _ :m ;
         where 
-            LastVowel in ( i ü e ö ı u a o )
-                   Vy in ( i ü i ü ı u ı u ) 
+            LastVowel in ( i ü e ö ı u a o â )
+                   Vy in ( i ü i ü ı u ı u ı ) 
             matched;
 
 "Vowel harmony to abstract vowels for archiphoneme {I}"
@@ -148,8 +148,8 @@ Rules
         except
                                          [ AbstrVow:0 - %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
         where 
-            LastVowel in ( i ü e ö ı u a o )
-                   Vy in ( i ü i ü ı u ı u ) 
+            LastVowel in ( i ü e ö ı u a o â )
+                   Vy in ( i ü i ü ı u ı u ı ) 
             matched;
 
 ! yap>{i}yor            = yapıyor    =               y:y a:a p:p >:0 {i}:ı y:y o:o r:r
@@ -192,15 +192,15 @@ Rules
 !            _ :Cns %>: %{y%}: %{A%}: .#. ;
 !
 !        where 
-!            LastVowel in ( i ü e ö ı u a o )
-!                   Vy in ( i ü i ü ı u ı u ) 
+!            LastVowel in ( i ü e ö ı u a o â )
+!                   Vy in ( i ü i ü ı u ı u ı ) 
 !            matched;
 
 "High-vowel epenthesis, surfacing of {u} when not syllable-final"
 %{u%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 - [ %{fi%}: | %{u%}: ] ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>: ] ;
         where 
-            LastVowel in ( i ü e ö ı u a o )
-                   Vy in ( i ü i ü ı u ı u ) 
+            LastVowel in ( i ü e ö ı u a o â )
+                   Vy in ( i ü i ü ı u ı u ı ) 
             matched;
 
 ! bur{u}n               = burun      =
@@ -220,8 +220,8 @@ Rules
                                                           _ %>: %{I%}:  ;
       
         where 
-            LastVowel in ( i ü e ö ı u a o )
-                   Vy in ( e e e e a a a a ) 
+            LastVowel in ( i ü e ö ı u a o â )
+                   Vy in ( e e e e a a a a a ) 
             matched;
 
 ! yap>{i}{L}>m{a}>{D}{I} = yapılmadı
