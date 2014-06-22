@@ -4,8 +4,8 @@
 
 Alphabet
 
- A B C Ç D E F G Ğ H I İ J K L M N O Ö P Q R S Ş T U Ü V W X Y Z 
- a b c ç d e f g ğ h ı i j k l m n o ö p q r s ş t u ü v w x y z 
+ A Â B C Ç D E F G Ğ H I İ J K L M N O Ö P Q R S Ş T U Ü V W X Y Z 
+ a â b c ç d e f g ğ h ı i j k l m n o ö p q r s ş t u ü v w x y z 
 
  %{A%}:a %{I%}:ı %{D%}:d %{L%}:l
 
@@ -37,12 +37,12 @@ Alphabet
 
 Sets
 
-SurVow = İ Ü E Ö I U A O
-         i ü e ö ı u a o ; 
+SurVow = İ Ü E Ö I U A Â O
+         i ü e ö ı u a â o ; 
 
 
-Vow    = İ Ü E Ö I U A O
-         i ü e ö ı u a o
+Vow    = İ Ü E Ö I U A Â O
+         i ü e ö ı u a â o
        %{A%} %{I%} %{e%} %{a%} %{i%} ;
 
 Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z 
@@ -51,14 +51,14 @@ Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z
 
 AbstrVow = %{fi%} %{ii%} %{ö%} %{o%} %{ı%} %{u%} ; 
 
-HardVow  = a ı o u 
-           A I O U ;
+HardVow  = a â ı o u 
+           A Â I O U ;
 
 SoftVow  = e i ö ü 
            E İ Ö Ü ;
 
-FlatVow  = a e i ı 
-           A E İ I ;
+FlatVow  = a â e i ı 
+           A Â E İ I ;
 
 RoundVow = o u ö ü
            O U Ö Ü ;
