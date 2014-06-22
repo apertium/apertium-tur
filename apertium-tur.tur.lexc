@@ -928,7 +928,7 @@ LEXICON CASE-NONOM
 
 LEXICON GENPOSS-ETC-NONOM
 
-%<px%>:%>%{n%}%{I%}ki%{pN%} CASE-NONOM ;
+%<gen%>%<subst%>:%>%{n%}%{I%}ki%{pN%} CASE-NONOM ;
 %<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
 
 CASE-NONOM ;
@@ -958,7 +958,7 @@ LEXICON CASE
 
 LEXICON GENPOSS-ETC 
 
-%<px%>:%>%{n%}%{I%}ki%{pN%} CASE ;
+%<gen%>%<subst%>:%>%{n%}%{I%}ki%{pN%} CASE ;
 %<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
 
 ! CASE ;  ! FIXME: CHECK
@@ -1174,7 +1174,7 @@ ben%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:bana CLIT ;
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:beni CLIT ; 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:bende CLIT ; 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:benden CLIT ; 
-ben%<prn%>%<pers%>%<p1%>%<sg%>%<px%>:benimki CASE ; 
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>%<subst%>:benimki CASE ; 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:bendeki ATTR-SUBST ; 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<advl%>:bence CLIT ; 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<ins%>:benimle # ; 
@@ -1186,7 +1186,7 @@ sen%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:sana CLIT ;
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:seni CLIT ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:sende CLIT ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:senden CLIT ; 
-sen%<prn%>%<pers%>%<p2%>%<sg%>%<px%>:seninki CASE ; 
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>%<subst%>:seninki CASE ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:sendeki ATTR-SUBST ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<advl%>:sence CLIT ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<ins%>:seninle # ; 
@@ -1198,7 +1198,7 @@ o%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:ona CLIT ;
 o%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:onu CLIT ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:onda CLIT ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ondan CLIT ; 
-o%<prn%>%<pers%>%<p3%>%<sg%>%<px%>:onunki CASE ; 
+o%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>%<subst%>:onunki CASE ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:ondeki ATTR-SUBST ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<advl%>:once CLIT ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:onunla # ; 
@@ -1209,7 +1209,7 @@ biz%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:bize CLIT ;
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:bizi CLIT ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizde CLIT ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:bizdiz CLIT ; 
-biz%<prn%>%<pers%>%<p1%>%<pl%>%<px%>:bizimki CASE ; 
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>%<subst%>:bizimki CASE ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizdeki ATTR-SUBST ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<advl%>:bizce CLIT ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<ins%>:bizimle # ; 
@@ -1221,7 +1221,7 @@ siz%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:size CLIT ;
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:sizi CLIT ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizde CLIT ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:sizdiz CLIT ; 
-siz%<prn%>%<pers%>%<p2%>%<pl%>%<px%>:sizinki CASE ; 
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>%<subst%>:sizinki CASE ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizdeki ATTR-SUBST ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<advl%>:sizce CLIT ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:sizinle # ; 
@@ -1233,7 +1233,7 @@ onlar%<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:onlara CLIT ;
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<acc%>:onları CLIT ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:onlarda CLIT ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:onlardan CLIT ; 
-onlar%<prn%>%<pers%>%<p3%>%<pl%>%<px%>:onlarınki CASE ; 
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>%<subst%>:onlarınki CASE ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:onlardeki ATTR-SUBST ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<advl%>:onlarca CLIT ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<ins%>:onlarınla # ; 
@@ -1247,7 +1247,7 @@ LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<acc%>:nu CLIT ;
 %<prn%>%<dem%>%<abl%>:ndan CLIT-GENERAL ;
 %<prn%>%<dem%>%<loc%>:nda CLIT-GENERAL ;
-%<prn%>%<dem%>%<px%>:nuki%{pN%} CASE ;
+%<prn%>%<dem%>%<gen%>%<subst%>:nuki%{pN%} CASE ;
 %<prn%>%<dem%>%<loc%>%<attr%>:ndaki ATTR-SUBST ;
 %<prn%>%<dem%>%<ins%>:nunla # ;
 %<prn%>%<dem%>%<px3sp%>:nu%{pN%} CASE ;
@@ -1262,7 +1262,7 @@ LEXICON PRON-ITG-NERE
 %<prn%>%<itg%>%<abl%>:%>eden # ;
 %<prn%>%<itg%>%<loc%>:%>ede # ;
 %<prn%>%<itg%>%<loc%>:%>de # ; ! Dir/LR
-%<prn%>%<itg%>%<px%>:%>esi CASE ;
+%<prn%>%<itg%>%<gen%>%<subst%>:%>esi CASE ;
 %<prn%>%<itg%>%<loc%>:%>edeki ATTR-SUBST ;
 
 LEXICON PRON-IND
