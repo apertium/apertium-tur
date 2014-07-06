@@ -7942,7 +7942,7 @@ mezarlık:mezarlık%{v%} N1 ; ! "cemetery"
 mazı:mazı N1 ; ! "oak gall"
 sanayi:sanayi N1 ; ! "industry" @@@ SPECIAL SUFFIX
 tutar:tutar N1 ; ! "sum"
-erte:erte N1 ; ! "the after"
+! erte:erte N1 ; ! "the after"
 yük:yük N1 ; ! "load"
 gerginlik:gerginlik%{v%} N1 ; ! "tension"
 sporcu:sporcu N1 ; ! "athlete"
@@ -13295,6 +13295,7 @@ nükleer:nükleer A4 ; ! "nuclear"
 aynı:aynı A2 ; ! "similar, same"
 benzer:benzer A2 ; ! "similar, alike"
 medeni:medeni A2 ; ! "civilized"
+erte:erte A2 ; ! "the next"
 
 LEXICON Adverbs 
 
