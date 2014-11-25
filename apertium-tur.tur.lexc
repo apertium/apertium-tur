@@ -841,10 +841,6 @@ LEXICON COPULA-IFI
 !LEXICON COPULA-IFI-MI
 !%+i%<cop%>%<ifi%>:%>%{y%}%>%{D%}%{I%} V-IFI-COND-PERS ;
 
-LEXICON COPULA-AOR
-
-%<aor%>: PERS-COP-PRES ;
-
 LEXICON COPULA-COND
 
 %<cond%>:s%{A%} V-IFI-COND-PERS ;
