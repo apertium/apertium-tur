@@ -886,10 +886,11 @@ LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears o
 CLIT ;
 COPULA-MIMIS ;
 
-LEXICON CLIT-NOPERS
-
-!!! CLIT-NOPERS ;  ! FIXME:Cyclic
-V-NOPERS-COP ;
+! FIXME: deduplicated 2015-01-01: CHECK whether this is the right one!
+!LEXICON CLIT-NOPERS
+!
+!!!! CLIT-NOPERS ;  ! FIXME:Cyclic
+!V-NOPERS-COP ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Personal suffixes
