@@ -1547,7 +1547,7 @@ LEXICON REC-T-AR
 CAUS-T-AR ;
 NECE ;
 
-LEXICON REC-T-AR
+LEXICON REC-T-IR
 
 %<rec%>:%>%{i%}ş CAUS-DIR-IR ;
 %<rec%>:%>%{i%}ş NECE ;
