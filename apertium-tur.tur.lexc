@@ -2531,10 +2531,6 @@ LEXICON DET-NEG
 
 %<det%>%<neg%>: # ;
 
-LEXICON DET-REF
-
-%<det%>%<ref%>: # ;
-
 LEXICON TIT 
 
 %<title%>: # ; 
