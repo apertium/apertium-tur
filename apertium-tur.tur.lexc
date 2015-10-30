@@ -727,7 +727,8 @@ COPULA-COND ;
 
 LEXICON COPULA-MIMIS-COP
 %+i%<cop%>:%>%{y%} COPULA-MIMIS-DUB ;
-%+i%<cop%>%<aor%>: COPULA-P3-PERS ;
+!%+i%<cop%>%<aor%>: COPULA-P3-PERS ;
+%+i%<cop%>%<aor%>: COPULA-PERS ;
 
 LEXICON COPULA-P3-PERS
 
@@ -735,6 +736,16 @@ LEXICON COPULA-P3-PERS
 %<p3%>%<sg%>: # ;
 %<p3%>%<pl%>:%>l%{A%}r # ;
 
+
+LEXICON COPULA-PERS
+
+%<p1%>%<sg%>:%>%{y%}%{I%}m  # ;
+%<p2%>%<sg%>:%>s%{I%}n  # ;
+! %<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
+%<p3%>%<sg%>: # ;  ! FIXME!!!
+%<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
+%<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
+%<p3%>%<pl%>:%>l%{A%}r # ;  ! FIXME!!!
 
 !LEXICON COPULA-NOMI
 !%+i%<cop%>:%>%{y%} COPULA-TNS ;
@@ -861,6 +872,11 @@ LEXICON CLIT
 LEXICON CLIT-NOPERS
 
 %+mı%<qst%>:% m%{I%} # ; 
+# ;  !! This is the end of word marker.
+
+LEXICON CLIT-W-COPULA
+
+%+mı%<qst%>:% m%{I%} PERS-COP-PRES ; 
 # ;  !! This is the end of word marker.
 
 LEXICON COPULA-LOCATIVE 
