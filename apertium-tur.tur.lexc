@@ -1033,6 +1033,9 @@ LEXICON GER-SUBST
 GER-N-INFL-COMMON ; 
 %<pl%>:%>l%{A%}r GER-N-INFL-COMMON ;
 
+LEXICON SIZ-INFL
+
+SUBST ;
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -1044,7 +1047,7 @@ LEXICON N1 ! Generic noun paradigm.
 
 %<n%>: SUBST ; 
 %<n%>%<attr%>: # ;  
-%<n%>%<nom%>%+sız%<post%>:%>s%{I%}z # ;
+%<n%>%<nom%>%+sız%<post%>:%>s%{I%}z SIZ-INFL ;
 !%<n%>%<abe%>:%>s%{I%}z # ;
 !%<n%>%<abe%>%<subst%>:%>s%{I%}z SUBST ;
 
