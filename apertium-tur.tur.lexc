@@ -82,6 +82,7 @@ Multichar_Symbols
 %<abl%>            
 %<loc%>            
 %<ins%>            ! Instrumental=comitative 
+%<abe%>            ! abessive
 
 
 ! Pronoun types ! Алмашлык төрләре ! Виды местоимений
@@ -103,6 +104,7 @@ Multichar_Symbols
 
 ! Tense, aspect, mood
 %<imp%>            ! Imperative
+%<emph%>           ! Emphatic [imperative]
 %<cond%>           ! Conditional  ! Шарт  ! Условное  !! -с{A}
 %<caus%>           ! Causative
 %<pass%>           ! Passive
@@ -605,8 +607,8 @@ LEXICON V-IMP
 %<imp%>%<p2%>%<pl%>:%>%{y%}%{I%}n V-IFI-COND-PERS-QST ; ! siz (p2.sg.frm, p2.pl.*)
 %<imp%>%<p2%>%<pl%>%<frm%>:%>%{y%}%{I%}n%{I%}z V-IFI-COND-PERS-QST ; ! super polite
 
-%<imp%>%<p2%>%<sg%>:%>s%{A%}n%{A%} V-IFI-COND-PERS-QST ; !
-%<imp%>%<p2%>%<pl%>:%>s%{A%}n%{I%}z%{A%} V-IFI-COND-PERS-QST ; ! mostly plural non-polite
+%<imp%>%<emph%>%<p2%>%<sg%>:%>s%{A%}n%{A%} V-IFI-COND-PERS-QST ; !
+%<imp%>%<emph%>%<p2%>%<pl%>:%>s%{A%}n%{I%}z%{A%} V-IFI-COND-PERS-QST ; ! mostly plural non-polite
 
 
 LEXICON V-IFI-COND-COMMON
@@ -728,7 +730,8 @@ COPULA-COND ;
 LEXICON COPULA-MIMIS-COP
 %+i%<cop%>:%>%{y%} COPULA-MIMIS-DUB ;
 !%+i%<cop%>%<aor%>: COPULA-P3-PERS ;
-%+i%<cop%>%<aor%>: COPULA-PERS ;
+!%+i%<cop%>%<aor%>: COPULA-PERS ;
+%+i%<cop%>: COPULA-PERS ;
 
 LEXICON COPULA-P3-PERS
 
@@ -4275,6 +4278,7 @@ dirsek:dirsek N1 ; ! "elbow"
 dışaçı:dışaçı N1 ; ! "external angle"
 dışarı:dışarı N1 ; ! "outside"
 diş:diş N1 ; ! "tooth"
+dış:dış N1 ; ! "exterior"
 dişi:dişi N1 ; ! "female"
 disiplin:disiplin N1 ; ! "discipline"
 dışişleri:dışişleri N1 ; ! "external affairs"
@@ -6372,6 +6376,7 @@ keşiş:keşiş N1 ; ! "priest"
 kesit:kesit N1 ; ! "intersection"
 keşke:keşke N1 ; ! "goodness"
 kesme:kesme N1 ; ! "section"
+ket:ket N1 ; ! "obstacle"
 keyfiyet:keyfiyet N1 ; ! "arbitrariness"
 keyfiyet:keyfiyet N1 ; ! "quality"
 keyif:keyif N1 ; ! "joy"
@@ -6418,6 +6423,7 @@ kin:kin N1 ; ! "hostility"
 kın:kın N1 ; ! "steath"
 kıpırtı:kıpırtı N1 ; ! "motion"
 kip:kip N1 ; ! "model"
+kır:kır N1 ; ! "countryside"
 kıraathane:kıraathane N1 ; ! "coffee"
 kıraat:kıraat N1 ; ! "reading"
 kırağı:kırağı N1 ; ! "hoarfrost"
@@ -6460,6 +6466,7 @@ kısmet:kısmet N1 ; ! "chance"
 kısmet:kısmet N1 ; ! "luck"
 kısrak:kısrak N1 ; ! "mare"
 kıstas:kıstas N1 ; ! "gauge"
+kit:kit N1 ; ! "Kamu İktisadi Teşekkülü, (eng) kit"
 kitabevi:kitabevi N1 ; ! "bookstore"
 kıta:kıta N1 ; ! "continent"
 kitapçık:kitapçık N1 ; ! "booklet"
@@ -6621,7 +6628,7 @@ korgeneral:korgeneral N1 ; ! "lieutenant general"
 korida:korida N1 ; ! "bull fighting"
 koridor:koridor N1 ; ! "corridor"
 kor:kor N1 ; ! "embers"
-kor:kor N1 ; ! "flame"
+!kor:kor N1 ; ! "flame"
 körköstebek:körköstebek N1 ; ! "moleball"
 korku:korku N1 ; ! "affright"
 korku:korku N1 ; ! "horror"
@@ -6653,6 +6660,7 @@ koşul:koşul N1 ; ! "provision"
 koşul:koşul N1 ; ! "requirement"
 koşum:koşum N1 ; ! "harness"
 koşut:koşut N1 ; ! "parallel"
+kot:kot N1 ; ! "elevation?; denim?"
 kota:kota N1 ; ! "quota"
 kotasyon:kotasyon N1 ; ! "quotation"
 kötek:kötek N1 ; ! "beating"
@@ -8175,6 +8183,12 @@ dünyanın% dört% bir% yanı:dünyanın% dört% bir% yan N-INFL-3PX-COMPOUND ; 
 buluşma:buluşma N1 ; ! "meeting" ! Use/MT
 bebeklik:bebeklik%{v%} N1 ; ! "baby-hood"
 pasta:pasta N1 ; ! "cake"
+cay:cay N1 ; ! "tributary, creek"
+yay:yay N1 ; ! "bow (weapon), spring (mechanical)"
+şiş:şiş N1 ; ! "skewer; swollen place"
+kös:kös N1 ; ! "signal drum / kettledrum"
+kiş:kiş N1 ; ! "quiche"
+keş:keş N1 ; ! "dry curd"
 
 
 
@@ -13149,7 +13163,7 @@ hor:hor A4 ;  ! ""
 majör:majör A2 ;  ! ""
 nankör:nankör A4 ;  ! ""
 bonkör:bonkör A4 ;  ! ""
-kör:kör A4 ;  ! ""
+kör:kör A2 ;  ! "blind" ! FIXME: CHECK A2
 mosmor:mosmor A4 ;  ! ""
 minör:minör A2 ;  ! ""
 provokatör:provokatör A4 ;  ! ""
@@ -13309,6 +13323,10 @@ aynı:aynı A2 ; ! "similar, same"
 benzer:benzer A2 ; ! "similar, alike"
 medeni:medeni A2 ; ! "civilized"
 erte:erte A2 ; ! "the next"
+kıt:kıt A1 ; ! "meagre, limited" ! FIXME: CHECK
+boz:boz A1 ; ! "brown; wasteland" ! FIXME: CHECK
+kır:kır A1 ; ! "grey" ! FIXME: CHECK
+keş:keş A1 ; ! "stupid, idiotic" ! FIXME: CHECK
 
 LEXICON Adverbs 
 
