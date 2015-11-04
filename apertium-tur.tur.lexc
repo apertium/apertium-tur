@@ -1219,16 +1219,17 @@ o%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:ondeki ATTR-SUBST ;
 o%<prn%>%<pers%>%<p3%>%<sg%>%<advl%>:once CLIT ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:onunla # ; 
 
-biz%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:biz CLIT ; 
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:biz CLIT-W-COPULA ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:bizim CLIT ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:bize CLIT ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:bizi CLIT ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizde CLIT ; 
-biz%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:bizdiz CLIT ; 
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:bizden CLIT ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>%<subst%>:bizimki CASE ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizdeki ATTR-SUBST ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<advl%>:bizce CLIT ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<ins%>:bizimle # ; 
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<abe%>:bizsiz CLIT ; 
 
 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:siz CLIT ; 
@@ -1236,7 +1237,7 @@ siz%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:sizin CLIT ;
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:size CLIT ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:sizi CLIT ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizde CLIT ; 
-siz%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:sizdiz CLIT ; 
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:sizden CLIT ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>%<subst%>:sizinki CASE ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizdeki ATTR-SUBST ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<advl%>:sizce CLIT ; 
