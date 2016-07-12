@@ -1,5 +1,8 @@
 prefix=@prefix@
 exec_prefix=${prefix}
+libdir=@libdir@
+dir=@datarootdir@/apertium/apertium-fin
+srcdir=@datarootdir@/apertium/apertium-fin
 
 Name: apertium-tur
 Description: Finite-state morphological transducer and constraint grammar for Turkish
