@@ -5712,6 +5712,7 @@ inşaat:inşaat N1 ; ! "construction"
 insaf:insaf N1 ; ! "fairness"
 insaf:insaf N1 ; ! "mercy"
 inşa:inşa N1 ; ! "construction"
+yalancı:yalancı N1 ; ! ""
 insancıl:insancıl N1 ; ! "philanthropist"
 insaniçincilik:insaniçincilik%{v%} N1 ; ! "humanizm"
 insan:İnsan N1 ; ! "human" ! Dir/LR
