@@ -136,6 +136,7 @@ Multichar_Symbols
 %<ger6%>           !
 
 %<gna_perf%>
+%<gna_cond%>
 %<gna_impf%>
 %<gna_when%>  ! at the same time as
 !%<gna_aor%>
@@ -631,6 +632,7 @@ LEXICON V-COND
 
 %<cond%>:%>s%{A%} V-COND-COP ;
 %<cond%>:%>s%{A%} V-IFI-COND-COMMON ;
+%<gna_cond%>:%>s%{A%} V-IFI-COND-COMMON ;
 
 LEXICON V-COND-COP
 %+i%<cop%>:%>%{y%} V-COND-COP-IFI ;
