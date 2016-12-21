@@ -2582,6 +2582,7 @@ mı%<qst%>:mi # ; ! Dir/LR
 mı%<qst%>:mu # ; ! Dir/LR
 mı%<qst%>:mü # ; ! Dir/LR
 mı%<qst%>:%~mı # ; ! Dir/RL
+%~:%~ # ; ! Dir/RL
 
 LEXICON Postadverbs
 
@@ -5241,12 +5242,9 @@ haya:haya N1 ; ! "shame"
 haya:haya N1 ; ! "stone"
 haya:haya N1 ; ! "testicle"
 hayalet:hayalet N1 ; ! "ghost"
-hayal:hayal N1 ; ! "dream"
-hayal:hayal N1 ; ! "imagination"
-hayat:hayat N1 ; ! "life"
-hayat:hayat N1 ; ! "living"
-hayat:hayat N1 ; ! "porch"
-hayat:hayat N1 ; ! "race"
+hayal:hayal N1 ; ! "dream, imagination"
+ayal:ayal N1 ; ! "dream"
+hayat:hayat N1 ; ! "life, living, porch, race"
 hayatiyet:hayatiyet N1 ; ! "vitality"
 haybet:haybet N1 ; ! "poverty"
 haydut:haydut N1 ; ! "bandit"
