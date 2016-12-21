@@ -1460,6 +1460,7 @@ LEXICON A3
 LEXICON A4
 
 %<adj%>: CLIT-NOPERS ; ! FIXME: Check for overgeneration e.g. vardiyim
+%<adj%>: V-NOPERS-COP ; ! FIXME: Check for overgeneration e.g. vardiyim
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Verb paradigms
