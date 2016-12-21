@@ -1040,6 +1040,19 @@ LEXICON SIZ-INFL
 
 SUBST ;
 
+LEXICON ABESSIVE-POSTPOSITION
+
+%+sız%<post%>:%>s%{I%}z # ;
+
+LEXICON LI-POSTPOSITION
+
+%+lı%<post%>:%>l%{I%} # ;
+
+LEXICON FULL-NOMINAL-INFLECTION
+
+SUBST ;
+ABESSIVE-POSTPOSITION ;
+LI-POSTPOSITION ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Noun paradigms
@@ -1048,11 +1061,8 @@ SUBST ;
 LEXICON N1 ! Generic noun paradigm.
            ! e.g. ev, kitap, ...
 
-%<n%>: SUBST ; 
+%<n%>: FULL-NOMINAL-INFLECTION ;
 %<n%>%<attr%>: # ;  
-%<n%>%<nom%>%+sız%<post%>:%>s%{I%}z SIZ-INFL ;
-!%<n%>%<abe%>:%>s%{I%}z # ;
-!%<n%>%<abe%>%<subst%>:%>s%{I%}z SUBST ;
 
 LEXICON N2 ! Compound nouns with compulsory possession. 
            ! e.g. dikiş makinası, dikiş makinaları, ...
@@ -2785,6 +2795,7 @@ o:o DET-DEM ; ! "this"
 hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
 hepsi:hepsi DET-QNT ; ! "all"
 bütün:bütün DET-QNT ; ! "every"
+kaç:kaç DET-QNT ; ! ""
 
 bir:bir DET-IND ; ! "a, one"
 başka:başka DET-IND ; ! "other"
@@ -3049,6 +3060,7 @@ sahiplik:sahiplik%{v%} N1 ; ! "ownership"
 sahip:sahip%{v%} N1 ; ! "owner"
 tür:tür N1 ; ! "type" 
 şirket:şirket N1 ; ! "company"
+roket:roket N1 ; ! "company"
 süreç:süreç%{v%} N1 ; ! "process"
 yolsuzluk:yolsuzluk%{v%} N1 ; ! "corruption"
 sandalye:sandalye N1 ; ! "chair"
@@ -5810,6 +5822,7 @@ isilik:isilik%{v%} N1 ; ! "heat rash"
 ısın:ısın N1 ; ! "calorie"
 ısıölçer:ısıölçer N1 ; ! "thermometer"
 ısırık:ısırık N1 ; ! "bite"
+isim:is%{u%}m N1 ; ! "name"
 is:is N1 ; ! "black, fume"
 iş:İş N1 ; ! "business, job, occupation, work" ! Dir/LR
 iş:iş N1 ; ! "business, job, occupation, work"
@@ -5964,6 +5977,7 @@ izzetüikram:izzetüikram N1 ; ! "entertainment"
 jaguar:jaguar N1 ; ! "jaguar"
 jambon:jambon N1 ; ! "ham"
 janr:janr N1 ; ! "genre"
+tanrı:tanrı N1 ; ! ""
 jant:jant N1 ; ! "rim"
 jelatin:jelatin N1 ; ! "jelly"
 jel:jel N1 ; ! "gel"
@@ -9645,6 +9659,7 @@ Ayhan:Ayhan NP1-ANT-M ; ! ""
 Aziz:Aziz NP1-ANT-M ; ! ""
 Bamir:Bamir NP1-ANT-M ; ! ""
 Barack:Barack NP1-ANT-M ; ! ""
+Jack:Jack NP1-ANT-M ; ! ""
 Bayram:Bayram NP1-ANT-M ; ! ""
 Ben:Ben NP1-ANT-M ; ! ""
 Berislav:Berislav NP1-ANT-M ; ! ""
