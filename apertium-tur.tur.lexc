@@ -31,71 +31,67 @@ Multichar_Symbols
 !%<ideo%>       ! Ideophone                  
 
 ! Proper noun types
-%<top%>            
-%<ant%>            
-%<cog%>            
-%<org%>            
-%<al%>             
+%<top%>        ! Toponym (place name)
+%<ant%>        ! Anthroponym (person name)
+%<cog%>        ! Cognomen (family name)
+%<org%>        ! Organisation
+%<al%>         ! Others
 
-%<p1%>
-%<p2%>
-%<p3%>
+%<p1%>         ! First person
+%<p2%>         ! Second person 
+%<p3%>         ! Third person
 
 %<tv%>
 %<iv%>
 
 !! gender of anthroponyms 
-%<m%>              ! Masculine    
-%<f%>              ! Feminine     
-%<mf%>             ! Either
+%<m%>          ! Masculine    
+%<f%>          ! Feminine     
+%<mf%>         ! Either
 
-! "Syntactic" tags. Attributive use of non-adjectives etc. !!!!! NOT SURE I WANT THIS !!!!
-%<attr%>           ! Attributive
-%<subst%>          ! Substantive
-%<advl%>           ! Adverbial
+! Function tags. 
+%<attr%>       ! Attributive
+%<subst%>      ! Substantive
+%<advl%>       ! Adverbial
 
-%<abstr%>          ! Abstract suffix -LIK
+%<abstr%>      ! Abstract suffix -LIK
 
 ! Number ! Сан ! Число
-%<sg%>             ! Singular  
-%<pl%>             ! Plural    
-%<sp%>             ! Singular/Plural (used for formal personal pronoun)
+%<sg%>         ! Singular  
+%<pl%>         ! Plural    
+%<sp%>         ! Singular/Plural (used for formal personal pronoun)
 %<frm%>
 
 ! Possessives 
-%<px1sg%>          ! First person singular
-%<px2sg%>          ! Second person singular
-%<px3sp%>          ! Third person singular/plural
-%<px3pl%>          ! Third person plural
-%<px1pl%>          ! First person plural
-%<px2pl%>          ! Second person singular
-%<px%>             ! General possessive           ! NOT SURE I WANT THIS
-                   ! - Bu hangi kapı ? Evinki ya da barakanınkı ?
-                   !   "which door is that?  the house's or the shed's?"
+%<px1sg%>      ! First person singular
+%<px2sg%>      ! Second person singular
+%<px3sp%>      ! Third person singular/plural
+%<px3pl%>      ! Third person plural
+%<px1pl%>      ! First person plural
+%<px2pl%>      ! Second person singular
 
 ! Cases ! "Case is a lie!" (quot.)
 
-%<nom%>            
-%<gen%>            
-%<dat%>            
-%<acc%>            
-%<abl%>            
-%<loc%>            
-%<ins%>            ! Instrumental=comitative 
-%<abe%>            ! abessive
+%<nom%>        ! Nominative
+%<gen%>        ! Genitive
+%<dat%>        ! Dative
+%<acc%>        ! Accusative
+%<abl%>        ! Ablative
+%<loc%>        ! Locative
+%<ins%>        ! Instrumental=comitative 
 
 
 ! Pronoun types ! Алмашлык төрләре ! Виды местоимений
 
-%<pers%>           ! Personal
+%<pers%>       ! Personal
 ! Pronoun and determiner types
-%<dem%>            ! Demonstrative
-%<ind%>            ! Indefinite
-%<itg%>            ! Interrogative
-%<qnt%>            ! Quantifier
-%<neg%>            ! Negative    ! NOTE: also used to denote negation in verbs ! what do you mean firespeaker??
-%<ref%>            ! Reflexive
-%<recip%>          ! Reciprocal
+%<dem%>        ! Demonstrative
+%<ind%>        ! Indefinite
+%<itg%>        ! Interrogative
+%<qnt%>        ! Quantifier
+%<neg%>        ! Negative    ! NOTE: also used to denote negation in verbs 
+%<ref%>        ! Reflexive
+%<recip%>      ! Reciprocal
 
 !! Numeral types
 %<ord%>            ! Ordinal
@@ -118,11 +114,11 @@ Multichar_Symbols
 %<past%>           ! -m{I}s 
 %<fut%>		   ! -{A}C{A}{K}
 %<pcont%>          ! 
-%<aor%>
-%<inf%>
-%<prog%>
-%<opt%>            ! optative
-%<pot%>            ! potential
+%<aor%>            ! Aorist
+%<inf%>            ! Infinitive -mAk
+%<prog%>           ! Progressive
+%<opt%>            ! Optative
+%<pot%>            ! Potential
 
 %<ger%>           !
 %<ger_past%>           !
@@ -1245,7 +1241,7 @@ biz%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>%<subst%>:bizimki CASE ;
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizdeki ATTR-SUBST ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<advl%>:bizce CLIT ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<ins%>:bizimle # ; 
-biz%<prn%>%<pers%>%<p1%>%<pl%>%<abe%>:bizsiz CLIT ; 
+!biz%<prn%>%<pers%>%<p1%>%<pl%>%<abe%>:bizsiz CLIT ; 
 
 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:siz CLIT ; 
