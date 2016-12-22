@@ -14937,7 +14937,7 @@ yarala:yarala V-IR-TV ; ! "injure" (T)
 yargıla:yargıla V-IR-TV ; ! "judge" (T)
 yarıla:yarıla V-IR-TV ; ! "be halfway through" (T)
 yasa:yasa V-IR-TV ; ! "legislate" (T)
-yaşa:yaşa V-IR-TV ; ! "live" (T)
+yaşa:yaşa V-IR-IV ; ! "live" (T)
 yasakla:yasakla V-IR-TV ; ! "forbid" (T)
 yasla:yasla V-IR-TV ; ! "prop" (T)
 !yayımla:yayımla V-TV-T-IR  ; ! "publish"
