@@ -12795,11 +12795,11 @@ yapısal:yapısal A4 ; ! "constitutional"
 
 
 
-var:var A4 ; ! "existing" 
-yok:yok A4 ; ! "non-existing"
-değil:değil A4 ; ! ""
-gerek:gerek A4 ; ! ""
-mümkün:mümkün A4 ;  ! ""
+var:var A2 ; ! "existing" 
+yok:yok A2 ; ! "non-existing"
+değil:değil A2 ; ! ""
+gerek:gerek A2 ; ! ""
+mümkün:mümkün A2 ;  ! ""
 
 yönelik:yönelik A4 ; ! "devoted"
 mali:mali A4 ; ! "economıcal"
