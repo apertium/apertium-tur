@@ -2866,6 +2866,8 @@ sekiz:sekiz NUM ; ! "eight"
 dokuz:dokuz NUM ; ! "nine"
 on:on NUM ; ! "ten"
 
+yirmi:yirmi NUM ; ! "twenty"
+
 yüz:yüz NUM ; ! "hundred"
 bin:bin NUM ; ! "thousand"
 milyon:milyon NUM ; ! "million"
@@ -3075,11 +3077,11 @@ suikast:suikast N1 ; ! "assassination"
 
 
 
-Pazartesi:Pazartesi N1 ; ! "Monday"
-Salı:Salı N1 ; ! "Tuesday"
-Perşembe:Perşembe N1 ; ! "Thursday"
-Cuma:Cuma N1 ; ! "Friday"
-Cumartesi:Cumartesi N1 ; ! "Saturday"
+Pazartesi:pazartesi N1 ; ! "Monday"
+Salı:salı N1 ; ! "Tuesday"
+Perşembe:perşembe N1 ; ! "Thursday"
+Cuma:cuma N1 ; ! "Friday"
+Cumartesi:cumartesi N1 ; ! "Saturday"
 
 Ocak:Ocak N5 ; ! "January"
 Şubat:Şubat N5 ; ! "February"
@@ -13988,6 +13990,7 @@ LEXICON Adverbs
 
 bu% yüzden:bu% yüzden ADV3 ; ! ""
 
+şimdi:şimdi ADV3 ; ! "now"
 bazen:bazen ADV3 ; ! "sometimes"
 defalarca:defalarca ADV3 ; ! "over and over"
 kolayca:kolayca ADV3 ; ! "easily"
