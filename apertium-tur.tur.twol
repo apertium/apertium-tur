@@ -20,6 +20,8 @@ Alphabet
  %{z%}:z
 
  %{ii%}:0 %{o%}:0 %{ö%}:0 %{ı%}:0 %{p%}:0 %{b%}:0 ! For numerals and abbreviations / acronyms
+
+ %{k%}:k ! ???
  
  %{pN%}:0
 
@@ -218,7 +220,6 @@ Rules
 %{a%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ %>: | :0 | %   ] _ %>: [ :Cns ]/[ :0 ]  ;
         except
                                                           _ %>: %{I%}:  ;
-      
         where 
             LastVowel in ( i ü e ö ı u a o â )
                    Vy in ( e e e e a a a a a ) 
@@ -331,7 +332,7 @@ k:g <=> :n _ %{v%}: %>: (:0) :Vow ;
 "Buffer N after 3rd singular possessive + dat/loc/abl"
 %{pN%}:n <=>  _ %>: [ %{D%}: | :SurVow ]/[ :0  ] ; 
       except 
-              _ %>: %{y%}: ; 
+              _ %>: [ %{y%}: | %{n%}: ] ; 
 
 ! arka>{s}{I}{pN}>{D}{A}     = arkasında = a:a r:r k:k a:a >:0 {s}:s {I}:ı {pN}:n >:0 {D}:d {A}:a
 ! yap>m{A}>{s}{I}{pN}>{y}{I} = yapmasını = y:y a:a p:p >:0 m:m {A}:a >:0 {s}:s {I}:ı {pN}:n >:0 {y}:0 {I}:ı
