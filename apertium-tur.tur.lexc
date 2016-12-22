@@ -1076,7 +1076,7 @@ LEXICON N2 ! Compound nouns with compulsory possession.
 LEXICON N3 ! Nationalities which can form language, etc.
            ! e.g. turk, turkçe
 
-!%<n%>: SUBST ; 
+%<n%>: SUBST ; 
 %<adj%>: ADJ-CLIT ;
 %<adj%>%<subst%>: ADJ-CLIT ;
 
@@ -8701,7 +8701,8 @@ Rum:Rum N3 ; ! "Greek"
 Fransız:Fransız N3 ; ! ""
 Sloven:Sloven N3 ; ! ""
 Ermeni:Ermeni N3 ; ! ""
-İspanyol:İspanyol N3 ; ! ""
+ispanyol:İspanyol N3 ; ! ""
+ispanyolca:İspanyolca N3 ; ! ""
 Arap:Arap N3 ; ! ""
 İsveçli:İsveçli N3 ; ! "Swiss"
 Özbek:Özbek N3 ; ! "Uzbek"
