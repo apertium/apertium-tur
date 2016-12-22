@@ -330,6 +330,8 @@ k:g <=> :n _ %{v%}: %>: (:0) :Vow ;
 
 "Buffer N after 3rd singular possessive + dat/loc/abl"
 %{pN%}:n <=>  _ %>: [ %{D%}: | :SurVow ]/[ :0  ] ; 
+      except 
+              _ %>: %{y%}: ; 
 
 ! arka>{s}{I}{pN}>{D}{A}     = arkasında = a:a r:r k:k a:a >:0 {s}:s {I}:ı {pN}:n >:0 {D}:d {A}:a
 ! yap>m{A}>{s}{I}{pN}>{y}{I} = yapmasını = y:y a:a p:p >:0 m:m {A}:a >:0 {s}:s {I}:ı {pN}:n >:0 {y}:0 {I}:ı
