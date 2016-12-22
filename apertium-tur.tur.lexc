@@ -2591,6 +2591,10 @@ LEXICON Postadverbs
 
 ise:ise POSTADV ;
 
+da%<postadv%>:da # ; ! Dir/LR
+da%<postadv%>:de # ; ! Dir/LR
+da%<postadv%>:%~da # ; ! Dir/RL
+
 LEXICON Postpositions
 
 ! Nominative
