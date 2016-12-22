@@ -1457,13 +1457,13 @@ COPULA-MIMIS ;
 LEXICON A1
 
 %<adj%>: ADJ-CLIT ; 
-%<adj%>%<subst%>: SUBST ;
+%<adj%>%<subst%>: FULL-NOMINAL-INFLECTION ;
 %<adj%>%<advl%>: # ;
 
 LEXICON A2
 
 %<adj%>: ADJ-CLIT ;
-%<adj%>%<subst%>: SUBST ;
+%<adj%>%<subst%>: FULL-NOMINAL-INFLECTION ;
 
 LEXICON A3
 
@@ -12765,6 +12765,8 @@ süreli:süreli A2 ; ! "transitory periodic"
 bağlantılı:bağlantılı A2 ; ! " connected"
 kayıtlı:kayıtlı A4 ; ! "recorded"
 sınırlı:sınırlı A2 ; ! "qualified"
+helal:helal A2 ; ! ""
+iri:iri A2 ; ! ""
 riyatik:riyatik A2 ; ! "two faced"
 başlıklı:başlıklı A2 ; ! "headed"
 uyumlu:uyumlu A2 ; ! "compatible"
