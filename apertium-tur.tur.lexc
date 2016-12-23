@@ -15534,6 +15534,7 @@ inle:inle V-IR-IV ; ! "sough" (T)
 kana:kana V-IR-IV ; ! "bleed" (T)
 kara:kara V-IR-IV ; ! "brown" (T)
 kayna:kayna V-IR-IV ; ! "boil" (T)
+fırlatıl:fırlatıl V-IR-IV ; ! "" (T) ! FIXME: Pass ?
 
 !! JNW Verbs
 !şaşır:şaşır V-IV-T-IR ; ! "to be surprised"
