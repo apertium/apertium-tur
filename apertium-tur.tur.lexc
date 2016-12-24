@@ -2999,7 +2999,7 @@ strateji:strateji N1 ; ! "strategy"
 tavsiye:tavsiye N1 ; ! "suggestion"
 uzman:uzman N1 ; ! "expert"
 tiyatro:tiyatro N1 ; ! "teatro"
-Şampiyona:Şampiyona N1 ; ! "Championship"
+şampiyona:şampiyona N1 ; ! "Championship"
 finanse:finanse N1 ; ! "finance"
 tanık:tanık%{v%} N1 ; ! "witness"
 bankacılık:bankacılık%{v%} N1 ; ! "banking"
@@ -8020,6 +8020,7 @@ kırmızı% turp:kırmızı% turp N1 ; ! "radish"
 orta% direk:orta% direk N1 ; ! "middle class"
 aç% gözlü:aç% gözlü N1 ; ! "ravenous"
 ada% çayı:ada% çay N2 ; ! "sage"
+doğum% günü:doğum% gün N2 ; ! "birthday" ! Use/MT
 ay% ışığı:ay% ışık N2 ; ! "moon beam"
 cadı% süpürgesi:cadı% süpürge N2 ; ! "witches' brooms"
 dikiş% makinası:dikiş% makina N2 ; ! "sewing machine"
@@ -15333,6 +15334,7 @@ dön:dön V-AR-IV ; ! "turn"
 dönüş:dönüş V-IR-IV ; ! "return to" (DIR)
 doy:doy V-AR-IV ; ! "be full up" (DIR)
 dur:dur V-IR-IV ; ! "stop" (DIR)
+durdur:durdur V-IR-TV ; ! "stop" 
 dürt:dürt V-AR-IV ; ! "poke" (DIR)
 durul:durul V-IR-IV ; ! "calm down" (DIR)
 düş:düş V-AR-IV ; ! "fall" (DIR)
@@ -15545,6 +15547,7 @@ değer% ver:değer% ver V-IR-TV ; ! "appreciate" (DIR)
 kahvaltı% et:kahvaltı% et%{v%} V-AR-IV ; ! "have breakfast" ! Use/MT
 dans% et:dans% et%{v%} V-AR-IV ; ! "dance" Use/MT
 davet% et:davet% et%{v%} V-AR-TV ; ! "invite" Use/MT
+yardım% et:yardım% et%{v%} V-AR-TV ; ! "invite" Use/MT
 satın% al:satın% al V-IR-TV ; ! "buy" ! Use/MT
 yarat:yarat V-IR-TV ; ! "create" ! Use/MT
 bakış% at:bakış% at V-AR-TV ; ! "glance at / look at [suddenly]"
@@ -15556,6 +15559,8 @@ sevin:sevin V-IR-IV ; ! "be pleased, rejoice"
 LEXICON Interjections 
 
 evet:evet INTERJ ; ! "yes"
+lütfen:lütfen INTERJ ; ! ""
+yok:yok INTERJ ; ! ""
 hayır:hayır INTERJ ; ! "no"
 tabii% ki:tabii% ki INTERJ ;  ! "of course"
 tabii% ki:tabi% ki INTERJ ;  ! "of course" ! Dir/LR
