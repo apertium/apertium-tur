@@ -143,6 +143,8 @@ Multichar_Symbols
 %<gpr_past%>  ! past-tense object-relative verbal adjective {D}{I}k{v}
 %<gpr_aor%>   ! 
 
+%<percent%>
+
 %<sent%>      ! Sentence marker
 %<guio%>      ! Hyphen
 %<cm%>        ! Comma
@@ -253,9 +255,12 @@ LEXICON NUM-DIGIT
 !%<num%>%<coll%>%<nom%>:%-%{A%}у # ;
 !%<num%>%<coll%>:%-%{A%}у SUBST-NONOM ;
 
-!%<num%>%<percent%>:%% # ;
-!%<num%>%<percent%>%<subst%>%<nom%>:%% # ;
-!%<num%>%<percent%>%<subst%>:%%{а%}%{з%}%- SUBST-NONOM ;
+%<num%>%<percent%>:%% # ;
+%<num%>%<percent%>:% %% # ; ! Dir/LR
+%<num%>%<percent%>%<subst%>%<nom%>:%% # ;
+%<num%>%<percent%>%<subst%>%<nom%>:% %% # ; ! Dir/LR
+%<num%>%<percent%>%<subst%>:%%%{ii%}%{p%}%- SUBST-NONOM ;
+%<num%>%<percent%>%<subst%>:% %%%{ii%}%{p%}%- SUBST-NONOM ; ! Dir/LR
 
 
 !°С%<num%>:°С # ;
@@ -8788,6 +8793,25 @@ km:km N1 ;  ! "km" ! FIXME: abbr
 ton:ton N1 ; ! "ton"
 cm:cm N1 ;  ! "cm"
 
+asilzade:asilzade N1 ; ! ""
+bolşevik:bolşevik N1 ; ! ""
+cenk:cenk N1 ; ! ""
+hanlık:hanlık%{v%} N1 ; ! ""
+yenilgi:yenilgi N1 ; ! ""
+mimarlık:mimarlık%{v%} N1 ; ! ""
+aydın:aydın N1 ; ! ""
+münevver:münevver N1 ; ! ""
+sömürge:sömürge N1 ; ! ""
+muslüman:muslüman N1 ; ! ""
+nogay:nogay N3 ; ! ""
+pantürkizm:pantürkizm N1 ; ! ""
+şiar:şiar N1 ; ! ""
+sovyet:sovyet N1 ; ! ""
+tarz:tarz N1 ; ! ""
+hücüm:hücüm N1 ; ! ""
+yarımada:yarımada N1 ; ! ""
+zümre:zümre N1 ; ! ""
+
 
 
 üçlü:üçlü N1 ; ! "triad" 
@@ -8808,6 +8832,8 @@ Anadolu:Anadolu NP1-TOP ; ! "Anatolia"
 Sırbistan:Sırbistan NP1-TOP ; ! "Serbia"
 Arnavutluk:Arnavutluk NP1-TOP ; ! "Albania"
 Aarhus:Aarhus NP1-TOP ; ! ""
+Lehistan:Lehistan NP1-TOP ; ! ""
+Kırım:Kırım NP1-TOP ; ! ""
 Dayton:Dayton NP1-TOP ; ! ""
 Abhazya:Abhazya NP1-TOP ; ! ""
 Açe:Açe NP1-TOP ; ! ""
