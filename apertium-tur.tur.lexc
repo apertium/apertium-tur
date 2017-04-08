@@ -8826,6 +8826,24 @@ oğul:oğ%{u%}l N1 ; ! "son"
 
 LEXICON ProperNouns
 
+Akmescit:Akmescit NP1-TOP ; ! ""
+Bahçesaray:Bahçesaray NP1-TOP ; ! ""
+Bekir:Bekir NP1-ANT-M ; ! ""
+Çelebicihan:Çelebicihan NP1-COG-M ; ! ""
+Gasprinski:Gasprinski NP1-COG-M ; ! ""
+Giray:Giray NP1-COG-MF ; ! ""
+Hacı:Hacı NP1-ANT-M ; ! ""
+İbrahimov:İbrahimov NP1-COG-M ; ! ""
+İsmail:İsmail NP1-ANT-M ; ! ""
+Kristor:Kristor NP1-ANT-M ; ! ""
+Mahmud:Mahmud NP1-ANT-M ; ! ""
+Minih:Minih NP1-COG-M ; ! ""
+Molodi:Molodi NP1-TOP ; ! ""
+Numan:Numan NP1-ANT-M ; ! ""
+Ömer:Ömer NP1-ANT-M ; ! ""
+Veli:Veli NP1-ANT-M ; ! ""
+
+
 Milas:Milas NP1-TOP ; ! ' '
 Baykonur:Baykonur NP1-TOP ; ! ""
 Anadolu:Anadolu NP1-TOP ; ! "Anatolia"
