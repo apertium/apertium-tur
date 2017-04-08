@@ -2532,13 +2532,9 @@ LEXICON INTERJ
 
 %<ij%>: # ;
 
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-
 LEXICON POST
 
 %<post%>: # ;
-
-!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 LEXICON DET-REF
 
@@ -2567,6 +2563,10 @@ LEXICON DET-NEG
 LEXICON TIT 
 
 %<title%>: # ; 
+
+LEXICON NUM-ROMAN
+
+%<num%>%<ord%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Stem lexica
@@ -2876,6 +2876,30 @@ bilyon:bilyon NUM ; ! "billion"
 trilyon:trilyon NUM ; ! "trillion"
 katrilyon:katrilyon NUM ; ! ""
 buçuk:buçuk NUM ; ! "half"
+
+I:I NUM-ROMAN ; ! ""
+II:II NUM-ROMAN ; ! ""
+III:III NUM-ROMAN ; ! ""
+IV:IV NUM-ROMAN ; ! ""
+IX:IX NUM-ROMAN ; ! ""
+V:V NUM-ROMAN ; ! ""
+VI:VI NUM-ROMAN ; ! ""
+VII:VII NUM-ROMAN ; ! ""
+VIII:VIII NUM-ROMAN ; ! ""
+X:X NUM-ROMAN ; ! ""
+XI:XI NUM-ROMAN ; ! ""
+XII:XII NUM-ROMAN ; ! ""
+XIII:XIII NUM-ROMAN ; ! ""
+XIV:XIV NUM-ROMAN ; ! ""
+XIX:XIX NUM-ROMAN ; ! ""
+XV:XV NUM-ROMAN ; ! ""
+XVI:XVI NUM-ROMAN ; ! ""
+XVII:XVII NUM-ROMAN ; ! ""
+XVIII:XVIII NUM-ROMAN ; ! ""
+XX:XX NUM-ROMAN ; ! ""
+XXI:XXI NUM-ROMAN ; ! ""
+XXII:XXII NUM-ROMAN ; ! ""
+
 
 LEXICON Titles
 
@@ -8684,6 +8708,7 @@ yön:yön N4 ; ! "on"
 
 ! Nationalities and other names of people
 
+Kırımtatar:Kırımtatar  N3 ; ! ""
 Türk:Türk N3 ; ! "Turk"
 Hırvat:Hırvat N3 ; ! ""
 Arnavut:Arnavut N3 ; ! ""
