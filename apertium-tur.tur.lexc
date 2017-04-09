@@ -1415,6 +1415,7 @@ LEXICON NUM
 LEXICON ADV1
 
 %<adv%>: # ; ! this is for when the adverb is used as an adverb
+%<adv%>: V-COP ;
 ! %<adv%>%<subst%>: SUBST ;
 %<prn%>: SUBST ;
 %<adv%>%<attr%>: # ;
@@ -2294,46 +2295,6 @@ LEXICON V-IV-DIR-IR
 %<v%>%<iv%>: JUSSIVE ;
 %<v%>%<iv%>: DOUBLE-EVIDENTIAL;
 
-
-
-LEXICON V-TV-DIR-AR 
-! Ex. yap>mak - yap>ar>ım - yap>dır>mak
-
-%<v%>%<tv%>: CAUS-DIR-AR ;
-%<v%>%<tv%>: AOR-AR ;
-%<v%>%<tv%>: REC-DIR-AR ;
-%<v%>%<tv%>: PASS-DIR-AR ;
-%<v%>%<tv%>: REF-DIR-AR ;
-%<v%>%<tv%>: AOR-AR-CONDITIONAL ;
-%<v%>%<tv%>: ABIL-AR ;
-%<v%>%<tv%>: FINITE-VERBS-AR ;
-%<v%>%<tv%>: NEG ;
-%<v%>%<tv%>: NECE ;
-%<v%>%<tv%>: CONDITIONAL ;
-%<v%>%<tv%>: NON-FINITE ;
-%<v%>%<tv%>: GERUND ;
-%<v%>%<tv%>: IMPERATIVE ;
-%<v%>%<tv%>: CONDITIONAL-CONTINUOUS ;
-%<v%>%<tv%>: CONDITIONAL-EVIDENTIAL ;
-%<v%>%<tv%>: CONDITIONAL-PAST ; 
-%<v%>%<tv%>: EVIDENTIAL-CONDITIONAL ;
-%<v%>%<tv%>: EVIDENTIAL-CONTINUOUS ;
-%<v%>%<tv%>: EVIDENTIAL-PAST ;
-%<v%>%<tv%>: EVIDENTIAL-PERFECT ;
-%<v%>%<tv%>: FUTURE ;
-%<v%>%<tv%>: FUTURE-CONDITIONAL ;    
-%<v%>%<tv%>: FUTURE-PERFECT ;
-%<v%>%<tv%>: IMPERFECTIVE ;
-%<v%>%<tv%>: PAST ;
-%<v%>%<tv%>: PAST-CONDITIONAL ;
-%<v%>%<tv%>: PAST-CONTINUOUS ;
-%<v%>%<tv%>: PRESENT-CONTINUOUS ;
-%<v%>%<tv%>: FUTURE-EVIDENTIAL ;
-%<v%>%<tv%>: EXHORTATIVE ;
-%<v%>%<tv%>: JUSSIVE ;
-%<v%>%<tv%>: AORIST-AR-PERFECT ;
-%<v%>%<tv%>: ABIL-AR-CONDITIONAL;
-%<v%>%<tv%>: DOUBLE-EVIDENTIAL;
 
 
 LEXICON V-TV-T-AR 
@@ -15535,6 +15496,7 @@ türe:türe V-IR-IV ; ! "derive" (T)
 ucuzla:ucuzla V-IR-IV ; ! "become cheap" (T)
 ufal:ufal V-IR-IV ; ! "become smaller" (T)
 uğra:uğra V-IR-IV ; ! "make a brief visit to" (T)
+uğrat:uğrat V-IR-TV ; ! Der/Caus
 üre:üre V-IR-IV ; ! "procreate" (T)
 uyu:uyu V-IR-IV ; ! "sleep" (T)
 uyukla:uyukla V-IR-IV ; ! "snooze" (T)
