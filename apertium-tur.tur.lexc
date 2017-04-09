@@ -142,6 +142,7 @@ Multichar_Symbols
 %<gpr_rsub%>  ! past-tense subject-relative verbal adjective {y}{A}n
 %<gpr_past%>  ! past-tense object-relative verbal adjective {D}{I}k{v}
 %<gpr_aor%>   ! 
+%<gpr_pot%>   ! 
 
 %<percent%>
 
@@ -464,6 +465,7 @@ LEXICON V-GPR
 
 %<gpr_rsub%>:%>%{y%}%{A%}n V-GPR-COMMON ;
 %<gpr_past%>:%>%{D%}%{I%}k%{v%} V-GPR-DIK-COMMON ;
+%<gpr_pot%>:%>%{y%}%{I%}c%{I%} # ; 
 
 LEXICON V-GPR-DIK-COMMON 
 
