@@ -886,13 +886,6 @@ LEXICON CLIT-W-COPULA
 %+mı%<qst%>:% m%{I%} PERS-COP-PRES ; 
 # ;  !! This is the end of word marker.
 
-LEXICON COPULA-LOCATIVE 
-
-!this is the copula which can go after nouns in locative cases and after adjectives. "to be in sometihng" "to be something"
-
-%<cop%>%<aor%>: PERS-COP-PRES ; 
-
-
 LEXICON V-PERS-COP
 
 %+i%<cop%>%<aor%>: V-PERS-COP-G2-NOSG3-FINAL ;
@@ -1159,21 +1152,23 @@ POSS-REAL ;   ! for stuff like "биздин аба ырайыбыз" and even "
 LEXICON NP1-ANT-M
 
 %<np%>%<ant%>%<m%>%<nom%>: # ;
+%<np%>%<ant%>%<m%>%<nom%>:%' V-NOPERS-COP ;
 %<np%>%<ant%>%<m%>:%' N-INFL-COMMON-NONOM ;
 !%<np%>%<ant%>%<m%>%<attr%>: # ;
 
 LEXICON NP1-ANT-F
 
 %<np%>%<ant%>%<f%>%<nom%>: # ;
+%<np%>%<ant%>%<f%>%<nom%>:%' V-NOPERS-COP ;
 %<np%>%<ant%>%<f%>:%' N-INFL-COMMON-NONOM ;
 !%<np%>%<ant%>%<f%>%<attr%>: # ;
 
 LEXICON NP1-COG-MF
 
 %<np%>%<cog%>%<mf%>%<nom%>: # ;
+%<np%>%<cog%>%<mf%>%<nom%>:%' V-NOPERS-COP ;
 %<np%>%<cog%>%<mf%>:%' N-INFL-COMMON-NONOM ;
 %<np%>%<cog%>%<mf%>%<attr%>: # ;
-
 
 LEXICON NP1-AL-PL
 
