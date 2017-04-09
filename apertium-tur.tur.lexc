@@ -1169,6 +1169,8 @@ LEXICON NP1-COG-MF
 %<np%>%<cog%>%<mf%>%<nom%>:%' V-NOPERS-COP ;
 %<np%>%<cog%>%<mf%>:%' N-INFL-COMMON-NONOM ;
 %<np%>%<cog%>%<mf%>%<attr%>: # ;
+%<np%>%<cog%>%<mf%>%<pl%>%<nom%>:%>l%{A%}r # ;
+%<np%>%<cog%>%<mf%>%<pl%>:%>l%{A%}r%' N-INFL-COMMON-NONOM ;
 
 LEXICON NP1-AL-PL
 
