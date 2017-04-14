@@ -14544,9 +14544,11 @@ boğ:boğ V-AR-TV ; ! "choke" (DIR)
 böl:böl V-AR-TV ; ! "divide" (DIR)
 borçlan:borçlan V-IR-TV ; ! "owe" (DIR)
 boşal:boşal V-IR-TV ; ! "be emptied" (DIR)
+denil:denil V-IR-TV ; ! "be said"
 boz:boz V-AR-TV ; ! "break down" (DIR)
 bük:bük V-AR-TV ; ! "bend" (DIR)
 bul:bul V-IR-TV ; ! "find" (DIR)
+bulun:bulun V-IR-IV ; ! "be found"
 bulan:bulan V-IR-TV ; ! "cloud" (DIR)
 bur:bur V-IR-TV ; ! "wring" (DIR)
 büz:büz V-AR-TV ; ! "constrict" (DIR)
