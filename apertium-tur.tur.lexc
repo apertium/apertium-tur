@@ -15149,6 +15149,7 @@ gir:gir V-AR-IV ; ! enter" (DIR)
 git:git%{v%} V-AR-IV ; ! "go"
 ! öl:öl V-IV-DIR-IR ; ! "die"
 öl:öl V-IR-IV ; ! "die"
+yakalan:yakalan V-IR-IV ; ! "be caught"
 !de:d%{e%} V-IV-DIR-IR ; ! "say"
 de:d%{e%} V-IR-IV ; ! "say"
 ! ol:ol V-IV-DIR-IR ; ! "be"
