@@ -5080,10 +5080,10 @@ halayık:halayık N1 ; ! "slave"
 halef:halef N1 ; ! "successor"
 halel:halel N1 ; ! "injury"
 halet:halet N1 ; ! "situation"
-hal:hal N1 ; ! "aspect"
-hal:hal N1 ; ! "condition"
-hal:hal N1 ; ! "situation"
-hal:hal N1 ; ! "state"
+hal:hal%{ii%} N1 ; ! "aspect"
+hal:hal%{ii%} N1 ; ! "condition"
+hal:hal%{ii%} N1 ; ! "situation"
+hal:hal%{ii%} N1 ; ! "state"
 halı:halı N1 ; ! "carpet"
 halik:halik%{v%} N1 ; ! "creator"
 halka:halka N1 ; ! "ring"
@@ -14022,7 +14022,8 @@ erte:erte A2 ; ! "the next"
 kıt:kıt A1 ; ! "meagre, limited" ! FIXME: CHECK
 boz:boz A1 ; ! "brown; wasteland" ! FIXME: CHECK
 kır:kır A1 ; ! "grey" ! FIXME: CHECK
-keş:keş A1 ; ! "stupid, idiotic" ! FIXME: CHECK
+keş:keş A1 ; ! "druggee" ! FIXME: CHECK
+özerk:özerk A1 ; ! "autonomous"
 
 LEXICON Adverbs 
 
