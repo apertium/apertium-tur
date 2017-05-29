@@ -1335,6 +1335,12 @@ LEXICON PRON-QNT
 
 %<prn%>%<qnt%>: N-INFL-COMMON ; ! FIXME: Check contlex
 
+LEXICON PRON-QNT-ÇOĞU
+
+%<prn%>%<qnt%>%<nom%>: # ; ! FIXME: Check contlex
+%<prn%>%<qnt%>:%{n%} CASE-NONOM ; ! FIXME: Check contlex
+
+
 LEXICON PRON-RECIP
 
 %<prn%>%<recip%>: POSS-REAL ;
@@ -2582,8 +2588,6 @@ için:için POST ; ! ""
 ile:İle POST ; ! "" ! Dir/LR
 ile:ile POST ; ! ""
 kadar:kadar POST ; ! ""
-hakkında:hakkında POST ; ! "regarding"
-halinde:halinde POST ; ! "ın case of"
 takdirde:takdirde POST ; ! "in case of" 
 boyunca:boyunca POST ; ! "during"
 haline:haline POST ; ! "into"
@@ -2591,6 +2595,8 @@ uyarınca:uyarınca POST; ! "according to"
 kala:kala POST ; ! "til"
 edici:edici POST ; ! @@@ really weird behaviour
 dolu:dolu POST ; ! "for the/an entire" (e.g. "hayat dolu")
+
+evvel:evvel POST ; ! ""
 
 ! Genıtıve
 
@@ -2763,6 +2769,7 @@ herkes:herkes PRON-QNT ; ! "everybody"
 kimse:kimse PRON-QNT ; ! "nobody"
 birisi:birisi PRON-QNT ; ! "somebody"
 bazıları:bazıları PRON-QNT ; ! "some of them"
+çoğu:çoğ%>%{s%}%{I%} PRON-QNT-ÇOĞU ; ! ""
 
 birbiri:birbir PRON-RECIP ; ! "each other" 
 öz:öz PRON-REF ; ! "self"
@@ -2890,6 +2897,9 @@ Dr:Dr TIT ; ! ""
 
 
 LEXICON Nouns
+
+hakk:hakk N1 ; ! "regarding"
+halinde:halinde POST ; ! "ın case of" ! FIXME
 
 !!!NEW!!!
 
@@ -13410,6 +13420,9 @@ sığ:sığ A4 ;  ! ""
 küstah:küstah A4 ;  ! ""
 simsiyah:simsiyah A2 ;  ! ""
 siyah:siyah A2 ;  ! ""
+kara:kara A2 ;  ! ""
+düzenli:düzenli A2 ;  ! ""
+binlik:binlik%{v%} A2 ;  ! ""
 müsterih:müsterih A4 ;  ! ""
 nezih:nezih A4 ;  ! ""
 şuh:şuh A4 ;  ! ""
@@ -14964,6 +14977,7 @@ topakla:topakla V-IR-TV ; ! "pelletise" (T)
 toparla:toparla V-IR-TV ; ! "rake together" (T)
 ! topla:topla V-TV-T-IR  ; ! "pick up, total"
 topla:topla V-IR-TV ; ! "pick up, total"
+toplan:toplan V-IR-IV ; ! "" (DIR)
 tütsüle:tütsüle V-IR-TV ; ! "kipper" (T)
 tutukla:tutukla V-IR-TV ; ! "arrest" (T)
 tuzla:tuzla V-IR-TV ; ! "salt down" (T)
