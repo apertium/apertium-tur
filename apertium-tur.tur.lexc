@@ -12883,6 +12883,7 @@ ikili:ikili A4 ; ! "dual"
 belli:belli A4 ; ! "evident"
 iyi:İyi A1 ; ! "good" ! Dir/LR
 iyi:iyi A1 ; ! "good"
+mahsus:mahsus A1 ; ! "special"
 tüzel:tüzel A4 ; ! "corporate"
 yeni:yeni A1 ; ! "new"
 büyük:büyük A1 ; ! "big"
