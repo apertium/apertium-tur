@@ -2918,6 +2918,7 @@ eşlik:eşlik%{v%} N1 ; ! "company"
 refah:refah N1 ; ! ""
 cümle:cümle N1 ; ! ""
 tümce:tümce N1 ; ! ""
+terim:terim N1 ; ! "term"
 tüketici:tüketici N1 ; ! "consumer"
 ek:ek%{v%} N1 ; ! Dir/LR
 ek:ek N1 ; ! ""
