@@ -2905,6 +2905,7 @@ halinde:halinde POST ; ! "ın case of" ! FIXME
 
 
 süt:süt N1 ; ! " milke"
+katip:katip%{v%} N1 ; ! "scribe"
 terk:terk N1 ; ! "abandonment"
 beraat:beraat N1 ; ! "exoneration"
 saha:saha N1 ; ! "field"
@@ -2931,6 +2932,7 @@ götürü:götürü N1 ; ! "lump sum"
 öfke:öfke N1 ; ! "anger"
 peşin:peşin N1 ; ! "payment in advance"
 risk:risk N1 ; ! "risk"
+rica:rica N1 ; ! "request"
 seçenek:seçenek%{v%} N1 ;  ! "choice"
 subay:subay N1 ; ! "military officer"
 temdit:temdit N1 ; ! "continuance"
