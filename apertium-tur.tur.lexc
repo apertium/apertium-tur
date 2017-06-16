@@ -2585,6 +2585,7 @@ LEXICON Postpositions
 gibi:gibi POST ; ! ""
 için:İçin POST ; ! "" ! Dir/LR
 için:için POST ; ! ""
+itibaren:itibaren POST ; ! "from x onward"
 ile:İle POST ; ! "" ! Dir/LR
 ile:ile POST ; ! ""
 kadar:kadar POST ; ! ""
@@ -2905,6 +2906,7 @@ halinde:halinde POST ; ! "ın case of" ! FIXME
 
 
 süt:süt N1 ; ! " milke"
+donanma:donanma ; ! "fleet"
 katip:katip%{v%} N1 ; ! "scribe"
 terk:terk N1 ; ! "abandonment"
 beraat:beraat N1 ; ! "exoneration"
@@ -2922,6 +2924,7 @@ refah:refah N1 ; ! ""
 soruşturma:soruşturma N1 ; ! "investigation"
 cümle:cümle N1 ; ! ""
 tümce:tümce N1 ; ! ""
+nakliyat:nakliyat N1 ; ! ""
 terim:terim N1 ; ! "term"
 tüketici:tüketici N1 ; ! "consumer"
 ek:ek%{v%} N1 ; ! Dir/LR
@@ -12892,6 +12895,7 @@ ikili:ikili A4 ; ! "dual"
 belli:belli A4 ; ! "evident"
 iyi:İyi A1 ; ! "good" ! Dir/LR
 iyi:iyi A1 ; ! "good"
+merkezi:merkezi A1 ;!  "central"
 müstakil:müstakil A1; ! "independent"
 mahsus:mahsus A1 ; ! "special"
 tüzel:tüzel A4 ; ! "corporate"
@@ -14275,7 +14279,7 @@ irsen:irsen ADV3 ; !
 ismen:ismen ADV3 ; ! "nominally"
 işte:işte ADV3 ; ! "this way" @@@ interj imho
 istinaden:istinaden ADV3 ; ! "based on " @@@
-itibaren:itibaren ADV3 ; ! "as of"
+! itibaren:itibaren ADV3 ; ! "as of"
 ivedilikle:ivedilikle ADV3 ; ! "urgently"
 iyicene:iyicene ADV3 ; ! "fully"
 kabaca:kabaca ADV3 ; ! "roughly"
@@ -14413,6 +14417,7 @@ derinleştir:derinleştir V-IR-TV ; ! "deepen" (T)
 ! yap:yap V-TV-DIR-AR ; ! "make, do"
 yap:yap V-AR-TV ; ! "make, do"
 gel:gel V-IR-IV ; ! "come" (DIR)
+bağışlan:bağışlan V-IR-IV ; ! "be forgiven"
 gel:gel V-IR-IV ; ! "come" (DIR)
 yayınlan:yayınlan V-IR-IV ; ! "issue" (DIR)
 yayınla:yayınla V-IR-TV ; ! "publish" (T)
