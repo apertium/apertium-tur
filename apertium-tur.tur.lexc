@@ -2900,6 +2900,7 @@ Dr:Dr TIT ; ! ""
 LEXICON Nouns
 
 hakk:hakk N1 ; ! "regarding"
+zapt:zapt N1 ;
 halinde:halinde POST ; ! "ın case of" ! FIXME
 
 !!!NEW!!!
