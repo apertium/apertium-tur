@@ -2907,6 +2907,7 @@ halinde:halinde POST ; ! "ın case of" ! FIXME
 
 
 süt:süt N1 ; ! " milke"
+tamir:tamir N1 ; ! "repair"
 donanma:donanma ; ! "fleet"
 katip:katip%{v%} N1 ; ! "scribe"
 terk:terk N1 ; ! "abandonment"
@@ -10675,11 +10676,12 @@ Boyko:Boyko NP-ANT-M ; ! ""
 Racan:Racan NP-ANT-M ; ! ""
 Ted:Ted NP-ANT-M ; ! "Ted"
 Mitch:Mitch NP-ANT-M ; ! "Mitch"
-
+Nariman:Nariman NP-ANT-M ; ! "Not Neriman"
 
 ! Anthroponyms (girls)
 
 Sezgi:Sezgi NP-ANT-F ; ! ""
+Neriman:Neriman NP-ANT-F ; ! ""
 Ayşe:Ayşe NP-ANT-F ; ! ""
 Jelena:Jelena NP-ANT-F ; ! ""
 Maria:Maria NP-ANT-F ; ! ""
