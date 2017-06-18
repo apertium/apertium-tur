@@ -12896,6 +12896,7 @@ ikili:ikili A4 ; ! "dual"
 belli:belli A4 ; ! "evident"
 iyi:İyi A1 ; ! "good" ! Dir/LR
 iyi:iyi A1 ; ! "good"
+şahsi:şahsi A1 ; ! "personal"
 merkezi:merkezi A1 ;!  "central"
 müstakil:müstakil A1; ! "independent"
 mahsus:mahsus A1 ; ! "special"
