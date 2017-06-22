@@ -12842,6 +12842,19 @@ Koppel:Koppe%{ı%}l NP-COG-MF ; ! "Koppel"
 Albom:Albom NP-COG-MF ; ! "Albom"
 Çobanzade:Çoban NP-COG-ZADE; ! ""
 
+İslamov:İslamov NP-COG-MF ;
+Asanov:Asanov NP-COG-MF ;
+Osmanov:Osmanov NP-COG-MF ;
+Aksenov:Aksenov NP-COG-MF ;
+Ümerov:Ümerov NP-COG-MF ;
+İlyasov:İlyasov NP-COG-MF ;
+Sentsov:Sentsov NP-COG-MF ;
+Aksönov:Aksönov NP-COG-MF ;
+Poroşenko:Poroşenko NP-COG-MF ;
+Çubarov:Çubarov NP-COG-MF ;
+Cemilev:Cemilev NP-COG-MF ;
+
+
 LEXICON Adjectives
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
