@@ -9732,6 +9732,10 @@ Struma:Struma NP-TOP ; ! ""
 Volga:Volga NP-TOP ; ! ""
 Ortadoğu:Ortadoğu NP-TOP ; ! ''
 Belene:Belene NP-TOP ; ! ""
+Krasnodar:Krasnodar NP-TOP ;
+Donbas:Donbas NP-TOP ;
+Lugansk:Lugansk NP-TOP ;
+
 
 Mora% Yarımadası:Mora% Yarımadası NP2-TOP ; ! ""
 Maya% halkları:Maya% halkları NP2-TOP ; ! ""
@@ -10854,6 +10858,25 @@ Goldstein:Goldstein NP-COG-MF ; ! ""
 Bartenstein:Bartenstein NP-COG-MF ; ! ""
 Winterstein:Winterstein NP-COG-MF ; ! ""
 Wolfenstein:Wolfenstein NP-COG-MF ; ! ""
+
+
+İskender:İskender NP-ANT-M ;
+Leonid:Leonid NP-ANT-M ;
+Cabbar:Cabbar NP-ANT-M ;
+Natalya:Natalya NP-ANT-F ;
+Gülnara:Gülnara NP-ANT-F ;
+Nikolay:Nikolay NP-ANT-M ;
+Remzi:Remzi NP-ANT-M ;
+Ruslan:Ruslan NP-ANT-M ;
+Yuri:Yuri NP-ANT-M ;
+Celal:Celal NP-ANT-M ;
+Andrey:Andrey NP-ANT-M ;
+Kristof:Kristof NP-ANT-M ;
+Dmitri:Dmitri NP-ANT-M ;
+Rıfat:Rıfat NP-ANT-M ;
+İlyas:İlyas NP-ANT-M ;
+Fazıl:Fazıl NP-ANT-M ;
+
 
 Ramazan:Ramazan NP-ANT-M ; ! ""
 İbrahim:İbrahim NP-ANT-M  ; ! ""
@@ -12902,6 +12925,13 @@ yapısal:yapısal A4 ; ! "constitutional"
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
 
+adi:adi A1 ;
+rahat:rahat A1 ;
+cinai:cinai A1 ;
+kadim:kadim A1 ;
+mahrum:mahrum A1 ;
+
+
 
 
 var:var A2 ; ! "existing" 
@@ -14126,6 +14156,7 @@ yavaşça:yavaşça ADV3 ; ! "enough"
 dikkatlice:dikkatlice ADV3 ; ! "with attention"
 şekilde:şekilde ADV3 ; ! "in a manner"
 özellikle:özellikle ADV3 ; ! "especially
+tahminen:tahminen ADV3 ;
 oldukça:oldukça ADV3 ; ! "quite"
 
 ahiren:ahiren ADV3 ; ! "lately"
@@ -14441,6 +14472,86 @@ nasıl:nasıl ADV-ITG ; ! "how" ! FIXME: also adj?  or det?
 
 
 LEXICON Verbs 
+sadeleştir:sadeleştir V-IR-TV ;
+sıkıştır:sıkıştır V-IR-TV ;
+batır:batır V-IR-TV ;
+şişir:şişir V-IR-TV ;
+bitir:bitir V-IR-TV ;
+bölüştür:bölüştür V-IR-TV ;
+buruştur:buruştur V-IR-TV ;
+telaşlandır:telaşlandır V-IR-TV ;
+tırmala:tırmala V-AR-TV ;
+içir:içir V-IR-TV ;
+geçir:geçir V-IR-TV ;
+merkezileştir:merkezileştir V-IR-TV ;
+millileştir:millileştir V-IR-TV ;
+devletleştir:devletleştir V-IR-TV ;
+mükemmelleştir:mükemmelleştir V-IR-TV ;
+yetkinleştir:yetkinleştir V-IR-TV ;
+çetinleştir:çetinleştir V-IR-TV ;
+güçleştir:güçleştir V-IR-TV ;
+pişir:pişir V-IR-TV ;
+korkut:korkut V-IR-TV ;
+sıkıştır:sıkıştır V-IR-TV ;
+tıkıştır:tıkıştır V-IR-TV ;
+genelleştir:genelleştir V-IR-TV ;
+uydur:uydur V-IR-TV ;
+kıymetlendir:kıymetlendir V-IR-TV ;
+bitir:bitir V-IR-TV ;
+geçir:geçir V-IR-TV ;
+bölüştür:bölüştür V-IR-TV ;
+
+
+katılaş:katılaş V-IR-IV ;
+taşlaş:taşlaş V-IR-IV ;
+düşür:düşür V-IR-IV ;
+çıldır:çıldır V-IR-IV ;
+basitleş:basitleş V-IR-IV ;
+sadeleş:sadeleş V-IR-IV ;
+ağlaş:ağlaş V-IR-IV ;
+ağırlaş:ağırlaş V-IR-IV ;
+başaklan:başaklan V-IR-IV ;
+başkalaş:başkalaş V-IR-IV ;
+canavarlaş:canavarlaş V-IR-IV ;
+darıl:darıl V-IR-IV ;
+ebedileştir:ebedileştir V-IR-IV ;
+iyileş:iyileş V-IR-IV ;
+fısıldaş:fısıldaş V-IR-IV ;
+horozlan:horozlan V-IR-IV ;
+elleş:elleş V-IR-IV ;
+yetkinleş:yetkinleş V-IR-IV ;
+fosilleş:fosilleş V-IR-IV ;
+yabanileş:yabanileş V-IR-IV ;
+vahşileş:vahşileş V-IR-IV ;
+köpür:köpür V-IR-IV ;
+göçet:göçet V-IR-IV ;
+pislen:pislen V-IR-IV ;
+mükemmelleş:mükemmelleş V-IR-IV ;
+ciddileş:ciddileş V-IR-IV ;
+nazlan:nazlan V-IR-IV ;
+kavrul:kavrul V-IR-IV ;
+kork:kork V-IR-IV ;
+basitleş:basitleş V-IR-IV ;
+sadeleş:sadeleş V-IR-IV ;
+sark:sark V-IR-IV ;
+sarsıl:sarsıl V-IR-IV ;
+sertleş:sertleş V-IR-IV ;
+nasırlaş:nasırlaş V-IR-IV ;
+seslen:seslen V-IR-IV ;
+seyrekleş:seyrekleş V-IR-IV ;
+sıklaş:sıklaş V-IR-IV ;
+tembelleş:tembelleş V-IR-IV ;
+uslan:uslan V-IR-IV ;
+uzaklaş:uzaklaş V-IR-IV ;
+vedalaş:vedalaş V-IR-IV ;
+yakınlaş:yakınlaş V-IR-IV ;
+zenginleş:zenginleş V-IR-IV ;
+vehimlen:vehimlen V-IR-IV ;
+evhamlan:evhamlan V-IR-IV ;
+vesveselen:vesveselen V-IR-IV ;
+şenlen:şenlen V-IR-IV ;
+
+
 
 !al:al V-TV-DIR-IR ; ! "take, buy"
 al:al V-IR-TV ; ! "take, buy"
