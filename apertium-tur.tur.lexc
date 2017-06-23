@@ -2917,6 +2917,7 @@ oy:oy N1 ; ! "vote"
 sürpriz:sürpriz N1 ; ! "surprise"
 savcı:savcı N1 ; ! "solicitor"
 sefer:sefer N1 ; ! "expedition"
+ekseriyet:ekseriyet ; !
 organ:organ N1 ; ! "organ"
 temin:temin N1 ; ! "acquisition"
 padişah:padişah N1 ; ! ""
@@ -8091,6 +8092,7 @@ yanlısı:yanlısı N1 ; ! "proponent"
 doğalgaz:doğalgaz N1 ; ! "natural gas"
 gazeteci:gazeteci N1 ; ! "journalist"
 karşıt:karşıt N1 ; ! "opponent"
+karşıtlık:karşıtlık N1 ; 
 zirve:zirve N1 ; ! "summit"
 şarkıcı:şarkıcı N1 ; ! "singer"
 yönetici:yönetici N1 ; ! "administrator"
@@ -8248,6 +8250,8 @@ yay:yay N1 ; ! "bow (weapon), spring (mechanical)"
 kös:kös N1 ; ! "signal drum / kettledrum"
 kiş:kiş N1 ; ! "quiche"
 keş:keş N1 ; ! "dry curd"
+
+ileri:ileri N1 ; 
 
 açık:açık N1 ; ! ""
 adem:adem N1 ; ! ""
@@ -12847,6 +12851,7 @@ Albom:Albom NP-COG-MF ; ! "Albom"
 
 İslamov:İslamov NP-COG-MF ;
 Asanov:Asanov NP-COG-MF ;
+Ahmetov:Ahmetov NP-COG-MF ; 
 Osmanov:Osmanov NP-COG-MF ;
 Aksenov:Aksenov NP-COG-MF ;
 Ümerov:Ümerov NP-COG-MF ;
