@@ -8825,6 +8825,7 @@ takdim:takdim N1 ; ! ""
 şiar:şiar N1 ; ! ""
 sovyet:sovyet N1 ; ! ""
 tarz:tarz N1 ; ! ""
+pasaport:pasaport N1 ; ! ""
 hücüm:hücüm N1 ; ! ""
 yarımada:yarımada N1 ; ! ""
 zümre:zümre N1 ; ! ""
@@ -8869,6 +8870,7 @@ Gasprinski:Gasprinski NP-COG-MF ; ! ""
 Giray:Giray NP-COG-MF ; ! ""
 Hacı:Hacı NP-ANT-M ; ! ""
 İbrahimov:İbrahimov NP-COG-MF ; ! ""
+Turçinov:Turçinov NP-COG-MF ; ! ""
 İsmail:İsmail NP-ANT-M ; ! ""
 Kristor:Kristor NP-ANT-M ; ! ""
 Mahmud:Mahmud NP-ANT-M ; ! ""
@@ -12962,6 +12964,7 @@ adi:adi A1 ;
 rahat:rahat A1 ;
 cinai:cinai A1 ;
 kadim:kadim A1 ;
+evvelsi:evvelsi A1 ;
 mahrum:mahrum A1 ;
 
 
@@ -14167,6 +14170,7 @@ boz:boz A1 ; ! "brown; wasteland" ! FIXME: CHECK
 kır:kır A1 ; ! "grey" ! FIXME: CHECK
 keş:keş A1 ; ! "druggee" ! FIXME: CHECK
 özerk:özerk A1 ; ! "autonomous"
+umumi:umumi A1 ; ! "public"
 
 LEXICON Adverbs 
 
