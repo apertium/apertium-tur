@@ -1060,6 +1060,7 @@ LI-POSTPOSITION ;
 LEXICON N1 ! Generic noun paradigm.
            ! e.g. ev, kitap, ...
 
+%<n%>%+laş:%>l%{A%}ş V-IR-IV ;
 %<n%>: FULL-NOMINAL-INFLECTION ;
 %<n%>%<attr%>: # ;  
 
@@ -2434,83 +2435,83 @@ LEXICON V-IV-T-AR
 
 
 
-LEXICON V-TV-T-IR 
+!!LEXICON V-TV-T-IR 
+!!
+!!%<v%>%<tv%>: CAUS-T-IR ;
+!!%<v%>%<tv%>: AOR-IR;
+!!!%<v%>%<tv%>: REC-T-IR ;
+!!%<v%>%<tv%>: PASS-T-IR ;
+!!%<v%>%<tv%>: REF-T-IR ;
+!!%<v%>%<tv%>: AOR-IR-CONDITIONAL ;
+!!%<v%>%<tv%>: ABIL-IR ;
+!!%<v%>%<tv%>: FINITE-VERBS-IR ;
+!!%<v%>%<tv%>: NEG ;
+!!%<v%>%<tv%>: NECE ;
+!!%<v%>%<tv%>: CONDITIONAL ;
+!!%<v%>%<tv%>: NON-FINITE ;
+!!%<v%>%<tv%>: GERUND ;
+!!%<v%>%<tv%>: IMPERATIVE ;
+!!%<v%>%<tv%>: CONDITIONAL-CONTINUOUS ;
+!!%<v%>%<tv%>: CONDITIONAL-EVIDENTIAL ;
+!!%<v%>%<tv%>: CONDITIONAL-PAST ; 
+!!%<v%>%<tv%>: EVIDENTIAL-CONDITIONAL ;
+!!%<v%>%<tv%>: EVIDENTIAL-CONTINUOUS ;
+!!%<v%>%<tv%>: EVIDENTIAL-PAST ;
+!!%<v%>%<tv%>: EVIDENTIAL-PERFECT ;
+!!%<v%>%<tv%>: FUTURE ;
+!!%<v%>%<tv%>: FUTURE-CONDITIONAL ;
+!!%<v%>%<tv%>: FUTURE-PERFECT ;
+!!%<v%>%<tv%>: IMPERFECTIVE ;
+!!%<v%>%<tv%>: PAST ;
+!!%<v%>%<tv%>: PAST-CONDITIONAL ;
+!!%<v%>%<tv%>: PAST-CONTINUOUS ;
+!!%<v%>%<tv%>: PRESENT-CONTINUOUS ;
+!!%<v%>%<tv%>: FUTURE-EVIDENTIAL ;
+!!%<v%>%<tv%>: EXHORTATIVE ;
+!!%<v%>%<tv%>: JUSSIVE ;
+!!%<v%>%<tv%>: AORIST-AR-PERFECT ;
+!!%<v%>%<tv%>: ABIL-AR-CONDITIONAL;
+!!%<v%>%<tv%>: DOUBLE-EVIDENTIAL;
+!!
 
-%<v%>%<tv%>: CAUS-T-IR ;
-%<v%>%<tv%>: AOR-IR;
-!%<v%>%<tv%>: REC-T-IR ;
-%<v%>%<tv%>: PASS-T-IR ;
-%<v%>%<tv%>: REF-T-IR ;
-%<v%>%<tv%>: AOR-IR-CONDITIONAL ;
-%<v%>%<tv%>: ABIL-IR ;
-%<v%>%<tv%>: FINITE-VERBS-IR ;
-%<v%>%<tv%>: NEG ;
-%<v%>%<tv%>: NECE ;
-%<v%>%<tv%>: CONDITIONAL ;
-%<v%>%<tv%>: NON-FINITE ;
-%<v%>%<tv%>: GERUND ;
-%<v%>%<tv%>: IMPERATIVE ;
-%<v%>%<tv%>: CONDITIONAL-CONTINUOUS ;
-%<v%>%<tv%>: CONDITIONAL-EVIDENTIAL ;
-%<v%>%<tv%>: CONDITIONAL-PAST ; 
-%<v%>%<tv%>: EVIDENTIAL-CONDITIONAL ;
-%<v%>%<tv%>: EVIDENTIAL-CONTINUOUS ;
-%<v%>%<tv%>: EVIDENTIAL-PAST ;
-%<v%>%<tv%>: EVIDENTIAL-PERFECT ;
-%<v%>%<tv%>: FUTURE ;
-%<v%>%<tv%>: FUTURE-CONDITIONAL ;
-%<v%>%<tv%>: FUTURE-PERFECT ;
-%<v%>%<tv%>: IMPERFECTIVE ;
-%<v%>%<tv%>: PAST ;
-%<v%>%<tv%>: PAST-CONDITIONAL ;
-%<v%>%<tv%>: PAST-CONTINUOUS ;
-%<v%>%<tv%>: PRESENT-CONTINUOUS ;
-%<v%>%<tv%>: FUTURE-EVIDENTIAL ;
-%<v%>%<tv%>: EXHORTATIVE ;
-%<v%>%<tv%>: JUSSIVE ;
-%<v%>%<tv%>: AORIST-AR-PERFECT ;
-%<v%>%<tv%>: ABIL-AR-CONDITIONAL;
-%<v%>%<tv%>: DOUBLE-EVIDENTIAL;
 
-
-
-LEXICON V-IV-DIR-AR 
-
-%<v%>%<iv%>: IV-CAUS-DIR-IR ;
-%<v%>%<iv%>: AOR-AR ;
-%<v%>%<iv%>: IV-REC-DIR-AR ;
-%<v%>%<iv%>: IV-REF-DIR-AR ;
-%<v%>%<iv%>: AOR-AR-CONDITIONAL ;
-%<v%>%<iv%>: ABIL-AR ;
-%<v%>%<iv%>: FINITE-VERBS-AR ;
-%<v%>%<iv%>: NEG ;
-%<v%>%<iv%>: NECE ;
-%<v%>%<iv%>: CONDITIONAL ;
-%<v%>%<iv%>: NON-FINITE ;
-%<v%>%<iv%>: GERUND ;
-%<v%>%<iv%>: IMPERATIVE ;
-%<v%>%<iv%>: CONDITIONAL-CONTINUOUS ;
-%<v%>%<iv%>: CONDITIONAL-EVIDENTIAL ;
-%<v%>%<iv%>: CONDITIONAL-PAST ; 
-%<v%>%<iv%>: EVIDENTIAL-CONDITIONAL ;
-%<v%>%<iv%>: EVIDENTIAL-CONTINUOUS ;
-%<v%>%<iv%>: EVIDENTIAL-PAST ;
-%<v%>%<iv%>: EVIDENTIAL-PERFECT ;
-%<v%>%<iv%>: FUTURE ;
-%<v%>%<iv%>: FUTURE-CONDITIONAL ;
-%<v%>%<iv%>: FUTURE-PERFECT ;
-%<v%>%<iv%>: IMPERFECTIVE ;
-%<v%>%<iv%>: PAST ;
-%<v%>%<iv%>: PAST-CONDITIONAL ;
-%<v%>%<iv%>: PAST-CONTINUOUS ;
-%<v%>%<iv%>: PRESENT-CONTINUOUS ;
-%<v%>%<iv%>: FUTURE-EVIDENTIAL ;
-%<v%>%<iv%>: EXHORTATIVE ;
-%<v%>%<iv%>: JUSSIVE ;
-%<v%>%<iv%>: AORIST-AR-PERFECT ;
-%<v%>%<iv%>: ABIL-AR-CONDITIONAL ;
-%<v%>%<iv%>: DOUBLE-EVIDENTIAL ;
-
+!!LEXICON V-IV-DIR-AR 
+!!
+!!%<v%>%<iv%>: IV-CAUS-DIR-IR ;
+!!%<v%>%<iv%>: AOR-AR ;
+!!%<v%>%<iv%>: IV-REC-DIR-AR ;
+!!%<v%>%<iv%>: IV-REF-DIR-AR ;
+!!%<v%>%<iv%>: AOR-AR-CONDITIONAL ;
+!!%<v%>%<iv%>: ABIL-AR ;
+!!%<v%>%<iv%>: FINITE-VERBS-AR ;
+!!%<v%>%<iv%>: NEG ;
+!!%<v%>%<iv%>: NECE ;
+!!%<v%>%<iv%>: CONDITIONAL ;
+!!%<v%>%<iv%>: NON-FINITE ;
+!!%<v%>%<iv%>: GERUND ;
+!!%<v%>%<iv%>: IMPERATIVE ;
+!!%<v%>%<iv%>: CONDITIONAL-CONTINUOUS ;
+!!%<v%>%<iv%>: CONDITIONAL-EVIDENTIAL ;
+!!%<v%>%<iv%>: CONDITIONAL-PAST ; 
+!!%<v%>%<iv%>: EVIDENTIAL-CONDITIONAL ;
+!!%<v%>%<iv%>: EVIDENTIAL-CONTINUOUS ;
+!!%<v%>%<iv%>: EVIDENTIAL-PAST ;
+!!%<v%>%<iv%>: EVIDENTIAL-PERFECT ;
+!!%<v%>%<iv%>: FUTURE ;
+!!%<v%>%<iv%>: FUTURE-CONDITIONAL ;
+!!%<v%>%<iv%>: FUTURE-PERFECT ;
+!!%<v%>%<iv%>: IMPERFECTIVE ;
+!!%<v%>%<iv%>: PAST ;
+!!%<v%>%<iv%>: PAST-CONDITIONAL ;
+!!%<v%>%<iv%>: PAST-CONTINUOUS ;
+!!%<v%>%<iv%>: PRESENT-CONTINUOUS ;
+!!%<v%>%<iv%>: FUTURE-EVIDENTIAL ;
+!!%<v%>%<iv%>: EXHORTATIVE ;
+!!%<v%>%<iv%>: JUSSIVE ;
+!!%<v%>%<iv%>: AORIST-AR-PERFECT ;
+!!%<v%>%<iv%>: ABIL-AR-CONDITIONAL ;
+!!%<v%>%<iv%>: DOUBLE-EVIDENTIAL ;
+!!
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -2767,6 +2768,7 @@ hiçbir% şey:hiç% birşey PRON-NEG ; ! "nothing" ! Dir/LR
 hiçbir% şey:hiçbir% şey PRON-NEG ; ! "nothing"
 hiç% kimse:hiç% kimse PRON-NEG ; ! "nobody"
 herkes:herkes PRON-QNT ; ! "everybody"
+ekseri:ekseri PRON-QNT ; ! ""
 kimse:kimse PRON-QNT ; ! "nobody"
 birisi:birisi PRON-QNT ; ! "somebody"
 bazıları:bazıları PRON-QNT ; ! "some of them"
@@ -2908,7 +2910,7 @@ halinde:halinde POST ; ! "ın case of" ! FIXME
 
 süt:süt N1 ; ! " milke"
 tamir:tamir N1 ; ! "repair"
-donanma:donanma ; ! "fleet"
+donanma:donanma N1 ; ! "fleet"
 katip:katip%{v%} N1 ; ! "scribe"
 terk:terk N1 ; ! "abandonment"
 beraat:beraat N1 ; ! "exoneration"
@@ -2917,7 +2919,7 @@ oy:oy N1 ; ! "vote"
 sürpriz:sürpriz N1 ; ! "surprise"
 savcı:savcı N1 ; ! "solicitor"
 sefer:sefer N1 ; ! "expedition"
-ekseriyet:ekseriyet ; !
+ekseriyet:ekseriyet N1 ; !
 organ:organ N1 ; ! "organ"
 temin:temin N1 ; ! "acquisition"
 padişah:padişah N1 ; ! ""
@@ -12873,6 +12875,12 @@ sorunlu:sorunlu A4 ; ! "problematic"
 ezici:ezici A4 ; ! "devastating"
 edebi:edebi A4 ; ! "literary"
 tıpkı:tıpkı A2 ; ! "the same"
+
+kuzey:kuzey A2 ; ! "north"
+batı:batı A2 ; ! ""
+doğu:doğu A2 ; ! ""
+güney:güney A2 ; ! ""
+
 saklı:saklı A2 ; ! "secret"
 teşekküllü:teşekküllü A4 ; ! "organised"
 bireysel:bireysel A4 ; ! "singular"
@@ -15794,6 +15802,8 @@ kana:kana V-IR-IV ; ! "bleed" (T)
 kara:kara V-IR-IV ; ! "brown" (T)
 kayna:kayna V-IR-IV ; ! "boil" (T)
 fırlatıl:fırlatıl V-IR-IV ; ! "" (T) ! FIXME: Pass ?
+
+göç:göç V-IR-IV ; ! "" (DIR)
 
 !! JNW Verbs
 !şaşır:şaşır V-IV-T-IR ; ! "to be surprised"
