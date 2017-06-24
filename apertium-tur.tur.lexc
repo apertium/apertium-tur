@@ -10353,6 +10353,8 @@ Yunanistan% Süper% Ligi:Yunanistan% Süper% Lig NP-ORG-COMPOUND-PX ; ! ""
 ! Other
 Southeast% European% Times:Southeast% European% Times NP-AL ; ! ""
 Reuters:Reuters NP-ORG ; ! ""
+MKMİK:MKMİK NP-ORG;
+MŞSC:MŞSC NP-ORG;
 AP:AP NP-AL ; ! ""
 B92:B92 NP-AL ; ! ""
 EUobserver:EUobserver NP-AL ; ! ""
