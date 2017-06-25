@@ -1277,6 +1277,34 @@ siz%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizdeki ATTR-SUBST ;
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<advl%>:sizce CLIT ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:sizinle # ; 
 
+!sizler, bizler
+
+bizler%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:bizler CLIT-W-COPULA ; 
+bizler%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:bizlerin CLIT ; 
+bizler%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:bizlere CLIT ; 
+bizler%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:bizleri CLIT ; 
+bizler%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizlerde CLIT ; 
+bizler%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:bizlerden CLIT ; 
+bizler%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>%<subst%>:bizlerinki CASE ; 
+bizler%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizlerdeki ATTR-SUBST ; 
+bizler%<prn%>%<pers%>%<p1%>%<pl%>%<advl%>:bizlerce CLIT ; 
+bizler%<prn%>%<pers%>%<p1%>%<pl%>%<ins%>:bizlerle # ; 
+!bizler%<prn%>%<pers%>%<p1%>%<pl%>%<abe%>:bizlersiz CLIT ; 
+
+
+sizler%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:sizler CLIT ; 
+sizler%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:sizlerin CLIT ; 
+sizler%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:sizlere CLIT ; 
+sizler%<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:sizleri CLIT ; 
+sizler%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizlerde CLIT ; 
+sizler%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:sizlerden CLIT ; 
+sizler%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>%<subst%>:sizlerinki CASE ; 
+sizler%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizlerdeki ATTR-SUBST ; 
+sizler%<prn%>%<pers%>%<p2%>%<pl%>%<advl%>:sizlerce CLIT ; 
+sizler%<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:sizinle # ; 
+
+
+
 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<nom%>:onlar CLIT ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:onların CLIT ; 
