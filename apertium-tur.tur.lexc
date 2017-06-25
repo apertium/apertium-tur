@@ -16080,6 +16080,7 @@ LEXICON Punctuation
 %:%<sent%>:%: # ;
 %!%<sent%>:%! # ;
 %-%<guio%>:%- # ;
+%–%<guio%>:%– # ;
 %—%<guio%>:%— # ;
 ,%<cm%>:, # ;
 %?%<sent%>:%? # ;

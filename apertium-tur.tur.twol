@@ -1,19 +1,23 @@
-!!!! phonetic rules for turkish !!!!
-
-
-
 Alphabet
 
- A Â B C Ç D E F G Ğ H I İ J K L M N O Ö P Q R S Ş T U Ü V W X Y Z 
- a â b c ç d e f g ğ h ı i j k l m n o ö p q r s ş t u ü v w x y z 
+   A Â B C Ç D E F G Ğ H I İ J K L M N O Ö P Q R S Ş T U Ü V W X Y Z 
+   a â b c ç d e f g ğ h ı i j k l m n o ö p q r s ş t u ü v w x y z 
 
- %{A%}:a %{I%}:ı %{D%}:d %{L%}:l
+ %{A%}:a 
+ %{I%}:ı 
+ %{D%}:d 
+ %{L%}:l %{L%}:n ! For the passive 
 
- %{N%}:0 %{y%}:0 %{s%}:0 
+ %{N%}:0 
+ %{y%}:0 
+ %{s%}:0 
 
- %{i%}:0 %{a%}:0 %{u%}:0 
+ %{i%}:0 
+ %{a%}:0 
+ %{u%}:0         ! Epenthetic vowel
 
- %{f%}:0 %{b%}:0
+ %{f%}:0 
+ %{b%}:0
 
  %{n%}:0 %{n%}:n
 
@@ -28,7 +32,6 @@ Alphabet
  %{v%}:0 ! Voicing
 
  %{fi%}:0 ! force front vowel harmony
-
 
  %>:0
 
