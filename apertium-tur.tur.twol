@@ -15,6 +15,8 @@ Alphabet
 
  %{f%}:0 %{b%}:0
 
+ %{n%}:0 %{n%}:n
+
  %{e%}:e
 
  %{z%}:z
@@ -23,8 +25,6 @@ Alphabet
 
  %{k%}:k ! ???
  
- %{N%}:0
-
  %{v%}:0 ! Voicing
 
  %{fi%}:0 ! force front vowel harmony
@@ -330,7 +330,7 @@ k:g <=> :n _ %{v%}: %>: (:0) :Vow ;
 ! renk>{y}{I}       = rengi    =
 
 "Buffer N after 3rd singular possessive + acc/dat/loc/abl"
-%{n%}:n <=>  _ %>: [ %{y%}: | %{D%}: ]/[ :0  ] ; 
+%{n%}:n <=>  _ %>: [ %{y%}: | %{D%}: %{A%}: ] ; 
 
 ! arka>{s}{I}{n}>{D}{A}     = arkasında = a:a r:r k:k a:a >:0 {s}:s {I}:ı {n}:n >:0 {D}:d {A}:a
 ! yap>m{A}>{s}{I}{n}>{y}{I} = yapmasını = y:y a:a p:p >:0 m:m {A}:a >:0 {s}:s {I}:ı {n}:n >:0 {y}:0 {I}:ı
