@@ -11,6 +11,7 @@ Alphabet
  %{N%}:0 
  %{y%}:0 
  %{s%}:0 
+ %{в%}:y
 
  %{i%}:0 
  %{a%}:0 
@@ -71,7 +72,7 @@ RoundVow = o u ö ü
 CnsDev   = f s t k ç ş h p 
            F S T K Ç Ş H P ;
 
-AbstrCns = %{N%} %{y%} %{s%} ;
+AbstrCns = %{N%} %{y%} %{s%} %{в%} ;
 
 Rules 
 
@@ -295,6 +296,7 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 
 "Epenthetic consonants after vowel"
 Cx:Cy <=>  [ [ AbstrVow: - %{fi%}: ] | :SurVow ] (%':) (:0) %>: _ ; 
+           [ [ AbstrVow: - %{fi%}: ] | :SurVow ]    %-: %>: _ ;
         except
            %{A%}: %{z%}:0 %>: _ %{I%}: m ;
                           %>: _ .#. ; ! git<v><iv><ger><nom>+i<cop><aor><p3><sg> : git{v}>m{A}>{y} : gitme
@@ -310,6 +312,7 @@ Cx:Cy <=>  [ [ AbstrVow: - %{fi%}: ] | :SurVow ] (%':) (:0) %>: _ ;
 ! kitap>{y}{I}      = kitabı   = 
 ! anne>{y}{I}       = anneyi   = 
 ! Sofya'>y{I}       = Sofya'yı 
+!@ 9:9 2:2 {ii}:0 %:% -:- >:0 {y}:y {I}:i
 
 "Prevocalic consonant voicing"
 !Cx:Cy <=> :Vow (:0) _ %{v%}: %>: (:0) :SurVow ;
@@ -354,3 +357,6 @@ Vx:0 <=> _ %>: %{I%}: y:y o:o r:r  ;
  	        ! oyna>{I}yor    = oynuyor = o:o y:y n:n a:0 >:0 {I}:u y:y o:o r:r
            :Vow/[ :0 - [ AbstrCns: | AbstrVow: ] ]  _ ;
            ! başla>{A}y{I}m = başlayım
+
+"Special treatment of {в} for su"
+%{в%}:0 <=> _ .#. ; 

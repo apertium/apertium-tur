@@ -171,6 +171,7 @@ Multichar_Symbols
 %{e%}
 %{a%}
 %{k%}              ! ???
+%{в%}              !
 
 %{fö%}             ! Enforce rounded front harmony
 %{fi%}             ! Enforce unrounded front harmony
@@ -260,8 +261,8 @@ LEXICON NUM-DIGIT
 %<num%>%<percent%>:% %% # ; ! Dir/LR
 %<num%>%<percent%>%<subst%>%<nom%>:%% # ;
 %<num%>%<percent%>%<subst%>%<nom%>:% %% # ; ! Dir/LR
-%<num%>%<percent%>%<subst%>:%%%{ii%}%{p%}%- SUBST-NONOM ;
-%<num%>%<percent%>%<subst%>:% %%%{ii%}%{p%}%- SUBST-NONOM ; ! Dir/LR
+%<num%>%<percent%>%<subst%>:%%%- SUBST-NONOM ;
+%<num%>%<percent%>%<subst%>:% %%%- SUBST-NONOM ; ! Dir/LR
 
 
 !°С%<num%>:°С # ;
@@ -8024,12 +8025,13 @@ yüzyıl:yüzyıl N1 ; ! "century"
 zaman:zaman N1 ; ! "time"
 zevk:zevk N1 ; ! "satisfaction"
 renk:renk%{v%} N1 ; ! "colour"@@@@@@@
+cenk:cenk%{v%} N1 ; ! ""
 saat:saat%{fi%} N1 ; ! "time" "Watch" "hour"
 yaş:yaş N1 ; ! "age"
 ses:ses N1 ; ! "voice, sound"
 pencere:pencere N1 ; ! "window" 
 yer:yer N1 ; ! "window" 
-su:su N1 ; ! "water" @@@@ SPECIAL CASE FOR MANY CASES
+su:su%{в%} N1 ; ! "water" @@@@ SPECIAL CASE FOR MANY CASES
 süre:süre N1 ; ! 'tıme period'
 çözüm:çözüm N1 ; ! 'solutıon'
 yol:yol N1 ; ! 'way'
@@ -8841,7 +8843,6 @@ cm:cm N1 ;  ! "cm"
 
 asilzade:asilzade N1 ; ! ""
 bolşevik:bolşevik N1 ; ! ""
-cenk:cenk N1 ; ! ""
 hanlık:hanlık%{v%} N1 ; ! ""
 yenilgi:yenilgi N1 ; ! ""
 mimarlık:mimarlık%{v%} N1 ; ! ""
@@ -15067,6 +15068,7 @@ faydalan:faydalan V-IR-TV ; ! "exploit" (DIR)
 feshet:feshet V-AR-TV ; ! "repeal" (DIR)
 fethet:fethet V-AR-TV ; ! "conquer" (DIR)
 geç:geç V-AR-TV ; ! "pass" (DIR)
+geç:geç V-AR-IV ; ! "pass" (DIR)
 geliş:geliş V-IR-TV ; ! "develop" (DIR)
 ger:ger V-AR-TV ; ! "stretch" (DIR)
 getir:getir V-IR-TV ; ! "bring" (DIR)
