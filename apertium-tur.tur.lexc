@@ -1301,7 +1301,7 @@ sizler%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:sizlerden CLIT ;
 sizler%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>%<subst%>:sizlerinki CASE ; 
 sizler%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizlerdeki ATTR-SUBST ; 
 sizler%<prn%>%<pers%>%<p2%>%<pl%>%<advl%>:sizlerce CLIT ; 
-sizler%<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:sizinle # ; 
+sizler%<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:sizlerle # ; 
 
 
 
@@ -2858,6 +2858,7 @@ tek:tek DET-IND ; ! "sole, single"
 herhangi:herhangi DET-IND ; ! "any"
 herhangi% bir:herhangi% bir DET-IND ; ! "anyone"
 ne% kadar:ne% kadar DET-ITG ; ! "how much"
+hangi:hangi DET-ITG ; ! "which"
 
 
 !!!!TO BE REVIEWED !!!!
