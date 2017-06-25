@@ -9,7 +9,7 @@ Alphabet
 
  %{A%}:a %{I%}:ı %{D%}:d %{L%}:l
 
- %{n%}:0 %{y%}:0 %{s%}:0 
+ %{N%}:0 %{y%}:0 %{s%}:0 
 
  %{i%}:0 %{a%}:0 %{u%}:0 
 
@@ -23,7 +23,7 @@ Alphabet
 
  %{k%}:k ! ???
  
- %{pN%}:0
+ %{N%}:0
 
  %{v%}:0 ! Voicing
 
@@ -68,7 +68,7 @@ RoundVow = o u ö ü
 CnsDev   = f s t k ç ş h p 
            F S T K Ç Ş H P ;
 
-AbstrCns = %{n%} %{y%} %{s%} ;
+AbstrCns = %{N%} %{y%} %{s%} ;
 
 Rules 
 
@@ -117,9 +117,9 @@ Rules
 
 
 ! ev>{s}{I}           = evi      =     e:e v:v >:0 {s}:0 {I}:i
-! akü>{n}{I}n         = akünün   = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
+! akü>{N}{I}n         = akünün   = a:a k:k ü:ü >:0 {N}:n {I}:ü n:n
 ! 4{ö}{p}'>{I}nc{I}   = 4'üncü   = 4:4 {ö}:0 {p}:0 ':' >:0 {i}:ü n:n c:c {I}:ü
-! 4{ö}{p}'>{n}{I}n    = 4'ün     = 4:4 {ö}:0 {p}:0 ':' >:0 {n}:0 {I}:ü n:n
+! 4{ö}{p}'>{N}{I}n    = 4'ün     = 4:4 {ö}:0 {p}:0 ':' >:0 {N}:0 {I}:ü n:n
 
 "Special harmony for {e}"
 %{I%}:i <=> %{e%}:0 %>: _ ; 
@@ -138,11 +138,11 @@ Rules
 
 ! 
 ! d{e}>{I}yor         = diyor      =                                 d:d {e}:0 >:0 {I}:i y:y o:o r:r
-! NATO{o}'>{n}{I}n    = NATO'nun   =           N:N A:A T:T O:O {o}:0 ':' >:0 {n}:n {I}:u n:n
-! IMF{i}'>{n}{I}n     = IMF'nin    =               I:I M:M F:F {i}:0 ':' >:0 {n}:n {I}:i n:n
-! PKK{ı}'>{n}{I}n     = PKK'nın    =               P:P K:K K:K {ı}:0 ':' >:0 {n}:n {I}:ı n:n
-! KFOR{o}{r}>{n}{I}n  = KFOR'un    =     K:K F:F O:O R:R {o}:0 {r}:0 ':' >:0 {n}:0 {I}:u n:n
-! PASOK{o}{r}>{n}{I}n = PASOK'un   = P:P A:A S:S O:O K:K {o}:0 {r}:0 ':' >:0 {n}:0 {I}:u n:n
+! NATO{o}'>{N}{I}n    = NATO'nun   =           N:N A:A T:T O:O {o}:0 ':' >:0 {N}:n {I}:u n:n
+! IMF{i}'>{N}{I}n     = IMF'nin    =               I:I M:M F:F {i}:0 ':' >:0 {N}:n {I}:i n:n
+! PKK{ı}'>{N}{I}n     = PKK'nın    =               P:P K:K K:K {ı}:0 ':' >:0 {N}:n {I}:ı n:n
+! KFOR{o}{r}>{N}{I}n  = KFOR'un    =     K:K F:F O:O R:R {o}:0 {r}:0 ':' >:0 {N}:0 {I}:u n:n
+! PASOK{o}{r}>{N}{I}n = PASOK'un   = P:P A:A S:S O:O K:K {o}:0 {r}:0 ':' >:0 {N}:0 {I}:u n:n
 
 "Vowel {i} surfacing and harmonising"
 %{i%}:Vy <=>           [ :LastVowel :Cns* :Cns ]/[ [ :0 - [ AbstrVow:0 - %{u%}: ] ] | %>: | %  ] _ [ %{L%}: | :Cns ]/[ :0 ]  ;
@@ -174,7 +174,7 @@ Rules
 
 !"Unepenthesis in stems"
 !%{u%}:0 <=> _ [ :Cns :SurVow ]/[ :0 | %>: ] ;
-!            _ :Cns %>: %{n%}: %{I%}: :n .#. ; 
+!            _ :Cns %>: %{N%}: %{I%}: :n .#. ; 
 !            _ :Cns %>: %{y%}: %{I%}: .#. ; 
 !            _ :Cns %>: %{y%}: %{A%}: .#. ; 
 
@@ -189,7 +189,7 @@ Rules
 !"Vowel {u} nominative epenthesis"
 !%{u%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>:] ;
 !        except 
-!            _ :Cns %>: %{n%}: %{I%}: :n .#. ;
+!            _ :Cns %>: %{N%}: %{I%}: :n .#. ;
 !            _ :Cns %>: %{y%}: %{I%}: .#. ;
 !            _ :Cns %>: %{y%}: %{A%}: .#. ;
 !
@@ -288,7 +288,7 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 
 
 ! ev>{s}{I}         = evi       =     e:e v:v >:0 {s}:0 {I}:i
-! akü>{n}{I}n       = akünün    = a:a k:k ü:ü >:0 {n}:n {I}:ü n:n
+! akü>{N}{I}n       = akünün    = a:a k:k ü:ü >:0 {N}:n {I}:ü n:n
 
 "Epenthetic consonants after vowel"
 Cx:Cy <=>  [ [ AbstrVow: - %{fi%}: ] | :SurVow ] (%':) (:0) %>: _ ; 
@@ -296,14 +296,14 @@ Cx:Cy <=>  [ [ AbstrVow: - %{fi%}: ] | :SurVow ] (%':) (:0) %>: _ ;
            %{A%}: %{z%}:0 %>: _ %{I%}: m ;
                           %>: _ .#. ; ! git<v><iv><ger><nom>+i<cop><aor><p3><sg> : git{v}>m{A}>{y} : gitme
         where
-            Cx in ( %{n%} %{s%} %{y%} ) 
+            Cx in ( %{N%} %{s%} %{y%} ) 
             Cy in (   n     s     y   ) 
         matched ; 
 
 ! ev>{s}{I}         = evi      =      e:e v:v >:0 {s}:0 {I}:i
 ! ada>{s}{I}        = adası    =  a:a d:d a:a >:0 {s}:s {I}:ı
-! adam>{n}{I}n      = adamın   = 
-! akü>{n}{I}n       = akünün   = 
+! adam>{N}{I}n      = adamın   = 
+! akü>{N}{I}n       = akünün   = 
 ! kitap>{y}{I}      = kitabı   = 
 ! anne>{y}{I}       = anneyi   = 
 ! Sofya'>y{I}       = Sofya'yı 
@@ -329,13 +329,11 @@ k:g <=> :n _ %{v%}: %>: (:0) :Vow ;
 
 ! renk>{y}{I}       = rengi    =
 
-"Buffer N after 3rd singular possessive + dat/loc/abl"
-%{pN%}:n <=>  _ %>: [ %{D%}: | :SurVow ]/[ :0  ] ; 
-      except 
-              _ %>: [ %{y%}: | %{n%}: ] ; 
+"Buffer N after 3rd singular possessive + acc/dat/loc/abl"
+%{n%}:n <=>  _ %>: [ %{y%}: | %{D%}: ]/[ :0  ] ; 
 
-! arka>{s}{I}{pN}>{D}{A}     = arkasında = a:a r:r k:k a:a >:0 {s}:s {I}:ı {pN}:n >:0 {D}:d {A}:a
-! yap>m{A}>{s}{I}{pN}>{y}{I} = yapmasını = y:y a:a p:p >:0 m:m {A}:a >:0 {s}:s {I}:ı {pN}:n >:0 {y}:0 {I}:ı
+! arka>{s}{I}{n}>{D}{A}     = arkasında = a:a r:r k:k a:a >:0 {s}:s {I}:ı {n}:n >:0 {D}:d {A}:a
+! yap>m{A}>{s}{I}{n}>{y}{I} = yapmasını = y:y a:a p:p >:0 m:m {A}:a >:0 {s}:s {I}:ı {n}:n >:0 {y}:0 {I}:ı
 ! memelerinden
 ! arabasında
 

@@ -163,11 +163,11 @@ Multichar_Symbols
 %{L%}              ! 
 
 
-%{n%}		   ! Becomes "n" after a vowel, otherwise null
+%{N%}		   ! Becomes "n" after a vowel, otherwise null
 %{y%}		   ! Becomes "y" after a vowel, otherwise null
 %{s%}		   ! Becomes "s" after a vowel, otherwise null
 %{i%}		   ! Becomes as "i" after a consonant, otherwise null
-%{pN%}		   ! Becomes "n" before dat abl loc and after 3p poss, otherwise null
+%{n%}		   ! Becomes "n" before dat abl loc and after 3p poss, otherwise null
 %{e%}
 %{a%}
 %{k%}              ! ???
@@ -478,10 +478,10 @@ LEXICON V-GPR-DIK-PERS
 
 %<px1sg%>:%>%{i%}m # ;
 %<px2sg%>:%>%{i%}n # ;
-%<px3sp%>:%>%{s%}%{I%}%{pN%} # ;
+%<px3sp%>:%>%{s%}%{I%}%{n%} # ;
 %<px1pl%>:%>%{i%}m%{I%}z # ;
 %<px2pl%>:%>%{i%}n%{I%}z # ;
-%<px3pl%>:%>l%{A%}r%{I%}%{pN%} # ;
+%<px3pl%>:%>l%{A%}r%{I%}%{n%} # ;
 
 LEXICON V-GPR-COMMON
 
@@ -939,7 +939,7 @@ LEXICON ATTR-SUBST
 
 LEXICON CASE-NONOM
 
-%<gen%>:%>%{n%}%{I%}n CLIT ;      
+%<gen%>:%>%{N%}%{I%}n CLIT ;      
 %<dat%>:%>%{y%}%{A%} CLIT ;   
 %<acc%>:%>%{y%}%{I%} CLIT ;
 %<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   
@@ -948,7 +948,7 @@ LEXICON CASE-NONOM
 
 LEXICON GENPOSS-ETC-NONOM
 
-%<gen%>%<subst%>:%>%{n%}%{I%}ki%{pN%} CASE-NONOM ;
+%<gen%>%<subst%>:%>%{n%}%{I%}ki%{n%} CASE-NONOM ;
 %<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
 
 CASE-NONOM ;
@@ -967,7 +967,7 @@ CASE-ETC-NONOM ;
 LEXICON CASE 
 
 %<nom%>: CLIT-GENERAL ;               
-%<gen%>:%>%{n%}%{I%}n CLIT ;      
+%<gen%>:%>%{N%}%{I%}n CLIT ;      
 %<dat%>:%>%{y%}%{A%} CLIT ;   
 %<acc%>:%>%{y%}%{I%} CLIT ;
 %<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   
@@ -978,7 +978,7 @@ LEXICON CASE
 
 LEXICON GENPOSS-ETC 
 
-%<gen%>%<subst%>:%>%{n%}%{I%}ki%{pN%} CASE ;
+%<gen%>%<subst%>:%>%{N%}%{I%}ki%{n%} CASE ;
 %<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
 
 ! CASE ;  ! FIXME: CHECK
@@ -998,19 +998,19 @@ LEXICON POSS-REAL
 
 %<px1sg%>:%>%{i%}m CASE-ETC ;                
 %<px2sg%>:%>%{i%}n CASE-ETC ;                 
-%<px3sp%>:%>%{s%}%{I%}%{pN%} CASE-ETC ; 
+%<px3sp%>:%>%{s%}%{I%}%{n%} CASE-ETC ; 
 %<px1pl%>:%>%{i%}m%{I%}z CASE-ETC ;           
 %<px2pl%>:%>%{i%}n%{I%}z CASE-ETC ;      
-%<px3pl%>:%>l%{A%}r%{I%}%{pN%} CASE-ETC ;  
+%<px3pl%>:%>l%{A%}r%{I%}%{n%} CASE-ETC ;  
 
 LEXICON GER-POSS-REAL
 
 %<px1sg%>:%>%{i%}m GER-CASE-ETC ;
 %<px2sg%>:%>%{i%}n GER-CASE-ETC ;
-%<px3sp%>:%>%{s%}%{I%}%{pN%} GER-CASE-ETC ;
+%<px3sp%>:%>%{s%}%{I%}%{n%} GER-CASE-ETC ;
 %<px1pl%>:%>%{i%}m%{I%}z GER-CASE-ETC ;
 %<px2pl%>:%>%{i%}n%{I%}z GER-CASE-ETC ;
-%<px3pl%>:%>l%{A%}r%{I%}%{pN%} GER-CASE-ETC ;
+%<px3pl%>:%>l%{A%}r%{I%}%{n%} GER-CASE-ETC ;
 
 
 LEXICON N-INFL-COMMON
@@ -1100,7 +1100,7 @@ LEXICON N5
 
 LEXICON N-COMPOUND-PX-COMMON
 
-:%>%{s%}%{I%}%{pN%} CASE-ETC ;
+:%>%{s%}%{I%}%{n%} CASE-ETC ;
 POSS-REAL ;   ! for stuff like "биздин аба ырайыбыз" and even "анын аба ырайы",
               ! which should have a <px3sp> analysis
 
@@ -1108,7 +1108,7 @@ POSS-REAL ;   ! for stuff like "биздин аба ырайыбыз" and even "
 LEXICON N-INFL-3PX-COMPOUND
 
 %<n%>: N-COMPOUND-PX-COMMON ;
-%<n%>%<pl%>:%>%{L%}%{A%}р%>%{S%}%{I%}%{n%} CASE-ETC ;
+%<n%>%<pl%>:%>l%{A%}r%>%{s%}%{I%}%{n%} CASE-ETC ;
 
 
 
@@ -1123,12 +1123,12 @@ LEXICON NP-TOP
 LEXICON NP2-TOP
 
 %<np%>%<top%>%<px3sp%>%<nom%>: # ;
-%<np%>%<top%>%<px3sp%>:%'%{pN%} CASE-ETC-NONOM ;
+%<np%>%<top%>%<px3sp%>:%'%{n%} CASE-ETC-NONOM ;
 
 LEXICON NP3-TOP
 
 %<np%>%<top%>%<pl%>%<px3sp%>%<nom%>: # ;
-%<np%>%<top%>%<pl%>%<px3sp%>:%'%{pN%} CASE-ETC-NONOM ;
+%<np%>%<top%>%<pl%>%<px3sp%>:%'%{n%} CASE-ETC-NONOM ;
 
 LEXICON NP4-TOP
 
@@ -1145,11 +1145,11 @@ LEXICON NP-ORG
 !!LEXICON NP2-ORG
 !!
 !!%<np%>%<org%>%<px3sp%>%<nom%>: # ;
-!!%<np%>%<org%>%<px3sp%>:%'%{pN%} N-INFL-COMMON-NONOM ;
+!!%<np%>%<org%>%<px3sp%>:%'%{n%} N-INFL-COMMON-NONOM ;
 !!
 LEXICON NP-ORG-COMPOUND-PX
 
-:%>%{s%}%{I%}%{pN%} CASE-ETC ;
+:%>%{s%}%{I%}%{n%} CASE-ETC ;
 POSS-REAL ;   ! for stuff like "биздин аба ырайыбыз" and even "анын аба ырайы",
               ! which should have a <px3sp> analysis
 
@@ -1326,12 +1326,12 @@ LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<acc%>:nu CLIT ;
 %<prn%>%<dem%>%<abl%>:ndan CLIT-GENERAL ;
 %<prn%>%<dem%>%<loc%>:nda CLIT-GENERAL ;
-%<prn%>%<dem%>%<gen%>%<subst%>:nuki%{pN%} CASE ;
+%<prn%>%<dem%>%<gen%>%<subst%>:nuki%{n%} CASE ;
 %<prn%>%<dem%>%<loc%>%<attr%>:ndaki ATTR-SUBST ;
 %<prn%>%<dem%>%<ins%>:nunla # ;
-%<prn%>%<dem%>%<px3sp%>:nu%{pN%} CASE ;
+%<prn%>%<dem%>%<px3sp%>:nu%{n%} CASE ;
 %<prn%>%<dem%>%<pl%>:nlar CASE-ETC ;
-%<prn%>%<dem%>%<pl%>%<px3sp%>:nları%{pN%} CASE ;
+%<prn%>%<dem%>%<pl%>%<px3sp%>:nları%{n%} CASE ;
 
 LEXICON PRON-ITG-NERE
 
@@ -1406,10 +1406,10 @@ LEXICON PRON-REF
 
 !%<prn%>%<ref%>%<p1%>%<sg%>:%>%{I%}m PRON-REF-ADV ;
 !%<prn%>%<ref%>%<p2%>%<sg%>:%>%{I%}n PRON-REF-ADV ;
-!%<prn%>%<ref%>%<p3%>%<sg%>:%>%{s%}%{I%}%{pN%} PRON-REF-ADV ;
+!%<prn%>%<ref%>%<p3%>%<sg%>:%>%{s%}%{I%}%{n%} PRON-REF-ADV ;
 !%<prn%>%<ref%>%<p1%>%<pl%>:%>%{I%}m%{I%}z PRON-REF-ADV ;
 !%<prn%>%<ref%>%<p2%>%<pl%>:%>%{I%}n%{I%}z PRON-REF-ADV ;
-!%<prn%>%<ref%>%<p3%>%<pl%>:%>l%{A%}r%>%{I%}%{pN%} PRON-REF-ADV ;
+!%<prn%>%<ref%>%<p3%>%<pl%>:%>l%{A%}r%>%{I%}%{n%} PRON-REF-ADV ;
 !%<prn%>%<ref%>: # ;
 
 
@@ -16061,6 +16061,7 @@ LEXICON Interjections
 evet:evet INTERJ ; ! "yes"
 lütfen:lütfen INTERJ ; ! ""
 yok:yok INTERJ ; ! ""
+yani:yani INTERJ ; ! ""
 hayır:hayır INTERJ ; ! "no"
 tabii% ki:tabii% ki INTERJ ;  ! "of course"
 tabii% ki:tabi% ki INTERJ ;  ! "of course" ! Dir/LR
