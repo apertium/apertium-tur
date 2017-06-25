@@ -2661,7 +2661,7 @@ yana:yana POST ; ! ""
 ! Comitative
 
 ilgili:ilgili POST ; ! "regarding"
-İlgili:İlgili POST ; ! "" ! Use/MT
+İlgili:İlgili POST ; ! "" ! Dir/RL ! Use/MT
 
 
 ! To sort
@@ -8091,7 +8091,7 @@ kırmızı% turp:kırmızı% turp N1 ; ! "radish"
 orta% direk:orta% direk N1 ; ! "middle class"
 aç% gözlü:aç% gözlü N1 ; ! "ravenous"
 ada% çayı:ada% çay N2 ; ! "sage"
-doğum% günü:doğum% gün N2 ; ! "birthday" ! Use/MT
+doğum% günü:doğum% gün N2 ; ! "birthday" ! Dir/RL ! Use/MT
 ay% ışığı:ay% ışık N2 ; ! "moon beam"
 cadı% süpürgesi:cadı% süpürge N2 ; ! "witches' brooms"
 dikiş% makinası:dikiş% makina N2 ; ! "sewing machine"
@@ -8264,7 +8264,7 @@ bakıcı:bakıcı N1 ; ! "nurse/caregiver"
 bebeklik:bebeklik N1 ; ! "state of being a baby"
 popo:popo N1 ; ! "butt, bottom"
 ayrıntı:ayrıntı N1 ; ! "detail"
-!bütün ayrıntı N1 ; ! "all detail(s..)" ! Use/MT
+!bütün ayrıntı N1 ; ! "all detail(s..)" ! Dir/RL ! Use/MT
 uyku:uyku N1 ; ! "sleep"
 vakit:vak%{fi%}%{u%}t N1 ; ! "time"
 sunucu:sunucu N1 ; ! "MC, host"
@@ -8276,7 +8276,7 @@ yemek:yemek%{v%} N1 ; ! "food"
 ölüm:ölüm N1 ; ! "death"
 sevgi:sevgi N1 ; ! "love"
 dünyanın% dört% bir% yanı:dünyanın% dört% bir% yan N-INFL-3PX-COMPOUND ; ! 
-buluşma:buluşma N1 ; ! "meeting" ! Use/MT
+buluşma:buluşma N1 ; ! "meeting" ! Dir/RL ! Use/MT
 bebeklik:bebeklik%{v%} N1 ; ! "baby-hood"
 pasta:pasta N1 ; ! "cake"
 cay:cay N1 ; ! "tributary, creek"
@@ -14101,7 +14101,7 @@ ganyan:ganyan A4 ;  ! ""
 lafazan:lafazan A4 ;  ! ""
 faşizan:faşizan A4 ;  ! ""
 oyunbozan:oyunbozan A4 ;  ! ""
-geçen:geçen A4 ;  ! "" ! Use/MT
+geçen:geçen A4 ;  ! "" ! Dir/RL ! Use/MT
 sevecen:sevecen A4 ;  ! ""
 müstehcen:müstehcen A4 ;  ! ""
 geleğen:geleğen A4 ;  ! ""
@@ -14580,6 +14580,7 @@ hasbelkader:hasbelkader ADV3 ; ! "accidentally"
 hassaten:hassaten ADV3 ; ! "especially"
 hemencecik:hemencecik ADV3 ; ! "straight away"
 hemen:hemen ADV3 ; ! "soon"
+hemen% hemen:hemen% hemen ADV3 ; ! "soon" ! Dir/RL ! Use/MT ! Dir/RL
 hem:hem ADV3 ; ! "also"
 henüz:henüz ADV3 ; ! "just"
 hep:hep ADV3 ; ! "every"
@@ -14640,7 +14641,7 @@ metazori:metazori ADV3 ; ! "compulsory"
 muhtemelen:muhtemelen ADV3 ; ! "magnificently"
 münferiden:münferiden ADV3 ; ! "solely"
 
-aksi% takdirde:aksi% takdirde ADV3 ; ! "otherwise" ! Use/MT
+aksi% takdirde:aksi% takdirde ADV3 ; ! "otherwise" ! Dir/RL ! Use/MT
 öte:öte ADV1 ; ! "the other" @@@ß
 akıllıca:akıllıca  ADV2 ; ! "smartly"
 amiyane:amiyane  ADV2 ; ! vulgarly
@@ -14831,7 +14832,7 @@ et:et%{v%} V-AR-TV ; ! "make" (DIR)
 teşekkür% et:teşekkür% et%{v%}  V-AR-TV ; ! "thank" (DIR)
 ilhak% et:ilhak% et%{v%}  V-AR-TV ; ! "annex" (DIR)
 eş:eş V-AR-TV ; ! "scratch" (DIR)
-kabul% et:kabul% et%{v%} V-AR-TV ; ! "admit, acknowledge" ! Use/MT (DIR)
+kabul% et:kabul% et%{v%} V-AR-TV ; ! "admit, acknowledge" ! Dir/RL ! Use/MT (DIR)
 istifa% et:istifa% et%{v%} V-AR-TV ; ! "resign" (DIR)
 kap:kap V-AR-TV ; ! "snatch, seize, grab" (DIR)
 kes:kes V-AR-TV ; ! "cut" (DIR)
@@ -14853,7 +14854,7 @@ lağvet:lağvet V-AR-TV ; ! "proscribe" (DIR)
 mahvet:mahvet V-AR-TV ; ! "ruin" (DIR)
 menet:menet V-AR-TV ; ! "preclude" (DIR)
 naklet:naklet V-AR-TV ; ! "recount, transport" (DIR)
-not% al:not% al V-IR-TV ; ! "take a note" ! Use/MT (DIR)
+not% al:not% al V-IR-TV ; ! "take a note" ! Dir/RL ! Use/MT (DIR)
 !öğren:öğren V-TV-DIR-IR  ; ! "learn"
 öğren:öğren V-IR-TV ; ! "learn"
 öğret:öğret V-IR-TV ; ! "teach" (DIR)
@@ -15494,7 +15495,7 @@ büyüle:büyüle V-IR-TV ; ! "ensorcel, bewitch" (T)
 çatırda:çatırda V-IR-TV ; ! "crackle" (T)
 çatla:çatla V-IR-TV ; ! "crack, split" (T)
 cevapla:cevapla V-IR-TV ; ! "answer" (T)
-cevap% ver:cevap% ver V-IR-TV ; ! "answer" ! Use/MT ! FIXME: Check (T)
+cevap% ver:cevap% ver V-IR-TV ; ! "answer" ! Dir/RL ! Use/MT ! FIXME: Check (T)
 çevrele:çevrele V-IR-TV ; ! "encompass" (T)
 çiftle:çiftle V-IR-TV ; ! "double" (T)
 çiğne:çiğne V-IR-TV ; ! "chew" (T)
@@ -16040,19 +16041,20 @@ göç:göç V-IR-IV ; ! "" (DIR)
 !! JNW Verbs
 !şaşır:şaşır V-IV-T-IR ; ! "to be surprised"
 şaşır:şaşır V-IR-IV ; ! "to be surprised"
-üne% kavuş:üne% kavuş V-IR-IV ; ! "to become famous" ! Use/MT ! FIXME: Check IR/DIR
+üne% kavuş:üne% kavuş V-IR-IV ; ! "to become famous" ! Dir/RL ! Use/MT ! FIXME: Check IR/DIR
 değer% ver:değer% ver V-IR-TV ; ! "appreciate" (DIR)
-kahvaltı% et:kahvaltı% et%{v%} V-AR-IV ; ! "have breakfast" ! Use/MT
+kahvaltı% et:kahvaltı% et%{v%} V-AR-IV ; ! "have breakfast" ! Dir/RL ! Use/MT
 dans% et:dans% et%{v%} V-AR-IV ; ! "dance" Use/MT
 celp% et:celp% et%{v%} V-AR-TV ; ! "dance" Use/MT
 davet% et:davet% et%{v%} V-AR-TV ; ! "invite" Use/MT
 yardım% et:yardım% et%{v%} V-AR-TV ; ! "invite" Use/MT
-satın% al:satın% al V-IR-TV ; ! "buy" ! Use/MT
-yarat:yarat V-IR-TV ; ! "create" ! Use/MT
+satın% al:satın% al V-IR-TV ; ! "buy" ! Dir/RL ! Use/MT
+yarat:yarat V-IR-TV ; ! "create" ! Dir/RL ! Use/MT
 bakış% at:bakış% at V-AR-TV ; ! "glance at / look at [suddenly]"
-karar% ver:karar% ver V-IR-TV ; ! "decide" ! Use/MT
+karar% ver:karar% ver V-IR-TV ; ! "decide" ! Dir/RL ! Use/MT
 sevin:sevin V-IR-IV ; ! "be pleased, rejoice"
-helak% ol:helak% ol V-IR-IV ; ! "" ! Use/MT
+helak% ol:helak% ol V-IR-IV ; ! "" ! Dir/RL ! Use/MT
+bağlı% ol:bağlı% ol V-IR-IV ; ! "" ! Dir/RL ! Use/MT
 
 kötüleş:kötüleş V-AR-IV ; ! ""
 
