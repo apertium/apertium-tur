@@ -1246,7 +1246,7 @@ ben%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:bende CLIT ;
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<abl%>:benden CLIT ; 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>%<subst%>:benimki CASE ; 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:bendeki ATTR-SUBST ; 
-ben%<prn%>%<pers%>%<p1%>%<sg%>%<advl%>:bence CLIT ; 
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<adv%>:bence CLIT ; 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<ins%>:benimle # ; 
 
 
@@ -1258,7 +1258,7 @@ sen%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:sende CLIT ;
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<abl%>:senden CLIT ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>%<subst%>:seninki CASE ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:sendeki ATTR-SUBST ; 
-sen%<prn%>%<pers%>%<p2%>%<sg%>%<advl%>:sence CLIT ; 
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<adv%>:sence CLIT ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<ins%>:seninle # ; 
 
 
@@ -1270,7 +1270,7 @@ o%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:onda CLIT ;
 o%<prn%>%<pers%>%<p3%>%<sg%>%<abl%>:ondan CLIT ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>%<subst%>:onunki CASE ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:ondeki ATTR-SUBST ; 
-o%<prn%>%<pers%>%<p3%>%<sg%>%<advl%>:once CLIT ; 
+o%<prn%>%<pers%>%<p3%>%<sg%>%<adv%>:once CLIT ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:onunla # ; 
 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:biz CLIT-W-COPULA ; 
@@ -1281,7 +1281,7 @@ biz%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizde CLIT ;
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:bizden CLIT ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>%<subst%>:bizimki CASE ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizdeki ATTR-SUBST ; 
-biz%<prn%>%<pers%>%<p1%>%<pl%>%<advl%>:bizce CLIT ; 
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<adv%>:bizce CLIT ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<ins%>:bizimle # ; 
 !biz%<prn%>%<pers%>%<p1%>%<pl%>%<abe%>:bizsiz CLIT ; 
 
@@ -1294,7 +1294,7 @@ siz%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizde CLIT ;
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:sizden CLIT ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>%<subst%>:sizinki CASE ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizdeki ATTR-SUBST ; 
-siz%<prn%>%<pers%>%<p2%>%<pl%>%<advl%>:sizce CLIT ; 
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<adv%>:sizce CLIT ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:sizinle # ; 
 
 !sizler, bizler
@@ -1307,7 +1307,7 @@ bizler%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizlerde CLIT ;
 bizler%<prn%>%<pers%>%<p1%>%<pl%>%<abl%>:bizlerden CLIT ; 
 bizler%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>%<subst%>:bizlerinki CASE ; 
 bizler%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizlerdeki ATTR-SUBST ; 
-bizler%<prn%>%<pers%>%<p1%>%<pl%>%<advl%>:bizlerce CLIT ; 
+bizler%<prn%>%<pers%>%<p1%>%<pl%>%<adv%>:bizlerce CLIT ; 
 bizler%<prn%>%<pers%>%<p1%>%<pl%>%<ins%>:bizlerle # ; 
 !bizler%<prn%>%<pers%>%<p1%>%<pl%>%<abe%>:bizlersiz CLIT ; 
 
@@ -1320,7 +1320,7 @@ sizler%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizlerde CLIT ;
 sizler%<prn%>%<pers%>%<p2%>%<pl%>%<abl%>:sizlerden CLIT ; 
 sizler%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>%<subst%>:sizlerinki CASE ; 
 sizler%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizlerdeki ATTR-SUBST ; 
-sizler%<prn%>%<pers%>%<p2%>%<pl%>%<advl%>:sizlerce CLIT ; 
+sizler%<prn%>%<pers%>%<p2%>%<pl%>%<adv%>:sizlerce CLIT ; 
 sizler%<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:sizlerle # ; 
 
 
@@ -1334,7 +1334,7 @@ onlar%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:onlarda CLIT ;
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<abl%>:onlardan CLIT ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>%<subst%>:onlarınki CASE ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:onlardeki ATTR-SUBST ; 
-onlar%<prn%>%<pers%>%<p3%>%<pl%>%<advl%>:onlarca CLIT ; 
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<adv%>:onlarca CLIT ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<ins%>:onlarınla # ; 
 
 
