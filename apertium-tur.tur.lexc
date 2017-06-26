@@ -10731,7 +10731,7 @@ Ilija:İlija NP-ANT-M ; ! "" ! Dir/LR
 Ivaylo:İvaylo NP-ANT-M ; ! "" ! Dir/LR
 Ivaylo:Ivaylo NP-ANT-M ; ! ""
 Ivan:Ivan NP-ANT-M ; ! ""
-Ivan:İvan NP-ANT-M ; ! "" ! Dir/LR
+İvan:İvan NP-ANT-M ; ! "" ! Dir/LR
 Ivica:İvica NP-ANT-M ; ! "" ! Dir/LR
 Ivica:Ivica NP-ANT-M ; ! "" 
 Ivo:Ivo NP-ANT-M ; ! ""
@@ -11194,6 +11194,7 @@ Habibullah:Habibullah NP-ANT-M;
 Rıza:Rıza NP-ANT-M;
 Yunus:Yunus NP-ANT-M;
 Eşref:Eşref NP-ANT-M;
+Cengiz:Cengiz NP-ANT-M;
 
 
 
@@ -14585,6 +14586,7 @@ keş:keş A1 ; ! "druggee" ! FIXME: CHECK
 özerk:özerk A1 ; ! "autonomous"
 umumi:umumi A1 ; ! "public"
 tarihi:tarihi A1 ;
+hakiki:hakiki A1 ;
 
 LEXICON Adverbs 
 
