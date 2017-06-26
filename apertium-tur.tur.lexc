@@ -1049,6 +1049,7 @@ LEXICON LI-POSTPOSITION
 
 %+lı%<post%>:%>l%{I%} # ;
 
+
 LEXICON FULL-NOMINAL-INFLECTION
 
 SUBST ;
@@ -1120,6 +1121,9 @@ LEXICON NP-TOP
 %<np%>%<top%>%<nom%>: # ;
 %<np%>%<top%>:%' N-INFL-COMMON-NONOM ;
 %<np%>%<top%>%<attr%>: # ;
+%<np%>%<top%>: LI-POSTPOSITION ;
+%<np%>%<top%>%<pl%>%<nom%>:%>l%{A%}r # ;
+%<np%>%<top%>%<pl%>:%>l%{A%}r%' N-INFL-COMMON-NONOM ;
 
 LEXICON NP2-TOP
 
@@ -1192,6 +1196,21 @@ LEXICON NP-COG-MF
 %<np%>%<cog%>%<mf%>%<attr%>: # ;
 %<np%>%<cog%>%<mf%>%<pl%>%<nom%>:%>l%{A%}r # ;
 %<np%>%<cog%>%<mf%>%<pl%>:%>l%{A%}r%' N-INFL-COMMON-NONOM ;
+
+LEXICON NP-COG-OV
+
+%<np%>%<cog%>%<mf%>%<nom%>: # ;
+%<np%>%<cog%>%<mf%>%<nom%>:%' V-NOPERS-COP ;
+%<np%>%<cog%>%<mf%>:%' N-INFL-COMMON-NONOM ;
+%<np%>%<cog%>%<mf%>%<attr%>: # ;
+%<np%>%<cog%>%<mf%>%<pl%>%<nom%>:%>l%{A%}r # ;
+%<np%>%<cog%>%<mf%>%<pl%>:%>l%{A%}r%' N-INFL-COMMON-NONOM ;
+a%<np%>%<cog%>%<mf%>%<nom%>:a # ;
+a%<np%>%<cog%>%<mf%>%<nom%>:a%' V-NOPERS-COP ;
+a%<np%>%<cog%>%<mf%>:a%' N-INFL-COMMON-NONOM ;
+a%<np%>%<cog%>%<mf%>%<attr%>:a # ;
+a%<np%>%<cog%>%<mf%>%<pl%>%<nom%>:a%>l%{A%}r # ;
+a%<np%>%<cog%>%<mf%>%<pl%>:a%>l%{A%}r%' N-INFL-COMMON-NONOM ;
 
 LEXICON NP-AL-PL
 
@@ -8861,6 +8880,22 @@ hücüm:hücüm N1 ; ! ""
 yarımada:yarımada N1 ; ! ""
 zümre:zümre N1 ; ! ""
 
+arife:arife N1 ; ! ""
+arıza:arıza N1 ; ! ""
+hukukçu:hukukçu N1 ; ! ""
+krallık:krallık N1 ; ! ""
+muharrir:muharrir N1 ; ! ""
+partizan:partizan N1 ; ! ""
+ruble:ruble N1 ; ! ""
+spiker:spiker N1 ; ! ""
+sultan:sultan N1 ; ! ""
+suret:suret N1 ; ! ""
+tarihçi:tarihçi N1 ; ! ""
+türk:türk N1 ; ! ""
+vazife:vazife N1 ; ! ""
+vaziyet:vaziyet N1 ; ! ""
+vesika:vesika N1 ; ! ""
+
 
 
 üçlü:üçlü N1 ; ! "triad" 
@@ -8889,6 +8924,81 @@ Kefe:Kefe NP-TOP ; ! ""
 Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
+
+Abdal:Abdal NP-ANT-M ; ! ""
+Abdul:Abdul NP-ANT-M ; ! ""
+Abdurahman:Abdurahman NP-ANT-M ; ! ""
+Abduraman:Abduraman NP-ANT-M ; ! ""
+Abdureim:Abdureim NP-ANT-M ; ! ""
+Abdureşid:Abdureşid NP-ANT-M ; ! ""
+Abdureşit:Abdureşit NP-ANT-M ; ! ""
+Abdürrahman:Abdürrahman NP-ANT-M ; ! ""
+Abdürrefi:Abdürrefi NP-ANT-M ; ! ""
+Abülaziz:Abülaziz NP-ANT-M ; ! ""
+Ahmed:Ahmed NP-ANT-M ; ! ""
+Alaadin:Alaadin NP-ANT-M ; ! ""
+Aleksey:Aleksey NP-ANT-M ; ! ""
+Amza:Amza NP-ANT-M ; ! ""
+Anatoli:Anatoli NP-ANT-M ; ! ""
+Arseni:Arseni NP-ANT-M ; ! ""
+Ayder:Ayder NP-ANT-M ; ! ""
+Barak:Barak NP-ANT-M ; ! ""
+Bill:Bill NP-ANT-M ; ! ""
+Cafer:Cafer NP-ANT-M ; ! ""
+Camala:Camala NP-ANT-F ; ! ""
+Edem:Edem NP-ANT-M ; ! ""
+Eduard:Eduard NP-ANT-M ; ! ""
+Ella:Ella NP-ANT-F ; ! ""
+Elmira:Elmira NP-ANT-F ; ! ""
+Franklin:Franklin NP-ANT-M ; ! ""
+Gennadi:Gennadi NP-ANT-M ; ! ""
+Georg:Georg NP-ANT-M ; ! ""
+Grigori:Grigori NP-ANT-M ; ! ""
+Gustav:Gustav NP-ANT-M ; ! ""
+Halil:Halil NP-ANT-M ; ! ""
+Hamza:Hamza NP-ANT-M ; ! ""
+Hüseyin:Hüseyin NP-ANT-M ; ! ""
+İdil:İdil NP-ANT-F ; ! ""
+İosif:İosif NP-ANT-M ; ! ""
+İsa:İsa NP-ANT-M ; ! ""
+Kristina:Kristina NP-ANT-F ; ! ""
+Lenara:Lenara NP-ANT-F ; ! ""
+Leyla:Leyla NP-ANT-F ; ! ""
+Maksim:Maksim NP-ANT-M ; ! ""
+Margarita:Margarita NP-ANT-F ; ! ""
+Marino:Marino NP-ANT-M ; ! ""
+Mariya:Mariya NP-ANT-F ; ! ""
+Mar:Mar NP-ANT-F ; ! ""
+Mıhaylo:Mıhaylo NP-ANT-M ; ! ""
+Musa:Musa NP-ANT-M ; ! ""
+Naciye:Naciye NP-ANT-F ; ! ""
+Oksana:Oksana NP-ANT-F ; ! ""
+Oleksandr:Oleksandr NP-ANT-M ; ! ""
+Olga:Olga NP-ANT-F ; ! ""
+Omar:Omar NP-ANT-M ; ! ""
+Oskar:Oskar NP-ANT-M ; ! ""
+Ray:Ray NP-ANT-M ; ! ""
+Remziye:Remziye NP-ANT-F ; ! ""
+Rüstem:Rüstem NP-ANT-M ; ! ""
+Sahib:Sahib NP-ANT-M ; ! ""
+Sem:Sem NP-ANT-M ; ! ""
+Simon:Simon NP-ANT-M ; ! ""
+Tatyana:Tatyana NP-ANT-F ; ! ""
+Teodoro:Teodoro NP-ANT-M ; ! ""
+Timur:Timur NP-ANT-M ; ! ""
+Tomas:Tomas NP-ANT-M ; ! ""
+Toni:Toni NP-ANT-F ; ! ""
+Valeri:Valeri NP-ANT-M ; ! ""
+Valeriya:Valeriya NP-ANT-F ; ! ""
+Vasili:Vasili NP-ANT-M ; ! ""
+Viktoriya:Viktoriya NP-ANT-F ; ! ""
+Vitali:Vitali NP-ANT-M ; ! ""
+Volodımır:Volodımır NP-ANT-M ; ! ""
+Yekaterina:Yekaterina NP-ANT-F ; ! ""
+Yevgeni:Yevgeni NP-ANT-M ; ! ""
+Yuliya:Yuliya NP-ANT-F ; ! ""
+
+
 Bekir:Bekir NP-ANT-M ; ! ""
 Şamil:Şamil NP-ANT-M ; ! ""
 Viktor:Viktor NP-ANT-M ; ! ""
@@ -8900,8 +9010,8 @@ Cervantes:Cervantes NP-COG-MF ; ! ""
 Gasprinski:Gasprinski NP-COG-MF ; ! ""
 Giray:Giray NP-COG-MF ; ! ""
 Hacı:Hacı NP-ANT-M ; ! ""
-İbrahimov:İbrahimov NP-COG-MF ; ! ""
-Turçinov:Turçinov NP-COG-MF ; ! ""
+İbrahimov:İbrahimov NP-COG-OV ; ! ""
+Turçinov:Turçinov NP-COG-OV ; ! ""
 İsmail:İsmail NP-ANT-M ; ! ""
 Kristor:Kristor NP-ANT-M ; ! ""
 Mahmud:Mahmud NP-ANT-M ; ! ""
@@ -10871,7 +10981,7 @@ Pamuk:Pamuk NP-COG-MF ; ! ""
 Rücker:Rücker NP-COG-MF ; ! ""
 Moon:Moon NP-COG-MF ; ! ""
 Sekerinska:Sekerinska NP-COG-MF ; ! "@@@ F
-Dimitrova:Dimitrova NP-COG-MF ; ! @@@ F
+Dimitrov:Dimitrov NP-COG-OV ; ! @@@ F
 Stojanovska:Stojanovska NP-COG-MF ; ! "" @@@ F
 Sabancı:Sabancı NP-COG-MF ; ! ""
 Atatürk:Atatürk NP-COG-MF ; ! ""
@@ -10880,7 +10990,7 @@ Ashton:Ashton NP-COG-MF ; ! ""
 Frattini:Frattini NP-COG-MF ; ! ""
 Verheugen:Verheugen NP-COG-MF ; ! ""
 Nimetz:Nimetz NP-COG-MF ; ! ""
-Barbutov:Barbutov NP-COG-MF ; ! ""
+Barbutov:Barbutov NP-COG-OV ; ! ""
 Brammertz:Brammertz NP-COG-MF ; ! ""
 Labus:Labus NP-COG-MF ; ! ""
 Hristofiyas:Hristofiyas NP-COG-MF ; ! ""
@@ -10897,7 +11007,7 @@ Samaras:Samaras NP-COG-MF ; ! ""
 Kaddafi:Kaddafi NP-COG-MF ; ! ""
 Grossi:Grossi NP-COG-MF ; ! ""
 Tyers:Tyers NP-COG-MF ; ! ""
-Salimzyanov:Salimzyanov NP-COG-MF ; ! ""
+Salimzyanov:Salimzyanov NP-COG-OV ; ! ""
 Gökırmak:Gökırmak NP-COG-MF ; ! ""
 Washington:Washington NP-COG-MF ; ! ""
 Erdoğan:Erdoğan NP-COG-MF ; ! ""
@@ -10937,7 +11047,7 @@ Saxe%-Coburg:Saxe%-Coburg NP-COG-MF ; ! ""
 Papandreu:Papandreu NP-COG-MF ; ! ""
 Karadaku:Karadaku NP-COG-MF ; ! ""
 Georgiev:Georgiev NP-COG-MF ; ! ""
-Rugova:Rugova NP-COG-MF ; ! ""
+Rugov:Rugov NP-COG-OV ; ! ""
 Hasani:Hasani NP-COG-MF ; ! ""
 Merkel:Merkel NP-COG-MF ; ! ""
 Davutoğlu:Davutoğlu NP-COG-MF ; ! ""
@@ -12904,47 +13014,47 @@ Galazovski:Galazovski NP-COG-MF ; ! ""
 Strezovski:Strezovski NP-COG-MF ; ! ""
 Kanzovski:Kanzovski NP-COG-MF ; ! ""
 
-Alexandrov:Alexandrov NP-COG-MF ; ! ""
-Asparuhov:Asparuhov NP-COG-MF ; ! ""
-Atanasov:Atanasov NP-COG-MF ; ! ""
-Beronov:Beronov NP-COG-MF ; ! ""
-Bliznakov:Bliznakov NP-COG-MF ; ! ""
-Borisov:Borisov NP-COG-MF ; ! ""
-Borissov:Borissov NP-COG-MF ; ! ""
-Brasov:Brasov NP-COG-MF ; ! ""
-Dimitrov:Dimitrov NP-COG-MF ; ! ""
-Gerdzhikov:Gerdzhikov NP-COG-MF ; ! ""
-Gerjikov:Gerjikov NP-COG-MF ; ! ""
-Grigorov:Grigorov NP-COG-MF ; ! ""
-Ivanov:Ivanov NP-COG-MF ; ! ""
-İvanov:İvanov NP-COG-MF ; ! ""
-Konstantinov:Konstantinov NP-COG-MF ; ! ""
-Kostov:Kostov NP-COG-MF ; ! ""
-Lavrov:Lavrov NP-COG-MF ; ! ""
-Mikov:Mikov NP-COG-MF ; ! ""
-Nikiforov:Nikiforov NP-COG-MF ; ! ""
-Nikolov:Nikolov NP-COG-MF ; ! ""
-Ovçarov:Ovçarov NP-COG-MF ; ! ""
-Ovcharov:Ovcharov NP-COG-MF ; ! ""
-Panayotov:Panayotov NP-COG-MF ; ! ""
-Parvanov:Parvanov NP-COG-MF ; ! ""
-Penov:Penov NP-COG-MF ; ! ""
-Petkanov:Petkanov NP-COG-MF ; ! ""
-Petkov:Petkov NP-COG-MF ; ! ""
-Petrov:Petrov NP-COG-MF ; ! ""
-Siderov:Siderov NP-COG-MF ; ! ""
-Stankov:Stankov NP-COG-MF ; ! ""
-Stefanov:Stefanov NP-COG-MF ; ! ""
-Stoyanov:Stoyanov NP-COG-MF ; ! ""
-Stoykov:Stoykov NP-COG-MF ; ! ""
-Svinarov:Svinarov NP-COG-MF ; ! ""
-Sviranov:Sviranov NP-COG-MF ; ! ""
-Titov:Titov NP-COG-MF ; ! ""
-Todorov:Todorov NP-COG-MF ; ! ""
-Trajkov:Trajkov NP-COG-MF ; ! ""
-Tsenkov:Tsenkov NP-COG-MF ; ! ""
-Velikov:Velikov NP-COG-MF ; ! ""
-Yordanov:Yordanov NP-COG-MF ; ! ""
+Alexandrov:Alexandrov NP-COG-OV ; ! ""
+Asparuhov:Asparuhov NP-COG-OV ; ! ""
+Atanasov:Atanasov NP-COG-OV ; ! ""
+Beronov:Beronov NP-COG-OV ; ! ""
+Bliznakov:Bliznakov NP-COG-OV ; ! ""
+Borisov:Borisov NP-COG-OV ; ! ""
+Borissov:Borissov NP-COG-OV ; ! ""
+Brasov:Brasov NP-COG-OV ; ! ""
+Dimitrov:Dimitrov NP-COG-OV ; ! ""
+Gerdzhikov:Gerdzhikov NP-COG-OV ; ! ""
+Gerjikov:Gerjikov NP-COG-OV ; ! ""
+Grigorov:Grigorov NP-COG-OV ; ! ""
+Ivanov:Ivanov NP-COG-OV ; ! ""
+İvanov:İvanov NP-COG-OV ; ! ""
+Konstantinov:Konstantinov NP-COG-OV ; ! ""
+Kostov:Kostov NP-COG-OV ; ! ""
+Lavrov:Lavrov NP-COG-OV ; ! ""
+Mikov:Mikov NP-COG-OV ; ! ""
+Nikiforov:Nikiforov NP-COG-OV ; ! ""
+Nikolov:Nikolov NP-COG-OV ; ! ""
+Ovçarov:Ovçarov NP-COG-OV ; ! ""
+Ovcharov:Ovcharov NP-COG-OV ; ! ""
+Panayotov:Panayotov NP-COG-OV ; ! ""
+Parvanov:Parvanov NP-COG-OV ; ! ""
+Penov:Penov NP-COG-OV ; ! ""
+Petkanov:Petkanov NP-COG-OV ; ! ""
+Petkov:Petkov NP-COG-OV ; ! ""
+Petrov:Petrov NP-COG-OV ; ! ""
+Siderov:Siderov NP-COG-OV ; ! ""
+Stankov:Stankov NP-COG-OV ; ! ""
+Stefanov:Stefanov NP-COG-OV ; ! ""
+Stoyanov:Stoyanov NP-COG-OV ; ! ""
+Stoykov:Stoykov NP-COG-OV ; ! ""
+Svinarov:Svinarov NP-COG-OV ; ! ""
+Sviranov:Sviranov NP-COG-OV ; ! ""
+Titov:Titov NP-COG-OV ; ! ""
+Todorov:Todorov NP-COG-OV ; ! ""
+Trajkov:Trajkov NP-COG-OV ; ! ""
+Tsenkov:Tsenkov NP-COG-OV ; ! ""
+Velikov:Velikov NP-COG-OV ; ! ""
+Yordanov:Yordanov NP-COG-OV ; ! ""
 
 Karamanlis:Karamanlis NP-COG-MF ; ! ""
 Scheffer:Scheffer NP-COG-MF ; ! ""
@@ -12970,17 +13080,17 @@ Koppel:Koppe%{ı%}l NP-COG-MF ; ! "Koppel"
 Albom:Albom NP-COG-MF ; ! "Albom"
 Çobanzade:Çoban NP-COG-ZADE; ! ""
 
-İslamov:İslamov NP-COG-MF ;
-Asanov:Asanov NP-COG-MF ;
-Ahmetov:Ahmetov NP-COG-MF ; 
-Osmanov:Osmanov NP-COG-MF ;
-Aksenov:Aksenov NP-COG-MF ;
-Ümerov:Ümerov NP-COG-MF ;
-İlyasov:İlyasov NP-COG-MF ;
-Sentsov:Sentsov NP-COG-MF ;
-Aksönov:Aksönov NP-COG-MF ;
+İslamov:İslamov NP-COG-OV ;
+Asanov:Asanov NP-COG-OV ;
+Ahmetov:Ahmetov NP-COG-OV ; 
+Osmanov:Osmanov NP-COG-OV ;
+Aksenov:Aksenov NP-COG-OV ;
+Ümerov:Ümerov NP-COG-OV ;
+İlyasov:İlyasov NP-COG-OV ;
+Sentsov:Sentsov NP-COG-OV ;
+Aksönov:Aksönov NP-COG-OV ;
 Poroşenko:Poroşenko NP-COG-MF ;
-Çubarov:Çubarov NP-COG-MF ;
+Çubarov:Çubarov NP-COG-OV ;
 Cemilev:Cemilev NP-COG-MF ;
 
 
@@ -12990,101 +13100,101 @@ Sultan:Sultan NP-COG-MF ;
 Seydamet:Seydamet NP-COG-MF ;
 Ülküsal:Ülküsal NP-COG-MF ;
 Lümyer:Lümyer NP-COG-MF ;
-Reşidov:Reşidov NP-COG-MF ;
+Reşidov:Reşidov NP-COG-OV ;
 Puşkin:Puşkin NP-COG-MF ;
 Veliyev:Veliyev NP-COG-MF ;
 Bodaninski:Bodaninski NP-COG-MF ;
-Müyedinov:Müyedinov NP-COG-MF ;
+Müyedinov:Müyedinov NP-COG-OV ;
 Borağanskiy:Borağanskiy NP-COG-MF ;
-Abdürrahmanov:Abdürrahmanov NP-COG-MF ;
-Nalbandov:Nalbandov NP-COG-MF ;
+Abdürrahmanov:Abdürrahmanov NP-COG-OV ;
+Nalbandov:Nalbandov NP-COG-OV ;
 Hablemitoğlu:Hablemitoğlu NP-COG-MF ;
-Ethemov:Ethemov NP-COG-MF ;
-Ayvazov:Ayvazov NP-COG-MF ;
-Appazov:Appazov NP-COG-MF ;
+Ethemov:Ethemov NP-COG-OV ;
+Ayvazov:Ayvazov NP-COG-OV ;
+Appazov:Appazov NP-COG-OV ;
 Ablayev:Ablayev NP-COG-MF ;
 Seyitveliyev:Seyitveliyev NP-COG-MF ;
-Filatov:Filatov NP-COG-MF ;
-Batırov:Batırov NP-COG-MF ;
-Abdennanov:Abdennanov NP-COG-MF ;
+Filatov:Filatov NP-COG-OV ;
+Batırov:Batırov NP-COG-OV ;
+Abdennanov:Abdennanov NP-COG-OV ;
 Tolstoy:Tolstoy NP-COG-MF ;
 Timoşenko:Timoşenko NP-COG-MF ;
-Şurov:Şurov NP-COG-MF ;
-Siyabendov:Siyabendov NP-COG-MF ;
+Şurov:Şurov NP-COG-OV ;
+Siyabendov:Siyabendov NP-COG-OV ;
 Rodriguez:Rodriguez NP-COG-MF ;
 Kırımoğlu:Kırımoğlu NP-COG-MF ;
-Kazakov:Kazakov NP-COG-MF ;
+Kazakov:Kazakov NP-COG-OV ;
 Mediyev:Mediyev NP-COG-MF ;
 Lopez:Lopez NP-COG-MF ;
 Kuybişev:Kuybişev NP-COG-MF ;
-Halilov:Halilov NP-COG-MF ;
+Halilov:Halilov NP-COG-OV ;
 Çaykovski:Çaykovski NP-COG-MF ;
-Ametov:Ametov NP-COG-MF ;
-Alimov:Alimov NP-COG-MF ;
-Süleymanov:Süleymanov NP-COG-MF ;
-Selimov:Selimov NP-COG-MF ;
-Refatov:Refatov NP-COG-MF ;
-Kadirov:Kadirov NP-COG-MF ;
+Ametov:Ametov NP-COG-OV ;
+Alimov:Alimov NP-COG-OV ;
+Süleymanov:Süleymanov NP-COG-OV ;
+Selimov:Selimov NP-COG-OV ;
+Refatov:Refatov NP-COG-OV ;
+Kadirov:Kadirov NP-COG-OV ;
 Mogilev:Mogilev NP-COG-MF ;
-Lömanov:Lömanov NP-COG-MF ;
+Lömanov:Lömanov NP-COG-OV ;
 Levitskiy:Levitskiy NP-COG-MF ;
 Kuzmenko:Kuzmenko NP-COG-MF ;
 İlminski:İlminski NP-COG-MF ;
-Gülmemmedov:Gülmemmedov NP-COG-MF ;
+Gülmemmedov:Gülmemmedov NP-COG-OV ;
 Ganiyev:Ganiyev NP-COG-MF ;
-Çernov:Çernov NP-COG-MF ;
-Bekirov:Bekirov NP-COG-MF ;
-Baskakov:Baskakov NP-COG-MF ;
-Akimov:Akimov NP-COG-MF ;
+Çernov:Çernov NP-COG-OV ;
+Bekirov:Bekirov NP-COG-OV ;
+Baskakov:Baskakov NP-COG-OV ;
+Akimov:Akimov NP-COG-OV ;
 Yuşçenko:Yuşçenko NP-COG-MF ;
 Yaitski:Yaitski NP-COG-MF ;
 Tusk:Tusk NP-COG-MF ;
 Sultan:Sultan NP-COG-MF ;
 Seytablayev:Seytablayev NP-COG-MF ;
-Şerfetdinov:Şerfetdinov NP-COG-MF ;
+Şerfetdinov:Şerfetdinov NP-COG-OV ;
 Pugaçev:Pugaçev NP-COG-MF ;
-Plehanov:Plehanov NP-COG-MF ;
+Plehanov:Plehanov NP-COG-OV ;
 Osipenko:Osipenko NP-COG-MF ;
 Necefzade:Necefzade NP-COG-MF ;
 Nazaryev:Nazaryev NP-COG-MF ;
 Mustafayev:Mustafayev NP-COG-MF ;
-Moloçnikov:Moloçnikov NP-COG-MF ;
+Moloçnikov:Moloçnikov NP-COG-OV ;
 Mısıroğlu:Mısıroğlu NP-COG-MF ;
-Memetov:Memetov NP-COG-MF ;
-Martyanov:Martyanov NP-COG-MF ;
-Krilov:Krilov NP-COG-MF ;
-Karpov:Karpov NP-COG-MF ;
-İzmaylov:İzmaylov NP-COG-MF ;
+Memetov:Memetov NP-COG-OV ;
+Martyanov:Martyanov NP-COG-OV ;
+Krilov:Krilov NP-COG-OV ;
+Karpov:Karpov NP-COG-OV ;
+İzmaylov:İzmaylov NP-COG-OV ;
 Gülümoğlu:Gülümoğlu NP-COG-MF ;
 Gruşevski:Gruşevski NP-COG-MF ;
 Gözlev:Gözlev NP-COG-MF ;
 Gagarin:Gagarin NP-COG-MF ;
 Çergeyev:Çergeyev NP-COG-MF ;
-Çehov:Çehov NP-COG-MF ;
-Camaladinov:Camaladinov NP-COG-MF ;
-Bekirov:Bekirov NP-COG-MF ;
+Çehov:Çehov NP-COG-OV ;
+Camaladinov:Camaladinov NP-COG-OV ;
+Bekirov:Bekirov NP-COG-OV ;
 Zayonçkovskiy:Zayonçkovskiy NP-COG-MF ;
-Yunusov:Yunusov NP-COG-MF ;
-Yevdokimov:Yevdokimov NP-COG-MF ;
+Yunusov:Yunusov NP-COG-OV ;
+Yevdokimov:Yevdokimov NP-COG-OV ;
 Yerömenko:Yerömenko NP-COG-MF ;
 Yasinskiy:Yasinskiy NP-COG-MF ;
-Yakubov:Yakubov NP-COG-MF ;
-Voykov:Voykov NP-COG-MF ;
-Vorontsov:Vorontsov NP-COG-MF ;
+Yakubov:Yakubov NP-COG-OV ;
+Voykov:Voykov NP-COG-OV ;
+Vorontsov:Vorontsov NP-COG-OV ;
 Vernadskiy:Vernadskiy NP-COG-MF ;
 Veresayev:Veresayev NP-COG-MF ;
 Velilâyev:Velilâyev NP-COG-MF ;
 Üşçenko:Üşçenko NP-COG-MF ;
-Ulyanov:Ulyanov NP-COG-MF ;
-Tınçerov:Tınçerov NP-COG-MF ;
-Tairov:Tairov NP-COG-MF ;
-Sıvalov:Sıvalov NP-COG-MF ;
+Ulyanov:Ulyanov NP-COG-OV ;
+Tınçerov:Tınçerov NP-COG-OV ;
+Tairov:Tairov NP-COG-OV ;
+Sıvalov:Sıvalov NP-COG-OV ;
 Sultan:Sultan NP-COG-MF ;
 Sofuzade:Sofuzade NP-COG-MF ;
-Sınov:Sınov NP-COG-MF ;
-Simonov:Simonov NP-COG-MF ;
+Sınov:Sınov NP-COG-OV ;
+Simonov:Simonov NP-COG-OV ;
 Dağcı:Dağcı NP-COG-MF ;
-Ametov:Ametov NP-COG-MF ;
+Ametov:Ametov NP-COG-OV ;
 Dağcı:Dağcı NP-COG-MF ;
 Şevçenko:Şevçenko NP-COG-MF ;
 
@@ -16078,6 +16188,7 @@ LEXICON Punctuation
 %.%<sent%>:%. # ;
 %.%.%<sent%>:%.%. # ;
 %.%.%.%<sent%>:%.%.%. # ;
+…%<sent%>:… # ;
 %;%<sent%>:%; # ;
 %:%<sent%>:%: # ;
 %!%<sent%>:%! # ;
