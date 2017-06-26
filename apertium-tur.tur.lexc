@@ -394,13 +394,12 @@ V-NONFIN-IR ;
 
 LEXICON V-GERUNDS
 
-%<ger%>:%>m%{A%} GER-SUBST; ! was V-GERUNDS-COMMON ;
-%<ger_past%>:%>%{D%}%{I%}k%{v%} GER-SUBST; ! was V-GERUNDS-COMMON ;
-%<ger_abst%>:%>%{I%}ş GER-SUBST; ! was V-GERUNDS-COMMON ;
-%<ger_fut%>:%>%{y%}%{A%}c%{A%}k%{v%} GER-SUBST; ! was V-GERUNDS-COMMON ;
-%<ger_impf%>:%>%{y%}%{A%}n GER-SUBST ; ! was V-GERUNDS-COMMON ;
-%<ger6%>:%>m%{A%}k%{v%} GER-SUBST ;  ! was: V-GERUNDS-COMMON
-%<ger_when%>:%>%{y%}%{I%}nc%{A%} CASE-NONOM ;  ! FIXME: CHECK: I think this doesn't take POSS stuff? -JNW
+%<ger%>:%>m%{A%} GER-SUBST ; 
+%<ger_past%>:%>%{D%}%{I%}k%{v%} GER-SUBST ;
+%<ger_abst%>:%>%{y%}%{I%}ş GER-SUBST ;
+%<ger_fut%>:%>%{y%}%{A%}c%{A%}k%{v%} GER-SUBST ;
+%<ger_impf%>:%>%{y%}%{A%}n GER-SUBST ;
+%<ger6%>:%>m%{A%}k%{v%} GER-SUBST ;  
 %<ger_pabs%>:%>m%{I%}ş GER-SUBST ;
 
 LEXICON V-GERUNDS-AOR-AR
