@@ -135,6 +135,7 @@ Multichar_Symbols
 %<gna_cond%>
 %<gna_impf%>
 %<gna_when%>  ! at the same time as
+%<gna_ken%>
 !%<gna_aor%>
 !%<prc_aor%>
 %<prc%>
@@ -809,8 +810,7 @@ COPULA-KEN ;
 
 LEXICON COPULA-KEN !!! ADVERBIAL FORM 
 
-%<advl%>:%>ken # ;
-
+%<gna_ken%>:%>%{y%}ken # ;
 
 LEXICON COPULA-AOR
 
@@ -2613,6 +2613,7 @@ mı%<qst%>:%~mı # ; ! Dir/RL
 %~:%~ # ; ! Dir/RL
 
 i%<cop%>%<ifi%>%<p3%>%<sg%>:idi # ;  ! For when it goes separately
+i%<cop%>%<gna_ken%>:iken # ;  ! For when it goes separately
 
 LEXICON Postadverbs
 
