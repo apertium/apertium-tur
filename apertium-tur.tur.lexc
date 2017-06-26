@@ -8804,6 +8804,7 @@ Yugoslav:Yugoslav N1 ; ! ""
 Boşnak:Boşnak N1 ; ! ""
 Amerikan:Amerikan N1 ; ! ""
 Yunanlı:Yunanlı N1 ; ! ""
+Tatar:Tatar N1 ; ! ""
 Osmanlı:Osmanlı N1 ; ! ""
 Yahudi:Yahudi N1 ; ! ""
 Ukraynalı:Ukraynalı N1 ; ! ""
@@ -8988,13 +8989,14 @@ Volodımır:Volodımır NP-ANT-M ; ! ""
 Yekaterina:Yekaterina NP-ANT-F ; ! ""
 Yevgeni:Yevgeni NP-ANT-M ; ! ""
 Yuliya:Yuliya NP-ANT-F ; ! ""
-
+Emel:Emel NP-ANT-F ;
 
 Bekir:Bekir NP-ANT-M ; ! ""
 Şamil:Şamil NP-ANT-M ; ! ""
 Viktor:Viktor NP-ANT-M ; ! ""
 Oleg:Oleg NP-ANT-M ; ! ""
 Lenin:Lenin NP-COG-MF ; ! ""
+Kezlev:Kezlev NP-COG-MF ; ! ""
 Cervantes:Cervantes NP-COG-MF ; ! ""
 Çelebicihan:Çelebicihan NP-COG-MF ; ! ""
 Çiygöz:Çiygöz NP-COG-MF ; ! ""
@@ -14582,6 +14584,7 @@ kır:kır A1 ; ! "grey" ! FIXME: CHECK
 keş:keş A1 ; ! "druggee" ! FIXME: CHECK
 özerk:özerk A1 ; ! "autonomous"
 umumi:umumi A1 ; ! "public"
+tarihi:tarihi A1 ;
 
 LEXICON Adverbs 
 
