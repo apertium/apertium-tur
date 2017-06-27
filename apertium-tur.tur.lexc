@@ -15373,7 +15373,7 @@ iade% et:iade% et%{v%} V-AR-TV ; ! "give back" (DIR)
 iç:iç V-AR-TV ; ! "drink" (DIR)
 içer:içer V-IR-TV ; ! "include" (DIR)
 ilet:ilet V-IR-TV ; ! "send" (DIR)
-in:in V-AR-TV ; ! "go down" (DIR)
+in:in V-AR-IV ; ! "go down" (DIR)
 incin:incin V-IR-TV ; ! "hurt" (DIR)
 incit:incit V-IR-TV ; ! "hurt" (DIR)
 ısır:ısır V-IR-TV ; ! "bite" (DIR)
@@ -16315,6 +16315,26 @@ kayna:kayna V-IR-IV ; ! "boil" (T)
 fırlatıl:fırlatıl V-IR-IV ; ! "" (T) ! FIXME: Pass ?
 
 göç:göç V-IR-IV ; ! "" (DIR)
+
+birleştir:birleştir V-IR-TV ; ! ""
+canlandır:canlandır V-IR-TV ; ! ""
+değiştir:değiştir V-IR-TV ; ! ""
+doldur:doldur V-IR-TV ; ! ""
+döndür:döndür V-IR-TV ; ! ""
+eğlendir:eğlendir V-IR-TV ; ! ""
+geçindir:geçindir V-IR-TV ; ! ""
+hatırlat:hatırlat V-IR-TV ; ! ""
+ilerlet:ilerlet V-IR-TV ; ! ""
+indir:indir V-IR-TV ; ! ""
+karıştır:karıştır V-IR-TV ; ! ""
+öldür:öldür V-IR-TV ; ! ""
+planlaştır:planlaştır V-IR-TV ; ! ""
+söndür:söndür V-IR-TV ; ! ""
+yapıştır:yapıştır V-IR-TV ; ! ""
+yetiştir:yetiştir V-IR-TV ; ! ""
+
+yarat:yarat V-IR-TV ; ! ""
+
 
 !! JNW Verbs
 !şaşır:şaşır V-IV-T-IR ; ! "to be surprised"
