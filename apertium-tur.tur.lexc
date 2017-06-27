@@ -1415,20 +1415,12 @@ LEXICON PRON-REF
 ! FIXME DISCUSS Write full forms for the lower side and put only PRON-DEF in the
 ! Root Lexicon
 
-
-!%<prn%>%<ref%>%<p1%>%<sg%>:%>%{I%}m PRON-REF-ADV ;
-!%<prn%>%<ref%>%<p2%>%<sg%>:%>%{I%}n PRON-REF-ADV ;
-!%<prn%>%<ref%>%<p3%>%<sg%>:%>%{s%}%{I%}%{n%} PRON-REF-ADV ;
-!%<prn%>%<ref%>%<p1%>%<pl%>:%>%{I%}m%{I%}z PRON-REF-ADV ;
-!%<prn%>%<ref%>%<p2%>%<pl%>:%>%{I%}n%{I%}z PRON-REF-ADV ;
-!%<prn%>%<ref%>%<p3%>%<pl%>:%>l%{A%}r%>%{I%}%{n%} PRON-REF-ADV ;
-!%<prn%>%<ref%>: # ;
-
-
-%<prn%>%<ref%>: POSS-REAL ;
-%<prn%>%<ref%>%<pl%>:%>%{L%}%{A%}р POSS-REAL ; 
-
-
+%<prn%>%<ref%>%<px1sg%>:%>%{i%}m CASE-ETC ;                
+%<prn%>%<ref%>%<px2sg%>:%>%{i%}n CASE-ETC ;                 
+%<prn%>%<ref%>%<px3sg%>:%>%{s%}%{I%}%{n%} CASE-ETC ; 
+%<prn%>%<ref%>%<px1pl%>:%>%{i%}m%{I%}z CASE-ETC ;           
+%<prn%>%<ref%>%<px2pl%>:%>%{i%}n%{I%}z CASE-ETC ;      
+%<prn%>%<ref%>%<px3pl%>:%>l%{A%}r%{I%}%{n%} CASE-ETC ;  
 
 LEXICON PRON-ADV 
 
