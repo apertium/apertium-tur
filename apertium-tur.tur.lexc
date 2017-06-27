@@ -8600,7 +8600,7 @@ tabaka:tabaka N1 ; ! ""
 tabak:tabak N1 ; ! ""
 taban:taban N1 ; ! ""
 tabiat:tabiat N1 ; ! ""
-tabip:tabip N1 ; ! ""
+tabip:tabip%{v%} N1 ; ! ""
 tahsil:tahsil N1 ; ! ""
 taht:taht N1 ; ! ""
 taklip:taklip N1 ; ! ""
@@ -8735,7 +8735,7 @@ zimmet:zimmet N1 ; ! ""
 zincir:zincir N1 ; ! ""
 ziyafet:ziyafet N1 ; ! ""
 zulüm:zulüm N1 ; ! ""
-savcılık:savcılık N1 ;
+savcılık:savcılık%{v%} N1 ;
 
 
 
