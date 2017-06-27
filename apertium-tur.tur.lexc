@@ -143,6 +143,7 @@ Multichar_Symbols
 %<gpr_past%>  ! past-tense object-relative verbal adjective {D}{I}k{v}
 %<gpr_aor%>   ! 
 %<gpr_pot%>   ! 
+%<gpr_fut%>   ! 
 
 %<percent%>
 
@@ -468,6 +469,7 @@ LEXICON V-GPR
 %<gpr_rsub%>:%>%{y%}%{A%}n V-GPR-COMMON ;
 %<gpr_past%>:%>%{D%}%{I%}k%{v%} V-GPR-DIK-COMMON ;
 %<gpr_pot%>:%>%{y%}%{I%}c%{I%} # ; 
+%<gpr_fut%>:%>%{y%}%{A%}c%{A%}k%{v%} V-GPR-DIK-COMMON ;
 
 LEXICON V-GPR-DIK-COMMON 
 
@@ -5041,7 +5043,6 @@ greyder:greyder N1 ; ! "grader"
 greyfurt:greyfurt N1 ; ! "grapefruit"
 gri:gri N1 ; ! "grey"
 grip:grip N1 ; ! "flue"
-grup:grup N1 ; ! "group"
 guatr:guatr N1 ; ! "goitre"
 gübre:gübre N1 ; ! "manure"
 güç:güç%{v%} N1 ; ! "difficulty, force, power, strength"
@@ -15182,6 +15183,7 @@ bahşet:bahşet V-AR-TV ; ! "forgive" (DIR)
 bak:bak V-AR-TV ; ! "look at" (DIR)
 ban:ban V-AR-TV ; ! "dip into" (DIR)
 bas:bas V-AR-TV ; ! "press" (DIR)
+bastır:bastır V-AR-TV ; ! "" (T)
 başar:başar V-IR-TV ; ! "success" (DIR)
 başvur:başvur V-IR-IV ; ! "apply (for something)" (DIR) JNW
 bat:bat V-AR-TV ; ! "sink, go bankrupt" (DIR)
@@ -15206,6 +15208,7 @@ boğ:boğ V-AR-TV ; ! "choke" (DIR)
 böl:böl V-AR-TV ; ! "divide" (DIR)
 borçlan:borçlan V-IR-TV ; ! "owe" (DIR)
 boşal:boşal V-IR-IV ; ! "be emptied" (DIR)
+boşalt:boşalt V-IR-TV ; ! "be emptied" (DIR)
 denil:denil V-IR-IV ; ! "be said"
 boz:boz V-AR-TV ; ! "break down" (DIR)
 bük:bük V-AR-TV ; ! "bend" (DIR)
@@ -15355,6 +15358,7 @@ alazla:alazla V-IR-TV ; ! "scorch" (T)
 algıla:algıla V-IR-TV ; ! "perceive" (T)
 alıştır:alıştır V-IR-TV ; ! "adjust" (T)
 anla:anla V-IR-TV ; ! "understand" (T)
+anlat:anlat V-IR-TV ; ! "explain" (T)
 ansı:ansı V-IR-TV ; ! "remember" (T)
 anımsa:anımsa V-IR-TV ; ! "remember" (T)
 apar:apar V-IR-TV ; ! "carry away" (T)
