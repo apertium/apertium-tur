@@ -8112,7 +8112,6 @@ yanı% başı:yanı% baş N2 ; ! "very close"
 yurt% dışı:yurt% dış N2 ; ! "abroad"
 olağanüst:olağanüst N2 ; ! "straordinary"
 demiryolu:demiryol N2 ; ! "railway"
-Kırım% Tatarı:Kırım% Tatar N2 ;
 rejim:rejim N1 ; ! "regime"
 zanlı:zanlı N1 ; ! 'culprıt'
 ticaret:ticaret N1 ; !  "commerce"
@@ -8768,6 +8767,7 @@ yön:yön N4 ; ! "on"
 
 ! Nationalities and other names of people
 
+kırım% tatarı:Kırım% Tatar N2 ;
 Kırımtatar:Kırımtatar  N3 ; ! ""
 Türk:Türk N3 ; ! "Turk"
 Hırvat:Hırvat N3 ; ! ""
