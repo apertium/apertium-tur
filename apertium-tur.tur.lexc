@@ -128,8 +128,7 @@ Multichar_Symbols
 %<ger_when%>       !
 %<ger_pabs%>
 %<ger_impf%>
-%<ger5%>           !
-%<ger6%>           !
+%<ger_inf%>           !
 
 %<gna_perf%>
 %<gna_cond%>
@@ -400,7 +399,7 @@ LEXICON V-GERUNDS
 %<ger_abst%>:%>%{y%}%{I%}ş GER-SUBST ;
 %<ger_fut%>:%>%{y%}%{A%}c%{A%}k%{v%} GER-SUBST ;
 %<ger_impf%>:%>%{y%}%{A%}n GER-SUBST ;
-%<ger6%>:%>m%{A%}k%{v%} GER-SUBST ;  
+%<ger_inf%>:%>m%{A%}k%{v%} GER-SUBST ;  
 %<ger_pabs%>:%>m%{I%}ş GER-SUBST ;
 
 LEXICON V-GERUNDS-AOR-AR
