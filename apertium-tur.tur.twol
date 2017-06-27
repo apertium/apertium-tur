@@ -6,6 +6,7 @@ Alphabet
  %{A%}:a 
  %{I%}:ı 
  %{D%}:d 
+ %{C%}:c
  %{L%}:l %{L%}:n ! For the passive 
 
  %{N%}:0 
@@ -278,7 +279,10 @@ Cx:Cy <=>  _ %>: [ :SurVow ]/[ :0 ] ;
 
 
 "Devoicing of archiphoneme {D} after CnsDev"
-%{D%}:t <=> [ %{p%}: | :CnsDev ] [ [ :0 - %{p%}: ] | :%' ]* _ ; 
+Cx:Cy <=> [ %{p%}: | :CnsDev ] [ [ :0 - %{p%}: ] | :%' ]* _ ; 
+      where Cx in ( %{D%} %{C%} ) 
+            Cy in (   t     ç   ) 
+      matched ; 
 
 !%{D%}:t <=> [ %{p%}: | :CnsDev ] (%':)  %>: _ ; 
 !            [ %{p%}: | :CnsDev ]  %{v%}: (%':)  %>: _ ; 

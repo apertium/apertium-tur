@@ -80,6 +80,7 @@ Multichar_Symbols
 %<abl%>        ! Ablative
 %<loc%>        ! Locative
 %<ins%>        ! Instrumental=comitative 
+%<sim%>
 
 
 ! Pronoun types ! Алмашлык төрләре ! Виды местоимений
@@ -163,6 +164,7 @@ Multichar_Symbols
 %{I%}              ! Becomes 'i', 'ı' 'ü", or "u"
 %{D%}		   ! Becomes "d" or "t" - fistikci sahap
 %{L%}              ! 
+%{C%}
 
 
 %{N%}		   ! Becomes "n" after a vowel, otherwise null
@@ -974,6 +976,7 @@ LEXICON GENPOSS-ETC
 
 %<gen%>%<subst%>:%>%{N%}%{I%}ki%{n%} CASE ;
 %<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
+%<sim%>:%>%{C%}%{A%} # ;  ! CLITICS-NO-COP
 
 ! CASE ;  ! FIXME: CHECK
 
