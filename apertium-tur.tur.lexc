@@ -8941,6 +8941,13 @@ Barak:Barak NP-ANT-M ; ! ""
 Bill:Bill NP-ANT-M ; ! ""
 Cafer:Cafer NP-ANT-M ; ! ""
 Camala:Camala NP-ANT-F ; ! ""
+Huriye:Huriye NP-ANT-F ; ! ""
+Regan:Regan NP-ANT-F ; ! ""
+Delaney:Delaney NP-ANT-F ; ! ""
+
+Kurman:Kurman NP-TOP ; !""
+Balta:Balta NP-TOP ; ! ""
+Otuz:Otuz NP-TOP ; ! ""
 
 Alla:Alla NP-ANT-F; ! ""
 Asan:Asan NP-ANT-M; ! ""
