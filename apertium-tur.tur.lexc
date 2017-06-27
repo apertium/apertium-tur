@@ -65,6 +65,7 @@ Multichar_Symbols
 ! Possessives 
 %<px1sg%>      ! First person singular
 %<px2sg%>      ! Second person singular
+%<px3sg%>      ! Third person singular
 %<px3sp%>      ! Third person singular/plural
 %<px3pl%>      ! Third person plural
 %<px1pl%>      ! First person plural
