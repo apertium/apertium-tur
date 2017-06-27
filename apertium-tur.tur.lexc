@@ -1488,8 +1488,8 @@ LEXICON ADV3
 LEXICON ADV4
 
 %<adv%>: # ; ! this is for when the adverb is used as an adverb
-%<adv%>%<subst%>: SUBST ;
-%<adv%>%<attr%>:ki # ;
+!%<adv%>%<subst%>: SUBST ;
+%<adv%>%<attr%>:%>k%{I%} # ;
 
 LEXICON ADV-ITG
 
@@ -14701,7 +14701,7 @@ bizatihi:bizatihi ADV3 ; ! "actually"
 bizzat:bizzat ADV3 ; ! "in person"
 böylece:böylece ADV3 ; ! "so that"
 böylelikle:böylelikle ADV3 ; ! "in this manner"
-bugün:bugün ADV3 ; ! "today" @@@ IS ALSO NOUN, NO ADJECTIVE THOUGH
+bugün:bugün ADV4 ; ! "today" @@@ IS ALSO NOUN, NO ADJECTIVE THOUGH
 büsbütün:büsbütün ADV3 ; ! "altogether"
 çabucacık:çabucacık ADV3 ; ! "in no time"
 çalakalem:çalakalem ADV3 ; ! "fastly and erroneously" 
