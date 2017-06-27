@@ -4792,6 +4792,7 @@ fular:fular N1 ; ! "kerchief"
 fünye:fünye N1 ; ! "fuse"
 futbol:futbol N1 ; ! "football"
 füze:füze N1 ; ! "rocket"
+rock:rock N1 ; !
 gabari:gabari N1 ; ! "gauge"
 gabi:gabi N1 ; ! "dull"
 gabya:gabya N1 ; ! "top"
@@ -5609,7 +5610,6 @@ içki:içki N1 ; ! "beverage"
 icraat:icraat N1 ; ! "performance"
 icra:icra N1 ; ! "fulfilment"
 içtima:içtima N1 ; ! "gathering"
-içtimai:içtimai N1 ; ! "assembly"
 idame:idame N1 ; ! "maintenance"
 idam:idam N1 ; ! "execution"
 idare:idare N1 ; ! "administration"
@@ -6064,6 +6064,7 @@ janr:janr N1 ; ! "genre"
 tanrı:tanrı N1 ; ! ""
 jant:jant N1 ; ! "rim"
 jelatin:jelatin N1 ; ! "jelly"
+latin:latin N1 ;
 jel:jel N1 ; ! "gel"
 jenerasyon:jenerasyon N1 ; ! "generation"
 jeneratör:jeneratör N1 ; ! "generator"
@@ -8889,6 +8890,7 @@ türk:türk N1 ; ! ""
 vazife:vazife N1 ; ! ""
 vaziyet:vaziyet N1 ; ! ""
 vesika:vesika N1 ; ! ""
+tercüme:tercüme N1 ;
 
 
 
@@ -13376,6 +13378,7 @@ yapısal:yapısal A4 ; ! "constitutional"
 adi:adi A1 ;
 rahat:rahat A1 ;
 cinai:cinai A1 ;
+içtimai:içtimai A1;
 kadim:kadim A1 ;
 evvelsi:evvelsi A1 ;
 mahrum:mahrum A1 ;
