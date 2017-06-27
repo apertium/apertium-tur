@@ -15194,7 +15194,7 @@ bilgilen:bilgilen V-IR-TV ; ! "learn" (DIR)
 bin:bin V-AR-TV ; ! "mount, ride" (DIR)
 !bırak:bırak V-TV-DIR-IR ; ! "leave, give up"
 bırak:bırak V-IR-TV ; ! "leave, give up"
-birleş:birleş V-IR-TV ; ! "unite" (DIR)
+birleş:birleş V-IR-IV ; ! "unite" (DIR)
 ! bitkinleş:bitkinleş V-IV-DIR-IR ; ! "to be exhausted"  ! FIXME: CHECK IR/AR
 bitkinleş:bitkinleş V-IR-IV ; ! "to be exhausted"  ! FIXME: CHECK IR/AR
 boğ:boğ V-AR-TV ; ! "choke" (DIR)
