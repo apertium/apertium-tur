@@ -9902,6 +9902,8 @@ Belbek:Belbek NP-TOP ;
 Oleksandrivka:Oleksandrivka NP-TOP ;
 Lüblin:Lüblin NP-TOP ;
 Kavkaz:Kavkaz NP-TOP ;
+Hmelnitski:Hmelnitski NP-TOP ;
+
 Belarus:Belarus NP-TOP ;
 Sambir:Sambir NP-TOP ;
 Peterburg:Peterburg NP-TOP ;
@@ -13376,6 +13378,7 @@ yapısal:yapısal A4 ; ! "constitutional"
 !!!!!!!!!!!!!!!!!!!!!!!!!!!
 
 adi:adi A1 ;
+Kıpçak:Kıpçak A1 ;
 rahat:rahat A1 ;
 cinai:cinai A1 ;
 içtimai:içtimai A1;
