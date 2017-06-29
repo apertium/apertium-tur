@@ -2989,6 +2989,7 @@ seçenek:seçenek%{v%} N1 ;  ! "choice"
 subay:subay N1 ; ! "military officer"
 temdit:temdit N1 ; ! "continuance"
 yargıç:yargıç N1 ; ! "commissioner"
+yaprak:yaprak N1 ;
 yerleşim:yerleşim N1 ; ! "settlement"
 yükün:yükün N1 ; ! "gateway"
 zorluk:zorluk%{v%} N1 ; ! "difficulty"
