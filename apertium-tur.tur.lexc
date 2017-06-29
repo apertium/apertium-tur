@@ -15494,6 +15494,7 @@ kaç:kaç V-AR-TV ; ! "escape" (IR)
 şaş:şaş V-AR-TV ; ! "wonder" (IR)
 !oku:oku V-TV-T-IR ; ! "read"
 oku:oku V-IR-TV ; ! "read"
+okut:okut V-IR-TV ; 
 !söyle:söyle V-TV-T-IR ; ! "say"
 söyle:söyle V-IR-TV ; ! "say"
 !bekle:bekle V-TV-T-IR ; ! "wait"
