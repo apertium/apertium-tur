@@ -8898,6 +8898,7 @@ tercüme:tercüme N1 ;
 koruyucu:koruyucu N1 ;
 imkan:imkan N1 ;
 çalışan:çalışan N1 ;
+savunma:savunma N1 ;
 
 
 
@@ -10261,6 +10262,7 @@ TV:TV NP-AL ; ! ""
 Svoboda:Svoboda NP-AL ; ! ""
 YouTube:YouTube NP-AL ; ! ""
 Linux:Linux NP-AL ; ! ""
+Krıminform:Krıminform NP-AL ;
 
 HIV:HIV NP-AL ; ! "" @?@
 CEFTA:CEFTA NP-AL ; ! ""
