@@ -4562,7 +4562,6 @@ emel:emel N1 ; ! "ambition"
 emel:emel N1 ; ! "dream"
 em:em N1 ; ! "remedy"
 emin:emin N1 ; ! "sure"
-emir:emir N1 ; ! "order"
 emlak:emlak N1 ; ! "property"
 emniyet:emniyet N1 ; ! "safety"
 emperyalizm:emperyalizm N1 ; ! "imperialism"
@@ -8900,6 +8899,10 @@ imkan:imkan N1 ;
 çalışan:çalışan N1 ;
 savunma:savunma N1 ;
 
+tekrar:tekrar N1 ; ! ""
+zindan:zindan N1 ; ! ""
+tüy:tüy N1 ; ! ""
+tahta:tahta N1 ; ! ""
 
 
 üçlü:üçlü N1 ; ! "triad" 
@@ -15886,7 +15889,8 @@ devril:devril V-IR-TV ; ! "overthrown" (T)
 dikizle:dikizle V-IR-TV ; ! "peek" (T)
 dile:dile V-IR-TV ; ! "wish" (T)
 dilimle:dilimle V-IR-TV ; ! "slice up" (T)
-dinle:dinl%{e%} V-IR-TV ; ! "listen" (T)
+!dinle:dinl%{e%} V-IR-TV ; ! "listen" (T)
+dinle:dinle V-IR-TV ; ! "listen" (T)
 dişle:dişle V-IR-TV ; ! "nibble" (T)
 dizginle:dizginle V-IR-TV ; ! "bridle" (T)
 doğra:doğra V-IR-TV ; ! "chop up" (T)
