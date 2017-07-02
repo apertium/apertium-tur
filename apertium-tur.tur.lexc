@@ -16452,6 +16452,13 @@ bağlı% ol:bağlı% ol V-IR-IV ; ! "" ! Dir/RL ! Use/MT
 
 kötüleş:kötüleş V-AR-IV ; ! ""
 
+gezle:gezle V-IR-IV ; ! ""
+yuvarlan:yuvarlan V-IR-IV ; ! ""
+sallan:sallan V-IR-IV ; ! ""
+havalan:havalan V-IR-IV ; ! ""
+dökül:dökül V-IR-IV ; ! ""
+boşalt:boşalt V-IR-TV ; ! ""
+
 
 LEXICON Interjections 
 
