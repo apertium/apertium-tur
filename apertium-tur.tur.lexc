@@ -8903,6 +8903,7 @@ tekrar:tekrar N1 ; ! ""
 zindan:zindan N1 ; ! ""
 tüy:tüy N1 ; ! ""
 tahta:tahta N1 ; ! ""
+yanak:yanak%{v%} N1 ; ! ""
 
 
 üçlü:üçlü N1 ; ! "triad" 
