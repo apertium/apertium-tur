@@ -15358,7 +15358,7 @@ biç:biç V-AR-TV ; ! "decorate" (DIR)
 bil:bil V-IR-TV ; ! "know"
 bildir:bildir V-IR-TV ; ! "state, notify" (DIR)
 bilgilen:bilgilen V-IR-TV ; ! "learn" (DIR)
-bin:bin V-AR-TV ; ! "mount, ride" (DIR)
+bin:bin V-AR-IV ; ! "mount, ride" (DIR) ! With Dative
 !bırak:bırak V-TV-DIR-IR ; ! "leave, give up"
 bırak:bırak V-IR-TV ; ! "leave, give up"
 birleş:birleş V-IR-IV ; ! "unite" (DIR)
