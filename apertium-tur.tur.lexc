@@ -2609,7 +2609,7 @@ mı%<qst%>:mü # ; ! Dir/LR
 mı%<qst%>:%~mı # ; ! Dir/RL
 %~:%~ # ; ! Dir/RL
 
-i%<cop%>%<ifi%>%<p3%>%<sg%>:idi # ;  ! For when it goes separately
+i%<cop%>%<ifi%>:%>i%>%{D%}%{I%} PERS3 ; ! For when it goes separately
 i%<cop%>%<gna_ken%>:iken # ;  ! For when it goes separately
 
 LEXICON Postadverbs
