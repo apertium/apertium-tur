@@ -1074,7 +1074,7 @@ LEXICON N3 ! Nationalities which can form language, etc.
 
 %<n%>: SUBST ; 
 %<adj%>: ADJ-CLIT ;
-%<adj%>%<subst%>: ADJ-CLIT ;
+%<adj%>%<subst%>: SUBST ;
 
 LEXICON N4 ! Nouns with usage as postpositions. 
            ! We separate these in case they have some different morphotactics.
@@ -8774,70 +8774,73 @@ yön:yön N4 ; ! "on"
 !ard:ard N4 ; ! ""
 !hal:hal N4 ; ! ""
 
+ova:ova N1 ; ! "plain"
+
 ! Nationalities and other names of people
 
 kırım% tatarı:Kırım% Tatar N2 ;
 kırım% tatarcası:Kırım% Tatarca N2 ;
-Kırımtatar:Kırımtatar  N3 ; ! ""
-Türk:Türk N3 ; ! "Turk"
-Hırvat:Hırvat N3 ; ! ""
-Arnavut:Arnavut N3 ; ! ""
-Bulgar:Bulgar N3 ; ! ""
-Makedon:Makedon N3 ; ! ""
-Romen:Romen N3 ; ! ""
-Kürt:Kürt N3 ; ! ""
-İngiliz:İngiliz N3 ; ! ""
-Rus:Rus N3 ; ! ""
-İtalyan:İtalyan N3 ; ! ""
-Sırp:Sırp N3 ; ! ""
-Rum:Rum N3 ; ! "Greek"
-Fransız:Fransız N3 ; ! ""
-Sloven:Sloven N3 ; ! ""
-Ermeni:Ermeni N3 ; ! ""
+kırımtatar:Kırımtatar  N3 ; ! ""
+
+türk:Türk N3 ; ! "Turk"
+hırvat:Hırvat N3 ; ! ""
+arnavut:Arnavut N3 ; ! ""
+bulgar:Bulgar N3 ; ! ""
+makedon:Makedon N3 ; ! ""
+romen:Romen N3 ; ! ""
+kürt:Kürt N3 ; ! ""
+ingiliz:İngiliz N3 ; ! ""
+rus:Rus N3 ; ! ""
+italyan:İtalyan N3 ; ! ""
+sırp:Sırp N3 ; ! ""
+rum:Rum N3 ; ! "Greek"
+fransız:Fransız N3 ; ! ""
+sloven:Sloven N3 ; ! ""
+ermeni:Ermeni N3 ; ! ""
 ispanyol:İspanyol N3 ; ! ""
 ispanyolca:İspanyolca N3 ; ! ""
-Arap:Arap N3 ; ! ""
-İsveçli:İsveçli N3 ; ! "Swiss"
-Özbek:Özbek N3 ; ! "Uzbek"
-Japon:Japon N3 ; ! "Japanese"
-Türkmen:Türkmen N3 ; ! "Turkmen"
-Mongol:Mongol N3 ; ! "Mongol"
-Alman:Alman N3 ; ! "German"
-Kırgız:Kırgız N3 ; ! "Kirghiz"
-Gürcistanlı:Gürcistanlı N3 ; ! "Georgian"
-Romanyalı:Romanyalı N3 ; ! "Romanian"
-Roman:Roman N3 ; ! "roman"
-Yugoslav:Yugoslav N1 ; ! ""
-Boşnak:Boşnak N1 ; ! ""
-Amerikan:Amerikan N1 ; ! ""
-Yunanlı:Yunanlı N1 ; ! ""
-Tatar:Tatar N1 ; ! ""
-Osmanlı:Osmanlı N1 ; ! ""
-Yahudi:Yahudi N1 ; ! ""
-Ukraynalı:Ukraynalı N1 ; ! ""
-Afgan:Afgan N1 ; ! ""
-Filistinli:Filistinli N1 ; ! ""
-Avrupalı:Avrupalı N1 ; ! ""
-Bosnalı:Bosnalı N1 ; ! ""
-Kosovalı:Kosovalı N1 ; ! ""
-Iraklı:Iraklı N1 ; ! ""
-Avusturyalı:Avusturyalı N1 ; ! ""
-Afrikalı:Afrikalı N1 ; ! "African"
-Slav:Slav N1 ; ! "slavic"
-Habeş:Habeş N1 ; ! "ethiopian"
-Lybialı:Lybialı N1 ; ! "lybian"
-Amerikalı:Amerikalı N1 ; ! "American"
-Karadağlı:Karadağlı N1 ; ! "montenegrino"
-Macar:Macar N1 ; ! ""hungarian"
-İslamcı:İslamcı N1 ; ! "islamist"
-Kıbrıslı:Kıbrıslı N1 ; ! "cypriot"
-Belgradlı:Belgradlı N1 ; ! "belgradian ?"
-Hıristiyan:Hıristiyan N1 ; ! "Christian"
-Katolik:Katolik%{v%} N1 ; ! " catholic"
-Çinli:Çinli N1 ; ! "chinese"
-Hollandalı:Hollandalı N1 ; ! "dutch"
+arap:Arap N3 ; ! ""
+isveçli:İsveçli N3 ; ! "Swiss"
+özbek:Özbek N3 ; ! "Uzbek"
+japon:Japon N3 ; ! "Japanese"
+türkmen:Türkmen N3 ; ! "Turkmen"
+mongol:Mongol N3 ; ! "Mongol"
+alman:Alman N3 ; ! "German"
+kırgız:Kırgız N3 ; ! "Kirghiz"
+gürcistanlı:Gürcistanlı N3 ; ! "Georgian"
+romanyalı:Romanyalı N3 ; ! "Romanian"
+nogay:Nogay N3 ; ! ""
+roman:Roman N3 ; ! "roman"
+yugoslav:Yugoslav N1 ; ! ""
+boşnak:Boşnak N1 ; ! ""
+amerikan:Amerikan N1 ; ! ""
+yunanlı:Yunanlı N1 ; ! ""
+tatar:Tatar N1 ; ! ""
+osmanlı:Osmanlı N1 ; ! ""
+yahudi:Yahudi N1 ; ! ""
+ukraynalı:Ukraynalı N1 ; ! ""
+afgan:Afgan N1 ; ! ""
+filistinli:Filistinli N1 ; ! ""
+avrupalı:Avrupalı N1 ; ! ""
+bosnalı:Bosnalı N1 ; ! ""
+kosovalı:Kosovalı N1 ; ! ""
+iraklı:Iraklı N1 ; ! ""
+avusturyalı:Avusturyalı N1 ; ! ""
+afrikalı:Afrikalı N1 ; ! "African"
+slav:Slav N1 ; ! "slavic"
+habeş:Habeş N1 ; ! "ethiopian"
+lybialı:Lybialı N1 ; ! "lybian"
+amerikalı:Amerikalı N1 ; ! "American"
+karadağlı:Karadağlı N1 ; ! "montenegrino"
+macar:Macar N1 ; ! ""hungarian"
+islamcı:İslamcı N1 ; ! "islamist"
+kıbrıslı:Kıbrıslı N1 ; ! "cypriot"
+belgradlı:Belgradlı N1 ; ! "belgradian ?"
+hıristiyan:Hıristiyan N1 ; ! "Christian"
+katolik:Katolik%{v%} N1 ; ! " catholic"
+çinli:Çinli N1 ; ! "chinese"
+hollandalı:Hollandalı N1 ; ! "dutch"
 
-ova:ova N1 ; ! "plain"
 
 
 
@@ -8868,7 +8871,6 @@ aydın:aydın N1 ; ! ""
 münevver:münevver N1 ; ! ""
 sömürge:sömürge N1 ; ! ""
 muslüman:muslüman N1 ; ! ""
-nogay:nogay N3 ; ! ""
 pantürkizm:pantürkizm N1 ; ! ""
 takdim:takdim N1 ; ! ""
 şiar:şiar N1 ; ! ""
@@ -15420,6 +15422,7 @@ akset:akset V-AR-TV ; ! "be heard" (DIR)
 aktar:aktar V-IR-TV ; ! "transfer" (DIR)
 ! al:al V-TV-DIR-IR ; ! "take, buy"
 alçal:alçal V-IR-TV ; ! "lower" (DIR)
+alçalt:alçalt V-IR-TV ; ! "lower" (DIR)
 alevlen:alevlen V-IR-TV ; ! "catch on fire" (DIR)
 alıkoy:alıkoy V-AR-TV ; ! "detain, stop" (DIR)
 alış:alış V-IR-TV ; ! "familiarise with" (DIR)
@@ -15922,6 +15925,7 @@ zımbala:zımbala V-IR-TV ; ! "staple" (T)
 zincirle:zincirle V-IR-TV ; ! "enchain" (T)
 zorla:zorla V-IR-TV ; ! "compel" (T)
 ada:ada V-IR-TV ; ! "it also means devote" (T)
+ağrı:ağrı V-IR-IV ; ! "ache" (T)
 ağrı:ağrı V-IR-TV ; ! "ache" (T)
 aksa:aksa V-IR-TV ; ! "limp" (T)
 algıla:algıla V-IR-TV ; ! "comprehend" (T)
@@ -16523,6 +16527,8 @@ planlaştır:planlaştır V-IR-TV ; ! ""
 söndür:söndür V-IR-TV ; ! ""
 yapıştır:yapıştır V-IR-TV ; ! ""
 yetiştir:yetiştir V-IR-TV ; ! ""
+
+değerlendir:değerlendir V-IR-TV ; ! ""
 
 yarat:yarat V-IR-TV ; ! ""
 yaran:yaran V-IR-IV ; ! ""
