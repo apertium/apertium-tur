@@ -1081,7 +1081,7 @@ LEXICON N4 ! Nouns with usage as postpositions.
            ! We separate these in case they have some different morphotactics.
            ! e.g. arka: arkasına, iç: içinde
 
-%<n%>: SUBST ; 
+%<n%>: FULL-NOMINAL-INFLECTION ; 
 
 LEXICON N5
 
@@ -15498,7 +15498,7 @@ danış:danış V-IR-TV ; ! "consult" (DIR)
 defnet:defnet V-AR-TV ; ! "bury" (DIR)
 değ:değ V-AR-TV ; ! "touch" (DIR)
 değin:değin V-IR-TV ; ! "mention" (DIR)
-değiş:değiş V-IR-TV ; ! "change" (DIR)
+değiş:değiş V-IR-IV ; ! "change" (DIR)
 del:del V-AR-TV ; ! "drill" (DIR)
 der:der V-AR-TV ; ! "collect" (DIR)
 devam% et:devam% et%{v%} V-AR-TV ; ! "go on" (DIR)
@@ -15914,6 +15914,7 @@ yılla:yılla V-IR-TV ; ! "wait a long time" (T)
 yinele:yinele V-IR-TV ; ! "renew" (T)
 yokla:yokla V-IR-TV ; ! "fumble for" (T)
 yolla:yolla V-IR-TV ; ! "send" (T)
+yollan:yollan V-IR-IV ; ! "send" (T)
 yorumla:yorumla V-IR-TV ; ! "comment" (T)
 yükle:yükle V-IR-TV ; ! "load" (T)
 yumrukla:yumrukla V-IR-TV ; ! "pound, punch, pommel" (T)
