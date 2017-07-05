@@ -2611,6 +2611,8 @@ mı%<qst%>:%~mı # ; ! Dir/RL
 
 i%<cop%>%<ifi%>:%>i%>%{D%}%{I%} PERS3 ; ! For when it goes separately
 i%<cop%>%<gna_ken%>:iken # ;  ! For when it goes separately
+i%<vaux%>%<ifi%>:%>i%>%{D%}%{I%} PERS3 ; ! For when it goes separately
+i%<vaux%>%<gna_ken%>:iken # ;  ! For when it goes separately
 
 LEXICON Postadverbs
 
@@ -9001,6 +9003,33 @@ Huriye:Huriye NP-ANT-F ; ! ""
 Regan:Regan NP-ANT-F ; ! ""
 Delaney:Delaney NP-ANT-F ; ! ""
 
+İrina:İrina NP-ANT-F ; ! ""
+Yelena:Yelena NP-ANT-F ; ! ""
+Svetlana:Svetlana NP-ANT-F ; ! ""
+Valentina:Valentina NP-ANT-F ; ! ""
+Fatima:Fatima NP-ANT-F ; ! ""
+Svetlana:Svetlana NP-ANT-F ; ! ""
+Nina:Nina NP-ANT-F ; ! ""
+
+Bar:Bar NP-TOP ; ! ""
+Başkortostan:Başkortostan NP-TOP ; ! ""
+Boeing:Boeing NP-TOP ; ! ""
+Çeçenistan:Çeçenistan NP-TOP ; ! ""
+Donbas:Donbas NP-TOP ; ! ""
+Kırım:Kırım NP-TOP ; ! ""
+Nasır:Nasır NP-TOP ; ! ""
+Novorossiysk:Novorossiysk NP-TOP ; ! ""
+Rusya:Rusya NP-TOP ; ! ""
+Toplu:Toplu NP-TOP ; ! ""
+Turkmenistan:Turkmenistan NP-TOP ; ! ""
+Ukrayna:Ukrayna NP-TOP ; ! ""
+
+Boeing:Boeing NP-AL ; ! ""
+Gazprom:Gazprom NP-AL ; ! ""
+Naftogaz:Naftogaz NP-AL ; ! ""
+Twitter:Twitter NP-AL ; ! ""
+
+
 Kurman:Kurman NP-TOP ; !""
 Balta:Balta NP-TOP ; ! ""
 Otuz:Otuz NP-TOP ; ! ""
@@ -9096,6 +9125,32 @@ Bekir:Bekir NP-ANT-M ; ! ""
 Viktor:Viktor NP-ANT-M ; ! ""
 Oleg:Oleg NP-ANT-M ; ! ""
 Lenin:Lenin NP-COG-MF ; ! ""
+
+Bondarenko:Bondarenko NP-COG-MF ; ! ""
+Cemilev:Cemilev NP-COG-MF ; ! ""
+Fomenko:Fomenko NP-COG-MF ; ! ""
+Kerry:Kerry NP-COG-MF ; ! ""
+Kezlev:Kezlev NP-COG-MF ; ! ""
+Kirilenko:Kirilenko NP-COG-MF ; ! ""
+Lavrov:Lavrov NP-COG-MF ; ! ""
+Litvinenko:Litvinenko NP-COG-MF ; ! ""
+Lukaşenko:Lukaşenko NP-COG-MF ; ! ""
+Ponomarenko:Ponomarenko NP-COG-MF ; ! ""
+Putin:Putin NP-COG-MF ; ! ""
+Vladislav:Vladislav NP-ANT-M ; ! ""
+Yevtuşenko:Yevtuşenko NP-COG-MF ; ! ""
+
+Aslan:Aslan NP-ANT-M ; ! ""
+Charlie:Charlie NP-ANT-M ; ! ""
+Dan:Dan NP-ANT-M ; ! ""
+Hacı:Hacı NP-ANT-M ; ! ""
+İgor:İgor NP-ANT-M ; ! ""
+İlya:İlya NP-ANT-M ; ! ""
+İvan:İvan NP-ANT-M ; ! ""
+Mustafa:Mustafa NP-ANT-M ; ! ""
+Sahip:Sahip NP-ANT-M ; ! ""
+Vadim:Vadim NP-ANT-M ; ! ""
+Vladislav:Vladislav NP-ANT-M ; ! ""
 
 
 Fitzgerald:Fitzgerald NP-COG-MF ; ! ""
@@ -16201,7 +16256,7 @@ bileş:bileş V-IR-IV ; ! "consist" (DIR)
 bilin:bilin V-IR-IV ; ! "be known" (DIR)
 bilinçlen:bilinçlen V-IR-IV ; ! "become conscious" (DIR)
 birik:birik V-IR-IV ; ! "consist" (DIR)
-bit:bit V-AR-IV ; ! "finish" (IR)
+bit:bit V-AR-TV ; ! "finish" (IR)
 böbürlen:böbürlen V-IR-IV ; ! "brag" (DIR)
 bozul:bozul V-IR-IV ; ! "be destroyed" (DIR)
 bulaş:bulaş V-IR-IV ; ! "be mixed up" (DIR)
