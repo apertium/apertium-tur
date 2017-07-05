@@ -1075,6 +1075,7 @@ LEXICON N3 ! Nationalities which can form language, etc.
 %<n%>: SUBST ; 
 %<adj%>: ADJ-CLIT ;
 %<adj%>%<subst%>: SUBST ;
+%<n%>%+laş:%>l%{A%}ş V-IR-IV ;
 
 LEXICON N4 ! Nouns with usage as postpositions. 
            ! We separate these in case they have some different morphotactics.
