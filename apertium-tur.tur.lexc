@@ -1485,15 +1485,18 @@ LEXICON ADV1
 LEXICON ADV2
 
 %<adv%>: # ;
+%<adv%>: V-COP ;
 %<adv%>%<attr%>: # ;
 
 LEXICON ADV3
 
 %<adv%>: # ;
+%<adv%>: V-COP ;
 
 LEXICON ADV4
 
 %<adv%>: # ; ! this is for when the adverb is used as an adverb
+%<adv%>: V-COP ;
 !%<adv%>%<subst%>: SUBST ;
 %<adv%>%<attr%>:%>k%{I%} # ;
 
@@ -15493,6 +15496,7 @@ cezbet:cezbet V-AR-TV ; ! "attract" (DIR)
 çiz:çiz V-AR-TV ; ! "draw" (DIR)
 çök:çök V-AR-IV ; ! "collapse, fall down; sink" (DIR)
 çöz:çöz V-AR-TV ; ! "solve" (DIR)
+çözül:çözül V-IR-IV ; ! "solve" (DIR)
 dağıt:dağıt V-IR-TV ; ! "distribute" (DIR)
 dal:dal V-AR-TV ; ! "dive" (DIR)
 damıt:damıt V-IR-TV ; ! "distill" (DIR)
@@ -15785,6 +15789,7 @@ paketle:paketle V-IR-TV ; ! "pack" (T)
 parala:parala V-IR-TV ; ! "rip up" (T)
 parçala:parçala V-IR-TV ; ! "pull something to pieces" (T)
 payla:payla V-IR-TV ; ! "rag" (T)
+paylaş:paylaş V-IR-IV ; ! "rag" (T)
 pazarla:pazarla V-IR-TV ; ! "to market" (T)
 perçinle:perçinle V-IR-TV ; ! "clench" (T)
 planla:planla V-IR-TV ; ! "plan" (T)
@@ -16531,8 +16536,40 @@ planlaştır:planlaştır V-IR-TV ; ! ""
 söndür:söndür V-IR-TV ; ! ""
 yapıştır:yapıştır V-IR-TV ; ! ""
 yetiştir:yetiştir V-IR-TV ; ! ""
+çemre:çemre V-IR-TV ; ! ""
 
 değerlendir:değerlendir V-IR-TV ; ! ""
+alevlendir:alevlendir V-IR-TV ; ! ""
+barıştır:barıştır V-IR-TV ; ! ""
+bükül:bükül V-IR-IV ; ! ""
+bulandır:bulandır V-IR-TV ; ! ""
+bulaştır:bulaştır V-IR-TV ; ! ""
+bürün:bürün V-IR-IV ; ! ""
+büyüt:büyüt V-IR-TV ; ! ""
+çekiştir:çekiştir V-IR-TV ; ! ""
+çiftleştir:çiftleştir V-IR-TV ; ! ""
+daldır:daldır V-IR-TV ; ! ""
+darıl:darıl V-IR-IV ; ! ""
+eklen:eklen V-IR-IV ; ! ""
+evlendir:evlendir V-IR-TV ; ! ""
+kesil:kesil V-IR-IV ; ! ""
+mükemmelleştir:mükemmelleştir V-IR-TV ; ! ""
+saplan:saplan V-IR-IV ; ! ""
+seril:seril V-IR-IV ; ! ""
+sevindir:sevindir V-IR-TV ; ! ""
+süzül:süzül V-IR-IV ; ! ""
+taran:taran V-IR-IV ; ! ""
+topla:topla V-IR-TV ; ! ""
+tut:tut V-IR-TV ; ! ""
+yanaş:yanaş V-IR-IV ; ! ""
+yaralan:yaralan V-IR-IV ; ! ""
+yarıl:yarıl V-IR-IV ; ! ""
+yaslan:yaslan V-IR-IV ; ! ""
+yatıştır:yatıştır V-IR-TV ; ! ""
+yırtıl:yırtıl V-IR-IV ; ! ""
+yönel:yönel V-IR-IV ; ! ""
+yüklen:yüklen V-IR-IV ; ! ""
+
 
 yarat:yarat V-IR-TV ; ! ""
 yaran:yaran V-IR-IV ; ! ""
