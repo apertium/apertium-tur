@@ -57,6 +57,7 @@ Multichar_Symbols
 %<abstr%>      ! Abstract suffix -LIK
 
 %<nec%>        ! Necessitive
+%<evid%>       ! 
 
 ! Number ! Сан ! Число
 %<sg%>         ! Singular  
@@ -660,7 +661,6 @@ LEXICON V-COP-PERS
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
 %<p3%>%<pl%>:%>l%{A%}r  # ;
 
-
 LEXICON V-COP-IFI-PERS 
 
 %<p1%>%<sg%>:%>m # ;
@@ -876,7 +876,7 @@ LEXICON COPULA-COND
 
 LEXICON CLIT
 
-! %+mı%<qst%>:% m%{I%} PERS3 ; 
+! %+mı%<qst%>:% m%{I%} V-COP-IFI-PERS ; 
 %+mı%<qst%>:% m%{I%} # ;               ! generic Q marker, no copula
 # ;  !! This is the end of word marker.
 ! COPULA-MIMIS ;
@@ -894,12 +894,12 @@ LEXICON CLIT-W-COPULA
 !→!LEXICON V-PERS-COP
 !→!
 !→!%+i%<cop%>%<aor%>: V-PERS-COP-G2-NOSG3-FINAL ;
-!→!%+i%<cop%>%<ifi%>:%>%{y%}%{D%}%{I%} PERS3 ;
+!→!%+i%<cop%>%<ifi%>:%>%{y%}%{D%}%{I%} V-COP-IFI-PERS ;
 
 LEXICON V-NOPERS-COP
 
 %+i%<cop%>%<aor%>: V-PERS-COP-G2-NOSG3-FINAL ;
-%+i%<cop%>%<ifi%>:%>%{D%}%{I%} PERS3 ;
+%+i%<cop%>%<ifi%>:%>%{D%}%{I%} V-COP-IFI-PERS ;
 
 LEXICON CLIT-GENERAL    ! Includes personal copula suffixes, therefore appears only
                         ! after nominal parts of speech (and only after some cases).
@@ -1595,16 +1595,16 @@ LEXICON V-PERS-COP-G2-NOSG3-FINAL
 !!%<p1%>%<pl%>:%>k  # ;
 !!%<p2%>%<pl%>:%>%{i%}n%{I%}z  # ;
 !!
-LEXICON PERS3  !!!USED FOR NECESSITATIVE
-
-%<p1%>%<sg%>:%>%{y%}%{I%}m  CLIT ;
-%<p2%>%<sg%>:%>s%{I%}n  CLIT ;
-%<p3%>%<sg%>:%>  CLIT ;
-%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r  CLIT ;
-%<p1%>%<pl%>:%>%{y%}%{I%}z  CLIT ;
-%<p2%>%<pl%>:%>s%{I%}n%{I%}z  CLIT ;
-%<p3%>%<pl%>:%>l%{A%}r  CLIT ;
-
+!!LEXICON V-COP-IFI-PERS  !!!USED FOR NECESSITATIVE
+!!
+!!%<p1%>%<sg%>:%>%{y%}%{I%}m  CLIT ;
+!!%<p2%>%<sg%>:%>s%{I%}n  CLIT ;
+!!%<p3%>%<sg%>:%>  CLIT ;
+!!%<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r  CLIT ;
+!!%<p1%>%<pl%>:%>%{y%}%{I%}z  CLIT ;
+!!%<p2%>%<pl%>:%>s%{I%}n%{I%}z  CLIT ;
+!!%<p3%>%<pl%>:%>l%{A%}r  CLIT ;
+!!
 !!LEXICON PERS3-PAST
 !!%<p1%>%<sg%>:%>%{y%}d%{I%}m # ;                
 !!%<p2%>%<sg%>:%>%{y%}d%{I%}n # ;                
@@ -1915,7 +1915,7 @@ LEXICON PERS3  !!!USED FOR NECESSITATIVE
 !!NON-FINITE ;
 !!
 !!LEXICON IMPERFECTIVE
-!!%<imper%>:%>m%{A%}kt%{A%} PERS3 ;
+!!%<imper%>:%>m%{A%}kt%{A%} V-COP-IFI-PERS ;
 !!%<imperp%>:%>m%{A%}kt%{A%} PERS3-PAST ;
 !!
 !!
@@ -2078,7 +2078,7 @@ LEXICON PERS3  !!!USED FOR NECESSITATIVE
 !!
 !!LEXICON NECE
 !!
-!!%<nece%>:%>m%{A%}l%{I%} PERS3 ;             ! prc, + copula
+!!%<nece%>:%>m%{A%}l%{I%} V-COP-IFI-PERS ;             ! prc, + copula
 !!%<necepast%>:%>m%{A%}l%{I%} PERS3-PAST ;
 !!
 !!LEXICON JUSSIVE
@@ -2615,9 +2615,11 @@ mı%<qst%>:mü # ; ! Dir/LR
 mı%<qst%>:%~mı # ; ! Dir/RL
 %~:%~ # ; ! Dir/RL
 
-i%<cop%>%<ifi%>:%>i%>%{D%}%{I%} PERS3 ; ! For when it goes separately
+i%<cop%>%<ifi%>:%>i%>%{D%}%{I%} V-COP-IFI-PERS ; ! For when it goes separately
+i%<cop%>%<dub%>%<aor%>:%>i%>m%{I%}ş V-COP-PERS ; ! For when it goes separately
 i%<cop%>%<gna_ken%>:iken # ;  ! For when it goes separately
-i%<vaux%>%<ifi%>:%>i%>%{D%}%{I%} PERS3 ; ! For when it goes separately
+i%<vaux%>%<ifi%>:%>i%>%{D%}%{I%} V-COP-IFI-PERS ; ! For when it goes separately
+i%<vaux%>%<dub%>%<aor%>:%>i%>m%{I%}ş V-COP-PERS ; ! For when it goes separately
 i%<vaux%>%<gna_ken%>:iken # ;  ! For when it goes separately
 
 LEXICON Postadverbs
@@ -15289,7 +15291,7 @@ al:al V-IR-TV ; ! "take, buy"
 derinleştir:derinleştir V-IR-TV ; ! "deepen" (T)
 ! yap:yap V-TV-DIR-AR ; ! "make, do"
 yap:yap V-AR-TV ; ! "make, do"
-gel:gel V-IR-IV ; ! "come" (DIR)
+gel:gel V-AR-IV ; ! "come" (DIR)
 bağışlan:bağışlan V-IR-IV ; ! "be forgiven"
 gel:gel V-IR-IV ; ! "come" (DIR)
 yayınlan:yayınlan V-IR-IV ; ! "issue" (DIR)
