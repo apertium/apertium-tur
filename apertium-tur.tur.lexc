@@ -14,6 +14,7 @@ Multichar_Symbols
 %<num%>        ! Numeral                    
 %<prn%>        ! Pronoun                    
 %<det%>        ! Determiner                 
+%<sym%>
 %<v%>          ! Verb                       
 %<vaux%>       ! Auxilary verb              
 %<adv%>        ! Adverb                     
@@ -151,6 +152,7 @@ Multichar_Symbols
 %<gpr_fut%>   ! 
 
 %<percent%>
+%<hash%>
 
 %<sent%>      ! Sentence marker
 %<guio%>      ! Hyphen
@@ -219,6 +221,7 @@ Pronouns ;
 Determiners ; 
 Numerals ; ! Use/Circ
 Nouns ; 
+Symbols ;
 ProperNouns ;
 Adjectives ; 
 Adverbs ; 
@@ -719,6 +722,7 @@ LEXICON V-COP
 %+i%<cop%>:%>%{y%} V-COP-IFI ;
 %+i%<cop%>%<aor%>: V-COP-PERS ;
 %+i%<cop%>%<aor%>: COPULA-P3-PERS ;
+# ;
 
 LEXICON V-COP-IFI
 %<ifi%>:%{D%}%{I%} V-COP-IFI-PERS ;
@@ -1466,7 +1470,7 @@ LEXICON POSTADV
 LEXICON NUM
 
 %<num%>: # ;                                        ! Beş evi görüyorum.
-%<num%>%<ord%>:%>%{i%}nc%{I%} # ;                   ! Beşinci evi görüyorum.
+%<num%>%<ord%>:%>%{i%}nc%{I%} V-COP ;               ! Beşinci evi görüyorum.
 %<num%>%<ord%>%<subst%>:%>%{i%}nc%{I%} SUBST ;      ! Beşinciyi görüyorum.
 %<num%>%<subst%>: SUBST ;                           ! Beşi görüyorum.
 
@@ -2599,6 +2603,15 @@ LEXICON TIT
 LEXICON NUM-ROMAN
 
 %<num%>%<ord%>: # ;
+
+LEXICON SYM-HASH
+
+%<sym%>%<hash%>: # ;
+
+LEXICON SYM-HASH-TAG
+
+<[ a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z ]+>  SYM-HASH ;
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Stem lexica
@@ -8900,7 +8913,6 @@ spiker:spiker N1 ; ! ""
 sultan:sultan N1 ; ! ""
 suret:suret N1 ; ! ""
 tarihçi:tarihçi N1 ; ! ""
-türk:türk N1 ; ! ""
 uğultu:uğultu N1 ;
 vazife:vazife N1 ; ! ""
 vaziyet:vaziyet N1 ; ! ""
@@ -15549,6 +15561,7 @@ ger:ger V-AR-TV ; ! "stretch" (DIR)
 getir:getir V-IR-TV ; ! "bring" (DIR)
 gider:gider V-IR-TV ; ! "supply" (DIR)
 giy:giy V-AR-TV ; ! "wear" (DIR)
+giyin:giyin V-IR-IV ; ! "wear" (DIR)
 göm:göm V-AR-TV ; ! "bury" (DIR)
 gönder:gönder V-IR-TV ; ! "send" (DIR)
 ! gör:gör V-TV-DIR-IR ; ! "see"
@@ -16576,6 +16589,8 @@ yüklen:yüklen V-IR-IV ; ! ""
 yarat:yarat V-IR-TV ; ! ""
 yaran:yaran V-IR-IV ; ! ""
 
+göçür:göçür V-IR-TV ; ! ""
+
 
 !! JNW Verbs
 !şaşır:şaşır V-IV-T-IR ; ! "to be surprised"
@@ -16605,6 +16620,16 @@ dökül:dökül V-IR-IV ; ! ""
 boşalt:boşalt V-IR-TV ; ! ""
 yazdır:yazdır V-IR-TV ; ! ""
 
+çalkandır:çalkandır V-IR-TV ; ! ""
+düzleştir:düzleştir V-IR-TV ; ! ""
+ismarla:ismarla V-IR-TV ; ! ""
+kanıklan:kanıklan V-IR-IV ; ! ""
+teşkilatlandır:teşkilatlandır V-IR-TV ; ! ""
+tezle:tezle V-IR-TV ; ! ""
+üleştir:üleştir V-IR-TV ; ! ""
+umumlaştır:umumlaştır V-IR-TV ; ! ""
+
+
 
 LEXICON Interjections 
 
@@ -16617,6 +16642,10 @@ tabii% ki:tabii% ki INTERJ ;  ! "of course"
 tabii% ki:tabi% ki INTERJ ;  ! "of course" ! Dir/LR
 tabii% ki:tabî% ki INTERJ ;  ! "of course" ! Dir/LR
 
+LEXICON Symbols 
+
+
+:%# SYM-HASH-TAG ; 
 
 LEXICON Punctuation
 
