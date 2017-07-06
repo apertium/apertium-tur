@@ -2970,6 +2970,8 @@ hakk:hakk N1 ; ! "regarding"
 zapt:zapt N1 ;
 halinde:halinde POST ; ! "ın case of" ! FIXME
 
+yukar:yukar N1 ; ! ""
+
 !!!NEW!!!
 
 
@@ -14884,6 +14886,9 @@ bu% yüzden:bu% yüzden ADV3 ; ! ""
 
 şimdi:şimdi ADV3 ; ! "now"
 tek:tek ADV3 ;!  ""
+yukarı:yukarı ADV3 ; 
+yukarıda:yukarıda ADV3 ; 
+yukarıdan:yukarıdan ADV3 ; 
 halihazırda:halihazırda ADV3 ; ! "at the present state of affairs"
 bazen:bazen ADV3 ; ! "sometimes"
 defalarca:defalarca ADV3 ; ! "over and over"
@@ -15202,7 +15207,6 @@ yarın:yarın ADV3 ; ! "tomorrow"
 yavaş:yavaş ADV3 ; ! "slowly"
 yeniden:yeniden ADV3 ; ! "again"
 yine:yine ADV3 ; ! "again"
-yukarı:yukarı ADV3 ; ! "up"
 zaten:zaten ADV3 ; ! "already"
 tekrar:tekrar ADV3 ; ! "again"
 
@@ -15530,7 +15534,7 @@ diz:diz V-AR-TV ; ! "align" (DIR)
 dök:dök V-AR-TV ; ! "pour" (DIR)
 açıklan:açıklan V-IR-TV ; ! "make open" (DIR)
 açıkla:açıkla V-IR-TV ; ! "explain"
-dolaş:dolaş V-IR-TV ; ! "walk around" (DIR)
+dolaş:dolaş V-IR-IV ; ! "walk around" (DIR)
 döv:döv V-AR-TV ; ! "hit" (DIR)
 doyur:doyur V-IR-TV ; ! "feed" (DIR)
 düşün:düşün V-IR-TV ; ! "think"
