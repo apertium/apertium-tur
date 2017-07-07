@@ -10225,6 +10225,7 @@ Korea:Korea NP-TOP ;
 Britanya:Britanya NP-TOP ;
 Semerkant:Semerkant NP-TOP ;
 Sivastopol:Sivastopol NP-TOP ;
+Zaporijya:Zaporijya NP-TOP ;
 İvano%-Frankivsk:İvano%-Frankivsk NP-TOP ;
 
 
@@ -10389,6 +10390,7 @@ HIV:HIV NP-AL ; ! "" @?@
 CEFTA:CEFTA NP-AL ; ! ""
 GERB:GERB NP-AL ; ! ""
 Nobel:Nobel NP-AL ; ! ""
+Grammy:Grammy NP-AL ; !
 SRS:SRS NP-ORG ; ! "Serbian Radical Party"
 MSK:MSK NP-ORG ; ! ""
 BDP:BDP NP-ORG ; ! ""
@@ -15225,6 +15227,7 @@ sadeleştir:sadeleştir V-IR-TV ;
 sıkıştır:sıkıştır V-IR-TV ;
 batır:batır V-IR-TV ;
 şişir:şişir V-IR-TV ;
+değerlendir:değerlendir V-IR-TV ;
 bitir:bitir V-IR-TV ;
 bölüştür:bölüştür V-IR-TV ;
 buruştur:buruştur V-IR-TV ;
