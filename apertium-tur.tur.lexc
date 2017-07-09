@@ -8929,6 +8929,7 @@ savunma:savunma N1 ;
 
 tekrar:tekrar N1 ; ! ""
 zindan:zindan N1 ; ! ""
+taraftar:taraftar N1 
 tüy:tüy N1 ; ! ""
 tahta:tahta N1 ; ! ""
 yanak:yanak%{v%} N1 ; ! ""
