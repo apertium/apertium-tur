@@ -8926,6 +8926,7 @@ koruyucu:koruyucu N1 ;
 imkan:imkan N1 ;
 çalışan:çalışan N1 ;
 savunma:savunma N1 ;
+yazarlık:yazarlık N1 ;
 
 tekrar:tekrar N1 ; ! ""
 zindan:zindan N1 ; ! ""
@@ -14884,6 +14885,7 @@ umumi:umumi A1 ; ! "public"
 tarihi:tarihi A1 ;
 hakiki:hakiki A1 ;
 kayıp:kayıp A1 ;
+kanuni:kanuni A1;
 
 LEXICON Adverbs 
 
