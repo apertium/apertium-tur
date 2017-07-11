@@ -8927,14 +8927,15 @@ imkan:imkan N1 ;
 çalışan:çalışan N1 ;
 savunma:savunma N1 ;
 yazarlık:yazarlık N1 ;
-
+kutuplaşma:kutuplaşma N1 ;
 tekrar:tekrar N1 ; ! ""
 zindan:zindan N1 ; ! ""
+teçhizat:teçhizat N1 ; 
 taraftar:taraftar N1 ;
 tüy:tüy N1 ; ! ""
 tahta:tahta N1 ; ! ""
 yanak:yanak%{v%} N1 ; ! ""
-
+üzüntü:üzüntü N1 ;
 sakin:sakin N1 ;  ! ""
 
 üçlü:üçlü N1 ; ! "triad" 
@@ -10876,12 +10877,14 @@ Vikipedi:Vikipedi NP-AL ; ! ""
 The% New% Press:The% New% Press NP-AL ; ! ""
 Radio% Foniki:Radio% Foniki NP-AL ; ! ""
 Europe:Europe NP-AL ; ! ""
+ATR:ATR NP-AL ;
 
 
 
 ! Anthroponyms
 
 Esad:Esad NP-ANT-M ; ! ""
+Ahtem:Ahtem NP-ANT-M ;
 Hasan:Hasan NP-ANT-M ;  !!
 Nebojsa:Nebojsa NP-ANT-M ; ! ""
 Valentin:Valentin NP-ANT-M ; ! ""
