@@ -8798,6 +8798,283 @@ yön:yön N4 ; ! "on"
 !hal:hal N4 ; ! ""
 
 ova:ova N1 ; ! "plain"
+vapur:vapur N1 ;
+yapımcı:yapımcı N1 ;
+temsil:temsil N1 ;
+protokol:protokol N1 ;
+talimat:talimat N1 ;
+ziyaretçi:ziyaretçi N1 ;
+tas:tas N1 ;
+rapor:rapor N1 ;
+temizlik:temizlik N1 ;
+sırt:sırt N1 ;
+tebrik:tebrik N1 ;
+imtiyaz:imtiyaz N1 ;
+sıfat:sıfat N1 ;
+taksi:taksi N1 ;
+teftiş:teftiş N1 ;
+tavan:tavan N1 ;
+suistimal:suistimal N1 ;
+tüp:tüp N1 ;
+örtü:örtü N1 ;
+temsilcilik:temsilcilik N1 ;
+raket:raket N1 ;
+iştirak:iştirak N1 ;
+tramvay:tramvay N1 ;
+topçu:topçu N1 ;
+set:set N1 ;
+keten:keten N1 ;
+yetim:yetim N1 ;
+toz:toz N1 ;
+tazmin:tazmin N1 ;
+faşist:faşist N1 ;
+travma:travma N1 ;
+tiraj:tiraj N1 ;
+sebat:sebat N1 ;
+teşekkül:teşekkül N1 ;
+telef:telef N1 ;
+rağbet:rağbet N1 ;
+teneke:teneke N1 ;
+tanker:tanker N1 ;
+itaat:itaat N1 ;
+adaletsizlik:adaletsizlik N1 ;
+tasvir:tasvir N1 ;
+şerit:şerit N1 ;
+fesat:fesat N1 ;
+teselli:teselli N1 ;
+tabut:tabut N1 ;
+vaftiz:vaftiz N1 ;
+tezkere:tezkere N1 ;
+serbestlik:serbestlik N1 ;
+mertlik:mertlik N1 ;
+turşu:turşu N1 ;
+tümen:tümen N1 ;
+terzi:terzi N1 ;
+tertibat:tertibat N1 ;
+tefekkür:tefekkür N1 ;
+segment:segment N1 ;
+samimiyet:samimiyet N1 ;
+reyting:reyting N1 ;
+polietilen:polietilen N1 ;
+militarizm:militarizm N1 ;
+edebiyatçı:edebiyatçı N1 ;
+antropolog:antropolog N1 ;
+vasiyet:vasiyet N1 ;
+tebessüm:tebessüm N1 ;
+tantana:tantana N1 ;
+sepet:sepet N1 ;
+sektor:sektor N1 ;
+neşriyat:neşriyat N1 ;
+istismarcı:istismarcı N1 ;
+elektron:elektron N1 ;
+artist:artist N1 ;
+müessese:müessese N1 ;
+yakıt:yakıt N1 ;
+vatandaşlık:vatandaşlık N1 ;
+voyvoda:voyvoda N1 ;
+şeyh:şeyh N1 ;
+nogay:nogay N1 ;
+türk:türk N1 ;
+teşkilâtçı:teşkilâtçı N1 ;
+mahsulat:mahsulat N1 ;
+avdet:avdet N1 ;
+devletçilik:devletçilik N1 ;
+cinayetçi:cinayetçi N1 ;
+tuğra:tuğra N1 ;
+zabit:zabit N1 ;
+tarik:tarik N1 ;
+milletçi:milletçi N1 ;
+tuman:tuman N1 ;
+cemaatçı:cemaatçı N1 ;
+insaniyetlik:insaniyetlik N1 ;
+milletçilik:milletçilik N1 ;
+tertipsizlik:tertipsizlik N1 ;
+şamata:şamata N1 ;
+bent:bent N1 ;
+kâinat:kâinat N1 ;
+mevlüt:mevlüt N1 ;
+türkü:türkü N1 ;
+istihbaratçı:istihbaratçı N1 ;
+istidat:istidat N1 ;
+tefsir:tefsir N1 ;
+tunç:tunç N1 ;
+gülistan:gülistan N1 ;
+aitlik:aitlik N1 ;
+taun:taun N1 ;
+riyaziyatçı:riyaziyatçı N1 ;
+insaniyetsizlik:insaniyetsizlik N1 ;
+felekiyat:felekiyat N1 ;
+cesaretlik:cesaretlik N1 ;
+terbiyeci:terbiyeci N1 ;
+tabilik:tabilik N1 ;
+şikâyetçi:şikâyetçi N1 ;
+plato:plato N1 ;
+antisemitizm:antisemitizm N1 ;
+medeniyetlik:medeniyetlik N1 ;
+hattat:hattat N1 ;
+çeşitlik:çeşitlik N1 ;
+bereketlik:bereketlik N1 ;
+apostrof:apostrof N1 ;
+tornacı:tornacı N1 ;
+terbiyesizlik:terbiyesizlik N1 ;
+tayga:tayga N1 ;
+primitivizm:primitivizm N1 ;
+kitabe:kitabe N1 ;
+icatçı:icatçı N1 ;
+tire:tire N1 ;
+palto:palto N1 ;
+neşriyatçı:neşriyatçı N1 ;
+istinat:istinat N1 ;
+getto:getto N1 ;
+bostancı:bostancı N1 ;
+bereketlilik:bereketlilik N1 ;
+tulumba:tulumba N1 ;
+topaz:topaz N1 ;
+timsalcilik:timsalcilik N1 ;
+teşkilci:teşkilci N1 ;
+terennüm:terennüm N1 ;
+temrin:temrin N1 ;
+teklik:teklik N1 ;
+tecvit:tecvit N1 ;
+tayfa:tayfa N1 ;
+safsata:safsata N1 ;
+putperestlik:putperestlik N1 ;
+pelit:pelit N1 ;
+nedamet:nedamet N1 ;
+mülkiyetçi:mülkiyetçi N1 ;
+işaretçik:işaretçik N1 ;
+beşeriyet:beşeriyet N1 ;
+abdest:abdest N1 ;
+gökkuşağı:gökkuşağı N1 ;
+esperanto:esperanto N1 ;
+arnavutluk:arnavutluk N1 ;
+serçe:serçe N1 ;
+şehadet:şehadet N1 ;
+otobus:otobus N1 ;
+obje:obje N1 ;
+tabur:tabur N1 ;
+advokat:advokat N1 ;
+kitaphane:kitaphane N1 ;
+özne:özne N1 ;
+ortakık:ortakık N1 ;
+dostluk:dostluk N1 ;
+arkadaşlık:arkadaşlık N1 ;
+havacılık:havacılık N1 ;
+ayrılıkçılık:ayrılıkçılık N1 ;
+özerkçilik:özerkçilik N1 ;
+tramvay:tramvay N1 ;
+havacılık:havacılık N1 ;
+nazizm:nazizm N1 ;
+tasavvur:tasavvur N1 ;
+ademimerkeziyet:ademimerkeziyet N1 ;
+istihsal:istihsal N1 ;
+temizlik:temizlik N1 ;
+zaruriyet:zaruriyet N1 ;
+qurtuluş:qurtuluş N1 ;
+seferberlik:seferberlik N1 ;
+otogar:otogar N1 ;
+teğmen:teğmen N1 ;
+çabukluk:çabukluk N1 ;
+ingiliz:ingiliz N1 ;
+federalleştırme:federalleştırme N1 ;
+ustalık:ustalık N1 ;
+tafsilat:tafsilat N1 ;
+ruhsatname:ruhsatname N1 ;
+litre:litre N1 ;
+havalımanı:havalımanı N1 ;
+havaalanı:havaalanı N1 ;
+milis:milis N1 ;
+umutsuzluk:umutsuzluk N1 ;
+otogar:otogar N1 ;
+topçu:topçu N1 ;
+tüccar:tüccar N1 ;
+katsayı:katsayı N1 ;
+pozisyon:pozisyon N1 ;
+komiserlik:komiserlik N1 ;
+telegraf:telegraf N1 ;
+stres:stres N1 ;
+kartopu:kartopu N1 ;
+hareketsizlik:hareketsizlik N1 ;
+türkmen:türkmen N1 ;
+rektörlük:rektörlük N1 ;
+perspektif:perspektif N1 ;
+telaffuz:telaffuz N1 ;
+cellat:cellat N1 ;
+heykeltraş:heykeltraş N1 ;
+baget:baget N1 ;
+uygarlaştırma:uygarlaştırma N1 ;
+uygarlık:uygarlık N1 ;
+tarihçilik:tarihçilik N1 ;
+havai:havai N1 ;
+gemicilik:gemicilik N1 ;
+makineleşme:makineleşme N1 ;
+raportör:raportör N1 ;
+haberci:haberci N1 ;
+stereotip:stereotip N1 ;
+terhis:terhis N1 ;
+videokonferans:videokonferans N1 ;
+oblast:oblast N1 ;
+lakaytlık:lakaytlık N1 ;
+bataklık:bataklık N1 ;
+terazi:terazi N1 ;
+saadet:saadet N1 ;
+santimetre:santimetre N1 ;
+reorganizasyon:reorganizasyon N1 ;
+güçsüzlük:güçsüzlük N1 ;
+kürator:kürator N1 ;
+iktisatçı:iktisatçı N1 ;
+inatçılık:inatçılık N1 ;
+etkililik:etkililik N1 ;
+sandviç:sandviç N1 ;
+pil:pil N1 ;
+yurttaş:yurttaş N1 ;
+vapur:vapur N1 ;
+röpörtaj:röpörtaj N1 ;
+editörlük:editörlük N1 ;
+motorcu:motorcu N1 ;
+labirent:labirent N1 ;
+göçmenlik:göçmenlik N1 ;
+hırvatça:hırvatça N1 ;
+elektriklenme:elektriklenme N1 ;
+yakut:yakut N1 ;
+dokumacılık:dokumacılık N1 ;
+tokluk:tokluk N1 ;
+müteşebbis:müteşebbis N1 ;
+saatçi:saatçi N1 ;
+radyason:radyason N1 ;
+hamilik:hamilik N1 ;
+yörünge:yörünge N1 ;
+nomenklatura:nomenklatura N1 ;
+yenileştirme:yenileştirme N1 ;
+koordinat:koordinat N1 ;
+kütüphaneci:kütüphaneci N1 ;
+sibernetik:sibernetik N1 ;
+italyan:İtalyan N1 ;
+yenilik:yenilik N1 ;
+kalınlık:kalınlık N1 ;
+arnavutça:arnavutça N1 ;
+ziraat:ziraat N1 ;
+silindir:silindir N1 ;
+trambolin:trambolin N1 ;
+traktörcü:traktörcü N1 ;
+terminolojilik:terminolojilik N1 ;
+taklit:taklit N1 ;
+statüko:statüko N1 ;
+sağcı:sağcı N1 ;
+rasyonalizm:rasyonalizm N1 ;
+radyatör:radyatör N1 ;
+mukaddesat:mukaddesat N1 ;
+lületaşı:lületaşı N1 ;
+doğaçlama:doğaçlama N1 ;
+hainlik:hainlik N1 ;
+hilafet:hilafet N1 ;
+tahliye:tahliye N1 ;
+etimoloji:etimoloji N1 ;
+didaktiklik:didaktiklik N1 ;
+çatlak:çatlak N1 ;
+otogar:otogar N1 ;
+poliklinik:poliklinik N1 ;
+
 
 ! Nationalities and other names of people
 
@@ -16452,6 +16729,7 @@ püskür:püskür V-IR-IV ; ! "spout" (T)
 rahatla:rahatla V-IR-IV ; ! "relax" (T)
 rastla:rastla V-IR-IV ; ! "encounter" (T)
 sabahla:sabahla V-IR-IV ; ! "sit up all night" (T)
+teşkil% et:teşkil% et V-AR-TV ;
 sağal:sağal V-IR-IV ; ! "recover" (T)
 sendele:sendele V-IR-IV ; ! "stumble" (T)
 serinle:serinle V-IR-IV ; ! "cool off, become cooler?" (T)
@@ -16591,6 +16869,7 @@ süzül:süzül V-IR-IV ; ! ""
 taran:taran V-IR-IV ; ! ""
 topla:topla V-IR-TV ; ! ""
 tut:tut V-IR-TV ; ! ""
+
 yanaş:yanaş V-IR-IV ; ! ""
 yaralan:yaralan V-IR-IV ; ! ""
 yarıl:yarıl V-IR-IV ; ! ""
@@ -16598,6 +16877,7 @@ yaslan:yaslan V-IR-IV ; ! ""
 yatıştır:yatıştır V-IR-TV ; ! ""
 yırtıl:yırtıl V-IR-IV ; ! ""
 yönel:yönel V-IR-IV ; ! ""
+edil:edil V-IR-IV ;
 yüklen:yüklen V-IR-IV ; ! ""
 
 
