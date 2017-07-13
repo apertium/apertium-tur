@@ -9215,6 +9215,8 @@ yanak:yanak%{v%} N1 ; ! ""
 üzüntü:üzüntü N1 ;
 sakin:sakin N1 ;  ! ""
 
+provokatör:provokatör N1 ; ! ""
+
 üçlü:üçlü N1 ; ! "triad" 
 
 şekil:şek%{u%}l N1 ; ! "shape"
@@ -15573,7 +15575,7 @@ bölüştür:bölüştür V-IR-TV ;
 
 katılaş:katılaş V-IR-IV ;
 taşlaş:taşlaş V-IR-IV ;
-düşür:düşür V-IR-IV ;
+düşür:düşür V-IR-TV ;
 çıldır:çıldır V-IR-IV ;
 basitleş:basitleş V-IR-IV ;
 sadeleş:sadeleş V-IR-IV ;
@@ -15627,9 +15629,10 @@ al:al V-IR-TV ; ! "take, buy"
 derinleştir:derinleştir V-IR-TV ; ! "deepen" (T)
 ! yap:yap V-TV-DIR-AR ; ! "make, do"
 yap:yap V-AR-TV ; ! "make, do"
+!gel:gel V-IR-IV ; ! "come to a stop"
 gel:gel V-AR-IV ; ! "come" (DIR)
-bağışlan:bağışlan V-IR-IV ; ! "be forgiven"
 gel:gel V-IR-IV ; ! "come" (DIR)
+bağışlan:bağışlan V-IR-IV ; ! "be forgiven"
 yayınlan:yayınlan V-IR-IV ; ! "issue" (DIR)
 yayınla:yayınla V-IR-TV ; ! "publish" (T)
 amaçla:amaçla V-IR-TV ; ! "accuse" (T)
@@ -15767,7 +15770,7 @@ aktar:aktar V-IR-TV ; ! "transfer" (DIR)
 ! al:al V-TV-DIR-IR ; ! "take, buy"
 alçal:alçal V-IR-TV ; ! "lower" (DIR)
 alçalt:alçalt V-IR-TV ; ! "lower" (DIR)
-alevlen:alevlen V-IR-TV ; ! "catch on fire" (DIR)
+alevlen:alevlen V-IR-IV ; ! "catch on fire" (DIR)
 alıkoy:alıkoy V-AR-TV ; ! "detain, stop" (DIR)
 alış:alış V-IR-TV ; ! "familiarise with" (DIR)
 an:an V-AR-TV ; ! "make mention of, remind" (DIR)
@@ -16668,7 +16671,6 @@ evlen:evlen V-IR-IV ; ! "marry" (DIR)
 gecik:gecik V-IR-IV ; ! "delay, be late" (DIR)
 geçin:geçin V-IR-IV ; ! "get on well" (DIR)
 !gel:gel V-IV-DIR-IR ; ! "come to a stop"
-gel:gel V-IR-IV ; ! "come to a stop"
 !gerek:gerek V-IV-DIR-IR ; ! "require"
 gerek:gerek V-IR-IV ; ! "require"
 gereksin:gereksin V-IR-IV ; ! "be in need of" (DIR)
@@ -16717,6 +16719,7 @@ kapıl:kapıl V-IR-IV ; ! "be carried away" (DIR)
 karar:karar V-IR-IV ; ! "darken" (DIR)
 karış:karış V-IR-IV ; ! "mix in" (DIR)
 karşılaş:karşılaş V-IR-IV ; ! "confront" (DIR)
+karşılaştır:karşılaştır V-IR-TV ; ! "compare" (DIR)
 katıl:katıl V-IR-IV ; ! "join in" (DIR)
 kavuş:kavuş V-IR-IV ; ! "rejoin" (DIR)
 kay:kay V-AR-IV ; ! "slide" (DIR)
@@ -16948,6 +16951,7 @@ edil:edil V-IR-IV ;
 yüklen:yüklen V-IR-IV ; ! ""
 
 
+çekil:çekil V-IR-IV ; ! ""
 yarat:yarat V-IR-TV ; ! ""
 yaran:yaran V-IR-IV ; ! ""
 
