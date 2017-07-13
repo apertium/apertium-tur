@@ -1103,18 +1103,18 @@ LEXICON N5
 !!%<n%>%<advl%>: # ;
 !!
 
-LEXICON N-COMPOUND-PX-COMMON
+!!!LEXICON N-COMPOUND-PX-COMMON
+!!!
+!!!:%>%{s%}%{I%}%{n%} CASE-ETC ;
+!!!POSS-REAL ;   ! for stuff like "биздин аба ырайыбыз" and even "анын аба ырайы",
+!!!              ! which should have a <px3sp> analysis
 
-:%>%{s%}%{I%}%{n%} CASE-ETC ;
-POSS-REAL ;   ! for stuff like "биздин аба ырайыбыз" and even "анын аба ырайы",
-              ! which should have a <px3sp> analysis
 
-
-LEXICON N-INFL-3PX-COMPOUND
-
-%<n%>: N-COMPOUND-PX-COMMON ;
-%<n%>%<pl%>:%>l%{A%}r%>%{s%}%{I%}%{n%} CASE-ETC ;
-
+!!!LEXICON N-INFL-3PX-COMPOUND
+!!!
+!!!%<n%>: N-COMPOUND-PX-COMMON ;
+!!!%<n%>%<pl%>:%>l%{A%}r%>%{s%}%{I%}%{n%} CASE-ETC ;
+!!!
 
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
@@ -3999,7 +3999,6 @@ buyuru:buyuru N1 ; ! "command"
 buzağı:buzağı N1 ; ! "calf"
 buz:buz N1 ; ! "ice"
 büz:büz N1 ; ! "tube"
-buzdolabı:buzdolabı N1 ; ! "refrigerator"
 büzük:büzük N1 ; ! "anus"
 buzul:buzul N1 ; ! "glacier"
 büzüşük:büzüşük N1 ; ! "wrinkled"
@@ -8177,7 +8176,8 @@ tutum:tutum N1 ; ! "manner"
 eksiklik:eksiklik%{v%} N1 ; ! "lack"
 aracılık:aracılık%{v%} N1 ; ! "mediation"
 oyuncu:oyuncu N1 ; ! "player"
-havayolu:havayol N-INFL-3PX-COMPOUND ; ! "airway"
+havayolu:havayol N2 ; ! "airway"
+buzdolabı:buzdolab N2 ; ! "refrigerator"
 yoksulluk:yoksulluk%{v%} N1 ; ! "need"
 oyun:oyun N1 ; ! "game"
 vade:vade N1 ; ! "term of payment"
@@ -8309,10 +8309,10 @@ rahatlık:rahatlık N1 ; ! "pleasure"
 taksit:taksit N1 ; ! "(loan/debt) payment"
 öğle:öğle N1 ; ! "noon"
 yemek:yemek%{v%} N1 ; ! "food"
-öğle% yemeği:öğle% yemek%{v%} N-INFL-3PX-COMPOUND ; ! "lunch"
+öğle% yemeği:öğle% yemek%{v%} N2 ; ! "lunch"
 ölüm:ölüm N1 ; ! "death"
 sevgi:sevgi N1 ; ! "love"
-dünyanın% dört% bir% yanı:dünyanın% dört% bir% yan N-INFL-3PX-COMPOUND ; ! 
+dünyanın% dört% bir% yanı:dünyanın% dört% bir% yan N2 ; ! 
 buluşma:buluşma N1 ; ! "meeting" ! Dir/RL ! Use/MT
 bebeklik:bebeklik%{v%} N1 ; ! "baby-hood"
 pasta:pasta N1 ; ! "cake"
