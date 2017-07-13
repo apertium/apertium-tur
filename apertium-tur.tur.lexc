@@ -5623,6 +5623,7 @@ icap:icap N1 ; ! "requirement"
 icar:icar N1 ; ! "rent"
 icat:icat N1 ; ! "invention"
 içecek:içecek N1 ; ! "beverage"
+yiyecek:yiyecek N1 ; ! ""
 içerik:içerik N1 ; ! "content"
 içerik:içerik N1 ; ! "ingredient"
 içgüdü:içgüdü N1 ; ! "instinct"
@@ -16360,7 +16361,7 @@ delirt:delirt V-IR-TV ; ! "arrange" (T)
 ekle:ekle V-IR-TV ; ! "add" (T)
 ele:ele V-IR-TV ; ! "eliminate" (T)
 engelle:engelle V-IR-TV ; ! "block" (T)
-eri:eri V-IR-TV ; ! "melt down" (T)
+eri:eri V-IR-IV ; ! "melt down" (T)
 ertele:ertele V-IR-TV ; ! "postpone" (T)
 esirge:esirge V-IR-IV ; ! "be sparing" (T)
 eşitle:eşitle V-IR-TV ; ! "make equal" (T)
