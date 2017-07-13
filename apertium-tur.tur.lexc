@@ -16782,6 +16782,41 @@ ucuzla:ucuzla V-IR-IV ; ! "become cheap" (T)
 ufal:ufal V-IR-IV ; ! "become smaller" (T)
 uğra:uğra V-IR-IV ; ! "make a brief visit to" (T)
 uğrat:uğrat V-IR-TV ; ! Der/Caus
+
+yekpareleştir:yekpareleştir V-IR-TV ;
+tekmille:tekmille V-AR-TV ;
+ölmezleştir:ölmezleştir V-IR-TV ;
+körleştir:körleştir V-IR-TV ;
+susuzlaştır:susuzlaştır V-IR-TV ;
+sürgüle:sürgüle V-IR-TV ;
+pekit:pekit V-IR-TV ;
+yeşillendir:yeşillendir V-IR-TV ;
+ateşlendir:ateşlendir V-IR-TV ;
+üleş:üleş V-IR-TV ;
+evirt:evirt V-IR-TV ;
+cezalandır:cezalandır V-IR-TV ;
+mükafatlandır:mükafatlandır V-IR-TV ;
+ödüllendir:ödüllendir V-IR-TV ;
+putinleştir:putinleştir V-IR-TV ;
+yasallaştır:yasallaştır V-IR-TV ;
+büyükleştir:büyükleştir V-IR-TV ;
+resmileştir:resmileştir V-IR-TV ;
+kolaylaştır:kolaylaştır V-IR-TV ;
+modernleştir:modernleştir V-IR-TV ;
+siyasileştir:siyasileştir V-IR-TV ;
+
+
+süregel:süregel V-IR-IV ;
+yalımlan:yalımlan V-IR-IV ;
+tansıkla:tansıkla V-IR-IV ;
+buzağıla:buzağıla V-IR-IV ;
+kahrol:kahrol V-IR-IV ;
+rahatsızlan:rahatsızlan V-IR-IV ;
+kırımtatarlaş:kırımtatarlaş V-IR-IV ;
+donatıl:donatıl V-IR-IV ;
+
+
+
 üre:üre V-IR-IV ; ! "procreate" (T)
 uyu:uyu V-IR-IV ; ! "sleep" (T)
 uyukla:uyukla V-IR-IV ; ! "snooze" (T)
