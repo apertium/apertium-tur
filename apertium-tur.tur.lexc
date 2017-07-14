@@ -2610,6 +2610,10 @@ LEXICON SYM-HASH-TAG
 
 <[ a | b | c | d | e | f | g | h | i | j | k | l | m | n | o | p | q | r | s | t | u | v | w | x | y | z ]+>  SYM-HASH ;
 
+LEXICON SYM
+
+%<sym%>: # ;
+
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Stem lexica
@@ -15631,7 +15635,7 @@ derinleştir:derinleştir V-IR-TV ; ! "deepen" (T)
 yap:yap V-AR-TV ; ! "make, do"
 !gel:gel V-IR-IV ; ! "come to a stop"
 gel:gel V-AR-IV ; ! "come" (DIR)
-gel:gel V-IR-IV ; ! "come" (DIR)
+!gel:gel V-IR-IV ; ! "come" (DIR)
 bağışlan:bağışlan V-IR-IV ; ! "be forgiven"
 yayınlan:yayınlan V-IR-IV ; ! "issue" (DIR)
 yayınla:yayınla V-IR-TV ; ! "publish" (T)
@@ -17013,6 +17017,8 @@ LEXICON Symbols
 
 
 :%# SYM-HASH-TAG ; 
+
+°C:°C SYM ; 
 
 LEXICON Punctuation
 
