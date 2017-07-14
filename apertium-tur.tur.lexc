@@ -8146,7 +8146,7 @@ yanı% başı:yanı% baş N2 ; ! "very close"
 yurt% dışı:yurt% dış N2 ; ! "abroad"
 olağanüst:olağanüst N2 ; ! "straordinary"
 demiryolu:demiryol N2 ; ! "railway"
-eletrik% teminatı:elektrik% teminatı N2 ; ! Dir/RL ! Use/MT
+elektrik% teminatı:elektrik% teminat N2 ; ! Dir/RL ! Use/MT
 rejim:rejim N1 ; ! "regime"
 zanlı:zanlı N1 ; ! 'culprıt'
 ticaret:ticaret N1 ; !  "commerce"
@@ -17232,6 +17232,20 @@ teşkilatlandır:teşkilatlandır V-IR-TV ; ! ""
 tezle:tezle V-IR-TV ; ! ""
 üleştir:üleştir V-IR-TV ; ! ""
 umumlaştır:umumlaştır V-IR-TV ; ! ""
+özelleştir:özelleştir V-IR-TV ;
+sağlamlaştır:sağlamlaştır V-IR-TV ;
+popülerleştir:popülerleştir V-IR-TV ;
+zorlaştır:zorlaştır V-IR-TV ;
+faalleştir:faalleştir V-IR-TV ;
+ruslaştır:ruslaştır V-IR-TV ;
+özelleştir:özelleştir V-IR-TV ;
+meraklandır:meraklandır V-IR-TV ;
+
+kabul% et:kabul% et V-AR-TV ;
+teşkil% et:teşkil% et V-AR-TV ;
+ziyaret% et:ziyaret% et V-AR-TV ;
+tamir% et:tamir% et V-AR-TV ;
+
 
 
 
