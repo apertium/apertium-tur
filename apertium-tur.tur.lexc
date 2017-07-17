@@ -3285,6 +3285,7 @@ acyo:acyo N1 ; ! "agio"
 ada:ada N1 ; ! "island"
 adabımuaşeret:adabımuaşeret N1 ; ! "etiquette"
 ad:ad N1 ; ! "name"
+soyad:soyad N1 ; ! "name"
 adale:adale N1 ; ! "muscle"
 adalet:adalet N1 ; ! "justice"
 adam:adam N1 ; ! "man"
@@ -5836,7 +5837,6 @@ insaf:insaf N1 ; ! "fairness"
 insaf:insaf N1 ; ! "mercy"
 inşa:inşa N1 ; ! "construction"
 yalancı:yalancı N1 ; ! ""
-insancıl:insancıl N1 ; ! "philanthropist"
 insaniçincilik:insaniçincilik%{v%} N1 ; ! "humanizm"
 insan:İnsan N1 ; ! "human" ! Dir/LR
 insan:insan N1 ; ! "human"
@@ -9168,8 +9168,17 @@ km:km N1 ;  ! "km" ! FIXME: abbr
 ton:ton N1 ; ! "ton"
 cm:cm N1 ;  ! "cm"
 
+
+icracı:icracı N1 ;
+sorgu:sorgu N1 ;
+idareci:idareci N1 ;
+siyasetbilimci:siyasetbilimci N1 ;
+nokta%-i% nazar:nokta%-i% nazar N1 ;
+yedek:yedek N1 ;
 asilzade:asilzade N1 ; ! ""
+bilişim:bilişim N1 ;
 bolşevik:bolşevik N1 ; ! ""
+saki:saki N1 ;
 hanlık:hanlık%{v%} N1 ; ! ""
 yenilgi:yenilgi N1 ; ! ""
 mimarlık:mimarlık%{v%} N1 ; ! ""
@@ -14093,6 +14102,7 @@ Dağcı:Dağcı NP-COG-MF ;
 
 
 LEXICON Adjectives
+insancıl:insancıl A1 ;
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
@@ -15459,11 +15469,15 @@ mutlaka:mutlaka ADV3 ; ! "certainly"
 acilen:acilen ADV3 ; ! "promtply"
 yeterince:yeterince ADV3 ; ! "enough"
 yavaşça:yavaşça ADV3 ; ! "enough"
+uzaktan:uzaktan ADV3 ;
+çoktan:çoktan ADV3 ; 
 dikkatlice:dikkatlice ADV3 ; ! "with attention"
 şekilde:şekilde ADV3 ; ! "in a manner"
 özellikle:özellikle ADV3 ; ! "especially
 tahminen:tahminen ADV3 ;
 oldukça:oldukça ADV3 ; ! "quite"
+
+
 
 ahiren:ahiren ADV3 ; ! "lately"
 ailecek:ailecek ADV3 ; ! "as a family"
@@ -15776,6 +15790,7 @@ her% sabah:her% sabah ADV3 ; ! "every morning" Use/MT
 hayattayken:hayattayken ADV3 ; ! "while alive" Use/MT
 bu% yana:bu% yana ADV3 ; ! "with ablative: from X until now / from X onwards"
 nasıl:nasıl ADV-ITG ; ! "how" ! FIXME: also adj?  or det?
+niçin:niçin ADV-ITG ; ! "why"
 
 
 LEXICON Verbs 
