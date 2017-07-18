@@ -8320,6 +8320,7 @@ yemek:yemek%{v%} N1 ; ! "food"
 sevgi:sevgi N1 ; ! "love"
 dünyanın% dört% bir% yanı:dünyanın% dört% bir% yan N2 ; ! 
 buluşma:buluşma N1 ; ! "meeting" ! Dir/RL ! Use/MT
+film% festivali:film% festival N2 ; ! "film festival" ! Dir/RL ! Use/MT
 bebeklik:bebeklik%{v%} N1 ; ! "baby-hood"
 pasta:pasta N1 ; ! "cake"
 cay:cay N1 ; ! "tributary, creek"
@@ -8328,6 +8329,12 @@ yay:yay N1 ; ! "bow (weapon), spring (mechanical)"
 kös:kös N1 ; ! "signal drum / kettledrum"
 kiş:kiş N1 ; ! "quiche"
 keş:keş N1 ; ! "dry curd"
+
+
+
+birleştirme:birleştirme N1 ;
+işbirlikçi:işbirlikçi N1 ;
+ödüllü:ödüllü N1 ;
 
 ileri:ileri N1 ; 
 
@@ -18169,6 +18176,8 @@ yüzlü:yüzlü A1 ;
 zavallı:zavallı A1 ;
 zıt:zıt A1 ;
 güllü:güllü A1 ;
+kinayeli:kinayeli A1 ;
+
 
 
 LEXICON Adverbs 
@@ -18761,7 +18770,7 @@ azlet:azlet V-AR-TV ; ! "dismiss" (DIR)
 azmet:azmet V-AR-TV ; ! "determine" (DIR)
 bahset:bahset V-AR-TV ; ! "talk about" (DIR)
 bahşet:bahşet V-AR-TV ; ! "forgive" (DIR)
-bak:bak V-AR-TV ; ! "look at" (DIR)
+bak:bak V-AR-IV ; ! "look at" (DIR)
 ban:ban V-AR-TV ; ! "dip into" (DIR)
 bas:bas V-AR-TV ; ! "press" (DIR)
 bastır:bastır V-AR-TV ; ! "" (T)
@@ -19291,7 +19300,7 @@ büyüle:büyüle V-IR-TV ; ! "ensorcel, bewitch" (T)
 çağla:çağla V-IR-TV ; ! "murmur" (T)
 çalkala:çalkala V-IR-TV ; ! "shake" (T)
 çatırda:çatırda V-IR-TV ; ! "crackle" (T)
-çatla:çatla V-IR-TV ; ! "crack, split" (T)
+çatla:çatla V-IR-IV ; ! "crack, split" (T)
 cevapla:cevapla V-IR-TV ; ! "answer" (T)
 cevap% ver:cevap% ver V-IR-TV ; ! "answer" ! Dir/RL ! Use/MT ! FIXME: Check (T)
 çevrele:çevrele V-IR-TV ; ! "encompass" (T)
@@ -19353,7 +19362,7 @@ frenle:frenle V-IR-TV ; ! "brake" (T)
 gammazla:gammazla V-IR-TV ; ! "inform agains" (T)
 garantile:garantile V-IR-TV ; ! "guarentee" (T)
 genelle:genelle V-IR-TV ; ! "generalise" (T)
-genişle:genişle V-IR-TV ; ! "expand" (T)
+genişle:genişle V-IR-IV ; ! "expand" (T)
 gevele:gevele V-IR-TV ; ! "mumble" (T)
 gizle:gizle V-IR-TV ; ! "hide" (T)
 göğüsle:göğüsle V-IR-TV ; ! "cope with" (T)
