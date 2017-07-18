@@ -9447,6 +9447,32 @@ burun:bur%{u%}n N1 ; ! "nose"
 şehir:şeh%{u%}r N1 ; ! "city"
 oğul:oğ%{u%}l N1 ; ! "son"
 
+arabacı:arabacı N1 ;
+bağcı:bağcı N1 ;
+dağcı:dağcı N1 ;
+emekçi:emekçi N1 ;
+felsefeci:felsefeci N1 ;
+hititoloji:hititoloji N1 ;
+sosyolog:sosyolog N1 ;
+islahatçı:islahatçı N1 ;
+reformist:reformist N1 ;
+italyan:italyan N1 ;
+küncü:küncü N1 ;
+kürkçü:kürkçü N1 ;
+madenci:madenci N1 ;
+mirasçı:mirasçı N1 ;
+tahrikçi:tahrikçi N1 ;
+matematikçi:matematikçi N1 ;
+psikolog:psikolog N1 ;
+seyyah:seyyah N1 ;
+skeç:skeç N1 ;
+dilbilimci:dilbilimci N1 ;
+işyeri:işyeri N2 ;
+yıkıntı:yıkıntı N1 ;
+zerdali:zerdali N1 ;
+ser:ser N1 ;
+
+
 
 
 LEXICON ProperNouns
@@ -19941,6 +19967,8 @@ faalleştir:faalleştir V-IR-TV ;
 ruslaştır:ruslaştır V-IR-TV ;
 özelleştir:özelleştir V-IR-TV ;
 meraklandır:meraklandır V-IR-TV ;
+gerçekleştir:gerçekleştir V-IR-TV ;
+adlandır:adlandır V-IR-TV ;
 
 teşkil% et:teşkil% et V-AR-TV ;
 ziyaret% et:ziyaret% et V-AR-TV ;
