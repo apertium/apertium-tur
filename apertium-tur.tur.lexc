@@ -2929,6 +2929,7 @@ yirmi:yirmi NUM ; ! "twenty"
 
 yüz:yüz NUM ; ! "hundred"
 bin:bin NUM ; ! "thousand"
+kırk:kırk NUM ;
 milyon:milyon NUM ; ! "million"
 milyar:milyar NUM ; ! "milliard"
 bilyon:bilyon NUM ; ! "billion"
@@ -9491,6 +9492,88 @@ aşırılıkçı:aşırılıkçı N1 ;
 uydurma:uydurma N1 ;
 bulaşma:bulaşma N1 ;
 
+acele:acele N1 ;
+acil% yardım:acil% yardım N1 ; 
+alan% adı:alan% adı N1 ;
+alış:alış N1 ;
+aracı:aracı N1 ;
+araştırma:araştırma N1 ;
+arttırma:arttırma N1 ;
+atıcı:atıcı N1 ;
+atlı:atlı N1 ;
+aydınlanma:aydınlanma N1 ;
+aydınlar% sınıfı:aydınlar% sınıfı N1 ;
+ayırma:ayırma N1 ;
+başkaldırma:başkaldırma N1 ;
+batış:batış N1 ;
+baza:baza N1 ;
+bitmek:bitmek N1 ;
+cayma:cayma N1 ;
+doğrulama:doğrulama N1 ;
+dolmuş:dolmuş N1 ;
+dönüş:dönüş N1 ;
+düğün:düğün N1 ;
+düzenleme:düzenleme N1 ;
+eksilme:eksilme N1 ;
+havai% fişek:havai% fişek N1 ;
+içer:içer N1 ;
+işaretleme:işaretleme N1 ;
+ısıtma:ısıtma N1 ;
+kışkırtıcı:kışkırtıcı N1 ;
+konuşma:konuşma N1 ;
+köylü:köylü N1 ;
+mahvolma:mahvolma N1 ;
+metre% küp:metre% küp N1 ;
+muhtaç:muhtaç N1 ;
+objektif:objektif N1 ;
+ödeme:ödeme N1 ;
+öğüt:öğüt N1 ;
+öksüz:öksüz N1 ;
+okuma:okuma N1 ;
+okutma:okutma N1 ;
+paketleme:paketleme N1 ;
+patlama:patlama N1 ;
+radyo% istasyonu:radyo% istasyonu N1 ;
+rahatlama:rahatlama N1 ;
+saf:saf N1 ;
+sakat:sakat N1 ;
+san:san N1 ;
+sarım:sarım N1 ;
+şikayetçi:şikayetçi N1 ;
+sürü:sürü N1 ;
+tabanca:tabanca N1 ;
+talebe:talebe N1 ;
+tamamlayıcı:tamamlayıcı N1 ;
+tanıma:tanıma N1 ;
+taşıyıcı:taşıyıcı N1 ;
+tatlı:tatlı N1 ;
+teknik% okul:teknik% okul N1 ;
+tepme:tepme N1 ;
+terleme:terleme N1 ;
+teşkilatçı:teşkilatçı N1 ;
+trafik% ışığı:trafik% ışık N2 ;
+tütün:tütün N1 ;
+üretici:üretici N1 ;
+usta:usta N1 ;
+utanma:utanma N1 ;
+uzatma:uzatma N1 ;
+uzlaşma:uzlaşma N1 ;
+vatanperver:vatanperver N1 ;
+yabancı:yabancı N1 ;
+yad:yad N1 ;
+yaptırım:yaptırım N1 ;
+yaratıcı:yaratıcı N1 ;
+yarım:yarım N1 ;
+yarı:yarı N1 ;
+yasak:yasak N1 ;
+yaşayış:yaşayış N1 ;
+yastık:yastık N1 ;
+yazılış:yazılış N1 ;
+yemiş:yemiş N1 ;
+yiğit:yiğit N1 ;
+yükseliş:yükseliş N1 ;
+yetiştirme:yetiştirme N1 ;
+
 
 
 
@@ -11434,6 +11517,8 @@ The% New% Press:The% New% Press NP-AL ; ! ""
 Radio% Foniki:Radio% Foniki NP-AL ; ! ""
 Europe:Europe NP-AL ; ! ""
 ATR:ATR NP-AL ;
+TSK:TSK NP-AL ;
+FSB:FSB NP-AL ;
 
 
 
@@ -18177,6 +18262,12 @@ zavallı:zavallı A1 ;
 zıt:zıt A1 ;
 güllü:güllü A1 ;
 kinayeli:kinayeli A1 ;
+baş:baş A1 ;
+kireçli:kireçli A1 ;
+mineral:mineral A1 ;
+taktiksel:taktiksel A1 ;
+yiyecek:yiyecek A1 ;
+
 
 
 
@@ -19597,7 +19688,7 @@ bileş:bileş V-IR-IV ; ! "consist" (DIR)
 bilin:bilin V-IR-IV ; ! "be known" (DIR)
 bilinçlen:bilinçlen V-IR-IV ; ! "become conscious" (DIR)
 birik:birik V-IR-IV ; ! "consist" (DIR)
-bit:bit V-AR-TV ; ! "finish" (IR)
+bit:bit V-AR-IV ; ! "finish" (IR)
 böbürlen:böbürlen V-IR-IV ; ! "brag" (DIR)
 bozul:bozul V-IR-IV ; ! "be destroyed" (DIR)
 bulaş:bulaş V-IR-IV ; ! "be mixed up" (DIR)
@@ -19993,6 +20084,61 @@ meraklandır:meraklandır V-IR-TV ;
 gerçekleştir:gerçekleştir V-IR-TV ;
 adlandır:adlandır V-IR-TV ;
 
+aşındır:aşındır V-IR-TV ;
+avla:avla V-AR-TV ;
+azalt:azalt V-IR-TV ;
+çak:çak V-AR-TV ;
+çatıştır:çatıştır V-IR-TV ;
+çoğalt:çoğalt V-IR-TV ;
+dalgalandır:dalgalandır V-IR-TV ;
+düzelt:düzelt V-IR-TV ;
+ebedileştir:ebedileştir V-IR-TV ;
+elekle:elekle V-AR-TV ;
+geciktir:geciktir V-IR-TV ;
+geliştir:geliştir V-IR-TV ;
+gevşet:gevşet V-IR-TV ;
+gezdir:gezdir V-IR-TV ;
+giydir:giydir V-IR-TV ;
+güçlendir:güçlendir V-IR-TV ;
+güldür:güldür V-IR-TV ;
+havalandır:havalandır V-IR-TV ;
+heyecanlandır:heyecanlandır V-IR-TV ;
+inandır:inandır V-IR-TV ;
+ışıklandır:ışıklandır V-IR-TV ;
+kandır:kandır V-IR-TV ;
+kararlaştır:kararlaştır V-IR-TV ;
+kışkırt:kışkırt V-IR-TV ;
+kıstır:kıstır V-IR-TV ;
+kitaplaştır:kitaplaştır V-IR-TV ;
+kuvvetlendir:kuvvetlendir V-IR-TV ;
+pekiştir:pekiştir V-IR-TV ;
+püskürt:püskürt V-IR-TV ;
+sakinleştir:sakinleştir V-IR-TV ;
+şaşırt:şaşırt V-IR-TV ;
+şenlendir:şenlendir V-IR-TV ;
+seyrelt:seyrelt V-IR-TV ;
+sığdır:sığdır V-IR-TV ;
+silahlandır:silahlandır V-IR-TV ;
+silahsızlandır:silahsızlandır V-IR-TV ;
+söylet:söylet V-IR-TV ;
+tanıştır:tanıştır V-IR-TV ;
+tarttır:tarttır V-IR-TV ;
+tatlandır:tatlandır V-IR-TV ;
+toparla:toparla V-AR-TV ;
+tuttur:tuttur V-IR-TV ;
+ucuzlat:ucuzlat V-IR-TV ;
+uyandır:uyandır V-IR-TV ;
+uzaklaştır:uzaklaştır V-IR-TV ;
+uzlaştır:uzlaştır V-IR-TV ;
+yakınlaştır:yakınlaştır V-IR-TV ;
+yaklaştır:yaklaştır V-IR-TV ;
+yatır:yatır V-IR-TV ;
+yedir:yedir V-IR-TV ;
+yuttur:yuttur V-IR-TV ;
+zayıflat:zayıflat V-IR-TV ;
+
+
+
 teşkil% et:teşkil% et V-AR-TV ;
 ziyaret% et:ziyaret% et V-AR-TV ;
 tamir% et:tamir% et V-AR-TV ;
@@ -20001,6 +20147,47 @@ tamir% et:tamir% et V-AR-TV ;
 sohbet% et:sohbet% et V-AR-IV ;
 temin% edil:temin% edil V-IR-IV ; ! Dir/RL ! Use/MT 
 rağbet% et:rağbet% et V-AR-IV ; 
+
+alın:alın V-IR-IV ;
+avlan:avlan V-IR-IV ;
+bağır:bağır V-IR-IV ;
+bağlan:bağlan V-IR-IV ;
+bulan:bulan V-IR-IV ;
+buruş:buruş V-IR-IV ;
+büzül:büzül V-IR-IV ;
+çalkalan:çalkalan V-IR-IV ;
+çarpıl:çarpıl V-IR-IV ;
+çatla:çatla V-IR-IV ;
+delin:delin V-IR-IV ;
+devril:devril V-IR-IV ;
+doluş:doluş V-IR-IV ;
+düşün:düşün V-IR-IV ;
+emil:emil V-IR-IV ;
+gömül:gömül V-IR-IV ;
+gönderil:gönderil V-IR-IV ;
+güçleş:güçleş V-IR-IV ;
+itiş:itiş V-IR-IV ;
+katlan:katlan V-IR-IV ;
+kırıl:kırıl V-IR-IV ;
+kısıl:kısıl V-IR-IV ;
+mektuplaş:mektuplaş V-IR-IV ;
+örtül:örtül V-IR-IV ;
+sarıl:sarıl V-IR-IV ;
+satıl:satıl V-IR-IV ;
+seçil:seçil V-IR-IV ;
+sıkıl:sıkıl V-IR-IV ;
+sömürgeleş:sömürgeleş V-IR-IV ;
+sürün:sürün V-IR-IV ;
+süslen:süslen V-IR-IV ;
+takıl:takıl V-IR-IV ;
+temin% edil:temin% edil V-IR-IV ;
+tıkıl:tıkıl V-IR-IV ;
+ufalan:ufalan V-IR-IV ;
+vur:vur V-IR-IV ;
+yanaşıl:yanaşıl V-IR-IV ;
+yayıl:yayıl V-IR-IV ;
+yıkıl:yıkıl V-IR-IV ;
+yorul:yorul V-IR-IV ;
 
 
 LEXICON Interjections 
