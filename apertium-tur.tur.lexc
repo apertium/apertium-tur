@@ -9467,10 +9467,22 @@ psikolog:psikolog N1 ;
 seyyah:seyyah N1 ;
 skeç:skeç N1 ;
 dilbilimci:dilbilimci N1 ;
-işyeri:işyeri N2 ;
+işyeri:işyer N2 ;
+el% bombası:el% bomba N1 ;
+elektrik% santrali:elektrik% santrali N2 ; ! Dir/RL ! Use/MT
 yıkıntı:yıkıntı N1 ;
 zerdali:zerdali N1 ;
 ser:ser N1 ;
+sulama:sulama N1 ;
+çalı:çalı N1 ;
+çek:çek N1 ;
+devletleştirme:devletleştirme N1 ;
+tez:tez N1 ;
+don:don N1 ;
+yayın:yayın N1 ;
+aşırılıkçı:aşırılıkçı N1 ;
+uydurma:uydurma N1 ;
+bulaşma:bulaşma N1 ;
 
 
 
@@ -18156,6 +18168,7 @@ yıkıcı:yıkıcı A1 ;
 yüzlü:yüzlü A1 ;
 zavallı:zavallı A1 ;
 zıt:zıt A1 ;
+güllü:güllü A1 ;
 
 
 LEXICON Adverbs 
@@ -18802,7 +18815,7 @@ cezbet:cezbet V-AR-TV ; ! "attract" (DIR)
 çöz:çöz V-AR-TV ; ! "solve" (DIR)
 çözül:çözül V-IR-IV ; ! "solve" (DIR)
 dağıt:dağıt V-IR-TV ; ! "distribute" (DIR)
-dal:dal V-AR-TV ; ! "dive" (DIR)
+dal:dal V-AR-IV ; ! "dive" (DIR)
 damıt:damıt V-IR-TV ; ! "distill" (DIR)
 danış:danış V-IR-TV ; ! "consult" (DIR)
 defnet:defnet V-AR-TV ; ! "bury" (DIR)
@@ -19699,6 +19712,7 @@ doğ:doğ V-AR-IV ; ! "rise" "be born" (IR)
 taş:taş V-AR-IV ; ! "run over" (IR)
 uç:uç V-AR-IV ; ! "fly" (IR)
 !yat:yat V-IV-IR-AR ; ! "lay down"
+dövüş:dövüş V-IR-IV ; 
 yit:yit V-AR-IV ; ! "vanish" (IR)
 şiş:şiş V-AR-IV ; ! "swell" (IR)
 kımılda:kımılda V-IR-IV ; ! "budge" (T)
