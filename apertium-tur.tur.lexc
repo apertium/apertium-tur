@@ -1215,6 +1215,24 @@ a%<np%>%<cog%>%<mf%>%<attr%>:a # ;
 a%<np%>%<cog%>%<mf%>%<pl%>%<nom%>:a%>l%{A%}r # ;
 a%<np%>%<cog%>%<mf%>%<pl%>:a%>l%{A%}r%' N-INFL-COMMON-NONOM ;
 
+LEXICON NP-PAT-OV
+
+iç%<np%>%<pat%>%<m%>%<nom%>:iç # ;
+iç%<np%>%<pat%>%<m%>%<nom%>:iç%' V-NOPERS-COP ;
+iç%<np%>%<pat%>%<m%>:iç%' N-INFL-COMMON-NONOM ;
+iç%<np%>%<pat%>%<m%>%<attr%>:iç # ;
+iç%<np%>%<pat%>%<m%>%<pl%>%<nom%>:iç%>l%{A%}r # ;
+iç%<np%>%<pat%>%<m%>%<pl%>:iç%>l%{A%}r%' N-INFL-COMMON-NONOM ;
+na%<np%>%<pat%>%<f%>%<nom%>:na # ;
+na%<np%>%<pat%>%<f%>%<nom%>:na%' V-NOPERS-COP ;
+na%<np%>%<pat%>%<f%>:na%' N-INFL-COMMON-NONOM ;
+na%<np%>%<pat%>%<f%>%<attr%>:na # ;
+na%<np%>%<pat%>%<f%>%<pl%>%<nom%>:na%>l%{A%}r # ;
+na%<np%>%<pat%>%<f%>%<pl%>:na%>l%{A%}r%' N-INFL-COMMON-NONOM ;
+
+
+
+
 LEXICON NP-AL-PL
 
 %<np%>%<al%>%<nom%>: # ;
@@ -15957,6 +15975,55 @@ Polozov:Polozov NP-COG-MF ; ! ""
 Morozov:Morozov NP-COG-MF ; ! ""
 Arbuzov:Arbuzov NP-COG-MF ; ! ""
 Kutuzov:Kutuzov NP-COG-MF ; ! ""
+leksandrov:Aleksandrov NP-PAT-OV ;
+Alekseyev:Alekseyev NP-PAT-OV ;
+Anatolyev:Anatolyev NP-PAT-OV ;
+Andreyev:Andreyev NP-PAT-OV ;
+Bogdanov:Bogdanov NP-PAT-OV ;
+Borisov:Borisov NP-PAT-OV ;
+Buharev:Buharev NP-PAT-OV ;
+Dmitriyev:Dmitriyev NP-PAT-OV ;
+Fedorov:Fedorov NP-PAT-OV ;
+Firkov:Firkov NP-PAT-OV ;
+Georgiyev:Georgiyev NP-PAT-OV ;
+Grigoryev:Grigoryev NP-PAT-OV ;
+İgorev:İgorev NP-PAT-OV ;
+İosifov:İosifov NP-PAT-OV ;
+İvanov:İvanov NP-PAT-OV ;
+Leonidov:Leonidov NP-PAT-OV ;
+Markev:Markev NP-PAT-OV ;
+Markov:Markov NP-PAT-OV ;
+Mihaylov:Mihaylov NP-PAT-OV ;
+Mitskev:Mitskev NP-PAT-OV ;
+Müzdev:Müzdev NP-PAT-OV ;
+Nikolayev:Nikolayev NP-PAT-OV ;
+Ognev:Ognev NP-PAT-OV ;
+Pavlov:Pavlov NP-PAT-OV ;
+Petrov:Petrov NP-PAT-OV ;
+Romanov:Romanov NP-PAT-OV ;
+Samoylov:Samoylov NP-PAT-OV ;
+Semenov:Semenov NP-PAT-OV ;
+Senkev:Senkev NP-PAT-OV ;
+Sergeyev:Sergeyev NP-PAT-OV ;
+Şinkev:Şinkev NP-PAT-OV ;
+Şinkiev:Şinkiev NP-PAT-OV ;
+Stepanov:Stepanov NP-PAT-OV ;
+Sulkev:Sulkev NP-PAT-OV ;
+Tsentkyev:Tsentkyev NP-PAT-OV ;
+Turev:Turev NP-PAT-OV ;
+Valeryev:Valeryev NP-PAT-OV ;
+Vasilyev:Vasilyev NP-PAT-OV ;
+Viktorov:Viktorov NP-PAT-OV ;
+Vitalyev:Vitalyev NP-PAT-OV ;
+Vladimirov:Vladimirov NP-PAT-OV ;
+Yakovlev:Yakovlev NP-PAT-OV ;
+Yanukov:Yanukov NP-PAT-OV ;
+Yaroslavov:Yaroslavov NP-PAT-OV ;
+Yüryev:Yüryev NP-PAT-OV ;
+
+
+
+
 Nadejda:Nadejda NP-ANT-F ; ! ""
 Lila:Lila NP-ANT-F ; ! ""
 Lüdmila:Lüdmila NP-ANT-F ; ! ""
