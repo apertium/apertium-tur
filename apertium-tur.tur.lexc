@@ -8908,7 +8908,6 @@ vatandaşlık:vatandaşlık N1 ;
 voyvoda:voyvoda N1 ;
 şeyh:şeyh N1 ;
 nogay:nogay N1 ;
-türk:türk N1 ;
 teşkilâtçı:teşkilâtçı N1 ;
 mahsulat:mahsulat N1 ;
 avdet:avdet N1 ;
@@ -9015,8 +9014,6 @@ ustalık:ustalık N1 ;
 tafsilat:tafsilat N1 ;
 ruhsatname:ruhsatname N1 ;
 litre:litre N1 ;
-havalımanı:havalımanı N1 ;
-havaalanı:havaalanı N1 ;
 milis:milis N1 ;
 umutsuzluk:umutsuzluk N1 ;
 otogar:otogar N1 ;
@@ -9594,8 +9591,11 @@ yiğit:yiğit N1 ;
 yükseliş:yükseliş N1 ;
 yetiştirme:yetiştirme N1 ;
 konvoy:konvoy N1 ;
+yapma:yapma N1 ; ! ""
 
-
+havalımanı:havalıman N2 ;
+havaalanı:havaalan N2 ;
+hava% gemiciliği:hava% gemicilik%{v%} N2 ;
 
 
 LEXICON ProperNouns
