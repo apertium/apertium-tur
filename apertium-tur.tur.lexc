@@ -18,6 +18,7 @@ Multichar_Symbols
 %<v%>          ! Verb                       
 %<vaux%>       ! Auxilary verb              
 %<adv%>        ! Adverb                     
+%<pat%>        ! Patronymic
 %<post%>       ! Postposition               
 %<postadv%>    ! Postadverb                 
 %<cnjcoo%>     ! Co-ordinating conjunction  
