@@ -18799,7 +18799,7 @@ derinleştir:derinleştir V-IR-TV ; ! "deepen" (T)
 ! yap:yap V-TV-DIR-AR ; ! "make, do"
 yap:yap V-AR-TV ; ! "make, do"
 !gel:gel V-IR-IV ; ! "come to a stop"
-gel:gel V-AR-IV ; ! "come" (DIR)
+gel:gel V-IR-IV ; ! "come" (DIR)
 !gel:gel V-IR-IV ; ! "come" (DIR)
 bağışlan:bağışlan V-IR-IV ; ! "be forgiven"
 yayınlan:yayınlan V-IR-IV ; ! "issue" (DIR)
