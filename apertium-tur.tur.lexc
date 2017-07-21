@@ -3086,6 +3086,7 @@ personel:personel N1 ; ! "staff"
 neden:neden N1 ; ! "reason"
 başsavcı:başsavcı N1 ; ! "general procurator"
 sergi:sergi N1 ; ! "show"
+suru:suru N1 ;
 şeffaflık:şeffaflık%{v%} N1 ; ! " transparency"
 komşuluk:komşuluk%{v%}  N1 ; ! "neighborhod"
 ofis:ofis N1 ; ! "office"
@@ -18477,7 +18478,7 @@ cidden:cidden ADV3 ; ! "Seriously"
 çifter:çifter ADV3 ; ! "in pairs"
 çoğu:çoğu ADV3 ; ! "often"
 çöğunlükla:çöğunlükla ADV3 ; ! "often"
-çokça:çokça ADV3 ; ! "greatly"
+çokça:çokça ADV3 ; ! "greatly"f
 çök:çök ADV3 ; ! "a lot"
 daha:daha ADV3 ; ! "more" @@SPECIAL
 daima:daima ADV3 ; ! "forever"
@@ -19874,7 +19875,7 @@ imren:imren V-IR-IV ; ! "envy" (DIR)
 ! inan:inan V-TV-DIR-IR ; ! "believe"
 inan:inan V-IR-TV ; ! "believe"
 bağla:bağla V-IR-TV ; ! "connect"
-
+sahip%ol :sahip%ol V-IV ; ! Use/MT
 incel:incel V-AR-IV ; ! "get thinner" (DIR)
 ışıklan:ışıklan V-IR-IV ; ! "lighten" (DIR)
 ısın:ısın V-IR-IV ; ! "get warmer" (DIR)
