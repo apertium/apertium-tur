@@ -19875,7 +19875,7 @@ imren:imren V-IR-IV ; ! "envy" (DIR)
 ! inan:inan V-TV-DIR-IR ; ! "believe"
 inan:inan V-IR-TV ; ! "believe"
 bağla:bağla V-IR-TV ; ! "connect"
-sahip%ol :sahip%ol V-IV ; ! Use/MT
+sahip%ol :sahip%ol V-IR-IV ; ! Use/MT
 incel:incel V-AR-IV ; ! "get thinner" (DIR)
 ışıklan:ışıklan V-IR-IV ; ! "lighten" (DIR)
 ısın:ısın V-IR-IV ; ! "get warmer" (DIR)
