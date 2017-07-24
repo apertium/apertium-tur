@@ -6077,6 +6077,7 @@ ittihaz:ittihaz N1 ; ! "acceptance"
 ivaz:ivaz N1 ; ! "consideration"
 ivinti:ivinti N1 ; ! "quickness"
 ivinti:ivinti N1 ; ! "speed"
+aşağlama:aşağlama N1 ; ! Use/MT
 ivme:ivme N1 ; ! "acceleration"
 izahat:izahat N1 ; ! "instruction"
 izah:izah N1 ; ! "expression"
