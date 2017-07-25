@@ -3007,6 +3007,7 @@ katip:katip%{v%} N1 ; ! "scribe"
 terk:terk N1 ; ! "abandonment"
 beraat:beraat N1 ; ! "exoneration"
 saha:saha N1 ; ! "field"
+tenge:tenge N1 ; !Use/MT
 oy:oy N1 ; ! "vote"
 sürpriz:sürpriz N1 ; ! "surprise"
 savcı:savcı N1 ; ! "solicitor"
