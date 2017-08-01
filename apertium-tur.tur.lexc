@@ -8907,7 +8907,7 @@ elektron:elektron N1 ;
 artist:artist N1 ;
 müessese:müessese N1 ;
 yakıt:yakıt N1 ;
-vatandaşlık:vatandaşlık N1 ;
+vatandaşlık:vatandaşlık%{v%} N1 ;
 voyvoda:voyvoda N1 ;
 şeyh:şeyh N1 ;
 nogay:nogay N1 ;
