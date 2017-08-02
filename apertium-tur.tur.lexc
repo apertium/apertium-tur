@@ -139,6 +139,7 @@ Multichar_Symbols
 %<ger_inf%>           !
 
 %<gna_perf%>
+%<gna_neg%>
 %<gna_cond%>
 %<gna_impf%>
 %<gna_when%>  ! at the same time as
@@ -505,6 +506,7 @@ LEXICON V-GNA
 !! Verbal adverbs
 
 %<gna_impf%>:%>%{y%}%{A%}r%{A%}k # ;
+%<gna_neg%>:%>m%{A%}d%{A%}n # ;
 %<gna_perf%>:%>%{y%}%{I%}p # ;
 %<gna_when%>:%>%{y%}%{I%}nc%{A%} # ;
 
