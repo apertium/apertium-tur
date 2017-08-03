@@ -576,7 +576,9 @@ LEXICON V-NEC
 LEXICON V-TENSE-ABIL
 
 %<abil%>:%>%{y%}%{A%}bil V-TENSE-ABIL-AFF ;
+%<pot%>:%>%{y%}%{A%}bil V-TENSE-ABIL-AFF ;
 %<abil%>%<neg%>:%>%{y%}%{A%}m%{A%} V-TENSE-ABIL-NEG ;
+%<pot%>%<neg%>:%>m%{A%}y%{A%}bil V-TENSE-ABIL-AFF ;
 
 LEXICON V-TENSE-ABIL-NEG
 
