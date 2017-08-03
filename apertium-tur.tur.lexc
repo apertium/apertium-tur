@@ -1402,11 +1402,13 @@ LEXICON PRON-ITG
 
 ne:ne PRON-ITG-INFL ; ! "what"
 neyi:neyi PRON-ITG-INFL ; ! "what"
+ne:ne PRON-ITG-INFL ; ! "what"
 niye:niye PRON-ITG-INFL ; ! "what"
 kim:kim PRON-ITG-INFL ; ! "who"
 hangi:hangi PRON-ITG-INFL ; ! "which"
-
+nedir:nedir PRON-ITG-INFL ;
 nere:ner PRON-ITG-NERE ; ! ""
+!ne% kadar: ne% kadar PRON-ITG-INFL ;
 
 LEXICON PRON-QNT
 
@@ -2851,6 +2853,8 @@ bu:bu PRON-DEM-BU ; ! "this"
 o:o PRON-DEM-BU ; ! "this"
 
 başka:başka PRON-IND ; ! "other"
+nerde:nerde PRON-IND ;
+hangi:hangi PRON-IND ;
 
 
 hiçbir% şey:hiçbirşey PRON-NEG ; ! "nothing" ! Dir/LR
@@ -2908,6 +2912,7 @@ ne% kadar:ne% kadar DET-QNT ; ! "how much"
 !az:az DET-QNT ; ! "a little"
 !fazla:fazla DET-QNT ; ! "a lot"
 hiçbir:hiçbir DET-QNT ; ! "nothing"
+herbir:herbir DET-QNT ;
 her:her DET-DEM ; ! "every"
 bütün:bütün DET-DEM ; ! "the whole"
 tüm:tüm DET-DEM ; ! "the whole"
@@ -2919,6 +2924,7 @@ herhangi:herhangi DET-IND ; ! "any"
 herhangi% bir:herhangi% bir DET-IND ; ! "anyone"
 ne% kadar:ne% kadar DET-ITG ; ! "how much"
 hangi:hangi DET-ITG ; ! "which"
+!nedir:nedir 
 
 
 !!!!TO BE REVIEWED !!!!
@@ -3004,9 +3010,14 @@ ihtiyacı:ihtiyacı N1 ; ! ""
 
 !!!NEW!!!
 
-
+votka:votka N1 ;
+pişmanlık:pişmanlık N1 ;
 süt:süt N1 ; ! " milke"
+kölelik:kölelik N1 ;
+mükkemel:mükkemel N1 ;
 tamir:tamir N1 ; ! "repair"
+savılık:savcılık N1 ; ! Use/MT
+çalışma:çalışma N1 ;! Use/MT
 donanma:donanma N1 ; ! "fleet"
 katip:katip%{v%} N1 ; ! "scribe"
 terk:terk N1 ; ! "abandonment"
@@ -3027,6 +3038,7 @@ refah:refah N1 ; ! ""
 soruşturma:soruşturma N1 ; ! "investigation"
 cümle:cümle N1 ; ! ""
 tümce:tümce N1 ; ! ""
+cüzdan:cüzdan N1 ; ! ""
 nakliyat:nakliyat N1 ; ! ""
 terim:terim N1 ; ! "term"
 tüketici:tüketici N1 ; ! "consumer"
@@ -3445,6 +3457,7 @@ alacakaranlık:alacakaranlık%{v%} N1 ; ! "twilight"
 alaka:alaka N1 ; ! "interest"
 alakart:alakart N1 ; ! "menu"
 alamet:alamet N1 ; ! "sign"
+tereyağı:tereyağı N1 ;
 alan:alan N1 ; ! "area"
 alarm:alarm N1 ; ! "alarm"
 alay:alay N1 ; ! "irony"
@@ -8331,6 +8344,7 @@ gemi:gemi N1 ; ! "boat"
 
 !! JNW Nouns
 vücud:vücud N1 ; ! "body"
+şişe:şişe N1 ;
 tekerlek:tekerlek N1 ; ! "wheel"
 bakıcı:bakıcı N1 ; ! "nurse/caregiver"
 bebeklik:bebeklik N1 ; ! "state of being a baby"
@@ -8583,6 +8597,7 @@ profesyonel:profesyonel N1 ; ! ""
 psikoloji:psikoloji N1 ; ! ""
 pul:pul N1 ; ! ""
 put:put N1 ; ! ""
+radyan:radyan N1 ;
 radyasyon:radyasyon N1 ; ! ""
 radyum:radyum N1 ; ! ""
 raf:raf N1 ; ! ""
@@ -8774,6 +8789,7 @@ yarbay:yarbay N1 ; ! ""
 yargıtay:yargıtay N1 ; ! ""
 yarın:yarın N1 ; ! ""
 yarışmacı:yarışmacı N1 ; ! ""
+yarışma:yarışma N1 ; ! ""
 yar:yar N1 ; ! ""
 yas:yas N1 ; ! ""
 yatak:yatak N1 ; ! ""
@@ -8912,7 +8928,7 @@ elektron:elektron N1 ;
 artist:artist N1 ;
 müessese:müessese N1 ;
 yakıt:yakıt N1 ;
-vatandaşlık:vatandaşlık%{v%} N1 ;
+vatandaşlık:vatandaşlık N1 ;
 voyvoda:voyvoda N1 ;
 şeyh:şeyh N1 ;
 nogay:nogay N1 ;
@@ -9121,15 +9137,15 @@ kırım% tatarı:Kırım% Tatar N2 ;
 kırım% tatarcası:Kırım% Tatarca N2 ;
 kırımtatar:Kırımtatar  N3 ; ! ""
 
-türk:Türk N3 ; ! "Turk"
-hırvat:Hırvat N3 ; ! ""
-arnavut:Arnavut N3 ; ! ""
-bulgar:Bulgar N3 ; ! ""
-makedon:Makedon N3 ; ! ""
-romen:Romen N3 ; ! ""
-kürt:Kürt N3 ; ! ""
-ingiliz:İngiliz N3 ; ! ""
-rus:Rus N3 ; ! ""
+türk:türk N3 ; ! "Turk"
+hırvat:hırvat N3 ; ! ""
+arnavut:arnavut N3 ; ! ""
+bulgar:bulgar N3 ; ! ""
+makedon:makedon N3 ; ! ""
+romen:romen N3 ; ! ""
+kürt:kürt N3 ; ! ""
+ingiliz:ingiliz N3 ; ! ""
+rus:rus N1 ; ! ""
 italyan:İtalyan N3 ; ! ""
 sırp:Sırp N3 ; ! ""
 rum:Rum N3 ; ! "Greek"
@@ -9139,7 +9155,7 @@ ermeni:Ermeni N3 ; ! ""
 ispanyol:İspanyol N3 ; ! ""
 ispanyolca:İspanyolca N3 ; ! ""
 arap:Arap N3 ; ! ""
-isveçli:İsveçli N3 ; ! "Swiss"
+isveçli:isveçli N3 ; ! "Swiss"
 özbek:Özbek N3 ; ! "Uzbek"
 japon:Japon N3 ; ! "Japanese"
 türkmen:Türkmen N3 ; ! "Turkmen"
@@ -16931,12 +16947,16 @@ sorunlu:sorunlu A4 ; ! "problematic"
 ezici:ezici A4 ; ! "devastating"
 edebi:edebi A4 ; ! "literary"
 tıpkı:tıpkı A2 ; ! "the same"
-
+yarım:yarım A3 ;
+yenilikçi:yenilikçi A1 ;
 kuzey:kuzey A2 ; ! "north"
 batı:batı A2 ; ! ""
+seçkin:seçkin A3 ;
+herbir:herbir A1 ;
 doğu:doğu A2 ; ! ""
+esas:esas A1 ; ! "main"
 güney:güney A2 ; ! ""
-
+emniyetli:emniyetli A2 ; 
 saklı:saklı A2 ; ! "secret"
 teşekküllü:teşekküllü A4 ; ! "organised"
 bireysel:bireysel A4 ; ! "singular"
@@ -17099,7 +17119,7 @@ yegane:yegane A4 ;  ! "single, only"
 avare:avare A4 ;  ! "vagrant"
 enjekte:enjekte A4 ;  ! "injective"
 emaye:emaye A2 ;  ! "varnish"
-saf:saf A2 ;  ! "pure"
+saf:saf A1 ;  ! "pure"
 pasif:pasif A2 ;  ! "nonactive, passive"
 progresif:progresif A4 ;  ! "progressive"
 federatif:federatif A4 ;  ! "federative"
@@ -17458,7 +17478,7 @@ erişilemez:erişilemez A4 ;  ! "unachievable"
 erişilmez:erişilmez A4 ;  ! "unreachable"
 tez:tez A2 ;  ! "prompt"
 cılız:cılız A4 ;  ! "puny"
-temiz:temiz A2 ;  ! "clean"
+temiz:temiz A1 ;  ! "clean"
 faydasız:faydasız A1 ;  ! "useless"
 vefasız:vefasız A1 ;  ! "unfaithful"
 acımasız:acımasız A1 ;  ! "cruel, ruthless"
@@ -17632,7 +17652,7 @@ sıkı:sıkı A1 ;  ! ""
 !benimki:benimki A1 ;  ! ""
 !bizimki:bizimki A1 ;  ! ""
 !sizinki:sizinki A1 ;  ! ""
-türki:türki A2 ;  ! ""
+türki:türki A1 ;  ! ""
 eski:eski A2 ;  ! ""
 pahalı:pahalı A4 ;  ! ""
 sendikalı:sendikalı A4 ;  ! ""
@@ -18231,6 +18251,9 @@ keş:keş A1 ; ! "druggee" ! FIXME: CHECK
 özerk:özerk A1 ; ! "autonomous"
 umumi:umumi A1 ; ! "public"
 tarihi:tarihi A1 ;
+öbür:öbür A1 ;
+yaralı:yaralı A2 ;
+bütün:bütün A1 ;
 hakiki:hakiki A1 ;
 kayıp:kayıp A1 ;
 kanuni:kanuni A1;
@@ -18379,7 +18402,10 @@ bu% yüzden:bu% yüzden ADV3 ; ! ""
 
 şimdi:şimdi ADV3 ; ! "now"
 tek:tek ADV3 ;!  ""
+fakat:fakat ADV3 ;
+önceden:önceden ADV3 ; 
 yukarı:yukarı ADV3 ; 
+aşağıya:aşağıya ADV3 ;
 yukarıda:yukarıda ADV3 ; 
 yukarıdan:yukarıdan ADV3 ; 
 halihazırda:halihazırda ADV3 ; ! "at the present state of affairs"
@@ -18484,6 +18510,7 @@ cebren:cebren ADV3 ; ! "by force"
 cidden:cidden ADV3 ; ! "Seriously"
 çifter:çifter ADV3 ; ! "in pairs"
 çoğu:çoğu ADV3 ; ! "often"
+emniyetle:emniyetle  ADV3 ; ! 
 çöğunlükla:çöğunlükla ADV3 ; ! "often"
 çokça:çokça ADV3 ; ! "greatly"f
 çök:çök ADV3 ; ! "a lot"
@@ -18716,13 +18743,16 @@ hayattayken:hayattayken ADV3 ; ! "while alive" Use/MT
 bu% yana:bu% yana ADV3 ; ! "with ablative: from X until now / from X onwards"
 nasıl:nasıl ADV-ITG ; ! "how" ! FIXME: also adj?  or det?
 niçin:niçin ADV-ITG ; ! "why"
-
+neden:neden ADV-ITG ;
+ne:ne ADV-ITG ; !Use/MT
+nerde:nerde ADV-ITG ; !Use/MT
 
 LEXICON Verbs 
 sadeleştir:sadeleştir V-IR-TV ;
 sıkıştır:sıkıştır V-IR-TV ;
 batır:batır V-IR-TV ;
 şişir:şişir V-IR-TV ;
+küçült:küçült V-IR-TV ;
 değerlendir:değerlendir V-IR-TV ;
 bitir:bitir V-IR-TV ;
 bölüştür:bölüştür V-IR-TV ;
@@ -18730,6 +18760,8 @@ buruştur:buruştur V-IR-TV ;
 telaşlandır:telaşlandır V-IR-TV ;
 tırmala:tırmala V-AR-TV ;
 içir:içir V-IR-TV ;
+açıl:açıl V-IR-IV ;
+yoğunla:yoğunla V-IR-TV ; !Use/MT
 geçir:geçir V-IR-TV ;
 merkezileştir:merkezileştir V-IR-TV ;
 millileştir:millileştir V-IR-TV ;
