@@ -2892,6 +2892,10 @@ bir:bir DET-IND ; ! "a, one"
 başka:başka DET-IND ; ! "other"
 birkaç:birkaç DET-IND ; ! "some"
 
+böyle:böyle DET-IND ; 
+şöyle:şöyle DET-IND ; 
+öyle:öyle DET-IND ; 
+
 hiç% bir:hiç% bir DET-NEG ; ! ""
 
 kendi:kendi DET-REF ; ! ""
