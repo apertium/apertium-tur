@@ -2681,6 +2681,7 @@ için:için POST ; ! ""
 itibaren:itibaren POST ; ! "from x onward"
 ile:İle POST ; ! "" ! Dir/LR
 ile:ile POST ; ! ""
+değin:değin POST ;
 kadar:kadar POST ; ! ""
 takdirde:takdirde POST ; ! "in case of" 
 boyunca:boyunca POST ; ! "during"
@@ -2718,6 +2719,7 @@ ibibaren:ibibaren POST ; ! ""
 önce:önce POST ; ! ""
 sonra:sonra POST ; ! ""
 yana:yana POST ; ! ""
+olarak:olarak POST ;
 
 ! Comitative
 
@@ -2739,6 +2741,7 @@ ye:ye CC ; ! "either/or"
 veya:veya CC ; ! "either/or"
 ne:ne CC ; ! "neither/nor"
 da:da CC ; ! ""
+sırasında:sırasında CC ;
 da:de CC ; ! "" ! Dir/LR
 fakat:fakat CC ; ! ""
 ya% da:ya% da CC ; ! ""
@@ -3007,7 +3010,7 @@ LEXICON Nouns
 hakk:hakk N1 ; ! "regarding"
 zapt:zapt N1 ;
 halinde:halinde POST ; ! "ın case of" ! FIXME
-
+acem:acem N1 ;
 yukar:yukar N1 ; ! ""
 
 ihtiyacı:ihtiyacı N1 ; ! "" 
@@ -3018,6 +3021,7 @@ votka:votka N1 ;
 pişmanlık:pişmanlık N1 ;
 süt:süt N1 ; ! " milke"
 kölelik:kölelik N1 ;
+adaylık:adaylık N1 ;
 mükkemel:mükkemel N1 ;
 tamir:tamir N1 ; ! "repair"
 savılık:savcılık N1 ; ! Use/MT
@@ -3194,6 +3198,7 @@ tahsis:tahsis N1 ; ! "allocation"
 siyaset:siyaset N1 ; ! "politics"
 dolarlık:dolarlık N1 ; ! "dollar"
 örgüt:örgüt N1 ; ! "organization"
+rial:rial N1 ;
 ihlal:ihlal N1 ; ! "invasion"
 olay:olay N1 ; ! "event"
 röportaj:röportaj N1 ; ! "interview"
@@ -3284,6 +3289,7 @@ yönetim:yönetim N1 ; ! "administration"
 oran:oran N1 ; ! "proportion"
 teşvik:teşvik N1 ; ! "urge"
 oğlan:oğlan N1 ; ! "boy"
+kazanan:kazanan N1 ;
 soru:soru N1 ; ! "problem"
 aba:aba N1 ; ! "cloth"
 abajur:abajur N1 ; ! "lampshade"
@@ -3931,6 +3937,7 @@ bölük:bölük%{v%} N1 ; ! "part"
 bölük:bölük%{v%} N1 ; ! "troop"
 bölüm:bölüm N1 ; ! "chapter"
 bölüntü:bölüntü N1 ; ! "sect"
+beluc:beluc N1 ;
 bomba:bomba N1 ; ! "bomb"
 bombardıman:bombardıman N1 ; ! "bombing"
 bombe:bombe N1 ; ! "bow"
@@ -5975,6 +5982,8 @@ isilik:isilik%{v%} N1 ; ! "heat rash"
 ışıltı:ışıltı N1 ; ! "flash"
 ışıltı:ışıltı N1 ; ! "shining"
 ışın:ışın N1 ; ! "beam"
+şii:şii N1 ; ! "şii"
+ayetullah:ayetullah N1 ;
 ısın:ısın N1 ; ! "calorie"
 ısıölçer:ısıölçer N1 ; ! "thermometer"
 ısırık:ısırık N1 ; ! "bite"
@@ -8349,6 +8358,7 @@ gemi:gemi N1 ; ! "boat"
 !! JNW Nouns
 vücud:vücud N1 ; ! "body"
 şişe:şişe N1 ;
+oratalma:ortalama N1 ;
 tekerlek:tekerlek N1 ; ! "wheel"
 bakıcı:bakıcı N1 ; ! "nurse/caregiver"
 bebeklik:bebeklik N1 ; ! "state of being a baby"
@@ -9654,6 +9664,7 @@ Avangard:Avangard NP-TOP ; ! ""
 Cambridge:Cambridge NP-TOP ; ! ""
 Skele:Skele NP-TOP ; ! ""
 Girne:Girne NP-TOP ; ! ""
+Meşhed:Meşhed NP-TOP ; 
 Mare:Mare NP-TOP ; ! ""
 Nove:Nove NP-TOP ; ! ""
 Ostrog:Ostrog NP-TOP ; ! ""
@@ -9690,6 +9701,7 @@ Abdul:Abdul NP-ANT-M ; ! ""
 Abdurahman:Abdurahman NP-ANT-M ; ! ""
 Abduraman:Abduraman NP-ANT-M ; ! ""
 Abdureim:Abdureim NP-ANT-M ; ! ""
+Seid:Seid NP-ANT-M ; 
 Abdureşid:Abdureşid NP-ANT-M ; ! ""
 Abdureşit:Abdureşit NP-ANT-M ; ! ""
 Abdürrahman:Abdürrahman NP-ANT-M ; ! ""
@@ -9735,6 +9747,7 @@ Boeing:Boeing NP-AL ; ! ""
 Gazprom:Gazprom NP-AL ; ! ""
 Naftogaz:Naftogaz NP-AL ; ! ""
 Twitter:Twitter NP-AL ; ! ""
+Dünya% Şampiyonası:Dünya% Şampiyonası NP-AL ;
 
 
 Kurman:Kurman NP-TOP ; !""
@@ -10480,6 +10493,7 @@ Tanzanya:Tanzanya NP-TOP ; ! ""
 Taşkent:Taşkent NP-TOP ; ! ""
 Tasmanya:Tasmanya NP-TOP ; ! ""
 Tayland:Tayland NP-TOP ; ! ""
+Sao% Paulo:Sao% Paulo NP-TOP ; ! ""
 Tearçe:Tearçe NP-TOP ; ! ""
 Teksas:Teksas NP-TOP ; ! ""
 Tel% Aviv:Tel% Aviv NP-TOP ; ! ""
@@ -10587,6 +10601,7 @@ Durres:Durres NP-TOP ; ! ""
 Vlora:Vlora NP-TOP ; ! ""
 Bitola:Bitola NP-TOP ; ! ""
 Bosna:Bosna NP-TOP ; ! ""
+Rio-de-Janeiro:Rio-de-Janeiro NP-TOP ;! ""
 
 
 Abakan:Abakan NP-TOP ; ! ""
@@ -10957,6 +10972,7 @@ SYRIZA:SYRIZA NP-ORG ; ! ""
 NATO:NATO%{o%} NP-ORG ; ! ""
 PKK:PKK%{ı%} NP-ORG ; ! ""
 UNMIK:UNMIK NP-ORG ; ! ""
+FIFA:FIFA NP-ORG ; ! ""
 IMF:IMF%{ii%}  NP-ORG ; ! ""
 GSYİH:GSYİH%{ii%}  NP-ORG ; ! ""
 AFP:AFP%{ii%} NP-ORG ; ! ""
@@ -11055,6 +11071,7 @@ Svoboda:Svoboda NP-AL ; ! ""
 YouTube:YouTube NP-AL ; ! ""
 Linux:Linux NP-AL ; ! ""
 Krıminform:Krıminform NP-AL ;
+Maracana:Maracana NP-AL ;
 
 HIV:HIV NP-AL ; ! "" @?@
 CEFTA:CEFTA NP-AL ; ! ""
@@ -11979,6 +11996,7 @@ de% Kermabon:de% Kermabon NP-COG-MF ; ! ""
 Hristofyas:Hristofyas NP-COG-MF ; ! ""
 Selimay:Selimay NP-COG-MF ; ! ""
 Boc:Boc NP-COG-MF ; ! ""
+Hatemi:Hatemi NP-COG-MF ; ! ""
 Pamuk:Pamuk NP-COG-MF ; ! ""
 Rücker:Rücker NP-COG-MF ; ! ""
 Moon:Moon NP-COG-MF ; ! ""
@@ -12100,6 +12118,7 @@ Goldstein:Goldstein NP-COG-MF ; ! ""
 Bartenstein:Bartenstein NP-COG-MF ; ! ""
 Winterstein:Winterstein NP-COG-MF ; ! ""
 Wolfenstein:Wolfenstein NP-COG-MF ; ! ""
+Hamaney:Hamaney NP-COG-MF ; ! ""
 
 
 İskender:İskender NP-ANT-M ;
@@ -16952,9 +16971,12 @@ ezici:ezici A4 ; ! "devastating"
 edebi:edebi A4 ; ! "literary"
 tıpkı:tıpkı A2 ; ! "the same"
 yarım:yarım A3 ;
+tropikal:tropikal A4 ;
+konukçu:konukçu A1 ;
 yenilikçi:yenilikçi A1 ;
 kuzey:kuzey A2 ; ! "north"
 batı:batı A2 ; ! ""
+güney% amerikan:güney% amerikan A4 ;
 seçkin:seçkin A3 ;
 herbir:herbir A1 ;
 doğu:doğu A2 ; ! ""
@@ -17011,6 +17033,7 @@ beta:beta A2 ; ! "beta"
 kritik:kritik A2 ; ! "critic"
 çaplı:çaplı A4 ; ! "big sized"
 ünlü:ünlü A1 ; ! "important"
+hayin:hayin A1 ;
 ticari:ticari A4 ; ! "commercial"
 vadeli:vadeli A2 ; ! "deferred"
 tarihli:tarihli A2 ; ! "historical"
@@ -17068,6 +17091,7 @@ ikili:ikili A2 ; ! "dual"
 belli:belli A2 ; ! "evident"
 iyi:İyi A1 ; ! "good" ! Dir/LR
 iyi:iyi A1 ; ! "good"
+turnuva:turnuva A4 ;
 ilmi:ilmi A1 ; ! ""
 razı:razı A1 ; ! ""
 çökmüş:çökmüş A2 ; ! ""
@@ -18235,6 +18259,7 @@ yolsuz:yolsuz A4 ;  ! ""
 mutsuz:mutsuz A4 ;  ! ""
 yüzsüz:yüzsüz A4 ;  ! ""
 komutа:komutа A4 ;  ! ""
+dağlık:dağlık A3 ;
 gereken:gereken A4 ;  ! ""
 kısa:kısa A1 ; ! "short"
 değerli:değerli A1 ; ! "different"
@@ -18255,6 +18280,7 @@ keş:keş A1 ; ! "druggee" ! FIXME: CHECK
 özerk:özerk A1 ; ! "autonomous"
 umumi:umumi A1 ; ! "public"
 tarihi:tarihi A1 ;
+daha% fazla:daha% fazla A1 ;
 öbür:öbür A1 ;
 yaralı:yaralı A2 ;
 bütün:bütün A1 ;
@@ -18407,7 +18433,8 @@ bu% yüzden:bu% yüzden ADV3 ; ! ""
 şimdi:şimdi ADV3 ; ! "now"
 tek:tek ADV3 ;!  ""
 fakat:fakat ADV3 ;
-önceden:önceden ADV3 ; 
+önceden:önceden ADV3 ;
+hakkıyla:hakkıyla ADV3 ;  
 yukarı:yukarı ADV3 ; 
 aşağıya:aşağıya ADV3 ;
 yukarıda:yukarıda ADV3 ; 
@@ -18749,6 +18776,7 @@ nasıl:nasıl ADV-ITG ; ! "how" ! FIXME: also adj?  or det?
 niçin:niçin ADV-ITG ; ! "why"
 ne% kadar:ne% kadar ADV-ITG ; ! ""
 neden:neden ADV-ITG ;
+aynı% şekilde:aynı% şekilde ADV3 ;
 ne:ne ADV-ITG ; !Use/MT
 nerde:nerde ADV-ITG ; !Use/MT
 
