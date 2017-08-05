@@ -2681,6 +2681,7 @@ için:için POST ; ! ""
 itibaren:itibaren POST ; ! "from x onward"
 ile:İle POST ; ! "" ! Dir/LR
 ile:ile POST ; ! ""
+dair:dair POST ;
 değin:değin POST ;
 kadar:kadar POST ; ! ""
 takdirde:takdirde POST ; ! "in case of" 
@@ -2692,6 +2693,7 @@ edici:edici POST ; ! @@@ really weird behaviour
 dolu:dolu POST ; ! "for the/an entire" (e.g. "hayat dolu")
 
 evvel:evvel POST ; ! ""
+yakın:yakın POST ;
 
 ! Genıtıve
 
@@ -3020,9 +3022,15 @@ ihtiyacı:ihtiyacı N1 ; ! ""
 votka:votka N1 ;
 pişmanlık:pişmanlık N1 ;
 süt:süt N1 ; ! " milke"
+kaganat:kaganat N1 ;
+bin% yıl: bin% yıl N1 ;
 kölelik:kölelik N1 ;
 adaylık:adaylık N1 ;
 mükkemel:mükkemel N1 ;
+atık:atık N1 ;
+sürüngen:sürüngen N1 ;
+miktar:miktar N1 ;
+paten:paten N1 ;
 tamir:tamir N1 ; ! "repair"
 savılık:savcılık N1 ; ! Use/MT
 çalışma:çalışma N1 ;! Use/MT
@@ -7235,6 +7243,7 @@ malik:malik%{v%} N1 ; ! "owner"
 malik:malik%{v%} N1 ; ! "tenant"
 maliye:maliye N1 ; ! "finance"
 maliyet:maliyet N1 ; ! "cost"
+arya:arya N1 ;
 mal:mal N1 ; ! "goods"
 maltız:maltız N1 ; ! "devil"
 maluliyet:maluliyet N1 ; ! "disability"
@@ -8354,6 +8363,7 @@ aklama:aklama N1 ; ! "exoneration"
 yaşam:yaşam N1 ; ! "life"
 stand:stand N1 ; ! "stand"
 gemi:gemi N1 ; ! "boat"
+oğuz:oğuz N1 ;
 
 !! JNW Nouns
 vücud:vücud N1 ; ! "body"
@@ -8546,6 +8556,7 @@ mansıp:mansıp N1 ; ! ""
 mesel:mesel N1 ; ! ""
 meselе:meselе N1 ; ! ""
 mesleki:mesleki N1 ; ! ""
+selcuk:selcuk N1 ;
 mihman:mihman N1 ; ! ""
 milletvekil:milletvekil N1 ; ! ""
 monarşi:monarşi N1 ; ! ""
@@ -8579,6 +8590,7 @@ ortak:ortak N1 ; ! ""
 orta:orta N1 ; ! ""
 otobüs:otobüs N1 ; ! ""
 otonomi:otonomi N1 ; ! ""
+baltacı% askerler: baltacı% askerler N1 ;
 oto:oto N1 ; ! ""
 öykü:öykü N1 ; ! ""
 öz:öz N1 ; ! ""
@@ -9648,6 +9660,7 @@ Boğaz:Boğaz NP-TOP ; ! ""
 Krasnoperekopsk:Krasnoperekopsk NP-TOP ; ! ""
 Kirovograd:Kirovograd NP-TOP ; ! ""
 Kefe:Kefe NP-TOP ; ! ""
+Elburz:Elburz NP-TOP ;
 
 
 Pobeda:Pobeda NP-TOP ; ! ""
@@ -9698,10 +9711,14 @@ Kerç:Kerç NP-TOP ; ! ""
 
 Abdal:Abdal NP-ANT-M ; ! ""
 Abdul:Abdul NP-ANT-M ; ! ""
+Al-Abbas:Al-Abbas NP-ANT-M ; ! ""
+Al-Saffah:Al-Saffah NP-ANT-M ; ! ""
+Aleksander:Aleksander NP-ANT-M ; ! ""
 Abdurahman:Abdurahman NP-ANT-M ; ! ""
 Abduraman:Abduraman NP-ANT-M ; ! ""
 Abdureim:Abdureim NP-ANT-M ; ! ""
 Seid:Seid NP-ANT-M ; 
+Abu:Abu NP-ANT-M ; 
 Abdureşid:Abdureşid NP-ANT-M ; ! ""
 Abdureşit:Abdureşit NP-ANT-M ; ! ""
 Abdürrahman:Abdürrahman NP-ANT-M ; ! ""
@@ -9849,6 +9866,7 @@ Lenin:Lenin NP-COG-MF ; ! ""
 Bondarenko:Bondarenko NP-COG-MF ; ! ""
 Cemilev:Cemilev NP-COG-MF ; ! ""
 Fomenko:Fomenko NP-COG-MF ; ! ""
+Makedonya:Makedonya NP-COG-MF ; ! ""
 Kerry:Kerry NP-COG-MF ; ! ""
 Kezlev:Kezlev NP-COG-MF ; ! ""
 Kirilenko:Kirilenko NP-COG-MF ; ! ""
@@ -9991,6 +10009,8 @@ Afrika:Afrika NP-TOP ; ! ""
 Alabama:Alabama NP-TOP ; ! ""
 Alaska:Alaska NP-TOP ; ! ""
 Albi:Albi NP-TOP ; ! ""
+Parfiya:Parfiya NP-TOP ; ! ""
+Sasani:Sasani NP-TOP ; ! ""
 Almanya:Almanya NP-TOP ; ! ""
 Amerika:Amerika NP-TOP ; ! ""
 Amman:Amman NP-TOP ; ! ""
@@ -16971,15 +16991,20 @@ ezici:ezici A4 ; ! "devastating"
 edebi:edebi A4 ; ! "literary"
 tıpkı:tıpkı A2 ; ! "the same"
 yarım:yarım A3 ;
+komşu:kmoşu A1 ;
+bitişik:bitişik A1 ;
 tropikal:tropikal A4 ;
+pers:pers A4 ;
 konukçu:konukçu A1 ;
 yenilikçi:yenilikçi A1 ;
 kuzey:kuzey A2 ; ! "north"
 batı:batı A2 ; ! ""
+içbükey:içbükey A1 ;
 güney% amerikan:güney% amerikan A4 ;
 seçkin:seçkin A3 ;
 herbir:herbir A1 ;
 doğu:doğu A2 ; ! ""
+erken:erken A1 ;
 esas:esas A1 ; ! "main"
 güney:güney A2 ; ! ""
 emniyetli:emniyetli A2 ; 
@@ -17460,7 +17485,7 @@ anlaşılır:anlaşılır A4 ;  ! "understandable"
 ışınır:ışınır A4 ;  ! "fluorescent"
 mor:mor A2 ;  ! "purple"
 cesur:cesur A4 ;  ! "brave, brave"
-çağdaş:çağdaş A4 ;  ! "contemporary, contemporary"
+çağdaş:çağdaş A1 ;  ! "contemporary, contemporary"
 anlamdaş:anlamdaş A4 ;  ! "synonymous"
 ekspres:ekspres A2 ;  ! "express"
 nefis:nefis A4 ;  ! "scrumptious"
@@ -18785,6 +18810,7 @@ sadeleştir:sadeleştir V-IR-TV ;
 sıkıştır:sıkıştır V-IR-TV ;
 batır:batır V-IR-TV ;
 şişir:şişir V-IR-TV ;
+sars:sars V-IR-TV ;
 küçült:küçült V-IR-TV ;
 değerlendir:değerlendir V-IR-TV ;
 bitir:bitir V-IR-TV ;
@@ -19031,7 +19057,7 @@ bahset:bahset V-AR-TV ; ! "talk about" (DIR)
 bahşet:bahşet V-AR-TV ; ! "forgive" (DIR)
 bak:bak V-AR-IV ; ! "look at" (DIR)
 ban:ban V-AR-TV ; ! "dip into" (DIR)
-bas:bas V-AR-TV ; ! "press" (DIR)
+bas:bas V-AR-IV ; ! "press" (DIR)
 bastır:bastır V-AR-TV ; ! "" (T)
 başar:başar V-IR-TV ; ! "success" (DIR)
 başvur:başvur V-IR-IV ; ! "apply (for something)" (DIR) JNW
@@ -19630,6 +19656,7 @@ görüntüle:görüntüle V-IR-TV ; ! "display" (T)
 göze:göze V-IR-TV ; ! "darn" (T)
 gözetle:gözetle V-IR-TV ; ! "observe" (T)
 gözle:gözle V-IR-TV ; ! "watch" (T)
+cesaret% et:cesaret% et V-IR-IV ; 
 gözlemle:gözlemle V-IR-TV ; ! "observe" (T)
 grupla:grupla V-IR-TV ; ! "group" (T)
 hakla:hakla V-IR-TV ; ! "beat" (T)
