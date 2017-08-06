@@ -3023,6 +3023,8 @@ tacik:tacik N1 ;
 elyazısı:elyazısı N1 ;
 stok:stok N1 ;
 tekstil:tekstil N1 ;
+minyatür:minyatür N1  ;
+dublör:dublör N1 ;
 
 ihtiyacı:ihtiyacı N1 ; ! "" 
 
@@ -3354,6 +3356,7 @@ acyo:acyo N1 ; ! "agio"
 ada:ada N1 ; ! "island"
 adabımuaşeret:adabımuaşeret N1 ; ! "etiquette"
 ad:ad N1 ; ! "name"
+gida:gida N1 ;
 soyad:soyad N1 ; ! "name"
 adale:adale N1 ; ! "muscle"
 adalet:adalet N1 ; ! "justice"
@@ -8380,6 +8383,7 @@ oğuz:oğuz N1 ;
 !! JNW Nouns
 vücud:vücud N1 ; ! "body"
 şişe:şişe N1 ;
+akamanış:akamanış N1 ;
 oratalma:ortalama N1 ;
 tekerlek:tekerlek N1 ; ! "wheel"
 bakıcı:bakıcı N1 ; ! "nurse/caregiver"
@@ -9103,6 +9107,7 @@ gemicilik:gemicilik N1 ;
 makineleşme:makineleşme N1 ;
 raportör:raportör N1 ;
 haberci:haberci N1 ;
+makine:makine N1 ;
 stereotip:stereotip N1 ;
 terhis:terhis N1 ;
 videokonferans:videokonferans N1 ;
@@ -9673,7 +9678,7 @@ Krasnoperekopsk:Krasnoperekopsk NP-TOP ; ! ""
 Kirovograd:Kirovograd NP-TOP ; ! ""
 Kefe:Kefe NP-TOP ; ! ""
 Elburz:Elburz NP-TOP ;
-
+Herat:Herat NP-TOP ;
 
 Pobeda:Pobeda NP-TOP ; ! ""
 Malaysia:Malaysia NP-TOP ; ! ""
@@ -17005,13 +17010,19 @@ insancıl:insancıl A1 ;
 karşı:karşı A1 ;
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
-
+türev:türev A1 ;
+tamamlayıcı:tamamlayıcı A4 ;
 dolaylı:dolaylı A4 ; ! "indirect"
 sorunlu:sorunlu A4 ; ! "problematic"
 ölçekli:ölçekli A2 ; ! "scaled"
 ezici:ezici A4 ; ! "devastating"
 edebi:edebi A4 ; ! "literary"
 tıpkı:tıpkı A2 ; ! "the same"
+sulu:sulu A4 ;
+asırlık:asırlık A4 ;
+farkedilir:fakedilir A2 ;
+yağlı:yağlı A4 ;
+mimarlıkla% ilgili:mimarlıkla% ilgili A4 ;
 yarım:yarım A3 ;
 komşu:kmoşu A1 ;
 çok:çok A1 ;
@@ -17883,7 +17894,7 @@ minik:minik A4 ;  ! ""
 ironik:ironik A4 ;  ! ""
 etnik:etnik A4 ;  ! ""
 epik:epik A4 ;  ! ""
-tipik:tipik A4 ;  ! ""
+tipik:tipik A1 ;  ! ""
 tropik:tropik A4 ;  ! ""
 çarpık:çarpık A4 ;  ! ""
 şımarık:şımarık A4 ;  ! ""
@@ -19143,6 +19154,7 @@ cezbet:cezbet V-AR-TV ; ! "attract" (DIR)
 çıkar:çıkar V-IR-TV ; ! "eject, remove" (DIR)
 çim:çim V-AR-TV ; ! "grass" (DIR)
 çırp:çırp V-AR-TV ; ! "whisk" (DIR)
+dekor% et:dekor% et V-AR-TV ;
 çiz:çiz V-AR-TV ; ! "draw" (DIR)
 çök:çök V-AR-IV ; ! "collapse, fall down; sink" (DIR)
 çöz:çöz V-AR-TV ; ! "solve" (DIR)
@@ -19680,6 +19692,7 @@ eyle:eyle V-IR-TV ; ! "make" (T)
 ezberle:ezberle V-IR-TV ; ! "memorize" (T)
 faksla:faksla V-IR-TV ; ! "fax" (T)
 faturala:faturala V-IR-TV ; ! "billing" (T)
+medenileştir:medenileştir V-IR-TV ; 
 fırınla:fırınla V-IR-TV ; ! "ovendry" (T)
 fotoğrafla:fotoğrafla V-IR-TV ; ! "photo" (T)
 frenle:frenle V-IR-TV ; ! "brake" (T)
@@ -20129,7 +20142,7 @@ kahrol:kahrol V-IR-IV ;
 rahatsızlan:rahatsızlan V-IR-IV ;
 kırımtatarlaş:kırımtatarlaş V-IR-IV ;
 donatıl:donatıl V-IR-IV ;
-
+donat:donat V-IR-TV ;
 
 
 üre:üre V-IR-IV ; ! "procreate" (T)
@@ -20288,7 +20301,7 @@ karar% ver:karar% ver V-IR-TV ; ! "decide" ! Dir/RL ! Use/MT
 sevin:sevin V-IR-IV ; ! "be pleased, rejoice"
 helak% ol:helak% ol V-IR-IV ; ! "" ! Dir/RL ! Use/MT
 bağlı% ol:bağlı% ol V-IR-IV ; ! "" ! Dir/RL ! Use/MT
-
+uygula:uygula V-IR-IV ;
 kötüleş:kötüleş V-AR-IV ; ! ""
 
 gezle:gezle V-IR-IV ; ! ""
@@ -20446,6 +20459,8 @@ LEXICON Symbols
 LEXICON Abbreviations
 
 vs%.%<abbr%>:vs%. # ;
+A%.%<abbr%>:A%. # ;
+M%.%<abbr%>:M%. # ;
 
 LEXICON Punctuation
 
