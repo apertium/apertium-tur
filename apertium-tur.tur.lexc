@@ -2761,7 +2761,8 @@ lakin:lakin CC ;
 ne:ne CC ; 
 veya:veya CC ; 
 veyahut:veyahut CC ; 
-ya:ya CC ; 
+ya:ya CC ;
+ya% da:ya% da CC ; 
 için:için CC ; 
 ha:ha CC ; 
 kah:kah CC ; 
@@ -3018,7 +3019,10 @@ yukar:yukar N1 ; ! ""
 iran:iran N1 ;
 bağımlılık:bağımlılık N1 ;
 devir:devir N1 ;
-rahip:rahip N1 ;
+tacik:tacik N1 ;
+elyazısı:elyazısı N1 ;
+stok:stok N1 ;
+tekstil:tekstil N1 ;
 
 ihtiyacı:ihtiyacı N1 ; ! "" 
 
@@ -3107,6 +3111,7 @@ yazar:yazar N1 ; ! "author"
 patika:patika N1 ; ! "path"
 Büyükelçilik:Büyükelçilik%{v%} N1 ; ! embassy"
 yurtdış:yurtdış N2 ; ! "abroad"
+din% adamı:din% adam N2 ; 
 bütünleşme:bütünleşme N1 ; ! "consolidation"
 doğrultu:doğrultu N1 ; ! "direction"
 ithal:ithal N1 ; ! "importation"
@@ -9724,13 +9729,17 @@ Aleksander:Aleksander NP-ANT-M ; ! ""
 Abdurahman:Abdurahman NP-ANT-M ; ! ""
 Abduraman:Abduraman NP-ANT-M ; ! ""
 Abdureim:Abdureim NP-ANT-M ; ! ""
-Seid:Seid NP-ANT-M ; 
+Seid:Seid NP-ANT-M ;
+Nursultan:Nursultan NP-ANT-M ; 
 Abu:Abu NP-ANT-M ; 
 Rıza:Rıza NP-ANT-M ;
 Pehlevi:Pehlevi NP-COG-MF ; !"Use/MT"
 Humeyni:Humeyni NP-COG-MF ; !"Use/MT"
+Rafsancani:Rafsancani NP-COG-MF ; !"Use/MT"
+Nazarbayev:Nazarbayev NP-COG-MF ; !"Use/MT"
 Kajar:Kajar NP-ANT-M ;
 Abdureşid:Abdureşid NP-ANT-M ; ! ""
+Haşimi:Haşimi NP-ANT-M ; ! ""
 Abdureşit:Abdureşit NP-ANT-M ; ! ""
 Abdürrahman:Abdürrahman NP-ANT-M ; ! ""
 Abdürrefi:Abdürrefi NP-ANT-M ; ! ""
@@ -17006,6 +17015,9 @@ tıpkı:tıpkı A2 ; ! "the same"
 yarım:yarım A3 ;
 komşu:kmoşu A1 ;
 çok:çok A1 ;
+değişik:değişik A1 ;
+klasik:klasik A4 ;
+başçıl:başçıl A2 ;
 ailevi:ailevi A4 ;
 aristokratik:aristokratik A4 ;
 bitişik:bitişik A1 ;
@@ -17153,7 +17165,7 @@ amaçlı:amaçlı A2 ; ! "orıented"
 ortak:ortak%{v%} A2 ; ! ""
 dış:dış A2 ; ! "partner"
 siyasi:siyasi A2 ; ! "political"
-ana:ana A4 ; ! "main"
+ana:ana A2 ; ! "main"
 milli:milli A2 ; ! "national"
 tam:tam A4 ; ! 'exact'
 ekonomik:ekonomik A4 ; ! "economic"
@@ -18478,7 +18490,8 @@ bu% yüzden:bu% yüzden ADV3 ; ! ""
 tek:tek ADV3 ;!  ""
 fakat:fakat ADV3 ;
 önceden:önceden ADV3 ;
-hakkıyla:hakkıyla ADV3 ;  
+hakkıyla:hakkıyla ADV3 ; 
+yıllık% olarak: yıllık% olarak ADV3 ; 
 yukarı:yukarı ADV3 ;
 tamamıyla:tamamıyla ADV3 ; 
 aşağıya:aşağıya ADV3 ;
@@ -18828,7 +18841,10 @@ nerde:nerde ADV-ITG ; !Use/MT
 LEXICON Verbs 
 sadeleştir:sadeleştir V-IR-TV ;
 sıkıştır:sıkıştır V-IR-TV ;
+kibarlaştır:kibarlaştır V-IR-TV ;
+iyleş:iyleş V-IR-IV ;
 batır:batır V-IR-TV ;
+hizmet% et:hizmet% et V-IR-TV ;
 şişir:şişir V-IR-TV ;
 бас% тарт:бас% тарт V-IR-TV ;
 mecbur% et:mecbur% et V-IR-TV ;
