@@ -230,7 +230,7 @@ Adjectives ;
 Adverbs ; 
 Verbs ; 
 Interjections ; 
-!Abbreviations ; 
+Abbreviations ; 
 Punctuation ; 
 Digits ;  ! Use/Circ
 
@@ -20426,6 +20426,10 @@ LEXICON Symbols
 :%# SYM-HASH-TAG ; 
 
 °C:°C SYM ; 
+
+LEXICON Abbreviations
+
+vs%.%<abbr%>:vs%. # ;
 
 LEXICON Punctuation
 
