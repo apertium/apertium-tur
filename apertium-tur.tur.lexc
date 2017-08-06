@@ -2683,6 +2683,7 @@ ile:İle POST ; ! "" ! Dir/LR
 ile:ile POST ; ! ""
 dair:dair POST ;
 değin:değin POST ;
+ile% ilgili:ile% ilgili POST ;
 kadar:kadar POST ; ! ""
 takdirde:takdirde POST ; ! "in case of" 
 boyunca:boyunca POST ; ! "during"
@@ -3014,6 +3015,10 @@ zapt:zapt N1 ;
 halinde:halinde POST ; ! "ın case of" ! FIXME
 acem:acem N1 ;
 yukar:yukar N1 ; ! ""
+iran:iran N1 ;
+bağımlılık:bağımlılık N1 ;
+devir:devir N1 ;
+rahip:rahip N1 ;
 
 ihtiyacı:ihtiyacı N1 ; ! "" 
 
@@ -3054,6 +3059,7 @@ refah:refah N1 ; ! ""
 soruşturma:soruşturma N1 ; ! "investigation"
 cümle:cümle N1 ; ! ""
 tümce:tümce N1 ; ! ""
+şah:şah N1 ;
 cüzdan:cüzdan N1 ; ! ""
 nakliyat:nakliyat N1 ; ! ""
 terim:terim N1 ; ! "term"
@@ -5245,6 +5251,7 @@ hakimiyet:hakimiyet N1 ; ! "dominance"
 hakkaniyet:hakkaniyet N1 ; ! "justice"
 hakuran:hakuran N1 ; ! "dove"
 hala:hala N1 ; ! "aunt"
+ocak:ocak N1 ;
 halaoğlu:halaoğlu N1 ; ! "cousin"
 halas:halas N1 ; ! "salvation"
 halat:halat N1 ; ! "rope"
@@ -9719,6 +9726,10 @@ Abduraman:Abduraman NP-ANT-M ; ! ""
 Abdureim:Abdureim NP-ANT-M ; ! ""
 Seid:Seid NP-ANT-M ; 
 Abu:Abu NP-ANT-M ; 
+Rıza:Rıza NP-ANT-M ;
+Pehlevi:Pehlevi NP-COG-MF ; !"Use/MT"
+Humeyni:Humeyni NP-COG-MF ; !"Use/MT"
+Kajar:Kajar NP-ANT-M ;
 Abdureşid:Abdureşid NP-ANT-M ; ! ""
 Abdureşit:Abdureşit NP-ANT-M ; ! ""
 Abdürrahman:Abdürrahman NP-ANT-M ; ! ""
@@ -9996,7 +10007,7 @@ Borağanskaya:Borağanskaya NP-COG-MF ; ! ""
 Gruşevskaya:Gruşevskaya NP-COG-MF ; ! ""
 Levitskaya:Levitskaya NP-COG-MF ; ! ""
 Çaykovskaya:Çaykovskaya NP-COG-MF ; ! ""
-
+Mosaddıq:Mosaddıq NP-COG-MF ; ! ""
 Borağanski:Borağanski NP-COG-MF ; ! ""
 Yasinski:Yasinski NP-COG-MF ; ! ""
 Vernadski:Vernadski NP-COG-MF ; ! ""
@@ -10974,6 +10985,7 @@ AB:AB%{ii%} NP-TOP-ACR ; ! ""
 BH:BH%{ii%} NP-TOP-ACR ; ! ""
 BiH:BiH%{ii%} NP-TOP-ACR ; ! ""
 SSCB:SSCB NP-TOP-ACR ; ! ""
+ABC:ABC NP-TOP-ACR ; ! ""
 EU:EU NP-TOP-ACR ; ! ""
 
 ! Organisations
@@ -16981,6 +16993,7 @@ Kokluz:Kokluz NP-TOP ; ! ""
 
 LEXICON Adjectives
 insancıl:insancıl A1 ;
+karşı:karşı A1 ;
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 
@@ -16992,9 +17005,13 @@ edebi:edebi A4 ; ! "literary"
 tıpkı:tıpkı A2 ; ! "the same"
 yarım:yarım A3 ;
 komşu:kmoşu A1 ;
+çok:çok A1 ;
+ailevi:ailevi A4 ;
+aristokratik:aristokratik A4 ;
 bitişik:bitişik A1 ;
 tropikal:tropikal A4 ;
 pers:pers A4 ;
+dünya% çapındaki:dünya% çapındaki A4 ;
 konukçu:konukçu A1 ;
 yenilikçi:yenilikçi A1 ;
 kuzey:kuzey A2 ; ! "north"
@@ -17614,7 +17631,8 @@ kıyasıya:kıyasıya A2 ;  ! ""
 fasarya:fasarya A4 ;  ! ""
 geç:geç A2 ;  ! ""
 güleç:güleç A4 ;  ! ""
-!iç:iç A2 ;  ! ""
+iç:iç A3 ;  ! ""
+avrupa:avrupa A4 ;
 bilgiç:bilgiç A4 ;  ! ""
 kıskanç:kıskanç A4 ;  ! ""
 genç:genç%{v%} A2 ;  ! ""
@@ -17746,7 +17764,7 @@ hami:hami A4 ;  ! ""
 yarı:yarı A1 ;  ! ""
 hicri:hicri A4 ;  ! ""
 seferi:seferi A2 ;  ! ""
-askeri:askeri A4 ;  ! ""
+askeri:askeri A3 ;  ! ""
 diri:diri A4 ;  ! ""
 dipdiri:dipdiri A4 ;  ! ""
 favori:favori A2 ;  ! ""
@@ -17805,6 +17823,7 @@ sıcacık:sıcacık A4 ;  ! ""
 ufacık:ufacık A4 ;  ! ""
 açık:açık%{v%} A1 ;  ! ""
 yapmacık:yapmacık A4 ;  ! ""
+satılabilir:satılabilir A4 ;
 saçık:saçık A4 ;  ! ""
 yumuşacık:yumuşacık A4 ;  ! ""
 gencecik:gencecik A4 ;  ! ""
@@ -18460,7 +18479,8 @@ tek:tek ADV3 ;!  ""
 fakat:fakat ADV3 ;
 önceden:önceden ADV3 ;
 hakkıyla:hakkıyla ADV3 ;  
-yukarı:yukarı ADV3 ; 
+yukarı:yukarı ADV3 ;
+tamamıyla:tamamıyla ADV3 ; 
 aşağıya:aşağıya ADV3 ;
 yukarıda:yukarıda ADV3 ; 
 yukarıdan:yukarıdan ADV3 ; 
@@ -18810,6 +18830,9 @@ sadeleştir:sadeleştir V-IR-TV ;
 sıkıştır:sıkıştır V-IR-TV ;
 batır:batır V-IR-TV ;
 şişir:şişir V-IR-TV ;
+бас% тарт:бас% тарт V-IR-TV ;
+mecbur% et:mecbur% et V-IR-TV ;
+imha% et: imha% et V-IR-TV ;
 sars:sars V-IR-TV ;
 küçült:küçült V-IR-TV ;
 değerlendir:değerlendir V-IR-TV ;
@@ -19067,7 +19090,7 @@ beğen:beğen V-IR-TV ; ! "like, advire" (DIR)
 belir:belir V-IR-TV ; ! "appear" (T)
 belirt:belirt V-IR-TV ; ! "make appear"﻿ (DIR)
 artır:artır V-IR-TV ; ! "help" (T)
-
+fenalaş:fenalaş V-IR-IV ;
 biç:biç V-AR-TV ; ! "decorate" (DIR)
 ! bil:bil V-TV-DIR-IR ; ! "know"
 bil:bil V-IR-TV ; ! "know"
