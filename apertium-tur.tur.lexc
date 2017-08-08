@@ -17741,7 +17741,6 @@ tiryaki:tiryaki A4 ;  ! ""
 !önceki:önceki A4 ;  ! ""
 zeki:zeki A4 ;  ! ""
 şimdiki:şimdiki A4 ;  ! ""
-şimdi:şimdi A1 ; ! "now"
 sıkı:sıkı A1 ;  ! ""
 !benimki:benimki A1 ;  ! ""
 !bizimki:bizimki A1 ;  ! ""
@@ -18497,7 +18496,7 @@ LEXICON Adverbs
 
 bu% yüzden:bu% yüzden ADV3 ; ! ""
 
-şimdi:şimdi ADV3 ; ! "now"
+şimdi:şimdi ADV4 ; ! "now"
 tek:tek ADV3 ;!  ""
 fakat:fakat ADV3 ;
 önceden:önceden ADV3 ;
