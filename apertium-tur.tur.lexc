@@ -20461,6 +20461,7 @@ LEXICON Abbreviations
 vs%.%<abbr%>:vs%. # ;
 A%.%<abbr%>:A%. # ;
 M%.%<abbr%>:M%. # ;
+MÖ%<abbr%>:MÖ # ;
 
 LEXICON Punctuation
 
