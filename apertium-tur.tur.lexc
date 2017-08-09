@@ -2752,6 +2752,7 @@ ya% da:ya% da CC ;
 ama:ama CC ; 
 ancak:ancak CC ; 
 ve:ve CC ; 
+ikisi:ikisi CC ;
 çünkü:çünkü CC ; 
 fakat:fakat CC ; 
 ha:ha CC ; 
@@ -17029,6 +17030,7 @@ LEXICON Adjectives
 insancıl:insancıl A1 ;
 karşı:karşı A1 ;
 pratik:pratik A4 ;
+idari:idari A4 ;
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 türev:türev A1 ;
@@ -17040,6 +17042,7 @@ ezici:ezici A4 ; ! "devastating"
 edebi:edebi A4 ; ! "literary"
 tıpkı:tıpkı A2 ; ! "the same"
 sulu:sulu A4 ;
+periyodik:periyodik A4 ;
 gündüz:gündüz A1 ;
 asırlık:asırlık A4 ;
 farkedilir:fakedilir A2 ;
@@ -18528,6 +18531,7 @@ yıllık% olarak: yıllık% olarak ADV3 ;
 farklı% şekilde:farklı% şekilde ADV3 ;
 yukarı:yukarı ADV3 ;
 tamamıyla:tamamıyla ADV3 ; 
+dosdoğru:dosdoğru ADV3 ;
 aşağıya:aşağıya ADV3 ;
 yukarıda:yukarıda ADV3 ; 
 yukarıdan:yukarıdan ADV3 ; 
@@ -20151,6 +20155,7 @@ yeşillendir:yeşillendir V-IR-TV ;
 ateşlendir:ateşlendir V-IR-TV ;
 üleş:üleş V-IR-TV ;
 evirt:evirt V-IR-TV ;
+eşleş:eşleş V-IR-IV ;
 cezalandır:cezalandır V-IR-TV ;
 mükafatlandır:mükafatlandır V-IR-TV ;
 ödüllendir:ödüllendir V-IR-TV ;
