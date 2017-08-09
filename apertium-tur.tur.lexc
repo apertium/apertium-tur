@@ -3026,7 +3026,7 @@ tekstil:tekstil N1 ;
 minyatür:minyatür N1  ;
 dublör:dublör N1 ;
 torun:torun N1 ;
-
+astronomi:astronomi N1 ;
 ihtiyacı:ihtiyacı N1 ; ! "" 
 
 !!!NEW!!!
@@ -3603,6 +3603,7 @@ asalet:asalet N1 ; ! "nobleness"
 aşama:aşama N1 ; ! "grade"
 asansör:asansör N1 ; ! "elevator"
 as:as N1 ; ! "ace"
+tohum:tohum N1 ;
 aş:aş N1 ; ! "eatings"
 asayiş:asayiş N1 ; ! "order"
 aşçı:aşçı N1 ; ! "cook"
@@ -3629,6 +3630,8 @@ astroloji:astroloji N1 ; ! "astrology"
 astronom:astronom N1 ; ! "astronomer"
 astronot:astronot N1 ; ! "astronaut"
 ata:ata N1 ; ! "ancestor"
+ekvator:ekvator N1 ;
+çuvaşça:çuvaşça N1 ;
 atabey:atabey N1 ; ! "atabeg"
 ataç:ataç N1 ; ! "paperclip"
 ataç:ataç N1 ; ! "paperclipper"
@@ -3891,7 +3894,9 @@ bilye:bilye N1 ; ! "marble"
 bina:bina N1 ; ! "building"
 binek:binek N1 ; ! "riding"
 binici:binici N1 ; ! "jockey"
+tatarca:tatarca N1 ;
 bira:bira N1 ; ! "beer"
+bileşim:bileşim N1 ;
 birader:birader N1 ; ! "brother "
 birahane:birahane N1 ; ! "pub"
 bırakıt:bırakıt N1 ; ! "estate"
@@ -9743,6 +9748,8 @@ Abdurahman:Abdurahman NP-ANT-M ; ! ""
 Abduraman:Abduraman NP-ANT-M ; ! ""
 Abdureim:Abdureim NP-ANT-M ; ! ""
 Seid:Seid NP-ANT-M ;
+Fedor:Fedor NP-ANT-M ;
+Bokeikhan:Bokeikhan NP-ANT-M ;
 Nursultan:Nursultan NP-ANT-M ; 
 Abu:Abu NP-ANT-M ; 
 Rıza:Rıza NP-ANT-M ;
@@ -9793,7 +9800,7 @@ Rusya:Rusya NP-TOP ; ! ""
 Toplu:Toplu NP-TOP ; ! ""
 Turkmenistan:Turkmenistan NP-TOP ; ! ""
 Ukrayna:Ukrayna NP-TOP ; ! ""
-
+Alaşorda:Alaşorda NP-TOP ;
 Boeing:Boeing NP-AL ; ! ""
 Gazprom:Gazprom NP-AL ; ! ""
 Naftogaz:Naftogaz NP-AL ; ! ""
@@ -16106,6 +16113,7 @@ Arbuzov:Arbuzov NP-COG-MF ; ! ""
 Kutuzov:Kutuzov NP-COG-MF ; ! ""
 Bobrov:Bobrov NP-COG-MF ; ! ""
 Aleksandrov:Aleksandrov NP-PAT-VICH ;
+Fedorovich:Fedorovich NP-PAT-VICH ;
 Alekseyev:Alekseyev NP-PAT-VICH ;
 Anatolyev:Anatolyev NP-PAT-VICH ;
 Andreyev:Andreyev NP-PAT-VICH ;
@@ -16178,6 +16186,7 @@ Vorojba:Vorojba NP-TOP ; ! ""
 Drujba:Drujba NP-TOP ; ! ""
 Çukurça:Çukurça NP-TOP ; ! ""
 Taraşça:Taraşça NP-TOP ; ! ""
+Karagandy:Karagandy NP-TOP ;
 Novi% Strilışça:Novi% Strilışça NP-TOP ; ! ""
 Buça:Buça NP-TOP ; ! ""
 Broşniv-Osada:Broşniv-Osada NP-TOP ; ! ""
@@ -17019,6 +17028,7 @@ Kokluz:Kokluz NP-TOP ; ! ""
 LEXICON Adjectives
 insancıl:insancıl A1 ;
 karşı:karşı A1 ;
+pratik:pratik A4 ;
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 türev:türev A1 ;
@@ -18511,6 +18521,7 @@ bu% yüzden:bu% yüzden ADV3 ; ! ""
 şimdi:şimdi ADV4 ; ! "now"
 tek:tek ADV3 ;!  ""
 fakat:fakat ADV3 ;
+nispeten:nispeten ADV3 ;
 önceden:önceden ADV3 ;
 hakkıyla:hakkıyla ADV3 ; 
 yıllık% olarak: yıllık% olarak ADV3 ; 
@@ -18864,7 +18875,9 @@ nerde:nerde ADV-ITG ; !Use/MT
 
 LEXICON Verbs 
 sadeleştir:sadeleştir V-IR-TV ;
+tümle:tümle V-IR-TV ;
 sıkıştır:sıkıştır V-IR-TV ;
+yerine% getir: yerine% getir V-IR-TV ;
 çiçeklen:çiçeklen V-IR-IV ;
 kibarlaştır:kibarlaştır V-IR-TV ;
 sahip% ol:sahip% ol V-IR-IV ;
@@ -20478,6 +20491,7 @@ vs%.%<abbr%>:vs%. # ;
 A%.%<abbr%>:A%. # ;
 M%.%<abbr%>:M%. # ;
 MÖ%<abbr%>:MÖ # ;
+ğ%<abbr%>:ğ # ;
 
 LEXICON Punctuation
 
