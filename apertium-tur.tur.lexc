@@ -3025,6 +3025,7 @@ stok:stok N1 ;
 tekstil:tekstil N1 ;
 minyatür:minyatür N1  ;
 dublör:dublör N1 ;
+torun:torun N1 ;
 
 ihtiyacı:ihtiyacı N1 ; ! "" 
 
@@ -4442,6 +4443,7 @@ devingen:devingen N1 ; ! "mobile"
 devinim:devinim N1 ; ! "action"
 devir:dev%{u%}r N1 ; ! "era"
 devlet:devlet N1 ; ! "government"
+devlet% başkanı:devlet% başkan N2 ;
 devran:devran N1 ; ! "time"
 devre:devre N1 ; ! "period"
 devridaim:devridaim N1 ; ! "circulation"
@@ -4629,6 +4631,7 @@ ekonomi:ekonomi N1 ; ! "economy"
 ekonomist:ekonomist N1 ; ! "economist"
 ekran:ekran N1 ; ! "ekran"
 eksen:eksen N1 ; ! "axis"
+uzmanlık:uzmanlık N1 ;
 eksi:eksi N1 ; ! "minus"
 eksper:eksper N1 ; ! "expert"
 elalem:elalem N1 ; ! "people"
@@ -6901,8 +6904,10 @@ kravat:kravat N1 ; ! "tie"
 kreasyon:kreasyon N1 ; ! "creation"
 kreatör:kreatör N1 ; ! "creator"
 kredi:kredi N1 ; ! "credit"
+onikiparmakbağırsağı:onikiparmakbağırsağ N2 ;
 krema:krema N1 ; ! "cream"
 krem:krem N1 ; ! "cream"
+gürcüce :gürcüce N1 ;
 krep:krep N1 ; ! "pancake"
 kreş:kreş N1 ; ! "nursery"
 kriket:kriket N1 ; ! "cricket"
@@ -8809,6 +8814,7 @@ vasıta:vasıta N1 ; ! ""
 vatan:vatan N1 ; ! ""
 vefat:vefat N1 ; ! ""
 vekil:vekil N1 ; ! ""
+kahramanlık:kahramanlık N1 ; ! ""
 vektör:vektör N1 ; ! ""
 velespit:velespit N1 ; ! ""
 veranda:veranda N1 ; ! ""
@@ -9333,6 +9339,8 @@ alümin:alümin N1 ; ! ""
 ardıç:ardıç N1 ; ! ""
 arefe:arefe N1 ; ! ""
 arman:arman N1 ; ! ""
+fransızca:fransızca N1 ;
+ukraynaca:ukraynaca N1 ;
 arslan:arslan N1 ; ! ""
 aşhane:aşhane N1 ; ! ""
 asimilasyon:asimilasyon N1 ; ! ""
@@ -9738,6 +9746,7 @@ Seid:Seid NP-ANT-M ;
 Nursultan:Nursultan NP-ANT-M ; 
 Abu:Abu NP-ANT-M ; 
 Rıza:Rıza NP-ANT-M ;
+Sergei:Sergei NP-ANT-M ;
 Pehlevi:Pehlevi NP-COG-MF ; !"Use/MT"
 Humeyni:Humeyni NP-COG-MF ; !"Use/MT"
 Rafsancani:Rafsancani NP-COG-MF ; !"Use/MT"
@@ -16095,6 +16104,7 @@ Polozov:Polozov NP-COG-MF ; ! ""
 Morozov:Morozov NP-COG-MF ; ! ""
 Arbuzov:Arbuzov NP-COG-MF ; ! ""
 Kutuzov:Kutuzov NP-COG-MF ; ! ""
+Bobrov:Bobrov NP-COG-MF ; ! ""
 Aleksandrov:Aleksandrov NP-PAT-VICH ;
 Alekseyev:Alekseyev NP-PAT-VICH ;
 Anatolyev:Anatolyev NP-PAT-VICH ;
@@ -16102,6 +16112,7 @@ Andreyev:Andreyev NP-PAT-VICH ;
 Bogdanov:Bogdanov NP-PAT-VICH ;
 Borisov:Borisov NP-PAT-VICH ;
 Buharev:Buharev NP-PAT-VICH ;
+Mihayloviç:Mihayloviç NP-PAT-VICH ;
 Dmitriyev:Dmitriyev NP-PAT-VICH ;
 Fedorov:Fedorov NP-PAT-VICH ;
 Firkov:Firkov NP-PAT-VICH ;
@@ -17019,6 +17030,7 @@ ezici:ezici A4 ; ! "devastating"
 edebi:edebi A4 ; ! "literary"
 tıpkı:tıpkı A2 ; ! "the same"
 sulu:sulu A4 ;
+gündüz:gündüz A1 ;
 asırlık:asırlık A4 ;
 farkedilir:fakedilir A2 ;
 yağlı:yağlı A4 ;
@@ -18502,6 +18514,7 @@ fakat:fakat ADV3 ;
 önceden:önceden ADV3 ;
 hakkıyla:hakkıyla ADV3 ; 
 yıllık% olarak: yıllık% olarak ADV3 ; 
+farklı% şekilde:farklı% şekilde ADV3 ;
 yukarı:yukarı ADV3 ;
 tamamıyla:tamamıyla ADV3 ; 
 aşağıya:aşağıya ADV3 ;
@@ -18848,10 +18861,13 @@ aynı% şekilde:aynı% şekilde ADV3 ;
 ne:ne ADV-ITG ; !Use/MT
 nerde:nerde ADV-ITG ; !Use/MT
 
+
 LEXICON Verbs 
 sadeleştir:sadeleştir V-IR-TV ;
 sıkıştır:sıkıştır V-IR-TV ;
+çiçeklen:çiçeklen V-IR-IV ;
 kibarlaştır:kibarlaştır V-IR-TV ;
+sahip% ol:sahip% ol V-IR-IV ;
 iyleş:iyleş V-IR-IV ;
 batır:batır V-IR-TV ;
 hizmet% et:hizmet% et V-IR-TV ;
@@ -19154,6 +19170,7 @@ cezbet:cezbet V-AR-TV ; ! "attract" (DIR)
 çim:çim V-AR-TV ; ! "grass" (DIR)
 çırp:çırp V-AR-TV ; ! "whisk" (DIR)
 dekor% et:dekor% et V-AR-TV ;
+sebebiyet% ver:sebebiyet% ver V-AR-TV ;
 çiz:çiz V-AR-TV ; ! "draw" (DIR)
 çök:çök V-AR-IV ; ! "collapse, fall down; sink" (DIR)
 çöz:çöz V-AR-TV ; ! "solve" (DIR)
