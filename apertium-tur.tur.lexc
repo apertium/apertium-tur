@@ -3018,6 +3018,7 @@ halinde:halinde POST ; ! "ın case of" ! FIXME
 acem:acem N1 ;
 yukar:yukar N1 ; ! ""
 iran:iran N1 ;
+çiy:çiy N1 ;
 bağımlılık:bağımlılık N1 ;
 devir:devir N1 ;
 tacik:tacik N1 ;
@@ -3026,9 +3027,11 @@ stok:stok N1 ;
 tekstil:tekstil N1 ;
 minyatür:minyatür N1  ;
 dublör:dublör N1 ;
+baş% koltuk:baş% koltuk N1 ;
 torun:torun N1 ;
 astronomi:astronomi N1 ;
-ihtiyacı:ihtiyacı N1 ; ! "" 
+ihtiyacı:ihtiyacı N1 ; ! ""
+ev% sahibi:ev% sahibi N1 ; 
 
 !!!NEW!!!
 
@@ -9748,8 +9751,10 @@ Aleksander:Aleksander NP-ANT-M ; ! ""
 Abdurahman:Abdurahman NP-ANT-M ; ! ""
 Abduraman:Abduraman NP-ANT-M ; ! ""
 Abdureim:Abdureim NP-ANT-M ; ! ""
+Kozhanasyr:Kozhanasyr NP-ANT-M ; ! ""
 Seid:Seid NP-ANT-M ;
 Fedor:Fedor NP-ANT-M ;
+Azamat:Azamat NP-ANT-M ;
 Bokeikhan:Bokeikhan NP-ANT-M ;
 Nursultan:Nursultan NP-ANT-M ; 
 Abu:Abu NP-ANT-M ; 
@@ -9779,6 +9784,7 @@ Cafer:Cafer NP-ANT-M ; ! ""
 Camala:Camala NP-ANT-F ; ! ""
 Huriye:Huriye NP-ANT-F ; ! ""
 Regan:Regan NP-ANT-F ; ! ""
+Aygül:Aygül NP-ANT-F ; ! ""
 Delaney:Delaney NP-ANT-F ; ! ""
 
 İrina:İrina NP-ANT-F ; ! ""
@@ -17031,6 +17037,7 @@ insancıl:insancıl A1 ;
 karşı:karşı A1 ;
 pratik:pratik A4 ;
 idari:idari A4 ;
+yemeklik:yemeklik A4 ;
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 türev:türev A1 ;
@@ -17041,6 +17048,7 @@ sorunlu:sorunlu A4 ; ! "problematic"
 ezici:ezici A4 ; ! "devastating"
 edebi:edebi A4 ; ! "literary"
 tıpkı:tıpkı A2 ; ! "the same"
+elcil:elcil A3 ;
 sulu:sulu A4 ;
 periyodik:periyodik A4 ;
 gündüz:gündüz A1 ;
@@ -18524,6 +18532,7 @@ bu% yüzden:bu% yüzden ADV3 ; ! ""
 şimdi:şimdi ADV4 ; ! "now"
 tek:tek ADV3 ;!  ""
 fakat:fakat ADV3 ;
+orada:orada ADV3 ;
 nispeten:nispeten ADV3 ;
 önceden:önceden ADV3 ;
 hakkıyla:hakkıyla ADV3 ; 
@@ -18880,6 +18889,7 @@ nerde:nerde ADV-ITG ; !Use/MT
 LEXICON Verbs 
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
+oluştur:oluştur V-IR-TV ;
 sıkıştır:sıkıştır V-IR-TV ;
 yerine% getir: yerine% getir V-IR-TV ;
 çiçeklen:çiçeklen V-IR-IV ;
@@ -20011,6 +20021,7 @@ dön:dön V-AR-IV ; ! "turn"
 dönüş:dönüş V-IR-IV ; ! "return to" (DIR)
 doy:doy V-AR-IV ; ! "be full up" (DIR)
 dur:dur V-IR-IV ; ! "stop" (DIR)
+de:de V-IR-TV ;
 durdur:durdur V-IR-TV ; ! "stop" 
 dürt:dürt V-AR-IV ; ! "poke" (DIR)
 durul:durul V-IR-IV ; ! "calm down" (DIR)
