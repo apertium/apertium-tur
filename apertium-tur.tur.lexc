@@ -2967,6 +2967,12 @@ yedi:yedi NUM ; ! "seven"
 sekiz:sekiz NUM ; ! "eight"
 dokuz:dokuz NUM ; ! "nine"
 on:on NUM ; ! "ten"
+yetmiş:yetmiş NUM ; ! "ten"
+doksan:doksan NUM ; ! "ten"
+otuz:otuz NUM ; ! "ten"
+seksen:seksen NUM ; ! "ten"
+altmış:altmış NUM ; ! "ten"
+
 
 yirmi:yirmi NUM ; ! "twenty"
 
