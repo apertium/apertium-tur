@@ -19160,6 +19160,7 @@ bahşet:bahşet V-AR-TV ; ! "forgive" (DIR)
 bak:bak V-AR-IV ; ! "look at" (DIR)
 ban:ban V-AR-TV ; ! "dip into" (DIR)
 bas:bas V-AR-IV ; ! "press" (DIR)
+bas:bas V-AR-TV ; ! "raid" (DIR)
 bastır:bastır V-AR-TV ; ! "" (T)
 başar:başar V-IR-TV ; ! "success" (DIR)
 başvur:başvur V-IR-IV ; ! "apply (for something)" (DIR) JNW
