@@ -1132,6 +1132,7 @@ LEXICON NP-TOP
 %<np%>%<top%>:%' N-INFL-COMMON-NONOM ;
 %<np%>%<top%>%<attr%>: # ;
 %<np%>%<top%>: LI-POSTPOSITION ;
+%<np%>%<top%>:%' ABESSIVE-POSTPOSITION ;
 %<np%>%<top%>%<pl%>%<nom%>:%>l%{A%}r # ;
 %<np%>%<top%>%<pl%>:%>l%{A%}r%' N-INFL-COMMON-NONOM ;
 
