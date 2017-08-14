@@ -9209,9 +9209,9 @@ poliklinik:poliklinik N1 ;
 
 ! Nationalities and other names of people
 
-kırım% tatarı:Kırım% Tatar N2 ;
-kırım% tatarcası:Kırım% Tatarca N2 ;
-kırımtatar:Kırımtatar  N3 ; ! ""
+Kırım% Tatarı:kırım% tatar N2 ;
+Kırım% Tatarcası:Kırım% Tatarca N2 ;
+!Kırımtatar:kırımtatar  N3 ; ! ""
 
 türk:türk N3 ; ! "Turk"
 hırvat:hırvat N3 ; ! ""
@@ -18916,6 +18916,7 @@ nasıl:nasıl ADV-ITG ; ! "how" ! FIXME: also adj?  or det?
 niçin:niçin ADV-ITG ; ! "why"
 ne% kadar:ne% kadar ADV-ITG ; ! ""
 neden:neden ADV-ITG ;
+ne% zaman:ne% zaman ADV-ITG ;
 aynı% şekilde:aynı% şekilde ADV3 ;
 ne:ne ADV-ITG ; !Use/MT
 nerde:nerde ADV-ITG ; !Use/MT
