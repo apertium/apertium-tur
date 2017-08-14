@@ -1410,6 +1410,7 @@ hangi:hangi PRON-ITG-INFL ; ! "which"
 nedir:nedir PRON-ITG-INFL ;
 nere:ner PRON-ITG-NERE ; ! ""
 !ne% kadar: ne% kadar PRON-ITG-INFL ;
+herhangi:herhangi PRON-ITG-INFL ;
 
 LEXICON PRON-QNT
 
@@ -3026,17 +3027,23 @@ acem:acem N1 ;
 yukar:yukar N1 ; ! ""
 iran:iran N1 ;
 çiy:çiy N1 ;
+bulvar:bulvar N1 ;
 bağımlılık:bağımlılık N1 ;
 devir:devir N1 ;
 tacik:tacik N1 ;
 elyazısı:elyazısı N1 ;
+iyilik:iyilik N1 ;
 stok:stok N1 ;
 tekstil:tekstil N1 ;
 minyatür:minyatür N1  ;
+havacılık:havacılık N1 ;
 dublör:dublör N1 ;
 baş% koltuk:baş% koltuk N1 ;
 torun:torun N1 ;
 astronomi:astronomi N1 ;
+otlak:otlak N1 ;
+ölçüm:ölçüm N1 ;
+zaruret:zaruret N1 ;
 ihtiyacı:ihtiyacı N1 ; ! ""
 ev% sahibi:ev% sahibi N1 ; 
 
@@ -3053,6 +3060,7 @@ mükkemel:mükkemel N1 ;
 atık:atık N1 ;
 sürüngen:sürüngen N1 ;
 miktar:miktar N1 ;
+gerçekleştirme:gerçekleştirme N1 ;
 paten:paten N1 ;
 tamir:tamir N1 ; ! "repair"
 savılık:savcılık N1 ; ! Use/MT
@@ -6211,6 +6219,7 @@ jübile:jübile N1 ; ! "jubilee"
 judo:judo N1 ; ! "judo"
 juri:juri N1 ; ! "jury"
 jüri:jüri N1 ; ! "jury"
+jüt:jüt N1 ;
 jurnal:jurnal N1 ; ! "journal"
 kabahat:kabahat N1 ; ! "fault"
 kabak:kabak N1 ; ! "pumpkin"
@@ -8406,6 +8415,7 @@ vücud:vücud N1 ; ! "body"
 şişe:şişe N1 ;
 akamanış:akamanış N1 ;
 oratalma:ortalama N1 ;
+uyuşturucu:uyuşturucu N1 ;
 tekerlek:tekerlek N1 ; ! "wheel"
 bakıcı:bakıcı N1 ; ! "nurse/caregiver"
 bebeklik:bebeklik N1 ; ! "state of being a baby"
@@ -8422,6 +8432,7 @@ yemek:yemek%{v%} N1 ; ! "food"
 öğle% yemeği:öğle% yemek%{v%} N2 ; ! "lunch"
 ölüm:ölüm N1 ; ! "death"
 sevgi:sevgi N1 ; ! "love"
+kerpiç:kerpiç N1 ;
 dünyanın% dört% bir% yanı:dünyanın% dört% bir% yan N2 ; ! 
 buluşma:buluşma N1 ; ! "meeting" ! Dir/RL ! Use/MT
 film% festivali:film% festival N2 ; ! "film festival" ! Dir/RL ! Use/MT
@@ -9749,8 +9760,9 @@ Manay:Manay NP-TOP ; ! ""
 Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
-
+Hoca% Nasreddin:Hoca% Nasreddin NP-ANT-M ; ! ""
 Abdal:Abdal NP-ANT-M ; ! ""
+Tostik:Tostik NP-ANT-M ; ! ""
 Abdul:Abdul NP-ANT-M ; ! ""
 Al-Abbas:Al-Abbas NP-ANT-M ; ! ""
 Al-Saffah:Al-Saffah NP-ANT-M ; ! ""
@@ -9758,6 +9770,7 @@ Aleksander:Aleksander NP-ANT-M ; ! ""
 Abdurahman:Abdurahman NP-ANT-M ; ! ""
 Abduraman:Abduraman NP-ANT-M ; ! ""
 Abdureim:Abdureim NP-ANT-M ; ! ""
+Ernazar:Ernazar NP-ANT-M ; ! ""
 Kozhanasyr:Kozhanasyr NP-ANT-M ; ! ""
 Seid:Seid NP-ANT-M ;
 Fedor:Fedor NP-ANT-M ;
@@ -11784,6 +11797,7 @@ Dick:Dick NP-ANT-M ; ! ""
 Dimitar:Dimitar NP-ANT-M ; ! ""
 Dimitrij:Dimitrij NP-ANT-M ; ! ""
 Dimitris:Dimitris NP-ANT-M ; ! ""
+Dimitri:Dimitri NP-ANT-M ; ! ""
 Dirk:Dirk NP-ANT-M ; ! ""
 Dmitry:Dmitry NP-ANT-M ; ! ""
 Dominique:Dominique NP-ANT-M ; ! ""
@@ -12146,6 +12160,7 @@ Karadaku:Karadaku NP-COG-MF ; ! ""
 Georgiev:Georgiev NP-COG-MF ; ! ""
 Rugov:Rugov NP-COG-OV ; ! ""
 Medvedev:Medvedev NP-COG-OV ; ! ""
+Medvedev:Medvedev NP-COG-MF ; ! ""
 Aliyev:Aliyev NP-COG-OV ; ! ""
 Hasani:Hasani NP-COG-MF ; ! ""
 Merkel:Merkel NP-COG-MF ; ! ""
@@ -17060,6 +17075,11 @@ ezici:ezici A4 ; ! "devastating"
 edebi:edebi A4 ; ! "literary"
 tıpkı:tıpkı A2 ; ! "the same"
 elcil:elcil A3 ;
+kışlık:kışlık A4 ;
+başka:başka A1 ;
+merkez:merkaz A1 ;
+müthiş:müthiş A4 ;
+kazançlı:kazançlı A1 ;
 sulu:sulu A4 ;
 periyodik:periyodik A4 ;
 gündüz:gündüz A1 ;
@@ -18544,8 +18564,11 @@ bu% yüzden:bu% yüzden ADV3 ; ! ""
 tek:tek ADV3 ;!  ""
 fakat:fakat ADV3 ;
 orada:orada ADV3 ;
+kadar:kadar ADV3 ;
 nispeten:nispeten ADV3 ;
 önceden:önceden ADV3 ;
+zorunlu% olarak:zorunlu% olarak ADV3 ;
+ara%-sıra ADV3 ;
 hakkıyla:hakkıyla ADV3 ; 
 yıllık% olarak: yıllık% olarak ADV3 ; 
 farklı% şekilde:farklı% şekilde ADV3 ;
@@ -18635,6 +18658,7 @@ binaen:binaen ADV3 ; ! @@@ postp + A ?
 biraz:biraz ADV3 ; ! "a bit"
 birazcık:birazcık ADV3 ; ! "a tiny bit"
 birden:birden ADV3 ; ! "suddenly"
+zar% zor:zar% zor ADV3 ;
 birdenbire:birdenbire ADV3 ; ! "all of a sudden"
 birlikte:birlikte ADV3 ; ! "together"
 bizatihi:bizatihi ADV3 ; ! "actually"
@@ -18901,11 +18925,15 @@ LEXICON Verbs
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
 oluştur:oluştur V-IR-TV ;
+ağart:ağart V-IR-TV ;
+ekşi:ekşi V-IR-IV ;
+
 sıkıştır:sıkıştır V-IR-TV ;
 yerine% getir: yerine% getir V-IR-TV ;
 çiçeklen:çiçeklen V-IR-IV ;
 kibarlaştır:kibarlaştır V-IR-TV ;
 sahip% ol:sahip% ol V-IR-IV ;
+güzelleş:güzelleş V-IR-IV ;
 iyleş:iyleş V-IR-IV ;
 batır:batır V-IR-TV ;
 hizmet% et:hizmet% et V-IR-TV ;
@@ -19325,7 +19353,8 @@ kaç:kaç V-AR-TV ; ! "escape" (IR)
 şaş:şaş V-AR-TV ; ! "wonder" (IR)
 !oku:oku V-TV-T-IR ; ! "read"
 oku:oku V-IR-TV ; ! "read"
-okut:okut V-IR-TV ; 
+okut:okut V-IR-TV ;
+somurt:somurt V-IR-IV ;
 !söyle:söyle V-TV-T-IR ; ! "say"
 söyle:söyle V-IR-TV ; ! "say"
 !bekle:bekle V-TV-T-IR ; ! "wait"
@@ -19389,6 +19418,7 @@ deşele:deşele V-IR-TV ; ! "research" (T)
 didikle:didikle V-IR-TV ; ! "forage" (T)
 dikizle:dikizle V-IR-TV ; ! "pry" (T)
 dile:dile V-IR-TV ; ! "wish" (T)
+dikkate% al:dikkate% al V-IR-TV ;
 dilimle:dilimle V-IR-TV ; ! "slice" (T)
 dinamitle:dinamitle V-IR-TV ; ! "torpedo" (T)
 diple:diple V-IR-TV ; ! "fail" (T)
@@ -20361,7 +20391,7 @@ helak% ol:helak% ol V-IR-IV ; ! "" ! Dir/RL ! Use/MT
 bağlı% ol:bağlı% ol V-IR-IV ; ! "" ! Dir/RL ! Use/MT
 uygula:uygula V-IR-IV ;
 kötüleş:kötüleş V-AR-IV ; ! ""
-
+şekillendir:şekillendir V-AR-IV ; ! ""
 gezle:gezle V-IR-IV ; ! ""
 yuvarlan:yuvarlan V-IR-IV ; ! ""
 sallan:sallan V-IR-IV ; ! ""
