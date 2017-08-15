@@ -20544,6 +20544,8 @@ LEXICON Symbols
 :%# SYM-HASH-TAG ; 
 
 °C:°C SYM ; 
+%%:%% SYM ; 
+yüzde:%% SYM ; ! Dir/RL
 
 LEXICON Abbreviations
 
