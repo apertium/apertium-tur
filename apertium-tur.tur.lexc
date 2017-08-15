@@ -3018,7 +3018,6 @@ XXII:XXII NUM-ROMAN ; ! ""
 LEXICON Titles
 
 Profesör:Profesör TIT ; ! ""
-Dr:Dr TIT ; ! ""
 
 
 LEXICON Nouns
@@ -20556,6 +20555,7 @@ LEXICON Abbreviations
 vs%.%<abbr%>:vs%. # ;
 MÖ%<abbr%>:MÖ # ;
 ğ%<abbr%>:ğ # ;
+Dr:Dr ABBR ; ! ""
 
 A%.:A%. ABBR ; ! ""
 B%.:B%. ABBR ; ! ""
