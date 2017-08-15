@@ -9699,6 +9699,7 @@ yiğit:yiğit N1 ;
 yükseliş:yükseliş N1 ;
 yetiştirme:yetiştirme N1 ;
 konvoy:konvoy N1 ;
+kamulaştırma:kamulaştırma N1 ;
 yapma:yapma N1 ; ! ""
 
 havalımanı:havalıman N2 ;
@@ -18788,6 +18789,7 @@ hasbelkader:hasbelkader ADV3 ; ! "accidentally"
 hassaten:hassaten ADV3 ; ! "especially"
 hemencecik:hemencecik ADV3 ; ! "straight away"
 hemen:hemen ADV3 ; ! "soon"
+tatarca:tatarca ADV3 ;
 hemen% hemen:hemen% hemen ADV3 ; ! "soon" ! Dir/RL ! Use/MT ! Dir/RL
 hem:hem ADV3 ; ! "also"
 henüz:henüz ADV3 ; ! "just"
@@ -20610,6 +20612,7 @@ Y%.:Y%. ABBR ; ! ""
 Ü%.:Ü%. ABBR ; ! ""
 Ä%.:Ä%. ABBR ; ! ""
 m%/s:m%/s ABBR; 
+cm:cm ABBR; 
 
 
 LEXICON Punctuation
