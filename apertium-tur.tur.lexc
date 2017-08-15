@@ -9698,6 +9698,7 @@ yapma:yapma N1 ; ! ""
 havalımanı:havalıman N2 ;
 havaalanı:havaalan N2 ;
 hava% gemiciliği:hava% gemicilik%{v%} N2 ;
+apartaman:apartaman N1 ; ! ""
 
 
 LEXICON ProperNouns
