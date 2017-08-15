@@ -1100,6 +1100,8 @@ LEXICON N5
 
 %<n%>%<nom%>: # ;
 %<n%>:%' N-INFL-COMMON-NONOM ;
+%<n%>%<pl%>%<nom%>:%>l%{A%}r # ;
+%<n%>%<pl%>:%>l%{A%}r%' N-INFL-COMMON-NONOM ;
 %<n%>%<attr%>: # ;
 
 !!LEXICON N6 ! Languages which aren't nationalities
