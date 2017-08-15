@@ -20566,6 +20566,7 @@ LEXICON Symbols
 °C:°C SYM ; 
 %%:%% SYM ; 
 yüzde:%% SYM ; ! Dir/RL
+yüzde:yüzde SYM ; 
 
 LEXICON Abbreviations
 
