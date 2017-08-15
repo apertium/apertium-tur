@@ -9702,6 +9702,23 @@ havaalanı:havaalan N2 ;
 hava% gemiciliği:hava% gemicilik%{v%} N2 ;
 apartman:apartman N1 ; ! ""
 
+aşılama:aşılama N1 ; ! ""
+asılı:asılı N1 ; ! ""
+emen:emen N1 ; ! ""
+hor:hor N1 ; ! ""
+isıtma:isıtma N1 ; ! ""
+mağrur:mağrur N1 ; ! ""
+örmek:örmek N1 ; ! ""
+öt:öt N1 ; ! ""
+ötmek:ötmek N1 ; ! ""
+selbi:selbi N1 ; ! ""
+tapa:tapa N1 ; ! ""
+tarikçi:tarikçi N1 ; ! ""
+teke:teke N1 ; ! ""
+tersi:tersi N1 ; ! ""
+uru:uru N1 ; ! ""
+yunanca:yunanca N1 ; ! ""
+
 
 LEXICON ProperNouns
 
