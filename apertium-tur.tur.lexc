@@ -9225,6 +9225,7 @@ kürt:kürt N3 ; ! ""
 ingiliz:ingiliz N3 ; ! ""
 rus:rus N1 ; ! ""
 italyan:İtalyan N3 ; ! ""
+mısırlı:Mısırlı N3 ; ! "Egyptian" 
 sırp:Sırp N3 ; ! ""
 rum:Rum N3 ; ! "Greek"
 fransız:Fransız N3 ; ! ""
@@ -9284,6 +9285,7 @@ hollandalı:Hollandalı N1 ; ! "dutch"
 İngilizce:İngilizce N1 ; ! "english"
 Türkçe:Türkçe N1 ; ! "turkish"
 Rusça:Rusça N1 ; ! "russian"
+Arapça:Arapça N1 ; ! "arabic"
 Arnavutça:Arnavutça N1 ; ! "albanian"
 
 
@@ -11719,6 +11721,7 @@ PEN:PEN NP-AL ;
 SOS:SOS NP-AL ;
 SSC:SSC NP-AL ;
 UNESCO:UNESCO NP-AL ;
+Kurultay:Kurultay NP-AL ;
 
 
 
