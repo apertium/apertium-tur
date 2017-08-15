@@ -2643,6 +2643,9 @@ LEXICON SYM
 
 %<sym%>: # ;
 
+LEXICON ABBR
+
+%<abbr%>: # ;
 
 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 !! Stem lexica
@@ -20551,10 +20554,39 @@ yüzde:%% SYM ; ! Dir/RL
 LEXICON Abbreviations
 
 vs%.%<abbr%>:vs%. # ;
-A%.%<abbr%>:A%. # ;
-M%.%<abbr%>:M%. # ;
 MÖ%<abbr%>:MÖ # ;
 ğ%<abbr%>:ğ # ;
+
+A%.:A%. ABBR ; ! ""
+B%.:B%. ABBR ; ! ""
+V%.:V%. ABBR ; ! ""
+G%.:G%. ABBR ; ! ""
+Ğ%.:Ğ%. ABBR ; ! ""
+D%.:D%. ABBR ; ! ""
+E%.:E%. ABBR ; ! ""
+J%.:J%. ABBR ; ! ""
+Z%.:Z%. ABBR ; ! ""
+I%.:I%. ABBR ; ! ""
+K%.:K%. ABBR ; ! ""
+Q%.:Q%. ABBR ; ! ""
+L%.:L%. ABBR ; ! ""
+M%.:M%. ABBR ; ! ""
+N%.:N%. ABBR ; ! ""
+O%.:O%. ABBR ; ! ""
+P%.:P%. ABBR ; ! ""
+R%.:R%. ABBR ; ! ""
+S%.:S%. ABBR ; ! ""
+T%.:T%. ABBR ; ! ""
+U%.:U%. ABBR ; ! ""
+F%.:F%. ABBR ; ! ""
+H%.:H%. ABBR ; ! ""
+C%.:C%. ABBR ; ! ""
+Ç%.:Ç%. ABBR ; ! ""
+Ş%.:Ş%. ABBR ; ! ""
+Y%.:Y%. ABBR ; ! ""
+Ü%.:Ü%. ABBR ; ! ""
+Ä%.:Ä%. ABBR ; ! ""
+
 
 LEXICON Punctuation
 
