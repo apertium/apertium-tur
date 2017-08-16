@@ -9295,9 +9295,9 @@ Arnavutça:Arnavutça N1 ; ! "albanian"
 
 !!!!SPECIAL!!!!
 
-km:km N1 ;  ! "km" ! FIXME: abbr
 ton:ton N1 ; ! "ton"
-cm:cm N1 ;  ! "cm"
+!km:km N1 ;  ! "km" ! FIXME: abbr
+!cm:cm N1 ;  ! "cm"
 
 
 icracı:icracı N1 ;
@@ -20584,6 +20584,11 @@ vs%.%<abbr%>:vs%. # ;
 MÖ%<abbr%>:MÖ # ;
 ğ%<abbr%>:ğ # ;
 Dr:Dr ABBR ; ! ""
+
+mm:mm ABBR ; ! ""
+kg:kg ABBR ; ! ""
+km:km ABBR ; ! ""
+cm:cm ABBR ; ! ""
 
 A%.:A%. ABBR ; ! ""
 B%.:B%. ABBR ; ! ""
