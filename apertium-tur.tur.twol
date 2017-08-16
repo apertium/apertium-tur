@@ -81,13 +81,14 @@ Rules
 
 "Vowel harmony for archiphoneme {I}"
 %{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ [ :0 - [ AbstrVow:0 - %{u%}: ] ] | %>: | %  ] _ ;
+                                                       :LastVowel :Cns*  %'  %>: _ ;
         except
                                              %{e%}:0 %>: _ ;
                                          [ AbstrVow:0 - %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
                       [ %{z%}:0 %>: %{y%}: ]/:0 _ :m ;
         where 
-            LastVowel in ( i ü e ö ı u a o â )
-                   Vy in ( i ü i ü ı u ı u ı ) 
+            LastVowel in ( i ü e ö ı u a o â İ Ü E Ö I U A O Â )  ! This is horrible why do we need to do it with uppercase too
+                   Vy in ( i ü i ü ı u ı u ı i ü i ü ı u ı u ı )  
             matched;
 
 "Vowel harmony to abstract vowels for archiphoneme {I}"
