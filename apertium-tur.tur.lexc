@@ -11068,8 +11068,8 @@ ABD:ABD%{ii%} NP-TOP-ACR ; ! ""
 AB:AB%{ii%} NP-TOP-ACR ; ! ""
 BH:BH%{ii%} NP-TOP-ACR ; ! ""
 BiH:BiH%{ii%} NP-TOP-ACR ; ! ""
-SSCB:SSCB NP-TOP-ACR ; ! ""
-ABC:ABC NP-TOP-ACR ; ! ""
+SSCB:SSCB%{ii%} NP-TOP-ACR ; ! ""
+ABC:ABC%{ii%} NP-TOP-ACR ; ! ""
 EU:EU NP-TOP-ACR ; ! ""
 
 ! Organisations
@@ -11180,7 +11180,7 @@ SE:SE NP-ORG ; ! ""
 BSP:BSP NP-ORG ; ! ""
 KDV:KDV NP-AL ; ! ""
 SETimes:SETimes%{ı%}%{b%} NP-AL ; ! ""
-TV:TV NP-AL ; ! ""
+TV:TV%{o%} NP-AL ; ! ""
 
 
 Svoboda:Svoboda NP-AL ; ! ""
@@ -11683,7 +11683,7 @@ Yunanistan% Süper% Ligi:Yunanistan% Süper% Lig NP-ORG-COMPOUND-PX ; ! ""
 Southeast% European% Times:Southeast% European% Times NP-AL ; ! ""
 Reuters:Reuters NP-ORG ; ! ""
 MKMİK:MKMİK NP-ORG;
-MŞSC:MŞSC NP-ORG;
+MŞSC:MŞSC%{ii%} NP-ORG;
 AP:AP NP-AL ; ! ""
 B92:B92 NP-AL ; ! ""
 EUobserver:EUobserver NP-AL ; ! ""
