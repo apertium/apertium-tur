@@ -1098,9 +1098,9 @@ LEXICON N4 ! Nouns with usage as postpositions.
 
 LEXICON N5
 
-%<n%>%<nom%>: # ;
+%<n%>%<nom%>: CLIT-GENERAL ;
 %<n%>:%' N-INFL-COMMON-NONOM ;
-%<n%>%<pl%>%<nom%>:%>l%{A%}r # ;
+%<n%>%<pl%>%<nom%>:%>l%{A%}r CLIT-GENERAL ;
 %<n%>%<pl%>:%>l%{A%}r%' N-INFL-COMMON-NONOM ;
 %<n%>%<attr%>: # ;
 
