@@ -94,6 +94,7 @@ Rules
 "Vowel harmony to abstract vowels for archiphoneme {I}"
 !%{I%}:Vy <=> Vx:0 [ :0 | :Cns | :%' | % ]* _ ;
 %{I%}:Vy <=> Vx:0 [ [ :0 - Vx: ] | :Cns | :%' | % ]* _ ;
+                           Vx: %'  %>: _ ;
         except 
              [ AbstrVow: - [ Vx: | %{u%}: ] ] [ :0 | :Cns | :%' | % ]* _ ; 
                                               %{e%}:0 %>: _ ;
