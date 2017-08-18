@@ -460,12 +460,14 @@ LEXICON V-PRC
 LEXICON V-AOR-NONFIN-AR
 
 %<gpr_aor%>:%>%{A%}r V-GPR-COMMON ;
+%<gpr_aor%>%<neg%>:%>m%{A%}z V-GPR-COMMON ;
 !%<prc_aor%>:%>%{A%}r V-PRC-COMMON ;
 %<gna_aor%>:%>%{A%}r V-GNA-COMMON ;
 
 LEXICON V-AOR-NONFIN-IR
 
 %<gpr_aor%>:%>%{i%}r V-GPR-COMMON ;
+%<gpr_aor%>%<neg%>:%>m%{A%}z V-GPR-COMMON ;
 !%<prc_aor%>:%>%{i%}r V-PRC-COMMON ;
 %<gna_aor%>:%>%{i%}r V-GNA-COMMON ;
 
