@@ -2742,6 +2742,7 @@ ilgili:ilgili POST ; ! "regarding"
 
 ! To sort
 hariç:hariç POST ; ! "besides"
+üzere:üzere POST ; ! "besides"
 
 LEXICON  Conjunctions
 
@@ -18445,6 +18446,7 @@ daha% fazla:daha% fazla A1 ;
 öbür:öbür A1 ;
 yaralı:yaralı A2 ;
 vurmalı:vurmalı A2 ;
+borçlu:borçlu A2 ;
 bütün:bütün A1 ;
 hakiki:hakiki A1 ;
 kayıp:kayıp A1 ;
@@ -19848,6 +19850,7 @@ irdele:irdele V-IR-TV ; ! "examine" (T)
 işaretle:işaretle V-IR-TV ; ! "mark" (T)
 ıskala:ıskala V-IR-TV ; ! "miss" (T)
 ısla:ısla V-IR-TV ; ! "get wet" (T)
+ıslat:ıslat V-IR-TV ; 
 isle:isle V-IR-TV ; ! "smoke" (T)
 işle:işle V-IR-TV ; ! "commit" (T)
 ısmarla:ısmarla V-IR-TV ; ! "treat" (T)
