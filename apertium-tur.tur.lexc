@@ -17142,6 +17142,7 @@ erken:erken A1 ;
 esas:esas A1 ; ! "main"
 güney:güney A2 ; ! ""
 emniyetli:emniyetli A2 ; 
+öfkeli:öfkeli A2 ; 
 saklı:saklı A2 ; ! "secret"
 teşekküllü:teşekküllü A4 ; ! "organised"
 bireysel:bireysel A4 ; ! "singular"
@@ -18443,6 +18444,7 @@ tarihi:tarihi A1 ;
 daha% fazla:daha% fazla A1 ;
 öbür:öbür A1 ;
 yaralı:yaralı A2 ;
+vurmalı:vurmalı A2 ;
 bütün:bütün A1 ;
 hakiki:hakiki A1 ;
 kayıp:kayıp A1 ;
@@ -18582,6 +18584,7 @@ kireçli:kireçli A1 ;
 mineral:mineral A1 ;
 taktiksel:taktiksel A1 ;
 yiyecek:yiyecek A1 ;
+okunan:okunan A1 ; ! Use/MT ! Dir/RL
 
 
 
