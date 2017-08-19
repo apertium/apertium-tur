@@ -12109,6 +12109,7 @@ Biljana:Biljana NP-ANT-F ; ! ""
 ! Cognomen
 
 Kosumi:Kosumi NP-COG-MF ; ! ""
+Köprülü:Köprülü NP-COG-MF ; ! ""
 Lahey:Lahey NP-COG-MF ; ! ""
 Boyner:Boyner NP-COG-MF ; ! ""
 Kermabon:Kermabon NP-COG-MF ; ! ""
@@ -16243,6 +16244,7 @@ Vaçeslav:Vaçeslav NP-ANT-M ; ! ""
 Yaroslav:Yaroslav NP-ANT-M ; ! ""
 Serğiy:Serğiy NP-ANT-M ; ! ""
 Georgiy:Georgiy NP-ANT-M ; ! ""
+Çarli:Çarli NP-ANT-M ; ! ""
 Vorojba:Vorojba NP-TOP ; ! ""
 Drujba:Drujba NP-TOP ; ! ""
 Çukurça:Çukurça NP-TOP ; ! ""
@@ -18447,6 +18449,9 @@ daha% fazla:daha% fazla A1 ;
 yaralı:yaralı A2 ;
 vurmalı:vurmalı A2 ;
 borçlu:borçlu A2 ;
+adlı:adlı A2 ;
+namuslu:namuslu A2 ;
+kodlu:kodlu A2 ;
 bütün:bütün A1 ;
 hakiki:hakiki A1 ;
 kayıp:kayıp A1 ;
@@ -18587,7 +18592,7 @@ mineral:mineral A1 ;
 taktiksel:taktiksel A1 ;
 yiyecek:yiyecek A1 ;
 okunan:okunan A1 ; ! Use/MT ! Dir/RL
-
+hukuklu:hukuklu A2 ; ! Use/MT ! Dir/RL
 
 
 
