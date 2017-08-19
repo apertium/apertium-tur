@@ -9680,7 +9680,6 @@ teknik% okul:teknik% okul N1 ;
 tepme:tepme N1 ;
 terleme:terleme N1 ;
 teşkilatçı:teşkilatçı N1 ;
-trafik% ışığı:trafik% ışık N2 ;
 tütün:tütün N1 ;
 üretici:üretici N1 ;
 usta:usta N1 ;
@@ -9728,7 +9727,7 @@ tersi:tersi N1 ; ! ""
 uru:uru N1 ; ! ""
 yunanca:yunanca N1 ; ! ""
 
-trafik% ışığı:trafik% ışık N2 ; ! ""
+trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
