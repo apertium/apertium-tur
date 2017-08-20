@@ -18600,6 +18600,7 @@ kalabalık:kalabalık A1 ;
 ikili:ikili A1 ;
 üçlü:üçlü A1 ;
 hukuklu:hukuklu A2 ; ! Use/MT ! Dir/RL
+milyonlu:milyonlu A2 ; ! Use/MT ! Dir/RL
 
 
 
@@ -18931,6 +18932,7 @@ sabahleyin:sabahleyin ADV3 ; ! "in the morning"
 sabah:sabah ADV3 ; ! "in the morning"
 sadece:sadece ADV3 ; ! "only"
 sanki:sanki ADV3 ; ! "in a manner, nearly"
+sözde:sözde ADV3 ; ! "supposedly"
 sonra:sonra ADV4 ; ! "after, afterwards" @@@ also postp
 sonradan:sonradan ADV3 ; ! "later on"
 sonunda:sonunda ADV3 ; ! "at the end"
