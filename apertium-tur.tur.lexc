@@ -952,7 +952,7 @@ LEXICON ATTR-SUBST
 LEXICON CASE-NONOM
 
 %<gen%>:%>%{N%}%{I%}n CLIT ;      
-%<dat%>:%>%{y%}%{A%} CLIT ;   
+%<dat%>:%>%{y%}%{A%} CLIT-GENERAL ;   
 %<acc%>:%>%{y%}%{I%} CLIT ;
 %<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   
 %<abl%>:%>%{D%}%{A%}n CLIT-GENERAL ;  
@@ -980,7 +980,7 @@ LEXICON CASE
 
 %<nom%>: CLIT-GENERAL ;               
 %<gen%>:%>%{N%}%{I%}n CLIT ;      
-%<dat%>:%>%{y%}%{A%} CLIT ;   
+%<dat%>:%>%{y%}%{A%} CLIT-GENERAL ;   
 %<acc%>:%>%{y%}%{I%} CLIT ;
 %<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   
 %<abl%>:%>%{D%}%{A%}n CLIT-GENERAL ;  
@@ -1134,6 +1134,9 @@ LEXICON N5
 LEXICON NP-TOP
 
 %<np%>%<top%>%<nom%>: # ;
+! @@ NOTE: This will generate Türkiyeydi instead of Türkiye'ydi, but adding %' would cause
+!          generation of nom+cop.aor.p3.sg as Türkiye'
+%<np%>%<top%>%<nom%>: CLIT-GENERAL ; ! Dir/RL   
 %<np%>%<top%>:%' N-INFL-COMMON-NONOM ;
 %<np%>%<top%>%<attr%>: # ;
 %<np%>%<top%>: LI-POSTPOSITION ;
@@ -1144,16 +1147,19 @@ LEXICON NP-TOP
 LEXICON NP2-TOP
 
 %<np%>%<top%>%<px3sp%>%<nom%>: # ;
+%<np%>%<top%>%<px3sp%>%<nom%>: CLIT-GENERAL ; ! Dir/RL
 %<np%>%<top%>%<px3sp%>:%'%{n%} CASE-ETC-NONOM ;
 
 LEXICON NP3-TOP
 
 %<np%>%<top%>%<pl%>%<px3sp%>%<nom%>: # ;
+%<np%>%<top%>%<pl%>%<px3sp%>%<nom%>: CLIT-GENERAL ; ! Dir/RL
 %<np%>%<top%>%<pl%>%<px3sp%>:%'%{n%} CASE-ETC-NONOM ;
 
 LEXICON NP4-TOP
 
 %<np%>%<top%>%<pl%>%<nom%>: # ;
+%<np%>%<top%>%<pl%>%<nom%>: CLIT-GENERAL ; ! Dir/RL
 %<np%>%<top%>%<pl%>:%' N-INFL-COMMON-NONOM ;
 
 
@@ -1177,10 +1183,12 @@ POSS-REAL ;   ! for stuff like "биздин аба ырайыбыз" and even "
 
 LEXICON NP-ANT-M
 
-%<np%>%<ant%>%<m%>%<nom%>: # ;
+%<np%>%<ant%>%<m%>%<nom%>: CLIT-GENERAL ;
 %<np%>%<ant%>%<m%>%<nom%>:%' V-NOPERS-COP ;
 %<np%>%<ant%>%<m%>:%' N-INFL-COMMON-NONOM ;
 !%<np%>%<ant%>%<m%>%<attr%>: # ;
+%<np%>%<ant%>%<m%>%<pl%>%<nom%>:%>l%{A%}r CLIT-GENERAL ;
+%<np%>%<ant%>%<m%>%<pl%>:%>l%{A%}r%' N-INFL-COMMON-NONOM ;
 
 LEXICON NP-ANT-F
 
@@ -1188,6 +1196,8 @@ LEXICON NP-ANT-F
 %<np%>%<ant%>%<f%>%<nom%>:%' V-NOPERS-COP ;
 %<np%>%<ant%>%<f%>:%' N-INFL-COMMON-NONOM ;
 !%<np%>%<ant%>%<f%>%<attr%>: # ;
+%<np%>%<ant%>%<f%>%<pl%>%<nom%>:%>l%{A%}r CLIT-GENERAL ;
+%<np%>%<ant%>%<f%>%<pl%>:%>l%{A%}r%' N-INFL-COMMON-NONOM ;
 
 LEXICON NP-COG-ZADE
 
