@@ -2667,11 +2667,11 @@ mı%<qst%>:mü # ; ! Dir/LR
 mı%<qst%>:%~mı # ; ! Dir/RL
 %~:%~ # ; ! Dir/RL
 
-i%<cop%>%<ifi%>:%>i%>%{D%}%{I%} V-COP-IFI-PERS ; ! For when it goes separately
-i%<cop%>%<dub%>%<aor%>:%>i%>m%{I%}ş V-COP-PERS ; ! For when it goes separately
+i%<cop%>%<ifi%>:i%>%{D%}%{I%} V-COP-IFI-PERS ; ! For when it goes separately
+i%<cop%>%<dub%>%<aor%>:i%>m%{I%}ş V-COP-PERS ; ! For when it goes separately
 i%<cop%>%<gna_ken%>:iken # ;  ! For when it goes separately
-i%<vaux%>%<ifi%>:%>i%>%{D%}%{I%} V-COP-IFI-PERS ; ! For when it goes separately
-i%<vaux%>%<dub%>%<aor%>:%>i%>m%{I%}ş V-COP-PERS ; ! For when it goes separately
+i%<vaux%>%<ifi%>:i%>%{D%}%{I%} V-COP-IFI-PERS ; ! For when it goes separately
+i%<vaux%>%<dub%>%<aor%>:i%>m%{I%}ş V-COP-PERS ; ! For when it goes separately
 i%<vaux%>%<gna_ken%>:iken # ;  ! For when it goes separately
 
 LEXICON Postadverbs
