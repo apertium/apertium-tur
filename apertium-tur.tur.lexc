@@ -900,10 +900,10 @@ LEXICON CLIT-NOPERS
 %+mı%<qst%>:% m%{I%} # ; 
 # ;  !! This is the end of word marker.
 
-LEXICON CLIT-W-COPULA
-
-%+mı%<qst%>:% m%{I%} PERS-COP-PRES ; 
-# ;  !! This is the end of word marker.
+!→!LEXICON CLIT-W-COPULA
+!→!
+!→!%+mı%<qst%>:% m%{I%} PERS-COP-PRES ; 
+!→!# ;  !! This is the end of word marker.
 
 !→!LEXICON V-PERS-COP
 !→!
@@ -1272,7 +1272,7 @@ LEXICON NP-TOP-ACR
 
 LEXICON PRON-PERS
 
-ben%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:ben CLIT-W-COPULA ; 
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:ben V-COP ; 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:benim CLIT ; 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:bana CLIT ; 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:beni CLIT ; 
@@ -1284,7 +1284,7 @@ ben%<prn%>%<pers%>%<p1%>%<sg%>%<adv%>:bence CLIT ;
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<ins%>:benimle # ; 
 
 
-sen%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:sen CLIT-W-COPULA ; 
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:sen V-COP ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:senin CLIT ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:sana CLIT ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:seni CLIT ; 
@@ -1296,7 +1296,7 @@ sen%<prn%>%<pers%>%<p2%>%<sg%>%<adv%>:sence CLIT ;
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<ins%>:seninle # ; 
 
 
-o%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:o CLIT-W-COPULA ; 
+o%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:o V-COP ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:onun CLIT ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:ona CLIT ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:onu CLIT ; 
@@ -1307,7 +1307,7 @@ o%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:ondeki ATTR-SUBST ;
 o%<prn%>%<pers%>%<p3%>%<sg%>%<adv%>:once CLIT ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:onunla # ; 
 
-biz%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:biz CLIT-W-COPULA ; 
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:biz V-COP ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:bizim CLIT ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:bize CLIT ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:bizi CLIT ; 
@@ -1320,7 +1320,7 @@ biz%<prn%>%<pers%>%<p1%>%<pl%>%<ins%>:bizimle # ;
 !biz%<prn%>%<pers%>%<p1%>%<pl%>%<abe%>:bizsiz CLIT ; 
 
 
-siz%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:siz CLIT-W-COPULA ; 
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:siz V-COP ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:sizin CLIT ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:size CLIT ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:sizi CLIT ; 
@@ -1333,7 +1333,7 @@ siz%<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:sizinle # ;
 
 !sizler, bizler
 
-bizler%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:bizler CLIT-W-COPULA ; 
+bizler%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:bizler V-COP ; 
 bizler%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:bizlerin CLIT ; 
 bizler%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:bizlere CLIT ; 
 bizler%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:bizleri CLIT ; 
@@ -1346,7 +1346,7 @@ bizler%<prn%>%<pers%>%<p1%>%<pl%>%<ins%>:bizlerle # ;
 !bizler%<prn%>%<pers%>%<p1%>%<pl%>%<abe%>:bizlersiz CLIT ; 
 
 
-sizler%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:sizler CLIT-W-COPULA ; 
+sizler%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:sizler V-COP ; 
 sizler%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:sizlerin CLIT ; 
 sizler%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:sizlere CLIT ; 
 sizler%<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:sizleri CLIT ; 
@@ -1358,7 +1358,7 @@ sizler%<prn%>%<pers%>%<p2%>%<pl%>%<adv%>:sizlerce CLIT ;
 sizler%<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:sizlerle # ; 
 
 
-onlar%<prn%>%<pers%>%<p3%>%<pl%>%<nom%>:onlar CLIT-W-COPULA ; 
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<nom%>:onlar V-COP ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:onların CLIT ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:onlara CLIT ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<acc%>:onları CLIT ; 
