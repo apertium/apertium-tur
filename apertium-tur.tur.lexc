@@ -9293,7 +9293,7 @@ Türkçe:Türkçe N1 ; ! "turkish"
 Rusça:Rusça N1 ; ! "russian"
 Arapça:Arapça N1 ; ! "arabic"
 Arnavutça:Arnavutça N1 ; ! "albanian"
-
+Portekizce:Portekizce N1 ; ! "portuguese"
 
 
 
@@ -20446,6 +20446,7 @@ boşalt:boşalt V-IR-TV ; ! ""
 yazdır:yazdır V-IR-TV ; ! ""
 
 çalkandır:çalkandır V-IR-TV ; ! ""
+iliştir:iliştir V-IR-TV ; ! ""
 düzleştir:düzleştir V-IR-TV ; ! ""
 ismarla:ismarla V-IR-TV ; ! ""
 kanıklan:kanıklan V-IR-IV ; ! ""
