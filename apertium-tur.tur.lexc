@@ -18595,6 +18595,9 @@ mineral:mineral A1 ;
 taktiksel:taktiksel A1 ;
 yiyecek:yiyecek A1 ;
 okunan:okunan A1 ; ! Use/MT ! Dir/RL
+kalabalık:kalabalık A1 ;
+ikili:ikili A1 ;
+üçlü:üçlü A1 ;
 hukuklu:hukuklu A2 ; ! Use/MT ! Dir/RL
 
 
