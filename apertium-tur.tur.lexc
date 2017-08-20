@@ -19796,6 +19796,8 @@ cilala:cilala V-IR-TV ; ! "polish" (T)
 damgala:damgala V-IR-TV ; ! "imprint" (T)
 !de:d%{e%} V-TV-T-IR ; ! "say"
 de:d%{e%} V-IR-TV ; ! "say"
+de:d%{e%} V-IR-IV ; ! "say"
+!de:de V-IR-TV ;
 demirle:demirle V-IR-TV ; ! "anchor" (T)
 dene:dene V-IR-TV ; ! "try" (T)
 denetle:denetle V-IR-TV ; ! "check" (T)
@@ -19908,7 +19910,6 @@ git:git%{v%} V-AR-IV ; ! "go"
 öl:öl V-IR-IV ; ! "die"
 yakalan:yakalan V-IR-IV ; ! "be caught"
 !de:d%{e%} V-IV-DIR-IR ; ! "say"
-de:d%{e%} V-IR-IV ; ! "say"
 ! ol:ol V-IV-DIR-IR ; ! "be"
 ol:ol V-IR-IV ; ! "be"
 don:don V-AR-IV ; ! "freeze" (DIR)
@@ -20126,7 +20127,6 @@ dön:dön V-AR-IV ; ! "turn"
 dönüş:dönüş V-IR-IV ; ! "return to" (DIR)
 doy:doy V-AR-IV ; ! "be full up" (DIR)
 dur:dur V-IR-IV ; ! "stop" (DIR)
-de:de V-IR-TV ;
 durdur:durdur V-IR-TV ; ! "stop" 
 dürt:dürt V-AR-IV ; ! "poke" (DIR)
 durul:durul V-IR-IV ; ! "calm down" (DIR)
