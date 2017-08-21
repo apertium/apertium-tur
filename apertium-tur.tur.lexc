@@ -1004,8 +1004,12 @@ GENPOSS-ETC ;
 LEXICON GER-CASE-ETC
 
 CASE ;
-! GER-GENPOSS-ETC ;
+GER-GENPOSS-ETC ;
  
+LEXICON GER-GENPOSS-ETC 
+
+!%<gen%>%<subst%>:%>%{N%}%{I%}ki%{n%} CASE ;
+%<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
 
 LEXICON POSS-REAL
 
@@ -1267,12 +1271,14 @@ LEXICON NP-AL-PL
 LEXICON NP-AL
 
 %<np%>%<al%>%<nom%>: # ;
+%<np%>%<al%>%<nom%>:%' V-NOPERS-COP ;
 %<np%>%<al%>:%' N-INFL-COMMON-NONOM ;
 %<np%>%<al%>%<attr%>: # ;
 
 LEXICON NP-TOP-ACR
 
 %<np%>%<top%>%<nom%>: # ;
+%<np%>%<al%>%<nom%>:%' V-NOPERS-COP ;
 %<np%>%<top%>:%' N-INFL-COMMON-NONOM ;
 %<np%>%<top%>%<attr%>: # ;
 
@@ -9972,6 +9978,7 @@ Bekir:Bekir NP-ANT-M ; ! ""
 Viktor:Viktor NP-ANT-M ; ! ""
 Oleg:Oleg NP-ANT-M ; ! ""
 Lenin:Lenin NP-COG-MF ; ! ""
+Lenina:Lenina NP-COG-MF ; ! ""
 
 Bondarenko:Bondarenko NP-COG-MF ; ! ""
 Cemilev:Cemilev NP-COG-MF ; ! ""
