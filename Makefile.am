@@ -128,7 +128,6 @@ EXTRA_DIST=$(BASENAME).$(LANG1).lexc            \
                 $(BASENAME).$(LANG1).twol       \
                 $(BASENAME).$(LANG1).rlx        \
                 $(BASENAME).post-$(LANG1).dix   \
-                $(LANG1).prob                   \
                 modes.xml
 
 
@@ -142,7 +141,7 @@ EXTRA_DIST=$(BASENAME).$(LANG1).lexc            \
 apertium_turdir=$(prefix)/share/apertium/$(BASENAME)/
 apertium_tur_srcdir=$(prefix)/share/apertium/$(BASENAME)/
 
-EXTRA_TARGETS=
+EXTRA_TARGETS=$(LANG1).prob
 
 if HAVE_HFSTOSPELL
 EXTRA_TARGETS += $(LANG1).zhfst
