@@ -260,7 +260,7 @@ LEXICON NUM-DIGIT
 %<num%>%<subst%>:%' SUBST-NONOM ;
 %<num%>%<subst%>: SUBST-NONOM ; ! Dir/LR
 
-%<num%>%<ord%>:%'%{i%}nc%{I%} # ;
+%<num%>%<ord%>:%'%{i%}nc%{I%} CLIT-GENERAL ;
 %<num%>%<ord%>%<subst%>%<nom%>:%'%{I%}nc%{I%} # ;
 %<num%>%<ord%>%<subst%>:%'%{I%}nc%{i%} SUBST-NONOM ;
 
