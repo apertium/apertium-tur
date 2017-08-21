@@ -951,7 +951,7 @@ LEXICON ATTR-SUBST
 
 LEXICON CASE-NONOM
 
-%<gen%>:%>%{N%}%{I%}n CLIT ;      
+%<gen%>:%>%{N%}%{I%}n CLIT-GENERAL ;      
 %<dat%>:%>%{y%}%{A%} CLIT-GENERAL ;   
 %<acc%>:%>%{y%}%{I%} CLIT ;
 %<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   
@@ -979,7 +979,7 @@ CASE-ETC-NONOM ;
 LEXICON CASE 
 
 %<nom%>: CLIT-GENERAL ;               
-%<gen%>:%>%{N%}%{I%}n CLIT ;      
+%<gen%>:%>%{N%}%{I%}n CLIT-GENERAL ;     ! Kiev Ukrayna'nındı
 %<dat%>:%>%{y%}%{A%} CLIT-GENERAL ;   
 %<acc%>:%>%{y%}%{I%} CLIT ;
 %<loc%>:%>%{D%}%{A%} CLIT-GENERAL ;   
@@ -992,7 +992,7 @@ LEXICON GENPOSS-ETC
 
 %<gen%>%<subst%>:%>%{N%}%{I%}ki%{n%} CASE ;
 %<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
-%<sim%>:%>%{C%}%{A%} # ;  ! CLITICS-NO-COP
+%<sim%>:%>%{C%}%{A%} CLIT-GENERAL ;  ! CLITICS-NO-COP
 
 ! CASE ;  ! FIXME: CHECK
 
@@ -1289,7 +1289,7 @@ LEXICON NP-TOP-ACR
 LEXICON PRON-PERS
 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<nom%>:ben V-COP ; 
-ben%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:benim CLIT ; 
+ben%<prn%>%<pers%>%<p1%>%<sg%>%<gen%>:benim V-COP ; 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<dat%>:bana CLIT ; 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<acc%>:beni CLIT ; 
 ben%<prn%>%<pers%>%<p1%>%<sg%>%<loc%>:bende CLIT ; 
@@ -1301,7 +1301,7 @@ ben%<prn%>%<pers%>%<p1%>%<sg%>%<ins%>:benimle # ;
 
 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<nom%>:sen V-COP ; 
-sen%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:senin CLIT ; 
+sen%<prn%>%<pers%>%<p2%>%<sg%>%<gen%>:senin V-COP ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<dat%>:sana CLIT ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<acc%>:seni CLIT ; 
 sen%<prn%>%<pers%>%<p2%>%<sg%>%<loc%>:sende CLIT ; 
@@ -1313,7 +1313,7 @@ sen%<prn%>%<pers%>%<p2%>%<sg%>%<ins%>:seninle # ;
 
 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<nom%>:o V-COP ; 
-o%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:onun CLIT ; 
+o%<prn%>%<pers%>%<p3%>%<sg%>%<gen%>:onun V-COP ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<dat%>:ona CLIT ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<acc%>:onu CLIT ; 
 o%<prn%>%<pers%>%<p3%>%<sg%>%<loc%>:onda CLIT ; 
@@ -1324,7 +1324,7 @@ o%<prn%>%<pers%>%<p3%>%<sg%>%<adv%>:once CLIT ;
 o%<prn%>%<pers%>%<p3%>%<sg%>%<ins%>:onunla # ; 
 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:biz V-COP ; 
-biz%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:bizim CLIT ; 
+biz%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:bizim V-COP ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:bize CLIT ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:bizi CLIT ; 
 biz%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizde CLIT ; 
@@ -1337,7 +1337,7 @@ biz%<prn%>%<pers%>%<p1%>%<pl%>%<ins%>:bizimle # ;
 
 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:siz V-COP ; 
-siz%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:sizin CLIT ; 
+siz%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:sizin V-COP ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:size CLIT ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:sizi CLIT ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizde CLIT ; 
@@ -1350,7 +1350,7 @@ siz%<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:sizinle # ;
 !sizler, bizler
 
 bizler%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:bizler V-COP ; 
-bizler%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:bizlerin CLIT ; 
+bizler%<prn%>%<pers%>%<p1%>%<pl%>%<gen%>:bizlerin V-COP ; 
 bizler%<prn%>%<pers%>%<p1%>%<pl%>%<dat%>:bizlere CLIT ; 
 bizler%<prn%>%<pers%>%<p1%>%<pl%>%<acc%>:bizleri CLIT ; 
 bizler%<prn%>%<pers%>%<p1%>%<pl%>%<loc%>:bizlerde CLIT ; 
@@ -1363,7 +1363,7 @@ bizler%<prn%>%<pers%>%<p1%>%<pl%>%<ins%>:bizlerle # ;
 
 
 sizler%<prn%>%<pers%>%<p2%>%<pl%>%<nom%>:sizler V-COP ; 
-sizler%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:sizlerin CLIT ; 
+sizler%<prn%>%<pers%>%<p2%>%<pl%>%<gen%>:sizlerin V-COP ; 
 sizler%<prn%>%<pers%>%<p2%>%<pl%>%<dat%>:sizlere CLIT ; 
 sizler%<prn%>%<pers%>%<p2%>%<pl%>%<acc%>:sizleri CLIT ; 
 sizler%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizlerde CLIT ; 
@@ -1375,7 +1375,7 @@ sizler%<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:sizlerle # ;
 
 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<nom%>:onlar V-COP ; 
-onlar%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:onların CLIT ; 
+onlar%<prn%>%<pers%>%<p3%>%<pl%>%<gen%>:onların V-COP ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<dat%>:onlara CLIT ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<acc%>:onları CLIT ; 
 onlar%<prn%>%<pers%>%<p3%>%<pl%>%<loc%>:onlarda CLIT ; 
@@ -1436,10 +1436,11 @@ herhangi:herhangi PRON-ITG-INFL ;
 LEXICON PRON-QNT
 
 %<prn%>%<qnt%>: N-INFL-COMMON ; ! FIXME: Check contlex
+%<prn%>%<qnt%>%<pl%>:%>l%{A%}r N-INFL-COMMON ; ! FIXME: Check contlex
 
 LEXICON PRON-QNT-ÇOĞU
 
-%<prn%>%<qnt%>%<nom%>: # ; ! FIXME: Check contlex
+%<prn%>%<qnt%>%<nom%>: CLIT-GENERAL ; ! FIXME: Check contlex
 %<prn%>%<qnt%>:%{n%} CASE-NONOM ; ! FIXME: Check contlex
 
 
@@ -2676,11 +2677,11 @@ LEXICON Miscellaneous
 
 ! FIXME: give the proper continuation lexicon
 
-mı%<qst%>:mı # ; ! Dir/LR
-mı%<qst%>:mi # ; ! Dir/LR
-mı%<qst%>:mu # ; ! Dir/LR
-mı%<qst%>:mü # ; ! Dir/LR
-mı%<qst%>:%~mı # ; ! Dir/RL
+mı%<qst%>:mı V-MI-COMMON ; ! Dir/LR
+mı%<qst%>:mi V-MI-COMMON ; ! Dir/LR
+mı%<qst%>:mu V-MI-COMMON ; ! Dir/LR
+mı%<qst%>:mü V-MI-COMMON ; ! Dir/LR
+mı%<qst%>:%~mı V-MI-COMMON ; ! Dir/RL
 %~:%~ # ; ! Dir/RL
 
 i%<cop%>%<ifi%>:i%>%{D%}%{I%} V-COP-IFI-PERS ; ! For when it goes separately
@@ -2898,6 +2899,7 @@ hiçbir% şey:hiçbir% şey PRON-NEG ; ! "nothing"
 hiç% kimse:hiç% kimse PRON-NEG ; ! "nobody"
 herkes:herkes PRON-QNT ; ! "everybody"
 ekseri:ekser PRON-QNT ; ! ""
+bütün:bütün PRON-IND ; ! "every"
 hep:hep PRON-QNT ; ! "all" @@@@ TAKES CASES
 kimse:kimse PRON-QNT ; ! "nobody"
 birisi:birisi PRON-QNT ; ! "somebody"
@@ -9743,7 +9745,8 @@ tersi:tersi N1 ; ! ""
 uru:uru N1 ; ! ""
 yunanca:yunanca N1 ; ! ""
 arma:arma N1 ; ! ""
-Kezlevli:Kezlevli N1 ; ! ""
+kezlevli:Kezlevli N1 ; ! ""
+alevli:Alevli N1 ; ! ""
 
 trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
