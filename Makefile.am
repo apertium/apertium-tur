@@ -124,10 +124,13 @@ $(LANG1).zhfst: .deps/acceptor.default.hfst .deps/errmodel.default.hfst
 ###############################################################################
 ## Distribution
 ###############################################################################
-EXTRA_DIST=$(BASENAME).$(LANG1).lexc \
-	   $(BASENAME).$(LANG1).twol \
-	   $(BASENAME).$(LANG1).rlx  \
-	   modes.xml
+EXTRA_DIST=$(BASENAME).$(LANG1).lexc            \
+                $(BASENAME).$(LANG1).twol       \
+                $(BASENAME).$(LANG1).rlx        \
+                $(BASENAME).post-$(LANG1).dix   \
+                $(LANG1).prob                   \
+                modes.xml
+
 
 ###############################################################################
 ## Installation stuff
