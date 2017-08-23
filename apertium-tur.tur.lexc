@@ -9747,6 +9747,36 @@ yunanca:yunanca N1 ; ! ""
 arma:arma N1 ; ! ""
 kezlevli:Kezlevli N1 ; ! ""
 alevli:Alevli N1 ; ! ""
+yarışma:yarışma N1 ;
+savaşçı:savaşçı N1 ;
+topluluk:topluluk N1 ;
+radyo:radyo N1 ;
+klarnet:klarnet N1 ;
+keman:keman N1 ;
+spiker:spiker N1 ;
+köy:köy N1 ;
+sahne:sahne N1 ;
+şarkı:şarkı N1 ;
+sürgün:sürgün N1 ;
+orkestra:orkestra N1 ;
+yönetici:yönetici N1 ;
+derleme:derleme N1 ;
+ilköğretim:ilköğretim N1 ;
+salon:salon N1 ;
+müzisyen:müzisyen N1 ;
+gösteri:gösteri N1 ;
+uranyum:uranyum N1 ;
+piyes:piyes N1 ;
+grup:grup N1 ;
+kadro:kadro N1 ;
+zanaat:zanaat N1 ;
+tasarım:tasarım N1 ;
+orkestra:orkestra N1 ;
+furya:furya N1 ;
+kıtlık:kıtlık N1 ;
+mezun:mezun N1 ;
+bilişim:bilişim N1 ;
+
 
 trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
@@ -18621,6 +18651,7 @@ kalabalık:kalabalık A1 ;
 ikili:ikili A1 ;
 üçlü:üçlü A1 ;
 hukuksuz:hukuksuz A1 ;
+sanatsal:sanatsal A1 ;
 hukuklu:hukuklu A2 ; ! Use/MT ! Dir/RL
 milyonlu:milyonlu A2 ; ! Use/MT ! Dir/RL
 
