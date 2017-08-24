@@ -1404,11 +1404,11 @@ LEXICON PRON-DEM-BU
 LEXICON PRON-ITG-NERE
 
 %<prn%>%<itg%>%<gen%>:%>enin # ;
-%<prn%>%<itg%>%<dat%>:%>eye #  ;
+%<prn%>%<itg%>%<dat%>:%>eye CLIT-GENERAL  ;
 %<prn%>%<itg%>%<acc%>:%>eyi # ;
 %<prn%>%<itg%>%<abl%>:%>eden # ;
-%<prn%>%<itg%>%<loc%>:%>ede # ;
-%<prn%>%<itg%>%<loc%>:%>de # ; ! Dir/LR
+%<prn%>%<itg%>%<loc%>:%>ede CLIT-GENERAL ;
+%<prn%>%<itg%>%<loc%>:%>de CLIT-GENERAL ; ! Dir/LR
 %<prn%>%<itg%>%<gen%>%<subst%>:%>esi CASE ;
 %<prn%>%<itg%>%<loc%>:%>edeki ATTR-SUBST ;
 
