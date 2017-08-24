@@ -8301,7 +8301,7 @@ teşkil:teşkil N1 ; ! "organization"
 sol:sol N1 ; ! "left"
 protesto:protesto N1 ; ! " protest"
 silah:silah N1 ; ! "weapon"
-yanlısı:yanlısı N1 ; ! "proponent"
+yanlısı:yanlı N2 ; ! Dir/RL ! Use/MT
 doğalgaz:doğalgaz N1 ; ! "natural gas"
 gazeteci:gazeteci N1 ; ! "journalist"
 karşıt:karşıt N1 ; ! "opponent"
@@ -9785,6 +9785,8 @@ soruşturmacı:soruşturmacı N1 ;
 blogcu:blogcu N1 ;
 doğumevi:doğumev N2 ;
 rüşvetçilik:rüşvetçilik N1 ;
+gönüllü:gönüllü N1 ;
+gündüz:gündüz N1 ;
 televizyon% programı:televizyon% programı N1 ; ! Dir/RL ! Use/MT
 terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
 
@@ -17990,7 +17992,7 @@ manevi:manevi A4 ;  ! ""
 enayi:enayi A4 ;  ! ""
 mütevazi:mütevazi A4 ;  ! ""
 kıpkırmızı:kıpkırmızı A2 ;  ! ""
-ufak:ufak A4 ;  ! ""
+ufak:ufak A1 ;  ! ""
 müstahak:müstahak A2 ;  ! ""
 korkak:korkak A4;  ! ""
 yatalak:yatalak A4 ;  ! ""
@@ -18674,6 +18676,8 @@ ikili:ikili A1 ;
 hukuksuz:hukuksuz A1 ;
 sanatsal:sanatsal A1 ;
 aylık:aylık A1 ;
+mahkum:mahkum A1 ;
+önceki:önceki A1 ;
 hukuklu:hukuklu A2 ; ! Use/MT ! Dir/RL
 milyonlu:milyonlu A2 ; ! Use/MT ! Dir/RL
 bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
