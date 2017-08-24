@@ -3048,6 +3048,7 @@ LEXICON Nouns
 
 hakk:hakk N1 ; ! "regarding"
 zapt:zapt N1 ;
+beyit:beyit N1 ;
 halinde:halinde POST ; ! "ın case of" ! FIXME
 acem:acem N1 ;
 yukar:yukar N1 ; ! ""
@@ -9786,6 +9787,7 @@ blogcu:blogcu N1 ;
 doğumevi:doğumev N2 ;
 rüşvetçilik:rüşvetçilik N1 ;
 gönüllü:gönüllü N1 ;
+prens:prens N1 ;
 gündüz:gündüz N1 ;
 televizyon% programı:televizyon% programı N1 ; ! Dir/RL ! Use/MT
 terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
