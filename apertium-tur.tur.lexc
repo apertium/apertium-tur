@@ -9776,6 +9776,16 @@ furya:furya N1 ;
 kıtlık:kıtlık N1 ;
 mezun:mezun N1 ;
 bilişim:bilişim N1 ;
+şahit:şahit N1 ;
+akıl:akıl N1 ;
+özsavunma:özsavunma N1 ;
+soruşturmacı:soruşturmacı N1 ;
+blogcu:blogcu N1 ;
+doğumevi:doğumev N2 ;
+rüşvetçilik:rüşvetçilik N1 ;
+televizyon% programı:televizyon% programı N1 ; ! Dir/RL ! Use/MT
+terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
+
 
 
 trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
@@ -17148,6 +17158,14 @@ Ahmetli:Ahmetli NP-TOP ; ! ""
 
 LEXICON Adjectives
 insancıl:insancıl A1 ;
+işgalci:işgalci A1 ;
+bahsi:bahsi A1 ;
+ruhi:ruhi A1 ;
+ruhsal:ruhsal A1 ;
+barışçıl:barışçıl A1 ;
+kaba:kaba A1 ;
+suni:suni A1 ;
+
 karşı:karşı A1 ;
 pratik:pratik A4 ;
 idari:idari A4 ;
@@ -18654,7 +18672,7 @@ hukuksuz:hukuksuz A1 ;
 sanatsal:sanatsal A1 ;
 hukuklu:hukuklu A2 ; ! Use/MT ! Dir/RL
 milyonlu:milyonlu A2 ; ! Use/MT ! Dir/RL
-
+bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 
 
 LEXICON Adverbs 
@@ -18991,6 +19009,17 @@ sonradan:sonradan ADV3 ; ! "later on"
 sonunda:sonunda ADV3 ; ! "at the end"
 şöyle:şöyle ADV3 ; ! "in that way"
 şüphesiz:şüphesiz ADV3 ; ! "undoubtfully"
+öncelikle:öncelikle ADV3 ; ! "firstly"
+sınırsızca:sınırsızca ADV3 ; ! "limitlessly"
+birazdan:birazdan ADV3 ; ! "presently"
+şimdiden:şimdiden ADV3 ; ! "already"
+şahsen:şahsen ADV3 ; ! "personally"
+doğrudan:doğrudan ADV3 ; ! "directly"
+nihayet:nihayet ADV3 ; ! "finally"
+geçen% sene:geçen% sene ADV3 ; ! Dir/RL ! Use/MT 
+
+
+
 sürekli:sürekli ADV3 ; ! "always"
 tamamen:tamamen ADV3 ; ! "completely"
 tesadüfen:tesadüfen ADV3 ; ! "accidentally"
