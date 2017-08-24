@@ -308,6 +308,7 @@ Cx:Cy <=>  [ [ AbstrVow: - %{fi%}: ] | :SurVow ] (%':) (:0) %>: _ ;
         except
            %{A%}: %{z%}:0 %>: _ %{I%}: m ;
                           %>: _ .#. ; ! git<v><iv><ger><nom>+i<cop><aor><p3><sg> : git{v}>m{A}>{y} : gitme
+                          %>: _ %>: :Cns ;  ! ner>ede>{y}>l{A}r 
         where
             Cx in ( %{N%} %{s%} %{y%} ) 
             Cy in (   n     s     y   ) 
@@ -320,6 +321,7 @@ Cx:Cy <=>  [ [ AbstrVow: - %{fi%}: ] | :SurVow ] (%':) (:0) %>: _ ;
 ! kitap>{y}{I}      = kitabı   = 
 ! anne>{y}{I}       = anneyi   = 
 ! Sofya'>y{I}       = Sofya'yı 
+! ner>ede>{y}>l{A}r = neredeler 
 !@ 9:9 2:2 {ii}:0 %:% -:- >:0 {y}:y {I}:i
 
 "Prevocalic consonant voicing"
