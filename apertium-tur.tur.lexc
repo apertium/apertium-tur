@@ -3279,6 +3279,7 @@ rolü:rolü N1 ; ! "role"
 yanlış:yanlış%{v%} N1 ; ! "mistake"
 milliyetçi:milliyetçi N1 ; ! "nationalist"
 radyo:radyo N1 ; ! "radio"
+radyo% komisyonu:radyo% komisyon N2 ; ! Dir/RL ! Use/MT 
 vize:vize N1 ; ! "visa"
 cumhurbaşkanlık:cumhurbaşkanlık%{v%} N1 ; ! "presidentship"
 spor:spor N1 ; ! "sport"
