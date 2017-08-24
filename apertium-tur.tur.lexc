@@ -9759,6 +9759,7 @@ sahne:sahne N1 ;
 şarkı:şarkı N1 ;
 sürgün:sürgün N1 ;
 orkestra:orkestra N1 ;
+orkestra% şefi:orkestra% şef N2 ; ! Dir/RL ! Use/MT
 yönetici:yönetici N1 ;
 derleme:derleme N1 ;
 ilköğretim:ilköğretim N1 ;
@@ -18670,6 +18671,7 @@ ikili:ikili A1 ;
 üçlü:üçlü A1 ;
 hukuksuz:hukuksuz A1 ;
 sanatsal:sanatsal A1 ;
+aylık:aylık A1 ;
 hukuklu:hukuklu A2 ; ! Use/MT ! Dir/RL
 milyonlu:milyonlu A2 ; ! Use/MT ! Dir/RL
 bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
