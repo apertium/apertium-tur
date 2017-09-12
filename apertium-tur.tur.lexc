@@ -9787,6 +9787,7 @@ blogcu:blogcu N1 ;
 doğumevi:doğumev N2 ;
 rüşvetçilik:rüşvetçilik N1 ;
 gönüllü:gönüllü N1 ;
+şoför:şoför N1 ;
 prens:prens N1 ;
 gündüz:gündüz N1 ;
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
@@ -18679,6 +18680,7 @@ hukuksuz:hukuksuz A1 ;
 sanatsal:sanatsal A1 ;
 aylık:aylık A1 ;
 mahkum:mahkum A1 ;
+ihtiyar:ihtiyar A1 ;
 önceki:önceki A1 ;
 hukuklu:hukuklu A2 ; ! Use/MT ! Dir/RL
 milyonlu:milyonlu A2 ; ! Use/MT ! Dir/RL
