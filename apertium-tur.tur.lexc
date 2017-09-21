@@ -9789,6 +9789,7 @@ rüşvetçilik:rüşvetçilik N1 ;
 gönüllü:gönüllü N1 ;
 şoför:şoför N1 ;
 prens:prens N1 ;
+şura:şura N1 ;
 gündüz:gündüz N1 ;
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
 terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
@@ -18683,6 +18684,7 @@ mahkum:mahkum A1 ;
 ihtiyar:ihtiyar A1 ;
 önceki:önceki A1 ;
 hukuklu:hukuklu A2 ; ! Use/MT ! Dir/RL
+düzenleyici:düzenleyici A1 ; ! Use/MT ! Dir/RL
 milyonlu:milyonlu A2 ; ! Use/MT ! Dir/RL
 bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 
@@ -18694,6 +18696,7 @@ bu% yüzden:bu% yüzden ADV3 ; ! ""
 şimdi:şimdi ADV4 ; ! "now"
 tek:tek ADV3 ;!  ""
 fakat:fakat ADV3 ;
+vesaire:vesaire ADV3 ;
 orada:orada ADV3 ;
 kadar:kadar ADV3 ;
 nispeten:nispeten ADV3 ;
@@ -19847,7 +19850,7 @@ başla:başla V-IR-TV ; ! "start"
 belirle:belirle V-IR-TV ; ! "indicate" (T)
 bellе:bellе V-IR-TV ; ! "memorise" (T)
 benimse:benimse V-IR-TV ; ! "embark on" (T)
-benze:benze V-IR-TV ; ! "resemble" (T)
+benze:benze V-IR-IV ; ! "resemble" (T)
 besle:besle V-IR-TV ; ! "feed" (T)
 beze:beze V-IR-TV ; ! "decorate" (T)
 bila:bila V-IR-TV ; ! "sharpen" (T)
