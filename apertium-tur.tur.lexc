@@ -18514,7 +18514,7 @@ değerli:değerli A1 ; ! "different"
 tekerlekli:tekerlekli A2 ; ! "wheeled"
 ilginç:ilginç A1 ; ! "interesting"  ! FIXME: CHECK A1
 ağaçlıklı:ağaçlıklı A2 ; ! "betreed" ! FIXME: CHECK A3
-nükleer:nükleer A4 ; ! "nuclear"
+nükleer:nükleer A1 ; ! "nuclear"
 aynı:aynı A2 ; ! "similar, same"
 benzer:benzer A2 ; ! "similar, alike"
 medeni:medeni A2 ; ! "civilized"
@@ -20631,6 +20631,7 @@ tamir% et:tamir% et V-AR-TV ;
 
 sohbet% et:sohbet% et V-AR-IV ;
 temin% edil:temin% edil V-IR-IV ; ! Dir/RL ! Use/MT 
+destek% ver:destek% ver V-IR-IV ; ! Dir/RL ! Use/MT 
 rağbet% et:rağbet% et V-AR-IV ; 
 
 alın:alın V-IR-IV ;
