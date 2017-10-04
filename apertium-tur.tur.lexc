@@ -9790,6 +9790,7 @@ gönüllü:gönüllü N1 ;
 şoför:şoför N1 ;
 prens:prens N1 ;
 şura:şura N1 ;
+sarsılma:sarsılma N1 ;
 yuvarlak:yuvarlak%{v%} N1 ;
 gündüz:gündüz N1 ;
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
@@ -17328,7 +17329,7 @@ mümkün:mümkün A2 ;  ! ""
 
 yönelik:yönelik A4 ; ! "devoted"
 mali:mali A2 ; ! "economıcal"
-düşük:düşük A4 ; ! 'low'
+düşük:düşük A1 ; ! 'low'
 ! önceki:önceki A4 ; ! "previous"
 hakkındaki:hakkındaki A4 ; ! "in concerning"
 sonraki:sonraki A1 ; ! "next"
@@ -19576,7 +19577,8 @@ direnle:direnle V-IR-TV ; ! "to pitchfork" (T)
 dirsekle:dirsekle V-IR-TV ; ! "to elbow" (T)
 dizginle:dizginle V-IR-TV ; ! "restrain" (T)
 dizile:dizile V-IR-TV ; ! "arrange" (T)
-dizle:dizle V-IR-TV ; ! "to knee /fall on knees" (T)
+dizil:dizil V-IR-IV ; ! 
+dizle:dizle V-IR-TV ; ! 
 dişle:dişle V-IR-TV ; ! "dent" (T)
 doku:doku V-IR-TV ; ! "knit" (T)
 dola:dola V-IR-TV ; ! "coil up" (T)
