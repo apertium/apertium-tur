@@ -3050,6 +3050,7 @@ hakk:hakk N1 ; ! "regarding"
 zapt:zapt N1 ;
 beyit:beyit N1 ;
 halinde:halinde POST ; ! "ın case of" ! FIXME
+hakkında:hakkında POST ;
 acem:acem N1 ;
 yukar:yukar N1 ; ! ""
 iran:iran N1 ;
@@ -17163,6 +17164,7 @@ Kırım:Kırım NP-TOP ; ! ""
 Anadolu:Anadolu NP-TOP ; ! ""
 Volın:Volın NP-TOP ; ! ""
 Ahmetli:Ahmetli NP-TOP ; ! ""
+Başkurtistan:Başkurtistan NP-TOP ; ! ""
 
 
 
