@@ -19993,6 +19993,8 @@ katla:katla V-IR-TV ; ! "fold" (T)
 kavra:kavra V-IR-TV ; ! "comprehend" (T)
 kayıtla:kayıtla V-IR-TV ; ! "restrict" (T)
 kazı:kazı V-IR-TV ; ! "scrape" (T)
+geri% çevir:geri% çevir V-IR-TV ; ! "" Use/MT
+
 
 gir:gir V-AR-IV ; ! enter" (DIR)
 !git:git%{v%} V-IV-DIR-AR ; ! "go"
