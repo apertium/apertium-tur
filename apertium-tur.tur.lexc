@@ -9792,6 +9792,7 @@ gönüllü:gönüllü N1 ;
 prens:prens N1 ;
 şura:şura N1 ;
 sarsılma:sarsılma N1 ;
+diyanet:diyanet N1 ;
 yuvarlak:yuvarlak%{v%} N1 ;
 gündüz:gündüz N1 ;
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
@@ -11760,6 +11761,7 @@ Yunanistan% Süper% Ligi:Yunanistan% Süper% Lig NP-ORG-COMPOUND-PX ; ! ""
 Southeast% European% Times:Southeast% European% Times NP-AL ; ! ""
 Reuters:Reuters NP-ORG ; ! ""
 MKMİK:MKMİK NP-ORG;
+Tatar-İnform:Tatar-İnform NP-ORG;
 MŞSC:MŞSC%{ii%} NP-ORG;
 AP:AP NP-AL ; ! ""
 B92:B92 NP-AL ; ! ""
@@ -17165,6 +17167,7 @@ Anadolu:Anadolu NP-TOP ; ! ""
 Volın:Volın NP-TOP ; ! ""
 Ahmetli:Ahmetli NP-TOP ; ! ""
 Başkurtistan:Başkurtistan NP-TOP ; ! ""
+Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 
@@ -17181,6 +17184,7 @@ suni:suni A1 ;
 
 karşı:karşı A1 ;
 pratik:pratik A4 ;
+sayın:sayın A4 ;
 idari:idari A4 ;
 yemeklik:yemeklik A4 ;
 
