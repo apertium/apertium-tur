@@ -2921,7 +2921,7 @@ bu:bu DET-DEM ; ! "this"
 o:o DET-DEM ; ! "this"
 
 hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
-hepsi:hepsi DET-QNT ; ! "all"
+hepsi:hepsi PRON-QNT ; ! "all"
 bütün:bütün DET-QNT ; ! "every"
 kaç:kaç DET-QNT ; ! ""
 
