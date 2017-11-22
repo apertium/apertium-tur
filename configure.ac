@@ -1,7 +1,7 @@
 AC_PREREQ(2.52)
 
-AC_INIT([apertium-tur], [0.1.0], [francis.tyers@gmail.com])
-AM_INIT_AUTOMAKE([apertium-tur], [0.1.0], no-define)
+AC_INIT([apertium-tur], [0.2.0], [francis.tyers@gmail.com])
+AM_INIT_AUTOMAKE([apertium-tur], [0.2.0], no-define)
 AC_PROG_LN_S
 AC_PROG_AWK
 
