@@ -3055,6 +3055,7 @@ acem:acem N1 ;
 yukar:yukar N1 ; ! ""
 iran:iran N1 ;
 çiy:çiy N1 ;
+akıllılık:akıllılık N1 ;
 bulvar:bulvar N1 ;
 bağımlılık:bağımlılık N1 ;
 devir:devir N1 ;
@@ -20557,6 +20558,7 @@ gezle:gezle V-IR-IV ; ! ""
 yuvarlan:yuvarlan V-IR-IV ; ! ""
 sallan:sallan V-IR-IV ; ! ""
 havalan:havalan V-IR-IV ; ! ""
+ödünç% ver: ödünç% ver V-IR-TV ;
 dökül:dökül V-IR-IV ; ! ""
 boşalt:boşalt V-IR-TV ; ! ""
 yazdır:yazdır V-IR-TV ; ! ""
