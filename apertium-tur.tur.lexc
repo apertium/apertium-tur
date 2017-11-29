@@ -2979,7 +2979,7 @@ milyonlarca:milyonlarca DET-QNT ; ! "millions of"
 
 birer:birer DET-QNT ; ! "one each"
 tümü:tümü DET-QNT ; ! "all of"
-
+tüm:tüm DET-QNT ;
 
 
 LEXICON Numerals
@@ -18709,7 +18709,9 @@ fakat:fakat ADV3 ;
 vesaire:vesaire ADV3 ;
 orada:orada ADV3 ;
 kadar:kadar ADV3 ;
+şurada:şurada ADV3 ;
 nispeten:nispeten ADV3 ;
+zorunlu:zorunlu ADV3 ;
 önceden:önceden ADV3 ;
 zorunlu% olarak:zorunlu% olarak ADV3 ;
 ara%-sıra ADV3 ;
