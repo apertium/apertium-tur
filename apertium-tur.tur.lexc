@@ -3831,6 +3831,7 @@ basınç:basınç N1 ; ! "pressure"
 basiret:basiret N1 ; ! "premonition"
 başkaldırı:başkaldırı N1 ; ! "rebellion"
 başkan:başkan N1 ; ! "başkan"
+siyahet:siayhet N1 ;
 başkent:başkent N1 ; ! "capital"
 basket:basket N1 ; ! "basket"
 basketbol:basketbol N1 ; ! "basketball"
@@ -9911,7 +9912,7 @@ Huriye:Huriye NP-ANT-F ; ! ""
 Regan:Regan NP-ANT-F ; ! ""
 Aygül:Aygül NP-ANT-F ; ! ""
 Delaney:Delaney NP-ANT-F ; ! ""
-
+Za:Za NP-ANT-M ; ! ""
 İrina:İrina NP-ANT-F ; ! ""
 Yelena:Yelena NP-ANT-F ; ! ""
 Svetlana:Svetlana NP-ANT-F ; ! ""
@@ -17178,12 +17179,13 @@ insancıl:insancıl A1 ;
 aşırılıkçı:aşırılıkçı A1 ;
 işgalci:işgalci A1 ;
 bahsi:bahsi A1 ;
+benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
 ruhsal:ruhsal A1 ;
 barışçıl:barışçıl A1 ;
 kaba:kaba A1 ;
 suni:suni A1 ;
-
+layık:layık A1 ;
 karşı:karşı A1 ;
 pratik:pratik A4 ;
 sayın:sayın A4 ;
@@ -18897,6 +18899,7 @@ günlerdir:günlerdir ADV3 ; ! "for days"
 güya:güya ADV3 ; ! "so to speak"
 güzün:güzün ADV3 ; ! "at autumn"
 hakça:hakça ADV3 ; ! "fairly"
+giderek:giderek ADV3 ;
 hakikaten:hakikaten ADV3 ; ! "in fact"
 !hala:hala ADV3 ; ! "still"
 hâlâ:hâlâ ADV3 ; ! "still" 
@@ -19087,7 +19090,7 @@ tümle:tümle V-IR-TV ;
 oluştur:oluştur V-IR-TV ;
 ağart:ağart V-IR-TV ;
 ekşi:ekşi V-IR-IV ;
-
+demokratikleştir:demokratikleştir V-IR-TV ;
 sıkıştır:sıkıştır V-IR-TV ;
 yerine% getir: yerine% getir V-IR-TV ;
 çiçeklen:çiçeklen V-IR-IV ;
