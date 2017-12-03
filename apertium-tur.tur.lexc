@@ -9820,7 +9820,7 @@ Kirovograd:Kirovograd NP-TOP ; ! ""
 Kefe:Kefe NP-TOP ; ! ""
 Elburz:Elburz NP-TOP ;
 Herat:Herat NP-TOP ;
-
+Temirtau:Temirtau NP-TOP ;
 Pobeda:Pobeda NP-TOP ; ! ""
 Malaysia:Malaysia NP-TOP ; ! ""
 Tirana:Tirana NP-TOP ; ! ""
@@ -17185,6 +17185,9 @@ ruhsal:ruhsal A1 ;
 barışçıl:barışçıl A1 ;
 kaba:kaba A1 ;
 suni:suni A1 ;
+hayırlı:hayırlı A1 ;
+sık:sık A1 ;
+uğurlu:uğurlu A1 ;
 layık:layık A1 ;
 karşı:karşı A1 ;
 pratik:pratik A4 ;
@@ -17211,7 +17214,7 @@ sulu:sulu A4 ;
 periyodik:periyodik A4 ;
 gündüz:gündüz A1 ;
 asırlık:asırlık A4 ;
-farkedilir:fakedilir A2 ;
+farkedilir:farkedilir A2 ;
 yağlı:yağlı A4 ;
 mimarlıkla% ilgili:mimarlıkla% ilgili A4 ;
 yarım:yarım A3 ;
@@ -19090,6 +19093,7 @@ tümle:tümle V-IR-TV ;
 oluştur:oluştur V-IR-TV ;
 ağart:ağart V-IR-TV ;
 ekşi:ekşi V-IR-IV ;
+tekrar% incele:tekrar% incele V-IR-TV ;
 demokratikleştir:demokratikleştir V-IR-TV ;
 sıkıştır:sıkıştır V-IR-TV ;
 yerine% getir: yerine% getir V-IR-TV ;
@@ -20157,6 +20161,7 @@ yüzleş:yüzleş V-IR-IV ; ! "face" (DIR)
 zulmet:zulmet V-AR-IV ; ! "oppress" (DIR)
 adlan:adlan V-IR-IV ; ! "call" (DIR)
 ağar:ağar V-IR-IV ; ! "get white" (DIR)
+yüksel:yüksel V-IR-IV ;
 ağın:ağın V-IR-IV ; ! "roll on the ground" (DIR)
 aklan:aklan V-IR-IV ; ! "be cleaned" (DIR)
 aldan:aldan V-IR-IV ; ! "be deceived, tricked" (DIR)
