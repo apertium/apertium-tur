@@ -2780,6 +2780,7 @@ ya% da:ya% da CC ;
 ama:ama CC ; 
 ancak:ancak CC ; 
 ve:ve CC ; 
+yanı%-sıra:yanı%-sıra CC ;
 ikisi:ikisi CC ;
 çünkü:çünkü CC ; 
 fakat:fakat CC ; 
@@ -3159,6 +3160,7 @@ takip:takip%{v%} N1 ; ! "pursuit"
 tavır:tavır N1 ; ! "attitude"
 ekip:ekip%{v%} N1 ; ! "team"
 yazar:yazar N1 ; ! "author"
+işbirliktelik:işbirliktelik N1 ;
 patika:patika N1 ; ! "path"
 Büyükelçilik:Büyükelçilik%{v%} N1 ; ! embassy"
 yurtdış:yurtdış N2 ; ! "abroad"
@@ -3831,7 +3833,7 @@ basınç:basınç N1 ; ! "pressure"
 basiret:basiret N1 ; ! "premonition"
 başkaldırı:başkaldırı N1 ; ! "rebellion"
 başkan:başkan N1 ; ! "başkan"
-siyahet:siayhet N1 ;
+siyahet:siyahet N1 ;
 başkent:başkent N1 ; ! "capital"
 basket:basket N1 ; ! "basket"
 basketbol:basketbol N1 ; ! "basketball"
@@ -4432,6 +4434,7 @@ delegasyon:delegasyon N1 ; ! "delegation"
 delege:delege N1 ; ! "representative"
 delibaş:delibaş N1 ; ! "gid"
 deli:deli N1 ; ! "mad"
+praktisyoner:praktisyoner N1 ;
 delikanlı:delikanlı N1 ; ! "boy"
 delik:delik%{v%} N1 ; ! "hole"
 delil:delil N1 ; ! "evidence"
@@ -19090,9 +19093,11 @@ nerde:nerde ADV-ITG ; !Use/MT
 LEXICON Verbs 
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
+saygı% duy:saygı% duy V-IR-TV ;
 oluştur:oluştur V-IR-TV ;
 ağart:ağart V-IR-TV ;
 ekşi:ekşi V-IR-IV ;
+biriktir:biriktir V-IR-TV ;
 tekrar% incele:tekrar% incele V-IR-TV ;
 demokratikleştir:demokratikleştir V-IR-TV ;
 sıkıştır:sıkıştır V-IR-TV ;
