@@ -3061,6 +3061,7 @@ bulvar:bulvar N1 ;
 bağımlılık:bağımlılık N1 ;
 devir:devir N1 ;
 tacik:tacik N1 ;
+tedavül:tedavül N1 ;
 elyazısı:elyazısı N1 ;
 iyilik:iyilik N1 ;
 stok:stok N1 ;
@@ -7877,6 +7878,7 @@ müsabaka:müsabaka N1 ; ! "competition"
 müşabehet:müşabehet N1 ; ! "resemblance"
 müsabık:müsabık N1 ; ! "competitor"
 müsademe:müsademe N1 ; ! "dash"
+coşku:coşku N1 ;
 müsadere:müsadere N1 ; ! "annexation"
 müşahede:müşahede N1 ; ! "sight"
 müşahhas:müşahhas N1 ; ! "concrete"
@@ -19468,6 +19470,7 @@ giyin:giyin V-IR-IV ; ! "wear" (DIR)
 göm:göm V-AR-TV ; ! "bury" (DIR)
 gönder:gönder V-IR-TV ; ! "send" (DIR)
 ! gör:gör V-TV-DIR-IR ; ! "see"
+yararına% ol: yararına% ol V-AR-IV ; 
 gör:gör V-IR-TV ; ! "see"
 göster:göster V-IR-TV ; ! "show" (DIR)
 götür:götür V-IR-TV ; ! "carry" (DIR)
@@ -20071,7 +20074,7 @@ piş:piş V-AR-IV ; ! "cook" (DIR)
 pus:pus V-AR-IV ; ! "shrink" (DIR)
 sabırsızlan:sabırsızlan V-IR-IV ; ! "lose patience" (DIR)
 sakın:sakın V-IR-IV ; ! "aboid" (DIR)
-san:san V-AR-IV ; ! "suppose" (DIR)
+san:san V-AR-TV ; ! "suppose" (DIR)
 sap:sap V-AR-IV ; ! "deviate" (DIR)
 şaş:şaş V-AR-IV ; ! "amaze" (DIR)
 sataş:sataş V-IR-IV ; ! "tease" (DIR)
