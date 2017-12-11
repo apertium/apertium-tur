@@ -3056,6 +3056,8 @@ acem:acem N1 ;
 yukar:yukar N1 ; ! ""
 iran:iran N1 ;
 çiy:çiy N1 ;
+piramit:piramit N1 ;
+derivasyon:derivasyon N1 ;
 akıllılık:akıllılık N1 ;
 bulvar:bulvar N1 ;
 bağımlılık:bağımlılık N1 ;
@@ -9897,6 +9899,7 @@ Humeyni:Humeyni NP-COG-MF ; !"Use/MT"
 Rafsancani:Rafsancani NP-COG-MF ; !"Use/MT"
 Nazarbayev:Nazarbayev NP-COG-MF ; !"Use/MT"
 Kajar:Kajar NP-ANT-M ;
+May:May NP-COG-MF ;
 Abdureşid:Abdureşid NP-ANT-M ; ! ""
 Haşimi:Haşimi NP-ANT-M ; ! ""
 Abdureşit:Abdureşit NP-ANT-M ; ! ""
@@ -9992,6 +9995,7 @@ Valeriy:Valeriy NP-ANT-M ; ! ""
 Petr:Petr NP-ANT-M ; ! ""
 Justin:Justin NP-ANT-M ; ! ""
 Jay:Jay NP-ANT-M ; ! ""
+
 Arseniy:Arseniy NP-ANT-M ; ! ""
 Abdumenaf:Abdumenaf NP-ANT-M ; ! ""
 Abdülhamit:Abdülhamit NP-ANT-M ; ! ""
@@ -10058,6 +10062,7 @@ Ponomarenko:Ponomarenko NP-COG-MF ; ! ""
 Putin:Putin NP-COG-MF ; ! ""
 Vladislav:Vladislav NP-ANT-M ; ! ""
 Yevtuşenko:Yevtuşenko NP-COG-MF ; ! ""
+Abişoviç:Abişoviç NP-COG-MF ; ! ""
 
 Aslan:Aslan NP-ANT-M ; ! ""
 Charlie:Charlie NP-ANT-M ; ! ""
@@ -17187,12 +17192,14 @@ işgalci:işgalci A1 ;
 bahsi:bahsi A1 ;
 benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
+ac:ac A1;
 ruhsal:ruhsal A1 ;
 barışçıl:barışçıl A1 ;
 kaba:kaba A1 ;
 suni:suni A1 ;
 hayırlı:hayırlı A1 ;
 sık:sık A1 ;
+bombeli:bombeli A1 ;
 uğurlu:uğurlu A1 ;
 layık:layık A1 ;
 karşı:karşı A1 ;
@@ -18719,6 +18726,7 @@ tek:tek ADV3 ;!  ""
 fakat:fakat ADV3 ;
 vesaire:vesaire ADV3 ;
 orada:orada ADV3 ;
+ciddiyetle:ciddiyetle ADV3 ;
 kadar:kadar ADV3 ;
 şurada:şurada ADV3 ;
 nispeten:nispeten ADV3 ;
@@ -19096,9 +19104,12 @@ nerde:nerde ADV-ITG ; !Use/MT
 LEXICON Verbs 
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
+fazla% çık:fazla% çık V-IR-IV ;
 saygı% duy:saygı% duy V-IR-TV ;
 oluştur:oluştur V-IR-TV ;
 ağart:ağart V-IR-TV ;
+cesurca% dur: cesurca% dur V-IR-IV ;
+eğilimi% ol:eğilimi% ol V-IR-IV ;
 adımla:adımla V-IR-IV ;
 ekşi:ekşi V-IR-IV ;
 biriktir:biriktir V-IR-TV ;
@@ -19970,6 +19981,7 @@ gizle:gizle V-IR-TV ; ! "hide" (T)
 göğüsle:göğüsle V-IR-TV ; ! "cope with" (T)
 gölgele:gölgele V-IR-TV ; ! "shadow" (T)
 görüntüle:görüntüle V-IR-TV ; ! "display" (T)
+görünmez% ol:görünmez% ol V-IR-IV ;
 göze:göze V-IR-TV ; ! "darn" (T)
 gözetle:gözetle V-IR-TV ; ! "observe" (T)
 gözle:gözle V-IR-TV ; ! "watch" (T)
