@@ -2778,6 +2778,7 @@ fakat:fakat CC ; ! ""
 ya% da:ya% da CC ; ! ""
 ya% da:ya% da CC ; 
 ama:ama CC ; 
+herneyse:herneyse CC ;
 ancak:ancak CC ; 
 ve:ve CC ; 
 yanı%-sıra:yanı%-sıra CC ;
@@ -19104,6 +19105,7 @@ nerde:nerde ADV-ITG ; !Use/MT
 LEXICON Verbs 
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
+hayret% et: hayret% et V-IR-TV ;
 fazla% çık:fazla% çık V-IR-IV ;
 saygı% duy:saygı% duy V-IR-TV ;
 oluştur:oluştur V-IR-TV ;
