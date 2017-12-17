@@ -3057,6 +3057,7 @@ acem:acem N1 ;
 yukar:yukar N1 ; ! ""
 iran:iran N1 ;
 çiy:çiy N1 ;
+bütün:bütün N1 ;
 piramit:piramit N1 ;
 derivasyon:derivasyon N1 ;
 akıllılık:akıllılık N1 ;
@@ -3064,6 +3065,7 @@ bulvar:bulvar N1 ;
 bağımlılık:bağımlılık N1 ;
 devir:devir N1 ;
 tacik:tacik N1 ;
+çelişki:çelişki N1 ;
 tedavül:tedavül N1 ;
 elyazısı:elyazısı N1 ;
 iyilik:iyilik N1 ;
@@ -8683,6 +8685,7 @@ oto:oto N1 ; ! ""
 öykü:öykü N1 ; ! ""
 öz:öz N1 ; ! ""
 özür:özür N1 ; ! ""
+özürlü:özürlü N1 ;
 pamuk:pamuk N1 ; ! ""
 panel:panel N1 ; ! ""
 paralel:paralel N1 ; ! ""
@@ -18471,6 +18474,7 @@ zorunlu:zorunlu A4 ;  ! ""
 ölü:ölü A2 ;  ! ""
 türlü:türlü A2 ;  ! ""
 uslu:uslu A2 ;  ! ""
+fazladan:fazladan A1 ;
 mutlu:mutlu A2 ;  ! ""
 zorgulu:zorgulu A4 ;  ! ""
 ulu:ulu A1 ;  ! ""
@@ -18501,6 +18505,7 @@ taşınmaz:taşınmaz A4 ;  ! ""
 vurdumduymaz:vurdumduymaz A4 ;  ! ""
 ahraz:ahraz A4 ;  ! ""
 az:az A1 ;  ! ""
+bitmiş:bitmiş A1 ;
 varyemez:varyemez A4 ;  ! ""
 tükenmez:tükenmez A4 ;  ! ""
 naçiz:naçiz A4 ;  ! ""
@@ -18733,6 +18738,7 @@ kadar:kadar ADV3 ;
 nispeten:nispeten ADV3 ;
 zorunlu:zorunlu ADV3 ;
 önceden:önceden ADV3 ;
+şerefle:şerefle ADV3 ;
 zorunlu% olarak:zorunlu% olarak ADV3 ;
 ara%-sıra ADV3 ;
 hakkıyla:hakkıyla ADV3 ; 
@@ -20738,6 +20744,7 @@ tabii% ki:tabii% ki INTERJ ;  ! "of course"
 tabii% ki:tabi% ki INTERJ ;  ! "of course" ! Dir/LR
 tabii% ki:tabî% ki INTERJ ;  ! "of course" ! Dir/LR
 tamam:tamam INTERJ ; ! ""
+hoş% geldiniz:hoş% geldiniz INTERJ ; ! ""
 
 LEXICON Symbols 
 
