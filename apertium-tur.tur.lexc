@@ -3064,6 +3064,7 @@ akıllılık:akıllılık N1 ;
 bulvar:bulvar N1 ;
 bağımlılık:bağımlılık N1 ;
 devir:devir N1 ;
+soket:soket N1 ;
 tacik:tacik N1 ;
 çelişki:çelişki N1 ;
 tedavül:tedavül N1 ;
@@ -17203,6 +17204,7 @@ kaba:kaba A1 ;
 suni:suni A1 ;
 hayırlı:hayırlı A1 ;
 sık:sık A1 ;
+gelmeli:gelmeli A1 ;
 bombeli:bombeli A1 ;
 uğurlu:uğurlu A1 ;
 layık:layık A1 ;
@@ -18730,6 +18732,7 @@ bu% yüzden:bu% yüzden ADV3 ; ! ""
 şimdi:şimdi ADV4 ; ! "now"
 tek:tek ADV3 ;!  ""
 fakat:fakat ADV3 ;
+böylesine:böylesine ADV3 ;
 vesaire:vesaire ADV3 ;
 orada:orada ADV3 ;
 ciddiyetle:ciddiyetle ADV3 ;
@@ -18737,6 +18740,8 @@ kadar:kadar ADV3 ;
 şurada:şurada ADV3 ;
 nispeten:nispeten ADV3 ;
 zorunlu:zorunlu ADV3 ;
+her% ay:her% ay ADV3 ;
+her% yıl:her% yıl ADV3 ;
 önceden:önceden ADV3 ;
 şerefle:şerefle ADV3 ;
 zorunlu% olarak:zorunlu% olarak ADV3 ;
@@ -20656,12 +20661,14 @@ sakinleştir:sakinleştir V-IR-TV ;
 şaşırt:şaşırt V-IR-TV ;
 şenlendir:şenlendir V-IR-TV ;
 seyrelt:seyrelt V-IR-TV ;
+tain% et: tain% et V-IR-TV ;
 sığdır:sığdır V-IR-TV ;
 silahlandır:silahlandır V-IR-TV ;
 silahsızlandır:silahsızlandır V-IR-TV ;
 söylet:söylet V-IR-TV ;
 tanıştır:tanıştır V-IR-TV ;
 tarttır:tarttır V-IR-TV ;
+arttır:arttır V-IR-TV ;
 tatlandır:tatlandır V-IR-TV ;
 toparla:toparla V-AR-TV ;
 tuttur:tuttur V-IR-TV ;
@@ -20745,6 +20752,7 @@ tabii% ki:tabi% ki INTERJ ;  ! "of course" ! Dir/LR
 tabii% ki:tabî% ki INTERJ ;  ! "of course" ! Dir/LR
 tamam:tamam INTERJ ; ! ""
 hoş% geldiniz:hoş% geldiniz INTERJ ; ! ""
+en% azından:en% azından INTERJ ; ! ""
 
 LEXICON Symbols 
 
