@@ -9892,6 +9892,7 @@ Abdureim:Abdureim NP-ANT-M ; ! ""
 Ernazar:Ernazar NP-ANT-M ; ! ""
 Kozhanasyr:Kozhanasyr NP-ANT-M ; ! ""
 Seid:Seid NP-ANT-M ;
+Nur:Nur NP-ANT-M ;
 Fedor:Fedor NP-ANT-M ;
 Azamat:Azamat NP-ANT-M ;
 Bokeikhan:Bokeikhan NP-ANT-M ;
@@ -17213,6 +17214,7 @@ pratik:pratik A4 ;
 sayın:sayın A4 ;
 idari:idari A4 ;
 yemeklik:yemeklik A4 ;
+kabiliyetsiz:kabiliyetsiz A1 ;
 
 !!!!!!!!!!!!!!LAST UPDATE!!!!!!!!!!!!!!!!!!!!!
 türev:türev A1 ;
@@ -18738,6 +18740,7 @@ orada:orada ADV3 ;
 ciddiyetle:ciddiyetle ADV3 ;
 kadar:kadar ADV3 ;
 şurada:şurada ADV3 ;
+ne% yazık% ki: ne% yazık% ki ADV3;
 nispeten:nispeten ADV3 ;
 zorunlu:zorunlu ADV3 ;
 her% ay:her% ay ADV3 ;
@@ -19116,6 +19119,7 @@ nerde:nerde ADV-ITG ; !Use/MT
 LEXICON Verbs 
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
+hayal% et:hayal% et V-IR-TV ;
 hayret% et: hayret% et V-IR-TV ;
 fazla% çık:fazla% çık V-IR-IV ;
 saygı% duy:saygı% duy V-IR-TV ;
