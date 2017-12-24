@@ -3886,7 +3886,7 @@ belge:belge N1 ; ! "document"
 belirteç:belirteç N1 ; ! "adverb"
 bellek:bellek N1 ; ! "memory"
 benzerlik:benzerlik%{v%} N1 ; ! "similarity"
-! benzer:benzer N1 ; ! "the similarity"  ! HRRRM -JNW
+benzer:benzer N1 ; ! "the similarity"  ! HRRRM -JNW
 benzetim:benzetim N1 ; ! "benzetim"
 benzin:benzin N1 ; ! "petrol"
 berat:berat N1 ; ! "warrant"
@@ -11193,6 +11193,7 @@ AFP:AFP%{ii%} NP-ORG ; ! ""
 UNICEF:UNICEF NP-ORG ; ! ""
 UNESCO:UNESCO%{o%} NP-ORG ; ! ""
 WHO:WHO%{o%} NP-ORG ; ! ""
+Çevron:Çevron NP-ORG ; ! "" 
 PASOK:PASOK%{o%}%{p%} NP-ORG ; ! ""
 KFOR:KFOR%{o%}%{b%} NP-ORG ; ! ""
 BBC:BBC NP-ORG ; ! ""
@@ -17199,6 +17200,7 @@ bahsi:bahsi A1 ;
 benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
 ac:ac A1;
+kazak:kazak A1 ;
 ruhsal:ruhsal A1 ;
 barışçıl:barışçıl A1 ;
 kaba:kaba A1 ;
@@ -18739,6 +18741,7 @@ vesaire:vesaire ADV3 ;
 orada:orada ADV3 ;
 ciddiyetle:ciddiyetle ADV3 ;
 kadar:kadar ADV3 ;
+ondan% sonra:ondan% sonra ADV3;
 şurada:şurada ADV3 ;
 ne% yazık% ki: ne% yazık% ki ADV3;
 nispeten:nispeten ADV3 ;
@@ -19119,12 +19122,15 @@ nerde:nerde ADV-ITG ; !Use/MT
 LEXICON Verbs 
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
+genişlet:genişlet V-IR-TV ;
 hayal% et:hayal% et V-IR-TV ;
 hayret% et: hayret% et V-IR-TV ;
 fazla% çık:fazla% çık V-IR-IV ;
 saygı% duy:saygı% duy V-IR-TV ;
 oluştur:oluştur V-IR-TV ;
 ağart:ağart V-IR-TV ;
+tatmin% et:tatmin% et V-IR-TV ;
+telaş% et:telaş% et V-IR-IV ;
 cesurca% dur: cesurca% dur V-IR-IV ;
 eğilimi% ol:eğilimi% ol V-IR-IV ;
 adımla:adımla V-IR-IV ;
