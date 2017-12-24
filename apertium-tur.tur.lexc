@@ -3056,6 +3056,7 @@ hakkında:hakkında POST ;
 acem:acem N1 ;
 yukar:yukar N1 ; ! ""
 iran:iran N1 ;
+iç% politika:iç% politika N1 ;
 çiy:çiy N1 ;
 bütün:bütün N1 ;
 piramit:piramit N1 ;
@@ -19129,6 +19130,7 @@ fazla% çık:fazla% çık V-IR-IV ;
 saygı% duy:saygı% duy V-IR-TV ;
 oluştur:oluştur V-IR-TV ;
 ağart:ağart V-IR-TV ;
+meşgul% ol:meşgul% ol V-IR-IV ;
 tatmin% et:tatmin% et V-IR-TV ;
 telaş% et:telaş% et V-IR-IV ;
 cesurca% dur: cesurca% dur V-IR-IV ;
