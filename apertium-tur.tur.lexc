@@ -11176,6 +11176,7 @@ EU:EU NP-TOP-ACR ; ! ""
 Daily% Mail:Daily% Mail NP-ORG ; ! ""
 Euobserver:Euobserver NP-ORG ; ! ""
 AP:AP{ii%} NP-ORG ; ! ""
+Nur% Otan:Nur% Otan NP-ORG ;
 CANDU:CANDU NP-ORG ; ! ""
 UNDP:UNDP{ii%} NP-ORG ; ! ""
 NIS:NIS{ii%} NP-ORG ; ! "Serbia industry petroil blabla"
