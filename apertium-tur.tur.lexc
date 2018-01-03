@@ -6926,11 +6926,13 @@ koru:koru N1 ; ! "grove"
 korunak:korunak N1 ; ! "shelter"
 koruncak:koruncak N1 ; ! "enclosure"
 köşe:köşe N1 ; ! "corner"
+köşk:köşk N1 ;
 kösele:kösele N1 ; ! "leather"
 kosinüs:kosinüs N1 ; ! "cosine"
 kösnü:kösnü N1 ; ! "passion"
 köstebek:köstebek N1 ; ! "mole"
 köstebek:köstebek N1 ; ! "spy"
+konaklama% yeri:konaklama% yeri N1 ;
 kostüm:kostüm N1 ; ! "costume"
 koşu:koşu N1 ; ! "run"
 koşul:koşul N1 ; ! "condition"
@@ -8453,6 +8455,7 @@ yaşam:yaşam N1 ; ! "life"
 stand:stand N1 ; ! "stand"
 gemi:gemi N1 ; ! "boat"
 oğuz:oğuz N1 ;
+yakınlık:yakınlık N1 ;
 
 !! JNW Nouns
 vücud:vücud N1 ; ! "body"
@@ -18573,6 +18576,7 @@ daha% fazla:daha% fazla A1 ;
 yaralı:yaralı A2 ;
 vurmalı:vurmalı A2 ;
 borçlu:borçlu A2 ;
+alnında% yazılı:alnında% yazılı A1 ;
 adlı:adlı A2 ;
 namuslu:namuslu A2 ;
 kodlu:kodlu A2 ;
@@ -18752,6 +18756,7 @@ her% ay:her% ay ADV3 ;
 her% yıl:her% yıl ADV3 ;
 önceden:önceden ADV3 ;
 şerefle:şerefle ADV3 ;
+geniş% ölçüde:geniş% ölçüde ADV3;
 zorunlu% olarak:zorunlu% olarak ADV3 ;
 ara%-sıra ADV3 ;
 hakkıyla:hakkıyla ADV3 ; 
@@ -19131,6 +19136,7 @@ fazla% çık:fazla% çık V-IR-IV ;
 saygı% duy:saygı% duy V-IR-TV ;
 oluştur:oluştur V-IR-TV ;
 ağart:ağart V-IR-TV ;
+takdir% et:takdir% et V-IR-TV ;
 meşgul% ol:meşgul% ol V-IR-IV ;
 tatmin% et:tatmin% et V-IR-TV ;
 telaş% et:telaş% et V-IR-IV ;
