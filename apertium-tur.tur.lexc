@@ -1532,7 +1532,7 @@ LEXICON ADV1
 %<adv%>: # ; ! this is for when the adverb is used as an adverb
 %<adv%>: V-COP ;
 ! %<adv%>%<subst%>: SUBST ;
-%<prn%>: SUBST ;
+!%<prn%>: SUBST ;               ! FMT: Adverbs are not pronouns!!!
 %<adv%>%<attr%>: # ;
 
 LEXICON ADV2
@@ -3067,6 +3067,7 @@ bağımlılık:bağımlılık N1 ;
 devir:devir N1 ;
 soket:soket N1 ;
 tacik:tacik N1 ;
+müzekere:müzekere N1 ;
 çelişki:çelişki N1 ;
 tedavül:tedavül N1 ;
 elyazısı:elyazısı N1 ;
