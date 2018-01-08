@@ -2935,7 +2935,7 @@ böyle:böyle DET-IND ;
 şöyle:şöyle DET-IND ; 
 öyle:öyle DET-IND ; 
 
-hiç% bir:hiç% bir DET-NEG ; ! ""
+hiçbir:hiçbir DET-NEG ; ! ""
 
 kendi:kendi DET-REF ; ! ""
 birkaç% tane:birkaç% tane DET-QNT ; ! "some units"
@@ -3056,9 +3056,14 @@ hakkında:hakkında POST ;
 acem:acem N1 ;
 yukar:yukar N1 ; ! ""
 iran:iran N1 ;
+sevinç:sevinç N1 ;
 iç% politika:iç% politika N1 ;
 çiy:çiy N1 ;
 bütün:bütün N1 ;
+noel:noel N1 ;
+tay:tay N1 ;
+türkoloji:türkoloji N1 ;
+şükran:şükran N1 ;
 piramit:piramit N1 ;
 derivasyon:derivasyon N1 ;
 akıllılık:akıllılık N1 ;
@@ -3267,6 +3272,7 @@ tahmin:tahmin N1 ; ! "extimation"
 tarım:tarım N1 ; ! "agriculture"
 övgü:övgü N1 ; ! "praise"
 takım:takım N1 ; ! "team"
+tahıl:tahıl N1 ;
 işsizlik:işsizlik%{v%} N1 ; ! "unemployment"
 rekabet:rekabet N1 ; ! "competition"
 yanıt:yanıt N1 ; ! "answer"
@@ -12224,6 +12230,7 @@ Hatemi:Hatemi NP-COG-MF ; ! ""
 Pamuk:Pamuk NP-COG-MF ; ! ""
 Rücker:Rücker NP-COG-MF ; ! ""
 Moon:Moon NP-COG-MF ; ! ""
+
 Sekerinska:Sekerinska NP-COG-MF ; ! "@@@ F
 Dimitrov:Dimitrov NP-COG-OV ; ! @@@ F
 Stojanovska:Stojanovska NP-COG-MF ; ! "" @@@ F
@@ -12775,7 +12782,7 @@ Zrnoyeviç:Zrnoyeviç NP-COG-MF ; ! ""
 Zubceviç:Zubceviç NP-COG-MF ; ! ""
 Wisner:Wisner NP-COG-MF ; ! ""
 Papa:Papa NP-COG-MF ; ! ""
-
+Kayırbekova:Kayırbekova NP-COG-MF ; ! ""
 Adlesiç:Adlesiç NP-COG-MF ; ! ""
 Adziç:Adziç NP-COG-MF ; ! ""
 Agotiç:Agotiç NP-COG-MF ; ! ""
@@ -16337,6 +16344,7 @@ Yelizaveta:Yelizaveta NP-ANT-F ; ! ""
 Nikita:Nikita NP-ANT-F ; ! ""
 Yevgeniya:Yevgeniya NP-ANT-F ; ! ""
 Alime:Alime NP-ANT-F ; ! ""
+Salidat:Salidat NP-ANT-M ; ! ""
 Nikita:Nikita NP-ANT-M ; ! ""
 Emirali:Emirali NP-ANT-M ; ! ""
 Wilhelm:Wilhelm NP-ANT-M ; ! ""
@@ -17199,6 +17207,7 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+
 insancıl:insancıl A1 ;
 aşırılıkçı:aşırılıkçı A1 ;
 işgalci:işgalci A1 ;
@@ -17206,10 +17215,13 @@ bahsi:bahsi A1 ;
 benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
 ac:ac A1;
+en% fazla:en% fazla A1 ;
 kazak:kazak A1 ;
+engelenmiş:engelenmiş A1 ;
 ruhsal:ruhsal A1 ;
 barışçıl:barışçıl A1 ;
 kaba:kaba A1 ;
+sayısız:sayısız A1 ;
 suni:suni A1 ;
 hayırlı:hayırlı A1 ;
 sık:sık A1 ;
@@ -20567,6 +20579,7 @@ büyüt:büyüt V-IR-TV ; ! ""
 çiftleştir:çiftleştir V-IR-TV ; ! ""
 daldır:daldır V-IR-TV ; ! ""
 darıl:darıl V-IR-IV ; ! ""
+itaat% et:itaat% et V-IR-TV ; ! ""
 eklen:eklen V-IR-IV ; ! ""
 evlendir:evlendir V-IR-TV ; ! ""
 kesil:kesil V-IR-IV ; ! ""
