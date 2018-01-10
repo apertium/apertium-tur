@@ -3061,7 +3061,10 @@ iç% politika:iç% politika N1 ;
 çiy:çiy N1 ;
 bütün:bütün N1 ;
 noel:noel N1 ;
+rumuz:rumuz N1 ;
 tay:tay N1 ;
+panik:panik N1 ;
+ofsayt:ofsayt N1 ;
 türkoloji:türkoloji N1 ;
 şükran:şükran N1 ;
 piramit:piramit N1 ;
@@ -9905,6 +9908,7 @@ Kozhanasyr:Kozhanasyr NP-ANT-M ; ! ""
 Seid:Seid NP-ANT-M ;
 Nur:Nur NP-ANT-M ;
 Fedor:Fedor NP-ANT-M ;
+Bekbolat:Bekbolat NP-ANT-M ;
 Azamat:Azamat NP-ANT-M ;
 Bokeikhan:Bokeikhan NP-ANT-M ;
 Nursultan:Nursultan NP-ANT-M ; 
@@ -17215,6 +17219,7 @@ bahsi:bahsi A1 ;
 benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
 ac:ac A1;
+umutsuz:umutsuz A2 ;
 en% fazla:en% fazla A1 ;
 kazak:kazak A1 ;
 engelenmiş:engelenmiş A1 ;
@@ -17771,6 +17776,7 @@ bomboş:bomboş A4 ;  ! "empty"
 hoş:hoş A2 ;  ! "nice, nice"
 ters:ters A1 ;  ! "adverse"
 mat:mat A4 ;  ! "pale"
+güvenilmez:güvenilmez A1 ;
 pat:pat A4 ;  ! "flat"
 sabit:sabit A4 ;  ! "stable"
 yiğit:yiğit A2;  ! "spunky, spartan"
@@ -18758,13 +18764,16 @@ fakat:fakat ADV3 ;
 böylesine:böylesine ADV3 ;
 vesaire:vesaire ADV3 ;
 orada:orada ADV3 ;
+gereksizce:gereksizce ADV3 ;
 ciddiyetle:ciddiyetle ADV3 ;
 kadar:kadar ADV3 ;
+herneyse:herneyse ADV3 ;
 ondan% sonra:ondan% sonra ADV3;
 şurada:şurada ADV3 ;
 ne% yazık% ki: ne% yazık% ki ADV3;
 nispeten:nispeten ADV3 ;
 zorunlu:zorunlu ADV3 ;
+nereden:nereden ADV3 ;
 her% ay:her% ay ADV3 ;
 her% yıl:her% yıl ADV3 ;
 önceden:önceden ADV3 ;
@@ -20786,6 +20795,7 @@ tabii% ki:tabî% ki INTERJ ;  ! "of course" ! Dir/LR
 tamam:tamam INTERJ ; ! ""
 hoş% geldiniz:hoş% geldiniz INTERJ ; ! ""
 en% azından:en% azından INTERJ ; ! ""
+oh:oh INTERJ ;
 
 LEXICON Symbols 
 
