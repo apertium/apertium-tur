@@ -2772,6 +2772,7 @@ ye:ye CC ; ! "either/or"
 veya:veya CC ; ! "either/or"
 ne:ne CC ; ! "neither/nor"
 da:da CC ; ! ""
+olduğu% halde:olduğu% halde CC ;
 sırasında:sırasında CC ;
 da:de CC ; ! "" ! Dir/LR
 fakat:fakat CC ; ! ""
@@ -9911,7 +9912,8 @@ Fedor:Fedor NP-ANT-M ;
 Bekbolat:Bekbolat NP-ANT-M ;
 Azamat:Azamat NP-ANT-M ;
 Bokeikhan:Bokeikhan NP-ANT-M ;
-Nursultan:Nursultan NP-ANT-M ; 
+Nursultan:Nursultan NP-ANT-M ;
+Akbala:Akbala NP-ANT-F ; 
 Abu:Abu NP-ANT-M ; 
 Rıza:Rıza NP-ANT-M ;
 Sergei:Sergei NP-ANT-M ;
@@ -17219,6 +17221,7 @@ bahsi:bahsi A1 ;
 benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
 ac:ac A1;
+denk:denk A1 ;
 umutsuz:umutsuz A2 ;
 en% fazla:en% fazla A1 ;
 kazak:kazak A1 ;
@@ -19158,6 +19161,7 @@ fazla% çık:fazla% çık V-IR-IV ;
 saygı% duy:saygı% duy V-IR-TV ;
 oluştur:oluştur V-IR-TV ;
 ağart:ağart V-IR-TV ;
+tetikle:tetikle V-IR-TV ;
 takdir% et:takdir% et V-IR-TV ;
 meşgul% ol:meşgul% ol V-IR-IV ;
 tatmin% et:tatmin% et V-IR-TV ;
