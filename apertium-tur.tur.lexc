@@ -2903,6 +2903,7 @@ hiç% kimse:hiç% kimse PRON-NEG ; ! "nobody"
 herkes:herkes PRON-QNT ; ! "everybody"
 ekseri:ekser PRON-QNT ; ! ""
 bütün:bütün PRON-IND ; ! "every"
+biri:biri PRON-IND ; 
 hep:hep PRON-QNT ; ! "all" @@@@ TAKES CASES
 kimse:kimse PRON-QNT ; ! "nobody"
 birisi:birisi PRON-QNT ; ! "somebody"
@@ -3058,8 +3059,10 @@ acem:acem N1 ;
 yukar:yukar N1 ; ! ""
 iran:iran N1 ;
 sevinç:sevinç N1 ;
+melodram:melodram N1 ;
 iç% politika:iç% politika N1 ;
 çiy:çiy N1 ;
+repertuar:repertuar N1 ;
 bütün:bütün N1 ;
 noel:noel N1 ;
 rumuz:rumuz N1 ;
@@ -18776,6 +18779,7 @@ ondan% sonra:ondan% sonra ADV3;
 ne% yazık% ki: ne% yazık% ki ADV3;
 nispeten:nispeten ADV3 ;
 zorunlu:zorunlu ADV3 ;
+lüzümsüz% yere:lüzümsüz% yere ADV3;
 nereden:nereden ADV3 ;
 her% ay:her% ay ADV3 ;
 her% yıl:her% yıl ADV3 ;
@@ -19161,6 +19165,7 @@ fazla% çık:fazla% çık V-IR-IV ;
 saygı% duy:saygı% duy V-IR-TV ;
 oluştur:oluştur V-IR-TV ;
 ağart:ağart V-IR-TV ;
+atan:atan V-IR-IV ;
 tetikle:tetikle V-IR-TV ;
 takdir% et:takdir% et V-IR-TV ;
 meşgul% ol:meşgul% ol V-IR-IV ;
@@ -19435,6 +19440,7 @@ bak:bak V-AR-IV ; ! "look at" (DIR)
 ban:ban V-AR-TV ; ! "dip into" (DIR)
 bas:bas V-AR-IV ; ! "press" (DIR)
 bas:bas V-AR-TV ; ! "raid" (DIR)
+basıl:basıl V-AR-IV ; 
 bastır:bastır V-AR-TV ; ! "" (T)
 başar:başar V-IR-TV ; ! "success" (DIR)
 başvur:başvur V-IR-IV ; ! "apply (for something)" (DIR) JNW
