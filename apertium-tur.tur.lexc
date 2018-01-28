@@ -732,6 +732,7 @@ LEXICON V-COP
 %+i%<cop%>:%>%{y%} V-COP-IFI ;
 %+i%<cop%>%<aor%>: V-COP-PERS ;
 %+i%<cop%>%<aor%>: COPULA-P3-PERS ;
+%+i%<cop%>%<dub%>%<aor%>:i%>m%{I%}ş V-COP-PERS ; !
 # ;
 
 LEXICON V-COP-IFI
@@ -1556,6 +1557,7 @@ LEXICON ADV4
 LEXICON ADV-ITG
 
 %<adv%>%<itg%>: V-COP ; 
+%<adv%>%<itg%>: SUBST ;
 
 
 
@@ -3066,6 +3068,7 @@ repertuar:repertuar N1 ;
 bütün:bütün N1 ;
 noel:noel N1 ;
 rumuz:rumuz N1 ;
+yele:yele N1 ;
 tay:tay N1 ;
 panik:panik N1 ;
 ofsayt:ofsayt N1 ;
@@ -9911,6 +9914,7 @@ Ernazar:Ernazar NP-ANT-M ; ! ""
 Kozhanasyr:Kozhanasyr NP-ANT-M ; ! ""
 Seid:Seid NP-ANT-M ;
 Nur:Nur NP-ANT-M ;
+Tolegen:Tolegen NP-ANT-M ;
 Fedor:Fedor NP-ANT-M ;
 Bekbolat:Bekbolat NP-ANT-M ;
 Azamat:Azamat NP-ANT-M ;
@@ -17224,6 +17228,7 @@ bahsi:bahsi A1 ;
 benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
 ac:ac A1;
+birçok:birçok A1 ;
 denk:denk A1 ;
 umutsuz:umutsuz A2 ;
 en% fazla:en% fazla A1 ;
@@ -18770,6 +18775,7 @@ fakat:fakat ADV3 ;
 böylesine:böylesine ADV3 ;
 vesaire:vesaire ADV3 ;
 orada:orada ADV3 ;
+nasıl:nasıl ADV3 ;
 gereksizce:gereksizce ADV3 ;
 ciddiyetle:ciddiyetle ADV3 ;
 kadar:kadar ADV3 ;
@@ -19165,7 +19171,10 @@ fazla% çık:fazla% çık V-IR-IV ;
 saygı% duy:saygı% duy V-IR-TV ;
 oluştur:oluştur V-IR-TV ;
 ağart:ağart V-IR-TV ;
+yok% ol: yok% ol V-IR-IV ;
 atan:atan V-IR-IV ;
+birlikte% ör:birlikte% ör V-IR-IV ;
+kaybol:kaybol V-IR-IV ;
 tetikle:tetikle V-IR-TV ;
 takdir% et:takdir% et V-IR-TV ;
 meşgul% ol:meşgul% ol V-IR-IV ;
@@ -20659,7 +20668,7 @@ havalan:havalan V-IR-IV ; ! ""
 dökül:dökül V-IR-IV ; ! ""
 boşalt:boşalt V-IR-TV ; ! ""
 yazdır:yazdır V-IR-TV ; ! ""
-
+göz% at:göz% at V-IR-IV ; ! ""
 çalkandır:çalkandır V-IR-TV ; ! ""
 iliştir:iliştir V-IR-TV ; ! ""
 düzleştir:düzleştir V-IR-TV ; ! ""
