@@ -3068,7 +3068,11 @@ repertuar:repertuar N1 ;
 bütün:bütün N1 ;
 noel:noel N1 ;
 rumuz:rumuz N1 ;
+abonelik:abonelik N1 ;
+kabartma:kabartma N1 ;
+tüketim:tüketim N1 ;
 yele:yele N1 ;
+toprağı% sürme:toprağı% sürme N1 ;
 tay:tay N1 ;
 panik:panik N1 ;
 ofsayt:ofsayt N1 ;
@@ -5048,6 +5052,7 @@ geçim:geçim N1 ; ! "subsistence"
 geçit:geçit N1 ; ! "passage"
 geçmiş:geçmiş N1 ; ! "past"
 geda:geda N1 ; ! "beggar"
+tempo:tempo N1 ;
 gedik:gedik N1 ; ! "rift"
 geğirti:geğirti N1 ; ! "burp"
 gelberi:gelberi N1 ; ! "hoe"
@@ -8478,6 +8483,7 @@ yakınlık:yakınlık N1 ;
 vücud:vücud N1 ; ! "body"
 şişe:şişe N1 ;
 akamanış:akamanış N1 ;
+tatlı% su:tatlı% su N1 ;
 ortalama:ortalama N1 ;
 uyuşturucu:uyuşturucu N1 ;
 tekerlek:tekerlek N1 ; ! "wheel"
@@ -8897,6 +8903,7 @@ usul:usul N1 ; ! ""
 us:us N1 ; ! ""
 utanç:utanç N1 ; ! ""
 üzüm:üzüm N1 ; ! ""
+üzüm% bağı:üzüm% bağı N1 ;
 uzunluk:uzunluk N1 ; ! ""
 vaat:vaat N1 ; ! ""
 vaka:vaka N1 ; ! ""
@@ -9913,6 +9920,7 @@ Abdureim:Abdureim NP-ANT-M ; ! ""
 Ernazar:Ernazar NP-ANT-M ; ! ""
 Kozhanasyr:Kozhanasyr NP-ANT-M ; ! ""
 Seid:Seid NP-ANT-M ;
+Jura:Jura NP-ANT-M ;
 Nur:Nur NP-ANT-M ;
 Tolegen:Tolegen NP-ANT-M ;
 Fedor:Fedor NP-ANT-M ;
@@ -16299,7 +16307,7 @@ Kutuzov:Kutuzov NP-COG-MF ; ! ""
 Bobrov:Bobrov NP-COG-MF ; ! ""
 Karaca:Karaca NP-COG-MF ; ! ""
 Aleksandrov:Aleksandrov NP-PAT-VICH ;
-Fedorovich:Fedorovich NP-PAT-VICH ;
+Fedorovich:Fedoro NP-PAT-VICH ;
 Alekseyev:Alekseyev NP-PAT-VICH ;
 Anatolyev:Anatolyev NP-PAT-VICH ;
 Andreyev:Andreyev NP-PAT-VICH ;
@@ -17228,8 +17236,10 @@ bahsi:bahsi A1 ;
 benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
 ac:ac A1;
+hızla:hızla A1 ;
 birçok:birçok A1 ;
 denk:denk A1 ;
+tarım:tarım A1 ;
 umutsuz:umutsuz A2 ;
 en% fazla:en% fazla A1 ;
 kazak:kazak A1 ;
@@ -18603,6 +18613,7 @@ umumi:umumi A1 ; ! "public"
 tarihi:tarihi A1 ;
 daha% fazla:daha% fazla A1 ;
 öbür:öbür A1 ;
+ikisi% de:ikisi% de A1 ;
 yaralı:yaralı A2 ;
 vurmalı:vurmalı A2 ;
 borçlu:borçlu A2 ;
@@ -19170,6 +19181,10 @@ hayret% et: hayret% et V-IR-TV ;
 fazla% çık:fazla% çık V-IR-IV ;
 saygı% duy:saygı% duy V-IR-TV ;
 oluştur:oluştur V-IR-TV ;
+gürle:gürle V-IR-IV ;
+çarpış:çarpış V-IR-IV ;
+şöyle% yap:şöyle% yap V-IR-TV ;
+öyle% yap:öyle% yap V-IR-TV ;
 ağart:ağart V-IR-TV ;
 yok% ol: yok% ol V-IR-IV ;
 atan:atan V-IR-IV ;
