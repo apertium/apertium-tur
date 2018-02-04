@@ -2896,6 +2896,7 @@ o:o PRON-DEM-BU ; ! "this"
 başka:başka PRON-IND ; ! "other"
 nerde:nerde PRON-IND ;
 hangi:hangi PRON-IND ;
+birşey:birşey PRON-IND ;
 
 
 hiçbir% şey:hiçbirşey PRON-NEG ; ! "nothing" ! Dir/LR
@@ -3067,7 +3068,10 @@ iç% politika:iç% politika N1 ;
 repertuar:repertuar N1 ;
 bütün:bütün N1 ;
 noel:noel N1 ;
+helen:helen N1 ;
+palyaço:palyaço N1 ;
 rumuz:rumuz N1 ;
+
 abonelik:abonelik N1 ;
 kabartma:kabartma N1 ;
 tüketim:tüketim N1 ;
@@ -3079,6 +3083,7 @@ ofsayt:ofsayt N1 ;
 türkoloji:türkoloji N1 ;
 şükran:şükran N1 ;
 piramit:piramit N1 ;
+açıölçer:açıölçer N1 ;
 derivasyon:derivasyon N1 ;
 akıllılık:akıllılık N1 ;
 bulvar:bulvar N1 ;
@@ -4835,6 +4840,7 @@ etajer:etajer N1 ; ! "etagere"
 etamin:etamin N1 ; ! "etamin"
 etek:etek N1 ; ! "skirt"
 et:et N1 ; ! "meat"
+pandomim:pandomim N1 ;
 etiket:etiket N1 ; ! "label"
 etik:etik N1 ; ! "morality"
 etken:etken N1 ; ! "consideration"
@@ -6894,6 +6900,7 @@ konsomatris:konsomatris N1 ; ! "hostess"
 konsonant:konsonant N1 ; ! "consonant"
 konstrüksiyon:konstrüksiyon N1 ; ! "construction"
 konsül:konsül N1 ; ! "consul"
+tuvalet:tuvalet N1 ;
 konsültasyon:konsültasyon N1 ; ! "consultation"
 kontak:kontak N1 ; ! "contact"
 konteks:konteks N1 ; ! "context"
@@ -6984,6 +6991,7 @@ kozak:kozak N1 ; ! "cone"
 koza:koza N1 ; ! "cone"
 kozalak:kozalak N1 ; ! "pine cone"
 koz:koz N1 ; ! "ammnution"
+oyuncak% bebek:oyuncak% bebek N1 ;
 kozmetik:kozmetik N1 ; ! "cosmetics"
 kozmonot:kozmonot N1 ; ! "cosmonaut"
 kozmos:kozmos N1 ; ! "creation"
@@ -7911,6 +7919,7 @@ müşabehet:müşabehet N1 ; ! "resemblance"
 müsabık:müsabık N1 ; ! "competitor"
 müsademe:müsademe N1 ; ! "dash"
 coşku:coşku N1 ;
+müsülman:müsülman N1 ;
 müsadere:müsadere N1 ; ! "annexation"
 müşahede:müşahede N1 ; ! "sight"
 müşahhas:müşahhas N1 ; ! "concrete"
@@ -8506,6 +8515,7 @@ kerpiç:kerpiç N1 ;
 dünyanın% dört% bir% yanı:dünyanın% dört% bir% yan N2 ; ! 
 buluşma:buluşma N1 ; ! "meeting" ! Dir/RL ! Use/MT
 film% festivali:film% festival N2 ; ! "film festival" ! Dir/RL ! Use/MT
+
 bebeklik:bebeklik%{v%} N1 ; ! "baby-hood"
 pasta:pasta N1 ; ! "cake"
 cay:cay N1 ; ! "tributary, creek"
@@ -8762,6 +8772,7 @@ rızk:rızk N1 ; ! ""
 romantizm:romantizm N1 ; ! ""
 romatizma:romatizma N1 ; ! ""
 rota:rota N1 ; ! ""
+rotasyon:rotasyon N1 ;
 ruh:ruh N1 ; ! ""
 sabun:sabun N1 ; ! ""
 sadaka:sadaka N1 ; ! ""
@@ -9856,6 +9867,7 @@ Akmeçit:Akmeçit NP-TOP ; ! ""
 Çernigiv:Çernigiv NP-TOP ; ! ""
 Akşeyh:Akşeyh NP-TOP ; ! ""
 Boğaz:Boğaz NP-TOP ; ! ""
+Sistan:Sistan NP-TOP ; ! ""
 Krasnoperekopsk:Krasnoperekopsk NP-TOP ; ! ""
 Kirovograd:Kirovograd NP-TOP ; ! ""
 Kefe:Kefe NP-TOP ; ! ""
@@ -9910,6 +9922,7 @@ Kerç:Kerç NP-TOP ; ! ""
 Hoca% Nasreddin:Hoca% Nasreddin NP-ANT-M ; ! ""
 Abdal:Abdal NP-ANT-M ; ! ""
 Tostik:Tostik NP-ANT-M ; ! ""
+Seyid:Seyid NP-ANT-M ; ! ""
 Abdul:Abdul NP-ANT-M ; ! ""
 Al-Abbas:Al-Abbas NP-ANT-M ; ! ""
 Al-Saffah:Al-Saffah NP-ANT-M ; ! ""
@@ -9934,6 +9947,7 @@ Rıza:Rıza NP-ANT-M ;
 Sergei:Sergei NP-ANT-M ;
 Pehlevi:Pehlevi NP-COG-MF ; !"Use/MT"
 Humeyni:Humeyni NP-COG-MF ; !"Use/MT"
+Nasirdin:Nasirdin NP-COG-MF ; 
 Rafsancani:Rafsancani NP-COG-MF ; !"Use/MT"
 Nazarbayev:Nazarbayev NP-COG-MF ; !"Use/MT"
 Kajar:Kajar NP-ANT-M ;
@@ -18787,6 +18801,7 @@ böylesine:böylesine ADV3 ;
 vesaire:vesaire ADV3 ;
 orada:orada ADV3 ;
 nasıl:nasıl ADV3 ;
+hatta:hatta ADV3 ;
 gereksizce:gereksizce ADV3 ;
 ciddiyetle:ciddiyetle ADV3 ;
 kadar:kadar ADV3 ;
@@ -19183,6 +19198,7 @@ saygı% duy:saygı% duy V-IR-TV ;
 oluştur:oluştur V-IR-TV ;
 gürle:gürle V-IR-IV ;
 çarpış:çarpış V-IR-IV ;
+plan% yap:plan% yap V-IR-IV ;
 şöyle% yap:şöyle% yap V-IR-TV ;
 öyle% yap:öyle% yap V-IR-TV ;
 ağart:ağart V-IR-TV ;
@@ -19216,6 +19232,7 @@ hizmet% et:hizmet% et V-IR-IV ;
 mecbur% et:mecbur% et V-IR-TV ;
 imha% et: imha% et V-IR-TV ;
 sars:sars V-IR-TV ;
+hizmet% sun:hizmet% sun V-IR-IV ;
 küçült:küçült V-IR-TV ;
 değerlendir:değerlendir V-IR-TV ;
 bitir:bitir V-IR-TV ;
@@ -20830,6 +20847,7 @@ tamam:tamam INTERJ ; ! ""
 hoş% geldiniz:hoş% geldiniz INTERJ ; ! ""
 en% azından:en% azından INTERJ ; ! ""
 oh:oh INTERJ ;
+teşekkürler:teşekkürler INTERJ ;
 
 LEXICON Symbols 
 
