@@ -3071,7 +3071,7 @@ noel:noel N1 ;
 helen:helen N1 ;
 palyaço:palyaço N1 ;
 rumuz:rumuz N1 ;
-
+duma:duma N1 ;
 abonelik:abonelik N1 ;
 kabartma:kabartma N1 ;
 tüketim:tüketim N1 ;
@@ -9931,6 +9931,7 @@ Abdurahman:Abdurahman NP-ANT-M ; ! ""
 Abduraman:Abduraman NP-ANT-M ; ! ""
 Abdureim:Abdureim NP-ANT-M ; ! ""
 Ernazar:Ernazar NP-ANT-M ; ! ""
+Dik:Dik NP-ANT-M ; ! ""
 Kozhanasyr:Kozhanasyr NP-ANT-M ; ! ""
 Seid:Seid NP-ANT-M ;
 Jura:Jura NP-ANT-M ;
@@ -9948,6 +9949,7 @@ Sergei:Sergei NP-ANT-M ;
 Pehlevi:Pehlevi NP-COG-MF ; !"Use/MT"
 Humeyni:Humeyni NP-COG-MF ; !"Use/MT"
 Nasirdin:Nasirdin NP-COG-MF ; 
+Çeney:Çeney NP-COG-MF ; !"Use/MT"
 Rafsancani:Rafsancani NP-COG-MF ; !"Use/MT"
 Nazarbayev:Nazarbayev NP-COG-MF ; !"Use/MT"
 Kajar:Kajar NP-ANT-M ;
@@ -9985,6 +9987,7 @@ Nina:Nina NP-ANT-F ; ! ""
 Bar:Bar NP-TOP ; ! ""
 Başkortostan:Başkortostan NP-TOP ; ! ""
 Boeing:Boeing NP-TOP ; ! ""
+Kazvin:Kazvin NP-TOP ; ! ""
 Çeçenistan:Çeçenistan NP-TOP ; ! ""
 Donbas:Donbas NP-TOP ; ! ""
 Kırım:Kırım NP-TOP ; ! ""
@@ -16396,6 +16399,7 @@ Vorojba:Vorojba NP-TOP ; ! ""
 Drujba:Drujba NP-TOP ; ! ""
 Çukurça:Çukurça NP-TOP ; ! ""
 Taraşça:Taraşça NP-TOP ; ! ""
+Akorda:Akorda NP-TOP ; ! ""
 Karagandy:Karagandy NP-TOP ;
 Novi% Strilışça:Novi% Strilışça NP-TOP ; ! ""
 Buça:Buça NP-TOP ; ! ""
@@ -19197,6 +19201,7 @@ fazla% çık:fazla% çık V-IR-IV ;
 saygı% duy:saygı% duy V-IR-TV ;
 oluştur:oluştur V-IR-TV ;
 gürle:gürle V-IR-IV ;
+tepki% ver:tepki% ver V-IR-IV ;
 çarpış:çarpış V-IR-IV ;
 plan% yap:plan% yap V-IR-IV ;
 şöyle% yap:şöyle% yap V-IR-TV ;
