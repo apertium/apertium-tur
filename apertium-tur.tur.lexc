@@ -3069,6 +3069,7 @@ repertuar:repertuar N1 ;
 bütün:bütün N1 ;
 noel:noel N1 ;
 helen:helen N1 ;
+küçük% erkek% kardeş:küçük% erkek% kardeş N1 ;
 palyaço:palyaço N1 ;
 rumuz:rumuz N1 ;
 duma:duma N1 ;
@@ -7399,6 +7400,7 @@ manşet:manşet N1 ; ! "headline"
 mantar:mantar N1 ; ! "mushroom"
 mantık:mantık N1 ; ! "logic"
 manto:manto N1 ; ! "coat"
+disiplinsizlik:disiplinsizlik N1 ;
 manüel:manüel N1 ; ! "manual"
 manzara:manzara N1 ; ! "scenery"
 manzume:manzume N1 ; ! "poem"
@@ -8512,6 +8514,7 @@ yemek:yemek%{v%} N1 ; ! "food"
 ölüm:ölüm N1 ; ! "death"
 sevgi:sevgi N1 ; ! "love"
 kerpiç:kerpiç N1 ;
+yurtseverlik:yurtseverlik N1 ;
 dünyanın% dört% bir% yanı:dünyanın% dört% bir% yan N2 ; ! 
 buluşma:buluşma N1 ; ! "meeting" ! Dir/RL ! Use/MT
 film% festivali:film% festival N2 ; ! "film festival" ! Dir/RL ! Use/MT
@@ -9936,6 +9939,7 @@ Kozhanasyr:Kozhanasyr NP-ANT-M ; ! ""
 Seid:Seid NP-ANT-M ;
 Jura:Jura NP-ANT-M ;
 Nur:Nur NP-ANT-M ;
+Abay:Abay NP-ANT-M ;
 Tolegen:Tolegen NP-ANT-M ;
 Fedor:Fedor NP-ANT-M ;
 Bekbolat:Bekbolat NP-ANT-M ;
@@ -9943,6 +9947,7 @@ Azamat:Azamat NP-ANT-M ;
 Bokeikhan:Bokeikhan NP-ANT-M ;
 Nursultan:Nursultan NP-ANT-M ;
 Akbala:Akbala NP-ANT-F ; 
+Altınay:Altınay NP-ANT-F ;
 Abu:Abu NP-ANT-M ; 
 Rıza:Rıza NP-ANT-M ;
 Sergei:Sergei NP-ANT-M ;
@@ -9998,6 +10003,8 @@ Toplu:Toplu NP-TOP ; ! ""
 Turkmenistan:Turkmenistan NP-TOP ; ! ""
 Ukrayna:Ukrayna NP-TOP ; ! ""
 Alaşorda:Alaşorda NP-TOP ;
+Buktyrma:Buktyrma NP-TOP ;
+Abay:Abay NP-TOP ;
 Boeing:Boeing NP-AL ; ! ""
 Gazprom:Gazprom NP-AL ; ! ""
 Naftogaz:Naftogaz NP-AL ; ! ""
@@ -10008,11 +10015,16 @@ Dünya% Şampiyonası:Dünya% Şampiyonası NP-AL ;
 Kurman:Kurman NP-TOP ; !""
 Balta:Balta NP-TOP ; ! ""
 Otuz:Otuz NP-TOP ; ! ""
+Altay:Altay NP-TOP ; ! ""
+Oskemen:Oskemen NP-TOP ; ! ""
 
 Alla:Alla NP-ANT-F; ! ""
 Asan:Asan NP-ANT-M; ! ""
+Altay:Altay NP-ANT-M; ! ""
 Atatürk:Atatürk NP-ANT-M; ! ""
 Clinton:Clinton NP-ANT-M; ! ""
+Mahambet:Mahambet NP-ANT-M; ! ""
+
 Eden:Eden NP-ANT-F; ! ""
 Emine:Emine NP-ANT-F; ! ""
 Halim:Halim NP-ANT-M; ! ""
@@ -10118,6 +10130,7 @@ Putin:Putin NP-COG-MF ; ! ""
 Vladislav:Vladislav NP-ANT-M ; ! ""
 Yevtuşenko:Yevtuşenko NP-COG-MF ; ! ""
 Abişoviç:Abişoviç NP-COG-MF ; ! ""
+Zhumaliev:Zhumaliev NP-COG-MF ; ! ""
 
 Aslan:Aslan NP-ANT-M ; ! ""
 Charlie:Charlie NP-ANT-M ; ! ""
@@ -17253,6 +17266,7 @@ işgalci:işgalci A1 ;
 bahsi:bahsi A1 ;
 benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
+dostça:dostça A1 ;
 ac:ac A1;
 hızla:hızla A1 ;
 birçok:birçok A1 ;
@@ -18634,6 +18648,7 @@ daha% fazla:daha% fazla A1 ;
 ikisi% de:ikisi% de A1 ;
 yaralı:yaralı A2 ;
 vurmalı:vurmalı A2 ;
+tüm:tüm A1 ;
 borçlu:borçlu A2 ;
 alnında% yazılı:alnında% yazılı A1 ;
 adlı:adlı A2 ;
@@ -19194,7 +19209,10 @@ nerde:nerde ADV-ITG ; !Use/MT
 LEXICON Verbs 
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
+devşir:devşir V-IR-TV ;
 genişlet:genişlet V-IR-TV ;
+şart% koş:şart% koş V-IR-IV ;!"" Use/MT
+öncülük% yap:öncülük% yap V-IR-TV ;
 hayal% et:hayal% et V-IR-TV ;
 hayret% et: hayret% et V-IR-TV ;
 fazla% çık:fazla% çık V-IR-IV ;
