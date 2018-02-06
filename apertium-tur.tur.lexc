@@ -3065,11 +3065,13 @@ sevinç:sevinç N1 ;
 melodram:melodram N1 ;
 iç% politika:iç% politika N1 ;
 çiy:çiy N1 ;
+imansız:imansız N1 ;
 repertuar:repertuar N1 ;
 bütün:bütün N1 ;
 sihirli% çocuk:sihirli% çocuk N1 ;
 noel:noel N1 ;
 helen:helen N1 ;
+ezan:ezan N1 ;
 küçük% erkek% kardeş:küçük% erkek% kardeş N1 ;
 palyaço:palyaço N1 ;
 rumuz:rumuz N1 ;
@@ -17269,6 +17271,7 @@ benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
 dostça:dostça A1 ;
 ac:ac A1;
+alaca:alaca A1 ;
 hızla:hızla A1 ;
 birçok:birçok A1 ;
 denk:denk A1 ;
@@ -18823,6 +18826,7 @@ vesaire:vesaire ADV3 ;
 orada:orada ADV3 ;
 nasıl:nasıl ADV3 ;
 hatta:hatta ADV3 ;
+yalınayak:yalınayak ADV3 ;
 aniden:aniden ADV3 ;
 kötüce:kötüce ADV3 ;
 gereksizce:gereksizce ADV3 ;
@@ -19214,6 +19218,8 @@ LEXICON Verbs
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
 devşir:devşir V-IR-TV ;
+mahfet:mahfet V-IR-TV ;
+süt% ver:süt% ver V-IR-IV ;!"" Use/MT
 pişman% ol:pişman% ol V-IR-IV ;!"" Use/MT
 genişlet:genişlet V-IR-TV ;
 şart% koş:şart% koş V-IR-IV ;!"" Use/MT
@@ -19223,6 +19229,7 @@ hayret% et: hayret% et V-IR-TV ;
 fazla% çık:fazla% çık V-IR-IV ;
 saygı% duy:saygı% duy V-IR-TV ;
 oluştur:oluştur V-IR-TV ;
+yoket:yoket V-IR-TV ;
 gürle:gürle V-IR-IV ;
 tepki% ver:tepki% ver V-IR-IV ;
 çarpış:çarpış V-IR-IV ;
@@ -20086,7 +20093,7 @@ durakla:durakla V-IR-TV ; ! "pause" (T)
 düşle:düşle V-IR-TV ; ! "dream" (T)
 düzenle:düzenle V-IR-TV ; ! "arrange" (T)
 delirt:delirt V-IR-TV ; ! "arrange" (T)
-
+deliye% dön:deliye% dön V-IR-IV ;
 ekle:ekle V-IR-TV ; ! "add" (T)
 ele:ele V-IR-TV ; ! "eliminate" (T)
 engelle:engelle V-IR-TV ; ! "block" (T)
