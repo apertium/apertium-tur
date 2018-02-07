@@ -3061,13 +3061,17 @@ hakkında:hakkında POST ;
 acem:acem N1 ;
 yukar:yukar N1 ; ! ""
 iran:iran N1 ;
+yağmacılık:yağmacılık N1 ;
 sevinç:sevinç N1 ;
 melodram:melodram N1 ;
 iç% politika:iç% politika N1 ;
 çiy:çiy N1 ;
+koyak:koyak N1 ;
+parıltı:parıltı N1 ;
 imansız:imansız N1 ;
 repertuar:repertuar N1 ;
 bütün:bütün N1 ;
+seçmen:seçmen N1 ;
 sihirli% çocuk:sihirli% çocuk N1 ;
 noel:noel N1 ;
 helen:helen N1 ;
@@ -3732,6 +3736,7 @@ at:at N1 ; ! "horse"
 ateist:ateist N1 ; ! "atheist"
 ateş:ateş N1 ; ! "fire"
 ateşkes:ateşkes N1 ; ! "armistice"
+eşkinli% at:eşkinli% at N1 ;
 atılım:atılım N1 ; ! "progress"
 atlas:atlas N1 ; ! "atlas"
 atlet:atlet N1 ; ! "athlete"
@@ -5019,6 +5024,7 @@ garanti:garanti N1 ; ! "guarantee"
 garaz:garaz N1 ; ! "animosity"
 garbi:garbi N1 ; ! "westwards"
 gard:gard N1 ; ! "guard"
+ganimat:ganimat N1 ;
 gardırop:gardırop N1 ; ! "wardrobe"
 gardiyan:gardiyan N1 ; ! "guardian"
 garez:garez N1 ; ! "animosity"
@@ -9929,6 +9935,7 @@ Hoca% Nasreddin:Hoca% Nasreddin NP-ANT-M ; ! ""
 Abdal:Abdal NP-ANT-M ; ! ""
 Tostik:Tostik NP-ANT-M ; ! ""
 Seyid:Seyid NP-ANT-M ; ! ""
+Alay:Alay NP-ANT-M ; ! ""
 Abdul:Abdul NP-ANT-M ; ! ""
 Al-Abbas:Al-Abbas NP-ANT-M ; ! ""
 Al-Saffah:Al-Saffah NP-ANT-M ; ! ""
@@ -9938,6 +9945,7 @@ Abduraman:Abduraman NP-ANT-M ; ! ""
 Abdureim:Abdureim NP-ANT-M ; ! ""
 Ernazar:Ernazar NP-ANT-M ; ! ""
 Dik:Dik NP-ANT-M ; ! ""
+kei:kei NP-ANT-M ; ! ""
 Kozhanasyr:Kozhanasyr NP-ANT-M ; ! ""
 Seid:Seid NP-ANT-M ;
 Jura:Jura NP-ANT-M ;
@@ -9995,6 +10003,7 @@ Nina:Nina NP-ANT-F ; ! ""
 Bar:Bar NP-TOP ; ! ""
 Başkortostan:Başkortostan NP-TOP ; ! ""
 Boeing:Boeing NP-TOP ; ! ""
+Alay:Alay NP-TOP ; ! ""
 Kazvin:Kazvin NP-TOP ; ! ""
 Çeçenistan:Çeçenistan NP-TOP ; ! ""
 Donbas:Donbas NP-TOP ; ! ""
@@ -17925,6 +17934,7 @@ hoşgörüsüz:hoşgörüsüz A1 ;  ! "intolerant"!
 
 kurmaca:kurmaca A2 ;  ! ""
 başlıca:başlıca A4 ;  ! ""
+cazibeli:cazibeli A1 ;
 falanca:falanca A4 ;  ! ""
 koskoca:koskoca A4 ;  ! ""
 paramparça:paramparça A4 ;  ! ""
@@ -18650,6 +18660,7 @@ umumi:umumi A1 ; ! "public"
 tarihi:tarihi A1 ;
 daha% fazla:daha% fazla A1 ;
 öbür:öbür A1 ;
+hünerli:hünerli A1 ;
 ikisi% de:ikisi% de A1 ;
 yaralı:yaralı A2 ;
 vurmalı:vurmalı A2 ;
@@ -18825,6 +18836,7 @@ böylesine:böylesine ADV3 ;
 vesaire:vesaire ADV3 ;
 orada:orada ADV3 ;
 nasıl:nasıl ADV3 ;
+kibarca:kibarca ADV3 ;
 hatta:hatta ADV3 ;
 yalınayak:yalınayak ADV3 ;
 aniden:aniden ADV3 ;
@@ -19219,6 +19231,7 @@ sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
 devşir:devşir V-IR-TV ;
 mahfet:mahfet V-IR-TV ;
+fariğ% ol:fariğ% ol V-IR-TV ;
 süt% ver:süt% ver V-IR-IV ;!"" Use/MT
 pişman% ol:pişman% ol V-IR-IV ;!"" Use/MT
 genişlet:genişlet V-IR-TV ;
