@@ -9963,6 +9963,7 @@ Abu:Abu NP-ANT-M ;
 Rıza:Rıza NP-ANT-M ;
 Sergei:Sergei NP-ANT-M ;
 Pehlevi:Pehlevi NP-COG-MF ; !"Use/MT"
+Tolegen:Tolegen ; !"Use/MT"
 Humeyni:Humeyni NP-COG-MF ; !"Use/MT"
 Nasirdin:Nasirdin NP-COG-MF ; 
 Çeney:Çeney NP-COG-MF ; !"Use/MT"
@@ -17280,7 +17281,9 @@ benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
 dostça:dostça A1 ;
 ac:ac A1;
+saygın:saygın A1 ;
 alaca:alaca A1 ;
+kararmış:kararmış A1 ;
 hızla:hızla A1 ;
 birçok:birçok A1 ;
 denk:denk A1 ;
@@ -18836,6 +18839,7 @@ böylesine:böylesine ADV3 ;
 vesaire:vesaire ADV3 ;
 orada:orada ADV3 ;
 nasıl:nasıl ADV3 ;
+üç% kes:üç% kes ADV3 ;
 kibarca:kibarca ADV3 ;
 hatta:hatta ADV3 ;
 yalınayak:yalınayak ADV3 ;
@@ -19231,8 +19235,11 @@ sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
 devşir:devşir V-IR-TV ;
 mahfet:mahfet V-IR-TV ;
+yavaş:yavaş V-IR-IV ;!"" Use/MT
+karart:karart V-IR-TV ;
 fariğ% ol:fariğ% ol V-IR-TV ;
 süt% ver:süt% ver V-IR-IV ;!"" Use/MT
+uzat:uzat V-IR-TV ;!"" Use/MT
 pişman% ol:pişman% ol V-IR-IV ;!"" Use/MT
 genişlet:genişlet V-IR-TV ;
 şart% koş:şart% koş V-IR-IV ;!"" Use/MT
