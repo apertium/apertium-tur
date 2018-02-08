@@ -732,7 +732,7 @@ LEXICON V-COP
 %+i%<cop%>:%>%{y%} V-COP-IFI ;
 %+i%<cop%>%<aor%>: V-COP-PERS ;
 %+i%<cop%>%<aor%>: COPULA-P3-PERS ;
-%+i%<cop%>%<dub%>%<aor%>:i%>m%{I%}ş V-COP-PERS ; !
+%+i%<cop%>%<dub%>%<aor%>:i%>m%{I%}ş V-COP-PERS ; 
 # ;
 
 LEXICON V-COP-IFI
@@ -3066,7 +3066,18 @@ sevinç:sevinç N1 ;
 melodram:melodram N1 ;
 iç% politika:iç% politika N1 ;
 çiy:çiy N1 ;
+şut:şut N1 ;
+ölüm% tehlikesi% işareti:ölüm% tehlikesi% işareti N1 ;
+sinematografi:sinematografi N1 ;
+satranç:satranç N1 ;
+aralık:aralık N1 ;
+harketsizlik:harketsizlik N1 ;
+zalimlik:zalimlik N1 ;
+yarış:yarış N1 ;
 koyak:koyak N1 ;
+aristokrasi:aristokrasi N1 ;
+nesep:nesep N1 ;
+zülüm:zülülm N1 ;
 parıltı:parıltı N1 ;
 imansız:imansız N1 ;
 repertuar:repertuar N1 ;
@@ -3079,6 +3090,7 @@ ezan:ezan N1 ;
 küçük% erkek% kardeş:küçük% erkek% kardeş N1 ;
 palyaço:palyaço N1 ;
 rumuz:rumuz N1 ;
+küçültme:küçültme N1 ;
 duma:duma N1 ;
 abonelik:abonelik N1 ;
 kabartma:kabartma N1 ;
@@ -3177,6 +3189,8 @@ subay:subay N1 ; ! "military officer"
 temdit:temdit N1 ; ! "continuance"
 yargıç:yargıç N1 ; ! "commissioner"
 yaprak:yaprak N1 ;
+rahvan:rahvan N1 ;
+skapula:skapula N1 ;
 yerleşim:yerleşim N1 ; ! "settlement"
 yükün:yükün N1 ; ! "gateway"
 zorluk:zorluk%{v%} N1 ; ! "difficulty"
@@ -3936,6 +3950,7 @@ beşik:beşik N1 ; ! "cradle"
 besin:besin N1 ; ! "nutrition"
 besleme:besleme N1 ; ! "servant"
 beste:beste N1 ; ! "melody"
+besteci:besteci N1 ;
 bestekar:bestekar N1 ; ! "composer"
 beter:beter N1 ; ! "worse"
 betim:betim N1 ; ! "image"
@@ -4726,6 +4741,7 @@ ehliyet:ehliyet N1 ; ! "driving licence"
 ejder:ejder N1 ; ! "dragon"
 ejderha:ejderha N1 ; ! "dragon"
 ekip:ekip N1 ; ! "team"
+egemenlik:egemenlik N1 ;
 ekipman:ekipman N1 ; ! "equipment"
 eklem:eklem N1 ; ! "joint"
 ekmek:ekmek N1 ; ! "bread"
@@ -5175,6 +5191,7 @@ gölek:gölek N1 ; ! "puddle"
 gölet:gölet N1 ; ! "lake"
 golf:golf N1 ; ! "golf"
 gölge:gölge N1 ; ! "dark"
+kötülülk:kötülülk N1 ;
 gölge:gölge N1 ; ! "shadow"
 gol:gol N1 ; ! "goal"
 göl:göl N1 ; ! "lake"
@@ -6135,6 +6152,7 @@ iskarpin:iskarpin N1 ; ! "shoe"
 iskele:iskele N1 ; ! "seaport"
 iskele:iskele N1 ; ! "stage"
 iskelet:iskelet N1 ; ! "skeleton"
+sınırdaş:sınırdaş N1 ;
 iskemle:iskemle N1 ; ! "chair"
 iskemle:iskemle N1 ; ! "seat"
 iskemle:iskemle N1 ; ! "stool"
@@ -6780,6 +6798,7 @@ kış:kış N1 ; ! "winter"
 kışla:kışla N1 ; ! "barracks"
 kısmet:kısmet N1 ; ! "chance"
 kısmet:kısmet N1 ; ! "luck"
+kışkırtma:kışkırtma N1 ;
 kısrak:kısrak N1 ; ! "mare"
 kıstas:kıstas N1 ; ! "gauge"
 kit:kit N1 ; ! "Kamu İktisadi Teşekkülü, (eng) kit"
@@ -7373,7 +7392,9 @@ malik:malik%{v%} N1 ; ! "owner"
 malik:malik%{v%} N1 ; ! "tenant"
 maliye:maliye N1 ; ! "finance"
 maliyet:maliyet N1 ; ! "cost"
+malikane:malikane N1 ;
 arya:arya N1 ;
+yoksuluk:yoksuluk N1 ;
 mal:mal N1 ; ! "goods"
 maltız:maltız N1 ; ! "devil"
 maluliyet:maluliyet N1 ; ! "disability"
@@ -9880,6 +9901,15 @@ Akmeçit:Akmeçit NP-TOP ; ! ""
 Akşeyh:Akşeyh NP-TOP ; ! ""
 Boğaz:Boğaz NP-TOP ; ! ""
 Sistan:Sistan NP-TOP ; ! ""
+Petersburg:Petersburg NP-TOP ; ! ""! Dir/RL ! Use/MT
+Zagros:Zagros NP-TOP ; ! ""! Dir/RL ! Use/MT
+Huzystan:Huzystan NP-TOP ; ! ""! Dir/RL ! Use/MT
+Pelengan:Pelengan NP-TOP ; ! ""! Dir/RL ! Use/MT
+Serhed:Serhed NP-TOP ; ! ""! Dir/RL ! Use/MT
+Boran:Boran NP-TOP ; ! ""! Dir/RL ! Use/MT
+Kelat:Kelat NP-TOP ; ! ""! Dir/RL ! Use/MT
+Kuhrud:Kuhrud NP-TOP ; ! ""! Dir/RL ! Use/MT
+Mekran:Mekran NP-TOP ; ! ""! Dir/RL ! Use/MT
 Krasnoperekopsk:Krasnoperekopsk NP-TOP ; ! ""
 Kirovograd:Kirovograd NP-TOP ; ! ""
 Kefe:Kefe NP-TOP ; ! ""
@@ -9945,6 +9975,7 @@ Abduraman:Abduraman NP-ANT-M ; ! ""
 Abdureim:Abdureim NP-ANT-M ; ! ""
 Ernazar:Ernazar NP-ANT-M ; ! ""
 Dik:Dik NP-ANT-M ; ! ""
+Koşeke:Koşeke NP-ANT-M ; ! ""
 kei:kei NP-ANT-M ; ! ""
 Kozhanasyr:Kozhanasyr NP-ANT-M ; ! ""
 Seid:Seid NP-ANT-M ;
@@ -9962,13 +9993,20 @@ Altınay:Altınay NP-ANT-F ;
 Abu:Abu NP-ANT-M ; 
 Rıza:Rıza NP-ANT-M ;
 Sergei:Sergei NP-ANT-M ;
+Rafya:Rafya NP-COG-MF ; !"Use/MT"
+Yasemiy:Yasemiy NP-COG-MF ; !"Use/MT"
+Mohseniy:Mohseniy NP-COG-MF ; !"Use/MT"
+Moktasam:Moktasam NP-COG-MF ; !"Use/MT"
+Miysagiye:Miysagiye NP-COG-MF ; !"Use/MT"
+Kuşan:Kuşan NP-COG-MF ; !"Use/MT"
 Pehlevi:Pehlevi NP-COG-MF ; !"Use/MT"
-Tolegen:Tolegen ; !"Use/MT"
+
 Humeyni:Humeyni NP-COG-MF ; !"Use/MT"
 Nasirdin:Nasirdin NP-COG-MF ; 
 Çeney:Çeney NP-COG-MF ; !"Use/MT"
 Rafsancani:Rafsancani NP-COG-MF ; !"Use/MT"
 Nazarbayev:Nazarbayev NP-COG-MF ; !"Use/MT"
+Çernyaev:Çernyaev NP-COG-MF ; !"Use/MT"
 Kajar:Kajar NP-ANT-M ;
 May:May NP-COG-MF ;
 Abdureşid:Abdureşid NP-ANT-M ; ! ""
@@ -10155,6 +10193,7 @@ Hacı:Hacı NP-ANT-M ; ! ""
 Mustafa:Mustafa NP-ANT-M ; ! ""
 Sahip:Sahip NP-ANT-M ; ! ""
 Vadim:Vadim NP-ANT-M ; ! ""
+Abbas:Abbas NP-ANT-M ; ! ""
 Vladislav:Vladislav NP-ANT-M ; ! ""
 
 
@@ -17279,8 +17318,11 @@ işgalci:işgalci A1 ;
 bahsi:bahsi A1 ;
 benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
+müzikal:müzikal A1 ;
 dostça:dostça A1 ;
 ac:ac A1;
+makul:makul A1 ;
+final:final A1 ;
 saygın:saygın A1 ;
 alaca:alaca A1 ;
 kararmış:kararmış A1 ;
@@ -18839,6 +18881,8 @@ böylesine:böylesine ADV3 ;
 vesaire:vesaire ADV3 ;
 orada:orada ADV3 ;
 nasıl:nasıl ADV3 ;
+ziyadesiyle:ziyadesiyle ADV3 ;
+kısa% zaman% sonra:kısa% zaman% sonra ADV3 ;
 üç% kes:üç% kes ADV3 ;
 kibarca:kibarca ADV3 ;
 hatta:hatta ADV3 ;
@@ -19234,6 +19278,9 @@ LEXICON Verbs
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
 devşir:devşir V-IR-TV ;
+haber% sal:haber% sal V-IR-IV ;!"" Use/MT
+blog% tut:blog% tut V-IR-TV ;!"" Use/MT
+üzür% dile:üzür% dile V-IR-IV ;!"" Use/MT
 mahfet:mahfet V-IR-TV ;
 yavaş:yavaş V-IR-IV ;!"" Use/MT
 karart:karart V-IR-TV ;
@@ -20744,6 +20791,7 @@ karar% ver:karar% ver V-IR-TV ; ! "decide" ! Dir/RL ! Use/MT
 sevin:sevin V-IR-IV ; ! "be pleased, rejoice"
 helak% ol:helak% ol V-IR-IV ; ! "" ! Dir/RL ! Use/MT
 bağlı% ol:bağlı% ol V-IR-IV ; ! "" ! Dir/RL ! Use/MT
+doğrulan:doğrulan V-IR-IV ; ! "" ! Dir/RL ! Use/MT
 uygula:uygula V-IR-IV ;
 kötüleş:kötüleş V-AR-IV ; ! ""
 şekillendir:şekillendir V-AR-IV ; ! ""
