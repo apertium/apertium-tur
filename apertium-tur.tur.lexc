@@ -3060,9 +3060,15 @@ halinde:halinde POST ; ! "ın case of" ! FIXME
 hakkında:hakkında POST ;
 acem:acem N1 ;
 yukar:yukar N1 ; ! ""
+topoğrafya:topoğrafya N1 ; ! Use/MT
 iran:iran N1 ;
 yağmacılık:yağmacılık N1 ;
 sevinç:sevinç N1 ;
+kipçak:kipçak N1 ;
+Karakoily:Karakoily N1 ; ! Use/MT
+yayılma:yayılma N1 ; ! Use/MT
+Safevi:Safevi N1 ; ! Use/MT
+kimse:kimse N1 ;
 melodram:melodram N1 ;
 iç% politika:iç% politika N1 ;
 çiy:çiy N1 ;
@@ -3273,6 +3279,7 @@ teklif:teklif N1 ; ! "proposal"
 ihtiyaç:ihtiyaç%{v%} N1 ; ! "help"
 saygı:saygı N1 ; ! "respect"
 tedbir:tedbir N1 ; ! "precaution"
+grup% üyeliği:grup% üyeliği N1 ; ! Dir/RL ! Use/MT
 grup:grup%{v%} N1 ; ! "group"
 strateji:strateji N1 ; ! "strategy"
 tavsiye:tavsiye N1 ; ! "suggestion"
@@ -7922,6 +7929,7 @@ mülk:mülk N1 ; ! "possession"
 mülteci:mülteci N1 ; ! "refugee"
 mümessil:mümessil N1 ; ! "representative"
 mümin:mümin N1 ; ! "faithful"
+mülküyet:mülküyet N1 ;
 mum:mum N1 ; ! "candle"
 mümtaz:mümtaz N1 ; ! "privileged"
 münakaşa:münakaşa N1 ; ! "contention"
@@ -9365,6 +9373,7 @@ amerikan:Amerikan N1 ; ! ""
 yunanlı:Yunanlı N1 ; ! ""
 tatar:Tatar N1 ; ! ""
 osmanlı:Osmanlı N1 ; ! ""
+samanid:Samanid N1 ; ! ""
 yahudi:Yahudi N1 ; ! ""
 ukraynalı:Ukraynalı N1 ; ! ""
 afgan:Afgan N1 ; ! ""
@@ -9742,6 +9751,7 @@ aydınlanma:aydınlanma N1 ;
 aydınlar% sınıfı:aydınlar% sınıfı N1 ;
 ayırma:ayırma N1 ;
 başkaldırma:başkaldırma N1 ;
+acil% talep:acil% talep N1 ;
 batış:batış N1 ;
 baza:baza N1 ;
 bitmek:bitmek N1 ;
@@ -9845,10 +9855,14 @@ klarnet:klarnet N1 ;
 keman:keman N1 ;
 spiker:spiker N1 ;
 köy:köy N1 ;
+Abbasi:Abbasi N1 ;  ! Dir/RL ! Use/MT
 sahne:sahne N1 ;
+sahne% yönetmeni:sahne% yönetmeni N1 ;
 şarkı:şarkı N1 ;
 sürgün:sürgün N1 ;
-orkestra:orkestra N1 ;
+İran% tiyatrosu:İran% tiyatrosu N1 ; ! Dir/RL ! Use/MT
+orkestra:orkestra N1 ; ! Dir/RL ! Use/MT
+tek% ses:tek% ses N1 ;
 orkestra% şefi:orkestra% şef N2 ; ! Dir/RL ! Use/MT
 yönetici:yönetici N1 ;
 derleme:derleme N1 ;
@@ -9904,6 +9918,7 @@ Sistan:Sistan NP-TOP ; ! ""
 Petersburg:Petersburg NP-TOP ; ! ""! Dir/RL ! Use/MT
 Zagros:Zagros NP-TOP ; ! ""! Dir/RL ! Use/MT
 Huzystan:Huzystan NP-TOP ; ! ""! Dir/RL ! Use/MT
+Gaznahit:Gaznahit NP-TOP ; ! ""! Dir/RL ! Use/MT
 Pelengan:Pelengan NP-TOP ; ! ""! Dir/RL ! Use/MT
 Serhed:Serhed NP-TOP ; ! ""! Dir/RL ! Use/MT
 Boran:Boran NP-TOP ; ! ""! Dir/RL ! Use/MT
@@ -9913,6 +9928,8 @@ Mekran:Mekran NP-TOP ; ! ""! Dir/RL ! Use/MT
 Krasnoperekopsk:Krasnoperekopsk NP-TOP ; ! ""
 Kirovograd:Kirovograd NP-TOP ; ! ""
 Kefe:Kefe NP-TOP ; ! ""
+Deşt-i% Kevir:Deşt-i% Kevir NP-TOP ; ! ""! ""! Dir/RL ! Use/MT
+Deşti% Luh:Deşti% Luh NP-TOP ; ! ""! ""! Dir/RL ! Use/MT
 Elburz:Elburz NP-TOP ;
 Herat:Herat NP-TOP ;
 Temirtau:Temirtau NP-TOP ;
@@ -9965,6 +9982,8 @@ Hoca% Nasreddin:Hoca% Nasreddin NP-ANT-M ; ! ""
 Abdal:Abdal NP-ANT-M ; ! ""
 Tostik:Tostik NP-ANT-M ; ! ""
 Seyid:Seyid NP-ANT-M ; ! ""
+Tekeş:Tekeş NP-ANT-M ; ! "" ! Use/MT
+Hulagu:Hulagu NP-ANT-M ; ! "" ! Use/MT
 Alay:Alay NP-ANT-M ; ! ""
 Abdul:Abdul NP-ANT-M ; ! ""
 Al-Abbas:Al-Abbas NP-ANT-M ; ! ""
@@ -18877,6 +18896,8 @@ bu% yüzden:bu% yüzden ADV3 ; ! ""
 şimdi:şimdi ADV4 ; ! "now"
 tek:tek ADV3 ;!  ""
 fakat:fakat ADV3 ;
+en% üste:en% üste ADV3 ;! Use/MT ! Dir/RL
+burda:burda ADV3 ; ! Use/MT ! Dir/RL
 böylesine:böylesine ADV3 ;
 vesaire:vesaire ADV3 ;
 orada:orada ADV3 ;
@@ -19278,6 +19299,9 @@ LEXICON Verbs
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
 devşir:devşir V-IR-TV ;
+kurtlan:kurtlan V-IR-IV ;!"" Use/MT
+yansız% ol:yansız% ol V-IR-IV ;!"" Use/MT
+duyguya% kapıl:duyguya% kapıl V-IR-IV ;!"" Use/MT
 haber% sal:haber% sal V-IR-IV ;!"" Use/MT
 blog% tut:blog% tut V-IR-TV ;!"" Use/MT
 üzür% dile:üzür% dile V-IR-IV ;!"" Use/MT
@@ -19295,6 +19319,7 @@ hayal% et:hayal% et V-IR-TV ;
 hayret% et: hayret% et V-IR-TV ;
 fazla% çık:fazla% çık V-IR-IV ;
 saygı% duy:saygı% duy V-IR-TV ;
+saygı% göster:saygı% göster V-IR-IV ;!"" Use/MT
 oluştur:oluştur V-IR-TV ;
 yoket:yoket V-IR-TV ;
 gürle:gürle V-IR-IV ;
@@ -20640,6 +20665,7 @@ uyukla:uyukla V-IR-IV ; ! "snooze" (T)
 uza:uza V-IR-IV ; ! "get longer"
 uzan:uzan V-IR-IV ; ! "reach"
 yalvar:yalvar V-IR-IV ; ! "invoke" (T)
+saygısızlaş:saygısızlaş V-IR-IV ;
 yanıl:yanıl V-IR-IV ; ! "be mistaken" (T)
 yankıla:yankıla V-IR-IV ; ! "resonate" (T)
 yansı:yansı V-IR-IV ; ! "be reflected" (T)
