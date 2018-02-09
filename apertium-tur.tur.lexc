@@ -8534,7 +8534,9 @@ vücud:vücud N1 ; ! "body"
 akamanış:akamanış N1 ;
 tatlı% su:tatlı% su N1 ;
 ortalama:ortalama N1 ;
+şarkıcı%-dansçı:şarkıcı%-dansçı N1 ;
 uyuşturucu:uyuşturucu N1 ;
+aşure-günü:aşure-günü N1 ;
 tekerlek:tekerlek N1 ; ! "wheel"
 bakıcı:bakıcı N1 ; ! "nurse/caregiver"
 bebeklik:bebeklik N1 ; ! "state of being a baby"
@@ -9915,6 +9917,7 @@ Akmeçit:Akmeçit NP-TOP ; ! ""
 Akşeyh:Akşeyh NP-TOP ; ! ""
 Boğaz:Boğaz NP-TOP ; ! ""
 Sistan:Sistan NP-TOP ; ! ""
+Ilikhandar:Ilikhandar NP-TOP ; ! ""! Dir/RL ! Use/MT
 Petersburg:Petersburg NP-TOP ; ! ""! Dir/RL ! Use/MT
 Zagros:Zagros NP-TOP ; ! ""! Dir/RL ! Use/MT
 Huzystan:Huzystan NP-TOP ; ! ""! Dir/RL ! Use/MT
@@ -10682,6 +10685,7 @@ Moğolistan:Moğolistan NP-TOP ; ! ""
 Moldova:Moldova NP-TOP ; ! ""
 Moldova:Moldova NP-TOP ; ! ""
 Monako:Monako NP-TOP ; ! ""
+Dar-al-Harb:Dar-al-Harb NP-TOP ; ! "" !Use/MT
 Montana:Montana NP-TOP ; ! ""
 Monte% Carlo:Monte% Carlo NP-TOP ; ! ""
 Montreal:Montreal NP-TOP ; ! ""
@@ -17353,6 +17357,7 @@ tarım:tarım A1 ;
 umutsuz:umutsuz A2 ;
 en% fazla:en% fazla A1 ;
 kazak:kazak A1 ;
+yunan:yunan A1 ; ! Use/MT
 engelenmiş:engelenmiş A1 ;
 ruhsal:ruhsal A1 ;
 barışçıl:barışçıl A1 ;
@@ -18344,7 +18349,7 @@ spesiyal:spesiyal A4 ;  ! ""
 müstakbel:müstakbel A4 ;  ! ""
 tembel:tembel A4 ;  ! ""
 kel:ke4 A1 ;  ! ""
-ilkel:ilke4 A1 ;  ! ""
+ilkel:ilkel A1 ;  ! ""
 muhtemel:muhtemel A4 ;  ! ""
 mükemmel:mükemmel A4 ;  ! ""
 operasyonel:operasyonel A4 ;  ! ""
