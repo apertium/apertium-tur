@@ -8535,6 +8535,7 @@ vücud:vücud N1 ; ! "body"
 akamanış:akamanış N1 ;
 tatlı% su:tatlı% su N1 ;
 ortalama:ortalama N1 ;
+özyönetim:özyönetim N1 ;
 şarkıcı%-dansçı:şarkıcı%-dansçı N1 ;
 uyuşturucu:uyuşturucu N1 ;
 aşure-günü:aşure-günü N1 ;
@@ -8544,6 +8545,7 @@ bebeklik:bebeklik N1 ; ! "state of being a baby"
 popo:popo N1 ; ! "butt, bottom"
 ayrıntı:ayrıntı N1 ; ! "detail"
 !bütün ayrıntı N1 ; ! "all detail(s..)" ! Dir/RL ! Use/MT
+erişteli% çorba:erişteli% çorba N1 ; ! Use/MT
 uyku:uyku N1 ; ! "sleep"
 vakit:vak%{fi%}%{u%}t N1 ; ! "time"
 sunucu:sunucu N1 ; ! "MC, host"
@@ -17348,6 +17350,7 @@ benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
 müzikal:müzikal A1 ;
 dostça:dostça A1 ;
+doğuştan:doğuştan A1 ; ! Use/MT
 ac:ac A1;
 makul:makul A1 ;
 final:final A1 ;
@@ -19317,6 +19320,7 @@ duyguya% kapıl:duyguya% kapıl V-IR-IV ;!"" Use/MT
 haber% sal:haber% sal V-IR-IV ;!"" Use/MT
 blog% tut:blog% tut V-IR-TV ;!"" Use/MT
 üzür% dile:üzür% dile V-IR-IV ;!"" Use/MT
+kayıt% ol:kayıt% ol V-IR-IV ;!"" Use/MT
 mahfet:mahfet V-IR-TV ;
 yavaş:yavaş V-IR-IV ;!"" Use/MT
 karart:karart V-IR-TV ;
