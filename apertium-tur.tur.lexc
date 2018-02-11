@@ -3060,6 +3060,7 @@ halinde:halinde POST ; ! "ın case of" ! FIXME
 hakkında:hakkında POST ;
 acem:acem N1 ;
 yukar:yukar N1 ; ! ""
+keyfi% hareket:keyfi% hareket N1 ; ! Use/MT
 topoğrafya:topoğrafya N1 ; ! Use/MT
 iran:iran N1 ;
 yağmacılık:yağmacılık N1 ;
@@ -17342,6 +17343,7 @@ bahsi:bahsi A1 ;
 birincil:birincil A1 ; ! Use/MT
 doğan:doğan A1 ; ! Use/MT
 baskın:baskın A1 ; ! Use/MT
+sınırlayan:sınırlayan A1 ; ! Use/MT
 benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
 müzikal:müzikal A1 ;
@@ -20829,13 +20831,16 @@ helak% ol:helak% ol V-IR-IV ; ! "" ! Dir/RL ! Use/MT
 bağlı% ol:bağlı% ol V-IR-IV ; ! "" ! Dir/RL ! Use/MT
 doğrulan:doğrulan V-IR-IV ; ! "" ! Dir/RL ! Use/MT
 uygula:uygula V-IR-IV ;
+durumu% değerlendir:durumu% değerlendir V-IR-TV ; ! "" ! Dir/RL ! Use/MT
 kötüleş:kötüleş V-AR-IV ; ! ""
 şekillendir:şekillendir V-AR-IV ; ! ""
 gezle:gezle V-IR-IV ; ! ""
 yuvarlan:yuvarlan V-IR-IV ; ! ""
 sallan:sallan V-IR-IV ; ! ""
+zülüm% gör:zülüm% gör V-IR-TV ; ! "" ! Dir/RL ! Use/MT
 havalan:havalan V-IR-IV ; ! ""
 ödünç% ver: ödünç% ver V-IR-TV ;
+hapse% at:hapse% at V-IR-TV ; ! "" ! Dir/RL ! Use/MT
 dökül:dökül V-IR-IV ; ! ""
 boşalt:boşalt V-IR-TV ; ! ""
 yazdır:yazdır V-IR-TV ; ! ""
