@@ -3062,13 +3062,17 @@ acem:acem N1 ;
 yukar:yukar N1 ; ! ""
 keyfi% hareket:keyfi% hareket N1 ; ! Use/MT
 topoğrafya:topoğrafya N1 ; ! Use/MT
+idol:idol N1 ; ! Use/MT
 iran:iran N1 ;
+enstürman:enstürman N1 ;
 yağmacılık:yağmacılık N1 ;
 sevinç:sevinç N1 ;
 kipçak:kipçak N1 ;
 Karakoily:Karakoily N1 ; ! Use/MT
 yayılma:yayılma N1 ; ! Use/MT
 Safevi:Safevi N1 ; ! Use/MT
+geçiş:geçiş N1 ; ! Use/MT
+batıl% inanç:batıl% inanç N1 ; ! Use/MT
 kimse:kimse N1 ;
 melodram:melodram N1 ;
 iç% politika:iç% politika N1 ;
@@ -3082,6 +3086,7 @@ harketsizlik:harketsizlik N1 ;
 zalimlik:zalimlik N1 ;
 yarış:yarış N1 ;
 koyak:koyak N1 ;
+dağ% geçidi:dağ% geçidi N1 ; ! Use/MT
 aristokrasi:aristokrasi N1 ;
 nesep:nesep N1 ;
 zülüm:zülülm N1 ;
@@ -3847,6 +3852,7 @@ bakliyat:bakliyat N1 ; ! "pulse"
 bakraç:bakraç N1 ; ! "bucket"
 bakteri:bakteri N1 ; ! "bacteria"
 balans:balans N1 ; ! "balance"
+akış:akış N1 ; ! Use/MT
 balata:balata N1 ; ! "lining"
 balayı:balayı N1 ; ! "honeymoon"
 bal:bal N1 ; ! "honey"
@@ -17342,16 +17348,20 @@ insancıl:insancıl A1 ;
 aşırılıkçı:aşırılıkçı A1 ;
 işgalci:işgalci A1 ;
 bahsi:bahsi A1 ;
+karanlık:karanlık A1 ; ! Use/MT
 birincil:birincil A1 ; ! Use/MT
 doğan:doğan A1 ; ! Use/MT
 baskın:baskın A1 ; ! Use/MT
 sınırlayan:sınırlayan A1 ; ! Use/MT
+kalın:kalın A1 ; ! Use/MT
 benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
 müzikal:müzikal A1 ;
 dostça:dostça A1 ;
 doğuştan:doğuştan A1 ; ! Use/MT
 ac:ac A1;
+sıracalı:sıracalı A1 ;
+manavi:manavi A1 ;
 makul:makul A1 ;
 final:final A1 ;
 saygın:saygın A1 ;
@@ -19314,6 +19324,8 @@ LEXICON Verbs
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
 devşir:devşir V-IR-TV ;
+pürüzle:pürüzle V-IR-IV ;!"" Use/MT
+inkar% et:inkar% et V-IR-TV ;!"" Use/MT
 kurtlan:kurtlan V-IR-IV ;!"" Use/MT
 yansız% ol:yansız% ol V-IR-IV ;!"" Use/MT
 duyguya% kapıl:duyguya% kapıl V-IR-IV ;!"" Use/MT
@@ -19321,6 +19333,7 @@ haber% sal:haber% sal V-IR-IV ;!"" Use/MT
 blog% tut:blog% tut V-IR-TV ;!"" Use/MT
 üzür% dile:üzür% dile V-IR-IV ;!"" Use/MT
 kayıt% ol:kayıt% ol V-IR-IV ;!"" Use/MT
+taraflı% ol:taraflı% ol V-IR-IV ;!"" Use/MT
 mahfet:mahfet V-IR-TV ;
 yavaş:yavaş V-IR-IV ;!"" Use/MT
 karart:karart V-IR-TV ;
@@ -20290,6 +20303,7 @@ yakalan:yakalan V-IR-IV ; ! "be caught"
 !de:d%{e%} V-IV-DIR-IR ; ! "say"
 ! ol:ol V-IV-DIR-IR ; ! "be"
 ol:ol V-IR-IV ; ! "be"
+fısılda:fısılda V-AR-IV ; ! Use/MT
 don:don V-AR-IV ; ! "freeze" (DIR)
 eş:eş V-AR-IV ; ! "scratch" (DIR)
 yak:yak V-AR-IV ; ! "fire" (DIR)
@@ -20995,6 +21009,7 @@ tamam:tamam INTERJ ; ! ""
 hoş% geldiniz:hoş% geldiniz INTERJ ; ! ""
 en% azından:en% azından INTERJ ; ! ""
 oh:oh INTERJ ;
+e:e INTERJ ;
 teşekkürler:teşekkürler INTERJ ;
 
 LEXICON Symbols 
