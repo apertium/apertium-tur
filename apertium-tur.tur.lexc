@@ -946,7 +946,7 @@ LEXICON ATTR-SUBST
 
 %<attr%>: CLIT ;
 %<subst%>: CASE ;
-%<subst%>%<pl%>:%>%{L%}%{A%}r CASE ;
+%<subst%>%<pl%>:%>l%{A%}r CASE ;
 
 !!!!!!!!!!!!!!!!!!!!!!     NOMINAL INFLECTION (N-INFL-COMMON)!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
@@ -3282,7 +3282,6 @@ değişiklik:değişiklik%{v%} N1 ; ! "change"
 bağımsızlık:bağımsızlık%{v%} N1 ; ! "indipendence"
 seyahat:seyahat N1 ; ! "travel"
 teklif:teklif N1 ; ! "proposal"
-ihtiyaç:ihtiyaç%{v%} N1 ; ! "help"
 saygı:saygı N1 ; ! "respect"
 tedbir:tedbir N1 ; ! "precaution"
 grup% üyeliği:grup% üyeliği N1 ; ! Dir/RL ! Use/MT
@@ -5910,8 +5909,8 @@ ihtiras:ihtiras N1 ; ! "passion"
 ihtişam:ihtişam N1 ; ! "brilliance"
 ihtisar:ihtisar N1 ; ! "abbreviation"
 ihtisas:ihtisas N1 ; ! "expertise"
-ihtiyaç:ihtiyaç N1 ; ! "necessity"
-ihtiyaç:ihtiyaç N1 ; ! "need"
+ihtiyaç:ihtiyaç%{v%} N1 ; ! "help"
+!ihtiyaç:ihtiyaç N1 ; ! "necessity, need"
 ihtiyat:ihtiyat N1 ; ! "caution"
 ihzarat:ihzarat N1 ; ! "preparations"
 ikame:ikame N1 ; ! "replacement"
