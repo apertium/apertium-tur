@@ -3061,9 +3061,12 @@ hakkında:hakkında POST ;
 acem:acem N1 ;
 yukar:yukar N1 ; ! ""
 keyfi% hareket:keyfi% hareket N1 ; ! Use/MT
+giriş% salonu:giriş% salonu N1 ; ! Use/MT
+boş%-laf:boş%-laf N1 ; ! Use/MT
 topoğrafya:topoğrafya N1 ; ! Use/MT
 idol:idol N1 ; ! Use/MT
 iran:iran N1 ;
+sahte:sahte N1 ; ! Use/MT
 enstürman:enstürman N1 ;
 yağmacılık:yağmacılık N1 ;
 sevinç:sevinç N1 ;
@@ -8541,6 +8544,7 @@ akamanış:akamanış N1 ;
 tatlı% su:tatlı% su N1 ;
 ortalama:ortalama N1 ;
 özyönetim:özyönetim N1 ;
+kirli:kirli N1 ;
 şarkıcı%-dansçı:şarkıcı%-dansçı N1 ;
 uyuşturucu:uyuşturucu N1 ;
 aşure-günü:aşure-günü N1 ;
@@ -18748,6 +18752,7 @@ daha% fazla:daha% fazla A1 ;
 öbür:öbür A1 ;
 ekstra:ekstra A1 ; ! Use/MT
 huzurlu:huzurlu A1 ; ! Use/MT
+meşhür:meşhür A1 ;
 hünerli:hünerli A1 ;
 ikisi% de:ikisi% de A1 ;
 yaralı:yaralı A2 ;
@@ -19323,7 +19328,7 @@ LEXICON Verbs
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
 devşir:devşir V-IR-TV ;
-pürüzle:pürüzle V-IR-IV ;!"" Use/MT
+selamla:selamla V-IR-TV ;!"" Use/MT
 inkar% et:inkar% et V-IR-TV ;!"" Use/MT
 kurtlan:kurtlan V-IR-IV ;!"" Use/MT
 yansız% ol:yansız% ol V-IR-IV ;!"" Use/MT
