@@ -9931,7 +9931,9 @@ Boğaz:Boğaz NP-TOP ; ! ""
 Sistan:Sistan NP-TOP ; ! ""
 Ilikhandar:Ilikhandar NP-TOP ; ! ""! Dir/RL ! Use/MT
 Petersburg:Petersburg NP-TOP ; ! ""! Dir/RL ! Use/MT
+İrtiş:İrtiş NP-TOP ; ! ""! Dir/RL ! Use/MT
 Zagros:Zagros NP-TOP ; ! ""! Dir/RL ! Use/MT
+Zaisan:Zaisan NP-TOP ; ! ""! Dir/RL ! Use/MT
 Huzystan:Huzystan NP-TOP ; ! ""! Dir/RL ! Use/MT
 Gaznahit:Gaznahit NP-TOP ; ! ""! Dir/RL ! Use/MT
 Pelengan:Pelengan NP-TOP ; ! ""! Dir/RL ! Use/MT
@@ -17357,9 +17359,11 @@ doğan:doğan A1 ; ! Use/MT
 baskın:baskın A1 ; ! Use/MT
 sınırlayan:sınırlayan A1 ; ! Use/MT
 kalın:kalın A1 ; ! Use/MT
+kızıl% saçlı:kızıl% saçlı A1 ; ! Use/MT
 benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
 müzikal:müzikal A1 ;
+şüphesiz:şüphesiz A1 ;
 dostça:dostça A1 ;
 doğuştan:doğuştan A1 ; ! Use/MT
 ac:ac A1;
@@ -18752,6 +18756,7 @@ daha% fazla:daha% fazla A1 ;
 öbür:öbür A1 ;
 ekstra:ekstra A1 ; ! Use/MT
 huzurlu:huzurlu A1 ; ! Use/MT
+sonuncu:sonuncu A1 ; ! Use/MT
 meşhür:meşhür A1 ;
 hünerli:hünerli A1 ;
 ikisi% de:ikisi% de A1 ;
