@@ -3063,9 +3063,12 @@ yukar:yukar N1 ; ! ""
 keyfi% hareket:keyfi% hareket N1 ; ! Use/MT
 giriş% salonu:giriş% salonu N1 ; ! Use/MT
 boş%-laf:boş%-laf N1 ; ! Use/MT
+mücedele:mücedele N1 ; ! Use/MT
 topoğrafya:topoğrafya N1 ; ! Use/MT
 idol:idol N1 ; ! Use/MT
+yönelim:yönelim N1 ; ! Use/MT
 iran:iran N1 ;
+sürat:sürat N1 ;
 sahte:sahte N1 ; ! Use/MT
 enstürman:enstürman N1 ;
 yağmacılık:yağmacılık N1 ;
@@ -10001,6 +10004,8 @@ Tostik:Tostik NP-ANT-M ; ! ""
 Seyid:Seyid NP-ANT-M ; ! ""
 Tekeş:Tekeş NP-ANT-M ; ! "" ! Use/MT
 Hulagu:Hulagu NP-ANT-M ; ! "" ! Use/MT
+Serik:Serik NP-ANT-M ; ! "" ! Use/MT
+Akylbai:Akylbai NP-ANT-M ; ! "" ! Use/MT
 Alay:Alay NP-ANT-M ; ! ""
 Abdul:Abdul NP-ANT-M ; ! ""
 Al-Abbas:Al-Abbas NP-ANT-M ; ! ""
@@ -10035,6 +10040,7 @@ Mohseniy:Mohseniy NP-COG-MF ; !"Use/MT"
 Moktasam:Moktasam NP-COG-MF ; !"Use/MT"
 Miysagiye:Miysagiye NP-COG-MF ; !"Use/MT"
 Satpayev:Satpayev NP-COG-MF ; !"Use/MT"
+ 
 Kuşan:Kuşan NP-COG-MF ; !"Use/MT"
 Pehlevi:Pehlevi NP-COG-MF ; !"Use/MT"
 
@@ -10099,6 +10105,7 @@ Boeing:Boeing NP-AL ; ! ""
 Gazprom:Gazprom NP-AL ; ! ""
 Naftogaz:Naftogaz NP-AL ; ! ""
 Twitter:Twitter NP-AL ; ! ""
+Kazakhmys:Kazakhmys NP-AL ; ! "Use/MT"
 Dünya% Şampiyonası:Dünya% Şampiyonası NP-AL ;
 
 
@@ -10247,6 +10254,7 @@ Abdullayev:Abdullayev NP-COG-OV ; ! ""
 Ivançenkov:Ivançenkov NP-COG-OV ; ! "Use/MT" 
 Andreyev:Andreyev NP-COG-OV ; ! ""
 Antonov:Antonov NP-COG-OV ; ! ""
+Lujkov:Lujkov NP-COG-OV ; ! "Use/MT" 
 Arapov:Arapov NP-COG-OV ; ! ""
 Atambayev:Atambayev NP-COG-OV ; ! ""
 Bobov:Bobov NP-COG-OV ; ! ""
@@ -17360,6 +17368,7 @@ aşırılıkçı:aşırılıkçı A1 ;
 işgalci:işgalci A1 ;
 bahsi:bahsi A1 ;
 avrasya:avrasya A1 ; ! Use/MT
+dayanaklı:dayanaklı A1 ; ! Use/MT
 karanlık:karanlık A1 ; ! Use/MT
 birincil:birincil A1 ; ! Use/MT
 doğan:doğan A1 ; ! Use/MT
@@ -17368,6 +17377,7 @@ sınırlayan:sınırlayan A1 ; ! Use/MT
 kalın:kalın A1 ; ! Use/MT
 acemi:acemi A1 ; ! Use/MT
 kızıl% saçlı:kızıl% saçlı A1 ; ! Use/MT
+kıştan% kalma:kıştan% kalma A1 ; ! Use/MT
 benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
 müzikal:müzikal A1 ;
@@ -18948,6 +18958,7 @@ ziyadesiyle:ziyadesiyle ADV3 ;
 kısa% zaman% sonra:kısa% zaman% sonra ADV3 ;
 üç% kes:üç% kes ADV3 ;
 kibarca:kibarca ADV3 ;
+her% zaman:her% zaman ADV3 ;
 hatta:hatta ADV3 ;
 yalınayak:yalınayak ADV3 ;
 aniden:aniden ADV3 ;
@@ -19342,6 +19353,7 @@ sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
 devşir:devşir V-IR-TV ;
 selamla:selamla V-IR-TV ;!"" Use/MT
+erit:erit V-IR-TV ;!"" Use/MT
 başlat:başlat V-IR-TV ;!"" Use/MT
 inkar% et:inkar% et V-IR-TV ;!"" Use/MT
 kurtlan:kurtlan V-IR-IV ;!"" Use/MT
