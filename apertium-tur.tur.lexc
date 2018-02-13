@@ -10034,10 +10034,12 @@ Yasemiy:Yasemiy NP-COG-MF ; !"Use/MT"
 Mohseniy:Mohseniy NP-COG-MF ; !"Use/MT"
 Moktasam:Moktasam NP-COG-MF ; !"Use/MT"
 Miysagiye:Miysagiye NP-COG-MF ; !"Use/MT"
+Satpayev:Satpayev NP-COG-MF ; !"Use/MT"
 Kuşan:Kuşan NP-COG-MF ; !"Use/MT"
 Pehlevi:Pehlevi NP-COG-MF ; !"Use/MT"
 
 Humeyni:Humeyni NP-COG-MF ; !"Use/MT"
+
 Nasirdin:Nasirdin NP-COG-MF ; 
 Çeney:Çeney NP-COG-MF ; !"Use/MT"
 Rafsancani:Rafsancani NP-COG-MF ; !"Use/MT"
@@ -10049,6 +10051,7 @@ Abdureşid:Abdureşid NP-ANT-M ; ! ""
 Haşimi:Haşimi NP-ANT-M ; ! ""
 Abdureşit:Abdureşit NP-ANT-M ; ! ""
 Abdürrahman:Abdürrahman NP-ANT-M ; ! ""
+Kani:Kani NP-ANT-M ; ! "" "Use/MT"
 Abdürrefi:Abdürrefi NP-ANT-M ; ! ""
 Abülaziz:Abülaziz NP-ANT-M ; ! ""
 Ahmed:Ahmed NP-ANT-M ; ! ""
@@ -10203,6 +10206,7 @@ Lenin:Lenin NP-COG-MF ; ! ""
 Lenina:Lenina NP-COG-MF ; ! ""
 
 Bondarenko:Bondarenko NP-COG-MF ; ! ""
+Kanışkızı:Kanışkızı NP-COG-MF ; ! ""
 Cemilev:Cemilev NP-COG-MF ; ! ""
 Fomenko:Fomenko NP-COG-MF ; ! ""
 Makedonya:Makedonya NP-COG-MF ; ! ""
@@ -10240,6 +10244,7 @@ Kravçenko:Kravçenko NP-COG-MF ; ! ""
 Abbas:Abbas NP-COG-MF ; ! ""
 Markov:Markov NP-COG-OV ; ! ""
 Abdullayev:Abdullayev NP-COG-OV ; ! ""
+Ivançenkov:Ivançenkov NP-COG-OV ; ! "Use/MT" 
 Andreyev:Andreyev NP-COG-OV ; ! ""
 Antonov:Antonov NP-COG-OV ; ! ""
 Arapov:Arapov NP-COG-OV ; ! ""
@@ -16488,6 +16493,7 @@ Salidat:Salidat NP-ANT-M ; ! ""
 Nikita:Nikita NP-ANT-M ; ! ""
 Emirali:Emirali NP-ANT-M ; ! ""
 Wilhelm:Wilhelm NP-ANT-M ; ! ""
+Kanysh:Kanysh NP-ANT-M ; ! "" ! Use/MT
 Ramzan:Ramzan NP-ANT-M ; ! ""
 Dmıtro:Dmıtro NP-ANT-M ; ! ""
 Pötr:Pötr NP-ANT-M ; ! ""
@@ -17353,12 +17359,14 @@ insancıl:insancıl A1 ;
 aşırılıkçı:aşırılıkçı A1 ;
 işgalci:işgalci A1 ;
 bahsi:bahsi A1 ;
+avrasya:avrasya A1 ; ! Use/MT
 karanlık:karanlık A1 ; ! Use/MT
 birincil:birincil A1 ; ! Use/MT
 doğan:doğan A1 ; ! Use/MT
 baskın:baskın A1 ; ! Use/MT
 sınırlayan:sınırlayan A1 ; ! Use/MT
 kalın:kalın A1 ; ! Use/MT
+acemi:acemi A1 ; ! Use/MT
 kızıl% saçlı:kızıl% saçlı A1 ; ! Use/MT
 benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
@@ -19334,8 +19342,10 @@ sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
 devşir:devşir V-IR-TV ;
 selamla:selamla V-IR-TV ;!"" Use/MT
+başlat:başlat V-IR-TV ;!"" Use/MT
 inkar% et:inkar% et V-IR-TV ;!"" Use/MT
 kurtlan:kurtlan V-IR-IV ;!"" Use/MT
+vefat% et:vefat% et V-IR-IV ;!"" Use/MT
 yansız% ol:yansız% ol V-IR-IV ;!"" Use/MT
 duyguya% kapıl:duyguya% kapıl V-IR-IV ;!"" Use/MT
 haber% sal:haber% sal V-IR-IV ;!"" Use/MT
