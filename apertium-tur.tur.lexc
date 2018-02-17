@@ -3060,13 +3060,20 @@ halinde:halinde POST ; ! "ın case of" ! FIXME
 hakkında:hakkında POST ;
 acem:acem N1 ;
 yukar:yukar N1 ; ! ""
+ateş% etme:ateş% etme N1 ;  ! Use/MT
+kayalık:kayalık N1 ;  ! Use/MT
+engelsiz:engelsiz N1 ;  ! Use/MT
 keyfi% hareket:keyfi% hareket N1 ; ! Use/MT
 giriş% salonu:giriş% salonu N1 ; ! Use/MT
 boş%-laf:boş%-laf N1 ; ! Use/MT
 mücedele:mücedele N1 ; ! Use/MT
+bakış% açısı:bakış% açısı N1 ; ! Use/MT
 topoğrafya:topoğrafya N1 ; ! Use/MT
 idol:idol N1 ; ! Use/MT
 yönelim:yönelim N1 ; ! Use/MT
+huzursuzluk:huzursuzluk N1 ; ! Use/MT
+karışıklık:karışıklık N1 ; ! Use/MT
+iç% politika:iç% politika N1 ;! Use/MT
 iran:iran N1 ;
 sürat:sürat N1 ;
 sahte:sahte N1 ; ! Use/MT
@@ -8547,6 +8554,7 @@ akamanış:akamanış N1 ;
 tatlı% su:tatlı% su N1 ;
 ortalama:ortalama N1 ;
 özyönetim:özyönetim N1 ;
+öldürme:öldürme N1 ; ! / Use/MT
 kirli:kirli N1 ;
 şarkıcı%-dansçı:şarkıcı%-dansçı N1 ;
 uyuşturucu:uyuşturucu N1 ;
@@ -9855,6 +9863,7 @@ mağrur:mağrur N1 ; ! ""
 öt:öt N1 ; ! ""
 ötmek:ötmek N1 ; ! ""
 selbi:selbi N1 ; ! ""
+hiristiyan:hiristiyan N1 ; ! "Use/MT"
 tapa:tapa N1 ; ! ""
 tarikçi:tarikçi N1 ; ! ""
 teke:teke N1 ; ! ""
@@ -16440,6 +16449,7 @@ Bobrov:Bobrov NP-COG-MF ; ! ""
 Karaca:Karaca NP-COG-MF ; ! ""
 Aleksandrov:Aleksandrov NP-PAT-VICH ;
 Fedorovich:Fedoro NP-PAT-VICH ;
+Anatolyevich:Anatolyevich NP-PAT-VICH ; !Use/MT
 Alekseyev:Alekseyev NP-PAT-VICH ;
 Anatolyev:Anatolyev NP-PAT-VICH ;
 Andreyev:Andreyev NP-PAT-VICH ;
@@ -17366,11 +17376,13 @@ LEXICON Adjectives
 insancıl:insancıl A1 ;
 aşırılıkçı:aşırılıkçı A1 ;
 işgalci:işgalci A1 ;
+sinsi:sinsi A1 ;
 bahsi:bahsi A1 ;
 avrasya:avrasya A1 ; ! Use/MT
 dayanaklı:dayanaklı A1 ; ! Use/MT
 karanlık:karanlık A1 ; ! Use/MT
 birincil:birincil A1 ; ! Use/MT
+
 doğan:doğan A1 ; ! Use/MT
 baskın:baskın A1 ; ! Use/MT
 sınırlayan:sınırlayan A1 ; ! Use/MT
@@ -18178,6 +18190,7 @@ adli:adli A2 ;  ! ""
 tehlikeli:tehlikeli A2 ;  ! ""
 bağlı:bağlı A4 ;  ! ""
 sevgili:sevgili A2 ;  ! ""
+avantajlı:avantajlı A2 ; ! Use/MT
 ekili:ekili A2 ;  ! ""
 yatılı:yatılı A4 ;  ! ""
 dokunaklı:dokunaklı A4 ;  ! ""
@@ -18774,7 +18787,9 @@ daha% fazla:daha% fazla A1 ;
 öbür:öbür A1 ;
 ekstra:ekstra A1 ; ! Use/MT
 huzurlu:huzurlu A1 ; ! Use/MT
+gibi:gibi A1 ; ! Use/MT
 sonuncu:sonuncu A1 ; ! Use/MT
+tahıl:tahıl A1 ; ! Use/MT
 meşhür:meşhür A1 ;
 hünerli:hünerli A1 ;
 ikisi% de:ikisi% de A1 ;
@@ -18959,6 +18974,7 @@ kısa% zaman% sonra:kısa% zaman% sonra ADV3 ;
 üç% kes:üç% kes ADV3 ;
 kibarca:kibarca ADV3 ;
 her% zaman:her% zaman ADV3 ;
+yatay% olarak:yatay% olarak ADV3 ;
 hatta:hatta ADV3 ;
 yalınayak:yalınayak ADV3 ;
 aniden:aniden ADV3 ;
@@ -19353,6 +19369,7 @@ sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
 devşir:devşir V-IR-TV ;
 selamla:selamla V-IR-TV ;!"" Use/MT
+elde% et:elde% et V-IR-TV ;!"" Use/MT
 erit:erit V-IR-TV ;!"" Use/MT
 başlat:başlat V-IR-TV ;!"" Use/MT
 inkar% et:inkar% et V-IR-TV ;!"" Use/MT
@@ -20004,6 +20021,7 @@ onayla:onayla V-IR-TV ; ! "confirm" (T)
 oranla:oranla V-IR-TV ; ! "proportion" (T)
 örgütle:örgütle V-IR-TV ; ! "organise" (T)
 örnekle:örnekle V-IR-TV ; ! "ensample" (T)
+kayıp% ol:kayıp% ol V-IR-IV ; ! "Use/MT"
 ortala:ortala V-IR-TV ; ! "center" (T)
 ovala:ovala V-IR-TV ; ! "rub" (T)
 oyala:oyala V-IR-TV ; ! "put off" (T)
