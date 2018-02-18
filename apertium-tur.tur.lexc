@@ -3063,6 +3063,7 @@ yukar:yukar N1 ; ! ""
 ateş% etme:ateş% etme N1 ;  ! Use/MT
 kayalık:kayalık N1 ;  ! Use/MT
 engelsiz:engelsiz N1 ;  ! Use/MT
+prosedür:prosedür N1 ;  ! Use/MT
 keyfi% hareket:keyfi% hareket N1 ; ! Use/MT
 giriş% salonu:giriş% salonu N1 ; ! Use/MT
 boş%-laf:boş%-laf N1 ; ! Use/MT
@@ -10015,6 +10016,7 @@ Tekeş:Tekeş NP-ANT-M ; ! "" ! Use/MT
 Hulagu:Hulagu NP-ANT-M ; ! "" ! Use/MT
 Serik:Serik NP-ANT-M ; ! "" ! Use/MT
 Akylbai:Akylbai NP-ANT-M ; ! "" ! Use/MT
+Daulet:Daulet NP-ANT-M ; ! "" ! Use/MT
 Alay:Alay NP-ANT-M ; ! ""
 Abdul:Abdul NP-ANT-M ; ! ""
 Al-Abbas:Al-Abbas NP-ANT-M ; ! ""
@@ -19051,6 +19053,7 @@ arifane:arifane ADV3 ; ! "sagely"
 artık:artık ADV3 ; ! "anymore"
 aşikare:aşikare ADV3 ; ! "openly"
 asla:asla ADV3 ; ! "never"
+aceleyle:aceleyle ADV3 ; !
 aslen:aslen ADV3 ; ! "fundamentally"
 aslında:aslında ADV3 ; ! "actually"
 atfen:atfen ADV3 ; ! "based on"
@@ -19368,7 +19371,9 @@ LEXICON Verbs
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
 devşir:devşir V-IR-TV ;
+öfkeden% çıldır:öfkeden% çıldır V-IR-TV ;!"" Use/MT
 selamla:selamla V-IR-TV ;!"" Use/MT
+eksilt:eksilt V-IR-TV ;!"" Use/MT
 elde% et:elde% et V-IR-TV ;!"" Use/MT
 erit:erit V-IR-TV ;!"" Use/MT
 başlat:başlat V-IR-TV ;!"" Use/MT
@@ -20902,6 +20907,7 @@ durumu% değerlendir:durumu% değerlendir V-IR-TV ; ! "" ! Dir/RL ! Use/MT
 kötüleş:kötüleş V-AR-IV ; ! ""
 şekillendir:şekillendir V-AR-IV ; ! ""
 gezle:gezle V-IR-IV ; ! ""
+kurul:kurul V-IR-IV ; ! "" ! Dir/RL ! Use/MT
 yuvarlan:yuvarlan V-IR-IV ; ! ""
 sallan:sallan V-IR-IV ; ! ""
 zülüm% gör:zülüm% gör V-IR-TV ; ! "" ! Dir/RL ! Use/MT
