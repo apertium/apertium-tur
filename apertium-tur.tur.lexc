@@ -3059,11 +3059,15 @@ beyit:beyit N1 ;
 halinde:halinde POST ; ! "ın case of" ! FIXME
 hakkında:hakkında POST ;
 acem:acem N1 ;
+spesiyal:spesiyal N1 ;  ! Use/MT
 yukar:yukar N1 ; ! ""
 ateş% etme:ateş% etme N1 ;  ! Use/MT
 kayalık:kayalık N1 ;  ! Use/MT
+öncül:öncül N1 ; ! Use/MT
+rafah:rafah N1 ; ! Use/MT
 engelsiz:engelsiz N1 ;  ! Use/MT
 prosedür:prosedür N1 ;  ! Use/MT
+tanı:tanı N1 ;  ! Use/MT
 keyfi% hareket:keyfi% hareket N1 ; ! Use/MT
 giriş% salonu:giriş% salonu N1 ; ! Use/MT
 boş%-laf:boş%-laf N1 ; ! Use/MT
@@ -3931,6 +3935,7 @@ başlık:başlık%{v%} N1 ; ! "title"
 basma:basma N1 ; ! "basma"
 başmakale:başmakale N1 ; ! "leader"
 başörtü:başörtü N1 ; ! "head scarf"
+başlama:başlama N1 ;
 başparmak:başparmak N1 ; ! "thumb"
 başrol:başrol N1 ; ! "lead"
 baston:baston N1 ; ! "stick"
@@ -10017,6 +10022,7 @@ Hulagu:Hulagu NP-ANT-M ; ! "" ! Use/MT
 Serik:Serik NP-ANT-M ; ! "" ! Use/MT
 Akylbai:Akylbai NP-ANT-M ; ! "" ! Use/MT
 Daulet:Daulet NP-ANT-M ; ! "" ! Use/MT
+
 Alay:Alay NP-ANT-M ; ! ""
 Abdul:Abdul NP-ANT-M ; ! ""
 Al-Abbas:Al-Abbas NP-ANT-M ; ! ""
@@ -10111,6 +10117,7 @@ Turkmenistan:Turkmenistan NP-TOP ; ! ""
 Ukrayna:Ukrayna NP-TOP ; ! ""
 Alaşorda:Alaşorda NP-TOP ;
 Buktyrma:Buktyrma NP-TOP ;
+Alatau:Alatau NP-TOP ; ! "Use/MT"
 Abay:Abay NP-TOP ;
 Boeing:Boeing NP-AL ; ! ""
 Gazprom:Gazprom NP-AL ; ! ""
@@ -17384,7 +17391,7 @@ avrasya:avrasya A1 ; ! Use/MT
 dayanaklı:dayanaklı A1 ; ! Use/MT
 karanlık:karanlık A1 ; ! Use/MT
 birincil:birincil A1 ; ! Use/MT
-
+aykırı:aykırı A1 ; ! Use/MT
 doğan:doğan A1 ; ! Use/MT
 baskın:baskın A1 ; ! Use/MT
 sınırlayan:sınırlayan A1 ; ! Use/MT
@@ -17392,6 +17399,8 @@ kalın:kalın A1 ; ! Use/MT
 acemi:acemi A1 ; ! Use/MT
 kızıl% saçlı:kızıl% saçlı A1 ; ! Use/MT
 kıştan% kalma:kıştan% kalma A1 ; ! Use/MT
+krize% karşı:krize% karşı A1 ; ! Use/MT
+tatmin% edici:tatmin% edici A1 ; ! Use/MT
 benzersiz:benzersiz A1 ;
 ruhi:ruhi A1 ;
 müzikal:müzikal A1 ;
@@ -18967,6 +18976,7 @@ tek:tek ADV3 ;!  ""
 fakat:fakat ADV3 ;
 en% üste:en% üste ADV3 ;! Use/MT ! Dir/RL
 burda:burda ADV3 ; ! Use/MT ! Dir/RL
+göre:göre ADV3 ; ! Use/MT
 böylesine:böylesine ADV3 ;
 vesaire:vesaire ADV3 ;
 orada:orada ADV3 ;
@@ -19365,12 +19375,14 @@ ne% zaman:ne% zaman ADV-ITG ;
 aynı% şekilde:aynı% şekilde ADV3 ;
 ne:ne ADV-ITG ; !Use/MT
 nerde:nerde ADV-ITG ; !Use/MT
+vakit% aralığında:vakit% aralığında ADV3 ; ! Use/MT
 
 
 LEXICON Verbs 
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
 devşir:devşir V-IR-TV ;
+kaçır:kaçır V-IR-TV ;!"" Use/MT
 öfkeden% çıldır:öfkeden% çıldır V-IR-TV ;!"" Use/MT
 selamla:selamla V-IR-TV ;!"" Use/MT
 eksilt:eksilt V-IR-TV ;!"" Use/MT
