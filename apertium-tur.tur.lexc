@@ -3060,6 +3060,7 @@ halinde:halinde POST ; ! "ın case of" ! FIXME
 hakkında:hakkında POST ;
 acem:acem N1 ;
 spesiyal:spesiyal N1 ;  ! Use/MT
+mülük:mülük N1 ; ! Use/MT
 yukar:yukar N1 ; ! ""
 ateş% etme:ateş% etme N1 ;  ! Use/MT
 kayalık:kayalık N1 ;  ! Use/MT
@@ -7082,6 +7083,7 @@ krokodil:krokodil N1 ; ! "crocodile"
 kuaför:kuaför N1 ; ! "hairdresser"
 kubbe:kubbe N1 ; ! "dome"
 kucak:kucak N1 ; ! "lap"
+kucak% dolusu:kucak% dolusu N1 ;
 kuçu:kuçu N1 ; ! "dog"
 kudret:kudret N1 ; ! "ability"
 kudret:kudret N1 ; ! "capacity"
@@ -9438,6 +9440,7 @@ hollandalı:Hollandalı N1 ; ! "dutch"
 
 İngilizce:İngilizce N1 ; ! "english"
 Türkçe:Türkçe N1 ; ! "turkish"
+ingilizce:ingilizce N1 ;
 Rusça:Rusça N1 ; ! "russian"
 Arapça:Arapça N1 ; ! "arabic"
 Arnavutça:Arnavutça N1 ; ! "albanian"
@@ -20635,7 +20638,7 @@ imren:imren V-IR-IV ; ! "envy" (DIR)
 ! inan:inan V-TV-DIR-IR ; ! "believe"
 inan:inan V-IR-TV ; ! "believe"
 bağla:bağla V-IR-TV ; ! "connect"
-sahip%ol :sahip%ol V-IR-IV ; ! Use/MT
+sahip% ol :sahip% ol V-IR-IV ; ! Use/MT
 incel:incel V-AR-IV ; ! "get thinner" (DIR)
 ışıklan:ışıklan V-IR-IV ; ! "lighten" (DIR)
 ısın:ısın V-IR-IV ; ! "get warmer" (DIR)
