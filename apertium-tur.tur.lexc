@@ -3059,6 +3059,7 @@ beyit:beyit N1 ;
 halinde:halinde POST ; ! "ın case of" ! FIXME
 hakkında:hakkında POST ;
 acem:acem N1 ;
+mükemmel:mükemmel N1 ; ! Use/MT
 spesiyal:spesiyal N1 ;  ! Use/MT
 mülük:mülük N1 ; ! Use/MT
 yukar:yukar N1 ; ! ""
@@ -4621,6 +4622,7 @@ dilim:dilim N1 ; ! "slice"
 dinamo:dinamo N1 ; ! "dynamo"
 din:din N1 ; ! "religion"
 dingil:dingil N1 ; ! "shaft"
+dinlenme:dinlenme N1 ; ! Use/MT
 dinlence:dinlence N1 ; ! "leisure"
 dinleti:dinleti N1 ; ! "concert"
 dip:dip N1 ; ! "bottom"
@@ -4635,6 +4637,7 @@ dışaçı:dışaçı N1 ; ! "external angle"
 dışarı:dışarı N1 ; ! "outside"
 diş:diş N1 ; ! "tooth"
 dış:dış N1 ; ! "exterior"
+dış% ülke:dış% ülke N1 ;
 dişi:dişi N1 ; ! "female"
 disiplin:disiplin N1 ; ! "discipline"
 dışişleri:dışişleri N1 ; ! "external affairs"
@@ -7876,6 +7879,7 @@ müdafaa:müdafaa N1 ; ! "defense"
 müdahale:müdahale N1 ; ! "intervention"
 müddet:müddet N1 ; ! "time limitation"
 müdebbir:müdebbir N1 ; ! "cautious"
+şefaat:şefaat N1 ; !Use/MT
 müderris:müderris N1 ; ! "professor"
 müdüre:müdüre N1 ; ! "directress"
 müdüriyet:müdüriyet N1 ; ! "management"
@@ -17390,6 +17394,8 @@ aşırılıkçı:aşırılıkçı A1 ;
 işgalci:işgalci A1 ;
 sinsi:sinsi A1 ;
 bahsi:bahsi A1 ;
+mükemmel:mükemmel A1 ;! Use/MT
+ortalama:ortalama A1 ;! Use/MT
 avrasya:avrasya A1 ; ! Use/MT
 dayanaklı:dayanaklı A1 ; ! Use/MT
 karanlık:karanlık A1 ; ! Use/MT
@@ -18987,6 +18993,7 @@ nasıl:nasıl ADV3 ;
 ziyadesiyle:ziyadesiyle ADV3 ;
 kısa% zaman% sonra:kısa% zaman% sonra ADV3 ;
 üç% kes:üç% kes ADV3 ;
+üç% kat:üç% kat ADV3 ;
 kibarca:kibarca ADV3 ;
 her% zaman:her% zaman ADV3 ;
 yatay% olarak:yatay% olarak ADV3 ;
@@ -19386,6 +19393,7 @@ sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
 devşir:devşir V-IR-TV ;
 kaçır:kaçır V-IR-TV ;!"" Use/MT
+elden% gel:elden% gel V-IR-IV ;!"" Use/MT
 öfkeden% çıldır:öfkeden% çıldır V-IR-TV ;!"" Use/MT
 selamla:selamla V-IR-TV ;!"" Use/MT
 eksilt:eksilt V-IR-TV ;!"" Use/MT
