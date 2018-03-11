@@ -3123,7 +3123,7 @@ küçük% erkek% kardeş:küçük% erkek% kardeş N1 ;
 palyaço:palyaço N1 ;
 rumuz:rumuz N1 ;
 küçültme:küçültme N1 ;
-duma:duma N1 ;
+duma:Duma N1 ;
 abonelik:abonelik N1 ;
 kabartma:kabartma N1 ;
 tüketim:tüketim N1 ;
@@ -10130,6 +10130,7 @@ Boeing:Boeing NP-AL ; ! ""
 Gazprom:Gazprom NP-AL ; ! ""
 Naftogaz:Naftogaz NP-AL ; ! ""
 Twitter:Twitter NP-AL ; ! ""
+
 Kazakhmys:Kazakhmys NP-AL ; ! "Use/MT"
 Dünya% Şampiyonası:Dünya% Şampiyonası NP-AL ;
 
@@ -10238,6 +10239,7 @@ Lenin:Lenin NP-COG-MF ; ! ""
 Lenina:Lenina NP-COG-MF ; ! ""
 
 Bondarenko:Bondarenko NP-COG-MF ; ! ""
+Marchenko:Marchenko NP-COG-MF ; ! "" ! Use/MT
 Kanışkızı:Kanışkızı NP-COG-MF ; ! ""
 Cemilev:Cemilev NP-COG-MF ; ! ""
 Fomenko:Fomenko NP-COG-MF ; ! ""
@@ -17394,6 +17396,7 @@ aşırılıkçı:aşırılıkçı A1 ;
 işgalci:işgalci A1 ;
 sinsi:sinsi A1 ;
 bahsi:bahsi A1 ;
+mevcüt:mevcüt A1 ;! Use/MT
 mükemmel:mükemmel A1 ;! Use/MT
 ortalama:ortalama A1 ;! Use/MT
 avrasya:avrasya A1 ; ! Use/MT
@@ -19811,7 +19814,7 @@ feshet:feshet V-AR-TV ; ! "repeal" (DIR)
 fethet:fethet V-AR-TV ; ! "conquer" (DIR)
 geç:geç V-AR-TV ; ! "pass" (DIR)
 geç:geç V-AR-IV ; ! "pass" (DIR)
-geliş:geliş V-IR-TV ; ! "develop" (DIR)
+geliş:geliş V-IR-IV ; ! "develop" (DIR) !Use/MT
 ger:ger V-AR-TV ; ! "stretch" (DIR)
 getir:getir V-IR-TV ; ! "bring" (DIR)
 gider:gider V-IR-TV ; ! "supply" (DIR)
