@@ -12535,6 +12535,7 @@ Hamaney:Hamaney NP-COG-MF ; ! ""
 
 İskender:İskender NP-ANT-M ;
 Leonid:Leonid NP-ANT-M ;
+Aristo:Aristo NP-ANT-M ;  !Use/MT
 Cabbar:Cabbar NP-ANT-M ;
 Natalya:Natalya NP-ANT-F ;
 Gülnara:Gülnara NP-ANT-F ;
@@ -16323,7 +16324,7 @@ Pivovarov:Pivovarov NP-COG-MF ; ! ""
 Pıvovarov:Pıvovarov NP-COG-MF ; ! ""
 Azarov:Azarov NP-COG-MF ; ! ""
 Nazarov:Nazarov NP-COG-MF ; ! ""
-Bobrov:Bobrov NP-COG-MF ; ! ""
+Bobrov:Bobrov NP-COG-MF ; ! "" ! Use/MT
 Çubrov:Çubrov NP-COG-MF ; ! ""
 Antsiferov:Antsiferov NP-COG-MF ; ! ""
 Kemerov:Kemerov NP-COG-MF ; ! ""
@@ -21114,6 +21115,7 @@ mm:mm ABBR ; ! ""
 kg:kg ABBR ; ! ""
 km:km ABBR ; ! ""
 cm:cm ABBR ; ! ""
+vb:vb ABBR ; ! ""
 
 A%.:A%. ABBR ; ! ""
 B%.:B%. ABBR ; ! ""
