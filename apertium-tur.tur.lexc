@@ -3059,6 +3059,7 @@ beyit:beyit N1 ;
 halinde:halinde POST ; ! "ın case of" ! FIXME
 hakkında:hakkında POST ;
 acem:acem N1 ;
+azeri:azeri N1 ; ! Use/MT
 mükemmel:mükemmel N1 ; ! Use/MT
 spesiyal:spesiyal N1 ;  ! Use/MT
 ani% çıkış:ani% çıkış N1 ;  ! Use/MT
@@ -9957,6 +9958,7 @@ Boğaz:Boğaz NP-TOP ; ! ""
 Sistan:Sistan NP-TOP ; ! ""
 Ilikhandar:Ilikhandar NP-TOP ; ! ""! Dir/RL ! Use/MT
 Petersburg:Petersburg NP-TOP ; ! ""! Dir/RL ! Use/MT
+
 İrtiş:İrtiş NP-TOP ; ! ""! Dir/RL ! Use/MT
 Zagros:Zagros NP-TOP ; ! ""! Dir/RL ! Use/MT
 Zaisan:Zaisan NP-TOP ; ! ""! Dir/RL ! Use/MT
@@ -11316,10 +11318,13 @@ Karasuvpazar:Karasuvpazar NP-TOP ;
 Canköy:Canköy NP-TOP ;
 Korea:Korea NP-TOP ;
 Britanya:Britanya NP-TOP ;
+Gürgan:Gürgan NP-TOP ;
 Semerkant:Semerkant NP-TOP ;
 Sivastopol:Sivastopol NP-TOP ;
 Zaporijya:Zaporijya NP-TOP ;
 İvano%-Frankivsk:İvano%-Frankivsk NP-TOP ;
+Kura%-Aras:Kura%-Aras NP-TOP ; ! Use/MT
+Germezir:Germezir NP-TOP ; ! Use/MT
 
 
 
@@ -17402,6 +17407,7 @@ işgalci:işgalci A1 ;
 sinsi:sinsi A1 ;
 bahsi:bahsi A1 ;
 mevcüt:mevcüt A1 ;! Use/MT
+elle:elle A1 ; ! Use/MT
 mükemmel:mükemmel A1 ;! Use/MT
 ortalama:ortalama A1 ;! Use/MT
 avrasya:avrasya A1 ; ! Use/MT
@@ -19400,6 +19406,7 @@ vakit% aralığında:vakit% aralığında ADV3 ; ! Use/MT
 LEXICON Verbs 
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
+pürüzle:pürüzle V-IR-IV ;!"" Use/MT
 devşir:devşir V-IR-TV ;
 kaçır:kaçır V-IR-TV ;!"" Use/MT
 elden% gel:elden% gel V-IR-IV ;!"" Use/MT
