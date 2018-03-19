@@ -3061,6 +3061,7 @@ hakkında:hakkında POST ;
 acem:acem N1 ;
 mükemmel:mükemmel N1 ; ! Use/MT
 spesiyal:spesiyal N1 ;  ! Use/MT
+ani% çıkış:ani% çıkış N1 ;  ! Use/MT
 mülük:mülük N1 ; ! Use/MT
 yukar:yukar N1 ; ! ""
 ateş% etme:ateş% etme N1 ;  ! Use/MT
@@ -9967,6 +9968,7 @@ Boran:Boran NP-TOP ; ! ""! Dir/RL ! Use/MT
 Kelat:Kelat NP-TOP ; ! ""! Dir/RL ! Use/MT
 Kuhrud:Kuhrud NP-TOP ; ! ""! Dir/RL ! Use/MT
 Mekran:Mekran NP-TOP ; ! ""! Dir/RL ! Use/MT
+Susa:Susa NP-TOP ; ! ""! Dir/RL ! Use/MT
 Krasnoperekopsk:Krasnoperekopsk NP-TOP ; ! ""
 Kirovograd:Kirovograd NP-TOP ; ! ""
 Kefe:Kefe NP-TOP ; ! ""
@@ -10029,7 +10031,7 @@ Hulagu:Hulagu NP-ANT-M ; ! "" ! Use/MT
 Serik:Serik NP-ANT-M ; ! "" ! Use/MT
 Akylbai:Akylbai NP-ANT-M ; ! "" ! Use/MT
 Daulet:Daulet NP-ANT-M ; ! "" ! Use/MT
-
+zend:zend NP-ANT-M ; ! "" ! Use/MT
 Alay:Alay NP-ANT-M ; ! ""
 Abdul:Abdul NP-ANT-M ; ! ""
 Al-Abbas:Al-Abbas NP-ANT-M ; ! ""
@@ -10064,7 +10066,9 @@ Mohseniy:Mohseniy NP-COG-MF ; !"Use/MT"
 Moktasam:Moktasam NP-COG-MF ; !"Use/MT"
 Miysagiye:Miysagiye NP-COG-MF ; !"Use/MT"
 Satpayev:Satpayev NP-COG-MF ; !"Use/MT"
- 
+Kerman:Kerman NP-COG-MF ; !"Use/MT"
+Farahani:Farahani NP-COG-MF ; !"Use/MT"
+Bahar:Bahar NP-COG-MF ; !"Use/MT"
 Kuşan:Kuşan NP-COG-MF ; !"Use/MT"
 Pehlevi:Pehlevi NP-COG-MF ; !"Use/MT"
 
@@ -18888,6 +18892,7 @@ haftalık:haftalık A1 ;
 hayırsız:hayırsız A1 ;
 hikmetli:hikmetli A1 ;
 hışımlı:hışımlı A1 ;
+ayırıcı:ayırıcı A1 ;
 hoş:hoş A1 ;
 hürmetli:hürmetli A1 ;
 imtiyazlı:imtiyazlı A1 ;
@@ -21119,6 +21124,7 @@ vb:vb ABBR ; ! ""
 
 A%.:A%. ABBR ; ! ""
 B%.:B%. ABBR ; ! ""
+P%.:P%. ABBR ; ! ""
 V%.:V%. ABBR ; ! ""
 G%.:G%. ABBR ; ! ""
 Ğ%.:Ğ%. ABBR ; ! ""
