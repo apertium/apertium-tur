@@ -3059,8 +3059,10 @@ beyit:beyit N1 ;
 halinde:halinde POST ; ! "ın case of" ! FIXME
 hakkında:hakkında POST ;
 acem:acem N1 ;
+azeri:azeri N1 ; ! Use/MT
 mükemmel:mükemmel N1 ; ! Use/MT
 spesiyal:spesiyal N1 ;  ! Use/MT
+ani% çıkış:ani% çıkış N1 ;  ! Use/MT
 mülük:mülük N1 ; ! Use/MT
 yukar:yukar N1 ; ! ""
 ateş% etme:ateş% etme N1 ;  ! Use/MT
@@ -9956,6 +9958,7 @@ Boğaz:Boğaz NP-TOP ; ! ""
 Sistan:Sistan NP-TOP ; ! ""
 Ilikhandar:Ilikhandar NP-TOP ; ! ""! Dir/RL ! Use/MT
 Petersburg:Petersburg NP-TOP ; ! ""! Dir/RL ! Use/MT
+
 İrtiş:İrtiş NP-TOP ; ! ""! Dir/RL ! Use/MT
 Zagros:Zagros NP-TOP ; ! ""! Dir/RL ! Use/MT
 Zaisan:Zaisan NP-TOP ; ! ""! Dir/RL ! Use/MT
@@ -9967,6 +9970,7 @@ Boran:Boran NP-TOP ; ! ""! Dir/RL ! Use/MT
 Kelat:Kelat NP-TOP ; ! ""! Dir/RL ! Use/MT
 Kuhrud:Kuhrud NP-TOP ; ! ""! Dir/RL ! Use/MT
 Mekran:Mekran NP-TOP ; ! ""! Dir/RL ! Use/MT
+Susa:Susa NP-TOP ; ! ""! Dir/RL ! Use/MT
 Krasnoperekopsk:Krasnoperekopsk NP-TOP ; ! ""
 Kirovograd:Kirovograd NP-TOP ; ! ""
 Kefe:Kefe NP-TOP ; ! ""
@@ -10029,7 +10033,7 @@ Hulagu:Hulagu NP-ANT-M ; ! "" ! Use/MT
 Serik:Serik NP-ANT-M ; ! "" ! Use/MT
 Akylbai:Akylbai NP-ANT-M ; ! "" ! Use/MT
 Daulet:Daulet NP-ANT-M ; ! "" ! Use/MT
-
+zend:zend NP-ANT-M ; ! "" ! Use/MT
 Alay:Alay NP-ANT-M ; ! ""
 Abdul:Abdul NP-ANT-M ; ! ""
 Al-Abbas:Al-Abbas NP-ANT-M ; ! ""
@@ -10064,7 +10068,9 @@ Mohseniy:Mohseniy NP-COG-MF ; !"Use/MT"
 Moktasam:Moktasam NP-COG-MF ; !"Use/MT"
 Miysagiye:Miysagiye NP-COG-MF ; !"Use/MT"
 Satpayev:Satpayev NP-COG-MF ; !"Use/MT"
- 
+Kerman:Kerman NP-COG-MF ; !"Use/MT"
+Farahani:Farahani NP-COG-MF ; !"Use/MT"
+Bahar:Bahar NP-COG-MF ; !"Use/MT"
 Kuşan:Kuşan NP-COG-MF ; !"Use/MT"
 Pehlevi:Pehlevi NP-COG-MF ; !"Use/MT"
 
@@ -11312,10 +11318,13 @@ Karasuvpazar:Karasuvpazar NP-TOP ;
 Canköy:Canköy NP-TOP ;
 Korea:Korea NP-TOP ;
 Britanya:Britanya NP-TOP ;
+Gürgan:Gürgan NP-TOP ;
 Semerkant:Semerkant NP-TOP ;
 Sivastopol:Sivastopol NP-TOP ;
 Zaporijya:Zaporijya NP-TOP ;
 İvano%-Frankivsk:İvano%-Frankivsk NP-TOP ;
+Kura%-Aras:Kura%-Aras NP-TOP ; ! Use/MT
+Germezir:Germezir NP-TOP ; ! Use/MT
 
 
 
@@ -17398,6 +17407,7 @@ işgalci:işgalci A1 ;
 sinsi:sinsi A1 ;
 bahsi:bahsi A1 ;
 mevcüt:mevcüt A1 ;! Use/MT
+elle:elle A1 ; ! Use/MT
 mükemmel:mükemmel A1 ;! Use/MT
 ortalama:ortalama A1 ;! Use/MT
 avrasya:avrasya A1 ; ! Use/MT
@@ -18888,6 +18898,7 @@ haftalık:haftalık A1 ;
 hayırsız:hayırsız A1 ;
 hikmetli:hikmetli A1 ;
 hışımlı:hışımlı A1 ;
+ayırıcı:ayırıcı A1 ;
 hoş:hoş A1 ;
 hürmetli:hürmetli A1 ;
 imtiyazlı:imtiyazlı A1 ;
@@ -19395,6 +19406,7 @@ vakit% aralığında:vakit% aralığında ADV3 ; ! Use/MT
 LEXICON Verbs 
 sadeleştir:sadeleştir V-IR-TV ;
 tümle:tümle V-IR-TV ;
+pürüzle:pürüzle V-IR-IV ;!"" Use/MT
 devşir:devşir V-IR-TV ;
 kaçır:kaçır V-IR-TV ;!"" Use/MT
 elden% gel:elden% gel V-IR-IV ;!"" Use/MT
@@ -21119,6 +21131,7 @@ vb:vb ABBR ; ! ""
 
 A%.:A%. ABBR ; ! ""
 B%.:B%. ABBR ; ! ""
+P%.:P%. ABBR ; ! ""
 V%.:V%. ABBR ; ! ""
 G%.:G%. ABBR ; ! ""
 Ğ%.:Ğ%. ABBR ; ! ""
