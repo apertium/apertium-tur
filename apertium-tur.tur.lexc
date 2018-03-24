@@ -12452,6 +12452,7 @@ Salimzyanov:Salimzyanov NP-COG-OV ; ! ""
 Gökırmak:Gökırmak NP-COG-MF ; ! ""
 Washington:Washington NP-COG-MF ; ! ""
 Erdoğan:Erdoğan NP-COG-MF ; ! ""
+Yıldırım:Yıldırım NP-COG-MF ; ! ""
 Rice:Rice NP-COG-MF ; ! ""
 Taçi:Taçi NP-COG-MF ; ! ""
 Ciocoiu:Ciocoiu NP-COG-MF ; ! ""
@@ -12565,6 +12566,7 @@ Fazıl:Fazıl NP-ANT-M ;
 Ramazan:Ramazan NP-ANT-M ; ! ""
 İbrahim:İbrahim NP-ANT-M  ; ! ""
 Tayyip:Tayyip NP-ANT-M ; ! ""
+Binali:Binali NP-ANT-M ; ! ""
 Selim:Selim NP-ANT-M ; ! ""
 
 Menli:Menli NP-ANT-M;
