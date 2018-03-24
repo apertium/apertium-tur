@@ -15,6 +15,7 @@ Multichar_Symbols
 %<prn%>        ! Pronoun                    
 %<det%>        ! Determiner                 
 %<sym%>
+%<barb%>
 %<v%>          ! Verb                       
 %<vaux%>       ! Auxilary verb              
 %<adv%>        ! Adverb                     
@@ -21106,6 +21107,10 @@ oh:oh INTERJ ;
 e:e INTERJ ;
 teşekkürler:teşekkürler INTERJ ;
 
+LEXICON BARB  ! Dir/RL
+
+%<barb%>: # ;  ! Dir/RL
+
 LEXICON Symbols 
 
 
@@ -21115,6 +21120,8 @@ LEXICON Symbols
 %%:%% SYM ; 
 yüzde:%% SYM ; ! Dir/RL
 !yüzde:yüzde SYM ; 
+
+<(a|á|à|ă|â|ǎ|ä|ā|æ|b|c|ć|č|ç|d|e|é|è|ê|ě|ë|ə|f|g|ğ|h|i|í|ì|ǐ|ï|ī|ı|j|k|l|m|n|ñ|o|ó|ò|ộ|ǒ|ö|ø|ō|p|q|r|s|ŝ|š|ş|t|ţ|u|ú|ù|û|ǔ|ü|ū|v|w|x|y|ý|z)+> BARB ; ! Dir/RL
 
 LEXICON Abbreviations
 
