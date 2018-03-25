@@ -8566,6 +8566,7 @@ yakınlık:yakınlık N1 ;
 vücud:vücud N1 ; ! "body"
 şişe:şişe N1 ;
 akamanış:akamanış N1 ;
+rayon:rayon N1 ; ! ""
 tatlı% su:tatlı% su N1 ;
 ortalama:ortalama N1 ;
 özyönetim:özyönetim N1 ;
@@ -9385,6 +9386,7 @@ makedon:makedon N3 ; ! ""
 romen:romen N3 ; ! ""
 kürt:kürt N3 ; ! ""
 ingiliz:ingiliz N3 ; ! ""
+uygur:uygur N3 ; ! ""
 rus:rus N1 ; ! ""
 italyan:İtalyan N3 ; ! ""
 mısırlı:Mısırlı N3 ; ! "Egyptian" 
@@ -10509,6 +10511,7 @@ Cenevre:Cenevre NP-TOP ; ! ""
 Cetinje:Cetinje NP-TOP ; ! ""
 Cezayir:Cezayir NP-TOP ; ! ""
 Çin:Çin NP-TOP ; ! ""
+Şincan:Şincan NP-TOP ; ! ""
 Colorado:Colorado NP-TOP ; ! ""
 Commonwealth:Commonwealth NP-TOP ; ! ""
 Cottbus:Cottbus NP-TOP ; ! ""
