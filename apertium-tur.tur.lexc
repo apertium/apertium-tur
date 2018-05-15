@@ -3110,8 +3110,8 @@ koyak:koyak N1 ;
 dağ% geçidi:dağ% geçidi N1 ; ! Use/MT
 aristokrasi:aristokrasi N1 ;
 nesep:nesep N1 ;
-zülüm:zülülm N1 ;
-sağlamlık:sağlamlık N1;
+zülüm:zülüm N1 ;
+belirleyici:belirleyici N1 ;
 parıltı:parıltı N1 ;
 imansız:imansız N1 ;
 repertuar:repertuar N1 ;
@@ -3127,6 +3127,7 @@ rumuz:rumuz N1 ;
 küçültme:küçültme N1 ;
 duma:Duma N1 ;
 abonelik:abonelik N1 ;
+sağlamlık:sağlamlık N1 ;
 kabartma:kabartma N1 ;
 tüketim:tüketim N1 ;
 yele:yele N1 ;
@@ -17411,7 +17412,6 @@ aşırılıkçı:aşırılıkçı A1 ;
 işgalci:işgalci A1 ;
 sinsi:sinsi A1 ;
 bahsi:bahsi A1 ;
-berirleyici:belirleyici A1 ;
 mevcüt:mevcüt A1 ;! Use/MT
 elle:elle A1 ; ! Use/MT
 mükemmel:mükemmel A1 ;! Use/MT
@@ -20632,7 +20632,6 @@ eğlen:eğlen V-IR-IV ; ! "have fun" (DIR)
 elver:elver V-IR-IV ; ! "be convenient" (DIR)
 er:er V-AR-IV ; ! "attain" (DIR)
 eriş:eriş V-IR-IV ; ! "reach" (DIR)
-eriş:eriş V-IV ; ! "reach" (DIR)
 evlen:evlen V-IR-IV ; ! "marry" (DIR)
 gecik:gecik V-IR-IV ; ! "delay, be late" (DIR)
 geçin:geçin V-IR-IV ; ! "get on well" (DIR)
