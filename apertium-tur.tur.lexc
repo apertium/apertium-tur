@@ -2770,6 +2770,7 @@ hariç:hariç POST ; ! "besides"
 
 LEXICON  Conjunctions
 asla% da:asla% da CC ; !
+ta:ta CC ; !
 gerçi:gerçi CC ; !
 şu% ki:şu% ki CC ; !
 sanki:sanki CC ; !
@@ -3065,6 +3066,37 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+Arakanlı:Arakanlı N1 ; !
+geliş:geliş N1 ; !
+gösteriliş:gösteriliş N1 ; !
+Venüs:Venüs N1 ; !
+zıt:zıt N1 ; !
+pırasa:pırasa N1 ; !
+Ahzab:Ahzab N1 ; !
+Hintçe:Hintçe N1 ; !
+elif:elif N1 ; !
+aleyh:aleyh N1 ; !
+davacı:davacı N1 ; !
+Sui:Sui N1 ; !
+münafık:münafık N1 ; !
+tüccarlık:tüccarlık N1 ; !
+şampiyonluk:şampiyonluk N1 ; !
+Karluk:Karluk N1 ; !
+doktorluk:doktorluk N1 ; !
+zencefil:zencefil N1 ; !
+virgül:virgül N1 ; !
+Rahim:Rahim N1 ; !
+İmran:İmran N1 ; !
+ibn:ibn N1 ; !
+düşkün:düşkün N1 ; !
+Regaip:Regaip N1 ; !
+celp:celp N1 ; !
+sabır:sabır N1 ; !
+akis:akis N1 ; !
+Kureyş:Kureyş N1 ; !
+Hint:Hint N1 ; !
+Hamçot:Hamçot N1 ; !
+pilav:pilav N1 ; !
 vida:vida N1 ; !
 propaganda:propaganda N1 ; !
 vaha:vaha N1 ; !
@@ -3280,7 +3312,7 @@ zorlama:zorlama N1 ; !
 olmama:olmama N1 ; !
 kaynama:kaynama N1 ; !
 yağma:yağma N1 ; !
-kendine% bakma:kendine% bakma N1 ; !
+kendine% bakma:kendine% bakma N1 ; ! Dir/RL ! Use/MT
 korunma:korunma N1 ; !
 Roma:Roma N1 ; !
 çıkarma:çıkarma N1 ; !
@@ -3326,10 +3358,10 @@ yazıcı:yazıcı N1 ; !
 seki:seki N1 ; !
 Türkiyeli:Türkiyeli N1 ; !
 Suriyeli:Suriyeli N1 ; !
-Çin% Yeni% Yılı:Çin% Yeni% Yılı N1 ; !
+Çin% Yeni% Yılı:Çin% Yeni% Yılı N2 ; !
 sarı:sarı N1 ; !
 Van% der% Waals% kuvveti:Van% der% Waals% kuvveti N1 ; !
-Çin% Devlet% Konseyi:Çin% Devlet% Konseyi N1 ; !
+Çin% Devlet% Konseyi:Çin% Devlet% Konsey NP-ORG-COMPOUND-PX ; !
 sıcak:sıcak N1 ; !
 tanımak:tanımak N1 ; !
 tutsak:tutsak N1 ; !
@@ -3339,7 +3371,7 @@ tanıdık:tanıdık N1 ; !
 olduk:olduk N1 ; !
 soğuk:soğuk N1 ; !
 büyük:büyük N1 ; !
-Nobel:Nobel N1 ; !
+Nobel:Nobel NP-AL ; !
 genel:genel N1 ; !
 asıl:asıl N1 ; !
 yeşil:yeşil N1 ; !
@@ -3351,7 +3383,7 @@ bin:bin N1 ; !
 Washington:Washington N1 ; !
 sap:sap N1 ; !
 nükleer:nükleer N1 ; !
-Birleşmiş% Milletler:Birleşmiş% Milletler N1 ; !
+Birleşmiş% Milletler:Birleşmiş% Milletler NP-ORG ; !
 vatansever:vatansever N1 ; !
 okur:okur N1 ; !
 AIDS:AIDS N1 ; !
@@ -10273,6 +10305,7 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Hocalı:Hocalı NP-TOP ; !
 Kuça:Kuça NP-TOP ; !
 Şingşingşia:Şingşingşia NP-TOP ; !
 Guma:Guma NP-TOP ; !
@@ -10404,7 +10437,13 @@ Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
+Buğrahan:Buğrahan NP-ANT-M ; !
+Selman:Selman NP-ANT-M ; !
+Nihat:Nihat NP-ANT-M ; !
+Yusufbey:Yusufbey NP-ANT-M ; !
 Zahide:Zahide NP-ANT-M ; !
+Zordun:Zordun NP-ANT-M ; !
+Alp:Alp NP-ANT-M ; !
 Cang:Cang NP-ANT-M ; !
 Wang:Wang NP-ANT-M ; !
 Yang:Yang NP-ANT-M ; !
@@ -10514,6 +10553,7 @@ Bokeikhan:Bokeikhan NP-ANT-M ;
 Nursultan:Nursultan NP-ANT-M ;
 Akbala:Akbala NP-ANT-F ; 
 Altınay:Altınay NP-ANT-F ;
+Elif:Elif NP-ANT-F ; 
 Abu:Abu NP-ANT-M ; 
 Rıza:Rıza NP-ANT-M ;
 Sergei:Sergei NP-ANT-M ;
@@ -10530,6 +10570,8 @@ Kuşan:Kuşan NP-COG-MF ; !"Use/MT"
 Pehlevi:Pehlevi NP-COG-MF ; !"Use/MT"
 
 Humeyni:Humeyni NP-COG-MF ; !"Use/MT"
+Tirmizî:Tirmizî NP-COG-MF ; !
+Mirziyayev:Mirziyayev NP-COG-MF ; !
 
 Nasirdin:Nasirdin NP-COG-MF ; 
 Çeney:Çeney NP-COG-MF ; !"Use/MT"
@@ -17928,6 +17970,18 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+yegâne:yegâne A1 ; !
+ırkî:ırkî A1 ; !
+programlı:programlı A1 ; !
+atlı:atlı A1 ; !
+değil:değil A1 ; !
+esen:esen A1 ; !
+azat:azat A1 ; !
+emanet:emanet A1 ; !
+boğumlu:boğumlu A1 ; !
+dünyaca% ünlü:dünyaca% ünlü A1 ; !
+vizesiz:vizesiz A1 ; !
+maruz:maruz A1 ; !
 peyda:peyda A1 ; !
 âlâ:âlâ A1 ; !
 zerrece:zerrece A1 ; !
