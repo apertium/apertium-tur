@@ -2770,6 +2770,7 @@ hariç:hariç POST ; ! "besides"
 
 LEXICON  Conjunctions
 asla% da:asla% da CC ; !
+ki:ki CC ; !
 ta:ta CC ; !
 gerçi:gerçi CC ; !
 şu% ki:şu% ki CC ; !
@@ -3066,6 +3067,67 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+sertifika:sertifika N1 ; !
+tenha:tenha N1 ; !
+aşağılama:aşağılama N1 ; !
+canlandırma:canlandırma N1 ; !
+ayrışma:ayrışma N1 ; !
+kuşatma:kuşatma N1 ; !
+arıtma:arıtma N1 ; !
+bozma:bozma N1 ; !
+geç:geç N1 ; !
+verme:verme N1 ; !
+izleyici:izleyici N1 ; !
+kahverengi:kahverengi N1 ; !
+Türkistanlı:Türkistanlı N1 ; !
+Tibetli:Tibetli N1 ; !
+çok:çok N1 ; !
+evvel:evvel N1 ; !
+sosyal% yardım:sosyal% yardım N1 ; !
+varış:varış N1 ; !
+
+sıtma:sıtma N1 ; !
+DNA:DNA N1 ; !
+sopa:sopa N1 ; !
+çiçekbiya:çiçekbiya N1 ; !
+KD:KD N1 ; !
+DVD:DVD N1 ; !
+yenge:yenge N1 ; !
+öğe:öğe N1 ; !
+takke:takke N1 ; !
+tesadüf:tesadüf N1 ; !
+tasavvuf:tasavvuf N1 ; !
+muhasebeci:muhasebeci N1 ; !
+Şafi:Şafi N1 ; !
+tecelli:tecelli N1 ; !
+şakak:şakak N1 ; !
+tatbik:tatbik N1 ; !
+tekstilcilik:tekstilcilik N1 ; !
+yabancılık:yabancılık N1 ; !
+milliyetçilik:milliyetçilik N1 ; !
+açıklık:açıklık N1 ; !
+hükümranlık:hükümranlık N1 ; !
+vekaletlik:vekaletlik N1 ; !
+çubuk:çubuk N1 ; !
+çocukluk:çocukluk N1 ; !
+ezel:ezel N1 ; !
+yeşim:yeşim N1 ; !
+sıçan:sıçan N1 ; !
+hükümran:hükümran N1 ; !
+pehlivan:pehlivan N1 ; !
+üçgen:üçgen N1 ; !
+Celaleddin:Celaleddin N1 ; !
+Sümer:Sümer N1 ; !
+sazaver:sazaver N1 ; !
+sur:sur N1 ; !
+vekalet:vekalet N1 ; !
+Turmuhammet:Turmuhammet N1 ; !
+seyit:seyit N1 ; !
+tanrıkut:tanrıkut N1 ; !
+Guanşu:Guanşu N1 ; !
+avuntu:avuntu N1 ; !
+
+yakın:yakın N1 ; !
 Arakanlı:Arakanlı N1 ; !
 geliş:geliş N1 ; !
 gösteriliş:gösteriliş N1 ; !
@@ -10305,6 +10367,29 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Küsen:Küsen NP-TOP ; !
+Lop% Nur:Lop% Nur NP-TOP ; !
+Çarlık% Rusya:Çarlık% Rusya NP-TOP ; !
+Keriye:Keriye NP-TOP ; !
+Aksiye:Aksiye NP-TOP ; !
+Karmıki:Karmıki NP-TOP ; !
+Karahanlı:Karahanlı NP-TOP ; !
+Maralbeşi:Maralbeşi NP-TOP ; !
+Elrayi:Elrayi NP-TOP ; !
+Beşbalık:Beşbalık NP-TOP ; !
+Kağılık:Kağılık NP-TOP ; !
+Sincan:Sincan NP-TOP ; !
+Loulan:Loulan NP-TOP ; !
+Henan:Henan NP-TOP ; !
+Baltistan:Baltistan NP-TOP ; !
+Gilgit%-Baltistan:Gilgit%-Baltistan NP-TOP ; !
+Miren:Miren NP-TOP ; !
+Karaşehir:Karaşehir NP-TOP ; !
+Bügür:Bügür NP-TOP ; !
+Gilgit:Gilgit NP-TOP ; !
+Yetisu:Yetisu NP-TOP ; !
+Tarbagatay:Tarbagatay NP-TOP ; !
+
 Hocalı:Hocalı NP-TOP ; !
 Kuça:Kuça NP-TOP ; !
 Şingşingşia:Şingşingşia NP-TOP ; !
@@ -10437,6 +10522,27 @@ Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
+Melike:Melike NP-ANT-F ; !
+alp:alp NP-ANT-M ; !
+Murat:Murat NP-ANT-M ; !
+
+Buğra:Buğra NP-ANT-M ; !
+Ziya:Ziya NP-ANT-M ; !
+Satuk:Satuk NP-ANT-M ; !
+Turguncan:Turguncan NP-ANT-M ; !
+Alihan:Alihan NP-ANT-M ; !
+Nurhan:Nurhan NP-ANT-M ; !
+Mirsultan:Mirsultan NP-ANT-M ; !
+Memtimin:Memtimin NP-ANT-M ; !
+Haydar:Haydar NP-ANT-M ; !
+Bahtiyar:Bahtiyar NP-ANT-M ; !
+Abduşükür:Abduşükür NP-ANT-M ; !
+Samet:Samet NP-ANT-M ; !
+Nurmuhammet:Nurmuhammet NP-ANT-M ; !
+Sait:Sait NP-ANT-M ; !
+Hamit:Hamit NP-ANT-M ; !
+Abdurreşit:Abdurreşit NP-ANT-M ; !
+
 Buğrahan:Buğrahan NP-ANT-M ; !
 Selman:Selman NP-ANT-M ; !
 Nihat:Nihat NP-ANT-M ; !
@@ -10568,6 +10674,17 @@ Farahani:Farahani NP-COG-MF ; !"Use/MT"
 Bahar:Bahar NP-COG-MF ; !"Use/MT"
 Kuşan:Kuşan NP-COG-MF ; !"Use/MT"
 Pehlevi:Pehlevi NP-COG-MF ; !"Use/MT"
+Mehtumsula:Mehtumsula NP-COG-MF ; !
+Sperling:Sperling NP-COG-MF ; !
+Şafi:Şafi NP-COG-MF ; !
+Gazali:Gazali NP-COG-MF ; !
+Tümtürk:Tümtürk NP-COG-MF ; !
+Mehsum:Mehsum NP-COG-MF ; !
+Jintao:Jintao NP-COG-MF ; !
+Hoşur:Hoşur NP-COG-MF ; !
+Tanrıkut:Tanrıkut NP-COG-MF ; !
+Ruzibakiyov:Ruzibakiyov NP-COG-MF ; !
+
 
 Humeyni:Humeyni NP-COG-MF ; !"Use/MT"
 Tirmizî:Tirmizî NP-COG-MF ; !
@@ -10610,6 +10727,8 @@ Valentina:Valentina NP-ANT-F ; ! ""
 Fatima:Fatima NP-ANT-F ; ! ""
 Svetlana:Svetlana NP-ANT-F ; ! ""
 Nina:Nina NP-ANT-F ; ! ""
+Ursula:Ursula NP-ANT-F ; !
+Fatıma:Fatıma NP-ANT-F ; !
 
 Bar:Bar NP-TOP ; ! ""
 Başkortostan:Başkortostan NP-TOP ; ! ""
@@ -11869,6 +11988,19 @@ ABC:ABC%{ii%} NP-TOP-ACR ; ! ""
 EU:EU NP-TOP-ACR ; ! ""
 
 ! Organisations
+NKVD:NKVD NP-ORG ; !
+MİT:MİT NP-ORG ; !
+
+MTİ:MTİ NP-ORG ; !
+DUK:DUK NP-ORG ; !
+HDP:HDP NP-ORG ; !
+EAR:EAR NP-ORG ; !
+DVR:DVR NP-ORG ; !
+AKŞ:AKŞ NP-ORG ; !
+VMHT:VMHT NP-ORG ; !
+STV:STV NP-ORG ; !
+PDY:PDY NP-ORG ; !
+
 Sabah:Sabah NP-ORG ; !
 Star:Star NP-ORG ; !
 Hürriyet:Hürriyet NP-ORG ; !
@@ -17970,6 +18102,27 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+aşina:aşina A1 ; !
+hususi:hususi A1 ; !
+devrimsel:devrimsel A1 ; !
+bahtiyar:bahtiyar A1 ; !
+yapıcı:yapıcı A1 ; !
+paralı:paralı A1 ; !
+manzaralı:manzaralı A1 ; !
+zararlı:zararlı A1 ; !
+isli:isli A1 ; !
+basiretli:basiretli A1 ; !
+değişime% açık:değişime% açık A1 ; !
+gecelik:gecelik A1 ; !
+ormanlık:ormanlık A1 ; !
+olan:olan A1 ; !
+yapan:yapan A1 ; !
+veren:veren A1 ; !
+değer:değer A1 ; !
+dördüncü:dördüncü A1 ; !
+değişmez:değişmez A1 ; !
+akılsız:akılsız A1 ; !
+kararsız:kararsız A1 ; !
 yegâne:yegâne A1 ; !
 ırkî:ırkî A1 ; !
 programlı:programlı A1 ; !
@@ -20056,6 +20209,14 @@ kısaca:kısaca ADV1 ; !
 mümkün% olduğunca:mümkün% olduğunca ADV1 ; !
 yakın% zamanda:yakın% zamanda ADV1 ; !
 konuda:konuda ADV1 ; !
+boyunca:boyunca ADV1 ; !
+art% arda:art% arda ADV1 ; !
+gizlice:gizlice ADV1 ; !
+gün% geçtikçe:gün% geçtikçe ADV1 ; !
+şiddetle:şiddetle ADV1 ; !
+sık% sık:sık% sık ADV1 ; !
+her% zaman:her% zaman ADV1 ; !
+nazaran:nazaran ADV1 ; !
 etraflıca:etraflıca ADV1 ; !
 şundandır% ki:şundandır% ki ADV1 ; !
 vekaleten:vekaleten ADV1 ; !
@@ -20203,7 +20364,11 @@ vakit% aralığında:vakit% aralığında ADV3 ; ! Use/MT
 
 
 LEXICON Verbs 
+dava% aç:dava% aç V-IR-IV ; !
+yok% ol:yok% ol V-IR-IV ; !
+davalaş:davalaş V-IR-IV ; !
 sadeleştir:sadeleştir V-IR-TV ;
+ilan% et:ilan% et V-IR-TV ; !
 tümle:tümle V-IR-TV ;
 pürüzle:pürüzle V-IR-IV ;!"" Use/MT
 devşir:devşir V-IR-TV ;
@@ -21971,7 +22136,7 @@ hadi:hadi INTERJ ; !
 amin:amin INTERJ ; !
 vay:vay INTERJ ; !
 ey:ey INTERJ ; !
-
+şah% mat:şah% mat INTERJ ; !
 evet:evet INTERJ ; ! "yes"
 lütfen:lütfen INTERJ ; ! ""
 yok:yok INTERJ ; ! ""
