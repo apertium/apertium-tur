@@ -2912,6 +2912,8 @@ başka:başka PRON-IND ; ! "other"
 nerde:nerde PRON-IND ;
 hangi:hangi PRON-IND ;
 birşey:birşey PRON-IND ;
+hiçbir% şey:hiçbir% şey PRON-PERS ; !
+
 
 
 hiçbir% şey:hiçbirşey PRON-NEG ; ! "nothing" ! Dir/LR
@@ -3067,6 +3069,26 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+EX360:EX360 N1 ; !
+mp3:mp3 N1 ; !
+A:A N1 ; !
+C:C N1 ; !
+D:D N1 ; !
+kızgınlık:kızgınlık N1 ; !
+K:K N1 ; !
+P:P N1 ; !
+seher:seher N1 ; !
+R:R N1 ; !
+S:S N1 ; !
+T:T N1 ; !
+Z:Z N1 ; !
+olma:olma N1 ; !
+sağ:sağ N1 ; !
+siyah:siyah N1 ; !
+yakacak:yakacak N1 ; !
+gidiş:gidiş N1 ; !
+kuruş:kuruş N1 ; !
+mu:mu N1 ; !
 sertifika:sertifika N1 ; !
 tenha:tenha N1 ; !
 aşağılama:aşağılama N1 ; !
@@ -10369,7 +10391,7 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 LEXICON ProperNouns
 Küsen:Küsen NP-TOP ; !
 Lop% Nur:Lop% Nur NP-TOP ; !
-Çarlık% Rusya:Çarlık% Rusya NP-TOP ; !
+Çarlık% Rusyası:Çarlık% Rusyası NP2-TOP ; !
 Keriye:Keriye NP-TOP ; !
 Aksiye:Aksiye NP-TOP ; !
 Karmıki:Karmıki NP-TOP ; !
@@ -10523,9 +10545,16 @@ Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
 Melike:Melike NP-ANT-F ; !
-alp:alp NP-ANT-M ; !
+Amannisa:Amannisa NP-ANT-M ; !
+Mirza:Mirza NP-ANT-M ; !
+Fadime:Fadime NP-ANT-M ; !
+Adilcan:Adilcan NP-ANT-M ; !
+Dalay:Dalay NP-ANT-M ; !
+Yılpız:Yılpız NP-ANT-M ; !
+Alp:Alp NP-ANT-M ; !
 Murat:Murat NP-ANT-M ; !
-
+Ma:Ma NP-ANT-M ; !
+Turmuhammet:Turmuhammet NP-ANT-M ; !
 Buğra:Buğra NP-ANT-M ; !
 Ziya:Ziya NP-ANT-M ; !
 Satuk:Satuk NP-ANT-M ; !
@@ -10684,6 +10713,8 @@ Jintao:Jintao NP-COG-MF ; !
 Hoşur:Hoşur NP-COG-MF ; !
 Tanrıkut:Tanrıkut NP-COG-MF ; !
 Ruzibakiyov:Ruzibakiyov NP-COG-MF ; !
+Lama:Lama NP-COG-MF ; !
+
 
 
 Humeyni:Humeyni NP-COG-MF ; !"Use/MT"
@@ -11990,6 +12021,14 @@ EU:EU NP-TOP-ACR ; ! ""
 ! Organisations
 NKVD:NKVD NP-ORG ; !
 MİT:MİT NP-ORG ; !
+DHKP-C:DHKP-C NP-ORG ; !
+SDD:SDD NP-ORG ; !
+TCG:TCG NP-ORG ; !
+SDG:SDG NP-ORG ; !
+CH:CH NP-ORG ; !
+KCK:KCK NP-ORG ; !
+PCK:PCK NP-ORG ; !
+CKP:CKP NP-ORG ; !
 
 MTİ:MTİ NP-ORG ; !
 DUK:DUK NP-ORG ; !
@@ -13051,6 +13090,10 @@ Svetla:Svetla NP-ANT-F ; ! ""
 Biljana:Biljana NP-ANT-F ; ! ""
 
 ! Cognomen
+Siguang:Siguang NP-COG-MF ; !
+Dajeng:Dajeng NP-COG-MF ; !
+Gorki:Gorki NP-COG-MF ; !
+Galileo:Galileo NP-COG-MF ; !
 Rana:Rana NP-COG-MF ; !
 Doğaç:Doğaç NP-COG-MF ; !
 Bozdağ:Bozdağ NP-COG-MF ; !
@@ -18102,6 +18145,13 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+azıcık:azıcık A1 ; !
+çocuklu:çocuklu A1 ; !
+epey:epey A1 ; !
+bulanık:bulanık A1 ; !
+rengarenk:rengarenk A1 ; !
+yepyeşil:yepyeşil A1 ; !
+bembeyaz:bembeyaz A1 ; !
 aşina:aşina A1 ; !
 hususi:hususi A1 ; !
 devrimsel:devrimsel A1 ; !
@@ -18112,7 +18162,7 @@ manzaralı:manzaralı A1 ; !
 zararlı:zararlı A1 ; !
 isli:isli A1 ; !
 basiretli:basiretli A1 ; !
-değişime% açık:değişime% açık A1 ; !
+değişime% açık:değişime% açık A1 ; ! Dir/RL ! Use/MT
 gecelik:gecelik A1 ; !
 ormanlık:ormanlık A1 ; !
 olan:olan A1 ; !
@@ -20208,6 +20258,10 @@ münferiden:münferiden ADV3 ; ! "solely"
 kısaca:kısaca ADV1 ; !
 mümkün% olduğunca:mümkün% olduğunca ADV1 ; !
 yakın% zamanda:yakın% zamanda ADV1 ; !
+usulca:usulca ADV1 ; !
+istemeden:istemeden ADV1 ; !
+bir% bir:bir% bir ADV1 ; !
+gönüllü:gönüllü ADV1 ; !
 konuda:konuda ADV1 ; !
 boyunca:boyunca ADV1 ; !
 art% arda:art% arda ADV1 ; !
@@ -20364,6 +20418,8 @@ vakit% aralığında:vakit% aralığında ADV3 ; ! Use/MT
 
 
 LEXICON Verbs 
+birlik% ol:birlik% ol V-IR-IV ; !
+birlikte% git:birlikte% git V-IR-IV ; !
 dava% aç:dava% aç V-IR-IV ; !
 yok% ol:yok% ol V-IR-IV ; !
 davalaş:davalaş V-IR-IV ; !
@@ -22131,6 +22187,7 @@ peki:peki INTERJ ; !
 bakınız:bakınız INTERJ ; !
 teala:teala INTERJ ; !
 inşallah:inşallah INTERJ ; !
+hey:hey INTERJ ; !
 radıyallahu% anh:radıyallahu% anh INTERJ ; !
 hadi:hadi INTERJ ; !
 amin:amin INTERJ ; !
