@@ -3069,6 +3069,11 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+kırmızı:kırmızı N1 ; !
+kızıl:kızıl N1 ; !
+gülümseyiş:gülümseyiş N1 ; !
+gülüş:gülüş N1 ; !
+yaramaz:yaramaz N1 ; !
 EX360:EX360 N1 ; !
 mp3:mp3 N1 ; !
 A:A N1 ; !
@@ -18145,6 +18150,7 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+
 azıcık:azıcık A1 ; !
 çocuklu:çocuklu A1 ; !
 epey:epey A1 ; !
@@ -20261,6 +20267,7 @@ yakın% zamanda:yakın% zamanda ADV1 ; !
 usulca:usulca ADV1 ; !
 istemeden:istemeden ADV1 ; !
 bir% bir:bir% bir ADV1 ; !
+durup:durup ADV1 ; !s
 gönüllü:gönüllü ADV1 ; !
 konuda:konuda ADV1 ; !
 boyunca:boyunca ADV1 ; !
