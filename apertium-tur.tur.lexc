@@ -3069,6 +3069,13 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+radikalleşme:radikalleşme N1 ; !
+oğlak:oğlak N1 ; !
+pişman:pişman N1 ; !
+cetvel:cetvel N1 ; !
+amper:amper N1 ; !
+surat:surat N1 ; !
+şerbet:şerbet N1 ; !
 kırmızı:kırmızı N1 ; !
 kızıl:kızıl N1 ; !
 gülümseyiş:gülümseyiş N1 ; !
@@ -10549,6 +10556,9 @@ Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
+Kunzi:Kunzi NP-ANT-M ; !
+Sebastian:Sebastian NP-ANT-M ; !
+Tokarep:Tokarep NP-ANT-M ; !
 Melike:Melike NP-ANT-F ; !
 Amannisa:Amannisa NP-ANT-M ; !
 Mirza:Mirza NP-ANT-M ; !
@@ -10697,6 +10707,7 @@ Elif:Elif NP-ANT-F ;
 Abu:Abu NP-ANT-M ; 
 Rıza:Rıza NP-ANT-M ;
 Sergei:Sergei NP-ANT-M ;
+Kurz:Kurz NP-COG-MF ; !
 Rafya:Rafya NP-COG-MF ; !"Use/MT"
 Yasemiy:Yasemiy NP-COG-MF ; !"Use/MT"
 Mohseniy:Mohseniy NP-COG-MF ; !"Use/MT"
@@ -18150,7 +18161,31 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+arka:arka A1 ; !
+buz% gibi:buz% gibi A1 ; !
+yapraklı:yapraklı A1 ; !
+ışıklı:ışıklı A1 ; !
+delikanlı:delikanlı A1 ; !
+geçen:geçen A1 ; !
+lüzumlu:lüzumlu A1 ; !
+yağmurlu:yağmurlu A1 ; !
+hürriyetsiz:hürriyetsiz A1 ; !
+bahtsız:bahtsız A1 ; !
 
+arka:arka A1 ; !
+buz% gibi:buz% gibi A1 ; !
+yapraklı:yapraklı A1 ; !
+ışıklı:ışıklı A1 ; !
+delikanlı:delikanlı A1 ; !
+geçen:geçen A1 ; !
+lüzumlu:lüzumlu A1 ; !
+yağmurlu:yağmurlu A1 ; !
+hürriyetsiz:hürriyetsiz A1 ; !
+bahtsız:bahtsız A1 ; !
+tok:tok A1 ; !
+pervasız:pervasız A1 ; !
+dayanıksız:dayanıksız A1 ; !
+suratsız:suratsız A1 ; !
 azıcık:azıcık A1 ; !
 çocuklu:çocuklu A1 ; !
 epey:epey A1 ; !
@@ -20262,6 +20297,9 @@ metazori:metazori ADV3 ; ! "compulsory"
 muhtemelen:muhtemelen ADV3 ; ! "magnificently"
 münferiden:münferiden ADV3 ; ! "solely"
 kısaca:kısaca ADV1 ; !
+hafifçe:hafifçe ADV1 ; !
+vermeden:vermeden ADV1 ; !
+
 mümkün% olduğunca:mümkün% olduğunca ADV1 ; !
 yakın% zamanda:yakın% zamanda ADV1 ; !
 usulca:usulca ADV1 ; !
@@ -20424,7 +20462,9 @@ nerde:nerde ADV-ITG ; !Use/MT
 vakit% aralığında:vakit% aralığında ADV3 ; ! Use/MT
 
 
-LEXICON Verbs 
+LEXICON Verbs
+çevril:çevril V-IR-IV ; !
+üşü:üşü V-IR-IV ; !
 birlik% ol:birlik% ol V-IR-IV ; !
 birlikte% git:birlikte% git V-IR-IV ; !
 dava% aç:dava% aç V-IR-IV ; !
