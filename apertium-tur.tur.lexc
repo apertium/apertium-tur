@@ -3069,6 +3069,17 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+kutlama:kutlama N1 ; !
+mavi:mavi N1 ; !
+geleneksel:geleneksel N1 ; !
+FM:FM N1 ; !
+tattırış:tattırış N1 ; !
+hindiba:hindiba N1 ; !
+hatalılık:hatalılık N1 ; !
+mülayimlik:mülayimlik N1 ; !
+köpükçük:köpükçük N1 ; !
+göşnan:göşnan N1 ; !
+gülzar:gülzar N1 ; !
 veba:veba N1 ; !
 değirmenci:değirmenci N1 ; !
 tutam:tutam N1 ; !
@@ -3491,7 +3502,11 @@ Washington:Washington N1 ; !
 sap:sap N1 ; !
 nükleer:nükleer N1 ; !
 Birleşmiş% Milletler:Birleşmiş% Milletler NP-ORG ; !
+Mihman% Restoranı:Mihman% Restoranı NP-ORG ; !
+Kent% FM:Kent% FM NP-ORG ; 
 vatansever:vatansever N1 ; !
+tadım:tadım N1 ; !
+
 okur:okur N1 ; !
 AIDS:AIDS N1 ; !
 açış:açış N1 ; !
@@ -10412,6 +10427,9 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Kızıldağ:Kızıldağ NP-TOP ; !
+Mercanbulak:Mercanbulak NP-TOP ; !
+Zeytinburnu:Zeytinburnu NP-TOP ; !
 Küsen:Küsen NP-TOP ; !
 Lop% Nur:Lop% Nur NP-TOP ; !
 Çarlık% Rusyası:Çarlık% Rusyası NP2-TOP ; !
@@ -10567,6 +10585,9 @@ Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
+İlhamcan:İlhamcan NP-ANT-M ; !
+Gündoğdu:Gündoğdu NP-ANT-M ; !
+Kıray:Kıray NP-ANT-M ; !
 Kunzi:Kunzi NP-ANT-M ; !
 Sebastian:Sebastian NP-ANT-M ; !
 Tokarep:Tokarep NP-ANT-M ; !
@@ -10719,6 +10740,11 @@ Abu:Abu NP-ANT-M ;
 Rıza:Rıza NP-ANT-M ;
 Sergei:Sergei NP-ANT-M ;
 Kurz:Kurz NP-COG-MF ; !
+Şen:Şen NP-COG-MF ; !
+Aydın:Aydın NP-COG-MF ; !
+
+Archer:Archer NP-COG-MF ; !
+Aristoteles:Aristoteles NP-COG-MF ; !
 Rafya:Rafya NP-COG-MF ; !"Use/MT"
 Yasemiy:Yasemiy NP-COG-MF ; !"Use/MT"
 Mohseniy:Mohseniy NP-COG-MF ; !"Use/MT"
@@ -12052,6 +12078,8 @@ DHKP-C:DHKP-C NP-ORG ; !
 SDD:SDD NP-ORG ; !
 TCG:TCG NP-ORG ; !
 SDG:SDG NP-ORG ; !
+Kent% FM:Kent% FM NP-ORG ; !
+
 CH:CH NP-ORG ; !
 KCK:KCK NP-ORG ; !
 PCK:PCK NP-ORG ; !
@@ -17327,6 +17355,7 @@ Drujba:Drujba NP-TOP ; ! ""
 Taraşça:Taraşça NP-TOP ; ! ""
 Akorda:Akorda NP-TOP ; ! ""
 Karagandy:Karagandy NP-TOP ;
+Normandy:Normandy NP-TOP ; !
 Novi% Strilışça:Novi% Strilışça NP-TOP ; ! ""
 Buça:Buça NP-TOP ; ! ""
 Broşniv-Osada:Broşniv-Osada NP-TOP ; ! ""
@@ -18172,6 +18201,12 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+titretici:titretici A1 ; !
+yaşayan:yaşayan A1 ; !
+meftun:meftun A1 ; !
+küçültülmüş:küçültülmüş A1 ; !
+dev:dev A1 ; !
+şen:şen A1 ; !
 biçare:biçare A1 ; !
 günahkar:günahkar A1 ; !
 mendebur:mendebur A1 ; !
@@ -20315,6 +20350,12 @@ kısaca:kısaca ADV1 ; !
 oracıkta:oracıkta ADV1 ; !
 hafifçe:hafifçe ADV1 ; !
 vermeden:vermeden ADV1 ; !
+olsa% olsa:olsa% olsa ADV1 ; !
+diye:diye ADV1 ; !
+aşırı:aşırı ADV1 ; !
+arkasından:arkasından ADV1 ; !
+geçmeden:geçmeden ADV1 ; !
+girip:girip ADV1 ; !
 der% demez:der% demez ADV1 ; !
 mümkün% olduğunca:mümkün% olduğunca ADV1 ; !
 yakın% zamanda:yakın% zamanda ADV1 ; !
@@ -20479,6 +20520,10 @@ vakit% aralığında:vakit% aralığında ADV3 ; ! Use/MT
 
 
 LEXICON Verbs
+acık:acık V-IR-IV ; !
+hata% yap:hata% yap V-IR-IV ; !
+
+tanıtıl:tanıtıl V-IR-IV ; !
 çevril:çevril V-IR-IV ; !
 üşü:üşü V-IR-IV ; !
 birlik% ol:birlik% ol V-IR-IV ; !
