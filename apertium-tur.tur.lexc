@@ -2900,7 +2900,7 @@ PRON-PERS ;
 
 kendi:kendi PRON-PERS ; !
 bir:bir PRON-PERS ; !
-
+ikisi:ikisi PRON-PERS ; !
 
 PRON-ITG ; 
 
@@ -3069,7 +3069,18 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+veba:veba N1 ; !
+değirmenci:değirmenci N1 ; !
+tutam:tutam N1 ; !
+günahkar:günahkar N1 ; !
+bakma:bakma N1 ; !
+yeme:yeme N1 ; !
+yürüme:yürüme N1 ; !
 radikalleşme:radikalleşme N1 ; !
+bunak:bunak N1 ; !
+yazık:yazık N1 ; !
+ihtiyar:ihtiyar N1 ; !
+kolay:kolay N1 ; !
 oğlak:oğlak N1 ; !
 pişman:pişman N1 ; !
 cetvel:cetvel N1 ; !
@@ -18161,7 +18172,12 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+biçare:biçare A1 ; !
+günahkar:günahkar A1 ; !
+mendebur:mendebur A1 ; !
 arka:arka A1 ; !
+olacak% gibi:olacak% gibi A1 ; !
+sakallı:sakallı A1 ; !
 buz% gibi:buz% gibi A1 ; !
 yapraklı:yapraklı A1 ; !
 ışıklı:ışıklı A1 ; !
@@ -18171,7 +18187,6 @@ lüzumlu:lüzumlu A1 ; !
 yağmurlu:yağmurlu A1 ; !
 hürriyetsiz:hürriyetsiz A1 ; !
 bahtsız:bahtsız A1 ; !
-
 arka:arka A1 ; !
 buz% gibi:buz% gibi A1 ; !
 yapraklı:yapraklı A1 ; !
@@ -20297,9 +20312,10 @@ metazori:metazori ADV3 ; ! "compulsory"
 muhtemelen:muhtemelen ADV3 ; ! "magnificently"
 münferiden:münferiden ADV3 ; ! "solely"
 kısaca:kısaca ADV1 ; !
+oracıkta:oracıkta ADV1 ; !
 hafifçe:hafifçe ADV1 ; !
 vermeden:vermeden ADV1 ; !
-
+der% demez:der% demez ADV1 ; !
 mümkün% olduğunca:mümkün% olduğunca ADV1 ; !
 yakın% zamanda:yakın% zamanda ADV1 ; !
 usulca:usulca ADV1 ; !
@@ -20473,6 +20489,8 @@ davalaş:davalaş V-IR-IV ; !
 sadeleştir:sadeleştir V-IR-TV ;
 ilan% et:ilan% et V-IR-TV ; !
 tümle:tümle V-IR-TV ;
+kahkaha% at:kahkaha% at V-IR-IV ; !
+eziyet% et:eziyet% et V-IR-TV ; !
 pürüzle:pürüzle V-IR-IV ;!"" Use/MT
 devşir:devşir V-IR-TV ;
 kaçır:kaçır V-IR-TV ;!"" Use/MT
@@ -22230,6 +22248,10 @@ takip% et:takip% et V-IR-TV ; !
 
 
 LEXICON Interjections 
+hayda:hayda INTERJ ; !
+yahu:yahu INTERJ ; !
+yazık:yazık INTERJ ; !
+var:var INTERJ ; !
 peki:peki INTERJ ; !
 bakınız:bakınız INTERJ ; !
 teala:teala INTERJ ; !
