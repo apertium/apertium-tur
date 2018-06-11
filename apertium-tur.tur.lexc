@@ -3075,11 +3075,25 @@ biriktirme:biriktirme N1 ; !
 beri:beri N1 ; !
 uçuş:uçuş N1 ; !
 duruş:duruş N1 ; !
+kalma:kalma N1 ; !
+
 saklambaç:saklambaç N1 ; !
 serinlik:serinlik N1 ; !
 çilan:çilan N1 ; !
 sincap:sincap N1 ; !
 toygar:toygar N1 ; !
+seda:seda N1 ; !
+anka:anka N1 ; !
+sarıasma:sarıasma N1 ; !
+zenci:zenci N1 ; !
+denizci:denizci N1 ; !
+kadak:kadak N1 ; !
+marangozluk:marangozluk N1 ; !
+susuzluk:susuzluk N1 ; !
+saman:saman N1 ; !
+vehamet:vehamet N1 ; !
+esnet:esnet N1 ; !
+ruhiyet:ruhiyet N1 ; !
 
 kutlama:kutlama N1 ; !
 mavi:mavi N1 ; !
@@ -10597,6 +10611,8 @@ Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
+Saşa:Saşa NP-ANT-M ; !
+Oakili:Oakili NP-ANT-M ; !
 İlhamcan:İlhamcan NP-ANT-M ; !
 Gündoğdu:Gündoğdu NP-ANT-M ; !
 Kıray:Kıray NP-ANT-M ; !
@@ -18215,6 +18231,13 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+sapsarı:sapsarı A1 ; !
+seri:seri A1 ; !
+yünlü:yünlü A1 ; !
+tatsız:tatsız A1 ; !
+
+makbul:makbul A1 ; !
+büğrü:büğrü A1 ; !
 uç:uç A1 ; !
 aldatıcı:aldatıcı A1 ; !
 işlemeli:işlemeli A1 ; !
@@ -20373,6 +20396,8 @@ olsa% olsa:olsa% olsa ADV1 ; !
 diye:diye ADV1 ; !
 aşırı:aşırı ADV1 ; !
 olup:olup ADV1 ; !
+hızlıca:hızlıca ADV1 ; !
+iyi:iyi ADV1 ; !
 
 arkasından:arkasından ADV1 ; !
 geçmeden:geçmeden ADV1 ; !
@@ -20555,6 +20580,11 @@ davalaş:davalaş V-IR-IV ; !
 sadeleştir:sadeleştir V-IR-TV ;
 ilan% et:ilan% et V-IR-TV ; !
 tümle:tümle V-IR-TV ;
+gürülde:gürülde V-IR-IV ; !
+esnetil:esnetil V-IR-IV ; !
+okşa:okşa V-IR-TV ; !
+akıt:akıt V-IR-TV ; !
+
 zora% düşürül:zora% düşürül V-IR-IV ; !
 sarmala:sarmala V-IR-TV ; !
 yedekle:yedekle V-IR-TV ; !
