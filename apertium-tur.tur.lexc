@@ -2706,6 +2706,8 @@ da%<postadv%>:%~da # ; ! Dir/RL
 LEXICON Postpositions
 
 ! Nominative
+belki:belki POST ; !
+olmadığı% için:olmadığı% için POST ; !
 gibi:gibi POST ; ! ""
 için:İçin POST ; ! "" ! Dir/LR
 için:için POST ; ! ""
@@ -3069,6 +3071,16 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+biriktirme:biriktirme N1 ; !
+beri:beri N1 ; !
+uçuş:uçuş N1 ; !
+duruş:duruş N1 ; !
+saklambaç:saklambaç N1 ; !
+serinlik:serinlik N1 ; !
+çilan:çilan N1 ; !
+sincap:sincap N1 ; !
+toygar:toygar N1 ; !
+
 kutlama:kutlama N1 ; !
 mavi:mavi N1 ; !
 geleneksel:geleneksel N1 ; !
@@ -10742,7 +10754,9 @@ Sergei:Sergei NP-ANT-M ;
 Kurz:Kurz NP-COG-MF ; !
 Şen:Şen NP-COG-MF ; !
 Aydın:Aydın NP-COG-MF ; !
-
+Hen:Hen NP-COG-MF ; !
+Ruen:Ruen NP-ANT-M ; !
+Bernadşav:Bernadşav NP-ANT-M ; !
 Archer:Archer NP-COG-MF ; !
 Aristoteles:Aristoteles NP-COG-MF ; !
 Rafya:Rafya NP-COG-MF ; !"Use/MT"
@@ -18201,6 +18215,11 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+uç:uç A1 ; !
+aldatıcı:aldatıcı A1 ; !
+işlemeli:işlemeli A1 ; !
+delikli:delikli A1 ; !
+görmüş:görmüş A1 ; !
 titretici:titretici A1 ; !
 yaşayan:yaşayan A1 ; !
 meftun:meftun A1 ; !
@@ -20353,6 +20372,8 @@ vermeden:vermeden ADV1 ; !
 olsa% olsa:olsa% olsa ADV1 ; !
 diye:diye ADV1 ; !
 aşırı:aşırı ADV1 ; !
+olup:olup ADV1 ; !
+
 arkasından:arkasından ADV1 ; !
 geçmeden:geçmeden ADV1 ; !
 girip:girip ADV1 ; !
@@ -20534,6 +20555,11 @@ davalaş:davalaş V-IR-IV ; !
 sadeleştir:sadeleştir V-IR-TV ;
 ilan% et:ilan% et V-IR-TV ; !
 tümle:tümle V-IR-TV ;
+zora% düşürül:zora% düşürül V-IR-IV ; !
+sarmala:sarmala V-IR-TV ; !
+yedekle:yedekle V-IR-TV ; !
+zora% düşür:zora% düşür V-IR-TV ; !
+dikkat% et:dikkat% et V-IR-TV ; !
 kahkaha% at:kahkaha% at V-IR-IV ; !
 eziyet% et:eziyet% et V-IR-TV ; !
 pürüzle:pürüzle V-IR-IV ;!"" Use/MT
@@ -22293,6 +22319,8 @@ takip% et:takip% et V-IR-TV ; !
 
 
 LEXICON Interjections 
+anladım:anladım INTERJ ; !
+olsun:olsun INTERJ ; !
 hayda:hayda INTERJ ; !
 yahu:yahu INTERJ ; !
 yazık:yazık INTERJ ; !
