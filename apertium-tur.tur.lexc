@@ -3073,10 +3073,28 @@ Profesör:Profesör TIT ; ! ""
 LEXICON Nouns
 biriktirme:biriktirme N1 ; !
 beri:beri N1 ; !
+yufka:yufka N1 ; !
+tezgah:tezgah N1 ; !
+timsah:timsah N1 ; !
+inşaatçı:inşaatçı N1 ; !
+uzaklık:uzaklık N1 ; !
+porsuk:porsuk N1 ; !
+tuğrul:tuğrul N1 ; !
+yem:yem N1 ; !
+yorgan:yorgan N1 ; !
+volkan:volkan N1 ; !
+haşerat:haşerat N1 ; !
+heybet:heybet N1 ; !
+
 uçuş:uçuş N1 ; !
 duruş:duruş N1 ; !
 kalma:kalma N1 ; !
-
+yıkanma:yıkanma N1 ; !
+atıştırma:atıştırma N1 ; !
+yazma:yazma N1 ; !
+derleyici:derleyici N1 ; !
+ötüş:ötüş N1 ; !
+sürücü:sürücü N1 ; !
 saklambaç:saklambaç N1 ; !
 serinlik:serinlik N1 ; !
 çilan:çilan N1 ; !
@@ -10774,6 +10792,12 @@ Hen:Hen NP-COG-MF ; !
 Ruen:Ruen NP-ANT-M ; !
 Bernadşav:Bernadşav NP-ANT-M ; !
 Archer:Archer NP-COG-MF ; !
+Einstein:Einstein NP-COG-MF ; !
+Elena:Elena NP-ANT-M ; !
+Tuğrul:Tuğrul NP-ANT-M ; !
+Viviskin:Viviskin NP-ANT-M ; !
+Harver:Harver NP-ANT-M ; !
+
 Aristoteles:Aristoteles NP-COG-MF ; !
 Rafya:Rafya NP-COG-MF ; !"Use/MT"
 Yasemiy:Yasemiy NP-COG-MF ; !"Use/MT"
@@ -18235,6 +18259,13 @@ sapsarı:sapsarı A1 ; !
 seri:seri A1 ; !
 yünlü:yünlü A1 ; !
 tatsız:tatsız A1 ; !
+hayranlık:hayranlık A1 ; !
+paha% biçilmez:paha% biçilmez A1 ; !
+topraklı:topraklı A1 ; !
+tozlu:tozlu A1 ; !
+kokusuz:kokusuz A1 ; !
+hayranlık:hayranlık A1 ; !
+paha% biçilmez:paha% biçilmez A1 ; !
 
 makbul:makbul A1 ; !
 büğrü:büğrü A1 ; !
@@ -20398,7 +20429,9 @@ aşırı:aşırı ADV1 ; !
 olup:olup ADV1 ; !
 hızlıca:hızlıca ADV1 ; !
 iyi:iyi ADV1 ; !
-
+rahatça:rahatça ADV1 ; !
+az% önce:az% önce ADV1 ; !
+özgürce:özgürce ADV1 ; !
 arkasından:arkasından ADV1 ; !
 geçmeden:geçmeden ADV1 ; !
 girip:girip ADV1 ; !
@@ -20567,8 +20600,12 @@ vakit% aralığında:vakit% aralığında ADV3 ; ! Use/MT
 
 LEXICON Verbs
 acık:acık V-IR-IV ; !
-hata% yap:hata% yap V-IR-IV ; !
+çöm:çöm V-IR-IV ; !
+içiver:içiver V-IR-TV ; !
 
+hata% yap:hata% yap V-IR-IV ; !
+hoşlaş:hoşlaş V-IR-IV ; !
+sakinleş:sakinleş V-IR-IV ; !
 tanıtıl:tanıtıl V-IR-IV ; !
 çevril:çevril V-IR-IV ; !
 üşü:üşü V-IR-IV ; !
@@ -22360,6 +22397,9 @@ bakınız:bakınız INTERJ ; !
 teala:teala INTERJ ; !
 inşallah:inşallah INTERJ ; !
 hey:hey INTERJ ; !
+hahaha:hahaha INTERJ ; !
+ha:ha INTERJ ; !
+
 radıyallahu% anh:radıyallahu% anh INTERJ ; !
 hadi:hadi INTERJ ; !
 amin:amin INTERJ ; !
