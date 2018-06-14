@@ -2771,6 +2771,8 @@ hariç:hariç POST ; ! "besides"
 üzere:üzere POST ; ! "besides"
 
 LEXICON  Conjunctions
+şöyle% de:şöyle% de CC ; !
+
 asla% da:asla% da CC ; !
 ki:ki CC ; !
 ta:ta CC ; !
@@ -2903,6 +2905,7 @@ PRON-PERS ;
 kendi:kendi PRON-PERS ; !
 bir:bir PRON-PERS ; !
 ikisi:ikisi PRON-PERS ; !
+birbir:birbir PRON-PERS ; !
 
 PRON-ITG ; 
 
@@ -2924,6 +2927,8 @@ hiçbir% şey:hiçbir% şey PRON-NEG ; ! "nothing"
 hiç% kimse:hiç% kimse PRON-NEG ; ! "nobody"
 herkes:herkes PRON-QNT ; ! "everybody"
 ekseri:ekser PRON-QNT ; ! ""
+hiç:hiç PRON-QNT ; !
+
 bütün:bütün PRON-IND ; ! "every"
 biri:biri PRON-IND ; 
 hep:hep PRON-QNT ; ! "all" @@@@ TAKES CASES
@@ -2945,6 +2950,8 @@ LEXICON Determiners
 bu:bu DET-DEM ; ! "this"
 şu:şu DET-DEM ; ! "this"
 o:o DET-DEM ; ! "this"
+işte% bu:işte% bu DET-DEM ; !
+
 
 hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
 hepsi:hepsi PRON-QNT ; ! "all"
@@ -3072,6 +3079,41 @@ Profesör:Profesör TIT ; ! ""
 
 LEXICON Nouns
 biriktirme:biriktirme N1 ; !
+taşra:taşra N1 ; !
+perende:perende N1 ; !
+postane:postane N1 ; !
+züppe:züppe N1 ; !
+dimağ:dimağ N1 ; !
+teminci:teminci N1 ; !
+çardak:çardak N1 ; !
+uşak:uşak N1 ; !
+dirençlilik:dirençlilik N1 ; !
+tatlılık:tatlılık N1 ; !
+çeviklik:çeviklik N1 ; !
+yanlışlık:yanlışlık N1 ; !
+eşitlik:eşitlik N1 ; !
+sessizlik:sessizlik N1 ; !
+takatsizlik:takatsizlik N1 ; !
+eksik:eksik N1 ; !
+ufuk:ufuk N1 ; !
+döşlük:döşlük N1 ; !
+çuval:çuval N1 ; !
+zil:zil N1 ; !
+ordukam:ordukam N1 ; !
+saksağan:saksağan N1 ; !
+yosun:yosun N1 ; !
+pikap:pikap N1 ; !
+nektar:nektar N1 ; !
+teker:teker N1 ; !
+konuksever:konuksever N1 ; !
+çığır:çığır N1 ; !
+sınıftaş:sınıftaş N1 ; !
+yokuş:yokuş N1 ; !
+takat:takat N1 ; !
+rezalet:rezalet N1 ; !
+telefoncu:telefoncu N1 ; !
+atasözü:atasözü N1 ; !
+
 beri:beri N1 ; !
 yufka:yufka N1 ; !
 tezgah:tezgah N1 ; !
@@ -3085,6 +3127,20 @@ yorgan:yorgan N1 ; !
 volkan:volkan N1 ; !
 haşerat:haşerat N1 ; !
 heybet:heybet N1 ; !
+atlama:atlama N1 ; !
+sırtlama:sırtlama N1 ; !
+sıçrama:sıçrama N1 ; !
+sıkma:sıkma N1 ; !
+ölçme:ölçme N1 ; !
+rendeleme:rendeleme N1 ; !
+öğrenme:öğrenme N1 ; !
+düzleştirme:düzleştirme N1 ; !
+ötme:ötme N1 ; !
+gezme:gezme N1 ; !
+uyanık:uyanık N1 ; !
+güzel:güzel N1 ; !
+nasıl:nasıl N1 ; !
+zor:zor N1 ; !
 
 uçuş:uçuş N1 ; !
 duruş:duruş N1 ; !
@@ -10472,6 +10528,9 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 LEXICON ProperNouns
 Kızıldağ:Kızıldağ NP-TOP ; !
+Pisa:Pisa NP-TOP ; !
+Siyek:Siyek NP-TOP ; !
+Hokkaydu:Hokkaydu NP-TOP ; !
 Mercanbulak:Mercanbulak NP-TOP ; !
 Zeytinburnu:Zeytinburnu NP-TOP ; !
 Küsen:Küsen NP-TOP ; !
@@ -10638,6 +10697,15 @@ Kunzi:Kunzi NP-ANT-M ; !
 Sebastian:Sebastian NP-ANT-M ; !
 Tokarep:Tokarep NP-ANT-M ; !
 Melike:Melike NP-ANT-F ; !
+Ahu:Ahu NP-ANT-F ; !
+Aytunga:Aytunga NP-ANT-M ; !
+Kulule:Kulule NP-ANT-M ; !
+Zeynettin:Zeynettin NP-ANT-M ; !
+Deslo:Deslo NP-ANT-M ; !
+Huvkuş:Huvkuş NP-ANT-M ; !
+Aydoğdu:Aydoğdu NP-ANT-M ; !
+Darigey:Darigey NP-ANT-M ; !
+
 Amannisa:Amannisa NP-ANT-M ; !
 Mirza:Mirza NP-ANT-M ; !
 Fadime:Fadime NP-ANT-M ; !
@@ -10793,11 +10861,16 @@ Ruen:Ruen NP-ANT-M ; !
 Bernadşav:Bernadşav NP-ANT-M ; !
 Archer:Archer NP-COG-MF ; !
 Einstein:Einstein NP-COG-MF ; !
+Beethoven:Beethoven NP-COG-MF ; !
+Darwin:Darwin NP-COG-MF ; !
+Hacip:Hacip NP-COG-MF ; !
+
 Elena:Elena NP-ANT-M ; !
 Tuğrul:Tuğrul NP-ANT-M ; !
 Viviskin:Viviskin NP-ANT-M ; !
 Harver:Harver NP-ANT-M ; !
-
+Toliya:Toliya NP-ANT-F ; !
+Mihriban:Mihriban NP-ANT-F ; !
 Aristoteles:Aristoteles NP-COG-MF ; !
 Rafya:Rafya NP-COG-MF ; !"Use/MT"
 Yasemiy:Yasemiy NP-COG-MF ; !"Use/MT"
@@ -18255,6 +18328,22 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+züppe:züppe A1 ; !
+yarınki:yarınki A1 ; !
+kabahatli:kabahatli A1 ; !
+kırmızımsı:kırmızımsı A1 ; !
+gayevi:gayevi A1 ; !
+ekinlik:ekinlik A1 ; !
+eksik:eksik A1 ; !
+yamuk:yamuk A1 ; !
+gamgin:gamgin A1 ; !
+mağdur:mağdur A1 ; !
+çatallanmış:çatallanmış A1 ; !
+mesut:mesut A1 ; !
+durduraksız:durduraksız A1 ; !
+takatsiz:takatsiz A1 ; !
+pürüzsüz:pürüzsüz A1 ; !
+
 sapsarı:sapsarı A1 ; !
 seri:seri A1 ; !
 yünlü:yünlü A1 ; !
@@ -18266,6 +18355,32 @@ tozlu:tozlu A1 ; !
 kokusuz:kokusuz A1 ; !
 hayranlık:hayranlık A1 ; !
 paha% biçilmez:paha% biçilmez A1 ; !
+deste:deste A1 ; !
+alıcı:alıcı A1 ; !
+dirençli:dirençli A1 ; !
+aileli:aileli A1 ; !
+meyveli:meyveli A1 ; !
+dizili:dizili A1 ; !
+çatallı:çatallı A1 ; !
+gamlı:gamlı A1 ; !
+elemli:elemli A1 ; !
+eğimli:eğimli A1 ; !
+ferasetli:ferasetli A1 ; !
+daha% çok:daha% çok A1 ; !
+bulan:bulan A1 ; !
+çıkaran:çıkaran A1 ; !
+bağlayan:bağlayan A1 ; !
+temin% eden:temin% eden A1 ; !
+bekleyen:bekleyen A1 ; !
+bilinir:bilinir A1 ; !
+oyuncu:oyuncu A1 ; !
+elektronlu:elektronlu A1 ; !
+boylu:boylu A1 ; !
+boynuzlu:boynuzlu A1 ; !
+unutulmaz:unutulmaz A1 ; !
+biraz:biraz A1 ; !
+hesapsız:hesapsız A1 ; !
+düz:düz A1 ; !
 
 makbul:makbul A1 ; !
 büğrü:büğrü A1 ; !
@@ -20420,6 +20535,26 @@ metazori:metazori ADV3 ; ! "compulsory"
 muhtemelen:muhtemelen ADV3 ; ! "magnificently"
 münferiden:münferiden ADV3 ; ! "solely"
 kısaca:kısaca ADV1 ; !
+topluca:topluca ADV1 ; !
+bir% anda:bir% anda ADV1 ; !
+eksik:eksik ADV1 ; !
+yüzükoyun:yüzükoyun ADV1 ; !
+
+nerede:nerede ADV1 ; !
+panikle:panikle ADV1 ; !
+kılmış% gibi:kılmış% gibi ADV1 ; !
+yarım% yamalak:yarım% yamalak ADV1 ; !
+zorlanarak:zorlanarak ADV1 ; !
+durmadan:durmadan ADV1 ; !
+örneğin:örneğin ADV1 ; !
+bakıp:bakıp ADV1 ; !
+çıkıp:çıkıp ADV1 ; !
+yapıp:yapıp ADV1 ; !
+bakışıp:bakışıp ADV1 ; !
+şimdiye% kadar:şimdiye% kadar ADV1 ; !
+ömür% boyu:ömür% boyu ADV1 ; !
+soluksuz:soluksuz ADV1 ; !
+
 oracıkta:oracıkta ADV1 ; !
 hafifçe:hafifçe ADV1 ; !
 vermeden:vermeden ADV1 ; !
@@ -20601,8 +20736,28 @@ vakit% aralığında:vakit% aralığında ADV3 ; ! Use/MT
 LEXICON Verbs
 acık:acık V-IR-IV ; !
 çöm:çöm V-IR-IV ; !
-içiver:içiver V-IR-TV ; !
+deşil:deşil V-IR-IV ; !
+telaşlan:telaşlan V-IR-IV ; !
+giriver:giriver V-IR-IV ; !
+ulula:ulula V-IR-TV ; !
+bakıver:bakıver V-IR-TV ; !
+alıver:alıver V-IR-TV ; !
+kesiver:kesiver V-IR-TV ; !
+deyiver:deyiver V-IR-TV ; !
+giyiver:giyiver V-IR-TV ; !
+görüver:görüver V-IR-TV ; !
+denkeştir:denkeştir V-IR-TV ; !
+uçur:uçur V-IR-TV ; !
+ürküt:ürküt V-IR-TV ; !
 
+içiver:içiver V-IR-TV ; !
+tarif% edil:tarif% edil V-IR-IV ; !
+yardımcı% ol:yardımcı% ol V-IR-IV ; !
+gürültü% yap:gürültü% yap V-IR-IV ; !
+kaşıkla:kaşıkla V-IR-TV ; !
+boyla:boyla V-IR-TV ; !
+betimle:betimle V-IR-TV ; !
+tarif% et:tarif% et V-IR-TV ; !
 hata% yap:hata% yap V-IR-IV ; !
 hoşlaş:hoşlaş V-IR-IV ; !
 sakinleş:sakinleş V-IR-IV ; !
@@ -22399,6 +22554,9 @@ inşallah:inşallah INTERJ ; !
 hey:hey INTERJ ; !
 hahaha:hahaha INTERJ ; !
 ha:ha INTERJ ; !
+acaba:acaba INTERJ ; !
+ah:ah INTERJ ; !
+çip:çip INTERJ ; !
 
 radıyallahu% anh:radıyallahu% anh INTERJ ; !
 hadi:hadi INTERJ ; !
