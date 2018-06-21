@@ -2951,6 +2951,7 @@ bu:bu DET-DEM ; ! "this"
 şu:şu DET-DEM ; ! "this"
 o:o DET-DEM ; ! "this"
 işte% bu:işte% bu DET-DEM ; !
+işte:işte DET-DEM ; !
 
 
 hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
@@ -3370,6 +3371,7 @@ taçyaprağı:taçyaprağı N1 ; !
 sezgi:sezgi N1 ; !
 meteoroloji:meteoroloji N1 ; !
 Uyguroloji:Uyguroloji N1 ; !
+Uygurca:Uygurca N1 ; !
 yankı:yankı N1 ; !
 argali:argali N1 ; !
 anomali:anomali N1 ; !
