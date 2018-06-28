@@ -3200,6 +3200,7 @@ amper:amper N1 ; !
 surat:surat N1 ; !
 şerbet:şerbet N1 ; !
 kırmızı:kırmızı N1 ; !
+kara:kara N1 ; !
 kızıl:kızıl N1 ; !
 gülümseyiş:gülümseyiş N1 ; !
 gülüş:gülüş N1 ; !
@@ -3372,6 +3373,7 @@ sezgi:sezgi N1 ; !
 meteoroloji:meteoroloji N1 ; !
 Uyguroloji:Uyguroloji N1 ; !
 Uygurca:Uygurca N1 ; !
+Kazakça:Kazakça N1 ; !
 yankı:yankı N1 ; !
 argali:argali N1 ; !
 anomali:anomali N1 ; !
@@ -3640,7 +3642,8 @@ mükemmel:mükemmel N1 ; ! Use/MT
 spesiyal:spesiyal N1 ;  ! Use/MT
 ani% çıkış:ani% çıkış N1 ;  ! Use/MT
 mülük:mülük N1 ; ! Use/MT
-yukar:yukar N1 ; ! ""
+!!yukar:yukar N1 ; ! "" should this be treated like "demiryol"?
+yukarı:yukarı N1 ; !
 ateş% etme:ateş% etme N1 ;  ! Use/MT
 kayalık:kayalık N1 ;  ! Use/MT
 öncül:öncül N1 ; ! Use/MT
@@ -7747,6 +7750,7 @@ kura:kura N1 ; ! "lot"
 kural:kural N1 ; ! "rule"
 kuram:kuram N1 ; ! "theory"
 kuranıkerim:kuranıkerim N1 ; ! "koran"
+Kuran:Kuran N1 ; !
 kurbağa:kurbağa N1 ; ! "frog"
 kurban:kurban N1 ; ! "victim"
 kürdan:kürdan N1 ; ! "pick"
@@ -12898,6 +12902,7 @@ Kurultay:Kurultay NP-AL ;
 ! Anthroponyms
 
 Esad:Esad NP-ANT-M ; ! ""
+Esad:Esad NP-COG-MF; ! ""
 Ahtem:Ahtem NP-ANT-M ;
 Hasan:Hasan NP-ANT-M ;  !!
 Nebojsa:Nebojsa NP-ANT-M ; ! ""
