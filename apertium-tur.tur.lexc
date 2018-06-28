@@ -3080,6 +3080,7 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+yayla:yayla N1 ;
 haberleşme:haberleşme N1 ; !
 sandık:sandık N1 ; !
 ekin:ekin N1 ; !
@@ -20757,6 +20758,7 @@ deşil:deşil V-IR-IV ; !
 telaşlan:telaşlan V-IR-IV ; !
 giriver:giriver V-IR-IV ; !
 ulula:ulula V-IR-TV ; !
+oynat:oynat V-IR-TV ; !
 bakıver:bakıver V-IR-TV ; !
 alıver:alıver V-IR-TV ; !
 kesiver:kesiver V-IR-TV ; !
@@ -22008,6 +22010,7 @@ don:don V-AR-IV ; ! "freeze" (DIR)
 !dön:dön V-IV-DIR-AR ; ! "turn"
 dön:dön V-AR-IV ; ! "turn"
 dönüş:dönüş V-IR-IV ; ! "return to" (DIR)
+dönüştür:dönüştür V-IR-TV ; ! 
 doy:doy V-AR-IV ; ! "be full up" (DIR)
 dur:dur V-IR-IV ; ! "stop" (DIR)
 durdur:durdur V-IR-TV ; ! "stop" 
