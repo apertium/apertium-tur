@@ -21019,6 +21019,7 @@ sat:sat V-AR-TV ; ! "sell" (DIR)
 sav:sav V-AR-TV ; ! "ward off" (DIR)
 savun:savun V-IR-TV ; ! "defend" (DIR)
 say:say V-AR-TV ; ! "count" (DIR)
+sayıl:sayıl V-IR-IV ; ! 
 seç:seç V-AR-TV ; ! "choose" (DIR)
 ser:ser V-AR-TV ; ! "spread over" (DIR)
 serp:serp V-AR-TV ; ! "sprinkle" (DIR)
