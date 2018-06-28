@@ -3079,6 +3079,10 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+haberleşme:haberleşme N1 ; !
+sandık:sandık N1 ; !
+ekin:ekin N1 ; !
+önce:önce N1 ; !
 biriktirme:biriktirme N1 ; !
 taşra:taşra N1 ; !
 perende:perende N1 ; !
@@ -10534,6 +10538,8 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Karakaş:Karakaş NP-TOP ;
+Yarkent:Yarkent NP-TOP ; !
 Kızıldağ:Kızıldağ NP-TOP ; !
 Pisa:Pisa NP-TOP ; !
 Siyek:Siyek NP-TOP ; !
@@ -18353,7 +18359,7 @@ mesut:mesut A1 ; !
 durduraksız:durduraksız A1 ; !
 takatsiz:takatsiz A1 ; !
 pürüzsüz:pürüzsüz A1 ; !
-
+yakındaki:yakındaki A1 ; !
 sapsarı:sapsarı A1 ; !
 seri:seri A1 ; !
 yünlü:yünlü A1 ; !
@@ -20759,7 +20765,7 @@ görüver:görüver V-IR-TV ; !
 denkeştir:denkeştir V-IR-TV ; !
 uçur:uçur V-IR-TV ; !
 ürküt:ürküt V-IR-TV ; !
-
+belirlen:belirlen V-IR-IV ; !
 içiver:içiver V-IR-TV ; !
 tarif% edil:tarif% edil V-IR-IV ; !
 yardımcı% ol:yardımcı% ol V-IR-IV ; !
@@ -21013,6 +21019,7 @@ resmet:resmet V-AR-TV ; ! "illustrate" (DIR)
 saç:saç V-AR-TV ; ! "scatter" (DIR)
 sahiplen:sahiplen V-IR-TV ; ! "lay claims to" (DIR)
 sal:sal V-AR-TV ; ! "release" (DIR)
+salın:salın V-IR-IV ; !
 salıver:salıver V-IR-TV ; ! "demobilise" (DIR)
 sar:sar V-AR-TV ; ! "cover" (DIR)
 sat:sat V-AR-TV ; ! "sell" (DIR)
@@ -21211,7 +21218,7 @@ eş:eş V-AR-TV ; ! "dig up" (DIR)
 ever:ever V-IR-TV ; ! "give somebody in marriage" (DIR)
 ez:ez V-AR-TV ; ! "crush" (DIR)
 farket:farket V-AR-TV ; ! "realize, notice" (DIR)
-faydalan:faydalan V-IR-TV ; ! "exploit" (DIR)
+faydalan:faydalan V-IR-IV ; ! "exploit" (DIR)
 feshet:feshet V-AR-TV ; ! "repeal" (DIR)
 fethet:fethet V-AR-TV ; ! "conquer" (DIR)
 geç:geç V-AR-TV ; ! "pass" (DIR)
@@ -21628,7 +21635,7 @@ ayıpla:ayıpla V-IR-TV ; ! "blame" (T)
 ayır:ayır V-IR-TV ; ! "seperate" (T)
 ayrımsa:ayrımsa V-IR-TV ; ! "distingush" (T)
 azımsa:azımsa V-IR-TV ; ! "undervalue" (T)
-
+başlan:başlan V-IR-IV ; !
 başla:başla V-IR-IV ; ! "start"
 !bekle:bekle V-TV-T-IR ; ! "wait"
 belirle:belirle V-IR-TV ; ! "indicate" (T)
@@ -21648,7 +21655,7 @@ bürü:bürü V-IR-TV ; ! "suffuse" (T)
 bütünle:bütünle V-IR-TV ; ! "integrate" (T)
 büyükse:büyükse V-IR-TV ; ! "esttem highly" (T)
 büyüle:büyüle V-IR-TV ; ! "ensorcel, bewitch" (T)
-çabala:çabala V-IR-TV ; ! "study" (T)
+çabala:çabala V-IR-IV ; ! "to show effort" (T)
 çağır:çağır V-IR-TV ; ! "call" (T)
 çağla:çağla V-IR-TV ; ! "murmur" (T)
 çalkala:çalkala V-IR-TV ; ! "shake" (T)
