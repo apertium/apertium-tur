@@ -892,6 +892,7 @@ LEXICON COPULA-COND
 
 LEXICON CLIT
 
+%<dur%>:%{D%}%{I%}r # ; 
 ! %+mı%<qst%>:% m%{I%} V-COP-IFI-PERS ; 
 %+mı%<qst%>:% m%{I%} # ;               ! generic Q marker, no copula
 # ;  !! This is the end of word marker.
