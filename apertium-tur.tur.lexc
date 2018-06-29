@@ -21051,7 +21051,7 @@ sür:sür V-AR-TV ; ! "drive" (DIR)
 süz:süz V-AR-TV ; ! "filter" (DIR)
 tak:tak V-AR-TV ; ! "affix" (DIR)
 tart:tart V-AR-TV ; ! "weigh" (DIR)
-tartış:tartış V-IR-IV ; ! "dispute" (DIR)
+tartış:tartış V-IR-TV ; ! "dispute" (DIR)
 tat:tat V-AR-TV ; ! "taste" (DIR)
 temsil% et:temsil% et%{v%} V-AR-TV ; ! "symbolise" (DIR)
 tep:tep V-AR-TV ; ! "kick" (DIR)
@@ -21061,6 +21061,8 @@ tık:tık V-AR-TV ; ! "cram into" (DIR)
 tüket:tüket V-IR-TV ; ! "consume" (DIR)
 tut:tut V-AR-TV ; ! "keep" (DIR)
 tutul:tutul V-IR-IV ; ! ""
+yazıl:yazıl V-IR-IV ; !
+veril:veril V-IR-IV ; !
 um:um V-AR-TV ; ! "expect" (DIR)
 umut% et:umut% et%{v%} V-AR-TV ; ! "hope" (DIR)
 unut:unut V-IR-TV ; ! "unutmak" (DIR)
@@ -22342,7 +22344,8 @@ sevin:sevin V-IR-IV ; ! "be pleased, rejoice"
 helak% ol:helak% ol V-IR-IV ; ! "" ! Dir/RL ! Use/MT
 bağlı% ol:bağlı% ol V-IR-IV ; ! "" ! Dir/RL ! Use/MT
 doğrulan:doğrulan V-IR-IV ; ! "" ! Dir/RL ! Use/MT
-uygula:uygula V-IR-IV ;
+uygula:uygula V-IR-TV ;
+yaptır:yaptır V-IR-TV ; 
 durumu% değerlendir:durumu% değerlendir V-IR-TV ; ! "" ! Dir/RL ! Use/MT
 kötüleş:kötüleş V-AR-IV ; ! ""
 şekillendir:şekillendir V-AR-IV ; ! ""
