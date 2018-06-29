@@ -2929,7 +2929,7 @@ hiç% kimse:hiç% kimse PRON-NEG ; ! "nobody"
 herkes:herkes PRON-QNT ; ! "everybody"
 ekseri:ekser PRON-QNT ; ! ""
 hiç:hiç PRON-QNT ; !
-
+biri:biri PRON-PERS ; 
 bütün:bütün PRON-IND ; ! "every"
 biri:biri PRON-IND ; 
 hep:hep PRON-QNT ; ! "all" @@@@ TAKES CASES
@@ -20752,6 +20752,7 @@ vakit% aralığında:vakit% aralığında ADV3 ; ! Use/MT
 
 
 LEXICON Verbs
+gösteril:gösteril V-IR-IV ; !
 acık:acık V-IR-IV ; !
 çöm:çöm V-IR-IV ; !
 deşil:deşil V-IR-IV ; !
