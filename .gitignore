@@ -20,3 +20,4 @@
 /tur.automorf.bin
 /tur.automorf.hfst
 /tur.rlx.bin
+/tests/morphotactics/*.txt.gz
