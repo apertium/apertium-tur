@@ -3083,7 +3083,8 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
-yayla:yayla N1 ;
+yayla:yayla N1 ; !
+sualtı:sualtı N1 ; !
 haberleşme:haberleşme N1 ; !
 sandık:sandık N1 ; !
 ekin:ekin N1 ; !
@@ -10707,6 +10708,8 @@ Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
 Mahmut:Mahmut NP-ANT-M ; !
+Halmurat:Halmurat NP-ANT-M ; !
+Gu:Gu NP-ANT-M ; !
 Saşa:Saşa NP-ANT-M ; !
 Oakili:Oakili NP-ANT-M ; !
 İlhamcan:İlhamcan NP-ANT-M ; !
@@ -10982,6 +10985,7 @@ Boeing:Boeing NP-AL ; ! ""
 Gazprom:Gazprom NP-AL ; ! ""
 Naftogaz:Naftogaz NP-AL ; ! ""
 Twitter:Twitter NP-AL ; ! ""
+Atabetül% Hakayık:Atabetül% Hakayık NP-AL ; !
 
 Kazakhmys:Kazakhmys NP-AL ; ! "Use/MT"
 Dünya% Şampiyonası:Dünya% Şampiyonası NP-AL ;
@@ -18350,6 +18354,7 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 LEXICON Adjectives
 züppe:züppe A1 ; !
+kültürlü:kültürlü A1 ; !
 yarınki:yarınki A1 ; !
 kabahatli:kabahatli A1 ; !
 kırmızımsı:kırmızımsı A1 ; !
@@ -20560,6 +20565,7 @@ topluca:topluca ADV1 ; !
 bir% anda:bir% anda ADV1 ; !
 eksik:eksik ADV1 ; !
 yüzükoyun:yüzükoyun ADV1 ; !
+diyerek:diyerek ADV1 ; !
 
 nerede:nerede ADV1 ; !
 panikle:panikle ADV1 ; !
