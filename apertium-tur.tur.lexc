@@ -22041,7 +22041,7 @@ gereksin:gereksin V-IR-IV ; ! "be in need of" (DIR)
 geril:geril V-IR-IV ; ! "strain" (DIR)
 gez:gez V-AR-IV ; ! "go around" (DIR)
 gezin:gezin V-IR-IV ; ! "hang around" (DIR)
-gir:gir V-AR-IV ; ! "enter" (DIR)
+gir:gir V-AR-TV ; ! "enter" (DIR)
 giriş:giriş V-IR-IV ; ! "proceed" (DIR)
 !git:git%{v%} V-IV-DIR-AR ; ! "go"
 görevlen:görevlen V-IR-IV ; ! "take a mission" (DIR)
