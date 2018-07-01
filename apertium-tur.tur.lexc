@@ -10883,7 +10883,7 @@ Einstein:Einstein NP-COG-MF ; !
 Beethoven:Beethoven NP-COG-MF ; !
 Darwin:Darwin NP-COG-MF ; !
 Hacip:Hacip NP-COG-MF ; !
-
+Kasım:Kasım NP-COG-MF ; !
 Elena:Elena NP-ANT-M ; !
 Tuğrul:Tuğrul NP-ANT-M ; !
 Viviskin:Viviskin NP-ANT-M ; !
@@ -22023,7 +22023,6 @@ durdur:durdur V-IR-TV ; ! "stop"
 dürt:dürt V-AR-IV ; ! "poke" (DIR)
 durul:durul V-IR-IV ; ! "calm down" (DIR)
 düş:düş V-AR-IV ; ! "fall" (DIR)
-duy:duy V-AR-IV ; ! "hear" (DIR)
 düzel:düzel V-IR-IV ; ! "get better" (DIR)
 eğ:eğ V-AR-IV ; ! "bend" (DIR)
 eğil:eğil V-IR-IV ; ! "incline" (DIR)
