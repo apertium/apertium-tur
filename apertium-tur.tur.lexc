@@ -3083,6 +3083,16 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+koşma:koşma N1 ; !
+yarasa:yarasa N1 ; !
+şaka:şaka N1 ; !
+yengeç:yengeç N1 ; !
+pençe:pençe N1 ; !
+tepsi:tepsi N1 ; !
+maşuk:maşuk N1 ; !
+pelikan:pelikan N1 ; !
+hazret:hazret N1 ; !
+
 yayla:yayla N1 ; !
 sualtı:sualtı N1 ; !
 haberleşme:haberleşme N1 ; !
@@ -18356,6 +18366,12 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+yalancı:yalancı A1 ; !
+aşık:aşık A1 ; !
+huylu:huylu A1 ; !
+halsiz:halsiz A1 ; !
+alaycı:alaycı A1 ; !
+
 dolarlık:dolarlık A1 ; !
 züppe:züppe A1 ; !
 kültürlü:kültürlü A1 ; !
@@ -20570,6 +20586,9 @@ bir% anda:bir% anda ADV1 ; !
 eksik:eksik ADV1 ; !
 yüzükoyun:yüzükoyun ADV1 ; !
 diyerek:diyerek ADV1 ; !
+niye:niye ADV1 ; !
+bir% gün:bir% gün ADV1 ; !
+o% kadar:o% kadar ADV1 ; !
 
 nerede:nerede ADV1 ; !
 panikle:panikle ADV1 ; !
