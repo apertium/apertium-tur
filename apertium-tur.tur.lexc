@@ -3875,7 +3875,7 @@ yetki:yetki N1 ; ! "authorization"
 sahne:sahne N1 ; ! "stage"
 veriler:veriler N1 ; ! "parameter"
 suçlu:suçlu N1 ; ! "criminal"
-fikir:fikir N1 ; ! "idea"
+fikir:fik%{u%}r N1 ; ! "idea"
 örnek:örnek%{v%} N1 ; ! "representative"
 dikkat:dikkat%{fi%} N1 ; ! "attention"
 olanak:olanak%{v%} N1 ; ! "possibility"
@@ -21798,7 +21798,7 @@ kazı:kazı V-IR-TV ; ! "scrape" (T)
 geri% çevir:geri% çevir V-IR-TV ; ! "" Use/MT
 
 
-gir:gir V-AR-IV ; ! enter" (DIR)
+!gir:gir V-AR-IV ; ! enter" (DIR)
 !git:git%{v%} V-IV-DIR-AR ; ! "go"
 git:git%{v%} V-AR-IV ; ! "go"
 ! öl:öl V-IV-DIR-IR ; ! "die"
