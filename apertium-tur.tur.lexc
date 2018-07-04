@@ -10256,6 +10256,9 @@ sahra:sahra N1 ; ! ""
 salon:salon N1 ; ! ""
 saniye:saniye N1 ; ! ""
 şan:şan N1 ; ! ""
+
+I:I N1 ; !
+V:V N1 ; !
 şansölyelik:şansölyelik%{v%} N1 ; ! ""
 şansölye:şansölye N1 ; ! ""
 sebze:sebze N1 ; ! ""
@@ -18353,6 +18356,7 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+dolarlık:dolarlık A1 ; !
 züppe:züppe A1 ; !
 kültürlü:kültürlü A1 ; !
 yarınki:yarınki A1 ; !
