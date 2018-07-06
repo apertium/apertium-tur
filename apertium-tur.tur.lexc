@@ -3092,6 +3092,11 @@ tepsi:tepsi N1 ; !
 maşuk:maşuk N1 ; !
 pelikan:pelikan N1 ; !
 hazret:hazret N1 ; !
+saka:saka N1 ; !
+cahillik:cahillik N1 ; !
+gitme:gitme N1 ; !
+bir% an:bir% an N1 ; !
+yiyiş:yiyiş N1 ; !
 
 yayla:yayla N1 ; !
 sualtı:sualtı N1 ; !
@@ -18371,6 +18376,7 @@ aşık:aşık A1 ; !
 huylu:huylu A1 ; !
 halsiz:halsiz A1 ; !
 alaycı:alaycı A1 ; !
+utandırıcı:utandırıcı A1 ; !
 
 dolarlık:dolarlık A1 ; !
 züppe:züppe A1 ; !
@@ -20589,6 +20595,7 @@ diyerek:diyerek ADV1 ; !
 niye:niye ADV1 ; !
 bir% gün:bir% gün ADV1 ; !
 o% kadar:o% kadar ADV1 ; !
+doğuştan:doğuştan ADV1 ; !
 
 nerede:nerede ADV1 ; !
 panikle:panikle ADV1 ; !
