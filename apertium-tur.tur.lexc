@@ -3083,6 +3083,18 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+hamd% ü% sena:hamd% ü% sena N1 ; !
+hamd:hamd N1 ; !
+umumî:umumî N1 ; !
+örümcek:örümcek N1 ; !
+çoluk% çocuk:çoluk% çocuk N1 ; !
+Ö:Ö N1 ; !
+bidat:bidat N1 ; !
+ümmet:ümmet N1 ; !
+müteşabih% ayet:müteşabih% ayet N1 ; !
+yollanma:yollanma N1 ; !
+kavuşma:kavuşma N1 ; !
+
 koşma:koşma N1 ; !
 yarasa:yarasa N1 ; !
 şaka:şaka N1 ; !
@@ -3097,7 +3109,7 @@ cahillik:cahillik N1 ; !
 gitme:gitme N1 ; !
 bir% an:bir% an N1 ; !
 yiyiş:yiyiş N1 ; !
-
+Yaradan:Yaradan N1 ; !
 yayla:yayla N1 ; !
 sualtı:sualtı N1 ; !
 haberleşme:haberleşme N1 ; !
@@ -4427,7 +4439,7 @@ ayrıcalık:ayrıcalık%{v%} N1 ; ! "privilege"
 ayrım:ayrım N1 ; ! "difference"
 ayva:ayva N1 ; ! "quince"
 aza:aza N1 ; ! "member"
-azap:azap N1 ; ! "ache"
+azap:azap%{v%} N1 ; ! "ache"
 azar:azar N1 ; ! "lesson"
 azat:azat N1 ; ! "release"
 azık:azık N1 ; ! "food"
@@ -9605,7 +9617,7 @@ utanç:utanç N1 ; ! ""
 üzüm:üzüm N1 ; ! ""
 üzüm% bağı:üzüm% bağı N1 ;
 uzunluk:uzunluk N1 ; ! ""
-vaat:vaat N1 ; ! ""
+vaat:vaat%{v%} N1 ; ! ""
 vaka:vaka N1 ; ! ""
 vakıf:vakıf N1 ; ! ""
 vali:vali N1 ; ! ""
@@ -18371,13 +18383,34 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+üzerindeki:üzerindeki A1 ; !
+şan% u% şevketli:şan% u% şevketli A1 ; !
+şevketli:şevketli A1 ; !
+nimetli:nimetli A1 ; !
+elim:elim A1 ; !
+yararlandıran:yararlandıran A1 ; !
+olduran:olduran A1 ; !
+eden:eden A1 ; !
+getiren:getiren A1 ; !
+yeten:yeten A1 ; !
+düzenleyen:düzenleyen A1 ; !
+gözetleyen:gözetleyen A1 ; !
+aç% gözlü:aç% gözlü A1 ; !
+şüphe% edilmez:şüphe% edilmez A1 ; !
+mihriban:mihriban A1 ; !
 yalancı:yalancı A1 ; !
 aşık:aşık A1 ; !
 huylu:huylu A1 ; !
 halsiz:halsiz A1 ; !
 alaycı:alaycı A1 ; !
 utandırıcı:utandırıcı A1 ; !
-
+Kuranî:Kuranî A1 ; !
+rahman:rahman A1 ; !
+tebliğ% eden:tebliğ% eden A1 ; !
+ruşen:ruşen A1 ; !
+aşikâr:aşikâr A1 ; !
+müyesser:müyesser A1 ; !
+kompakt:kompakt A1 ; !
 dolarlık:dolarlık A1 ; !
 züppe:züppe A1 ; !
 kültürlü:kültürlü A1 ; !
@@ -20596,7 +20629,9 @@ niye:niye ADV1 ; !
 bir% gün:bir% gün ADV1 ; !
 o% kadar:o% kadar ADV1 ; !
 doğuştan:doğuştan ADV1 ; !
-
+gece% gündüz:gece% gündüz ADV1 ; !
+titizlikle:titizlikle ADV1 ; !
+kendiliğinden:kendiliğinden ADV1 ; !
 nerede:nerede ADV1 ; !
 panikle:panikle ADV1 ; !
 kılmış% gibi:kılmış% gibi ADV1 ; !
@@ -20791,6 +20826,14 @@ vakit% aralığında:vakit% aralığında ADV3 ; ! Use/MT
 
 
 LEXICON Verbs
+uy:uy V-IR-IV ; !
+gizleyiver:gizleyiver V-IR-TV ; !
+
+baş% eğ:baş% eğ V-IR-IV ; !
+hesap% sor:hesap% sor V-IR-IV ; !
+iman% et:iman% et V-IR-IV ; !
+teşekkür% et:teşekkür% et V-IR-IV ; !
+kabul% et:kabul% et V-IR-TV ; !
 gösteril:gösteril V-IR-IV ; !
 acık:acık V-IR-IV ; !
 çöm:çöm V-IR-IV ; !
