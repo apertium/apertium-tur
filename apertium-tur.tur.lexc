@@ -853,12 +853,17 @@ LEXICON COPULA-AOR
 LEXICON PERS-COP-PRES
 
 %<p1%>%<sg%>:%>%{y%}%{I%}m  # ;
+%<p1%>%<sg%>%<dur%>:%>%{y%}%{I%}m%{D%}%{I%}r  # ;
 %<p2%>%<sg%>:%>s%{I%}n  # ;
-! %<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
+%<p2%>%<sg%>%<dur%>:%>s%{I%}n%{D%}%{I%}r  # ;
 %<p3%>%<sg%>: # ;  ! FIXME!!!
+%<p3%>%<sg%>%<dur%>:%{D%}%{I%}r # ; 
 %<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
+%<p1%>%<pl%>%<dur%>:%>%{y%}%{I%}z%{D%}%{I%}r  # ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
+%<p2%>%<pl%>%<dur%>:%>s%{I%}n%{I%}z%{D%}%{I%}r  # ;
 %<p3%>%<pl%>:%>l%{A%}r # ;  ! FIXME!!!
+%<p3%>%<pl%>%<dur%>:%>l%{A%}r%{D%}%{I%}r # ; 
 
 
 
@@ -892,7 +897,6 @@ LEXICON COPULA-COND
 
 LEXICON CLIT
 
-%<dur%>:%{D%}%{I%}r # ; 
 ! %+mı%<qst%>:% m%{I%} V-COP-IFI-PERS ; 
 %+mı%<qst%>:% m%{I%} # ;               ! generic Q marker, no copula
 # ;  !! This is the end of word marker.
@@ -2954,12 +2958,14 @@ bu:bu DET-DEM ; ! "this"
 o:o DET-DEM ; ! "this"
 işte% bu:işte% bu DET-DEM ; !
 işte:işte DET-DEM ; !
+her% şey:her% şey PRON-QNT ; !
 
 
 hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
 hepsi:hepsi PRON-QNT ; ! "all"
 bütün:bütün DET-QNT ; ! "every"
 kaç:kaç DET-QNT ; ! ""
+her% bir:her% bir PRON-QNT ; !
 
 bir:bir DET-IND ; ! "a, one"
 başka:başka DET-IND ; ! "other"
@@ -3094,7 +3100,7 @@ bidat:bidat N1 ; !
 müteşabih% ayet:müteşabih% ayet N1 ; !
 yollanma:yollanma N1 ; !
 kavuşma:kavuşma N1 ; !
-
+canlı:canlı N1 ; !
 koşma:koşma N1 ; !
 yarasa:yarasa N1 ; !
 şaka:şaka N1 ; !
@@ -3446,7 +3452,7 @@ savurganlık:savurganlık N1 ; !
 komutanlık:komutanlık N1 ; !
 girişkenlik:girişkenlik N1 ; !
 öğretmenlik:öğretmenlik N1 ; !
-zenginlik:zenginlik N1 ; !
+zenginlik:zenginlik%{v%} N1 ; !
 sakinlik:sakinlik N1 ; !
 minnettarlık:minnettarlık N1 ; !
 önderlik:önderlik N1 ; !
@@ -5721,9 +5727,7 @@ gayrimenkul:gayrimenkul N1 ; ! "real estate"
 gayzer:gayzer N1 ; ! "geyser"
 gayz:gayz N1 ; ! "rage"
 gazal:gazal N1 ; ! "gazelle"
-gazap:gazap N1 ; ! "anger"
-gazap:gazap N1 ; ! "bate"
-gazap:gazap N1 ; ! "furor"
+gazap:gazap%{v%} N1 ; ! "anger"
 gazel:gazel N1 ; ! "gazelle"
 gazete:gazete N1 ; ! "gazette"
 gaz:gaz N1 ; ! "gas"
@@ -7946,7 +7950,6 @@ lüle:lüle N1 ; ! "roll"
 lunapark:lunapark N1 ; ! "funfair"
 lütfen:lütfen N1 ; ! "please"
 lütuf:lütuf N1 ; ! "favor"
-lütuf:lütuf N1 ; ! "mercy"
 lüzum:lüzum N1 ; ! "necessity"
 lüzum:lüzum N1 ; ! "occasion"
 maarif:maarif N1 ; ! "education"
@@ -8542,6 +8545,8 @@ mühendis:mühendis N1 ; ! "engineer"
 mühimmat:mühimmat N1 ; ! "ammunition"
 muhit:muhit N1 ; ! "environment"
 muhkem:muhkem N1 ; ! "stedfast"
+muhkem% ayet:muhkem% ayet N1 ; !
+müteşabih% ayet:müteşabih% ayet N1 ; !
 mühlet:mühlet N1 ; ! "time limitation"
 muhlis:muhlis N1 ; ! "sincere"
 muhrip:muhrip N1 ; ! "destroyer"
@@ -20624,6 +20629,7 @@ topluca:topluca ADV1 ; !
 bir% anda:bir% anda ADV1 ; !
 eksik:eksik ADV1 ; !
 yüzükoyun:yüzükoyun ADV1 ; !
+yalnız% sana:yalnız% sana ADV1 ; !
 diyerek:diyerek ADV1 ; !
 niye:niye ADV1 ; !
 bir% gün:bir% gün ADV1 ; !
@@ -20828,12 +20834,11 @@ vakit% aralığında:vakit% aralığında ADV3 ; ! Use/MT
 LEXICON Verbs
 uy:uy V-IR-IV ; !
 gizleyiver:gizleyiver V-IR-TV ; !
-
+dirilt:dirilt V-IR-TV ; !
 baş% eğ:baş% eğ V-IR-IV ; !
 hesap% sor:hesap% sor V-IR-IV ; !
 iman% et:iman% et V-IR-IV ; !
-teşekkür% et:teşekkür% et V-IR-IV ; !
-kabul% et:kabul% et V-IR-TV ; !
+teşekkür% et:teşekkür% et%{v%} V-IR-IV ; !
 gösteril:gösteril V-IR-IV ; !
 acık:acık V-IR-IV ; !
 çöm:çöm V-IR-IV ; !
