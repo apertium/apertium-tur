@@ -3085,6 +3085,10 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+övülme:övülme N1 ; !
+zillet:zillet N1 ; !
+
+şu% an:şu% an N1 ; !
 rahmet:rahmet N1 ;
 hamd% ü% sena:hamd% ü% sena N1 ; !
 hamd:hamd N1 ; !
@@ -18385,6 +18389,11 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+umumî:umumî A1 ; !
+müjdeleyen:müjdeleyen A1 ; !
+bildiğimiz:bildiğimiz A1 ; !
+çocuksuz:çocuksuz A1 ; !
+
 üzerindeki:üzerindeki A1 ; !
 şan% u% şevketli:şan% u% şevketli A1 ; !
 şevketli:şevketli A1 ; !
@@ -21062,7 +21071,8 @@ gerçekleş:gerçekleş%{v%} V-IR-IV ; ! "to materialize" (DIR)
 aç:aç V-AR-TV ; ! "open" (DIR)
 kes:kes V-AR-TV ; ! "cut" (DIR)
 et:et%{v%} V-AR-TV ; ! "make" (DIR)
-teşekkür% et:teşekkür% et%{v%}  V-AR-TV ; ! "thank" (DIR)
+teşekkür% et:teşekkür% et%{v%}  V-AR-IV ; ! "thank" (DIR)
+hamd% et:hamd% et%{v%}  V-AR-IV ; ! "thank" (DIR)
 ilhak% et:ilhak% et%{v%}  V-AR-TV ; ! "annex" (DIR)
 eş:eş V-AR-TV ; ! "scratch" (DIR)
 kabul% et:kabul% et%{v%} V-AR-TV ; ! "admit, acknowledge" ! Dir/RL ! Use/MT (DIR)
