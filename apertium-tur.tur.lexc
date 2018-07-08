@@ -3085,9 +3085,17 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+fetva:fetva N1 ; !
+
+bilig:bilig N1 ; !
+blog:blog N1 ; !
+klip:klip N1 ; !
+üslup:üslup N1 ; !
+taharet:taharet N1 ; !
+
 övülme:övülme N1 ; !
 zillet:zillet N1 ; !
-
+Hatme:Hatme N1 ; !
 şu% an:şu% an N1 ; !
 rahmet:rahmet N1 ;
 hamd% ü% sena:hamd% ü% sena N1 ; !
@@ -3652,7 +3660,8 @@ sap:sap N1 ; !
 nükleer:nükleer N1 ; !
 Birleşmiş% Milletler:Birleşmiş% Milletler NP-ORG ; !
 Mihman% Restoranı:Mihman% Restoranı NP-ORG ; !
-Kent% FM:Kent% FM NP-ORG ; 
+Kent% FM:Kent% FM NP-ORG ;
+Google:Google NP-ORG ; ! 
 vatansever:vatansever N1 ; !
 tadım:tadım N1 ; !
 
@@ -10915,6 +10924,10 @@ Kurz:Kurz NP-COG-MF ; !
 Şen:Şen NP-COG-MF ; !
 Aydın:Aydın NP-COG-MF ; !
 Hen:Hen NP-COG-MF ; !
+Elbai:Elbai NP-COG-MF ; !
+Hegel:Hegel NP-COG-MF ; !
+Pan:Pan NP-COG-MF ; !
+
 Ruen:Ruen NP-ANT-M ; !
 Bernadşav:Bernadşav NP-ANT-M ; !
 Archer:Archer NP-COG-MF ; !
@@ -18393,7 +18406,8 @@ umumî:umumî A1 ; !
 müjdeleyen:müjdeleyen A1 ; !
 bildiğimiz:bildiğimiz A1 ; !
 çocuksuz:çocuksuz A1 ; !
-
+sahih:sahih A1 ; !
+iptidaî:iptidaî A1 ; !
 üzerindeki:üzerindeki A1 ; !
 şan% u% şevketli:şan% u% şevketli A1 ; !
 şevketli:şevketli A1 ; !
@@ -19306,7 +19320,7 @@ monoton:monoton A4 ;  ! "monotonous"
 solgun:solgun A4 ;  ! "pale"
 uygun:uygun A4 ;  ! "appropriate, suitable, appropriate"
 topyekün:topyekün A4 ;  ! "total"
-galip:galip A4 ;  ! "winner"
+galip:galip A1 ;  ! "winner"
 garip:garip A4 ;  ! "poor, weird"
 naçar:naçar A4 ;  ! "helpless"
 dar:dar A4 ;  ! "narrow"
@@ -20634,6 +20648,9 @@ kısaca:kısaca ADV1 ; !
 topluca:topluca ADV1 ; !
 bir% anda:bir% anda ADV1 ; !
 eksik:eksik ADV1 ; !
+olsa% da:olsa% da ADV1 ; !
+kim% ki:kim% ki ADV1 ; !
+
 yüzükoyun:yüzükoyun ADV1 ; !
 yalnız% sana:yalnız% sana ADV1 ; !
 diyerek:diyerek ADV1 ; !
@@ -20838,6 +20855,7 @@ vakit% aralığında:vakit% aralığında ADV3 ; ! Use/MT
 
 
 LEXICON Verbs
+namaz% kıl:namaz% kıl V-AR-IV ; !
 uy:uy V-IR-IV ; !
 gizleyiver:gizleyiver V-IR-TV ; !
 dirilt:dirilt V-IR-TV ; !
@@ -21938,7 +21956,7 @@ pekiş:pekiş V-IR-IV ; ! "solidify" (DIR)
 piş:piş V-AR-IV ; ! "cook" (DIR)
 pus:pus V-AR-IV ; ! "shrink" (DIR)
 sabırsızlan:sabırsızlan V-IR-IV ; ! "lose patience" (DIR)
-sakın:sakın V-IR-IV ; ! "aboid" (DIR)
+sakın:sakın V-IR-TV ; ! "aboid" (DIR)
 san:san V-AR-TV ; ! "suppose" (DIR)
 sap:sap V-AR-IV ; ! "deviate" (DIR)
 şaş:şaş V-AR-IV ; ! "amaze" (DIR)
@@ -22354,6 +22372,8 @@ kana:kana V-IR-IV ; ! "bleed" (T)
 kara:kara V-IR-IV ; ! "brown" (T)
 kayna:kayna V-IR-IV ; ! "boil" (T)
 fırlatıl:fırlatıl V-IR-IV ; ! "" (T) ! FIXME: Pass ?
+namaz% kıl:namaz% kıl V-IR-IV ; !
+
 
 göç:göç V-IR-IV ; ! "" (DIR)
 
@@ -22677,7 +22697,13 @@ ha:ha INTERJ ; !
 acaba:acaba INTERJ ; !
 ah:ah INTERJ ; !
 çip:çip INTERJ ; !
-
+la:la INTERJ ; !
+rahmanullah:rahmanullah INTERJ ; !
+vesselam:vesselam INTERJ ; !
+aleyküm:aleyküm INTERJ ; !
+sallallahu:sallallahu INTERJ ; !
+radiyullahu:radiyullahu INTERJ ; !
+enhu:enhu INTERJ ; !
 radıyallahu% anh:radıyallahu% anh INTERJ ; !
 hadi:hadi INTERJ ; !
 amin:amin INTERJ ; !
