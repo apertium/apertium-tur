@@ -853,17 +853,12 @@ LEXICON COPULA-AOR
 LEXICON PERS-COP-PRES
 
 %<p1%>%<sg%>:%>%{y%}%{I%}m  # ;
-%<p1%>%<sg%>%<dur%>:%>%{y%}%{I%}m%{D%}%{I%}r  # ;
 %<p2%>%<sg%>:%>s%{I%}n  # ;
-%<p2%>%<sg%>%<dur%>:%>s%{I%}n%{D%}%{I%}r  # ;
+! %<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
 %<p3%>%<sg%>: # ;  ! FIXME!!!
-%<p3%>%<sg%>%<dur%>:%{D%}%{I%}r # ; 
 %<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
-%<p1%>%<pl%>%<dur%>:%>%{y%}%{I%}z%{D%}%{I%}r  # ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
-%<p2%>%<pl%>%<dur%>:%>s%{I%}n%{I%}z%{D%}%{I%}r  # ;
 %<p3%>%<pl%>:%>l%{A%}r # ;  ! FIXME!!!
-%<p3%>%<pl%>%<dur%>:%>l%{A%}r%{D%}%{I%}r # ; 
 
 
 
@@ -897,6 +892,7 @@ LEXICON COPULA-COND
 
 LEXICON CLIT
 
+%<dur%>:%{D%}%{I%}r # ; 
 ! %+mı%<qst%>:% m%{I%} V-COP-IFI-PERS ; 
 %+mı%<qst%>:% m%{I%} # ;               ! generic Q marker, no copula
 # ;  !! This is the end of word marker.
@@ -2965,7 +2961,7 @@ hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
 hepsi:hepsi PRON-QNT ; ! "all"
 bütün:bütün DET-QNT ; ! "every"
 kaç:kaç DET-QNT ; ! ""
-her% bir:her% bir PRON-QNT ; !
+her% bir:her% bir DET-QNT ; !
 
 bir:bir DET-IND ; ! "a, one"
 başka:başka DET-IND ; ! "other"
@@ -3089,6 +3085,7 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+rahmet:rahmet N1 ;
 hamd% ü% sena:hamd% ü% sena N1 ; !
 hamd:hamd N1 ; !
 umumî:umumî N1 ; !
@@ -21331,7 +21328,7 @@ göster:göster V-IR-TV ; ! "show" (DIR)
 götür:götür V-IR-TV ; ! "carry" (DIR)
 gücen:gücen V-IR-IV ; ! "be hurt" (DIR)
 güt:güt V-AR-TV ; ! "shepherd" (DIR)
-güven:güven V-IR-TV ; ! "trust" (DIR)
+güven:güven V-IR-IV ; ! "trust" (DIR)
 haberleş:haberleş V-IR-IV ; ! "be in touch" (DIR)
 hafifse:hafifse V-IR-TV ; ! "play down" (DIR)
 hallet:hallet V-AR-TV ; ! "solve" (DIR)
