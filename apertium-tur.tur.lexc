@@ -1354,6 +1354,17 @@ siz%<prn%>%<pers%>%<p2%>%<pl%>%<loc%>:sizdeki ATTR-SUBST ;
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<adv%>:sizce CLIT ; 
 siz%<prn%>%<pers%>%<p2%>%<pl%>%<ins%>:sizinle # ; 
 
+siz%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>%<nom%>:siz V-COP ; 
+siz%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>%<gen%>:sizin V-COP ; 
+siz%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>%<dat%>:size CLIT ; 
+siz%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>%<acc%>:sizi CLIT ; 
+siz%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>%<loc%>:sizde CLIT ; 
+siz%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>%<abl%>:sizden CLIT ; 
+siz%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>%<gen%>%<subst%>:sizinki SUBST ; 
+siz%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>%<loc%>:sizdeki ATTR-SUBST ; 
+siz%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>%<adv%>:sizce CLIT ; 
+siz%<prn%>%<pers%>%<p2%>%<frm%>%<sg%>%<ins%>:sizinle # ; 
+
 !sizler, bizler
 
 bizler%<prn%>%<pers%>%<p1%>%<pl%>%<nom%>:bizler V-COP ; 
