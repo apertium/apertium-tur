@@ -128,7 +128,7 @@ Multichar_Symbols
 %<prog%>           ! Progressive
 %<opt%>            ! Optative
 %<pot%>            ! Potential
-%<dur%>
+%<gm%>
 %<ger%>           !
 %<ger_past%>           !
 %<ger_aor%>           !
@@ -853,13 +853,17 @@ LEXICON COPULA-AOR
 LEXICON PERS-COP-PRES
 
 %<p1%>%<sg%>:%>%{y%}%{I%}m  # ;
+%<p1%>%<sg%>%<gm%>:%>%{y%}%{I%}m%{D%}%{I%}r  # ;
 %<p2%>%<sg%>:%>s%{I%}n  # ;
-! %<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
+%<p2%>%<sg%>%<gm%>:%>s%{I%}n%{D%}%{I%}r  # ;
 %<p3%>%<sg%>: # ;  ! FIXME!!!
+%<p3%>%<sg%>%<gm%>:%{D%}%{I%}r # ; 
 %<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
+%<p1%>%<pl%>%<gm%>:%>%{y%}%{I%}z%{D%}%{I%}r  # ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
+%<p2%>%<pl%>%<gm%>:%>s%{I%}n%{I%}z%{D%}%{I%}r  # ;
 %<p3%>%<pl%>:%>l%{A%}r # ;  ! FIXME!!!
-
+%<p3%>%<pl%>%<gm%>:%>l%{A%}r%{D%}%{I%}r # ; 
 
 
 
@@ -892,7 +896,7 @@ LEXICON COPULA-COND
 
 LEXICON CLIT
 
-%<dur%>:%{D%}%{I%}r # ; 
+
 ! %+mı%<qst%>:% m%{I%} V-COP-IFI-PERS ; 
 %+mı%<qst%>:% m%{I%} # ;               ! generic Q marker, no copula
 # ;  !! This is the end of word marker.
@@ -1199,7 +1203,7 @@ LEXICON NP-ANT-M
 
 LEXICON NP-ANT-F
 
-%<np%>%<ant%>%<f%>%<nom%>: # ;
+%<np%>%<ant%>%<f%>%<nom%>: CLIT-GENERAL ;
 %<np%>%<ant%>%<f%>%<nom%>:%' V-NOPERS-COP ;
 %<np%>%<ant%>%<f%>:%' N-INFL-COMMON-NONOM ;
 !%<np%>%<ant%>%<f%>%<attr%>: # ;
