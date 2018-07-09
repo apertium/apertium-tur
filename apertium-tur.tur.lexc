@@ -2955,6 +2955,8 @@ o:o DET-DEM ; ! "this"
 işte% bu:işte% bu DET-DEM ; !
 işte:işte DET-DEM ; !
 her% şey:her% şey PRON-QNT ; !
+işbu:işbu DET-DEM ; !
+
 
 
 hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
@@ -3662,6 +3664,8 @@ Birleşmiş% Milletler:Birleşmiş% Milletler NP-ORG ; !
 Mihman% Restoranı:Mihman% Restoranı NP-ORG ; !
 Kent% FM:Kent% FM NP-ORG ;
 Google:Google NP-ORG ; ! 
+Hamas:Hamas NP-ORG ; !
+
 vatansever:vatansever N1 ; !
 tadım:tadım N1 ; !
 
@@ -7799,9 +7803,25 @@ kupür:kupür N1 ; ! "scrap"
 kurabiye:kurabiye N1 ; ! "cookie"
 kurak:kurak N1 ; ! "arid"
 kura:kura N1 ; ! "lot"
+Teala:Teala N1 ; !
+e-posta:e-posta N1 ; !
+Çin% Yeni% Yılı:Çin% Yeni% Yılı N1 ; !
+Kaşgarlı:Kaşgarlı N1 ; !
+vesselam:vesselam N1 ; !
+kurtuluş:kurtuluş N1 ; !
+
+sahabe:sahabe N1 ; !
+secde:secde N1 ; !
+şerh:şerh N1 ; !
+İsevî:İsevî N1 ; !
+totem:totem N1 ; !
+tekbir:tekbir N1 ; !
+muhaddis:muhaddis N1 ; !
+
 kural:kural N1 ; ! "rule"
 kuram:kuram N1 ; ! "theory"
 kuranıkerim:kuranıkerim N1 ; ! "koran"
+Kuran-ı% Kerim:Kuran-ı% Kerim N1 ; ! "koran"
 Kuran:Kuran N1 ; !
 kurbağa:kurbağa N1 ; ! "frog"
 kurban:kurban N1 ; ! "victim"
@@ -10927,6 +10947,8 @@ Hen:Hen NP-COG-MF ; !
 Elbai:Elbai NP-COG-MF ; !
 Hegel:Hegel NP-COG-MF ; !
 Pan:Pan NP-COG-MF ; !
+Nevai:Nevai NP-COG-MF ; !
+Useymin:Useymin NP-COG-MF ; !
 
 Ruen:Ruen NP-ANT-M ; !
 Bernadşav:Bernadşav NP-ANT-M ; !
@@ -12279,7 +12301,7 @@ SDD:SDD NP-ORG ; !
 TCG:TCG NP-ORG ; !
 SDG:SDG NP-ORG ; !
 Kent% FM:Kent% FM NP-ORG ; !
-
+Microsoft:Microsoft NP-ORG ; !
 CH:CH NP-ORG ; !
 KCK:KCK NP-ORG ; !
 PCK:PCK NP-ORG ; !
@@ -12966,6 +12988,10 @@ Kurultay:Kurultay NP-AL ;
 
 
 ! Anthroponyms
+Ellame:Ellame NP-ANT-M ; !
+Raif:Raif NP-ANT-M ; !
+Küreş:Küreş NP-ANT-M ; !
+Ketmenbay:Ketmenbay NP-ANT-M ; !
 
 Esad:Esad NP-ANT-M ; ! ""
 Esad:Esad NP-COG-MF; ! ""
@@ -18403,6 +18429,14 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 LEXICON Adjectives
 umumî:umumî A1 ; !
+ikinci:ikinci A1 ; !
+halkalı:halkalı A1 ; !
+malik:malik A1 ; !
+ayan:ayan A1 ; !
+tümen:tümen A1 ; !
+cinsel:cinsel A1 ; !
+tekil:tekil A1 ; !
+
 müjdeleyen:müjdeleyen A1 ; !
 bildiğimiz:bildiğimiz A1 ; !
 çocuksuz:çocuksuz A1 ; !
@@ -20650,6 +20684,7 @@ bir% anda:bir% anda ADV1 ; !
 eksik:eksik ADV1 ; !
 olsa% da:olsa% da ADV1 ; !
 kim% ki:kim% ki ADV1 ; !
+olmasa% da:olmasa% da ADV1 ; !
 
 yüzükoyun:yüzükoyun ADV1 ; !
 yalnız% sana:yalnız% sana ADV1 ; !
