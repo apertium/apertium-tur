@@ -3104,6 +3104,11 @@ Profesör:Profesör TIT ; ! ""
 
 LEXICON Nouns
 fetva:fetva N1 ; !
+müstemlike:müstemlike N1 ; !
+rekat:rekat N1 ; !
+mürşit:mürşit N1 ; !
+olgu:olgu N1 ; !
+olur:olur N1 ; !
 
 bilig:bilig N1 ; !
 blog:blog N1 ; !
@@ -10640,6 +10645,7 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 LEXICON ProperNouns
 Gazze:Gazze NP-TOP ; !
+Medine:Medine NP-TOP ; !
 
 Karakaş:Karakaş NP-TOP ;
 Yarkent:Yarkent NP-TOP ; !
@@ -10805,7 +10811,9 @@ Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
 Mahmut:Mahmut NP-ANT-M ; !
-Halmurat:Halmurat NP-ANT-M ; !
+Halmurat:Halmurat NP-ANT-M ;
+Ümmü:Ümmü NP-ANT-F; !
+ !
 Gu:Gu NP-ANT-M ; !
 Saşa:Saşa NP-ANT-M ; !
 Oakili:Oakili NP-ANT-M ; !
@@ -10985,6 +10993,11 @@ Mace:Mace NP-COG-MF ; !
 Hureyre:Hureyre NP-COG-MF ; !
 Farabi:Farabi NP-COG-MF ; !
 Buhari:Buhari NP-COG-MF ; !
+Kaşgari:Kaşgari NP-COG-MF ; !
+Ezher:Ezher NP-COG-MF ; !
+İdikut:İdikut NP-COG-MF ; !
+Hacer:Hacer NP-ANT-F ; !
+Enes:Enes NP-ANT-M ; !
 
 Ruen:Ruen NP-ANT-M ; !
 Bernadşav:Bernadşav NP-ANT-M ; !
@@ -20727,6 +20740,8 @@ olsa% da:olsa% da ADV1 ; !
 kim% ki:kim% ki ADV1 ; !
 olmasa% da:olmasa% da ADV1 ; !
 gerek% ki:gerek% ki ADV1 ; !
+demek% ki:demek% ki ADV1 ; !
+kim:kim ADV1 ; !
 
 yüzükoyun:yüzükoyun ADV1 ; !
 yalnız% sana:yalnız% sana ADV1 ; !
@@ -20929,6 +20944,8 @@ aynı% şekilde:aynı% şekilde ADV3 ;
 ne:ne ADV-ITG ; !Use/MT
 nerde:nerde ADV-ITG ; !Use/MT
 vakit% aralığında:vakit% aralığında ADV3 ; ! Use/MT
+nereye:nereye ADV-ITG ; !
+
 
 
 LEXICON Verbs
