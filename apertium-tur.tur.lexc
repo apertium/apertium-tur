@@ -2788,6 +2788,7 @@ hariç:hariç POST ; ! "besides"
 
 LEXICON  Conjunctions
 şöyle% de:şöyle% de CC ; !
+öyle% ki:öyle% ki CC ; !
 
 asla% da:asla% da CC ; !
 ki:ki CC ; !
@@ -3109,7 +3110,18 @@ blog:blog N1 ; !
 klip:klip N1 ; !
 üslup:üslup N1 ; !
 taharet:taharet N1 ; !
-
+sahih-i:sahih-i N1 ; !
+Furkan:Furkan NP-ANT-M ; !
+Yehova:Yehova N1 ; !
+mesih:mesih N1 ; !
+Hanefi:Hanefi N1 ; !
+kabadayı:kabadayı N1 ; !
+Türkçülük:Türkçülük N1 ; !
+kalender:kalender N1 ; !
+sayfadaş:sayfadaş N1 ; !
+süs:süs N1 ; !
+font:font N1 ; !
+rüku:rüku N1 ; !
 övülme:övülme N1 ; !
 zillet:zillet N1 ; !
 Hatme:Hatme N1 ; !
@@ -3680,6 +3692,9 @@ Mihman% Restoranı:Mihman% Restoranı NP-ORG ; !
 Kent% FM:Kent% FM NP-ORG ;
 Google:Google NP-ORG ; ! 
 Hamas:Hamas NP-ORG ; !
+Nokia:Nokia NP-ORG ; !
+Yahoo:Yahoo NP-ORG ; !
+WordPress:WordPress NP-ORG ; !
 
 vatansever:vatansever N1 ; !
 tadım:tadım N1 ; !
@@ -10624,6 +10639,8 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Gazze:Gazze NP-TOP ; !
+
 Karakaş:Karakaş NP-TOP ;
 Yarkent:Yarkent NP-TOP ; !
 Kızıldağ:Kızıldağ NP-TOP ; !
@@ -10964,6 +10981,10 @@ Hegel:Hegel NP-COG-MF ; !
 Pan:Pan NP-COG-MF ; !
 Nevai:Nevai NP-COG-MF ; !
 Useymin:Useymin NP-COG-MF ; !
+Mace:Mace NP-COG-MF ; !
+Hureyre:Hureyre NP-COG-MF ; !
+Farabi:Farabi NP-COG-MF ; !
+Buhari:Buhari NP-COG-MF ; !
 
 Ruen:Ruen NP-ANT-M ; !
 Bernadşav:Bernadşav NP-ANT-M ; !
@@ -18451,6 +18472,11 @@ ayan:ayan A1 ; !
 tümen:tümen A1 ; !
 cinsel:cinsel A1 ; !
 tekil:tekil A1 ; !
+nadan:nadan A1 ; !
+şaşkın:şaşkın A1 ; !
+vacip:vacip A1 ; !
+markalı:markalı A1 ; !
+erdemli:erdemli A1 ; !
 
 müjdeleyen:müjdeleyen A1 ; !
 bildiğimiz:bildiğimiz A1 ; !
@@ -20700,6 +20726,7 @@ eksik:eksik ADV1 ; !
 olsa% da:olsa% da ADV1 ; !
 kim% ki:kim% ki ADV1 ; !
 olmasa% da:olmasa% da ADV1 ; !
+gerek% ki:gerek% ki ADV1 ; !
 
 yüzükoyun:yüzükoyun ADV1 ; !
 yalnız% sana:yalnız% sana ADV1 ; !
@@ -20913,6 +20940,7 @@ baş% eğ:baş% eğ V-IR-IV ; !
 hesap% sor:hesap% sor V-IR-IV ; !
 iman% et:iman% et V-IR-IV ; !
 teşekkür% et:teşekkür% et%{v%} V-IR-IV ; !
+ifade% et:ifade% et%{v%} V-IR-TV ; !
 gösteril:gösteril V-IR-IV ; !
 acık:acık V-IR-IV ; !
 çöm:çöm V-IR-IV ; !
@@ -22732,6 +22760,12 @@ takip% et:takip% et V-IR-TV ; !
 
 LEXICON Interjections 
 anladım:anladım INTERJ ; !
+merhaba:merhaba INTERJ ; !
+hülasa:hülasa INTERJ ; !
+me:me INTERJ ; !
+esselamu:esselamu INTERJ ; !
+her% neyse:her% neyse INTERJ ; !
+
 olsun:olsun INTERJ ; !
 hayda:hayda INTERJ ; !
 yahu:yahu INTERJ ; !
