@@ -3109,7 +3109,16 @@ rekat:rekat N1 ; !
 mürşit:mürşit N1 ; !
 olgu:olgu N1 ; !
 olur:olur N1 ; !
-
+zina:zina N1 ; !
+kılınç:kılınç N1 ; !
+istihare:istihare N1 ; !
+reddiye:reddiye N1 ; !
+sevap:sevap N1 ; !
+İhlas:İhlas N1 ; !
+kıyas:kıyas N1 ; !
+icabet:icabet N1 ; !
+yen:yen N1 ; !
+varoluş:varoluş N1 ; !
 bilig:bilig N1 ; !
 blog:blog N1 ; !
 klip:klip N1 ; !
@@ -10646,6 +10655,7 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 LEXICON ProperNouns
 Gazze:Gazze NP-TOP ; !
 Medine:Medine NP-TOP ; !
+Java:Java NP-TOP ; !
 
 Karakaş:Karakaş NP-TOP ;
 Yarkent:Yarkent NP-TOP ; !
@@ -10813,7 +10823,12 @@ Emre:Emre NP-ANT-M ; !
 Mahmut:Mahmut NP-ANT-M ; !
 Halmurat:Halmurat NP-ANT-M ;
 Ümmü:Ümmü NP-ANT-F; !
- !
+Nesai:Nesai NP-COG-MF ; !
+Sıddık:Sıddık NP-COG-MF ; !
+Bülüğ'ul% Meram:Bülüğ'ul% Meram NP-AL ; !
+Kamil:Kamil NP-ANT-M ; !
+Seyidhan:Seyidhan NP-ANT-M ; !
+Sokrates:Sokrates NP-ANT-M ; !
 Gu:Gu NP-ANT-M ; !
 Saşa:Saşa NP-ANT-M ; !
 Oakili:Oakili NP-ANT-M ; !
