@@ -3104,7 +3104,10 @@ Profesör:Profesör TIT ; ! ""
 
 LEXICON Nouns
 fetva:fetva N1 ; !
-müstemlike:müstemlike N1 ; !
+kızılderili:kızılderili N1 ; !
+tümör:tümör N1 ; !
+derviş:derviş N1 ; !
+selamet:selamet N1 ; !
 rekat:rekat N1 ; !
 mürşit:mürşit N1 ; !
 olgu:olgu N1 ; !
@@ -10815,6 +10818,7 @@ Beyoğlu:Beyoğlu NP-TOP ; ! ""
 Dobroslav:Dobroslav NP-TOP ; ! ""
 Manay:Manay NP-TOP ; ! ""
 Çerkez:Çerkez NP-TOP ; ! ""
+Burhaniye:Burhaniye NP-TOP ; !
 
 Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
@@ -10822,6 +10826,10 @@ Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
 Mahmut:Mahmut NP-ANT-M ; !
 Halmurat:Halmurat NP-ANT-M ;
+Ekber:Ekber NP-ANT-M ; !
+Elbani:Elbani NP-COG-MF ; !
+Nozugum:Nozugum NP-ANT-F ; !
+
 Ümmü:Ümmü NP-ANT-F; !
 Nesai:Nesai NP-COG-MF ; !
 Sıddık:Sıddık NP-COG-MF ; !
@@ -18493,6 +18501,7 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 LEXICON Adjectives
 umumî:umumî A1 ; !
+bu% tür:bu% tür A1 ; ! Dir/RL ! Use/MT 
 ikinci:ikinci A1 ; !
 halkalı:halkalı A1 ; !
 malik:malik A1 ; !
@@ -18505,6 +18514,10 @@ nadan:nadan A1 ; !
 vacip:vacip A1 ; !
 markalı:markalı A1 ; !
 erdemli:erdemli A1 ; !
+yürürlükte:yürürlükte A1 ; !
+şekilli:şekilli A1 ; !
+gayrı:gayrı A1 ; !
+batıl:batıl A1 ; !
 
 müjdeleyen:müjdeleyen A1 ; !
 bildiğimiz:bildiğimiz A1 ; !
@@ -20753,7 +20766,7 @@ bir% anda:bir% anda ADV1 ; !
 eksik:eksik ADV1 ; !
 olsa% da:olsa% da ADV1 ; !
 kim% ki:kim% ki ADV1 ; !
-olmasa% da:olmasa% da ADV1 ; !
+olmasa% da:olmasa% da ADV1 ; ! Use/MT
 gerek% ki:gerek% ki ADV1 ; !
 demek% ki:demek% ki ADV1 ; !
 kim:kim ADV1 ; !
@@ -20965,17 +20978,19 @@ nereye:nereye ADV-ITG ; !
 
 LEXICON Verbs
 namaz% kıl:namaz% kıl V-AR-IV ; !
-uy:uy V-IR-IV ; !
+uy:uy V-AR-IV ; !
+esir% düş:esir% düş V-AR-IV ; !
+hesaplan:hesaplan V-IR-IV ; !
 gizleyiver:gizleyiver V-IR-TV ; !
 dirilt:dirilt V-IR-TV ; !
-baş% eğ:baş% eğ V-IR-IV ; !
-hesap% sor:hesap% sor V-IR-IV ; !
-iman% et:iman% et V-IR-IV ; !
-teşekkür% et:teşekkür% et%{v%} V-IR-IV ; !
-ifade% et:ifade% et%{v%} V-IR-TV ; !
+baş% eğ:baş% eğ V-AR-IV ; !
+hesap% sor:hesap% sor V-AR-IV ; !
+iman% et:iman% et V-AR-IV ; !
+teşekkür% et:teşekkür% et%{v%} V-AR-IV ; !
+ifade% et:ifade% et%{v%} V-AR-TV ; !
 gösteril:gösteril V-IR-IV ; !
 acık:acık V-IR-IV ; !
-çöm:çöm V-IR-IV ; !
+çöm:çöm V-AR-IV ; !
 deşil:deşil V-IR-IV ; !
 telaşlan:telaşlan V-IR-IV ; !
 giriver:giriver V-IR-IV ; !
@@ -20998,20 +21013,20 @@ gürültü% yap:gürültü% yap V-IR-IV ; !
 kaşıkla:kaşıkla V-IR-TV ; !
 boyla:boyla V-IR-TV ; !
 betimle:betimle V-IR-TV ; !
-tarif% et:tarif% et V-IR-TV ; !
-hata% yap:hata% yap V-IR-IV ; !
+tarif% et:tarif% et V-AR-TV ; !
+hata% yap:hata% yap V-AR-IV ; !
 hoşlaş:hoşlaş V-IR-IV ; !
 sakinleş:sakinleş V-IR-IV ; !
 tanıtıl:tanıtıl V-IR-IV ; !
 çevril:çevril V-IR-IV ; !
 üşü:üşü V-IR-IV ; !
 birlik% ol:birlik% ol V-IR-IV ; !
-birlikte% git:birlikte% git V-IR-IV ; !
-dava% aç:dava% aç V-IR-IV ; !
+birlikte% git:birlikte% git V-AR-IV ; !
+dava% aç:dava% aç V-AR-IV ; !
 yok% ol:yok% ol V-IR-IV ; !
 davalaş:davalaş V-IR-IV ; !
 sadeleştir:sadeleştir V-IR-TV ;
-ilan% et:ilan% et V-IR-TV ; !
+ilan% et:ilan% et V-AR-TV ; !
 tümle:tümle V-IR-TV ;
 gürülde:gürülde V-IR-IV ; !
 esnetil:esnetil V-IR-IV ; !
@@ -21022,9 +21037,9 @@ zora% düşürül:zora% düşürül V-IR-IV ; !
 sarmala:sarmala V-IR-TV ; !
 yedekle:yedekle V-IR-TV ; !
 zora% düşür:zora% düşür V-IR-TV ; !
-dikkat% et:dikkat% et V-IR-TV ; !
-kahkaha% at:kahkaha% at V-IR-IV ; !
-eziyet% et:eziyet% et V-IR-TV ; !
+dikkat% et:dikkat% et V-AR-TV ; !
+kahkaha% at:kahkaha% at V-AR-IV ; !
+eziyet% et:eziyet% et V-AR-TV ; !
 pürüzle:pürüzle V-IR-IV ;!"" Use/MT
 devşir:devşir V-IR-TV ;
 kaçır:kaçır V-IR-TV ;!"" Use/MT
@@ -21974,6 +21989,7 @@ hatırla:hatırla V-IR-TV ; ! "remember" (T)
 hazırla:hazırla V-IR-TV ; ! "prepare" (T)
 hedefle:hedefle V-IR-TV ; ! "aim" (T)
 hesapla:hesapla V-IR-TV ; ! "work out" (T)
+hesaplat:hesaplat V-IR-TV ; ! "work out" (T)
 hırpala:hırpala V-IR-TV ; ! "beat" (T)
 ilaçla:ilaçla V-IR-TV ; ! "medicate" (T)
 imzala:imzala V-IR-TV ; ! "sign" (T)
