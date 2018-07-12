@@ -3103,6 +3103,11 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+fitre:fitre N1 ; !
+tüzük:tüzük N1 ; !
+N:N N1 ; !
+mahiyet:mahiyet N1 ; !
+
 fetva:fetva N1 ; !
 kızılderili:kızılderili N1 ; !
 tümör:tümör N1 ; !
@@ -3693,6 +3698,7 @@ olduk:olduk N1 ; !
 soğuk:soğuk N1 ; !
 büyük:büyük N1 ; !
 Nobel:Nobel NP-AL ; !
+Kutadgu% Bilig:Kutadgu% Bilig NP-AL ; !
 genel:genel N1 ; !
 asıl:asıl N1 ; !
 yeşil:yeşil N1 ; !
@@ -10829,6 +10835,10 @@ Halmurat:Halmurat NP-ANT-M ;
 Ekber:Ekber NP-ANT-M ; !
 Elbani:Elbani NP-COG-MF ; !
 Nozugum:Nozugum NP-ANT-F ; !
+Bekri:Bekri NP-COG-MF ; !
+
+Berke:Berke NP-ANT-M ; !
+Abdüşşükür:Abdüşşükür NP-ANT-M ; !
 
 Ümmü:Ümmü NP-ANT-F; !
 Nesai:Nesai NP-COG-MF ; !
@@ -12378,6 +12388,7 @@ CH:CH NP-ORG ; !
 KCK:KCK NP-ORG ; !
 PCK:PCK NP-ORG ; !
 CKP:CKP NP-ORG ; !
+Baidu:Baidu NP-ORG ; !
 
 MTİ:MTİ NP-ORG ; !
 DUK:DUK NP-ORG ; !
@@ -18501,6 +18512,10 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 LEXICON Adjectives
 umumî:umumî A1 ; !
+nafile:nafile A1 ; !
+mahiyetli:mahiyetli A1 ; !
+şiirsel:şiirsel A1 ; !
+
 bu% tür:bu% tür A1 ; ! Dir/RL ! Use/MT 
 ikinci:ikinci A1 ; !
 halkalı:halkalı A1 ; !
