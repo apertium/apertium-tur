@@ -3107,7 +3107,12 @@ fitre:fitre N1 ; !
 tüzük:tüzük N1 ; !
 N:N N1 ; !
 mahiyet:mahiyet N1 ; !
-
+Cenab-ı% Allah:Cenab-ı% Allah N1 ; !
+H:H N1 ; !
+fasık:fasık N1 ; !
+gusul:gusul N1 ; !
+Ş:Ş N1 ; !
+girici:girici N1 ; !
 fetva:fetva N1 ; !
 kızılderili:kızılderili N1 ; !
 tümör:tümör N1 ; !
@@ -10665,6 +10670,7 @@ LEXICON ProperNouns
 Gazze:Gazze NP-TOP ; !
 Medine:Medine NP-TOP ; !
 Java:Java NP-TOP ; !
+Seidiye:Seidiye NP-TOP ; !
 
 Karakaş:Karakaş NP-TOP ;
 Yarkent:Yarkent NP-TOP ; !
@@ -10836,6 +10842,8 @@ Ekber:Ekber NP-ANT-M ; !
 Elbani:Elbani NP-COG-MF ; !
 Nozugum:Nozugum NP-ANT-F ; !
 Bekri:Bekri NP-COG-MF ; !
+Heyit:Heyit NP-COG-MF ; !
+Temür:Temür NP-ANT-M ; !
 
 Berke:Berke NP-ANT-M ; !
 Abdüşşükür:Abdüşşükür NP-ANT-M ; !
@@ -18515,6 +18523,9 @@ umumî:umumî A1 ; !
 nafile:nafile A1 ; !
 mahiyetli:mahiyetli A1 ; !
 şiirsel:şiirsel A1 ; !
+beyhude:beyhude A1 ; !
+şerî:şerî A1 ; !
+sade:sade A1 ; !
 
 bu% tür:bu% tür A1 ; ! Dir/RL ! Use/MT 
 ikinci:ikinci A1 ; !
@@ -21691,6 +21702,7 @@ kurgula:kurgula V-IR-TV ; ! "fictionalise" (T)
 kurşunla:kurşunla V-IR-TV ; ! "cover with lead" (T)
 kurtar:kurtar V-IR-TV ; ! "rescue" (T)
 kurula:kurula V-IR-TV ; ! "dry something" (T)
+Kuran% oku:Kuran% oku V-IR-IV ; ! "read quran"
 kutla:kutla V-IR-TV ; ! "celebrate" (T)
 kutsa:kutsa V-IR-TV ; ! "bless" (T)
 lafla:lafla V-IR-TV ; ! "chat" (T)
@@ -22828,6 +22840,7 @@ hülasa:hülasa INTERJ ; !
 me:me INTERJ ; !
 esselamu:esselamu INTERJ ; !
 her% neyse:her% neyse INTERJ ; !
+radıyullahu:radıyullahu INTERJ ; !
 
 olsun:olsun INTERJ ; !
 hayda:hayda INTERJ ; !
