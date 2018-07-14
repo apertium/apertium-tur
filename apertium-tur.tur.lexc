@@ -3114,6 +3114,14 @@ müşrik:müşrik N1 ; !
 zinnet:zinnet N1 ; !
 fitre:fitre N1 ; !
 tüzük:tüzük N1 ; !
+fıkıh:fıkıh N1 ; !
+tigin:tigin N1 ; !
+pantolon:pantolon N1 ; !
+kesir:kesir N1 ; !
+mişkat:mişkat N1 ; !
+saba:saba N1 ; !
+kıssa:kıssa N1 ; !
+seç:seç N1 ; !
 N:N N1 ; !
 mahiyet:mahiyet N1 ; !
 Cenab-ı% Allah:Cenab-ı% Allah N1 ; !
@@ -10683,6 +10691,7 @@ Gazze:Gazze NP-TOP ; !
 Medine:Medine NP-TOP ; !
 Java:Java NP-TOP ; !
 Seidiye:Seidiye NP-TOP ; !
+Sunen:Sunen NP-TOP ; !
 
 Karakaş:Karakaş NP-TOP ;
 Yarkent:Yarkent NP-TOP ; !
@@ -10860,6 +10869,9 @@ Esma:Esma NP-ANT-F ; !
 Berke:Berke NP-ANT-M ; !
 Abdüşşükür:Abdüşşükür NP-ANT-M ; !
 Eşeri:Eşeri NP-COG-MF ; !
+Teymiyye:Teymiyye NP-COG-MF ; !
+Eltürk:Eltürk NP-COG-MF ; !
+Karahan:Karahan NP-COG-MF ; !
 
 Ümmü:Ümmü NP-ANT-F; !
 Nesai:Nesai NP-COG-MF ; !
@@ -18540,6 +18552,12 @@ beyhude:beyhude A1 ; !
 şerî:şerî A1 ; !
 sade:sade A1 ; !
 bilen:bilen A1 ; !
+harbî:harbî A1 ; !
+fıkhî:fıkhî A1 ; !
+sözel:sözel A1 ; !
+kamil:kamil A1 ; !
+gerçi:gerçi A1 ; !
+karışık:karışık A1 ; !
 
 bu% tür:bu% tür A1 ; ! Dir/RL ! Use/MT 
 ikinci:ikinci A1 ; !
@@ -20811,6 +20829,8 @@ gerek% ki:gerek% ki ADV1 ; !
 demek% ki:demek% ki ADV1 ; !
 kim:kim ADV1 ; !
 beyhude:beyhude ADV1 ; !
+ara% sıra:ara% sıra ADV1 ; !
+ardından:ardından ADV1 ; !
 
 yüzükoyun:yüzükoyun ADV1 ; !
 yalnız% sana:yalnız% sana ADV1 ; !
@@ -22857,6 +22877,8 @@ esselamu:esselamu INTERJ ; !
 her% neyse:her% neyse INTERJ ; !
 radıyullahu:radıyullahu INTERJ ; !
 Allahu% Ekber:Allahu% Ekber INTERJ ; !
+öh:öh INTERJ ; !
+mesela:mesela INTERJ ; !
 
 olsun:olsun INTERJ ; !
 hayda:hayda INTERJ ; !
