@@ -3103,6 +3103,15 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+
+mürted:mürted N1 ; !
+divane:divane N1 ; !
+yatsı:yatsı N1 ; !
+hastlalık:hastlalık N1 ; !
+müşriklik:müşriklik N1 ; !
+kesinlik:kesinlik N1 ; !
+müşrik:müşrik N1 ; !
+zinnet:zinnet N1 ; !
 fitre:fitre N1 ; !
 tüzük:tüzük N1 ; !
 N:N N1 ; !
@@ -3704,6 +3713,7 @@ soğuk:soğuk N1 ; !
 büyük:büyük N1 ; !
 Nobel:Nobel NP-AL ; !
 Kutadgu% Bilig:Kutadgu% Bilig NP-AL ; !
+Muhakemetul% Lugateyn:Muhakemetul% Lugateyn NP-AL ; !
 genel:genel N1 ; !
 asıl:asıl N1 ; !
 yeşil:yeşil N1 ; !
@@ -3723,6 +3733,8 @@ Hamas:Hamas NP-ORG ; !
 Nokia:Nokia NP-ORG ; !
 Yahoo:Yahoo NP-ORG ; !
 WordPress:WordPress NP-ORG ; !
+
+Kutbilik:Kutbilik NP-ORG ; !
 
 vatansever:vatansever N1 ; !
 tadım:tadım N1 ; !
@@ -10844,9 +10856,10 @@ Nozugum:Nozugum NP-ANT-F ; !
 Bekri:Bekri NP-COG-MF ; !
 Heyit:Heyit NP-COG-MF ; !
 Temür:Temür NP-ANT-M ; !
-
+Esma:Esma NP-ANT-F ; !
 Berke:Berke NP-ANT-M ; !
 Abdüşşükür:Abdüşşükür NP-ANT-M ; !
+Eşeri:Eşeri NP-COG-MF ; !
 
 Ümmü:Ümmü NP-ANT-F; !
 Nesai:Nesai NP-COG-MF ; !
@@ -18526,6 +18539,7 @@ mahiyetli:mahiyetli A1 ; !
 beyhude:beyhude A1 ; !
 şerî:şerî A1 ; !
 sade:sade A1 ; !
+bilen:bilen A1 ; !
 
 bu% tür:bu% tür A1 ; ! Dir/RL ! Use/MT 
 ikinci:ikinci A1 ; !
@@ -20796,6 +20810,7 @@ olmasa% da:olmasa% da ADV1 ; ! Use/MT
 gerek% ki:gerek% ki ADV1 ; !
 demek% ki:demek% ki ADV1 ; !
 kim:kim ADV1 ; !
+beyhude:beyhude ADV1 ; !
 
 yüzükoyun:yüzükoyun ADV1 ; !
 yalnız% sana:yalnız% sana ADV1 ; !
@@ -22841,6 +22856,7 @@ me:me INTERJ ; !
 esselamu:esselamu INTERJ ; !
 her% neyse:her% neyse INTERJ ; !
 radıyullahu:radıyullahu INTERJ ; !
+Allahu% Ekber:Allahu% Ekber INTERJ ; !
 
 olsun:olsun INTERJ ; !
 hayda:hayda INTERJ ; !
