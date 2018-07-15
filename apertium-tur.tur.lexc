@@ -3106,6 +3106,11 @@ LEXICON Nouns
 
 mürted:mürted N1 ; !
 divane:divane N1 ; !
+ara:ara N1 ; !
+takva:takva N1 ; !
+fedakarlık:fedakarlık N1 ; !
+varoluşçuluk:varoluşçuluk N1 ; !
+varoluşçu:varoluşçu N1 ; !
 yatsı:yatsı N1 ; !
 hastlalık:hastlalık N1 ; !
 müşriklik:müşriklik N1 ; !
@@ -3722,6 +3727,8 @@ büyük:büyük N1 ; !
 Nobel:Nobel NP-AL ; !
 Kutadgu% Bilig:Kutadgu% Bilig NP-AL ; !
 Muhakemetul% Lugateyn:Muhakemetul% Lugateyn NP-AL ; !
+Sahihül% Buhari:Sahihül% Buhari NP-AL ; !
+
 genel:genel N1 ; !
 asıl:asıl N1 ; !
 yeşil:yeşil N1 ; !
@@ -10872,6 +10879,9 @@ Eşeri:Eşeri NP-COG-MF ; !
 Teymiyye:Teymiyye NP-COG-MF ; !
 Eltürk:Eltürk NP-COG-MF ; !
 Karahan:Karahan NP-COG-MF ; !
+Sartre:Sartre NP-COG-MF ; !
+Pishik:Pishik NP-COG-MF ; !
+Kızzık:Kızzık NP-COG-MF ; !
 
 Ümmü:Ümmü NP-ANT-F; !
 Nesai:Nesai NP-COG-MF ; !
@@ -18558,6 +18568,11 @@ sözel:sözel A1 ; !
 kamil:kamil A1 ; !
 gerçi:gerçi A1 ; !
 karışık:karışık A1 ; !
+ilahî:ilahî A1 ; !
+romantik:romantik A1 ; !
+müstehem:müstehem A1 ; !
+calip:calip A1 ; !
+dul:dul A1 ; !
 
 bu% tür:bu% tür A1 ; ! Dir/RL ! Use/MT 
 ikinci:ikinci A1 ; !
@@ -20831,6 +20846,10 @@ kim:kim ADV1 ; !
 beyhude:beyhude ADV1 ; !
 ara% sıra:ara% sıra ADV1 ; !
 ardından:ardından ADV1 ; !
+şu% anda:şu% anda ADV1 ; !
+bizim% gibi:bizim% gibi ADV1 ; !
+olmuşken:olmuşken ADV1 ; !
+her% türlü:her% türlü ADV1 ; !
 
 yüzükoyun:yüzükoyun ADV1 ; !
 yalnız% sana:yalnız% sana ADV1 ; !
@@ -21044,6 +21063,8 @@ esir% düş:esir% düş V-AR-IV ; !
 hesaplan:hesaplan V-IR-IV ; !
 gizleyiver:gizleyiver V-IR-TV ; !
 dirilt:dirilt V-IR-TV ; !
+beyazlat:beyazlat V-IR-TV ; !
+
 baş% eğ:baş% eğ V-AR-IV ; !
 hesap% sor:hesap% sor V-AR-IV ; !
 iman% et:iman% et V-AR-IV ; !
@@ -22879,7 +22900,8 @@ radıyullahu:radıyullahu INTERJ ; !
 Allahu% Ekber:Allahu% Ekber INTERJ ; !
 öh:öh INTERJ ; !
 mesela:mesela INTERJ ; !
-
+falan:falan INTERJ ; !
+hü:hü INTERJ ; !
 olsun:olsun INTERJ ; !
 hayda:hayda INTERJ ; !
 yahu:yahu INTERJ ; !
