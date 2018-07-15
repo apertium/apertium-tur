@@ -3103,7 +3103,14 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
-
+ağlama:ağlama N1 ; !
+Bakara:Bakara N1 ; !
+gören:gören N1 ; !
+bekleyiş:bekleyiş N1 ; !
+vefa:vefa N1 ; !
+regl:regl N1 ; !
+ılgın:ılgın N1 ; !
+nezir:nezir N1 ; !
 mürted:mürted N1 ; !
 divane:divane N1 ; !
 ara:ara N1 ; !
@@ -10866,6 +10873,9 @@ Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
 Mahmut:Mahmut NP-ANT-M ; !
 Halmurat:Halmurat NP-ANT-M ;
+Efrasyab:Efrasyab NP-ANT-M ; !
+Kuseni:Kuseni NP-COG-MF ; !
+
 Ekber:Ekber NP-ANT-M ; !
 Elbani:Elbani NP-COG-MF ; !
 Nozugum:Nozugum NP-ANT-F ; !
@@ -18554,6 +18564,12 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+dostane:dostane A1 ; !
+mest:mest A1 ; !
+şefkatli:şefkatli A1 ; !
+medenî:medenî A1 ; !
+regl:regl A1 ; !
+
 umumî:umumî A1 ; !
 nafile:nafile A1 ; !
 mahiyetli:mahiyetli A1 ; !
