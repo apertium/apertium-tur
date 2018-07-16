@@ -3103,6 +3103,17 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+sefa:sefa N1 ; !
+dialog:dialog N1 ; !
+rezillik:rezillik N1 ; !
+vatanseverlik:vatanseverlik N1 ; !
+yiğitlik:yiğitlik N1 ; !
+zıtlık:zıtlık N1 ; !
+acizlik:acizlik N1 ; !
+özlem:özlem N1 ; !
+münker:münker N1 ; !
+dün:dün N1 ; !
+
 ağlama:ağlama N1 ; !
 Bakara:Bakara N1 ; !
 gören:gören N1 ; !
@@ -10875,6 +10886,13 @@ Mahmut:Mahmut NP-ANT-M ; !
 Halmurat:Halmurat NP-ANT-M ;
 Efrasyab:Efrasyab NP-ANT-M ; !
 Kuseni:Kuseni NP-COG-MF ; !
+Huzeyme:Huzeyme NP-COG-MF ; !
+Hibban:Hibban NP-COG-MF ; !
+Emily:Emily NP-ANT-F ; !
+Munsed:Munsed NP-ANT-M ; !
+Nuh:Nuh NP-ANT-M ; !
+Erzat:Erzat NP-ANT-M ; !
+Mani:Mani NP-ANT-M ; !
 
 Ekber:Ekber NP-ANT-M ; !
 Elbani:Elbani NP-COG-MF ; !
@@ -12442,6 +12460,8 @@ KCK:KCK NP-ORG ; !
 PCK:PCK NP-ORG ; !
 CKP:CKP NP-ORG ; !
 Baidu:Baidu NP-ORG ; !
+Android:Android NP-ORG ; !
+PayPal:PayPal NP-ORG ; !
 
 MTİ:MTİ NP-ORG ; !
 DUK:DUK NP-ORG ; !
@@ -12582,6 +12602,7 @@ YouTube:YouTube NP-AL ; ! ""
 Linux:Linux NP-AL ; ! ""
 Krıminform:Krıminform NP-AL ;
 Maracana:Maracana NP-AL ;
+Kutadgu% Bilik:Kutadgu% Bilik NP-AL ; !
 
 HIV:HIV NP-AL ; ! "" @?@
 CEFTA:CEFTA NP-AL ; ! ""
@@ -18569,6 +18590,11 @@ mest:mest A1 ; !
 şefkatli:şefkatli A1 ; !
 medenî:medenî A1 ; !
 regl:regl A1 ; !
+müptela:müptela A1 ; !
+bedenli:bedenli A1 ; !
+ikincil:ikincil A1 ; !
+namahrem:namahrem A1 ; !
+hakir:hakir A1 ; !
 
 umumî:umumî A1 ; !
 nafile:nafile A1 ; !
@@ -20859,6 +20885,8 @@ olmasa% da:olmasa% da ADV1 ; ! Use/MT
 gerek% ki:gerek% ki ADV1 ; !
 demek% ki:demek% ki ADV1 ; !
 kim:kim ADV1 ; !
+hele% ki:hele% ki ADV1 ; !
+
 beyhude:beyhude ADV1 ; !
 ara% sıra:ara% sıra ADV1 ; !
 ardından:ardından ADV1 ; !
@@ -21080,6 +21108,7 @@ hesaplan:hesaplan V-IR-IV ; !
 gizleyiver:gizleyiver V-IR-TV ; !
 dirilt:dirilt V-IR-TV ; !
 beyazlat:beyazlat V-IR-TV ; !
+ula:ula V-IR-TV ; !
 
 baş% eğ:baş% eğ V-AR-IV ; !
 hesap% sor:hesap% sor V-AR-IV ; !
@@ -22910,6 +22939,7 @@ anladım:anladım INTERJ ; !
 merhaba:merhaba INTERJ ; !
 hülasa:hülasa INTERJ ; !
 me:me INTERJ ; !
+be:be INTERJ ; !
 esselamu:esselamu INTERJ ; !
 her% neyse:her% neyse INTERJ ; !
 radıyullahu:radıyullahu INTERJ ; !
