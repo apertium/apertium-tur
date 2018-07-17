@@ -3104,6 +3104,17 @@ Profesör:Profesör TIT ; ! ""
 
 LEXICON Nouns
 sefa:sefa N1 ; !
+Hüda:Hüda N1 ; !
+Ç:Ç N1 ; !
+sömürgeci:sömürgeci N1 ; !
+karalık:karalık N1 ; !
+yazlık:yazlık N1 ; !
+yolluk:yolluk N1 ; !
+düğünlük:düğünlük N1 ; !
+dürüstlük:dürüstlük N1 ; !
+cebir:cebir N1 ; !
+fitr:fitr N1 ; !
+Nusret:Nusret N1 ; !
 dialog:dialog N1 ; !
 rezillik:rezillik N1 ; !
 vatanseverlik:vatanseverlik N1 ; !
@@ -3755,6 +3766,8 @@ Kutadgu% Bilig:Kutadgu% Bilig NP-AL ; !
 Muhakemetul% Lugateyn:Muhakemetul% Lugateyn NP-AL ; !
 Sahihül% Buhari:Sahihül% Buhari NP-AL ; !
 Divan-ı% Lügatit% Türk:Divan-ı% Lügatit% Türk NP-AL ; !
+Mişkatül% Mesabih:Mişkatül% Mesabih NP-AL ; !
+
 
 genel:genel N1 ; !
 asıl:asıl N1 ; !
@@ -10905,6 +10918,10 @@ Mani:Mani NP-ANT-M ; !
 Zeyd:Zeyd NP-COG-MF ; !
 Kaşgarî:Kaşgarî NP-COG-MF ; !
 Şisey:Şisey NP-COG-MF ; !
+Nasir:Nasir NP-COG-MF ; !
+Seleme:Seleme NP-ANT-F ; !
+Pakize:Pakize NP-ANT-F ; !
+Hidayetullah:Hidayetullah NP-ANT-M ; !
 
 Ekber:Ekber NP-ANT-M ; !
 Elbani:Elbani NP-COG-MF ; !
@@ -18609,6 +18626,9 @@ namahrem:namahrem A1 ; !
 hakir:hakir A1 ; !
 tıbbî:tıbbî A1 ; !
 bakî:bakî A1 ; !
+kılıcı:kılıcı A1 ; !
+haysiyetli:haysiyetli A1 ; !
+yuvarlak:yuvarlak A1 ; !
 
 geri% kalmış:geri% kalmış A1 ; !
 günahsız:günahsız A1 ; !
@@ -20908,7 +20928,7 @@ beyhude:beyhude ADV1 ; !
 ara% sıra:ara% sıra ADV1 ; !
 ardından:ardından ADV1 ; !
 şu% anda:şu% anda ADV1 ; !
-bizim% gibi:bizim% gibi ADV1 ; !
+bizim% gibi:bizim% gibi ADV1 ; ! ! Dir/RL ! Use/MT
 olmuşken:olmuşken ADV1 ; !
 her% türlü:her% türlü ADV1 ; !
 
