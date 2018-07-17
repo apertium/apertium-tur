@@ -3113,6 +3113,14 @@ acizlik:acizlik N1 ; !
 özlem:özlem N1 ; !
 münker:münker N1 ; !
 dün:dün N1 ; !
+yengi:yengi N1 ; !
+huri:huri N1 ; !
+rızık:rızık N1 ; !
+resul:resul N1 ; !
+şaman:şaman N1 ; !
+biat:biat N1 ; !
+Mançu:Mançu N1 ; !
+galip:galip N1 ; !
 
 ağlama:ağlama N1 ; !
 Bakara:Bakara N1 ; !
@@ -3746,6 +3754,7 @@ Nobel:Nobel NP-AL ; !
 Kutadgu% Bilig:Kutadgu% Bilig NP-AL ; !
 Muhakemetul% Lugateyn:Muhakemetul% Lugateyn NP-AL ; !
 Sahihül% Buhari:Sahihül% Buhari NP-AL ; !
+Divan-ı% Lügatit% Türk:Divan-ı% Lügatit% Türk NP-AL ; !
 
 genel:genel N1 ; !
 asıl:asıl N1 ; !
@@ -10893,6 +10902,9 @@ Munsed:Munsed NP-ANT-M ; !
 Nuh:Nuh NP-ANT-M ; !
 Erzat:Erzat NP-ANT-M ; !
 Mani:Mani NP-ANT-M ; !
+Zeyd:Zeyd NP-COG-MF ; !
+Kaşgarî:Kaşgarî NP-COG-MF ; !
+Şisey:Şisey NP-COG-MF ; !
 
 Ekber:Ekber NP-ANT-M ; !
 Elbani:Elbani NP-COG-MF ; !
@@ -18595,7 +18607,11 @@ bedenli:bedenli A1 ; !
 ikincil:ikincil A1 ; !
 namahrem:namahrem A1 ; !
 hakir:hakir A1 ; !
+tıbbî:tıbbî A1 ; !
+bakî:bakî A1 ; !
 
+geri% kalmış:geri% kalmış A1 ; !
+günahsız:günahsız A1 ; !
 umumî:umumî A1 ; !
 nafile:nafile A1 ; !
 mahiyetli:mahiyetli A1 ; !
@@ -20886,7 +20902,8 @@ gerek% ki:gerek% ki ADV1 ; !
 demek% ki:demek% ki ADV1 ; !
 kim:kim ADV1 ; !
 hele% ki:hele% ki ADV1 ; !
-
+hızla:hızla ADV1 ; !
+bayadır:bayadır ADV1 ; !
 beyhude:beyhude ADV1 ; !
 ara% sıra:ara% sıra ADV1 ; !
 ardından:ardından ADV1 ; !
