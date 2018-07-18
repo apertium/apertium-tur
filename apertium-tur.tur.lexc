@@ -3103,6 +3103,13 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+Fatiha:Fatiha N1 ; !
+rıza:rıza N1 ; !
+tavaf:tavaf N1 ; !
+düşmanlık:düşmanlık N1 ; !
+Hristiyan:Hristiyan N1 ; !
+itikat:itikat N1 ; !
+
 sefa:sefa N1 ; !
 Hüda:Hüda N1 ; !
 Ç:Ç N1 ; !
@@ -3788,6 +3795,7 @@ Hamas:Hamas NP-ORG ; !
 Nokia:Nokia NP-ORG ; !
 Yahoo:Yahoo NP-ORG ; !
 WordPress:WordPress NP-ORG ; !
+iPhone:iPhone NP-ORG ; !
 
 Kutbilik:Kutbilik NP-ORG ; !
 
@@ -10907,6 +10915,9 @@ Emre:Emre NP-ANT-M ; !
 Mahmut:Mahmut NP-ANT-M ; !
 Halmurat:Halmurat NP-ANT-M ;
 Efrasyab:Efrasyab NP-ANT-M ; !
+Mobhan:Mobhan NP-ANT-M ; !
+Bökü:Bökü NP-ANT-M ; !
+
 Kuseni:Kuseni NP-COG-MF ; !
 Huzeyme:Huzeyme NP-COG-MF ; !
 Hibban:Hibban NP-COG-MF ; !
@@ -18629,7 +18640,10 @@ bakî:bakî A1 ; !
 kılıcı:kılıcı A1 ; !
 haysiyetli:haysiyetli A1 ; !
 yuvarlak:yuvarlak A1 ; !
-
+hileci:hileci A1 ; !
+benekli:benekli A1 ; !
+muvaffak:muvaffak A1 ; !
+biricik:biricik A1 ; !
 geri% kalmış:geri% kalmış A1 ; !
 günahsız:günahsız A1 ; !
 umumî:umumî A1 ; !
@@ -20931,7 +20945,9 @@ ardından:ardından ADV1 ; !
 bizim% gibi:bizim% gibi ADV1 ; ! ! Dir/RL ! Use/MT
 olmuşken:olmuşken ADV1 ; !
 her% türlü:her% türlü ADV1 ; !
-
+bir:bir ADV1 ; !
+gelince:gelince ADV1 ; !
+iki:iki ADV1 ; !
 yüzükoyun:yüzükoyun ADV1 ; !
 yalnız% sana:yalnız% sana ADV1 ; !
 diyerek:diyerek ADV1 ; !
