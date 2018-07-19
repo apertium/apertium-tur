@@ -1493,7 +1493,7 @@ LEXICON PRON-REF
 
 ! FIXME DISCUSS Write full forms for the lower side and put only PRON-DEF in the
 ! Root Lexicon
-
+%<prn%>%<ref%>: CASE-ETC ;                
 %<prn%>%<ref%>%<px1sg%>:%>%{i%}m CASE-ETC ;                
 %<prn%>%<ref%>%<px2sg%>:%>%{i%}n CASE-ETC ;                 
 %<prn%>%<ref%>%<px3sg%>:%>%{s%}%{I%}%{n%} CASE-ETC ; 
