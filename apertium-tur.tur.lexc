@@ -1497,6 +1497,7 @@ LEXICON PRON-REF
 %<prn%>%<ref%>%<px1sg%>:%>%{i%}m CASE-ETC ;                
 %<prn%>%<ref%>%<px2sg%>:%>%{i%}n CASE-ETC ;                 
 %<prn%>%<ref%>%<px3sg%>:%>%{s%}%{I%}%{n%} CASE-ETC ; 
+%<prn%>%<ref%>%<px3sp%>:%>%{s%}%{I%}%{n%} CASE-ETC ; 
 %<prn%>%<ref%>%<px1pl%>:%>%{i%}m%{I%}z CASE-ETC ;           
 %<prn%>%<ref%>%<px2pl%>:%>%{i%}n%{I%}z CASE-ETC ;      
 %<prn%>%<ref%>%<px3pl%>:%>l%{A%}r%{I%}%{n%} CASE-ETC ;  
