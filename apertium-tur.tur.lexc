@@ -3105,6 +3105,13 @@ Profesör:Profesör TIT ; ! ""
 
 LEXICON Nouns
 Fatiha:Fatiha N1 ; !
+boşanma:boşanma N1 ; !
+tamam:tamam N1 ; !
+sat:sat N1 ; !
+mükemmellik:mükemmellik N1 ; !
+kulluk:kulluk N1 ; !
+coşkunluk:coşkunluk N1 ; !
+
 rıza:rıza N1 ; !
 tavaf:tavaf N1 ; !
 düşmanlık:düşmanlık N1 ; !
@@ -10929,7 +10936,12 @@ Efrasyab:Efrasyab NP-ANT-M ; !
 Mobhan:Mobhan NP-ANT-M ; !
 Bökü:Bökü NP-ANT-M ; !
 Abdül:Abdül NP-ANT-M ; !
-
+Rehimehullah:Rehimehullah NP-COG-MF ; !
+Beyheki:Beyheki NP-COG-MF ; !
+Keyyim:Keyyim NP-COG-MF ; !
+Koragan:Koragan NP-COG-MF ; !
+Abdürrezzak:Abdürrezzak NP-ANT-M ; !
+İnam:İnam NP-ANT-M ; !
 Kuseni:Kuseni NP-COG-MF ; !
 Huzeyme:Huzeyme NP-COG-MF ; !
 Hibban:Hibban NP-COG-MF ; !
@@ -10968,7 +10980,7 @@ Kızzık:Kızzık NP-COG-MF ; !
 Ümmü:Ümmü NP-ANT-F; !
 Nesai:Nesai NP-COG-MF ; !
 Sıddık:Sıddık NP-COG-MF ; !
-Bülüğ'ul% Meram:Bülüğ'ul% Meram NP-AL ; !
+
 Kamil:Kamil NP-ANT-M ; !
 Seyidhan:Seyidhan NP-ANT-M ; !
 Sokrates:Sokrates NP-ANT-M ; !
@@ -11264,9 +11276,10 @@ Gazprom:Gazprom NP-AL ; ! ""
 Naftogaz:Naftogaz NP-AL ; ! ""
 Twitter:Twitter NP-AL ; ! ""
 Atabetül% Hakayık:Atabetül% Hakayık NP-AL ; !
-
+Bülüğ'ul% Meram:Bülüğ'ul% Meram NP-AL ; !
 Kazakhmys:Kazakhmys NP-AL ; ! "Use/MT"
 Dünya% Şampiyonası:Dünya% Şampiyonası NP-AL ;
+Muhakemetül% Lugateyn:Muhakemetül% Lugateyn NP-AL ; !
 
 
 Kurman:Kurman NP-TOP ; !""
@@ -18640,13 +18653,23 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 LEXICON Adjectives
 misl-i:misl-i A1 ; !
+milyonlarca:milyonlarca A1 ; !
+tamam:tamam A1 ; !
+coşkun:coşkun A1 ; !
+muntazam:muntazam A1 ; !
+mütesanit:mütesanit A1 ; !
+milyonlarca:milyonlarca A1 ; !
+tamam:tamam A1 ; !
+coşkun:coşkun A1 ; !
+
 daimî:daimî A1 ; !
 yenlik:yenlik A1 ; !
 kuramsal:kuramsal A1 ; !
 misalsiz:misalsiz A1 ; !
 en% iyi:en% iyi A1 ; !
 sahip:sahip A1 ; !
-
+muntazam:muntazam A1 ; !
+mütesanit:mütesanit A1 ; !
 dostane:dostane A1 ; !
 mest:mest A1 ; !
 şefkatli:şefkatli A1 ; !
@@ -20952,6 +20975,7 @@ topluca:topluca ADV1 ; !
 bir% anda:bir% anda ADV1 ; !
 eksik:eksik ADV1 ; !
 kendi:kendi ADV1 ; !
+kolay:kolay ADV1 ; !
 
 olsa% da:olsa% da ADV1 ; !
 kim% ki:kim% ki ADV1 ; !
@@ -23016,6 +23040,8 @@ anladım:anladım INTERJ ; !
 merhaba:merhaba INTERJ ; !
 hülasa:hülasa INTERJ ; !
 me:me INTERJ ; !
+vah:vah INTERJ ; !
+
 be:be INTERJ ; !
 esselamu:esselamu INTERJ ; !
 her% neyse:her% neyse INTERJ ; !
