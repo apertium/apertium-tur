@@ -3110,6 +3110,16 @@ tavaf:tavaf N1 ; !
 düşmanlık:düşmanlık N1 ; !
 Hristiyan:Hristiyan N1 ; !
 itikat:itikat N1 ; !
+taç:taç N1 ; !
+umre:umre N1 ; !
+dergah:dergah N1 ; !
+tespih:tespih N1 ; !
+şeyhülislam:şeyhülislam N1 ; !
+sığır:sığır N1 ; !
+radıyullahu% anh:radıyullahu% anh N1 ; !
+düşünür:düşünür N1 ; !
+uğraş:uğraş N1 ; !
+bint:bint N1 ; !
 
 sefa:sefa N1 ; !
 Hüda:Hüda N1 ; !
@@ -10918,6 +10928,7 @@ Halmurat:Halmurat NP-ANT-M ;
 Efrasyab:Efrasyab NP-ANT-M ; !
 Mobhan:Mobhan NP-ANT-M ; !
 Bökü:Bökü NP-ANT-M ; !
+Abdül:Abdül NP-ANT-M ; !
 
 Kuseni:Kuseni NP-COG-MF ; !
 Huzeyme:Huzeyme NP-COG-MF ; !
@@ -10934,6 +10945,8 @@ Nasir:Nasir NP-COG-MF ; !
 Seleme:Seleme NP-ANT-F ; !
 Pakize:Pakize NP-ANT-F ; !
 Hidayetullah:Hidayetullah NP-ANT-M ; !
+Kerezevi:Kerezevi NP-COG-MF ; !
+
 
 Ekber:Ekber NP-ANT-M ; !
 Elbani:Elbani NP-COG-MF ; !
@@ -18626,6 +18639,14 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+misl-i:misl-i A1 ; !
+daimî:daimî A1 ; !
+yenlik:yenlik A1 ; !
+kuramsal:kuramsal A1 ; !
+misalsiz:misalsiz A1 ; !
+en% iyi:en% iyi A1 ; !
+sahip:sahip A1 ; !
+
 dostane:dostane A1 ; !
 mest:mest A1 ; !
 şefkatli:şefkatli A1 ; !
@@ -20930,6 +20951,8 @@ kısaca:kısaca ADV1 ; !
 topluca:topluca ADV1 ; !
 bir% anda:bir% anda ADV1 ; !
 eksik:eksik ADV1 ; !
+kendi:kendi ADV1 ; !
+
 olsa% da:olsa% da ADV1 ; !
 kim% ki:kim% ki ADV1 ; !
 olmasa% da:olmasa% da ADV1 ; ! Use/MT
