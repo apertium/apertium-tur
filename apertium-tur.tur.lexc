@@ -3121,7 +3121,11 @@ tomar:tomar N1 ; !
 tabir:tabir N1 ; !
 sedir:sedir N1 ; !
 putperest:putperest N1 ; !
-
+tuğla:tuğla N1 ; !
+alçaklık:alçaklık N1 ; !
+deccal:deccal N1 ; !
+talan:talan N1 ; !
+tecavüz:tecavüz N1 ; !
 boşanma:boşanma N1 ; !
 tamam:tamam N1 ; !
 sat:sat N1 ; !
@@ -10807,6 +10811,7 @@ Medine:Medine NP-TOP ; !
 Java:Java NP-TOP ; !
 Seidiye:Seidiye NP-TOP ; !
 Sunen:Sunen NP-TOP ; !
+Nineve:Nineve NP-TOP ; !
 
 Karakaş:Karakaş NP-TOP ;
 Yarkent:Yarkent NP-TOP ; !
@@ -10972,6 +10977,8 @@ Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
+Adem% Baba:Adem% Baba NP-ANT-M ; !
+
 Yahuda:Yahuda NP-ANT-M ; !
 Yuhanna:Yuhanna NP-ANT-M ; !
 Matta:Matta NP-ANT-M ; !
@@ -11280,7 +11287,13 @@ Lama:Lama NP-COG-MF ; !
 Humeyni:Humeyni NP-COG-MF ; !"Use/MT"
 Tirmizî:Tirmizî NP-COG-MF ; !
 Mirziyayev:Mirziyayev NP-COG-MF ; !
-
+Yehoşafat:Yehoşafat NP-ANT-M ; !
+Pilatus:Pilatus NP-COG-MF ; !                                                                       
+Elyesa:Elyesa NP-ANT-M ; !                                                                          
+Yosiya:Yosiya NP-ANT-M ; !                                                                          
+Manasseh:Manasseh NP-ANT-M ; !                                                                      
+Abşalom:Abşalom NP-ANT-M ; !                                                                        
+Barnabas:Barnabas NP-ANT-M ; !
 Nasirdin:Nasirdin NP-COG-MF ; 
 Çeney:Çeney NP-COG-MF ; !"Use/MT"
 Rafsancani:Rafsancani NP-COG-MF ; !"Use/MT"
@@ -18734,6 +18747,8 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+karılı:karılı A1 ; !
+
 misl-i:misl-i A1 ; !
 milyonlarca:milyonlarca A1 ; !
 tamam:tamam A1 ; !
