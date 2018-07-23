@@ -3111,6 +3111,31 @@ sat:sat N1 ; !
 mükemmellik:mükemmellik N1 ; !
 kulluk:kulluk N1 ; !
 coşkunluk:coşkunluk N1 ; !
+Luka:Luka N1 ; !
+bab:bab N1 ; !
+kehanetçi:kehanetçi N1 ; !
+Beysaidalı:Beysaidalı N1 ; !
+İbrani:İbrani N1 ; !
+Levi:Levi N1 ; !
+tapınak:tapınak N1 ; !
+iğrençlik:iğrençlik N1 ; !
+bilgelik:bilgelik N1 ; !
+asilik:asilik N1 ; !
+şekel:şekel N1 ; !
+İncil:İncil N1 ; !
+firavun:firavun N1 ; !
+Zebur:Zebur N1 ; !
+arş:arş N1 ; !
+Şabat:Şabat N1 ; !
+Tevrat:Tevrat N1 ; !
+ehli% beyt:ehli% beyt N1 ; !
+beyt:beyt N1 ; !
+bilge:bilge N1 ; !
+İsrailli:İsrailli N1 ; !
+Yunan:Yunan N1 ; !
+kör:kör N1 ; !
+mat:mat N1 ; !
+gez:gez N1 ; !
 
 rıza:rıza N1 ; !
 tavaf:tavaf N1 ; !
@@ -3222,7 +3247,7 @@ klip:klip N1 ; !
 üslup:üslup N1 ; !
 taharet:taharet N1 ; !
 sahih-i:sahih-i N1 ; !
-Furkan:Furkan NP-ANT-M ; !
+
 Yehova:Yehova N1 ; !
 mesih:mesih N1 ; !
 Hanefi:Hanefi N1 ; !
@@ -10930,6 +10955,23 @@ Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
+Yahuda:Yahuda NP-ANT-M ; !
+Yuhanna:Yuhanna NP-ANT-M ; !
+Matta:Matta NP-ANT-M ; !
+İşaya:İşaya NP-ANT-M ; !
+Yahya:Yahya NP-ANT-M ; !
+Zekeriya:Zekeriya NP-ANT-M ; !
+Yeremya:Yeremya NP-ANT-M ; !
+Danyal:Danyal NP-ANT-M ; !
+Ezekiel:Ezekiel NP-ANT-M ; !
+Şaul:Şaul NP-ANT-M ; !
+Efraim:Efraim NP-ANT-M ; !
+Harun:Harun NP-ANT-M ; !
+Pavlus:Pavlus NP-ANT-M ; !
+Petrus:Petrus NP-ANT-M ; !
+Yeşu:Yeşu NP-ANT-M ; !
+
+Furkan:Furkan NP-ANT-M ; !
 Mahmut:Mahmut NP-ANT-M ; !
 Halmurat:Halmurat NP-ANT-M ;
 Efrasyab:Efrasyab NP-ANT-M ; !
@@ -11252,6 +11294,16 @@ Svetlana:Svetlana NP-ANT-F ; ! ""
 Nina:Nina NP-ANT-F ; ! ""
 Ursula:Ursula NP-ANT-F ; !
 Fatıma:Fatıma NP-ANT-F ; !
+Beytsaida:Beytsaida NP-TOP ; !
+Beytülafrah:Beytülafrah NP-TOP ; !
+Çarlık% Rusyası:Çarlık% Rusyası NP-TOP ; !
+Babil:Babil NP-TOP ; !
+Yeruşalem:Yeruşalem NP-TOP ; !
+Beytüllahim:Beytüllahim NP-TOP ; !
+Kenan:Kenan NP-TOP ; !
+Zion:Zion NP-TOP ; !
+Maveraünnehir:Maveraünnehir NP-TOP ; !
+Asur:Asur NP-TOP ; !
 
 Bar:Bar NP-TOP ; ! ""
 Başkortostan:Başkortostan NP-TOP ; ! ""
@@ -18661,6 +18713,10 @@ mütesanit:mütesanit A1 ; !
 milyonlarca:milyonlarca A1 ; !
 tamam:tamam A1 ; !
 coşkun:coşkun A1 ; !
+hakkanî:hakkanî A1 ; !
+semavi:semavi A1 ; !
+hoşbu:hoşbu A1 ; !
+müjdeli:müjdeli A1 ; !
 
 daimî:daimî A1 ; !
 yenlik:yenlik A1 ; !
@@ -20976,6 +21032,8 @@ bir% anda:bir% anda ADV1 ; !
 eksik:eksik ADV1 ; !
 kendi:kendi ADV1 ; !
 kolay:kolay ADV1 ; !
+bizce:bizce ADV1 ; !
+cevaben:cevaben ADV1 ; !
 
 olsa% da:olsa% da ADV1 ; !
 kim% ki:kim% ki ADV1 ; !
@@ -21210,6 +21268,7 @@ gizleyiver:gizleyiver V-IR-TV ; !
 dirilt:dirilt V-IR-TV ; !
 beyazlat:beyazlat V-IR-TV ; !
 ula:ula V-IR-TV ; !
+küre:küre V-IR-TV ; !
 
 baş% eğ:baş% eğ V-AR-IV ; !
 hesap% sor:hesap% sor V-AR-IV ; !
