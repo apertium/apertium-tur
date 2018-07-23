@@ -3659,7 +3659,6 @@ tavşan:tavşan N1 ; !
 yavşan:yavşan N1 ; !
 Yuan:Yuan N1 ; !
 ünvan:ünvan N1 ; !
-hıristiyan:hıristiyan N1 ; !
 ozan:ozan N1 ; !
 polen:polen N1 ; !
 rehin:rehin N1 ; !
@@ -4129,6 +4128,7 @@ saye:saye N1 ; ! "help"
 festival:festival%{ii%} N1 ; ! "festival"
 net:net N1 ; ! "net"
 müslüman:Müslüman N1 ; ! "muslim"
+müslüman:müslüman N1 ; ! "" ! Dir/LR
 ün:ün N1 ; ! "reputation"
 yürürlük:yürürlük%{v%} N1 ; ! "operation"
 liderlik:liderlik%{v%} N1 ; ! "leadership"
@@ -10211,6 +10211,7 @@ japon:Japon N3 ; ! "Japanese"
 türkmen:Türkmen N3 ; ! "Turkmen"
 mongol:Mongol N3 ; ! "Mongol"
 alman:Alman N3 ; ! "German"
+kırgız:kırgız N1 ; ! "" ! Dir/LR
 kırgız:Kırgız N3 ; ! "Kirghiz"
 gürcistanlı:Gürcistanlı N3 ; ! "Georgian"
 romanyalı:Romanyalı N3 ; ! "Romanian"
@@ -10243,6 +10244,7 @@ islamcı:İslamcı N1 ; ! "islamist"
 kıbrıslı:Kıbrıslı N1 ; ! "cypriot"
 belgradlı:Belgradlı N1 ; ! "belgradian ?"
 hıristiyan:Hıristiyan N1 ; ! "Christian"
+hıristiyan:hıristiyan N1 ; ! ! Dir/LR
 katolik:Katolik%{v%} N1 ; ! " catholic"
 çinli:Çinli N1 ; ! "chinese"
 hollandalı:Hollandalı N1 ; ! "dutch"
@@ -10405,7 +10407,6 @@ kemane:kemane N1 ; ! ""
 kermen:kermen N1 ; ! ""
 keşişhane:keşişhane N1 ; ! ""
 keskinlik:keskinlik%{v%} N1 ; ! ""
-kırgız:kırgız N1 ; ! ""
 kırımçak:kırımçak%{v%} N1 ; ! ""
 kitabet:kitabet N1 ; ! ""
 kolhoz:kolhoz N1 ; ! ""
@@ -10426,7 +10427,6 @@ m:m N1 ; ! ""
 moğol:moğol N1 ; ! ""
 muallimlik:muallimlik%{v%} N1 ; ! ""
 müezzin:müezzin N1 ; ! ""
-müslüman:müslüman N1 ; ! ""
 nazariye:nazariye N1 ; ! ""
 nicelik:nicelik%{v%} N1 ; ! ""
 oba:oba N1 ; ! ""
