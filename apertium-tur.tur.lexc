@@ -3105,6 +3105,23 @@ Profesör:Profesör TIT ; ! ""
 
 LEXICON Nouns
 Fatiha:Fatiha N1 ; !
+kurtarıcı:kurtarıcı N1 ; !
+Korintli:Korintli N1 ; !
+Ferisî:Ferisî N1 ; !
+adak:adak N1 ; !
+sunak:sunak N1 ; !
+kahinlik:kahinlik N1 ; !
+müritlik:müritlik N1 ; !
+ahlaksızlık:ahlaksızlık N1 ; !
+itaatsizlik:itaatsizlik N1 ; !
+sırık:sırık N1 ; !
+Baal:Baal N1 ; !
+cüzzam:cüzzam N1 ; !
+tomar:tomar N1 ; !
+tabir:tabir N1 ; !
+sedir:sedir N1 ; !
+putperest:putperest N1 ; !
+
 boşanma:boşanma N1 ; !
 tamam:tamam N1 ; !
 sat:sat N1 ; !
@@ -10970,6 +10987,15 @@ Harun:Harun NP-ANT-M ; !
 Pavlus:Pavlus NP-ANT-M ; !
 Petrus:Petrus NP-ANT-M ; !
 Yeşu:Yeşu NP-ANT-M ; !
+Ezra:Ezra NP-ANT-M ; !
+Hezekiya:Hezekiya NP-ANT-M ; !
+Yoab:Yoab NP-ANT-M ; !
+Herod:Herod NP-ANT-M ; !
+Menaşe:Menaşe NP-ANT-M ; !
+Efah:Efah NP-ANT-M ; !
+Yonatan:Yonatan NP-ANT-M ; !
+Benyamin:Benyamin NP-ANT-M ; !
+Nabukadnezar:Nabukadnezar NP-ANT-M ; !
 
 Furkan:Furkan NP-ANT-M ; !
 Mahmut:Mahmut NP-ANT-M ; !
@@ -11304,6 +11330,10 @@ Kenan:Kenan NP-TOP ; !
 Zion:Zion NP-TOP ; !
 Maveraünnehir:Maveraünnehir NP-TOP ; !
 Asur:Asur NP-TOP ; !
+Moab:Moab NP-TOP ; !
+Edom:Edom NP-TOP ; !
+Sodom:Sodom NP-TOP ; !
+Korint:Korint NP-TOP ; !
 
 Bar:Bar NP-TOP ; ! ""
 Başkortostan:Başkortostan NP-TOP ; ! ""
@@ -18717,7 +18747,15 @@ hakkanî:hakkanî A1 ; !
 semavi:semavi A1 ; !
 hoşbu:hoşbu A1 ; !
 müjdeli:müjdeli A1 ; !
+gıyabî:gıyabî A1 ; !
+mucizevi:mucizevi A1 ; !
+kurbanlık:kurbanlık A1 ; !
+tomar:tomar A1 ; !
+akraba:akraba A1 ; !
+tane:tane A1 ; !
+ahlaksız:ahlaksız A1 ; !
 
+itaatsiz:itaatsiz A1 ; !
 daimî:daimî A1 ; !
 yenlik:yenlik A1 ; !
 kuramsal:kuramsal A1 ; !
@@ -21034,6 +21072,8 @@ kendi:kendi ADV1 ; !
 kolay:kolay ADV1 ; !
 bizce:bizce ADV1 ; !
 cevaben:cevaben ADV1 ; !
+kinayeli:kinayeli ADV1 ; !
+gıyabî:gıyabî ADV1 ; !
 
 olsa% da:olsa% da ADV1 ; !
 kim% ki:kim% ki ADV1 ; !
@@ -21269,6 +21309,7 @@ dirilt:dirilt V-IR-TV ; !
 beyazlat:beyazlat V-IR-TV ; !
 ula:ula V-IR-TV ; !
 küre:küre V-IR-TV ; !
+meydana% gel:meydana% gel V-IR-IV ; !
 
 baş% eğ:baş% eğ V-AR-IV ; !
 hesap% sor:hesap% sor V-AR-IV ; !
