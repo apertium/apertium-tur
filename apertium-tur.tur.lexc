@@ -3105,6 +3105,10 @@ Profesör:Profesör TIT ; ! ""
 
 LEXICON Nouns
 Fatiha:Fatiha N1 ; !
+inanan:inanan N1 ; !
+diriliş:diriliş N1 ; !
+virane:virane N1 ; !
+
 kurtarıcı:kurtarıcı N1 ; !
 Korintli:Korintli N1 ; !
 Ferisî:Ferisî N1 ; !
@@ -10812,6 +10816,7 @@ Java:Java NP-TOP ; !
 Seidiye:Seidiye NP-TOP ; !
 Sunen:Sunen NP-TOP ; !
 Nineve:Nineve NP-TOP ; !
+Celile:Celile NP-TOP ; !
 
 Karakaş:Karakaş NP-TOP ;
 Yarkent:Yarkent NP-TOP ; !
@@ -10978,6 +10983,17 @@ Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
 Adem% Baba:Adem% Baba NP-ANT-M ; !
+Sare:Sare NP-ANT-F ; !
+Ester:Ester NP-ANT-F ; !
+
+Zedekiya:Zedekiya NP-ANT-M ; !
+Avimelek:Avimelek NP-ANT-M ; !
+Balaam:Balaam NP-ANT-M ; !
+Yarovam:Yarovam NP-ANT-M ; !
+Gideon:Gideon NP-ANT-M ; !
+Amos:Amos NP-ANT-M ; !
+Elihu:Elihu NP-ANT-M ; !
+Hagay:Hagay NP-ANT-M ; !
 
 Yahuda:Yahuda NP-ANT-M ; !
 Yuhanna:Yuhanna NP-ANT-M ; !
@@ -18748,8 +18764,10 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 LEXICON Adjectives
 karılı:karılı A1 ; !
-
+susuz:susuz A1 ; !
 misl-i:misl-i A1 ; !
+ülkeli:ülkeli A1 ; !
+ateşli:ateşli A1 ; !
 milyonlarca:milyonlarca A1 ; !
 tamam:tamam A1 ; !
 coşkun:coşkun A1 ; !
