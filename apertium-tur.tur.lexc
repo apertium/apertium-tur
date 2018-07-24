@@ -2944,6 +2944,8 @@ hiçbir% şey:hiç% birşey PRON-NEG ; ! "nothing" ! Dir/LR
 hiçbir% şey:hiçbir% şey PRON-NEG ; ! "nothing"
 hiç% kimse:hiç% kimse PRON-NEG ; ! "nobody"
 herkes:herkes PRON-QNT ; ! "everybody"
+her% bir:her% bir PRON-QNT ; !
+
 ekseri:ekser PRON-QNT ; ! ""
 hiç:hiç PRON-QNT ; !
 biri:biri PRON-PERS ; 
@@ -3104,11 +3106,25 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+Aşerah:Aşerah N1 ; !
+Mesihî:Mesihî N1 ; !
+Arami:Arami N1 ; !
+Keldani:Keldani N1 ; !
+kadınlık:kadınlık N1 ; !
+peygamberlik:peygamberlik N1 ; !
+vefasızlık:vefasızlık N1 ; !
+katl:katl N1 ; !
+irem:irem N1 ; !
+prenses:prenses N1 ; !
+
 Fatiha:Fatiha N1 ; !
 inanan:inanan N1 ; !
 diriliş:diriliş N1 ; !
 virane:virane N1 ; !
-
+oyma:oyma N1 ; !
+Beytsaidalı:Beytsaidalı N1 ; !
+Kenanlı:Kenanlı N1 ; !
+esen:esen N1 ; !
 kurtarıcı:kurtarıcı N1 ; !
 Korintli:Korintli N1 ; !
 Ferisî:Ferisî N1 ; !
@@ -10985,6 +11001,26 @@ Emre:Emre NP-ANT-M ; !
 Adem% Baba:Adem% Baba NP-ANT-M ; !
 Sare:Sare NP-ANT-F ; !
 Ester:Ester NP-ANT-F ; !
+Hoşea:Hoşea NP-ANT-M ; !
+Mika:Mika NP-ANT-M ; !
+Nehemya:Nehemya NP-ANT-M ; !
+Ahab:Ahab NP-ANT-M ; !
+Celead:Celead NP-ANT-M ; !
+Efod:Efod NP-ANT-M ; !
+Zerubbabel:Zerubbabel NP-ANT-M ; !
+Yoel:Yoel NP-ANT-M ; !
+Rehavam:Rehavam NP-ANT-M ; !
+Laban:Laban NP-ANT-M ; !
+Netan:Netan NP-ANT-M ; !
+Ruben:Ruben NP-ANT-M ; !
+Samson:Samson NP-ANT-M ; !
+Eliezer:Eliezer NP-ANT-M ; !
+Timoteos:Timoteos NP-ANT-M ; !
+Darius:Darius NP-ANT-M ; !
+Lut:Lut NP-ANT-M ; !
+Yehu:Yehu NP-ANT-M ; !
+Ahaz:Ahaz NP-ANT-M ; !
+Boaz:Boaz NP-ANT-M ; !
 
 Zedekiya:Zedekiya NP-ANT-M ; !
 Avimelek:Avimelek NP-ANT-M ; !
@@ -18768,6 +18804,8 @@ susuz:susuz A1 ; !
 misl-i:misl-i A1 ; !
 ülkeli:ülkeli A1 ; !
 ateşli:ateşli A1 ; !
+hicvi:hicvi A1 ; !
+vahim:vahim A1 ; !
 milyonlarca:milyonlarca A1 ; !
 tamam:tamam A1 ; !
 coşkun:coşkun A1 ; !
@@ -21107,6 +21145,9 @@ bizce:bizce ADV1 ; !
 cevaben:cevaben ADV1 ; !
 kinayeli:kinayeli ADV1 ; !
 gıyabî:gıyabî ADV1 ; !
+eğer:eğer ADV1 ; !
+yeni% baştan:yeni% baştan ADV1 ; !
+içinde:içinde ADV1 ; !
 
 olsa% da:olsa% da ADV1 ; !
 kim% ki:kim% ki ADV1 ; !
@@ -21343,6 +21384,7 @@ beyazlat:beyazlat V-IR-TV ; !
 ula:ula V-IR-TV ; !
 küre:küre V-IR-TV ; !
 meydana% gel:meydana% gel V-IR-IV ; !
+vaftiz% et:vaftiz% et V-AR-TV ; !
 
 baş% eğ:baş% eğ V-AR-IV ; !
 hesap% sor:hesap% sor V-AR-IV ; !
