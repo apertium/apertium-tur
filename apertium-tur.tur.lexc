@@ -3104,6 +3104,12 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+Amonî:Amonî N1 ; !
+binbaşı:binbaşı N1 ; !
+Yahuda:Yahuda N1 ; !
+artık:artık N1 ; !
+
+Adem% Baba:Adem% Baba N1 ; !
 Aşerah:Aşerah N1 ; !
 Mesihî:Mesihî N1 ; !
 Arami:Arami N1 ; !
@@ -10841,7 +10847,8 @@ Nasıra:Nasıra NP-TOP ; !
 Azariya:Azariya NP-TOP ; !
 Samarya:Samarya NP-TOP ; !
 Nil:Nil NP-TOP ; !
-
+Beca:Beca NP-TOP ; !
+Tarşiş:Tarşiş NP-TOP ; !
 Karakaş:Karakaş NP-TOP ;
 Yarkent:Yarkent NP-TOP ; !
 Kızıldağ:Kızıldağ NP-TOP ; !
@@ -11010,8 +11017,11 @@ Zadok:Zadok NP-ANT-M ; !
 Abner:Abner NP-ANT-M ; !
 Antiokhos:Antiokhos NP-ANT-M ; !
 Mordekay:Mordekay NP-ANT-M ; !
+Beer:Beer NP-ANT-M ; !
+Koreş:Koreş NP-ANT-M ; !
+Hamat:Hamat NP-ANT-M ; !
+Şulamit:Şulamit NP-ANT-M ; !
 
-Adem% Baba:Adem% Baba NP-ANT-M ; !
 Sare:Sare NP-ANT-F ; !
 Ester:Ester NP-ANT-F ; !
 Hoşea:Hoşea NP-ANT-M ; !
@@ -21402,6 +21412,8 @@ ula:ula V-IR-TV ; !
 küre:küre V-IR-TV ; !
 meydana% gel:meydana% gel V-IR-IV ; !
 vaftiz% et:vaftiz% et V-AR-TV ; !
+çürütül:çürütül V-IR-IV ; !
+kibirlen:kibirlen V-IR-IV ; !
 
 baş% eğ:baş% eğ V-AR-IV ; !
 hesap% sor:hesap% sor V-AR-IV ; !
