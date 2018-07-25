@@ -311,7 +311,7 @@ Cx:Cy <=> [ %{p%}: | :CnsDev ] [ [ :0 - %{p%}: ] | :%' ]* _ ;
 "Epenthetic consonants after vowel"
 Cx:Cy <=>  [ [ AbstrVow: - %{ь%}: ] | :SurVow ] (%':) (:0) %>: _ ; 
            [ [ AbstrVow: - %{ь%}: ] | :SurVow ]    %-: %>: _ ;
-           [ [ AbstrVow: - %{ь%}: ] | :SurVow ] [ %% | %- | :0 | :%' | %  ]+ %>: _ ;
+           [ [ AbstrVow: - %{ь%}: ] | :SurVow ] [ %% | %- | [ :0 - %{p%}: ] | :%' | %  ]+ %>: _ ;
         except
            %{A%}: %{z%}:0 %>: _ %{I%}: m ;
                           %>: _ .#. ; ! git<v><iv><ger><nom>+i<cop><aor><p3><sg> : git{v}>m{A}>{y} : gitme
@@ -332,6 +332,7 @@ Cx:Cy <=>  [ [ AbstrVow: - %{ь%}: ] | :SurVow ] (%':) (:0) %>: _ ;
 !@ 9:9 2:2 {ь}:0 %:% -:- >:0 {y}:y {I}:i
 !@ 2 6 {ı}:0 % - >:0 {s}:s {I}:ı {n}:0
 !@ z e n g i n l i k {v}:0 >:0 l {A}:e r >:0 {s}:0 {I}:i {n}:n >:0 {D}:d {A}:e n
+!@ 3 {ö}:0 {p}:0 ' >:0 {s}:0 {I}:ü {n}:0
 
 "Prevocalic consonant voicing"
 !Cx:Cy <=> :Vow (:0) _ %{v%}: %>: (:0) :SurVow ;
