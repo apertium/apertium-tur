@@ -27,19 +27,21 @@ Alphabet
 
  %{z%}:z
 
- %{ii%}:0 %{o%}:0 %{ö%}:0 %{ı%}:0 %{p%}:0 %{b%}:0 ! For numerals and abbreviations / acronyms
+ %{o%}:0 %{ö%}:0 %{ı%}:0 %{p%}:0 %{b%}:0 ! For numerals and abbreviations / acronyms
 
  %{k%}:k ! ???
  
  %{v%}:0 ! Voicing
 
- %{fi%}:0 ! force front vowel harmony
+ %{ь%}:0 ! force front vowel harmony
 
  %>:0
 
  %%
-
- %+ %- %' % ;
+ %+ 
+ %- 
+ %' 
+ %  ;
 
 
 
@@ -58,7 +60,7 @@ Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z
          b c ç d f g ğ h j k l m n p q r s ş t v w y z 
          %' %{ç%} %{t%} ;
 
-AbstrVow = %{fi%} %{ii%} %{ö%} %{o%} %{ı%} %{u%} ; 
+AbstrVow = %{ь%} %{ö%} %{o%} %{ı%} %{u%} ; 
 
 HardVow  = a â ı o u 
            A Â I O U ;
@@ -83,17 +85,21 @@ Rules
 %{I%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ [ :0 - [ AbstrVow:0 - %{u%}: ] ] | %>: | %  ] _ ;
                                                        :LastVowel :Cns*  %'  %>: _ ;
         except
-                                             %{e%}:0 %>: _ ;
-                                         [ AbstrVow:0 - %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
-                      [ %{z%}:0 %>: %{y%}: ]/:0 _ :m ;
+                                                                           %{e%}:0 %>: _ ;
+                                      [ AbstrVow:0 - %{u%}: ] [ %% | %- | :0 | :Cns | :%' | %  ]* _ ; 
+                                                             [ %{z%}:0 %>: %{y%}: ]/:0 _ :m ;
+ 
         where 
             LastVowel in ( i ü e ö ı u a o â İ Ü E Ö I U A O Â )  ! This is horrible why do we need to do it with uppercase too
                    Vy in ( i ü i ü ı u ı u ı i ü i ü ı u ı u ı )  
             matched;
 
+!@ 2 6 {ı}:0 % - >:0 {s}:s {I}:ı {n}:0
+
+
 "Vowel harmony to abstract vowels for archiphoneme {I}"
-!%{I%}:Vy <=> Vx:0 [ :0 | :Cns | :%' | % ]* _ ;
-%{I%}:Vy <=> Vx:0 [ [ :0 - Vx: ] | :Cns | :%' | % ]* _ ;
+!%{I%}:Vy <=> Vx:0 [ %% | %- | :0 | :Cns | :%' | %  ]* _ ;
+%{I%}:Vy <=> Vx:0 [ [ :0 - Vx: ] | %% | %-  | :Cns | :%' | %  ]* _ ;
                            Vx: %'  %>: _ ;
         except 
              [ AbstrVow: - [ Vx: | %{u%}: ] ] [ :0 | :Cns | :%' | % ]* _ ; 
@@ -101,14 +107,14 @@ Rules
 !                      [ %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
                                 [ %{z%}:0 %>: %{y%}: ]/:0 _ ;
         where 
-              Vx in ( %{fi%} %{ii%} %{o%} %{ö%} %{ı%} ) 
-              Vy   in (  i      i     u     ü     ı   )  
+              Vx in ( %{ь%} %{o%} %{ö%} %{ı%} ) 
+              Vy   in (  i    u     ü     ı   )  
                matched ;
 
 !"Hidden vowel harmony for archiphoneme {I}:i"
-!%{I%}:i <=> [ %{fi%}:0 | %{ii%}:0 ]/[ [ :0 - [ %{fi%}: | %{ii%}: ] ] | :Cns | :%' | % ]* _ ;
+!%{I%}:i <=> [ %{ь%}:0 | %{ь%}:0 ]/[ [ :0 - [ %{ь%}: | %{ь%}: ] ] | :Cns | :%' | % ]* _ ;
 !        except 
-!             [ AbstrVow: - [ %{fi%}: | %{ii%}: | %{u%}: ] ] [ :0 | :Cns | :%' | % ]* _ ; 
+!             [ AbstrVow: - [ %{ь%}: | %{ь%}: | %{u%}: ] ] [ :0 | :Cns | :%' | % ]* _ ; 
 !                                              %{e%}:0 %>: _ ;
 !
 !"Hidden vowel harmony for archiphoneme {I}:u"
@@ -177,7 +183,7 @@ Rules
                                               %{e%}:0 %>: _ ;
 !                      [ %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
         where 
-              Vx in ( %{fi%} %{ii%} %{o%} %{ö%} %{ı%} ) 
+              Vx in ( %{ь%} %{ь%} %{o%} %{ö%} %{ı%} ) 
               Vy   in (  i      i     u     ü     ı   )  
                matched ;
 
@@ -208,7 +214,7 @@ Rules
 !            matched;
 
 "High-vowel epenthesis, surfacing of {u} when not syllable-final"
-%{u%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 - [ %{fi%}: | %{u%}: ] ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>: ] ;
+%{u%}:Vy <=> [ :LastVowel :Cns* :Cns ]/[ :0 - [ %{ь%}: | %{u%}: ] ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>: ] ;
         where 
             LastVowel in ( i ü e ö ı u a o â )
                    Vy in ( i ü i ü ı u ı u ı ) 
@@ -218,7 +224,7 @@ Rules
 ! bur{u}n>{i}m          = burnum     =  
 
 "Irregular high-vowel epenthesis"
-%{u%}:i <=> [ :Cns %{fi%}: ]/[ :0 - [ %{fi%}: | %{u%}: ] ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>: ] ;
+%{u%}:i <=> [ :Cns %{ь%}: ]/[ :0 - [ %{ь%}: | %{u%}: ] ] _ [ :Cns [ .#. | :Cns ] ]/[ :0 | %>: ] ;
 
 
 ! nak{fi}{u}t           = nakit
@@ -241,13 +247,13 @@ Rules
             [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
        except
               _ %>: %{I%}: y:y o:o r:r ;
-             [ %{ii%}:0 | %{ö%}:0 | %{ı%}:0 | %{o%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
+             [ %{ь%}:0 | %{ö%}:0 | %{ı%}:0 | %{o%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
 
 "Underlying vowel harmony for archiphoneme {A}"
-%{A%}:e <=> [ %{fi%}:0 | %{ii%}:0 | %{ö%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
+%{A%}:e <=> [ %{ь%}:0 | %{ь%}:0 | %{ö%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
         except 
               _ %>: %{I%}: y:y o:o r:r ;
-             [ AbstrVow: - [ %{fi%}:0 | %{ii%}: | %{ö%}: | %{u%}:] ] [ :0 | :Cns | :%' | % ]* _ ; 
+             [ AbstrVow: - [ %{ь%}:0 | %{ь%}: | %{ö%}: | %{u%}:] ] [ :0 | :Cns | :%' | % ]* _ ; 
              [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
              [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
 
@@ -303,8 +309,9 @@ Cx:Cy <=> [ %{p%}: | :CnsDev ] [ [ :0 - %{p%}: ] | :%' ]* _ ;
 ! akü>{N}{I}n       = akünün    = a:a k:k ü:ü >:0 {N}:n {I}:ü n:n
 
 "Epenthetic consonants after vowel"
-Cx:Cy <=>  [ [ AbstrVow: - %{fi%}: ] | :SurVow ] (%':) (:0) %>: _ ; 
-           [ [ AbstrVow: - %{fi%}: ] | :SurVow ]    %-: %>: _ ;
+Cx:Cy <=>  [ [ AbstrVow: - %{ь%}: ] | :SurVow ] (%':) (:0) %>: _ ; 
+           [ [ AbstrVow: - %{ь%}: ] | :SurVow ]    %-: %>: _ ;
+           [ [ AbstrVow: - %{ь%}: ] | :SurVow ] [ %% | %- | [ :0 - %{p%}: ] | :%' | %  ]+ %>: _ ;
         except
            %{A%}: %{z%}:0 %>: _ %{I%}: m ;
                           %>: _ .#. ; ! git<v><iv><ger><nom>+i<cop><aor><p3><sg> : git{v}>m{A}>{y} : gitme
@@ -322,7 +329,10 @@ Cx:Cy <=>  [ [ AbstrVow: - %{fi%}: ] | :SurVow ] (%':) (:0) %>: _ ;
 ! anne>{y}{I}       = anneyi   = 
 ! Sofya'>y{I}       = Sofya'yı 
 ! ner>ede>{y}>l{A}r = neredeler 
-!@ 9:9 2:2 {ii}:0 %:% -:- >:0 {y}:y {I}:i
+!@ 9:9 2:2 {ь}:0 %:% -:- >:0 {y}:y {I}:i
+!@ 2 6 {ı}:0 % - >:0 {s}:s {I}:ı {n}:0
+!@ z e n g i n l i k {v}:0 >:0 l {A}:e r >:0 {s}:0 {I}:i {n}:n >:0 {D}:d {A}:e n
+!@ 3 {ö}:0 {p}:0 ' >:0 {s}:0 {I}:ü {n}:0
 
 "Prevocalic consonant voicing"
 !Cx:Cy <=> :Vow (:0) _ %{v%}: %>: (:0) :SurVow ;

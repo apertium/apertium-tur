@@ -181,13 +181,12 @@ Multichar_Symbols
 %{s%}		   ! Becomes "s" after a vowel, otherwise null
 %{i%}		   ! Becomes as "i" after a consonant, otherwise null
 %{n%}		   ! Becomes "n" before dat abl loc and after 3p poss, otherwise null
-%{e%}
-%{a%}
+%{e%}              ! 
+%{a%}              ! 
 %{k%}              ! ???
 %{в%}              !
 
-%{fö%}             ! Enforce rounded front harmony
-%{fi%}             ! Enforce unrounded front harmony
+%{ь%}              ! Enforce unrounded front harmony
 
 %{p%}              ! Last consonant unvoiced (Cnsdev)
 %{b%}              ! Last consonant voiced
@@ -195,7 +194,6 @@ Multichar_Symbols
 %{o%}              ! Back round
 %{ı%}              ! Back unround
 %{ö%}              ! Front round
-%{ii%}             ! Front unround
 
 %{u%}              ! Harmonising "deletion/insertion vowel"
 
@@ -275,8 +273,8 @@ LEXICON NUM-DIGIT
 %<num%>%<percent%>:% %% # ; ! Dir/LR
 %<num%>%<percent%>%<subst%>%<nom%>:%% # ;
 %<num%>%<percent%>%<subst%>%<nom%>:% %% # ; ! Dir/LR
-%<num%>%<percent%>%<subst%>:%%%- SUBST-NONOM ;
-%<num%>%<percent%>%<subst%>:% %%%- SUBST-NONOM ; ! Dir/LR
+%<num%>%<percent%>%<subst%>:%%%' SUBST-NONOM ;
+%<num%>%<percent%>%<subst%>:% %%%' SUBST-NONOM ; ! Dir/LR
 
 
 !°С%<num%>:°С # ;
@@ -301,31 +299,31 @@ m:m SQRD ;
 
 LEXICON LASTDIGIT
 
-1:1%{ii%}%{b%}           NUM-DIGIT ; ! "bir"
-2:2%{ii%}                NUM-DIGIT ; ! "iki"
+1:1%{ь%}%{b%}           NUM-DIGIT ; ! "bir"
+2:2%{ь%}                NUM-DIGIT ; ! "iki"
 3:3%{ö%}%{p%}           NUM-DIGIT ; ! "üç"
 4:4%{ö%}%{p%}           NUM-DIGIT ; ! "dört"
-5:5%{ii%}%{p%}           NUM-DIGIT ; ! "beş"
+5:5%{ь%}%{p%}           NUM-DIGIT ; ! "beş"
 6:6%{ı%}                NUM-DIGIT ; ! "altı"
-7:7%{ii%}                NUM-DIGIT ; ! "yedi"
-8:8%{ii%}%{b%}           NUM-DIGIT ; ! "sekiz"
+7:7%{ь%}                NUM-DIGIT ; ! "yedi"
+8:8%{ь%}%{b%}           NUM-DIGIT ; ! "sekiz"
 9:9%{o%}%{b%}           NUM-DIGIT ; ! "dokuz"
 
 LEXICON LASTDIGIT-REST
 
 1%0:1%0%{o%}%{b%}       NUM-DIGIT ; ! "on"
-2%0:2%0%{ii%}            NUM-DIGIT ; ! "yirmi"
+2%0:2%0%{ь%}            NUM-DIGIT ; ! "yirmi"
 3%0:3%0%{o%}%{b%}       NUM-DIGIT ; ! "otuz"
 4%0:4%0%{ı%}%{p%}       NUM-DIGIT ; ! "kırk"
-5%0:5%0%{ii%}            NUM-DIGIT ; ! "elli"
+5%0:5%0%{ь%}            NUM-DIGIT ; ! "elli"
 6%0:6%0%{ı%}%{p%}       NUM-DIGIT ; ! "altmış"
-7%0:7%0%{ii%}%{p%}       NUM-DIGIT ; ! "yetmiş"
-8%0:8%0%{ii%}%{b%}       NUM-DIGIT ; ! "seksen"
+7%0:7%0%{ь%}%{p%}       NUM-DIGIT ; ! "yetmiş"
+8%0:8%0%{ь%}%{b%}       NUM-DIGIT ; ! "seksen"
 9%0:9%0%{ı%}%{b%}       NUM-DIGIT ; ! "doksan"
 
 LEXICON POWERS
 %0%0:%0%0%{ö%}%{b%}     NUM-DIGIT ; ! "yüz"
-%0%0%0:%0%0%0%{ii%}%{b%} NUM-DIGIT ; ! "bin"
+%0%0%0:%0%0%0%{ь%}%{b%} NUM-DIGIT ; ! "bin"
 
 LEXICON LOOP
 
@@ -4146,7 +4144,7 @@ veriler:veriler N1 ; ! "parameter"
 suçlu:suçlu N1 ; ! "criminal"
 fikir:fik%{u%}r N1 ; ! "idea"
 örnek:örnek%{v%} N1 ; ! "representative"
-dikkat:dikkat%{fi%} N1 ; ! "attention"
+dikkat:dikkat%{ь%} N1 ; ! "attention"
 olanak:olanak%{v%} N1 ; ! "possibility"
 yardım:yardım N1 ; ! "help"
 rakam:rakam N1 ; ! "figure"
@@ -4197,7 +4195,7 @@ tehlike:tehlike N1 ; ! "danger"
 Ortodoks:Ortodoks N1 ; ! "orthodox"
 olasılık:olasılık%{v%} N1 ; ! "probability"
 saye:saye N1 ; ! "help"
-festival:festival%{ii%} N1 ; ! "festival"
+festival:festival%{ь%} N1 ; ! "festival"
 net:net N1 ; ! "net"
 müslüman:Müslüman N1 ; ! "muslim"
 müslüman:müslüman N1 ; ! "" ! Dir/LR
@@ -4427,7 +4425,7 @@ ahşap:ahşap N1 ; ! "wooden"
 ahtapot:ahtapot N1 ; ! "octopus"
 ahu:ahu N1 ; ! "antelope"
 ahududu:ahududu N1 ; ! "raspberry"
-ahval:ahval%{fi%} N1 ; ! "condition"
+ahval:ahval%{ь%} N1 ; ! "condition"
 aidat:aidat N1 ; ! "subscription"
 aidiyet:aidiyet N1 ; ! "relation"
 aile:aile N1 ; ! "family"
@@ -5474,7 +5472,7 @@ dikim:dikim N1 ; ! "sewing"
 dikişçi:dikişçi N1 ; ! "sewer"
 dikiş:dikiş N1 ; ! "sewing"
 dikiz:dikiz N1 ; ! "peep"
-dikkat:dikkat%{fi%} N1 ; ! "caution"
+dikkat:dikkat%{ь%} N1 ; ! "caution"
 diktatör:diktatör N1 ; ! "dictator"
 dikte:dikte N1 ; ! "dictation"
 dil:dil N1 ; ! "tongue"
@@ -6292,10 +6290,10 @@ halayık:halayık N1 ; ! "slave"
 halef:halef N1 ; ! "successor"
 halel:halel N1 ; ! "injury"
 halet:halet N1 ; ! "situation"
-hal:hal%{ii%} N1 ; ! "aspect"
-hal:hal%{ii%} N1 ; ! "condition"
-hal:hal%{ii%} N1 ; ! "situation"
-hal:hal%{ii%} N1 ; ! "state"
+hal:hal%{ь%} N1 ; ! "aspect"
+hal:hal%{ь%} N1 ; ! "condition"
+hal:hal%{ь%} N1 ; ! "situation"
+hal:hal%{ь%} N1 ; ! "state"
 halı:halı N1 ; ! "carpet"
 halik:halik%{v%} N1 ; ! "creator"
 halka:halka N1 ; ! "ring"
@@ -6363,7 +6361,7 @@ harekat:harekat N1 ; ! "operation"
 hareket:hareket N1 ; ! "motion"
 hareket:hareket N1 ; ! "move"
 hareket:hareket N1 ; ! "movement"
-harf:harf%{fi%} N1 ; ! ""
+harf:harf%{ь%} N1 ; ! ""
 harem:harem N1 ; ! "harem"
 hariç:hariç%{v%} N1 ; ! "exterior"
 harikulade:harikulade N1 ; ! "wonderful"
@@ -6373,8 +6371,8 @@ harita:harita N1 ; ! "map"
 harman:harman N1 ; ! "harvest"
 harmanlama:harmanlama N1 ; ! "blend"
 harnup:harnup N1 ; ! "locust"
-harp:harp%{v%}%{fi%} N1 ; ! "battle"
-harp:harp%{v%}%{fi%} N1 ; ! "war"
+harp:harp%{v%}%{ь%} N1 ; ! "battle"
+harp:harp%{v%}%{ь%} N1 ; ! "war"
 hars:hars N1 ; ! "culture"
 hartuç:hartuç N1 ; ! "cartouche"
 hartuç:hartuç N1 ; ! "cartridge"
@@ -6748,7 +6746,7 @@ ide:ide N1 ; ! "idea"
 ideoloji:ideoloji N1 ; ! "ideology"
 idman:idman N1 ; ! "practice"
 idman:idman N1 ; ! "training"
-idrak:idrak%{fi%} N1 ; ! "intelligence"
+idrak:idrak%{ь%} N1 ; ! "intelligence"
 idrar:idrar N1 ; ! "urine"
 ifade:ifade N1 ; ! "statement"
 ifa:ifa N1 ; ! "satisfaction"
@@ -7314,7 +7312,7 @@ kalker:kalker N1 ; ! "chalk"
 kalorifer:kalorifer N1 ; ! "heater"
 kalori:kalori N1 ; ! "calorie"
 kalpazanlık:kalpazanlık%{v%} N1 ; ! "forgery"
-kalp:kalp%{v%}%{fi%} N1 ; ! "heart"
+kalp:kalp%{v%}%{ь%} N1 ; ! "heart"
 kalsiyum:kalsiyum N1 ; ! "calcium"
 kaltak:kaltak N1 ; ! "whore"
 kamara:kamara N1 ; ! "chamber"
@@ -8920,7 +8918,7 @@ statü:statü N1 ; ! "status" ! FIXME: Check
 boykot:boykot N1 ; ! "boycot"
 program:program N1 ; ! "program"
 sistem:sistem N1 ; ! "system"
-festival:festival%{fi%} N1 ; ! "festival"
+festival:festival%{ь%} N1 ; ! "festival"
 televizyon:televizyon N1 ; ! "television"
 üniversite:üniversite N1 ; ! "university"
 referandum:referandum N1 ; ! "referendum"
@@ -8932,7 +8930,7 @@ politika:politika N1 ; ! "policy" FIXME: Check
 cep:cep N1 ; ! "pocket"
 şef:şef N1 ; ! "head/boss"
 birara:birara N1 ; ! "moment"
-terminal:terminal%{fi%} N1 ; ! ""
+terminal:terminal%{ь%} N1 ; ! ""
 
 entegrasyon:entegrasyon N1 ; ! "" 
 operasyon:operasyon N1 ; ! "" 
@@ -8998,7 +8996,7 @@ nakarat:nakarat N1 ; ! "repeat"
 nakdi:nakdi N1 ; ! "cash"
 nakil:nakil N1 ; ! "transport"
 nakış:nakış N1 ; ! "decoration"
-nakit:nak%{fi%}%{u%}t N1 ; ! "cash"
+nakit:nak%{ь%}%{u%}t N1 ; ! "cash"
 tercih:tercih N1 ; ! "preference" 
 tercüman:tercüman N1 ; ! "" 
 nakkaş:nakkaş N1 ; ! "painter"
@@ -9150,7 +9148,7 @@ sebep:sebep%{v%} N1 ; ! "reason"
 şeker:şeker N1 ; ! "sugar"
 selam:selam N1 ; ! "greeting"
 şenlik:şenlik%{v%} N1 ; ! "festival"
-serhat:serhat%{fi%} N1 ; ! "border"
+serhat:serhat%{ь%} N1 ; ! "border"
 servis:servis N1 ; ! "service"
 sevda:sevda N1 ; ! "love"
 sıcaklık:sıcaklık%{v%} N1 ; ! "warmth"
@@ -9203,7 +9201,7 @@ zaman:zaman N1 ; ! "time"
 zevk:zevk N1 ; ! "satisfaction"
 renk:renk%{v%} N1 ; ! "colour"@@@@@@@
 cenk:cenk%{v%} N1 ; ! ""
-saat:saat%{fi%} N1 ; ! "time" "Watch" "hour"
+saat:saat%{ь%} N1 ; ! "time" "Watch" "hour"
 yaş:yaş N1 ; ! "age"
 ses:ses N1 ; ! "voice, sound"
 pencere:pencere N1 ; ! "window" 
@@ -9460,7 +9458,7 @@ ayrıntı:ayrıntı N1 ; ! "detail"
 !bütün ayrıntı N1 ; ! "all detail(s..)" ! Dir/RL ! Use/MT
 erişteli% çorba:erişteli% çorba N1 ; ! Use/MT
 uyku:uyku N1 ; ! "sleep"
-vakit:vak%{fi%}%{u%}t N1 ; ! "time"
+vakit:vak%{ь%}%{u%}t N1 ; ! "time"
 sunucu:sunucu N1 ; ! "MC, host"
 rahatlık:rahatlık N1 ; ! "pleasure"
 taksit:taksit N1 ; ! "(loan/debt) payment"
@@ -12667,12 +12665,12 @@ Sovyet% Sosyalist% Cumhuriyetler% Birliği:Sovyet% Sosyalist% Cumhuriyetler% Bir
 
 Balkanlar:Balkanlar NP4-TOP ; ! ""
 
-ABD:ABD%{ii%} NP-TOP-ACR ; ! ""
-AB:AB%{ii%} NP-TOP-ACR ; ! ""
-BH:BH%{ii%} NP-TOP-ACR ; ! ""
-BiH:BiH%{ii%} NP-TOP-ACR ; ! ""
-SSCB:SSCB%{ii%} NP-TOP-ACR ; ! ""
-ABC:ABC%{ii%} NP-TOP-ACR ; ! ""
+ABD:ABD%{ь%} NP-TOP-ACR ; ! ""
+AB:AB%{ь%} NP-TOP-ACR ; ! ""
+BH:BH%{ь%} NP-TOP-ACR ; ! ""
+BiH:BiH%{ь%} NP-TOP-ACR ; ! ""
+SSCB:SSCB%{ь%} NP-TOP-ACR ; ! ""
+ABC:ABC%{ь%} NP-TOP-ACR ; ! ""
 EU:EU NP-TOP-ACR ; ! ""
 
 ! Organisations
@@ -12731,9 +12729,9 @@ NATO:NATO%{o%} NP-ORG ; ! ""
 PKK:PKK%{ı%} NP-ORG ; ! ""
 UNMIK:UNMIK NP-ORG ; ! ""
 FIFA:FIFA NP-ORG ; ! ""
-IMF:IMF%{ii%}  NP-ORG ; ! ""
-GSYİH:GSYİH%{ii%}  NP-ORG ; ! ""
-AFP:AFP%{ii%} NP-ORG ; ! ""
+IMF:IMF%{ь%}  NP-ORG ; ! ""
+GSYİH:GSYİH%{ь%}  NP-ORG ; ! ""
+AFP:AFP%{ь%} NP-ORG ; ! ""
 UNICEF:UNICEF NP-ORG ; ! ""
 UNESCO:UNESCO%{o%} NP-ORG ; ! ""
 WHO:WHO%{o%} NP-ORG ; ! ""
@@ -12745,7 +12743,7 @@ Bild:Bild NP-ORG ; ! ""
 Times:Times%{ı%}%{b%} NP-ORG ; ! ""
 Olimpiyat:Olimpiyat NP-ORG ; ! "olympics"
 GSYİH:GSYİH%{ı%} NP-ORG ; ! 
-FT:FT%{ii%} NP-ORG ; ! 
+FT:FT%{ь%} NP-ORG ; ! 
 Telekom:Telekom NP-ORG ; ! "telecom"
 Gazprom:Gazprom NP-ORG ; ! ""
 Financial% Times:Financial% Times%{ı%} NP-ORG ; ! ""
@@ -12753,10 +12751,10 @@ Deutsche% Telekom:Deutsche% Telekom NP-ORG ; ! ""
 Deutsche% Welle:Deutsche% Welle NP-ORG ; ! ""
 
 Getty% Images:Getty% Images NP-ORG ; ! ""
-SC:SC%{ii%} NP-ORG ; ! ""
+SC:SC%{ь%} NP-ORG ; ! ""
 The% Times:The% Times NP-ORG ; ! ""
 STK:STK{ii%} NP-ORG ; ! ""
-PfP:PfP%{ii%} NP-ORG ; ! ""
+PfP:PfP%{ь%} NP-ORG ; ! ""
 
 ABC:ABC{ii%} NP-ORG ; ! "ABC"
 AKP:AKP{ii%} NP-ORG ; ! ""
@@ -12765,10 +12763,10 @@ VMRO:VMRO NP-ORG ; ! ""
 DPA:DPA NP-ORG ; ! ""
 SFOR:SFOR NP-ORG ; ! ""
 AGİT:AGİT NP-ORG ; ! ""
-ICTY:ICTY%{ii%} NP-ORG ; ! ""
+ICTY:ICTY%{ь%} NP-ORG ; ! ""
 EULEX:EULEX NP-ORG ; ! ""
 VMRO%-DPMNE:VMRO%-DPMNE NP-ORG ; ! ""
-HDZ:HDZ%{ii%} NP-ORG ; ! ""
+HDZ:HDZ%{ь%} NP-ORG ; ! ""
 EUFOR:EUFOR NP-ORG ; ! ""
 VOA:VOA NP-ORG ; ! ""
 EBRD:EBRD NP-ORG ; ! ""
@@ -12786,7 +12784,7 @@ UEFA:UEFA NP-ORG ; ! ""
 UNFICYP:UNFICYP NP-ORG ; ! ""
 HSBC:HSBC NP-ORG ; ! ""
 IATA:IATA NP-ORG ; ! ""
-BM:BM%{ii%} NP-ORG ; ! "UN (United Nations)"
+BM:BM%{ь%} NP-ORG ; ! "UN (United Nations)"
 MSNBC:MSNBC NP-ORG ; ! ""
 BHF:BHF NP-ORG ; ! ""
 YTD:YTD NP-ORG ; ! ""
@@ -12838,12 +12836,12 @@ CEFTA:CEFTA NP-AL ; ! ""
 GERB:GERB NP-AL ; ! ""
 Nobel:Nobel NP-AL ; ! ""
 Grammy:Grammy NP-AL ; !
-SRS:SRS%{ii%} NP-ORG ; ! "Serbian Radical Party"
-MSK:MSK%{ii%} NP-ORG ; ! ""
-BDP:BDP%{ii%} NP-ORG ; ! ""
+SRS:SRS%{ь%} NP-ORG ; ! "Serbian Radical Party"
+MSK:MSK%{ь%} NP-ORG ; ! ""
+BDP:BDP%{ь%} NP-ORG ; ! ""
 Bloomberg:Bloomberg NP-ORG ; ! ""
 Facebook:Facebook NP-ORG ; ! ""
-FSB:FSB%{ii%} NP-ORG ; ! ""
+FSB:FSB%{ь%} NP-ORG ; ! ""
 Mediapool:Mediapool NP-ORG ; ! ""
 The% Guardian:The% Guardian NP-ORG ; ! ""
 Euronews:Euronews NP-ORG ; ! ""
@@ -12913,9 +12911,9 @@ Makfax:Makfax NP-ORG ; ! ''
 Echo:Echo NP-ORG ; ! ""
 Deutsche% Bank:Deutsche% Bank NP-ORG ; ! ""
 Renault:Renault NP-ORG ; ! ""
-MHP:MHP%{ii%}  NP-ORG ; ! ""
+MHP:MHP%{ь%}  NP-ORG ; ! ""
 Ford:Ford NP-ORG ; ! ""
-CNBC:CNBC%{ii%} NP-ORG ; !! ""
+CNBC:CNBC%{ь%} NP-ORG ; !! ""
 Xinhua:Xinhua NP-ORG ; ! ""
 Herald% Tribune:Herald% Tribune NP-ORG ; ! ""
 New% York% Daily% News:New% York% Daily% News NP-ORG ; ! ""
@@ -13328,7 +13326,7 @@ Southeast% European% Times:Southeast% European% Times NP-AL ; ! ""
 Reuters:Reuters NP-ORG ; ! ""
 MKMİK:MKMİK NP-ORG;
 Tatar-İnform:Tatar-İnform NP-ORG;
-MŞSC:MŞSC%{ii%} NP-ORG;
+MŞSC:MŞSC%{ь%} NP-ORG;
 AP:AP NP-AL ; ! ""
 B92:B92 NP-AL ; ! ""
 EUobserver:EUobserver NP-AL ; ! ""
@@ -13344,30 +13342,30 @@ Vikipedi:Vikipedi NP-AL ; ! ""
 The% New% Press:The% New% Press NP-AL ; ! ""
 Radio% Foniki:Radio% Foniki NP-AL ; ! ""
 Europe:Europe NP-AL ; ! ""
-ATR:ATR%{ii%} NP-AL ;
-TSK:TSK%{ii%} NP-AL ;
-FSB:FSB%{ii%} NP-AL ; ! ""
+ATR:ATR%{ь%} NP-AL ;
+TSK:TSK%{ь%} NP-AL ;
+FSB:FSB%{ь%} NP-AL ; ! ""
 
 ATO:ATO NP-AL ;
-BBC:BBC%{ii%} NP-AL ;
+BBC:BBC%{ь%} NP-AL ;
 BSE:BSE NP-AL ;
-BTR:BTR%{ii%} NP-AL ;
-FM:FM%{ii%} NP-AL ;
+BTR:BTR%{ь%} NP-AL ;
+FM:FM%{ь%} NP-AL ;
 ICAO:ICAO NP-AL ;
 ISO:ISO NP-AL ;
-KGB:KGB%{ii%} NP-AL ;
-LHC:LHC%{ii%} NP-AL ;
-MSK:MSK%{ii%} NP-AL ;
-MTS:MTS%{ii%} NP-AL ;
+KGB:KGB%{ь%} NP-AL ;
+LHC:LHC%{ь%} NP-AL ;
+MSK:MSK%{ь%} NP-AL ;
+MTS:MTS%{ь%} NP-AL ;
 NATO:NATO NP-AL ;
-NTV:NTV%{ii%} NP-AL ;
+NTV:NTV%{ь%} NP-AL ;
 OSCE:OSCE NP-AL ;
 Otkrıtaya% Rossiya:Otkrıtaya% Rossiya NP-AL ;
 PACE:PACE NP-AL ;
 PA:PA NP-AL ;
 PEN:PEN NP-AL ;
 SOS:SOS NP-AL ;
-SSC:SSC%{ii%} NP-AL ;
+SSC:SSC%{ь%} NP-AL ;
 UNESCO:UNESCO NP-AL ;
 Kurultay:Kurultay NP-AL ;
 
