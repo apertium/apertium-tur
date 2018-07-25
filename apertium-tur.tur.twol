@@ -27,7 +27,7 @@ Alphabet
 
  %{z%}:z
 
- %{ii%}:0 %{o%}:0 %{ö%}:0 %{ı%}:0 %{p%}:0 %{b%}:0 ! For numerals and abbreviations / acronyms
+ %{o%}:0 %{ö%}:0 %{ı%}:0 %{p%}:0 %{b%}:0 ! For numerals and abbreviations / acronyms
 
  %{k%}:k ! ???
  
@@ -112,9 +112,9 @@ Rules
                matched ;
 
 !"Hidden vowel harmony for archiphoneme {I}:i"
-!%{I%}:i <=> [ %{ь%}:0 | %{ii%}:0 ]/[ [ :0 - [ %{ь%}: | %{ii%}: ] ] | :Cns | :%' | % ]* _ ;
+!%{I%}:i <=> [ %{ь%}:0 | %{ь%}:0 ]/[ [ :0 - [ %{ь%}: | %{ь%}: ] ] | :Cns | :%' | % ]* _ ;
 !        except 
-!             [ AbstrVow: - [ %{ь%}: | %{ii%}: | %{u%}: ] ] [ :0 | :Cns | :%' | % ]* _ ; 
+!             [ AbstrVow: - [ %{ь%}: | %{ь%}: | %{u%}: ] ] [ :0 | :Cns | :%' | % ]* _ ; 
 !                                              %{e%}:0 %>: _ ;
 !
 !"Hidden vowel harmony for archiphoneme {I}:u"
@@ -183,7 +183,7 @@ Rules
                                               %{e%}:0 %>: _ ;
 !                      [ %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
         where 
-              Vx in ( %{ь%} %{ii%} %{o%} %{ö%} %{ı%} ) 
+              Vx in ( %{ь%} %{ь%} %{o%} %{ö%} %{ı%} ) 
               Vy   in (  i      i     u     ü     ı   )  
                matched ;
 
@@ -247,13 +247,13 @@ Rules
             [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
        except
               _ %>: %{I%}: y:y o:o r:r ;
-             [ %{ii%}:0 | %{ö%}:0 | %{ı%}:0 | %{o%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
+             [ %{ь%}:0 | %{ö%}:0 | %{ı%}:0 | %{o%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
 
 "Underlying vowel harmony for archiphoneme {A}"
-%{A%}:e <=> [ %{ь%}:0 | %{ii%}:0 | %{ö%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
+%{A%}:e <=> [ %{ь%}:0 | %{ь%}:0 | %{ö%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
         except 
               _ %>: %{I%}: y:y o:o r:r ;
-             [ AbstrVow: - [ %{ь%}:0 | %{ii%}: | %{ö%}: | %{u%}:] ] [ :0 | :Cns | :%' | % ]* _ ; 
+             [ AbstrVow: - [ %{ь%}:0 | %{ь%}: | %{ö%}: | %{u%}:] ] [ :0 | :Cns | :%' | % ]* _ ; 
              [ :SoftVow :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
              [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
 
@@ -311,7 +311,7 @@ Cx:Cy <=> [ %{p%}: | :CnsDev ] [ [ :0 - %{p%}: ] | :%' ]* _ ;
 "Epenthetic consonants after vowel"
 Cx:Cy <=>  [ [ AbstrVow: - %{ь%}: ] | :SurVow ] (%':) (:0) %>: _ ; 
            [ [ AbstrVow: - %{ь%}: ] | :SurVow ]    %-: %>: _ ;
-           [ [ AbstrVow: - %{ь%}: ] | :SurVow ] [ %% | %- | :Cns | :0 | :%' | %  ] %>: _ ;
+           [ [ AbstrVow: - %{ь%}: ] | :SurVow ] [ %% | %- | :0 | :%' | %  ]+ %>: _ ;
         except
            %{A%}: %{z%}:0 %>: _ %{I%}: m ;
                           %>: _ .#. ; ! git<v><iv><ger><nom>+i<cop><aor><p3><sg> : git{v}>m{A}>{y} : gitme
@@ -331,6 +331,7 @@ Cx:Cy <=>  [ [ AbstrVow: - %{ь%}: ] | :SurVow ] (%':) (:0) %>: _ ;
 ! ner>ede>{y}>l{A}r = neredeler 
 !@ 9:9 2:2 {ь}:0 %:% -:- >:0 {y}:y {I}:i
 !@ 2 6 {ı}:0 % - >:0 {s}:s {I}:ı {n}:0
+!@ z e n g i n l i k {v}:0 >:0 l {A}:e r >:0 {s}:0 {I}:i {n}:n >:0 {D}:d {A}:e n
 
 "Prevocalic consonant voicing"
 !Cx:Cy <=> :Vow (:0) _ %{v%}: %>: (:0) :SurVow ;
