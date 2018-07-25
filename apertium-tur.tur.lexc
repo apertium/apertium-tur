@@ -3116,6 +3116,12 @@ vefasızlık:vefasızlık N1 ; !
 katl:katl N1 ; !
 irem:irem N1 ; !
 prenses:prenses N1 ; !
+kerub:kerub N1 ; !
+Hadad:Hadad N1 ; !
+ebed:ebed N1 ; !
+Nasıralı:Nasıralı N1 ; !
+namussuzluk:namussuzluk N1 ; !
+mahv:mahv N1 ; !
 
 Fatiha:Fatiha N1 ; !
 inanan:inanan N1 ; !
@@ -10833,6 +10839,10 @@ Seidiye:Seidiye NP-TOP ; !
 Sunen:Sunen NP-TOP ; !
 Nineve:Nineve NP-TOP ; !
 Celile:Celile NP-TOP ; !
+Nasıra:Nasıra NP-TOP ; !
+Azariya:Azariya NP-TOP ; !
+Samarya:Samarya NP-TOP ; !
+Nil:Nil NP-TOP ; !
 
 Karakaş:Karakaş NP-TOP ;
 Yarkent:Yarkent NP-TOP ; !
@@ -10998,6 +11008,11 @@ Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
+Zadok:Zadok NP-ANT-M ; !
+Abner:Abner NP-ANT-M ; !
+Antiokhos:Antiokhos NP-ANT-M ; !
+Mordekay:Mordekay NP-ANT-M ; !
+
 Adem% Baba:Adem% Baba NP-ANT-M ; !
 Sare:Sare NP-ANT-F ; !
 Ester:Ester NP-ANT-F ; !
@@ -18799,6 +18814,10 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+harap:harap A1 ; !
+konuşan:konuşan A1 ; !
+namussuz:namussuz A1 ; !
+
 karılı:karılı A1 ; !
 susuz:susuz A1 ; !
 misl-i:misl-i A1 ; !
