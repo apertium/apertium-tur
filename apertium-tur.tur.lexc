@@ -2943,6 +2943,7 @@ hiçbir% şey:hiçbir% şey PRON-NEG ; ! "nothing"
 hiç% kimse:hiç% kimse PRON-NEG ; ! "nobody"
 herkes:herkes PRON-QNT ; ! "everybody"
 her% bir:her% bir PRON-QNT ; !
+hiçbir:hiçbir PRON-QNT ; !
 
 ekseri:ekser PRON-QNT ; ! ""
 hiç:hiç PRON-QNT ; !
@@ -3104,10 +3105,42 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+sehpa:sehpa N1 ; !
+hasetçi:hasetçi N1 ; !
+hasetçilik:hasetçilik N1 ; !
+viranlık:viranlık N1 ; !
+ululuk:ululuk N1 ; !
+şebnem:şebnem N1 ; !
+lir:lir N1 ; !
+töhmet:töhmet N1 ; !
+ciddiyet:ciddiyet N1 ; !
+Hitit:Hitit N1 ; !
+
+kollama:kollama N1 ; !
+Efesli:Efesli N1 ; !
+ulu:ulu N1 ; !
 Amonî:Amonî N1 ; !
 binbaşı:binbaşı N1 ; !
 Yahuda:Yahuda N1 ; !
 artık:artık N1 ; !
+yaygara:yaygara N1 ; !
+şehzade:şehzade N1 ; !
+falcı:falcı N1 ; !
+vaftizci:vaftizci N1 ; !
+mirasyedi:mirasyedi N1 ; !
+Naftali:Naftali N1 ; !
+saçmalık:saçmalık N1 ; !
+falcılık:falcılık N1 ; !
+yalancılık:yalancılık N1 ; !
+evlatlık:evlatlık N1 ; !
+neftalin:neftalin N1 ; !
+Zevulun:Zevulun N1 ; !
+kahr:kahr N1 ; !
+sırdaş:sırdaş N1 ; !
+sallatma:sallatma N1 ; !
+yırtıcı:yırtıcı N1 ; !
+Babilli:Babilli N1 ; !
+yeraltı:yeraltı N1 ; !
 
 Adem% Baba:Adem% Baba N1 ; !
 Aşerah:Aşerah N1 ; !
@@ -10836,6 +10869,20 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Efes:Efes NP-TOP ; !
+Uş:Uş NP-TOP ; !
+Efes:Efes NP-TOP ; !
+Uş:Uş NP-TOP ; !
+Sayda:Sayda NP-TOP ; !
+Binaya:Binaya NP-TOP ; !
+Eriha:Eriha NP-TOP ; !
+Celad:Celad NP-TOP ; !
+Gomorre:Gomorre NP-TOP ; !
+Arabah:Arabah NP-TOP ; !
+Kermil:Kermil NP-TOP ; !
+Siir:Siir NP-TOP ; !
+Toledot:Toledot NP-TOP ; !
+
 Gazze:Gazze NP-TOP ; !
 Medine:Medine NP-TOP ; !
 Java:Java NP-TOP ; !
@@ -11021,6 +11068,17 @@ Beer:Beer NP-ANT-M ; !
 Koreş:Koreş NP-ANT-M ; !
 Hamat:Hamat NP-ANT-M ; !
 Şulamit:Şulamit NP-ANT-M ; !
+Yefta:Yefta NP-ANT-M ; !
+Kaleb:Kaleb NP-ANT-M ; !
+Asaf:Asaf NP-ANT-M ; !
+Balak:Balak NP-ANT-M ; !
+Yoakim:Yoakim NP-ANT-M ; !
+Başan:Başan NP-ANT-M ; !
+Arnon:Arnon NP-ANT-M ; !
+Nun:Nun NP-ANT-M ; !
+İssakar:İssakar NP-ANT-M ; !
+Aşir:Aşir NP-ANT-M ; !
+Şimey:Şimey NP-ANT-M ; !
 
 Sare:Sare NP-ANT-F ; !
 Ester:Ester NP-ANT-F ; !
@@ -11090,6 +11148,17 @@ Rehimehullah:Rehimehullah NP-COG-MF ; !
 Beyheki:Beyheki NP-COG-MF ; !
 Keyyim:Keyyim NP-COG-MF ; !
 Koragan:Koragan NP-COG-MF ; !
+Batlamyus:Batlamyus NP-COG-MF ; !
+Amatzya:Amatzya NP-ANT-M ; !
+Sanherib:Sanherib NP-ANT-M ; !
+Obed:Obed NP-ANT-M ; !
+Yesse:Yesse NP-ANT-M ; !
+Naftali:Naftali NP-ANT-M ; !
+Yehoram:Yehoram NP-ANT-M ; !
+Zevulun:Zevulun NP-ANT-M ; !
+Yoaş:Yoaş NP-ANT-M ; !
+Kiros:Kiros NP-ANT-M ; !
+
 Abdürrezzak:Abdürrezzak NP-ANT-M ; !
 İnam:İnam NP-ANT-M ; !
 Kuseni:Kuseni NP-COG-MF ; !
@@ -18825,7 +18894,18 @@ LEXICON Adjectives
 harap:harap A1 ; !
 konuşan:konuşan A1 ; !
 namussuz:namussuz A1 ; !
-
+saçma:saçma A1 ; !
+tanrılı:tanrılı A1 ; !
+imanlı:imanlı A1 ; !
+sevaplı:sevaplı A1 ; !
+toplayan:toplayan A1 ; !
+gelen:gelen A1 ; !
+yenilen:yenilen A1 ; !
+mütevazı:mütevazı A1 ; !
+rastlantısal:rastlantısal A1 ; !
+terbiyeli:terbiyeli A1 ; !
+sunan:sunan A1 ; !
+giden:giden A1 ; !
 karılı:karılı A1 ; !
 susuz:susuz A1 ; !
 misl-i:misl-i A1 ; !
@@ -21175,6 +21255,7 @@ gıyabî:gıyabî ADV1 ; !
 eğer:eğer ADV1 ; !
 yeni% baştan:yeni% baştan ADV1 ; !
 içinde:içinde ADV1 ; !
+ikisi:ikisi ADV1 ; !
 
 olsa% da:olsa% da ADV1 ; !
 kim% ki:kim% ki ADV1 ; !
@@ -21414,6 +21495,12 @@ meydana% gel:meydana% gel V-IR-IV ; !
 vaftiz% et:vaftiz% et V-AR-TV ; !
 çürütül:çürütül V-IR-IV ; !
 kibirlen:kibirlen V-IR-IV ; !
+mıhlan:mıhlan V-IR-IV ; !
+tasvir% edil:tasvir% edil V-IR-IV ; !
+mesih% ol:mesih% ol V-IR-IV ; !
+mıhla:mıhla V-IR-TV ; !
+yapıver:yapıver V-IR-TV ; !
+tayin% et:tayin% et V-IR-TV ; !
 
 baş% eğ:baş% eğ V-AR-IV ; !
 hesap% sor:hesap% sor V-AR-IV ; !
