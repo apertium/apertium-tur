@@ -3115,7 +3115,26 @@ lir:lir N1 ; !
 töhmet:töhmet N1 ; !
 ciddiyet:ciddiyet N1 ; !
 Hitit:Hitit N1 ; !
-
+sağma:sağma N1 ; !
+Havva% Ana:Havva% Ana N1 ; !
+perakende:perakende N1 ; !
+şerhçi:şerhçi N1 ; !
+çanakçı:çanakçı N1 ; !
+fahişelik:fahişelik N1 ; !
+yaşlılık:yaşlılık N1 ; !
+çıplaklık:çıplaklık N1 ; !
+kutsallık:kutsallık N1 ; !
+oğulluk:oğulluk N1 ; !
+sembolizm:sembolizm N1 ; !
+umur:umur N1 ; !
+kavimdaş:kavimdaş N1 ; !
+sadakat:sadakat N1 ; !
+zahmet:zahmet N1 ; !
+burgu:burgu N1 ; !
+vaiz:vaiz N1 ; !
+Selanikli:Selanikli N1 ; !
+Benyamin:Benyamin N1 ; !
+öldürücü:öldürücü N1 ; !
 kollama:kollama N1 ; !
 Efesli:Efesli N1 ; !
 ulu:ulu N1 ; !
@@ -10882,6 +10901,12 @@ Arabah:Arabah NP-TOP ; !
 Kermil:Kermil NP-TOP ; !
 Siir:Siir NP-TOP ; !
 Toledot:Toledot NP-TOP ; !
+Yehuda:Yehuda NP-TOP ; !
+Galata:Galata NP-TOP ; !
+Abiya:Abiya NP-TOP ; !
+Hilkiya:Hilkiya NP-TOP ; !
+Şekem:Şekem NP-TOP ; !
+Aden:Aden NP-TOP ; !
 
 Gazze:Gazze NP-TOP ; !
 Medine:Medine NP-TOP ; !
@@ -11063,6 +11088,8 @@ Emre:Emre NP-ANT-M ; !
 Zadok:Zadok NP-ANT-M ; !
 Abner:Abner NP-ANT-M ; !
 Antiokhos:Antiokhos NP-ANT-M ; !
+Elam:Elam NP-ANT-M ; !
+
 Mordekay:Mordekay NP-ANT-M ; !
 Beer:Beer NP-ANT-M ; !
 Koreş:Koreş NP-ANT-M ; !
@@ -11079,6 +11106,34 @@ Nun:Nun NP-ANT-M ; !
 İssakar:İssakar NP-ANT-M ; !
 Aşir:Aşir NP-ANT-M ; !
 Şimey:Şimey NP-ANT-M ; !
+Naomi:Naomi NP-ANT-F ; !                                                                        
+Yehuyada:Yehuyada NP-ANT-M ; !                                                                  
+Manna:Manna NP-ANT-M ; !
+Şemaya:Şemaya NP-ANT-M ; !
+Obadiya:Obadiya NP-ANT-M ; !
+Hananiya:Hananiya NP-ANT-M ; !
+Adoniya:Adoniya NP-ANT-M ; !
+Zeruriya:Zeruriya NP-ANT-M ; !
+Ahaziya:Ahaziya NP-ANT-M ; !
+Uzziya:Uzziya NP-ANT-M ; !
+Horeb:Horeb NP-ANT-M ; !
+Korah:Korah NP-ANT-M ; !
+Baruh:Baruh NP-ANT-M ; !
+Merari:Merari NP-ANT-M ; !
+Rehmidil:Rehmidil NP-ANT-M ; !
+Habakkül:Habakkül NP-ANT-M ; !
+Yoram:Yoram NP-ANT-M ; !
+Yotam:Yotam NP-ANT-M ; !
+Haman:Haman NP-ANT-M ; !
+Yohnan:Yohnan NP-ANT-M ; !
+Yehoakin:Yehoakin NP-ANT-M ; !
+Hurun:Hurun NP-ANT-M ; !
+Abiatar:Abiatar NP-ANT-M ; !
+Yehoaş:Yehoaş NP-ANT-M ; !
+Ahaşveroş:Ahaşveroş NP-ANT-M ; !
+Titus:Titus NP-ANT-M ; !
+Elifaz:Elifaz NP-ANT-M ; !
+Eyisbiz:Eyisbiz NP-ANT-M ; !
 
 Sare:Sare NP-ANT-F ; !
 Ester:Ester NP-ANT-F ; !
@@ -18892,6 +18947,21 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 LEXICON Adjectives
 harap:harap A1 ; !
+ödünç:ödünç A1 ; !
+birlikte:birlikte A1 ; !
+inançlı:inançlı A1 ; !
+eylemli:eylemli A1 ; !
+hadım:hadım A1 ; !
+kalan:kalan A1 ; !
+götüren:götüren A1 ; !
+mikro:mikro A1 ; !
+beter:beter A1 ; !
+nazarî:nazarî A1 ; !                                                                            
+fahri:fahri A1 ; !                                                                              
+sembolik:sembolik A1 ; !                                                                        
+yeksan:yeksan A1 ; !                                                                            
+yetiren:yetiren A1 ; !                                                                          
+emekleyen:emekleyen A1 ;
 konuşan:konuşan A1 ; !
 namussuz:namussuz A1 ; !
 saçma:saçma A1 ; !
@@ -21256,6 +21326,7 @@ eğer:eğer ADV1 ; !
 yeni% baştan:yeni% baştan ADV1 ; !
 içinde:içinde ADV1 ; !
 ikisi:ikisi ADV1 ; !
+gününe% dek:gününe% dek ADV1 ; !
 
 olsa% da:olsa% da ADV1 ; !
 kim% ki:kim% ki ADV1 ; !
@@ -21482,6 +21553,33 @@ nereye:nereye ADV-ITG ; !
 
 
 LEXICON Verbs
+ram% ol:ram% ol V-IR-IV ; !
+ram% et:ram% et V-IR-TV ; !
+emekle:emekle V-IR-IV ; !
+dava% aç:dava% aç V-IR-IV ; !
+emekle:emekle V-IR-IV ; !
+baş% eğ:baş% eğ V-IR-IV ; !
+hata% yap:hata% yap V-IR-IV ; !
+hesap% sor:hesap% sor V-IR-IV ; !
+esir% düş:esir% düş V-IR-IV ; !
+kahkaha% at:kahkaha% at V-IR-IV ; !
+hamd% et:hamd% et V-IR-IV ; !
+iman% et:iman% et V-IR-IV ; !
+teşekkür% et:teşekkür% et V-IR-IV ; !
+dikkat% et:dikkat% et V-IR-IV ; !
+birlikte% git:birlikte% git V-IR-IV ; !
+ifade% et:ifade% et V-IR-TV ; !
+tarif% et:tarif% et V-IR-TV ; !
+teşvik% et:teşvik% et V-IR-TV ; !
+kabul% et:kabul% et V-IR-TV ; !
+ilan% et:ilan% et V-IR-TV ; !
+tasvir% et:tasvir% et V-IR-TV ; !
+dikkat% et:dikkat% et V-IR-TV ; !
+eziyet% et:eziyet% et V-IR-TV ; !
+ümit% et:ümit% et V-IR-TV ; !
+ikaz% et:ikaz% et V-IR-TV ; !
+vaftiz% et:vaftiz% et V-IR-TV ; !
+
 namaz% kıl:namaz% kıl V-AR-IV ; !
 uy:uy V-AR-IV ; !
 esir% düş:esir% düş V-AR-IV ; !
@@ -23332,6 +23430,8 @@ merhaba:merhaba INTERJ ; !
 hülasa:hülasa INTERJ ; !
 me:me INTERJ ; !
 vah:vah INTERJ ; !
+ta:ta INTERJ ; !
+berbat:berbat INTERJ ; !
 
 be:be INTERJ ; !
 esselamu:esselamu INTERJ ; !
