@@ -3105,6 +3105,25 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+toplanma:toplanma N1 ; !
+görme:görme N1 ; !
+Kanadalı:Kanadalı N1 ; !
+Tayvanlı:Tayvanlı N1 ; !
+radikal:radikal N1 ; !
+uyarıl:uyarıl N1 ; !
+zalim:zalim N1 ; !
+mazlum:mazlum N1 ; !
+asab:asab N1 ; !
+B:B N1 ; !
+pervane:pervane N1 ; !
+Türkolog:Türkolog N1 ; !
+akrabalık:akrabalık N1 ; !
+radikallik:radikallik N1 ; !
+bayramlık:bayramlık N1 ; !
+gaddarlık:gaddarlık N1 ; !
+Nevruzluk:Nevruzluk N1 ; !
+iftar:iftar N1 ; !
+Uygurşinas:Uygurşinas N1 ; !
 sehpa:sehpa N1 ; !
 hasetçi:hasetçi N1 ; !
 hasetçilik:hasetçilik N1 ; !
@@ -10889,6 +10908,19 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 LEXICON ProperNouns
 Efes:Efes NP-TOP ; !
+Havai:Havai NP-TOP ; !
+Nilka:Nilka NP-TOP ; !
+Çira:Çira NP-TOP ; !
+Adelayd:Adelayd NP-TOP ; !
+Saybağ:Saybağ NP-TOP ; !
+Tiananmen:Tiananmen NP-TOP ; !
+Yengisar:Yengisar NP-TOP ; !
+Lentos:Lentos NP-TOP ; !
+Feyzivat:Feyzivat NP-TOP ; !
+Senkaku:Senkaku NP-TOP ; !
+Kızılsu:Kızılsu NP-TOP ; !
+Aktu:Aktu NP-TOP ; !
+
 Uş:Uş NP-TOP ; !
 Efes:Efes NP-TOP ; !
 Uş:Uş NP-TOP ; !
@@ -11213,6 +11245,46 @@ Yehoram:Yehoram NP-ANT-M ; !
 Zevulun:Zevulun NP-ANT-M ; !
 Yoaş:Yoaş NP-ANT-M ; !
 Kiros:Kiros NP-ANT-M ; !
+Abe:Abe NP-COG-MF ; !
+Hang:Hang NP-COG-MF ; !
+Keçyang:Keçyang NP-COG-MF ; !
+Guangdung:Guangdung NP-COG-MF ; !
+Öztürk:Öztürk NP-COG-MF ; !
+Çünşien:Çünşien NP-COG-MF ; !
+Leçüen:Leçüen NP-COG-MF ; !
+Siçuen:Siçuen NP-COG-MF ; !
+Cameron:Cameron NP-COG-MF ; !
+Heylun:Heylun NP-COG-MF ; !
+Şinzo:Şinzo NP-COG-MF ; !
+Gwadar:Gwadar NP-COG-MF ; !
+Ablimit:Ablimit NP-COG-MF ; !
+Çu:Çu NP-COG-MF ; !
+Hemrayev:Hemrayev NP-COG-MF ; !
+Kamalov:Kamalov NP-COG-MF ; !
+Rida:Rida NP-ANT-F ; !
+Urela:Urela NP-ANT-F ; !
+Zübeyre:Zübeyre NP-ANT-F ; !
+Rukiye:Rukiye NP-ANT-F ; !
+Patigül:Patigül NP-ANT-F ; !
+Jyang:Jyang NP-ANT-M ; !
+Ulrik:Ulrik NP-ANT-M ; !
+Abdülcelil:Abdülcelil NP-ANT-M ; !
+Ebulkasım:Ebulkasım NP-ANT-M ; !
+Envercan:Envercan NP-ANT-M ; !
+Abdülhekimhan:Abdülhekimhan NP-ANT-M ; !
+Wen:Wen NP-ANT-M ; !
+Alptekin:Alptekin NP-ANT-M ; !
+Çuengo:Çuengo NP-ANT-M ; !
+Kahar:Kahar NP-ANT-M ; !
+Kamer:Kamer NP-ANT-M ; !
+Tahir:Tahir NP-ANT-M ; !
+Elşat:Elşat NP-ANT-M ; !
+Nurmemet:Nurmemet NP-ANT-M ; !
+Elliot:Elliot NP-ANT-M ; !
+Yü:Yü NP-ANT-M ; !
+Lin:Lin NP-ANT-M ; !
+Muhtar:Muhtar NP-ANT-M ; !
+Berat:Berat NP-ANT-M ; !
 
 Abdürrezzak:Abdürrezzak NP-ANT-M ; !
 İnam:İnam NP-ANT-M ; !
@@ -12823,6 +12895,8 @@ CKP:CKP NP-ORG ; !
 Baidu:Baidu NP-ORG ; !
 Android:Android NP-ORG ; !
 PayPal:PayPal NP-ORG ; !
+Aviyatsiya:Aviyatsiya NP-ORG ; !
+İnterpol:İnterpol NP-ORG ; !
 
 MTİ:MTİ NP-ORG ; !
 DUK:DUK NP-ORG ; !
@@ -13866,6 +13940,7 @@ Rabia:Rabia NP-ANT-F ; !
 Nisa:Nisa NP-ANT-F ; !
 Şehrizad:Şehrizad NP-ANT-F ; !
 Mevlüde:Mevlüde NP-ANT-F ; !
+Nebat:Nebat NP-ANT-F ; !
 
 Sezgi:Sezgi NP-ANT-F ; ! ""
 Neriman:Neriman NP-ANT-F ; ! ""
@@ -18947,6 +19022,18 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 LEXICON Adjectives
 harap:harap A1 ; !
+soyadlı:soyadlı A1 ; !
+baskılı:baskılı A1 ; !
+bıçaklı:bıçaklı A1 ; !
+ihtişamlı:ihtişamlı A1 ; !
+sabahki:sabahki A1 ; !
+alakadar:alakadar A1 ; !
+sabahki:sabahki A1 ; !
+alakadar:alakadar A1 ; !
+sabahki:sabahki A1 ; !
+alakadar:alakadar A1 ; !
+ömürlü:ömürlü A1 ; !
+
 ödünç:ödünç A1 ; !
 birlikte:birlikte A1 ; !
 inançlı:inançlı A1 ; !
@@ -21553,6 +21640,10 @@ nereye:nereye ADV-ITG ; !
 
 
 LEXICON Verbs
+kamulaş:kamulaş V-IR-IV ; !
+kamulaştır:kamulaştır V-IR-TV ; !
+tüne:tüne V-IR-IV ; !
+nemlen:nemlen V-IR-IV ; !
 ram% ol:ram% ol V-IR-IV ; !
 ram% et:ram% et V-IR-TV ; !
 emekle:emekle V-IR-IV ; !
