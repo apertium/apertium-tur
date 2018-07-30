@@ -21704,7 +21704,7 @@ LEXICON Verbs
 uygun% ol:uygun% ol V-IR-IV ; !
 kaynatıl:kaynatıl V-IR-IV ; !
 fiyatlandır:fiyatlandır V-IR-TV ; !
-
+gözet:gözet V-IR-IV ; !
 kamulaş:kamulaş V-IR-IV ; !
 kamulaştır:kamulaştır V-IR-TV ; !
 tüne:tüne V-IR-IV ; !
@@ -22585,6 +22585,7 @@ topla:topla V-IR-TV ; ! "pick up, total"
 toplan:toplan V-IR-IV ; ! "" (DIR)
 tütsüle:tütsüle V-IR-TV ; ! "kipper" (T)
 tutukla:tutukla V-IR-TV ; ! "arrest" (T)
+tutuklan:tutuklan V-IR-IV ; ! "be arrested" (T)
 tuzla:tuzla V-IR-TV ; ! "salt down" (T)
 üçle:üçle V-IR-TV ; ! "divide by three" (T)
 uğurla:uğurla V-IR-TV ; ! "see off" (T)
@@ -22594,6 +22595,7 @@ umursa:umursa V-IR-TV ; ! "care, regard" (T)
 uyarla:uyarla V-IR-TV ; ! "adjust, adapt" (T)
 vergile:vergile V-IR-TV ; ! "tax" (T)
 vurgula:vurgula V-IR-TV ; ! "emphasise" (T)
+vurgulan:vurgulan V-IR-IV ; ! "be emphasised" (T)
 yabancıla:yabancıla V-IR-TV ; ! "not know beans about" (T)
 yadırga:yadırga V-IR-TV ; ! "find odd" (T)
 yadsı:yadsı V-IR-TV ; ! "ignore" (T)
@@ -23538,6 +23540,7 @@ titret:titret V-IR-TV ; !
 kendine% bak:kendine% bak V-IR-IV ; !
 hisse% al:hisse% al V-IR-IV ; !
 ortaya% çıkarıl:ortaya% çıkarıl V-IR-IV ; !
+çıkarıl:çıkarıl V-IR-IV ; !
 avare% ol:avare% ol V-IR-IV ; !
 başarılı% ol:başarılı% ol V-IR-IV ; !
 tedavi% ol:tedavi% ol V-IR-IV ; !
