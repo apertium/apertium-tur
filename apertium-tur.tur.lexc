@@ -2721,6 +2721,8 @@ da%<postadv%>:%~da # ; ! Dir/RL
 LEXICON Postpositions
 
 ! Nominative
+gerek:gerek POST ; !
+
 belki:belki POST ; !
 olmadığı% için:olmadığı% için POST ; !
 gibi:gibi POST ; ! ""
@@ -3105,6 +3107,30 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+uyuşma:uyuşma N1 ; !
+kirletme:kirletme N1 ; !
+çürük:çürük N1 ; !
+yürüyüş:yürüyüş N1 ; !
+uygunlaştırma:uygunlaştırma N1 ; !
+tentene:tentene N1 ; !
+G:G N1 ; !
+kaçakçı:kaçakçı N1 ; !
+amerikalı:amerikalı N1 ; !
+veli:veli N1 ; !
+mevsimlik:mevsimlik N1 ; !
+baharlık:baharlık N1 ; !
+cömertlik:cömertlik N1 ; !
+yerleşik:yerleşik N1 ; !
+uygunluk:uygunluk N1 ; !
+profesörlük:profesörlük N1 ; !
+suculuk:suculuk N1 ; !
+L:L N1 ; !
+uygunlaştır:uygunlaştır N1 ; !
+sipariş:sipariş N1 ; !
+liyakat:liyakat N1 ; !
+teminat:teminat N1 ; !
+sucu:sucu N1 ; !
+Y:Y N1 ; !
 toplanma:toplanma N1 ; !
 görme:görme N1 ; !
 Kanadalı:Kanadalı N1 ; !
@@ -3115,6 +3141,7 @@ zalim:zalim N1 ; !
 mazlum:mazlum N1 ; !
 asab:asab N1 ; !
 B:B N1 ; !
+N:N N1 ;
 pervane:pervane N1 ; !
 Türkolog:Türkolog N1 ; !
 akrabalık:akrabalık N1 ; !
@@ -3342,7 +3369,6 @@ Cenab-ı% Allah:Cenab-ı% Allah N1 ; !
 H:H N1 ; !
 fasık:fasık N1 ; !
 gusul:gusul N1 ; !
-Ş:Ş N1 ; !
 girici:girici N1 ; !
 fetva:fetva N1 ; !
 kızılderili:kızılderili N1 ; !
@@ -10822,7 +10848,7 @@ yetiştirme:yetiştirme N1 ;
 konvoy:konvoy N1 ;
 kamulaştırma:kamulaştırma N1 ;
 yapma:yapma N1 ; ! ""
-
+hava% saha:hava% saha N2 ;
 havalımanı:havalıman N2 ;
 havaalanı:havaalan N2 ;
 hava% gemiciliği:hava% gemicilik%{v%} N2 ;
@@ -10920,6 +10946,20 @@ Feyzivat:Feyzivat NP-TOP ; !
 Senkaku:Senkaku NP-TOP ; !
 Kızılsu:Kızılsu NP-TOP ; !
 Aktu:Aktu NP-TOP ; !
+Bortala:Bortala NP-TOP ; !
+Şihenze:Şihenze NP-TOP ; !
+Şiangang:Şiangang NP-TOP ; !
+Cecyang:Cecyang NP-TOP ; !
+Hebei:Hebei NP-TOP ; !
+Anhui:Anhui NP-TOP ; !
+Ayköl:Ayköl NP-TOP ; !
+Uçturfan:Uçturfan NP-TOP ; !
+Avmen:Avmen NP-TOP ; !
+Tienjin:Tienjin NP-TOP ; !
+Jilin:Jilin NP-TOP ; !
+Yenişehir:Yenişehir NP-TOP ; !
+Taşpolat:Taşpolat NP-TOP ; !
+Aksaray:Aksaray NP-TOP ; !
 
 Uş:Uş NP-TOP ; !
 Efes:Efes NP-TOP ; !
@@ -11232,6 +11272,20 @@ Mobhan:Mobhan NP-ANT-M ; !
 Bökü:Bökü NP-ANT-M ; !
 Abdül:Abdül NP-ANT-M ; !
 Rehimehullah:Rehimehullah NP-COG-MF ; !
+Edib:Edib NP-COG-MF ; !
+Şendung:Şendung NP-COG-MF ; !
+Lik:Lik NP-COG-MF ; !
+Cen:Cen NP-COG-MF ; !
+Kösen:Kösen NP-COG-MF ; !
+Tuen:Tuen NP-COG-MF ; !
+Go:Go NP-COG-MF ; !
+Liov:Liov NP-COG-MF ; !
+Teresa:Teresa NP-ANT-F ; !
+Zühre:Zühre NP-ANT-F ; !
+Abdürreşit:Abdürreşit NP-ANT-F ; !
+Lo:Lo NP-ANT-M ; !
+Gülen:Gülen NP-COG-MF ; !
+
 Beyheki:Beyheki NP-COG-MF ; !
 Keyyim:Keyyim NP-COG-MF ; !
 Koragan:Koragan NP-COG-MF ; !
@@ -19033,7 +19087,14 @@ alakadar:alakadar A1 ; !
 sabahki:sabahki A1 ; !
 alakadar:alakadar A1 ; !
 ömürlü:ömürlü A1 ; !
-
+güdüleyici:güdüleyici A1 ; !
+sedalı:sedalı A1 ; !
+katmanlı:katmanlı A1 ; !
+saatli:saatli A1 ; !
+kaçak:kaçak A1 ; !
+kilometrelik:kilometrelik A1 ; !
+rahvan:rahvan A1 ; !
+bileşen:bileşen A1 ; !
 ödünç:ödünç A1 ; !
 birlikte:birlikte A1 ; !
 inançlı:inançlı A1 ; !
@@ -21640,6 +21701,10 @@ nereye:nereye ADV-ITG ; !
 
 
 LEXICON Verbs
+uygun% ol:uygun% ol V-IR-IV ; !
+kaynatıl:kaynatıl V-IR-IV ; !
+fiyatlandır:fiyatlandır V-IR-TV ; !
+
 kamulaş:kamulaş V-IR-IV ; !
 kamulaştır:kamulaştır V-IR-TV ; !
 tüne:tüne V-IR-IV ; !
@@ -23523,6 +23588,8 @@ me:me INTERJ ; !
 vah:vah INTERJ ; !
 ta:ta INTERJ ; !
 berbat:berbat INTERJ ; !
+löp:löp INTERJ ; !
+ley:ley INTERJ ; !
 
 be:be INTERJ ; !
 esselamu:esselamu INTERJ ; !
