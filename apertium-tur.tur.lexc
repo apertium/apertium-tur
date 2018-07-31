@@ -3576,7 +3576,6 @@ A:A N1 ; !
 C:C N1 ; !
 D:D N1 ; !
 kızgınlık:kızgınlık N1 ; !
-K:K N1 ; !
 P:P N1 ; !
 seher:seher N1 ; !
 koruma:koruma N1 ; !
@@ -21476,8 +21475,6 @@ içinde:içinde ADV1 ; !
 ikisi:ikisi ADV1 ; !
 gününe% dek:gününe% dek ADV1 ; !
 
-olsa% da:olsa% da ADV1 ; !
-kim% ki:kim% ki ADV1 ; !
 olmasa% da:olmasa% da ADV1 ; ! Use/MT
 gerek% ki:gerek% ki ADV1 ; !
 demek% ki:demek% ki ADV1 ; !
@@ -22998,7 +22995,7 @@ buyur:buyur V-IR-IV ; ! "command" (DIR)
 çalış:çalış V-IR-IV ; ! "study, work" (DIR)
 canlan:canlan V-IR-IV ; ! "to ignite" (DIR)
 çap:çap V-AR-IV ; ! "rush" (DIR)
-çarp:çarp V-AR-IV ; ! "strike, hit" (DIR)
+çarp:çarp V-AR-TV ; ! "strike, hit" (DIR)
 çatış:çatış V-IR-IV ; ! "conflict" (DIR)
 cay:cay V-AR-IV ; ! "retract" (DIR)
 çekin:çekin V-IR-IV ; ! "abstain" (DIR)
