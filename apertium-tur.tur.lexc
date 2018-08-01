@@ -2810,6 +2810,7 @@ fakat:fakat CC ;
 fakat:fakat CC ; ! ""
 ha:ha CC ; 
 hem:hem CC ; 
+hem% de:hem% de CC ; !
 herneyse:herneyse CC ;
 ikisi:ikisi CC ;
 ila:ila CC ; 
@@ -3363,7 +3364,6 @@ mişkat:mişkat N1 ; !
 saba:saba N1 ; !
 kıssa:kıssa N1 ; !
 seç:seç N1 ; !
-N:N N1 ; !
 mahiyet:mahiyet N1 ; !
 Cenab-ı% Allah:Cenab-ı% Allah N1 ; !
 H:H N1 ; !
@@ -11285,6 +11285,8 @@ Zühre:Zühre NP-ANT-F ; !
 Abdürreşit:Abdürreşit NP-ANT-F ; !
 Lo:Lo NP-ANT-M ; !
 Gülen:Gülen NP-COG-MF ; !
+Ni:Ni NP-ANT-M ; !
+Bakî:Bakî NP-COG-MF ; !
 
 Beyheki:Beyheki NP-COG-MF ; !
 Keyyim:Keyyim NP-COG-MF ; !
@@ -22110,7 +22112,7 @@ yut:yut V-AR-TV ; ! "swallow" (DIR)
 yüz:yüz V-AR-IV ; ! "swim" (DIR)
 zannet:zannet V-AR-TV ; ! "suppose" (DIR)
 zikret:zikret V-AR-TV ; ! "commemorate, mention" (DIR)
-abar:abar V-IR-TV ; ! "exaggerate" (DIR)
+abart:abart V-IR-TV ; ! "exaggerate" (DIR)
 aç:aç V-AR-TV ; ! "open" (DIR)
 affet:affet V-AR-TV ; ! "forgive" (DIR)
 ak:ak V-AR-TV ; ! "flow, leak" (DIR)
@@ -22196,7 +22198,7 @@ dal:dal V-AR-IV ; ! "dive" (DIR)
 damıt:damıt V-IR-TV ; ! "distill" (DIR)
 danış:danış V-IR-TV ; ! "consult" (DIR)
 defnet:defnet V-AR-TV ; ! "bury" (DIR)
-değ:değ V-AR-TV ; ! "touch" (DIR)
+değ:değ V-AR-IV ; ! "touch" (DIR)
 değin:değin V-IR-TV ; ! "mention" (DIR)
 değiş:değiş V-IR-IV ; ! "change" (DIR)
 del:del V-AR-TV ; ! "drill" (DIR)
@@ -22955,7 +22957,7 @@ yüksel:yüksel V-IR-IV ;
 ağın:ağın V-IR-IV ; ! "roll on the ground" (DIR)
 aklan:aklan V-IR-IV ; ! "be cleaned" (DIR)
 aldan:aldan V-IR-IV ; ! "be deceived, tricked" (DIR)
-aldat:aldat V-IR-IV ; ! "cheat" (DIR)
+aldat:aldat V-IR-TV ; ! "cheat" (DIR)
 alıkonul:alıkonul V-IR-IV ; ! "be derailed" (DIR)
 anlaş:anlaş V-IR-IV ; ! "agree" (DIR)
 arık:arık V-IR-IV ; ! "lose weight" (DIR)
@@ -22965,7 +22967,7 @@ art:art V-AR-IV ; ! "increase" (DIR)
 aşın:aşın V-IR-IV ; ! "rub off" (DIR)
 atış:atış V-IR-IV ; ! "bicker" (DIR)
 avun:avun V-IR-IV ; ! "solace" (DIR)
-ay:ay V-AR-IV ; ! "awake?" (DIR)
+ay:ay V-AR-IV ; ! "sober" (DIR)
 aydınlan:aydınlan V-IR-IV ; ! "light up" (DIR)
 ayıl:ayıl V-IR-IV ; ! "regain consciousness" (DIR)
 az:az V-AR-IV ; ! "to rut" (DIR)
@@ -22975,7 +22977,7 @@ barın:barın V-IR-IV ; ! "shelter" (DIR)
 barış:barış V-IR-IV ; ! "reunite" (DIR)
 başgöster:başgöster V-IR-IV ; ! "arise" (DIR)
 başkaldır:başkaldır V-IR-IV ; ! "revolt" (DIR)
-bay:bay V-AR-IV ; ! "turn somebody off" (DIR)
+bay:bay V-AR-TV ; ! "turn somebody off" (DIR)
 benzeş:benzeş V-IR-IV ; ! "be in acord with" (DIR)
 bez:bez V-AR-IV ; ! "fed up" (DIR)
 bık:bık V-AR-IV ; ! "fed up" (DIR)
@@ -22989,8 +22991,8 @@ bozul:bozul V-IR-IV ; ! "be destroyed" (DIR)
 bulaş:bulaş V-IR-IV ; ! "be mixed up" (DIR)
 bunal:bunal V-IR-IV ; ! "get bored" (DIR)
 buy:buy V-IR-IV ; ! "enjoin" (DIR)
-buyur:buyur V-IR-IV ; ! "command" (DIR)
-çak:çak V-AR-IV ; ! "notice" (DIR)
+buyur:buyur V-IR-TV ; ! "command" (DIR)
+çak:çak V-AR-TV ; ! "notice" (DIR)
 çakış:çakış V-IR-IV ; ! "collide" (DIR)
 çalış:çalış V-IR-IV ; ! "study, work" (DIR)
 canlan:canlan V-IR-IV ; ! "to ignite" (DIR)
