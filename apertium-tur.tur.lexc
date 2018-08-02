@@ -2790,7 +2790,7 @@ hariç:hariç POST ; ! "besides"
 LEXICON  Conjunctions
 şöyle% de:şöyle% de CC ; !
 öyle% ki:öyle% ki CC ; !
-
+hem% de:hem% de CC ; !
 asla% da:asla% da CC ; !
 ki:ki CC ; !
 ta:ta CC ; !
@@ -4224,6 +4224,8 @@ patika:patika N1 ; ! "path"
 Büyükelçilik:Büyükelçilik%{v%} N1 ; ! embassy"
 yurtdış:yurtdış N2 ; ! "abroad"
 din% adamı:din% adam N2 ; 
+parti% komite:parti% komite N2 ; !
+beden% eğitim:beden% eğitim N2 ; !
 bütünleşme:bütünleşme N1 ; ! "consolidation"
 doğrultu:doğrultu N1 ; ! "direction"
 ithal:ithal N1 ; ! "importation"
@@ -21493,6 +21495,7 @@ münferiden:münferiden ADV3 ; ! "solely"
 kısaca:kısaca ADV1 ; !
 topluca:topluca ADV1 ; !
 bir% anda:bir% anda ADV1 ; !
+daha% fazla:daha% fazla ADV1 ; !
 eksik:eksik ADV1 ; !
 kendi:kendi ADV1 ; !
 kolay:kolay ADV1 ; !
@@ -22149,15 +22152,15 @@ zikret:zikret V-AR-TV ; ! "commemorate, mention" (DIR)
 abart:abart V-IR-TV ; ! "exaggerate" (DIR)
 aç:aç V-AR-TV ; ! "open" (DIR)
 affet:affet V-AR-TV ; ! "forgive" (DIR)
-ak:ak V-AR-TV ; ! "flow, leak" (DIR)
+ak:ak V-AR-IV ; ! "flow, leak" (DIR)
 akset:akset V-AR-TV ; ! "be heard" (DIR)
 aktar:aktar V-IR-TV ; ! "transfer" (DIR)
 ! al:al V-TV-DIR-IR ; ! "take, buy"
-alçal:alçal V-IR-TV ; ! "lower" (DIR)
+alçal:alçal V-IR-IV ; ! "lower" (DIR)
 alçalt:alçalt V-IR-TV ; ! "lower" (DIR)
 alevlen:alevlen V-IR-IV ; ! "catch on fire" (DIR)
 alıkoy:alıkoy V-AR-TV ; ! "detain, stop" (DIR)
-alış:alış V-IR-TV ; ! "familiarise with" (DIR)
+alış:alış V-IR-IV ; ! "familiarise with" (DIR)
 an:an V-AR-TV ; ! "make mention of, remind" (DIR)
 arıt:arıt V-IR-TV ; ! "purify someone" (DIR)
 as:as V-AR-TV ; ! "hang, suspend" (DIR)
@@ -22165,14 +22168,14 @@ aş:aş V-AR-TV ; ! "overcome??" (DIR)
 at:at V-AR-TV ; ! "throw" (DIR)
 atfet:atfet V-IR-TV ; ! "attrube" (DIR)
 aydınlat:aydınlat V-IR-TV ; ! "enlighten" (DIR)
-ayrış:ayrış V-IR-TV ; ! "decompose" (DIR)
+ayrış:ayrış V-IR-IV ; ! "decompose" (DIR)
 azlet:azlet V-AR-TV ; ! "dismiss" (DIR)
-azmet:azmet V-AR-TV ; ! "determine" (DIR)
+azmet:azmet V-AR-IV ; ! "determine" (DIR)
 bahset:bahset V-AR-TV ; ! "talk about" (DIR)
 bahşet:bahşet V-AR-TV ; ! "forgive" (DIR)
 bak:bak V-AR-IV ; ! "look at" (DIR)
 ban:ban V-AR-TV ; ! "dip into" (DIR)
-bas:bas V-AR-IV ; ! "press" (DIR)
+bas:bas V-AR-TV ; ! "press" (DIR)
 bas:bas V-AR-TV ; ! "raid" (DIR)
 basıl:basıl V-AR-IV ; 
 bastır:bastır V-AR-TV ; ! "" (T)
