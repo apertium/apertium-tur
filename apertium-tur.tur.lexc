@@ -3109,6 +3109,7 @@ Profesör:Profesör TIT ; ! ""
 
 LEXICON Nouns
 km:km N1 ; !
+içeri:içeri N1 ; !
 resmiyet:resmiyet N1 ; !
 Uygurluk:Uygurluk N1 ; !
 yumruk:yumruk N1 ; !
@@ -3117,7 +3118,7 @@ sirke:sirke N1 ; !
 seyirci:seyirci N1 ; !
 bahçıvanlık:bahçıvanlık N1 ; !
 pervasızlık:pervasızlık N1 ; !
-
+yabancı% ülke:yabancı% ülke N1 ; !
 uyuşma:uyuşma N1 ; !
 kirletme:kirletme N1 ; !
 çürük:çürük N1 ; !
@@ -11027,6 +11028,7 @@ Keriye:Keriye NP-TOP ; !
 Aksiye:Aksiye NP-TOP ; !
 Karmıki:Karmıki NP-TOP ; !
 Karahanlı:Karahanlı NP-TOP ; !
+Karahanlılar:Karahanlılar NP-TOP ; !
 Maralbeşi:Maralbeşi NP-TOP ; !
 Elrayi:Elrayi NP-TOP ; !
 Beşbalık:Beşbalık NP-TOP ; !
@@ -13190,8 +13192,10 @@ Avrupa% Parlamentosu:Avrupa% Parlamento NP-ORG-COMPOUND-PX ; ! ""
 Avrupa% Komisyonu:Avrupa% Komisyon NP-ORG-COMPOUND-PX ; ! ""
 Sırp% Sosyalist% Partisi:Sırp% Sosyalist% Parti NP-ORG-COMPOUND-PX ; ! ""
 Sosyalist% Demokrat% Partisi:Sosyalist% Demokrat% Parti NP-ORG-COMPOUND-PX ; ! ""
+Milliyetçi% Çin% Partisi:Milliyetçi% Çin% Parti NP-ORG-COMPOUND-PX ; ! ""
 Sosyalist% Parti:Sosyalist% Parti NP-ORG ; ! ""
 Sosyalist% Partisi:Sosyalist% Parti NP-ORG-COMPOUND-PX ; ! ""
+Komünist% Partisi:Komünist% Parti NP-ORG-COMPOUND-PX ; ! ""
 Demokrat% Parti:Demokrat% Parti NP-ORG ; ! ""
 Demokrat% Partisi:Demokrat% Parti NP-ORG-COMPOUND-PX ; ! ""
 Sosyalist% Enternasyonel:Sosyalist% Enternasyonel NP-ORG ; ! ""
@@ -20462,8 +20466,8 @@ dipdiri:dipdiri A1 ;  ! ""
 favori:favori A2 ;  ! ""
 sivri:sivri A2 ;  ! ""
 sayrı:sayrı A1 ;  ! ""
-uluslararası:uluslararası A4 ;  ! ""
-milletlerarası:milletlerarası A4 ;  ! ""
+uluslararası:uluslararası A2 ;  ! ""
+milletlerarası:milletlerarası A2 ;  ! ""
 vasi:vasi A1 ;  ! ""
 dişi:dişi A2 ;  ! ""
 erdişi:erdişi A4 ;  ! ""
@@ -21735,7 +21739,7 @@ nereye:nereye ADV-ITG ; !
 
 LEXICON Verbs
 cisimlen:cisimlen V-IR-IV ; !
-
+görüş:görüş V-IR-IV ; !
 uygun% ol:uygun% ol V-IR-IV ; !
 kaynatıl:kaynatıl V-IR-IV ; !
 fiyatlandır:fiyatlandır V-IR-TV ; !
