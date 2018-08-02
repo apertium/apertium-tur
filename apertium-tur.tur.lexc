@@ -1185,7 +1185,7 @@ LEXICON NP-ORG
 !!
 LEXICON NP-ORG-COMPOUND-PX
 
-:%>%{s%}%{I%}%{n%} CASE-ETC ;
+%<np%>%<org%>:%>%{s%}%{I%}%{n%} CASE-ETC ;
 POSS-REAL ;   ! for stuff like "биздин аба ырайыбыз" and even "анын аба ырайы",
               ! which should have a <px3sp> analysis
 
