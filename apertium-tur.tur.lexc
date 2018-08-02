@@ -3108,6 +3108,16 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+km:km N1 ; !
+resmiyet:resmiyet N1 ; !
+Uygurluk:Uygurluk N1 ; !
+yumruk:yumruk N1 ; !
+sebebkar:sebebkar N1 ; !
+sirke:sirke N1 ; !
+seyirci:seyirci N1 ; !
+bahçıvanlık:bahçıvanlık N1 ; !
+pervasızlık:pervasızlık N1 ; !
+
 uyuşma:uyuşma N1 ; !
 kirletme:kirletme N1 ; !
 çürük:çürük N1 ; !
@@ -10932,6 +10942,14 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Obul:Obul NP-TOP ; !
+Komul:Komul NP-TOP ; !
+Fujyen:Fujyen NP-TOP ; !
+Bayangolin:Bayangolin NP-TOP ; !
+Aşkun:Aşkun NP-TOP ; !
+Şayat:Şayat NP-TOP ; !
+Onsu:Onsu NP-TOP ; !
+
 Efes:Efes NP-TOP ; !
 Havai:Havai NP-TOP ; !
 Nilka:Nilka NP-TOP ; !
@@ -11158,9 +11176,14 @@ Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
 Zadok:Zadok NP-ANT-M ; !
 Abner:Abner NP-ANT-M ; !
+June:June NP-ANT-F ; !
+
 Antiokhos:Antiokhos NP-ANT-M ; !
 Elam:Elam NP-ANT-M ; !
-
+Tevfik:Tevfik NP-ANT-M ; !
+Tien:Tien NP-ANT-M ; !
+Şöcün:Şöcün NP-ANT-M ; !
+Muaz:Muaz NP-ANT-M ; 
 Mordekay:Mordekay NP-ANT-M ; !
 Beer:Beer NP-ANT-M ; !
 Koreş:Koreş NP-ANT-M ; !
@@ -19077,6 +19100,13 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+maddeli:maddeli A1 ; !
+müzikli:müzikli A1 ; !
+dahil:dahil A1 ; !
+yer% alan:yer% alan A1 ; !
+düzenlenmiş:düzenlenmiş A1 ; !
+vatansız:vatansız A1 ; !
+
 harap:harap A1 ; !
 soyadlı:soyadlı A1 ; !
 baskılı:baskılı A1 ; !
@@ -21475,6 +21505,8 @@ yeni% baştan:yeni% baştan ADV1 ; !
 içinde:içinde ADV1 ; !
 ikisi:ikisi ADV1 ; !
 gününe% dek:gününe% dek ADV1 ; !
+her% millet:her% millet ADV1 ; !
+ahenkli:ahenkli ADV1 ; !
 
 olmasa% da:olmasa% da ADV1 ; ! Use/MT
 gerek% ki:gerek% ki ADV1 ; !
@@ -21699,6 +21731,8 @@ nereye:nereye ADV-ITG ; !
 
 
 LEXICON Verbs
+cisimlen:cisimlen V-IR-IV ; !
+
 uygun% ol:uygun% ol V-IR-IV ; !
 kaynatıl:kaynatıl V-IR-IV ; !
 fiyatlandır:fiyatlandır V-IR-TV ; !
