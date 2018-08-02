@@ -2842,7 +2842,7 @@ olarak:olarak CS ;
 gibi:gibi CS ; 
 eğer:eğer CS ; 
 şayet:şayet CS ; 
-nedeniyle:nedeniyle CS ; 
+nedeniyle:nedeniyle CS ;
 
 nispeten:nispeten CA ; 
 adeta:adeta CA ; 
@@ -3142,7 +3142,6 @@ zalim:zalim N1 ; !
 mazlum:mazlum N1 ; !
 asab:asab N1 ; !
 B:B N1 ; !
-N:N N1 ;
 pervane:pervane N1 ; !
 Türkolog:Türkolog N1 ; !
 akrabalık:akrabalık N1 ; !
@@ -11285,7 +11284,8 @@ Zühre:Zühre NP-ANT-F ; !
 Abdürreşit:Abdürreşit NP-ANT-F ; !
 Lo:Lo NP-ANT-M ; !
 Gülen:Gülen NP-COG-MF ; !
-Ni:Ni NP-ANT-M ; !
+Ni:Ni NP-ANT-F ; !
+Li:Li NP-ANT-M ; !
 Bakî:Bakî NP-COG-MF ; !
 
 Beyheki:Beyheki NP-COG-MF ; !
