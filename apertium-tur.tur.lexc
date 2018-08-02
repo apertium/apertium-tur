@@ -4225,8 +4225,7 @@ patika:patika N1 ; ! "path"
 Büyükelçilik:Büyükelçilik%{v%} N1 ; ! embassy"
 yurtdış:yurtdış N2 ; ! "abroad"
 din% adamı:din% adam N2 ; 
-parti% komite:parti% komite N2 ; !
-beden% eğitim:beden% eğitim N2 ; !
+parti% komitesi:parti% komitesi N1 ; !
 bütünleşme:bütünleşme N1 ; ! "consolidation"
 doğrultu:doğrultu N1 ; ! "direction"
 ithal:ithal N1 ; ! "importation"
@@ -4241,8 +4240,6 @@ sonbahar:sonbahar N1 ; ! "autumn"
 özelleştirme:özelleştirme N1 ; ! " privatization"
 görevli:görevli N1 ; ! "functionary"
 personel:personel N1 ; ! "staff"
-
-
 neden:neden N1 ; ! "reason"
 başsavcı:başsavcı N1 ; ! "general procurator"
 sergi:sergi N1 ; ! "show"
