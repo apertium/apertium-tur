@@ -3108,6 +3108,7 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+tarihi% eser:tarihi% eser N1 ; !
 km:km N1 ; !
 içeri:içeri N1 ; !
 resmiyet:resmiyet N1 ; !
@@ -13224,6 +13225,7 @@ Akhisar:Akhisar NP-ORG ; ! ""
 Antalyaspor:Antalyaspor NP-ORG ; ! ""
 Beşiktaş% JK:Beşiktaş% JK NP-ORG ; ! ""
 Beşiktaş:Beşiktaş NP-ORG ; ! ""
+
 Bursaspor:Bursaspor NP-ORG ; ! ""
 Elazığspor:Elazığspor NP-ORG ; ! ""
 Eskişehirspor:Eskişehirspor NP-ORG ; ! ""
@@ -18256,6 +18258,7 @@ Georgiy:Georgiy NP-ANT-M ; ! ""
 Çarli:Çarli NP-ANT-M ; ! ""
 Vorojba:Vorojba NP-TOP ; ! ""
 Drujba:Drujba NP-TOP ; ! ""
+Beşiktaş:Beşiktaş NP-TOP ; ! ""
 Çukurça:Çukurça NP-TOP ; ! ""
 Taraşça:Taraşça NP-TOP ; ! ""
 Akorda:Akorda NP-TOP ; ! ""
