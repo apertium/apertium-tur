@@ -1447,7 +1447,7 @@ kim:kim PRON-ITG-INFL ; ! "who"
 hangi:hangi PRON-ITG-INFL ; ! "which"
 nedir:nedir PRON-ITG-INFL ;
 nere:ner PRON-ITG-NERE ; ! ""
-!ne% kadar: ne% kadar PRON-ITG-INFL ;
+ne% kadar: ne% kadar PRON-ITG-INFL ;
 herhangi:herhangi PRON-ITG-INFL ;
 
 LEXICON PRON-QNT
@@ -3142,7 +3142,6 @@ sipariş:sipariş N1 ; !
 liyakat:liyakat N1 ; !
 teminat:teminat N1 ; !
 sucu:sucu N1 ; !
-Y:Y N1 ; !
 toplanma:toplanma N1 ; !
 görme:görme N1 ; !
 Kanadalı:Kanadalı N1 ; !
@@ -3153,6 +3152,7 @@ zalim:zalim N1 ; !
 mazlum:mazlum N1 ; !
 asab:asab N1 ; !
 B:B N1 ; !
+R:R N1 ; !
 pervane:pervane N1 ; !
 Türkolog:Türkolog N1 ; !
 akrabalık:akrabalık N1 ; !
@@ -11476,6 +11476,7 @@ Abduveli:Abduveli NP-ANT-M ; !
 Memtili:Memtili NP-ANT-M ; !
 Gani:Gani NP-ANT-M ; !
 Şi:Şi NP-ANT-M ; !
+Yi:Yi NP-ANT-M ; !
 Abdulhalik:Abdulhalik NP-ANT-M ; !
 Erdal:Erdal NP-ANT-M ; !
 Celil:Celil NP-ANT-M ; !
@@ -11654,6 +11655,8 @@ Kajar:Kajar NP-ANT-M ;
 May:May NP-COG-MF ;
 Abdureşid:Abdureşid NP-ANT-M ; ! ""
 Haşimi:Haşimi NP-ANT-M ; ! ""
+Haşim:Haşim NP-ANT-M ; ! ""
+Fırat:Fırat NP-ANT-M ; ! ""
 Abdureşit:Abdureşit NP-ANT-M ; ! ""
 Abdürrahman:Abdürrahman NP-ANT-M ; ! ""
 Kani:Kani NP-ANT-M ; ! "" "Use/MT"
@@ -19634,6 +19637,7 @@ müzikal:müzikal A1 ;
 şüphesiz:şüphesiz A1 ;
 dostça:dostça A1 ;
 doğuştan:doğuştan A1 ; ! Use/MT
+çok% sayıda:çok% sayıda A1 ; !
 ac:ac A1;
 sıracalı:sıracalı A1 ;
 manavi:manavi A1 ;
@@ -21735,6 +21739,9 @@ nereye:nereye ADV-ITG ; !
 
 
 LEXICON Verbs
+adlandırıl:adlandırıl V-IR-IV ; !
+yer% al:yer% al V-IR-IV ; !
+ayırt% et:ayırt% et V-IR-TV ;
 cisimlen:cisimlen V-IR-IV ; !
 görüş:görüş V-IR-IV ; !
 uygun% ol:uygun% ol V-IR-IV ; !
