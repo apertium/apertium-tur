@@ -3108,6 +3108,9 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+Tibetçe:Tibetçe N1 ; !
+Y:Y N1 ; !
+Parisli:Parisli N1 ; !
 tarihi% eser:tarihi% eser N1 ; !
 km:km N1 ; !
 içeri:içeri N1 ; !
@@ -13196,7 +13199,7 @@ Sosyalist% Demokrat% Partisi:Sosyalist% Demokrat% Parti NP-ORG-COMPOUND-PX ; ! "
 Milliyetçi% Çin% Partisi:Milliyetçi% Çin% Parti NP-ORG-COMPOUND-PX ; ! ""
 Sosyalist% Parti:Sosyalist% Parti NP-ORG ; ! ""
 Sosyalist% Partisi:Sosyalist% Parti NP-ORG-COMPOUND-PX ; ! ""
-Komünist% Partisi:Komünist% Parti NP-ORG-COMPOUND-PX ; ! ""
+Komünist% Parti:Komünist% Parti NP-ORG ; ! ""
 Demokrat% Parti:Demokrat% Parti NP-ORG ; ! ""
 Demokrat% Partisi:Demokrat% Parti NP-ORG-COMPOUND-PX ; ! ""
 Sosyalist% Enternasyonel:Sosyalist% Enternasyonel NP-ORG ; ! ""
@@ -21518,6 +21521,8 @@ ikisi:ikisi ADV1 ; !
 gününe% dek:gününe% dek ADV1 ; !
 her% millet:her% millet ADV1 ; !
 ahenkli:ahenkli ADV1 ; !
+sizce:sizce ADV1 ; !
+ona% göre:ona% göre ADV1 ; !
 
 olmasa% da:olmasa% da ADV1 ; ! Use/MT
 gerek% ki:gerek% ki ADV1 ; !
