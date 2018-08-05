@@ -3128,7 +3128,8 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
-ıslahat:ıslahat N1 ; 
+ıslah:Islah N1 ; 
+ıslahat:Islahat N1 ; 
 yemeklik:yemeklik N1 ;
 vitamin% B:vitamin% B N1 ;
 vitamin% C:vitamin% C N1 ;
@@ -7321,7 +7322,6 @@ iskonto:iskonto N1 ; ! "discount"
 ıskonto:ıskonto N1 ; ! "discount"
 iskonto:iskonto N1 ; ! "reduction"
 ıslahat:ıslahat N1 ; ! "improvement"
-ıslahat:ıslahat N1 ; ! "reform"
 ıslah:ıslah N1 ; ! "improvement"
 islam:islam N1 ; ! "islam"
 işleç:işleç N1 ; ! "operator"
@@ -21188,7 +21188,7 @@ dağlık:dağlık A3 ;
 gereken:gereken A4 ;  ! ""
 kısa:kısa A1 ; ! "short"
 değerli:değerli A1 ; ! "different"
-
+kendi:kendi A1 ; !
 !! JNW Adjectives
 tekerlekli:tekerlekli A2 ; ! "wheeled"
 ilginç:ilginç A1 ; ! "interesting"  ! FIXME: CHECK A1
