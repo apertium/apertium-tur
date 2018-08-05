@@ -3128,6 +3128,7 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+ıslahat:ıslahat N1 ; 
 yemeklik:yemeklik N1 ;
 vitamin% B:vitamin% B N1 ;
 vitamin% C:vitamin% C N1 ;
@@ -7247,8 +7248,6 @@ irkinti:irkinti N1 ; ! "pool"
 irkinti:irkinti N1 ; ! "puddle"
 ırk:ırk N1 ; ! "race"
 ırmak:ırmak N1 ; ! "flood"
-ırmak:ırmak N1 ; ! "river"
-ırmak:ırmak N1 ; ! "stream"
 ironi:ironi N1 ; ! "irony"
 irsalat:irsalat N1 ; ! "dispatch"
 irşat:irşat N1 ; ! "guidance"
@@ -19274,6 +19273,7 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+islami:islami A4 ; 
 başkaca:başkaca A4 ;
 ortanca:ortanca A1 ;
 şunca:şunca A4 ;
