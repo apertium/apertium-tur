@@ -504,6 +504,14 @@ LEXICON V-GPR-COMMON
 ATTR ;
 %<subst%>: SUBST ;
 
+LEXICON V-GNA-ABIL
+%<gna_neg%>:%>m%{A%}d%{A%}n # ;
+
+LEXICON V-GNA-ABIL-NEG
+%<gna_perf%>:%>%{y%}%{I%}p # ;
+%<gna_when%>:%>%{y%}%{I%}nc%{A%} # ;
+%<gna_impf%>:%>%{y%}%{A%}r%{A%}k # ;
+
 LEXICON V-GNA
 !! Verbal adverbs
 
@@ -577,6 +585,8 @@ LEXICON V-NEC
 
 LEXICON V-TENSE-ABIL
 
+%<abil%>:%>%{y%}%{A%} V-GNA-ABIL ;
+%<abil%>:%>%{y%}%{A%}m%{A%} V-GNA-ABIL-NEG ;
 %<abil%>:%>%{y%}%{A%}bil V-TENSE-ABIL-AFF ;
 %<pot%>:%>%{y%}%{A%}bil V-TENSE-ABIL-AFF ;
 %<abil%>%<neg%>:%>%{y%}%{A%}m%{A%} V-TENSE-ABIL-NEG ;
@@ -587,6 +597,7 @@ LEXICON V-TENSE-ABIL-NEG
 V-TENSE-MA-COMMON ;
 %<aor%>:%{z%} V-INFL-PRE-COP ;
 V-GERUNDS ;
+
 
 LEXICON V-TENSE-ABIL-AFF
 
@@ -3117,6 +3128,7 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+yemeklik:yemeklik N1 ;
 vitamin% B:vitamin% B N1 ;
 vitamin% C:vitamin% C N1 ;
 M:M N1 ;
@@ -3213,9 +3225,9 @@ Kürt:Kürt N1 ;
 insan% vücut:insan% vücut N1 ;
 Yakut:Yakut N1 ;
 Hu:Hu N1 ;
-parti% grubu:parti% grub N2 ;
-posta% kodu:posta% kod N2 ;
-eyalet% kodu:eyalet% kod N2 ;
+parti% grubu:parti% grubu N1 ;
+posta% kodu:posta% kodu N1 ;
+eyalet% kodu:eyalet% kodu N1 ;
 borçlu:borçlu N1 ;
 kuru:kuru N1 ;
 ok-yay:ok-yay N1 ;
@@ -3725,6 +3737,7 @@ C:C N1 ; !
 D:D N1 ; !
 kızgınlık:kızgınlık N1 ; !
 P:P N1 ; !
+pi:pi N1 ; !
 seher:seher N1 ; !
 koruma:koruma N1 ; !
 R:R N1 ; !
@@ -21367,6 +21380,7 @@ bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 
 
 LEXICON Adverbs 
+ne% kadar:ne% kadar ADV1 ; ! "
 hep% beraber:hep% beraber ADV1 ;
 daha% da:daha% da ADV1 ;
 sonra% da:sonra% da ADV1 ;
