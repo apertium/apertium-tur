@@ -3128,8 +3128,8 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
-ıslah:Islah N1 ; 
-ıslahat:Islahat N1 ; 
+seçkin:seçkin N1 ; !
+Yanfon:Yanfon N1 ; ! 
 yemeklik:yemeklik N1 ;
 vitamin% B:vitamin% B N1 ;
 vitamin% C:vitamin% C N1 ;
@@ -3258,10 +3258,10 @@ tasarı:tasarı N1 ;
 Tanrı:Tanrı N1 ;
 hava% sahası:hava% sahası N1 ;
 sıra% arkadaş:sıra% arkadaş N1 ;
-
+toplam:toplam N1 ; !
 Tibetçe:Tibetçe N1 ; !
-Y:Y N1 ; !
 Parisli:Parisli N1 ; !
+Sincanlı:Sincanlı N1 ; !
 tarihi% eser:tarihi% eser N1 ; !
 km:km N1 ; !
 içeri:içeri N1 ; !
@@ -3280,7 +3280,6 @@ kirletme:kirletme N1 ; !
 yürüyüş:yürüyüş N1 ; !
 uygunlaştırma:uygunlaştırma N1 ; !
 tentene:tentene N1 ; !
-G:G N1 ; !
 kaçakçı:kaçakçı N1 ; !
 amerikalı:amerikalı N1 ; !
 veli:veli N1 ; !
@@ -3291,7 +3290,6 @@ yerleşik:yerleşik N1 ; !
 uygunluk:uygunluk N1 ; !
 profesörlük:profesörlük N1 ; !
 suculuk:suculuk N1 ; !
-L:L N1 ; !
 uygunlaştır:uygunlaştır N1 ; !
 sipariş:sipariş N1 ; !
 liyakat:liyakat N1 ; !
@@ -3305,8 +3303,6 @@ radikal:radikal N1 ; !
 zalim:zalim N1 ; !
 mazlum:mazlum N1 ; !
 asab:asab N1 ; !
-B:B N1 ; !
-R:R N1 ; !
 pervane:pervane N1 ; !
 Türkolog:Türkolog N1 ; !
 akrabalık:akrabalık N1 ; !
@@ -3528,7 +3524,8 @@ kıssa:kıssa N1 ; !
 seç:seç N1 ; !
 mahiyet:mahiyet N1 ; !
 Cenab-ı% Allah:Cenab-ı% Allah N1 ; !
-H:H N1 ; !
+Ci:Ci NP-ANT-M ; !
+Hi:Hi NP-ANT-M ; !
 fasık:fasık N1 ; !
 gusul:gusul N1 ; !
 girici:girici N1 ; !
@@ -3735,17 +3732,10 @@ yaramaz:yaramaz N1 ; !
 EX360:EX360 N1 ; !
 mp3:mp3 N1 ; !
 A:A N1 ; !
-C:C N1 ; !
-D:D N1 ; !
 kızgınlık:kızgınlık N1 ; !
-P:P N1 ; !
 pi:pi N1 ; !
 seher:seher N1 ; !
 koruma:koruma N1 ; !
-R:R N1 ; !
-S:S N1 ; !
-T:T N1 ; !
-Z:Z N1 ; !
 olma:olma N1 ; !
 sağ:sağ N1 ; !
 siyah:siyah N1 ; !
@@ -13160,7 +13150,7 @@ PYD:PYD NP-ORG ; !
 Samsung:Samsung NP-ORG ; !
 YPG:YPG NP-ORG ; !
 Xiaomi:Xiaomi NP-ORG ; !
-Yanfon:Yanfon NP-ORG ; !
+
 WeChat:WeChat NP-ORG ; !
 TRT:TRT NP-ORG ; !
 Kızılay:Kızılay NP-ORG ; !
@@ -19392,7 +19382,7 @@ ikincil:ikincil A1 ; !
 namahrem:namahrem A1 ; !
 hakir:hakir A1 ; !
 tıbbî:tıbbî A1 ; !
-bakî:bakî A1 ; !
+bakî:bakî A4 ; !
 kılıcı:kılıcı A1 ; !
 haysiyetli:haysiyetli A1 ; !
 yuvarlak:yuvarlak A1 ; !
@@ -19895,8 +19885,8 @@ yenilikçi:yenilikçi A1 ;
 kuzey:kuzey A2 ; ! "north"
 batı:batı A2 ; ! ""
 içbükey:içbükey A1 ;
-güney% amerikan:güney% amerikan A1 ;
-seçkin:seçkin A3 ;
+güney% amerikan:güney% amerikan A4 ;
+seçkin:seçkin A4 ;
 herbir:herbir A1 ;
 doğu:doğu A2 ; ! ""
 erken:erken A1 ;
@@ -21380,6 +21370,8 @@ bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 
 
 LEXICON Adverbs 
+müminlerce:müminlerce ADV1 ; !
+korkusuzca:korkusuzca ADV1 ; !
 ne% kadar:ne% kadar ADV1 ; ! "
 hep% beraber:hep% beraber ADV1 ;
 daha% da:daha% da ADV1 ;
@@ -21399,7 +21391,8 @@ ne% olursa% olsun:ne% olursa% olsun ADV1 ;
 neden% o% kadar:neden% o% kadar ADV1 ;
 çok% az:çok% az ADV1 ;
 en% az:en% az ADV1 ;
-
+ne:ne ADV1 ; !
+onlara% göre:onlara% göre ADV1 ; !
 bu% yüzden:bu% yüzden ADV3 ; ! ""
 şimdi:şimdi ADV4 ; ! "now"
 tek:tek ADV3 ;!  ""
@@ -21780,6 +21773,7 @@ mümkün% olduğunca:mümkün% olduğunca ADV1 ; !
 yakın% zamanda:yakın% zamanda ADV1 ; !
 usulca:usulca ADV1 ; !
 istemeden:istemeden ADV1 ; !
+istemsiz:istemsiz ADV1 ; !
 bir% bir:bir% bir ADV1 ; !
 durup:durup ADV1 ; !s
 gönüllü:gönüllü ADV1 ; !
