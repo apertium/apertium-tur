@@ -3524,7 +3524,7 @@ kıssa:kıssa N1 ; !
 seç:seç N1 ; !
 mahiyet:mahiyet N1 ; !
 Cenab-ı% Allah:Cenab-ı% Allah N1 ; !
-Ci:Ci NP-ANT-M ; !
+Ji:Ji NP-ANT-M ; !
 Hi:Hi NP-ANT-M ; !
 fasık:fasık N1 ; !
 gusul:gusul N1 ; !
@@ -19263,6 +19263,9 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+onlarca:onlarca A1 ; !
+milyarlarca:milyarlarca A1 ; !
+kardeşçe:kardeşçe A1 ; 
 islami:islami A4 ; 
 başkaca:başkaca A4 ;
 ortanca:ortanca A1 ;
@@ -21370,6 +21373,7 @@ bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 
 
 LEXICON Adverbs 
+vahşice:vahşice ADV1 ; !
 müminlerce:müminlerce ADV1 ; !
 korkusuzca:korkusuzca ADV1 ; !
 ne% kadar:ne% kadar ADV1 ; ! "
