@@ -975,8 +975,8 @@ LEXICON CASE-NONOM
 %<ins%>:%>%{y%}l%{A%} CLIT-GENERAL ;     
 
 LEXICON GENPOSS-ETC-NONOM
-
-%<gen%>%<subst%>:%>%{n%}%{I%}ki%{n%} CASE-NONOM ;
+%<gen%>%<subst%>:%>%{n%}%{I%}nki%{n%} # ;
+%<gen%>%<subst%>:%>%{n%}%{I%}nki%{n%} CASE-NONOM ;
 %<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
 
 CASE-NONOM ;
@@ -1006,7 +1006,7 @@ LEXICON CASE
 
 LEXICON GENPOSS-ETC 
 
-%<gen%>%<subst%>:%>%{N%}%{I%}ki%{n%} CASE ;
+%<gen%>%<subst%>:%>%{N%}%{I%}nki%{n%} CASE ;
 %<loc%>:%>%{D%}%{A%}ki ATTR-SUBST ;
 %<sim%>:%>%{C%}%{A%} CLIT-GENERAL ;  ! CLITICS-NO-COP
 
@@ -1421,7 +1421,7 @@ LEXICON PRON-DEM-BU
 %<prn%>%<dem%>%<acc%>:nu CLIT ;
 %<prn%>%<dem%>%<abl%>:ndan CLIT-GENERAL ;
 %<prn%>%<dem%>%<loc%>:nda CLIT-GENERAL ;
-%<prn%>%<dem%>%<gen%>%<subst%>:nuki%{n%} CASE ;
+%<prn%>%<dem%>%<gen%>%<subst%>:nunki%{n%} CASE ;
 %<prn%>%<dem%>%<loc%>%<attr%>:ndaki ATTR-SUBST ;
 %<prn%>%<dem%>%<ins%>:nunla # ;
 %<prn%>%<dem%>%<px3sp%>:nu%{n%} CASE ;
@@ -11468,8 +11468,7 @@ Lo:Lo NP-ANT-M ; !
 Gülen:Gülen NP-COG-MF ; !
 Ni:Ni NP-ANT-F ; !
 Li:Li NP-ANT-M ; !
-Bakî:Bakî NP-COG-MF ; !
-
+Baki:Baki NP-COG-MF ; !
 Beyheki:Beyheki NP-COG-MF ; !
 Keyyim:Keyyim NP-COG-MF ; !
 Koragan:Koragan NP-COG-MF ; !
@@ -19881,8 +19880,8 @@ asırlık:asırlık A1 ;
 farkedilir:farkedilir A2 ;
 yağlı:yağlı A1 ;
 mimarlıkla% ilgili:mimarlıkla% ilgili A1 ;
-yarım:yarım A3 ;
-komşu:kmoşu A1 ;
+yarım:yarım A1 ;
+komşu:komşu A1 ;
 çok:çok A1 ;
 değişik:değişik A1 ;
 klasik:klasik A1 ;
