@@ -3138,6 +3138,9 @@ S:S N1 ; !
 T:T N1 ; !
 Y:Y N1 ; !
 Z:Z N1 ; !
+Kiril:Kiril N1 ; !
+
+Sanskritçe:Sanskritçe N1 ; !
 seçkin:seçkin N1 ; !
 Yanfon:Yanfon N1 ; ! 
 yemeklik:yemeklik N1 ;
@@ -3218,6 +3221,7 @@ Nisan:Nisan N1 ;
 Ramazan:Ramazan N1 ;
 Türkmen:Türkmen N1 ;
 Latin:Latin N1 ;
+Latince:Latince N1 ;
 Japon:Japon N1 ;
 Hun:Hun N1 ;
 odun:odun N1 ;
@@ -3268,7 +3272,6 @@ tasarı:tasarı N1 ;
 Tanrı:Tanrı N1 ;
 hava% sahası:hava% sahası N1 ;
 sıra% arkadaş:sıra% arkadaş N1 ;
-toplam:toplam N1 ; !
 Tibetçe:Tibetçe N1 ; !
 Parisli:Parisli N1 ; !
 Sincanlı:Sincanlı N1 ; !
@@ -10993,8 +10996,8 @@ yabancı:yabancı N1 ;
 yad:yad N1 ;
 yaptırım:yaptırım N1 ;
 yaratıcı:yaratıcı N1 ;
-yarım:yarım N1 ;
 yarı:yarı N1 ;
+yarım:yarım N1 ;
 yasak:yasak N1 ;
 yaşayış:yaşayış N1 ;
 yastık:yastık N1 ;
@@ -19272,6 +19275,8 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+yarım:yarım A1 ; !
+çoğul:çoğul A1 ; ! "plural"
 onlarca:onlarca A1 ; !
 milyarlarca:milyarlarca A1 ; !
 kardeşçe:kardeşçe A1 ; 
@@ -19880,7 +19885,6 @@ asırlık:asırlık A1 ;
 farkedilir:farkedilir A2 ;
 yağlı:yağlı A1 ;
 mimarlıkla% ilgili:mimarlıkla% ilgili A1 ;
-yarım:yarım A1 ;
 komşu:komşu A1 ;
 çok:çok A1 ;
 değişik:değişik A1 ;
@@ -21596,7 +21600,7 @@ ezcümle:ezcümle ADV3 ; ! "essentially"
 ezkaza:ezkaza ADV3 ; ! "accidentally"
 faraza:faraza ADV3 ; ! "let's suppose that" @@@@
 farzımuhal:farzımuhal ADV3 ; ! "let's suppose that" @@@
-fazlaca:fazlaca ADV3 ; ! "excessively"
+fazlaca:fazlaca ADV1 ; ! "excessively"
 fiilen:fiilen ADV3 ; ! "actually" "de facto"
 filhakika:filhakika ADV3 ; ! "actually"
 filvaki:filvaki ADV3 ; ! "truly"
@@ -21948,6 +21952,7 @@ nereye:nereye ADV-ITG ; !
 
 
 LEXICON Verbs
+merkezleştir:merkezleştir V-IR-TV ; !
 adlandırıl:adlandırıl V-IR-IV ; !
 yer% al:yer% al V-IR-IV ; !
 ayırt% et:ayırt% et V-IR-TV ;
