@@ -1,7 +1,7 @@
 Alphabet
 
-   A Â B C Ç D E F G Ğ H I İ J K L M N O Ö P Q R S Ş T U Ü V W X Y Z 
-   a â b c ç d e f g ğ h ı i j k l m n o ö p q r s ş t u ü v w x y z 
+   A Â B C Ç D E F G Ğ H I İ Î J K L M N O Ö P Q R S Ş T U Û Ü V W X Y Z 
+   a â b c ç d e f g ğ h ı i î j k l m n o ö p q r s ş t u û ü v w x y z 
 
  %{A%}:a 
  %{I%}:ı 
@@ -48,12 +48,12 @@ Alphabet
 
 Sets
 
-SurVow = İ Ü E Ö I U A Â O
-         i ü e ö ı u a â o ; 
+SurVow = İ Ü E Ö I U A Â O Î Û
+         i ü e ö ı u a â o î û ; 
 
 
-Vow    = İ Ü E Ö I U A Â O
-         i ü e ö ı u a â o
+Vow    = İ Ü E Ö I U A Â O Î Û
+         i ü e ö ı u a â o î û
        %{A%} %{I%} %{e%} %{a%} %{i%} ;
 
 Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z X
@@ -62,17 +62,17 @@ Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z X
 
 AbstrVow = %{ь%} %{ö%} %{o%} %{ı%} %{u%} ; 
 
-HardVow  = a â ı o u 
-           A Â I O U ;
+HardVow  = a â ı o u û 
+           A Â I O U Û ;
 
-SoftVow  = e i ö ü 
-           E İ Ö Ü ;
+SoftVow  = e i ö ü î
+           E İ Ö Ü Î ;
 
-FlatVow  = a â e i ı 
-           A Â E İ I ;
+FlatVow  = a â e i ı î 
+           A Â E İ I Î ;
 
-RoundVow = o u ö ü
-           O U Ö Ü ;
+RoundVow = o u ö ü û
+           O U Ö Ü Û ;
 
 CnsDev   = f s t k ç ş h p 
            F S T K Ç Ş H P ;
@@ -90,8 +90,8 @@ Rules
                                                              [ %{z%}:0 %>: %{y%}: ]/:0 _ :m ;
  
         where 
-            LastVowel in ( i ü e ö ı u a o â İ Ü E Ö I U A O Â )  ! This is horrible why do we need to do it with uppercase too
-                   Vy in ( i ü i ü ı u ı u ı i ü i ü ı u ı u ı )  
+            LastVowel in ( i ü e ö ı u a o â İ Ü E Ö I U A O Â î û )  ! This is horrible why do we need to do it with uppercase too
+                   Vy in ( i ü i ü ı u ı u ı i ü i ü ı u ı u ı i u )  
             matched;
 
 !@ 2 6 {ı}:0 % - >:0 {s}:s {I}:ı {n}:0
