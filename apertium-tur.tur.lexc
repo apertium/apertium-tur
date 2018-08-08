@@ -14261,6 +14261,7 @@ Yenhey:Yenhey NP-COG-MF ; !
 Hey:Hey NP-COG-MF ; !
 Enley:Enley NP-COG-MF ; !
 Abliz:Abliz NP-COG-MF ; !
+Ping:Ping NP-ANT-M ; !
 
 Kosumi:Kosumi NP-COG-MF ; ! ""
 Köprülü:Köprülü NP-COG-MF ; ! ""
@@ -21387,6 +21388,7 @@ bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 
 
 LEXICON Adverbs 
+şöylece:şöylece ADV1 ; !
 vahşice:vahşice ADV1 ; !
 müminlerce:müminlerce ADV1 ; !
 korkusuzca:korkusuzca ADV1 ; !
