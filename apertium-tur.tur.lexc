@@ -3539,6 +3539,7 @@ mahiyet:mahiyet N1 ; !
 Cenab-ı% Allah:Cenab-ı% Allah N1 ; !
 Ji:Ji NP-ANT-M ; !
 Hi:Hi NP-ANT-M ; !
+Noruzahun:Noruzahun NP-ANT-M ; !
 fasık:fasık N1 ; !
 gusul:gusul N1 ; !
 girici:girici N1 ; !
@@ -4151,7 +4152,7 @@ Nokia:Nokia NP-ORG ; !
 Yahoo:Yahoo NP-ORG ; !
 WordPress:WordPress NP-ORG ; !
 iPhone:iPhone NP-ORG ; !
-
+Vikipedi:Vikipedi NP-ORG ; ! ""
 Kutbilik:Kutbilik NP-ORG ; !
 
 vatansever:vatansever N1 ; !
@@ -13170,15 +13171,15 @@ Kızılay:Kızılay NP-ORG ; !
 
 Daily% Mail:Daily% Mail NP-ORG ; ! ""
 Euobserver:Euobserver NP-ORG ; ! ""
-AP:AP{ii%} NP-ORG ; ! ""
+AP:AP NP-ORG ; ! ""
 Nur% Otan:Nur% Otan NP-ORG ;
 CANDU:CANDU NP-ORG ; ! ""
-UNDP:UNDP{ii%} NP-ORG ; ! ""
-NIS:NIS{ii%} NP-ORG ; ! "Serbia industry petroil blabla"
+UNDP:UNDP NP-ORG ; ! ""
+NIS:NIS NP-ORG ; ! "Serbia industry petroil blabla"
 Yerelnet:Yerelnet NP-ORG ; ! ""
-PTT:PTT{ii%} NP-ORG ; ! ""
+PTT:PTT NP-ORG ; ! ""
 Troyka:Troyka NP-ORG ; ! ""
-ECB:ECB{ii%} NP-ORG ; ! ""
+ECB:ECB NP-ORG ; ! ""
 SYRIZA:SYRIZA NP-ORG ; ! ""
 NATO:NATO%{o%} NP-ORG ; ! ""
 PKK:PKK%{ı%} NP-ORG ; ! ""
@@ -13208,12 +13209,12 @@ Deutsche% Welle:Deutsche% Welle NP-ORG ; ! ""
 Getty% Images:Getty% Images NP-ORG ; ! ""
 SC:SC%{ь%} NP-ORG ; ! ""
 The% Times:The% Times NP-ORG ; ! ""
-STK:STK{ii%} NP-ORG ; ! ""
+STK:STK NP-ORG ; ! ""
 PfP:PfP%{ь%} NP-ORG ; ! ""
 
-ABC:ABC{ii%} NP-ORG ; ! "ABC"
-AKP:AKP{ii%} NP-ORG ; ! ""
-AP:AP{ii%} NP-ORG ; ! ""
+ABC:ABC NP-ORG ; ! "ABC"
+AKP:AKP NP-ORG ; ! ""
+AP:AP NP-ORG ; ! ""
 VMRO:VMRO NP-ORG ; ! ""
 DPA:DPA NP-ORG ; ! ""
 SFOR:SFOR NP-ORG ; ! ""
@@ -13225,13 +13226,13 @@ HDZ:HDZ%{ь%} NP-ORG ; ! ""
 EUFOR:EUFOR NP-ORG ; ! ""
 VOA:VOA NP-ORG ; ! ""
 EBRD:EBRD NP-ORG ; ! ""
-CNN:CNN{ii%} NP-ORG ; ! ""
+CNN:CNN NP-ORG ; ! ""
 USAID:USAID NP-ORG ; ! ""
 PACE:PACE NP-ORG ; ! "Parliamentary Assembly of the Council of Europe"
 CoE:CoE NP-ORG ; ! "Council of Europe"
-UDMR:UDMR{ii%} NP-ORG ; ! ""
+UDMR:UDMR NP-ORG ; ! ""
 WTO:WTO%{o%} NP-ORG ; ! ""
-EIB:EIB{ii%} NP-ORG ; ! ""
+EIB:EIB NP-ORG ; ! ""
 JAT:JAT NP-ORG ; ! ""
 UNDP:UNDP NP-ORG ; ! ""
 OECD:OECD NP-ORG ; ! ""
@@ -21388,6 +21389,7 @@ bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 
 
 LEXICON Adverbs 
+görüşünüzde:görüşünüzde ADV1 ; !
 şöylece:şöylece ADV1 ; !
 vahşice:vahşice ADV1 ; !
 müminlerce:müminlerce ADV1 ; !
