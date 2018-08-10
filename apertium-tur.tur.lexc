@@ -3139,7 +3139,8 @@ T:T N1 ; !
 Y:Y N1 ; !
 Z:Z N1 ; !
 Kiril:Kiril N1 ; !
-
+aruz:aruz N1 ; !
+vez%{u%}n:vez%{u%}n N1 ; !
 Sanskritçe:Sanskritçe N1 ; !
 seçkin:seçkin N1 ; !
 Yanfon:Yanfon N1 ; ! 
@@ -3917,62 +3918,62 @@ madensi:madensi N1 ; !
 sıkıntı:sıkıntı N1 ; !
 Hui:Hui N1 ; !
 viraj:viraj N1 ; !
-oyuncak:oyuncak N1 ; !
-sığınak:sığınak N1 ; !
-toynak:toynak N1 ; !
-arak:arak N1 ; !
-pasiflik:pasiflik N1 ; !
-asabilik:asabilik N1 ; !
-eczacılık:eczacılık N1 ; !
-gözlemcilik:gözlemcilik N1 ; !
-ormancılık:ormancılık N1 ; !
-habercilik:habercilik N1 ; !
-çiftçilik:çiftçilik N1 ; !
-düzenlilik:düzenlilik N1 ; !
-tutarlılık:tutarlılık N1 ; !
-basiretlilik:basiretlilik N1 ; !
-kuraklık:kuraklık N1 ; !
-gerçeklik:gerçeklik N1 ; !
-özellik:özellik N1 ; !
+oyuncak:oyuncak%{v%} N1 ; !
+sığınak:sığınak%{v%} N1 ; !
+toynak:toynak%{v%} N1 ; !
+arak:arak%{v%} N1 ; !
+pasiflik:pasiflik%{v%} N1 ; !
+asabilik:asabilik%{v%} N1 ; !
+eczacılık:eczacılık%{v%} N1 ; !
+gözlemcilik:gözlemcilik%{v%} N1 ; !
+ormancılık:ormancılık%{v%} N1 ; !
+habercilik:habercilik%{v%} N1 ; !
+çiftçilik:çiftçilik%{v%} N1 ; !
+düzenlilik:düzenlilik%{v%} N1 ; !
+tutarlılık:tutarlılık%{v%} N1 ; !
+basiretlilik:basiretlilik%{v%} N1 ; !
+kuraklık:kuraklık%{v%} N1 ; !
+gerçeklik:gerçeklik%{v%} N1 ; !
+özellik:özellik%{v%} N1 ; !
 mutedillik:mutedillik N1 ; !
-vekillik:vekillik N1 ; !
-savurganlık:savurganlık N1 ; !
-komutanlık:komutanlık N1 ; !
+vekillik:vekillik%{v%} N1 ; !
+savurganlık:savurganlık%{v%} N1 ; !
+komutanlık:komutanlık%{v%} N1 ; !
 girişkenlik:girişkenlik N1 ; !
 öğretmenlik:öğretmenlik N1 ; !
 zenginlik:zenginlik%{v%} N1 ; !
-sakinlik:sakinlik N1 ; !
-minnettarlık:minnettarlık N1 ; !
-önderlik:önderlik N1 ; !
-fakirlik:fakirlik N1 ; !
-söylemişlik:söylemişlik N1 ; !
-varislik:varislik N1 ; !
-şahitlik:şahitlik N1 ; !
-yaşıtlık:yaşıtlık N1 ; !
-kolaylık:kolaylık N1 ; !
-vurdumduymazlık:vurdumduymazlık N1 ; !
-haksızlık:haksızlık N1 ; !
-kızamık:kızamık N1 ; !
+sakinlik:sakinlik%{v%} N1 ; !
+minnettarlık:minnettarlık%{v%} N1 ; !
+önderlik:önderlik%{v%} N1 ; !
+fakirlik:fakirlik%{v%} N1 ; !
+söylemişlik:söylemişlik%{v%} N1 ; !
+varislik:varislik%{v%} N1 ; !
+şahitlik:şahitlik%{v%} N1 ; !
+yaşıtlık:yaşıtlık%{v%} N1 ; !
+kolaylık:kolaylık%{v%} N1 ; !
+vurdumduymazlık:vurdumduymazlık%{v%} N1 ; !
+haksızlık:haksızlık%{v%} N1 ; !
+kızamık:kızamık%{v%} N1 ; !
 semantik:semantik N1 ; !
-plastik:plastik N1 ; !
+plastik:plastik%{v%} N1 ; !
 Göktürk:Göktürk N1 ; !
-yokluk:yokluk N1 ; !
-çürüklük:çürüklük N1 ; !
-makullük:makullük N1 ; !
-patronluk:patronluk N1 ; !
-olgunluk:olgunluk N1 ; !
-mümkünlük:mümkünlük N1 ; !
-oluk:oluk N1 ; !
-diktatörlük:diktatörlük N1 ; !
-konsolosluk:konsolosluk N1 ; !
-casusluk:casusluk N1 ; !
-bozgunculuk:bozgunculuk N1 ; !
-bölücülük:bölücülük N1 ; !
-doluluk:doluluk N1 ; !
-doğruluk:doğruluk N1 ; !
-uyluk:uyluk N1 ; !
-doruk:doruk N1 ; !
-uyruk:uyruk N1 ; !
+yokluk:yokluk%{v%} N1 ; !
+çürüklük:çürüklük%{v%} N1 ; !
+makullük:makullük%{v%} N1 ; !
+patronluk:patronluk%{v%} N1 ; !
+olgunluk:olgunluk%{v%} N1 ; !
+mümkünlük:mümkünlük%{v%} N1 ; !
+oluk:oluk%{v%} N1 ; !
+diktatörlük:diktatörlük%{v%} N1 ; !
+konsolosluk:konsolosluk%{v%} N1 ; !
+casusluk:casusluk%{v%} N1 ; !
+bozgunculuk:bozgunculuk%{v%} N1 ; !
+bölücülük:bölücülük%{v%} N1 ; !
+doluluk:doluluk%{v%} N1 ; !
+doğruluk:doğruluk%{v%} N1 ; !
+uyluk:uyluk%{v%} N1 ; !
+doruk:doruk%{v%} N1 ; !
+uyruk:uyruk%{v%} N1 ; !
 voleybol:voleybol N1 ; !
 demiryol:demiryol N1 ; !
 tevekkül:tevekkül N1 ; !
@@ -8173,8 +8174,7 @@ kovan:kovan N1 ; ! "capsule"
 kov:kov N1 ; ! "gossip"
 koy:koy N1 ; ! "bay"
 köy:köy N1 ; ! "village"
-koyun:koyun N1 ; ! "arms"
-koyun:koyun N1 ; ! "breast"
+koyun:koy%{u%}n N1 ; ! "breast"
 koyun:koyun N1 ; ! "sheep"
 koyuntu:koyuntu N1 ; ! "grief"
 kozak:kozak N1 ; ! "cone"
@@ -10132,7 +10132,7 @@ ulus:ulus N1 ; ! ""
 un:un N1 ; ! ""
 uranyum:uranyum N1 ; ! ""
 üstat:üstat N1 ; ! ""
-usul:usul N1 ; ! ""
+usul:usul%{ь%} N1 ; ! ""
 us:us N1 ; ! ""
 utanç:utanç N1 ; ! ""
 üzüm:üzüm N1 ; ! ""
@@ -10657,7 +10657,7 @@ koruyucu:koruyucu N1 ;
 imkan:imkan N1 ;
 çalışan:çalışan N1 ;
 savunma:savunma N1 ;
-yazarlık:yazarlık N1 ;
+yazarlık:yazarlık%{v%} N1 ;
 kutuplaşma:kutuplaşma N1 ;
 tekrar:tekrar N1 ; ! ""
 zindan:zindan N1 ; ! ""
@@ -11061,7 +11061,6 @@ müzisyen:müzisyen N1 ;
 gösteri:gösteri N1 ;
 uranyum:uranyum N1 ;
 piyes:piyes N1 ;
-grup:grup N1 ;
 kadro:kadro N1 ;
 zanaat:zanaat N1 ;
 tasarım:tasarım N1 ;
