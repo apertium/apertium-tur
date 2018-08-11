@@ -2727,7 +2727,7 @@ ise:ise POSTADV ;
 
 da%<postadv%>:da # ; ! Dir/LR
 da%<postadv%>:de # ; ! Dir/LR
-da%<postadv%>:%~da # ; ! Dir/RL
+da%<postadv%>:%da # ; ! Dir/RL
 
 LEXICON Postpositions
 
@@ -3138,6 +3138,27 @@ S:S N1 ; !
 T:T N1 ; !
 Y:Y N1 ; !
 Z:Z N1 ; !
+K:K N1 ; !
+Tijenli:Tijenli N1 ; !
+ahenk:ahenk N1 ; !
+suçlama:suçlama N1 ; !
+vezin:vezin N1 ; !
+realist:realist N1 ; !
+balad:balad N1 ; !
+rubai:rubai N1 ; !
+tercümanlık:tercümanlık N1 ; !
+terakkiperverlik:terakkiperverlik N1 ; !
+solculuk:solculuk N1 ; !
+L:L N1 ; !
+laçin:laçin N1 ; !
+darülfünun:darülfünun N1 ; !
+terakkiperver:terakkiperver N1 ; !
+kalemkeş:kalemkeş N1 ; !
+muhemmes:muhemmes N1 ; !
+şiiriyat:şiiriyat N1 ; !
+militarist:militarist N1 ; !
+solcu:solcu N1 ; !
+
 Kiril:Kiril N1 ; !
 aruz:aruz N1 ; !
 vez%{u%}n:vez%{u%}n N1 ; !
@@ -3160,6 +3181,7 @@ Cuma:Cuma N1 ;
 okuma% yazma:okuma% yazma N1 ;
 acıma:acıma N1 ;
 taşıma:taşıma N1 ;
+sufi:sufi N1 ; !
 müslümanlaşma:müslümanlaşma N1 ;
 arpa:arpa N1 ;
 Dünya:Dünya N1 ;
@@ -3240,6 +3262,8 @@ Sovyet:Sovyet N1 ;
 Mart:Mart N1 ;
 Kürt:Kürt N1 ;
 insan% vücut:insan% vücut N1 ;
+insan% hak:insan% hak N1 ;
+şakayık:şakayık N1 ; !
 Yakut:Yakut N1 ;
 Hu:Hu N1 ;
 parti% grubu:parti% grubu N1 ;
@@ -10528,7 +10552,6 @@ makedon:makedon N3 ; ! ""
 romen:romen N3 ; ! ""
 kürt:kürt N3 ; ! ""
 ingiliz:ingiliz N3 ; ! ""
-uygur:uygur N3 ; ! ""
 rus:rus N1 ; ! ""
 italyan:İtalyan N3 ; ! ""
 mısırlı:Mısırlı N3 ; ! "Egyptian" 
@@ -11101,6 +11124,7 @@ Bayangolin:Bayangolin NP-TOP ; !
 Aşkun:Aşkun NP-TOP ; !
 Şayat:Şayat NP-TOP ; !
 Onsu:Onsu NP-TOP ; !
+Cinin:Cinin NP-TOP ; !
 
 Efes:Efes NP-TOP ; !
 Havai:Havai NP-TOP ; !
@@ -11334,6 +11358,14 @@ Elena:Elena NP-ANT-F ;
 Amannisa:Amannisa NP-ANT-F ;
 Fadime:Fadime NP-ANT-F ;
 Ümmü:Ümmü NP-ANT-F ;
+Ci:Ci NP-COG-MF ; !
+Mavzemin:Mavzemin NP-COG-MF ; !
+Allahyar:Allahyar NP-COG-MF ; !
+Jilus:Jilus NP-COG-MF ; !
+Tileşov:Tileşov NP-COG-MF ; !
+Magnitsky:Magnitsky NP-COG-MF ; !
+Boğda:Boğda NP-ANT-F ; !
+Çin% Timençu:Çin% Timençu NP-COG-MF ; !
 Aliyev:Aliyev NP-COG-MF ;
 Arslan:Arslan NP-ANT-M ;
 Yakup:Yakup NP-ANT-M ;
@@ -19277,6 +19309,11 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+dalgalı:dalgalı A1 ; !
+ahenkli:ahenkli A1 ; !
+ümitli:ümitli A1 ; !
+okumuş:okumuş A1 ; !
+orta% halli:orta% halli A1 ; !
 yarım:yarım A1 ; !
 çoğul:çoğul A1 ; ! "plural"
 onlarca:onlarca A1 ; !
@@ -19297,6 +19334,9 @@ hoşnutsuz:hoşnutsuz A1 ;
 rahatsız:rahatsız A1 ;
 her% türlü:her% türlü A4 ;
 acılı:acılı A1 ;
+dinç:dinç A1 ; !
+fenni:fenni A1 ; !
+nazi:nazi A1 ; !
 
 maddeli:maddeli A1 ; !
 müzikli:müzikli A1 ; !
@@ -21388,6 +21428,10 @@ bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 
 
 LEXICON Adverbs 
+arka% arkaya:arka% arkaya ADV1 ; !
+o% zaman:o% zaman ADV1 ; !
+bu% yüzden:bu% yüzden ADV1 ; !
+küçükken:küçükken ADV1 ; !
 görüşünüzde:görüşünüzde ADV1 ; !
 şöylece:şöylece ADV1 ; !
 vahşice:vahşice ADV1 ; !
