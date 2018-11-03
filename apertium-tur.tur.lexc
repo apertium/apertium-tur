@@ -3143,6 +3143,7 @@ Tijenli:Tijenli N1 ; !
 ahenk:ahenk N1 ; !
 suçlama:suçlama N1 ; !
 vezin:vezin N1 ; !
+genel:genel N1 ;
 realist:realist N1 ; !
 balad:balad N1 ; !
 rubai:rubai N1 ; !
@@ -3565,6 +3566,7 @@ Cenab-ı% Allah:Cenab-ı% Allah N1 ; !
 Ji:Ji NP-ANT-M ; !
 Hi:Hi NP-ANT-M ; !
 Noruzahun:Noruzahun NP-ANT-M ; !
+Sayat:Sayat NP-ANT-M ; !
 fasık:fasık N1 ; !
 gusul:gusul N1 ; !
 girici:girici N1 ; !
@@ -11353,7 +11355,9 @@ Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
 Zadok:Zadok NP-ANT-M ; !
 Abner:Abner NP-ANT-M ; !
+Alpamys:Alpamys NP-ANT-M ; !
 June:June NP-ANT-F ; !
+Assel:Assel NP-ANT-F ; !
 Elena:Elena NP-ANT-F ;
 Amannisa:Amannisa NP-ANT-F ;
 Fadime:Fadime NP-ANT-F ;
@@ -11369,6 +11373,7 @@ Boğda:Boğda NP-ANT-F ; !
 Aliyev:Aliyev NP-COG-MF ;
 Arslan:Arslan NP-ANT-M ;
 Yakup:Yakup NP-ANT-M ;
+Ayjan:Ayjan NP-ANT-F ;
 Ali% Şir:Ali% Şir NP-ANT-M ;
 Aristoteles:Aristoteles NP-ANT-M ;
 Hu:Hu NP-ANT-M ;
@@ -11536,6 +11541,7 @@ Kamalov:Kamalov NP-COG-MF ; !
 Rida:Rida NP-ANT-F ; !
 Urela:Urela NP-ANT-F ; !
 Zübeyre:Zübeyre NP-ANT-F ; !
+
 Rukiye:Rukiye NP-ANT-F ; !
 Patigül:Patigül NP-ANT-F ; !
 Jyang:Jyang NP-ANT-M ; !
@@ -11558,6 +11564,7 @@ Lin:Lin NP-ANT-M ; !
 Muhtar:Muhtar NP-ANT-M ; !
 Berat:Berat NP-ANT-M ; !
 
+
 Abdürrezzak:Abdürrezzak NP-ANT-M ; !
 İnam:İnam NP-ANT-M ; !
 Kuseni:Kuseni NP-COG-MF ; !
@@ -11576,7 +11583,10 @@ Seleme:Seleme NP-ANT-F ; !
 Pakize:Pakize NP-ANT-F ; !
 Hidayetullah:Hidayetullah NP-ANT-M ; !
 Kerezevi:Kerezevi NP-COG-MF ; !
-
+Alma:Alma NP-ANT-F ;
+Almas:Almas NP-ANT-F ;
+Arman:Arman NP-ANT-M ; !
+Toğjhan:Toğjhan NP-ANT-M ;
 
 Ekber:Ekber NP-ANT-M ; !
 Elbani:Elbani NP-COG-MF ; !
@@ -13106,7 +13116,7 @@ Semerkant:Semerkant NP-TOP ;
 Sivastopol:Sivastopol NP-TOP ;
 Zaporijya:Zaporijya NP-TOP ;
 İvano%-Frankivsk:İvano%-Frankivsk NP-TOP ;
-Kura%-Aras:Kura%-Aras NP-TOP ; ! Use/MT
+Kur%-Aras:Kur%-Aras NP-TOP ; ! Use/MT
 Germezir:Germezir NP-TOP ; ! Use/MT
 
 
