@@ -8144,6 +8144,7 @@ köpek:köpek%{v%} N1 ; ! "dog"
 köprü:köprü N1 ; ! "bridge"
 köpük:köpük N1 ; ! "foam"
 kopuk:kopuk N1 ; ! "tramp"
+köpekbalığı:köpekbalığı N1 ; 
 kopya:kopya N1 ; ! "copy"
 kordon:kordon N1 ; ! "cord"
 körebe:körebe N1 ; ! "blind man's buff"
@@ -11127,7 +11128,7 @@ Aşkun:Aşkun NP-TOP ; !
 Şayat:Şayat NP-TOP ; !
 Onsu:Onsu NP-TOP ; !
 Cinin:Cinin NP-TOP ; !
-
+Tulkibas:Tulkibas NP-TOP ; ! Use/MT
 Efes:Efes NP-TOP ; !
 Havai:Havai NP-TOP ; !
 Nilka:Nilka NP-TOP ; !
