@@ -9931,7 +9931,7 @@ lig:lig N1 ; ! ""
 lor:lor N1 ; ! ""
 mansıp:mansıp N1 ; ! ""
 mesel:mesel N1 ; ! ""
-meselе:meselе N1 ; ! ""
+mesele:mesele N1 ; ! ""
 mesleki:mesleki N1 ; ! ""
 selcuk:selcuk N1 ;
 mihman:mihman N1 ; ! ""
@@ -9942,7 +9942,7 @@ narh:narh N1 ; ! ""
 narkotik:narkotik N1 ; ! ""
 no:no N1 ; ! ""
 normal:normal%{ь%} N1 ; ! ""
-normа:normа N1 ; ! ""
+norma:norma N1 ; ! ""
 öç:öç N1 ; ! ""
 ödem:ödem N1 ; ! ""
 oditoryum:oditoryum N1 ; ! ""
@@ -21242,7 +21242,7 @@ yolsuz:yolsuz A1 ;  ! ""
 ünsüz:ünsüz A1 ;  ! ""
 mutsuz:mutsuz A1 ;  ! ""
 yüzsüz:yüzsüz A1 ;  ! ""
-komutа:komutа A1 ;  ! ""
+komuta:komuta A1 ;  ! ""
 dağlık:dağlık A3 ;
 gereken:gereken A4 ;  ! ""
 kısa:kısa A1 ; ! "short"
@@ -22200,7 +22200,6 @@ iyleş:iyleş V-IR-IV ;
 batır:batır V-IR-TV ;
 hizmet% et:hizmet% et V-IR-IV ;
 şişir:şişir V-IR-TV ;
-бас% тарт:бас% тарт V-IR-TV ;
 mecbur% et:mecbur% et V-IR-TV ;
 imha% et: imha% et V-IR-TV ;
 sars:sars V-IR-TV ;
@@ -22975,7 +22974,7 @@ başlan:başlan V-IR-IV ; !
 başla:başla V-AR-IV ; ! "start"
 !bekle:bekle V-TV-T-IR ; ! "wait"
 belirle:belirle V-IR-TV ; ! "indicate" (T)
-bellе:bellе V-IR-TV ; ! "memorise" (T)
+belle:belle V-IR-TV ; ! "memorise" (T)
 benimse:benimse V-IR-TV ; ! "embark on" (T)
 benze:benze V-AR-IV ; ! "resemble" (T)
 besle:besle V-IR-TV ; ! "feed" (T)
@@ -23832,7 +23831,7 @@ etkinleştiril:etkinleştiril V-IR-IV ; !
 davacı% ol:davacı% ol V-IR-IV ; !
 hasıl% ol:hasıl% ol V-IR-IV ; !
 vuku% bul:vuku% bul V-IR-IV ; !
-bаğlan:bаğlan V-IR-IV ; !
+bağlan:bağlan V-IR-IV ; !
 sonlan:sonlan V-IR-IV ; !
 paslan:paslan V-IR-IV ; !
 yönlen:yönlen V-IR-IV ; !
