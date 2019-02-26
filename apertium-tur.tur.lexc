@@ -3565,8 +3565,11 @@ mahiyet:mahiyet N1 ; !
 Cenab-ı% Allah:Cenab-ı% Allah N1 ; !
 Ji:Ji NP-ANT-M ; !
 Hi:Hi NP-ANT-M ; !
+Abylkhair:Abylkhair NP-ANT-M ; !
 Noruzahun:Noruzahun NP-ANT-M ; !
+Mitchell:Mitchell NP-ANT-M ; !
 Sayat:Sayat NP-ANT-M ; !
+Zhanibek:Zhanibek NP-ANT-M ; ! 
 fasık:fasık N1 ; !
 gusul:gusul N1 ; !
 girici:girici N1 ; !
@@ -4730,6 +4733,7 @@ ajanda:ajanda N1 ; ! "agenda"
 ajans:ajans N1 ; ! "agency"
 akademi:akademi N1 ; ! "academy"
 akarsu:akarsu N1 ; ! "river"
+binyıl:binyıl N1 ;
 akaryakıt:akaryakıt N1 ; ! "fuel"
 akasya:akasya N1 ; ! "locust tree"
 akbaba:akbaba N1 ; ! "vulture"
@@ -8335,6 +8339,7 @@ kuram:kuram N1 ; ! "theory"
 kuranıkerim:kuranıkerim N1 ; ! "koran"
 Kuran-ı% Kerim:Kuran-ı% Kerim N1 ; ! "koran"
 Kuran:Kuran N1 ; !
+
 kurbağa:kurbağa N1 ; ! "frog"
 kurban:kurban N1 ; ! "victim"
 kürdan:kürdan N1 ; ! "pick"
@@ -9732,6 +9737,9 @@ yakınlık:yakınlık N1 ;
 !! JNW Nouns
 vücud:vücud N1 ; ! "body"
 şişe:şişe N1 ;
+güçlü% adam:güçlü% adam N1 ; ! Use/MT
+ortam:ortam N1 ; ! Use/MT
+trup:trup N1 ; ! Use/MT
 akamanış:akamanış N1 ;
 rayon:rayon N1 ; ! ""
 tatlı% su:tatlı% su N1 ;
@@ -11129,6 +11137,8 @@ Aşkun:Aşkun NP-TOP ; !
 Onsu:Onsu NP-TOP ; !
 Cinin:Cinin NP-TOP ; !
 Tulkibas:Tulkibas NP-TOP ; ! Use/MT
+Haddington:Haddington NP-TOP ; ! Use/MT
+Dzhungarian:Dzhungarian NP-TOP ; ! Use/MT 
 Efes:Efes NP-TOP ; !
 Havai:Havai NP-TOP ; !
 Nilka:Nilka NP-TOP ; !
@@ -11357,28 +11367,35 @@ Emre:Emre NP-ANT-M ; !
 Zadok:Zadok NP-ANT-M ; !
 Abner:Abner NP-ANT-M ; !
 Alpamys:Alpamys NP-ANT-M ; !
+Ospan:Ospan NP-ANT-M ; !
 June:June NP-ANT-F ; !
 Assel:Assel NP-ANT-F ; !
 Elena:Elena NP-ANT-F ;
 Amannisa:Amannisa NP-ANT-F ;
+İlya:İlya NP-ANT-F ;
 Fadime:Fadime NP-ANT-F ;
 Ümmü:Ümmü NP-ANT-F ;
 Ci:Ci NP-COG-MF ; !
 Mavzemin:Mavzemin NP-COG-MF ; !
 Allahyar:Allahyar NP-COG-MF ; !
+Sirin:Sirin NP-COG-MF ; !
+Bakhtiya:Bakhtiya NP-COG-MF ; !
 Jilus:Jilus NP-COG-MF ; !
 Tileşov:Tileşov NP-COG-MF ; !
 Magnitsky:Magnitsky NP-COG-MF ; !
 Boğda:Boğda NP-ANT-F ; !
 Çin% Timençu:Çin% Timençu NP-COG-MF ; !
+Al%-Basri:Al%-Basri NP-COG-MF ; ! 
 Aliyev:Aliyev NP-COG-MF ;
 Arslan:Arslan NP-ANT-M ;
+Erlan:Erlan NP-ANT-M ; 
 Yakup:Yakup NP-ANT-M ;
 Ayjan:Ayjan NP-ANT-F ;
 Ali% Şir:Ali% Şir NP-ANT-M ;
 Aristoteles:Aristoteles NP-ANT-M ;
 Hu:Hu NP-ANT-M ;
 Antiokhos:Antiokhos NP-ANT-M ; !
+John:John NP-ANT-M ; !
 Elam:Elam NP-ANT-M ; !
 Tevfik:Tevfik NP-ANT-M ; !
 Tien:Tien NP-ANT-M ; !
@@ -11956,8 +11973,8 @@ Roman:Roman NP-ANT-M; ! ""
 Santa:Santa NP-ANT-F; ! ""
 Sidney:Sidney NP-ANT-M; ! ""
 Susana:Susana NP-ANT-F; ! ""
-
-
+Mira:Mira NP-ANT-F; ! ""
+Kiyas:Kiyas NP-ANT-M ; ! ""
 Edem:Edem NP-ANT-M ; ! ""
 Eduard:Eduard NP-ANT-M ; ! ""
 Ella:Ella NP-ANT-F ; ! ""
@@ -19323,6 +19340,11 @@ LEXICON Adjectives
 dalgalı:dalgalı A1 ; !
 ahenkli:ahenkli A1 ; !
 ümitli:ümitli A1 ; !
+usta:usta A1 ; ! "" ! Use/MT
+bağırsak:bağırsak A1 ; ! "" ! Use/MT
+klinik:klinik A1 ; ! "" ! Use/MT
+volkanik:volkanik A1 ; ! "" ! Use/MT 
+önemsiz:önemsiz A1 ; ! "" ! Use/MT
 okumuş:okumuş A1 ; !
 orta% halli:orta% halli A1 ; !
 yarım:yarım A1 ; !
@@ -19387,7 +19409,7 @@ mikro:mikro A1 ; !
 beter:beter A1 ; !
 nazarî:nazarî A1 ; !                                                                            
 fahri:fahri A1 ; !                                                                              
-sembolik:sembolik A1 ; !                                                                        
+sembolik:sembolik A3 ; !                                                                        
 yeksan:yeksan A1 ; !                                                                            
 yetiren:yetiren A1 ; !                                                                          
 emekleyen:emekleyen A1 ;
@@ -22013,7 +22035,9 @@ nereye:nereye ADV-ITG ; !
 LEXICON Verbs
 merkezleştir:merkezleştir V-IR-TV ; !
 adlandırıl:adlandırıl V-IR-IV ; !
-yer% al:yer% al V-IR-IV ; !
+sabitleş:sabitleş V-IR-TV ; !
+yer% al:yer% al V-IR-IV ; ! Use/MT
+acı% çektir:acı% çektir V-IR-IV ; ! Use/MT
 ayırt% et:ayırt% et V-IR-TV ;
 cisimlen:cisimlen V-IR-IV ; !
 görüş:görüş V-IR-IV ; !
@@ -22201,6 +22225,7 @@ batır:batır V-IR-TV ;
 hizmet% et:hizmet% et V-IR-IV ;
 şişir:şişir V-IR-TV ;
 mecbur% et:mecbur% et V-IR-TV ;
+mecbur% ol:mecbur% ol V-IR-IV ;
 imha% et: imha% et V-IR-TV ;
 sars:sars V-IR-TV ;
 hizmet% sun:hizmet% sun V-IR-IV ;
