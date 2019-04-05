@@ -99,10 +99,10 @@ Rules
 
 "Vowel harmony to abstract vowels for archiphoneme {I}"
 !%{I%}:Vy <=> Vx:0 [ %% | %- | :0 | :Cns | :%' | %  ]* _ ;
-%{I%}:Vy <=> Vx:0 [ [ :0 - Vx: ] | %% | %-  | :Cns | :%' | %  ]* _ ;
+%{I%}:Vy <=> Vx:0 [ [ :0 - AbstrVow: ] | %% | %-  | :Cns | :%' | %  ]* _ ;
                            Vx: %'  %>: _ ;
         except 
-             [ AbstrVow: - [ Vx: | %{u%}: ] ] [ :0 | :Cns | :%' | % ]* _ ; 
+             [ AbstrVow: - [ Vx: | %{u%}: ] ] [ [ :0 - AbstrVow: ] | :Cns | :%' | %  ]* _ ; 
                                               %{e%}:0 %>: _ ;
 !                      [ %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
                                 [ %{z%}:0 %>: %{y%}: ]/:0 _ ;
@@ -177,14 +177,14 @@ Rules
 ! yap>{i}{L}>{y}{A}n    = yapılan    =   y:y a:a p:p >:0 {i}:ı {L}:l >:0 {y}:0 {A}:a n:n
 
 "Vowel harmony to abstract vowels for archiphoneme {i}"
-%{i%}:Vy <=> Vx:0 [ [ :0 - Vx: ] | :Cns | :%' | % ]* _ ;
+%{i%}:Vy <=> Vx:0 [ [ :0 - AbstrVow: ] | :Cns | :%' | %  ]* _ ;
         except 
-             [ AbstrVow: - [ Vx: | %{u%}: ] ] [ :0 | :Cns | :%' | % ]* _ ; 
+             [ AbstrVow: - [ Vx: | %{u%}: ] ] [ [ :0 - AbstrVow: ] | :Cns | :%' | %  ]* _ ; 
                                               %{e%}:0 %>: _ ;
 !                      [ %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
         where 
-              Vx in ( %{ь%} %{ь%} %{o%} %{ö%} %{ı%} ) 
-              Vy   in (  i      i     u     ü     ı   )  
+              Vx in ( %{ь%} %{o%} %{ö%} %{ı%} ) 
+              Vy   in (  i    u     ü     ı   )  
                matched ;
 
 !"Unepenthesis in stems"
