@@ -3139,6 +3139,13 @@ T:T N1 ; !
 Y:Y N1 ; !
 Z:Z N1 ; !
 K:K N1 ; !
+radıyallahu% anh:radıyallahu% anh N1 ; !
+galaksi:galaksi N1 ; !
+takımyıldızı:takımyıldızı N1 ; !
+ateizm:ateizm N1 ; !
+normа:normа N1 ; !
+meselе:meselе N1 ; !
+
 Tijenli:Tijenli N1 ; !
 ahenk:ahenk N1 ; !
 suçlama:suçlama N1 ; !
@@ -19337,6 +19344,8 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+semitik:semitik A1 ; !
+yerleşim:yerleşim A1 ; !
 dalgalı:dalgalı A1 ; !
 ahenkli:ahenkli A1 ; !
 ümitli:ümitli A1 ; !
@@ -22033,6 +22042,8 @@ nereye:nereye ADV-ITG ; !
 
 
 LEXICON Verbs
+keşfedil:keşfedil V-IR-IV ; !
+bаğlan:bаğlan V-IR-IV ; !
 merkezleştir:merkezleştir V-IR-TV ; !
 adlandırıl:adlandırıl V-IR-IV ; !
 sabitleş:sabitleş V-IR-TV ; !
