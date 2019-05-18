@@ -3625,7 +3625,7 @@ hamd% ü% sena:hamd% ü% sena N1 ; !
 hamd:hamd N1 ; !
 umumî:umumî N1 ; !
 örümcek:örümcek N1 ; !
-çoluk% çocuk:çoluk% çocuk N1 ; !
+çoluk% çocuk:çoluk% çocuk%{v%} N1 ; !
 Ö:Ö N1 ; !
 bidat:bidat N1 ; !
 ümmet:ümmet N1 ; !
@@ -3808,7 +3808,7 @@ izleyici:izleyici N1 ; !
 kahverengi:kahverengi N1 ; !
 Türkistanlı:Türkistanlı N1 ; !
 Tibetli:Tibetli N1 ; !
-çok:çok N1 ; !
+çok:çok%{v%} N1 ; !
 evvel:evvel N1 ; !
 sosyal% yardım:sosyal% yardım N1 ; !
 varış:varış N1 ; !
@@ -4000,6 +4000,7 @@ patronluk:patronluk%{v%} N1 ; !
 olgunluk:olgunluk%{v%} N1 ; !
 mümkünlük:mümkünlük%{v%} N1 ; !
 oluk:oluk%{v%} N1 ; !
+soluk:soluk%{v%} N1 ; !
 diktatörlük:diktatörlük%{v%} N1 ; !
 konsolosluk:konsolosluk%{v%} N1 ; !
 casusluk:casusluk%{v%} N1 ; !
@@ -5583,7 +5584,7 @@ coğrafya:coğrafya N1 ; ! "geography"
 çoğul:çoğul N1 ; ! "plural"
 çoğunluk:çoğunluk%{v%} N1 ; ! "majority"
 çokbilmiş:çokbilmiş N1 ; ! "bed"
-çökelek:çökelek N1 ; ! "deposit"
+çökelek:çökelek%{v%} N1 ; ! "deposit"
 çokgen:çokgen N1 ; ! "polygon"
 çöküntü:çöküntü N1 ; ! "sediment"
 çöl:çöl N1 ; ! "desert"
@@ -5594,11 +5595,11 @@ coğrafya:coğrafya N1 ; ! "geography"
 cop:cop N1 ; ! "nightstick"
 çöp:çöp N1 ; ! "rubbish"
 çöplük:çöplük%{v%} N1 ; ! "trash"
-çorap:çorap N1 ; ! "socks"
+çorap:çorap%{v%} N1 ; ! "socks"
 çorba:çorba N1 ; ! "soup"
-çörek:çörek N1 ; ! "scone/pastry"
+çörek:çörek%{v%} N1 ; ! "scone/pastry"
 dadı:dadı N1 ; ! "nanny"
-dağarcık:dağarcık N1 ; ! "wallet"
+dağarcık:dağarcık%{v%} N1 ; ! "wallet"
 dağdağa:dağdağa N1 ; ! "rumble"
 dağ:dağ N1 ; ! "mountain"
 dağıtım:dağıtım N1 ; ! "distribution"
@@ -5610,7 +5611,7 @@ daire:daire N1 ; ! "circle"
 dakika:dakika N1 ; ! "minute"
 daktilo:daktilo N1 ; ! "typewriter"
 daktilograf:daktilograf N1 ; ! "typist"
-dalak:dalak N1 ; ! "milt"
+dalak:dalak%{v%} N1 ; ! "milt"
 dalalet:dalalet N1 ; ! "aberration"
 dalaş:dalaş N1 ; ! "quarrel"
 dalavereci:dalavereci N1 ; ! "swingler"
@@ -7580,7 +7581,7 @@ kafeterya:kafeterya N1 ; ! "cafeteria"
 kafir:kafir N1 ; ! "sinner"
 kafiye:kafiye N1 ; ! "rhyme"
 kağan:kağan N1 ; ! "khan"
-kağıt:kağıt N1 ; ! "paper"
+kağıt:kağıt%{v%} N1 ; ! "paper"
 kahin:kahin N1 ; ! "prophet"
 kahkaha:kahkaha N1 ; ! "laughter"
 kahraman:kahraman N1 ; ! "hero"
