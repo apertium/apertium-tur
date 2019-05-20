@@ -3128,6 +3128,23 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+D:D N1 ; !
+single:single N1 ; !
+F:F N1 ; !
+camii:camii N1 ; !
+havalimanı:havalimanı N1 ; !
+J:J N1 ; !
+yönetmenlik:yönetmenlik N1 ; !
+geçersizlik:geçersizlik N1 ; !
+dağılım:dağılım N1 ; !
+com:com N1 ; !
+yüzölçümü:yüzölçümü N1 ; !
+uzay:uzay N1 ; !
+kg:kg N1 ; !
+Dr:Dr N1 ; !
+Pers:Pers N1 ; !
+TV:TV N1 ; !
+
 B:B N1 ; !
 C:C N1 ; !
 G:G N1 ; !
@@ -11136,6 +11153,10 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Samsun:Samsun NP-TOP ; !
+Balıkesir:Balıkesir NP-TOP ; !
+Kastamonu:Kastamonu NP-TOP ; !
+
 Obul:Obul NP-TOP ; !
 Komul:Komul NP-TOP ; !
 Fujyen:Fujyen NP-TOP ; !
@@ -11384,6 +11405,8 @@ Amannisa:Amannisa NP-ANT-F ;
 Fadime:Fadime NP-ANT-F ;
 Ümmü:Ümmü NP-ANT-F ;
 Ci:Ci NP-COG-MF ; !
+Herschel:Herschel NP-COG-MF ; !
+
 Mavzemin:Mavzemin NP-COG-MF ; !
 Allahyar:Allahyar NP-COG-MF ; !
 Sirin:Sirin NP-COG-MF ; !
@@ -13191,6 +13214,13 @@ ABC:ABC%{ь%} NP-TOP-ACR ; ! ""
 EU:EU NP-TOP-ACR ; ! ""
 
 ! Organisations
+NBA:NBA NP-ORG ; !
+billboard:billboard NP-ORG ; !
+Apple:Apple NP-ORG ; !
+WWE:WWE NP-ORG ; !
+TBMM:TBMM NP-ORG ; !
+Windows:Windows NP-ORG ; !
+
 KGB:KGB NP-ORG ;
 AR:AR NP-ORG ;
 Nobel% Ödül:Nobel% Ödül NP-ORG ;
@@ -13345,6 +13375,9 @@ BSP:BSP NP-ORG ; ! ""
 KDV:KDV NP-AL ; ! ""
 SETimes:SETimes%{ı%}%{b%} NP-AL ; ! ""
 TV:TV%{o%} NP-AL ; ! ""
+San:San NP-AL ; !
+FC:FC NP-AL ; !
+
 
 
 Svoboda:Svoboda NP-AL ; ! ""
@@ -19345,6 +19378,9 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+resmî:resmî A1 ; !
+birer:birer A1 ; !
+
 semitik:semitik A1 ; !
 yerleşim:yerleşim A1 ; !
 dalgalı:dalgalı A1 ; !
@@ -21470,7 +21506,8 @@ milyonlu:milyonlu A2 ; ! Use/MT ! Dir/RL
 bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 
 
-LEXICON Adverbs 
+LEXICON Adverbs
+dolayısıyla:dolayısıyla ADV1 ; !
 arka% arkaya:arka% arkaya ADV1 ; !
 o% zaman:o% zaman ADV1 ; !
 bu% yüzden:bu% yüzden ADV1 ; !
