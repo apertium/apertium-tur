@@ -3134,7 +3134,7 @@ F:F N1 ; !
 camii:camii N1 ; !
 havalimanı:havalimanı N1 ; !
 J:J N1 ; !
-yönetmenlik:yönetmenlik N1 ; !
+yönetmenlik:yönetmenlik%{v%} N1 ; !
 geçersizlik:geçersizlik N1 ; !
 dağılım:dağılım N1 ; !
 com:com N1 ; !
@@ -3144,6 +3144,9 @@ kg:kg N1 ; !
 Dr:Dr N1 ; !
 Pers:Pers N1 ; !
 TV:TV N1 ; !
+ikili:ikili N1 ; !
+cm:cm N1 ; !
+ters:ters N1 ; !
 
 B:B N1 ; !
 C:C N1 ; !
@@ -3589,6 +3592,16 @@ mahiyet:mahiyet N1 ; !
 Cenab-ı% Allah:Cenab-ı% Allah N1 ; !
 Ji:Ji NP-ANT-M ; !
 Hi:Hi NP-ANT-M ; !
+Edward:Edward NP-ANT-M ; !
+Joseph:Joseph NP-ANT-M ; !
+Smith:Smith NP-ANT-M ; !
+Sinan:Sinan NP-ANT-M ; !
+Jones:Jones NP-ANT-M ; !
+Louis:Louis NP-ANT-M ; !
+Williams:Williams NP-ANT-M ; !
+Henry:Henry NP-ANT-M ; !
+Harry:Harry NP-ANT-M ; !
+
 Abylkhair:Abylkhair NP-ANT-M ; !
 Noruzahun:Noruzahun NP-ANT-M ; !
 Mitchell:Mitchell NP-ANT-M ; !
@@ -4185,7 +4198,19 @@ Muhakemetul% Lugateyn:Muhakemetul% Lugateyn NP-AL ; !
 Sahihül% Buhari:Sahihül% Buhari NP-AL ; !
 Divan-ı% Lügatit% Türk:Divan-ı% Lügatit% Türk NP-AL ; !
 Mişkatül% Mesabih:Mişkatül% Mesabih NP-AL ; !
+Belediyespor:Belediyespor NP-AL ; !
 
+
+prof:prof N1 ; !
+sıvı:sıvı N1 ; !
+plak:plak N1 ; !
+Pasifik:Pasifik N1 ; !
+oyunculuk:oyunculuk N1 ; !
+Afrikan:Afrikan N1 ; !
+versiyon:versiyon N1 ; !
+solo:solo N1 ; !
+pop:pop N1 ; !
+asist:asist N1 ; !
 
 genel:genel N1 ; !
 asıl:asıl N1 ; !
@@ -4553,7 +4578,6 @@ arşiv:arşiv N1 ; ! "archive"
 milletvekil:milletvekil N2 ; ! "MP"
 diplomasi:diplomasi N1 ; ! "diplomacy"
 tur:tur N1 ; ! "tour"
-rolü:rolü N1 ; ! "role"
 yanlış:yanlış%{v%} N1 ; ! "mistake"
 milliyetçi:milliyetçi N1 ; ! "nationalist"
 radyo:radyo N1 ; ! "radio"
@@ -4561,7 +4585,7 @@ radyo% komisyonu:radyo% komisyon N2 ; ! Dir/RL ! Use/MT
 vize:vize N1 ; ! "visa"
 cumhurbaşkanlık:cumhurbaşkanlık%{v%} N1 ; ! "presidentship"
 spor:spor N1 ; ! "sport"
-rol:rol N1 ; ! "role"
+rol:rol%{ь%} N1 ; ! "role"
 şiddet:şiddet N1 ; ! "violence"
 sahiplik:sahiplik%{v%} N1 ; ! "ownership"
 sahip:sahip%{v%} N1 ; ! "owner"
@@ -6413,7 +6437,7 @@ golf:golf N1 ; ! "golf"
 gölge:gölge N1 ; ! "dark"
 kötülülk:kötülülk N1 ;
 gölge:gölge N1 ; ! "shadow"
-gol:gol N1 ; ! "goal"
+gol:gol%{ь%} N1 ; ! "goal"
 göl:göl N1 ; ! "lake"
 gömeç:gömeç N1 ; ! "honeycomb"
 gömlek:gömlek N1 ; ! "shirt"
@@ -6592,6 +6616,7 @@ hakan:hakan N1 ; ! "khan"
 hakaret:hakaret N1 ; ! "curse"
 hakem:hakem N1 ; ! "referee"
 hak:hak N1 ; ! "right"
+hak:hakk N1 ; ! "right"
 haki:haki N1 ; ! "khaki"
 hakikat:hakikat N1 ; ! "essence"
 hakikat:hakikat N1 ; ! "fact"
@@ -10201,7 +10226,7 @@ utanç:utanç N1 ; ! ""
 uzunluk:uzunluk N1 ; ! ""
 vaat:vaat%{v%} N1 ; ! ""
 vaka:vaka N1 ; ! ""
-vakıf:vakıf N1 ; ! ""
+vakıf:vak%{u%}f N1 ; ! ""
 vali:vali N1 ; ! ""
 vasıta:vasıta N1 ; ! ""
 vatan:vatan N1 ; ! ""
@@ -10597,7 +10622,7 @@ rum:Rum N3 ; ! "Greek"
 fransız:Fransız N3 ; ! ""
 sloven:Sloven N3 ; ! ""
 ermeni:Ermeni N3 ; ! ""
-ispanyol:İspanyol N3 ; ! ""
+ispanyol:ispanyol N3 ; ! ""
 ispanyolca:İspanyolca N3 ; ! ""
 arap:Arap N3 ; ! ""
 isveçli:isveçli N3 ; ! "Swiss"
@@ -11157,6 +11182,11 @@ LEXICON ProperNouns
 Samsun:Samsun NP-TOP ; !
 Balıkesir:Balıkesir NP-TOP ; !
 Kastamonu:Kastamonu NP-TOP ; !
+Kütahya:Kütahya NP-TOP ; !
+Ege:Ege NP-TOP ; !
+Çorum:Çorum NP-TOP ; !
+Tokat:Tokat NP-TOP ; !
+Arnavutluk:Arnavutluk NP-TOP ; !
 
 Obul:Obul NP-TOP ; !
 Komul:Komul NP-TOP ; !
@@ -11407,7 +11437,13 @@ Fadime:Fadime NP-ANT-F ;
 Ümmü:Ümmü NP-ANT-F ;
 Ci:Ci NP-COG-MF ; !
 Herschel:Herschel NP-COG-MF ; !
-
+Lee:Lee NP-COG-MF ; !
+Le:Le NP-COG-MF ; !
+Love:Love NP-COG-MF ; !
+Çelebi:Çelebi NP-COG-MF ; !
+West:West NP-COG-MF ; !
+Angel:Angel NP-ANT-F ; !
+Buffy:Buffy NP-ANT-F ; !
 Mavzemin:Mavzemin NP-COG-MF ; !
 Allahyar:Allahyar NP-COG-MF ; !
 Sirin:Sirin NP-COG-MF ; !
@@ -13221,6 +13257,8 @@ Apple:Apple NP-ORG ; !
 WWE:WWE NP-ORG ; !
 TBMM:TBMM NP-ORG ; !
 Windows:Windows NP-ORG ; !
+Show:Show NP-ORG ; !
+Prix:Prix NP-ORG ; !
 
 KGB:KGB NP-ORG ;
 AR:AR NP-ORG ;
@@ -19381,6 +19419,9 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 LEXICON Adjectives
 resmî:resmî A1 ; !
 birer:birer A1 ; !
+sıvı:sıvı A1 ; !
+manyetik:manyetik A1 ; !
+politik:politik A1 ; !
 
 semitik:semitik A1 ; !
 yerleşim:yerleşim A1 ; !
@@ -19859,7 +19900,7 @@ artık:artık A1 ; !
 karakteristik:karakteristik A1 ; !
 temel:temel A1 ; !
 mukabil:mukabil A1 ; !
-asıl:asıl A1 ; !
+asıl:as%{u%}l A1 ; !
 nasıl:nasıl A1 ; !
 mamul:mamul A1 ; !
 yaban:yaban A1 ; !
@@ -21508,6 +21549,8 @@ bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 
 
 LEXICON Adverbs
+sıklıkla:sıklıkla ADV1 ; !
+
 dolayısıyla:dolayısıyla ADV1 ; !
 arka% arkaya:arka% arkaya ADV1 ; !
 o% zaman:o% zaman ADV1 ; !
@@ -24145,6 +24188,8 @@ alış:alış V-IR-TV ;
 çalış:çalış V-IR-TV ;
 
 LEXICON Interjections 
+off:off INTERJ ; !
+of:of INTERJ ; !
 anladım:anladım INTERJ ; !
 merhaba:merhaba INTERJ ; !
 hülasa:hülasa INTERJ ; !
