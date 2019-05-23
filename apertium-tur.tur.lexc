@@ -866,7 +866,7 @@ LEXICON PERS-COP-PRES
 %<p2%>%<sg%>:%>s%{I%}n  # ;
 %<p2%>%<sg%>%<gm%>:%>s%{I%}n%{D%}%{I%}r  # ;
 %<p3%>%<sg%>: # ;  ! FIXME!!!
-%<p3%>%<sg%>%<gm%>:%{D%}%{I%}r # ; 
+%<p3%>%<sg%>%<gm%>:%>%{D%}%{I%}r # ; 
 %<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
 %<p1%>%<pl%>%<gm%>:%>%{y%}%{I%}z%{D%}%{I%}r  # ;
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
@@ -2732,6 +2732,11 @@ da%<postadv%>:%da # ; ! Dir/RL
 LEXICON Postpositions
 
 ! Nominative
+halinde:halinde POST ; ! "ın case of" ! FIXME
+hakkında:hakkında POST ;
+dahi:dahi POST ; !
+ertesi:ertesi POST ; !
+özgü:özgü POST ; !
 gerek:gerek POST ; !
 başka:başka POST ;
 sonra:sonra POST ;
@@ -3128,6 +3133,14 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+Mars:Mars N1 ; !
+km2:km2 N1 ; !
+CD:CD N1 ; !
+milletvekilliği:milletvekilliği N1 ; !
+kuantum:kuantum N1 ; !
+miss:miss N1 ; !
+Gürcü:Gürcü N1 ; !
+
 D:D N1 ; !
 single:single N1 ; !
 F:F N1 ; !
@@ -3897,11 +3910,11 @@ elif:elif N1 ; !
 aleyh:aleyh N1 ; !
 davacı:davacı N1 ; !
 Sui:Sui N1 ; !
-münafık:münafık N1 ; !
-tüccarlık:tüccarlık N1 ; !
-şampiyonluk:şampiyonluk N1 ; !
+münafık:münafık%{v%} N1 ; !
+tüccarlık:tüccarlık%{v%} N1 ; !
+şampiyonluk:şampiyonluk%{v%} N1 ; !
 Karluk:Karluk N1 ; !
-doktorluk:doktorluk N1 ; !
+doktorluk:doktorluk%{v%} N1 ; !
 zencefil:zencefil N1 ; !
 virgül:virgül N1 ; !
 Rahim:Rahim N1 ; !
@@ -4261,8 +4274,7 @@ eksiksiz:eksiksiz N1 ; !
 hakk:hakk N1 ; ! "regarding"
 zapt:zapt N1 ;
 beyit:beyit N1 ;
-halinde:halinde POST ; ! "ın case of" ! FIXME
-hakkında:hakkında POST ;
+
 acem:acem N1 ;
 azeri:azeri N1 ; ! Use/MT
 mükemmel:mükemmel N1 ; ! Use/MT
@@ -4585,7 +4597,7 @@ radyo% komisyonu:radyo% komisyon N2 ; ! Dir/RL ! Use/MT
 vize:vize N1 ; ! "visa"
 cumhurbaşkanlık:cumhurbaşkanlık%{v%} N1 ; ! "presidentship"
 spor:spor N1 ; ! "sport"
-rol:rol%{ь%} N1 ; ! "role"
+rol:rol%{ö%} N1 ; ! "role"
 şiddet:şiddet N1 ; ! "violence"
 sahiplik:sahiplik%{v%} N1 ; ! "ownership"
 sahip:sahip%{v%} N1 ; ! "owner"
@@ -6437,7 +6449,7 @@ golf:golf N1 ; ! "golf"
 gölge:gölge N1 ; ! "dark"
 kötülülk:kötülülk N1 ;
 gölge:gölge N1 ; ! "shadow"
-gol:gol%{ь%} N1 ; ! "goal"
+gol:gol%{ö%} N1 ; ! "goal"
 göl:göl N1 ; ! "lake"
 gömeç:gömeç N1 ; ! "honeycomb"
 gömlek:gömlek N1 ; ! "shirt"
@@ -8180,7 +8192,7 @@ kontenjan:kontenjan N1 ; ! "contingente"
 konteyner:konteyner N1 ; ! "container"
 kontrast:kontrast N1 ; ! "contrast"
 kontrat:kontrat N1 ; ! "contract"
-kontrol:kontrol N1 ; ! "control"
+kontrol:kontrol%{ö%} N1 ; ! "control"
 konuk:konuk N1 ; ! "guest"
 konu:konu N1 ; ! "issue"
 konu:konu N1 ; ! "subject"
@@ -10223,7 +10235,7 @@ us:us N1 ; ! ""
 utanç:utanç N1 ; ! ""
 üzüm:üzüm N1 ; ! ""
 üzüm% bağı:üzüm% bağı N1 ;
-uzunluk:uzunluk N1 ; ! ""
+uzunluk:uzunluk%{v%} N1 ; ! ""
 vaat:vaat%{v%} N1 ; ! ""
 vaka:vaka N1 ; ! ""
 vakıf:vak%{u%}f N1 ; ! ""
@@ -10232,7 +10244,7 @@ vasıta:vasıta N1 ; ! ""
 vatan:vatan N1 ; ! ""
 vefat:vefat N1 ; ! ""
 vekil:vekil N1 ; ! ""
-kahramanlık:kahramanlık N1 ; ! ""
+kahramanlık:kahramanlık%{v%} N1 ; ! ""
 vektör:vektör N1 ; ! ""
 velespit:velespit N1 ; ! ""
 veranda:veranda N1 ; ! ""
@@ -11187,6 +11199,11 @@ Ege:Ege NP-TOP ; !
 Çorum:Çorum NP-TOP ; !
 Tokat:Tokat NP-TOP ; !
 Arnavutluk:Arnavutluk NP-TOP ; !
+Malatya:Malatya NP-TOP ; !
+Rize:Rize NP-TOP ; !
+Erzincan:Erzincan NP-TOP ; !
+Mardin:Mardin NP-TOP ; !
+Sinop:Sinop NP-TOP ; !
 
 Obul:Obul NP-TOP ; !
 Komul:Komul NP-TOP ; !
@@ -11436,12 +11453,19 @@ Amannisa:Amannisa NP-ANT-F ;
 Fadime:Fadime NP-ANT-F ;
 Ümmü:Ümmü NP-ANT-F ;
 Ci:Ci NP-COG-MF ; !
+Yılmaz:Yılmaz NP-COG-MF ; !
 Herschel:Herschel NP-COG-MF ; !
 Lee:Lee NP-COG-MF ; !
 Le:Le NP-COG-MF ; !
 Love:Love NP-COG-MF ; !
 Çelebi:Çelebi NP-COG-MF ; !
 West:West NP-COG-MF ; !
+King:King NP-COG-MF ; !
+Madonna:Madonna NP-ANT-F ; !
+Elizabeth:Elizabeth NP-ANT-F ; !
+Pierre:Pierre NP-ANT-M ; !
+Karl:Karl NP-ANT-M ; !
+Max:Max NP-ANT-M ; !
 Angel:Angel NP-ANT-F ; !
 Buffy:Buffy NP-ANT-F ; !
 Mavzemin:Mavzemin NP-COG-MF ; !
@@ -12018,6 +12042,14 @@ Bülüğ'ul% Meram:Bülüğ'ul% Meram NP-AL ; !
 Kazakhmys:Kazakhmys NP-AL ; ! "Use/MT"
 Dünya% Şampiyonası:Dünya% Şampiyonası NP-AL ;
 Muhakemetül% Lugateyn:Muhakemetül% Lugateyn NP-AL ; !
+United:United NP-AL ; !
+Live:Live NP-AL ; !
+http:http NP-AL ; !
+Cup:Cup NP-AL ; !
+MS:MS NP-AL ; !
+OS:OS NP-AL ; !
+Raw:Raw NP-AL ; !
+www:www NP-AL ; !
 
 
 Kurman:Kurman NP-TOP ; !""
@@ -13259,6 +13291,9 @@ TBMM:TBMM NP-ORG ; !
 Windows:Windows NP-ORG ; !
 Show:Show NP-ORG ; !
 Prix:Prix NP-ORG ; !
+Real% Madrid:Real% Madrid NP-ORG ; !
+Premier% League:Premier% League NP-ORG ; !
+SS:SS NP-ORG ; !
 
 KGB:KGB NP-ORG ;
 AR:AR NP-ORG ;
@@ -14161,6 +14196,7 @@ Marko:Marko NP-ANT-M ; ! ""
 Markos:Markos NP-ANT-M ; ! ""
 Marshall:Marshall NP-ANT-M ; ! ""
 Martin:Martin NP-ANT-M ; ! ""
+Martin:Martin NP-COG-MF ; ! ""
 Massari:Massari NP-ANT-M ; ! ""
 Massimo:Massimo NP-ANT-M ; ! ""
 Matti:Matti NP-ANT-M ; ! ""
@@ -19417,12 +19453,13 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+alternatif:alternatif A1 ; !
 resmî:resmî A1 ; !
 birer:birer A1 ; !
 sıvı:sıvı A1 ; !
 manyetik:manyetik A1 ; !
 politik:politik A1 ; !
-
+elektronik:elektronik A1 ; ! "electronic"
 semitik:semitik A1 ; !
 yerleşim:yerleşim A1 ; !
 dalgalı:dalgalı A1 ; !

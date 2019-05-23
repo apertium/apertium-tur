@@ -315,7 +315,8 @@ Cx:Cy <=>  [ [ AbstrVow: - %{ь%}: ] | :SurVow ] (%':) (:0) %>: _ ;
         except
            %{A%}: %{z%}:0 %>: _ %{I%}: m ;
                           %>: _ .#. ; ! git<v><iv><ger><nom>+i<cop><aor><p3><sg> : git{v}>m{A}>{y} : gitme
-                          %>: _ %>: l %{A%}: r ;  ! ner>ede>{y}>l{A}r 
+                          %>: _ %>: l %{A%}: r ;  ! ner>ede>{y}>l{A}r
+			  %>: _ %>: %{D%}: %{I%}: r ;  ! arabadır, film-i-dir, bulunmak-ta-dır	
         where
             Cx in ( %{N%} %{s%} %{y%} ) 
             Cy in (   n     s     y   ) 
