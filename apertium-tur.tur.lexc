@@ -2732,6 +2732,9 @@ da%<postadv%>:%da # ; ! Dir/RL
 LEXICON Postpositions
 
 ! Nominative
+vs:vs POST ; !
+aşkın:aşkın POST ; !
+
 halinde:halinde POST ; ! "ın case of" ! FIXME
 hakkında:hakkında POST ;
 dahi:dahi POST ; !
@@ -3133,6 +3136,19 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+terfi:terfi N1 ; !
+kiralık:kiralık N1 ; !
+yapımcılık:yapımcılık N1 ; !
+mühendislik:mühendislik N1 ; !
+futbolculuk:futbolculuk N1 ; !
+vokal:vokal N1 ; !
+görsel:görsel N1 ; !
+şehristan:şehristan N1 ; !
+tayin:tayin N1 ; !
+EP:EP N1 ; !
+sinir:sinir N1 ; !
+Çerkes:Çerkes N1 ; !
+
 Mars:Mars N1 ; !
 km2:km2 N1 ; !
 CD:CD N1 ; !
@@ -3140,7 +3156,7 @@ milletvekilliği:milletvekilliği N1 ; !
 kuantum:kuantum N1 ; !
 miss:miss N1 ; !
 Gürcü:Gürcü N1 ; !
-
+Haçlı:Haçlı N1 ; !
 D:D N1 ; !
 single:single N1 ; !
 F:F N1 ; !
@@ -3644,7 +3660,7 @@ yen:yen N1 ; !
 varoluş:varoluş N1 ; !
 bilig:bilig N1 ; !
 blog:blog N1 ; !
-klip:klip N1 ; !
+klip:klip%{v%} N1 ; !
 üslup:üslup N1 ; !
 taharet:taharet N1 ; !
 sahih-i:sahih-i N1 ; !
@@ -4212,6 +4228,9 @@ Sahihül% Buhari:Sahihül% Buhari NP-AL ; !
 Divan-ı% Lügatit% Türk:Divan-ı% Lügatit% Türk NP-AL ; !
 Mişkatül% Mesabih:Mişkatül% Mesabih NP-AL ; !
 Belediyespor:Belediyespor NP-AL ; !
+NGC:NGC NP-AL ; !
+Oscar:Oscar NP-AL ; !
+
 
 
 prof:prof N1 ; !
@@ -4247,9 +4266,18 @@ WordPress:WordPress NP-ORG ; !
 iPhone:iPhone NP-ORG ; !
 Vikipedi:Vikipedi NP-ORG ; ! ""
 Kutbilik:Kutbilik NP-ORG ; !
+La% Liga:La% Liga NP-ORG ; !
+Bundesliga:Bundesliga NP-ORG ; !
+Fox:Fox NP-ORG ; !
+Time:Time NP-ORG ; !
+
+
+
+
 
 vatansever:vatansever N1 ; !
 tadım:tadım N1 ; !
+Papa:Papa N1 ; !
 
 okur:okur N1 ; !
 AIDS:AIDS N1 ; !
@@ -7449,9 +7477,7 @@ iştah:iştah N1 ; ! "appetite"
 istasyon:istasyon N1 ; ! "depot"
 istasyon:istasyon N1 ; ! "station"
 istatistik:istatistik N1 ; ! "statistics"
-istek:istek N1 ; ! "desire"
-istek:istek N1 ; ! "wish"
-istem:istem N1 ; ! "request"
+istek:istek%{v%} N1 ; ! "desire"
 istem:istem N1 ; ! "will"
 istenç:istenç N1 ; ! "will"
 istiare:istiare N1 ; ! "figure"
@@ -8654,7 +8680,7 @@ makbuz:makbuz N1 ; ! "warrant"
 maket:maket N1 ; ! "model"
 makina:makina N1 ; ! "machine"
 makinist:makinist N1 ; ! "machinist"
-maksat:maksat N1 ; ! "intention"
+maksat:maksat%{v%} N1 ; ! "intention"
 maksimum:maksimum N1 ; ! "maximum"
 makyaj:makyaj N1 ; ! "make-up"
 malak:malak N1 ; ! "calf"
@@ -8665,7 +8691,7 @@ malik:malik%{v%} N1 ; ! "tenant"
 maliye:maliye N1 ; ! "finance"
 maliyet:maliyet N1 ; ! "cost"
 malikane:malikane N1 ;
-arya:arya N1 ;
+arya:arya N1 ; ! what's this?
 yoksuluk:yoksuluk N1 ;
 mal:mal N1 ; ! "goods"
 maltız:maltız N1 ; ! "devil"
@@ -8753,7 +8779,7 @@ matara:matara N1 ; ! "canteen"
 matbaa:matbaa N1 ; ! "press"
 matbua:matbua N1 ; ! "print"
 matbuat:matbuat N1 ; ! "press"
-matematik:matematik N1 ; ! "mathematics"
+matematik:matematik%{v%} N1 ; ! "mathematics"
 matem:matem N1 ; ! "mourning"
 materyalist:materyalist N1 ; ! "materialistic"
 materyalizm:materyalizm N1 ; ! "materialism"
@@ -8806,22 +8832,22 @@ megavat:megavat N1 ; ! "megawatt"
 meğerki:meğerki N1 ; ! "except"
 mehaz:mehaz N1 ; ! "refer"
 mehil:mehil N1 ; ! "time"
-mehtap:mehtap N1 ; ! "moon"
+mehtap:mehtap%{v%} N1 ; ! "moon"
 mekanik:mekanik N1 ; ! "mechanics"
 mekanizma:mekanizma N1 ; ! "mechanism"
 mekanizm:mekanizm N1 ; ! "mechanism"
 mekan:mekan N1 ; ! "environment"
 mekan:mekan N1 ; ! "location"
 mekan:mekan N1 ; ! "residence"
-mektep:mektep N1 ; ! "school"
-mektup:mektup N1 ; ! "letter"
+mektep:mektep%{v%} N1 ; ! "school"
+mektup:mektup%{v%} N1 ; ! "letter"
 melaike:melaike N1 ; ! "angel"
 melanet:melanet N1 ; ! "mallice"
 melankolik:melankolik%{v%} N1 ; ! "melancholic"
 melankoli:melankoli N1 ; ! "melancholy"
 melas:melas N1 ; ! "molasses"
 meleke:meleke N1 ; ! "angel"
-melek:melek N1 ; ! "angel"
+melek:melek%{v%} N1 ; ! "angel"
 melez:melez N1 ; ! "hybrid"
 melfuf:melfuf N1 ; ! "enclosed"
 melike:melike N1 ; ! "queen"
@@ -8858,6 +8884,7 @@ mensup:mensup%{v%} N1 ; ! "member"
 menteşe:menteşe N1 ; ! "knuckle"
 menü:menü N1 ; ! "menu"
 menzil:menzil N1 ; ! "distance"
+merak:merak%{v%} N1 ; ! "curiosity"
 merak:merak N1 ; ! "curiosity"
 mera:mera N1 ; ! "field"
 meram:meram N1 ; ! "intention"
@@ -10147,7 +10174,7 @@ sosyalizm:sosyalizm N1 ; ! ""
 sosyoloji:sosyoloji N1 ; ! ""
 soygun:soygun N1 ; ! ""
 söylenti:söylenti N1 ; ! ""
-sözcük:sözcük N1 ; ! ""
+sözcük:sözcük%{v%} N1 ; ! ""
 sözleşme:sözleşme N1 ; ! ""
 spesiyalist:spesiyalist N1 ; ! ""
 sponsor:sponsor N1 ; ! ""
@@ -10157,23 +10184,23 @@ star:star N1 ; ! ""
 stat:stat N1 ; ! ""
 stil:stil N1 ; ! ""
 şükür:şükür N1 ; ! ""
-sülük:sülük N1 ; ! ""
+sülük:sülük%{v%} N1 ; ! ""
 sürgün:sürgün N1 ; ! ""
 taarruz:taarruz N1 ; ! ""
 tabaka:tabaka N1 ; ! ""
-tabak:tabak N1 ; ! ""
+tabak:tabak%{v%} N1 ; ! ""
 taban:taban N1 ; ! ""
 tabiat:tabiat N1 ; ! ""
 tabip:tabip%{v%} N1 ; ! ""
 tahsil:tahsil N1 ; ! ""
 taht:taht N1 ; ! ""
-taklip:taklip N1 ; ! ""
-taktik:taktik N1 ; ! ""
+taklip:taklip%{v%} N1 ; ! ""
+taktik:taktik%{v%} N1 ; ! ""
 takvim:takvim N1 ; ! ""
 talil:talil N1 ; ! ""
 tank:tank N1 ; ! ""
 tan:tan N1 ; ! ""
-tarak:tarak N1 ; ! ""
+tarak:tarak%{v%} N1 ; ! ""
 tarif:tarif N1 ; ! ""
 tarla:tarla N1 ; ! ""
 tartışma:tartışma N1 ; ! ""
@@ -10196,7 +10223,7 @@ teori:teori N1 ; ! ""
 terbiye:terbiye N1 ; ! ""
 terörizm:terörizm N1 ; ! ""
 ter:ter N1 ; ! ""
-tertip:tertip N1 ; ! ""
+tertip:tertip%{v%} N1 ; ! ""
 teşebbüs:teşebbüs N1 ; ! ""
 tesir:tesir N1 ; ! ""
 tilki:tilki N1 ; ! ""
@@ -10214,16 +10241,16 @@ transport:transport N1 ; ! ""
 tren:tren N1 ; ! ""
 tröst:tröst N1 ; ! ""
 tsunami:tsunami N1 ; ! ""
-tüfek:tüfek N1 ; ! ""
+tüfek:tüfek%{v%} N1 ; ! ""
 tuğgeneral:tuğgeneral N1 ; ! ""
 türban:türban N1 ; ! ""
 turnuva:turnuva N1 ; ! ""
 tutukev:tutukev N1 ; ! ""
-tuzak:tuzak N1 ; ! ""
+tuzak:tuzak%{v%} N1 ; ! ""
 tuz:tuz N1 ; ! ""
 uç:uç N1 ; ! ""
 uğur:uğur N1 ; ! ""
-ulak:ulak N1 ; ! ""
+ulak:ulak%{v%} N1 ; ! ""
 ulus:ulus N1 ; ! ""
 ümit:ümit N1 ; ! ""
 ünite:ünite N1 ; ! ""
@@ -10286,7 +10313,7 @@ yürek:yürek N1 ; ! ""
 yuva:yuva N1 ; ! ""
 yüzbaşı:yüzbaşı N1 ; ! ""
 yüzde:yüzde N1 ; ! ""
-yüzük:yüzük N1 ; ! ""
+yüzük:yüzük%{v%} N1 ; ! ""
 zamandaş:zamandaş N1 ; ! ""
 zan:zan N1 ; ! ""
 zarf:zarf N1 ; ! ""
@@ -10334,6 +10361,7 @@ yön:yön N4 ; ! "on"
 !ard:ard N4 ; ! ""
 !hal:hal N4 ; ! ""
 
+yapımcılık:yapımcılık%{v%} N1 ;
 ova:ova N1 ; ! "plain"
 vapur:vapur N1 ;
 yapımcı:yapımcı N1 ;
@@ -10343,10 +10371,10 @@ talimat:talimat N1 ;
 ziyaretçi:ziyaretçi N1 ;
 tas:tas N1 ;
 rapor:rapor N1 ;
-temizlik:temizlik N1 ;
+temizlik:temizlik%{v%} N1 ;
 sırt:sırt N1 ;
 iç:iç N1 ;
-tebrik:tebrik N1 ;
+tebrik:tebrik%{v%} N1 ;
 imtiyaz:imtiyaz N1 ;
 sıfat:sıfat N1 ;
 taksi:taksi N1 ;
@@ -10355,10 +10383,9 @@ tavan:tavan N1 ;
 suistimal:suistimal N1 ;
 tüp:tüp N1 ;
 örtü:örtü N1 ;
-temsilcilik:temsilcilik N1 ;
+temsilcilik:temsilcilik%{v%} N1 ;
 raket:raket N1 ;
 iştirak:iştirak N1 ;
-tramvay:tramvay N1 ;
 topçu:topçu N1 ;
 set:set N1 ;
 keten:keten N1 ;
@@ -10436,12 +10463,12 @@ istidat:istidat N1 ;
 tefsir:tefsir N1 ;
 tunç:tunç N1 ;
 gülistan:gülistan N1 ;
-aitlik:aitlik N1 ;
+aitlik:aitlik%{v%} N1 ;
 taun:taun N1 ;
 riyaziyatçı:riyaziyatçı N1 ;
 insaniyetsizlik:insaniyetsizlik N1 ;
-felekiyat:felekiyat N1 ;
-cesaretlik:cesaretlik N1 ;
+felekiyat:felekiyat N1 ; ! is this a word?
+cesaretlik:cesaretlik N1 ; ! is this a word?
 terbiyeci:terbiyeci N1 ;
 tabilik:tabilik N1 ;
 şikâyetçi:şikâyetçi N1 ;
@@ -10450,10 +10477,10 @@ antisemitizm:antisemitizm N1 ;
 medeniyetlik:medeniyetlik N1 ;
 hattat:hattat N1 ;
 çeşitlik:çeşitlik N1 ;
-bereketlik:bereketlik N1 ;
+bereketlik:bereketlik N1 ; 
 apostrof:apostrof N1 ;
 tornacı:tornacı N1 ;
-terbiyesizlik:terbiyesizlik N1 ;
+terbiyesizlik:terbiyesizlik%{v%} N1 ;
 tayga:tayga N1 ;
 primitivizm:primitivizm N1 ;
 kitabe:kitabe N1 ;
@@ -10464,14 +10491,14 @@ neşriyatçı:neşriyatçı N1 ;
 istinat:istinat N1 ;
 getto:getto N1 ;
 bostancı:bostancı N1 ;
-bereketlilik:bereketlilik N1 ;
+bereketlilik:bereketlilik N1 ; 
 tulumba:tulumba N1 ;
 topaz:topaz N1 ;
 timsalcilik:timsalcilik N1 ;
 teşkilci:teşkilci N1 ;
 terennüm:terennüm N1 ;
 temrin:temrin N1 ;
-teklik:teklik N1 ;
+teklik:teklik N1 ; 
 tecvit:tecvit N1 ;
 tayfa:tayfa N1 ;
 safsata:safsata N1 ;
@@ -10484,7 +10511,7 @@ beşeriyet:beşeriyet N1 ;
 abdest:abdest N1 ;
 gökkuşağı:gökkuşağı N1 ;
 esperanto:esperanto N1 ;
-arnavutluk:arnavutluk N1 ;
+!arnavutluk:arnavutluk N1 ; ! not N1
 serçe:serçe N1 ;
 şehadet:şehadet N1 ;
 otobus:otobus N1 ;
@@ -10495,41 +10522,41 @@ kitaphane:kitaphane N1 ;
 özne:özne N1 ;
 ortakık:ortakık N1 ;
 dostluk:dostluk N1 ;
-arkadaşlık:arkadaşlık N1 ;
-havacılık:havacılık N1 ;
-ayrılıkçılık:ayrılıkçılık N1 ;
-özerkçilik:özerkçilik N1 ;
+arkadaşlık:arkadaşlık%{v%} N1 ;
+havacılık:havacılık%{v%} N1 ;
+ayrılıkçılık:ayrılıkçılık%{v%} N1 ;
+özerkçilik:özerkçilik%{v%} N1 ;
 tramvay:tramvay N1 ;
-havacılık:havacılık N1 ;
+havacılık:havacılık%{v%} N1 ;
 nazizm:nazizm N1 ;
 tasavvur:tasavvur N1 ;
 ademimerkeziyet:ademimerkeziyet N1 ;
 istihsal:istihsal N1 ;
-temizlik:temizlik N1 ;
+temizlik:temizlik%{v%} N1 ;
 zaruriyet:zaruriyet N1 ;
-qurtuluş:qurtuluş N1 ;
+!qurtuluş:qurtuluş N1 ; !not turkish
 seferberlik:seferberlik N1 ;
 otogar:otogar N1 ;
 teğmen:teğmen N1 ;
-çabukluk:çabukluk N1 ;
+çabukluk:çabukluk%{v%} N1 ;
 ingiliz:ingiliz N1 ;
-federalleştırme:federalleştırme N1 ;
+federalleştirme:federalleştirme N1 ;
 ustalık:ustalık N1 ;
 tafsilat:tafsilat N1 ;
 ruhsatname:ruhsatname N1 ;
 litre:litre N1 ;
 milis:milis N1 ;
-umutsuzluk:umutsuzluk N1 ;
+umutsuzluk:umutsuzluk%{v%} N1 ;
 otogar:otogar N1 ;
 topçu:topçu N1 ;
 tüccar:tüccar N1 ;
 katsayı:katsayı N1 ;
 pozisyon:pozisyon N1 ;
-komiserlik:komiserlik N1 ;
+komiserlik:komiserlik%{v%} N1 ;
 telegraf:telegraf N1 ;
 stres:stres N1 ;
 kartopu:kartopu N1 ;
-hareketsizlik:hareketsizlik N1 ;
+hareketsizlik:hareketsizlik%{v%} N1 ;
 türkmen:türkmen N1 ;
 rektörlük:rektörlük N1 ;
 perspektif:perspektif N1 ;
@@ -10538,10 +10565,10 @@ cellat:cellat N1 ;
 heykeltraş:heykeltraş N1 ;
 baget:baget N1 ;
 uygarlaştırma:uygarlaştırma N1 ;
-uygarlık:uygarlık N1 ;
-tarihçilik:tarihçilik N1 ;
+uygarlık:uygarlık%{v%} N1 ;
+tarihçilik:tarihçilik%{v%} N1 ;
 havai:havai N1 ;
-gemicilik:gemicilik N1 ;
+gemicilik:gemicilik%{v%} N1 ;
 makineleşme:makineleşme N1 ;
 raportör:raportör N1 ;
 haberci:haberci N1 ;
@@ -10550,8 +10577,8 @@ stereotip:stereotip N1 ;
 terhis:terhis N1 ;
 videokonferans:videokonferans N1 ;
 oblast:oblast N1 ;
-lakaytlık:lakaytlık N1 ;
-bataklık:bataklık N1 ;
+lakaytlık:lakaytlık%{v%} N1 ;
+bataklık:bataklık%{v%} N1 ;
 terazi:terazi N1 ;
 saadet:saadet N1 ;
 santimetre:santimetre N1 ;
@@ -10559,8 +10586,8 @@ reorganizasyon:reorganizasyon N1 ;
 güçsüzlük:güçsüzlük N1 ;
 kürator:kürator N1 ;
 iktisatçı:iktisatçı N1 ;
-inatçılık:inatçılık N1 ;
-etkililik:etkililik N1 ;
+inatçılık:inatçılık%{v%} N1 ;
+etkililik:etkililik%{v%} N1 ;
 sandviç:sandviç N1 ;
 pil:pil N1 ;
 yurttaş:yurttaş N1 ;
@@ -10569,16 +10596,16 @@ röpörtaj:röpörtaj N1 ;
 editörlük:editörlük%{v%} N1 ;
 motorcu:motorcu N1 ;
 labirent:labirent N1 ;
-göçmenlik:göçmenlik N1 ;
+göçmenlik:göçmenlik%{v%} N1 ;
 hırvatça:hırvatça N1 ;
 elektriklenme:elektriklenme N1 ;
 yakut:yakut N1 ;
-dokumacılık:dokumacılık N1 ;
+dokumacılık:dokumacılık%{v%} N1 ;
 tokluk:tokluk N1 ;
 müteşebbis:müteşebbis N1 ;
 saatçi:saatçi N1 ;
 radyason:radyason N1 ;
-hamilik:hamilik N1 ;
+hamilik:hamilik%{v%} N1 ;
 yörünge:yörünge N1 ;
 nomenklatura:nomenklatura N1 ;
 yenileştirme:yenileştirme N1 ;
@@ -10586,15 +10613,15 @@ koordinat:koordinat N1 ;
 kütüphaneci:kütüphaneci N1 ;
 sibernetik:sibernetik N1 ;
 italyan:italyan N1 ;
-yenilik:yenilik N1 ;
-kalınlık:kalınlık N1 ;
+yenilik:yenilik%{v%} N1 ;
+kalınlık:kalınlık%{v%} N1 ;
 arnavutça:arnavutça N1 ;
 ziraat:ziraat N1 ;
 silindir:silindir N1 ;
 trambolin:trambolin N1 ;
 traktörcü:traktörcü N1 ;
 terminolojilik:terminolojilik N1 ;
-taklit:taklit N1 ;
+taklit:taklit%{v%} N1 ;
 statüko:statüko N1 ;
 sağcı:sağcı N1 ;
 rasyonalizm:rasyonalizm N1 ;
@@ -10606,10 +10633,10 @@ hainlik:hainlik N1 ;
 hilafet:hilafet N1 ;
 tahliye:tahliye N1 ;
 etimoloji:etimoloji N1 ;
-didaktiklik:didaktiklik N1 ;
-çatlak:çatlak N1 ;
+didaktiklik:didaktiklik%{v%} N1 ;
+çatlak:çatlak%{v%} N1 ;
 otogar:otogar N1 ;
-poliklinik:poliklinik N1 ;
+poliklinik:poliklinik%{v%} N1 ;
 
 
 ! Nationalities and other names of people
@@ -10621,7 +10648,7 @@ Kırım% Tatarcası:Kırım% Tatarca N2 ;
 türk:türk N3 ; ! "Turk"
 hırvat:hırvat N3 ; ! ""
 arnavut:arnavut N3 ; ! ""
-bulgar:bulgar N3 ; ! ""
+bulgar:Bulgar N3 ; ! ""
 makedon:makedon N3 ; ! ""
 romen:romen N3 ; ! ""
 kürt:kürt N3 ; ! ""
@@ -10634,11 +10661,11 @@ rum:Rum N3 ; ! "Greek"
 fransız:Fransız N3 ; ! ""
 sloven:Sloven N3 ; ! ""
 ermeni:Ermeni N3 ; ! ""
-ispanyol:ispanyol N3 ; ! ""
+ispanyol:İspanyol N3 ; ! ""
 ispanyolca:İspanyolca N3 ; ! ""
 arap:Arap N3 ; ! ""
 isveçli:isveçli N3 ; ! "Swiss"
-özbek:Özbek%{v%} N3 ; ! "Uzbek"
+özbek:Özbek N3 ; ! "Uzbek"
 japon:Japon N3 ; ! "Japanese"
 türkmen:Türkmen N3 ; ! "Turkmen"
 mongol:Mongol N3 ; ! "Mongol"
@@ -10651,7 +10678,7 @@ nogay:Nogay N3 ; ! ""
 roman:Roman N3 ; ! "roman"
 yugoslav:Yugoslav N1 ; ! ""
 boşnak:Boşnak N1 ; ! ""
-amerikan:amerikan N1 ; ! ""
+amerikan:Amerikan N1 ; ! ""
 yunanlı:Yunanlı N1 ; ! ""
 tatar:Tatar N1 ; ! ""
 osmanlı:Osmanlı N1 ; ! ""
@@ -10875,7 +10902,7 @@ otomat:otomat N1 ; ! ""
 özümseme:özümseme N1 ; ! ""
 panayır:panayır N1 ; ! ""
 papaz:papaz N1 ; ! ""
-park:park%{v%} N1 ; ! ""
+park:park N1 ; ! ""
 paşa:paşa N1 ; ! ""
 paskalya:paskalya N1 ; ! ""
 perde:perde N1 ; ! ""
@@ -10995,7 +11022,7 @@ hititoloji:hititoloji N1 ;
 sosyolog:sosyolog N1 ;
 islahatçı:islahatçı N1 ;
 reformist:reformist N1 ;
-italyan:italyan N1 ;
+italyan:İtalyan N1 ;
 küncü:küncü N1 ;
 kürkçü:kürkçü N1 ;
 madenci:madenci N1 ;
@@ -11135,7 +11162,7 @@ kezlevli:Kezlevli N1 ; ! ""
 alevli:Alevli N1 ; ! ""
 yarışma:yarışma N1 ;
 savaşçı:savaşçı N1 ;
-topluluk:topluluk N1 ;
+topluluk:topluluk%{v%} N1 ;
 radyo:radyo N1 ;
 klarnet:klarnet N1 ;
 keman:keman N1 ;
@@ -11452,6 +11479,21 @@ Amannisa:Amannisa NP-ANT-F ;
 İlya:İlya NP-ANT-F ;
 Fadime:Fadime NP-ANT-F ;
 Ümmü:Ümmü NP-ANT-F ;
+Tunç:Tunç NP-ANT-M ; !
+Friedrich:Friedrich NP-ANT-M ; !
+Sam:Sam NP-ANT-M ; !
+Walter:Walter NP-ANT-M ; !
+Taylor:Taylor NP-ANT-M ; !
+Owens:Owens NP-ANT-M ; !
+Scott:Scott NP-ANT-M ; !
+Tony:Tony NP-ANT-M ; !
+Steve:Steve NP-ANT-M ; !
+
+Young:Young NP-COG-MF ; !
+Selçuk:Selçuk NP-COG-MF ; !
+Hill:Hill NP-COG-MF ; !
+Christian:Christian NP-COG-MF ; !
+
 Ci:Ci NP-COG-MF ; !
 Yılmaz:Yılmaz NP-COG-MF ; !
 Herschel:Herschel NP-COG-MF ; !
@@ -12014,7 +12056,16 @@ Moab:Moab NP-TOP ; !
 Edom:Edom NP-TOP ; !
 Sodom:Sodom NP-TOP ; !
 Korint:Korint NP-TOP ; !
-
+Muğla:Muğla NP-TOP ; !
+Amasya:Amasya NP-TOP ; !
+Prusya:Prusya NP-TOP ; !
+Zonguldak:Zonguldak NP-TOP ; !
+Artvin:Artvin NP-TOP ; !
+Halep:Halep NP-TOP ; !
+Kahramanmaraş:Kahramanmaraş NP-TOP ; !
+Yozgat:Yozgat NP-TOP ; !
+Hatay:Hatay NP-TOP ; !
+New% Jersey:New% Jersey NP-TOP ; !
 Bar:Bar NP-TOP ; ! ""
 Başkortostan:Başkortostan NP-TOP ; ! ""
 Boeing:Boeing NP-TOP ; ! ""
@@ -12050,6 +12101,9 @@ MS:MS NP-AL ; !
 OS:OS NP-AL ; !
 Raw:Raw NP-AL ; !
 www:www NP-AL ; !
+Club:Club NP-AL ; !
+Mac:Mac NP-AL ; !
+
 
 
 Kurman:Kurman NP-TOP ; !""
@@ -19453,6 +19507,14 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+askerî:askerî A1 ; !
+pozitif:pozitif A1 ; !
+anti:anti A1 ; !
+siyasal:siyasal A1 ; !
+mobil:mobil A1 ; !
+net:net A1 ; !
+nü:nü A1 ; !
+
 alternatif:alternatif A1 ; !
 resmî:resmî A1 ; !
 birer:birer A1 ; !
@@ -21587,6 +21649,7 @@ bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 
 LEXICON Adverbs
 sıklıkla:sıklıkla ADV1 ; !
+resmen:resmen ADV1 ; !
 
 dolayısıyla:dolayısıyla ADV1 ; !
 arka% arkaya:arka% arkaya ADV1 ; !
@@ -22164,6 +22227,8 @@ LEXICON Verbs
 keşfedil:keşfedil V-IR-IV ; !
 bаğlan:bаğlan V-IR-IV ; !
 merkezleştir:merkezleştir V-IR-TV ; !
+dür:dür V-IR-TV ; !
+
 adlandırıl:adlandırıl V-IR-IV ; !
 sabitleş:sabitleş V-IR-TV ; !
 yer% al:yer% al V-IR-IV ; ! Use/MT
