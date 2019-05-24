@@ -2734,6 +2734,7 @@ LEXICON Postpositions
 ! Nominative
 vs:vs POST ; !
 aşkın:aşkın POST ; !
+ziyade:ziyade POST ; !
 
 halinde:halinde POST ; ! "ın case of" ! FIXME
 hakkında:hakkında POST ;
@@ -3136,10 +3137,13 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+üreme:üreme N1 ; !
+sıfır:sıfır N1 ; !
+
 terfi:terfi N1 ; !
 kiralık:kiralık N1 ; !
 yapımcılık:yapımcılık N1 ; !
-mühendislik:mühendislik N1 ; !
+mühendislik:mühendislik%{v%} N1 ; !
 futbolculuk:futbolculuk N1 ; !
 vokal:vokal N1 ; !
 görsel:görsel N1 ; !
@@ -3148,6 +3152,20 @@ tayin:tayin N1 ; !
 EP:EP N1 ; !
 sinir:sinir N1 ; !
 Çerkes:Çerkes N1 ; !
+arena:arena N1 ; !
+İskoç:İskoç N1 ; !
+hikâye:hikâye N1 ; !
+kaleci:kaleci N1 ; !
+DJ:DJ N1 ; !
+farklılık:farklılık N1 ; !
+eliptik:eliptik N1 ; !
+punk:punk N1 ; !
+uyum:uyum N1 ; !
+atletizm:atletizm N1 ; !
+protein:protein N1 ; !
+vizyon:vizyon N1 ; !
+tır:tır N1 ; !
+Tv:Tv N1 ; !
 
 Mars:Mars N1 ; !
 km2:km2 N1 ; !
@@ -3630,6 +3648,7 @@ Louis:Louis NP-ANT-M ; !
 Williams:Williams NP-ANT-M ; !
 Henry:Henry NP-ANT-M ; !
 Harry:Harry NP-ANT-M ; !
+Yavuz:Yavuz NP-ANT-M ; !
 
 Abylkhair:Abylkhair NP-ANT-M ; !
 Noruzahun:Noruzahun NP-ANT-M ; !
@@ -3754,7 +3773,7 @@ yufka:yufka N1 ; !
 tezgah:tezgah N1 ; !
 timsah:timsah N1 ; !
 inşaatçı:inşaatçı N1 ; !
-uzaklık:uzaklık N1 ; !
+uzaklık:uzaklık%{v%} N1 ; !
 porsuk:porsuk N1 ; !
 tuğrul:tuğrul N1 ; !
 yem:yem N1 ; !
@@ -10648,7 +10667,7 @@ Kırım% Tatarcası:Kırım% Tatarca N2 ;
 türk:türk N3 ; ! "Turk"
 hırvat:hırvat N3 ; ! ""
 arnavut:arnavut N3 ; ! ""
-bulgar:Bulgar N3 ; ! ""
+bulgar:bulgar N3 ; ! ""
 makedon:makedon N3 ; ! ""
 romen:romen N3 ; ! ""
 kürt:kürt N3 ; ! ""
@@ -11231,6 +11250,12 @@ Rize:Rize NP-TOP ; !
 Erzincan:Erzincan NP-TOP ; !
 Mardin:Mardin NP-TOP ; !
 Sinop:Sinop NP-TOP ; !
+Kocaeli:Kocaeli NP-TOP ; !
+Horasan:Horasan NP-TOP ; !
+Giresun:Giresun NP-TOP ; !
+Üsküdar:Üsküdar NP-TOP ; !
+Afyonkarahisar:Afyonkarahisar NP-TOP ; !
+Güneydoğu:Güneydoğu NP-TOP ; !
 
 Obul:Obul NP-TOP ; !
 Komul:Komul NP-TOP ; !
@@ -11488,11 +11513,30 @@ Owens:Owens NP-ANT-M ; !
 Scott:Scott NP-ANT-M ; !
 Tony:Tony NP-ANT-M ; !
 Steve:Steve NP-ANT-M ; !
+Bob:Bob NP-ANT-M ; !
+Mike:Mike NP-ANT-M ; !
+Heinrich:Heinrich NP-ANT-M ; !
+Carl:Carl NP-ANT-M ; !
+Juan:Juan NP-ANT-M ; !
+Jon:Jon NP-ANT-M ; !
+Arthur:Arthur NP-ANT-M ; !
+İoannis:İoannis NP-ANT-M ; !
+François:François NP-ANT-M ; !
+Lewis:Lewis NP-ANT-M ; !
 
 Young:Young NP-COG-MF ; !
 Selçuk:Selçuk NP-COG-MF ; !
 Hill:Hill NP-COG-MF ; !
 Christian:Christian NP-COG-MF ; !
+White:White NP-COG-MF ; !
+Hall:Hall NP-COG-MF ; !
+Newton:Newton NP-COG-MF ; !
+Sezar:Sezar NP-COG-MF ; !
+Swift:Swift NP-COG-MF ; !
+İnönü:İnönü NP-COG-MF ; !
+Alice:Alice NP-ANT-F ; !
+Marie:Marie NP-ANT-F ; !
+Mary:Mary NP-ANT-F ; !
 
 Ci:Ci NP-COG-MF ; !
 Yılmaz:Yılmaz NP-COG-MF ; !
@@ -13348,6 +13392,8 @@ Prix:Prix NP-ORG ; !
 Real% Madrid:Real% Madrid NP-ORG ; !
 Premier% League:Premier% League NP-ORG ; !
 SS:SS NP-ORG ; !
+MTV:MTV NP-ORG ; !
+Disney:Disney NP-ORG ; !
 
 KGB:KGB NP-ORG ;
 AR:AR NP-ORG ;
@@ -13507,6 +13553,7 @@ San:San NP-AL ; !
 FC:FC NP-AL ; !
 
 
+iOS:iOS NP-AL ; !
 
 Svoboda:Svoboda NP-AL ; ! ""
 YouTube:YouTube NP-AL ; ! ""
@@ -19514,6 +19561,9 @@ siyasal:siyasal A1 ; !
 mobil:mobil A1 ; !
 net:net A1 ; !
 nü:nü A1 ; !
+kurgusal:kurgusal A1 ; !
+mercekli:mercekli A1 ; !
+yedek:yedek A1 ; !
 
 alternatif:alternatif A1 ; !
 resmî:resmî A1 ; !
@@ -21650,6 +21700,7 @@ bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 LEXICON Adverbs
 sıklıkla:sıklıkla ADV1 ; !
 resmen:resmen ADV1 ; !
+sıkça:sıkça ADV1 ; !
 
 dolayısıyla:dolayısıyla ADV1 ; !
 arka% arkaya:arka% arkaya ADV1 ; !
