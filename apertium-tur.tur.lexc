@@ -872,7 +872,8 @@ LEXICON PERS-COP-PRES
 %<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
 %<p2%>%<pl%>%<gm%>:%>s%{I%}n%{I%}z%{D%}%{I%}r  # ;
 %<p3%>%<pl%>:%>l%{A%}r # ;  ! FIXME!!!
-%<p3%>%<pl%>%<gm%>:%>l%{A%}r%{D%}%{I%}r # ; 
+%<p3%>%<pl%>%<gm%>:%>l%{A%}r%{D%}%{I%}r # ;
+%<p3%>%<pl%>%<gm%>:%>%{D%}%{I%}rl%{A%}r # ; 
 
 
 
