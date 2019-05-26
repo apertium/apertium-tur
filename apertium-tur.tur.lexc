@@ -3138,9 +3138,30 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+depolama:depolama N1 ; !
+Grek:Grek N1 ; !
+senaristlik:senaristlik N1 ; !
+eşcinsel:eşcinsel N1 ; !
+Kafkas:Kafkas N1 ; !
+senarist:senarist N1 ; !
+
+Hazar:Hazar N1 ; !
+karayolu:karayolu N1 ; !
+ribaund:ribaund N1 ; !
+yardımcılık:yardımcılık%{v%} N1 ; !
 üreme:üreme N1 ; !
 sıfır:sıfır N1 ; !
-
+İng:İng N1 ; !
+org:org N1 ; !
+güreşçi:güreşçi N1 ; !
+parçacık:parçacık N1 ; !
+direktörlük:direktörlük N1 ; !
+belgesel:belgesel N1 ; !
+sahil:sahil N1 ; !
+TL:TL N1 ; !
+sir:sir N1 ; !
+kâğıt:kâğıt N1 ; !
+yy:yy N1 ; !
 terfi:terfi N1 ; !
 kiralık:kiralık N1 ; !
 yapımcılık:yapımcılık N1 ; !
@@ -3180,6 +3201,7 @@ D:D N1 ; !
 single:single N1 ; !
 F:F N1 ; !
 camii:camii N1 ; !
+mevkii:mevkii N1 ; !
 havalimanı:havalimanı N1 ; !
 J:J N1 ; !
 yönetmenlik:yönetmenlik%{v%} N1 ; !
@@ -4290,6 +4312,8 @@ La% Liga:La% Liga NP-ORG ; !
 Bundesliga:Bundesliga NP-ORG ; !
 Fox:Fox NP-ORG ; !
 Time:Time NP-ORG ; !
+Porto:Porto NP-ORG ; !
+Samsunspor:Samsunspor NP-ORG ; !
 
 
 
@@ -4645,7 +4669,7 @@ radyo% komisyonu:radyo% komisyon N2 ; ! Dir/RL ! Use/MT
 vize:vize N1 ; ! "visa"
 cumhurbaşkanlık:cumhurbaşkanlık%{v%} N1 ; ! "presidentship"
 spor:spor N1 ; ! "sport"
-rol:rol%{ö%} N1 ; ! "role"
+rol:rol%{ь%} N1 ; ! "role"
 şiddet:şiddet N1 ; ! "violence"
 sahiplik:sahiplik%{v%} N1 ; ! "ownership"
 sahip:sahip%{v%} N1 ; ! "owner"
@@ -5222,7 +5246,7 @@ bayan:bayan N1 ; ! "lady"
 bayi:bayi N1 ; ! "distributor"
 bayır:bayır N1 ; ! "descent"
 baykuş:baykuş N1 ; ! "owl"
-bayrak:bayrak N1 ; ! "flag"
+bayrak:bayrak%{v%} N1 ; ! "flag"
 bayram:bayram N1 ; ! "festival"
 baytar:baytar N1 ; ! "veteran"
 baz:baz N1 ; ! "base"
@@ -6497,7 +6521,7 @@ golf:golf N1 ; ! "golf"
 gölge:gölge N1 ; ! "dark"
 kötülülk:kötülülk N1 ;
 gölge:gölge N1 ; ! "shadow"
-gol:gol%{ö%} N1 ; ! "goal"
+gol:gol%{ь%} N1 ; ! "goal"
 göl:göl N1 ; ! "lake"
 gömeç:gömeç N1 ; ! "honeycomb"
 gömlek:gömlek N1 ; ! "shirt"
@@ -7420,8 +7444,7 @@ işaret:işaret N1 ; ! "signal"
 işaret:işaret N1 ; ! "trace"
 işçi:İşçi N1 ; ! "employee, worker" ! Dir/LR
 işçi:işçi N1 ; ! "employee, worker"
-işgal:işgal N1 ; ! "invasion"
-işgal:işgal N1 ; ! "occupation"
+işgal:işgal%{ь%} N1 ; ! "invasion"
 işgörü:işgörü N1 ; ! "service"
 ishal:ishal N1 ; ! "diarrhea"
 ısı:ısı N1 ; ! "temperature"
@@ -7478,7 +7501,6 @@ işletmeci:işletmeci N1 ; ! "manager"
 işletme:işletme N1 ; ! "management"
 işletmen:işletmen N1 ; ! "operator"
 işlev:işlev N1 ; ! "function"
-işlik:işlik%{v%} N1 ; ! "atelýe"
 işlik:işlik%{v%} N1 ; ! "workshop"
 islim:islim N1 ; ! "steam"
 ismet:ismet N1 ; ! "virtue"
@@ -8238,7 +8260,7 @@ kontenjan:kontenjan N1 ; ! "contingente"
 konteyner:konteyner N1 ; ! "container"
 kontrast:kontrast N1 ; ! "contrast"
 kontrat:kontrat N1 ; ! "contract"
-kontrol:kontrol%{ö%} N1 ; ! "control"
+kontrol:kontrol%{ь%} N1 ; ! "control"
 konuk:konuk N1 ; ! "guest"
 konu:konu N1 ; ! "issue"
 konu:konu N1 ; ! "subject"
@@ -10231,7 +10253,7 @@ tecrübe:tecrübe N1 ; ! ""
 tedarik:tedarik N1 ; ! ""
 tekne:tekne N1 ; ! ""
 teknikokul:teknikokul N1 ; ! ""
-teknik:teknik N1 ; ! ""
+teknik:teknik%{v%} N1 ; ! ""
 teleskop:teleskop N1 ; ! ""
 telgraf:telgraf N1 ; ! ""
 tel:tel N1 ; ! ""
@@ -11524,7 +11546,15 @@ Arthur:Arthur NP-ANT-M ; !
 İoannis:İoannis NP-ANT-M ; !
 François:François NP-ANT-M ; !
 Lewis:Lewis NP-ANT-M ; !
+Black:Black NP-COG-MF ; !
+Royal:Royal NP-ORG ; !
+iTunes:iTunes NP-AL ; !
+Eric:Eric NP-ANT-M ; !
+Rick:Rick NP-ANT-M ; !
+Cemal:Cemal NP-ANT-M ; !
+Şahin:Şahin NP-ANT-M ; !
 
+Işık:Işık NP-COG-MF ; !
 Young:Young NP-COG-MF ; !
 Selçuk:Selçuk NP-COG-MF ; !
 Hill:Hill NP-COG-MF ; !
@@ -11538,7 +11568,18 @@ Swift:Swift NP-COG-MF ; !
 Alice:Alice NP-ANT-F ; !
 Marie:Marie NP-ANT-F ; !
 Mary:Mary NP-ANT-F ; !
-
+Murad:Murad NP-ANT-M ; !
+Said:Said NP-ANT-M ; !
+Joe:Joe NP-ANT-M ; !
+José:José NP-ANT-M ; !
+Cem:Cem NP-ANT-M ; !
+Jim:Jim NP-ANT-M ; !
+Dean:Dean NP-ANT-M ; !
+Stephen:Stephen NP-ANT-M ; !
+Napolyon:Napolyon NP-ANT-M ; !
+Francisco:Francisco NP-ANT-M ; !
+Fuat:Fuat NP-ANT-M ; !
+Anthony:Anthony NP-ANT-M ; !
 Ci:Ci NP-COG-MF ; !
 Yılmaz:Yılmaz NP-COG-MF ; !
 Herschel:Herschel NP-COG-MF ; !
@@ -12087,6 +12128,15 @@ Svetlana:Svetlana NP-ANT-F ; ! ""
 Nina:Nina NP-ANT-F ; ! ""
 Ursula:Ursula NP-ANT-F ; !
 Fatıma:Fatıma NP-ANT-F ; !
+Elâzığ:Elâzığ NP-TOP ; !
+Çankırı:Çankırı NP-TOP ; !
+Adıyaman:Adıyaman NP-TOP ; !
+Rio:Rio NP-TOP ; !
+Muş:Muş NP-TOP ; !
+Gümüşhane:Gümüşhane NP-TOP ; !
+Schleswig:Schleswig NP-TOP ; !
+Holstein:Holstein NP-TOP ; !
+
 Beytsaida:Beytsaida NP-TOP ; !
 Beytülafrah:Beytülafrah NP-TOP ; !
 Çarlık% Rusyası:Çarlık% Rusyası NP-TOP ; !
@@ -12148,6 +12198,9 @@ Raw:Raw NP-AL ; !
 www:www NP-AL ; !
 Club:Club NP-AL ; !
 Mac:Mac NP-AL ; !
+Formula% 1:Formula% 1 NP-AL ; !
+Serie% A:Serie% A NP-AL ; !
+
 
 
 
@@ -12169,7 +12222,7 @@ Emine:Emine NP-ANT-F; ! ""
 Halim:Halim NP-ANT-M; ! ""
 Kara:Kara NP-ANT-F; ! ""
 Roman:Roman NP-ANT-M; ! ""
-Santa:Santa NP-ANT-F; ! ""
+Santa:Santa NP-ANT-M; ! ""
 Sidney:Sidney NP-ANT-M; ! ""
 Susana:Susana NP-ANT-F; ! ""
 Mira:Mira NP-ANT-F; ! ""
@@ -13798,7 +13851,7 @@ Norwich:Norwich NP-ORG ; ! ""
 Athletic% Bilbao:Athletic% Bilbao NP-ORG ; ! ""
 Atlético% Madrid:Atlético% Madrid NP-ORG ; ! ""
 Atletico% Madrid:Atletico% Madrid NP-ORG ; ! "" ! i suppose many languages don't use the è while writing ATLTETICIOITAOMADRID
-Barcelona:Barcelona NP-ORG ; ! ""
+Barcelona:Barcelona NP-TOP ; ! ""
 Betis:Betis NP-ORG ; ! ""
 Celta% de% Vigo:Celta% de% Vigo NP-ORG ; ! ""
 Celta% Vigo:Celta% Vigo NP-ORG ; ! ""
@@ -19555,6 +19608,13 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+takma:takma A1 ; !
+uydurma:uydurma A1 ; !
+kapasiteli:kapasiteli A1 ; !
+mekanik:mekanik A1 ; !
+olağanüstü:olağanüstü A1 ; !
+potansiyel:potansiyel A1 ; !
+
 askerî:askerî A1 ; !
 pozitif:pozitif A1 ; !
 anti:anti A1 ; !
@@ -19565,7 +19625,8 @@ nü:nü A1 ; !
 kurgusal:kurgusal A1 ; !
 mercekli:mercekli A1 ; !
 yedek:yedek A1 ; !
-
+elektromanyetik:elektromanyetik A1 ; !
+dinsel:dinsel A1 ; !
 alternatif:alternatif A1 ; !
 resmî:resmî A1 ; !
 birer:birer A1 ; !
@@ -21544,7 +21605,7 @@ namuslu:namuslu A2 ;
 kodlu:kodlu A2 ;
 bütün:bütün A1 ;
 hakiki:hakiki A1 ;
-kayıp:kayıp A1 ;
+kayıp:kay%{u%}p%{v%} A1 ;
 kanuni:kanuni A1;
 ufak% tefek:ufak% tefek A1 ;
 istatistiksel:istatistiksel A1 ;
@@ -21702,6 +21763,8 @@ LEXICON Adverbs
 sıklıkla:sıklıkla ADV1 ; !
 resmen:resmen ADV1 ; !
 sıkça:sıkça ADV1 ; !
+süresince:süresince ADV1 ; !
+rastgele:rastgele ADV1 ; !
 
 dolayısıyla:dolayısıyla ADV1 ; !
 arka% arkaya:arka% arkaya ADV1 ; !
@@ -22276,11 +22339,15 @@ nereye:nereye ADV-ITG ; !
 
 
 LEXICON Verbs
+defnedil:defnedil V-IR-IV ; !
+
 keşfedil:keşfedil V-IR-IV ; !
 bаğlan:bаğlan V-IR-IV ; !
 merkezleştir:merkezleştir V-IR-TV ; !
 dür:dür V-IR-TV ; !
-
+sonuçlandır:sonuçlandır V-IR-TV ; !
+seslendiril:seslendiril V-IR-IV ; !
+seslendir:seslendir V-IR-TV ; !
 adlandırıl:adlandırıl V-IR-IV ; !
 sabitleş:sabitleş V-IR-TV ; !
 yer% al:yer% al V-IR-IV ; ! Use/MT
