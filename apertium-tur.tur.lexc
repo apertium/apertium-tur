@@ -3144,7 +3144,13 @@ senaristlik:senaristlik N1 ; !
 eşcinsel:eşcinsel N1 ; !
 Kafkas:Kafkas N1 ; !
 senarist:senarist N1 ; !
-
+PC:PC N1 ; !
+zırh:zırh N1 ; !
+do:do N1 ; !
+tahrip:tahrip N1 ; !
+gitarist:gitarist N1 ; !
+devrimci:devrimci N1 ; !
+tekli:tekli N1 ; !
 Hazar:Hazar N1 ; !
 karayolu:karayolu N1 ; !
 ribaund:ribaund N1 ; !
@@ -4254,6 +4260,9 @@ Suriyeli:Suriyeli N1 ; !
 sarı:sarı N1 ; !
 Van% der% Waals% kuvveti:Van% der% Waals% kuvveti N1 ; !
 Çin% Devlet% Konseyi:Çin% Devlet% Konsey NP-ORG-COMPOUND-PX ; !
+Milliyetçi% Çin% Partisi:Milliyetçi% Çin% Partisi NP-ORG ; !
+EA:EA NP-ORG ; !
+
 sıcak:sıcak N1 ; !
 tanımak:tanımak N1 ; !
 tutsak:tutsak N1 ; !
@@ -11279,6 +11288,8 @@ Giresun:Giresun NP-TOP ; !
 Üsküdar:Üsküdar NP-TOP ; !
 Afyonkarahisar:Afyonkarahisar NP-TOP ; !
 Güneydoğu:Güneydoğu NP-TOP ; !
+Karaman:Karaman NP-TOP ; !
+Virginia:Virginia NP-TOP ; !
 
 Obul:Obul NP-TOP ; !
 Komul:Komul NP-TOP ; !
@@ -14165,7 +14176,16 @@ Ellame:Ellame NP-ANT-M ; !
 Raif:Raif NP-ANT-M ; !
 Küreş:Küreş NP-ANT-M ; !
 Ketmenbay:Ketmenbay NP-ANT-M ; !
-
+Poe:Poe NP-COG-MF ; !
+Warner:Warner NP-COG-MF ; !
+Rihanna:Rihanna NP-ANT-F ; !
+Jane:Jane NP-ANT-F ; !
+Rose:Rose NP-ANT-F ; !
+Cena:Cena NP-ANT-M ; !
+Bayezid:Bayezid NP-ANT-M ; !
+Brian:Brian NP-ANT-M ; !
+Aleksios:Aleksios NP-ANT-M ; !
+Rey:Rey NP-ANT-M ; !
 Esad:Esad NP-ANT-M ; ! ""
 Esad:Esad NP-COG-MF; ! ""
 Ahtem:Ahtem NP-ANT-M ;
@@ -14865,6 +14885,7 @@ Ahtisaari:Ahtisaari NP-COG-MF ; ! ""
 Gotovina:Gotovina NP-COG-MF ; ! ""
 Tariceanu:Tariceanu NP-COG-MF ; ! ""
 Bülent:Bülent NP-COG-MF ;  ! ""
+Bülent:Bülent NP-ANT-M ;  ! ""
 Basescu:Basescu NP-COG-MF ; ! ""
 Popescu:Popescu NP-COG-MF ; ! ""
 Basescu:Basescu NP-COG-MF ; ! ""
@@ -19614,6 +19635,9 @@ kapasiteli:kapasiteli A1 ; !
 mekanik:mekanik A1 ; !
 olağanüstü:olağanüstü A1 ; !
 potansiyel:potansiyel A1 ; !
+zırhlı:zırhlı A1 ; !
+dinî:dinî A1 ; !
+yanlı:yanlı A1 ; !
 
 askerî:askerî A1 ; !
 pozitif:pozitif A1 ; !
@@ -24409,6 +24433,8 @@ alış:alış V-IR-TV ;
 çalış:çalış V-IR-TV ;
 
 LEXICON Interjections 
+hop:hop INTERJ ; !
+
 off:off INTERJ ; !
 of:of INTERJ ; !
 anladım:anladım INTERJ ; !
