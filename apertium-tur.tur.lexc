@@ -2736,6 +2736,8 @@ LEXICON Postpositions
 vs:vs POST ; !
 aşkın:aşkın POST ; !
 ziyade:ziyade POST ; !
+yanında:yanında POST ; !
+üstünde:üstünde POST ; !
 
 halinde:halinde POST ; ! "ın case of" ! FIXME
 hakkında:hakkında POST ;
@@ -2811,6 +2813,8 @@ hariç:hariç POST ; ! "besides"
 üzere:üzere POST ; ! "besides"
 
 LEXICON  Conjunctions
+ise:ise CC ; !
+
 ile% de:ile% de CC ;
 için% de:için% de CC ;
 gerçi:gerçi CC ;
@@ -2870,6 +2874,7 @@ gibi:gibi CS ;
 eğer:eğer CS ; 
 şayet:şayet CS ; 
 nedeniyle:nedeniyle CS ;
+tabii% ki:tabii% ki CA ; !
 
 nispeten:nispeten CA ; 
 adeta:adeta CA ; 
@@ -3138,6 +3143,33 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+kama:kama N1 ; !
+sınıflandırma:sınıflandırma N1 ; !
+b:b N1 ; !
+vaktinde:vaktinde N1 ; !
+hebele:hebele N1 ; !
+destekçi:destekçi N1 ; !
+özveri:özveri N1 ; !
+sempati:sempati N1 ; !
+gazetecilik:gazetecilik N1 ; !
+çalışkanlık:çalışkanlık N1 ; !
+dinamik:dinamik N1 ; !
+eylül:eylül N1 ; !
+hacim:hacim N1 ; !
+haziran:haziran N1 ; !
+nisan:nisan N1 ; !
+inovasyon:inovasyon N1 ; !
+mayıs:mayıs N1 ; !
+ağustos:ağustos N1 ; !
+Nenets:Nenets N1 ; !
+üs:üs N1 ; !
+şubat:şubat N1 ; !
+tadilat:tadilat N1 ; !
+hasat:hasat N1 ; !
+mart:mart N1 ; !
+başkurt:başkurt N1 ; !
+temmuz:temmuz N1 ; !
+
 programlama:programlama N1 ; !
 sanal:sanal N1 ; !
 İslâm:İslâm N1 ; !
@@ -3145,6 +3177,117 @@ Fin:Fin N1 ; !
 referans:referans N1 ; !
 harekât:harekât N1 ; !
 caz:caz N1 ; !
+1:1 N1 ; !
+mutlaka:mutlaka N1 ; !
+pusula:pusula N1 ; !
+hesaplama:hesaplama N1 ; !
+oynama:oynama N1 ; !
+saçma:saçma N1 ; !
+çoğalma:çoğalma N1 ; !
+kazanma:kazanma N1 ; !
+kandırma:kandırma N1 ; !
+vuruşma:vuruşma N1 ; !
+katma:katma N1 ; !
+anlatma:anlatma N1 ; !
+aydınlatma:aydınlatma N1 ; !
+tanıtma:tanıtma N1 ; !
+artma:artma N1 ; !
+duyma:duyma N1 ; !
+kazma:kazma N1 ; !
+kızma:kızma N1 ; !
+ilginç:ilginç N1 ; !
+korkunç:korkunç N1 ; !
+gülünç:gülünç N1 ; !
+bende:bende N1 ; !
+öyle:öyle N1 ; !
+göçme:göçme N1 ; !
+yükleme:yükleme N1 ; !
+resimleme:resimleme N1 ; !
+değişmeme:değişmeme N1 ; !
+gelme:gelme N1 ; !
+büzülme:büzülme N1 ; !
+bildirme:bildirme N1 ; !
+geliştirme:geliştirme N1 ; !
+değişme:değişme N1 ; !
+çekişme:çekişme N1 ; !
+bilişme:bilişme N1 ; !
+affetme:affetme N1 ; !
+eritme:eritme N1 ; !
+büzme:büzme N1 ; !
+geveze:geveze N1 ; !
+tuhaf:tuhaf N1 ; !
+aktif:aktif N1 ; !
+kavgacı:kavgacı N1 ; !
+becerici:becerici N1 ; !
+kandırıcı:kandırıcı N1 ; !
+dolandırıcı:dolandırıcı N1 ; !
+inandırıcı:inandırıcı N1 ; !
+eğlendirici:eğlendirici N1 ; !
+yapıştırıcı:yapıştırıcı N1 ; !
+ayırıcı:ayırıcı N1 ; !
+karışıcı:karışıcı N1 ; !
+yumuşatıcı:yumuşatıcı N1 ; !
+düzeltici:düzeltici N1 ; !
+gezici:gezici N1 ; !
+kullanıştaki:kullanıştaki N1 ; !
+önceki:önceki N1 ; !
+eski:eski N1 ; !
+pahalı:pahalı N1 ; !
+becerikli:becerikli N1 ; !
+Komi:Komi N1 ; !
+başkası:başkası N1 ; !
+birisi:birisi N1 ; !
+bastıracak:bastıracak N1 ; !
+kıpçak:kıpçak N1 ; !
+işlek:işlek N1 ; !
+pek:pek N1 ; !
+biyolojik:biyolojik N1 ; !
+komik:komik N1 ; !
+kırık:kırık N1 ; !
+birleşik:birleşik N1 ; !
+karışık:karışık N1 ; !
+otomatik:otomatik N1 ; !
+mukaddestik:mukaddestik N1 ; !
+liberal:liberal N1 ; !
+aptal:aptal N1 ; !
+kadim:kadim N1 ; !
+batman:batman N1 ; !
+tamamen:tamamen N1 ; !
+salgın:salgın N1 ; !
+zengin:zengin N1 ; !
+lento:lento N1 ; !
+soylular:soylular N1 ; !
+anar:anar N1 ; !
+tatar:tatar N1 ; !
+var:var N1 ; !
+yeter:yeter N1 ; !
+bücür:bücür N1 ; !
+bodur:bodur N1 ; !
+değiş:değiş N1 ; !
+biliş:biliş N1 ; !
+kullanılış:kullanılış N1 ; !
+kalmış:kalmış N1 ; !
+danış:danış N1 ; !
+bağlanış:bağlanış N1 ; !
+kullanış:kullanış N1 ; !
+saldırış:saldırış N1 ; !
+atış:atış N1 ; !
+artış:artış N1 ; !
+kavrayış:kavrayış N1 ; !
+düşünüş:düşünüş N1 ; !
+kat:kat N1 ; !
+aristokrat:aristokrat N1 ; !
+özerk% cumhuriyet:özerk% cumhuriyet N1 ; !
+özet:özet N1 ; !
+idealist:idealist N1 ; !
+kurut:kurut N1 ; !
+yürütücü:yürütücü N1 ; !
+kötü:kötü N1 ; !
+Nikolay:Nikolay N1 ; !
+kurnaz:kurnaz N1 ; !
+biz:biz N1 ; !
+küçük% kız:küçük% kız N1 ; !
+ikiz:ikiz N1 ; !
 
 depolama:depolama N1 ; !
 Grek:Grek N1 ; !
@@ -3674,6 +3817,31 @@ kıssa:kıssa N1 ; !
 seç:seç N1 ; !
 mahiyet:mahiyet N1 ; !
 Cenab-ı% Allah:Cenab-ı% Allah N1 ; !
+Mürteza:Mürteza NP-ANT-M ; !
+Muhammetarif:Muhammetarif NP-ANT-M ; !
+Veliullah:Veliullah NP-ANT-M ; !
+Abdülhak:Abdülhak NP-ANT-M ; !
+Nail:Nail NP-ANT-M ; !
+Ramil:Ramil NP-ANT-M ; !
+Pavil:Pavil NP-ANT-M ; !
+Nurislam:Nurislam NP-ANT-M ; !
+Fehim:Fehim NP-ANT-M ; !
+Selahattin:Selahattin NP-ANT-M ; !
+Fahrettin:Fahrettin NP-ANT-M ; !
+Zülkarneyn:Zülkarneyn NP-ANT-M ; !
+İldar:İldar NP-ANT-M ; !
+Mirhaydar:Mirhaydar NP-ANT-M ; !
+Mintimer:Mintimer NP-ANT-M ; !
+Abdülhabir:Abdülhabir NP-ANT-M ; !
+Elbir:Elbir NP-ANT-M ; !
+İlsur:İlsur NP-ANT-M ; !
+Mansur:Mansur NP-ANT-M ; !
+İdris:İdris NP-ANT-M ; !
+Marat:Marat NP-ANT-M ; !
+Ayrat:Ayrat NP-ANT-M ; !
+Reşat:Reşat NP-ANT-M ; !
+Ferit:Ferit NP-ANT-M ; !
+
 Ji:Ji NP-ANT-M ; !
 Hi:Hi NP-ANT-M ; !
 Edward:Edward NP-ANT-M ; !
@@ -3688,6 +3856,14 @@ Harry:Harry NP-ANT-M ; !
 Yavuz:Yavuz NP-ANT-M ; !
 Victor:Victor NP-ANT-M ; !
 Augustus:Augustus NP-ANT-M ; !
+Zarif:Zarif NP-ANT-M ; !
+Şerif:Şerif NP-ANT-M ; !
+Zeki:Zeki NP-ANT-M ; !
+İslam:İslam NP-ANT-M ; !
+Zafer:Zafer NP-ANT-M ; !
+Mukaddes:Mukaddes NP-ANT-M ; !
+Şefaat:Şefaat NP-ANT-M ; !
+Hafız:Hafız NP-ANT-M ; !
 
 Abylkhair:Abylkhair NP-ANT-M ; !
 Noruzahun:Noruzahun NP-ANT-M ; !
@@ -4273,6 +4449,9 @@ Van% der% Waals% kuvveti:Van% der% Waals% kuvveti N1 ; !
 Milliyetçi% Çin% Partisi:Milliyetçi% Çin% Partisi NP-ORG ; !
 EA:EA NP-ORG ; !
 Sony:Sony NP-ORG ; !
+Taliban:Taliban NP-ORG ; !
+Tatneft:Tatneft NP-ORG ; !
+KamAZ:KamAZ NP-ORG ; !
 
 
 
@@ -11285,6 +11464,19 @@ LEXICON ProperNouns
 Tekirdağ:Tekirdağ NP-TOP ; !
 Boğaziçi:Boğaziçi NP-TOP ; !
 İzmit:İzmit NP-TOP ; !
+Batman:Batman NP-TOP ; !
+Kafkaslar:Kafkaslar NP-TOP ; !
+Tübenkama:Tübenkama NP-TOP ; !
+Peçora:Peçora NP-TOP ; !
+Daugava:Daugava NP-TOP ; !
+Udmurtiya:Udmurtiya NP-TOP ; !
+Çekya:Çekya NP-TOP ; !
+Osetya:Osetya NP-TOP ; !
+Abhazya:Abhazya NP-TOP ; !
+Obi:Obi NP-TOP ; !
+Yarçallı:Yarçallı NP-TOP ; !
+Ural:Ural NP-TOP ; !
+Tehran:Tehran NP-TOP ; !
 
 Samsun:Samsun NP-TOP ; !
 Balıkesir:Balıkesir NP-TOP ; !
@@ -11549,6 +11741,11 @@ Abner:Abner NP-ANT-M ; !
 Alpamys:Alpamys NP-ANT-M ; !
 Ospan:Ospan NP-ANT-M ; !
 June:June NP-ANT-F ; !
+Lyudmila:Lyudmila NP-ANT-F ; !
+Rimma:Rimma NP-ANT-F ; !
+Tatiana:Tatiana NP-ANT-F ; !
+Gölnara:Gölnara NP-ANT-F ; !
+
 Assel:Assel NP-ANT-F ; !
 Elena:Elena NP-ANT-F ;
 Amannisa:Amannisa NP-ANT-F ;
@@ -19649,6 +19846,9 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+soğukkanlı:soğukkanlı A1 ; !
+amerikan:amerikan A1 ; !
+
 takma:takma A1 ; !
 uydurma:uydurma A1 ; !
 kapasiteli:kapasiteli A1 ; !
@@ -19659,6 +19859,18 @@ zırhlı:zırhlı A1 ; !
 dinî:dinî A1 ; !
 yanlı:yanlı A1 ; !
 tarımsal:tarımsal A1 ; !
+ilave:ilave A1 ; !
+altıncı:altıncı A1 ; !
+gizemli:gizemli A1 ; !
+gösterişli:gösterişli A1 ; !
+ek:ek A1 ; !
+belgesel:belgesel A1 ; !
+takılan:takılan A1 ; !
+kaytan:kaytan A1 ; !
+bölünebilen:bölünebilen A1 ; !
+üst:üst A1 ; !
+güldürücü:güldürücü A1 ; !
+tutucu:tutucu A1 ; !
 
 askerî:askerî A1 ; !
 pozitif:pozitif A1 ; !
@@ -21811,6 +22023,11 @@ sıkça:sıkça ADV1 ; !
 süresince:süresince ADV1 ; !
 rastgele:rastgele ADV1 ; !
 doğrusal:doğrusal ADV1 ; !
+bura:bura ADV1 ; !
+güzel:güzel ADV1 ; !
+her% zaman:her% zaman ADV1 ; !
+bu% yüzden:bu% yüzden ADV1 ; !
+onlar:onlar ADV1 ; !
 
 dolayısıyla:dolayısıyla ADV1 ; !
 arka% arkaya:arka% arkaya ADV1 ; !
@@ -22388,6 +22605,9 @@ LEXICON Verbs
 defnedil:defnedil V-IR-IV ; !
 çağrıl:çağrıl V-IR-IV ; !
 yitir:yitir V-IR-TV ; !
+geri% çevir:geri% çevir V-IR-TV ; !
+gayret% et:gayret% et V-IR-TV ; !
+isimlendir:isimlendir V-IR-TV ; !
 
 keşfedil:keşfedil V-IR-IV ; !
 bаğlan:bаğlan V-IR-IV ; !
