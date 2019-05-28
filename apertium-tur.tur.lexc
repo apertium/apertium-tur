@@ -3138,6 +3138,14 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+programlama:programlama N1 ; !
+sanal:sanal N1 ; !
+İslâm:İslâm N1 ; !
+Fin:Fin N1 ; !
+referans:referans N1 ; !
+harekât:harekât N1 ; !
+caz:caz N1 ; !
+
 depolama:depolama N1 ; !
 Grek:Grek N1 ; !
 senaristlik:senaristlik N1 ; !
@@ -3678,6 +3686,8 @@ Williams:Williams NP-ANT-M ; !
 Henry:Henry NP-ANT-M ; !
 Harry:Harry NP-ANT-M ; !
 Yavuz:Yavuz NP-ANT-M ; !
+Victor:Victor NP-ANT-M ; !
+Augustus:Augustus NP-ANT-M ; !
 
 Abylkhair:Abylkhair NP-ANT-M ; !
 Noruzahun:Noruzahun NP-ANT-M ; !
@@ -4262,6 +4272,9 @@ Van% der% Waals% kuvveti:Van% der% Waals% kuvveti N1 ; !
 Çin% Devlet% Konseyi:Çin% Devlet% Konsey NP-ORG-COMPOUND-PX ; !
 Milliyetçi% Çin% Partisi:Milliyetçi% Çin% Partisi NP-ORG ; !
 EA:EA NP-ORG ; !
+Sony:Sony NP-ORG ; !
+
+
 
 sıcak:sıcak N1 ; !
 tanımak:tanımak N1 ; !
@@ -5235,7 +5248,7 @@ baskı:baskı N1 ; ! "oppression"
 baskı:baskı N1 ; ! "pressure"
 baskın:baskın N1 ; ! "raid"
 baskül:baskül N1 ; ! "bascule"
-başlangıç:başlangıç N1 ; ! "start"
+başlangıç:başlangıç%{v%} N1 ; ! "start"
 başlık:başlık%{v%} N1 ; ! "title"
 basma:basma N1 ; ! "basma"
 başmakale:başmakale N1 ; ! "leader"
@@ -6689,7 +6702,7 @@ haç:haç%{v%} N1 ; ! "the cross"
 hacıağa:hacıağa N1 ; ! "hadjii"
 hacı:hacı N1 ; ! "pilgrim"
 hacıkadın:hacıkadın N1 ; ! "hadjii"
-hacim:hacim N1 ; ! "volume"
+hacim:hac%{u%}m N1 ; ! "volume"
 hacıyatmaz:hacıyatmaz N1 ; ! "weeble"
 haciz:haciz N1 ; ! "confiscation"
 hademe:hademe N1 ; ! "porter"
@@ -11269,6 +11282,10 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Tekirdağ:Tekirdağ NP-TOP ; !
+Boğaziçi:Boğaziçi NP-TOP ; !
+İzmit:İzmit NP-TOP ; !
+
 Samsun:Samsun NP-TOP ; !
 Balıkesir:Balıkesir NP-TOP ; !
 Kastamonu:Kastamonu NP-TOP ; !
@@ -13862,7 +13879,7 @@ Norwich:Norwich NP-ORG ; ! ""
 Athletic% Bilbao:Athletic% Bilbao NP-ORG ; ! ""
 Atlético% Madrid:Atlético% Madrid NP-ORG ; ! ""
 Atletico% Madrid:Atletico% Madrid NP-ORG ; ! "" ! i suppose many languages don't use the è while writing ATLTETICIOITAOMADRID
-Barcelona:Barcelona NP-TOP ; ! ""
+Barcelona:Barcelona NP-ORG ; ! ""
 Betis:Betis NP-ORG ; ! ""
 Celta% de% Vigo:Celta% de% Vigo NP-ORG ; ! ""
 Celta% Vigo:Celta% Vigo NP-ORG ; ! ""
@@ -14181,7 +14198,7 @@ Warner:Warner NP-COG-MF ; !
 Rihanna:Rihanna NP-ANT-F ; !
 Jane:Jane NP-ANT-F ; !
 Rose:Rose NP-ANT-F ; !
-Cena:Cena NP-ANT-M ; !
+Cena:Cena NP-COG-MF ; !
 Bayezid:Bayezid NP-ANT-M ; !
 Brian:Brian NP-ANT-M ; !
 Aleksios:Aleksios NP-ANT-M ; !
@@ -18779,6 +18796,9 @@ Gaspıralı:Gaspıralı NP-TOP ;
 Vorojba:Vorojba NP-TOP ; ! ""
 Drujba:Drujba NP-TOP ; ! ""
 Beşiktaş:Beşiktaş NP-TOP ; ! ""
+Karşıyaka:Karşıyaka NP-TOP ; ! ""
+Barcelona:Barcelona NP-TOP ; !
+Göztepe:Göztepe NP-TOP ; !
 Çukurça:Çukurça NP-TOP ; ! ""
 Taraşça:Taraşça NP-TOP ; ! ""
 Akorda:Akorda NP-TOP ; ! ""
@@ -19638,6 +19658,7 @@ potansiyel:potansiyel A1 ; !
 zırhlı:zırhlı A1 ; !
 dinî:dinî A1 ; !
 yanlı:yanlı A1 ; !
+tarımsal:tarımsal A1 ; !
 
 askerî:askerî A1 ; !
 pozitif:pozitif A1 ; !
@@ -21789,6 +21810,7 @@ resmen:resmen ADV1 ; !
 sıkça:sıkça ADV1 ; !
 süresince:süresince ADV1 ; !
 rastgele:rastgele ADV1 ; !
+doğrusal:doğrusal ADV1 ; !
 
 dolayısıyla:dolayısıyla ADV1 ; !
 arka% arkaya:arka% arkaya ADV1 ; !
@@ -22364,6 +22386,8 @@ nereye:nereye ADV-ITG ; !
 
 LEXICON Verbs
 defnedil:defnedil V-IR-IV ; !
+çağrıl:çağrıl V-IR-IV ; !
+yitir:yitir V-IR-TV ; !
 
 keşfedil:keşfedil V-IR-IV ; !
 bаğlan:bаğlan V-IR-IV ; !
