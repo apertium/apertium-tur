@@ -3143,6 +3143,14 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+sınıflandırıcı:sınıflandırıcı N1 ; !
+Mansi:Mansi N1 ; !
+Hantı:Hantı N1 ; !
+k:k N1 ; !
+Çirmiş:Çirmiş N1 ; !
+kat:kat N1 ; !
+özerk% cumhuriyet:özerk% cumhuriyet N1 ; !
+
 kama:kama N1 ; !
 sınıflandırma:sınıflandırma N1 ; !
 b:b N1 ; !
@@ -11461,6 +11469,8 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Oka:Oka NP-TOP ; !
+
 Tekirdağ:Tekirdağ NP-TOP ; !
 Boğaziçi:Boğaziçi NP-TOP ; !
 İzmit:İzmit NP-TOP ; !
@@ -11477,7 +11487,14 @@ Obi:Obi NP-TOP ; !
 Yarçallı:Yarçallı NP-TOP ; !
 Ural:Ural NP-TOP ; !
 Tehran:Tehran NP-TOP ; !
-
+Vıçegda:Vıçegda NP-TOP ; !
+Vologda:Vologda NP-TOP ; !
+Sos'va:Sos'va NP-TOP ; !
+Sverdilovsk:Sverdilovsk NP-TOP ; !
+Yamal:Yamal NP-TOP ; !
+Ağizel:Ağizel NP-TOP ; !
+Nijgar:Nijgar NP-TOP ; !
+Kuybışev:Kuybışev NP-TOP ; !
 Samsun:Samsun NP-TOP ; !
 Balıkesir:Balıkesir NP-TOP ; !
 Kastamonu:Kastamonu NP-TOP ; !
@@ -11778,7 +11795,8 @@ Eric:Eric NP-ANT-M ; !
 Rick:Rick NP-ANT-M ; !
 Cemal:Cemal NP-ANT-M ; !
 Şahin:Şahin NP-ANT-M ; !
-
+Geiger:Geiger NP-COG-MF ; !
+Mari:Mari NP-ANT-F ; !
 Işık:Işık NP-COG-MF ; !
 Young:Young NP-COG-MF ; !
 Selçuk:Selçuk NP-COG-MF ; !
@@ -19848,6 +19866,7 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 LEXICON Adjectives
 soğukkanlı:soğukkanlı A1 ; !
 amerikan:amerikan A1 ; !
+arktik:arktik A1 ; !
 
 takma:takma A1 ; !
 uydurma:uydurma A1 ; !
@@ -22028,11 +22047,11 @@ güzel:güzel ADV1 ; !
 her% zaman:her% zaman ADV1 ; !
 bu% yüzden:bu% yüzden ADV1 ; !
 onlar:onlar ADV1 ; !
+parça% parça:parça% parça ADV1 ; !
 
 dolayısıyla:dolayısıyla ADV1 ; !
 arka% arkaya:arka% arkaya ADV1 ; !
 o% zaman:o% zaman ADV1 ; !
-bu% yüzden:bu% yüzden ADV1 ; !
 küçükken:küçükken ADV1 ; !
 görüşünüzde:görüşünüzde ADV1 ; !
 şöylece:şöylece ADV1 ; !
@@ -22608,7 +22627,6 @@ yitir:yitir V-IR-TV ; !
 geri% çevir:geri% çevir V-IR-TV ; !
 gayret% et:gayret% et V-IR-TV ; !
 isimlendir:isimlendir V-IR-TV ; !
-
 keşfedil:keşfedil V-IR-IV ; !
 bаğlan:bаğlan V-IR-IV ; !
 merkezleştir:merkezleştir V-IR-TV ; !
