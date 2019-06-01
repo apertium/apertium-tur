@@ -3150,7 +3150,20 @@ k:k N1 ; !
 Çirmiş:Çirmiş N1 ; !
 kat:kat N1 ; !
 özerk% cumhuriyet:özerk% cumhuriyet N1 ; !
-
+Krişna:Krişna N1 ; !
+Bütünrusya:Bütünrusya N1 ; !
+tekme:tekme N1 ; !
+otobiyografi:otobiyografi N1 ; !
+mukaddeslik:mukaddeslik N1 ; !
+Çulım:Çulım N1 ; !
+siklon:siklon N1 ; !
+muson:muson N1 ; !
+Kemerovo:Kemerovo N1 ; !
+parça:parça N1 ; !
+karşılaştırma:karşılaştırma N1 ; !
+kat:kat N1 ; !
+özerk% cumhuriyet:özerk% cumhuriyet N1 ; !
+sosyalist:sosyalist N1 ; 
 kama:kama N1 ; !
 sınıflandırma:sınıflandırma N1 ; !
 b:b N1 ; !
@@ -11470,6 +11483,37 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 LEXICON ProperNouns
 Oka:Oka NP-TOP ; !
+Vah:Vah NP-TOP ; !
+Tümen:Tümen NP-TOP ; !
+Ket:Ket NP-TOP ; !
+Oy:Oy NP-TOP ; !
+Arça:Arça NP-TOP ; !
+Vaga:Vaga NP-TOP ; !
+Onega:Onega NP-TOP ; !
+Yaha:Yaha NP-TOP ; !
+Kostroma:Kostroma NP-TOP ; !
+Dvina:Dvina NP-TOP ; !
+Suhona:Suhona NP-TOP ; !
+Mokşa:Mokşa NP-TOP ; !
+Leningrad:Leningrad NP-TOP ; !
+Minzele:Minzele NP-TOP ; !
+Çişme:Çişme NP-TOP ; !
+Tobolsk:Tobolsk NP-TOP ; !
+Nefteguyansk:Nefteguyansk NP-TOP ; !
+Derevyansk:Derevyansk NP-TOP ; !
+Rıbinsk:Rıbinsk NP-TOP ; !
+Oral:Oral NP-TOP ; !
+Yaroslavl:Yaroslavl NP-TOP ; !
+Nadım:Nadım NP-TOP ; !
+Perm:Perm NP-TOP ; !
+Yogan:Yogan NP-TOP ; !
+Basyugan:Basyugan NP-TOP ; !
+Katun:Katun NP-TOP ; !
+Barançebo:Barançebo NP-TOP ; !
+Pur:Pur NP-TOP ; !
+Nokrat:Nokrat NP-TOP ; !
+Volost:Volost NP-TOP ; !
+Tukay:Tukay NP-TOP ; !
 
 Tekirdağ:Tekirdağ NP-TOP ; !
 Boğaziçi:Boğaziçi NP-TOP ; !
@@ -11789,6 +11833,9 @@ Arthur:Arthur NP-ANT-M ; !
 François:François NP-ANT-M ; !
 Lewis:Lewis NP-ANT-M ; !
 Black:Black NP-COG-MF ; !
+Ha:Ha NP-COG-MF ; !
+Köppen:Köppen NP-COG-MF ; !
+
 Royal:Royal NP-ORG ; !
 iTunes:iTunes NP-AL ; !
 Eric:Eric NP-ANT-M ; !
@@ -19867,7 +19914,8 @@ LEXICON Adjectives
 soğukkanlı:soğukkanlı A1 ; !
 amerikan:amerikan A1 ; !
 arktik:arktik A1 ; !
-
+inandırıcı:inandırıcı A1 ; !
+başaran:başaran A1 ;
 takma:takma A1 ; !
 uydurma:uydurma A1 ; !
 kapasiteli:kapasiteli A1 ; !
@@ -22036,6 +22084,10 @@ bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 
 
 LEXICON Adverbs
+umumiyetle:umumiyetle ADV1 ; !
+ayırmadan:ayırmadan ADV1 ; !
+
+
 sıklıkla:sıklıkla ADV1 ; !
 resmen:resmen ADV1 ; !
 sıkça:sıkça ADV1 ; !
@@ -22044,11 +22096,9 @@ rastgele:rastgele ADV1 ; !
 doğrusal:doğrusal ADV1 ; !
 bura:bura ADV1 ; !
 güzel:güzel ADV1 ; !
-her% zaman:her% zaman ADV1 ; !
-bu% yüzden:bu% yüzden ADV1 ; !
-onlar:onlar ADV1 ; !
+her% zaman:her% zaman ADV1 ; ! Use/MT
+bu% yüzden:bu% yüzden ADV1 ; ! Use/MT
 parça% parça:parça% parça ADV1 ; !
-
 dolayısıyla:dolayısıyla ADV1 ; !
 arka% arkaya:arka% arkaya ADV1 ; !
 o% zaman:o% zaman ADV1 ; !
@@ -22621,11 +22671,11 @@ nereye:nereye ADV-ITG ; !
 
 
 LEXICON Verbs
+gayret% et:gayret% et V-AR-IV ; !
+
 defnedil:defnedil V-IR-IV ; !
 çağrıl:çağrıl V-IR-IV ; !
 yitir:yitir V-IR-TV ; !
-geri% çevir:geri% çevir V-IR-TV ; !
-gayret% et:gayret% et V-IR-TV ; !
 isimlendir:isimlendir V-IR-TV ; !
 keşfedil:keşfedil V-IR-IV ; !
 bаğlan:bаğlan V-IR-IV ; !
@@ -24510,7 +24560,6 @@ kalıplaştır:kalıplaştır V-IR-TV ; !
 cisimleştir:cisimleştir V-IR-TV ; !
 merkezleştir:merkezleştir V-IR-TV ; !
 teslim% ettir:teslim% ettir V-IR-TV ; !
-geri% çevir:geri% çevir V-IR-TV ; !
 ortaklaş:ortaklaş V-IR-TV ; !
 rica% et:rica% et V-AR-TV ; !
 imha% et:imha% et V-AR-TV ; !
