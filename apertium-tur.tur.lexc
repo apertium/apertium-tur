@@ -3143,13 +3143,25 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+parça:parça N1 ; !
+Mokşa:Mokşa N1 ; !
+Karl:Karl N1 ; !
+popüler:popüler N1 ; !
+kat:kat N1 ; !
+
+orda:orda N1 ; !
+Şiva:Şiva N1 ; !
+Sri:Sri N1 ; !
+sekreterlik:sekreterlik N1 ; !
+külliyat:külliyat N1 ; !
+Udmurt:Udmurt N1 ; !
+Hindu:Hindu N1 ; !
 sınıflandırıcı:sınıflandırıcı N1 ; !
 Mansi:Mansi N1 ; !
 Hantı:Hantı N1 ; !
 k:k N1 ; !
 Çirmiş:Çirmiş N1 ; !
 kat:kat N1 ; !
-özerk% cumhuriyet:özerk% cumhuriyet N1 ; !
 Krişna:Krişna N1 ; !
 Bütünrusya:Bütünrusya N1 ; !
 tekme:tekme N1 ; !
@@ -3162,7 +3174,7 @@ Kemerovo:Kemerovo N1 ; !
 parça:parça N1 ; !
 karşılaştırma:karşılaştırma N1 ; !
 kat:kat N1 ; !
-özerk% cumhuriyet:özerk% cumhuriyet N1 ; !
+özerk% cumhuriyet:özerk% cumhuriyet N1 ; ! Use/MT
 sosyalist:sosyalist N1 ; 
 kama:kama N1 ; !
 sınıflandırma:sınıflandırma N1 ; !
@@ -3329,7 +3341,7 @@ ribaund:ribaund N1 ; !
 yardımcılık:yardımcılık%{v%} N1 ; !
 üreme:üreme N1 ; !
 sıfır:sıfır N1 ; !
-İng:İng N1 ; !
+İng:İng ABBR ; !
 org:org N1 ; !
 güreşçi:güreşçi N1 ; !
 parçacık:parçacık N1 ; !
@@ -11482,6 +11494,29 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Büyük% Britanya:Büyük% Britanya NP-TOP ; !
+
+Alabuga:Alabuga NP-TOP ; !
+Baltaç:Baltaç NP-TOP ; !
+Kaybiç:Kaybiç NP-TOP ; !
+BÖSSC:BÖSSC NP-TOP ; !
+Volgagrad:Volgagrad NP-TOP ; !
+Salekhard:Salekhard NP-TOP ; !
+Boj:Boj NP-TOP ; !
+Açinsk:Açinsk NP-TOP ; !
+Karaizel:Karaizel NP-TOP ; !
+Kuban:Kuban NP-TOP ; !
+Kanin:Kanin NP-TOP ; !
+Şor:Şor NP-TOP ; !
+İrteş:İrteş NP-TOP ; !
+Mamadış:Mamadış NP-TOP ; !
+Aktanış:Aktanış NP-TOP ; !
+Barents:Barents NP-TOP ; !
+Salavat:Salavat NP-TOP ; !
+Almet:Almet NP-TOP ; !
+Çistay:Çistay NP-TOP ; !
+Belebey:Belebey NP-TOP ; !
+Sterlitamak:Sterlitamak NP-TOP ; !
 Oka:Oka NP-TOP ; !
 Vah:Vah NP-TOP ; !
 Tümen:Tümen NP-TOP ; !
@@ -11806,6 +11841,8 @@ Lyudmila:Lyudmila NP-ANT-F ; !
 Rimma:Rimma NP-ANT-F ; !
 Tatiana:Tatiana NP-ANT-F ; !
 Gölnara:Gölnara NP-ANT-F ; !
+Anise:Anise NP-ANT-F ; !
+Vasiliy:Vasiliy NP-ANT-M ; !
 
 Assel:Assel NP-ANT-F ; !
 Elena:Elena NP-ANT-F ;
@@ -12426,7 +12463,7 @@ Muş:Muş NP-TOP ; !
 Gümüşhane:Gümüşhane NP-TOP ; !
 Schleswig:Schleswig NP-TOP ; !
 Holstein:Holstein NP-TOP ; !
-
+Tümen:Tümen NP-TOP ; !
 Beytsaida:Beytsaida NP-TOP ; !
 Beytülafrah:Beytülafrah NP-TOP ; !
 Çarlık% Rusyası:Çarlık% Rusyası NP-TOP ; !
