@@ -2738,6 +2738,8 @@ aşkın:aşkın POST ; !
 ziyade:ziyade POST ; !
 yanında:yanında POST ; !
 üstünde:üstünde POST ; !
+karşısında:karşısında POST ; !
+benzeyen:benzeyen POST ; !
 
 halinde:halinde POST ; ! "ın case of" ! FIXME
 hakkında:hakkında POST ;
@@ -3145,9 +3147,12 @@ Profesör:Profesör TIT ; ! ""
 LEXICON Nouns
 parça:parça N1 ; !
 Mokşa:Mokşa N1 ; !
-Karl:Karl N1 ; !
+Vişnu:Vişnu N1 ; !
+
 popüler:popüler N1 ; !
 kat:kat N1 ; !
+üniforma:üniforma N1 ; !
+Sanskrit:Sanskrit N1 ; !
 
 orda:orda N1 ; !
 Şiva:Şiva N1 ; !
@@ -3171,9 +3176,7 @@ mukaddeslik:mukaddeslik N1 ; !
 siklon:siklon N1 ; !
 muson:muson N1 ; !
 Kemerovo:Kemerovo N1 ; !
-parça:parça N1 ; !
 karşılaştırma:karşılaştırma N1 ; !
-kat:kat N1 ; !
 özerk% cumhuriyet:özerk% cumhuriyet N1 ; ! Use/MT
 sosyalist:sosyalist N1 ; 
 kama:kama N1 ; !
@@ -11495,6 +11498,24 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 LEXICON ProperNouns
 Büyük% Britanya:Büyük% Britanya NP-TOP ; !
+Konda:Konda NP-TOP ; !
+Tula:Tula NP-TOP ; !
+Na:Na NP-TOP ; !
+Malonistogorskaya:Malonistogorskaya NP-TOP ; !
+Penza:Penza NP-TOP ; !
+Luza:Luza NP-TOP ; !
+Kotelniç:Kotelniç NP-TOP ; !
+Ziryanskoye:Ziryanskoye NP-TOP ; !
+Petersburg:Petersburg NP-TOP ; !
+Barnaul:Barnaul NP-TOP ; !
+Ryazan:Ryazan NP-TOP ; !
+Morozko:Morozko NP-TOP ; !
+İvanovo:İvanovo NP-TOP ; !
+Şupaşkar:Şupaşkar NP-TOP ; !
+Tver:Tver NP-TOP ; !
+Zey:Zey NP-TOP ; !
+Yol:Yol NP-TOP ; !
+Sarman:Sarman NP-TOP ; !
 
 Alabuga:Alabuga NP-TOP ; !
 Baltaç:Baltaç NP-TOP ; !
@@ -11872,6 +11893,7 @@ Lewis:Lewis NP-ANT-M ; !
 Black:Black NP-COG-MF ; !
 Ha:Ha NP-COG-MF ; !
 Köppen:Köppen NP-COG-MF ; !
+Skiratov:Skiratov NP-COG-MF ; !
 
 Royal:Royal NP-ORG ; !
 iTunes:iTunes NP-AL ; !
@@ -22709,6 +22731,7 @@ nereye:nereye ADV-ITG ; !
 
 LEXICON Verbs
 gayret% et:gayret% et V-AR-IV ; !
+üfle:üfle V-IR-TV ; !
 
 defnedil:defnedil V-IR-IV ; !
 çağrıl:çağrıl V-IR-IV ; !
