@@ -2740,7 +2740,7 @@ yanında:yanında POST ; !
 üstünde:üstünde POST ; !
 karşısında:karşısında POST ; !
 benzeyen:benzeyen POST ; !
-
+yönünde:yönünde POST ; !
 halinde:halinde POST ; ! "ın case of" ! FIXME
 hakkında:hakkında POST ;
 dahi:dahi POST ; !
@@ -3182,6 +3182,9 @@ sosyalist:sosyalist N1 ;
 kama:kama N1 ; !
 sınıflandırma:sınıflandırma N1 ; !
 b:b N1 ; !
+geoinformatik:geoinformatik N1 ; !
+
+küçük:küçük N1 ; !
 vaktinde:vaktinde N1 ; !
 hebele:hebele N1 ; !
 destekçi:destekçi N1 ; !
@@ -11497,6 +11500,10 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Yeni% Zelanda:Yeni% Zelanda NP-TOP ; !
+Fatiha:Fatiha NP-TOP ; !
+Rum:Rum NP-TOP ; !
+Mart:Mart NP-TOP ; !
 Büyük% Britanya:Büyük% Britanya NP-TOP ; !
 Konda:Konda NP-TOP ; !
 Tula:Tula NP-TOP ; !
@@ -11516,6 +11523,23 @@ Tver:Tver NP-TOP ; !
 Zey:Zey NP-TOP ; !
 Yol:Yol NP-TOP ; !
 Sarman:Sarman NP-TOP ; !
+Jakarta:Jakarta NP-TOP ; !
+Mezopotamya:Mezopotamya NP-TOP ; !
+Ispanya:Ispanya NP-TOP ; !
+Saksonya:Saksonya NP-TOP ; !
+Abad:Abad NP-TOP ; !
+Rhineland:Rhineland NP-TOP ; !
+Düsseldorf:Düsseldorf NP-TOP ; !
+Krayı:Krayı NP-TOP ; !
+Ardak:Ardak NP-TOP ; !
+Adriyatik:Adriyatik NP-TOP ; !
+New% York:New% York NP-TOP ; !
+Israil:Israil NP-TOP ; !
+Erbil:Erbil NP-TOP ; !
+Toktogul:Toktogul NP-TOP ; !
+Men:Men NP-TOP ; !
+New% Jersey:New% Jersey NP-TOP ; !
+Pfalz:Pfalz NP-TOP ; !
 
 Alabuga:Alabuga NP-TOP ; !
 Baltaç:Baltaç NP-TOP ; !
@@ -11894,6 +11918,14 @@ Black:Black NP-COG-MF ; !
 Ha:Ha NP-COG-MF ; !
 Köppen:Köppen NP-COG-MF ; !
 Skiratov:Skiratov NP-COG-MF ; !
+Krneta:Krneta NP-COG-MF ; !
+Nemanja:Nemanja NP-ANT-M ; !
+Sagımbay:Sagımbay NP-ANT-M ; !
+Semetey:Semetey NP-ANT-M ; !
+Ana:Ana NP-ANT-F ; !
+Super% G4:Super% G4 NP-AL ; !
+Gazela:Gazela NP-AL ; !
+Getty% Images:Getty% Images NP-ORG ; !
 
 Royal:Royal NP-ORG ; !
 iTunes:iTunes NP-AL ; !
@@ -19970,6 +20002,8 @@ Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
 
 
 LEXICON Adjectives
+şehir:şehir A1 ; !
+
 soğukkanlı:soğukkanlı A1 ; !
 amerikan:amerikan A1 ; !
 arktik:arktik A1 ; !
