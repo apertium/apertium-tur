@@ -3157,6 +3157,7 @@ kat:kat N1 ; !
 üniforma:üniforma N1 ; !
 Sanskrit:Sanskrit N1 ; !
 emzirme:emzirme N1 ; !
+tortu:tortu N1 ; !
 
 orda:orda N1 ; !
 Şiva:Şiva N1 ; !
@@ -4516,7 +4517,11 @@ Mişkatül% Mesabih:Mişkatül% Mesabih NP-AL ; !
 Belediyespor:Belediyespor NP-AL ; !
 NGC:NGC NP-AL ; !
 Oscar:Oscar NP-AL ; !
+Pirrol:Pirrol NP-AL ; !
+Kırgızmambas:Kırgızmambas NP-AL ; !
 
+
+New:New NP-AL ; !
 
 
 prof:prof N1 ; !
@@ -11504,6 +11509,23 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Karakol:Karakol NP-TOP ; !
+Çulım:Çulım NP-TOP ; !
+Baden:Baden NP-TOP ; !
+Mezen:Mezen NP-TOP ; !
+Say:Say NP-TOP ; !
+Franconia:Franconia NP-TOP ; !
+Pomeranya:Pomeranya NP-TOP ; !
+Hokand:Hokand NP-TOP ; !
+New% Hampshire:New% Hampshire NP-TOP ; !
+Wurttemberg:Wurttemberg NP-TOP ; !
+Mecklenburg:Mecklenburg NP-TOP ; !
+New% York:New% York NP-TOP ; !
+Uzgen:Uzgen NP-TOP ; !
+Arbin:Arbin NP-TOP ; !
+Idaho:Idaho NP-TOP ; !
+New% Jersey:New% Jersey NP-TOP ; !
+
 Yeni% Zelanda:Yeni% Zelanda NP-TOP ; !
 Fatiha:Fatiha NP-TOP ; !
 Rum:Rum NP-TOP ; !
@@ -11892,6 +11914,8 @@ Tatiana:Tatiana NP-ANT-F ; !
 Gölnara:Gölnara NP-ANT-F ; !
 Anise:Anise NP-ANT-F ; !
 Vasiliy:Vasiliy NP-ANT-M ; !
+Almambet:Almambet NP-ANT-M ; !
+Musakocoyev:Musakocoyev NP-ANT-M ; !
 
 Assel:Assel NP-ANT-F ; !
 Elena:Elena NP-ANT-F ;
@@ -11926,6 +11950,11 @@ Krneta:Krneta NP-COG-MF ; !
 Orozbakov:Orozbakov NP-COG-MF ; !
 Oruzbayeva:Oruzbayeva NP-ANT-F ; !
 Sayakbay:Sayakbay NP-ANT-M ; !
+Arabaev:Arabaev NP-COG-MF ; !
+Karalayev:Karalayev NP-COG-MF ; !
+Akmataliyev:Akmataliyev NP-COG-MF ; !
+Almambet:Almambet NP-ANT-M ; !
+Musakocoyev:Musakocoyev NP-ANT-M ; !
 
 Nemanja:Nemanja NP-ANT-M ; !
 Sagımbay:Sagımbay NP-ANT-M ; !
@@ -20030,7 +20059,9 @@ LEXICON Adjectives
 pedagojik:pedagojik A1 ; !
 materyal:materyal A1 ; !
 beraber:beraber A1 ; !
-
+parti:parti A1 ; !
+ansiklopedik:ansiklopedik A1 ; !
+kitlesel:kitlesel A1 ; !
 soğukkanlı:soğukkanlı A1 ; !
 amerikan:amerikan A1 ; !
 arktik:arktik A1 ; !
@@ -22208,6 +22239,9 @@ umumiyetle:umumiyetle ADV1 ; !
 ayırmadan:ayırmadan ADV1 ; !
 başta:başta ADV1 ; !
 
+rasgele:rasgele ADV1 ; !
+kere:kere ADV1 ; !
+
 
 sıklıkla:sıklıkla ADV1 ; !
 resmen:resmen ADV1 ; !
@@ -22794,6 +22828,7 @@ nereye:nereye ADV-ITG ; !
 LEXICON Verbs
 gayret% et:gayret% et V-AR-IV ; !
 üfle:üfle V-IR-TV ; !
+vefat% et:vefat% et V-IR-IV ; !
 
 defnedil:defnedil V-IR-IV ; !
 çağrıl:çağrıl V-IR-IV ; !
