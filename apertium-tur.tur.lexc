@@ -2733,6 +2733,8 @@ da%<postadv%>:%da # ; ! Dir/RL
 LEXICON Postpositions
 
 ! Nominative
+kıyasla:kıyasla POST ; !
+
 vs:vs POST ; !
 aşkın:aşkın POST ; !
 ziyade:ziyade POST ; !
@@ -3148,11 +3150,13 @@ LEXICON Nouns
 parça:parça N1 ; !
 Mokşa:Mokşa N1 ; !
 Vişnu:Vişnu N1 ; !
-
+cumhuriyetçi:cumhuriyetçi N1 ; !
+epik:epik N1 ; 
 popüler:popüler N1 ; !
 kat:kat N1 ; !
 üniforma:üniforma N1 ; !
 Sanskrit:Sanskrit N1 ; !
+emzirme:emzirme N1 ; !
 
 orda:orda N1 ; !
 Şiva:Şiva N1 ; !
@@ -11919,6 +11923,10 @@ Ha:Ha NP-COG-MF ; !
 Köppen:Köppen NP-COG-MF ; !
 Skiratov:Skiratov NP-COG-MF ; !
 Krneta:Krneta NP-COG-MF ; !
+Orozbakov:Orozbakov NP-COG-MF ; !
+Oruzbayeva:Oruzbayeva NP-ANT-F ; !
+Sayakbay:Sayakbay NP-ANT-M ; !
+
 Nemanja:Nemanja NP-ANT-M ; !
 Sagımbay:Sagımbay NP-ANT-M ; !
 Semetey:Semetey NP-ANT-M ; !
@@ -11926,6 +11934,7 @@ Ana:Ana NP-ANT-F ; !
 Super% G4:Super% G4 NP-AL ; !
 Gazela:Gazela NP-AL ; !
 Getty% Images:Getty% Images NP-ORG ; !
+Red:Red NP-AL ; !
 
 Royal:Royal NP-ORG ; !
 iTunes:iTunes NP-AL ; !
@@ -19998,11 +20007,29 @@ Volın:Volın NP-TOP ; ! ""
 Ahmetli:Ahmetli NP-TOP ; ! ""
 Başkurtistan:Başkurtistan NP-TOP ; ! ""
 Rusya% Federasyonu:Rusya% Federasyonu NP2-TOP ; ! "" ! Use/MT
+Usa:Usa NP-TOP ; !
+Kemerovo:Kemerovo NP-TOP ; !
+Türingiya:Türingiya NP-TOP ; !
+Missisipi:Missisipi NP-TOP ; !
+Suzak:Suzak NP-TOP ; !
+New% York:New% York NP-TOP ; !
+Peçorsk:Peçorsk NP-TOP ; !
+Çatkal:Çatkal NP-TOP ; !
+Batken:Batken NP-TOP ; !
+Yamalo:Yamalo NP-TOP ; !
+Susamır:Susamır NP-TOP ; !
+Daugavpils:Daugavpils NP-TOP ; !
+Anhalt:Anhalt NP-TOP ; !
+
+
 
 
 
 LEXICON Adjectives
 şehir:şehir A1 ; !
+pedagojik:pedagojik A1 ; !
+materyal:materyal A1 ; !
+beraber:beraber A1 ; !
 
 soğukkanlı:soğukkanlı A1 ; !
 amerikan:amerikan A1 ; !
@@ -22179,6 +22206,7 @@ bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 LEXICON Adverbs
 umumiyetle:umumiyetle ADV1 ; !
 ayırmadan:ayırmadan ADV1 ; !
+başta:başta ADV1 ; !
 
 
 sıklıkla:sıklıkla ADV1 ; !
