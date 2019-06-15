@@ -2734,6 +2734,9 @@ LEXICON Postpositions
 
 ! Nominative
 kıyasla:kıyasla POST ; !
+kıyaslandığında:kıyaslandığında POST ; !
+sırasında:sırasında POST ; !
+yoluyla:yoluyla POST ; !
 
 vs:vs POST ; !
 aşkın:aşkın POST ; !
@@ -2879,6 +2882,7 @@ eğer:eğer CS ;
 şayet:şayet CS ; 
 nedeniyle:nedeniyle CS ;
 tabii% ki:tabii% ki CA ; !
+ayrıca:ayrıca CA ; !
 
 nispeten:nispeten CA ; 
 adeta:adeta CA ; 
@@ -3021,6 +3025,8 @@ birçok:birçok DET-QNT ;
 
 hep:hep DET-QNT ; ! "all" @@@@ TAKES CASES
 hepsi:hepsi PRON-QNT ; ! "all"
+hepsi:hepsi DET-QNT ; !
+
 bütün:bütün DET-QNT ; ! "every"
 kaç:kaç DET-QNT ; ! ""
 her% bir:her% bir DET-QNT ; !
@@ -3147,6 +3153,8 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+yonca:yonca N1 ; !
+
 parça:parça N1 ; !
 Mokşa:Mokşa N1 ; !
 Vişnu:Vişnu N1 ; !
@@ -3158,6 +3166,139 @@ kat:kat N1 ; !
 Sanskrit:Sanskrit N1 ; !
 emzirme:emzirme N1 ; !
 tortu:tortu N1 ; !
+hüda:hüda N1 ; !
+pranga:pranga N1 ; !
+anıklama:anıklama N1 ; !
+terma:terma N1 ; !
+mikroorganizma:mikroorganizma N1 ; !
+civa:civa N1 ; !
+esya:esya N1 ; !
+üslub:üslub N1 ; !
+stad:stad N1 ; !
+üstad:üstad N1 ; !
+mescid:mescid N1 ; !
+şartname:şartname N1 ; !
+telgrafhane:telgrafhane N1 ; !
+çene:çene N1 ; !
+reçine:reçine N1 ; !
+haşere:haşere N1 ; !
+zerre:zerre N1 ; !
+tabure:tabure N1 ; !
+telaşe:telaşe N1 ; !
+rekolte:rekolte N1 ; !
+tef:tef N1 ; !
+lenf:lenf N1 ; !
+karargâh:karargâh N1 ; !
+sabotajcı:sabotajcı N1 ; !
+yahudi:yahudi N1 ; !
+yahudi:yahudi N1 ; !
+delgi:delgi N1 ; !
+terakki:terakki N1 ; !
+baski:baski N1 ; !
+somoni:somoni N1 ; !
+lari:lari N1 ; !
+elyazması:elyazması N1 ; !
+vasati:vasati N1 ; !
+karaltı:karaltı N1 ; !
+çözelti:çözelti N1 ; !
+karartı:karartı N1 ; !
+bezek:bezek N1 ; !
+bahçecik:bahçecik N1 ; !
+sidik:sidik N1 ; !
+hastalik:hastalik N1 ; !
+halifelik:halifelik N1 ; !
+halifelik:halifelik N1 ; !
+müdahalecilik:müdahalecilik N1 ; !
+çömlekçilik:çömlekçilik N1 ; !
+avcılık:avcılık N1 ; !
+sıkılık:sıkılık N1 ; !
+çalılık:çalılık N1 ; !
+nemlilik:nemlilik N1 ; !
+ayrılık:ayrılık N1 ; !
+laiklik:laiklik N1 ; !
+yasallık:yasallık N1 ; !
+sultanlık:sultanlık N1 ; !
+yatkınlık:yatkınlık N1 ; !
+derinlik:derinlik N1 ; !
+hissedarlık:hissedarlık N1 ; !
+rehberlik:rehberlik N1 ; !
+antibiyotik:antibiyotik N1 ; !
+Bask:Bask N1 ; !
+tahakkuk:tahakkuk N1 ; !
+çokluk:çokluk N1 ; !
+atatürkçülük:atatürkçülük N1 ; !
+pamukçuluk:pamukçuluk N1 ; !
+skandal:skandal N1 ; !
+imâl:imâl N1 ; !
+ikmal:ikmal N1 ; !
+spiral:spiral N1 ; !
+yil:yil N1 ; !
+usül:usül N1 ; !
+hâkim:hâkim N1 ; !
+doğubilim:doğubilim N1 ; !
+alaşım:alaşım N1 ; !
+om:om N1 ; !
+kromozom:kromozom N1 ; !
+kemalism:kemalism N1 ; !
+uçurum:uçurum N1 ; !
+kemalizm:kemalizm N1 ; !
+astragan:astragan N1 ; !
+soğan:soğan N1 ; !
+kompartman:kompartman N1 ; !
+Hrıstiyan:Hrıstiyan N1 ; !
+Gregoryan:Gregoryan N1 ; !
+röntgen:röntgen N1 ; !
+oksijen:oksijen N1 ; !
+porselen:porselen N1 ; !
+emziren:emziren N1 ; !
+mütemadiyen:mütemadiyen N1 ; !
+müʻmin:müʻmin N1 ; !
+hidrokarbon:hidrokarbon N1 ; !
+hormon:hormon N1 ; !
+Breton:Breton N1 ; !
+kanton:kanton N1 ; !
+bozgun:bozgun N1 ; !
+komün:komün N1 ; !
+kâtip:kâtip N1 ; !
+alp:alp N1 ; !
+pancar:pancar N1 ; !
+pancar:pancar N1 ; !
+yadigar:yadigar N1 ; !
+ezber:ezber N1 ; !
+polimer:polimer N1 ; !
+amir:amir N1 ; !
+vezir:vezir N1 ; !
+büyükbaş:büyükbaş N1 ; !
+mahlâs:mahlâs N1 ; !
+patates:patates N1 ; !
+jips:jips N1 ; !
+sülfat:sülfat N1 ; !
+agregat:agregat N1 ; !
+islahat:islahat N1 ; !
+herakat:herakat N1 ; !
+tetkikat:tetkikat N1 ; !
+karbonhidrat:karbonhidrat N1 ; !
+vasat:vasat N1 ; !
+zerzevat:zerzevat N1 ; !
+şarkiyat:şarkiyat N1 ; !
+rutubet:rutubet N1 ; !
+sirket:sirket N1 ; !
+vekâlet:vekâlet N1 ; !
+isaret:isaret N1 ; !
+silüet:silüet N1 ; !
+velayet:velayet N1 ; !
+mes'uliyet:mes'uliyet N1 ; !
+oksit:oksit N1 ; !
+Antant:Antant N1 ; !
+ferment:ferment N1 ; !
+sport:sport N1 ; !
+sergüzeşt:sergüzeşt N1 ; !
+kemalist:kemalist N1 ; !
+babürlü:babürlü N1 ; !
+pelinotu:pelinotu N1 ; !
+manganez:manganez N1 ; !
+tüberküloz:tüberküloz N1 ; !
+nevruz:nevruz N1 ; !
 
 orda:orda N1 ; !
 Şiva:Şiva N1 ; !
@@ -4519,6 +4660,16 @@ NGC:NGC NP-AL ; !
 Oscar:Oscar NP-AL ; !
 Pirrol:Pirrol NP-AL ; !
 Kırgızmambas:Kırgızmambas NP-AL ; !
+le:le NP-AL ; !
+Centre:Centre NP-AL ; !
+Virgo:Virgo NP-AL ; !
+Saint:Saint NP-AL ; !
+City:City NP-AL ; !
+County:County NP-AL ; !
+La:La NP-AL ; !
+la:la NP-AL ; !
+al:al NP-AL ; !
+ibn:ibn NP-AL ; !
 
 
 New:New NP-AL ; !
@@ -4706,6 +4857,51 @@ ihtiyacı:ihtiyacı N1 ; ! ""
 ev% sahibi:ev% sahibi N1 ; 
 
 !!!NEW!!!
+yumuşakça:yumuşakça N1 ; !
+saklama:saklama N1 ; !
+yığma:yığma N1 ; !
+bozulma:bozulma N1 ; !
+faydalanma:faydalanma N1 ; !
+taşma:taşma N1 ; !
+yayma:yayma N1 ; !
+bozuk% para:bozuk% para N1 ; !
+hiç:hiç N1 ; !
+gerileme:gerileme N1 ; !
+süsleme:süsleme N1 ; !
+zedelenme:zedelenme N1 ; !
+şekillenme:şekillenme N1 ; !
+beslenme:beslenme N1 ; !
+direnme:direnme N1 ; !
+örme:örme N1 ; !
+işgalci:işgalci N1 ; !
+yatay% çizgi:yatay% çizgi N1 ; !
+resmi% olarak:resmi% olarak N1 ; !
+dağlık:dağlık N1 ; !
+kritik:kritik N1 ; !
+düşük:düşük N1 ; !
+oturan:oturan N1 ; !
+yalçın:yalçın N1 ; !
+yığın:yığın N1 ; !
+kırgın:kırgın N1 ; !
+dindar:dindar N1 ; !
+tarumar:tarumar N1 ; !
+
+ekser:ekser N1 ; !
+
+kutsal% yer:kutsal% yer N1 ; !
+hakir:hakir A1 ; !
+enerji:enerji A1 ; !
+iyi:iyi A1 ; !
+
+yaratılış:yaratılış N1 ; !
+direniş:direniş N1 ; !
+mütehassıs:mütehassıs N1 ; !
+arayış:arayış N1 ; !
+düşüş:düşüş N1 ; !
+keskin% alet:keskin% alet N1 ; !
+
+okuyucu:okuyucu N1 ; !
+olumsuz:olumsuz N1 ; !
 
 votka:votka N1 ;
 pişmanlık:pişmanlık N1 ;
@@ -11509,6 +11705,33 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Lombardia:Lombardia NP-TOP ; !
+Thuringia:Thuringia NP-TOP ; !
+Castilla:Castilla NP-TOP ; !
+Burgundiya:Burgundiya NP-TOP ; !
+Pikardiya:Pikardiya NP-TOP ; !
+Lotharingiya:Lotharingiya NP-TOP ; !
+Akitanya:Akitanya NP-TOP ; !
+Penisilvanya:Penisilvanya NP-TOP ; !
+Semerkand:Semerkand NP-TOP ; !
+Rheinland:Rheinland NP-TOP ; !
+Moselle:Moselle NP-TOP ; !
+Somme:Somme NP-TOP ; !
+Auvergne:Auvergne NP-TOP ; !
+Saône:Saône NP-TOP ; !
+Rhone:Rhone NP-TOP ; !
+Aisne:Aisne NP-TOP ; !
+Loire:Loire NP-TOP ; !
+Franche-Comté:Franche-Comté NP-TOP ; !
+Haute:Haute NP-TOP ; !
+Rhin:Rhin NP-TOP ; !
+Leon:Leon NP-TOP ; !
+Andijon:Andijon NP-TOP ; !
+Elsas:Elsas NP-TOP ; !
+Texas:Texas NP-TOP ; !
+Piemont:Piemont NP-TOP ; !
+Lot:Lot NP-TOP ; !
+
 Karakol:Karakol NP-TOP ; !
 Çulım:Çulım NP-TOP ; !
 Baden:Baden NP-TOP ; !
@@ -11916,6 +12139,7 @@ Anise:Anise NP-ANT-F ; !
 Vasiliy:Vasiliy NP-ANT-M ; !
 Almambet:Almambet NP-ANT-M ; !
 Musakocoyev:Musakocoyev NP-ANT-M ; !
+Alişer:Alişer NP-ANT-M ; !
 
 Assel:Assel NP-ANT-F ; !
 Elena:Elena NP-ANT-F ;
@@ -11955,6 +12179,11 @@ Karalayev:Karalayev NP-COG-MF ; !
 Akmataliyev:Akmataliyev NP-COG-MF ; !
 Almambet:Almambet NP-ANT-M ; !
 Musakocoyev:Musakocoyev NP-ANT-M ; !
+Comte:Comte NP-COG-MF ; !
+Kreis:Kreis NP-COG-MF ; !
+Veronika:Veronika NP-ANT-F ; !
+Karolina:Karolina NP-ANT-F ; !
+Ebu:Ebu NP-ANT-M ; !
 
 Nemanja:Nemanja NP-ANT-M ; !
 Sagımbay:Sagımbay NP-ANT-M ; !
@@ -20055,6 +20284,168 @@ Anhalt:Anhalt NP-TOP ; !
 
 
 LEXICON Adjectives
+yerinde:yerinde A1 ; !
+zelzele:zelzele A1 ; !
+bile% bile:bile% bile A1 ; !
+köhne:köhne A1 ; !
+muhalif:muhalif A1 ; !
+garbi:garbi A1 ; !
+harici:harici A1 ; !
+şaşırtıcı:şaşırtıcı A1 ; !
+savaşçı:savaşçı A1 ; !
+şimdi:şimdi A1 ; !
+ilgi:ilgi A1 ; !
+pedagoji:pedagoji A1 ; !
+uygulamalı:uygulamalı A1 ; !
+ameli:ameli A1 ; !
+kaliteli:kaliteli A1 ; !
+kaliteli:kaliteli A1 ; !
+çizgili:çizgili A1 ; !
+teşkili:teşkili A1 ; !
+nitelikli:nitelikli A1 ; !
+varlıklı:varlıklı A1 ; !
+osmanlı:osmanlı A1 ; !
+dumanlı:dumanlı A1 ; !
+tipli:tipli A1 ; !
+müddetli:müddetli A1 ; !
+görevli:görevli A1 ; !
+enerji% endüstrisi:enerji% endüstrisi A1 ; !
+eksi:eksi A1 ; !
+parıltı:parıltı A1 ; !
+iyi:iyi A1 ; !
+gazi:gazi A1 ; !
+merak:merak A1 ; !
+mevsimlik:mevsimlik A1 ; !
+yazlık:yazlık A1 ; !
+yerleşik:yerleşik A1 ; !
+yerleşik:yerleşik A1 ; !
+eliptik:eliptik A1 ; !
+buçuk:buçuk A1 ; !
+özgü:özgü A1 ; !
+koru:koru A1 ; !
+inanılmaz:inanılmaz A1 ; !
+mümtaz:mümtaz A1 ; !
+
+hukuki:hukuki A1 ; !
+çoğunluk:çoğunluk A1 ; !
+al:al A1 ; !
+muhkem:muhkem A1 ; !
+deprem:deprem A1 ; !
+eğitim:eğitim A1 ; !
+taban:taban A1 ; !
+yerinde% olan:yerinde% olan A1 ; !
+egemen:egemen A1 ; !
+manen:manen A1 ; !
+benzeyen:benzeyen A1 ; !
+yalın:yalın A1 ; !
+koro:koro A1 ; !
+mürekkep:mürekkep A1 ; !
+yarar:yarar A1 ; !
+muhtar:muhtar A1 ; !
+sır:sır A1 ; !
+muzır:muzır A1 ; !
+kömür:kömür A1 ; !
+onur:onur A1 ; !
+küsür:küsür A1 ; !
+demirbaş:demirbaş A1 ; !
+hızlandırılmış:hızlandırılmış A1 ; !
+ayrılmış:ayrılmış A1 ; !
+uzatılmış:uzatılmış A1 ; !
+tanınmış:tanınmış A1 ; !
+yetişmiş:yetişmiş A1 ; !
+finans:finans A1 ; !
+sanat:sanat A1 ; !
+
+çeşit% çeşit:çeşit% çeşit A1 ; !
+çeşit:çeşit A1 ; !
+
+harikulâde:harikulâde A1 ; !
+komple:komple A1 ; !
+zamane:zamane A1 ; !
+kalifiye:kalifiye A1 ; !
+muaf:muaf A1 ; !
+muhtelif:muhtelif A1 ; !
+nihaî:nihaî A1 ; !
+edebî:edebî A1 ; !
+nisbi:nisbi A1 ; !
+haricî:haricî A1 ; !
+maddî:maddî A1 ; !
+ferdî:ferdî A1 ; !
+izafî:izafî A1 ; !
+menfi:menfi A1 ; !
+menfî:menfî A1 ; !
+ilâhi:ilâhi A1 ; !
+sıhhî:sıhhî A1 ; !
+ruhî:ruhî A1 ; !
+tabii:tabii A1 ; !
+tabiî:tabiî A1 ; !
+bedii:bedii A1 ; !
+hukukî:hukukî A1 ; !
+güzki:güzki A1 ; !
+malî:malî A1 ; !
+saralı:saralı A1 ; !
+oturaklı:oturaklı A1 ; !
+mahallî:mahallî A1 ; !
+muvaffakıyetli:muvaffakıyetli A1 ; !
+yabanî:yabanî A1 ; !
+insanî:insanî A1 ; !
+kanunî:kanunî A1 ; !
+itibarî:itibarî A1 ; !
+idarî:idarî A1 ; !
+süvari:süvari A1 ; !
+ihtiyari:ihtiyari A1 ; !
+ihtiyarî:ihtiyarî A1 ; !
+nazari:nazari A1 ; !
+vahşî:vahşî A1 ; !
+cinsî:cinsî A1 ; !
+hususî:hususî A1 ; !
+manevî:manevî A1 ; !
+efsanevi:efsanevi A1 ; !
+kimyevi:kimyevi A1 ; !
+sulak:sulak A1 ; !
+sabık:sabık A1 ; !
+muvafık:muvafık A1 ; !
+metamorfik:metamorfik A1 ; !
+senfonik:senfonik A1 ; !
+paleozoik:paleozoik A1 ; !
+sentetik:sentetik A1 ; !
+çokluk:çokluk A1 ; !
+uyduruk:uyduruk A1 ; !
+yazınsal:yazınsal A1 ; !
+oryantal:oryantal A1 ; !
+maddesel:maddesel A1 ; !
+yönetimsel:yönetimsel A1 ; !
+üniversel:üniversel A1 ; !
+örgütsel:örgütsel A1 ; !
+sadedil:sadedil A1 ; !
+müşkül:müşkül A1 ; !
+saydam:saydam A1 ; !
+yamyam:yamyam A1 ; !
+müphem:müphem A1 ; !
+müstahkem:müstahkem A1 ; !
+mülâyim:mülâyim A1 ; !
+otonom:otonom A1 ; !
+masum:masum A1 ; !
+kodaman:kodaman A1 ; !
+hâlen:hâlen A1 ; !
+müstakilen:müstakilen A1 ; !
+muayyen:muayyen A1 ; !
+şaheser:şaheser A1 ; !
+cengaver:cengaver A1 ; !
+muktedir:muktedir A1 ; !
+münhasır:münhasır A1 ; !
+hür:hür A1 ; !
+mezkur:mezkur A1 ; !
+mezkûr:mezkûr A1 ; !
+mensur:mensur A1 ; !
+vasat:vasat A1 ; !
+bayat:bayat A1 ; !
+müspet:müspet A1 ; !
+girift:girift A1 ; !
+müsait:müsait A1 ; !
+münferit:münferit A1 ; !
+katışıksız:katışıksız A1 ; !
+
 şehir:şehir A1 ; !
 pedagojik:pedagojik A1 ; !
 materyal:materyal A1 ; !
@@ -22238,10 +22629,53 @@ LEXICON Adverbs
 umumiyetle:umumiyetle ADV1 ; !
 ayırmadan:ayırmadan ADV1 ; !
 başta:başta ADV1 ; !
+mütemadiyen:mütemadiyen ADV1 ; !
 
 rasgele:rasgele ADV1 ; !
 kere:kere ADV1 ; !
+anca:anca ADV1 ; !
+uyarınca:uyarınca ADV1 ; !
+zarfında:zarfında ADV1 ; !
+yıldan% yıla:yıldan% yıla ADV1 ; !
+çoğunlukla:çoğunlukla ADV1 ; !
+ortalama:ortalama ADV1 ; !
+fena:fena ADV1 ; !
+ta:ta ADV1 ; !
+kaç:kaç ADV1 ; !
+birkaç:birkaç ADV1 ; !
+illa:illa ADV1 ; !
+illâ:illâ ADV1 ; !
+teferruatla:teferruatla ADV1 ; !
+tabiî:tabiî ADV1 ; !
+hayli:hayli ADV1 ; !
+derhâl:derhâl ADV1 ; !
+doğaçtan:doğaçtan ADV1 ; !
+hâlen:hâlen ADV1 ; !
+umumen:umumen ADV1 ; !
 
+her% hâlde:her% hâlde ADV1 ; !
+üzerinde:üzerinde ADV1 ; !
+tümüyle:tümüyle ADV1 ; !
+bütünüyle:bütünüyle ADV1 ; !
+üzerine:üzerine ADV1 ; !
+görünüşte:görünüşte ADV1 ; !
+aşağıda% belirtildiği% gibi:aşağıda% belirtildiği% gibi ADV1 ; !
+geçici:geçici ADV1 ; !
+tıpkı:tıpkı ADV1 ; !
+önceleri:önceleri ADV1 ; !
+son% olarak:son% olarak ADV1 ; !
+o% kadar% çok:o% kadar% çok ADV1 ; !
+birçok:birçok ADV1 ; !
+yaman:yaman ADV1 ; !
+aşkın:aşkın ADV1 ; !
+dair:dair ADV1 ; !
+küsur:küsur ADV1 ; !
+pis:pis ADV1 ; !
+net:net ADV1 ; !
+kötü:kötü ADV1 ; !
+vasıtasız:vasıtasız ADV1 ; !
+aracısız:aracısız ADV1 ; !
+aralıksız:aralıksız ADV1 ; 
 
 sıklıkla:sıklıkla ADV1 ; !
 resmen:resmen ADV1 ; !
@@ -22829,6 +23263,18 @@ LEXICON Verbs
 gayret% et:gayret% et V-AR-IV ; !
 üfle:üfle V-IR-TV ; !
 vefat% et:vefat% et V-IR-IV ; !
+tayin% ol:tayin% ol V-IR-IV ; !
+kesinleş:kesinleş V-IR-IV ; !
+tasla:tasla V-IR-TV ; !
+ayaklan:ayaklan V-IR-TV ; !
+kürekle:kürekle V-IR-TV ; !
+kanunu% yürürlüğe% sok:kanunu% yürürlüğe% sok V-IR-TV ; !
+sahneleştir:sahneleştir V-IR-TV ; !
+ifade% et:ifade% et V-IR-TV ; !
+temin% et:temin% et V-IR-TV ; !
+mağlup% et:mağlup% et V-IR-TV ; !
+ücretlendir:ücretlendir V-IR-TV ; !
+sulandır:sulandır V-IR-TV ; !
 
 defnedil:defnedil V-IR-IV ; !
 çağrıl:çağrıl V-IR-IV ; !
@@ -24902,6 +25348,9 @@ alış:alış V-IR-TV ;
 
 LEXICON Interjections 
 hop:hop INTERJ ; !
+selam:selam INTERJ ; !
+yeter:yeter INTERJ ; !
+günaydın:günaydın INTERJ ; !
 
 off:off INTERJ ; !
 of:of INTERJ ; !
