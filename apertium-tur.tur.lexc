@@ -11369,7 +11369,7 @@ merhametsizlik:merhametsizlik%{v%} N1 ; ! ""
 meyva:meyva N1 ; ! ""
 minder:minder N1 ; ! ""
 min:min N1 ; ! ""
-m:m N1 ; ! ""
+m:m ABBR ; ! ""
 moğol:moğol N1 ; ! ""
 muallimlik:muallimlik%{v%} N1 ; ! ""
 müezzin:müezzin N1 ; ! ""
@@ -11644,6 +11644,7 @@ teke:teke N1 ; ! ""
 tersi:tersi N1 ; ! ""
 uru:uru N1 ; ! ""
 yunanca:yunanca N1 ; ! ""
+Özbekçe:Özbekçe N1 ; !
 arma:arma N1 ; ! ""
 kezlevli:Kezlevli N1 ; ! ""
 alevli:Alevli N1 ; ! ""
@@ -23266,7 +23267,7 @@ vefat% et:vefat% et V-IR-IV ; !
 tayin% ol:tayin% ol V-IR-IV ; !
 kesinleş:kesinleş V-IR-IV ; !
 tasla:tasla V-IR-TV ; !
-ayaklan:ayaklan V-IR-TV ; !
+ayaklan:ayaklan V-IR-IV ; !
 kürekle:kürekle V-IR-TV ; !
 kanunu% yürürlüğe% sok:kanunu% yürürlüğe% sok V-IR-TV ; !
 sahneleştir:sahneleştir V-IR-TV ; !
