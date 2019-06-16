@@ -3154,7 +3154,7 @@ Profesör:Profesör TIT ; ! ""
 
 LEXICON Nouns
 yonca:yonca N1 ; !
-
+Timurlu:Timurlu N1 ; !
 parça:parça N1 ; !
 Mokşa:Mokşa N1 ; !
 Vişnu:Vişnu N1 ; !
@@ -4671,6 +4671,11 @@ la:la NP-AL ; !
 al:al NP-AL ; !
 ibn:ibn NP-AL ; !
 
+am:am NP-AL ; !
+les:les NP-AL ; !
+lès:lès NP-AL ; !
+Sankt:Sankt NP-AL ; !
+St:St NP-AL ; !
 
 New:New NP-AL ; !
 
@@ -4892,6 +4897,7 @@ kutsal% yer:kutsal% yer N1 ; !
 hakir:hakir A1 ; !
 enerji:enerji A1 ; !
 iyi:iyi A1 ; !
+aktarma:aktarma N1 ; !
 
 yaratılış:yaratılış N1 ; !
 direniş:direniş N1 ; !
@@ -11706,6 +11712,19 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Lake:Lake NP-TOP ; !
+Bas:Bas NP-TOP ; !
+Dakota:Dakota NP-TOP ; !
+Hiva:Hiva NP-TOP ; !
+Katalunya:Katalunya NP-TOP ; !
+Surkanderya:Surkanderya NP-TOP ; !
+Bad:Bad NP-TOP ; !
+Manche:Manche NP-TOP ; !
+Côte:Côte NP-TOP ; !
+Cher:Cher NP-TOP ; !
+Loir:Loir NP-TOP ; !
+Endülüs:Endülüs NP-TOP ; !
+
 Lombardia:Lombardia NP-TOP ; !
 Thuringia:Thuringia NP-TOP ; !
 Castilla:Castilla NP-TOP ; !
@@ -20285,6 +20304,14 @@ Anhalt:Anhalt NP-TOP ; !
 
 
 LEXICON Adjectives
+kozmik:kozmik A1 ; !
+
+aç:aç A1 ; !
+amiyane:amiyane A1 ; !
+iki:iki A1 ; !
+sabırlı:sabırlı A1 ; !
+tasviri:tasviri A1 ; !
+iyi:iyi A1 ; !
 yerinde:yerinde A1 ; !
 zelzele:zelzele A1 ; !
 bile% bile:bile% bile A1 ; !
@@ -23276,6 +23303,7 @@ temin% et:temin% et V-IR-TV ; !
 mağlup% et:mağlup% et V-IR-TV ; !
 ücretlendir:ücretlendir V-IR-TV ; !
 sulandır:sulandır V-IR-TV ; !
+cihazlan:cihazlan V-IR-IV ; !
 
 defnedil:defnedil V-IR-IV ; !
 çağrıl:çağrıl V-IR-IV ; !
