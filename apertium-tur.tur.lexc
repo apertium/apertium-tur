@@ -3153,6 +3153,8 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+optik:optik N1 ; !
+and:and N1 ; ! 
 yonca:yonca N1 ; !
 Timurlu:Timurlu N1 ; !
 parça:parça N1 ; !
@@ -4650,6 +4652,7 @@ olduk:olduk N1 ; !
 soğuk:soğuk N1 ; !
 büyük:büyük N1 ; !
 Nobel:Nobel NP-AL ; !
+bei:bei NP-AL ; !
 Kutadgu% Bilig:Kutadgu% Bilig NP-AL ; !
 Muhakemetul% Lugateyn:Muhakemetul% Lugateyn NP-AL ; !
 Sahihül% Buhari:Sahihül% Buhari NP-AL ; !
@@ -4898,7 +4901,9 @@ hakir:hakir A1 ; !
 enerji:enerji A1 ; !
 iyi:iyi A1 ; !
 aktarma:aktarma N1 ; !
-
+terkibi:terkibi A1 ; !
+subtropik:subtropik A1 ; !
+sınırsal:sınırsal A1 ; !
 yaratılış:yaratılış N1 ; !
 direniş:direniş N1 ; !
 mütehassıs:mütehassıs N1 ; !
@@ -11724,6 +11729,21 @@ Côte:Côte NP-TOP ; !
 Cher:Cher NP-TOP ; !
 Loir:Loir NP-TOP ; !
 Endülüs:Endülüs NP-TOP ; !
+Puy:Puy NP-TOP ; !
+Campania:Campania NP-TOP ; !
+SB:SB NP-TOP ; !
+Celalabad:Celalabad NP-TOP ; !
+Gironde:Gironde NP-TOP ; !
+Orne:Orne NP-TOP ; !
+Indre:Indre NP-TOP ; !
+Sainte:Sainte NP-TOP ; !
+Marth:Marth NP-TOP ; !
+Missisippi:Missisippi NP-TOP ; !
+Cizzak:Cizzak NP-TOP ; !
+Steiermark:Steiermark NP-TOP ; !
+Karakalpakistan:Karakalpakistan NP-TOP ; !
+Pyrenees:Pyrenees NP-TOP ; !
+Atlantiques:Atlantiques NP-TOP ; !
 
 Lombardia:Lombardia NP-TOP ; !
 Thuringia:Thuringia NP-TOP ; !
@@ -12189,6 +12209,8 @@ Lewis:Lewis NP-ANT-M ; !
 Black:Black NP-COG-MF ; !
 Ha:Ha NP-COG-MF ; !
 Köppen:Köppen NP-COG-MF ; !
+Land:Land NP-COG-MF ; !
+
 Skiratov:Skiratov NP-COG-MF ; !
 Krneta:Krneta NP-COG-MF ; !
 Orozbakov:Orozbakov NP-COG-MF ; !
@@ -23304,6 +23326,8 @@ mağlup% et:mağlup% et V-IR-TV ; !
 ücretlendir:ücretlendir V-IR-TV ; !
 sulandır:sulandır V-IR-TV ; !
 cihazlan:cihazlan V-IR-IV ; !
+isimlendiril:isimlendiril V-IR-IV ; !
+uzmanlaş:uzmanlaş V-IR-IV ; !
 
 defnedil:defnedil V-IR-IV ; !
 çağrıl:çağrıl V-IR-IV ; !
