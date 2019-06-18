@@ -3153,6 +3153,8 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+sever:sever N1 ; !
+
 optik:optik N1 ; !
 and:and N1 ; ! 
 yonca:yonca N1 ; !
@@ -4653,6 +4655,8 @@ soğuk:soğuk N1 ; !
 büyük:büyük N1 ; !
 Nobel:Nobel NP-AL ; !
 bei:bei NP-AL ; !
+Çoban:Çoban NP-AL ; !
+
 Kutadgu% Bilig:Kutadgu% Bilig NP-AL ; !
 Muhakemetul% Lugateyn:Muhakemetul% Lugateyn NP-AL ; !
 Sahihül% Buhari:Sahihül% Buhari NP-AL ; !
@@ -11717,6 +11721,15 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Calabria:Calabria NP-TOP ; !
+Dôme:Dôme NP-TOP ; !
+Eure:Eure NP-TOP ; !
+Brandenburg:Brandenburg NP-TOP ; !
+Ain:Ain NP-TOP ; !
+Reyn:Reyn NP-TOP ; !
+Canes:Canes NP-TOP ; !
+Haut:Haut NP-TOP ; !
+Tirmiz:Tirmiz NP-TOP ; !
 Lake:Lake NP-TOP ; !
 Bas:Bas NP-TOP ; !
 Dakota:Dakota NP-TOP ; !
@@ -12180,6 +12193,8 @@ Vasiliy:Vasiliy NP-ANT-M ; !
 Almambet:Almambet NP-ANT-M ; !
 Musakocoyev:Musakocoyev NP-ANT-M ; !
 Alişer:Alişer NP-ANT-M ; !
+Uluğbey:Uluğbey NP-ANT-M ; !
+Venatici:Venatici NP-COG-MF ; !
 
 Assel:Assel NP-ANT-F ; !
 Elena:Elena NP-ANT-F ;
@@ -20327,6 +20342,12 @@ Anhalt:Anhalt NP-TOP ; !
 
 LEXICON Adjectives
 kozmik:kozmik A1 ; !
+celb:celb A1 ; !
+tektonik:tektonik A1 ; !
+kere:kere A1 ; !
+kurallı:kurallı A1 ; !
+katlı:katlı A1 ; !
+iyi:iyi A1 ; !
 
 aç:aç A1 ; !
 amiyane:amiyane A1 ; !
@@ -22680,7 +22701,9 @@ umumiyetle:umumiyetle ADV1 ; !
 ayırmadan:ayırmadan ADV1 ; !
 başta:başta ADV1 ; !
 mütemadiyen:mütemadiyen ADV1 ; !
-
+daim:daim ADV1 ; !
+olsa% da:olsa% da ADV1 ; !
+da:da ADV1 ; 
 rasgele:rasgele ADV1 ; !
 kere:kere ADV1 ; !
 anca:anca ADV1 ; !
