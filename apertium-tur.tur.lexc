@@ -3154,6 +3154,12 @@ Profesör:Profesör TIT ; ! ""
 
 LEXICON Nouns
 sever:sever N1 ; !
+riya:riya N1 ; !
+dikicilik:dikicilik N1 ; !
+ressamlık:ressamlık N1 ; !
+tahlil:tahlil N1 ; !
+sülfür:sülfür N1 ; !
+elektromagnet:elektromagnet N1 ; !
 
 optik:optik N1 ; !
 and:and N1 ; ! 
@@ -4687,7 +4693,7 @@ St:St NP-AL ; !
 New:New NP-AL ; !
 
 
-prof:prof N1 ; !
+prof:prof ABBR ; !
 sıvı:sıvı N1 ; !
 plak:plak N1 ; !
 Pasifik:Pasifik N1 ; !
@@ -11721,6 +11727,12 @@ trafik% ışığı:trafik% ışık%{v%} N2 ; ! ""
 
 
 LEXICON ProperNouns
+Venatica:Venatica NP-TOP ; !
+Navarra:Navarra NP-TOP ; !
+Hessen:Hessen NP-TOP ; !
+Allier:Allier NP-TOP ; !
+Château:Château NP-TOP ; !
+
 Calabria:Calabria NP-TOP ; !
 Dôme:Dôme NP-TOP ; !
 Eure:Eure NP-TOP ; !
@@ -12927,7 +12939,7 @@ Emine:Emine NP-ANT-F; ! ""
 Halim:Halim NP-ANT-M; ! ""
 Kara:Kara NP-ANT-F; ! ""
 Roman:Roman NP-ANT-M; ! ""
-Santa:Santa NP-ANT-M; ! ""
+Santa:Santa NP-AL; ! ""
 Sidney:Sidney NP-ANT-M; ! ""
 Susana:Susana NP-ANT-F; ! ""
 Mira:Mira NP-ANT-F; ! ""
@@ -14313,6 +14325,7 @@ FC:FC NP-AL ; !
 
 
 iOS:iOS NP-AL ; !
+ad:ad NP-AL ; !
 
 Svoboda:Svoboda NP-AL ; ! ""
 YouTube:YouTube NP-AL ; ! ""
@@ -20348,6 +20361,10 @@ kere:kere A1 ; !
 kurallı:kurallı A1 ; !
 katlı:katlı A1 ; !
 iyi:iyi A1 ; !
+bertaraf:bertaraf A1 ; !
+
+genetik:genetik A1 ; !
+bekar:bekar A1 ; !
 
 aç:aç A1 ; !
 amiyane:amiyane A1 ; !
@@ -25514,7 +25531,8 @@ vs%.%<abbr%>:vs%. # ;
 MÖ%<abbr%>:MÖ # ;
 ğ%<abbr%>:ğ # ;
 Dr:Dr ABBR ; ! ""
-
+SSR:SSR ABBR ; !
+BMT:BMT ABBR ; !
 mm:mm ABBR ; ! ""
 kg:kg ABBR ; ! ""
 km:km ABBR ; ! ""
