@@ -2987,8 +2987,7 @@ hiç% kimse:hiç% kimse PRON-NEG ; ! "nobody"
 herkes:herkes PRON-QNT ; ! "everybody"
 her% bir:her% bir PRON-QNT ; !
 hiçbir:hiçbir PRON-QNT ; !
-hiç:hiç PRON-QNT ;
-
+iki:iki PRON-QNT ; !
 ekseri:ekser PRON-QNT ; ! ""
 hiç:hiç PRON-QNT ; !
 biri:biri PRON-PERS ; 
@@ -3160,7 +3159,11 @@ ressamlık:ressamlık N1 ; !
 tahlil:tahlil N1 ; !
 sülfür:sülfür N1 ; !
 elektromagnet:elektromagnet N1 ; !
-
+ahşapçılık:ahşapçılık N1 ; !
+elektroteknik:elektroteknik N1 ; !
+memurluk:memurluk N1 ; !
+sütun:sütun N1 ; !
+salyangoz:salyangoz N1 ; !
 optik:optik N1 ; !
 and:and N1 ; ! 
 yonca:yonca N1 ; !
@@ -4920,6 +4923,7 @@ mütehassıs:mütehassıs N1 ; !
 arayış:arayış N1 ; !
 düşüş:düşüş N1 ; !
 keskin% alet:keskin% alet N1 ; !
+ahşap:ahşap A1 ; !
 
 okuyucu:okuyucu N1 ; !
 olumsuz:olumsuz N1 ; !
@@ -11732,6 +11736,11 @@ Navarra:Navarra NP-TOP ; !
 Hessen:Hessen NP-TOP ; !
 Allier:Allier NP-TOP ; !
 Château:Château NP-TOP ; !
+Westphalia:Westphalia NP-TOP ; !
+Drôme:Drôme NP-TOP ; !
+Tirol:Tirol NP-TOP ; !
+Pegas:Pegas NP-TOP ; !
+Côtes:Côtes NP-TOP ; !
 
 Calabria:Calabria NP-TOP ; !
 Dôme:Dôme NP-TOP ; !
@@ -12207,6 +12216,8 @@ Musakocoyev:Musakocoyev NP-ANT-M ; !
 Alişer:Alişer NP-ANT-M ; !
 Uluğbey:Uluğbey NP-ANT-M ; !
 Venatici:Venatici NP-COG-MF ; !
+Edouard:Edouard NP-ANT-M ; !
+Stephan:Stephan NP-ANT-M ; !
 
 Assel:Assel NP-ANT-F ; !
 Elena:Elena NP-ANT-F ;
@@ -22714,6 +22725,8 @@ bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 
 
 LEXICON Adverbs
+dek:dek ADV1 ; !
+yazın:yazın ADV1 ; !
 umumiyetle:umumiyetle ADV1 ; !
 ayırmadan:ayırmadan ADV1 ; !
 başta:başta ADV1 ; !
