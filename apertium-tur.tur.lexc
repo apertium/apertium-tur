@@ -116,6 +116,7 @@ Multichar_Symbols
 %<coop%>           ! Cooperative
 %<rec%>            ! Reciprocal (?)
 %<iver%>		 ! suffix conveying ease/speed of action
+%<eyaz%>		 ! suffix conveying the action *almost* happened
 
 %<dub%>            ! dubative -mIş
 %<abil%>           ! abilative
@@ -378,6 +379,7 @@ LEXICON V-DERIV-AR
 !! FIXME: <pass>, <caus>, <rec>
 %<coop%>:%>%{i%}ş V-DERIV-IR-COMMON ;
 %<iver%>:%>%{y%}%{i%}ver V-DERIV-IR-COMMON ;
+%<eyaz%>:%>%{y%}%{A%}yaz V-DERIV-IR-COMMON ;
 %<pass%>:%>%{i%}%{L%} V-DERIV-IR-COMMON ;
 %<caus%>:%>%{D%}%{I%}r V-DERIV-IR-COMMON ;  ! FIXME
 %<caus%>:%>t V-DERIV-IR-COMMON ;            ! FIXME Dir/LR
@@ -392,6 +394,7 @@ LEXICON V-DERIV-IR
 !! FIXME: <pass>, <caus>, <rec>
 %<coop%>:%>%{i%}ş V-DERIV-IR-COMMON ;
 %<iver%>:%>%{y%}%{i%}ver V-DERIV-IR-COMMON ;
+%<eyaz%>:%>%{A%}yaz V-DERIV-IR-COMMON ;
 %<pass%>:%>%{i%}%{L%} V-DERIV-IR-COMMON ;
 %<caus%>:%>%{D%}%{I%}r V-DERIV-IR-COMMON ;  ! FIXME
 %<caus%>:%>t V-DERIV-IR-COMMON ;            ! FIXME Dir/LR
