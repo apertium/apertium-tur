@@ -115,6 +115,7 @@ Multichar_Symbols
 %<pass%>           ! Passive
 %<coop%>           ! Cooperative
 %<rec%>            ! Reciprocal (?)
+%<iver%>		 ! suffix conveying ease/speed of action
 
 %<dub%>            ! dubative -mIş
 %<abil%>           ! abilative
@@ -376,6 +377,7 @@ LEXICON V-IR-TV
 LEXICON V-DERIV-AR
 !! FIXME: <pass>, <caus>, <rec>
 %<coop%>:%>%{i%}ş V-DERIV-IR-COMMON ;
+%<iver%>:%>%{y%}%{i%}ver V-DERIV-IR-COMMON ;
 %<pass%>:%>%{i%}%{L%} V-DERIV-IR-COMMON ;
 %<caus%>:%>%{D%}%{I%}r V-DERIV-IR-COMMON ;  ! FIXME
 %<caus%>:%>t V-DERIV-IR-COMMON ;            ! FIXME Dir/LR
@@ -389,6 +391,7 @@ V-NONFIN-AR ;
 LEXICON V-DERIV-IR
 !! FIXME: <pass>, <caus>, <rec>
 %<coop%>:%>%{i%}ş V-DERIV-IR-COMMON ;
+%<iver%>:%>%{y%}%{i%}ver V-DERIV-IR-COMMON ;
 %<pass%>:%>%{i%}%{L%} V-DERIV-IR-COMMON ;
 %<caus%>:%>%{D%}%{I%}r V-DERIV-IR-COMMON ;  ! FIXME
 %<caus%>:%>t V-DERIV-IR-COMMON ;            ! FIXME Dir/LR
@@ -3393,9 +3396,7 @@ artma:artma N1 ; !
 duyma:duyma N1 ; !
 kazma:kazma N1 ; !
 kızma:kızma N1 ; !
-ilginç:ilginç N1 ; !
-korkunç:korkunç N1 ; !
-gülünç:gülünç N1 ; !
+
 bende:bende N1 ; !
 öyle:öyle N1 ; !
 göçme:göçme N1 ; !
@@ -3772,7 +3773,6 @@ yürüyüş:yürüyüş N1 ; !
 uygunlaştırma:uygunlaştırma N1 ; !
 tentene:tentene N1 ; !
 kaçakçı:kaçakçı N1 ; !
-amerikalı:amerikalı N1 ; !
 veli:veli N1 ; !
 mevsimlik:mevsimlik N1 ; !
 baharlık:baharlık N1 ; !
@@ -10290,7 +10290,7 @@ transfer:transfer N1 ; ! "transfer"
 futbolcu:futbolcu N1 ; ! "football player"
 site:site N1 ; ! "site"
 sinema:sinema N1 ; ! "cinema"
-resim:resim N1 ; ! "picture"
+resim:res%{u%}m N1 ; ! "picture"
 logo:logo N1 ; ! " logo"
 profil:profil N1 ; ! "profile"
 video:video N1 ; ! "video"
@@ -11160,7 +11160,7 @@ Kırım% Tatarcası:Kırım% Tatarca N2 ;
 türk:türk N3 ; ! "Turk"
 hırvat:hırvat N3 ; ! ""
 arnavut:arnavut N3 ; ! ""
-bulgar:bulgar N3 ; ! ""
+bulgar:Bulgar N3 ; ! ""
 makedon:makedon N3 ; ! ""
 romen:romen N3 ; ! ""
 kürt:kürt N3 ; ! ""
@@ -25449,7 +25449,6 @@ uy:uy V-AR-TV ;
 yakınlaş:yakınlaş V-IR-TV ;
 deş:deş V-AR-TV ;
 görüş:görüş V-IR-TV ;
-alış:alış V-IR-TV ;
 çalış:çalış V-IR-TV ;
 
 LEXICON Interjections 
