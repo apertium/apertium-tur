@@ -5399,7 +5399,7 @@ alamet:alamet N1 ; ! "sign"
 tereyağı:tereyağı N1 ;
 alan:alan N1 ; ! "area"
 alarm:alarm N1 ; ! "alarm"
-karanlık:karanlık N1 ;
+karanlık:karanlık%{v%} N1 ;
 alay:alay N1 ; ! "irony"
 albeni:albeni N1 ; ! "attraction"
 alçak:alçak N1 ; ! "rascal"
