@@ -394,7 +394,7 @@ LEXICON V-DERIV-IR
 !! FIXME: <pass>, <caus>, <rec>
 %<coop%>:%>%{i%}ş V-DERIV-IR-COMMON ;
 %<iver%>:%>%{y%}%{i%}ver V-DERIV-IR-COMMON ;
-%<eyaz%>:%>%{A%}yaz V-DERIV-IR-COMMON ;
+%<eyaz%>:%>%{y%}%{A%}yaz V-DERIV-IR-COMMON ;
 %<pass%>:%>%{i%}%{L%} V-DERIV-IR-COMMON ;
 %<caus%>:%>%{D%}%{I%}r V-DERIV-IR-COMMON ;  ! FIXME
 %<caus%>:%>t V-DERIV-IR-COMMON ;            ! FIXME Dir/LR
