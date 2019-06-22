@@ -3160,6 +3160,10 @@ Profesör:Profesör TIT ; ! ""
 LEXICON Nouns
 Eyyubi:Eyyubi N1 ; !
 takviye:takviye N1 ; !
+Manasçı:Manasçı N1 ; !
+kumtaşı:kumtaşı N1 ; !
+katedral:katedral N1 ; !
+toponim:toponim N1 ; !
 
 amerikalı:amerikalı N1 ; !
 Abbâsî:Abbâsî N1 ; !
@@ -4941,6 +4945,7 @@ arayış:arayış N1 ; !
 düşüş:düşüş N1 ; !
 keskin% alet:keskin% alet N1 ; !
 ahşap:ahşap A1 ; !
+üretimsel:üretimsel A1 ; !
 
 okuyucu:okuyucu N1 ; !
 olumsuz:olumsuz N1 ; !
@@ -12929,6 +12934,9 @@ Floransa:Floransa NP-TOP ; !
 Isparta:Isparta NP-TOP ; !
 Tuva:Tuva NP-TOP ; !
 France:France NP-TOP ; !
+Kı:Kı NP-TOP ; !
+Cumgal:Cumgal NP-TOP ; !
+Nookat:Nookat NP-TOP ; !
 
 Çankırı:Çankırı NP-TOP ; !
 Adıyaman:Adıyaman NP-TOP ; !
@@ -13107,6 +13115,11 @@ Viktor:Viktor NP-ANT-M ; ! ""
 Oleg:Oleg NP-ANT-M ; ! ""
 Lenin:Lenin NP-COG-MF ; ! ""
 Lenina:Lenina NP-COG-MF ; ! ""
+Pierce:Pierce NP-COG-MF ; !
+Orozov:Orozov NP-COG-MF ; !
+Oruzbayev:Oruzbayev NP-ANT-M ; !
+Bakay:Bakay NP-ANT-M ; !
+Kanıkey:Kanıkey NP-ANT-M ; !
 
 Bondarenko:Bondarenko NP-COG-MF ; ! ""
 Marchenko:Marchenko NP-COG-MF ; ! "" ! Use/MT
