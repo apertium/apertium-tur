@@ -3158,6 +3158,15 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+Eyyubi:Eyyubi N1 ; !
+takviye:takviye N1 ; !
+
+amerikalı:amerikalı N1 ; !
+Abbâsî:Abbâsî N1 ; !
+hâl:hâl N1 ; !
+sırat-ı% müstakim:sırat-ı% müstakim N1 ; !
+müteşabih% ayet:müteşabih% ayet N1 ; !
+
 sever:sever N1 ; !
 riya:riya N1 ; !
 dikicilik:dikicilik N1 ; !
@@ -4022,6 +4031,9 @@ Mürteza:Mürteza NP-ANT-M ; !
 Muhammetarif:Muhammetarif NP-ANT-M ; !
 Veliullah:Veliullah NP-ANT-M ; !
 Abdülhak:Abdülhak NP-ANT-M ; !
+Alp:Alp NP-ANT-M ; !
+İsmet:İsmet NP-ANT-M ; !
+
 Nail:Nail NP-ANT-M ; !
 Ramil:Ramil NP-ANT-M ; !
 Pavil:Pavil NP-ANT-M ; !
@@ -4709,6 +4721,8 @@ versiyon:versiyon N1 ; !
 solo:solo N1 ; !
 pop:pop N1 ; !
 asist:asist N1 ; !
+ara:ara N1 ; !
+Sasani:Sasani N1 ; !
 
 genel:genel N1 ; !
 asıl:asıl N1 ; !
@@ -11171,7 +11185,7 @@ ingiliz:ingiliz N3 ; ! ""
 rus:rus N1 ; ! ""
 italyan:İtalyan N3 ; ! ""
 mısırlı:Mısırlı N3 ; ! "Egyptian" 
-sırp:Sırp N3 ; ! ""
+Sırp:Sırp N3 ; ! ""
 rum:Rum N3 ; ! "Greek"
 fransız:Fransız N3 ; ! ""
 sloven:Sloven N3 ; ! ""
@@ -12208,6 +12222,8 @@ Abner:Abner NP-ANT-M ; !
 Alpamys:Alpamys NP-ANT-M ; !
 Ospan:Ospan NP-ANT-M ; !
 June:June NP-ANT-F ; !
+Hatun:Hatun NP-ANT-F ; !
+
 Lyudmila:Lyudmila NP-ANT-F ; !
 Rimma:Rimma NP-ANT-F ; !
 Tatiana:Tatiana NP-ANT-F ; !
@@ -12221,6 +12237,33 @@ Uluğbey:Uluğbey NP-ANT-M ; !
 Venatici:Venatici NP-COG-MF ; !
 Edouard:Edouard NP-ANT-M ; !
 Stephan:Stephan NP-ANT-M ; !
+Goethe:Goethe NP-COG-MF ; !
+Hadji:Hadji NP-COG-MF ; !
+Green:Green NP-COG-MF ; !
+von:von NP-COG-MF ; !
+Hao:Hao NP-COG-MF ; !
+Mayer:Mayer NP-COG-MF ; !
+Styles:Styles NP-COG-MF ; !
+Kennedy:Kennedy NP-COG-MF ; !
+Perry:Perry NP-COG-MF ; !
+Mia:Mia NP-ANT-F ; !
+Misa:Misa NP-ANT-F ; !
+Kate:Kate NP-ANT-F ; !
+Nancy:Nancy NP-ANT-F ; !
+Shane:Shane NP-ANT-M ; !
+Azmi:Azmi NP-ANT-M ; !
+Nick:Nick NP-ANT-M ; !
+Skrull:Skrull NP-ANT-M ; !
+Bryan:Bryan NP-ANT-M ; !
+Benjamin:Benjamin NP-ANT-M ; !
+Zayn:Zayn NP-ANT-M ; !
+Cesaro:Cesaro NP-ANT-M ; !
+Douglas:Douglas NP-ANT-M ; !
+Claudius:Claudius NP-ANT-M ; !
+Sheamus:Sheamus NP-ANT-M ; !
+Bart:Bart NP-ANT-M ; !
+Matt:Matt NP-ANT-M ; !
+Hüsnü:Hüsnü NP-ANT-M ; !
 
 Assel:Assel NP-ANT-F ; !
 Elena:Elena NP-ANT-F ;
@@ -12276,6 +12319,24 @@ Super% G4:Super% G4 NP-AL ; !
 Gazela:Gazela NP-AL ; !
 Getty% Images:Getty% Images NP-ORG ; !
 Red:Red NP-AL ; !
+Group:Group NP-AL ; !
+Islander:Islander NP-AL ; !
+Premier:Premier NP-AL ; !
+River:River NP-AL ; !
+Records:Records NP-AL ; !
+Play:Play NP-AL ; !
+Drakula:Drakula NP-AL ; !
+World:World NP-AL ; !
+League:League NP-AL ; !
+Ligue:Ligue NP-AL ; !
+Big:Big NP-AL ; !
+WrestleMania:WrestleMania NP-ORG ; !
+Real% Madrid:Real% Madrid NP-ORG ; !
+Premier% League:Premier% League NP-ORG ; !
+SmackDown:SmackDown NP-ORG ; !
+Modesto:Modesto NP-ORG ; !
+Panzer:Panzer NP-ORG ; !
+Vakfıkebir:Vakfıkebir NP-ORG ; !
 
 Royal:Royal NP-ORG ; !
 iTunes:iTunes NP-AL ; !
@@ -12860,6 +12921,15 @@ Nina:Nina NP-ANT-F ; ! ""
 Ursula:Ursula NP-ANT-F ; !
 Fatıma:Fatıma NP-ANT-F ; !
 Elâzığ:Elâzığ NP-TOP ; !
+Bilecik:Bilecik NP-TOP ; !
+İskenderun:İskenderun NP-TOP ; !
+Kırşehir:Kırşehir NP-TOP ; !
+Kalpana:Kalpana NP-TOP ; !
+Floransa:Floransa NP-TOP ; !
+Isparta:Isparta NP-TOP ; !
+Tuva:Tuva NP-TOP ; !
+France:France NP-TOP ; !
+
 Çankırı:Çankırı NP-TOP ; !
 Adıyaman:Adıyaman NP-TOP ; !
 Rio:Rio NP-TOP ; !
@@ -20582,6 +20652,7 @@ bölünebilen:bölünebilen A1 ; !
 üst:üst A1 ; !
 güldürücü:güldürücü A1 ; !
 tutucu:tutucu A1 ; !
+kılacak:kılacak A1 ; !
 
 askerî:askerî A1 ; !
 pozitif:pozitif A1 ; !
