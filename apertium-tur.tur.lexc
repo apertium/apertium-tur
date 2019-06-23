@@ -3164,6 +3164,18 @@ Manasçı:Manasçı N1 ; !
 kumtaşı:kumtaşı N1 ; !
 katedral:katedral N1 ; !
 toponim:toponim N1 ; !
+şifa:şifa N1 ; !
+elişi:elişi N1 ; !
+Farisi:Farisi N1 ; !
+çökelti:çökelti N1 ; !
+dindarlık:dindarlık N1 ; !
+bahadırlık:bahadırlık N1 ; !
+bozukluk:bozukluk N1 ; !
+sonsuzluk:sonsuzluk N1 ; !
+aman:aman N1 ; !
+rahip:rahip N1 ; !
+kopuz:kopuz N1 ; !
+tek:tek N1 ; !
 
 amerikalı:amerikalı N1 ; !
 Abbâsî:Abbâsî N1 ; !
@@ -4946,6 +4958,10 @@ düşüş:düşüş N1 ; !
 keskin% alet:keskin% alet N1 ; !
 ahşap:ahşap A1 ; !
 üretimsel:üretimsel A1 ; !
+kerametli:kerametli A1 ; !
+birlik:birlik A1 ; !
+çapraz:çapraz A1 ; !
+beleş:beleş A1 ; !
 
 okuyucu:okuyucu N1 ; !
 olumsuz:olumsuz N1 ; !
@@ -12251,6 +12267,11 @@ Mayer:Mayer NP-COG-MF ; !
 Styles:Styles NP-COG-MF ; !
 Kennedy:Kennedy NP-COG-MF ; !
 Perry:Perry NP-COG-MF ; !
+Tokkana:Tokkana NP-COG-MF ; !
+Nos:Nos NP-COG-MF ; !
+Balbay:Balbay NP-COG-MF ; !
+Yeşaya:Yeşaya NP-ANT-M ; !
+Filipus:Filipus NP-ANT-M ; !
 Mia:Mia NP-ANT-F ; !
 Misa:Misa NP-ANT-F ; !
 Kate:Kate NP-ANT-F ; !
@@ -12937,6 +12958,10 @@ France:France NP-TOP ; !
 Kı:Kı NP-TOP ; !
 Cumgal:Cumgal NP-TOP ; !
 Nookat:Nookat NP-TOP ; !
+Mississipi:Mississipi NP-TOP ; !
+Sokuluk:Sokuluk NP-TOP ; !
+BDT:BDT NP-TOP ; !
+Kadamcay:Kadamcay NP-TOP ; !
 
 Çankırı:Çankırı NP-TOP ; !
 Adıyaman:Adıyaman NP-TOP ; !
@@ -22812,6 +22837,9 @@ bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 
 
 LEXICON Adverbs
+anında:anında ADV1 ; !
+tam:tam ADV1 ; !
+
 dek:dek ADV1 ; !
 yazın:yazın ADV1 ; !
 umumiyetle:umumiyetle ADV1 ; !
@@ -23468,6 +23496,7 @@ sulandır:sulandır V-IR-TV ; !
 cihazlan:cihazlan V-IR-IV ; !
 isimlendiril:isimlendiril V-IR-IV ; !
 uzmanlaş:uzmanlaş V-IR-IV ; !
+dua% et:dua% et V-IR-IV ; !
 
 defnedil:defnedil V-IR-IV ; !
 çağrıl:çağrıl V-IR-IV ; !
