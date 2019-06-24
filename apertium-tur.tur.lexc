@@ -3005,6 +3005,7 @@ birisi:birisi PRON-QNT ; ! "somebody"
 birisi:birisi PRON-PERS ; ! "somebody"
 bazıları:bazıları PRON-QNT ; ! "some of them"
 çoğu:çoğ%>%{s%}%{I%} PRON-QNT-ÇOĞU ; ! ""
+bazı:bazı PRON-QNT ; !
 
 birbiri:birbir PRON-RECIP ; ! "each other" 
 öz:öz PRON-REF ; ! "self"
@@ -3158,6 +3159,12 @@ Profesör:Profesör TIT ; ! ""
 
 
 LEXICON Nouns
+vesvese:vesvese N1 ; !
+Rabbi:Rabbi N1 ; !
+fakir:fakir N1 ; !
+kılış:kılış N1 ; !
+yalnız:yalnız N1 ; !
+
 Eyyubi:Eyyubi N1 ; !
 takviye:takviye N1 ; !
 Manasçı:Manasçı N1 ; !
@@ -4049,6 +4056,7 @@ Veliullah:Veliullah NP-ANT-M ; !
 Abdülhak:Abdülhak NP-ANT-M ; !
 Alp:Alp NP-ANT-M ; !
 İsmet:İsmet NP-ANT-M ; !
+Davud:Davud NP-ANT-M ; !
 
 Nail:Nail NP-ANT-M ; !
 Ramil:Ramil NP-ANT-M ; !
@@ -4696,6 +4704,10 @@ büyük:büyük N1 ; !
 Nobel:Nobel NP-AL ; !
 bei:bei NP-AL ; !
 Çoban:Çoban NP-AL ; !
+İncil:İncil NP-AL ; !
+Korintliler:Korintliler NP-AL ; !
+Tevrat:Tevrat NP-AL ; !
+Pesah:Pesah NP-AL ; !
 
 Kutadgu% Bilig:Kutadgu% Bilig NP-AL ; !
 Muhakemetul% Lugateyn:Muhakemetul% Lugateyn NP-AL ; !
@@ -4943,6 +4955,10 @@ tarumar:tarumar N1 ; !
 ekser:ekser N1 ; !
 
 kutsal% yer:kutsal% yer N1 ; !
+salih:salih A1 ; !
+zahir:zahir A1 ; !
+nasip:nasip A1 ; !
+
 hakir:hakir A1 ; !
 enerji:enerji A1 ; !
 iyi:iyi A1 ; !
@@ -11779,6 +11795,7 @@ Drôme:Drôme NP-TOP ; !
 Tirol:Tirol NP-TOP ; !
 Pegas:Pegas NP-TOP ; !
 Côtes:Côtes NP-TOP ; !
+Yeruşalim:Yeruşalim NP-TOP ; !
 
 Calabria:Calabria NP-TOP ; !
 Dôme:Dôme NP-TOP ; !
@@ -22839,6 +22856,9 @@ bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 LEXICON Adverbs
 anında:anında ADV1 ; !
 tam:tam ADV1 ; !
+zira:zira ADV1 ; !
+işitince:işitince ADV1 ; !
+ruhen:ruhen ADV1 ; !
 
 dek:dek ADV1 ; !
 yazın:yazın ADV1 ; !
@@ -25572,6 +25592,7 @@ hop:hop INTERJ ; !
 selam:selam INTERJ ; !
 yeter:yeter INTERJ ; !
 günaydın:günaydın INTERJ ; !
+değil% mi% ki:değil% mi% ki INTERJ ; !
 
 off:off INTERJ ; !
 of:of INTERJ ; !
