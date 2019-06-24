@@ -3160,11 +3160,16 @@ Profesör:Profesör TIT ; ! ""
 
 LEXICON Nouns
 vesvese:vesvese N1 ; !
+parça:parça N1 ; !
+kat:kat N1 ; !
+
 Rabbi:Rabbi N1 ; !
 fakir:fakir N1 ; !
 kılış:kılış N1 ; !
 yalnız:yalnız N1 ; !
-
+parça:parça N1 ; !
+iyi:iyi N1 ; !
+kat:kat N1 ; !
 Eyyubi:Eyyubi N1 ; !
 takviye:takviye N1 ; !
 Manasçı:Manasçı N1 ; !
@@ -4958,6 +4963,12 @@ kutsal% yer:kutsal% yer N1 ; !
 salih:salih A1 ; !
 zahir:zahir A1 ; !
 nasip:nasip A1 ; !
+cinli:cinli A1 ; !
+ibretli:ibretli A1 ; !
+şahit:şahit A1 ; !
+vaz:vaz A1 ; !
+dindaş:dindaş A1 ; !
+
 
 hakir:hakir A1 ; !
 enerji:enerji A1 ; !
@@ -4981,7 +4992,10 @@ beleş:beleş A1 ; !
 
 okuyucu:okuyucu N1 ; !
 olumsuz:olumsuz N1 ; !
-
+fakih:fakih N1 ; !
+ruhban:ruhban N1 ; !
+dindaş:dindaş N1 ; !
+vaaz:vaaz N1 ; !
 votka:votka N1 ;
 pişmanlık:pişmanlık N1 ;
 süt:süt N1 ; ! " milke"
@@ -12261,6 +12275,8 @@ Alpamys:Alpamys NP-ANT-M ; !
 Ospan:Ospan NP-ANT-M ; !
 June:June NP-ANT-F ; !
 Hatun:Hatun NP-ANT-F ; !
+Bine:Bine NP-ANT-M ; !
+Adem:Adem NP-ANT-M ; !
 
 Lyudmila:Lyudmila NP-ANT-F ; !
 Rimma:Rimma NP-ANT-F ; !
@@ -22859,6 +22875,8 @@ tam:tam ADV1 ; !
 zira:zira ADV1 ; !
 işitince:işitince ADV1 ; !
 ruhen:ruhen ADV1 ; !
+burada:burada ADV1 ; !
+herkes:herkes ADV1 ; !
 
 dek:dek ADV1 ; !
 yazın:yazın ADV1 ; !
@@ -23494,7 +23512,7 @@ ne:ne ADV-ITG ; !Use/MT
 nerde:nerde ADV-ITG ; !Use/MT
 vakit% aralığında:vakit% aralığında ADV3 ; ! Use/MT
 nereye:nereye ADV-ITG ; !
-
+nere:nere ADV-ITG ; !
 
 
 LEXICON Verbs
