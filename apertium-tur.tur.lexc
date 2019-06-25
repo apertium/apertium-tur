@@ -4062,6 +4062,7 @@ Abdülhak:Abdülhak NP-ANT-M ; !
 Alp:Alp NP-ANT-M ; !
 İsmet:İsmet NP-ANT-M ; !
 Davud:Davud NP-ANT-M ; !
+Luka:Luka NP-ANT-M ; !
 
 Nail:Nail NP-ANT-M ; !
 Ramil:Ramil NP-ANT-M ; !
@@ -4968,11 +4969,15 @@ ibretli:ibretli A1 ; !
 şahit:şahit A1 ; !
 vaz:vaz A1 ; !
 dindaş:dindaş A1 ; !
+faş:faş A1 ; !
+bahtlı:bahtlı A1 ; !
+
+adak:adak A1 ; !
+tayin:tayin A1 ; !
 
 
 hakir:hakir A1 ; !
 enerji:enerji A1 ; !
-iyi:iyi A1 ; !
 aktarma:aktarma N1 ; !
 terkibi:terkibi A1 ; !
 subtropik:subtropik A1 ; !
@@ -11810,6 +11815,7 @@ Tirol:Tirol NP-TOP ; !
 Pegas:Pegas NP-TOP ; !
 Côtes:Côtes NP-TOP ; !
 Yeruşalim:Yeruşalim NP-TOP ; !
+Yahudiye:Yahudiye NP-TOP ; !
 
 Calabria:Calabria NP-TOP ; !
 Dôme:Dôme NP-TOP ; !
@@ -12376,6 +12382,8 @@ Semetey:Semetey NP-ANT-M ; !
 Ana:Ana NP-ANT-F ; !
 Super% G4:Super% G4 NP-AL ; !
 Gazela:Gazela NP-AL ; !
+Zebur:Zebur NP-AL ; !
+
 Getty% Images:Getty% Images NP-ORG ; !
 Red:Red NP-AL ; !
 Group:Group NP-AL ; !
@@ -20515,7 +20523,7 @@ tektonik:tektonik A1 ; !
 kere:kere A1 ; !
 kurallı:kurallı A1 ; !
 katlı:katlı A1 ; !
-iyi:iyi A1 ; !
+
 bertaraf:bertaraf A1 ; !
 
 genetik:genetik A1 ; !
@@ -20526,7 +20534,6 @@ amiyane:amiyane A1 ; !
 iki:iki A1 ; !
 sabırlı:sabırlı A1 ; !
 tasviri:tasviri A1 ; !
-iyi:iyi A1 ; !
 yerinde:yerinde A1 ; !
 zelzele:zelzele A1 ; !
 bile% bile:bile% bile A1 ; !
@@ -20555,7 +20562,6 @@ görevli:görevli A1 ; !
 enerji% endüstrisi:enerji% endüstrisi A1 ; !
 eksi:eksi A1 ; !
 parıltı:parıltı A1 ; !
-iyi:iyi A1 ; !
 gazi:gazi A1 ; !
 merak:merak A1 ; !
 mevsimlik:mevsimlik A1 ; !
@@ -21500,7 +21506,7 @@ yılki:yılki A1 ; ! "yearly"
 ikili:ikili A2 ; ! "dual"
 belli:belli A2 ; ! "evident"
 iyi:İyi A1 ; ! "good" ! Dir/LR
-iyi:iyi A1 ; ! "good"
+iyi:iyi A1 ; ! 
 ilmi:ilmi A1 ; ! ""
 razı:razı A1 ; ! ""
 çökmüş:çökmüş A2 ; ! ""
@@ -22877,6 +22883,7 @@ işitince:işitince ADV1 ; !
 ruhen:ruhen ADV1 ; !
 burada:burada ADV1 ; !
 herkes:herkes ADV1 ; !
+olunca:olunca ADV1 ; !
 
 dek:dek ADV1 ; !
 yazın:yazın ADV1 ; !
@@ -25611,6 +25618,7 @@ selam:selam INTERJ ; !
 yeter:yeter INTERJ ; !
 günaydın:günaydın INTERJ ; !
 değil% mi% ki:değil% mi% ki INTERJ ; !
+şimdi:şimdi INTERJ ; !
 
 off:off INTERJ ; !
 of:of INTERJ ; !
