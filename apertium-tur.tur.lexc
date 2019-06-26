@@ -4593,7 +4593,7 @@ hadis:hadis N1 ; !
 teşhis:teşhis N1 ; !
 sis:sis N1 ; !
 Fars:Fars N1 ; !
-kanaat:kanaat N1 ; !
+kanaat:kanaat%{ь%} N1 ; !
 şeriat:şeriat N1 ; !
 mümkünat:mümkünat N1 ; !
 tesisat:tesisat N1 ; !
@@ -5021,7 +5021,7 @@ savılık:savcılık N1 ; ! Use/MT
 donanma:donanma N1 ; ! "fleet"
 katip:katip%{v%} N1 ; ! "scribe"
 terk:terk N1 ; ! "abandonment"
-beraat:beraat N1 ; ! "exoneration"
+beraat:beraat%{ь%} N1 ; ! "exoneration"
 saha:saha N1 ; ! "field"
 tenge:tenge N1 ; !Use/MT
 oy:oy N1 ; ! "vote"
@@ -7706,7 +7706,7 @@ içerik:içerik N1 ; ! "ingredient"
 içgüdü:içgüdü N1 ; ! "instinct"
 içim:içim N1 ; ! "taste"
 içki:içki N1 ; ! "beverage"
-icraat:icraat N1 ; ! "performance"
+icraat:icraat%{ь%} N1 ; ! "performance"
 icra:icra N1 ; ! "fulfilment"
 içtima:içtima N1 ; ! "gathering"
 idame:idame N1 ; ! "maintenance"
@@ -10512,7 +10512,7 @@ car:car N1 ; ! ""
 çatışma:çatışma N1 ; ! ""
 çelenk:çelenk N1 ; ! ""
 çelik:çelik N1 ; ! ""
-cemaat:cemaat N1 ; ! ""
+cemaat:cemaat%{ь%} N1 ; ! ""
 çember:çember N1 ; ! ""
 cemiyet:cemiyet N1 ; ! ""
 çengel:çengel N1 ; ! ""
@@ -10986,7 +10986,7 @@ telef:telef N1 ;
 rağbet:rağbet N1 ;
 teneke:teneke N1 ;
 tanker:tanker N1 ;
-itaat:itaat N1 ;
+itaat:itaat%{ь%} N1 ;
 adaletsizlik:adaletsizlik N1 ;
 tasvir:tasvir N1 ;
 şerit:şerit N1 ;
@@ -11034,7 +11034,7 @@ zabit:zabit N1 ;
 tarik:tarik N1 ;
 milletçi:milletçi N1 ;
 tuman:tuman N1 ;
-cemaatçı:cemaatçı N1 ;
+cemaatçi:cemaatçi N1 ;
 insaniyetlik:insaniyetlik N1 ;
 milletçilik:milletçilik N1 ;
 tertipsizlik:tertipsizlik N1 ;
@@ -11201,7 +11201,7 @@ italyan:italyan N1 ;
 yenilik:yenilik%{v%} N1 ;
 kalınlık:kalınlık%{v%} N1 ;
 arnavutça:arnavutça N1 ;
-ziraat:ziraat N1 ;
+ziraat:ziraat%{ь%} N1 ;
 silindir:silindir N1 ;
 trambolin:trambolin N1 ;
 traktörcü:traktörcü N1 ;
@@ -11585,7 +11585,6 @@ yeşillik:yeşillik%{v%} N1 ; ! ""
 yükseklik:yükseklik%{v%} N1 ; ! ""
 yutum:yutum N1 ; ! ""
 zahire:zahire N1 ; ! ""
-zanaat:zanaat N1 ; ! ""
 zelzele:zelzele N1 ; ! ""
 ziyalılar:ziyalılar N1 ; ! ""
 ziyan:ziyan N1 ; ! ""
@@ -11772,7 +11771,7 @@ gösteri:gösteri N1 ;
 uranyum:uranyum N1 ;
 piyes:piyes N1 ;
 kadro:kadro N1 ;
-zanaat:zanaat N1 ;
+zanaat:zanaat%{ь%} N1 ;
 tasarım:tasarım N1 ;
 orkestra:orkestra N1 ;
 furya:furya N1 ;
