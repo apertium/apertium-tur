@@ -2743,6 +2743,8 @@ kıyasla:kıyasla POST ; !
 kıyaslandığında:kıyaslandığında POST ; !
 sırasında:sırasında POST ; !
 yoluyla:yoluyla POST ; !
+uğruna:uğruna POST ; !
+misali:misali POST ; !
 
 vs:vs POST ; !
 aşkın:aşkın POST ; !
@@ -2827,6 +2829,7 @@ hariç:hariç POST ; ! "besides"
 
 LEXICON  Conjunctions
 ise:ise CC ; !
+hâlbuki:hâlbuki CC ; !
 
 ile% de:ile% de CC ;
 için% de:için% de CC ;
@@ -3162,6 +3165,29 @@ LEXICON Nouns
 vesvese:vesvese N1 ; !
 parça:parça N1 ; !
 kat:kat N1 ; !
+sema:sema N1 ; !
+şakird:şakird N1 ; !
+lütuf:lütuf N1 ; !
+tembih:tembih N1 ; !
+Fısıh:Fısıh N1 ; !
+Mecdelli:Mecdelli N1 ; !
+İsrailoğulları:İsrailoğulları N1 ; !
+helâk:helâk N1 ; !
+kelâm:kelâm N1 ; !
+âlim:âlim N1 ; !
+başrahip:başrahip N1 ; !
+rüzgâr:rüzgâr N1 ; !
+günahkâr:günahkâr N1 ; !
+inkâr:inkâr N1 ; !
+dinar:dinar N1 ; !
+Ferisi:Ferisi N1 ; !
+hapis:hapis N1 ; !
+evlât:evlât N1 ; !
+itimat:itimat N1 ; !
+ebet:ebet N1 ; !
+alâmet:alâmet N1 ; !
+selâmet:selâmet N1 ; !
+yeryüzü:yeryüzü N1 ; !
 
 Rabbi:Rabbi N1 ; !
 fakir:fakir N1 ; !
@@ -4715,6 +4741,10 @@ bei:bei NP-AL ; !
 Korintliler:Korintliler NP-AL ; !
 Tevrat:Tevrat NP-AL ; !
 Pesah:Pesah NP-AL ; !
+Death:Death NP-AL ; !
+Football:Football NP-AL ; !
+Deadpool:Deadpool NP-AL ; !
+Mezmurlar:Mezmurlar NP-AL ; !
 
 Kutadgu% Bilig:Kutadgu% Bilig NP-AL ; !
 Muhakemetul% Lugateyn:Muhakemetul% Lugateyn NP-AL ; !
@@ -4960,6 +4990,8 @@ dindar:dindar N1 ; !
 tarumar:tarumar N1 ; !
 
 ekser:ekser N1 ; !
+öteki:öteki A1 ; !
+hâkim:hâkim A1 ; !
 
 kutsal% yer:kutsal% yer N1 ; !
 salih:salih A1 ; !
@@ -4972,6 +5004,18 @@ vaz:vaz A1 ; !
 dindaş:dindaş A1 ; !
 faş:faş A1 ; !
 bahtlı:bahtlı A1 ; !
+sâlih:sâlih A1 ; !
+tâbi:tâbi A1 ; !
+ebedî:ebedî A1 ; !
+ilâhî:ilâhî A1 ; !
+semavî:semavî A1 ; !
+dünyevî:dünyevî A1 ; !
+lâyık:lâyık A1 ; !
+düzlemsel:düzlemsel A1 ; !
+mahkûm:mahkûm A1 ; !
+kâdir:kâdir A1 ; !
+takdis:takdis A1 ; !
+caiz:caiz A1 ; !
 
 adak:adak A1 ; !
 tayin:tayin A1 ; !
@@ -12283,6 +12327,30 @@ June:June NP-ANT-F ; !
 Hatun:Hatun NP-ANT-F ; !
 Bine:Bine NP-ANT-M ; !
 Adem:Adem NP-ANT-M ; !
+Hirodiya:Hirodiya NP-ANT-F ; !
+Elizabet:Elizabet NP-ANT-F ; !
+Barnaba:Barnaba NP-ANT-M ; !
+Barabba:Barabba NP-ANT-M ; !
+Kayafa:Kayafa NP-ANT-M ; !
+Agrippa:Agrippa NP-ANT-M ; !
+Hananya:Hananya NP-ANT-M ; !
+Yakub:Yakub NP-ANT-M ; !
+Zebedi:Zebedi NP-ANT-M ; !
+Melkisedek:Melkisedek NP-ANT-M ; !
+Hezekiyel:Hezekiyel NP-ANT-M ; !
+Danyel:Danyel NP-ANT-M ; !
+Saul:Saul NP-ANT-M ; !
+Âdem:Âdem NP-ANT-M ; !
+Nikodim:Nikodim NP-ANT-M ; !
+Simun:Simun NP-ANT-M ; !
+Andreas:Andreas NP-ANT-M ; !
+Silas:Silas NP-ANT-M ; !
+Hirodes:Hirodes NP-ANT-M ; !
+Apollos:Apollos NP-ANT-M ; !
+İstefanos:İstefanos NP-ANT-M ; !
+Kornelius:Kornelius NP-ANT-M ; !
+Festus:Festus NP-ANT-M ; !
+İskariyot:İskariyot NP-ANT-M ; !
 
 Lyudmila:Lyudmila NP-ANT-F ; !
 Rimma:Rimma NP-ANT-F ; !
@@ -13003,6 +13071,15 @@ Mississipi:Mississipi NP-TOP ; !
 Sokuluk:Sokuluk NP-TOP ; !
 BDT:BDT NP-TOP ; !
 Kadamcay:Kadamcay NP-TOP ; !
+Yafa:Yafa NP-TOP ; !
+Şeria:Şeria NP-TOP ; !
+Ahaya:Ahaya NP-TOP ; !
+Beytanya:Beytanya NP-TOP ; !
+Sezariye:Sezariye NP-TOP ; !
+Samiriye:Samiriye NP-TOP ; !
+Mecdel:Mecdel NP-TOP ; !
+Beytlehem:Beytlehem NP-TOP ; !
+Kefarnahum:Kefarnahum NP-TOP ; !
 
 Çankırı:Çankırı NP-TOP ; !
 Adıyaman:Adıyaman NP-TOP ; !
@@ -22884,6 +22961,10 @@ ruhen:ruhen ADV1 ; !
 burada:burada ADV1 ; !
 herkes:herkes ADV1 ; !
 olunca:olunca ADV1 ; !
+hattâ:hattâ ADV1 ; !
+madem:madem ADV1 ; !
+üstelik:üstelik ADV1 ; !
+tez:tez ADV1 ; !
 
 dek:dek ADV1 ; !
 yazın:yazın ADV1 ; !
@@ -23542,6 +23623,8 @@ cihazlan:cihazlan V-IR-IV ; !
 isimlendiril:isimlendiril V-IR-IV ; !
 uzmanlaş:uzmanlaş V-IR-IV ; !
 dua% et:dua% et V-IR-IV ; !
+vakfol:vakfol V-IR-IV ; !
+vakfet:vakfet V-IR-TV ; !
 
 defnedil:defnedil V-IR-IV ; !
 çağrıl:çağrıl V-IR-IV ; !
@@ -25619,6 +25702,8 @@ yeter:yeter INTERJ ; !
 günaydın:günaydın INTERJ ; !
 değil% mi% ki:değil% mi% ki INTERJ ; !
 şimdi:şimdi INTERJ ; !
+hâşâ:hâşâ INTERJ ; !
+âmin:âmin INTERJ ; !
 
 off:off INTERJ ; !
 of:of INTERJ ; !
@@ -25713,6 +25798,7 @@ kg:kg ABBR ; ! ""
 km:km ABBR ; ! ""
 cm:cm ABBR ; ! ""
 vb:vb ABBR ; ! ""
+bkz:bkz ABBR ; !
 
 A%.:A%. ABBR ; ! ""
 B%.:B%. ABBR ; ! ""
