@@ -1462,6 +1462,8 @@ neyi:neyi PRON-ITG-INFL ; ! "what"
 ne:ne PRON-ITG-INFL ; ! "what"
 niye:niye PRON-ITG-INFL ; ! "what"
 kim:kim PRON-ITG-INFL ; ! "who"
+kim%<prn%>%<itg%>%<px3sp%>:kimi%>%{s%}%{I%}%{n%} CASE-ETC ; ! 
+kim%<prn%>%<itg%>%<px3pl%>:kimiler%>%{I%}%{n%} CASE-ETC ; ! 
 hangi:hangi PRON-ITG-INFL ; ! "which"
 nedir:nedir PRON-ITG-INFL ;
 nere:ner PRON-ITG-NERE ; ! ""
@@ -3707,7 +3709,7 @@ arpa:arpa N1 ;
 Dünya:Dünya N1 ;
 Arapça:Arapça N1 ;
 Farsça:Farsça N1 ;
-düzenle:düzenle N1 ;
+düzenleme:düzenleme N1 ;
 deme:deme N1 ;
 ekleme:ekleme N1 ;
 işleme:işleme N1 ;
