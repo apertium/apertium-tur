@@ -1082,12 +1082,22 @@ GER-N-INFL-COMMON ;
 
 LEXICON ABESSIVE-POSTPOSITION
 
-%+sız%<post%>:%>s%{I%}z # ;
+!%+sız%<post%>:%>s%{I%}z # ;
+%+sız%<post%>:%>s%{I%}z PP-PERS ;
 
 LEXICON LI-POSTPOSITION
 
-%+lı%<post%>:%>l%{I%} # ;
+!%+lı%<post%>:%>l%{I%} # ;
+%+lı%<post%>:%>l%{I%} PP-PERS ;
 
+LEXICON PP-PERS
+# ;
+%<p1%>%<sg%>:%>%{y%}%{I%}m  # ;
+%<p2%>%<sg%>:%>s%{I%}n  # ;
+%<p3%>%<sg%>:%>%{D%}%{I%}r  # ;
+%<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
+%<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
+%<p3%>%<pl%>:%>l%{A%}r  # ;
 
 LEXICON FULL-NOMINAL-INFLECTION
 
