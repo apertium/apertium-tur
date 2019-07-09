@@ -212,6 +212,9 @@ SELECT Finite IF
 	(1 EOS) ;
 	# as opposed to Ger readings
 
+REMOVE Pl1 IF (0 Px1Sg) ;
+#arabamız =! we are my car #FIXME
+
 # select finite subreading at the end of a sentence
 SELECT Sub:1 Finite IF
 	#(0/1 Ger)                # FIXME: why does this only work when commented
