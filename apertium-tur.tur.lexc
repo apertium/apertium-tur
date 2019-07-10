@@ -24649,10 +24649,9 @@ cilala:cilala V-IR-TV ; ! "polish" (T)
 çözümle:çözümle V-IR-TV ; ! "analyse" (T)
 çürü:çürü V-IR-TV ; ! "rot" (T)
 damgala:damgala V-IR-TV ; ! "imprint" (T)
-!de:d%{e%} V-TV-T-IR ; ! "say"
-de:d%{e%} V-IR-TV ; ! "say"
-de:d%{e%} V-IR-IV ; ! "say"
-de:de V-IR-TV ;
+de:de V-IR-TV ; ! "say"
+de:de V-IR-IV ; ! "say"
+de:d%{e%} V-IR-TV ; ! Dir/LR
 demirle:demirle V-IR-TV ; ! "anchor" (T)
 dene:dene V-IR-TV ; ! "try" (T)
 denetle:denetle V-IR-TV ; ! "check" (T)
