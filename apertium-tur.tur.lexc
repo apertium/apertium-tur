@@ -4951,7 +4951,7 @@ derivasyon:derivasyon N1 ;
 akıllılık:akıllılık N1 ;
 bulvar:bulvar N1 ;
 bağımlılık:bağımlılık N1 ;
-devir:devir N1 ;
+devir:devir N1 ; ! Dir/LR
 soket:soket N1 ;
 tacik:tacik N1 ;
 müzekere:müzekere N1 ;
@@ -10086,8 +10086,8 @@ neodim:neodim N1 ; ! "neodim"
 nervür:nervür N1 ; ! "rib"
 neşe:neşe N1 ; ! "cheer"
 neşet:neşet N1 ; ! "birth"
-nesil:nesil N1 ; ! "breed"
-nesil:nesil N1 ; ! "generation"
+nesil:nes%{u%}l N1 ; ! "breed"
+nesil:nesil N1 ; ! "generation" Dir/LR
 nesir:nesir N1 ; ! "prose"
 neşir:neşir N1 ; ! "publication"
 nesne:nesne N1 ; ! "object"
@@ -23639,6 +23639,7 @@ uzmanlaş:uzmanlaş V-IR-IV ; !
 dua% et:dua% et V-IR-IV ; !
 vakfol:vakfol V-IR-IV ; !
 vakfet:vakfet V-IR-TV ; !
+yerine% gel:yerine% gel V-IR-IV ;  ! Use/MT
 
 defnedil:defnedil V-IR-IV ; !
 çağrıl:çağrıl V-IR-IV ; !
@@ -25704,7 +25705,6 @@ ağrıt:ağrıt V-IR-TV ;
 yansıt:yansıt V-IR-TV ;
 solu:solu V-IR-TV ;
 uy:uy V-AR-TV ;
-yakınlaş:yakınlaş V-IR-TV ;
 deş:deş V-AR-TV ;
 görüş:görüş V-IR-TV ;
 çalış:çalış V-IR-TV ;
