@@ -1038,10 +1038,12 @@ LEXICON POSS-REAL
 
 %<px1sg%>:%>%{i%}m CASE-ETC ;                
 %<px2sg%>:%>%{i%}n CASE-ETC ;                 
-%<px3sp%>:%>%{s%}%{I%}%{n%} CASE-ETC ; 
+%<px3sp%>%<nom%>:%>%{s%}%{I%} CLIT-GENERAL ; 
+%<px3sp%>:%>%{s%}%{I%}%{n%} CASE-ETC-NONOM ; 
 %<px1pl%>:%>%{i%}m%{I%}z CASE-ETC ;           
 %<px2pl%>:%>%{i%}n%{I%}z CASE-ETC ;      
-%<px3pl%>:%>l%{A%}r%{I%}%{n%} CASE-ETC ;  
+%<px3pl%>%<nom%>:%>l%{A%}r%{I%} CLIT-GENERAL ;  
+%<px3pl%>:%>l%{A%}r%{I%}%{n%} CASE-ETC-NONOM ;  
 
 LEXICON GER-POSS-REAL
 
