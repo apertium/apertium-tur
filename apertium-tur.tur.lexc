@@ -23621,12 +23621,13 @@ nere:nere ADV-ITG ; !
 LEXICON Verbs
 gayret% et:gayret% et V-AR-IV ; !
 üfle:üfle V-IR-TV ; !
-vefat% et:vefat% et V-IR-IV ; !
+vefat% et:vefat% et V-IR-IV ; ! 
 tayin% ol:tayin% ol V-IR-IV ; !
 kesinleş:kesinleş V-IR-IV ; !
 tasla:tasla V-IR-TV ; !
 ayaklan:ayaklan V-IR-IV ; !
 kürekle:kürekle V-IR-TV ; !
+saldır:saldır V-IR-IV ; !
 kanunu% yürürlüğe% sok:kanunu% yürürlüğe% sok V-IR-TV ; !
 sahneleştir:sahneleştir V-IR-TV ; !
 ifade% et:ifade% et V-IR-TV ; !
@@ -24296,7 +24297,6 @@ ata:ata V-IR-TV ; ! "assign" (T)
 atıl:atıl V-IR-TV ; ! "rush" (T)
 atıştır:atıştır V-IR-TV ; ! "stoke" (T)
 ayarla:ayarla V-IR-TV ; ! "adjust" (T)
-ayrıl:ayrıl V-IR-TV ; ! "leave" (T)
 ayrımsa:ayrımsa V-IR-TV ; ! "perceive" (T)
 ayır:ayır V-IR-TV ; ! "separate" (T)
 azımsa:azımsa V-IR-TV ; ! "underestimate" (T)
