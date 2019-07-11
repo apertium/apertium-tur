@@ -770,7 +770,7 @@ LEXICON COPULA-MIMIS-COP
 %+i%<cop%>: COPULA-AOR ;
 !%+i%<cop%>%<aor%>: COPULA-P3-PERS ;
 !%+i%<cop%>%<aor%>: COPULA-PERS ;
-%+i%<cop%>: COPULA-PERS ;
+!%+i%<cop%>: COPULA-PERS ; !commented out because it leads to <cop>-with-no-tense readings
 
 LEXICON COPULA-P3-PERS
 
@@ -779,15 +779,15 @@ LEXICON COPULA-P3-PERS
 %<p3%>%<pl%>:%>l%{A%}r # ;
 
 
-LEXICON COPULA-PERS
+!LEXICON COPULA-PERS
 
-%<p1%>%<sg%>:%>%{y%}%{I%}m  # ;
-%<p2%>%<sg%>:%>s%{I%}n  # ;
+!%<p1%>%<sg%>:%>%{y%}%{I%}m  # ;
+!%<p2%>%<sg%>:%>s%{I%}n  # ;
 ! %<p3%>%<frm%>%<sg%>:%>%{D%}%{I%}r # ;
-%<p3%>%<sg%>: # ;  ! FIXME!!!
-%<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
-%<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
-%<p3%>%<pl%>:%>l%{A%}r # ;  ! FIXME!!!
+!%<p3%>%<sg%>: # ;  ! FIXME!!!
+!%<p1%>%<pl%>:%>%{y%}%{I%}z  # ;
+!%<p2%>%<pl%>:%>s%{I%}n%{I%}z  # ;
+!%<p3%>%<pl%>:%>l%{A%}r # ;  ! FIXME!!!
 
 !LEXICON COPULA-NOMI
 !%+i%<cop%>:%>%{y%} COPULA-TNS ;
