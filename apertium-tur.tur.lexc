@@ -21178,9 +21178,9 @@ basiretli:basiretli A1 ; !
 değişime% açık:değişime% açık A1 ; ! Dir/RL ! Use/MT
 gecelik:gecelik A1 ; !
 ormanlık:ormanlık A1 ; !
-olan:olan A1 ; !
-yapan:yapan A1 ; !
-veren:veren A1 ; !
+olan:olan A1 ; ! Use/MT
+yapan:yapan A1 ; ! Use/MT
+veren:veren A1 ; ! Use/MT
 değer:değer A1 ; !
 dördüncü:dördüncü A1 ; !
 değişmez:değişmez A1 ; !
