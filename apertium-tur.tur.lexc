@@ -23376,6 +23376,7 @@ münferiden:münferiden ADV3 ; ! "solely"
 kısaca:kısaca ADV1 ; !
 topluca:topluca ADV1 ; !
 bir% anda:bir% anda ADV1 ; !
+bir% süre:bir% süre ADV1 ; !
 daha% fazla:daha% fazla ADV1 ; !
 eksik:eksik ADV1 ; !
 kendi:kendi ADV1 ; !
@@ -23395,10 +23396,10 @@ sizce:sizce ADV1 ; !
 ona% göre:ona% göre ADV1 ; !
 
 olmasa% da:olmasa% da ADV1 ; ! Use/MT
-gerek% ki:gerek% ki ADV1 ; !
-demek% ki:demek% ki ADV1 ; !
+gerek% ki:gerek% ki ADV1 ; ! ! Use/MT
+demek% ki:demek% ki ADV1 ; ! ! Use/MT
 kim:kim ADV1 ; !
-hele% ki:hele% ki ADV1 ; !
+hele% ki:hele% ki ADV1 ; ! ! Use/MT
 hızla:hızla ADV1 ; !
 bayadır:bayadır ADV1 ; !
 beyhude:beyhude ADV1 ; !
@@ -23412,11 +23413,11 @@ bir:bir ADV1 ; !
 gelince:gelince ADV1 ; !
 iki:iki ADV1 ; !
 yüzükoyun:yüzükoyun ADV1 ; !
-yalnız% sana:yalnız% sana ADV1 ; !
-diyerek:diyerek ADV1 ; !
+yalnız% sana:yalnız% sana ADV1 ; ! Use/MT
+diyerek:diyerek ADV1 ; ! 
 niye:niye ADV1 ; !
-bir% gün:bir% gün ADV1 ; !
-o% kadar:o% kadar ADV1 ; !
+bir% gün:bir% gün ADV1 ; ! ! Use/MT
+o% kadar:o% kadar ADV1 ; ! 
 doğuştan:doğuştan ADV1 ; !
 gece% gündüz:gece% gündüz ADV1 ; !
 titizlikle:titizlikle ADV1 ; !
@@ -23426,41 +23427,41 @@ panikle:panikle ADV1 ; !
 kılmış% gibi:kılmış% gibi ADV1 ; !
 yarım% yamalak:yarım% yamalak ADV1 ; !
 zorlanarak:zorlanarak ADV1 ; !
-durmadan:durmadan ADV1 ; !
+durmadan:durmadan ADV1 ; ! ! Use/MT 
 örneğin:örneğin ADV1 ; !
-bakıp:bakıp ADV1 ; !
-çıkıp:çıkıp ADV1 ; !
-yapıp:yapıp ADV1 ; !
-bakışıp:bakışıp ADV1 ; !
-şimdiye% kadar:şimdiye% kadar ADV1 ; !
+bakıp:bakıp ADV1 ; ! ! Use/MT
+çıkıp:çıkıp ADV1 ; ! ! Use/MT
+yapıp:yapıp ADV1 ; ! ! Use/MT
+bakışıp:bakışıp ADV1 ; ! ! Use/MT 
+şimdiye% kadar:şimdiye% kadar ADV1 ; ! ! Use/MT
 ömür% boyu:ömür% boyu ADV1 ; !
 soluksuz:soluksuz ADV1 ; !
 
 oracıkta:oracıkta ADV1 ; !
 hafifçe:hafifçe ADV1 ; !
-vermeden:vermeden ADV1 ; !
+vermeden:vermeden ADV1 ; ! Use/MT 
 olsa% olsa:olsa% olsa ADV1 ; !
 diye:diye ADV1 ; !
 aşırı:aşırı ADV1 ; !
-olup:olup ADV1 ; !
+olup:olup ADV1 ; ! Use/MT
 hızlıca:hızlıca ADV1 ; !
 iyi:iyi ADV1 ; !
 rahatça:rahatça ADV1 ; !
 az% önce:az% önce ADV1 ; !
 özgürce:özgürce ADV1 ; !
 arkasından:arkasından ADV1 ; !
-geçmeden:geçmeden ADV1 ; !
+geçmeden:geçmeden ADV1 ; ! ! Use/MT
 girip:girip ADV1 ; !
 der% demez:der% demez ADV1 ; !
 mümkün% olduğunca:mümkün% olduğunca ADV1 ; !
 yakın% zamanda:yakın% zamanda ADV1 ; !
 usulca:usulca ADV1 ; !
-istemeden:istemeden ADV1 ; !
+istemeden:istemeden ADV1 ; ! Use/MT
 istemsiz:istemsiz ADV1 ; !
 bir% bir:bir% bir ADV1 ; !
 durup:durup ADV1 ; !s
 gönüllü:gönüllü ADV1 ; !
-konuda:konuda ADV1 ; !
+konuda:konuda ADV1 ; ! Use/MT
 boyunca:boyunca ADV1 ; !
 art% arda:art% arda ADV1 ; !
 gizlice:gizlice ADV1 ; !
@@ -23490,7 +23491,7 @@ dayanarak:dayanarak ADV1 ; !
 yaklaşık:yaklaşık ADV1 ; !
 geçen% yıl:geçen% yıl ADV1 ; !
 sağlam:sağlam ADV1 ; !
-kalmadan:kalmadan ADV1 ; !
+kalmadan:kalmadan ADV1 ; ! Use/MT
 hiçbir% zaman:hiçbir% zaman ADV1 ; !
 öğlen:öğlen ADV1 ; !
 itibaren:itibaren ADV1 ; !
@@ -23498,9 +23499,9 @@ itibaren:itibaren ADV1 ; !
 sakin:sakin ADV1 ; !
 kesin:kesin ADV1 ; !
 her% gün:her% gün ADV1 ; !
-kalmayıp:kalmayıp ADV1 ; !
-bu% kadar:bu% kadar ADV1 ; !
-şu% kadar:şu% kadar ADV1 ; !
+kalmayıp:kalmayıp ADV1 ; ! Use/MT
+bu% kadar:bu% kadar ADV1 ; ! Use/MT
+şu% kadar:şu% kadar ADV1 ; ! Use/MT
 olumlu:olumlu ADV1 ; !
 hiçbir% türlü:hiçbir% türlü ADV1 ; !
 belirtisiz:belirtisiz ADV1 ; !
