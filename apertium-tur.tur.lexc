@@ -3718,9 +3718,8 @@ taşıma:taşıma N1 ;
 sufi:sufi N1 ; !
 müslümanlaşma:müslümanlaşma N1 ;
 arpa:arpa N1 ;
-Dünya:Dünya N1 ;
-Arapça:Arapça N1 ;
-Farsça:Farsça N1 ;
+Dünya:Dünya N1 ; ! Dir/LR
+
 düzenleme:düzenleme N1 ;
 deme:deme N1 ;
 ekleme:ekleme N1 ;
@@ -3797,12 +3796,10 @@ kuru:kuru N1 ;
 ok-yay:ok-yay N1 ;
 Aciz:Aciz N1 ;
 filiz:filiz N1 ;
-İngiliz:İngiliz N1 ;
 işsiz:işsiz N1 ;
 Temmuz:Temmuz N1 ;
 ünsüz:ünsüz N1 ;
-Kırgız:Kırgız N1 ;
-Fransız:Fransız N1 ;
+
 başına% geç:başına% geç N1 ;
 ünlü:ünlü N1 ;
 güçlü:güçlü N1 ;
@@ -3818,9 +3815,10 @@ Mısırlı:Mısırlı N1 ;
 yaşlı:yaşlı N1 ;
 tasarı:tasarı N1 ;
 Tanrı:Tanrı N1 ;
+Tanrı:tanrı N1 ; ! "" Dir/LR
 hava% sahası:hava% sahası N1 ;
 sıra% arkadaş:sıra% arkadaş N1 ;
-Tibetçe:Tibetçe N1 ; !
+
 Parisli:Parisli N1 ; !
 Sincanlı:Sincanlı N1 ; !
 tarihi% eser:tarihi% eser N1 ; !
@@ -4468,6 +4466,7 @@ arqa:arqa N1 ; !
 mülahaza:mülahaza N1 ; !
 erbab:erbab N1 ; !
 Rab:Rab N1 ; !
+Rab:Rabb N1 ; ! Dir/RL
 sayaç:sayaç N1 ; !
 pirinç:pirinç N1 ; !
 oruç:oruç N1 ; !
@@ -5216,13 +5215,12 @@ yasa:yasa N1 ; ! "law"
 etkinlik:etkinlik%{v%}  N1 ; ! "activity"
 seviye:seviye N1 ; ! "level"
 tehlike:tehlike N1 ; ! "danger"
-Ortodoks:Ortodoks N1 ; ! "orthodox"
+
 olasılık:olasılık%{v%} N1 ; ! "probability"
 saye:saye N1 ; ! "help"
 festival:festival%{ь%} N1 ; ! "festival"
 net:net N1 ; ! "net"
-müslüman:Müslüman N1 ; ! "muslim"
-müslüman:müslüman N1 ; ! "" ! Dir/LR
+
 ün:ün N1 ; ! "reputation"
 yürürlük:yürürlük%{v%} N1 ; ! "operation"
 liderlik:liderlik%{v%} N1 ; ! "leadership"
@@ -8205,7 +8203,7 @@ izzetüikram:izzetüikram N1 ; ! "entertainment"
 jaguar:jaguar N1 ; ! "jaguar"
 jambon:jambon N1 ; ! "ham"
 janr:janr N1 ; ! "genre"
-tanrı:tanrı N1 ; ! ""
+
 jant:jant N1 ; ! "rim"
 jelatin:jelatin N1 ; ! "jelly"
 latin:latin N1 ;
@@ -11277,77 +11275,120 @@ Kırım% Tatarı:kırım% tatar N2 ;
 Kırım% Tatarcası:Kırım% Tatarca N2 ;
 !Kırımtatar:kırımtatar  N3 ; ! ""
 uygur:Uygur N3 ;
+uygur:uygur N3 ; ! Dir/LR
 türk:Türk N3 ; ! "Turk"
+türk:Türk N3 ; ! "Turk" Dir/LR
 hırvat:Hırvat N3 ; ! ""
+hırvat:hırvat N3 ; ! "" Dir/LR
 arnavut:Arnavut N3 ; ! ""
+arnavut:arnavut N3 ; ! ""  Dir/LR
 bulgar:Bulgar N3 ; ! ""
+bulgar:bulgar N3 ; ! ""  Dir/LR
 makedon:Makedon N3 ; ! ""
+makedon:makedon N3 ; ! ""  Dir/LR
 romen:Romen N3 ; ! ""
+romen:romen N3 ; ! ""  Dir/LR
 kürt:Kürt N3 ; ! ""
+kürt:kürt N3 ; ! ""  Dir/LR
 ingiliz:İngiliz N3 ; ! ""
+ingiliz:ingiliz N3 ; ! "" Dir/LR
 israilli:İsrailli N3 ; !
+israilli:israilli N3 ; ! Dir/LR
 rus:Rus N1 ; ! ""
+rus:rus N1 ; ! "" Dir/LR
 italyan:İtalyan N3 ; ! ""
+italyan:italyan N3 ; ! "" Dir/LR
 mısırlı:Mısırlı N3 ; ! "Egyptian" 
-Sırp:Sırp N3 ; ! ""
+sırp:Sırp N3 ; ! ""
+sırp:sırp N3 ; ! "" Dir/LR
 rum:Rum N3 ; ! "Greek"
+rum:rum N3 ; ! "Greek" Dir/LR
 fransız:Fransız N3 ; ! ""
+fransız:fransız N3 ; ! "" Dir/LR
 sloven:Sloven N3 ; ! ""
 ermeni:Ermeni N3 ; ! ""
+ermeni:ermeni N3 ; ! "" Dir/LR
 ispanyol:İspanyol N3 ; ! ""
-ispanyolca:İspanyolca N3 ; ! ""
+ispanyol:ispanyol N3 ; ! "" Dir/LR
 arap:Arap N3 ; ! ""
+arap:arap N3 ; ! "" Dir/LR
+
 isveçli:İsveçli N3 ; ! "Swede"
+isveçli:isveçli N3 ; ! "Swede"
 özbek:Özbek N3 ; ! "Uzbek"
+özbek:özbek N3 ; ! "Uzbek" Dir/LR
+
 japon:Japon N3 ; ! "Japanese"
+japon:japon N3 ; ! "Japanese" Dir/LR
 türkmen:Türkmen N3 ; ! "Turkmen"
-mongol:Mongol N3 ; ! "Mongol"
+türkmen:türkmen N3 ; ! "Turkmen" Dir/LR
+moğol:Moğol N3 ; ! "Mongol"
+moğol:moğol N3 ; ! "Mongol" Dir/LR
 alman:Alman N3 ; ! "German"
+alman:alman N3 ; ! "German" Dir/LR
 kırgız:kırgız N1 ; ! "" ! Dir/LR
 kırgız:Kırgız N3 ; ! "Kirghiz"
 gürcistanlı:Gürcistanlı N3 ; ! "Georgian"
 romanyalı:Romanyalı N3 ; ! "Romanian"
 nogay:Nogay N3 ; ! ""
 roman:Roman N3 ; ! "roman"
+roman:roman N3 ; ! "roman" Dir/LR
 yugoslav:Yugoslav N1 ; ! ""
+yugoslav:yugoslav N1 ; ! "" Dir/LR
+boşnak:boşnak N1 ; ! "" Dir/LR
 boşnak:Boşnak N1 ; ! ""
-amerikan:Amerikan N1 ; ! ""
 yunanlı:Yunanlı N1 ; ! ""
+yunan:yunan N1 ; ! "" Dir/LR
 yunan:Yunan N1 ; ! ""
+tatar:tatar N1 ; ! "" Dir/LR
 tatar:Tatar N1 ; ! ""
 osmanlı:Osmanlı N1 ; ! ""
+osmanlı:osmanlı N1 ; ! "" Dir/LR
 samanid:Samanid N1 ; ! ""
 yahudi:Yahudi N1 ; ! ""
+yahudi:yahudi N1 ; ! ""  Dir/LR
 ukraynalı:Ukraynalı N1 ; ! ""
 afgan:Afgan N1 ; ! ""
+afgan:afgan N1 ; ! "" Dir/LR
 filistinli:Filistinli N1 ; ! ""
+avrupalı:avrupalı N1 ; ! "" Dir/LR
 avrupalı:Avrupalı N1 ; ! ""
 bosnalı:Bosnalı N1 ; ! ""
 kosovalı:Kosovalı N1 ; ! ""
 iraklı:Iraklı N1 ; ! ""
 avusturyalı:Avusturyalı N1 ; ! ""
-afrikalı:Afrikalı N1 ; ! "African"
+afrikalı:afrikalı N1 ; ! "African" Dir/LR
+afrikalı:Afrikalı N1 ; ! "African"  
 slav:Slav N1 ; ! "slavic"
+slav:slav N1 ; ! "slavic" Dir/LR
 habeş:Habeş N1 ; ! "ethiopian"
-lybialı:Lybialı N1 ; ! "lybian"
+libyalı:Libyalı N1 ; ! "lybian"
 amerikalı:Amerikalı N1 ; ! "American"
+amerikalı:amerikalı N1 ; ! "American" Dir/LR
+amerikan:amerikan N1 ; !  "American" Dir/LR
+amerikan:Amerikan N1 ; !  "American"
 karadağlı:Karadağlı N1 ; ! "montenegrino"
 macar:Macar N1 ; ! ""hungarian"
+macar:macar N1 ; ! ""hungarian" Dir/LR
 islamcı:İslamcı N1 ; ! "islamist"
+islamcı:islamcı N1 ; ! "islamist" Dir/LR
 kıbrıslı:Kıbrıslı N1 ; ! "cypriot"
 belgradlı:Belgradlı N1 ; ! "belgradian ?"
-hıristiyan:Hıristiyan N1 ; ! "Christian"
-hıristiyan:hıristiyan N1 ; !  Dir/LR
-hıristiyan:Hristiyan N1 ; ! Dir/LR
-hıristiyan:hristiyan N1 ; ! Dir/LR
+müslüman:Müslüman N1 ; ! "muslim"
+müslüman:müslüman N1 ; ! "" ! Dir/LR
+hristiyan:Hıristiyan N1 ; ! "Christian" Dir/LR
+hristiyan:hıristiyan N1 ; !  Dir/LR
+hristiyan:Hristiyan N1 ; ! 
+hristiyan:hristiyan N1 ; !  Dir/LR
 katolik:Katolik%{v%} N1 ; ! " catholic"
 katolik:katolik%{v%} N1 ; ! " catholic" Dir/LR
+ortodoks:Ortodoks N1 ; ! "orthodox"
+ortodoks:ortodoks N1 ; ! "orthodox" Dir/LR
 çinli:Çinli N1 ; ! "chinese"
 hollandalı:Hollandalı N1 ; ! "dutch"
 türkmen:Türkmen N3 ;
 latin:Latin N3 ;
 hun:Hun N3 ;
-moğol:Moğol N1 ; ! ""
 han:Han N3 ;
 
 
@@ -11362,15 +11403,20 @@ rusça:Rusça N1 ; ! "russian"
 arapça:Arapça N1 ; ! "arabic"
 arnavutça:Arnavutça N1 ; ! "albanian"
 portekizce:Portekizce N1 ; ! "portuguese"
-
-
+tibetçe:Tibetçe N1 ; !
+fransızca:Fransızca N1 ;
+ukraynaca:Ukraynaca N1 ;
+ispanyolca:İspanyolca N1 ; ! ""
+arapça:Arapça N1 ;
+farsça:Farsça N1 ;
 !!!!SPECIAL!!!!
+
 
 ton:ton N1 ; ! "ton"
 !km:km N1 ;  ! "km" ! FIXME: abbr
 !cm:cm N1 ;  ! "cm"
 
-
+şehvet:şehvet N1 ; ! "lust"
 icracı:icracı N1 ;
 sorgu:sorgu N1 ;
 idareci:idareci N1 ;
@@ -11443,8 +11489,7 @@ alümin:alümin N1 ; ! ""
 ardıç:ardıç N1 ; ! ""
 arefe:arefe N1 ; ! ""
 arman:arman N1 ; ! ""
-fransızca:fransızca N1 ;
-ukraynaca:ukraynaca N1 ;
+
 arslan:arslan N1 ; ! ""
 aşhane:aşhane N1 ; ! ""
 asimilasyon:asimilasyon N1 ; ! ""
@@ -14109,7 +14154,7 @@ Fenike:Fenike NP-TOP ; ! ""
 Filipinler:Filipinler NP-TOP ; ! ""
 Filistin:Filistin NP-TOP ; ! ""
 Firavun:Firavun NP-TOP ; ! ""
-Fransız:Fransız NP-TOP ; ! ""
+Fransız:Fransız NP-TOP ; ! "" are we sure this is a Top.?
 Galler:Galler NP-TOP ; ! ""
 Gambiya:Gambiya NP-TOP ; ! ""
 Gdańsk:Gdańsk NP-TOP ; ! ""
