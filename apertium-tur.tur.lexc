@@ -3262,7 +3262,7 @@ kat:kat N1 ; !
 Sanskrit:Sanskrit N1 ; !
 emzirme:emzirme N1 ; !
 tortu:tortu N1 ; !
-hüda:hüda N1 ; !
+
 pranga:pranga N1 ; !
 anıklama:anıklama N1 ; !
 terma:terma N1 ; !
@@ -3758,43 +3758,32 @@ yüksek:yüksek N1 ;
 Tacik:Tacik N1 ;
 Katolik:Katolik N1 ;
 mal% mülk:mal% mülk N1 ;
-Türk:Türk N1 ;
+Türk:Türk N1 ; ! Use/MT
 Mısır% Memlük:Mısır% Memlük N1 ;
 alçak% gönüllülük:alçak% gönüllülük N1 ;
 Aralık:Aralık N1 ;
-Moğol:Moğol N1 ;
 Eylül:Eylül N1 ;
 peygamber% aleyhisselam:peygamber% aleyhisselam N1 ;
 İslam:İslam N1 ;
 azam:azam N1 ;
 Ekim:Ekim N1 ;
-Rum:Rum N1 ;
 kürküm:kürküm N1 ;
 hadım:hadım N1 ;
-Han:Han N1 ;
-Alman:Alman N1 ;
+
 Haziran:Haziran N1 ;
 Nisan:Nisan N1 ;
 Ramazan:Ramazan N1 ;
-Türkmen:Türkmen N1 ;
-Latin:Latin N1 ;
-Latince:Latince N1 ;
-Japon:Japon N1 ;
-Hun:Hun N1 ;
+
 odun:odun N1 ;
 genç% kadın:genç% kadın N1 ;
-Arap:Arap N1 ;
-Tatar:Tatar N1 ;
 okur% yazar:okur% yazar N1 ;
-Uygur:Uygur N1 ;
+
 tandır:tandır N1 ;
 Ağustos:Ağustos N1 ;
-Rus:Rus N1 ;
 Mayıs:Mayıs N1 ;
 Şubat:Şubat N1 ;
 Sovyet:Sovyet N1 ;
 Mart:Mart N1 ;
-Kürt:Kürt N1 ;
 insan% vücut:insan% vücut N1 ;
 insan% hak:insan% hak N1 ;
 şakayık:şakayık N1 ; !
@@ -4013,8 +4002,8 @@ Tevrat:Tevrat N1 ; !
 ehli% beyt:ehli% beyt N1 ; !
 beyt:beyt N1 ; !
 bilge:bilge N1 ; !
-İsrailli:İsrailli N1 ; !
-Yunan:Yunan N1 ; !
+
+
 kör:kör N1 ; !
 mat:mat N1 ; !
 gez:gez N1 ; !
@@ -4022,7 +4011,7 @@ gez:gez N1 ; !
 rıza:rıza N1 ; !
 tavaf:tavaf N1 ; !
 düşmanlık:düşmanlık N1 ; !
-Hristiyan:Hristiyan N1 ; !
+
 itikat:itikat N1 ; !
 taç:taç N1 ; !
 umre:umre N1 ; !
@@ -4035,7 +4024,8 @@ düşünür:düşünür N1 ; !
 uğraş:uğraş N1 ; !
 bint:bint N1 ; !
 sefa:sefa N1 ; !
-Hüda:Hüda N1 ; !
+Hüda:Hüda N1 ; ! 
+Hüda:hüda N1 ; ! Dir/LR
 sömürgeci:sömürgeci N1 ; !
 karalık:karalık N1 ; !
 yazlık:yazlık N1 ; !
@@ -10536,7 +10526,6 @@ alın:al%{u%}n N1 ; ! ""
 alkış:alkış N1 ; ! ""
 amiral:amiral%{ь%} N1 ; ! ""
 aralık²:aralık N1 ; ! ""
-arap:arap N1 ; ! ""
 ar:ar N1 ; ! ""
 arazi:arazi N1 ; ! ""
 arık:arık N1 ; ! ""
@@ -11183,7 +11172,6 @@ seferberlik:seferberlik N1 ;
 otogar:otogar N1 ;
 teğmen:teğmen N1 ;
 çabukluk:çabukluk%{v%} N1 ;
-ingiliz:ingiliz N1 ;
 federalleştirme:federalleştirme N1 ;
 ustalık:ustalık N1 ;
 tafsilat:tafsilat N1 ;
@@ -11288,16 +11276,17 @@ poliklinik:poliklinik%{v%} N1 ;
 Kırım% Tatarı:kırım% tatar N2 ;
 Kırım% Tatarcası:Kırım% Tatarca N2 ;
 !Kırımtatar:kırımtatar  N3 ; ! ""
-
-türk:türk N3 ; ! "Turk"
-hırvat:hırvat N3 ; ! ""
-arnavut:arnavut N3 ; ! ""
+uygur:Uygur N3 ;
+türk:Türk N3 ; ! "Turk"
+hırvat:Hırvat N3 ; ! ""
+arnavut:Arnavut N3 ; ! ""
 bulgar:Bulgar N3 ; ! ""
-makedon:makedon N3 ; ! ""
-romen:romen N3 ; ! ""
-kürt:kürt N3 ; ! ""
-ingiliz:ingiliz N3 ; ! ""
-rus:rus N1 ; ! ""
+makedon:Makedon N3 ; ! ""
+romen:Romen N3 ; ! ""
+kürt:Kürt N3 ; ! ""
+ingiliz:İngiliz N3 ; ! ""
+israilli:İsrailli N3 ; !
+rus:Rus N1 ; ! ""
 italyan:İtalyan N3 ; ! ""
 mısırlı:Mısırlı N3 ; ! "Egyptian" 
 Sırp:Sırp N3 ; ! ""
@@ -11308,7 +11297,7 @@ ermeni:Ermeni N3 ; ! ""
 ispanyol:İspanyol N3 ; ! ""
 ispanyolca:İspanyolca N3 ; ! ""
 arap:Arap N3 ; ! ""
-isveçli:isveçli N3 ; ! "Swiss"
+isveçli:İsveçli N3 ; ! "Swede"
 özbek:Özbek N3 ; ! "Uzbek"
 japon:Japon N3 ; ! "Japanese"
 türkmen:Türkmen N3 ; ! "Turkmen"
@@ -11324,6 +11313,7 @@ yugoslav:Yugoslav N1 ; ! ""
 boşnak:Boşnak N1 ; ! ""
 amerikan:Amerikan N1 ; ! ""
 yunanlı:Yunanlı N1 ; ! ""
+yunan:Yunan N1 ; ! ""
 tatar:Tatar N1 ; ! ""
 osmanlı:Osmanlı N1 ; ! ""
 samanid:Samanid N1 ; ! ""
@@ -11347,18 +11337,24 @@ islamcı:İslamcı N1 ; ! "islamist"
 kıbrıslı:Kıbrıslı N1 ; ! "cypriot"
 belgradlı:Belgradlı N1 ; ! "belgradian ?"
 hıristiyan:Hıristiyan N1 ; ! "Christian"
-hıristiyan:hıristiyan N1 ; ! ! Dir/LR
+hıristiyan:hıristiyan N1 ; !  Dir/LR
+hıristiyan:Hristiyan N1 ; ! Dir/LR
+hıristiyan:hristiyan N1 ; ! Dir/LR
 katolik:Katolik%{v%} N1 ; ! " catholic"
+katolik:katolik%{v%} N1 ; ! " catholic" Dir/LR
 çinli:Çinli N1 ; ! "chinese"
 hollandalı:Hollandalı N1 ; ! "dutch"
-
-
+türkmen:Türkmen N3 ;
+latin:Latin N3 ;
+hun:Hun N3 ;
+moğol:Moğol N1 ; ! ""
+han:Han N3 ;
 
 
 
 
 !!!!LANGUAGES!!!!!
-
+latince:Latince N1 ;
 İngilizce:İngilizce N1 ; ! "english"
 türkçe:Türkçe N1 ; ! "turkish"
 ingilizce:ingilizce N1 ;
@@ -11366,7 +11362,6 @@ rusça:Rusça N1 ; ! "russian"
 arapça:Arapça N1 ; ! "arabic"
 arnavutça:Arnavutça N1 ; ! "albanian"
 portekizce:Portekizce N1 ; ! "portuguese"
-
 
 
 !!!!SPECIAL!!!!
@@ -11527,7 +11522,7 @@ meyva:meyva N1 ; ! ""
 minder:minder N1 ; ! ""
 min:min N1 ; ! ""
 m:m ABBR ; ! ""
-moğol:moğol N1 ; ! ""
+
 muallimlik:muallimlik%{v%} N1 ; ! ""
 müezzin:müezzin N1 ; ! ""
 nazariye:nazariye N1 ; ! ""
