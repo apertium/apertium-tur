@@ -3757,7 +3757,6 @@ yüksek:yüksek N1 ;
 Tacik:Tacik N1 ;
 Katolik:Katolik N1 ;
 mal% mülk:mal% mülk N1 ;
-Türk:Türk N1 ; ! Use/MT
 Mısır% Memlük:Mısır% Memlük N1 ;
 alçak% gönüllülük:alçak% gönüllülük N1 ;
 Aralık:Aralık N1 ;
@@ -8080,7 +8079,8 @@ iskonto:iskonto N1 ; ! "discount"
 iskonto:iskonto N1 ; ! "reduction"
 ıslahat:ıslahat N1 ; ! "improvement"
 ıslah:ıslah N1 ; ! "improvement"
-islam:islam N1 ; ! "islam"
+islam:İslam N1 ; ! "islam"
+islam:islam N1 ; ! "islam" Dir/LR
 işleç:işleç N1 ; ! "operator"
 işlem:işlem N1 ; ! "operation"
 işlem:işlem N1 ; ! "transaction"
@@ -24118,7 +24118,7 @@ zannet:zannet V-AR-TV ; ! "suppose" (DIR)
 zikret:zikret V-AR-TV ; ! "commemorate, mention" (DIR)
 abart:abart V-IR-TV ; ! "exaggerate" (DIR)
 aç:aç V-AR-TV ; ! "open" (DIR)
-affet:affet V-AR-TV ; ! "forgive" (DIR)
+affet:affet%{v%} V-AR-TV ; ! "forgive" (DIR)
 ak:ak V-AR-IV ; ! "flow, leak" (DIR)
 akset:akset V-AR-TV ; ! "be heard" (DIR)
 aktar:aktar V-IR-TV ; ! "transfer" (DIR)
