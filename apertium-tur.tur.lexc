@@ -9614,7 +9614,7 @@ mezat:mezat N1 ; ! "auction"
 mezbaha:mezbaha N1 ; ! "butchery"
 meze:meze N1 ; ! "starter"
 mezgit:mezgit N1 ; ! "whiting fish"
-mezhep:mezhep N1 ; ! "creed"
+mezhep:mezhep%{v%} N1 ; ! "creed"
 meziyet:meziyet N1 ; ! "quality"
 mezuniyet:mezuniyet N1 ; ! "graduation"
 mezun:mezun N1 ; ! "graduate"
@@ -12380,6 +12380,7 @@ Ospan:Ospan NP-ANT-M ; !
 June:June NP-ANT-F ; !
 Hatun:Hatun NP-ANT-F ; !
 Bine:Bine NP-ANT-M ; !
+Bünyamin:Bünyamin NP-ANT-M ; !
 Adem:Adem NP-ANT-M ; !
 Hirodiya:Hirodiya NP-ANT-F ; !
 Elizabet:Elizabet NP-ANT-F ; !
@@ -12418,6 +12419,7 @@ Alişer:Alişer NP-ANT-M ; !
 Uluğbey:Uluğbey NP-ANT-M ; !
 Venatici:Venatici NP-COG-MF ; !
 Edouard:Edouard NP-ANT-M ; !
+Netanyahu:Netanyahu NP-COG-MF ; !
 Stephan:Stephan NP-ANT-M ; !
 Goethe:Goethe NP-COG-MF ; !
 Hadji:Hadji NP-COG-MF ; !
