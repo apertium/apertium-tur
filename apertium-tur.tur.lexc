@@ -4465,8 +4465,8 @@ arqa:arqa N1 ; !
 Şinhua:Şinhua N1 ; !
 mülahaza:mülahaza N1 ; !
 erbab:erbab N1 ; !
-Rab:Rab N1 ; !
-Rab:Rabb N1 ; ! Dir/RL
+Rab%<n%>%<nom%>:Rab # ; !
+Rab:Rabb%{ь%} N1 ; !
 sayaç:sayaç N1 ; !
 pirinç:pirinç N1 ; !
 oruç:oruç N1 ; !
@@ -4849,7 +4849,6 @@ Anadolu% Selçuklu:Anadolu% Selçuklu N1 ; !
 yapay:yapay N1 ; !
 eksiksiz:eksiksiz N1 ; !
 
-hakk:hakk N1 ; ! "regarding"
 zapt:zapt N1 ;
 beyit:beyit N1 ;
 
@@ -7289,8 +7288,9 @@ hain:hain N1 ; ! "traitor"
 hakan:hakan N1 ; ! "khan"
 hakaret:hakaret N1 ; ! "curse"
 hakem:hakem N1 ; ! "referee"
-hak:hak N1 ; ! "right"
-hak:hakk N1 ; ! "right"
+hak%<n%>%<nom%>:hak # ; ! "right" 
+hak%<n%>%<pl%>%<nom%>:haklar N1 ; ! "right" 
+hak:hakk N1 ; ! "right" FIXME - How to make sure this skips nom case?
 haki:haki N1 ; ! "khaki"
 hakikat:hakikat%{ь%} N1 ; ! "essence"
 hakikat:hakikat%{ь%} N1 ; ! "fact"
