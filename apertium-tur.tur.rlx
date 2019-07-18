@@ -194,6 +194,9 @@ REMOVE Post IF (-1 BOS) ;
 REMOVE A + Subst IF (1 ("bir") LINK 1C N); 
     ## Sonra arkadaşlarımı evde güzel bir öğle yemeğine davet eder, onlara ne kadar değer verdiğimi anlatırdım.
 
+REMOVE Sub:1 Post (0 A) ; 
+#tatlı, not tat+lı
+
 SELECT Det (0 ("bir")) (-1C A) (1C N); 
     ## Sonra arkadaşlarımı evde güzel bir öğle yemeğine davet eder, onlara ne kadar değer verdiğimi anlatırdım.
 
