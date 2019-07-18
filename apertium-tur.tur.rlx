@@ -215,8 +215,8 @@ SELECT Finite IF
 	(1 EOS) ;
 	# as opposed to Ger readings
 
-REMOVE Pl1 IF (0 Px1Sg) ;
-#arabamız =! we are my car #FIXME
+REMOVE Sub:1 Pl1 IF (0 Px1Sg) ;
+#arabamız =! we are my car #FIXME this is px1sg.pl1 is almost non-existent so it can be used without context, but to disambiguate other possessive/person suffix clashes we need sth else
 
 # select finite subreading at the end of a sentence
 SELECT Sub:1 Finite IF
