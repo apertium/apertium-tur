@@ -194,8 +194,14 @@ REMOVE Post IF (-1 BOS) ;
 REMOVE A + Subst IF (1 ("bir") LINK 1C N); 
     ## Sonra arkadaşlarımı evde güzel bir öğle yemeğine davet eder, onlara ne kadar değer verdiğimi anlatırdım.
 
-REMOVE Sub:1 Post (0 A) ; 
+REMOVE Sub:1 Post IF (0 A) ; 
 #tatlı, not tat+lı
+
+REMOVE Acc IF (-1 Gen) ; 
+#çiçeklerin kızılı
+
+REMOVE Acc IF (NOT 0* Tv) ; 
+#remove accusative if there is no TV in the sentence
 
 SELECT Det (0 ("bir")) (-1C A) (1C N); 
     ## Sonra arkadaşlarımı evde güzel bir öğle yemeğine davet eder, onlara ne kadar değer verdiğimi anlatırdım.
