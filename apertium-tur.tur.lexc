@@ -3449,8 +3449,6 @@ Nenets:Nenets N1 ; !
 tadilat:tadilat N1 ; !
 hasat:hasat N1 ; !
 mart:mart N1 ; !
-başkurt:başkurt N1 ; !
-temmuz:temmuz N1 ; !
 
 programlama:programlama N1 ; !
 sanal:sanal N1 ; !
@@ -3703,10 +3701,7 @@ Yanfon:Yanfon N1 ; !
 yemeklik:yemeklik N1 ;
 vitamin% B:vitamin% B N1 ;
 vitamin% C:vitamin% C N1 ;
-M:M N1 ;
-Rumca:Rumca N1 ;
 karı% koca:karı% koca N1 ;
-Fransızca:Fransızca N1 ;
 toplama:toplama N1 ;
 yasama:yasama N1 ;
 tedavi% olma:tedavi% olma N1 ;
@@ -3797,7 +3792,6 @@ ok-yay:ok-yay N1 ;
 Aciz:Aciz N1 ;
 filiz:filiz N1 ;
 işsiz:işsiz N1 ;
-Temmuz:Temmuz N1 ;
 ünsüz:ünsüz N1 ;
 
 başına% geç:başına% geç N1 ;
@@ -11305,6 +11299,7 @@ sırp:Sırp N3 ; ! ""
 sırp:sırp N3 ; ! "" Dir/LR
 rum:Rum N3 ; ! "Greek"
 rum:rum N3 ; ! "Greek" Dir/LR
+başkurt:Başkurt N3 ; !
 fransız:Fransız N3 ; ! ""
 fransız:fransız N3 ; ! "" Dir/LR
 sloven:Sloven N3 ; ! ""
@@ -11411,6 +11406,8 @@ ukraynaca:Ukraynaca N1 ;
 ispanyolca:İspanyolca N1 ; ! ""
 arapça:Arapça N1 ;
 farsça:Farsça N1 ;
+rumca:Rumca N1 ;
+
 !!!!SPECIAL!!!!
 
 
