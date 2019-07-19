@@ -768,6 +768,7 @@ COPULA-COND ;
 LEXICON COPULA-MIMIS-COP
 %+i%<cop%>:%>%{y%} COPULA-MIMIS-DUB ;
 %+i%<cop%>: COPULA-AOR ;
+%+i%<cop%>%<dub%>:%>%{y%}m%{I%}ş COPULA-AOR ;
 !%+i%<cop%>%<aor%>: COPULA-P3-PERS ;
 !%+i%<cop%>%<aor%>: COPULA-PERS ;
 !%+i%<cop%>: COPULA-PERS ; !commented out because it leads to <cop>-with-no-tense readings
