@@ -75,6 +75,7 @@ LIST Finite = evid ifi past aor pres fut ;
 #LIST Finite = ifi ;
 LIST Aor = aor ;
 LIST AorFin = (aor VPers) ;
+LIST Coop = coop ;
 
 SET POSS = Px1Sg | Px2Sg | Px3Sp | Px1Pl | Px2Pl ; 
 
@@ -166,6 +167,15 @@ REMOVE Gpr IF
 
 REMOVE Gen IF
 	(1 ("kadar")) ;
+
+
+REMOVE Ger IF (0 Coop) ;
+#erişmek, yarışmak etc
+
+REMOVE Coop IF (0C V) ;
+#erişmek, yarışmak etc
+
+
 
 REMOVE Pron + Nom IF (0 Det) (1C N) ;
     ## Bunlar, [0]bu hafta içinde dünyanın dört bir yanından İtalyan başkentine akın etmiş olan yaklaşık dört milyon hacı ve yaslı kalabalığa katıldı.
@@ -424,6 +434,7 @@ REMOVE Subst + Nom IF (0 (*) - Subst - Nom) ;
 REMOVE Ger IF (NOT 0 POSS) (0 Cop LINK 0/1 V) ;
 
 REMOVE Cop IF (-1 BOS) (0 Cop LINK 0/1 N - Pl) (0 N + Pl) (1 EOS) ;
+
 
 
 REMOVE Cop IF (0 (@HARGLE));
