@@ -20,6 +20,7 @@ LIST Interj = ij ;
 LIST Post = post ; 
 LIST Cop = cop ; 
 LIST Qst = qst ; 
+LIST Neg = neg ; 
 
 LIST Tv = (v tv) (v iv caus) (=tv) ;
 
@@ -128,6 +129,9 @@ SELECT Adv IF (0 ("yarın")) ;
 
 REMOVE Cog + Px2Sg IF (0 Cog + Gen) ; 
     ## [0]Cinciç'in anısına Belgrad'da binlerce kişi toplandı.
+
+SELECT Imper IF (0 Neg) (1 EOS) ;
+#erişme, yarışma etc
 
 REMOVE Imper IF (NOT 0C Imper) ;
     ## Bunlar, bu hafta içinde dünyanın dört bir yanından İtalyan başkentine [0]akın etmiş olan yaklaşık dört milyon hacı ve yaslı kalabalığa katıldı.
