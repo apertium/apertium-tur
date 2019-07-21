@@ -173,13 +173,18 @@ REMOVE Gen IF
 	(1 ("kadar")) ;
 
 
-REMOVE Ger IF (0 Coop) ;
+
+SELECT Finite IF (0 Coop);
 #erişmek, yarışmak etc
 
 REMOVE Coop IF (0C V) ;
 #erişmek, yarışmak etc
 
+REMOVE Ger IF (0 Coop) ;
+#erişmek, yarışmak etc
 
+REMOVE N IF (0 Finite) ; 
+#görüştü
 
 REMOVE Pron + Nom IF (0 Det) (1C N) ;
     ## Bunlar, [0]bu hafta içinde dünyanın dört bir yanından İtalyan başkentine akın etmiş olan yaklaşık dört milyon hacı ve yaslı kalabalığa katıldı.
