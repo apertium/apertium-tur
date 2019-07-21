@@ -10757,7 +10757,7 @@ sakal:sakal N1 ; ! ""
 şakirt:şakirt N1 ; ! ""
 sal:sal N1 ; ! ""
 saltanat:saltanat N1 ; ! ""
-sancak:sancak N1 ; ! ""
+sancak:sancak%{v%} N1 ; ! ""
 şapka:şapka N1 ; ! ""
 şarap:şarap%{v%} N1 ; ! ""
 saray:saray N1 ; ! ""
@@ -10879,7 +10879,7 @@ uç:uç N1 ; ! ""
 uğur:uğur N1 ; ! ""
 ulak:ulak%{v%} N1 ; ! ""
 ulus:ulus N1 ; ! ""
-ümit:ümit N1 ; ! ""
+ümit:ümit%{v%} N1 ; ! ""
 ünite:ünite N1 ; ! ""
 un:un N1 ; ! ""
 uranyum:uranyum N1 ; ! ""
@@ -11033,12 +11033,13 @@ adaletsizlik:adaletsizlik N1 ;
 tasvir:tasvir N1 ;
 şerit:şerit N1 ;
 fesat:fesat N1 ;
+fesat:fesat%{v%} N1 ; ! Dir/LR
 teselli:teselli N1 ;
 tabut:tabut N1 ;
 vaftiz:vaftiz N1 ;
 tezkere:tezkere N1 ;
-serbestlik:serbestlik N1 ;
-mertlik:mertlik N1 ;
+serbestlik:serbestlik%{v%} N1 ;
+mertlik:mertlik%{v%} N1 ;
 turşu:turşu N1 ;
 tümen:tümen N1 ;
 terzi:terzi N1 ;
@@ -11062,14 +11063,14 @@ elektron:elektron N1 ;
 artist:artist N1 ;
 müessese:müessese N1 ;
 yakıt:yakıt N1 ;
-vatandaşlık:vatandaşlık N1 ;
+vatandaşlık:vatandaşlık%{v%} N1 ;
 voyvoda:voyvoda N1 ;
 şeyh:şeyh N1 ;
 nogay:nogay N1 ;
 teşkilâtçı:teşkilâtçı N1 ;
 mahsulat:mahsulat N1 ;
 avdet:avdet N1 ;
-devletçilik:devletçilik N1 ;
+devletçilik:devletçilik%{v%} N1 ;
 cinayetçi:cinayetçi N1 ;
 tuğra:tuğra N1 ;
 zabit:zabit N1 ;
@@ -11077,9 +11078,9 @@ tarik:tarik N1 ;
 milletçi:milletçi N1 ;
 tuman:tuman N1 ;
 cemaatçi:cemaatçi N1 ;
-insaniyetlik:insaniyetlik N1 ;
-milletçilik:milletçilik N1 ;
-tertipsizlik:tertipsizlik N1 ;
+insaniyetlik:insaniyetlik%{v%} N1 ;
+milletçilik:milletçilik%{v%} N1 ;
+tertipsizlik:tertipsizlik%{v%} N1 ;
 şamata:şamata N1 ;
 bent:bent N1 ;
 kâinat:kâinat N1 ;
@@ -11093,7 +11094,7 @@ gülistan:gülistan N1 ;
 aitlik:aitlik%{v%} N1 ;
 taun:taun N1 ;
 riyaziyatçı:riyaziyatçı N1 ;
-insaniyetsizlik:insaniyetsizlik N1 ;
+insaniyetsizlik:insaniyetsizlik%{v%} N1 ;
 felekiyat:felekiyat N1 ; ! is this a word?
 cesaretlik:cesaretlik N1 ; ! is this a word?
 terbiyeci:terbiyeci N1 ;
@@ -11101,9 +11102,9 @@ tabilik:tabilik N1 ;
 şikâyetçi:şikâyetçi N1 ;
 plato:plato N1 ;
 antisemitizm:antisemitizm N1 ;
-medeniyetlik:medeniyetlik N1 ;
+medeniyetlik:medeniyetlik%{v%} N1 ;
 hattat:hattat N1 ;
-çeşitlik:çeşitlik N1 ;
+çeşitlik:çeşitlik%{v%} N1 ;
 bereketlik:bereketlik N1 ; 
 apostrof:apostrof N1 ;
 tornacı:tornacı N1 ;
@@ -11377,6 +11378,7 @@ hristiyan:Hıristiyan N1 ; ! "Christian" Dir/LR
 hristiyan:hıristiyan N1 ; !  Dir/LR
 hristiyan:Hristiyan N1 ; ! 
 hristiyan:hristiyan N1 ; !  Dir/LR
+hristiyan:hiristiyan N1 ; ! Dir/LR Use/MT
 katolik:Katolik%{v%} N1 ; ! " catholic"
 katolik:katolik%{v%} N1 ; ! " catholic" Dir/LR
 ortodoks:Ortodoks N1 ; ! "orthodox"
@@ -11810,7 +11812,7 @@ yaşayış:yaşayış N1 ;
 yastık:yastık N1 ;
 yazılış:yazılış N1 ;
 yemiş:yemiş N1 ;
-yiğit:yiğit N1 ;
+yiğit:yiğit%{v%} N1 ;
 yükseliş:yükseliş N1 ;
 yetiştirme:yetiştirme N1 ;
 konvoy:konvoy N1 ;
@@ -11826,13 +11828,13 @@ aşılama:aşılama N1 ; ! ""
 asılı:asılı N1 ; ! ""
 emen:emen N1 ; ! ""
 hor:hor N1 ; ! ""
-isıtma:isıtma N1 ; ! ""
+ısıtma:ısıtma N1 ; ! ""
 mağrur:mağrur N1 ; ! ""
 örmek:örmek N1 ; ! ""
 öt:öt N1 ; ! ""
 ötmek:ötmek N1 ; ! ""
 selbi:selbi N1 ; ! ""
-hiristiyan:hiristiyan N1 ; ! "Use/MT"
+
 tapa:tapa N1 ; ! ""
 tarikçi:tarikçi N1 ; ! ""
 teke:teke N1 ; ! ""
