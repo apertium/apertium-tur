@@ -11397,7 +11397,7 @@ han:Han N3 ;
 latince:Latince N1 ;
 İngilizce:İngilizce N1 ; ! "english"
 türkçe:Türkçe N1 ; ! "turkish"
-ingilizce:ingilizce N1 ;
+ingilizce:İngilizce N1 ; 
 rusça:Rusça N1 ; ! "russian"
 arapça:Arapça N1 ; ! "arabic"
 arnavutça:Arnavutça N1 ; ! "albanian"
@@ -11409,6 +11409,7 @@ ispanyolca:İspanyolca N1 ; ! ""
 arapça:Arapça N1 ;
 farsça:Farsça N1 ;
 rumca:Rumca N1 ;
+almanca:Almanca N1 ; ! ""
 
 !!!!SPECIAL!!!!
 
@@ -11484,7 +11485,7 @@ provokatör:provokatör N1 ; ! ""
 !ağustos:ağustos N1 ; ! ""
 akibet:akibet N1 ; ! ""
 akreditasyon:akreditasyon N1 ; ! ""
-almanca:almanca N1 ; ! ""
+
 alpinist:alpinist N1 ; ! ""
 alümin:alümin N1 ; ! ""
 ardıç:ardıç N1 ; ! ""
