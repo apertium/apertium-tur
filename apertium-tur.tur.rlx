@@ -101,6 +101,11 @@ SET NPNHA = WORDMARK - PRE-N - Adv ;
 
 SECTION
 
+"<yüzde>" SELECT Nom IF (1 Num) ; 
+#yüzde onu
+
+SELECT Num IF (-1 ("yüzde")) ;
+#yüzde onu
 #
 ## Hacks for subreadings 
 #
