@@ -110,6 +110,9 @@ SELECT Num IF (-1 ("yüzde")) ;
 ## Hacks for subreadings 
 #
 
+SELECT Pron IF (0 Pron);
+#to give priority to pronouns. for example, "bende" almost definitely refers to pron.ps1.sg.loc and not 'bende' n.nom (slave)
+
 ADD (=tv) (*) IF ((0 Tv) OR (0/1 Tv)) (NOT 0 (=tv)) ;
 
 #
