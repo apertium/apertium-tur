@@ -3371,7 +3371,7 @@ patates:patates N1 ; !
 jips:jips N1 ; !
 sülfat:sülfat N1 ; !
 agregat:agregat N1 ; !
-islahat:islahat N1 ; !
+ıslahat:ıslahat N1 ; !
 herakat:herakat N1 ; !
 tetkikat:tetkikat N1 ; !
 karbonhidrat:karbonhidrat N1 ; !
@@ -3379,12 +3379,14 @@ vasat:vasat N1 ; !
 zerzevat:zerzevat N1 ; !
 şarkiyat:şarkiyat N1 ; !
 rutubet:rutubet N1 ; !
-sirket:sirket N1 ; !
-vekâlet:vekâlet N1 ; !
-isaret:isaret N1 ; !
+şirket:şirket N1 ; !
+vekalet:vekâlet N1 ; ! Dir/LR
+vekalet:vekalet N1 ; !
+işaret:işaret N1 ; !
 silüet:silüet N1 ; !
 velayet:velayet N1 ; !
-mes'uliyet:mes'uliyet N1 ; !
+mesuliyet:mes'uliyet N1 ; ! Dir/LR
+mesuliyet:mesuliyet N1 ; !
 oksit:oksit N1 ; !
 Antant:Antant N1 ; !
 ferment:ferment N1 ; !
@@ -3424,7 +3426,6 @@ karşılaştırma:karşılaştırma N1 ; !
 sosyalist:sosyalist N1 ; 
 kama:kama N1 ; !
 sınıflandırma:sınıflandırma N1 ; !
-b:b N1 ; !
 geoinformatik:geoinformatik N1 ; !
 
 küçük:küçük N1 ; !
@@ -3449,15 +3450,13 @@ Nenets:Nenets N1 ; !
 tadilat:tadilat N1 ; !
 hasat:hasat N1 ; !
 mart:mart N1 ; !
-
 programlama:programlama N1 ; !
 sanal:sanal N1 ; !
-İslâm:İslâm N1 ; !
+
 Fin:Fin N1 ; !
 referans:referans N1 ; !
 harekât:harekât N1 ; !
 caz:caz N1 ; !
-1:1 N1 ; !
 mutlaka:mutlaka N1 ; !
 pusula:pusula N1 ; !
 hesaplama:hesaplama N1 ; !
@@ -3758,7 +3757,7 @@ alçak% gönüllülük:alçak% gönüllülük N1 ;
 Aralık:Aralık N1 ;
 Eylül:Eylül N1 ;
 peygamber% aleyhisselam:peygamber% aleyhisselam N1 ;
-İslam:İslam N1 ;
+
 azam:azam N1 ;
 Ekim:Ekim N1 ;
 kürküm:kürküm N1 ;
@@ -5177,7 +5176,7 @@ kaçakçılık:kaçakçılık%{v%} N1 ; ! "smuggling"
 üretim:üretim N1 ; ! "production"
 değişiklik:değişiklik%{v%} N1 ; ! "change"
 bağımsızlık:bağımsızlık%{v%} N1 ; ! "indipendence"
-seyahat:seyahat N1 ; ! "travel"
+seyahat:seyahat%{ь%}  N1 ; ! "travel"
 teklif:teklif N1 ; ! "proposal"
 saygı:saygı N1 ; ! "respect"
 tedbir:tedbir N1 ; ! "precaution"
@@ -8076,6 +8075,8 @@ iskonto:iskonto N1 ; ! "reduction"
 ıslah:ıslah N1 ; ! "improvement"
 islam:İslam N1 ; ! "islam"
 islam:islam N1 ; ! "islam" Dir/LR
+İslam:İslam N1 ; ! Use/MT Dir/LR
+islam:İslâm N1 ; ! Dir/LR
 işleç:işleç N1 ; ! "operator"
 işlem:işlem N1 ; ! "operation"
 işlem:işlem N1 ; ! "transaction"
@@ -8130,9 +8131,10 @@ istikraz:istikraz N1 ; ! "loan"
 istila:istila N1 ; ! "invasion"
 istim:istim N1 ; ! "steam"
 istintaç:istintaç N1 ; ! "consequent"
-istirahat:istirahat%{ь%} N1 ; ! "recovery"
+istirahat:istirahat%{ь%} N1 ; ! "recovery" Dir/LR
+istirahat:istirahat N1 ; ! "recovery" 
 ıstırap:ıstırap%{v%} N1 ; ! "misery"
-ıstırap:ıstırap N1 ; ! "pain"
+ıstırap:ıstırap N1 ; ! "pain" Dir/LR
 istişare:istişare N1 ; ! "consultation"
 istismar:istismar N1 ; ! "draft"
 istismar:istismar N1 ; ! "exploitation"
@@ -8175,7 +8177,7 @@ izan:izan N1 ; ! "understanding"
 izaz:izaz N1 ; ! "honor"
 izci:izci N1 ; ! "scout"
 izdiham:izdiham N1 ; ! "congestion"
-ızdırap:ızdırap N1 ; ! "misery"
+ızdırap:ızdırap%{v%} N1 ; ! "misery"
 izdivaç:izdivaç N1 ; ! "marriage"
 izdüşüm:izdüşüm N1 ; ! "projection"
 ızgara:ızgara N1 ; ! "grillage"
@@ -8201,7 +8203,6 @@ janr:janr N1 ; ! "genre"
 
 jant:jant N1 ; ! "rim"
 jelatin:jelatin N1 ; ! "jelly"
-latin:latin N1 ;
 jel:jel N1 ; ! "gel"
 jenerasyon:jenerasyon N1 ; ! "generation"
 jeneratör:jeneratör N1 ; ! "generator"
@@ -8226,16 +8227,16 @@ juri:juri N1 ; ! "jury"
 jüri:jüri N1 ; ! "jury"
 jüt:jüt N1 ;
 jurnal:jurnal%{ь%} N1 ; ! "journal"
-kabahat:kabahat N1 ; ! "fault"
-kabak:kabak N1 ; ! "pumpkin"
-kabak:kabak N1 ; ! "squash"
+kabahat:kabahat%{ь%} N1 ; ! "fault"
+kabak:kabak%{v%} N1 ; ! "pumpkin"
+kabak:kabak%{v%} N1 ; ! "squash"
 kaban:kaban N1 ; ! "coat"
 kabara:kabara N1 ; ! "boss"
-kabarcık:kabarcık N1 ; ! "bubble"
+kabarcık:kabarcık%{v%} N1 ; ! "bubble"
 kabarcık:kabarcık N1 ; ! "foam"
 kabarık:kabarık N1 ; ! "eruption"
 kabartı:kabartı N1 ; ! "puff"
-kabataslak:kabataslak N1 ; ! "rough"
+kabataslak:kabataslak%{v%} N1 ; ! "rough"
 kabile:kabile N1 ; ! "clan"
 kabile:kabile N1 ; ! "family"
 kabile:kabile N1 ; ! "tribe"
@@ -8245,22 +8246,22 @@ kabiliyet:kabiliyet N1 ; ! "talent"
 kabil:kabil N1 ; ! "sort"
 kabine:kabine N1 ; ! "cabinet"
 kabin:kabin N1 ; ! "cabin"
-kabir:kabir N1 ; ! "grave"
+kabir:kab%{u%}r N1 ; ! "grave"
+kabir:kabir N1 ; ! "grave" Dir/LR
 kabız:kabız N1 ; ! "constipation"
 kablo:kablo N1 ; ! "cable"
 kabristan:kabristan N1 ; ! "graveyard"
-kabuk:kabuk N1 ; ! "scab"
-kabuk:kabuk N1 ; ! "shell"
-kabul:kabul N1 ; ! "admittance"
-kabul:kabul N1 ; ! "approval"
+kabuk:kabuk%{v%} N1 ; ! "scab"
+kabuk:kabuk%{v%} N1 ; ! "shell"
+kabul:kabul%{ь%} N1 ; ! "admittance"
+kabul:kabul%{ь%} N1 ; ! "approval"
 kaburga:kaburga N1 ; ! "frame"
 kaburga:kaburga N1 ; ! "rib"
 kabus:kabus N1 ; ! "nightmare"
 kabza:kabza N1 ; ! "handle"
 kaçak:kaçak%{v%} N1 ; ! "fugitive"
-kaçamak:kaçamak N1 ; ! "fling"
-kaçamak:kaçamak N1 ; ! "refuge"
-kaçamak:kaçamak N1 ; ! "run"
+kaçamak:kaçamak%{v%} N1 ; ! "fling"
+kaçamak:kaçamak%{v%} N1 ; ! "refuge"
 kaçkın:kaçkın N1 ; ! "fugitive"
 kadavra:kadavra N1 ; ! "corpse"
 kadavra:kadavra N1 ; ! "subject"
@@ -8311,8 +8312,8 @@ kaldırım:kaldırım N1 ; ! "pavement"
 kale:kale N1 ; ! "castle"
 kalem:kalem N1 ; ! "pencil"
 kalıntı:kalıntı N1 ; ! "remaining"
-kalıp:kalıp N1 ; ! "model"
-kalıp:kalıp N1 ; ! "pattern"
+kalıp:kalıp N1 ; ! "model" Dir/LR
+kalıp:kalıp%{v%} N1 ; ! "pattern"
 kalite:kalite N1 ; ! "quality"
 kalıtım:kalıtım N1 ; ! "heredity"
 kalıt:kalıt N1 ; ! "heritage"
@@ -8323,7 +8324,7 @@ kalori:kalori N1 ; ! "calorie"
 kalpazanlık:kalpazanlık%{v%} N1 ; ! "forgery"
 kalp:kalp%{v%}%{ь%} N1 ; ! "heart"
 kalsiyum:kalsiyum N1 ; ! "calcium"
-kaltak:kaltak N1 ; ! "whore"
+kaltak:kaltak%{v%} N1 ; ! "whore"
 kamara:kamara N1 ; ! "chamber"
 kamber:kamber N1 ; ! "companion"
 kamçı:kamçı N1 ; ! "colt"
@@ -8364,22 +8365,22 @@ kanuniyet:kanuniyet N1 ; ! "legality"
 kanun:kanun N1 ; ! "law"
 kanyon:kanyon N1 ; ! "canyon"
 kaos:kaos N1 ; ! "chaos"
-kapacık:kapacık N1 ; ! "valve"
-kapakçık:kapakçık N1 ; ! "valvula"
-kapak:kapak N1 ; ! "valve"
+kapacık:kapacık%{ь%} N1 ; ! "valve"
+kapakçık:kapakçık%{v%} N1 ; ! "valvula"
+kapak:kapak%{v%} N1 ; ! "valve"
 kapama:kapama N1 ; ! "closure"
 kapanca:kapanca N1 ; ! "trap"
 kapan:kapan N1 ; ! "trap"
 kaparoz:kaparoz N1 ; ! "spoils"
 kapasite:kapasite N1 ; ! "capacity"
-kapçık:kapçık N1 ; ! "shell"
+kapçık:kapçık%{ь%} N1 ; ! "shell"
 kapela:kapela N1 ; ! "cap"
 kapı:kapı N1 ; ! "door"
 kapı:kapı N1 ; ! "entrance"
 kapitalizm:kapitalizm N1 ; ! "capitalism"
 kapital:kapital%{ь%} N1 ; ! "capital"
-kap:kap N1 ; ! "case"
-kap:kap N1 ; ! "vessel"
+kap:kap%{v%} N1 ; ! "case"
+kap:kap%{v%} N1 ; ! "vessel"
 kaplam:kaplam N1 ; ! "extent"
 kaplan:kaplan N1 ; ! "tiger"
 kaplumbağa:kaplumbağa N1 ; ! "tortoise"
@@ -10027,7 +10028,7 @@ nara:nara N1 ; ! "yell"
 nargile:nargile N1 ; ! "water pipe"
 narkoz:narkoz N1 ; ! "narcosis"
 nar:nar N1 ; ! "pomegranite"
-nasihat:nasihat N1 ; ! "advice"
+nasihat:nasihat%{ь%}  N1 ; ! "advice"
 nasip:nasip N1 ; ! "luck"
 naşir:naşir N1 ; ! "editor"
 naşir:naşir N1 ; ! "publisher"
@@ -10559,7 +10560,7 @@ cemiyet:cemiyet N1 ; ! ""
 çengel:çengel N1 ; ! ""
 cennet:cennet N1 ; ! ""
 cephe:cephe N1 ; ! ""
-cerahat:cerahat N1 ; ! ""
+cerahat:cerahat%{ь%}  N1 ; ! ""
 ceset:ceset%{v%} N1 ; ! ""
 çeşit:çeşit N1 ; ! ""
 cesur:cesur N1 ; ! ""
