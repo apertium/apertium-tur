@@ -251,6 +251,9 @@ SELECT Finite IF
 REMOVE Sub:1 Pl1 IF (0 Px1Sg) ;
 #arabamız =! we are my car #FIXME this is px1sg.pl1 is almost non-existent so it can be used without context, but to disambiguate other possessive/person suffix clashes we need sth else
 
+SELECT V IF (NOT 0* V); 
+#select verb if there is no other verb in the sentence
+
 # select finite subreading at the end of a sentence
 SELECT Sub:1 Finite IF
 	#(0/1 Ger)                # FIXME: why does this only work when commented
