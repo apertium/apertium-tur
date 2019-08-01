@@ -3745,12 +3745,10 @@ Cumartesi:Cumartesi N1 ;
 Ocak:Ocak N1 ;
 diz% kapak:diz% kapak N1 ;
 sarımsak:sarımsak N1 ;
-Kazak:Kazak N1 ;
-Özbek:Özbek N1 ;
+
 ipek% böcek:ipek% böcek N1 ;
 yüksek:yüksek N1 ;
-Tacik:Tacik N1 ;
-Katolik:Katolik N1 ;
+
 mal% mülk:mal% mülk N1 ;
 Mısır% Memlük:Mısır% Memlük N1 ;
 alçak% gönüllülük:alçak% gönüllülük N1 ;
@@ -4934,7 +4932,6 @@ bulvar:bulvar N1 ;
 bağımlılık:bağımlılık N1 ;
 devir:devir N1 ; ! Dir/LR
 soket:soket N1 ;
-tacik:tacik N1 ;
 müzekere:müzekere N1 ;
 çelişki:çelişki N1 ;
 tedavül:tedavül N1 ;
@@ -8921,7 +8918,7 @@ kov:kov N1 ; ! "gossip"
 koy:koy N1 ; ! "bay"
 köy:köy N1 ; ! "village"
 koyun:koy%{u%}n N1 ; ! "breast"
-koyun:koyun N1 ; ! "sheep"
+koyun:koyun N1 ; ! "sheep" 
 koyuntu:koyuntu N1 ; ! "grief"
 kozak:kozak N1 ; ! "cone"
 koza:koza N1 ; ! "cone"
@@ -11272,6 +11269,8 @@ poliklinik:poliklinik%{v%} N1 ;
 Kırım% Tatarı:kırım% tatar N2 ;
 Kırım% Tatarcası:Kırım% Tatarca N2 ;
 !Kırımtatar:kırımtatar  N3 ; ! ""
+kazak:Kazak N3 ;
+tacik:Tacik N3 ;
 uygur:Uygur N3 ;
 uygur:uygur N3 ; ! Dir/LR
 türk:Türk N3 ; ! "Turk"
@@ -23875,6 +23874,7 @@ telaş% et:telaş% et V-IR-IV ;
 cesurca% dur: cesurca% dur V-IR-IV ;
 eğilimi% ol:eğilimi% ol V-IR-IV ;
 adımla:adımla V-AR-IV ;
+adım% at:adım% at V-AR-IV ; ! Use/MT
 ekşi:ekşi V-IR-IV ;
 biriktir:biriktir V-IR-TV ;
 tekrar% incele:tekrar% incele V-IR-TV ;
@@ -23885,7 +23885,7 @@ yerine% getir: yerine% getir V-IR-TV ;
 kibarlaştır:kibarlaştır V-IR-TV ;
 sahip% ol:sahip% ol V-IR-IV ;
 güzelleş:güzelleş V-IR-IV ;
-iyleş:iyleş V-IR-IV ;
+iyileş:iyileş V-IR-IV ;
 batır:batır V-IR-TV ;
 hizmet% et:hizmet% et V-IR-IV ;
 şişir:şişir V-IR-TV ;
