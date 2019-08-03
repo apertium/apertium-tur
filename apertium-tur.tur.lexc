@@ -25353,10 +25353,10 @@ göçür:göçür V-IR-TV ; ! ""
 değer% ver:değer% ver V-IR-TV ; ! "appreciate" (DIR)
 kahvaltı% et:kahvaltı% et%{v%} V-AR-IV ; ! "have breakfast" ! Dir/RL ! Use/MT
 dans% et:dans% et%{v%} V-AR-IV ; ! "dance" Use/MT
-celp% et:celp% et%{v%} V-AR-TV ; ! "dance" Use/MT
+celp% et:celp% et%{v%} V-AR-TV ; ! "persuade" Use/MT
 davet% et:davet% et%{v%} V-AR-TV ; ! "invite" Use/MT
-yardım% et:yardım% et%{v%} V-AR-TV ; ! "invite" Use/MT
-işgal% et:işgal% et%{v%} V-AR-TV ; ! ! Use/MT
+yardım% et:yardım% et%{v%} V-AR-TV ; ! "help" Use/MT
+işgal% et:işgal% et%{v%} V-AR-TV ; ! ! "invade"Use/MT
 satın% al:satın% al V-IR-TV ; ! "buy" ! Dir/RL ! Use/MT
 yarat:yarat V-IR-TV ; ! "create" ! Dir/RL ! Use/MT
 bakış% at:bakış% at V-AR-TV ; ! "glance at / look at [suddenly]"
@@ -25680,7 +25680,6 @@ yıktır:yıktır V-IR-IV ;
 karşılaştır:karşılaştır V-IR-IV ;
 atıştır:atıştır V-IR-IV ;
 bas:bas V-AR-IV ;
-yardım% et:yardım% et V-AR-IV ;
 dönmemek% üzere% git:dönmemek% üzere% git V-AR-IV ;
 giderek% art:giderek% art V-AR-IV ;
 iç:iç V-AR-IV ;
