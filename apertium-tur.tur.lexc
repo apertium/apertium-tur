@@ -25355,7 +25355,7 @@ kahvaltı% et:kahvaltı% et%{v%} V-AR-IV ; ! "have breakfast" ! Dir/RL ! Use/MT
 dans% et:dans% et%{v%} V-AR-IV ; ! "dance" Use/MT
 celp% et:celp% et%{v%} V-AR-TV ; ! "persuade" Use/MT
 davet% et:davet% et%{v%} V-AR-TV ; ! "invite" Use/MT
-yardım% et:yardım% et%{v%} V-AR-TV ; ! "help" Use/MT
+yardım% et:yardım% et%{v%} V-AR-IV ; ! "help" Use/MT
 işgal% et:işgal% et%{v%} V-AR-TV ; ! ! "invade"Use/MT
 satın% al:satın% al V-IR-TV ; ! "buy" ! Dir/RL ! Use/MT
 yarat:yarat V-IR-TV ; ! "create" ! Dir/RL ! Use/MT
@@ -25369,7 +25369,6 @@ uygula:uygula V-IR-TV ;
 yaptır:yaptır V-IR-TV ; 
 durumu% değerlendir:durumu% değerlendir V-IR-TV ; ! "" ! Dir/RL ! Use/MT
 kötüleş:kötüleş V-AR-IV ; ! ""
-şekillendir:şekillendir V-AR-IV ; ! ""
 gezle:gezle V-AR-IV ; ! ""
 kurul:kurul V-IR-IV ; ! "" ! Dir/RL ! Use/MT
 yuvarlan:yuvarlan V-IR-IV ; ! ""
@@ -25705,49 +25704,49 @@ güven:güven V-IR-TV ;
 giyin:giyin V-IR-TV ;
 dokun:dokun V-IR-TV ;
 dön:dön V-AR-TV ;
-çiçeklendir:çiçeklendir V-IR-TV ;
-şekillendir:şekillendir V-IR-TV ;
-hareketlendir:hareketlendir V-IR-TV ;
-sindir:sindir V-IR-TV ;
-ettir:ettir V-IR-TV ;
-kaydettir:kaydettir V-IR-TV ;
+çiçeklendir:çiçeklendir V-IR-TV ; ! Use/MT
+şekillendir:şekillendir V-IR-TV ; ! Use/MT
+hareketlendir:hareketlendir V-IR-TV ; ! Use/MT
+sindir:sindir V-IR-TV ; ! Use/MT
+ettir:ettir V-IR-TV ; ! Use/MT
+kaydettir:kaydettir V-IR-TV ; ! Use/MT
 ittir:ittir V-IR-TV ;
-güzelleştir:güzelleştir V-IR-TV ;
+güzelleştir:güzelleştir V-IR-TV ;  ! Use/MT
 ele% geçir:ele% geçir V-IR-TV ;
-buldur:buldur V-IR-TV ;
-aldır:aldır V-IR-TV ;
-sallandır:sallandır V-IR-TV ;
-hızlandır:hızlandır V-IR-TV ;
-utandır:utandır V-IR-TV ;
-yaydır:yaydır V-IR-TV ;
-baktır:baktır V-IR-TV ;
-saptır:saptır V-IR-TV ;
+buldur:buldur V-IR-TV ; ! Use/MT
+aldır:aldır V-IR-TV ; ! Use/MT
+sallandır:sallandır V-IR-TV ; ! Use/MT
+hızlandır:hızlandır V-IR-TV ; ! Use/MT
+utandır:utandır V-IR-TV ; ! Use/MT
+yaydır:yaydır V-IR-TV ; ! Use/MT
+baktır:baktır V-IR-TV ; ! Use/MT
+saptır:saptır V-IR-TV ; ! Use/MT
 şaşır:şaşır V-IR-TV ;
-saklat:saklat V-IR-TV ;
-koklat:koklat V-IR-TV ;
-yoklat:yoklat V-IR-TV ;
-sallat:sallat V-IR-TV ;
-fırlat:fırlat V-IR-TV ;
-hazırlat:hazırlat V-IR-TV ;
-atlat:atlat V-IR-TV ;
-patlat:patlat V-IR-TV ;
-otlat:otlat V-IR-TV ;
-kanıtlat:kanıtlat V-IR-TV ;
-doğrulat:doğrulat V-IR-TV ;
-kaynat:kaynat V-IR-TV ;
-arat:arat V-IR-TV ;
-benzet:benzet V-IR-TV ;
+saklat:saklat V-IR-TV ; ! Use/MT
+koklat:koklat V-IR-TV ; ! Use/MT
+yoklat:yoklat V-IR-TV ; ! Use/MT
+sallat:sallat V-IR-TV ; ! Use/MT
+fırlat:fırlat V-IR-TV ; ! Use/MT
+hazırlat:hazırlat V-IR-TV ; ! Use/MT
+atlat:atlat V-IR-TV ; ! Use/MT
+patlat:patlat V-IR-TV ; ! Use/MT 
+otlat:otlat V-IR-TV ; ! Use/MT
+kanıtlat:kanıtlat V-IR-TV ; ! Use/MT
+doğrulat:doğrulat V-IR-TV ; ! Use/MT
+kaynat:kaynat V-IR-TV ; ! Use/MT
+arat:arat V-IR-TV ; ! Use/MT
+benzet:benzet V-IR-TV ; ! Use/MT
 gözet:gözet V-IR-TV ;
-kısalt:kısalt V-IR-TV ;
-yükselt:yükselt V-IR-TV ;
-yalvart:yalvart V-IR-TV ;
-indirt:indirt V-IR-TV ;
-getirt:getirt V-IR-TV ;
-bağırt:bağırt V-IR-TV ;
-çağırt:çağırt V-IR-TV ;
-tanıt:tanıt V-IR-TV ;
-ağrıt:ağrıt V-IR-TV ;
-yansıt:yansıt V-IR-TV ;
+kısalt:kısalt V-IR-TV ; ! Use/MT
+yükselt:yükselt V-IR-TV ; ! Use/MT
+yalvart:yalvart V-IR-TV ; ! Use/MT
+indirt:indirt V-IR-TV ; ! Use/MT
+getirt:getirt V-IR-TV ; ! Use/MT
+bağırt:bağırt V-IR-TV ; ! Use/MT
+çağırt:çağırt V-IR-TV ; ! Use/MT
+tanıt:tanıt V-IR-TV ; ! Use/MT
+ağrıt:ağrıt V-IR-TV ; ! Use/MT
+yansıt:yansıt V-IR-TV ; ! Use/MT
 solu:solu V-IR-TV ;
 uy:uy V-AR-TV ;
 deş:deş V-AR-TV ;
