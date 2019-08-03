@@ -5449,6 +5449,7 @@ binyıl:binyıl N1 ;
 akaryakıt:akaryakıt N1 ; ! "fuel"
 akasya:akasya N1 ; ! "locust tree"
 akbaba:akbaba N1 ; ! "vulture"
+anne%-baba:anne%-baba N1 ; ! Dir/RL ! Use/MT
 akbabagiller:akbabagiller N1 ; ! "old world vultures"
 akça:akça N1 ; ! "coin"
 akçe:akçe N1 ; ! "coin"
