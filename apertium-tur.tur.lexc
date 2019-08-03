@@ -9109,7 +9109,7 @@ küvet:küvet N1 ; ! "bathtub"
 kuvöz:kuvöz N1 ; ! "incubator"
 kuvve:kuvve N1 ; ! "intention"
 kuvvet:kuvvet N1 ; ! "force"
-kuyruk:kuyruk N1 ; ! "tail"
+kuyruk:kuyruk%{v%} N1 ; ! "tail"
 kuyrukluyıldız:kuyrukluyıldız N1 ; ! "comet"
 kuytu:kuytu N1 ; ! "corner"
 kuyu:kuyu N1 ; ! "well"
@@ -20924,9 +20924,9 @@ nazi:nazi A1 ; !
 maddeli:maddeli A1 ; !
 müzikli:müzikli A1 ; !
 dahil:dahil A1 ; !
-yer% alan:yer% alan A1 ; !
-düzenlenmiş:düzenlenmiş A1 ; !
-vatansız:vatansız A1 ; !
+yer% alan:yer% alan A1 ; ! Use/MT
+düzenlenmiş:düzenlenmiş A1 ; ! Use/MT
+vatansız:vatansız A1 ; ! ! Use/MT
 
 harap:harap A1 ; !
 soyadlı:soyadlı A1 ; !
@@ -24863,7 +24863,7 @@ piş:piş V-AR-IV ; ! "cook" (DIR)
 pus:pus V-AR-IV ; ! "shrink" (DIR)
 sabırsızlan:sabırsızlan V-IR-IV ; ! "lose patience" (DIR)
 sakın:sakın V-IR-TV ; ! "aboid" (DIR)
-san:san V-AR-TV ; ! "suppose" (DIR)
+san:san V-IR-TV ; ! "suppose" (DIR)
 sap:sap V-AR-IV ; ! "deviate" (DIR)
 şaş:şaş V-AR-IV ; ! "amaze" (DIR)
 sataş:sataş V-IR-IV ; ! "tease" (DIR)
