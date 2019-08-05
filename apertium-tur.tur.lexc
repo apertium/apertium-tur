@@ -6789,10 +6789,10 @@ evham:evham N1 ; ! "anxiety"
 evin:evin N1 ; ! "grain"
 evirtim:evirtim N1 ; ! "conversion"
 eviye:eviye N1 ; ! "sink"
-evlat:evlat N1 ; ! "descent"
+evlat:evlat%{v%} N1 ; ! "descent"
 evlilik:evlilik%{v%} N1 ; ! "marriage"
 evliya:evliya N1 ; ! "saint"
-evrak:evrak N1 ; ! "document"
+evrak:evrak%{v%} N1 ; ! "document"
 evre:evre N1 ; ! "step"
 evren:evren N1 ; ! "world"
 evrim:evrim N1 ; ! "evolution"
@@ -25662,7 +25662,7 @@ gizlen:gizlen V-IR-IV ;
 filizlen:filizlen V-IR-IV ;
 işlen:işlen V-IR-IV ;
 diren:diren V-IR-IV ;
-gelin:gelin V-IR-IV ;
+!gelin:gelin V-IR-IV ;
 korun:korun V-IR-IV ;
 bölün:bölün V-IR-IV ;
 çalın:çalın V-IR-IV ;
