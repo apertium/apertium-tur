@@ -135,6 +135,9 @@ REMOVE N + Abe IF (0 A) ;
 SELECT Adv IF (0 ("yarın")) ;
     ## Yarın gelir misin?
 
+REMOVE Gen IF (0 Px2Sg) (NOT 1 Px3Sp);
+#evladın var mı
+
 REMOVE Cog + Px2Sg IF (0 Cog + Gen) ; 
     ## [0]Cinciç'in anısına Belgrad'da binlerce kişi toplandı.
 
