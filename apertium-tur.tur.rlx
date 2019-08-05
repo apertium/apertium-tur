@@ -66,7 +66,7 @@ LIST Recip = rec ;
 LIST Caus = caus ; 
 LIST Ref = ref ;
 LIST Advl = advl ;
-
+LIST Cond = cond gna_cond ;
 LIST Gpr = gpr_past gpr_fut gpr_rsub gpr_aor ;
 LIST Gna = gna_aor ;
 LIST Prc = prc ;
@@ -101,6 +101,9 @@ SET NPNHA = WORDMARK - PRE-N - Adv ;
 
 SECTION
 
+SELECT ("kadın") (0 ("kadın"));
+#kadının
+
 "<yüzde>" SELECT Nom IF (1 Num) ; 
 #yüzde onu
 
@@ -134,6 +137,12 @@ REMOVE N + Abe IF (0 A) ;
 
 SELECT Adv IF (0 ("yarın")) ;
     ## Yarın gelir misin?
+
+SELECT Gen IF (0 Px2Sg) (1 Px3Sp OR Acc);
+#kadının şamdanı
+
+REMOVE Acc IF (-1 Gen);
+#Kadının şamdanı 
 
 REMOVE Gen IF (0 Px2Sg) (NOT 1 Px3Sp);
 #evladın var mı
@@ -203,6 +212,9 @@ REMOVE Pron + Nom IF (0 Det) (1C N) ;
 REMOVE Num + Nom IF (1C Num) ; 
     ## Bu araba [0]11,5 milyar avroluk.
 
+SELECT Attr IF (-1 Px3Sp) (1 Cond) ; 
+#şamdanı altın olsa
+
 REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ; 
     ## Bu araba 11,5 milyar avroluk.
 
@@ -211,6 +223,8 @@ SELECT Adv IF (0 ("en")) (1 A) ;
 
 REMOVE Subst + Nom IF (1* N + Nom BARRIER NPNHA)  ; 
     ## En az 11,5 milyar avroluk ve ...
+
+
 
 REMOVE N + Nom IF (0 Attr OR Nom) (1C Nom) ;
     ## Samaras'ın AB-IMF-ECB troykası tarafından talep edilen ve krizi daha da derinleştiren, ...
