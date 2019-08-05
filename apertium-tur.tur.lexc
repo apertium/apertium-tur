@@ -4347,9 +4347,9 @@ olma:olma N1 ; !
 sağ:sağ N1 ; !
 siyah:siyah N1 ; !
 yakacak:yakacak N1 ; !
-gidiş:gidiş N1 ; !
+gidiş:gidiş N1 ; ! Use/MT
 kuruş:kuruş N1 ; !
-mu:mu N1 ; !
+Mu:Mu NP-TOP ; ! not a word unless we mean Mu the contitent
 sertifika:sertifika N1 ; !
 tenha:tenha N1 ; !
 aşağılama:aşağılama N1 ; !
