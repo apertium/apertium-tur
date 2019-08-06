@@ -4316,9 +4316,9 @@ veba:veba N1 ; !
 değirmenci:değirmenci N1 ; !
 tutam:tutam N1 ; !
 günahkar:günahkar N1 ; !
-bakma:bakma N1 ; !
-yeme:yeme N1 ; !
-yürüme:yürüme N1 ; !
+bakma:bakma N1 ; ! Use/MT
+yeme:yeme N1 ; ! Use/MT
+yürüme:yürüme N1 ; ! Use/MT
 radikalleşme:radikalleşme N1 ; !
 bunak:bunak N1 ; !
 yazık:yazık N1 ; !
