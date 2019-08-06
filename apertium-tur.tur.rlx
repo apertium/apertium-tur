@@ -39,7 +39,7 @@ LIST VPers = p1 p2 p3 ;
 
 LIST Pl = pl ;
 
-LIST Px3Sp = px3sg px3pl; 
+LIST Px3Sp = px3sg px3pl px3sp; 
 LIST Px3Sg = px3sg ; 
 LIST Px3Pl = px3pl ; 
 LIST Px2Sg = px2sg ; 
@@ -150,6 +150,9 @@ REMOVE Gen IF (0 Px2Sg) (NOT 1 Px3Sp);
 REMOVE Cog + Px2Sg IF (0 Cog + Gen) ; 
     ## [0]Cinciç'in anısına Belgrad'da binlerce kişi toplandı.
 
+SELECT Imper IF (-1 BOS) (0 Neg) (1 N) ;
+#Söyleme dostuna
+
 SELECT Imper IF (0 Neg) (1 EOS) ;
 #erişme, yarışma etc
 
@@ -157,6 +160,12 @@ REMOVE Imper IF (NOT 0C Imper) ;
     ## Bunlar, bu hafta içinde dünyanın dört bir yanından İtalyan başkentine [0]akın etmiş olan yaklaşık dört milyon hacı ve yaslı kalabalığa katıldı.
 
 #REMOVE Imper IF (NOT 0C/* Imper OR Pot) ;
+
+SELECT Px2Sg IF (-1 V) (-1 Sg2);
+#söyleme dostuna
+
+SELECT Px3Sp IF (-1 V);
+#söyler dostuna
 
 REMOVE Pot IF (0/* Opt) ;
 
