@@ -21,6 +21,7 @@ LIST Post = post ;
 LIST Cop = cop ; 
 LIST Qst = qst ; 
 LIST Neg = neg ; 
+LIST Top = top ;
 
 LIST Tv = (v tv) (v iv caus) (=tv) ;
 
@@ -107,6 +108,9 @@ SELECT ("kadın") (0 ("kadın"));
 "<yüzde>" SELECT Nom IF (1 Num) ; 
 #yüzde onu
 
+"<için>" SELECT Post IF (-1 N) (1 N) ; 
+#için
+
 SELECT Num IF (-1 ("yüzde")) ;
 #yüzde onu
 #
@@ -137,6 +141,9 @@ REMOVE N + Abe IF (0 A) ;
 
 SELECT Adv IF (0 ("yarın")) ;
     ## Yarın gelir misin?
+
+SELECT Gen IF (1 ("yüzde")) (2 Px3Sp);
+#halkın yüzde onu
 
 SELECT Gen IF (0 Px2Sg) (1 Px3Sp OR Acc);
 #kadının şamdanı
@@ -220,6 +227,9 @@ REMOVE Pron + Nom IF (0 Det) (1C N) ;
 
 REMOVE Num + Nom IF (1C Num) ; 
     ## Bu araba [0]11,5 milyar avroluk.
+
+SELECT Nom IF (0 Top) ; 
+#
 
 SELECT Attr IF (-1 Px3Sp) (1 Cond) ; 
 #şamdanı altın olsa
