@@ -128,6 +128,7 @@ Multichar_Symbols
 %<aor%>            ! Aorist
 %<inf%>            ! Infinitive -mAk
 %<prog%>           ! Progressive
+%<prog_inf%>	 ! Progressive constructed with -makta. Intensifies the "progressive" aspect of the event
 %<opt%>            ! Optative
 %<pot%>            ! Potential
 %<gm%>
@@ -580,6 +581,7 @@ V-COND ;
 LEXICON V-PROG
 
 %<prog%>:%>%{I%}yor V-INFL-PRE-COP ;
+%<prog_inf%>:%>m%{A%}kt%{A%} V-INFL-PRE-COP ;
 
 LEXICON V-FUT
 
@@ -4649,6 +4651,7 @@ rezerv:rezerv N1 ; !
 Çağatay:Çağatay N1 ; !
 yüzey:yüzey N1 ; !
 dilbaz:dilbaz N1 ; !
+dilber:dilber N1 ; !
 vaz:vaz N1 ; !
 Nevruz:Nevruz N1 ; !
 
