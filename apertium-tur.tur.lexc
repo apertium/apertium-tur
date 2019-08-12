@@ -11860,9 +11860,10 @@ klarnet:klarnet N1 ;
 keman:keman N1 ;
 spiker:spiker N1 ;
 köy:köy N1 ;
+kırışıklık:kırışıklık N1 ;
 Abbasi:Abbasi N1 ;  ! Dir/RL ! Use/MT
 sahne:sahne N1 ;
-sahne% yönetmeni:sahne% yönetmeni N1 ;
+sahne% yönetmeni:sahne% yönetmeni N1 ; ! Use/MT ! Dir/RL
 şarkı:şarkı N1 ;
 sürgün:sürgün N1 ;
 İran% tiyatrosu:İran% tiyatrosu N1 ; ! Dir/RL ! Use/MT
