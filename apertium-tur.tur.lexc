@@ -21633,7 +21633,7 @@ mahrum:mahrum A1 ;
 var:var A2 ; ! "existing" 
 yok:yok A2 ; ! "non-existing"
 değil:değil A2 ; ! ""
-gerek:gerek A1 ; ! ""
+!gerek:gerek A1 ; ! ""
 ibaret:ibaret A2 ; ! ""
 mümkün:mümkün A2 ;  ! ""
 
