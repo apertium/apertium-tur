@@ -10321,7 +10321,7 @@ yanlısı:yanlı N2 ; ! Dir/RL ! Use/MT
 doğalgaz:doğalgaz N1 ; ! "natural gas"
 gazeteci:gazeteci N1 ; ! "journalist"
 karşıt:karşıt N1 ; ! "opponent"
-karşıtlık:karşıtlık N1 ; 
+karşıtlık:karşıtlık%{v%} N1 ; 
 zirve:zirve N1 ; ! "summit"
 şarkıcı:şarkıcı N1 ; ! "singer"
 yönetici:yönetici N1 ; ! "administrator"
@@ -10349,7 +10349,7 @@ kâr:kâr N1 ; ! "profit"
 pazarlık:pazarlık%{v%} N1 ; ! "commerce/contractation"
 cesaret:cesaret N1 ; ! "courage"
 yaklaşım:yaklaşım N1 ; ! "approach"
-fikri:fikri N1 ; ! "intellectual"
+fikri:fikri A1 ; ! "intellectual"
 dolar:dolar N1 ; ! "dollar"
 aşırılık:aşırılık%{v%} N1 ; ! "excess"
 katılımcı:katılımcı N1 ; ! "paretecipant"
@@ -10419,7 +10419,7 @@ sarmal:sarmal N1 ; ! "scroll"
 roman:roman N1 ; ! "novel"
 kemal:kemal%{ь%} N1 ; ! "perfection"
 final:final%{ь%} N1 ; ! "final"
-Paşa:Paşa N1 ; ! "pascià"
+paşa:paşa N1 ; ! "pascià"
 tip:tip N1 ; ! "type"
 milletvekili:milletvekili N1 ; !
 elektronik:elektronik N1 ; ! "electronics"
@@ -10452,8 +10452,8 @@ aklama:aklama N1 ; ! "exoneration"
 yaşam:yaşam N1 ; ! "life"
 stand:stand N1 ; ! "stand"
 gemi:gemi N1 ; ! "boat"
-oğuz:oğuz N1 ;
-yakınlık:yakınlık N1 ;
+oğuz:Oğuz N1 ; ! "Oghuz"
+yakınlık:yakınlık%{v%} N1 ;
 
 !! JNW Nouns
 vücud:vücud N1 ; ! "body"
