@@ -108,7 +108,7 @@ SELECT ("kadın") (0 ("kadın"));
 "<yüzde>" SELECT Nom IF (1 Num) ; 
 #yüzde onu
 
-"<için>" SELECT Post IF (-1 N) (1 N) ; 
+"<için>" SELECT Post ; 
 #için
 
 SELECT Num IF (-1 ("yüzde")) ;
