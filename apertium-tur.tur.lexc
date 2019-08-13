@@ -11177,6 +11177,7 @@ tafsilat:tafsilat N1 ;
 ruhsatname:ruhsatname N1 ;
 litre:litre N1 ;
 milis:milis N1 ;
+mecnun:mecnun N1 ;  ! "love crazed: "Majnun"
 umutsuzluk:umutsuzluk%{v%} N1 ;
 otogar:otogar N1 ;
 topçu:topçu N1 ;
