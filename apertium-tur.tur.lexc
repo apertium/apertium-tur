@@ -10456,21 +10456,21 @@ oğuz:Oğuz N1 ; ! "Oghuz"
 yakınlık:yakınlık%{v%} N1 ;
 
 !! JNW Nouns
-vücud:vücud N1 ; ! "body"
+vücud:vücud N1 ; ! "body" Use/MT
 şişe:şişe N1 ;
 güçlü% adam:güçlü% adam N1 ; ! Use/MT
-ortam:ortam N1 ; ! Use/MT
+ortam:ortam N1 ; 
 trup:trup N1 ; ! Use/MT
-akamanış:akamanış N1 ;
+akamanış:akamanış N1 ; ! Use/MT
 rayon:rayon N1 ; ! ""
 tatlı% su:tatlı% su N1 ;
 ortalama:ortalama N1 ;
 özyönetim:özyönetim N1 ;
 öldürme:öldürme N1 ; ! / Use/MT
 kirli:kirli N1 ;
-şarkıcı%-dansçı:şarkıcı%-dansçı N1 ;
+şarkıcı%-dansçı:şarkıcı%-dansçı N1 ; ! Use/MT
 uyuşturucu:uyuşturucu N1 ;
-aşure-günü:aşure-günü N1 ;
+aşure-günü:aşure-günü N1 ; ! Use/MT
 tekerlek:tekerlek N1 ; ! "wheel"
 bakıcı:bakıcı N1 ; ! "nurse/caregiver"
 bebeklik:bebeklik N1 ; ! "state of being a baby"
@@ -10505,9 +10505,9 @@ keş:keş N1 ; ! "dry curd"
 
 
 
-birleştirme:birleştirme N1 ;
+birleştirme:birleştirme N1 ; ! Use/MT
 işbirlikçi:işbirlikçi N1 ;
-ödüllü:ödüllü N1 ;
+ödüllü:ödüllü A1 ;
 
 ileri:ileri N1 ; 
 
@@ -10515,14 +10515,14 @@ açık:açık N1 ; ! ""
 adem:adem N1 ; ! ""
 ağız:ağ%{u%}z N1 ; ! ""
 ahir:ahir N1 ; ! ""
-akademik:akademik N1 ; ! ""
+akademik:akademik A1 ; ! ""
 ak:ak N1 ; ! ""
 al:al N1 ; ! ""
 albay:albay N1 ; ! ""
 alın:al%{u%}n N1 ; ! ""
 alkış:alkış N1 ; ! ""
 amiral:amiral%{ь%} N1 ; ! ""
-aralık²:aralık N1 ; ! ""
+aralık:aralık N1 ; ! ""
 ar:ar N1 ; ! ""
 arazi:arazi N1 ; ! ""
 arık:arık N1 ; ! ""
@@ -10544,7 +10544,7 @@ belgi:belgi N1 ; ! ""
 belirti:belirti N1 ; ! ""
 bet:bet N1 ; ! ""
 beyin:bey%{u%}n N1 ; ! ""
-bezeliye:bezeliye N1 ; ! ""
+bezelye:bezelye N1 ; ! ""
 birleşme:birleşme N1 ; ! ""
 bor:bor N1 ; ! ""
 boynyz:boynyz N1 ; ! ""
@@ -10553,7 +10553,7 @@ büyüklük:büyüklük N1 ; ! ""
 çalışma:çalışma N1 ; ! ""
 çapul:çapul N1 ; ! ""
 car:car N1 ; ! ""
-çarsı:çarsı N1 ; ! ""
+çarşı:çarşı N1 ; ! ""
 çatışma:çatışma N1 ; ! ""
 çelenk:çelenk N1 ; ! ""
 çelik:çelik N1 ; ! ""
@@ -10583,7 +10583,7 @@ dizgin:dizgin N1 ; ! ""
 doçent:doçent N1 ; ! ""
 doku:doku N1 ; ! ""
 dönüşüm:dönüşüm N1 ; ! ""
-doviz:doviz N1 ; ! ""
+döviz:döviz N1 ; ! ""
 dramaturg:dramaturg N1 ; ! ""
 dua:dua N1 ; ! ""
 ekoloji:ekoloji N1 ; ! ""
@@ -10660,8 +10660,8 @@ lor:lor N1 ; ! ""
 mansıp:mansıp N1 ; ! ""
 mesel:mesel N1 ; ! ""
 mesele:mesele N1 ; ! ""
-mesleki:mesleki N1 ; ! ""
-selcuk:selcuk N1 ;
+mesleki:mesleki A1 ; ! ""
+selçuk:selçuk N1 ;
 mihman:mihman N1 ; ! ""
 milletvekil:milletvekil N1 ; ! ""
 monarşi:monarşi N1 ; ! ""
@@ -10675,7 +10675,7 @@ norma:norma N1 ; ! ""
 ödem:ödem N1 ; ! ""
 oditoryum:oditoryum N1 ; ! ""
 od:od N1 ; ! ""
-oğretmen:oğretmen N1 ; ! ""
+öğretmen:öğretmen N1 ; ! ""
 ok:ok N1 ; ! ""
 öküz:öküz N1 ; ! ""
 ölçek:ölçek N1 ; ! ""
