@@ -70,6 +70,7 @@ LIST Advl = advl ;
 LIST Cond = cond gna_cond ;
 LIST Gpr = gpr_past gpr_fut gpr_rsub gpr_aor ;
 LIST Gna = gna_aor ;
+LIST Gnaneg = gna_neg ;
 LIST Prc = prc ;
 LIST Ger = ger ger1 ger2 ger3 ger_aor ger_fut ger_abst ger_pabs ger_past ;
 LIST Finite = evid ifi past aor pres fut ;
@@ -119,6 +120,9 @@ SELECT Num IF (-1 ("yüzde")) ;
 
 SELECT Pron IF (0 Pron);
 #to give priority to pronouns. for example, "bende" almost definitely refers to pron.ps1.sg.loc and not 'bende' n.nom (slave)
+
+SELECT Gnaneg ;
+#gelmeden, olmadan
 
 ADD (=tv) (*) IF ((0 Tv) OR (0/1 Tv)) (NOT 0 (=tv)) ;
 
