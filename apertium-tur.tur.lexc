@@ -10677,6 +10677,7 @@ oditoryum:oditoryum N1 ; ! ""
 od:od N1 ; ! ""
 öğretmen:öğretmen N1 ; ! ""
 ok:ok N1 ; ! ""
+osuruk:osuruk N1 ; !
 öküz:öküz N1 ; ! ""
 ölçek:ölçek N1 ; ! ""
 olumlu:olumlu N1 ; ! ""
@@ -24321,6 +24322,7 @@ kaç:kaç V-AR-TV ; ! "escape" (IR)
 !oku:oku V-TV-T-IR ; ! "read"
 oku:oku V-IR-TV ; ! "read"
 okut:okut V-IR-TV ;
+osur:osur V-IR-IV ; ! 
 somurt:somurt V-IR-IV ;
 !söyle:söyle V-TV-T-IR ; ! "say"
 söyle:söyle V-IR-TV ; ! "say"
