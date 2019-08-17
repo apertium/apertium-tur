@@ -4421,7 +4421,7 @@ Venüs:Venüs N1 ; !
 zıt:zıt N1 ; !
 pırasa:pırasa N1 ; !
 Ahzab:Ahzab N1 ; !
-Hintçe:Hintçe N1 ; !
+
 elif:elif N1 ; !
 aleyh:aleyh N1 ; !
 davacı:davacı N1 ; !
@@ -4466,7 +4466,7 @@ sayaç:sayaç N1 ; !
 pirinç:pirinç N1 ; !
 oruç:oruç N1 ; !
 pound:pound N1 ; !
-Çince:Çince N1 ; !
+
 sülale:sülale N1 ; !
 tasdikleme:tasdikleme N1 ; !
 titreme:titreme N1 ; !
@@ -4502,8 +4502,7 @@ taçyaprağı:taçyaprağı N1 ; !
 sezgi:sezgi N1 ; !
 meteoroloji:meteoroloji N1 ; !
 Uyguroloji:Uyguroloji N1 ; !
-Uygurca:Uygurca N1 ; !
-Kazakça:Kazakça N1 ; !
+
 yankı:yankı N1 ; !
 argali:argali N1 ; !
 anomali:anomali N1 ; !
@@ -5918,7 +5917,7 @@ bilye:bilye N1 ; ! "marble"
 bina:bina N1 ; ! "building"
 binek:binek N1 ; ! "riding"
 binici:binici N1 ; ! "jockey"
-tatarca:tatarca N1 ;
+
 bira:bira N1 ; ! "beer"
 bileşim:bileşim N1 ;
 birader:birader N1 ; ! "brother "
@@ -9341,7 +9340,7 @@ manca:manca N1 ; ! "food"
 mandalina:mandalina N1 ; ! "tangerine"
 mandal:mandal N1 ; ! "latch"
 manda:manda N1 ; ! "buffalo"
-mandarin:mandarin N1 ; ! "tangerine"
+
 mandater:mandater N1 ; ! "mandatory"
 mandıra:mandıra N1 ; ! "dairy"
 maneviyat:maneviyat N1 ; ! "spirit"
@@ -11402,22 +11401,52 @@ han:Han N3 ;
 
 
 !!!!LANGUAGES!!!!!
-latince:Latince N1 ;
-İngilizce:İngilizce N1 ; ! "english"
-türkçe:Türkçe N1 ; ! "turkish"
+
+İngilizce:İngilizce N1 ; ! "english" Dir/LR
 ingilizce:İngilizce N1 ; 
-rusça:Rusça N1 ; ! "russian"
+türkçe:Türkçe N1 ; ! "turkish"
+özbekçe:Özbekçe N1 ; !
+uygurca:Uygurca N1 ; !
+kırgızca:Kırgızca N1 ; !
+kazakça:Kazakça N1 ; !
+tatarca:Tatarca N1 ;
+japonca:Japonca N1 ; !
+korece:Korece N1 ; !
+fince:Fince N1 ; !
+estonca:Estonca N1 ; !
+macarca:Macarca N1 ; !
 arapça:Arapça N1 ; ! "arabic"
-arnavutça:Arnavutça N1 ; ! "albanian"
 portekizce:Portekizce N1 ; ! "portuguese"
-tibetçe:Tibetçe N1 ; !
+latince:Latince N1 ;
 fransızca:Fransızca N1 ;
-ukraynaca:Ukraynaca N1 ;
-ispanyolca:İspanyolca N1 ; ! ""
-arapça:Arapça N1 ;
-farsça:Farsça N1 ;
-rumca:Rumca N1 ;
+italyanca:İtalyanca N1 ; !
+ispanyolca:İspanyolca N1 ; ! 
 almanca:Almanca N1 ; ! ""
+isveççe:İsveççe N1 ;
+norveççe:Norveççe N1 ; 
+danca:Danca N1 ; !
+hintçe:Hintçe N1 ; !
+urduca:Urduca N1 ; 
+farsça:Farsça N1 ;
+tacikçe:Tacikçe N1 ; 
+peştuca:Peştuca N1 ; !
+yunanca:Yunanca N1 ; ! ""
+rumca:Rumca N1 ;
+arnavutça:Arnavutça N1 ; ! "albanian"
+ermenice:Ermenice N1 ; !
+iskoçça:İskoçça N1 ; !
+rusça:Rusça N1 ; ! "russian"
+lehçe:Lehçe N1 ; !
+bulgarca:Bulgarca N1 ; !
+sırpça:Sırpça N1 ; !
+hırvatça:Hırvatça N1 ; !
+ukraynaca:Ukraynaca N1 ;
+boşnakça:Boşnakça N1 ; !
+çince:Çince N1 ; !
+tibetçe:Tibetçe N1 ; !
+mandarin:Mandarin N1 ; ! 
+mandarince:Mandarince N1 ; ! 
+
 
 !!!!SPECIAL!!!!
 
@@ -11455,7 +11484,6 @@ pasaport:pasaport N1 ; ! ""
 hücüm:hücüm N1 ; ! ""
 yarımada:yarımada N1 ; ! ""
 zümre:zümre N1 ; ! ""
-
 arife:arife N1 ; ! ""
 arıza:arıza N1 ; ! ""
 hukukçu:hukukçu N1 ; ! ""
@@ -11537,7 +11565,7 @@ eşgündüm:eşgündüm N1 ; ! ""
 esirlik:esirlik%{v%} N1 ; ! ""
 esna:esna N1 ; ! ""
 etnogenez:etnogenez N1 ; ! ""
-farsça:farsça N1 ; ! ""
+
 federalleştirme:federalleştirme N1 ; ! ""
 fen:fen N1 ; ! ""
 güldeste:güldeste N1 ; ! ""
@@ -11849,8 +11877,7 @@ tarikçi:tarikçi N1 ; ! ""
 teke:teke N1 ; ! ""
 tersi:tersi N1 ; ! ""
 uru:uru N1 ; ! ""
-yunanca:yunanca N1 ; ! ""
-Özbekçe:Özbekçe N1 ; !
+
 arma:arma N1 ; ! ""
 kezlevli:Kezlevli N1 ; ! ""
 alevli:Alevli N1 ; ! ""
