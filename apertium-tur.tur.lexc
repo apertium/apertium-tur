@@ -4796,7 +4796,7 @@ tam:tam N1 ; !
 onarım:onarım N1 ; !
 som:som N1 ; !
 Dolan:Dolan N1 ; !
-bin:bin N1 ; !
+!bin:bin N1 ; !  not noun
 Washington:Washington N1 ; !
 sap:sap N1 ; !
 nükleer:nükleer N1 ; !
