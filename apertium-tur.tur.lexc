@@ -25644,52 +25644,52 @@ yetiştiril:yetiştiril V-IR-IV ;
 geçiril:geçiril V-IR-IV ;
 pişiril:pişiril V-IR-IV ;
 genişletil:genişletil V-IR-IV ;
-üretil:üretil V-IR-IV ;
-düzeltil:düzeltil V-IR-IV ;
-belirtil:belirtil V-IR-IV ;
-sunul:sunul V-IR-IV ;
-burul:burul V-IR-IV ;
-vurul:vurul V-IR-IV ;
-oyul:oyul V-IR-IV ;
-koyul:koyul V-IR-IV ;
-duyul:duyul V-IR-IV ;
-boğul:boğul V-IR-IV ;
-koşul:koşul V-IR-IV ;
-görül:görül V-IR-IV ;
-öldürül:öldürül V-IR-IV ;
-sürül:sürül V-IR-IV ;
-götürül:götürül V-IR-IV ;
-övül:övül V-IR-IV ;
-dövül:dövül V-IR-IV ;
-üzül:üzül V-IR-IV ;
-bakıl:bakıl V-IR-IV ;
-bırakıl:bırakıl V-IR-IV ;
-anıl:anıl V-IR-IV ;
-kullanıl:kullanıl V-IR-IV ;
-koparıl:koparıl V-IR-IV ;
-uyarıl:uyarıl V-IR-IV ;
-kaldırıl:kaldırıl V-IR-IV ;
-çalıştırıl:çalıştırıl V-IR-IV ;
-karıştırıl:karıştırıl V-IR-IV ;
-asıl:asıl V-IR-IV ;
-yaratıl:yaratıl V-IR-IV ;
-dağıtıl:dağıtıl V-IR-IV ;
-yıkan:yıkan V-IR-IV ;
+üretil:üretil V-IR-IV ; ! Use/MT
+düzeltil:düzeltil V-IR-IV ; ! Use/MT
+belirtil:belirtil V-IR-IV ; ! Use/MT
+sunul:sunul V-IR-IV ; ! Use/MT
+burul:burul V-IR-IV ; ! Use/MT
+vurul:vurul V-IR-IV ; ! Use/MT
+oyul:oyul V-IR-IV ; ! Use/MT
+koyul:koyul V-IR-IV ; ! Use/MT
+duyul:duyul V-IR-IV ; ! Use/MT
+boğul:boğul V-IR-IV ; ! Use/MT
+koşul:koşul V-IR-IV ; ! Use/MT
+görül:görül V-IR-IV ; ! Use/MT
+öldürül:öldürül V-IR-IV ; ! Use/MT
+sürül:sürül V-IR-IV ; ! Use/MT
+götürül:götürül V-IR-IV ; ! Use/MT
+övül:övül V-IR-IV ; 
+dövül:dövül V-IR-IV ; ! Use/MT
+üzül:üzül V-IR-IV ; ! Use/MT
+bakıl:bakıl V-IR-IV ; ! Use/MT
+bırakıl:bırakıl V-IR-IV ; ! Use/MT
+anıl:anıl V-IR-IV ; ! Use/MT
+kullanıl:kullanıl V-IR-IV ; ! Use/MT
+koparıl:koparıl V-IR-IV ; ! Use/MT
+uyarıl:uyarıl V-IR-IV ; ! Use/MT
+kaldırıl:kaldırıl V-IR-IV ; ! Use/MT
+çalıştırıl:çalıştırıl V-IR-IV ; ! Use/MT
+karıştırıl:karıştırıl V-IR-IV ; ! Use/MT
+asıl:asıl V-IR-IV ; ! Use/MT
+yaratıl:yaratıl V-IR-IV ; ! Use/MT
+dağıtıl:dağıtıl V-IR-IV ; ! Use/MT
+yıkan:yıkan V-IR-IV ; ! Use/MT
 sıralan:sıralan V-IR-IV ;
 imzalan:imzalan V-IR-IV ;
 saklan:saklan V-IR-IV ;
 açıklan:açıklan V-IR-IV ;
-tamamlan:tamamlan V-IR-IV ;
-kaplan:kaplan V-IR-IV ;
-ayıplan:ayıplan V-IR-IV ;
-ayarlan:ayarlan V-IR-IV ;
-sınırlan:sınırlan V-IR-IV ;
-hazırlan:hazırlan V-IR-IV ;
-atlan:atlan V-IR-IV ;
-ispatlan:ispatlan V-IR-IV ;
-otlan:otlan V-IR-IV ;
-kanıtlan:kanıtlan V-IR-IV ;
-onaylan:onaylan V-IR-IV ;
+tamamlan:tamamlan V-IR-IV ; ! Use/MT
+kaplan:kaplan V-IR-IV ; ! Use/MT
+ayıplan:ayıplan V-IR-IV ; ! Use/MT
+ayarlan:ayarlan V-IR-IV ; ! Use/MT
+sınırlan:sınırlan V-IR-IV ; ! Use/MT
+hazırlan:hazırlan V-IR-IV ; 
+atlan:atlan V-IR-IV ; ! Use/MT
+ispatlan:ispatlan V-IR-IV ; ! Use/MT
+otlan:otlan V-IR-IV ; 
+kanıtlan:kanıtlan V-IR-IV ; ! Use/MT
+onaylan:onaylan V-IR-IV ; ! Use/MT
 inan:inan V-IR-IV ;
 aran:aran V-IR-IV ;
 yaşan:yaşan V-IR-IV ;
