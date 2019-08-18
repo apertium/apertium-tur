@@ -70,6 +70,7 @@ LIST Advl = advl ;
 LIST Cond = cond gna_cond ;
 LIST Gpr = gpr_past gpr_fut gpr_rsub gpr_aor ;
 LIST Gna = gna_aor ;
+LIST Gpraor = gpr_aor ; 
 LIST Gnaneg = gna_neg ;
 LIST Prc = prc ;
 LIST Ger = ger ger1 ger2 ger3 ger_aor ger_fut ger_abst ger_pabs ger_past ;
