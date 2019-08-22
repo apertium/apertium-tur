@@ -3455,7 +3455,7 @@ Nenets:Nenets N1 ; !
 şubat:şubat N1 ; !
 tadilat:tadilat N1 ; !
 hasat:hasat N1 ; !
-mart:mart N1 ; !
+mart:mart N1 ; ! Dir/LR
 programlama:programlama N1 ; !
 sanal:sanal N1 ; !
 
@@ -3780,7 +3780,6 @@ Ağustos:Ağustos N1 ;
 Mayıs:Mayıs N1 ;
 Şubat:Şubat N1 ;
 Sovyet:Sovyet N1 ;
-Mart:Mart N1 ;
 insan% vücut:insan% vücut N1 ;
 insan% hak:insan% hak N1 ;
 şakayık:şakayık N1 ; !
@@ -9975,7 +9974,7 @@ mütercim:mütercim N1 ; ! "interpreter"
 müteveffa:müteveffa N1 ; ! "the deceased"
 mütevelli:mütevelli N1 ; ! "administrator"
 mütevelli:mütevelli N1 ; ! "trustee"
-mutfak:mutfak N1 ; ! "kitchen"
+mutfak:mutfak%{v%} N1 ; ! "kitchen"
 müthiş:müthiş N1 ; ! "wonderful"
 mutluluk:mutluluk%{v%} N1 ; ! "happiness"
 mut:mut N1 ; ! "happiness"
@@ -10396,7 +10395,7 @@ işadam:işadam N2 ; ! "worker"
 rakip:rakip%{v%} N1 ; !" comptetitor"
 teşekkür:teşekkür N1 ; ! "appreciation"
 iklim:iklim N1 ; ! "climate"
-iklim:İklim N1 ; ! "climate" ! MT USE / Hack
+iklim:İklim N1 ; ! "climate" ! Use/MT Dir/LR
 ocak²:ocak%{v%} N1 ; ! "furnace"
 şube:şube N1 ; ! "site/location"
 ulaşım:ulaşım N1 ; ! "transportation"
@@ -23561,18 +23560,19 @@ cümleten:cümleten ADV1 ; !
 mesela:mesela ADV1 ; !
 zorla:zorla ADV1 ; !
 fazla:fazla ADV1 ; !
-bu% yana:bu% yana ADV1 ; !
+bu% yana:bu% yana ADV1 ; ! 
 gittikçe:gittikçe ADV1 ; !
 bence:bence ADV1 ; !
 fevkalade:fevkalade ADV1 ; !
-aynı% halde:aynı% halde ADV1 ; !
-aksi% halde:aksi% halde ADV1 ; !
-şu% halde:şu% halde ADV1 ; !
-günümüzde:günümüzde ADV1 ; !
-sebebiyle:sebebiyle ADV1 ; !
-malum% ki:malum% ki ADV1 ; !
-dayanarak:dayanarak ADV1 ; !
-yaklaşık:yaklaşık ADV1 ; !
+aynı% halde:aynı% halde ADV1 ; ! Use/MT
+aksi% halde:aksi% halde ADV1 ; ! Use/MT
+şu% halde:şu% halde ADV1 ; ! Use/MT
+günümüzde:günümüzde ADV1 ; ! Use/MT
+günümüze:günümüze ADV1 ; ! Use/MT
+sebebiyle:sebebiyle ADV1 ; ! Use/MT
+malum% ki:malum% ki ADV1 ; ! Use/MT
+dayanarak:dayanarak ADV1 ; ! Use/MT
+yaklaşık:yaklaşık ADV1 ; ! 
 geçen% yıl:geçen% yıl ADV1 ; !
 sağlam:sağlam ADV1 ; !
 kalmadan:kalmadan ADV1 ; ! Use/MT
