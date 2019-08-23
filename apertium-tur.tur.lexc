@@ -3436,7 +3436,6 @@ sınıflandırma:sınıflandırma N1 ; !
 geoinformatik:geoinformatik N1 ; !
 
 küçük:küçük N1 ; !
-vaktinde:vaktinde N1 ; !
 hebele:hebele N1 ; !
 destekçi:destekçi N1 ; !
 özveri:özveri N1 ; !
@@ -4355,7 +4354,7 @@ siyah:siyah N1 ; !
 yakacak:yakacak N1 ; !
 gidiş:gidiş N1 ; ! Use/MT
 kuruş:kuruş N1 ; !
-Mu:Mu NP-TOP ; ! not a word unless we mean Mu the contitent
+
 sertifika:sertifika N1 ; !
 tenha:tenha N1 ; !
 aşağılama:aşağılama N1 ; !
@@ -10481,7 +10480,7 @@ ayrıntı:ayrıntı N1 ; ! "detail"
 !bütün ayrıntı N1 ; ! "all detail(s..)" ! Dir/RL ! Use/MT
 erişteli% çorba:erişteli% çorba N1 ; ! Use/MT
 uyku:uyku N1 ; ! "sleep"
-vakit:vak%{ь%}%{u%}t N1 ; ! "time"
+vakit:vak%{u%}t N1 ; ! "time"
 sunucu:sunucu N1 ; ! "MC, host"
 rahatlık:rahatlık N1 ; ! "pleasure"
 taksit:taksit N1 ; ! "(loan/debt) payment"
@@ -11955,7 +11954,8 @@ Pegas:Pegas NP-TOP ; !
 Côtes:Côtes NP-TOP ; !
 Yeruşalim:Yeruşalim NP-TOP ; !
 Yahudiye:Yahudiye NP-TOP ; !
-
+Mu:Mu NP-TOP ; ! not a word unless we mean Mu the contitent
+Kaşkaderya:Kaşkaderya NP-TOP ; !
 Calabria:Calabria NP-TOP ; !
 Dôme:Dôme NP-TOP ; !
 Eure:Eure NP-TOP ; !
@@ -25508,7 +25508,7 @@ temin% edil:temin% edil V-IR-IV ; ! Dir/RL ! Use/MT
 destek% ver:destek% ver V-IR-IV ; ! Dir/RL ! Use/MT 
 rağbet% et:rağbet% et V-AR-IV ; 
 
-alın:alın V-IR-IV ;
+alın:alın V-IR-IV ; ! Use/MT
 avlan:avlan V-IR-IV ;
 bağır:bağır V-IR-IV ;
 bağlan:bağlan V-IR-IV ;
