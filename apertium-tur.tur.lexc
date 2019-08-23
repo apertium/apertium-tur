@@ -10480,7 +10480,7 @@ ayrıntı:ayrıntı N1 ; ! "detail"
 !bütün ayrıntı N1 ; ! "all detail(s..)" ! Dir/RL ! Use/MT
 erişteli% çorba:erişteli% çorba N1 ; ! Use/MT
 uyku:uyku N1 ; ! "sleep"
-vakit:vak%{u%}t N1 ; ! "time"
+vakit:vak%{u%}t%{ь%} N1 ; ! "time"
 sunucu:sunucu N1 ; ! "MC, host"
 rahatlık:rahatlık N1 ; ! "pleasure"
 taksit:taksit N1 ; ! "(loan/debt) payment"
