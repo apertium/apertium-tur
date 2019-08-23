@@ -11192,7 +11192,7 @@ telegraf:telegraf N1 ;
 stres:stres N1 ;
 kartopu:kartopu N1 ;
 hareketsizlik:hareketsizlik%{v%} N1 ;
-türkmen:türkmen N1 ;
+
 rektörlük:rektörlük N1 ;
 perspektif:perspektif N1 ;
 telaffuz:telaffuz N1 ;
@@ -11395,7 +11395,6 @@ ortodoks:Ortodoks N1 ; ! "orthodox"
 ortodoks:ortodoks N1 ; ! "orthodox" Dir/LR
 çinli:Çinli N1 ; ! "chinese"
 hollandalı:Hollandalı N1 ; ! "dutch"
-türkmen:Türkmen N3 ;
 latin:Latin N3 ;
 hun:Hun N3 ;
 han:Han N3 ;
