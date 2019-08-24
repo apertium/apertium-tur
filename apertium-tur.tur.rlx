@@ -69,6 +69,8 @@ LIST Ref = ref ;
 LIST Advl = advl ;
 LIST Cond = cond gna_cond ;
 LIST Gpr = gpr_past gpr_fut gpr_rsub gpr_aor ;
+LIST Gpr/rsub = gpr_rsub ;
+LIST Ger/impf = ger_impf ;
 LIST Gna = gna_aor ;
 LIST Gpraor = gpr_aor ; 
 LIST Gnaneg = gna_neg ;
@@ -178,6 +180,9 @@ SELECT Px2Sg IF (-1 V) (-1 Sg2);
 
 SELECT Px3Sp IF (-1 V);
 #söyler dostuna
+
+SELECT Ger/impf IF (0 Gpr/rsub) ;
+#yapılan
 
 REMOVE Pot IF (0/* Opt) ;
 
