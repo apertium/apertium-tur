@@ -1,7 +1,8 @@
 DELIMITERS = "<.>" "<!>" "<?>" ;
 SOFT-DELIMITERS = "<,>" ;
 
-SUBREADINGS = RTL ; # Alternate, right-to-lfet (main reading on the right)
+SUBREADINGS = LTR ; 
+#SUBREADINGS = RTL ; # Alternate, right-to-lfet (main reading on the right)
 
 LIST BOS = (>>>) sent ; # Beginning of sentence
 LIST EOS = (<<<) sent ; # End of sentence
@@ -11,6 +12,9 @@ LIST V = v ;
 LIST Prop = np ; 
 LIST Pron = prn ; 
 LIST Num = num ; 
+LIST Sent = sent ;
+LIST Cm = cm ; 
+LIST Bir = "bir" ;
 LIST A = adj ; 
 LIST Det = det ; 
 LIST Adv = adv ; 
@@ -22,7 +26,7 @@ LIST Cop = cop ;
 LIST Qst = qst ; 
 LIST Neg = neg ; 
 
-LIST Tv = (v tv) (v iv caus) (=tv) ;
+LIST TV = (v tv) (v iv caus) (=tv) ;
 
 #LIST P3Pred = (aor p3 sg) ;
 LIST NoPred = nec prog fut past ;
@@ -78,11 +82,17 @@ LIST Aor = aor ;
 LIST AorFin = (aor VPers) ;
 LIST Coop = coop ;
 
+LIST NRel = "alt" "ast" "ara" "üst" "yakın" "yan" ;
+
 SET POSS = Px1Sg | Px2Sg | Px3Sp | Px1Pl | Px2Pl ; 
 
 LIST Imper = imp ; 
 LIST Opt = opt ;
 LIST Pot = pot ;
+
+LIST Üzer = "üzer" ;
+
+LIST @obj = @obj ;
 
 SET PRE-N = Det | Num | Attr | A | Gen | ("-") ; # CC 
 
@@ -113,7 +123,7 @@ SELECT Num IF (-1 ("yüzde")) ;
 SELECT Pron IF (0 Pron);
 #to give priority to pronouns. for example, "bende" almost definitely refers to pron.ps1.sg.loc and not 'bende' n.nom (slave)
 
-ADD (=tv) (*) IF ((0 Tv) OR (0/1 Tv)) (NOT 0 (=tv)) ;
+#ADD (=tv) (*) IF ((0 TV) OR (0/1 TV)) (NOT 0 (=tv)) ;
 
 #
 ## Remove productive derivations when there are lexicalised alternatives
@@ -227,7 +237,7 @@ REMOVE Sub:1 Post IF (0 A) ;
 REMOVE Acc IF (-1 Gen) ; 
 #çiçeklerin kızılı
 
-REMOVE Acc IF (NOT 0* Tv) ; 
+REMOVE Acc IF (NOT 0* TV) ; 
 #remove accusative if there is no TV in the sentence
 
 SELECT Det (0 ("bir")) (-1C A) (1C N); 
@@ -289,27 +299,27 @@ REMOVE N IF
 
 #REMOVE Acc IF
 #	(0 Px3Sp)
-#	(NOT 1* Tv BARRIER V) ;
+#	(NOT 1* TV BARRIER V) ;
 
 REMOVE Acc IF
 	(0C Px3Sp OR Acc)
 	(
-		(1C* Acc BARRIER Tv) 
+		(1C* Acc BARRIER TV) 
 		#  60'lık [0]vücudu artık dans derslerini kaldıramayacak kadar bitkinleşmiş.
 		OR
-		(NOT 1C* Tv BARRIER EOS)
+		(NOT 1C* TV BARRIER EOS)
 	);
 
 REMOVE Sub:1 Acc IF
 	(0C/1 Px3Sp OR Acc)
 	(
-		(1C* Acc BARRIER Tv) 
+		(1C* Acc BARRIER TV) 
 		OR
-		(NOT 1C* Tv BARRIER EOS)
+		(NOT 1C* TV BARRIER EOS)
 		#  Mori Schwartz, hayat dolu bir üniversite [0]profesörüydü.
 	);
 
-REMOVE Gpr - Subst IF (NOT 1 N) ;
+REMOVE Gpr - Subst IF (NOT 1 N OR Det) ;
 
 REMOVE SUB:1 Gpr - Subst IF (NOT 1 N) ;
 
@@ -389,8 +399,8 @@ REMOVE Sub:1 Gen IF
 REMOVE Gen IF
 	(0 ("için") LINK NOT 1 POSS);
 
-SELECT Sub:1 Finite IF
-	(0 Advl) ;
+#SELECT Sub:1 Finite IF
+#	(0 Advl) ;
 	# ölürken
 
 SELECT Sub:1 ("düşün") IF
@@ -460,10 +470,36 @@ REMOVE Cop IF (-1 BOS) (0 Cop LINK 0/1 N - Pl) (0 N + Pl) (1 EOS) ;
 
 REMOVE Cop IF (0 (@HARGLE));
 
+SELECT A IF (NOT 0 Gpr) (1 Bir LINK 1 N) ;
+
 SELECT Cop IF
 	(NOT 0 (@HARGLE))
 	((1 COMMA) OR (1 EOS)); 
 
+REMOVE Advl ; 
+
+REMOVE Üzer IF (NOT -1 N) ;
+
+REMOVE SUB:* Cop (NOT 1 Sent OR Cm) ;
+
+REMOVE Caus ; 
+
+REMOVE A + Subst (0 N) ; 
+
+SELECT TV IF (-1C Acc) ;
+
+REMOVE A IF (0 N OR A) (1 NRel) ;
+
+SECTION
+
+MAP @obj TARGET N + Nom (1 TV) (NOT 1 Sg3 OR Pl3) ;
+
+MAP @obj TARGET N + Acc  ;
+
 AFTER-SECTIONS
 
+
 SUBSTITUTE (=tv) (*) (*) ; 
+
+
+SELECT Prop IF (0 ("Sezgi")) ; 

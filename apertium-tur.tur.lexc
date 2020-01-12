@@ -3187,6 +3187,7 @@ tembih:tembih N1 ; !
 Fısıh:Fısıh N1 ; !
 Mecdelli:Mecdelli N1 ; !
 İsrailoğulları:İsrailoğulları N1 ; !
+penaltı:penaltı N1 ; ! 
 helâk:helâk N1 ; !
 kelâm:kelâm N1 ; !
 âlim:âlim N1 ; !
@@ -3639,7 +3640,8 @@ mevkii:mevkii N1 ; !
 havalimanı:havalimanı N1 ; !
 J:J N1 ; !
 yönetmenlik:yönetmenlik%{v%} N1 ; !
-geçersizlik:geçersizlik N1 ; !
+geçersizlik:geçersizlik%{v%} N1 ; !
+eşitsizlik:eşitsizlik%{v%} N1 ; !
 dağılım:dağılım N1 ; !
 com:com N1 ; !
 yüzölçümü:yüzölçümü N1 ; !
@@ -4702,7 +4704,7 @@ kaydedici:kaydedici N1 ; !
 gösterici:gösterici N1 ; !
 dinleyici:dinleyici N1 ; !
 yazıcı:yazıcı N1 ; !
-şimdi:şimdi N1 ; !
+!şimdi:şimdi N1 ; !
 seki:seki N1 ; !
 Türkiyeli:Türkiyeli N1 ; !
 Suriyeli:Suriyeli N1 ; !
@@ -10990,6 +10992,7 @@ yapımcılık:yapımcılık%{v%} N1 ;
 ova:ova N1 ; ! "plain"
 vapur:vapur N1 ;
 yapımcı:yapımcı N1 ;
+üzeri:üzeri N1 ; ! "clothes"
 temsil:temsil N1 ;
 protokol:protokol N1 ;
 talimat:talimat N1 ;
@@ -12420,6 +12423,7 @@ Musakocoyev:Musakocoyev NP-ANT-M ; !
 Alişer:Alişer NP-ANT-M ; !
 Uluğbey:Uluğbey NP-ANT-M ; !
 Venatici:Venatici NP-COG-MF ; !
+Rushiti:Rushiti NP-COG-MF ; !
 Edouard:Edouard NP-ANT-M ; !
 Netanyahu:Netanyahu NP-COG-MF ; !
 Stephan:Stephan NP-ANT-M ; !
@@ -20678,7 +20682,7 @@ garbi:garbi A1 ; !
 harici:harici A1 ; !
 şaşırtıcı:şaşırtıcı A1 ; !
 savaşçı:savaşçı A1 ; !
-şimdi:şimdi A1 ; !
+!şimdi:şimdi A1 ; !
 ilgi:ilgi A1 ; !
 pedagoji:pedagoji A1 ; !
 uygulamalı:uygulamalı A1 ; !
@@ -21476,7 +21480,7 @@ kaba:kaba A1 ;
 sayısız:sayısız A1 ;
 suni:suni A1 ;
 hayırlı:hayırlı A1 ;
-sık:sık A4 ;
+sık:sık A3 ;
 gelmeli:gelmeli A1 ;
 bombeli:bombeli A1 ;
 uğurlu:uğurlu A1 ;
@@ -21675,6 +21679,7 @@ organize:organize A2 ; ! "organized"
 nihai:nihai A1 ; ! "ultimate; final"
 teknik:teknik A2 ; ! "technic"
 yasadışı:yasadışı A1 ; ! "illegal"
+sıradışı:sıradışı A1 ; ! "unusual"
 budala:budala A2 ;  ! "fool"
 ela:ela A2 ;  ! "haler (colour)"
 kabartma:kabartma A2 ;  ! "raised"
@@ -23982,6 +23987,7 @@ al:al V-IR-TV ; ! "take, buy"
 derinleştir:derinleştir V-IR-TV ; ! "deepen" (T)
 ! yap:yap V-TV-DIR-AR ; ! "make, do"
 yap:yap V-AR-TV ; ! "make, do"
+ne%<prn%>%<itg%>%+yap%<v%>%<tv%>:nap V-DERIV-AR ; ! "make, do" ! Use/Coll
 !gel:gel V-IR-IV ; ! "come to a stop"
 gel:gel V-IR-IV ; ! "come" (DIR)
 !gel:gel V-IR-IV ; ! "come" (DIR)
@@ -25144,6 +25150,7 @@ patla:patla V-AR-IV ; ! "explode" (T)
 püskür:püskür V-IR-IV ; ! "spout" (T)
 rahatla:rahatla V-AR-IV ; ! "relax" (T)
 rastla:rastla V-AR-IV ; ! "encounter" (T)
+rastlan:rastlan V-AR-IV ; ! "occur" (T)
 sabahla:sabahla V-AR-IV ; ! "sit up all night" (T)
 teşkil% et:teşkil% et V-AR-TV ;
 sağal:sağal V-IR-IV ; ! "recover" (T)
@@ -25672,7 +25679,7 @@ karar% ver:karar% ver V-IR-IV ;
 içeri% gir:içeri% gir V-AR-IV ;
 gir:gir V-AR-IV ;
 yer% değiştir:yer% değiştir V-IR-IV ;
-değiştir:değiştir V-IR-IV ;
+!değiştir:değiştir V-IR-IV ;
 dokundur:dokundur V-IR-IV ;
 diz% çöktür:diz% çöktür V-IR-IV ;
 yıktır:yıktır V-IR-IV ;
@@ -25760,7 +25767,7 @@ selam:selam INTERJ ; !
 yeter:yeter INTERJ ; !
 günaydın:günaydın INTERJ ; !
 değil% mi% ki:değil% mi% ki INTERJ ; !
-şimdi:şimdi INTERJ ; !
+!şimdi:şimdi INTERJ ; !
 hâşâ:hâşâ INTERJ ; !
 âmin:âmin INTERJ ; !
 
