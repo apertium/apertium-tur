@@ -27,7 +27,7 @@ Alphabet
 
  %{z%}:z
 
- %{o%}:0 %{ö%}:0 %{ı%}:0 %{p%}:0 %{b%}:0 ! For numerals and abbreviations / acronyms
+ %{o%}:0 %{ö%}:0 %{ı%}:0 %{î%}:0 %{p%}:0 %{b%}:0 ! For numerals and abbreviations / acronyms
 
  %{k%}:k ! ???
  
@@ -60,7 +60,7 @@ Cns    = B C Ç D F G Ğ H J K L M N P Q R S Ş T V W Y Z X
          b c ç d f g ğ h j k l m n p q r s ş t v w y z x
          %' %{ç%} %{t%} ;
 
-AbstrVow = %{ь%} %{ö%} %{o%} %{ı%} %{u%} ; 
+AbstrVow = %{ь%} %{ö%} %{o%} %{ı%} %{u%} %{î%} ; 
 
 HardVow  = a â ı o u û 
            A Â I O U Û ;
@@ -107,8 +107,8 @@ Rules
 !                      [ %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
                                 [ %{z%}:0 %>: %{y%}: ]/:0 _ ;
         where 
-              Vx in ( %{ь%} %{o%} %{ö%} %{ı%} ) 
-              Vy   in (  i    u     ü     ı   )  
+              Vx in ( %{ь%} %{o%} %{ö%} %{ı%} %{î%} ) 
+              Vy   in (  i    u     ü     ı   i )  
                matched ;
 
 !"Hidden vowel harmony for archiphoneme {I}:i"
@@ -183,8 +183,8 @@ Rules
                                               %{e%}:0 %>: _ ;
 !                      [ %{u%}: ] [ :0 | :Cns | :%' | % ]* _ ; 
         where 
-              Vx in ( %{ь%} %{o%} %{ö%} %{ı%} ) 
-              Vy   in (  i    u     ü     ı   )  
+              Vx in ( %{ь%} %{o%} %{ö%} %{ı%} %{î%}) 
+              Vy   in (  i    u     ü     ı   i)  
                matched ;
 
 !"Unepenthesis in stems"
@@ -247,7 +247,7 @@ Rules
             [ %{f%}:   :Cns* [ AbstrCns:0 | :Cns ] ]/[ :0 | %>: | %  ] _ ;
        except
               _ %>: %{I%}: y:y o:o r:r ;
-             [ %{ь%}:0 | %{ö%}:0 | %{ı%}:0 | %{o%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
+             [ %{ь%}:0 | %{ö%}:0 | %{ı%}:0 | %{î%}:0 | %{o%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;
 
 "Underlying vowel harmony for archiphoneme {A}"
 %{A%}:e <=> [ %{ь%}:0 | %{ь%}:0 | %{ö%}:0 ] [ :0 | :Cns | :%' | % ]* _ ;

@@ -25,6 +25,7 @@ LIST Post = post ;
 LIST Cop = cop ; 
 LIST Qst = qst ; 
 LIST Neg = neg ; 
+LIST Top = top ;
 
 LIST TV = (v tv) (v iv caus) (=tv) ;
 
@@ -43,7 +44,7 @@ LIST VPers = p1 p2 p3 ;
 
 LIST Pl = pl ;
 
-LIST Px3Sp = px3sg px3pl; 
+LIST Px3Sp = px3sg px3pl px3sp; 
 LIST Px3Sg = px3sg ; 
 LIST Px3Pl = px3pl ; 
 LIST Px2Sg = px2sg ; 
@@ -70,9 +71,13 @@ LIST Recip = rec ;
 LIST Caus = caus ; 
 LIST Ref = ref ;
 LIST Advl = advl ;
-
+LIST Cond = cond gna_cond ;
 LIST Gpr = gpr_past gpr_fut gpr_rsub gpr_aor ;
+LIST Gpr/rsub = gpr_rsub ;
+LIST Ger/impf = ger_impf ;
 LIST Gna = gna_aor ;
+LIST Gpraor = gpr_aor ; 
+LIST Gnaneg = gna_neg ;
 LIST Prc = prc ;
 LIST Ger = ger ger1 ger2 ger3 ger_aor ger_fut ger_abst ger_pabs ger_past ;
 LIST Finite = evid ifi past aor pres fut ;
@@ -111,8 +116,14 @@ SET NPNHA = WORDMARK - PRE-N - Adv ;
 
 SECTION
 
+SELECT ("kadın") (0 ("kadın"));
+#kadının
+
 "<yüzde>" SELECT Nom IF (1 Num) ; 
 #yüzde onu
+
+"<için>" SELECT Post ; 
+#için
 
 SELECT Num IF (-1 ("yüzde")) ;
 #yüzde onu
@@ -124,6 +135,11 @@ SELECT Pron IF (0 Pron);
 #to give priority to pronouns. for example, "bende" almost definitely refers to pron.ps1.sg.loc and not 'bende' n.nom (slave)
 
 #ADD (=tv) (*) IF ((0 TV) OR (0/1 TV)) (NOT 0 (=tv)) ;
+=======
+SELECT Gnaneg ;
+#gelmeden, olmadan
+
+#ADD (=tv) (*) IF ((0 Tv) OR (0/1 Tv)) (NOT 0 (=tv)) ;
 
 #
 ## Remove productive derivations when there are lexicalised alternatives
@@ -145,8 +161,23 @@ REMOVE N + Abe IF (0 A) ;
 SELECT Adv IF (0 ("yarın")) ;
     ## Yarın gelir misin?
 
+SELECT Gen IF (1 ("yüzde")) (2 Px3Sp);
+#halkın yüzde onu
+
+SELECT Gen IF (0 Px2Sg) (1 Px3Sp OR Acc);
+#kadının şamdanı
+
+REMOVE Acc IF (-1 Gen);
+#Kadının şamdanı 
+
+REMOVE Gen IF (0 Px2Sg) (NOT 1 Px3Sp);
+#evladın var mı
+
 REMOVE Cog + Px2Sg IF (0 Cog + Gen) ; 
     ## [0]Cinciç'in anısına Belgrad'da binlerce kişi toplandı.
+
+SELECT Imper IF (-1 BOS) (0 Neg) (1 N) ;
+#Söyleme dostuna
 
 SELECT Imper IF (0 Neg) (1 EOS) ;
 #erişme, yarışma etc
@@ -155,6 +186,15 @@ REMOVE Imper IF (NOT 0C Imper) ;
     ## Bunlar, bu hafta içinde dünyanın dört bir yanından İtalyan başkentine [0]akın etmiş olan yaklaşık dört milyon hacı ve yaslı kalabalığa katıldı.
 
 #REMOVE Imper IF (NOT 0C/* Imper OR Pot) ;
+
+SELECT Px2Sg IF (-1 V) (-1 Sg2);
+#söyleme dostuna
+
+SELECT Px3Sp IF (-1 V);
+#söyler dostuna
+
+SELECT Ger/impf IF (0 Gpr/rsub) ;
+#yapılan
 
 REMOVE Pot IF (0/* Opt) ;
 
@@ -210,6 +250,12 @@ REMOVE Pron + Nom IF (0 Det) (1C N) ;
 REMOVE Num + Nom IF (1C Num) ; 
     ## Bu araba [0]11,5 milyar avroluk.
 
+SELECT Nom IF (0 Top) ; 
+#
+
+SELECT Attr IF (-1 Px3Sp) (1 Cond) ; 
+#şamdanı altın olsa
+
 REMOVE Attr IF (NOT 1 PRE-N) (NOT 1 NOMINAL-HEAD) (NOT 1/1 NOMINAL-HEAD) ; 
     ## Bu araba 11,5 milyar avroluk.
 
@@ -218,6 +264,8 @@ SELECT Adv IF (0 ("en")) (1 A) ;
 
 REMOVE Subst + Nom IF (1* N + Nom BARRIER NPNHA)  ; 
     ## En az 11,5 milyar avroluk ve ...
+
+
 
 REMOVE N + Nom IF (0 Attr OR Nom) (1C Nom) ;
     ## Samaras'ın AB-IMF-ECB troykası tarafından talep edilen ve krizi daha da derinleştiren, ...
