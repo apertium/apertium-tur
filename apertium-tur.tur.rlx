@@ -20,6 +20,7 @@ LIST Det = det ;
 LIST Adv = adv ; 
 LIST CC = cnjcoo ; 
 LIST CS = cnjsub ; 
+LIST CA = cnjadv ; 
 LIST Interj = ij ; 
 LIST Post = post ; 
 LIST Cop = cop ; 
@@ -95,7 +96,12 @@ LIST Imper = imp ;
 LIST Opt = opt ;
 LIST Pot = pot ;
 
-LIST Üzer = "üzer" ;
+LIST Üzer = "üzer"i ;
+LIST Ancak = "ancak"i ; 
+LIST İle = "ile"i "İle"i ; 
+
+LIST Maj = "[A-Z].*"ri ; 
+LIST Min = "[a-z].*"ri ; 
 
 LIST @obj = @obj ;
 
@@ -135,7 +141,6 @@ SELECT Pron IF (0 Pron);
 #to give priority to pronouns. for example, "bende" almost definitely refers to pron.ps1.sg.loc and not 'bende' n.nom (slave)
 
 #ADD (=tv) (*) IF ((0 TV) OR (0/1 TV)) (NOT 0 (=tv)) ;
-=======
 SELECT Gnaneg ;
 #gelmeden, olmadan
 
@@ -537,6 +542,12 @@ REMOVE A + Subst (0 N) ;
 SELECT TV IF (-1C Acc) ;
 
 REMOVE A IF (0 N OR A) (1 NRel) ;
+
+SELECT Prop IF (0 Maj) (-1 Min) ;
+
+SELECT CA IF (0 Ancak) (-1 BOS) (1 Cm) ;
+
+SELECT CC IF (-1 Maj) (0 İle) (1 Maj) ; 
 
 SECTION
 

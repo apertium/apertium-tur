@@ -4073,6 +4073,7 @@ mahiyet:mahiyet N1 ; !
 Cenab-ı% Allah:Cenab-ı% Allah N1 ; !
 Mürteza:Mürteza NP-ANT-M ; !
 Muhammetarif:Muhammetarif NP-ANT-M ; !
+Bora:Bora NP-ANT-M ; !
 Veliullah:Veliullah NP-ANT-M ; !
 Abdülhak:Abdülhak NP-ANT-M ; !
 Alp:Alp NP-ANT-M ; !
@@ -4267,7 +4268,7 @@ düzleştirme:düzleştirme N1 ; !
 gezme:gezme N1 ; !
 uyanık:uyanık N1 ; !
 güzel:güzel N1 ; !
-nasıl:nasıl N1 ; !
+!nasıl:nasıl N1 ; !
 zor:zor N1 ; !
 
 uçuş:uçuş N1 ; !
@@ -12450,6 +12451,7 @@ Musakocoyev:Musakocoyev NP-ANT-M ; !
 Alişer:Alişer NP-ANT-M ; !
 Uluğbey:Uluğbey NP-ANT-M ; !
 Venatici:Venatici NP-COG-MF ; !
+Kırca:Kırca NP-COG-MF ; !
 Rushiti:Rushiti NP-COG-MF ; !
 Edouard:Edouard NP-ANT-M ; !
 Netanyahu:Netanyahu NP-COG-MF ; !
@@ -21394,7 +21396,7 @@ karakteristik:karakteristik A1 ; !
 temel:temel A1 ; !
 mukabil:mukabil A1 ; !
 asıl:as%{u%}l A1 ; !
-nasıl:nasıl A1 ; !
+!nasıl:nasıl A1 ; !
 mamul:mamul A1 ; !
 yaban:yaban A1 ; !
 uçan:uçan A1 ; !
@@ -23162,7 +23164,7 @@ göre:göre ADV3 ; ! Use/MT
 böylesine:böylesine ADV3 ;
 vesaire:vesaire ADV3 ;
 orada:orada ADV3 ;
-nasıl:nasıl ADV3 ;
+!nasıl:nasıl ADV3 ;
 ziyadesiyle:ziyadesiyle ADV3 ;
 kısa% zaman% sonra:kısa% zaman% sonra ADV3 ;
 üç% kes:üç% kes ADV3 ;
