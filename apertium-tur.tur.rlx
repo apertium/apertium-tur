@@ -53,6 +53,8 @@ LIST Px2Pl = px2pl ;
 LIST Px1Pl = px1pl ; 
 LIST Px1Sg = px1sg ;
 
+SET Poss = Px3Sp OR Px2Sg OR Px2Pl OR Px1Sg OR Px1Pl ; 
+
 LIST Nom = nom ; 
 LIST Gen = gen ; 
 LIST Acc = acc ; 
@@ -98,10 +100,13 @@ LIST Pot = pot ;
 
 LIST Üzer = "üzer"i ;
 LIST Ancak = "ancak"i ; 
+LIST Bakan = "bakan"i ;
 LIST İle = "ile"i "İle"i ; 
 
 LIST Maj = "[A-Z].*"ri ; 
 LIST Min = "[a-z].*"ri ; 
+
+LIST ALLCAPS = "[A-Z]+"ri ; 
 
 LIST @obj = @obj ;
 
@@ -198,7 +203,7 @@ SELECT Px2Sg IF (-1 V) (-1 Sg2);
 SELECT Px3Sp IF (-1 V);
 #söyler dostuna
 
-SELECT Ger/impf IF (0 Gpr/rsub) ;
+#SELECT Ger/impf IF (0 Gpr/rsub) ;
 #yapılan
 
 REMOVE Pot IF (0/* Opt) ;
@@ -548,6 +553,10 @@ SELECT Prop IF (0 Maj) (-1 Min) ;
 SELECT CA IF (0 Ancak) (-1 BOS) (1 Cm) ;
 
 SELECT CC IF (-1 Maj) (0 İle) (1 Maj) ; 
+
+REMOVE Poss IF (0 ALLCAPS) (0 N) ; 
+
+SELECT Bakan IF (-1 Top) ;
 
 SECTION
 

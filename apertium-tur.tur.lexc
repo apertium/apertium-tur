@@ -21668,7 +21668,7 @@ yönelik:yönelik A1 ; ! "devoted"
 mali:mali A2 ; ! "economıcal"
 düşük:düşük A1 ; ! 'low'
 ! önceki:önceki A1 ; ! "previous"
-hakkındaki:hakkındaki A1 ; ! "in concerning"
+!hakkındaki:hakkındaki A1 ; ! "in concerning"
 sonraki:sonraki A1 ; ! "next"
 yılki:yılki A1 ; ! "yearly"
 ikili:ikili A2 ; ! "dual"
