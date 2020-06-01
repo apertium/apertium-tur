@@ -2,8 +2,6 @@
 ## Makefile for apertium-tur
 ###############################################################################
 
-RELEASE=0.2
-VERSION=0.2.0
 LANG1=tur
 BASENAME=apertium-$(LANG1)
 
@@ -149,7 +147,7 @@ if HAVE_HFSTOSPELL
 EXTRA_TARGETS += $(LANG1).zhfst
 endif # HAVE_HFSTOSPELL
 
-apertium_tur_DATA=$(TARGETS_COMMON) $(EXTRA_TARGETS)
+apertium_tur_DATA=$(TARGETS_COMMON) $(EXTRA_TARGETS) $(BASENAME).post-$(LANG1).dix
 
 pkgconfigdir = $(prefix)/share/pkgconfig
 pkgconfig_DATA = $(BASENAME).pc
@@ -157,7 +155,6 @@ pkgconfig_DATA = $(BASENAME).pc
 noinst_DATA=modes/$(LANG1)-morph.mode
 
 install-data-local: install-modes
-	test -d $(DESTDIR)$(apertium_tur_srcdir) || mkdir -p $(DESTDIR)$(apertium_tur_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).lexc $(DESTDIR)$(apertium_tur_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).twol $(DESTDIR)$(apertium_tur_srcdir)
 	$(INSTALL_DATA) $(BASENAME).$(LANG1).rlx $(DESTDIR)$(apertium_tur_srcdir)
