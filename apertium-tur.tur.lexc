@@ -3013,6 +3013,9 @@ hiçbir% şey:hiçbirşey PRON-NEG ; ! "nothing" ! Dir/LR
 hiçbir% şey:hiç% birşey PRON-NEG ; ! "nothing" ! Dir/LR
 hiçbir% şey:hiçbir% şey PRON-NEG ; ! "nothing"
 hiç% kimse:hiç% kimse PRON-NEG ; ! "nobody"
+hiç% zaman:hiç% zaman PRON-NEG ; ! "never"
+hiçbir% zaman:hiç% zaman PRON-NEG ; ! "never"
+asla:asla PRON-NEG ; ! "never"
 herkes:herkes PRON-QNT ; ! "everybody"
 her% bir:her% bir PRON-QNT ; !
 hiçbir:hiçbir PRON-QNT ; !
@@ -3244,7 +3247,6 @@ hâl:hâl N1 ; !
 sırat-ı% müstakim:sırat-ı% müstakim N1 ; !
 müteşabih% ayet:müteşabih% ayet N1 ; !
 
-sever:sever N1 ; !
 riya:riya N1 ; !
 dikicilik:dikicilik N1 ; !
 ressamlık:ressamlık N1 ; !
