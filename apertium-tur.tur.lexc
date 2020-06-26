@@ -1555,7 +1555,7 @@ LEXICON CS
 
 %<cnjsub%>: # ;
 
-LEXICON CC 
+LEXICON CC
 
 %<cnjcoo%>: # ;
 
@@ -2870,6 +2870,7 @@ ama:ama CC ; ! "but"
 ancak:ancak CC ; 
 artı:artı CC ; ! "plus"
 da:da CC ; ! ""
+de:de CC ; ! ""
 da:de CC ; ! "" ! Dir/LR
 fakat:fakat CC ; 
 fakat:fakat CC ; ! ""
@@ -12439,7 +12440,7 @@ Apollos:Apollos NP-ANT-M ; !
 Kornelius:Kornelius NP-ANT-M ; !
 Festus:Festus NP-ANT-M ; !
 İskariyot:İskariyot NP-ANT-M ; !
-
+Müge:Müge NP-ANT-F ; !
 Lyudmila:Lyudmila NP-ANT-F ; !
 Rimma:Rimma NP-ANT-F ; !
 Tatiana:Tatiana NP-ANT-F ; !
@@ -23379,7 +23380,7 @@ güzün:güzün ADV3 ; ! "at autumn"
 hakça:hakça ADV3 ; ! "fairly"
 giderek:giderek ADV3 ;
 hakikaten:hakikaten ADV3 ; ! "in fact"
-!hala:hala ADV3 ; ! "still"
+hala:hala ADV3 ; ! "still"
 hâlâ:hâlâ ADV3 ; ! "still" 
 halen:halen ADV3 ; ! "currently"
 hani:hani ADV3 ; ! "actually"
@@ -24180,6 +24181,7 @@ azmet:azmet V-AR-IV ; ! "determine" (DIR)
 bahset:bahset V-AR-TV ; ! "talk about" (DIR)
 bahşet:bahşet V-AR-TV ; ! "forgive" (DIR)
 bak:bak V-AR-IV ; ! "look at" (DIR)
+bakın:bakın V-AR-IV ; ! "look around"
 ban:ban V-AR-TV ; ! "dip into" (DIR)
 bas:bas V-AR-TV ; ! "press" (DIR)
 bas:bas V-AR-TV ; ! "raid" (DIR)
@@ -25788,7 +25790,7 @@ solu:solu V-IR-TV ;
 uy:uy V-AR-TV ;
 deş:deş V-AR-TV ;
 görüş:görüş V-IR-TV ;
-çalış:çalış V-IR-TV ;
+çalış:çalış V-IR-TV ; ! "try"?
 
 LEXICON Interjections 
 hop:hop INTERJ ; !
