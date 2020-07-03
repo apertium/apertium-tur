@@ -5677,7 +5677,7 @@ avukat:avukat N1 ; ! "lawyer"
 ayak:ayak%{v%} N1 ; ! "foot"
 ayakkabı:ayakkabı N1 ; ! "shoe"
 ayar:ayar N1 ; ! "adjustment"
-ay:ay N1 ; ! "moon"
+ay:ay N1 ; ! "moon,month"
 ayaz:ayaz N1 ; ! "block frost"
 aydınlık:aydınlık%{v%} N1 ; ! "light"
 aygır:aygır N1 ; ! "stallion"
@@ -10473,7 +10473,7 @@ ayrıntı:ayrıntı N1 ; ! "detail"
 !bütün ayrıntı N1 ; ! "all detail(s..)" ! Dir/RL ! Use/MT
 erişteli% çorba:erişteli% çorba N1 ; ! Use/MT
 uyku:uyku N1 ; ! "sleep"
-vakit:vak%{u%}t%{ь%} N1 ; ! "time"
+vakit:vak%{ь%}%{u%}t N1 ; ! "time"
 sunucu:sunucu N1 ; ! "MC, host"
 rahatlık:rahatlık N1 ; ! "pleasure"
 taksit:taksit N1 ; ! "(loan/debt) payment"
@@ -22788,7 +22788,7 @@ uslu:uslu A2 ;  ! ""
 fazladan:fazladan A1 ;
 mutlu:mutlu A2 ;  ! ""
 zorgulu:zorgulu A1 ;  ! ""
-ulu:ulu A1 ;  ! ""
+ulu:ulu A1 ;  ! "great, big"
 köylü:köylü A2 ;  ! ""
 soylu:soylu A1 ;  ! ""
 sözlü:sözlü A1 ;  ! ""
@@ -25038,7 +25038,7 @@ buy:buy V-IR-IV ; ! "enjoin" (DIR)
 buyur:buyur V-IR-TV ; ! "command" (DIR)
 çak:çak V-AR-TV ; ! "notice" (DIR)
 çakış:çakış V-IR-IV ; ! "collide" (DIR)
-çalış:çalış V-IR-IV ; ! "study, work" (DIR)
+çalış:çalış V-IR-TV ; ! "study, work" (DIR)
 canlan:canlan V-IR-IV ; ! "to ignite" (DIR)
 çap:çap V-AR-IV ; ! "rush" (DIR)
 çarp:çarp V-AR-TV ; ! "strike, hit" (DIR)
@@ -25061,7 +25061,7 @@ devrol:devrol V-IR-IV ; ! "devolve on" (DIR)
 didin:didin V-IR-IV ; ! "moil" (DIR)
 din:din V-AR-IV ; ! "quiet down" (DIR)
 diril:diril V-IR-IV ; ! "revive" (DIR)
-doğ:doğ V-AR-IV ; ! "born" (DIR)
+doğ:doğ V-AR-TV ; ! "born" (DIR)
 doğrul:doğrul V-IR-IV ; ! "straighten up" (DIR)
 dokun:dokun V-IR-IV ; ! "touch" (DIR)
 dol:dol V-AR-IV ; ! "fill up" (DIR)
