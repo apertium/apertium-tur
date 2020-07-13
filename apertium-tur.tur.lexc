@@ -5159,6 +5159,7 @@ yardım:yardım N1 ; ! "help"
 rakam:rakam N1 ; ! "figure"
 bank:bank N1 ; ! "Bank"
 teknoloji:teknoloji N1 ; ! "technology"
+su% perisi:su% persis N1 ;
 ödül:ödül N1 ; ! "award"
 özgürlük:özgürlük%{v%} N1 ; ! "freedom"
 öğrenci:öğrenci N1 ; ! "student"
@@ -9980,6 +9981,7 @@ muvaffakiyet:muvaffakiyet N1 ; ! "prosperity"
 muvasalat:muvasalat N1 ; ! "arrival"
 muvazene:muvazene N1 ; ! "stability"
 muvazi:muvazi N1 ; ! "parallel"
+hava% değişikliği:hava% değişikliği N1 ;
 müvekkil:müvekkil N1 ; ! "principal"
 muzafferiyet:muzafferiyet N1 ; ! "victory"
 muzaffer:muzaffer N1 ; ! "imperator"
@@ -11923,6 +11925,7 @@ prens:prens N1 ;
 şura:şura N1 ;
 sarsılma:sarsılma N1 ;
 diyanet:diyanet N1 ;
+çips:çips N1 ;
 Allah:Allah N1 ;
 yuvarlak:yuvarlak%{v%} N1 ;
 gündüz:gündüz N1 ;
