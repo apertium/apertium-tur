@@ -5292,6 +5292,7 @@ güvenlik:güvenlik%{v%} N1 ; ! "security"
 ziyaret:ziyaret N1 ; ! "vısıt"
 hükümet:hükümet N1 ; ! "government"
 seçim:seçim N1 ; ! "electıon"
+ocaklık:ocaklık N1 ;
 üyesi:üyesi N1 ; ! "member"
 karar:karar N1 ; ! "decısıon"
 yardımcı:yardımcı N1 ; ! "deputy"
