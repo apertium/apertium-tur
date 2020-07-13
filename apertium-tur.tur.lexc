@@ -5259,7 +5259,7 @@ sandalye:sandalye N1 ; ! "chair"
 başbakan:başbakan N1 ; ! "Prime minister"
 üyelik:üyelik%{v%} N1 ; ! "membership"
 suikast:suikast N1 ; ! "assassination"
-
+sürahi:sürahi N1 ;
 
 
 pazartesi:pazartesi N1 ; ! "Monday"
