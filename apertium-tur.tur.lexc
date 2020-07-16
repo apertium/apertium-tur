@@ -11948,6 +11948,15 @@ Drôme:Drôme NP-TOP ; !
 Tirol:Tirol NP-TOP ; !
 Pegas:Pegas NP-TOP ; !
 Côtes:Côtes NP-TOP ; !
+Tikrit:Tikrit NP-TOP ;
+Tezze:Tezze NP-TOP ;
+Tavuk:Tavuk NP-TOP ;
+Hille:Hille NP-TOP ;
+kifri:kifri NP-TOP ;
+Kerbela:Kerbela NP-TOP ;
+Sülaymaniye:Sülaymaniye NP-TOP ;
+Duhuk:Duhuk NP-TOP ;
+Zaho:Zaho NP-TOP ;
 Yeruşalim:Yeruşalim NP-TOP ; !
 Yahudiye:Yahudiye NP-TOP ; !
 Mu:Mu NP-TOP ; ! not a word unless we mean Mu the contitent
@@ -13188,15 +13197,18 @@ Beytsaida:Beytsaida NP-TOP ; !
 Beytülafrah:Beytülafrah NP-TOP ; !
 Çarlık% Rusyası:Çarlık% Rusyası NP-TOP ; !
 Babil:Babil NP-TOP ; !
+Anbar:Anbar NP-TOP ;
 Yeruşalem:Yeruşalem NP-TOP ; !
 Beytüllahim:Beytüllahim NP-TOP ; !
 Kenan:Kenan NP-TOP ; !
 Zion:Zion NP-TOP ; !
+Tuzhurmatı:Tuzhurmatı NP-TOP ;
 Maveraünnehir:Maveraünnehir NP-TOP ; !
 Asur:Asur NP-TOP ; !
 Moab:Moab NP-TOP ; !
 Edom:Edom NP-TOP ; !
 Sodom:Sodom NP-TOP ; !
+Hille:Hille NP-TOP ;
 Korint:Korint NP-TOP ; !
 Muğla:Muğla NP-TOP ; !
 Amasya:Amasya NP-TOP ; !
@@ -13267,6 +13279,7 @@ Mahambet:Mahambet NP-ANT-M; ! ""
 Eden:Eden NP-ANT-F; ! ""
 Emine:Emine NP-ANT-F; ! ""
 Halim:Halim NP-ANT-M; ! ""
+Pütin:Pütin NP-ANT-M ;
 Kara:Kara NP-ANT-F; ! ""
 Roman:Roman NP-ANT-M; ! ""
 Santa:Santa NP-AL; ! ""
