@@ -5322,6 +5322,7 @@ yönetim:yönetim N1 ; ! "administration"
 oran:oran N1 ; ! "proportion"
 teşvik:teşvik N1 ; ! "urge"
 oğlan:oğlan N1 ; ! "boy"
+oğlan% çocuğu:oğlan% çocuğu N1 ; ! "youngling, laddie"
 kazanan:kazanan N1 ;
 soru:soru N1 ; ! "problem"
 aba:aba N1 ; ! "cloth"
