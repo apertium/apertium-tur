@@ -5160,6 +5160,7 @@ yardım:yardım N1 ; ! "help"
 rakam:rakam N1 ; ! "figure"
 bank:bank N1 ; ! "Bank"
 teknoloji:teknoloji N1 ; ! "technology"
+su% perisi:su% persis N1 ;
 ödül:ödül N1 ; ! "award"
 özgürlük:özgürlük%{v%} N1 ; ! "freedom"
 öğrenci:öğrenci N1 ; ! "student"
@@ -5260,7 +5261,7 @@ sandalye:sandalye N1 ; ! "chair"
 başbakan:başbakan N1 ; ! "Prime minister"
 üyelik:üyelik%{v%} N1 ; ! "membership"
 suikast:suikast N1 ; ! "assassination"
-
+sürahi:sürahi N1 ;
 
 
 pazartesi:pazartesi N1 ; ! "Monday"
@@ -5293,6 +5294,7 @@ güvenlik:güvenlik%{v%} N1 ; ! "security"
 ziyaret:ziyaret N1 ; ! "vısıt"
 hükümet:hükümet N1 ; ! "government"
 seçim:seçim N1 ; ! "electıon"
+ocaklık:ocaklık N1 ;
 üyesi:üyesi N1 ; ! "member"
 karar:karar N1 ; ! "decısıon"
 yardımcı:yardımcı N1 ; ! "deputy"
@@ -9981,6 +9983,7 @@ muvaffakiyet:muvaffakiyet N1 ; ! "prosperity"
 muvasalat:muvasalat N1 ; ! "arrival"
 muvazene:muvazene N1 ; ! "stability"
 muvazi:muvazi N1 ; ! "parallel"
+hava% değişikliği:hava% değişikliği N1 ;
 müvekkil:müvekkil N1 ; ! "principal"
 muzafferiyet:muzafferiyet N1 ; ! "victory"
 muzaffer:muzaffer N1 ; ! "imperator"
@@ -11924,6 +11927,7 @@ prens:prens N1 ;
 şura:şura N1 ;
 sarsılma:sarsılma N1 ;
 diyanet:diyanet N1 ;
+çips:çips N1 ;
 Allah:Allah N1 ;
 yuvarlak:yuvarlak%{v%} N1 ;
 gündüz:gündüz N1 ;
@@ -11946,6 +11950,15 @@ Drôme:Drôme NP-TOP ; !
 Tirol:Tirol NP-TOP ; !
 Pegas:Pegas NP-TOP ; !
 Côtes:Côtes NP-TOP ; !
+Tikrit:Tikrit NP-TOP ;
+Tezze:Tezze NP-TOP ;
+Tavuk:Tavuk NP-TOP ;
+Hille:Hille NP-TOP ;
+kifri:kifri NP-TOP ;
+Kerbela:Kerbela NP-TOP ;
+Sülaymaniye:Sülaymaniye NP-TOP ;
+Duhuk:Duhuk NP-TOP ;
+Zaho:Zaho NP-TOP ;
 Yeruşalim:Yeruşalim NP-TOP ; !
 Yahudiye:Yahudiye NP-TOP ; !
 Mu:Mu NP-TOP ; ! not a word unless we mean Mu the contitent
@@ -12414,6 +12427,7 @@ Alpamys:Alpamys NP-ANT-M ; !
 Ospan:Ospan NP-ANT-M ; !
 June:June NP-ANT-F ; !
 Hatun:Hatun NP-ANT-F ; !
+Nürsen:Nürsen NP-ANT-F ;
 Bine:Bine NP-ANT-M ; !
 Bünyamin:Bünyamin NP-ANT-M ; !
 Adem:Adem NP-ANT-M ; !
@@ -13186,15 +13200,18 @@ Beytsaida:Beytsaida NP-TOP ; !
 Beytülafrah:Beytülafrah NP-TOP ; !
 Çarlık% Rusyası:Çarlık% Rusyası NP-TOP ; !
 Babil:Babil NP-TOP ; !
+Anbar:Anbar NP-TOP ;
 Yeruşalem:Yeruşalem NP-TOP ; !
 Beytüllahim:Beytüllahim NP-TOP ; !
 Kenan:Kenan NP-TOP ; !
 Zion:Zion NP-TOP ; !
+Tuzhurmatı:Tuzhurmatı NP-TOP ;
 Maveraünnehir:Maveraünnehir NP-TOP ; !
 Asur:Asur NP-TOP ; !
 Moab:Moab NP-TOP ; !
 Edom:Edom NP-TOP ; !
 Sodom:Sodom NP-TOP ; !
+Hille:Hille NP-TOP ;
 Korint:Korint NP-TOP ; !
 Muğla:Muğla NP-TOP ; !
 Amasya:Amasya NP-TOP ; !
@@ -13265,6 +13282,7 @@ Mahambet:Mahambet NP-ANT-M; ! ""
 Eden:Eden NP-ANT-F; ! ""
 Emine:Emine NP-ANT-F; ! ""
 Halim:Halim NP-ANT-M; ! ""
+Pütin:Pütin NP-ANT-M ;
 Kara:Kara NP-ANT-F; ! ""
 Roman:Roman NP-ANT-M; ! ""
 Santa:Santa NP-AL; ! ""
