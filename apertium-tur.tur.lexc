@@ -23797,7 +23797,7 @@ ikaz% et:ikaz% et V-AR-TV ; !
 vaftiz% et:vaftiz% et V-AR-TV ; !
 
 namaz% kıl:namaz% kıl V-AR-IV ; !
-uy:uy V-AR-IV ; !
+uy:uy V-AR-IV ; ! "to comply with, to fit, to follow?"
 esir% düş:esir% düş V-AR-IV ; !
 hesaplan:hesaplan V-IR-IV ; !
 gizleyiver:gizleyiver V-IR-TV ; !
@@ -24201,9 +24201,9 @@ bahset:bahset V-AR-TV ; ! "talk about" (DIR)
 bahşet:bahşet V-AR-TV ; ! "forgive" (DIR)
 bak:bak V-AR-IV ; ! "look at" (DIR)
 bakın:bakın V-AR-IV ; ! "look around"
-ban:ban V-AR-TV ; ! "dip into" (DIR)
+ban:ban V-AR-IV ; ! "dip into" (DIR)
 bas:bas V-AR-TV ; ! "press" (DIR)
-bas:bas V-AR-TV ; ! "raid" (DIR)
+bas:bas V-AR-IV ; ! "raid" (DIR)
 basıl:basıl V-AR-IV ; 
 bastır:bastır V-AR-TV ; ! "" (T)
 başar:başar V-IR-TV ; ! "success" (DIR)
