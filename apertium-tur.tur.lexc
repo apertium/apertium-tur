@@ -24204,7 +24204,7 @@ bak:bak V-AR-IV ; ! "look at" (DIR)
 bakın:bakın V-AR-IV ; ! "look around"
 ban:ban V-AR-IV ; ! "dip into" (DIR)
 bas:bas V-AR-TV ; ! "press" (DIR)
-bas:bas V-AR-IV ; ! "raid" (DIR)
+bas:bas V-AR-TV ; ! "raid" (DIR)
 basıl:basıl V-AR-IV ; 
 bastır:bastır V-AR-TV ; ! "" (T)
 başar:başar V-IR-TV ; ! "success" (DIR)
