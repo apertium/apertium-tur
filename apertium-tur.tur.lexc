@@ -1555,7 +1555,7 @@ LEXICON CS
 
 %<cnjsub%>: # ;
 
-LEXICON CC 
+LEXICON CC
 
 %<cnjcoo%>: # ;
 
@@ -2870,6 +2870,7 @@ ama:ama CC ; ! "but"
 ancak:ancak CC ; 
 artı:artı CC ; ! "plus"
 da:da CC ; ! ""
+de:de CC ; ! ""
 da:de CC ; ! "" ! Dir/LR
 fakat:fakat CC ; 
 fakat:fakat CC ; ! ""
@@ -3013,6 +3014,7 @@ hiçbir% şey:hiçbirşey PRON-NEG ; ! "nothing" ! Dir/LR
 hiçbir% şey:hiç% birşey PRON-NEG ; ! "nothing" ! Dir/LR
 hiçbir% şey:hiçbir% şey PRON-NEG ; ! "nothing"
 hiç% kimse:hiç% kimse PRON-NEG ; ! "nobody"
+hiçbir% zaman:hiç% zaman PRON-NEG ; ! "never"
 herkes:herkes PRON-QNT ; ! "everybody"
 her% bir:her% bir PRON-QNT ; !
 hiçbir:hiçbir PRON-QNT ; !
@@ -3244,7 +3246,6 @@ hâl:hâl N1 ; !
 sırat-ı% müstakim:sırat-ı% müstakim N1 ; !
 müteşabih% ayet:müteşabih% ayet N1 ; !
 
-sever:sever N1 ; !
 riya:riya N1 ; !
 dikicilik:dikicilik N1 ; !
 ressamlık:ressamlık N1 ; !
@@ -4068,9 +4069,9 @@ kesir:kesir N1 ; !
 mişkat:mişkat N1 ; !
 saba:saba N1 ; !
 kıssa:kıssa N1 ; !
-seç:seç N1 ; !
 mahiyet:mahiyet N1 ; !
 Cenab-ı% Allah:Cenab-ı% Allah N1 ; !
+Ahmet:Ahmet NP-ANT-M ; !
 Mürteza:Mürteza NP-ANT-M ; !
 Muhammetarif:Muhammetarif NP-ANT-M ; !
 Bora:Bora NP-ANT-M ; !
@@ -5323,6 +5324,7 @@ yönetim:yönetim N1 ; ! "administration"
 oran:oran N1 ; ! "proportion"
 teşvik:teşvik N1 ; ! "urge"
 oğlan:oğlan N1 ; ! "boy"
+oğlan% çocuğu:oğlan% çocuğu N1 ; ! "youngling, laddie"
 kazanan:kazanan N1 ;
 soru:soru N1 ; ! "problem"
 aba:aba N1 ; ! "cloth"
@@ -5678,7 +5680,7 @@ avukat:avukat N1 ; ! "lawyer"
 ayak:ayak%{v%} N1 ; ! "foot"
 ayakkabı:ayakkabı N1 ; ! "shoe"
 ayar:ayar N1 ; ! "adjustment"
-ay:ay N1 ; ! "moon"
+ay:ay N1 ; ! "moon,month"
 ayaz:ayaz N1 ; ! "block frost"
 aydınlık:aydınlık%{v%} N1 ; ! "light"
 aygır:aygır N1 ; ! "stallion"
@@ -10475,7 +10477,7 @@ ayrıntı:ayrıntı N1 ; ! "detail"
 !bütün ayrıntı N1 ; ! "all detail(s..)" ! Dir/RL ! Use/MT
 erişteli% çorba:erişteli% çorba N1 ; ! Use/MT
 uyku:uyku N1 ; ! "sleep"
-vakit:vak%{u%}t%{ь%} N1 ; ! "time"
+vakit:vak%{ь%}%{u%}t N1 ; ! "time"
 sunucu:sunucu N1 ; ! "MC, host"
 rahatlık:rahatlık N1 ; ! "pleasure"
 taksit:taksit N1 ; ! "(loan/debt) payment"
@@ -12453,7 +12455,7 @@ Apollos:Apollos NP-ANT-M ; !
 Kornelius:Kornelius NP-ANT-M ; !
 Festus:Festus NP-ANT-M ; !
 İskariyot:İskariyot NP-ANT-M ; !
-
+Müge:Müge NP-ANT-F ; !
 Lyudmila:Lyudmila NP-ANT-F ; !
 Rimma:Rimma NP-ANT-F ; !
 Tatiana:Tatiana NP-ANT-F ; !
@@ -22805,7 +22807,7 @@ uslu:uslu A2 ;  ! ""
 fazladan:fazladan A1 ;
 mutlu:mutlu A2 ;  ! ""
 zorgulu:zorgulu A1 ;  ! ""
-ulu:ulu A1 ;  ! ""
+ulu:ulu A1 ;  ! "great, big"
 köylü:köylü A2 ;  ! ""
 soylu:soylu A1 ;  ! ""
 sözlü:sözlü A1 ;  ! ""
@@ -23397,7 +23399,7 @@ güzün:güzün ADV3 ; ! "at autumn"
 hakça:hakça ADV3 ; ! "fairly"
 giderek:giderek ADV3 ;
 hakikaten:hakikaten ADV3 ; ! "in fact"
-!hala:hala ADV3 ; ! "still"
+hala:hala ADV3 ; ! "still"
 hâlâ:hâlâ ADV3 ; ! "still" 
 halen:halen ADV3 ; ! "currently"
 hani:hani ADV3 ; ! "actually"
@@ -23796,7 +23798,7 @@ ikaz% et:ikaz% et V-AR-TV ; !
 vaftiz% et:vaftiz% et V-AR-TV ; !
 
 namaz% kıl:namaz% kıl V-AR-IV ; !
-uy:uy V-AR-IV ; !
+uy:uy V-AR-IV ; ! "to comply with, to fit, to follow?"
 esir% düş:esir% düş V-AR-IV ; !
 hesaplan:hesaplan V-IR-IV ; !
 gizleyiver:gizleyiver V-IR-TV ; !
@@ -24199,7 +24201,8 @@ azmet:azmet V-AR-IV ; ! "determine" (DIR)
 bahset:bahset V-AR-TV ; ! "talk about" (DIR)
 bahşet:bahşet V-AR-TV ; ! "forgive" (DIR)
 bak:bak V-AR-IV ; ! "look at" (DIR)
-ban:ban V-AR-TV ; ! "dip into" (DIR)
+bakın:bakın V-AR-IV ; ! "look around"
+ban:ban V-AR-IV ; ! "dip into" (DIR)
 bas:bas V-AR-TV ; ! "press" (DIR)
 bas:bas V-AR-TV ; ! "raid" (DIR)
 basıl:basıl V-AR-IV ; 
@@ -25055,7 +25058,7 @@ buy:buy V-IR-IV ; ! "enjoin" (DIR)
 buyur:buyur V-IR-TV ; ! "command" (DIR)
 çak:çak V-AR-TV ; ! "notice" (DIR)
 çakış:çakış V-IR-IV ; ! "collide" (DIR)
-çalış:çalış V-IR-IV ; ! "study, work" (DIR)
+çalış:çalış V-IR-TV ; ! "study, work" (DIR)
 canlan:canlan V-IR-IV ; ! "to ignite" (DIR)
 çap:çap V-AR-IV ; ! "rush" (DIR)
 çarp:çarp V-AR-TV ; ! "strike, hit" (DIR)
@@ -25078,7 +25081,7 @@ devrol:devrol V-IR-IV ; ! "devolve on" (DIR)
 didin:didin V-IR-IV ; ! "moil" (DIR)
 din:din V-AR-IV ; ! "quiet down" (DIR)
 diril:diril V-IR-IV ; ! "revive" (DIR)
-doğ:doğ V-AR-IV ; ! "born" (DIR)
+doğ:doğ V-AR-TV ; ! "born" (DIR)
 doğrul:doğrul V-IR-IV ; ! "straighten up" (DIR)
 dokun:dokun V-IR-IV ; ! "touch" (DIR)
 dol:dol V-AR-IV ; ! "fill up" (DIR)
@@ -25609,6 +25612,7 @@ bitişik% ol:bitişik% ol V-IR-IV ; !
 meşgul% ol:meşgul% ol V-IR-IV ; !
 pişman% ol:pişman% ol V-IR-IV ; !
 neden% ol:neden% ol V-IR-IV ; !
+neden% olduğu:neden% olduğu N1 ; ! "cause"
 pazarlık% yap:pazarlık% yap V-IR-IV ; !
 plan% yap:plan% yap V-IR-IV ; !
 izin% ver:izin% ver V-IR-IV ; !
@@ -25807,7 +25811,7 @@ solu:solu V-IR-TV ;
 uy:uy V-AR-TV ;
 deş:deş V-AR-TV ;
 görüş:görüş V-IR-TV ;
-çalış:çalış V-IR-TV ;
+çalış:çalış V-IR-TV ; ! "try"?
 
 LEXICON Interjections 
 hop:hop INTERJ ; !
