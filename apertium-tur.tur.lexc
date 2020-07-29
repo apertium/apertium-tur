@@ -22951,6 +22951,7 @@ aciz:aciz A1 ;
 adaletli:adaletli A1 ;
 ak:ak A1 ;
 aşağı:aşağı A1 ;
+aşağı% yukarı:aşağı% yukarı A1 ; ! "more or less"
 ayazlı:ayazlı A1 ;
 aydın:aydın A1 ;
 az:az A1 ;
@@ -23504,7 +23505,9 @@ hele% ki:hele% ki ADV1 ; ! ! Use/MT
 hızla:hızla ADV1 ; !
 bayadır:bayadır ADV1 ; !
 beyhude:beyhude ADV1 ; !
-ara% sıra:ara% sıra ADV1 ; !
+ara% sıra:ara% sıra ADV1 ; ! "at times"
+ara% sırada:ara% sırada ADV1 ; ! "at times"
+arada% sırada:arada% sırada ADV1 ; ! "at times"
 ardından:ardından ADV1 ; !
 şu% anda:şu% anda ADV1 ; !
 bizim% gibi:bizim% gibi ADV1 ; ! ! Dir/RL ! Use/MT
