@@ -6730,6 +6730,7 @@ enstitü:enstitü N1 ; ! "institution"
 enstrüman:enstrüman N1 ; ! "instrument"
 entegre:entegre N1 ; ! "integration"
 entrika:entrika N1 ; ! "conspiracy"
+enteresan:enteresan A1 ; ! "interesting" ! CHECK this.
 envanter:envanter N1 ; ! "inventory"
 epidemi:epidemi N1 ; ! "epidemic"
 epigrafi:epigrafi N1 ; ! "epigraph"
@@ -7841,6 +7842,7 @@ ilga:ilga N1 ; ! "repeal"
 ilgeç:ilgeç N1 ; ! "preposition"
 ilgi:ilgi N1 ; ! "attention"
 ilgi:ilgi N1 ; ! "interest"
+ilgi% çekici:ilgi% çekici A1 ; ! "interesting"
 ılgım:ılgım N1 ; ! "mirage"
 ilhak:ilhak N1 ; ! "annex"
 ilham:ilham N1 ; ! "inspiration"
@@ -20884,7 +20886,7 @@ münferit:münferit A1 ; !
 katışıksız:katışıksız A1 ; !
 
 şehir:şehir A1 ; !
-pedagojik:pedagojik A1 ; !
+pedagojik:pedagojik A1 ; ! "pedagogical"
 materyal:materyal A1 ; !
 beraber:beraber A1 ; !
 parti:parti A1 ; !
@@ -22322,7 +22324,8 @@ kullanışlı:kullanışlı A1 ;  ! ""
 tatlı:tatlı A1 ;  ! ""
 müstevli:müstevli A1 ;  ! ""
 tufeyli:tufeyli A2 ;  ! ""
-gizli:gizli A1 ;  ! ""
+gizli:gizli A1 ;  ! "hidden"
+saklı:saklı A1 ;  ! "hidden"
 hızlı:hızlı A2 ;  ! ""
 hami:hami A1 ;  ! ""
 yarı:yarı A1 ;  ! ""
@@ -22577,7 +22580,7 @@ soğutkan:soğutkan A1 ;  ! ""
 unutkan:unutkan A1 ;  ! ""
 kocaman:kocaman A1 ;  ! ""
 koskocaman:koskocaman A1 ;  ! ""
-değil:değil A1 ; ! "not"
+değil:değil ADV1 ; ! "not"
 kahraman:kahraman A2 ;  ! ""
 toraman:toraman A1 ;  ! ""
 yaman:yaman A1 ;  ! ""
@@ -24553,6 +24556,7 @@ oyna:oyna V-AR-IV ; ! "play" (T)
 öze:öze V-AR-IV ; ! "be wordy" (T)
 özetle:özetle V-IR-TV ; ! "summary" (T)
 özle:özle V-IR-TV ; ! "miss" (T)
+özleştir:özleştir V-IR-IV ; ! "Assimilate"
 paketle:paketle V-IR-TV ; ! "pack" (T)
 parala:parala V-IR-TV ; ! "rip up" (T)
 parçala:parçala V-IR-TV ; ! "pull something to pieces" (T)
@@ -25127,7 +25131,7 @@ güreş:güreş V-IR-IV ; ! "wrestle" (DIR)
 gururlan:gururlan V-IR-IV ; ! "be proud of" (DIR)
 hafifle:hafifle V-AR-IV ; ! "get lighter" (DIR)
 hallol:hallol V-IR-IV ; ! "be solved" (DIR)
-hamlet:hamlet V-AR-IV ; ! "attribute" (DIR)
+hamlet:hamlet V-AR-IV ; ! "attriute" (DIR)
 hareketlen:hareketlen V-IR-IV ; ! "get move" (DIR)
 hastalan:hastalan V-IR-IV ; ! "get ill" (DIR)
 heveslen:heveslen V-IR-IV ; ! "aspire" (DIR)
