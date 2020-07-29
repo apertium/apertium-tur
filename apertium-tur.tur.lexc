@@ -8490,6 +8490,7 @@ kask:kask N1 ; ! "helmet"
 kasko:kasko N1 ; ! "insurance"
 kaşkol:kaşkol N1 ; ! "scarf"
 kast:kast N1 ; ! "cast"
+kasıtlı% olarak:kasıtlı% olarak ADV1 ; ! "intentionally"
 kasvet:kasvet N1 ; ! "gloom"
 katakulli:katakulli N1 ; ! "trick"
 katalog:katalog N1 ; ! "catalog"
@@ -20726,7 +20727,8 @@ sabırlı:sabırlı A1 ; !
 tasviri:tasviri A1 ; !
 yerinde:yerinde A1 ; !
 zelzele:zelzele A1 ; !
-bile% bile:bile% bile A1 ; !
+! bile% bile:bile% bile A1 ; ! Really an adjective?
+bile% bile:bile% bile ADV1 ; ! "knowingly"
 köhne:köhne A1 ; !
 muhalif:muhalif A1 ; !
 garbi:garbi A1 ; !
@@ -23336,6 +23338,8 @@ emniyetle:emniyetle  ADV3 ; !
 çokça:çokça ADV3 ; ! "greatly"f
 çök:çök ADV3 ; ! "a lot"
 daha:daha ADV3 ; ! "more" @@SPECIAL
+bir% daha:bir% daha ADV1 ; ! "again"
+bir% kez% daha:bir% kez% daha ADV1 ; ! "once more"
 daima:daima ADV3 ; ! "forever"
 defaten:defaten ADV3 ; ! "at once"
 delicesine:delicesine ADV3 ; ! "insanely"
@@ -24227,6 +24231,7 @@ biç:biç V-AR-TV ; ! "decorate" (DIR)
 bil:bil V-IR-TV ; ! "know"
 bildir:bildir V-IR-TV ; ! "state, notify" (DIR)
 bilgilen:bilgilen V-IR-TV ; ! "learn" (DIR)
+bilmişçe:bilmişçe ADV1 ; ! "knowingly"
 bin:bin V-AR-IV ; ! "mount, ride" (DIR) ! With Dative
 !bırak:bırak V-TV-DIR-IR ; ! "leave, give up"
 bırak:bırak V-IR-TV ; ! "leave, give up"
