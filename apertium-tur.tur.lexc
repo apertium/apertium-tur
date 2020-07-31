@@ -9918,6 +9918,7 @@ müşteri:müşteri N1 ; ! "customer"
 müsteşar:müsteşar N1 ; ! "undersecretary"
 muştu:muştu N1 ; ! "good news"
 cevap:cevap%{v%} N1 ; ! "answer"
+cevap% olarak:cevap% olarak ADV1 ; ! "in response to"
 yapılanma:yapılanma N1 ; ! "settlement"
 polis:polis N1 ; ! "police"
 cumhurbaşkan:cumhurbaşkan N1 ; ! "presıdent of republıc"
@@ -10352,6 +10353,7 @@ pazarlık:pazarlık%{v%} N1 ; ! "commerce/contractation"
 cesaret:cesaret N1 ; ! "courage"
 yaklaşım:yaklaşım N1 ; ! "approach"
 fikri:fikri A1 ; ! "intellectual"
+fikrine% göre:fikrine% göre ADV1 ; ! "according to the idea"
 dolar:dolar N1 ; ! "dollar"
 aşırılık:aşırılık%{v%} N1 ; ! "excess"
 katılımcı:katılımcı N1 ; ! "paretecipant"
@@ -21337,7 +21339,7 @@ varsıl:varsıl A1 ; !
 nazil:nazil A1 ; !
 mesul:mesul A1 ; !
 haram:haram A1 ; !
-daim:daim A1 ; !
+daim:daim A1 ; ! Needs CHECK!
 mazlum:mazlum A1 ; !
 savurgan:savurgan A1 ; !
 materyali% olarak% kullanılan:materyali% olarak% kullanılan A1 ; !
@@ -23075,7 +23077,7 @@ anında:anında ADV1 ; !
 tam:tam ADV1 ; !
 zira:zira ADV1 ; !
 işitince:işitince ADV1 ; !
-ruhen:ruhen ADV1 ; !
+ruhen:ruhen ADV1 ; ! "apiritually"
 burada:burada ADV1 ; !
 herkes:herkes ADV1 ; !
 olunca:olunca ADV1 ; !
@@ -23107,7 +23109,7 @@ kaç:kaç ADV1 ; !
 birkaç:birkaç ADV1 ; !
 illa:illa ADV1 ; !
 illâ:illâ ADV1 ; !
-teferruatla:teferruatla ADV1 ; !
+teferruatla:teferruatla ADV1 ; ! "in detail"
 tabiî:tabiî ADV1 ; !
 hayli:hayli ADV1 ; !
 derhâl:derhâl ADV1 ; !
@@ -23115,7 +23117,7 @@ doğaçtan:doğaçtan ADV1 ; !
 hâlen:hâlen ADV1 ; !
 umumen:umumen ADV1 ; !
 
-her% hâlde:her% hâlde ADV1 ; !
+her% hâlde:her% hâlde ADV1 ; ! "supposedly"
 üzerinde:üzerinde ADV1 ; !
 tümüyle:tümüyle ADV1 ; !
 bütünüyle:bütünüyle ADV1 ; !
@@ -23140,7 +23142,7 @@ aracısız:aracısız ADV1 ; !
 aralıksız:aralıksız ADV1 ; 
 
 sıklıkla:sıklıkla ADV1 ; !
-resmen:resmen ADV1 ; !
+resmen:resmen ADV1 ; ! "officially"
 sıkça:sıkça ADV1 ; !
 süresince:süresince ADV1 ; !
 rastgele:rastgele ADV1 ; !
@@ -23189,7 +23191,7 @@ burda:burda ADV3 ; ! Use/MT ! Dir/RL
 göre:göre ADV3 ; ! Use/MT
 böylesine:böylesine ADV3 ;
 vesaire:vesaire ADV3 ;
-orada:orada ADV3 ;
+orada:orada ADV3 ; ! "there"
 !nasıl:nasıl ADV3 ;
 ziyadesiyle:ziyadesiyle ADV3 ;
 kısa% zaman% sonra:kısa% zaman% sonra ADV3 ;
@@ -23405,10 +23407,11 @@ günlerdir:günlerdir ADV3 ; ! "for days"
 güya:güya ADV3 ; ! "so to speak"
 güzün:güzün ADV3 ; ! "at autumn"
 hakça:hakça ADV3 ; ! "fairly"
-giderek:giderek ADV3 ;
+giderek:giderek ADV3 ; ! "increasingly"
 hakikaten:hakikaten ADV3 ; ! "in fact"
-hala:hala ADV3 ; ! "still"
+hala:hala ADV3 ; ! "still"  ! Really?, needs check.
 hâlâ:hâlâ ADV3 ; ! "still" 
+halâ:halâ ADV3 ; ! "still" 
 halen:halen ADV3 ; ! "currently"
 hani:hani ADV3 ; ! "actually"
 harfiyen:harfiyen ADV3 ; ! "literally"
@@ -23417,17 +23420,18 @@ harrangürra:harrangürra ADV3 ; ! "in a disorderly manner"
 hasbelkader:hasbelkader ADV3 ; ! "accidentally"
 hassaten:hassaten ADV3 ; ! "especially"
 hemencecik:hemencecik ADV3 ; ! "straight away"
-hemen:hemen ADV3 ; ! "soon"
+hemen:hemen ADV3 ; ! "soon", "still", "now"
 tatarca:tatarca ADV3 ;
-hemen% hemen:hemen% hemen ADV3 ; ! "soon" ! Dir/RL ! Use/MT ! Dir/RL
+hemen% hemen:hemen% hemen ADV3 ; ! "almost"
 hem:hem ADV3 ; ! "also"
-henüz:henüz ADV3 ; ! "just"
+henüz:henüz ADV3 ; ! "yet", "still"
 hep:hep ADV3 ; ! "every"
 hepten:hepten ADV3 ; ! "completely"
 herhalde:herhalde ADV3 ; ! "in any case"
 hiç:hiç ADV3 ; ! "none"
 hükmen:hükmen ADV3 ; ! "de jure"
-içeri:içeri ADV3 ; ! "indoor"
+içeri:içeri ADV3 ; ! "within"
+içeri:içeri A1 ; ! "indoor"
 ihtiyaten:ihtiyaten ADV3 ; ! "as precaution"
 ikindileri:ikindileri ADV3 ; !" in the afternoons"
 ikindiyin:ikindiyin ADV3 ; ! "at afternoon"
@@ -23518,7 +23522,7 @@ bizim% gibi:bizim% gibi ADV1 ; ! ! Dir/RL ! Use/MT
 olmuşken:olmuşken ADV1 ; !
 her% türlü:her% türlü ADV1 ; !
 bir:bir ADV1 ; !
-gelince:gelince ADV1 ; !
+gelince:gelince ADV1 ; ! "as for"
 iki:iki ADV1 ; !
 yüzükoyun:yüzükoyun ADV1 ; !
 yalnız% sana:yalnız% sana ADV1 ; ! Use/MT
@@ -23575,7 +23579,7 @@ art% arda:art% arda ADV1 ; !
 gizlice:gizlice ADV1 ; !
 gün% geçtikçe:gün% geçtikçe ADV1 ; !
 şiddetle:şiddetle ADV1 ; !
-sık% sık:sık% sık ADV1 ; !
+sık% sık:sık% sık ADV1 ; ! "often"
 her% zaman:her% zaman ADV1 ; !
 nazaran:nazaran ADV1 ; !
 etraflıca:etraflıca ADV1 ; !
@@ -23592,7 +23596,10 @@ fevkalade:fevkalade ADV1 ; !
 aynı% halde:aynı% halde ADV1 ; ! Use/MT
 aksi% halde:aksi% halde ADV1 ; ! Use/MT
 şu% halde:şu% halde ADV1 ; ! Use/MT
-günümüzde:günümüzde ADV1 ; ! Use/MT
+günümüzde:günümüzde ADV1 ; ! Use/MT ! "today"
+bu% günlerde:bu% günlerde ADV1 ; ! "nowadays"
+son% günlerde:son% günlerde ADV1 ; ! "recently"
+bu% sıralar:bu% sıralar ADV1 ; ! "nowadays"
 günümüze:günümüze ADV1 ; ! Use/MT
 sebebiyle:sebebiyle ADV1 ; ! Use/MT
 malum% ki:malum% ki ADV1 ; ! Use/MT
@@ -23696,6 +23703,7 @@ tesadüfen:tesadüfen ADV3 ; ! "accidentally"
 tıpatıp:tıpatıp ADV3 ; ! "alike"
 toptan:toptan ADV3 ; ! "collectively"
 yakında:yakında ADV3 ; ! "soon"
+yakınlarda:yakınlarda ADV3 ; ! "recently"
 yalnız:yalnız ADV3 ; ! "only"
 yalnızca:yalnızca ADV3 ; ! "only"
 
