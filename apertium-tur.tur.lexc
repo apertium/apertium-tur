@@ -63,7 +63,7 @@ Multichar_Symbols
 %<nec%>        ! Necessitive
 %<evid%>       ! 
 
-! Number ! Сан ! Число
+! Number ! San
 %<sg%>         ! Singular  
 %<pl%>         ! Plural    
 %<sp%>         ! Singular/Plural (used for formal personal pronoun)
@@ -5399,6 +5399,8 @@ afetzede:afetzede N1 ; ! "victim"
 afif:afif N1 ; ! "virgin"
 afiş:afiş N1 ; ! "poster"
 afiyet:afiyet N1 ; ! "health"
+afiyet:afiyet N1 ; ! "appetite"
+afiyet% olsun:afiyet% olsun N1 ; ! "bon appetite", "enjoy your meal"
 aforoz:aforoz N1 ; ! "ban"
 afsun:afsun N1 ; ! "spell/incantation"
 afyon:afyon N1 ; ! "poppy"
@@ -22325,7 +22327,7 @@ asli:asli A2 ;  ! ""
 dişli:dişli A2 ;  ! ""
 yağışlı:yağışlı A1 ;  ! ""
 kullanışlı:kullanışlı A1 ;  ! ""
-tatlı:tatlı A1 ;  ! ""
+tatlı:tatlı A1 ;  ! "pleasant"
 müstevli:müstevli A1 ;  ! ""
 tufeyli:tufeyli A2 ;  ! ""
 gizli:gizli A1 ;  ! "hidden"
