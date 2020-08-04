@@ -3105,14 +3105,17 @@ hangi:hangi DET-ITG ; ! "which"
 !nedir:nedir 
 
 
-!!!!TO BE REVIEWED !!!!
 
-binlerce:binlerce DET-QNT ; ! "thousands of"
-yüzlerce:yüzlerce DET-QNT ; ! "hundreds of"
+onlarca:onlarca DET-QNT ; ! "tens of"
 düzinelerce:düzinelerce DET-QNT ; ! "dozens of"
+yüzlerce:yüzlerce DET-QNT ; ! "hundreds of"
+binlerce:binlerce DET-QNT ; ! "thousands of"
+onbinlerce:onbinlerce DET-QNT ; ! "tens of thousands of"
+yüzbinlerce:yüzbinlerce DET-QNT ; ! "hundreds of thousands of"
 milyonlarca:milyonlarca DET-QNT ; ! "millions of"
+milyarlarca:milyarlarca DET-QNT ; ! "billions of"
 
-
+!!!!TO BE REVIEWED !!!!
 
 birer:birer DET-QNT ; ! "one each"
 tümü:tümü DET-QNT ; ! "all of"
