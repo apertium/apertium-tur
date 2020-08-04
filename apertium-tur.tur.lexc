@@ -22314,6 +22314,7 @@ sürekli:sürekli A2 ;  ! ""
 acıklı:acıklı A1 ;  ! ""
 hazırlıklı:hazırlıklı A1 ;  ! ""
 farklı:farklı A1 ;  ! "different/differently"
+farklı% olarak:farklı% olarak CA ;  ! "unlike"
 önemli:önemli A2 ;  ! ""
 biçimli:biçimli A2 ;  ! ""
 eğitimli:eğitimli A2 ;  ! ""
@@ -23085,6 +23086,7 @@ herkes:herkes ADV1 ; !
 olunca:olunca ADV1 ; !
 hattâ:hattâ ADV1 ; !
 madem:madem ADV1 ; !
+mademki:mademki CA ; ! "whereby"
 üstelik:üstelik ADV1 ; !
 tez:tez ADV1 ; !
 
