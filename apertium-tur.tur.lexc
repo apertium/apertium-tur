@@ -2937,6 +2937,7 @@ keşke:keşke CA ;
 keza:keza CA ; 
 ki:ki CA ; 
 kısacası:kısacası CA ; 
+kısacası:kısacası INTERJ ; 
 lakin:lakin CA ; 
 mamafih:mamafih CA ; 
 meğer:meğer CA ; 
@@ -11312,7 +11313,8 @@ rus:rus N1 ; ! "" Dir/LR
 italyan:İtalyan N3 ; ! ""
 italyan:italyan N3 ; ! "" Dir/LR
 mısırlı:Mısırlı N3 ; ! "Egyptian" 
-sırp:Sırp N3 ; ! ""
+sırp:Sırp N3 ; ! "Serbian"
+Sırp:Sırp A1 ; ! "Serbian"
 sırp:sırp N3 ; ! "" Dir/LR
 rum:Rum N3 ; ! "Greek"
 rum:rum N3 ; ! "Greek" Dir/LR
@@ -12180,7 +12182,7 @@ Kütahya:Kütahya NP-TOP ; !
 Ege:Ege NP-TOP ; !
 Çorum:Çorum NP-TOP ; !
 Tokat:Tokat NP-TOP ; !
-Arnavutluk:Arnavutluk NP-TOP ; !
+Arnavutluk:Arnavutluk NP-TOP ; ! "Albania"
 Malatya:Malatya NP-TOP ; !
 Rize:Rize NP-TOP ; !
 Erzincan:Erzincan NP-TOP ; !
@@ -12257,6 +12259,7 @@ Gazze:Gazze NP-TOP ; !
 Medine:Medine NP-TOP ; !
 Java:Java NP-TOP ; !
 Seidiye:Seidiye NP-TOP ; !
+Seidiye% Arabistan:Seidiye% Arabistan NP-TOP ; !
 Sunen:Sunen NP-TOP ; !
 Nineve:Nineve NP-TOP ; !
 Celile:Celile NP-TOP ; !
@@ -14345,6 +14348,7 @@ Yutland:Yutland NP-TOP ; ! ""
 Zambezi:Zambezi NP-TOP ; ! ""
 Zanzibar:Zanzibar NP-TOP ; ! ""
 Zebra:Zebra NP-TOP ; ! ""
+Nur-Sultan:Nur-Sultan NP-TOP ; ! "New name of the Kazakhstanʻs capital"
 
 
 !!!!! TURKISH CITIES !!!!!
