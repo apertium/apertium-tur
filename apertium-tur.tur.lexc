@@ -5268,12 +5268,20 @@ suikast:suikast N1 ; ! "assassination"
 sürahi:sürahi N1 ;
 
 
-pazartesi:pazartesi N1 ; ! "Monday"
-salı:salı N1 ; ! "Tuesday"
-perşembe:perşembe N1 ; ! "Thursday"
-cuma:cuma N1 ; ! "Friday"
-cumartesi:cumartesi N1 ; ! "Saturday"
-çarşamba:çarşamba N1 ; ! ""
+pazartesi:Pazartesi N1 ; ! "Monday"
+Pazartesi:Pazartesi N1 ; ! "Monday"
+salı:Salı N1 ; ! "Tuesday"
+Salı:Salı N1 ; ! "Tuesday"
+çarşamba:Çarşamba N1 ; ! "Wednesday"
+Çarşamba:Çarşamba N1 ; ! "Wednesday"
+perşembe:Perşembe N1 ; ! "Thursday"
+Perşembe:Perşembe N1 ; ! "Thursday"
+cuma:Cuma N1 ; ! "Friday"
+Cuma:Cuma N1 ; ! "Friday"
+cumartesi:Cumartesi N1 ; ! "Saturday"
+Cumartesi:Cumartesi N1 ; ! "Saturday"
+pazar:Pazar N1 ; ! "Sunday"
+Pazar:Pazar N1 ; ! "Sunday"
 
 ocak:Ocak%{v%} N5 ; ! "January"
 şubat:Şubat N5 ; ! "February"
@@ -6524,6 +6532,7 @@ dış% ülke:dış% ülke N1 ;
 dişi:dişi N1 ; ! "female"
 disiplin:disiplin N1 ; ! "discipline"
 dışişleri:dışişleri N1 ; ! "external affairs"
+işbirliği:işbirliği N1 ; ! "cooperation"
 disk:disk N1 ; ! "disc"
 dışkı:dışkı N1 ; ! "feces"
 diyabet:diyabet N1 ; ! "diabetes"
@@ -9933,7 +9942,7 @@ reform:reform N1 ; ! "reform"
 parlamento:parlamento N1 ; ! "parlament
 
 sekreter:sekreter N1 ; ! "secretary"
-pazar:pazar N1 ; ! "Sunday or market"
+pazar:pazar N1 ; ! "Sunday", "market"
 
 terör:terör N1 ; ! "terror"
 terörist:terörist N1 ; ! "terrorist"
@@ -10320,6 +10329,7 @@ dizi:dizi N1 ; ! "series"
 önem:önem N1 ; ! "importance"
 zarar:zarar N1 ; ! "injury"
 euro:euro N1 ; ! "euro"
+som:som N1 ; ! "sum currency"
 potansiyel:potansiyel N1 ; ! "potential"
 rapor:rapor N1 ; ! "report"
 teşkil:teşkil N1 ; ! "organization"
@@ -11290,10 +11300,11 @@ kazak:Kazak N3 ;
 tacik:Tacik N3 ;
 uygur:Uygur N3 ;
 uygur:uygur N3 ; ! Dir/LR
-türk:Türk N3 ; ! "Turk"
+Türk:Türk N3 ; ! "Turk"
 türk:Türk N3 ; ! "Turk" Dir/LR
-hırvat:Hırvat N3 ; ! ""
-hırvat:hırvat N3 ; ! "" Dir/LR
+hırvat:Hırvat N3 ; ! "Croat"
+Hırvat:Hırvat N3 ; ! "Croat"
+hırvat:hırvat A1 ; ! "Croatian" 
 arnavut:Arnavut N3 ; ! ""
 arnavut:arnavut N3 ; ! ""  Dir/LR
 bulgar:Bulgar N3 ; ! ""
@@ -11501,7 +11512,7 @@ hukukçu:hukukçu N1 ; ! ""
 krallık:krallık%{v%} N1 ; ! ""
 muharrir:muharrir N1 ; ! ""
 partizan:partizan N1 ; ! ""
-ruble:ruble N1 ; ! ""
+ruble:ruble N1 ; ! "ruble currency"
 spiker:spiker N1 ; ! ""
 sultan:sultan N1 ; ! ""
 suret:suret N1 ; ! ""
@@ -14683,7 +14694,7 @@ RL:RL NP-ORG ; ! "Radio Liberty" ! FIXME: Should be joined up
 SE:SE NP-ORG ; ! ""
 BSP:BSP NP-ORG ; ! ""
 KDV:KDV NP-AL ; ! ""
-SETimes:SETimes%{ı%}%{b%} NP-AL ; ! ""
+SETimes:SETimes%{ı%}%{b%} NP-ORG ; ! "Southeastern European Times"
 TV:TV%{o%} NP-AL ; ! ""
 San:San NP-AL ; !
 FC:FC NP-AL ; !
@@ -15229,7 +15240,7 @@ KGB:KGB%{ь%} NP-AL ;
 LHC:LHC%{ь%} NP-AL ;
 MSK:MSK%{ь%} NP-AL ;
 MTS:MTS%{ь%} NP-AL ;
-NATO:NATO NP-AL ;
+NATO:NATO NP-ORG ;
 NTV:NTV%{ь%} NP-AL ;
 OSCE:OSCE NP-AL ;
 Otkrıtaya% Rossiya:Otkrıtaya% Rossiya NP-AL ;
@@ -21699,7 +21710,7 @@ değil:değil A2 ; ! ""
 ibaret:ibaret A2 ; ! ""
 mümkün:mümkün A2 ;  ! ""
 
-yönelik:yönelik A1 ; ! "devoted"
+yönelik:yönelik A1 ; ! "devoted", "intended"
 mali:mali A2 ; ! "economıcal"
 düşük:düşük A1 ; ! 'low'
 ! önceki:önceki A1 ; ! "previous"
