@@ -4086,6 +4086,7 @@ Alp:Alp NP-ANT-M ; !
 Davud:Davud NP-ANT-M ; !
 Luka:Luka NP-ANT-M ; !
 
+Tadiç:Tadiç NP-ANT-M ; !
 Nail:Nail NP-ANT-M ; !
 Ramil:Ramil NP-ANT-M ; !
 Pavil:Pavil NP-ANT-M ; !
@@ -4253,7 +4254,7 @@ yufka:yufka N1 ; !
 tezgah:tezgah N1 ; !
 timsah:timsah N1 ; !
 inşaatçı:inşaatçı N1 ; !
-uzaklık:uzaklık%{v%} N1 ; !
+uzaklık:uzaklık%{v%} N1 ; ! "distance"
 porsuk:porsuk N1 ; !
 tuğrul:tuğrul N1 ; !
 yem:yem N1 ; !
@@ -4722,6 +4723,8 @@ KamAZ:KamAZ NP-ORG ; !
 
 
 
+konseyi:Konseyi N1 ; ! "Council"
+konseyi:konseyi N1 ; ! "Council"
 sıcak:sıcak N1 ; !
 tanımak:tanımak N1 ; !
 tutsak:tutsak N1 ; !
@@ -7972,6 +7975,7 @@ inkıta:inkıta N1 ; ! "interruption"
 inme:inme N1 ; ! "paralysis"
 inorganik:inorganik N1 ; ! "inorganic"
 inşaa:inşaa N1 ; ! "construction"
+inşaat:inşaat N1 ; ! "building"
 inşaat:inşaat N1 ; ! "construction"
 insaf:insaf N1 ; ! "fairness"
 insaf:insaf N1 ; ! "mercy"
@@ -10685,7 +10689,7 @@ kurgan:kurgan N1 ; ! ""
 kuvars:kuvars N1 ; ! ""
 laboratuvar:laboratuvar N1 ; ! ""
 lep:lep N1 ; ! ""
-lig:lig N1 ; ! ""
+lig:lig N1 ; ! "league"
 lor:lor N1 ; ! ""
 mansıp:mansıp N1 ; ! ""
 mesel:mesel N1 ; ! ""
@@ -10891,7 +10895,7 @@ tesir:tesir N1 ; ! ""
 tilki:tilki N1 ; ! ""
 tim:tim N1 ; ! ""
 titan:titan N1 ; ! ""
-toplam:toplam N1 ; ! ""
+toplam:toplam N1 ; ! "total"
 topluluk:topluluk%{v%} N1 ; ! ""
 toplu:toplu N1 ; ! ""
 top:top N1 ; ! ""
@@ -11028,7 +11032,7 @@ ova:ova N1 ; ! "plain"
 vapur:vapur N1 ;
 yapımcı:yapımcı N1 ;
 üzeri:üzeri N1 ; ! "clothes"
-temsil:temsil N1 ;
+temsil:temsil N1 ; ! "representation"
 protokol:protokol N1 ;
 talimat:talimat N1 ;
 ziyaretçi:ziyaretçi N1 ;
@@ -11318,20 +11322,20 @@ Hırvat:Hırvat N3 ; ! "Croat"
 hırvat:hırvat A1 ; ! "Croatian" 
 arnavut:Arnavut N3 ; ! ""
 arnavut:arnavut N3 ; ! ""  Dir/LR
-bulgar:Bulgar N3 ; ! ""
-bulgar:bulgar N3 ; ! ""  Dir/LR
-makedon:Makedon N3 ; ! ""
-makedon:makedon N3 ; ! ""  Dir/LR
+bulgar:Bulgar N3 ; ! "Bulgarian"
+Bulgar:Bulgar N3 ; ! "Bulgarian"
+makedon:Makedon N3 ; ! "Macedonian"
+Makedon:Makedon N3 ; ! "Macedonian"
 romen:Romen N3 ; ! ""
 romen:romen N3 ; ! ""  Dir/LR
 kürt:Kürt N3 ; ! ""
 kürt:kürt N3 ; ! ""  Dir/LR
-ingiliz:İngiliz N3 ; ! ""
-ingiliz:ingiliz N3 ; ! "" Dir/LR
+İngiliz:İngiliz N3 ; ! ""
+ingiliz:İngiliz N3 ; ! "" Dir/LR
 israilli:İsrailli N3 ; !
 israilli:israilli N3 ; ! Dir/LR
-rus:Rus N1 ; ! ""
-rus:rus N1 ; ! "" Dir/LR
+rus:Rus N1 ; ! "Russian"
+Rus:Rus N1 ; ! "Russian" 
 italyan:İtalyan N3 ; ! ""
 italyan:italyan N3 ; ! "" Dir/LR
 mısırlı:Mısırlı N3 ; ! "Egyptian" 
@@ -11376,8 +11380,8 @@ yugoslav:yugoslav N1 ; ! "" Dir/LR
 boşnak:boşnak N1 ; ! "" Dir/LR
 boşnak:Boşnak N1 ; ! ""
 yunanlı:Yunanlı N1 ; ! ""
-yunan:yunan N1 ; ! "" Dir/LR
-yunan:Yunan N1 ; ! ""
+Yunan:Yunan N1 ; ! "Greek"
+yunan:Yunan N1 ; ! "Greek"
 tatar:tatar N1 ; ! "" Dir/LR
 tatar:Tatar N1 ; ! ""
 osmanlı:Osmanlı N1 ; ! ""
@@ -21758,6 +21762,7 @@ ekonomik:ekonomik A1 ; ! "economic"
 bölgesel:bölgesel A1 ; ! "regional"
 uzunca:uzunca A2 ; ! "tallish"
 millî:millî A1 ; ! "national"
+milli:milli A1 ; ! "national"
 soğuk:soğuk A1 ; ! "cold'
 zor:zor A1 ; ! "hard"
 dair:dair A1 ; ! "lower"
@@ -22543,7 +22548,7 @@ kimyasal:kimyasal A4 ;  ! ""
 finansal:finansal A4 ;  ! ""
 sorunsal:sorunsal A4 ;  ! ""
 şapşal:şapşal A1 ;  ! ""
-ulusal:ulusal A1 ;  ! ""
+ulusal:ulusal A1 ;  ! "national"
 uysal:uysal A1 ;  ! ""
 hantal:hantal A1 ;  ! ""
 partal:partal A1 ;  ! ""
@@ -22617,6 +22622,8 @@ unutkan:unutkan A1 ;  ! ""
 kocaman:kocaman A1 ;  ! ""
 koskocaman:koskocaman A1 ;  ! ""
 değil:değil ADV1 ; ! "not"
+ortaya:ortaya ADV1 ; ! "between"
+gerekiyor:gerekiyor A1 ; ! "necessary"
 kahraman:kahraman A2 ;  ! ""
 toraman:toraman A1 ;  ! ""
 yaman:yaman A1 ;  ! ""
@@ -22873,7 +22880,7 @@ kaçınılmaz:kaçınılmaz A1 ;  ! ""
 taşınmaz:taşınmaz A1 ;  ! ""
 vurdumduymaz:vurdumduymaz A1 ;  ! ""
 ahraz:ahraz A1 ;  ! ""
-az:az A1 ;  ! ""
+az:az A1 ;  ! "a few"
 bitmiş:bitmiş A1 ;
 varyemez:varyemez A1 ;  ! ""
 tükenmez:tükenmez A1 ;  ! ""
@@ -23067,7 +23074,8 @@ terbiyesiz:terbiyesiz A1 ;
 terörist:terörist A1 ;
 tesis:tesis A1 ;
 tetkiki:tetkiki A1 ;
-toplam:toplam A1 ;
+toplam:toplam A1 ; ! "total"
+kariyer:kariyer N1 ; ! "career"
 tutumlu:tutumlu A1 ;
 vızlı:vızlı A1 ;
 yanlış:yanlış A1 ;
@@ -23110,7 +23118,7 @@ tam:tam ADV1 ; !
 zira:zira ADV1 ; !
 işitince:işitince ADV1 ; !
 ruhen:ruhen ADV1 ; ! "apiritually"
-burada:burada ADV1 ; !
+burada:burada ADV1 ; ! "here"
 herkes:herkes ADV1 ; !
 olunca:olunca ADV1 ; !
 hattâ:hattâ ADV1 ; !
