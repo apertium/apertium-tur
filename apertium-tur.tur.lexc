@@ -15220,7 +15220,9 @@ Yunanistan% Süper% Ligi:Yunanistan% Süper% Lig NP-ORG-COMPOUND-PX ; ! ""
 
 
 ! Other
-Southeast% European% Times:Southeast% European% Times NP-AL ; ! ""
+Southeast% European% Times:Southeast% European% Times NP-ORG ; ! ""
+Southeast% European:Southeast% European NP-ORG ; ! "Possible occurance of SETimes"
+European% Times:European% Times NP-ORG ; ! "Possible occurance of SETimes" 
 Reuters:Reuters NP-ORG ; ! ""
 MKMİK:MKMİK NP-ORG;
 Tatar-İnform:Tatar-İnform NP-ORG;
