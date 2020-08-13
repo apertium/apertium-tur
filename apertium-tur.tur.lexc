@@ -3087,7 +3087,7 @@ bu% kadar:bu% kadar DET-QNT ; ! "this much"
 o% kadar:o% kadar DET-QNT ; ! "this much"
 ne% kadar:ne% kadar DET-QNT ; ! "how much"
 çok:çok DET-QNT ; ! "many"
-çoğu:çoğu DET-QNT ; ! "many" 
+çoğu:çoğu DET-QNT ; ! "most" 
 !az:az DET-QNT ; ! "a little"
 !fazla:fazla DET-QNT ; ! "a lot"
 hiçbir:hiçbir DET-QNT ; ! "nothing"
@@ -3308,7 +3308,8 @@ lari:lari N1 ; !
 elyazması:elyazması N1 ; !
 vasati:vasati N1 ; !
 karaltı:karaltı N1 ; !
-çözelti:çözelti N1 ; !
+çözelti:çözelti N1 ; ! "solution"
+solüsyon:solüsyon N1 ; ! "solution"
 karartı:karartı N1 ; !
 bezek:bezek N1 ; !
 bahçecik:bahçecik N1 ; !
@@ -10258,6 +10259,7 @@ yer:yer N1 ; ! "window"
 su:su%{в%} N1 ; ! "water" @@@@ SPECIAL CASE FOR MANY CASES
 süre:süre N1 ; ! 'tıme period'
 çözüm:çözüm N1 ; ! 'solutıon'
+çözüm:çözüm N1 ; ! 'resolution'
 yol:yol N1 ; ! 'way'
 hale:hale N1 ; ! '???'
 temel:temel N1 ; ! "base"
@@ -10345,6 +10347,7 @@ dizi:dizi N1 ; ! "series"
 zarar:zarar N1 ; ! "injury"
 euro:euro N1 ; ! "euro"
 som:som N1 ; ! "sum currency"
+somlık:somlık N1 ; ! "sum currency"
 potansiyel:potansiyel N1 ; ! "potential"
 rapor:rapor N1 ; ! "report"
 teşkil:teşkil N1 ; ! "organization"
@@ -11528,6 +11531,7 @@ krallık:krallık%{v%} N1 ; ! ""
 muharrir:muharrir N1 ; ! ""
 partizan:partizan N1 ; ! ""
 ruble:ruble N1 ; ! "ruble currency"
+rublelık:rublelık N1 ; ! "ruble"
 spiker:spiker N1 ; ! ""
 sultan:sultan N1 ; ! ""
 suret:suret N1 ; ! ""
