@@ -5175,6 +5175,7 @@ su% perisi:su% persis N1 ;
 tespit:tespit N1 ; ! "evaluation"
 öğretim:öğretim N1 ; ! "study"
 sorumlu:sorumlu N1 ; ! "responsible"
+sorumlu:sorumlu A1 ; ! "responsible"
 askı:askı N1 ; ! "rack"
 kaçakçılık:kaçakçılık%{v%} N1 ; ! "smuggling"
 üretim:üretim N1 ; ! "production"
@@ -6382,6 +6383,7 @@ darı:darı N1 ; ! "corn"
 darp:darp N1 ; ! "blow"
 dativ:dativ N1 ; ! "dative"
 dava:dava N1 ; ! "case"
+dava:dava N1 ; ! "claim"
 davar:davar N1 ; ! "sheep"
 davet:davet N1 ; ! "invitation"
 davetiye:davetiye N1 ; ! "invitation letter"
@@ -11329,8 +11331,9 @@ bulgar:Bulgar N3 ; ! "Bulgarian"
 Bulgar:Bulgar N3 ; ! "Bulgarian"
 makedon:Makedon N3 ; ! "Macedonian"
 Makedon:Makedon N3 ; ! "Macedonian"
-romen:Romen N3 ; ! ""
-romen:romen N3 ; ! ""  Dir/LR
+romen:Romen A3 ; ! "Roman"
+romen:Romen N3 ; ! "Roman"
+romen:romen N3 ; ! "Roman"  Dir/LR
 kürt:Kürt N3 ; ! ""
 kürt:kürt N3 ; ! ""  Dir/LR
 İngiliz:İngiliz N3 ; ! ""
@@ -11544,7 +11547,7 @@ tercüme:tercüme N1 ;
 koruyucu:koruyucu N1 ;
 imkan:imkan N1 ;
 çalışan:çalışan N1 ;
-savunma:savunma N1 ;
+savunma:savunma N1 ; ! "defence"
 yazarlık:yazarlık%{v%} N1 ;
 kutuplaşma:kutuplaşma N1 ;
 tekrar:tekrar N1 ; ! ""
