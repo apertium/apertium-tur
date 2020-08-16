@@ -11332,6 +11332,7 @@ Bulgar:Bulgar N3 ; ! "Bulgarian"
 makedon:Makedon N3 ; ! "Macedonian"
 Makedon:Makedon N3 ; ! "Macedonian"
 romen:Romen A3 ; ! "Roman"
+Romen:Romen N3 ; ! "Roman"
 romen:Romen N3 ; ! "Roman"
 romen:romen N3 ; ! "Roman"  Dir/LR
 kürt:Kürt N3 ; ! ""
@@ -12513,6 +12514,8 @@ Musakocoyev:Musakocoyev NP-ANT-M ; !
 Alişer:Alişer NP-ANT-M ; !
 Uluğbey:Uluğbey NP-ANT-M ; !
 Venatici:Venatici NP-COG-MF ; !
+Rehn:Rehn NP-COG-MF ; !
+B92:B92  NP-ORG ; ! ""
 Kırca:Kırca NP-COG-MF ; !
 Rushiti:Rushiti NP-COG-MF ; !
 Edouard:Edouard NP-ANT-M ; !
