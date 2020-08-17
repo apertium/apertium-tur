@@ -12926,7 +12926,7 @@ Sartre:Sartre NP-COG-MF ; !
 Pishik:Pishik NP-COG-MF ; !
 Kızzık:Kızzık NP-COG-MF ; !
 
-Ümmü:Ümmü NP-ANT-F; !
+Ümmü:Ümmü NP-ANT-F ; !
 Nesai:Nesai NP-COG-MF ; !
 Sıddık:Sıddık NP-COG-MF ; !
 
@@ -13321,23 +13321,23 @@ Otuz:Otuz NP-TOP ; ! ""
 Altay:Altay NP-TOP ; ! ""
 Oskemen:Oskemen NP-TOP ; ! ""
 
-Alla:Alla NP-ANT-F; ! ""
+Alla:Alla NP-ANT-F ; ! ""
 Asan:Asan NP-ANT-M; ! ""
 Altay:Altay NP-ANT-M; ! ""
 Atatürk:Atatürk NP-ANT-M; ! ""
 Clinton:Clinton NP-ANT-M; ! ""
 Mahambet:Mahambet NP-ANT-M; ! ""
 
-Eden:Eden NP-ANT-F; ! ""
-Emine:Emine NP-ANT-F; ! ""
+Eden:Eden NP-ANT-F ; ! ""
+Emine:Emine NP-ANT-F ; ! ""
 Halim:Halim NP-ANT-M; ! ""
 Pütin:Pütin NP-ANT-M ;
-Kara:Kara NP-ANT-F; ! ""
+Kara:Kara NP-ANT-F ; ! ""
 Roman:Roman NP-ANT-M; ! ""
 Santa:Santa NP-AL; ! ""
 Sidney:Sidney NP-ANT-M; ! ""
-Susana:Susana NP-ANT-F; ! ""
-Mira:Mira NP-ANT-F; ! ""
+Susana:Susana NP-ANT-F ; ! ""
+Mira:Mira NP-ANT-F ; ! ""
 Kiyas:Kiyas NP-ANT-M ; ! ""
 Edem:Edem NP-ANT-M ; ! ""
 Eduard:Eduard NP-ANT-M ; ! ""
@@ -15909,57 +15909,57 @@ Paolo:Paolo NP-ANT-M;
 Ethem:Ethem NP-ANT-M;
 Abdürrahim:Abdürrahim NP-ANT-M;
 Abdürreşid:Abdürreşid NP-ANT-M;
-Sky:Sky NP-ANT-F;
-Zekkiye:Zekkiye NP-ANT-F;
-Sigrid:Sigrid NP-ANT-F;
+Sky:Sky NP-ANT-F ;
+Zekkiye:Zekkiye NP-ANT-F ;
+Sigrid:Sigrid NP-ANT-F ;
 Sami:Sami NP-ANT-M;
 Samand:Samand NP-ANT-M;
-Regina:Regina NP-ANT-F;
+Regina:Regina NP-ANT-F ;
 Nasreddin:Nasreddin NP-ANT-M;
 İshak:İshak NP-ANT-M;
-Trinidad:Trinidad NP-ANT-F;
-Selena:Selena NP-ANT-F;
+Trinidad:Trinidad NP-ANT-F ;
+Selena:Selena NP-ANT-F ;
 Salvador:Salvador NP-ANT-M;
 Ronald:Ronald NP-ANT-M;
 Rafael:Rafael NP-ANT-M;
-Pantayivka:Pantayivka NP-ANT-F;
+Pantayivka:Pantayivka NP-ANT-F ;
 Milet:Milet NP-ANT-M;
-Meryem:Meryem NP-ANT-F;
+Meryem:Meryem NP-ANT-F ;
 Leonardo:Leonardo NP-ANT-M;
-Daniela:Daniela NP-ANT-F;
-Cecilia:Cecilia NP-ANT-F;
+Daniela:Daniela NP-ANT-F ;
+Cecilia:Cecilia NP-ANT-F ;
 Abdülveli:Abdülveli NP-ANT-M;
 Abdüllatif:Abdüllatif NP-ANT-M;
-Abbey:Abbey NP-ANT-F;
+Abbey:Abbey NP-ANT-F ;
 Stone:Stone NP-ANT-M;
-Sophie:Sophie NP-ANT-F;
-Rianna:Rianna NP-ANT-F;
+Sophie:Sophie NP-ANT-F ;
+Rianna:Rianna NP-ANT-F ;
 Regan:Regan NP-ANT-M;
 Numa:Numa NP-ANT-M;
-Nora:Nora NP-ANT-F;
-Milly:Milly NP-ANT-F;
+Nora:Nora NP-ANT-F ;
+Milly:Milly NP-ANT-F ;
 Meyer:Meyer NP-ANT-M;
-Maye:Maye NP-ANT-F;
-Marta:Marta NP-ANT-F;
-Mariana:Mariana NP-ANT-F;
+Maye:Maye NP-ANT-F ;
+Marta:Marta NP-ANT-F ;
+Mariana:Mariana NP-ANT-F ;
 Lope:Lope NP-ANT-M;
-Lilian:Lilian NP-ANT-F;
+Lilian:Lilian NP-ANT-F ;
 Kristofer:Kristofer NP-ANT-M;
-Karenina:Karenina NP-ANT-F;
-Gianna:Gianna NP-ANT-F;
+Karenina:Karenina NP-ANT-F ;
+Gianna:Gianna NP-ANT-F ;
 Gamal:Gamal NP-ANT-M;
-Frida:Frida NP-ANT-F;
+Frida:Frida NP-ANT-F ;
 Eusebio:Eusebio NP-ANT-M;
 Elias:Elias NP-ANT-M;
 Delaney:Delaney NP-ANT-M;
-Clare:Clare NP-ANT-F;
+Clare:Clare NP-ANT-F ;
 Carlo:Carlo NP-ANT-M;
-Bonnie:Bonnie NP-ANT-F;
+Bonnie:Bonnie NP-ANT-F ;
 Blake:Blake NP-ANT-M;
 Bilal:Bilal NP-ANT-M;
-Bella:Bella NP-ANT-F;
+Bella:Bella NP-ANT-F ;
 Apollo:Apollo NP-ANT-M;
-Alisa:Alisa NP-ANT-F;
+Alisa:Alisa NP-ANT-F ;
 Abdümenaf:Abdümenaf NP-ANT-M;
 Abdülmuttalib:Abdülmuttalib NP-ANT-M;
 Abdülkerim:Abdülkerim NP-ANT-M;
