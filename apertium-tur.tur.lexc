@@ -12587,7 +12587,7 @@ Land:Land NP-COG-MF ; !
 Skiratov:Skiratov NP-COG-MF ; !
 Krneta:Krneta NP-COG-MF ; !
 Orozbakov:Orozbakov NP-COG-MF ; !
-Oruzbayeva:Oruzbayeva NP-ANT-F ; !
+Oruzbayeva:Oruzbayeva NP-COG-MF ; !
 Sayakbay:Sayakbay NP-ANT-M ; !
 Arabaev:Arabaev NP-COG-MF ; !
 Karalayev:Karalayev NP-COG-MF ; !
@@ -12824,7 +12824,7 @@ Go:Go NP-COG-MF ; !
 Liov:Liov NP-COG-MF ; !
 Teresa:Teresa NP-ANT-F ; !
 Zühre:Zühre NP-ANT-F ; !
-Abdürreşit:Abdürreşit NP-ANT-F ; !
+Abdürreşit:Abdürreşit NP-ANT-M ; !
 Lo:Lo NP-ANT-M ; !
 Gülen:Gülen NP-COG-MF ; !
 Ni:Ni NP-ANT-F ; !
@@ -15297,7 +15297,7 @@ Brian:Brian NP-ANT-M ; !
 Aleksios:Aleksios NP-ANT-M ; !
 Rey:Rey NP-ANT-M ; !
 Esad:Esad NP-ANT-M ; ! ""
-Esad:Esad NP-COG-MF; ! ""
+Esad:Esad NP-COG-MF ; ! ""
 Ahtem:Ahtem NP-ANT-M ;
 Hasan:Hasan NP-ANT-M ;  !!
 Nebojsa:Nebojsa NP-ANT-M ; ! ""
@@ -15665,7 +15665,7 @@ Sandra:Sandra NP-ANT-F ; ! ""
 Carla:Carla NP-ANT-F ; ! ""
 Linda:Linda NP-ANT-F ; ! ""
 Laura:Laura NP-ANT-F ; ! ""
-!izni:izni NP-ANT-F ; ! ""	
+! !izni:izni NP-ANT-F ; ! ""	! Typo!
 Natasa:Natasa NP-ANT-F ; ! ""
 Nataşa:Nataşa NP-ANT-F ; ! ""
 Bojana:Bojana NP-ANT-F ; ! ""
@@ -15930,7 +15930,7 @@ Daniela:Daniela NP-ANT-F ;
 Cecilia:Cecilia NP-ANT-F ;
 Abdülveli:Abdülveli NP-ANT-M ;
 Abdüllatif:Abdüllatif NP-ANT-M ;
-Abbey:Abbey NP-ANT-F ;
+Abbey:Abbey NP-ANT-M ;
 Stone:Stone NP-ANT-M ;
 Sophie:Sophie NP-ANT-F ;
 Rianna:Rianna NP-ANT-F ;
