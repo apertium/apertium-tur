@@ -11382,6 +11382,7 @@ romanyalı:Romanyalı N3 ; ! "Romanian"
 nogay:Nogay N3 ; ! ""
 roman:Roman N3 ; ! "roman"
 roman:roman N3 ; ! "roman" Dir/LR
+Yugoslav:Yugoslav NP-TOP ; ! ""
 yugoslav:Yugoslav N1 ; ! ""
 yugoslav:yugoslav N1 ; ! "" Dir/LR
 boşnak:boşnak N1 ; ! "" Dir/LR
