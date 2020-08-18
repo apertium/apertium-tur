@@ -5265,7 +5265,7 @@ tür:tür N1 ; ! "type"
 şirket:şirket N1 ; ! "company"
 roket:roket N1 ; ! "company"
 süreç:süreç%{v%} N1 ; ! "process"
-yolsuzluk:yolsuzluk%{v%} N1 ; ! "corruption"
+yolsuzluk:yolsuzluk%{v%} N1 ; ! "malpractice"
 sandalye:sandalye N1 ; ! "chair"
 başbakan:başbakan N1 ; ! "Prime minister"
 üyelik:üyelik%{v%} N1 ; ! "membership"
@@ -9527,6 +9527,7 @@ memleket:memleket N1 ; ! "country"
 memnuniyet:memnuniyet N1 ; ! "joy"
 memnuniyet:memnuniyet N1 ; ! "pleasure"
 memnuniyet:memnuniyet N1 ; ! "satisfaction"
+memnuniyetle:memnuniyetle ADV1 ; ! "gladly"
 memuriyet:memuriyet N1 ; ! "employment"
 memuriyet:memuriyet N1 ; ! "service"
 memur:memur N1 ; ! "civil servant"
@@ -9957,15 +9958,16 @@ polis:polis N1 ; ! "police"
 cumhurbaşkan:cumhurbaşkan N1 ; ! "presıdent of republıc"
 parti:parti N1 ; ! "party"
 reform:reform N1 ; ! "reform"
-parlamento:parlamento N1 ; ! "parlament
-
+parlamento:parlamento N1 ; ! "parliament"
 sekreter:sekreter N1 ; ! "secretary"
+sekreter:Sekreter N1 ; ! "secretary"
 pazar:pazar N1 ; ! "Sunday", "market"
-
+cumhurbaşkanlığı:cumhurbaşkanlığı N1 ; ! "presidency"
 terör:terör N1 ; ! "terror"
 terörist:terörist N1 ; ! "terrorist"
 sektör:sektör N1 ; ! "sector"
-statü:statü N1 ; ! "status" ! FIXME: Check
+statü:statü N1 ; ! "status"
+statü:statü N1 ; ! "statue"
 boykot:boykot N1 ; ! "boycot"
 program:program N1 ; ! "program"
 sistem:sistem N1 ; ! "system"
@@ -9977,7 +9979,8 @@ ordu:ordu N1 ; ! "army"
 proje:proje N1 ; ! "project"
 turizm:turizm N1 ; ! "tourism"
 plan:plan N1 ; ! "plan"
-politika:politika N1 ; ! "policy" FIXME: Check
+politika:politika N1 ; ! "policy"
+politika:politika N1 ; ! "politics"
 cep:cep N1 ; ! "pocket"
 şef:şef N1 ; ! "head/boss"
 birara:birara N1 ; ! "moment"
@@ -11882,7 +11885,7 @@ tütün:tütün N1 ;
 usta:usta N1 ;
 utanma:utanma N1 ;
 uzatma:uzatma N1 ;
-uzlaşma:uzlaşma N1 ;
+uzlaşma:uzlaşma N1 ; "agreement"
 vatanperver:vatanperver N1 ;
 yabancı:yabancı N1 ;
 yad:yad N1 ;
@@ -21184,7 +21187,7 @@ bildiğimiz:bildiğimiz A1 ; !
 çocuksuz:çocuksuz A1 ; !
 sahih:sahih A1 ; !
 iptidaî:iptidaî A1 ; !
-üzerindeki:üzerindeki A1 ; !
+üzerindeki:üzerindeki ADV1 ; ! "over"
 şan% u% şevketli:şan% u% şevketli A1 ; !
 şevketli:şevketli A1 ; !
 nimetli:nimetli A1 ; !
@@ -21880,6 +21883,7 @@ yağlı:yağlı A1 ;  ! "greasy"
 kaygılı:kaygılı A1 ;  ! "concerned"
 etkili:etkili A2 ;  ! "influential"
 yetkili:yetkili A2 ;  ! "authorized"
+yetkililer:yetkililer N1 ;  ! "officials"
 başarılı:başarılı A1 ;  ! "successful, successful"
 sarılı:sarılı A1 ;  ! "yellowish"
 becerili:becerili A2 ;  ! "talented"
@@ -22244,7 +22248,7 @@ dobra:dobra A1 ;  ! ""
 ücra:ücra A1 ;  ! ""
 devasa:devasa A1 ;  ! ""
 kıranta:kıranta A4 ;  ! ""
-orta:orta A2 ;  ! ""
+orta:orta A2 ;  ! "middle"
 hasta:hasta A2 ;  ! ""
 rüsva:rüsva A1 ;  ! ""
 kıyasıya:kıyasıya A2 ;  ! ""
