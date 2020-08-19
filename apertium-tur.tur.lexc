@@ -14788,7 +14788,7 @@ Zıncırlı:Zıncırlı NP-AL ; ! ""
 MPA:MPA NP-AL ; ! ""
 AIDS:AIDS NP-AL ; ! ""  @?@
 International:International NP-AL ; ! ""
-News NP-AL ; ! "" @@@
+News:News NP-AL ; ! "" @@@
 Nabucco:Nabucco NP-AL ; ! ""
 Tribune:Tribune NP-AL ; ! ""
 
