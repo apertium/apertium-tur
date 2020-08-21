@@ -3,12 +3,12 @@
 # directory.
 
 LANGUAGE=tur
-
+# removed NUM-ROMAN.txt.gz NUM-ITG.txt.gz 
 all: N1.txt.gz N1-RUS.txt.gz N-COMPOUND-PX.txt.gz \
 	A1.txt.gz \
 	V-TV-IR.txt.gz \
 	ADV.txt.gz ADV-ITG.txt.gz \
-	NUM.txt.gz NUM-ROMAN.txt.gz NUM-ITG.txt.gz \
+	NUM.txt.gz \
 	NUM.txt.gz POST.txt.gz CNJ.txt.gz \
 	PRN.txt.gz \
 	DET.txt.gz
