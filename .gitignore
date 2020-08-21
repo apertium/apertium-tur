@@ -21,3 +21,4 @@
 /tur.automorf.hfst
 /tur.rlx.bin
 /tests/morphotactics/*.txt.gz
+/tests/morphotactics/.deps/*
