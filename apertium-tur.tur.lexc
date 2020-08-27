@@ -4735,46 +4735,9 @@ tanıdık:tanıdık N1 ; !
 olduk:olduk N1 ; !
 soğuk:soğuk N1 ; !
 büyük:büyük N1 ; !
-Nobel:Nobel NP-AL ; !
-bei:bei NP-AL ; !
-Çoban:Çoban NP-AL ; !
-İncil:İncil NP-AL ; !
-Korintliler:Korintliler NP-AL ; !
-Tevrat:Tevrat NP-AL ; !
-Pesah:Pesah NP-AL ; !
-Death:Death NP-AL ; !
-Football:Football NP-AL ; !
-Deadpool:Deadpool NP-AL ; !
-Mezmurlar:Mezmurlar NP-AL ; !
 
-Kutadgu% Bilig:Kutadgu% Bilig NP-AL ; !
-Muhakemetul% Lugateyn:Muhakemetul% Lugateyn NP-AL ; !
-Sahihül% Buhari:Sahihül% Buhari NP-AL ; !
-Divan-ı% Lügatit% Türk:Divan-ı% Lügatit% Türk NP-AL ; !
-Mişkatül% Mesabih:Mişkatül% Mesabih NP-AL ; !
-Belediyespor:Belediyespor NP-AL ; !
-NGC:NGC NP-AL ; !
-Oscar:Oscar NP-AL ; !
-Pirrol:Pirrol NP-AL ; !
-Kırgızmambas:Kırgızmambas NP-AL ; !
-le:le NP-AL ; !
-Centre:Centre NP-AL ; !
-Virgo:Virgo NP-AL ; !
-Saint:Saint NP-AL ; !
-City:City NP-AL ; !
-County:County NP-AL ; !
-La:La NP-AL ; !
-la:la NP-AL ; !
-al:al NP-AL ; !
-ibn:ibn NP-AL ; !
 
-am:am NP-AL ; !
-les:les NP-AL ; !
-lès:lès NP-AL ; !
-Sankt:Sankt NP-AL ; !
-St:St NP-AL ; !
 
-New:New NP-AL ; !
 
 
 prof:prof ABBR ; !
@@ -12608,23 +12571,8 @@ Nemanja:Nemanja NP-ANT-M ; !
 Sagımbay:Sagımbay NP-ANT-M ; !
 Semetey:Semetey NP-ANT-M ; !
 Ana:Ana NP-ANT-F ; !
-Super% G4:Super% G4 NP-AL ; !
-Gazela:Gazela NP-AL ; !
-Zebur:Zebur NP-AL ; !
 
 Getty% Images:Getty% Images NP-ORG ; !
-Red:Red NP-AL ; !
-Group:Group NP-AL ; !
-Islander:Islander NP-AL ; !
-Premier:Premier NP-AL ; !
-River:River NP-AL ; !
-Records:Records NP-AL ; !
-Play:Play NP-AL ; !
-Drakula:Drakula NP-AL ; !
-World:World NP-AL ; !
-League:League NP-AL ; !
-Ligue:Ligue NP-AL ; !
-Big:Big NP-AL ; !
 WrestleMania:WrestleMania NP-ORG ; !
 Real% Madrid:Real% Madrid NP-ORG ; !
 Premier% League:Premier% League NP-ORG ; !
@@ -12634,7 +12582,6 @@ Panzer:Panzer NP-ORG ; !
 Vakfıkebir:Vakfıkebir NP-ORG ; !
 
 Royal:Royal NP-ORG ; !
-iTunes:iTunes NP-AL ; !
 Eric:Eric NP-ANT-M ; !
 Rick:Rick NP-ANT-M ; !
 Cemal:Cemal NP-ANT-M ; !
@@ -13294,27 +13241,6 @@ Alaşorda:Alaşorda NP-TOP ;
 Buktyrma:Buktyrma NP-TOP ;
 Alatau:Alatau NP-TOP ; ! "Use/MT"
 Abay:Abay NP-TOP ;
-Boeing:Boeing NP-AL ; ! ""
-Gazprom:Gazprom NP-AL ; ! ""
-Naftogaz:Naftogaz NP-AL ; ! ""
-Twitter:Twitter NP-AL ; ! ""
-Atabetül% Hakayık:Atabetül% Hakayık NP-AL ; !
-Bülüğ'ul% Meram:Bülüğ'ul% Meram NP-AL ; !
-Kazakhmys:Kazakhmys NP-AL ; ! "Use/MT"
-Dünya% Şampiyonası:Dünya% Şampiyonası NP-AL ;
-Muhakemetül% Lugateyn:Muhakemetül% Lugateyn NP-AL ; !
-United:United NP-AL ; !
-Live:Live NP-AL ; !
-http:http NP-AL ; !
-Cup:Cup NP-AL ; !
-MS:MS NP-AL ; !
-OS:OS NP-AL ; !
-Raw:Raw NP-AL ; !
-www:www NP-AL ; !
-Club:Club NP-AL ; !
-Mac:Mac NP-AL ; !
-Formula% 1:Formula% 1 NP-AL ; !
-Serie% A:Serie% A NP-AL ; !
 
 
 
@@ -13338,7 +13264,6 @@ Halim:Halim NP-ANT-M ; ! ""
 Pütin:Pütin NP-ANT-M ;
 Kara:Kara NP-ANT-F ; ! ""
 Roman:Roman NP-ANT-M ; ! ""
-Santa:Santa NP-AL; ! ""
 Sidney:Sidney NP-ANT-M ; ! ""
 Susana:Susana NP-ANT-F ; ! ""
 Mira:Mira NP-ANT-F ; ! ""
@@ -14722,29 +14647,10 @@ RFE:RFE NP-ORG ; ! "Radio Free Europe"
 RL:RL NP-ORG ; ! "Radio Liberty" ! FIXME: Should be joined up
 SE:SE NP-ORG ; ! ""
 BSP:BSP NP-ORG ; ! ""
-KDV:KDV NP-AL ; ! ""
 SETimes:SETimes%{ı%}%{b%} NP-ORG ; ! "Southeastern European Times"
-TV:TV%{o%} NP-AL ; ! ""
-San:San NP-AL ; !
-FC:FC NP-AL ; !
 
 
-iOS:iOS NP-AL ; !
-ad:ad NP-AL ; !
 
-Svoboda:Svoboda NP-AL ; ! ""
-YouTube:YouTube NP-AL ; ! ""
-Linux:Linux NP-AL ; ! ""
-Krıminform:Krıminform NP-AL ;
-Maracana:Maracana NP-AL ;
-Kutadgu% Bilik:Kutadgu% Bilik NP-AL ; !
-AIDS:AIDS NP-AL ;
-Servet-i% Fünun:Servet-i% Fünun NP-AL ;
-HIV:HIV NP-AL ; ! "" @?@
-CEFTA:CEFTA NP-AL ; ! ""
-GERB:GERB NP-AL ; ! ""
-Nobel:Nobel NP-AL ; ! ""
-Grammy:Grammy NP-AL ; !
 SRS:SRS%{ь%} NP-ORG ; ! "Serbian Radical Party"
 MSK:MSK%{ь%} NP-ORG ; ! ""
 BDP:BDP%{ь%} NP-ORG ; ! ""
@@ -14756,41 +14662,11 @@ The% Guardian:The% Guardian NP-ORG ; ! ""
 Euronews:Euronews NP-ORG ; ! ""
 The% Wall% Street% Journal:The% Wall% Street% Journal NP-ORG ; ! ""
 Sovyet:Sovyet NP-AL-PL ; ! ""
-Super% G4:Super% G4 NP-AL ; ! ""
-
-Çernomorneftegaz:Çernomorneftegaz NP-AL ; ! ""
-Charlie% Hebdo:Charlie% Hebdo NP-AL ; ! ""
-Facebook:Facebook NP-AL ; ! ""
-Golos:Golos NP-AL ; ! ""
-İnterfaks:İnterfaks NP-AL ; ! ""
-Krımenergo:Krımenergo NP-AL ; ! ""
-KrımSOS:KrımSOS NP-AL ; ! ""
-Kurultay:Kurultay NP-AL ; ! ""
-Otkrıtaya:Otkrıtaya NP-AL ; ! ""
-PrivatBank:PrivatBank NP-AL ; ! ""
-Roskomnadzor:Roskomnadzor NP-AL ; ! ""
-Rospotrebnadzor:Rospotrebnadzor NP-AL ; ! ""
-Rosselhoznadzor:Rosselhoznadzor NP-AL ; ! ""
-Rossiya% segodnya:Rossiya% segodnya NP-AL ; ! ""
-Simferopol:Simferopol NP-AL ; ! ""
-Spravedlivaya% Rossiya:Spravedlivaya% Rossiya NP-AL ; ! ""
-Terciman:Terciman NP-AL ; ! ""
-Ukrenergo:Ukrenergo NP-AL ; ! ""
-Ukrinform:Ukrinform NP-AL ; ! ""
-Ukrtelekom:Ukrtelekom NP-AL ; ! ""
-Vikipediya:Vikipediya NP-AL ; ! ""
-Yedinaya% Rossiya:Yedinaya% Rossiya NP-AL ; ! ""
-Zıncırlı:Zıncırlı NP-AL ; ! ""
 
 
 
 
-MPA:MPA NP-AL ; ! ""
-AIDS:AIDS NP-AL ; ! ""  @?@
-International:International NP-AL ; ! ""
-News:News NP-AL ; ! "" @@@
-Nabucco:Nabucco NP-AL ; ! ""
-Tribune:Tribune NP-AL ; ! ""
+
 
 
 
@@ -15241,47 +15117,8 @@ Reuters:Reuters NP-ORG ; ! ""
 MKMİK:MKMİK NP-ORG;
 Tatar-İnform:Tatar-İnform NP-ORG;
 MŞSC:MŞSC%{ь%} NP-ORG;
-AP:AP NP-AL ; ! ""
-B92:B92 NP-AL ; ! ""
-EUobserver:EUobserver NP-AL ; ! ""
-EUpolitix:EUpolitix NP-AL ; ! ""
-EUCOM:EUCOM NP-AL ; ! ""
-Eurovision:Eurovision NP-AL ; ! ""
-Dnevnik:Dnevnik NP-AL ; ! ""
-EurActiv:EurActiv NP-AL ; ! ""
-SAA:SAA NP-AL ; ! "Stabilisation and Association Agreement"
-G17:G17 NP-AL ; ! ""
-G17% Plus:G17% Plus NP-AL ; ! ""
-Vikipedi:Vikipedi NP-AL ; ! ""
-The% New% Press:The% New% Press NP-AL ; ! ""
-Radio% Foniki:Radio% Foniki NP-AL ; ! ""
-Europe:Europe NP-AL ; ! ""
-ATR:ATR%{ь%} NP-AL ;
-TSK:TSK%{ь%} NP-AL ;
-FSB:FSB%{ь%} NP-AL ; ! ""
 
-ATO:ATO NP-AL ;
-BBC:BBC%{ь%} NP-AL ;
-BSE:BSE NP-AL ;
-BTR:BTR%{ь%} NP-AL ;
-FM:FM%{ь%} NP-AL ;
-ICAO:ICAO NP-AL ;
-ISO:ISO NP-AL ;
-KGB:KGB%{ь%} NP-AL ;
-LHC:LHC%{ь%} NP-AL ;
-MSK:MSK%{ь%} NP-AL ;
-MTS:MTS%{ь%} NP-AL ;
 NATO:NATO NP-ORG ;
-NTV:NTV%{ь%} NP-AL ;
-OSCE:OSCE NP-AL ;
-Otkrıtaya% Rossiya:Otkrıtaya% Rossiya NP-AL ;
-PACE:PACE NP-AL ;
-PA:PA NP-AL ;
-PEN:PEN NP-AL ;
-SOS:SOS NP-AL ;
-SSC:SSC%{ь%} NP-AL ;
-UNESCO:UNESCO NP-AL ;
-Kurultay:Kurultay NP-AL ;
 
 
 
