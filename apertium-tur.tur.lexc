@@ -4766,6 +4766,7 @@ les:les NP-AL ; !
 lès:lès NP-AL ; !
 Sankt:Sankt NP-AL ; !
 St:St NP-AL ; !
+CEE:CEE NP-AL ;
 
 New:New NP-AL ; !
 
@@ -10962,6 +10963,7 @@ zimmet:zimmet N1 ; ! ""
 zincir:zincir N1 ; ! ""
 ziyafet:ziyafet N1 ; ! ""
 zulüm:zulüm N1 ; ! ""
+sunum:sunum N1 ;
 savcılık:savcılık%{v%} N1 ;
 
 
@@ -12575,6 +12577,7 @@ World:World NP-AL ; !
 League:League NP-AL ; !
 Ligue:Ligue NP-AL ; !
 Big:Big NP-AL ; !
+WMTR:WMTR NP-AL ;
 WrestleMania:WrestleMania NP-ORG ; !
 Real% Madrid:Real% Madrid NP-ORG ; !
 Premier% League:Premier% League NP-ORG ; !
