@@ -4811,6 +4811,8 @@ Fox:Fox NP-ORG ; !
 Time:Time NP-ORG ; !
 Porto:Porto NP-ORG ; !
 Samsunspor:Samsunspor NP-ORG ; !
+Wikimedia:Wikimedia NP-ORG ;
+VikiSalı:VikiSalı NP-ORG ;
 
 
 
@@ -12580,6 +12582,7 @@ SmackDown:SmackDown NP-ORG ; !
 Modesto:Modesto NP-ORG ; !
 Panzer:Panzer NP-ORG ; !
 Vakfıkebir:Vakfıkebir NP-ORG ; !
+Vikiveri:Vikiveri NP-ORG ;
 
 Royal:Royal NP-ORG ; !
 iTunes:iTunes NP-AL ; !
