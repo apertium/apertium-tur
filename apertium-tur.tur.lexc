@@ -4073,6 +4073,7 @@ kıssa:kıssa N1 ; !
 mahiyet:mahiyet N1 ; !
 Cenab-ı% Allah:Cenab-ı% Allah N1 ; !
 Ahmet:Ahmet NP-ANT-M ; !
+Asaf:Asaf NP-ANT-M ;
 Mürteza:Mürteza NP-ANT-M ; !
 Muhammetarif:Muhammetarif NP-ANT-M ; !
 Bora:Bora NP-ANT-M ; !
@@ -12427,6 +12428,8 @@ Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
 Zadok:Zadok NP-ANT-M ; !
+Şener:Şener NP-ANT-M ;
+Muzaffer:Muzaffer NP-ANT-M ;
 Abner:Abner NP-ANT-M ; !
 Alpamys:Alpamys NP-ANT-M ; !
 Ospan:Ospan NP-ANT-M ; !
@@ -12894,6 +12897,7 @@ Sokrates:Sokrates NP-ANT-M ; !
 Gu:Gu NP-ANT-M ; !
 Saşa:Saşa NP-ANT-M ; !
 Oakili:Oakili NP-ANT-M ; !
+İlhan:İlhan NP-ANT-M ;
 İlhamcan:İlhamcan NP-ANT-M ; !
 Gündoğdu:Gündoğdu NP-ANT-M ; !
 Kıray:Kıray NP-ANT-M ; !
@@ -19838,6 +19842,7 @@ Yaroslav:Yaroslav NP-ANT-M ; ! ""
 Serğiy:Serğiy NP-ANT-M ; ! ""
 Georgiy:Georgiy NP-ANT-M ; ! ""
 Çarli:Çarli NP-ANT-M ; ! ""
+Tuncay:Tuncay NP-ANT-M ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
 Gaspıralı:Gaspıralı NP-TOP ;
@@ -25850,6 +25855,7 @@ Allahu% Ekber:Allahu% Ekber INTERJ ; !
 öh:öh INTERJ ; !
 mesela:mesela INTERJ ; !
 falan:falan INTERJ ; !
+falan% fistan:falan% fistan INTERJ ;
 hü:hü INTERJ ; !
 olsun:olsun INTERJ ; !
 hayda:hayda INTERJ ; !
