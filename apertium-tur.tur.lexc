@@ -6220,6 +6220,7 @@ cehennem:cehennem N1 ; ! "hell"
 çehre:çehre N1 ; ! "face"
 çekap:çekap N1 ; ! "check-up"
 ceket:ceket N1 ; ! "jacket"
+jandarma:jandarma N1 ;
 çekiç:çekiç N1 ; ! "hammer"
 çekidüzen:çekidüzen N1 ; ! "orderliness"
 çekiliş:çekiliş N1 ; ! "raffle"
@@ -11950,6 +11951,7 @@ Venatica:Venatica NP-TOP ; !
 Navarra:Navarra NP-TOP ; !
 Hessen:Hessen NP-TOP ; !
 Allier:Allier NP-TOP ; !
+Levent:Levent NP-TOP ;
 Château:Château NP-TOP ; !
 Westphalia:Westphalia NP-TOP ; !
 Drôme:Drôme NP-TOP ; !
@@ -21855,7 +21857,6 @@ dallı:dallı A1 ;  ! "branched"
 akıllı:akıllı A1 ;  ! "intelligent, smart, clever"
 killi:killi A2 ;  ! "loamy"
 kıllı:kıllı A1 ;  ! "hairy"
-milli:milli A2 ;  ! "national"
 anlamlı:anlamlı A1 ;  ! "meaningful"
 namlı:namlı A1 ;  ! "renowned"
 kapsamlı:kapsamlı A1 ;  ! "comprehensive"
