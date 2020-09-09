@@ -6902,6 +6902,7 @@ fıskıye:fıskıye N1 ; ! "fountain"
 fiskos:fiskos N1 ; ! "gossip"
 fişne:fişne N1 ; ! "cherry"
 fistan:fistan N1 ; ! "dress"
+filan:filan N1 ; ! "person"
 fıstık:fıstık N1 ; ! "pistachio"
 fıtık:fıtık N1 ; ! "hernia"
 fitne:fitne N1 ; ! "sedition"
@@ -14517,6 +14518,7 @@ EU:EU NP-TOP-ACR ; ! ""
 
 ! Organisations
 NBA:NBA NP-ORG ; !
+TCK:TCK NP-ORG ;
 billboard:billboard NP-ORG ; !
 Apple:Apple NP-ORG ; !
 WWE:WWE NP-ORG ; !
