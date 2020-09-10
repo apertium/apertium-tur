@@ -5283,6 +5283,7 @@ nisan:Nisan N5 ; ! "April"
 mayıs:Mayıs N5 ; ! "May"
 haziran:Haziran N5 ; ! "June"
 temmuz:Temmuz N5 ; ! "July"
+temmuz:temmuz N1 ;
 ağustos:Ağustos N5 ; ! "august"
 ağustos:ağustos N1 ; ! "" Dir/LR
 eylül:Eylül N5 ; ! "September"
@@ -12613,6 +12614,7 @@ Sezar:Sezar NP-COG-MF ; !
 Swift:Swift NP-COG-MF ; !
 İnönü:İnönü NP-COG-MF ; !
 Alice:Alice NP-ANT-F ; !
+Sevgi:Sevgi NP-ANT-F ;
 Marie:Marie NP-ANT-F ; !
 Mary:Mary NP-ANT-F ; !
 Murad:Murad NP-ANT-M ; !
