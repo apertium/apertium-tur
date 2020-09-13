@@ -6347,6 +6347,7 @@ damga:damga N1 ; ! "stamp"
 damızlık:damızlık%{v%} N1 ; ! "stallion"
 damla:damla N1 ; ! "drop"
 dana:dana N1 ; ! "calf"
+Danıştay:Danıştay N1 ;
 danışman:danışman N1 ; ! "adviser"
 dans:dans N1 ; ! "dance"
 dansör:dansör N1 ; ! "dancer"
@@ -12431,10 +12432,14 @@ Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
+Yaşar:Yaşar NP-ANT-M ;
 Zadok:Zadok NP-ANT-M ; !
+Oktay:Oktay NP-ANT-M ;
 Şener:Şener NP-ANT-M ;
+Hayrettin:Hayrettin NP-ANT-M ;
 Muzaffer:Muzaffer NP-ANT-M ;
 Abner:Abner NP-ANT-M ; !
+Hurşit:Hurşit NP-ANT-M ;
 Alpamys:Alpamys NP-ANT-M ; !
 Ospan:Ospan NP-ANT-M ; !
 June:June NP-ANT-F ; !
@@ -12479,6 +12484,7 @@ Musakocoyev:Musakocoyev NP-ANT-M ; !
 Alişer:Alişer NP-ANT-M ; !
 Uluğbey:Uluğbey NP-ANT-M ; !
 Venatici:Venatici NP-COG-MF ; !
+Demirtaş:Demirtaş NP-COG-MF ;
 Kırca:Kırca NP-COG-MF ; !
 Rushiti:Rushiti NP-COG-MF ; !
 Edouard:Edouard NP-ANT-M ; !
@@ -19851,6 +19857,7 @@ Georgiy:Georgiy NP-ANT-M ; ! ""
 Tuncay:Tuncay NP-ANT-M ;
 Sedat:Sedat NP-ANT-M ;
 Yalçın:Yalçın NP-ANT-M ;
+Erol:Erol NP-ANT-M ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
 Gaspıralı:Gaspıralı NP-TOP ;
