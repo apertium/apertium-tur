@@ -4136,6 +4136,7 @@ Zhanibek:Zhanibek NP-ANT-M ; !
 fasık:fasık N1 ; !
 gusul:gusul N1 ; !
 girici:girici N1 ; !
+tescil:tescil N1 ;
 fetva:fetva N1 ; !
 kızılderili:kızılderili N1 ; !
 tümör:tümör N1 ; !
@@ -15453,6 +15454,8 @@ Markos:Markos NP-ANT-M ; ! ""
 Marshall:Marshall NP-ANT-M ; ! ""
 Martin:Martin NP-ANT-M ; ! ""
 Martin:Martin NP-COG-MF ; ! ""
+Öclan:Öclan NP-COG-MF ;
+Ertekin:Ertekin NP-COG-MF ;
 Massari:Massari NP-ANT-M ; ! ""
 Massimo:Massimo NP-ANT-M ; ! ""
 Matti:Matti NP-ANT-M ; ! ""
@@ -19857,6 +19860,7 @@ Georgiy:Georgiy NP-ANT-M ; ! ""
 Tuncay:Tuncay NP-ANT-M ;
 Sedat:Sedat NP-ANT-M ;
 Yalçın:Yalçın NP-ANT-M ;
+Serdar:Serdar NP-ANT-M ;
 Erol:Erol NP-ANT-M ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
