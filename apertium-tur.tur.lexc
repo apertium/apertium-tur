@@ -3192,6 +3192,7 @@ revani:revani N1 ; !
 yavru:yavru N1 ; !
 vesvese:vesvese N1 ; !
 parça:parça N1 ; !
+tava:tava N1 ;
 kat:kat N1 ; !
 sema:sema N1 ; !
 şakird:şakird N1 ; !
@@ -4077,6 +4078,7 @@ kıssa:kıssa N1 ; !
 mahiyet:mahiyet N1 ; !
 Cenab-ı% Allah:Cenab-ı% Allah N1 ; !
 Ahmet:Ahmet NP-ANT-M ; !
+Asaf:Asaf NP-ANT-M ;
 Mürteza:Mürteza NP-ANT-M ; !
 Muhammetarif:Muhammetarif NP-ANT-M ; !
 Bora:Bora NP-ANT-M ; !
@@ -4140,6 +4142,7 @@ Zhanibek:Zhanibek NP-ANT-M ; !
 fasık:fasık N1 ; !
 gusul:gusul N1 ; !
 girici:girici N1 ; !
+tescil:tescil N1 ;
 fetva:fetva N1 ; !
 kızılderili:kızılderili N1 ; !
 tümör:tümör N1 ; !
@@ -4737,6 +4740,12 @@ soğuk:soğuk N1 ; !
 büyük:büyük N1 ; !
 
 
+am:am NP-AL ; !
+les:les NP-AL ; !
+lès:lès NP-AL ; !
+Sankt:Sankt NP-AL ; !
+St:St NP-AL ; !
+CEE:CEE NP-AL ;
 
 
 
@@ -4781,6 +4790,8 @@ Fox:Fox NP-ORG ; !
 Time:Time NP-ORG ; !
 Porto:Porto NP-ORG ; !
 Samsunspor:Samsunspor NP-ORG ; !
+Wikimedia:Wikimedia NP-ORG ;
+VikiSalı:VikiSalı NP-ORG ;
 
 
 
@@ -4804,7 +4815,7 @@ hoş:hoş N1 ; !
 oluş:oluş N1 ; !
 dokunuş:dokunuş N1 ; !
 sürüş:sürüş N1 ; !
-Ahmet:Ahmet N1 ; !
+!Ahmet:Ahmet N1 ; !
 bölücü:bölücü N1 ; !
 Anadolu% Selçuklu:Anadolu% Selçuklu N1 ; !
 yapay:yapay N1 ; !
@@ -6208,6 +6219,7 @@ cehennem:cehennem N1 ; ! "hell"
 çehre:çehre N1 ; ! "face"
 çekap:çekap N1 ; ! "check-up"
 ceket:ceket N1 ; ! "jacket"
+jandarma:jandarma N1 ;
 çekiç:çekiç N1 ; ! "hammer"
 çekidüzen:çekidüzen N1 ; ! "orderliness"
 çekiliş:çekiliş N1 ; ! "raffle"
@@ -6333,6 +6345,7 @@ damga:damga N1 ; ! "stamp"
 damızlık:damızlık%{v%} N1 ; ! "stallion"
 damla:damla N1 ; ! "drop"
 dana:dana N1 ; ! "calf"
+Danıştay:Danıştay N1 ;
 danışman:danışman N1 ; ! "adviser"
 dans:dans N1 ; ! "dance"
 dansör:dansör N1 ; ! "dancer"
@@ -6892,6 +6905,7 @@ fıskıye:fıskıye N1 ; ! "fountain"
 fiskos:fiskos N1 ; ! "gossip"
 fişne:fişne N1 ; ! "cherry"
 fistan:fistan N1 ; ! "dress"
+filan:filan N1 ; ! "person"
 fıstık:fıstık N1 ; ! "pistachio"
 fıtık:fıtık N1 ; ! "hernia"
 fitne:fitne N1 ; ! "sedition"
@@ -10966,6 +10980,7 @@ zimmet:zimmet N1 ; ! ""
 zincir:zincir N1 ; ! ""
 ziyafet:ziyafet N1 ; ! ""
 zulüm:zulüm N1 ; ! ""
+sunum:sunum N1 ;
 savcılık:savcılık%{v%} N1 ;
 
 
@@ -11957,6 +11972,7 @@ Venatica:Venatica NP-TOP ; !
 Navarra:Navarra NP-TOP ; !
 Hessen:Hessen NP-TOP ; !
 Allier:Allier NP-TOP ; !
+Levent:Levent NP-TOP ;
 Château:Château NP-TOP ; !
 Westphalia:Westphalia NP-TOP ; !
 Drôme:Drôme NP-TOP ; !
@@ -12435,8 +12451,14 @@ Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
+Yaşar:Yaşar NP-ANT-M ;
 Zadok:Zadok NP-ANT-M ; !
+Oktay:Oktay NP-ANT-M ;
+Şener:Şener NP-ANT-M ;
+Hayrettin:Hayrettin NP-ANT-M ;
+Muzaffer:Muzaffer NP-ANT-M ;
 Abner:Abner NP-ANT-M ; !
+Hurşit:Hurşit NP-ANT-M ;
 Alpamys:Alpamys NP-ANT-M ; !
 Ospan:Ospan NP-ANT-M ; !
 June:June NP-ANT-F ; !
@@ -12483,6 +12505,7 @@ Uluğbey:Uluğbey NP-ANT-M ; !
 Venatici:Venatici NP-COG-MF ; !
 Rehn:Rehn NP-COG-MF ; !
 B92:B92  NP-ORG ; ! ""
+Demirtaş:Demirtaş NP-COG-MF ;
 Kırca:Kırca NP-COG-MF ; !
 Rushiti:Rushiti NP-COG-MF ; !
 Edouard:Edouard NP-ANT-M ; !
@@ -12573,6 +12596,19 @@ Semetey:Semetey NP-ANT-M ; !
 Ana:Ana NP-ANT-F ; !
 
 Getty% Images:Getty% Images NP-ORG ; !
+Red:Red NP-AL ; !
+Group:Group NP-AL ; !
+Islander:Islander NP-AL ; !
+Premier:Premier NP-AL ; !
+River:River NP-AL ; !
+Records:Records NP-AL ; !
+Play:Play NP-AL ; !
+Drakula:Drakula NP-AL ; !
+World:World NP-AL ; !
+League:League NP-AL ; !
+Ligue:Ligue NP-AL ; !
+Big:Big NP-AL ; !
+WMTR:WMTR NP-AL ;
 WrestleMania:WrestleMania NP-ORG ; !
 Real% Madrid:Real% Madrid NP-ORG ; !
 Premier% League:Premier% League NP-ORG ; !
@@ -12580,6 +12616,7 @@ SmackDown:SmackDown NP-ORG ; !
 Modesto:Modesto NP-ORG ; !
 Panzer:Panzer NP-ORG ; !
 Vakfıkebir:Vakfıkebir NP-ORG ; !
+Vikiveri:Vikiveri NP-ORG ;
 
 Royal:Royal NP-ORG ; !
 Eric:Eric NP-ANT-M ; !
@@ -12600,6 +12637,7 @@ Sezar:Sezar NP-COG-MF ; !
 Swift:Swift NP-COG-MF ; !
 İnönü:İnönü NP-COG-MF ; !
 Alice:Alice NP-ANT-F ; !
+Sevgi:Sevgi NP-ANT-F ;
 Marie:Marie NP-ANT-F ; !
 Mary:Mary NP-ANT-F ; !
 Murad:Murad NP-ANT-M ; !
@@ -12887,6 +12925,7 @@ Sokrates:Sokrates NP-ANT-M ; !
 Gu:Gu NP-ANT-M ; !
 Saşa:Saşa NP-ANT-M ; !
 Oakili:Oakili NP-ANT-M ; !
+İlhan:İlhan NP-ANT-M ;
 İlhamcan:İlhamcan NP-ANT-M ; !
 Gündoğdu:Gündoğdu NP-ANT-M ; !
 Kıray:Kıray NP-ANT-M ; !
@@ -14483,6 +14522,7 @@ EU:EU NP-TOP-ACR ; ! ""
 
 ! Organisations
 NBA:NBA NP-ORG ; !
+TCK:TCK NP-ORG ;
 billboard:billboard NP-ORG ; !
 Apple:Apple NP-ORG ; !
 WWE:WWE NP-ORG ; !
@@ -15160,7 +15200,7 @@ Adam:Adam NP-ANT-M ; ! ""
 Adnan:Adnan NP-ANT-M ; ! ""
 Adrian:Adrian NP-ANT-M ; ! ""
 Agim:Agim NP-ANT-M ; ! ""
-Ahmet:Ahmet NP-ANT-M ; ! ""
+!Ahmet:Ahmet NP-ANT-M ; ! ""
 Albert:Albert NP-ANT-M ; ! ""
 Aleksandar:Aleksandar NP-ANT-M ; ! ""
 Aleksandr:Aleksandr NP-ANT-M ; ! ""
@@ -15323,6 +15363,8 @@ Markos:Markos NP-ANT-M ; ! ""
 Marshall:Marshall NP-ANT-M ; ! ""
 Martin:Martin NP-ANT-M ; ! ""
 Martin:Martin NP-COG-MF ; ! ""
+Öclan:Öclan NP-COG-MF ;
+Ertekin:Ertekin NP-COG-MF ;
 Massari:Massari NP-ANT-M ; ! ""
 Massimo:Massimo NP-ANT-M ; ! ""
 Matti:Matti NP-ANT-M ; ! ""
@@ -19724,6 +19766,11 @@ Yaroslav:Yaroslav NP-ANT-M ; ! ""
 Serğiy:Serğiy NP-ANT-M ; ! ""
 Georgiy:Georgiy NP-ANT-M ; ! ""
 Çarli:Çarli NP-ANT-M ; ! ""
+Tuncay:Tuncay NP-ANT-M ;
+Sedat:Sedat NP-ANT-M ;
+Yalçın:Yalçın NP-ANT-M ;
+Serdar:Serdar NP-ANT-M ;
+Erol:Erol NP-ANT-M ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
 Gaspıralı:Gaspıralı NP-TOP ;
@@ -21740,7 +21787,6 @@ dallı:dallı A1 ;  ! "branched"
 akıllı:akıllı A1 ;  ! "intelligent, smart, clever"
 killi:killi A2 ;  ! "loamy"
 kıllı:kıllı A1 ;  ! "hairy"
-milli:milli A2 ;  ! "national"
 anlamlı:anlamlı A1 ;  ! "meaningful"
 namlı:namlı A1 ;  ! "renowned"
 kapsamlı:kapsamlı A1 ;  ! "comprehensive"
@@ -25760,6 +25806,7 @@ Allahu% Ekber:Allahu% Ekber INTERJ ; !
 öh:öh INTERJ ; !
 mesela:mesela INTERJ ; !
 falan:falan INTERJ ; !
+falan% fistan:falan% fistan INTERJ ;
 hü:hü INTERJ ; !
 olsun:olsun INTERJ ; !
 hayda:hayda INTERJ ; !
