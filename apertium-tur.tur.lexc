@@ -2897,6 +2897,7 @@ veya:veya CC ;
 veya:veya CC ; ! "either/or"
 veyahut:veyahut CC ; 
 ya% da:ya% da CC ; 
+yahut:yahut CC ;
 ya% da:ya% da CC ; ! ""
 ya:ya CC ;
 ya:ya CC ; ! "either/or"
@@ -6322,6 +6323,7 @@ dağıtım:dağıtım N1 ; ! "distribution"
 dahi:dahi N1 ; ! "genius"
 dahil:dahil N1 ; ! "interior"
 dahili:dahili N1 ; ! "interior"
+sayfalık:sayfalık N1 ;
 dahiliye:dahiliye N1 ; ! "internal diseases"
 daire:daire N1 ; ! "circle"
 dakika:dakika N1 ; ! "minute"
@@ -12437,6 +12439,8 @@ Yaşar:Yaşar NP-ANT-M ;
 Zadok:Zadok NP-ANT-M ; !
 Oktay:Oktay NP-ANT-M ;
 Şener:Şener NP-ANT-M ;
+Hakan:Hakan NP-ANT-M ;
+Alparslan:Alparslan NP-ANT-M ;
 Hayrettin:Hayrettin NP-ANT-M ;
 Muzaffer:Muzaffer NP-ANT-M ;
 Abner:Abner NP-ANT-M ; !
@@ -12482,9 +12486,13 @@ Anise:Anise NP-ANT-F ; !
 Vasiliy:Vasiliy NP-ANT-M ; !
 Almambet:Almambet NP-ANT-M ; !
 Musakocoyev:Musakocoyev NP-ANT-M ; !
+Özkan:Özkan NP-ANT-M ;
 Alişer:Alişer NP-ANT-M ; !
 Uluğbey:Uluğbey NP-ANT-M ; !
 Venatici:Venatici NP-COG-MF ; !
+Özkan:Özkan NP-COG-MF ;
+Öcalan:Öcalan NP-COG-MF ;
+Alparslan:Alparslan NP-COG-MF ;
 Demirtaş:Demirtaş NP-COG-MF ;
 Kırca:Kırca NP-COG-MF ; !
 Rushiti:Rushiti NP-COG-MF ; !
