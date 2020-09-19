@@ -2762,6 +2762,7 @@ kıyaslandığında:kıyaslandığında POST ; !
 sırasında:sırasında POST ; !
 yoluyla:yoluyla POST ; !
 uğruna:uğruna POST ; !
+aleyhine:aleyhine POST ;
 misali:misali POST ; !
 
 vs:vs POST ; !
@@ -8429,6 +8430,7 @@ karalama:karalama N1 ; ! "draft"
 karambol:karambol N1 ; ! "collision"
 karamela:karamela N1 ; ! "caramel"
 karanfil:karanfil N1 ; ! "clove"
+sevk:sevk N1 ;
 karasevda:karasevda N1 ; ! "spleen"
 karasığır:karasığır N1 ; ! "buffalo"
 karasu:karasu N1 ; ! "glaucoma"
@@ -8706,6 +8708,7 @@ kirpi:kirpi N1 ; ! "porcupine"
 kirpik:kirpik N1 ; ! "eyelash"
 kırtasiye:kırtasiye N1 ; ! "stationary"
 kısas:kısas N1 ; ! "retaliation"
+kısım:kısım N1 ;
 kişi:kişi N1 ; ! "person"
 kişilik:kişilik%{v%} N1 ; ! "personality"
 kısım:kıs%{u%}m N1 ; ! "part"
@@ -12440,6 +12443,8 @@ Zadok:Zadok NP-ANT-M ; !
 Oktay:Oktay NP-ANT-M ;
 Şener:Şener NP-ANT-M ;
 Hakan:Hakan NP-ANT-M ;
+Tarık:Tarık NP-ANT-M ;
+Atilla:Atilla NP-ANT-M ;
 Alparslan:Alparslan NP-ANT-M ;
 Hayrettin:Hayrettin NP-ANT-M ;
 Muzaffer:Muzaffer NP-ANT-M ;
@@ -12490,7 +12495,10 @@ Musakocoyev:Musakocoyev NP-ANT-M ; !
 Alişer:Alişer NP-ANT-M ; !
 Uluğbey:Uluğbey NP-ANT-M ; !
 Venatici:Venatici NP-COG-MF ; !
+Albay:Albay NP-COG-MF ;
+Ekşioğlu:Ekşioğlu NP-COG-MF ;
 Özkan:Özkan NP-COG-MF ;
+Gürses:Gürses NP-COG-MF ;
 Öcalan:Öcalan NP-COG-MF ;
 Alparslan:Alparslan NP-COG-MF ;
 Demirtaş:Demirtaş NP-COG-MF ;
@@ -19791,6 +19799,7 @@ Arbuzov:Arbuzov NP-COG-MF ; ! ""
 Kutuzov:Kutuzov NP-COG-MF ; ! ""
 Bobrov:Bobrov NP-COG-MF ; ! ""
 Karaca:Karaca NP-COG-MF ; ! ""
+Turhan:Turhan NP-COG-MF ;
 Aleksandrov:Aleksandrov NP-PAT-VICH ;
 Fedorovich:Fedoro NP-PAT-VICH ;
 Anatolyevich:Anatolyevich NP-PAT-VICH ; !Use/MT
@@ -19870,6 +19879,8 @@ Sedat:Sedat NP-ANT-M ;
 Yalçın:Yalçın NP-ANT-M ;
 Serdar:Serdar NP-ANT-M ;
 Erol:Erol NP-ANT-M ;
+Turhan:Turhan NP-ANT-M ;
+Engin:Engin NP-ANT-M ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
 Gaspıralı:Gaspıralı NP-TOP ;
@@ -20738,6 +20749,7 @@ Yamalo:Yamalo NP-TOP ; !
 Susamır:Susamır NP-TOP ; !
 Daugavpils:Daugavpils NP-TOP ; !
 Anhalt:Anhalt NP-TOP ; !
+Cizre:Cizre NP-TOP ;
 
 
 
@@ -20762,6 +20774,7 @@ iki:iki A1 ; !
 sabırlı:sabırlı A1 ; !
 tasviri:tasviri A1 ; !
 yerinde:yerinde A1 ; !
+çatlı:çatlı A1 ;
 zelzele:zelzele A1 ; !
 bile% bile:bile% bile A1 ; !
 köhne:köhne A1 ; !
@@ -22702,6 +22715,7 @@ düzgün:düzgün A1 ;  ! ""
 üzgün:üzgün A1 ;  ! ""
 tutkun:tutkun A1 ;  ! ""
 mezun:mezun A1 ;  ! ""
+tutkulu:tutkulu A1 ;
 mahzun:mahzun A1 ;  ! ""
 uzun:uzun A2 ;  ! ""
 upuzun:upuzun A2 ;  ! ""
@@ -23095,6 +23109,7 @@ sanatsal:sanatsal A1 ;
 aylık:aylık A1 ;
 mahkum:mahkum A1 ;
 ihtiyar:ihtiyar A1 ;
+etkin:etkin A1 ;
 önceki:önceki A1 ;
 hukuklu:hukuklu A2 ; ! Use/MT ! Dir/RL
 düzenleyici:düzenleyici A1 ; ! Use/MT ! Dir/RL
