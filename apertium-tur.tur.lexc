@@ -2762,6 +2762,7 @@ kıyaslandığında:kıyaslandığında POST ; !
 sırasında:sırasında POST ; !
 yoluyla:yoluyla POST ; !
 uğruna:uğruna POST ; !
+aleyhine:aleyhine POST ;
 misali:misali POST ; !
 
 vs:vs POST ; !
@@ -2897,6 +2898,7 @@ veya:veya CC ;
 veya:veya CC ; ! "either/or"
 veyahut:veyahut CC ; 
 ya% da:ya% da CC ; 
+yahut:yahut CC ;
 ya% da:ya% da CC ; ! ""
 ya:ya CC ;
 ya:ya CC ; ! "either/or"
@@ -3176,6 +3178,7 @@ kat:kat N1 ; !
 sema:sema N1 ; !
 şakird:şakird N1 ; !
 lütuf:lütuf N1 ; !
+tasfiye:tasfiye N1 ;
 tembih:tembih N1 ; !
 Fısıh:Fısıh N1 ; !
 Mecdelli:Mecdelli N1 ; !
@@ -4473,6 +4476,7 @@ Fethullahçı:Fethullahçı N1 ; !
 besici:besici N1 ; !
 sanayici:sanayici N1 ; !
 teşvikçi:teşvikçi N1 ; !
+sicil:sicil N1 ;
 eylemci:eylemci N1 ; !
 teslimci:teslimci N1 ; !
 çancı:çancı N1 ; !
@@ -6298,6 +6302,7 @@ dağıtım:dağıtım N1 ; ! "distribution"
 dahi:dahi N1 ; ! "genius"
 dahil:dahil N1 ; ! "interior"
 dahili:dahili N1 ; ! "interior"
+sayfalık:sayfalık N1 ;
 dahiliye:dahiliye N1 ; ! "internal diseases"
 daire:daire N1 ; ! "circle"
 dakika:dakika N1 ; ! "minute"
@@ -7780,6 +7785,7 @@ ihraç:ihraç N1 ; ! "discharge"
 ihraç:ihraç N1 ; ! "export"
 ihraz:ihraz N1 ; ! "occupation"
 ihsan:ihsan N1 ; ! "gift"
+küffâr:küffâr N1 ;
 ihsas:ihsas N1 ; ! "sensation"
 ihtar:ihtar N1 ; ! "warning"
 ihtarname:ihtarname N1 ; ! "notice"
@@ -8408,6 +8414,7 @@ karalama:karalama N1 ; ! "draft"
 karambol:karambol N1 ; ! "collision"
 karamela:karamela N1 ; ! "caramel"
 karanfil:karanfil N1 ; ! "clove"
+sevk:sevk N1 ;
 karasevda:karasevda N1 ; ! "spleen"
 karasığır:karasığır N1 ; ! "buffalo"
 karasu:karasu N1 ; ! "glaucoma"
@@ -8686,6 +8693,7 @@ kirpi:kirpi N1 ; ! "porcupine"
 kirpik:kirpik N1 ; ! "eyelash"
 kırtasiye:kırtasiye N1 ; ! "stationary"
 kısas:kısas N1 ; ! "retaliation"
+kısım:kısım N1 ;
 kişi:kişi N1 ; ! "person"
 kişilik:kişilik%{v%} N1 ; ! "personality"
 kısım:kıs%{u%}m N1 ; ! "part"
@@ -10219,8 +10227,7 @@ pencere:pencere N1 ; ! "window"
 yer:yer N1 ; ! "window" 
 su:su%{в%} N1 ; ! "water" @@@@ SPECIAL CASE FOR MANY CASES
 süre:süre N1 ; ! 'tıme period'
-çözüm:çözüm N1 ; ! 'solutıon'
-çözüm:çözüm N1 ; ! 'resolution'
+çözüm:çözüm N1 ; ! 'solution'
 yol:yol N1 ; ! 'way'
 hale:hale N1 ; ! '???'
 temel:temel N1 ; ! "base"
@@ -11269,6 +11276,7 @@ didaktiklik:didaktiklik%{v%} N1 ;
 çatlak:çatlak%{v%} N1 ;
 otogar:otogar N1 ;
 poliklinik:poliklinik%{v%} N1 ;
+haiz:haiz N1 ;
 
 
 ! Nationalities and other names of people
@@ -11935,9 +11943,11 @@ prens:prens N1 ;
 sarsılma:sarsılma N1 ;
 diyanet:diyanet N1 ;
 çips:çips N1 ;
+tebliğ:tebliğ N1 ;
 Allah:Allah N1 ;
 yuvarlak:yuvarlak%{v%} N1 ;
 gündüz:gündüz N1 ;
+yargılama:yargılama N1 ;
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
 terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
 
@@ -12430,10 +12440,18 @@ Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
+Tufan:Tufan NP-ANT-M ;
+İlker:İlker NP-ANT-M ;
+Ergün:Ergün NP-ANT-M ;
+Uğur:Uğur NP-ANT-M ;
 Yaşar:Yaşar NP-ANT-M ;
 Zadok:Zadok NP-ANT-M ; !
 Oktay:Oktay NP-ANT-M ;
 Şener:Şener NP-ANT-M ;
+Hakan:Hakan NP-ANT-M ;
+Tarık:Tarık NP-ANT-M ;
+Atilla:Atilla NP-ANT-M ;
+Alparslan:Alparslan NP-ANT-M ;
 Hayrettin:Hayrettin NP-ANT-M ;
 Muzaffer:Muzaffer NP-ANT-M ;
 Abner:Abner NP-ANT-M ; !
@@ -12479,11 +12497,18 @@ Anise:Anise NP-ANT-F ; !
 Vasiliy:Vasiliy NP-ANT-M ; !
 Almambet:Almambet NP-ANT-M ; !
 Musakocoyev:Musakocoyev NP-ANT-M ; !
+Özkan:Özkan NP-ANT-M ;
 Alişer:Alişer NP-ANT-M ; !
 Uluğbey:Uluğbey NP-ANT-M ; !
 Venatici:Venatici NP-COG-MF ; !
 Rehn:Rehn NP-COG-MF ; !
 B92:B92  NP-ORG ; ! ""
+Albay:Albay NP-COG-MF ;
+Ekşioğlu:Ekşioğlu NP-COG-MF ;
+Özkan:Özkan NP-COG-MF ;
+Gürses:Gürses NP-COG-MF ;
+Öcalan:Öcalan NP-COG-MF ;
+Alparslan:Alparslan NP-COG-MF ;
 Demirtaş:Demirtaş NP-COG-MF ;
 Kırca:Kırca NP-COG-MF ; !
 Rushiti:Rushiti NP-COG-MF ; !
@@ -14516,6 +14541,7 @@ MTV:MTV NP-ORG ; !
 Disney:Disney NP-ORG ; !
 
 KGB:KGB NP-ORG ;
+YÖK:YÖK NP-ORG ;
 AR:AR NP-ORG ;
 Nobel% Ödül:Nobel% Ödül NP-ORG ;
 TRT% Avaz:TRT% Avaz NP-ORG ;
@@ -15145,6 +15171,7 @@ NATO:NATO NP-ORG ;
 Ellame:Ellame NP-ANT-M ; !
 Raif:Raif NP-ANT-M ; !
 Küreş:Küreş NP-ANT-M ; !
+Semih:Semih NP-ANT-M ;
 Ketmenbay:Ketmenbay NP-ANT-M ; !
 Poe:Poe NP-COG-MF ; !
 Warner:Warner NP-COG-MF ; !
@@ -19671,6 +19698,7 @@ Arbuzov:Arbuzov NP-COG-MF ; ! ""
 Kutuzov:Kutuzov NP-COG-MF ; ! ""
 Bobrov:Bobrov NP-COG-MF ; ! ""
 Karaca:Karaca NP-COG-MF ; ! ""
+Turhan:Turhan NP-COG-MF ;
 Aleksandrov:Aleksandrov NP-PAT-VICH ;
 Fedorovich:Fedoro NP-PAT-VICH ;
 Anatolyevich:Anatolyevich NP-PAT-VICH ; !Use/MT
@@ -19750,6 +19778,9 @@ Sedat:Sedat NP-ANT-M ;
 Yalçın:Yalçın NP-ANT-M ;
 Serdar:Serdar NP-ANT-M ;
 Erol:Erol NP-ANT-M ;
+Turhan:Turhan NP-ANT-M ;
+Engin:Engin NP-ANT-M ;
+Ferid:Ferid NP-ANT-M ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
 Gaspıralı:Gaspıralı NP-TOP ;
@@ -20618,6 +20649,7 @@ Yamalo:Yamalo NP-TOP ; !
 Susamır:Susamır NP-TOP ; !
 Daugavpils:Daugavpils NP-TOP ; !
 Anhalt:Anhalt NP-TOP ; !
+Cizre:Cizre NP-TOP ;
 
 
 
@@ -20642,6 +20674,7 @@ iki:iki A1 ; !
 sabırlı:sabırlı A1 ; !
 tasviri:tasviri A1 ; !
 yerinde:yerinde A1 ; !
+çatlı:çatlı A1 ;
 zelzele:zelzele A1 ; !
 ! bile% bile:bile% bile A1 ; ! Really an adjective?
 bile% bile:bile% bile ADV1 ; ! "knowingly"
@@ -22218,6 +22251,7 @@ sustalı:sustalı A1 ;  ! ""
 adli:adli A2 ;  ! ""
 tehlikeli:tehlikeli A2 ;  ! ""
 bağlı:bağlı A1 ;  ! ""
+içerikli:içerikli A1 ;
 sevgili:sevgili A2 ;  ! ""
 avantajlı:avantajlı A2 ; ! Use/MT
 ekili:ekili A2 ;  ! ""
@@ -22590,6 +22624,7 @@ düzgün:düzgün A1 ;  ! ""
 üzgün:üzgün A1 ;  ! ""
 tutkun:tutkun A1 ;  ! ""
 mezun:mezun A1 ;  ! ""
+tutkulu:tutkulu A1 ;
 mahzun:mahzun A1 ;  ! ""
 uzun:uzun A2 ;  ! ""
 upuzun:upuzun A2 ;  ! ""
@@ -22785,6 +22820,7 @@ görüşlü:görüşlü A1 ; ! "sighted"
 
 paragöz:paragöz A1 ;  ! ""
 gürbüz:gürbüz A1 ;  ! ""
+nice:nice A1 ;
 ucuz:ucuz A1 ;  ! ""
 dümdüz:dümdüz A1 ;  ! ""
 oğuz:oğuz A1 ;  ! ""
@@ -22985,7 +23021,9 @@ sanatsal:sanatsal A1 ;
 aylık:aylık A1 ;
 mahkum:mahkum A1 ;
 ihtiyar:ihtiyar A1 ;
+etkin:etkin A1 ;
 önceki:önceki A1 ;
+öngörülen:öngörülen A1 ;
 hukuklu:hukuklu A2 ; ! Use/MT ! Dir/RL
 düzenleyici:düzenleyici A1 ; ! Use/MT ! Dir/RL
 milyonlu:milyonlu A2 ; ! Use/MT ! Dir/RL
