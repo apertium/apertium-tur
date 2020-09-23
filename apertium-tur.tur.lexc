@@ -2845,6 +2845,7 @@ ilgili:ilgili POST ; ! "regarding"
 ! To sort
 hariç:hariç POST ; ! "besides"
 üzere:üzere POST ; ! "besides"
+olmaksızın:olmaksızın POST ;
 
 LEXICON  Conjunctions
 ise:ise CC ; !
@@ -3342,6 +3343,7 @@ ikmal:ikmal%{ь%} N1 ; !
 spiral:spiral%{ь%} N1 ; !
 yil:yil N1 ; !
 usül:usül N1 ; !
+atatürkçü:atatürkçü N1 ;
 hâkim:hâkim N1 ; !
 doğubilim:doğubilim N1 ; !
 alaşım:alaşım N1 ; !
@@ -4001,7 +4003,7 @@ gez:gez N1 ; !
 rıza:rıza N1 ; !
 tavaf:tavaf N1 ; !
 düşmanlık:düşmanlık N1 ; !
-
+tesbit:tesbit N1 ;
 itikat:itikat N1 ; !
 taç:taç N1 ; !
 umre:umre N1 ; !
@@ -4086,7 +4088,7 @@ Alp:Alp NP-ANT-M ; !
 İsmet:İsmet NP-ANT-M ; !
 Davud:Davud NP-ANT-M ; !
 Luka:Luka NP-ANT-M ; !
-
+Özcan:Özcan NP-ANT-M ;
 Nail:Nail NP-ANT-M ; !
 Ramil:Ramil NP-ANT-M ; !
 Pavil:Pavil NP-ANT-M ; !
@@ -5039,7 +5041,7 @@ kerametli:kerametli A1 ; !
 birlik:birlik A1 ; !
 çapraz:çapraz A1 ; !
 beleş:beleş A1 ; !
-
+gayri:gayri A1 ;
 okuyucu:okuyucu N1 ; !
 olumsuz:olumsuz N1 ; !
 fakih:fakih N1 ; !
@@ -8776,6 +8778,7 @@ koç:koç N1 ; ! "ram"
 kodes:kodes N1 ; ! "prison"
 kod:kod N1 ; ! "code"
 köfte:köfte N1 ; ! "meat ball"
+cumhurbaşkanlığı:cumhurbaşkanlığı N1 ; !"presidency"
 koğuş:koğuş N1 ; ! "ward"
 köhne:köhne N1 ; ! "ratty"
 koka:koka N1 ; ! "coca"
@@ -11974,6 +11977,7 @@ Tirol:Tirol NP-TOP ; !
 Pegas:Pegas NP-TOP ; !
 Côtes:Côtes NP-TOP ; !
 Tikrit:Tikrit NP-TOP ;
+Suriye:Suriye NP-TOP ;
 Tezze:Tezze NP-TOP ;
 Tavuk:Tavuk NP-TOP ;
 Hille:Hille NP-TOP ;
@@ -12448,6 +12452,7 @@ Tufan:Tufan NP-ANT-M ;
 İlker:İlker NP-ANT-M ;
 Ergün:Ergün NP-ANT-M ;
 Uğur:Uğur NP-ANT-M ;
+Ercan:Ercan NP-ANT-M ;
 Yaşar:Yaşar NP-ANT-M ;
 Zadok:Zadok NP-ANT-M ; !
 Oktay:Oktay NP-ANT-M ;
@@ -14071,7 +14076,7 @@ Stuttgart:Stuttgart NP-TOP ; ! ""
 Subotica:Subotica NP-TOP ; ! ""
 Sudan:Sudan NP-TOP ; ! ""
 Şumnu:Şumnu NP-TOP ; ! ""
-Suriye:Suriye NP-TOP ; ! ""
+
 Svalbard:Svalbard NP-TOP ; ! ""
 Tacikistan:Tacikistan NP-TOP ; ! ""
 Tahran:Tahran NP-TOP ; ! ""
@@ -20777,7 +20782,7 @@ kurallı:kurallı A1 ; !
 katlı:katlı A1 ; !
 hemdert:hemdert%{v%} A1 ; !
 bertaraf:bertaraf A1 ; !
-
+irtibatlı:irtibatlı A1 ;
 genetik:genetik A1 ; !
 bekar:bekar A1 ; !
 
@@ -22151,6 +22156,7 @@ alçakgönüllü:alçakgönüllü A1 ;  ! "modest"
 gönüllü:gönüllü A1 ;  ! "volunteer"
 koşullu:koşullu A1 ;  ! "conditional"
 kumlu:kumlu A1 ;  ! "sandy"
+birleşmiş:birleşmiş A1 ;
 olumlu:olumlu A1 ;  ! "positive, positive"
 motivasyonlu:motivasyonl4 A1 ;  ! "motivated"
 dopdolu:dopdolu A1;  ! "chockful"
