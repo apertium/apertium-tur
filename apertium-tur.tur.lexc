@@ -4078,6 +4078,7 @@ kıssa:kıssa N1 ; !
 mahiyet:mahiyet N1 ; !
 Cenab-ı% Allah:Cenab-ı% Allah N1 ; !
 Ahmet:Ahmet NP-ANT-M ; !
+Coşkun:Coşkun NP-ANT-M ;
 Asaf:Asaf NP-ANT-M ;
 Mürteza:Mürteza NP-ANT-M ; !
 Muhammetarif:Muhammetarif NP-ANT-M ; !
@@ -5021,7 +5022,7 @@ caiz:caiz A1 ; !
 
 adak:adak A1 ; !
 tayin:tayin A1 ; !
-
+istihbari:istihbari A1 ;
 
 hakir:hakir A1 ; !
 enerji:enerji A1 ; !
@@ -10844,6 +10845,7 @@ taban:taban N1 ; ! ""
 tabiat:tabiat N1 ; ! ""
 tabip:tabip%{v%} N1 ; ! ""
 tahsil:tahsil N1 ; ! ""
+fermân:fermân N1 ;
 taht:taht N1 ; ! ""
 taklip:taklip%{v%} N1 ; ! ""
 taktik:taktik%{v%} N1 ; ! ""
@@ -11956,6 +11958,8 @@ Allah:Allah N1 ;
 yuvarlak:yuvarlak%{v%} N1 ;
 gündüz:gündüz N1 ;
 yargılama:yargılama N1 ;
+cezaevi:cezaevi N1 ;
+
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
 terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
 
@@ -12448,6 +12452,9 @@ Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
+Soner:Soner NP-ANT-M ;
+Fermân:Fermân NP-ANT-M ;
+Eren:Eren NP-ANT-M ;
 Tufan:Tufan NP-ANT-M ;
 İlker:İlker NP-ANT-M ;
 Ergün:Ergün NP-ANT-M ;
@@ -12667,6 +12674,7 @@ Napolyon:Napolyon NP-ANT-M ; !
 Francisco:Francisco NP-ANT-M ; !
 Fuat:Fuat NP-ANT-M ; !
 Anthony:Anthony NP-ANT-M ; !
+Yılmaz:Yılmaz NP-ANT-M ;
 Ci:Ci NP-COG-MF ; !
 Yılmaz:Yılmaz NP-COG-MF ; !
 Herschel:Herschel NP-COG-MF ; !
@@ -19817,6 +19825,7 @@ Kutuzov:Kutuzov NP-COG-MF ; ! ""
 Bobrov:Bobrov NP-COG-MF ; ! ""
 Karaca:Karaca NP-COG-MF ; ! ""
 Turhan:Turhan NP-COG-MF ;
+Kılıçdaroğlu:Kılıçdaroğlu NP-COG-MF ;
 Aleksandrov:Aleksandrov NP-PAT-VICH ;
 Fedorovich:Fedoro NP-PAT-VICH ;
 Anatolyevich:Anatolyevich NP-PAT-VICH ; !Use/MT
@@ -20942,6 +20951,7 @@ cengaver:cengaver A1 ; !
 muktedir:muktedir A1 ; !
 münhasır:münhasır A1 ; !
 hür:hür A1 ; !
+imzalı:imzalı A1 ;
 mezkur:mezkur A1 ; !
 mezkûr:mezkûr A1 ; !
 mensur:mensur A1 ; !
@@ -21194,6 +21204,7 @@ yürürlükte:yürürlükte A1 ; !
 şekilli:şekilli A1 ; !
 gayrı:gayrı A1 ; !
 batıl:batıl A1 ; !
+patlayıcı:patlayıcı N1 ;
 gayrımenkul:gayrımenkul N1 ; ! "real estate"
 müjdeleyen:müjdeleyen A1 ; !
 bildiğimiz:bildiğimiz A1 ; !
@@ -22084,6 +22095,7 @@ acil:acil A1 ;  ! "emergency"
 gafil:gafil A1 ;  ! "remiss, careless"
 cahil:cahil A1 ;  ! "illiterate"
 yeşil:yeşil A2 ;  ! "green"
+burjuva:burjuva A1 ;
 kızıl:kızıl A2 ;  ! "red"
 bol:bol A1 ;  ! "loose, baggy"
 meşgul:meşgul A1 ;  ! "busy"
@@ -23141,6 +23153,7 @@ bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 
 LEXICON Adverbs
 anında:anında ADV1 ; !
+lehine:lehine ADV1 ;
 tam:tam ADV1 ; !
 zira:zira ADV1 ; !
 işitince:işitince ADV1 ; !
