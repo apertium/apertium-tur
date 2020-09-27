@@ -10371,7 +10371,9 @@ pazarlık:pazarlık%{v%} N1 ; ! "commerce/contractation"
 cesaret:cesaret N1 ; ! "courage"
 yaklaşım:yaklaşım N1 ; ! "approach"
 fikri:fikri A1 ; ! "intellectual"
+alakalı:alakalı A1 ;
 dolar:dolar N1 ; ! "dollar"
+tanzim:tanzim N1 ;
 aşırılık:aşırılık%{v%} N1 ; ! "excess"
 katılımcı:katılımcı N1 ; ! "paretecipant"
 insanlık:insanlık%{v%} N1 ; ! "humanity"
@@ -11959,7 +11961,7 @@ yuvarlak:yuvarlak%{v%} N1 ;
 gündüz:gündüz N1 ;
 yargılama:yargılama N1 ;
 cezaevi:cezaevi N1 ;
-
+kolluk:kolluk N1 ;
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
 terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
 
@@ -12452,9 +12454,14 @@ Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
+Selçuk:Selçuk NP-ANT-M ;
 Soner:Soner NP-ANT-M ;
+Fikret:Fikret NP-ANT-M ;
 Fermân:Fermân NP-ANT-M ;
+Cumhur:Cumhur NP-ANT-M ;
 Eren:Eren NP-ANT-M ;
+Cemil:Cemil NP-ANT-M ;
+Tamer:Tamer NP-ANT-M ;
 Tufan:Tufan NP-ANT-M ;
 İlker:İlker NP-ANT-M ;
 Ergün:Ergün NP-ANT-M ;
@@ -19908,6 +19915,7 @@ Erol:Erol NP-ANT-M ;
 Turhan:Turhan NP-ANT-M ;
 Engin:Engin NP-ANT-M ;
 Ferid:Ferid NP-ANT-M ;
+İhsan:İhsan NP-ANT-M ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
 Gaspıralı:Gaspıralı NP-TOP ;
@@ -20777,7 +20785,7 @@ Susamır:Susamır NP-TOP ; !
 Daugavpils:Daugavpils NP-TOP ; !
 Anhalt:Anhalt NP-TOP ; !
 Cizre:Cizre NP-TOP ;
-
+Hakkari:Hakkari NP-TOP ;
 
 
 
@@ -21204,7 +21212,7 @@ yürürlükte:yürürlükte A1 ; !
 şekilli:şekilli A1 ; !
 gayrı:gayrı A1 ; !
 batıl:batıl A1 ; !
-patlayıcı:patlayıcı N1 ;
+patlayıcı:patlayıcı A1 ;
 gayrımenkul:gayrımenkul N1 ; ! "real estate"
 müjdeleyen:müjdeleyen A1 ; !
 bildiğimiz:bildiğimiz A1 ; !
@@ -23149,6 +23157,7 @@ hukuklu:hukuklu A2 ; ! Use/MT ! Dir/RL
 düzenleyici:düzenleyici A1 ; ! Use/MT ! Dir/RL
 milyonlu:milyonlu A2 ; ! Use/MT ! Dir/RL
 bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
+bahçeli:bahçeli A1 ;
 
 
 LEXICON Adverbs
@@ -23165,7 +23174,7 @@ hattâ:hattâ ADV1 ; !
 madem:madem ADV1 ; !
 üstelik:üstelik ADV1 ; !
 tez:tez ADV1 ; !
-
+geriye:geriye ADV1 ;
 dek:dek ADV1 ; !
 yazın:yazın ADV1 ; !
 umumiyetle:umumiyetle ADV1 ; !
@@ -24317,6 +24326,7 @@ birleş:birleş V-IR-IV ; ! "unite" (DIR)
 bitkinleş:bitkinleş V-IR-IV ; ! "to be exhausted"  ! FIXME: CHECK IR/AR
 boğ:boğ V-AR-TV ; ! "choke" (DIR)
 böl:böl V-AR-TV ; ! "divide" (DIR)
+örgütlenme:örgütlenme V-IR-IV ;
 borçlan:borçlan V-IR-TV ; ! "owe" (DIR)
 boşal:boşal V-IR-IV ; ! "be emptied" (DIR)
 boşalt:boşalt V-IR-TV ; ! "be emptied" (DIR)
