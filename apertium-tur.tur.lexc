@@ -4470,7 +4470,7 @@ sayaç:sayaç N1 ; !
 pirinç:pirinç N1 ; !
 oruç:oruç N1 ; !
 pound:pound N1 ; !
-
+tasdik:tasdik N1 ;
 sülale:sülale N1 ; !
 tasdikleme:tasdikleme N1 ; !
 titreme:titreme N1 ; !
@@ -8855,6 +8855,7 @@ konservatuvar:konservatuvar N1 ; ! "conservatory"
 konserve:konserve N1 ; ! "canned foods"
 konsey:konsey N1 ; ! "council"
 konsolos:konsolos N1 ; ! "consul"
+kömürcü:kömürcü N1 ;
 konsomatris:konsomatris N1 ; ! "hostess"
 konsonant:konsonant N1 ; ! "consonant"
 konstrüksiyon:konstrüksiyon N1 ; ! "construction"
@@ -10180,6 +10181,7 @@ sağlık:sağlık%{v%} N1 ; ! "health"
 sanayi:sanayi N1 ; ! "industry"
 şarkı:şarkı N1 ; ! "song"
 savaş:savaş N1 ; ! "war"
+otrü:otrü N1 ;
 sebep:sebep%{v%} N1 ; ! "reason"
 şefkat:şefkat N1 ; ! "affection"
 şeker:şeker N1 ; ! "sugar"
@@ -10371,6 +10373,8 @@ pazarlık:pazarlık%{v%} N1 ; ! "commerce/contractation"
 cesaret:cesaret N1 ; ! "courage"
 yaklaşım:yaklaşım N1 ; ! "approach"
 fikri:fikri A1 ; ! "intellectual"
+ilerleyen:ilerleyen A1 ;
+müşterek:müşterek A1 ;
 alakalı:alakalı A1 ;
 dolar:dolar N1 ; ! "dollar"
 tanzim:tanzim N1 ;
@@ -11962,6 +11966,9 @@ gündüz:gündüz N1 ;
 yargılama:yargılama N1 ;
 cezaevi:cezaevi N1 ;
 kolluk:kolluk N1 ;
+tapu:tapu N1 ;
+ziyâde:ziyâde N1 ;
+Yükseköğretim:Yükseköğretim N1 ;
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
 terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
 
@@ -12217,7 +12224,7 @@ Afyonkarahisar:Afyonkarahisar NP-TOP ; !
 Güneydoğu:Güneydoğu NP-TOP ; !
 Karaman:Karaman NP-TOP ; !
 Virginia:Virginia NP-TOP ; !
-
+Çankaya:Çankaya NP-TOP ;
 Obul:Obul NP-TOP ; !
 Komul:Komul NP-TOP ; !
 Fujyen:Fujyen NP-TOP ; !
@@ -12454,10 +12461,14 @@ Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Emre:Emre NP-ANT-M ; !
+Dursun:Dursun NP-ANT-F ;
+Elen:Elen NP-ANT-M ;
+Faruk:Faruk NP-ANT-M ;
 Selçuk:Selçuk NP-ANT-M ;
 Soner:Soner NP-ANT-M ;
 Fikret:Fikret NP-ANT-M ;
 Fermân:Fermân NP-ANT-M ;
+Kazım:Kazım NP-ANT-M ;
 Cumhur:Cumhur NP-ANT-M ;
 Eren:Eren NP-ANT-M ;
 Cemil:Cemil NP-ANT-M ;
@@ -12524,6 +12535,7 @@ Musakocoyev:Musakocoyev NP-ANT-M ; !
 Alişer:Alişer NP-ANT-M ; !
 Uluğbey:Uluğbey NP-ANT-M ; !
 Venatici:Venatici NP-COG-MF ; !
+Büyükçelebi:Büyükçelebi NP-COG-MF ;
 Albay:Albay NP-COG-MF ;
 Ekşioğlu:Ekşioğlu NP-COG-MF ;
 Özkan:Özkan NP-COG-MF ;
@@ -14679,6 +14691,7 @@ PfP:PfP%{ь%} NP-ORG ; ! ""
 ABC:ABC%{î%} NP-ORG ; ! "ABC"
 AKP:AKP%{î%} NP-ORG ; ! ""
 AP:AP%{î%} NP-ORG ; ! ""
+FETÖ:FETÖ NP-ORG ;
 VMRO:VMRO NP-ORG ; ! ""
 DPA:DPA NP-ORG ; ! ""
 SFOR:SFOR%{o%} NP-ORG ; ! ""
@@ -19916,6 +19929,7 @@ Turhan:Turhan NP-ANT-M ;
 Engin:Engin NP-ANT-M ;
 Ferid:Ferid NP-ANT-M ;
 İhsan:İhsan NP-ANT-M ;
+Taner:Taner NP-ANT-M ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
 Gaspıralı:Gaspıralı NP-TOP ;
@@ -20802,7 +20816,7 @@ bertaraf:bertaraf A1 ; !
 irtibatlı:irtibatlı A1 ;
 genetik:genetik A1 ; !
 bekar:bekar A1 ; !
-
+kaynaklı:kaynaklı A1 ;
 aç:aç A1 ; !
 amiyane:amiyane A1 ; !
 iki:iki A1 ; !
@@ -23158,7 +23172,7 @@ düzenleyici:düzenleyici A1 ; ! Use/MT ! Dir/RL
 milyonlu:milyonlu A2 ; ! Use/MT ! Dir/RL
 bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 bahçeli:bahçeli A1 ;
-
+davalı:davalı A1 ;
 
 LEXICON Adverbs
 anında:anında ADV1 ; !
