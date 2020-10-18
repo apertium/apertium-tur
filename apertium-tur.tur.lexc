@@ -3648,6 +3648,7 @@ F:F N1 ; !
 camii:camii N1 ; !
 mevkii:mevkii N1 ; !
 havalimanı:havalimanı N1 ; !
+yönetmelik:yönetmelik N1 ;
 J:J N1 ; !
 yönetmenlik:yönetmenlik%{v%} N1 ; !
 geçersizlik:geçersizlik%{v%} N1 ; !
@@ -5127,6 +5128,7 @@ sanatçı:sanatçı N1 ; ! "artist"
 operatör:operatör N1 ; ! "operator"
 yatırımcı:yatırımcı N1 ; ! "investor"
 onay:onay N1 ; ! "approval"
+Haraket:Haraket N1 ;
 danışmanlık:danışmanlık%{v%} N1 ; ! "consultancy"
 takip:takip%{v%} N1 ; ! "pursuit"
 tavır:tavır N1 ; ! "attitude"
@@ -11778,6 +11780,7 @@ küncü:küncü N1 ;
 kürkçü:kürkçü N1 ;
 madenci:madenci N1 ;
 mirasçı:mirasçı N1 ;
+tahrik:tahrik N1 ;
 tahrikçi:tahrikçi N1 ;
 matematikçi:matematikçi N1 ;
 psikolog:psikolog N1 ;
@@ -11968,7 +11971,8 @@ cezaevi:cezaevi N1 ;
 kolluk:kolluk N1 ;
 tapu:tapu N1 ;
 ziyâde:ziyâde N1 ;
-Yükseköğretim:Yükseköğretim N1 ;
+tutuklu:tutuklu N1 ;
+yükseköğretim:yükseköğretim N1 ;
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
 terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
 
@@ -12460,6 +12464,7 @@ Burhaniye:Burhaniye NP-TOP ; !
 Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
+Peker:Peker NP-TOP ;
 Emre:Emre NP-ANT-M ; !
 Dursun:Dursun NP-ANT-F ;
 Elen:Elen NP-ANT-M ;
@@ -12534,6 +12539,7 @@ Musakocoyev:Musakocoyev NP-ANT-M ; !
 Özkan:Özkan NP-ANT-M ;
 Alişer:Alişer NP-ANT-M ; !
 Uluğbey:Uluğbey NP-ANT-M ; !
+Poyraz:Poyraz NP-COG-MF ;
 Venatici:Venatici NP-COG-MF ; !
 Büyükçelebi:Büyükçelebi NP-COG-MF ;
 Albay:Albay NP-COG-MF ;
@@ -19906,6 +19912,7 @@ Yelizaveta:Yelizaveta NP-ANT-F ; ! ""
 Nikita:Nikita NP-ANT-F ; ! ""
 Yevgeniya:Yevgeniya NP-ANT-F ; ! ""
 Alime:Alime NP-ANT-F ; ! ""
+Behiç:Behiç NP-ANT-F ;
 Salidat:Salidat NP-ANT-M ; ! ""
 Nikita:Nikita NP-ANT-M ; ! ""
 Emirali:Emirali NP-ANT-M ; ! ""
