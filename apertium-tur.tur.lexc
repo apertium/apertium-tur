@@ -4567,6 +4567,7 @@ olgunluk:olgunluk%{v%} N1 ; !
 mümkünlük:mümkünlük%{v%} N1 ; !
 oluk:oluk%{v%} N1 ; !
 soluk:soluk%{v%} N1 ; !
+göktaş:göktaş N1 ;
 diktatörlük:diktatörlük%{v%} N1 ; !
 konsolosluk:konsolosluk%{v%} N1 ; !
 casusluk:casusluk%{v%} N1 ; !
@@ -5104,6 +5105,7 @@ risk:risk N1 ; ! "risk"
 rica:rica N1 ; ! "request"
 seçenek:seçenek%{v%} N1 ;  ! "choice"
 subay:subay N1 ; ! "military officer"
+astsubay:astsubay N1 ;
 temdit:temdit N1 ; ! "continuance"
 yargıç:yargıç N1 ; ! "commissioner"
 yaprak:yaprak N1 ;
@@ -6156,6 +6158,7 @@ caize:caize N1 ; ! "reward"
 çakmak:çakmak N1 ; ! "lighter"
 çakşır:çakşır N1 ; ! "leg feather"
 çal:çal N1 ; ! "bush"
+çalıkuşu:çalıkuçu N1 ;
 çalgı:çalgı N1 ; ! "instrument"
 çalgıç:çalgıç N1 ; ! "musician"
 çalıkavak:çalıkavak N1 ; ! "red willow"
@@ -6475,6 +6478,7 @@ deşik:deşik N1 ; ! "hole"
 despot:despot N1 ; ! "tyrant"
 dest:dest N1 ; ! "target"
 deste:deste N1 ; ! "package"
+deşifre:deşifre N1 ;
 destek:destek%{v%} N1 ; ! "support"
 destur:destur N1 ; ! "permission"
 detay:detay N1 ; ! "detail"
@@ -8170,6 +8174,7 @@ işyar:işyar N1 ; ! "clerk"
 itaatkar:itaatkar N1 ; ! "obedient"
 itfaiye:itfaiye N1 ; ! "fire station"
 ithaf:ithaf N1 ; ! "dedication"
+taahhüt:taahhüt N1 ;
 ithaf:ithaf N1 ; ! "inscripton"
 ithalat:ithalat N1 ; ! "import"
 itham:itham N1 ; ! "accusation"
@@ -10378,6 +10383,7 @@ fikri:fikri A1 ; ! "intellectual"
 ilerleyen:ilerleyen A1 ;
 müşterek:müşterek A1 ;
 alakalı:alakalı A1 ;
+plakalı:plakalı A1 ;
 dolar:dolar N1 ; ! "dollar"
 tanzim:tanzim N1 ;
 aşırılık:aşırılık%{v%} N1 ; ! "excess"
@@ -10402,6 +10408,7 @@ sene:sene N1 ; ! "year"
 pilot:pilot N1 ; ! "pilot""
 yorum:yorum N1 ; ! "interpretation"
 pay:pay N1 ; ! "share"
+
 kararlılık:kararlılık%{v%} N1 ; ! "resolution"
 şebeke:şebeke N1 ; ! "network"
 sokak:sokak%{v%} N1 ; ! "street"
@@ -11970,8 +11977,11 @@ yargılama:yargılama N1 ;
 cezaevi:cezaevi N1 ;
 kolluk:kolluk N1 ;
 tapu:tapu N1 ;
+mafya:mafya N1 ;
 ziyâde:ziyâde N1 ;
+yayım:yayım N1 ;
 tutuklu:tutuklu N1 ;
+küresel:küresel N1 ;
 yükseköğretim:yükseköğretim N1 ;
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
 terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
@@ -11991,6 +12001,7 @@ Château:Château NP-TOP ; !
 Westphalia:Westphalia NP-TOP ; !
 Drôme:Drôme NP-TOP ; !
 Tirol:Tirol NP-TOP ; !
+Yüksekova:Yüksekova NP-TOP ;
 Pegas:Pegas NP-TOP ; !
 Côtes:Côtes NP-TOP ; !
 Tikrit:Tikrit NP-TOP ;
@@ -12460,14 +12471,19 @@ Dobroslav:Dobroslav NP-TOP ; ! ""
 Manay:Manay NP-TOP ; ! ""
 Çerkez:Çerkez NP-TOP ; ! ""
 Burhaniye:Burhaniye NP-TOP ; !
+Osmaniye:Osmaniye NP-TOP ;
 
 Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Peker:Peker NP-TOP ;
 Emre:Emre NP-ANT-M ; !
+Ercüment:Ercüment NP-ANT-M ;
+Nuri:Nuri NP-ANT-M ;
+Ufuk:Ufuk NP-ANT-M ;
 Dursun:Dursun NP-ANT-F ;
 Elen:Elen NP-ANT-M ;
+Önder:Önder NP-ANT-M ;
 Faruk:Faruk NP-ANT-M ;
 Selçuk:Selçuk NP-ANT-M ;
 Soner:Soner NP-ANT-M ;
@@ -19851,6 +19867,8 @@ Kutuzov:Kutuzov NP-COG-MF ; ! ""
 Bobrov:Bobrov NP-COG-MF ; ! ""
 Karaca:Karaca NP-COG-MF ; ! ""
 Turhan:Turhan NP-COG-MF ;
+Ersöz:Ersöz NP-COG-MF ;
+Topal:Topal NP-COG-MF ;
 Kılıçdaroğlu:Kılıçdaroğlu NP-COG-MF ;
 Aleksandrov:Aleksandrov NP-PAT-VICH ;
 Fedorovich:Fedoro NP-PAT-VICH ;
@@ -19913,6 +19931,7 @@ Nikita:Nikita NP-ANT-F ; ! ""
 Yevgeniya:Yevgeniya NP-ANT-F ; ! ""
 Alime:Alime NP-ANT-F ; ! ""
 Behiç:Behiç NP-ANT-F ;
+Çiçek:Çiçek NP-ANT-F ;
 Salidat:Salidat NP-ANT-M ; ! ""
 Nikita:Nikita NP-ANT-M ; ! ""
 Emirali:Emirali NP-ANT-M ; ! ""
@@ -19937,6 +19956,8 @@ Engin:Engin NP-ANT-M ;
 Ferid:Ferid NP-ANT-M ;
 İhsan:İhsan NP-ANT-M ;
 Taner:Taner NP-ANT-M ;
+Nurettin:Nurettin NP-ANT-M ;
+Gökhan:Gökhan NP-ANT-M ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
 Gaspıralı:Gaspıralı NP-TOP ;
@@ -20831,6 +20852,7 @@ sabırlı:sabırlı A1 ; !
 tasviri:tasviri A1 ; !
 yerinde:yerinde A1 ; !
 çatlı:çatlı A1 ;
+piskolojik:piskolojik A1 ;
 zelzele:zelzele A1 ; !
 bile% bile:bile% bile A1 ; !
 köhne:köhne A1 ; !
