@@ -4995,6 +4995,7 @@ dindar:dindar N1 ; !
 tarumar:tarumar N1 ; !
 men:men A1 ; !
 ekser:ekser N1 ; !
+müteakip:müteakip A1 ;
 öteki:öteki A1 ; !
 hâkim:hâkim A1 ; !
 sahipkıran:sahipkıran A1 ; ! 
@@ -5130,6 +5131,7 @@ sanatçı:sanatçı N1 ; ! "artist"
 operatör:operatör N1 ; ! "operator"
 yatırımcı:yatırımcı N1 ; ! "investor"
 onay:onay N1 ; ! "approval"
+kâfir:kâfir N1 ;
 Haraket:Haraket N1 ;
 danışmanlık:danışmanlık%{v%} N1 ; ! "consultancy"
 takip:takip%{v%} N1 ; ! "pursuit"
@@ -6183,6 +6185,7 @@ canan:canan N1 ; ! "beloved"
 canavar:canavar N1 ; ! "monster"
 çan:çan N1 ; ! "bell"
 can:can N1 ; ! "life"
+cân:cân N1 ;
 çangırtı:çangırtı N1 ; ! "clattering"
 cani:cani N1 ; ! "murderer"
 canip:canip N1 ; ! "side"
@@ -11982,6 +11985,8 @@ ziyâde:ziyâde N1 ;
 yayım:yayım N1 ;
 tutuklu:tutuklu N1 ;
 küresel:küresel N1 ;
+tutanak:tutanak N1 ;
+âlem:âlem N1 ;
 yükseköğretim:yükseköğretim N1 ;
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
 terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
@@ -12482,6 +12487,7 @@ Ercüment:Ercüment NP-ANT-M ;
 Nuri:Nuri NP-ANT-M ;
 Ufuk:Ufuk NP-ANT-M ;
 Dursun:Dursun NP-ANT-F ;
+Fatma:Fatma NP-ANT-F ;
 Elen:Elen NP-ANT-M ;
 Önder:Önder NP-ANT-M ;
 Faruk:Faruk NP-ANT-M ;
@@ -19869,6 +19875,7 @@ Karaca:Karaca NP-COG-MF ; ! ""
 Turhan:Turhan NP-COG-MF ;
 Ersöz:Ersöz NP-COG-MF ;
 Topal:Topal NP-COG-MF ;
+Özbay:Özbay NP-COG-MF ;
 Kılıçdaroğlu:Kılıçdaroğlu NP-COG-MF ;
 Aleksandrov:Aleksandrov NP-PAT-VICH ;
 Fedorovich:Fedoro NP-PAT-VICH ;
@@ -19958,6 +19965,7 @@ Ferid:Ferid NP-ANT-M ;
 Taner:Taner NP-ANT-M ;
 Nurettin:Nurettin NP-ANT-M ;
 Gökhan:Gökhan NP-ANT-M ;
+Vedat:Vedat NP-ANT-M ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
 Gaspıralı:Gaspıralı NP-TOP ;
@@ -23214,6 +23222,7 @@ burada:burada ADV1 ; !
 herkes:herkes ADV1 ; !
 olunca:olunca ADV1 ; !
 hattâ:hattâ ADV1 ; !
+mecbur:mecbur ADV1 ;
 madem:madem ADV1 ; !
 üstelik:üstelik ADV1 ; !
 tez:tez ADV1 ; !
