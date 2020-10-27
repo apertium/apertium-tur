@@ -3195,6 +3195,7 @@ tava:tava N1 ;
 kat:kat N1 ; !
 sema:sema N1 ; !
 şakird:şakird N1 ; !
+mulki:mulki N1 ;
 lütuf:lütuf N1 ; !
 tasfiye:tasfiye N1 ;
 tembih:tembih N1 ; !
@@ -5022,7 +5023,7 @@ mahkûm:mahkûm A1 ; !
 kâdir:kâdir A1 ; !
 takdis:takdis A1 ; !
 caiz:caiz A1 ; !
-
+vâsıl:vâsıl A1 ;
 adak:adak A1 ; !
 tayin:tayin A1 ; !
 istihbari:istihbari A1 ;
@@ -5207,6 +5208,7 @@ tanık:tanık%{v%} N1 ; ! "witness"
 bankacılık:bankacılık%{v%} N1 ; ! "banking"
 euroluk:euroluk%{v%} N1 ; ! "euro"
 yapıcı:yapıcı N1 ; ! "actuator"
+temsiliye:temsiliye N1 ;
 temsilci:temsilci N1 ; ! "agent"
 okul:okul N1 ; ! "school"
 öncelik:öncelik%{v%} N1 ; ! "priority"
@@ -8543,6 +8545,7 @@ kaval:kaval N1 ; ! "reed"
 kavalye:kavalye N1 ; ! "escort"
 kavanoz:kavanoz N1 ; ! "jar"
 kavga:kavga N1 ; ! "fight"
+gizlilik:gizlilik N1 ;
 kavim:kavim N1 ; ! "tribe"
 kavis:kavis N1 ; ! "curve"
 kavkı:kavkı N1 ; ! "shell"
@@ -12001,6 +12004,7 @@ Venatica:Venatica NP-TOP ; !
 Navarra:Navarra NP-TOP ; !
 Hessen:Hessen NP-TOP ; !
 Allier:Allier NP-TOP ; !
+Ümraniye:Ümraniye NP-TOP ;
 Levent:Levent NP-TOP ;
 Château:Château NP-TOP ; !
 Westphalia:Westphalia NP-TOP ; !
@@ -12483,6 +12487,7 @@ Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Peker:Peker NP-TOP ;
 Emre:Emre NP-ANT-M ; !
+Mecnun:Mecnun NP-ANT-M ;
 Ercüment:Ercüment NP-ANT-M ;
 Nuri:Nuri NP-ANT-M ;
 Ufuk:Ufuk NP-ANT-M ;
@@ -12495,6 +12500,7 @@ Selçuk:Selçuk NP-ANT-M ;
 Soner:Soner NP-ANT-M ;
 Fikret:Fikret NP-ANT-M ;
 Fermân:Fermân NP-ANT-M ;
+Fevzi:Fevzi NP-ANT-M ;
 Kazım:Kazım NP-ANT-M ;
 Cumhur:Cumhur NP-ANT-M ;
 Eren:Eren NP-ANT-M ;
@@ -12559,9 +12565,12 @@ Vasiliy:Vasiliy NP-ANT-M ; !
 Almambet:Almambet NP-ANT-M ; !
 Musakocoyev:Musakocoyev NP-ANT-M ; !
 Özkan:Özkan NP-ANT-M ;
+Alpaslan:Alpaslan NP-ANT-M ;
 Alişer:Alişer NP-ANT-M ; !
+Nusret:Nusret NP-ANT-M ;
 Uluğbey:Uluğbey NP-ANT-M ; !
 Poyraz:Poyraz NP-COG-MF ;
+Alpaslan:Alpaslan NP-COG-MF ;
 Venatici:Venatici NP-COG-MF ; !
 Büyükçelebi:Büyükçelebi NP-COG-MF ;
 Albay:Albay NP-COG-MF ;
@@ -19965,11 +19974,13 @@ Ferid:Ferid NP-ANT-M ;
 Taner:Taner NP-ANT-M ;
 Nurettin:Nurettin NP-ANT-M ;
 Gökhan:Gökhan NP-ANT-M ;
+Demir:Demir NP-ANT-M ;
 Vedat:Vedat NP-ANT-M ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
 Gaspıralı:Gaspıralı NP-TOP ;
 Vorojba:Vorojba NP-TOP ; ! ""
+Kızılay:Kızılay NP-TOP ;
 Drujba:Drujba NP-TOP ; ! ""
 Beşiktaş:Beşiktaş NP-TOP ; ! ""
 Karşıyaka:Karşıyaka NP-TOP ; ! ""
@@ -24828,7 +24839,7 @@ yarala:yarala V-IR-TV ; ! "injure" (T)
 yargıla:yargıla V-IR-TV ; ! "judge" (T)
 yarıla:yarıla V-AR-IV ; ! "be halfway through" (T)
 yasa:yasa V-IR-TV ; ! "legislate" (T)
-yaşa:yaşa V-AR-IV ; ! "live" (T)
+yaşa:yaşa V-AR-TV ; ! "live" (T)
 yasakla:yasakla V-IR-TV ; ! "forbid" (T)
 yasla:yasla V-IR-TV ; ! "prop" (T)
 !yayımla:yayımla V-TV-T-IR  ; ! "publish"
