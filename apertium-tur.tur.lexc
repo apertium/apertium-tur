@@ -3459,6 +3459,7 @@ mayıs:mayıs N1 ; !
 Nenets:Nenets N1 ; !
 üs:üs N1 ; !
 şubat:şubat N1 ; !
+Teşrinievvel:Teşrinievvel N1 ;
 tadilat:tadilat N1 ; !
 hasat:hasat N1 ; !
 mart:mart N1 ; ! Dir/LR
@@ -5047,6 +5048,7 @@ birlik:birlik A1 ; !
 çapraz:çapraz A1 ; !
 beleş:beleş A1 ; !
 gayri:gayri A1 ;
+legal:legal A1 ;
 okuyucu:okuyucu N1 ; !
 olumsuz:olumsuz N1 ; !
 fakih:fakih N1 ; !
@@ -5083,6 +5085,7 @@ ekseriyet:ekseriyet N1 ; !
 organ:organ N1 ; ! "organ"
 temin:temin N1 ; ! "acquisition"
 padişah:padişah N1 ; ! ""
+pâdişâh:pâdişâh N1 ;
 gerek:gerek%{v%} N1 ; ! "need"
 eşlik:eşlik%{v%} N1 ; ! "company"
 refah:refah N1 ; ! ""
@@ -5128,6 +5131,7 @@ varlık:varlık%{v%} N1 ; ! "existence, capital"
 otomobil:otomobil N1 ; ! "car"
 şikayet:şikayet N1 ; ! "complaint"
 sanatçı:sanatçı N1 ; ! "artist"
+mikdâr:mikdâr N1 ;
 ücret:ücret N1 ; ! "price"
 operatör:operatör N1 ; ! "operator"
 yatırımcı:yatırımcı N1 ; ! "investor"
@@ -5891,6 +5895,7 @@ betonarme:betonarme N1 ; ! "concrete"
 beton:beton N1 ; ! "concrete"
 beyanat:beyanat N1 ; ! "speech"
 beyan:beyan N1 ; ! "declaration"
+başsavcılık:başsavcılık N1 ;
 beyanname:beyanname N1 ; ! "statement"
 beyaz:beyaz N1 ; ! "white"
 beyazperde:beyazperde N1 ; ! "movie screen" lit: "the white window"
@@ -6437,6 +6442,7 @@ delik:delik%{v%} N1 ; ! "hole"
 delil:delil N1 ; ! "evidence"
 delilik:delilik%{v%} N1 ; ! "insanity"
 dem:dem N1 ; ! "moment"
+vaki:vaki N1 ;
 demet:demet N1 ; ! "bunch"
 demirbaş:demirbaş N1 ; ! "fixture"
 demirci:demirci N1 ; ! "blacksmith"
@@ -9595,6 +9601,7 @@ meslek:meslek N1 ; ! "occupation"
 meslektaş:meslektaş N1 ; ! "colleague"
 mesnet:mesnet N1 ; ! "chair"
 meşrep:meşrep N1 ; ! "spirit"
+legal:legal N1 ;
 meşrubat:meşrubat N1 ; ! "drink"
 meşruhat:meşruhat N1 ; ! "remark"
 meşruiyet:meşruiyet N1 ; ! "legality"
@@ -10388,6 +10395,7 @@ yaklaşım:yaklaşım N1 ; ! "approach"
 fikri:fikri A1 ; ! "intellectual"
 ilerleyen:ilerleyen A1 ;
 müşterek:müşterek A1 ;
+legal:legal N1 ;
 alakalı:alakalı A1 ;
 plakalı:plakalı A1 ;
 dolar:dolar N1 ; ! "dollar"
@@ -11040,6 +11048,7 @@ yapımcılık:yapımcılık%{v%} N1 ;
 ova:ova N1 ; ! "plain"
 vapur:vapur N1 ;
 yapımcı:yapımcı N1 ;
+Rumili:Rumili N1 ;
 üzeri:üzeri N1 ; ! "clothes"
 temsil:temsil N1 ;
 protokol:protokol N1 ;
@@ -11595,6 +11604,7 @@ dikkatsizlik:dikkatsizlik%{v%} N1 ; ! ""
 dilbilim:dilbilim N1 ; ! ""
 dişçilik:dişçilik%{v%} N1 ; ! ""
 divan:divan N1 ; ! ""
+dîvân:dîvân N1 ;
 dönüm:dönüm N1 ; ! ""
 dubara:dubara N1 ; ! ""
 dümbelek:dümbelek%{v%} N1 ; ! ""
@@ -12012,6 +12022,7 @@ Drôme:Drôme NP-TOP ; !
 Tirol:Tirol NP-TOP ; !
 Yüksekova:Yüksekova NP-TOP ;
 Pegas:Pegas NP-TOP ; !
+
 Côtes:Côtes NP-TOP ; !
 Tikrit:Tikrit NP-TOP ;
 Suriye:Suriye NP-TOP ;
@@ -12487,6 +12498,7 @@ Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Peker:Peker NP-TOP ;
 Emre:Emre NP-ANT-M ; !
+Yüksel:Yüksel NP-ANT-F ;
 Mecnun:Mecnun NP-ANT-M ;
 Ercüment:Ercüment NP-ANT-M ;
 Nuri:Nuri NP-ANT-M ;
@@ -12570,6 +12582,7 @@ Alişer:Alişer NP-ANT-M ; !
 Nusret:Nusret NP-ANT-M ;
 Uluğbey:Uluğbey NP-ANT-M ; !
 Poyraz:Poyraz NP-COG-MF ;
+Yüksel:Yüksel NP-COG-MF ;
 Alpaslan:Alpaslan NP-COG-MF ;
 Venatici:Venatici NP-COG-MF ; !
 Büyükçelebi:Büyükçelebi NP-COG-MF ;
@@ -19885,6 +19898,7 @@ Turhan:Turhan NP-COG-MF ;
 Ersöz:Ersöz NP-COG-MF ;
 Topal:Topal NP-COG-MF ;
 Özbay:Özbay NP-COG-MF ;
+Ertuğrul:Ertuğrul NP-COG-MF ;
 Kılıçdaroğlu:Kılıçdaroğlu NP-COG-MF ;
 Aleksandrov:Aleksandrov NP-PAT-VICH ;
 Fedorovich:Fedoro NP-PAT-VICH ;
@@ -19975,7 +19989,11 @@ Taner:Taner NP-ANT-M ;
 Nurettin:Nurettin NP-ANT-M ;
 Gökhan:Gökhan NP-ANT-M ;
 Demir:Demir NP-ANT-M ;
+Burak:Burak NP-ANT-M ;
 Vedat:Vedat NP-ANT-M ;
+Ertuğrul:Ertuğrul NP-ANT-M ;
+İzzet:İzzet NP-ANT-M ;
+Başak:Başak NP-ANT-F ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
 Gaspıralı:Gaspıralı NP-TOP ;
@@ -20847,7 +20865,7 @@ Daugavpils:Daugavpils NP-TOP ; !
 Anhalt:Anhalt NP-TOP ; !
 Cizre:Cizre NP-TOP ;
 Hakkari:Hakkari NP-TOP ;
-
+Kayseri:Kayseri NP-TOP ;
 
 
 
@@ -20870,6 +20888,7 @@ iki:iki A1 ; !
 sabırlı:sabırlı A1 ; !
 tasviri:tasviri A1 ; !
 yerinde:yerinde A1 ; !
+rumili:rumili A1 ;
 çatlı:çatlı A1 ;
 piskolojik:piskolojik A1 ;
 zelzele:zelzele A1 ; !
@@ -22818,6 +22837,7 @@ düzgün:düzgün A1 ;  ! ""
 tutkun:tutkun A1 ;  ! ""
 mezun:mezun A1 ;  ! ""
 tutkulu:tutkulu A1 ;
+müteallik:müteallik A1 ;
 mahzun:mahzun A1 ;  ! ""
 uzun:uzun A2 ;  ! ""
 upuzun:upuzun A2 ;  ! ""
@@ -23234,6 +23254,7 @@ herkes:herkes ADV1 ; !
 olunca:olunca ADV1 ; !
 hattâ:hattâ ADV1 ; !
 mecbur:mecbur ADV1 ;
+mucibince:mucibince ADV1 ;
 madem:madem ADV1 ; !
 üstelik:üstelik ADV1 ; !
 tez:tez ADV1 ; !
