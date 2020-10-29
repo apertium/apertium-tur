@@ -7935,6 +7935,7 @@ imitasyon:imitasyon N1 ; ! "imitation"
 imkân:imkân N1 ; ! "opportunity"
 imla:imla N1 ; ! "dictation"
 immoral:immoral A1 ; ! "immoral"
+ruhsatsız:ruhsatsız A1 ;
 imparator:imparator N1 ; ! "emperor"
 imparatorluk:İmparatorluk%{v%} N1 ; ! "empire" ! Dir/LR
 imparatorluk:imparatorluk%{v%} N1 ; ! "empire"
@@ -10876,6 +10877,7 @@ tabip:tabip%{v%} N1 ; ! ""
 tahsil:tahsil N1 ; ! ""
 fermân:fermân N1 ;
 taht:taht N1 ; ! ""
+sendika:sendika N1 ;
 taklip:taklip%{v%} N1 ; ! ""
 taktik:taktik%{v%} N1 ; ! ""
 takvim:takvim N1 ; ! ""
@@ -12498,11 +12500,13 @@ Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Peker:Peker NP-TOP ;
 Emre:Emre NP-ANT-M ; !
+Tanju:Tanju NP-ANT-M ;
 Yüksel:Yüksel NP-ANT-F ;
 Mecnun:Mecnun NP-ANT-M ;
 Ercüment:Ercüment NP-ANT-M ;
 Nuri:Nuri NP-ANT-M ;
 Ufuk:Ufuk NP-ANT-M ;
+Gürhan:Gürhan NP-ANT-M ;
 Dursun:Dursun NP-ANT-F ;
 Fatma:Fatma NP-ANT-F ;
 Elen:Elen NP-ANT-M ;
@@ -12582,6 +12586,7 @@ Alişer:Alişer NP-ANT-M ; !
 Nusret:Nusret NP-ANT-M ;
 Uluğbey:Uluğbey NP-ANT-M ; !
 Poyraz:Poyraz NP-COG-MF ;
+Erkut:Erkut NP-COG-MF ;
 Yüksel:Yüksel NP-COG-MF ;
 Alpaslan:Alpaslan NP-COG-MF ;
 Venatici:Venatici NP-COG-MF ; !
@@ -19899,6 +19904,7 @@ Ersöz:Ersöz NP-COG-MF ;
 Topal:Topal NP-COG-MF ;
 Özbay:Özbay NP-COG-MF ;
 Ertuğrul:Ertuğrul NP-COG-MF ;
+Yücel:Yücel NP-COG-MF ;
 Kılıçdaroğlu:Kılıçdaroğlu NP-COG-MF ;
 Aleksandrov:Aleksandrov NP-PAT-VICH ;
 Fedorovich:Fedoro NP-PAT-VICH ;
@@ -19993,6 +19999,9 @@ Burak:Burak NP-ANT-M ;
 Vedat:Vedat NP-ANT-M ;
 Ertuğrul:Ertuğrul NP-ANT-M ;
 İzzet:İzzet NP-ANT-M ;
+Demirel:Demirel NP-ANT-M ;
+Arif:Arif NP-ANT-M ;
+Aydın:Aydın NP-ANT-M ;
 Başak:Başak NP-ANT-F ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
@@ -23247,6 +23256,7 @@ anında:anında ADV1 ; !
 lehine:lehine ADV1 ;
 tam:tam ADV1 ; !
 zira:zira ADV1 ; !
+sırf:sırf ADV1 ;
 işitince:işitince ADV1 ; !
 ruhen:ruhen ADV1 ; !
 burada:burada ADV1 ; !
