@@ -3198,6 +3198,7 @@ sema:sema N1 ; !
 mulki:mulki N1 ;
 lütuf:lütuf N1 ; !
 tasfiye:tasfiye N1 ;
+denetleme:denetleme N1 ;
 tembih:tembih N1 ; !
 Fısıh:Fısıh N1 ; !
 Mecdelli:Mecdelli N1 ; !
@@ -7021,6 +7022,7 @@ gazoz:gazoz N1 ; ! "soda water"
 gebe:gebe N1 ; ! "big wtih child"
 gebe:gebe N1 ; ! "heavy with child"
 gece:gece N1 ; ! "night"
+çete:çete N1 ;
 geçek:geçek N1 ; ! "passage"
 gecekondu:gecekondu N1 ; ! "booth"
 gecelik:gecelik%{v%} N1 ; ! "pajamas"
@@ -8563,6 +8565,7 @@ kavun:kavun N1 ; ! "melon"
 kavurma:kavurma N1 ; ! "fried meat"
 kayaç:kayaç N1 ; ! "rock"
 kaya:kaya N1 ; ! "rock"
+ilân:ilân N1 ;
 kayak:kayak N1 ; ! "ski"
 kaydırak:kaydırak N1 ; ! "slide"
 kaygı:kaygı N1 ; ! "anxiety"
@@ -8576,6 +8579,7 @@ kayısı:kayısı N1 ; ! "apricot"
 kayış:kayış N1 ; ! "band "
 kayıt:kayıt N1 ; ! "registration"
 kaymakam:kaymakam N1 ; ! "qaimaqam"
+herif:herif N1 ;
 kaymak:kaymak N1 ; ! "cream"
 kaynaç:kaynaç N1 ; ! "geyser"
 kaynakça:kaynakça N1 ; ! "source"
@@ -12002,6 +12006,8 @@ tutuklu:tutuklu N1 ;
 küresel:küresel N1 ;
 tutanak:tutanak N1 ;
 âlem:âlem N1 ;
+vezîr:vezîr N1 ;
+teyit:teyit N1 ;
 yükseköğretim:yükseköğretim N1 ;
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
 terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
@@ -12501,6 +12507,7 @@ Kerç:Kerç NP-TOP ; ! ""
 Peker:Peker NP-TOP ;
 Emre:Emre NP-ANT-M ; !
 Tanju:Tanju NP-ANT-M ;
+Bedrettin:Bedrettin NP-ANT-M ;
 Yüksel:Yüksel NP-ANT-F ;
 Mecnun:Mecnun NP-ANT-M ;
 Ercüment:Ercüment NP-ANT-M ;
@@ -12586,6 +12593,7 @@ Alişer:Alişer NP-ANT-M ; !
 Nusret:Nusret NP-ANT-M ;
 Uluğbey:Uluğbey NP-ANT-M ; !
 Poyraz:Poyraz NP-COG-MF ;
+Ersoy:Ersoy NP-COG-MF ;
 Erkut:Erkut NP-COG-MF ;
 Yüksel:Yüksel NP-COG-MF ;
 Alpaslan:Alpaslan NP-COG-MF ;
@@ -19906,6 +19914,7 @@ Topal:Topal NP-COG-MF ;
 Ertuğrul:Ertuğrul NP-COG-MF ;
 Yücel:Yücel NP-COG-MF ;
 Kılıçdaroğlu:Kılıçdaroğlu NP-COG-MF ;
+Ünal:Ünal NP-COG-MF ;
 Aleksandrov:Aleksandrov NP-PAT-VICH ;
 Fedorovich:Fedoro NP-PAT-VICH ;
 Anatolyevich:Anatolyevich NP-PAT-VICH ; !Use/MT
@@ -20002,6 +20011,8 @@ Ertuğrul:Ertuğrul NP-ANT-M ;
 Demirel:Demirel NP-ANT-M ;
 Arif:Arif NP-ANT-M ;
 Aydın:Aydın NP-ANT-M ;
+Şekip:Şekip NP-ANT-M ;
+Ünal:Ünal NP-ANT-M ;
 Başak:Başak NP-ANT-F ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
@@ -23250,6 +23261,7 @@ milyonlu:milyonlu A2 ; ! Use/MT ! Dir/RL
 bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 bahçeli:bahçeli A1 ;
 davalı:davalı A1 ;
+dönük:dönük A1 ;
 
 LEXICON Adverbs
 anında:anında ADV1 ; !
@@ -23260,6 +23272,7 @@ sırf:sırf ADV1 ;
 işitince:işitince ADV1 ; !
 ruhen:ruhen ADV1 ; !
 burada:burada ADV1 ; !
+ayni:ayni ADV1 ;
 herkes:herkes ADV1 ; !
 olunca:olunca ADV1 ; !
 hattâ:hattâ ADV1 ; !
