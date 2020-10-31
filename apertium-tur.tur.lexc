@@ -3587,6 +3587,7 @@ eşcinsel:eşcinsel N1 ; !
 Kafkas:Kafkas N1 ; !
 senarist:senarist N1 ; !
 PC:PC N1 ; !
+tahrir:tahrir N1 ;
 zırh:zırh N1 ; !
 do:do N1 ; !
 tahrip:tahrip N1 ; !
@@ -7155,6 +7156,7 @@ gönder:gönder N1 ; ! "fragpole"
 gondol:gondol N1 ; ! "gondol"
 gönenç:gönenç N1 ; ! "welfare"
 gönen:gönen N1 ; ! "moist"
+nüzûl:nüzûl N1 ;
 gön:gön N1 ; ! "leather"
 gönül:gön%{u%}l N1 ; ! "heart"
 gönül:gön%{u%}l N1 ; ! "soul"
@@ -8955,6 +8957,7 @@ koşul:koşul N1 ; ! "condition"
 koşul:koşul N1 ; ! "provision"
 koşul:koşul N1 ; ! "requirement"
 koşum:koşum N1 ; ! "harness"
+İstiklal:İstiklal N1 ;
 koşut:koşut N1 ; ! "parallel"
 kot:kot N1 ; ! "elevation?; denim?"
 kota:kota N1 ; ! "quota"
@@ -12010,8 +12013,11 @@ küresel:küresel N1 ;
 tutanak:tutanak N1 ;
 âlem:âlem N1 ;
 vezîr:vezîr N1 ;
+harb:harb N1 ;
+bend:bend N1 ;
 teyit:teyit N1 ;
 hükûmet:hükûmet N1 ;
+ücretsiz:ücretsiz N1 ;
 yükseköğretim:yükseköğretim N1 ;
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
 terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
@@ -12028,6 +12034,7 @@ Hessen:Hessen NP-TOP ; !
 Allier:Allier NP-TOP ; !
 Ümraniye:Ümraniye NP-TOP ;
 Levent:Levent NP-TOP ;
+Beykoz:Beykoz NP-TOP ;
 Château:Château NP-TOP ; !
 Westphalia:Westphalia NP-TOP ; !
 Drôme:Drôme NP-TOP ; !
@@ -12510,13 +12517,18 @@ Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Peker:Peker NP-TOP ;
 Emre:Emre NP-ANT-M ; !
+Erhan:Erhan NP-ANT-M ;
+Serhan:Serhan NP-ANT-M ;
+Seher:Seher NP-ANT-M ;
 Tanju:Tanju NP-ANT-M ;
+Nedim:Nedim NP-ANT-M ;
 Bedrettin:Bedrettin NP-ANT-M ;
 Yüksel:Yüksel NP-ANT-F ;
 Mecnun:Mecnun NP-ANT-M ;
 Ercüment:Ercüment NP-ANT-M ;
 Lütfi:Lütfi NP-ANT-M ;
 Nuri:Nuri NP-ANT-M ;
+Veysel:Veysel NP-ANT-M ;
 Ufuk:Ufuk NP-ANT-M ;
 Gürhan:Gürhan NP-ANT-M ;
 Dursun:Dursun NP-ANT-F ;
@@ -20018,6 +20030,8 @@ Arif:Arif NP-ANT-M ;
 Aydın:Aydın NP-ANT-M ;
 Şekip:Şekip NP-ANT-M ;
 Ünal:Ünal NP-ANT-M ;
+Sultân:Sultân NP-ANT-M ;
+Mete:Mete NP-ANT-M ;
 Başak:Başak NP-ANT-F ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
@@ -22233,6 +22247,7 @@ beklenmeyen:beklenmeyen A1 ;  ! "unexpected"
 çılgın:çılgın A1 ;  ! "crazy"
 engin:engin A1 ;  ! "offing, immense"
 metin:metin A1 ;  ! "hard"
+ücretsiz:ücretsiz A1 ;
 monoton:monoton A1 ;  ! "monotonous"
 solgun:solgun A1 ;  ! "pale"
 uygun:uygun A1 ;  ! "appropriate, suitable, appropriate"
