@@ -4712,6 +4712,7 @@ yükseltme:yükseltme N1 ; !
 düzeltme:düzeltme N1 ; !
 yürütme:yürütme N1 ; !
 vesaire:vesaire N1 ; !
+sair:sair N1 ;
 kaydedici:kaydedici N1 ; !
 gösterici:gösterici N1 ; !
 dinleyici:dinleyici N1 ; !
@@ -7937,6 +7938,7 @@ imitasyon:imitasyon N1 ; ! "imitation"
 imkân:imkân N1 ; ! "opportunity"
 imla:imla N1 ; ! "dictation"
 immoral:immoral A1 ; ! "immoral"
+milletçi:milletçi A1 ;
 ruhsatsız:ruhsatsız A1 ;
 imparator:imparator N1 ; ! "emperor"
 imparatorluk:İmparatorluk%{v%} N1 ; ! "empire" ! Dir/LR
@@ -9896,6 +9898,7 @@ mülhit:mülhit N1 ; ! "atheist"
 mülkiyet:mülkiyet N1 ; ! "ownership"
 mülk:mülk N1 ; ! "asset"
 mülk:mülk N1 ; ! "domain"
+mülki:mülki N1 ;
 mülk:mülk N1 ; ! "estate"
 mülk:mülk N1 ; ! "possession"
 mülteci:mülteci N1 ; ! "refugee"
@@ -12008,6 +12011,7 @@ tutanak:tutanak N1 ;
 âlem:âlem N1 ;
 vezîr:vezîr N1 ;
 teyit:teyit N1 ;
+hükûmet:hükûmet N1 ;
 yükseköğretim:yükseköğretim N1 ;
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
 terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
@@ -12030,7 +12034,7 @@ Drôme:Drôme NP-TOP ; !
 Tirol:Tirol NP-TOP ; !
 Yüksekova:Yüksekova NP-TOP ;
 Pegas:Pegas NP-TOP ; !
-
+Muammer:Muammer NP-TOP ;
 Côtes:Côtes NP-TOP ; !
 Tikrit:Tikrit NP-TOP ;
 Suriye:Suriye NP-TOP ;
@@ -12511,6 +12515,7 @@ Bedrettin:Bedrettin NP-ANT-M ;
 Yüksel:Yüksel NP-ANT-F ;
 Mecnun:Mecnun NP-ANT-M ;
 Ercüment:Ercüment NP-ANT-M ;
+Lütfi:Lütfi NP-ANT-M ;
 Nuri:Nuri NP-ANT-M ;
 Ufuk:Ufuk NP-ANT-M ;
 Gürhan:Gürhan NP-ANT-M ;
@@ -20903,8 +20908,10 @@ genetik:genetik A1 ; !
 bekar:bekar A1 ; !
 kaynaklı:kaynaklı A1 ;
 aç:aç A1 ; !
+bedeli:bedeli A1 ;
 amiyane:amiyane A1 ; !
 iki:iki A1 ; !
+mahalli:mahalli A1 ;
 sabırlı:sabırlı A1 ; !
 tasviri:tasviri A1 ; !
 yerinde:yerinde A1 ; !
