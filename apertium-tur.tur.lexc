@@ -3579,7 +3579,7 @@ kurnaz:kurnaz N1 ; !
 biz:biz N1 ; !
 küçük% kız:küçük% kız N1 ; !
 ikiz:ikiz N1 ; !
-
+yürülük:yürülük N1 ;
 depolama:depolama N1 ; !
 Grek:Grek N1 ; !
 senaristlik:senaristlik N1 ; !
@@ -3902,6 +3902,8 @@ Benyamin:Benyamin N1 ; !
 kollama:kollama N1 ; !
 Efesli:Efesli N1 ; !
 ulu:ulu N1 ; !
+tamsayı:tamsayı N1 ;
+ondalık% sayı:ondalık% sayı N1 ;
 Amonî:Amonî N1 ; !
 binbaşı:binbaşı N1 ; !
 Yahuda:Yahuda N1 ; !
@@ -5263,8 +5265,10 @@ ihlal:ihlal%{ь%} N1 ; ! "invasion"
 olay:olay N1 ; ! "event"
 röportaj:röportaj N1 ; ! "interview"
 puan:puan N1 ; ! "score"
+hüsn:hüsn N1 ;
 verici:verici N1 ; ! "donor"
 arşiv:arşiv N1 ; ! "archive"
+malûm:malûm N1 ;
 milletvekil:milletvekil N2 ; ! "MP"
 diplomasi:diplomasi N1 ; ! "diplomacy"
 tur:tur N1 ; ! "tour"
@@ -5881,6 +5885,7 @@ benzetim:benzetim N1 ; ! "benzetim"
 benzin:benzin N1 ; ! "petrol"
 berat:berat N1 ; ! "warrant"
 berber:berber N1 ; ! "barber"
+şer:şer N1 ;
 berduş:berduş N1 ; ! "tramp"
 bere:bere N1 ; ! "bruise"
 bereket:bereket N1 ; ! "richness"
@@ -9248,6 +9253,7 @@ liste:liste N1 ; ! "list"
 literatür:literatür N1 ; ! "literature"
 liva:liva N1 ; ! "brigade"
 lobi:lobi N1 ; ! "lobby"
+huzûr:huzûr N1 ;
 loca:loca N1 ; ! "chamber"
 loca:loca N1 ; ! "lodge"
 lodos:lodos N1 ; ! "south"
@@ -12016,6 +12022,7 @@ vezîr:vezîr N1 ;
 harb:harb N1 ;
 bend:bend N1 ;
 teyit:teyit N1 ;
+temîn:temîn N1 ;
 hükûmet:hükûmet N1 ;
 ücretsiz:ücretsiz N1 ;
 yükseköğretim:yükseköğretim N1 ;
@@ -20032,6 +20039,7 @@ Aydın:Aydın NP-ANT-M ;
 Ünal:Ünal NP-ANT-M ;
 Sultân:Sultân NP-ANT-M ;
 Mete:Mete NP-ANT-M ;
+Turgut:Turgut NP-ANT-M ;
 Başak:Başak NP-ANT-F ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
