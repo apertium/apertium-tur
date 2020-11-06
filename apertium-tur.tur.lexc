@@ -3072,6 +3072,7 @@ birkaç:birkaç DET-IND ; ! "some"
 böyle:böyle DET-IND ; 
 şöyle:şöyle DET-IND ; 
 öyle:öyle DET-IND ; 
+dim:dim DET-IND ;
 
 hiçbir:hiçbir DET-NEG ; ! ""
 
@@ -4993,6 +4994,7 @@ yatay% çizgi:yatay% çizgi N1 ; !
 resmi% olarak:resmi% olarak N1 ; !
 dağlık:dağlık N1 ; !
 kritik:kritik N1 ; !
+gerekçesi:gerekçesi N1 ;
 düşük:düşük N1 ; !
 oturan:oturan N1 ; !
 yalçın:yalçın N1 ; !
@@ -10814,6 +10816,7 @@ rektör:rektör N1 ; ! ""
 ressam:ressam N1 ; ! ""
 riayet:riayet N1 ; ! ""
 rızk:rızk N1 ; ! ""
+oturak:oturak N1 ;
 romantizm:romantizm N1 ; ! ""
 romatizma:romatizma N1 ; ! ""
 rota:rota N1 ; ! ""
@@ -11030,6 +11033,7 @@ zincir:zincir N1 ; ! ""
 ziyafet:ziyafet N1 ; ! ""
 zulüm:zulüm N1 ; ! ""
 sunum:sunum N1 ;
+tertîb:tertîb N1 ;
 savcılık:savcılık%{v%} N1 ;
 
 
@@ -12022,9 +12026,14 @@ vezîr:vezîr N1 ;
 harb:harb N1 ;
 bend:bend N1 ;
 teyit:teyit N1 ;
+fail:fail N1 ;
 temîn:temîn N1 ;
 hükûmet:hükûmet N1 ;
+mukaddem:mukaddem N1 ;
+randevu:randevu N1 ;
+tutuklama:tutuklama N1 ;
 ücretsiz:ücretsiz N1 ;
+zorunluk:zorunluk N1 ;
 yükseköğretim:yükseköğretim N1 ;
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
 terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
@@ -12524,7 +12533,11 @@ Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
 Peker:Peker NP-TOP ;
 Emre:Emre NP-ANT-M ; !
+Halit:Halit NP-ANT-M ;
+Hilmi:Hilmi NP-ANT-M ;
 Erhan:Erhan NP-ANT-M ;
+Talat:Talat NP-ANT-M ;
+Şükrü:Şükrü NP-ANT-M ;
 Serhan:Serhan NP-ANT-M ;
 Seher:Seher NP-ANT-M ;
 Tanju:Tanju NP-ANT-M ;
@@ -15406,6 +15419,7 @@ Raif:Raif NP-ANT-M ; !
 Küreş:Küreş NP-ANT-M ; !
 Semih:Semih NP-ANT-M ;
 Ketmenbay:Ketmenbay NP-ANT-M ; !
+Erdem:Erdem NP-ANT-M ;
 Poe:Poe NP-COG-MF ; !
 Warner:Warner NP-COG-MF ; !
 Rihanna:Rihanna NP-ANT-F ; !
@@ -20040,6 +20054,8 @@ Aydın:Aydın NP-ANT-M ;
 Sultân:Sultân NP-ANT-M ;
 Mete:Mete NP-ANT-M ;
 Turgut:Turgut NP-ANT-M ;
+Arsalan:Arsalan NP-ANT-M ;
+Rafet:Rafet NP-ANT-M ;
 Başak:Başak NP-ANT-F ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
