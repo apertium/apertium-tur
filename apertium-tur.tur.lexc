@@ -1588,6 +1588,7 @@ LEXICON ADV1
 ! %<adv%>%<subst%>: SUBST ;
 !%<prn%>: SUBST ;               ! FMT: Adverbs are not pronouns!!!
 %<adv%>%<attr%>: # ;
+%<adv%>%<attr%>:%>k%{I%} # ;
 
 LEXICON ADV2
 
@@ -23308,13 +23309,15 @@ bahsi% geçen:bahsi% geçen A1 ; ! Use/MT ! Dir/RL
 bahçeli:bahçeli A1 ;
 davalı:davalı A1 ;
 dönük:dönük A1 ;
-
+süratle:süratle A1 ;
+evvelki:evvelki A1 ;
 LEXICON Adverbs
 anında:anında ADV1 ; !
 lehine:lehine ADV1 ;
 tam:tam ADV1 ; !
 zira:zira ADV1 ; !
 sırf:sırf ADV1 ;
+kontrolü:kontrolü ADV1 ;
 işitince:işitince ADV1 ; !
 ruhen:ruhen ADV1 ; !
 burada:burada ADV1 ; !
