@@ -25394,6 +25394,7 @@ iliş:iliş V-IR-IV ; ! "perch" (DIR)
 imren:imren V-IR-IV ; ! "envy" (DIR)
 ! inan:inan V-TV-DIR-IR ; ! "believe"
 inan:inan V-IR-TV ; ! "believe"
+sezinle:sezinle V-IR-TV ;
 bağla:bağla V-IR-TV ; ! "connect"
 sahip% ol :sahip% ol V-IR-IV ; ! Use/MT
 incel:incel V-AR-IV ; ! "get thinner" (DIR)
