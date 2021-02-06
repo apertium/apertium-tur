@@ -5153,6 +5153,7 @@ ekip:ekip%{v%} N1 ; ! "team"
 yazar:yazar N1 ; ! "author"
 işbirliktelik:işbirliktelik N1 ;
 patika:patika N1 ; ! "path"
+telkin:telkin N1 ;
 Büyükelçilik:Büyükelçilik%{v%} N1 ; ! embassy"
 yurtdış:yurtdış N2 ; ! "abroad"
 din% adamı:din% adam N2 ; 
@@ -5763,10 +5764,14 @@ bağış:bağış N1 ; ! "grant"
 bağıt:bağıt N1 ; ! "agreement"
 bağlama:bağlama N1 ; ! "junction"
 bağlam:bağlam N1 ; ! "context"
+rahatlatma:rahatlatma N1 ;
+kucaklama:kucaklama N1 ;
+
 bağlantı:bağlantı N1 ; ! "connection"
 bağlaşık:bağlaşık N1 ; ! "allied"
 bağlılık:bağlılık%{v%} N1 ; ! "commitment"
 bahane:bahane N1 ; ! "excuse"
+bağlanma:bağlanma N1 ;
 baharat:baharat N1 ; ! "spice"
 bahar:bahar N1 ; ! "spring"
 bahçe:bahçe N1 ; ! "garden"
@@ -7792,6 +7797,7 @@ yiyecek:yiyecek N1 ; ! ""
 içerik:içerik N1 ; ! "content"
 içerik:içerik N1 ; ! "ingredient"
 içgüdü:içgüdü N1 ; ! "instinct"
+iç% güdüsel:iç% güdüsel N1 ;
 içim:içim N1 ; ! "taste"
 içki:içki N1 ; ! "beverage"
 icraat:icraat%{ь%} N1 ; ! "performance"
@@ -7948,6 +7954,7 @@ imitasyon:imitasyon N1 ; ! "imitation"
 imkân:imkân N1 ; ! "opportunity"
 imla:imla N1 ; ! "dictation"
 immoral:immoral A1 ; ! "immoral"
+içgüdüsel:içgüdüsel A1 ;
 milletçi:milletçi A1 ;
 ruhsatsız:ruhsatsız A1 ;
 imparator:imparator N1 ; ! "emperor"
@@ -10330,6 +10337,7 @@ petrol:petrol N1 ; ! ""
 ilerleme:ilerleme N1 ; ! "advancement"
 İlerleme:İlerleme N1 ; ! "advancement" USE/MT
 gençlik:gençlik N1 ; ! "youth"
+fazlalaşma:fazlalaşma N1 ;
 
 
 
@@ -11891,6 +11899,7 @@ objektif:objektif N1 ;
 okuma:okuma N1 ;
 okutma:okutma N1 ;
 paketleme:paketleme N1 ;
+negativizm:negativizm N1 ;
 patlama:patlama N1 ;
 radyo% istasyonu:radyo% istasyonu N1 ;
 rahatlama:rahatlama N1 ;
