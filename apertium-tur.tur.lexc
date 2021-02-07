@@ -7053,9 +7053,11 @@ geğirti:geğirti N1 ; ! "burp"
 gelberi:gelberi N1 ; ! "hoe"
 gelecek:gelecek N1 ; ! "future"
 gelenek:gelenek N1 ; ! "custom"
+Uyanıklık:Uyanıklık N1 ;
 gelenek:gelenek N1 ; ! "folkway"
 gelenek:gelenek N1 ; ! "tradition"
 gelgit:gelgit N1 ; ! "tide"
+dönüklük:dönüklük N1 ;
 gelincik:gelincik N1 ; ! "poppy"
 gelin:gelin N1 ; ! "bride"
 gelinlik:gelinlik%{v%} N1 ; ! "wedding dress"
@@ -9450,6 +9452,7 @@ marş:marş N1 ; ! "march"
 martaval:martaval N1 ; ! "story"
 martı:martı N1 ; ! "seagull"
 marul:marul N1 ; ! "lettuce"
+uzama:uzama N1 ;
 maruzat:maruzat N1 ; ! "request"
 maruz:maruz N1 ; ! "exposition"
 masaj:masaj N1 ; ! "massage"
@@ -23320,6 +23323,8 @@ davalı:davalı A1 ;
 dönük:dönük A1 ;
 süratle:süratle A1 ;
 evvelki:evvelki A1 ;
+huzursuz:huzursuz A1 ;
+biliçsel:biliçsel A1 ;
 LEXICON Adverbs
 anında:anında ADV1 ; !
 lehine:lehine ADV1 ;
