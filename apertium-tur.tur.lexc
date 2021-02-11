@@ -12047,6 +12047,7 @@ randevu:randevu N1 ;
 tutuklama:tutuklama N1 ;
 ücretsiz:ücretsiz N1 ;
 zorunluk:zorunluk N1 ;
+tolerans:tolerans N1 ;
 yükseköğretim:yükseköğretim N1 ;
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
 terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
@@ -23325,6 +23326,8 @@ süratle:süratle A1 ;
 evvelki:evvelki A1 ;
 huzursuz:huzursuz A1 ;
 biliçsel:biliçsel A1 ;
+Fizyolojik:Fizyolojik A1 ;
+değişken:değişken A1 ;
 LEXICON Adverbs
 anında:anında ADV1 ; !
 lehine:lehine ADV1 ;
