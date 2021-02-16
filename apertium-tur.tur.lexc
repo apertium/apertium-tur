@@ -12048,7 +12048,9 @@ tutuklama:tutuklama N1 ;
 ücretsiz:ücretsiz N1 ;
 zorunluk:zorunluk N1 ;
 tolerans:tolerans N1 ;
-yükseköğretim:yükseköğretim N1 ;
+bağışçı:bağışçı N1 ;
+anonim:anonim N1 ; ! Dir/RL ! Use/MT
+yükseköğretim:yükseköğretim N1 ; ! Dir/RL ! Use/MT
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
 terörist% faaliyet:terörist% faaliyet N1 ; ! Dir/RL ! Use/MT
 
