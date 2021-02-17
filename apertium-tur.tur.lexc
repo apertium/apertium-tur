@@ -7973,6 +7973,7 @@ inak:inak N1 ; ! "dogma"
 inanca:inanca N1 ; ! "assurance"
 inanç:inanç N1 ; ! "belief"
 inan:İnan N1 ; ! "belief" ! Dir/LR
+başkentlik:başkentlik N1 ; ! Dir/LR
 inan:inan N1 ; ! "belief"
 inatçı:inatçı N1 ; ! "obstinate"
 inat:inat N1 ; ! "obstinacy"
