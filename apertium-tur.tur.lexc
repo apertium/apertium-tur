@@ -417,7 +417,7 @@ LEXICON V-GERUNDS
 %<ger%>:%>m%{A%} GER-SUBST ; 
 %<ger_past%>:%>%{D%}%{I%}k%{v%} GER-SUBST ;
 %<ger_abst%>:%>%{y%}%{I%}ş GER-SUBST ;
-%<ger_fut%>:%>%{y%}%{A%}c%{A%}k%{v%} GER-SUBST ;
+%<ger_fut%>:%>%{y%}%{A%}c%{A%}غ%{v%} GER-SUBST ;
 %<ger_impf%>:%>%{y%}%{A%}n GER-SUBST ;
 %<ger_inf%>:%>m%{A%}k%{v%} GER-SUBST ;  
 %<ger_pabs%>:%>m%{I%}ş GER-SUBST ;
@@ -4034,6 +4034,7 @@ yolluk:yolluk N1 ; !
 düğünlük:düğünlük N1 ; !
 dürüstlük:dürüstlük N1 ; !
 cebir:cebir N1 ; !
+lineer:lineer N1 ;
 fitr:fitr N1 ; !
 Nusret:Nusret N1 ; !
 dialog:dialog N1 ; !
@@ -10386,9 +10387,11 @@ dizi:dizi N1 ; ! "series"
 önem:önem N1 ; ! "importance"
 zarar:zarar N1 ; ! "injury"
 euro:euro N1 ; ! "euro"
+slogan:slogan N1 ;
 potansiyel:potansiyel N1 ; ! "potential"
 rapor:rapor N1 ; ! "report"
 teşkil:teşkil N1 ; ! "organization"
+raporlama:raporlama N1 ;
 sol:sol N1 ; ! "left"
 protesto:protesto N1 ; ! " protest"
 silah:silah N1 ; ! "weapon"
@@ -12048,6 +12051,9 @@ randevu:randevu N1 ;
 tutuklama:tutuklama N1 ;
 ücretsiz:ücretsiz N1 ;
 zorunluk:zorunluk N1 ;
+programcı:programcı N1 ;
+sabırsızlık:sabırsızlık N1 ;
+tembellik:tembellik N1 ;
 tolerans:tolerans N1 ;
 bağışçı:bağışçı N1 ;
 anonim:anonim N1 ; ! Dir/RL ! Use/MT
@@ -14878,7 +14884,8 @@ FC:FC NP-AL ; !
 
 iOS:iOS NP-AL ; !
 ad:ad NP-AL ; !
-
+Perl:Perl NP-AL ;
+Matlab:Matlab NP-AL ;
 Svoboda:Svoboda NP-AL ; ! ""
 YouTube:YouTube NP-AL ; ! ""
 Linux:Linux NP-AL ; ! ""
@@ -21777,6 +21784,7 @@ yunan:yunan A1 ; ! Use/MT
 engellenmiş:engellenmiş A1 ;
 ruhsal:ruhsal A1 ;
 barışçıl:barışçıl A1 ;
+sayısal:sayısal A1 ;
 kaba:kaba A1 ;
 sayısız:sayısız A1 ;
 suni:suni A1 ;
@@ -23331,6 +23339,8 @@ huzursuz:huzursuz A1 ;
 biliçsel:biliçsel A1 ;
 Fizyolojik:Fizyolojik A1 ;
 değişken:değişken A1 ;
+modüler:modüler A1 ;
+
 LEXICON Adverbs
 anında:anında ADV1 ; !
 lehine:lehine ADV1 ;
