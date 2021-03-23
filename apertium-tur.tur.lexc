@@ -11506,6 +11506,7 @@ korece:Korece N1 ; !
 fince:Fince N1 ; !
 estonca:Estonca N1 ; !
 macarca:Macarca N1 ; !
+Türkmence:Türkmence N1 ;
 arapça:Arapça N1 ; ! "arabic"
 ibranice:İbranice N1 ; ! "hebrew"
 portekizce:Portekizce N1 ; ! "portuguese"
@@ -12054,6 +12055,7 @@ zorunluk:zorunluk N1 ;
 programcı:programcı N1 ;
 sabırsızlık:sabırsızlık N1 ;
 tembellik:tembellik N1 ;
+ukalalık:ukalalık N1 ; ! Dir/RL ! Use/MT
 tolerans:tolerans N1 ;
 bağışçı:bağışçı N1 ;
 anonim:anonim N1 ; ! Dir/RL ! Use/MT
