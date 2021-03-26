@@ -12073,6 +12073,7 @@ Venatica:Venatica NP-TOP ; !
 Navarra:Navarra NP-TOP ; !
 Hessen:Hessen NP-TOP ; !
 Allier:Allier NP-TOP ; !
+Bastamlı:Bastamlı NP-TOP ;
 Ümraniye:Ümraniye NP-TOP ;
 Levent:Levent NP-TOP ;
 Beykoz:Beykoz NP-TOP ;
@@ -26173,6 +26174,7 @@ hoş% geldiniz:hoş% geldiniz INTERJ ; ! ""
 en% azından:en% azından INTERJ ; ! ""
 oh:oh INTERJ ;
 e:e INTERJ ;
+yo:yo INTERJ ;
 teşekkürler:teşekkürler INTERJ ;
 
 LEXICON BARB  ! Dir/RL
