@@ -6570,6 +6570,7 @@ dişi:dişi N1 ; ! "female"
 disiplin:disiplin N1 ; ! "discipline"
 dışişleri:dışişleri N1 ; ! "external affairs"
 disk:disk N1 ; ! "disc"
+siyasi:siyasi N1 ;
 dışkı:dışkı N1 ; ! "feces"
 diyabet:diyabet N1 ; ! "diabetes"
 diyar:diyar N1 ; ! "country"
