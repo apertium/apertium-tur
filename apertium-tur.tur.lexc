@@ -12561,6 +12561,7 @@ Kerç:Kerç NP-TOP ; ! ""
 Peker:Peker NP-TOP ;
 Emre:Emre NP-ANT-M ; !
 Halit:Halit NP-ANT-M ;
+Robbie:Robbie NP-ANT-M ;
 Hilmi:Hilmi NP-ANT-M ;
 Erhan:Erhan NP-ANT-M ;
 Talat:Talat NP-ANT-M ;
@@ -15395,6 +15396,7 @@ Yunanistan% Süper% Ligi:Yunanistan% Süper% Lig NP-ORG-COMPOUND-PX ; ! ""
 Southeast% European% Times:Southeast% European% Times NP-AL ; ! ""
 Reuters:Reuters NP-ORG ; ! ""
 MKMİK:MKMİK NP-ORG;
+WikiLeaks:WikiLeaks NP-ORG;
 Tatar-İnform:Tatar-İnform NP-ORG;
 MŞSC:MŞSC%{ь%} NP-ORG;
 AP:AP NP-AL ; ! ""
@@ -15452,6 +15454,7 @@ Poe:Poe NP-COG-MF ; !
 Warner:Warner NP-COG-MF ; !
 Rihanna:Rihanna NP-ANT-F ; !
 Jane:Jane NP-ANT-F ; !
+Karzai:Karzai NP-COG-MF ;
 Rose:Rose NP-ANT-F ; !
 Cena:Cena NP-COG-MF ; !
 Bayezid:Bayezid NP-ANT-M ; !
