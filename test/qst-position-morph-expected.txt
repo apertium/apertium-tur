@@ -1,0 +1,16 @@
+[1glN44ezNGKx#0] ^öğrenmişsin/öğren<v><tv><past>+i<cop><aor><p2><sg>/öğren<v><tv><ger_pabs><nom>+i<cop><aor><p2><sg>$
+[/1glN44ezNGKx]
+[8HW3BGrccxT-#0] ^öğrendin mi/öğren<v><tv><ifi><p2><sg>+mı<qst>$
+[/8HW3BGrccxT-]
+[CJDrzffJc4G-#0] ^öğrenci misin/öğrenci<n><nom>+mı<qst>+i<cop><aor><p2><sg>$
+[/CJDrzffJc4G-]
+[Rp8nQatiD0xr#0] ^öğrendin/öğren<v><tv><ifi><p2><sg>$
+[/Rp8nQatiD0xr]
+[Wm6RR-iVv9p-#0] ^öğrenmiş misin/öğren<v><tv><past>+mı<qst>+i<cop><aor><p2><sg>/öğren<v><tv><ger_pabs><nom>+mı<qst>+i<cop><aor><p2><sg>$
+[/Wm6RR-iVv9p-]
+[cf2pMiLWWfNl#0] ^öğrenci/öğrenci<n><nom>/öğrenci<n><attr>/öğrenci<n><nom>+i<cop><aor><p3><sg>$ ^miyin/*miyin$
+[/cf2pMiLWWfNl]
+[dulQihd9rxJt#0] ^öğrenciydin/öğrenci<n><nom>+i<cop><ifi><p2><sg>$
+[/dulQihd9rxJt]
+[ooynfxIkQN_6#0] ^öğrencisin/öğrenci<n><nom>+i<cop><aor><p2><sg>$
+[/ooynfxIkQN_6]

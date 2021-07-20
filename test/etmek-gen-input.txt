@@ -1,0 +1,5 @@
+# [twol] forms of etmek
+^et<v><tv><aor><p3><sg>$
+^et<v><tv><aor><p1><sg>$
+^et<v><tv><ifi><p1><sg>$
+^et<v><tv><pass><cont><p3><sg>$

@@ -1,0 +1,69 @@
+# [lexc] Accusative
+1'i
+1'i
+2'yi
+3'ü
+3'ü
+4'ü
+4'ü
+5'i
+5'i
+6'yı
+7'yi
+8'i
+8'i
+9'u
+9'u
+# [lexc] Genitive
+1'in
+2'nin
+2'nin
+3'ün
+4'ün
+5'in
+6'nın
+6'nın
+7'nin
+7'nin
+8'in
+9'un
+# [lexc] Dative
+1'e
+2'ye
+3'e
+4'e
+5'e
+6'ya
+7'ye
+8'e
+9'a
+# [lexc] Locative
+1'de
+2'de
+3'te
+4'te
+5'te
+6'da
+7'de
+8'de
+9'da
+# [lexc] Ablative
+1'den
+2'den
+3'ten
+4'ten
+5'ten
+6'dan
+7'den
+8'den
+9'dan
+# [lexc] Ordinal
+1'inci
+2'nci
+3'üncü
+4'üncü
+5'inci
+6'ncı
+7'nci
+8'inci
+9'uncu

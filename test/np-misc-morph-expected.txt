@@ -1,0 +1,30 @@
+[-NSWPYVE6eeY#0] ^Belgrad'ı/Belgrad<np><top><acc>/Belgrad<np><top><px3sp><nom>/Belgrad<np><top><px3sp><nom>+i<cop><aor><p3><sg>$
+[/-NSWPYVE6eeY]
+[-Scr0oizMZpx#0] ^NATO'ya/NATO<np><org><dat>/NATO<np><al><dat>/NATO<np><org><dat>+i<cop><aor><p3><sg>/NATO<np><al><dat>+i<cop><aor><p3><sg>$
+[/-Scr0oizMZpx]
+[2Z7FR_FQyhfO#0] ^Belgrad'da/Belgrad<np><top><loc>/Belgrad<np><top><loc>+i<cop><aor><p3><sg>$
+[/2Z7FR_FQyhfO]
+[9iXhq0dr0VXW#0] ^PASOK'tan/PASOK<np><org><abl>/PASOK<np><org><abl>+i<cop><aor><p3><sg>$
+[/9iXhq0dr0VXW]
+[BnxNQ1JS0wdd#0] ^NATO'da/NATO<np><org><loc>/NATO<np><al><loc>/NATO<np><org><loc>+i<cop><aor><p3><sg>/NATO<np><al><loc>+i<cop><aor><p3><sg>$
+[/BnxNQ1JS0wdd]
+[BuUGP7jv9YJX#0] ^PASOK'ta/PASOK<np><org><loc>/PASOK<np><org><loc>+i<cop><aor><p3><sg>$
+[/BuUGP7jv9YJX]
+[DFbOS8M_T8iX#0] ^BH/BH<np><top><nom>/BH<np><top><attr>$^'/'<apos>$^yi/*yi$
+[/DFbOS8M_T8iX]
+[FHRVEgkA7zHu#0] ^Belgrad'dan/Belgrad<np><top><abl>/Belgrad<np><top><abl>+i<cop><aor><p3><sg>$
+[/FHRVEgkA7zHu]
+[GeV8H9BuRMzX#0] ^BH/BH<np><top><nom>/BH<np><top><attr>$^'/'<apos>$^de/de<cnjcoo>/da<cnjcoo>/da<postadv>/de<v><iv><imp><p2><sg>/de<v><tv><imp><p2><sg>$
+[/GeV8H9BuRMzX]
+[OLSgjpT-x61x#0] ^BH/BH<np><top><nom>/BH<np><top><attr>$^'/'<apos>$^den/de<v><iv><pass><imp><p2><sg>/de<v><tv><pass><imp><p2><sg>$
+[/OLSgjpT-x61x]
+[gdQs1XhJjqWa#0] ^BH/BH<np><top><nom>/BH<np><top><attr>$^'/'<apos>$^ye/ye<cnjcoo>/ye<v><tv><imp><p2><sg>$
+[/gdQs1XhJjqWa]
+[oDb7OOWKNMlU#0] ^PASOK'a/PASOK<np><org><dat>/PASOK<np><org><dat>+i<cop><aor><p3><sg>$
+[/oDb7OOWKNMlU]
+[wmlMVEtdBLEl#0] ^PASOK'u/PASOK<np><org><acc>/PASOK<np><org><px3sp><nom>/PASOK<np><org><px3sp><nom>+i<cop><aor><p3><sg>$
+[/wmlMVEtdBLEl]
+[x2L1eBL-g1IN#0] ^NATO'dan/NATO<np><org><abl>/NATO<np><al><abl>/NATO<np><org><abl>+i<cop><aor><p3><sg>/NATO<np><al><abl>+i<cop><aor><p3><sg>$
+[/x2L1eBL-g1IN]
+[zS0dcw_GJ0li#0] ^NATO'yu/NATO<np><org><acc>/NATO<np><al><acc>$
+[/zS0dcw_GJ0li]

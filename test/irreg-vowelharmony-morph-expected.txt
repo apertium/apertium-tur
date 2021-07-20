@@ -1,0 +1,86 @@
+[-bRIuE5RGwuY#0] ^terminale/terminal<n><dat>/terminal<n><dat>+i<cop><aor><p3><sg>$
+[/-bRIuE5RGwuY]
+[0SU9TRuuJTQy#0] ^saati/saat<n><acc>/saat<n><px3sp><nom>/saat<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/0SU9TRuuJTQy]
+[3Zc59DmDWm6U#0] ^meşgulü/*meşgulü$
+[/3Zc59DmDWm6U]
+[47w6Dz6eojXe#0] ^kalbi/kalp<n><acc>/kalp<n><px3sp><nom>/kalp<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/47w6Dz6eojXe]
+[4xIeufN5q4t9#0] ^harpler/harp<n><nom>+i<cop><aor><p3><pl>/harp<n><pl><nom>/harp<n><pl><nom>+i<cop><aor><p3><sg>$
+[/4xIeufN5q4t9]
+[5JG5fqbl6gBY#0] ^meşgule/*meşgule$
+[/5JG5fqbl6gBY]
+[6emcdQJCWjNf#0] ^festivale/festival<n><dat>/festival<n><dat>+i<cop><aor><p3><sg>$
+[/6emcdQJCWjNf]
+[8Asqpq_hZHyS#0] ^harfler/harf<n><nom>+i<cop><aor><p3><pl>/harf<n><pl><nom>/harf<n><pl><nom>+i<cop><aor><p3><sg>$
+[/8Asqpq_hZHyS]
+[8SOuMo91nOgd#0] ^harfi/harf<n><acc>/harf<n><px3sp><nom>/harf<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/8SOuMo91nOgd]
+[9lMLcsqGQ_6q#0] ^meşguller/*meşguller$
+[/9lMLcsqGQ_6q]
+[C5pr9Am_C-9n#0] ^terminaller/terminal<n><nom>+i<cop><aor><p3><pl>/terminal<n><pl><nom>/terminal<n><pl><nom>+i<cop><aor><p3><sg>$
+[/C5pr9Am_C-9n]
+[CLNUk9vDjAY8#0] ^kalbe/kalp<n><dat>/kalp<n><dat>+i<cop><aor><p3><sg>$
+[/CLNUk9vDjAY8]
+[CRYxI6e1PHFA#0] ^dikkate/dikkat<n><dat>/dikkat<n><dat>+i<cop><aor><p3><sg>$
+[/CRYxI6e1PHFA]
+[CXdqsrDQX-y6#0] ^dikkatsin/dikkat<n><nom>+i<cop><aor><p2><sg>$
+[/CXdqsrDQX-y6]
+[ChqkIPeY20Ud#0] ^dikkatler/dikkat<n><nom>+i<cop><aor><p3><pl>/dikkat<n><pl><nom>/dikkat<n><pl><nom>+i<cop><aor><p3><sg>$
+[/ChqkIPeY20Ud]
+[E-jt71uaynCL#0] ^terminalsin/terminal<n><nom>+i<cop><aor><p2><sg>$
+[/E-jt71uaynCL]
+[FD4H9WqF5HtE#0] ^vaktinde/*vaktinde$
+[/FD4H9WqF5HtE]
+[GPQdipmqCXc1#0] ^vaktine/*vaktine$
+[/GPQdipmqCXc1]
+[JO5AvK3xBMDD#0] ^saatler/saat<n><nom>+i<cop><aor><p3><pl>/saat<n><pl><nom>/saat<n><pl><nom>+i<cop><aor><p3><sg>$
+[/JO5AvK3xBMDD]
+[JRRxwcWQanAy#0] ^harpsin/harp<n><nom>+i<cop><aor><p2><sg>$
+[/JRRxwcWQanAy]
+[Jz8gsW9cgMw3#0] ^vaktiniz/*vaktiniz$
+[/Jz8gsW9cgMw3]
+[L01lJv7lHWNz#0] ^idrake/idrak<n><dat>/idrak<n><dat>+i<cop><aor><p3><sg>$
+[/L01lJv7lHWNz]
+[L8PWp8xaI_rQ#0] ^kalpsin/kalp<n><nom>+i<cop><aor><p2><sg>$
+[/L8PWp8xaI_rQ]
+[LpzXzAHhGtlW#0] ^festivali/festival<n><acc>/festival<n><px3sp><nom>/festival<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/LpzXzAHhGtlW]
+[NXjPkTHbs_YH#0] ^festivalsin/festival<n><nom>+i<cop><aor><p2><sg>$
+[/NXjPkTHbs_YH]
+[O0qU-foy1g8h#0] ^vakitte/vakit<n><loc>/vakit<n><loc>+i<cop><aor><p3><sg>$
+[/O0qU-foy1g8h]
+[QMp0qqeBcEsR#0] ^terminali/terminal<n><acc>/terminal<n><px3sp><nom>/terminal<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/QMp0qqeBcEsR]
+[Qrk4LbzS725u#0] ^kalpler/kalp<n><nom>+i<cop><aor><p3><pl>/kalp<n><pl><nom>/kalp<n><pl><nom>+i<cop><aor><p3><sg>$
+[/Qrk4LbzS725u]
+[Ue3Kb3byTYj4#0] ^idrakler/idrak<n><nom>+i<cop><aor><p3><pl>/idrak<n><pl><nom>/idrak<n><pl><nom>+i<cop><aor><p3><sg>$
+[/Ue3Kb3byTYj4]
+[W3aOJte8_WCJ#0] ^vakte/vakit<n><dat>/vakit<n><dat>+i<cop><aor><p3><sg>$
+[/W3aOJte8_WCJ]
+[X0B8sS6Rqc4g#0] ^vakti/*vakti$
+[/X0B8sS6Rqc4g]
+[Zv-O5UlKXH96#0] ^harbe/harp<n><dat>/harbe<n><nom>/harbe<n><attr>/harp<n><dat>+i<cop><aor><p3><sg>/harbe<n><nom>+i<cop><aor><p3><sg>$
+[/Zv-O5UlKXH96]
+[_q7eHE1vxvzR#0] ^saate/saat<n><dat>/saat<n><dat>+i<cop><aor><p3><sg>$
+[/_q7eHE1vxvzR]
+[_tz1GBKPzPf_#0] ^festivaller/festival<n><nom>+i<cop><aor><p3><pl>/festival<n><pl><nom>/festival<n><pl><nom>+i<cop><aor><p3><sg>$
+[/_tz1GBKPzPf_]
+[c7r5C47o9cE2#0] ^idraki/idrak<n><acc>/idrak<n><px3sp><nom>/idrak<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/c7r5C47o9cE2]
+[fJSx45fnvHe4#0] ^idraksin/idrak<n><nom>+i<cop><aor><p2><sg>$
+[/fJSx45fnvHe4]
+[g9aIWbyWL26i#0] ^harbi/harp<n><acc>/harp<n><px3sp><nom>/harbi<adj>/harbi<adj><advl>/harbi<adj><subst><nom>/harp<n><px3sp><nom>+i<cop><aor><p3><sg>/harbi<adj>+i<cop><aor><p3><sg>/harbi<adj><subst><nom>+i<cop><aor><p3><sg>$
+[/g9aIWbyWL26i]
+[j7nJ8ylFpWah#0] ^harfe/harf<n><dat>/harf<n><dat>+i<cop><aor><p3><sg>$
+[/j7nJ8ylFpWah]
+[oqG3idfQ8KjX#0] ^harfsin/harf<n><nom>+i<cop><aor><p2><sg>$
+[/oqG3idfQ8KjX]
+[sIEW2MjyUUSw#0] ^dikkati/dikkat<n><acc>/dikkat<n><px3sp><nom>/dikkat<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/sIEW2MjyUUSw]
+[tZl4LFF_qHaI#0] ^saatsin/saat<n><nom>+i<cop><aor><p2><sg>$
+[/tZl4LFF_qHaI]
+[xxXJ1aeHhE0T#0] ^vaktini/*vaktini$
+[/xxXJ1aeHhE0T]
+[yD9R5o05--qu#0] ^vakit/vakit<n><nom>/vakit<n><attr>/vakit<n><nom>+i<cop><aor><p3><sg>$
+[/yD9R5o05--qu]

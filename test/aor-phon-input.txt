@@ -1,0 +1,19 @@
+# [twol] {i} aor after vowel
+pudralar
+pudralarım
+# [twol] {i} aor after cons
+yenir
+yenirim
+# [twol] {i} aor after passive
+pudralanır
+pudralanırım
+# [twol] forms with {z}:0
+gitmem
+gitmeyiz
+gidemem
+gidemeyiz
+# [twol] forms with {z}:z
+gitmezsin
+gitmezsiniz
+gidemezsin
+gidemezsiniz

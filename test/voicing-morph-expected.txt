@@ -1,0 +1,98 @@
+[0AVH8yqGvg_7#0] ^köpeksin/köpek<n><nom>+i<cop><aor><p2><sg>$
+[/0AVH8yqGvg_7]
+[2NjHYIwvOj6L#0] ^kitaplar/kitap<n><nom>+i<cop><aor><p3><pl>/kitap<n><pl><nom>/kitap<n><pl><nom>+i<cop><aor><p3><sg>$
+[/2NjHYIwvOj6L]
+[32QHg24ncpVF#0] ^cevapsın/cevap<n><nom>+i<cop><aor><p2><sg>$
+[/32QHg24ncpVF]
+[4rzFIXKso-ca#0] ^lebler/leb<n><nom>+i<cop><aor><p3><pl>/leb<n><pl><nom>/leb<n><pl><nom>+i<cop><aor><p3><sg>$
+[/4rzFIXKso-ca]
+[5MwdwXrIxLLc#0] ^atı/at<n><acc>/at<n><px3sp><nom>/at<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/5MwdwXrIxLLc]
+[5tBE2RyYIvKC#0] ^kulağı/kulak<n><acc>/kulak<n><px3sp><nom>/kulak<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/5tBE2RyYIvKC]
+[7O6jG7U9NUhc#0] ^lebi/leb<n><acc>/leb<n><px3sp><nom>/leb<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/7O6jG7U9NUhc]
+[BBCD3HDlCyUV#0] ^lebsin/leb<n><nom>+i<cop><aor><p2><sg>$
+[/BBCD3HDlCyUV]
+[Cn88ITpWcDGq#0] ^jeologsun/jeolog<n><nom>+i<cop><aor><p2><sg>$
+[/Cn88ITpWcDGq]
+[D8LXq5RHfAjX#0] ^kitaba/kitap<n><dat>/kitap<n><dat>+i<cop><aor><p3><sg>$
+[/D8LXq5RHfAjX]
+[EuvsuwksBMe1#0] ^yurtsun/yurt<n><nom>+i<cop><aor><p2><sg>$
+[/EuvsuwksBMe1]
+[FOcCUe_N2uWd#0] ^köpeğe/köpek<n><dat>/köpek<n><dat>+i<cop><aor><p3><sg>$
+[/FOcCUe_N2uWd]
+[H-huJLRNgIPX#0] ^güce/güç<n><dat>/güç<n><dat>+i<cop><aor><p3><sg>$
+[/H-huJLRNgIPX]
+[HpuwIRfBmI-_#0] ^cevaplar/cevap<n><nom>+i<cop><aor><p3><pl>/cevapla<v><tv><aor>/cevapla<v><tv><gpr_aor>/cevapla<v><tv><gna_aor>/cevap<n><pl><nom>/cevapla<v><tv><ger_aor><nom>/cevapla<v><tv><gpr_aor><subst><nom>/cevapla<v><tv><aor>+i<cop><aor><p3><sg>/cevap<n><pl><nom>+i<cop><aor><p3><sg>/cevapla<v><tv><ger_aor><nom>+i<cop><aor><p3><sg>/cevapla<v><tv><gpr_aor><subst><nom>+i<cop><aor><p3><sg>$
+[/HpuwIRfBmI-_]
+[IQv1VeEPDpah#0] ^dağsın/dağ<n><nom>+i<cop><aor><p2><sg>$
+[/IQv1VeEPDpah]
+[KiRreNjtIz5S#0] ^yurtlar/yurt<n><nom>+i<cop><aor><p3><pl>/yurt<n><pl><nom>/yurt<n><pl><nom>+i<cop><aor><p3><sg>$
+[/KiRreNjtIz5S]
+[M0GHDzo8DOTJ#0] ^kulağa/kulak<n><dat>/kulak<n><dat>+i<cop><aor><p3><sg>$
+[/M0GHDzo8DOTJ]
+[MRyxjbPLoAc2#0] ^dağa/dağ<n><dat>/dağ<n><dat>+i<cop><aor><p3><sg>$
+[/MRyxjbPLoAc2]
+[NZYXzspV60RR#0] ^kitapsın/kitap<n><nom>+i<cop><aor><p2><sg>$
+[/NZYXzspV60RR]
+[O3SpB9wD9Mr5#0] ^yurdu/yurt<n><acc>/yurt<n><px3sp><nom>/yurt<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/O3SpB9wD9Mr5]
+[OB0lzxgcArWu#0] ^kulaksın/kulak<n><nom>+i<cop><aor><p2><sg>$
+[/OB0lzxgcArWu]
+[RlVQpUzhv6xr#0] ^dağı/dağ<n><acc>/dağ<n><px3sp><nom>/dağ<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/RlVQpUzhv6xr]
+[SfPIyFwhdG4K#0] ^nakti/*nakti$
+[/SfPIyFwhdG4K]
+[TSJf_jDVgDdx#0] ^güçsün/güç<n><nom>+i<cop><aor><p2><sg>$
+[/TSJf_jDVgDdx]
+[VAuBGLu9OAVk#0] ^gücü/güç<n><acc>/güç<n><px3sp><nom>/gücü<n><nom>/gücü<n><attr>/güç<n><px3sp><nom>+i<cop><aor><p3><sg>/gücü<n><nom>+i<cop><aor><p3><sg>$
+[/VAuBGLu9OAVk]
+[WO8d7Slr14Np#0] ^atsın/at<v><tv><imp><p3><sg>/at<v><tv><imp><p3><pl>/at<n><nom>+i<cop><aor><p2><sg>$
+[/WO8d7Slr14Np]
+[WatoQgpiGpJ6#0] ^ağacı/ağaç<n><acc>/ağaç<n><px3sp><nom>/ağaç<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/WatoQgpiGpJ6]
+[YXANvWMYp_XO#0] ^köpekler/köpek<n><nom>+i<cop><aor><p3><pl>/köpek<n><pl><nom>/köpek<n><pl><nom>+i<cop><aor><p3><sg>$
+[/YXANvWMYp_XO]
+[ZLxEiGAUAfWs#0] ^cevaba/cevap<n><dat>/cevap<n><dat>+i<cop><aor><p3><sg>$
+[/ZLxEiGAUAfWs]
+[_e5DDUC9V97q#0] ^ada/ad<n><dat>/ada<n><nom>/ada<n><attr>/ada<v><tv><imp><p2><sg>/ad<n><dat>+i<cop><aor><p3><sg>/ada<n><nom>+i<cop><aor><p3><sg>$
+[/_e5DDUC9V97q]
+[aeAII7CVPHVN#0] ^adlar/ad<n><nom>+i<cop><aor><p3><pl>/ad<n><pl><nom>/ad<n><pl><nom>+i<cop><aor><p3><sg>$
+[/aeAII7CVPHVN]
+[afMBzIzN8sO5#0] ^köpeği/köpek<n><acc>/köpek<n><px3sp><nom>/köpek<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/afMBzIzN8sO5]
+[c1rZWGwjZKEl#0] ^cevabı/cevap<n><acc>/cevap<n><px3sp><nom>/cevap<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/c1rZWGwjZKEl]
+[crBZsv9b8rgm#0] ^lebe/leb<n><dat>/leb<n><dat>+i<cop><aor><p3><sg>$
+[/crBZsv9b8rgm]
+[eDciX9TnaPqY#0] ^adı/ad<n><acc>/ad<n><px3sp><nom>/ad<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/eDciX9TnaPqY]
+[e_KOq64wUnRU#0] ^jeologa/jeolog<n><dat>/jeolog<n><dat>+i<cop><aor><p3><sg>$
+[/e_KOq64wUnRU]
+[g1okQrVP2SWZ#0] ^yurda/yurt<n><dat>/yurt<n><dat>+i<cop><aor><p3><sg>$
+[/g1okQrVP2SWZ]
+[gwkhJhgD9PNT#0] ^ağaçsın/ağaç<n><nom>+i<cop><aor><p2><sg>$
+[/gwkhJhgD9PNT]
+[i8t5rAot7Bao#0] ^ağaca/ağa<n><sim>/ağaç<n><dat>/ağa<n><sim>+i<cop><aor><p3><sg>/ağaç<n><dat>+i<cop><aor><p3><sg>$
+[/i8t5rAot7Bao]
+[jUBmBwl4b2NC#0] ^jeologlar/jeolog<n><nom>+i<cop><aor><p3><pl>/jeolog<n><pl><nom>/jeolog<n><pl><nom>+i<cop><aor><p3><sg>$
+[/jUBmBwl4b2NC]
+[k1ByPxYgmKJy#0] ^güçler/güç<n><nom>+i<cop><aor><p3><pl>/güç<n><pl><nom>/güç<n><pl><nom>+i<cop><aor><p3><sg>$
+[/k1ByPxYgmKJy]
+[kpPkD6mX0dzY#0] ^jeologu/jeolog<n><acc>/jeolog<n><px3sp><nom>/jeolog<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/kpPkD6mX0dzY]
+[kyWSex7yDM8O#0] ^ağaçlar/ağaç<n><nom>+i<cop><aor><p3><pl>/ağaç<n><pl><nom>/ağaç<n><pl><nom>+i<cop><aor><p3><sg>$
+[/kyWSex7yDM8O]
+[l3gX9vYfTdUB#0] ^ata/at<n><dat>/at<v><tv><pot>/ata<n><nom>/ata<n><attr>/ata<v><tv><imp><p2><sg>/at<n><dat>+i<cop><aor><p3><sg>/at<v><tv><pot>+i<cop><aor><p3><sg>/ata<n><nom>+i<cop><aor><p3><sg>$
+[/l3gX9vYfTdUB]
+[mdaGYKjGTSfX#0] ^atlar/atla<v><tv><ger_aor><nom>/atla<v><tv><gpr_aor><subst><nom>+i<cop><aor><p3><sg>/atla<v><iv><gpr_aor><subst><nom>+i<cop><aor><p3><sg>/atla<v><tv><ger_aor><nom>+i<cop><aor><p3><sg>/atla<v><iv><ger_aor><nom>+i<cop><aor><p3><sg>/at<n><pl><nom>+i<cop><aor><p3><sg>/atla<v><tv><aor>+i<cop><aor><p3><sg>/atla<v><iv><aor>+i<cop><aor><p3><sg>/atla<v><tv><gpr_aor><subst><nom>/atla<v><iv><gpr_aor><subst><nom>/at<n><nom>+i<cop><aor><p3><pl>/atla<v><iv><ger_aor><nom>/at<n><pl><nom>/atla<v><tv><gna_aor>/atla<v><tv><gpr_aor>/atla<v><tv><aor>/atla<v><iv><gna_aor>/atla<v><iv><gpr_aor>/atla<v><iv><aor>$
+[/mdaGYKjGTSfX]
+[mwmp_a92nG6P#0] ^adsın/ad<n><nom>+i<cop><aor><p2><sg>$
+[/mwmp_a92nG6P]
+[sxLP8nBbNc-c#0] ^dağlar/dağ<n><nom>+i<cop><aor><p3><pl>/dağ<n><pl><nom>/dağ<n><pl><nom>+i<cop><aor><p3><sg>$
+[/sxLP8nBbNc-c]
+[wOGJFdyugv0X#0] ^kitabı/kitap<n><acc>/kitap<n><px3sp><nom>/kitap<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/wOGJFdyugv0X]
+[yqFVBghIO8lN#0] ^kulaklar/kulak<n><nom>+i<cop><aor><p3><pl>/kulak<n><pl><nom>/kulak<n><pl><nom>+i<cop><aor><p3><sg>$
+[/yqFVBghIO8lN]

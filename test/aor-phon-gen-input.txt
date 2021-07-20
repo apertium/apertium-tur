@@ -1,0 +1,19 @@
+# [twol] {i} aor after vowel
+^pudrala<v><tv><aor><p3><sg>$
+^pudrala<v><tv><aor><p1><sg>$
+# [twol] {i} aor after cons
+^yen<v><tv><aor><p3><sg>$
+^yen<v><tv><aor><p1><sg>$
+# [twol] {i} aor after passive
+^pudrala<v><tv><pass><aor><p3><sg>$
+^pudrala<v><tv><pass><aor><p1><sg>$
+# [twol] forms with {z}:0
+^git<v><iv><neg><aor><p1><sg>$
+^git<v><iv><neg><aor><p1><pl>$
+^git<v><iv><abil><neg><aor><p1><sg>$
+^git<v><iv><abil><neg><aor><p1><pl>$
+# [twol] forms with {z}:z
+^git<v><iv><neg><aor><p2><sg>$
+^git<v><iv><neg><aor><p2><pl>$
+^git<v><iv><abil><neg><aor><p2><sg>$
+^git<v><iv><abil><neg><aor><p2><pl>$

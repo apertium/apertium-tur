@@ -1,0 +1,69 @@
+# [lexc] Accusative
+^1<num><subst><acc>$
+^1<num><subst><px3sp><nom>$
+^2<num><subst><acc>$
+^3<num><subst><acc>$
+^3<num><subst><px3sp><nom>$
+^4<num><subst><acc>$
+^4<num><subst><px3sp><nom>$
+^5<num><subst><acc>$
+^5<num><subst><px3sp><nom>$
+^6<num><subst><acc>$
+^7<num><subst><acc>$
+^8<num><subst><acc>$
+^8<num><subst><px3sp><nom>$
+^9<num><subst><acc>$
+^9<num><subst><px3sp><nom>$
+# [lexc] Genitive
+^1<num><subst><gen>$
+^2<num><subst><gen>$
+^2<num><subst><px2sg><gen>$
+^3<num><subst><gen>$
+^4<num><subst><gen>$
+^5<num><subst><gen>$
+^6<num><subst><gen>$
+^6<num><subst><px2sg><gen>$
+^7<num><subst><gen>$
+^7<num><subst><px2sg><gen>$
+^8<num><subst><gen>$
+^9<num><subst><gen>$
+# [lexc] Dative
+^1<num><subst><dat>$
+^2<num><subst><dat>$
+^3<num><subst><dat>$
+^4<num><subst><dat>$
+^5<num><subst><dat>$
+^6<num><subst><dat>$
+^7<num><subst><dat>$
+^8<num><subst><dat>$
+^9<num><subst><dat>$
+# [lexc] Locative
+^1<num><subst><loc>$
+^2<num><subst><loc>$
+^3<num><subst><loc>$
+^4<num><subst><loc>$
+^5<num><subst><loc>$
+^6<num><subst><loc>$
+^7<num><subst><loc>$
+^8<num><subst><loc>$
+^9<num><subst><loc>$
+# [lexc] Ablative
+^1<num><subst><abl>$
+^2<num><subst><abl>$
+^3<num><subst><abl>$
+^4<num><subst><abl>$
+^5<num><subst><abl>$
+^6<num><subst><abl>$
+^7<num><subst><abl>$
+^8<num><subst><abl>$
+^9<num><subst><abl>$
+# [lexc] Ordinal
+^1<num><ord>$
+^2<num><ord>$
+^3<num><ord>$
+^4<num><ord>$
+^5<num><ord>$
+^6<num><ord>$
+^7<num><ord>$
+^8<num><ord>$
+^9<num><ord>$

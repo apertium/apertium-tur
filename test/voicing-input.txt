@@ -1,0 +1,54 @@
+# [twol] nouns with always voiceless cons
+ata
+atı
+atlar
+atsın
+# [twol] nouns with always voiced cons
+ada
+adı
+adlar
+adsın
+lebe
+lebi
+lebler
+lebsin
+dağa
+dağı
+dağlar
+dağsın
+jeologa
+jeologu
+jeologlar
+jeologsun
+# [twol] nouns with always variant cons, voiceless
+kitaplar
+kitapsın
+cevaplar
+cevapsın
+yurtlar
+yurtsun
+güçler
+güçsün
+ağaçlar
+ağaçsın
+köpekler
+köpeksin
+kulaklar
+kulaksın
+# [twol] nouns with always variant cons, voiced
+kitaba
+kitabı
+cevaba
+cevabı
+yurda
+yurdu
+güce
+gücü
+ağaca
+ağacı
+köpeğe
+köpeği
+kulağa
+kulağı
+# [twol] interaction with epenthetic vowels
+nakti

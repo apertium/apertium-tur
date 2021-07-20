@@ -1,0 +1,66 @@
+[22o_YooemIzO#0] ^gelmekteydim/gel<v><iv><ger_inf><loc>+i<cop><ifi><p1><sg>$
+[/22o_YooemIzO]
+[3xPtl33LFOS6#0] ^alıyordum/al<v><tv><prog>+i<cop><ifi><p1><sg>$
+[/3xPtl33LFOS6]
+[6l0SWkcCzdcb#0] ^gelmişim/gel<v><iv><past>+i<cop><aor><p1><sg>/gel<v><iv><ger_pabs><nom>+i<cop><aor><p1><sg>/gel<v><iv><ger_pabs><px1sg><nom>/gel<v><iv><ger_pabs><px1sg><nom>+i<cop><aor><p3><sg>$
+[/6l0SWkcCzdcb]
+[7gqKyTk-Qf82#0] ^yağmış/yağ<v><iv><past>/yağ<v><iv><ger_pabs><nom>/yağ<n><nom>+i<cop><dub><aor><p3><sg>/yağ<v><iv><past>+i<cop><aor><p3><sg>/yağ<v><iv><ger_pabs><nom>+i<cop><aor><p3><sg>$
+[/7gqKyTk-Qf82]
+[8NPogWG6hzWg#0] ^alıyormuşum/al<v><tv><prog><dub>+i<cop><aor><p1><sg>$
+[/8NPogWG6hzWg]
+[8Xf5JPgl6-xu#0] ^gelecekmişim/gelecek<adj>+i<cop><dub><aor><p1><sg>/gelecek<n><nom>+i<cop><dub><aor><p1><sg>/gel<v><iv><gpr_fut><subst><nom>+i<cop><dub><aor><p1><sg>/gelecek<adj><subst><nom>+i<cop><dub><aor><p1><sg>/gel<v><iv><fut><dub>+i<cop><aor><p1><sg>$
+[/8Xf5JPgl6-xu]
+[9iK2J3fy94-O#0] ^gelirdim/gel<v><iv><aor>+i<cop><ifi><p1><sg>/gel<v><iv><ger_aor><nom>+i<cop><ifi><p1><sg>/gelir<n><nom>+i<cop><ifi><p1><sg>/gel<v><iv><gpr_aor><subst><nom>+i<cop><ifi><p1><sg>$
+[/9iK2J3fy94-O]
+[A6s-9L8LamVL#0] ^geleceksem/gelecek<adj>+i<cop><cond><p1><sg>/gel<v><iv><fut>+i<cop><cond><p1><sg>/gelecek<n><nom>+i<cop><cond><p1><sg>/gel<v><iv><gpr_fut><subst><nom>+i<cop><cond><p1><sg>/gelecek<adj><subst><nom>+i<cop><cond><p1><sg>$
+[/A6s-9L8LamVL]
+[AnKlJlwcRhJX#0] ^geleyim/gel<v><iv><imp><p1><sg>/gel<v><iv><imp><p1><sg>/gel<v><iv><pot>+i<cop><aor><p1><sg>$
+[/AnKlJlwcRhJX]
+[B9A1hKso6lj9#0] ^geldiysem/gel<v><iv><ifi>+i<cop><cond><p1><sg>$
+[/B9A1hKso6lj9]
+[BDAYutLqYrgQ#0] ^ediliyor/et<v><tv><pass><prog>/edil<v><iv><prog>/et<v><tv><pass><prog>+i<cop><aor><p3><sg>/edil<v><iv><prog>+i<cop><aor><p3><sg>$
+[/BDAYutLqYrgQ]
+[F8Ei9_rMlbmT#0] ^geldim/gel<v><iv><ifi><p1><sg>$
+[/F8Ei9_rMlbmT]
+[KvyrrpoiR62Z#0] ^alıyorsam/al<v><tv><prog>+i<cop><cond><p1><sg>$
+[/KvyrrpoiR62Z]
+[LLOqdq_b6yrs#0] ^gelmiştir/gel<v><iv><past>+i<cop><aor><p3><frm><sg>/gel<v><iv><ger_pabs><nom>+i<cop><aor><p3><sg><gm>$
+[/LLOqdq_b6yrs]
+[P76tdcOdN0HH#0] ^gelseydim/gel<v><iv><cond>+i<cop><ifi><p1><sg>$
+[/P76tdcOdN0HH]
+[Sv8Y3Q4q1D0W#0] ^yapılacak/yap<v><tv><pass><gpr_fut>/yap<v><tv><pass><fut>/yapıl<v><iv><gpr_fut>/yapıl<v><iv><fut>/yap<v><tv><pass><gpr_fut><subst><nom>/yapıl<v><iv><gpr_fut><subst><nom>/yap<v><tv><pass><fut>+i<cop><aor><p3><sg>/yapıl<v><iv><fut>+i<cop><aor><p3><sg>/yap<v><tv><pass><gpr_fut><subst><nom>+i<cop><aor><p3><sg>/yapıl<v><iv><gpr_fut><subst><nom>+i<cop><aor><p3><sg>$
+[/Sv8Y3Q4q1D0W]
+[Uf69IUSjwVdd#0] ^gelmeliyim/gelme<n>+lı<post><p1><sg>/gel<v><iv><nec>+i<cop><aor><p1><sg>/gelmeli<adj>+i<cop><aor><p1><sg>/gelmeli<adj><subst><nom>+i<cop><aor><p1><sg>$
+[/Uf69IUSjwVdd]
+[X5_PrFnjnSKg#0] ^gelecektir/gel<v><iv><fut>+i<cop><aor><p3><frm><sg>/gelecek<adj>+i<cop><aor><p3><sg><gm>/gelecek<n><nom>+i<cop><aor><p3><sg><gm>/gel<v><iv><gpr_fut><subst><nom>+i<cop><aor><p3><sg><gm>/gelecek<adj><subst><nom>+i<cop><aor><p3><sg><gm>$
+[/X5_PrFnjnSKg]
+[Z-WzGWJWh1Ac#0] ^gelmiştim/gel<v><iv><past>+i<cop><ifi><p1><sg>/gel<v><iv><ger_pabs><nom>+i<cop><ifi><p1><sg>$
+[/Z-WzGWJWh1Ac]
+[fmW0kDtAnMEm#0] ^gelsem/gel<v><iv><cond><p1><sg>/gel<v><iv><gna_cond><p1><sg>$
+[/fmW0kDtAnMEm]
+[itAlP7alx2bs#0] ^gelirim/gel<v><iv><aor>+i<cop><aor><p1><sg>/gel<v><iv><ger_aor><nom>+i<cop><aor><p1><sg>/gelir<n><nom>+i<cop><aor><p1><sg>/gel<v><iv><gpr_aor><subst><nom>+i<cop><aor><p1><sg>/gel<v><iv><ger_aor><px1sg><nom>/gelir<n><px1sg><nom>/gel<v><iv><gpr_aor><subst><px1sg><nom>/gel<v><iv><ger_aor><px1sg><nom>+i<cop><aor><p3><sg>/gelir<n><px1sg><nom>+i<cop><aor><p3><sg>/gel<v><iv><gpr_aor><subst><px1sg><nom>+i<cop><aor><p3><sg>$
+[/itAlP7alx2bs]
+[jvYgvFvvlZOv#0] ^almıştım/al<adj>+i<cop><dub><ifi><p1><sg>/al<n><nom>+i<cop><dub><ifi><p1><sg>/al<adj><subst><nom>+i<cop><dub><ifi><p1><sg>/al<v><tv><past>+i<cop><ifi><p1><sg>/al<v><tv><ger_pabs><nom>+i<cop><ifi><p1><sg>$
+[/jvYgvFvvlZOv]
+[l-PANbKRSzjL#0] ^olmaz/ol<v><iv><neg><aor>/ol<v><iv><gpr_aor><neg>/ol<v><iv><gpr_aor><neg><subst><nom>/ol<v><iv><neg><aor>+i<cop><aor><p3><sg>/ol<v><iv><gpr_aor><neg><subst><nom>+i<cop><aor><p3><sg>$
+[/l-PANbKRSzjL]
+[lfO7Khy9vXno#0] ^yaptıracak/yap<v><tv><caus><gpr_fut>/yap<v><tv><caus><fut>/yaptır<v><tv><gpr_fut>/yaptır<v><tv><fut>/yap<v><tv><caus><gpr_fut><subst><nom>/yaptır<v><tv><gpr_fut><subst><nom>/yap<v><tv><caus><fut>+i<cop><aor><p3><sg>/yaptır<v><tv><fut>+i<cop><aor><p3><sg>/yap<v><tv><caus><gpr_fut><subst><nom>+i<cop><aor><p3><sg>/yaptır<v><tv><gpr_fut><subst><nom>+i<cop><aor><p3><sg>$
+[/lfO7Khy9vXno]
+[muMtTqZPKcL5#0] ^yapıldı/yap<v><tv><pass><ifi><p3><sg>/yapıl<v><iv><ifi><p3><sg>$
+[/muMtTqZPKcL5]
+[q-xQaIYfOsvO#0] ^gelecek/gel<v><iv><gpr_fut>/gel<v><iv><fut>/gelecek<adj>/gelecek<n><nom>/gelecek<n><attr>/gelecek<adj><advl>/gel<v><iv><gpr_fut><subst><nom>/gelecek<adj><subst><nom>/gel<v><iv><fut>+i<cop><aor><p3><sg>/gelecek<adj>+i<cop><aor><p3><sg>/gelecek<n><nom>+i<cop><aor><p3><sg>/gel<v><iv><gpr_fut><subst><nom>+i<cop><aor><p3><sg>/gelecek<adj><subst><nom>+i<cop><aor><p3><sg>$
+[/q-xQaIYfOsvO]
+[sMXmjujjmCqN#0] ^yapılmış/yap<v><tv><pass><past>/yapıl<v><iv><past>/yap<v><tv><pass><ger_pabs><nom>/yapıl<v><iv><ger_pabs><nom>/yap<v><tv><pass><past>+i<cop><aor><p3><sg>/yapıl<v><iv><past>+i<cop><aor><p3><sg>/yap<v><tv><pass><ger_pabs><nom>+i<cop><aor><p3><sg>/yapıl<v><iv><ger_pabs><nom>+i<cop><aor><p3><sg>$
+[/sMXmjujjmCqN]
+[t2IVphoujmd7#0] ^gelmişsem/gel<v><iv><ger_pabs><nom>+i<cop><cond><p1><sg>/gel<v><iv><past>+i<cop><cond><p1><sg>$
+[/t2IVphoujmd7]
+[uewLUCbmgIXT#0] ^gelecektim/gel<v><iv><fut>+i<cop><ifi><p1><sg>/gelecek<adj>+i<cop><ifi><p1><sg>/gelecek<n><nom>+i<cop><ifi><p1><sg>/gel<v><iv><gpr_fut><subst><nom>+i<cop><ifi><p1><sg>/gelecek<adj><subst><nom>+i<cop><ifi><p1><sg>$
+[/uewLUCbmgIXT]
+[vUQlFb0_aUv0#0] ^geleceğim/gel<v><iv><gpr_fut><px1sg>/gel<v><iv><fut>+i<cop><aor><p1><sg>/gel<v><iv><gpr_fut><subst><nom>+i<cop><aor><p1><sg>/gel<v><iv><gpr_fut><subst><px1sg><nom>/gel<v><iv><gpr_fut><subst><px1sg><nom>+i<cop><aor><p3><sg>$
+[/vUQlFb0_aUv0]
+[wBHUA9cGmKGk#0] ^gelirsem/gel<v><iv><aor>+i<cop><cond><p1><sg>/gel<v><iv><ger_aor><nom>+i<cop><cond><p1><sg>/gelir<n><nom>+i<cop><cond><p1><sg>/gel<v><iv><gpr_aor><subst><nom>+i<cop><cond><p1><sg>$
+[/wBHUA9cGmKGk]
+[wI2juUE8Pl6d#0] ^olur/ol<v><iv><aor>/ol<v><iv><gpr_aor>/ol<v><iv><gna_aor>/ol<v><iv><ger_aor><nom>/olur<n><nom>/olur<n><attr>/ol<v><iv><gpr_aor><subst><nom>/ol<v><iv><aor>+i<cop><aor><p3><sg>/ol<v><iv><ger_aor><nom>+i<cop><aor><p3><sg>/olur<n><nom>+i<cop><aor><p3><sg>/ol<v><iv><gpr_aor><subst><nom>+i<cop><aor><p3><sg>$
+[/wI2juUE8Pl6d]
+[x4eFkJefUSG6#0] ^oynuyordum/oyna<v><iv><prog>+i<cop><ifi><p1><sg>/oyna<v><tv><prog>+i<cop><ifi><p1><sg>$
+[/x4eFkJefUSG6]

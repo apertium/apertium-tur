@@ -1,0 +1,8 @@
+[2CGqRXNaAgxb#0] ^eder/et<v><tv><aor>/et<v><tv><gpr_aor>/et<v><tv><gna_aor>/et<v><tv><ger_aor><nom>/eder<n><nom>/eder<n><attr>/et<v><tv><gpr_aor><subst><nom>/et<v><tv><aor>+i<cop><aor><p3><sg>/et<v><tv><ger_aor><nom>+i<cop><aor><p3><sg>/eder<n><nom>+i<cop><aor><p3><sg>/et<v><tv><gpr_aor><subst><nom>+i<cop><aor><p3><sg>$
+[/2CGqRXNaAgxb]
+[5VjZal9BFfDo#0] ^ederim/et<v><tv><aor>+i<cop><aor><p1><sg>/et<v><tv><ger_aor><nom>+i<cop><aor><p1><sg>/eder<n><nom>+i<cop><aor><p1><sg>/et<v><tv><gpr_aor><subst><nom>+i<cop><aor><p1><sg>/et<v><tv><ger_aor><px1sg><nom>/eder<n><px1sg><nom>/et<v><tv><gpr_aor><subst><px1sg><nom>/et<v><tv><ger_aor><px1sg><nom>+i<cop><aor><p3><sg>/eder<n><px1sg><nom>+i<cop><aor><p3><sg>/et<v><tv><gpr_aor><subst><px1sg><nom>+i<cop><aor><p3><sg>$
+[/5VjZal9BFfDo]
+[BDAYutLqYrgQ#0] ^ediliyor/et<v><tv><pass><prog>/edil<v><iv><prog>/et<v><tv><pass><prog>+i<cop><aor><p3><sg>/edil<v><iv><prog>+i<cop><aor><p3><sg>$
+[/BDAYutLqYrgQ]
+[aIy7ZRkVIjOt#0] ^ettim/et<v><tv><ifi><p1><sg>/et<n><nom>+i<cop><ifi><p1><sg>$
+[/aIy7ZRkVIjOt]

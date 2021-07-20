@@ -1,0 +1,25 @@
+# [twol] passives after vowels
+^ye<v><tv><pass><past><p3><sg>$
+^çiğne<v><tv><pass><past><p3><sg>$
+^iste<v><tv><pass><past><p3><sg>$
+^koru<v><tv><pass><past><p3><sg>$
+^oyna<v><tv><pass><past><p3><sg>$
+^boya<v><tv><pass><past><p3><sg>$
+^yaşa<v><tv><pass><past><p3><sg>$
+^oku<v><tv><pass><past><p3><sg>$
+^yıka<v><tv><pass><past><p3><sg>$
+# [twol] passives after l without interceding vowel
+^kal<v><tv><pass><past><p3><sg>$
+^çal<v><tv><pass><past><p3><sg>$
+^al<v><tv><pass><past><p3><sg>$
+^sil<v><tv><pass><past><p3><sg>$
+# [twol] passives after l with interceding vowel
+^başla<v><tv><pass><past><p3><sg>$
+^söyle<v><tv><pass><past><p3><sg>$
+^hazırla<v><tv><pass><past><p3><sg>$
+^sula<v><tv><pass><past><p3><sg>$
+# [twol] passives after consonants
+^sor<v><tv><pass><past><p3><sg>$
+^beğen<v><tv><pass><past><p3><sg>$
+^çevir<v><tv><pass><past><p3><sg>$
+^kullan<v><tv><pass><past><p3><sg>$

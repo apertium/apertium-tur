@@ -21,3 +21,11 @@
 /tur.automorf.hfst
 /tur.rlx.bin
 /tests/morphotactics/*.txt.gz
+/*.zhfst
+/.DS_Store
+/*.mode
+/*-*.prob
+/config.in
+/config
+/test/*-output.txt
+/*.hfst

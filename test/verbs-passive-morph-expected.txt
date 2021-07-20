@@ -1,0 +1,42 @@
+[-UmjAIIoH4-3#0] ^yendi/ye<v><tv><pass><ifi><p3><sg>/yen<v><tv><ifi><p3><sg>/yen<n><nom>+i<cop><ifi><p3><sg>$
+[/-UmjAIIoH4-3]
+[8epHL8Pg9ZrT#0] ^yaşandı/yaşa<v><tv><pass><ifi><p3><sg>/yaşan<v><iv><ifi><p3><sg>$
+[/8epHL8Pg9ZrT]
+[8sgTei39-ky0#0] ^kullanıldı/kullan<v><tv><pass><ifi><p3><sg>/kullanıl<v><iv><ifi><p3><sg>$
+[/8sgTei39-ky0]
+[93NYBq3ImP13#0] ^boyandı/boya<v><tv><pass><ifi><p3><sg>/boya<n><px2sg><nom>+i<cop><ifi><p3><sg>$
+[/93NYBq3ImP13]
+[A0bxKZ6-vfza#0] ^beğenildi/beğen<v><tv><pass><ifi><p3><sg>$
+[/A0bxKZ6-vfza]
+[A2Z_86RNwprs#0] ^yıkandı/yıka<v><tv><pass><ifi><p3><sg>/yıkan<v><iv><ifi><p3><sg>/yık<v><tv><ger_impf><nom>+i<cop><ifi><p3><sg>/yık<v><tv><gpr_rsub><subst><nom>+i<cop><ifi><p3><sg>$
+[/A2Z_86RNwprs]
+[EgsnzYDOQIx0#0] ^kalındı/kal<v><iv><pass><ifi><p3><sg>/kalın<adj>+i<cop><ifi><p3><sg>/kalın<adj><subst><nom>+i<cop><ifi><p3><sg>$
+[/EgsnzYDOQIx0]
+[H6_5dHUvJMzU#0] ^başlandı/başla<v><iv><pass><ifi><p3><sg>/başlan<v><iv><ifi><p3><sg>$
+[/H6_5dHUvJMzU]
+[KjGTS7DJuiqV#0] ^istendi/iste<v><tv><pass><ifi><p3><sg>/is<n><abl>+i<cop><ifi><p3><sg>$
+[/KjGTS7DJuiqV]
+[LMtLeSW7O85c#0] ^hazırlandı/hazırla<v><tv><pass><ifi><p3><sg>/hazırlan<v><iv><ifi><p3><sg>$
+[/LMtLeSW7O85c]
+[LXG5hb8_lfkk#0] ^alındı/al<v><tv><pass><ifi><p3><sg>/alın<v><iv><ifi><p3><sg>/al<n><gen>+i<cop><ifi><p3><sg>/al<adj><subst><gen>+i<cop><ifi><p3><sg>/al<n><px2sg><nom>+i<cop><ifi><p3><sg>/al<adj><subst><px2sg><nom>+i<cop><ifi><p3><sg>/alın<n><nom>+i<cop><ifi><p3><sg>$
+[/LXG5hb8_lfkk]
+[Lcay_U9m5HqY#0] ^sulandı/sula<v><tv><pass><ifi><p3><sg>$
+[/Lcay_U9m5HqY]
+[S6gDbd1tOvpe#0] ^çalındı/çal<v><tv><pass><ifi><p3><sg>/çalın<v><iv><ifi><p3><sg>/çal<n><gen>+i<cop><ifi><p3><sg>/çal<n><px2sg><nom>+i<cop><ifi><p3><sg>/çalı<n><px2sg><nom>+i<cop><ifi><p3><sg>$
+[/S6gDbd1tOvpe]
+[UrJFpY81ah6G#0] ^soruldu/sor<v><tv><pass><ifi><p3><sg>$
+[/UrJFpY81ah6G]
+[VFHiLQo3GyXr#0] ^oynandı/oyna<v><iv><pass><ifi><p3><sg>/oyna<v><tv><pass><ifi><p3><sg>$
+[/VFHiLQo3GyXr]
+[WTcD3h22cL87#0] ^silindi/sil<v><tv><pass><ifi><p3><sg>$
+[/WTcD3h22cL87]
+[c0EVx7klh0Hx#0] ^korundu/koru<v><tv><pass><ifi><p3><sg>/korun<v><iv><ifi><p3><sg>/kor<n><gen>+i<cop><ifi><p3><sg>/kor<n><px2sg><nom>+i<cop><ifi><p3><sg>/koru<n><px2sg><nom>+i<cop><ifi><p3><sg>/koru<adj><subst><px2sg><nom>+i<cop><ifi><p3><sg>$
+[/c0EVx7klh0Hx]
+[jW_fTn7IqO4_#0] ^çevirildi/çevir<v><tv><pass><ifi><p3><sg>/çeviril<v><iv><ifi><p3><sg>$
+[/jW_fTn7IqO4_]
+[kSUNgd6GnLgx#0] ^söylendi/söyle<v><tv><pass><ifi><p3><sg>/söylen<v><iv><ifi><p3><sg>$
+[/kSUNgd6GnLgx]
+[o-FXgZObxnfI#0] ^çiğnendi/çiğne<v><tv><pass><ifi><p3><sg>$
+[/o-FXgZObxnfI]
+[x17XWhrM1Eqw#0] ^okundu/oku<v><tv><pass><ifi><p3><sg>/ok<n><gen>+i<cop><ifi><p3><sg>/ok<n><px2sg><nom>+i<cop><ifi><p3><sg>$
+[/x17XWhrM1Eqw]

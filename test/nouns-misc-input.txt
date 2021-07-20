@@ -1,0 +1,32 @@
+# [twol] Prevocalic consonant voicing
+kitap
+kitabı
+kitabı
+tat
+tadı
+tadı
+# [twol] {A} harmony
+kitaplar
+evler
+saatler
+kitaplar
+evler
+saatler
+# [twol] {A} harmony in dative
+kitaba
+anneye
+eve
+saate
+# POSSESSIVES
+evim
+evin
+evi
+evimiz
+eviniz
+evleri
+# f-f-f-f
+festivale
+festivali
+# f-f-f-2
+petrole
+petrolü

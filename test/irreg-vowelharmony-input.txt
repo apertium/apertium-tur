@@ -1,0 +1,50 @@
+# [twol] some nouns, suffixes starting in vowels
+saate
+saati
+dikkate
+dikkati
+idrake
+idraki
+harfe
+harfi
+terminale
+terminali
+festivale
+festivali
+# [twol] some nouns, suffixes starting in consonants
+saatler
+saatsin
+dikkatler
+dikkatsin
+idrakler
+idraksin
+harfler
+harfsin
+terminaller
+terminalsin
+festivaller
+festivalsin
+# [twol] an adjective
+meşguller
+meşgule
+meşgulü
+# [twol] interaction with 'devoicing', suffixes starting in vowels
+kalbe
+kalbi
+harbe
+harbi
+# [twol] interaction with 'devoicing', suffixes starting in consonants
+kalpler
+kalpsin
+harpler
+harpsin
+# [twol] interaction with epenthesis
+vakit
+vakti
+vaktiniz
+vakte
+vakitte
+vakti
+vaktini
+vaktine
+vaktinde

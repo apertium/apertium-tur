@@ -1,0 +1,54 @@
+# [twol] nouns with always voiceless cons
+^at<n><dat>$
+^at<n><px3sp><nom>$
+^at<n><pl><nom>$
+^at<n><nom>+i<cop><pres><p2><sg>$
+# [twol] nouns with always voiced cons
+^ad<n><dat>$
+^ad<n><px3sp><nom>$
+^ad<n><pl><nom>$
+^ad<n><nom>+i<cop><pres><p2><sg>$
+^leb<n><dat>$
+^leb<n><px3sp><nom>$
+^leb<n><pl><nom>$
+^leb<n><nom>+i<cop><pres><p2><sg>$
+^dağ<n><dat>$
+^dağ<n><px3sp><nom>$
+^dağ<n><pl><nom>$
+^dağ<n><nom>+i<cop><pres><p2><sg>$
+^jeolog<n><dat>$
+^jeolog<n><px3sp><nom>$
+^jeolog<n><pl><nom>$
+^jeolog<n><nom>+i<cop><pres><p2><sg>$
+# [twol] nouns with always variant cons, voiceless
+^kitap<n><pl><nom>$
+^kitap<n><nom>+i<cop><pres><p2><sg>$
+^cevap<n><pl><nom>$
+^cevap<n><nom>+i<cop><pres><p2><sg>$
+^yurt<n><pl><nom>$
+^yurt<n><nom>+i<cop><pres><p2><sg>$
+^güç<n><pl><nom>$
+^güç<n><nom>+i<cop><pres><p2><sg>$
+^ağaç<n><pl><nom>$
+^ağaç<n><nom>+i<cop><pres><p2><sg>$
+^köpek<n><pl><nom>$
+^köpek<n><nom>+i<cop><pres><p2><sg>$
+^kulak<n><pl><nom>$
+^kulak<n><nom>+i<cop><pres><p2><sg>$
+# [twol] nouns with always variant cons, voiced
+^kitap<n><dat>$
+^kitap<n><px3sp><nom>$
+^cevap<n><dat>$
+^cevap<n><px3sp><nom>$
+^yurt<n><dat>$
+^yurt<n><px3sp><nom>$
+^güç<n><dat>$
+^güç<n><px3sp><nom>$
+^ağaç<n><dat>$
+^ağaç<n><px3sp><nom>$
+^köpek<n><dat>$
+^köpek<n><px3sp><nom>$
+^kulak<n><dat>$
+^kulak<n><px3sp><nom>$
+# [twol] interaction with epenthetic vowels
+^nakit<n><px3sp><nom>$

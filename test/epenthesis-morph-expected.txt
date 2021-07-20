@@ -1,0 +1,38 @@
+[0JBKCJpWogFJ#0] ^akla/ak<n><ins>/ak<adj><subst><ins>/akıl<n><dat>/akla<v><tv><imp><p2><sg>/ak<n><ins>+i<cop><aor><p3><sg>/ak<adj><subst><ins>+i<cop><aor><p3><sg>/akıl<n><dat>+i<cop><aor><p3><sg>$
+[/0JBKCJpWogFJ]
+[5YDKO5Fdox1v#0] ^akıl/akıl<n><nom>/akıl<n><attr>/ak<v><iv><pass><imp><p2><sg>/akıl<n><nom>+i<cop><aor><p3><sg>$
+[/5YDKO5Fdox1v]
+[6b-AevHvaLhe#0] ^burnu/burun<n><acc>/burun<n><px3sp><nom>/burun<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/6b-AevHvaLhe]
+[7g49bjpnsNrF#0] ^burunsun/burun<n><nom>+i<cop><aor><p2><sg>$
+[/7g49bjpnsNrF]
+[CA7q_LAW7VUJ#0] ^nakte/nakit<n><dat>/nakit<n><dat>+i<cop><aor><p3><sg>$
+[/CA7q_LAW7VUJ]
+[D3eJ3HC43DXs#0] ^burna/burun<n><dat>/burun<n><dat>+i<cop><aor><p3><sg>$
+[/D3eJ3HC43DXs]
+[DTk4hHt433AU#0] ^aklım/akıl<n><nom>+i<cop><aor><p1><sg>/akıl<n><px1sg><nom>/akıl<n><px1sg><nom>+i<cop><aor><p3><sg>$
+[/DTk4hHt433AU]
+[MOdp73xRvh9O#0] ^burun/bur<v><tv><imp><p2><pl>/burun<n><nom>/burun<n><attr>/burun<n><nom>+i<cop><aor><p3><sg>$
+[/MOdp73xRvh9O]
+[SA_ogUjnWi2r#0] ^nakit/nakit<n><nom>/nakit<n><attr>/nakit<n><nom>+i<cop><aor><p3><sg>$
+[/SA_ogUjnWi2r]
+[SfPIyFwhdG4K#0] ^nakti/*nakti$
+[/SfPIyFwhdG4K]
+[_ajjDcWtXcsC#0] ^akılsın/ak<v><iv><pass><imp><p3><sg>/ak<v><iv><pass><imp><p3><pl>/akıl<n><nom>+i<cop><aor><p2><sg>$
+[/_ajjDcWtXcsC]
+[bYak7dOD8RKo#0] ^akıldan/akıl<n><abl>/akıl<n><abl>+i<cop><aor><p3><sg>$
+[/bYak7dOD8RKo]
+[g4t1Xrigi46w#0] ^şehri/şehir<n><acc>/şehir<n><px3sp><nom>/şehir<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/g4t1Xrigi46w]
+[i7DMm0zbObL_#0] ^aklı/akıl<n><acc>/akıl<n><px3sp><nom>/ak<n>+lı<post>/ak<adj><subst>+lı<post>/akıl<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/i7DMm0zbObL_]
+[tP9OCycDRG8X#0] ^şehir/şehir<adj>/şehir<n><nom>/şehir<n><attr>/şehir<adj><advl>/şehir<adj><subst><nom>/şehir<adj>+i<cop><aor><p3><sg>/şehir<n><nom>+i<cop><aor><p3><sg>/şehir<adj><subst><nom>+i<cop><aor><p3><sg>$
+[/tP9OCycDRG8X]
+[v63yy1Mt6o-i#0] ^şehirsin/şehir<adj>+i<cop><aor><p2><sg>/şehir<n><nom>+i<cop><aor><p2><sg>/şehir<adj><subst><nom>+i<cop><aor><p2><sg>$
+[/v63yy1Mt6o-i]
+[vv-yT_ZNewXx#0] ^burundan/burun<n><abl>/burun<n><abl>+i<cop><aor><p3><sg>$
+[/vv-yT_ZNewXx]
+[wgROrJ3vdB6P#0] ^şehre/şehir<n><dat>/şehir<n><dat>+i<cop><aor><p3><sg>$
+[/wgROrJ3vdB6P]
+[yfXrayatwGiQ#0] ^şehirden/şehir<n><abl>/şehir<adj><subst><abl>/şehir<n><abl>+i<cop><aor><p3><sg>/şehir<adj><subst><abl>+i<cop><aor><p3><sg>$
+[/yfXrayatwGiQ]

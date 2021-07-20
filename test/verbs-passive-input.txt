@@ -1,0 +1,25 @@
+# [twol] passives after vowels
+yendi
+çiğnendi
+istendi
+korundu
+oynandı
+boyandı
+yaşandı
+okundu
+yıkandı
+# [twol] passives after l without interceding vowel
+kalındı
+çalındı
+alındı
+silindi
+# [twol] passives after l with interceding vowel
+başlandı
+söylendi
+hazırlandı
+sulandı
+# [twol] passives after consonants
+soruldu
+beğenildi
+çevirildi
+kullanıldı

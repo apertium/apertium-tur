@@ -1,0 +1,38 @@
+# [twol] {t} -> d
+ediliyor
+# [twol] Vowel deletion in verb stems before -{I}yor
+oynuyordum
+# [lexc] Passives
+yapılacak
+yapıldı
+yapılmış
+# [lexc] Causatives in -{D}{I}r
+yaptıracak
+# [lexc] Regular verb tenses
+alıyordum
+almıştım
+alıyorsam
+alıyormuşum
+geleceğim
+gelecektir
+gelecek
+gelecektim
+geleceksem
+gelecekmişim
+gelirim
+olur
+olmaz
+gelirdim
+gelirsem
+yağmış
+gelmiştir
+gelmişim
+gelmiştim
+gelmişsem
+gelmeliyim
+geldim
+geldiysem
+gelsem
+gelseydim
+geleyim
+gelmekteydim

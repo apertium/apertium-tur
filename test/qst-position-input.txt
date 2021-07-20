@@ -1,0 +1,11 @@
+# [lexc] invisible copula
+öğrencisin
+öğrenci misin
+öğrenciydin
+öğrenci miyin
+# [lexc] some non-eyewitness past-tense verb forms
+öğrenmişsin
+öğrenmiş misin
+# [lexc] some eyewitness past-tense verb forms
+öğrendin
+öğrendin mi

@@ -1,0 +1,22 @@
+# [twol] forms where there should be no vowel
+^şehir<n><px3sp><nom>$
+^şehir<n><dat>$
+^burun<n><px3sp><nom>$
+^burun<n><dat>$
+^akıl<n><px3sp><nom>$
+^akıl<n><px1sg><nom>$
+^akıl<n><dat>$
+# [twol] forms where the vowel should epenthesise
+^şehir<n><nom>$
+^şehir<n><abl>$
+^şehir<n><nom>+i<cop><pres><p2><sg>$
+^burun<n><nom>$
+^burun<n><abl>$
+^burun<n><nom>+i<cop><pres><p2><sg>$
+^akıl<n><nom>$
+^akıl<n><abl>$
+^akıl<n><nom>+i<cop><pres><p2><sg>$
+# [twol] interaction with irregular vowel harmony
+^nakit<n><nom>$
+^nakit<n><px3sp><nom>$
+^nakit<n><dat>$

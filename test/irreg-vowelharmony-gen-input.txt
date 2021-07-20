@@ -1,0 +1,50 @@
+# [twol] some nouns, suffixes starting in vowels
+^saat<n><dat>$
+^saat<n><px3sp><nom>$
+^dikkat<n><dat>$
+^dikkat<n><px3sp><nom>$
+^idrak<n><dat>$
+^idrak<n><px3sp><nom>$
+^harf<n><dat>$
+^harf<n><px3sp><nom>$
+^terminal<n><dat>$
+^terminal<n><px3sp><nom>$
+^festival<n><dat>$
+^festival<n><px3sp><nom>$
+# [twol] some nouns, suffixes starting in consonants
+^saat<n><pl><nom>$
+^saat<n><nom>+i<cop><aor><p2><sg>$
+^dikkat<n><pl><nom>$
+^dikkat<n><nom>+i<cop><aor><p2><sg>$
+^idrak<n><pl><nom>$
+^idrak<n><nom>+i<cop><aor><p2><sg>$
+^harf<n><pl><nom>$
+^harf<n><nom>+i<cop><aor><p2><sg>$
+^terminal<n><pl><nom>$
+^terminal<n><nom>+i<cop><aor><p2><sg>$
+^festival<n><pl><nom>$
+^festival<n><nom>+i<cop><aor><p2><sg>$
+# [twol] an adjective
+^meşgul<adj><subst><pl><nom>$
+^meşgul<adj><subst><dat>$
+^meşgul<adj><subst><px3sp><nom>$
+# [twol] interaction with 'devoicing', suffixes starting in vowels
+^kalp<n><dat>$
+^kalp<n><px3sp><nom>$
+^harp<n><dat>$
+^harp<n><px3sp><nom>$
+# [twol] interaction with 'devoicing', suffixes starting in consonants
+^kalp<n><pl><nom>$
+^kalp<n><nom>+i<cop><aor><p2><sg>$
+^harp<n><pl><nom>$
+^harp<n><nom>+i<cop><aor><p2><sg>$
+# [twol] interaction with epenthesis
+^vakit<n><nom>$
+^vakit<n><acc>$
+^vakit<n><px2pl><nom>$
+^vakit<n><dat>$
+^vakit<n><loc>$
+^vakit<n><px3sp><nom>$
+^vakit<n><px3sp><acc>$
+^vakit<n><px3sp><dat>$
+^vakit<n><px3sp><loc>$

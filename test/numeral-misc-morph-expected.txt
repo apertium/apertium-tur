@@ -1,0 +1,108 @@
+[1xfW_gwvIwjc#0] ^2/2<num>/2<num><subst><nom>$^'/'<apos>$^ye/ye<cnjcoo>/ye<v><tv><imp><p2><sg>$
+[/1xfW_gwvIwjc]
+[3Q7NI5arK6A3#0] ^1'i/1<num><subst><acc>/1<num><subst><px3sp><nom>/1<num><subst><px3sp><nom>+i<cop><aor><p3><sg>$
+[/3Q7NI5arK6A3]
+[42b6Gwvg3CQc#0] ^4'üncü/4<num><ord>/4<num><ord><subst><nom>/4<num><ord><subst><acc>/4<num><ord><subst><px3sp><nom>/4<num><ord>+i<cop><aor><p3><sg>/4<num><ord><subst><px3sp><nom>+i<cop><aor><p3><sg>$
+[/42b6Gwvg3CQc]
+[4zO3Wcyj10cy#0] ^7/7<num>/7<num><subst><nom>$^'/'<apos>$^ye/ye<cnjcoo>/ye<v><tv><imp><p2><sg>$
+[/4zO3Wcyj10cy]
+[6R0VjU9iNA2V#0] ^3'üncü/3<num><ord>/3<num><ord><subst><nom>/3<num><ord><subst><acc>/3<num><ord><subst><px3sp><nom>/3<num><ord>+i<cop><aor><p3><sg>/3<num><ord><subst><px3sp><nom>+i<cop><aor><p3><sg>$
+[/6R0VjU9iNA2V]
+[73Z63yt0BaOy#0] ^6'ya/6<num><subst><dat>/6<num><subst><dat>+i<cop><aor><p3><sg>$
+[/73Z63yt0BaOy]
+[97tU16lEIeky#0] ^6'yı/6<num><subst><acc>$
+[/97tU16lEIeky]
+[BCqvg-SRJOG2#0] ^4'ü/4<num><subst><acc>/4<num><subst><px3sp><nom>/4<num><subst><px3sp><nom>+i<cop><aor><p3><sg>$
+[/BCqvg-SRJOG2]
+[BSHiVdqef_MP#0] ^5'te/5<num><subst><loc>/5<num><subst><loc>+i<cop><aor><p3><sg>$
+[/BSHiVdqef_MP]
+[BiWBucQWmL9H#0] ^1'in/1<num><subst><gen>/1<num><subst><px2sg><nom>/1<num><subst><gen>+i<cop><aor><p3><sg>/1<num><subst><px2sg><nom>+i<cop><aor><p3><sg>$
+[/BiWBucQWmL9H]
+[BkaTkSXxNM4e#0] ^7/7<num>/7<num><subst><nom>$^'/'<apos>$^nin/*nin$
+[/BkaTkSXxNM4e]
+[C5v194THfstE#0] ^9/9<num>/9<num><subst><nom>$^'/'<apos>$^a/*a$
+[/C5v194THfstE]
+[C8FabxIFKHJC#0] ^5'ten/5<num><subst><abl>/5<num><subst><abl>+i<cop><aor><p3><sg>$
+[/C8FabxIFKHJC]
+[D5nJZQuKEDHA#0] ^6/6<num>/6<num><subst><nom>$^'/'<apos>$^ncı/*ncı$
+[/D5nJZQuKEDHA]
+[E-ZpWO24bQBS#0] ^4'e/4<num><subst><dat>/4<num><subst><dat>+i<cop><aor><p3><sg>$
+[/E-ZpWO24bQBS]
+[HmaU0upd5qXU#0] ^1'de/1<num><subst><loc>/1<num><subst><loc>+i<cop><aor><p3><sg>$
+[/HmaU0upd5qXU]
+[I16faFQdSBr6#0] ^8'in/8<num><subst><gen>/8<num><subst><px2sg><nom>/8<num><subst><gen>+i<cop><aor><p3><sg>/8<num><subst><px2sg><nom>+i<cop><aor><p3><sg>$
+[/I16faFQdSBr6]
+[Ikoe9J8qqhXq#0] ^9/9<num>/9<num><subst><nom>$^'/'<apos>$^u/ve<cnjcoo>$
+[/Ikoe9J8qqhXq]
+[ItD266q9mHiG#0] ^9'uncu/9<num><ord>/9<num><ord><subst><nom>/9<num><ord><subst><acc>/9<num><ord><subst><px3sp><nom>/9<num><ord>+i<cop><aor><p3><sg>/9<num><ord><subst><px3sp><nom>+i<cop><aor><p3><sg>$
+[/ItD266q9mHiG]
+[J2eknOcIELQQ#0] ^6'da/6<num><subst><loc>/6<num><subst><loc>+i<cop><aor><p3><sg>$
+[/J2eknOcIELQQ]
+[JDWaTv8Ge4mV#0] ^4'ün/4<num><subst><gen>/4<num><subst><px2sg><nom>/4<num><subst><gen>+i<cop><aor><p3><sg>/4<num><subst><px2sg><nom>+i<cop><aor><p3><sg>$
+[/JDWaTv8Ge4mV]
+[LWXYs0hRmmjD#0] ^6'nın/6<num><subst><gen>/6<num><subst><gen>+i<cop><aor><p3><sg>$
+[/LWXYs0hRmmjD]
+[LjCMDYqgsIlq#0] ^3'te/3<num><subst><loc>/3<num><subst><loc>+i<cop><aor><p3><sg>$
+[/LjCMDYqgsIlq]
+[OgCFTgGn7ixp#0] ^7/7<num>/7<num><subst><nom>$^'/'<apos>$^yi/*yi$
+[/OgCFTgGn7ixp]
+[P63ljDQqihkI#0] ^2/2<num>/2<num><subst><nom>$^'/'<apos>$^yi/*yi$
+[/P63ljDQqihkI]
+[QC3qHxnDNQNH#0] ^8'de/8<num><subst><loc>/8<num><subst><loc>+i<cop><aor><p3><sg>$
+[/QC3qHxnDNQNH]
+[QFWHVWOX6iyk#0] ^4'ten/4<num><subst><abl>/4<num><subst><abl>+i<cop><aor><p3><sg>$
+[/QFWHVWOX6iyk]
+[QbfqBoHsP50-#0] ^6'dan/6<num><subst><abl>/6<num><subst><abl>+i<cop><aor><p3><sg>$
+[/QbfqBoHsP50-]
+[SbEFDMObvNUV#0] ^9'dan/9<num><subst><abl>/9<num><subst><abl>+i<cop><aor><p3><sg>$
+[/SbEFDMObvNUV]
+[U5JwjdWfCsfW#0] ^1'inci/1<num><ord>/1<num><ord><subst><nom>/1<num><ord><subst><acc>/1<num><ord><subst><px3sp><nom>/1<num><ord>+i<cop><aor><p3><sg>/1<num><ord><subst><px3sp><nom>+i<cop><aor><p3><sg>$
+[/U5JwjdWfCsfW]
+[UZTjwbpAZffN#0] ^7'den/7<num><subst><abl>/7<num><subst><abl>+i<cop><aor><p3><sg>$
+[/UZTjwbpAZffN]
+[WbCpkdZ5ZqE7#0] ^8'den/8<num><subst><abl>/8<num><subst><abl>+i<cop><aor><p3><sg>$
+[/WbCpkdZ5ZqE7]
+[XpXDcXExkm5j#0] ^5'i/5<num><subst><acc>/5<num><subst><px3sp><nom>/5<num><subst><px3sp><nom>+i<cop><aor><p3><sg>$
+[/XpXDcXExkm5j]
+[Z41wjKtn3ar7#0] ^2/2<num>/2<num><subst><nom>$^'/'<apos>$^nci/*nci$
+[/Z41wjKtn3ar7]
+[_PkB10TkTsCj#0] ^5'in/5<num><subst><gen>/5<num><subst><px2sg><nom>/5<num><subst><gen>+i<cop><aor><p3><sg>/5<num><subst><px2sg><nom>+i<cop><aor><p3><sg>$
+[/_PkB10TkTsCj]
+[b5ETNf0v93Ex#0] ^5'e/5<num><subst><dat>/5<num><subst><dat>+i<cop><aor><p3><sg>$
+[/b5ETNf0v93Ex]
+[b9MJ_aNR8hpR#0] ^9'un/9<num><subst><px2sg><nom>/9<num><subst><px2sg><nom>+i<cop><aor><p3><sg>$
+[/b9MJ_aNR8hpR]
+[dPOhEPG3O-tQ#0] ^7'de/7<num><subst><loc>/7<num><subst><loc>+i<cop><aor><p3><sg>$
+[/dPOhEPG3O-tQ]
+[eKRXYeKGxrpL#0] ^3'ün/3<num><subst><gen>/3<num><subst><px2sg><nom>/3<num><subst><gen>+i<cop><aor><p3><sg>/3<num><subst><px2sg><nom>+i<cop><aor><p3><sg>$
+[/eKRXYeKGxrpL]
+[ejrpvIBGzVni#0] ^1'den/1<num><subst><abl>/1<num><subst><abl>+i<cop><aor><p3><sg>$
+[/ejrpvIBGzVni]
+[ew8CwTjZNKZF#0] ^3'e/3<num><subst><dat>/3<num><subst><dat>+i<cop><aor><p3><sg>$
+[/ew8CwTjZNKZF]
+[hMtJBJmakTbe#0] ^9'da/9<num><subst><loc>/9<num><subst><loc>+i<cop><aor><p3><sg>$
+[/hMtJBJmakTbe]
+[iqSItwLkY88Q#0] ^2'de/2<num><subst><loc>/2<num><subst><loc>+i<cop><aor><p3><sg>$
+[/iqSItwLkY88Q]
+[ixavnyq8WhTn#0] ^3'ü/3<num><subst><acc>/3<num><subst><px3sp><nom>/3<num><subst><px3sp><nom>+i<cop><aor><p3><sg>$
+[/ixavnyq8WhTn]
+[ksHe3BYPoi9c#0] ^8'e/8<num><subst><dat>/8<num><subst><dat>+i<cop><aor><p3><sg>$
+[/ksHe3BYPoi9c]
+[p6cJJLOV75oN#0] ^5'inci/5<num><ord>/5<num><ord><subst><nom>/5<num><ord><subst><acc>/5<num><ord><subst><px3sp><nom>/5<num><ord>+i<cop><aor><p3><sg>/5<num><ord><subst><px3sp><nom>+i<cop><aor><p3><sg>$
+[/p6cJJLOV75oN]
+[pEBjhoovDiRC#0] ^8'inci/8<num><ord>/8<num><ord><subst><nom>/8<num><ord><subst><acc>/8<num><ord><subst><px3sp><nom>/8<num><ord>+i<cop><aor><p3><sg>/8<num><ord><subst><px3sp><nom>+i<cop><aor><p3><sg>$
+[/pEBjhoovDiRC]
+[pG6I0Rf6mhHU#0] ^4'te/4<num><subst><loc>/4<num><subst><loc>+i<cop><aor><p3><sg>$
+[/pG6I0Rf6mhHU]
+[pu58Dlg-5yxc#0] ^2'den/2<num><subst><abl>/2<num><subst><abl>+i<cop><aor><p3><sg>$
+[/pu58Dlg-5yxc]
+[sJs6gLP1dOw6#0] ^7/7<num>/7<num><subst><nom>$^'/'<apos>$^nci/*nci$
+[/sJs6gLP1dOw6]
+[uTB7VOpTHKtS#0] ^3'ten/3<num><subst><abl>/3<num><subst><abl>+i<cop><aor><p3><sg>$
+[/uTB7VOpTHKtS]
+[uWS7iSOnHwf1#0] ^8'i/8<num><subst><acc>/8<num><subst><px3sp><nom>/8<num><subst><px3sp><nom>+i<cop><aor><p3><sg>$
+[/uWS7iSOnHwf1]
+[vPA5PjslrLbo#0] ^2/2<num>/2<num><subst><nom>$^'/'<apos>$^nin/*nin$
+[/vPA5PjslrLbo]
+[ypiap-K9C1qC#0] ^1'e/1<num><subst><dat>/1<num><subst><dat>+i<cop><aor><p3><sg>$
+[/ypiap-K9C1qC]

@@ -1,0 +1,36 @@
+# [lexc] Verbs ending in a vowel
+ararım
+başlarım
+beklerim
+derim
+hazırlarım
+oynarım
+# [lexc] Polysyllabic verbs stems
+kullanırım
+beğenirim
+ayrılırım
+bitiririm
+otururum
+götürürüm
+# [lexc] Monosyllabic verb stems with A
+açarım
+çıkarım
+dönerim
+düşerim
+ederim
+giderim
+girerim
+# [lexc] Monosyllabic verb stems with I (closed class)
+alırım
+bilirim
+bulurum
+dururum
+gelirim
+görürüm
+kalırım
+olurum
+ölürüm
+sanırım
+varırım
+veririm
+vururum

@@ -1,0 +1,20 @@
+# [lexc] Accusative
+NATO'yu
+PASOK'u
+BH'yi
+Belgrad'ı
+# [lexc] Dative
+NATO'ya
+PASOK'a
+BH'ye
+Belgrad'ı
+# [lexc] Locative
+NATO'da
+PASOK'ta
+BH'de
+Belgrad'da
+# [lexc] Ablative
+NATO'dan
+PASOK'tan
+BH'den
+Belgrad'dan

@@ -1,0 +1,53 @@
+# [lexc] after an adjective
+güzelim
+güzeldim
+güzelmişim
+güzelsem
+güzel miyim
+güzel miydim
+güzelmiş miyim
+güzel miysem
+güzel değilim
+güzel değildim
+güzel değilmişim
+güzel değilsem
+güzel değil miyim
+güzel değil miydim
+güzel değilmiş miyim
+güzel değil miysem
+# [lexc] after aor
+giderim
+giderdim
+gidermişim
+gidersem
+gider miyim
+gider miydim
+gidermiş miyim
+gider miysem
+# [lexc] after fut
+gideceğim
+gidecektim
+gidecekmişim
+gideceksem
+gidecek miyim
+gidecek miydim
+gidecekmiş miyim
+gidecek miysem
+# [lexc] after past
+gitmişim
+gitmiştim
+gitmişmişim
+gitmişsem
+gitmiş miyim
+gitmiş miydim
+gitmişmiş miyim
+gitmiş miysem
+# [lexc] after progressive
+gidiyorum
+gidiyordum
+gitmiyormuşum
+gitmiyorsam
+gidiyor muyum
+gidiyor muydum
+gidiyorumuş muyum
+gidiyor muysam

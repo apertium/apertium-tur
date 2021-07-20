@@ -1,0 +1,22 @@
+# [twol] forms where there should be no vowel
+şehri
+şehre
+burnu
+burna
+aklı
+aklım
+akla
+# [twol] forms where the vowel should epenthesise
+şehir
+şehirden
+şehirsin
+burun
+burundan
+burunsun
+akıl
+akıldan
+akılsın
+# [twol] interaction with irregular vowel harmony
+nakit
+nakti
+nakte

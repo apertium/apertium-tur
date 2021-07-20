@@ -1,0 +1,96 @@
+[0YOSAOEOGpyu#0] ^gidecek miydim/git<v><iv><fut>+mı<qst>+i<cop><ifi><p1><sg>/git<v><iv><gpr_fut><subst><nom>+mı<qst>+i<cop><ifi><p1><sg>$
+[/0YOSAOEOGpyu]
+[0iQcr12AxqS7#0] ^güzel/güzel<adj>/güzel<adv>/güzel<n><nom>/güzel<n><attr>/güzel<adj><advl>/güzel<adv><attr>/güzel<adj><subst><nom>/güzel<adj>+i<cop><aor><p3><sg>/güzel<adv>+i<cop><aor><p3><sg>/güzel<n><nom>+i<cop><aor><p3><sg>/güzel<adj><subst><nom>+i<cop><aor><p3><sg>$ ^değilsem/değ<v><iv><pass><cond><p1><sg>/değ<v><iv><pass><gna_cond><p1><sg>/değil<adj>+i<cop><cond><p1><sg>/değil<adj><subst><nom>+i<cop><cond><p1><sg>$
+[/0iQcr12AxqS7]
+[3PSYnUBA8anZ#0] ^giderdim/gider<v><tv><ifi><p1><sg>/git<v><iv><aor>+i<cop><ifi><p1><sg>/git<v><iv><ger_aor><nom>+i<cop><ifi><p1><sg>/gider<n><nom>+i<cop><ifi><p1><sg>/git<v><iv><gpr_aor><subst><nom>+i<cop><ifi><p1><sg>$
+[/3PSYnUBA8anZ]
+[3pDqVi3HIglg#0] ^güzel miysem/güzel<adj>+mı<qst>+i<cop><cond><p1><sg>/güzel<n><nom>+mı<qst>+i<cop><cond><p1><sg>/güzel<adj><subst><nom>+mı<qst>+i<cop><cond><p1><sg>$
+[/3pDqVi3HIglg]
+[5EXxnL2YXSEU#0] ^gitmişmiş miyim/git<v><iv><past><dub>+mı<qst>+i<cop><aor><p1><sg>$
+[/5EXxnL2YXSEU]
+[5k3Mqk5bl1sh#0] ^gidiyor muyum/git<v><iv><prog>+mı<qst>+i<cop><aor><p1><sg>$
+[/5k3Mqk5bl1sh]
+[6LFw7dXCwK7Q#0] ^gidecek miyim/git<v><iv><fut>+mı<qst>+i<cop><aor><p1><sg>/git<v><iv><gpr_fut><subst><nom>+mı<qst>+i<cop><aor><p1><sg>$
+[/6LFw7dXCwK7Q]
+[6kpxmUtGuWth#0] ^güzel miydim/güzel<adj>+mı<qst>+i<cop><ifi><p1><sg>/güzel<n><nom>+mı<qst>+i<cop><ifi><p1><sg>/güzel<adj><subst><nom>+mı<qst>+i<cop><ifi><p1><sg>$
+[/6kpxmUtGuWth]
+[78hXzGrwnWVb#0] ^gidecekmişim/git<v><iv><gpr_fut><subst><nom>+i<cop><dub><aor><p1><sg>/git<v><iv><fut><dub>+i<cop><aor><p1><sg>$
+[/78hXzGrwnWVb]
+[885fxBIjYKMe#0] ^gitmiş miysem/git<v><iv><ger_pabs><nom>+mı<qst>+i<cop><cond><p1><sg>$
+[/885fxBIjYKMe]
+[9wBu1c0m0Gul#0] ^gideceksem/git<v><iv><fut>+i<cop><cond><p1><sg>/git<v><iv><gpr_fut><subst><nom>+i<cop><cond><p1><sg>$
+[/9wBu1c0m0Gul]
+[AEmYL66mFMmC#0] ^gidermiş miyim/git<v><iv><aor><dub>+mı<qst>+i<cop><aor><p1><sg>/gider<v><tv><past>+mı<qst>+i<cop><aor><p1><sg>/gider<v><tv><ger_pabs><nom>+mı<qst>+i<cop><aor><p1><sg>$
+[/AEmYL66mFMmC]
+[ASjb-4n397Pk#0] ^güzel/güzel<adj>/güzel<adv>/güzel<n><nom>/güzel<n><attr>/güzel<adj><advl>/güzel<adv><attr>/güzel<adj><subst><nom>/güzel<adj>+i<cop><aor><p3><sg>/güzel<adv>+i<cop><aor><p3><sg>/güzel<n><nom>+i<cop><aor><p3><sg>/güzel<adj><subst><nom>+i<cop><aor><p3><sg>$ ^değilmişim/değil<adj>+i<cop><dub><aor><p1><sg>/değil<adj><subst><nom>+i<cop><dub><aor><p1><sg>/değ<v><iv><pass><past>+i<cop><aor><p1><sg>/değ<v><iv><pass><ger_pabs><nom>+i<cop><aor><p1><sg>/değ<v><iv><pass><ger_pabs><px1sg><nom>/değ<v><iv><pass><ger_pabs><px1sg><nom>+i<cop><aor><p3><sg>$
+[/ASjb-4n397Pk]
+[BSzpyfOS7IdP#0] ^gitmiyorsam/git<v><iv><neg><prog>+i<cop><cond><p1><sg>$
+[/BSzpyfOS7IdP]
+[BW0ANAEJEsz7#0] ^gideceğim/git<v><iv><gpr_fut><px1sg>/git<v><iv><fut>+i<cop><aor><p1><sg>/git<v><iv><gpr_fut><subst><nom>+i<cop><aor><p1><sg>/git<v><iv><gpr_fut><subst><px1sg><nom>/git<v><iv><gpr_fut><subst><px1sg><nom>+i<cop><aor><p3><sg>$
+[/BW0ANAEJEsz7]
+[BjMPiMlKXW5-#0] ^gidermişim/git<v><iv><ger_aor><nom>+i<cop><dub><aor><p1><sg>/gider<n><nom>+i<cop><dub><aor><p1><sg>/git<v><iv><gpr_aor><subst><nom>+i<cop><dub><aor><p1><sg>/git<v><iv><aor><dub>+i<cop><aor><p1><sg>/gider<v><tv><past>+i<cop><aor><p1><sg>/gider<v><tv><ger_pabs><nom>+i<cop><aor><p1><sg>/gider<v><tv><ger_pabs><px1sg><nom>/gider<v><tv><ger_pabs><px1sg><nom>+i<cop><aor><p3><sg>$
+[/BjMPiMlKXW5-]
+[CQ4lBuZIj2b6#0] ^güzelim/güzel<adj>+i<cop><aor><p1><sg>/güzel<adv>+i<cop><aor><p1><sg>/güzel<n><nom>+i<cop><aor><p1><sg>/güzel<adj><subst><nom>+i<cop><aor><p1><sg>/güzel<n><px1sg><nom>/güzel<adj><subst><px1sg><nom>/güzel<n><px1sg><nom>+i<cop><aor><p3><sg>/güzel<adj><subst><px1sg><nom>+i<cop><aor><p3><sg>$
+[/CQ4lBuZIj2b6]
+[CiV_J6EoCXql#0] ^güzelsem/güzel<adj>+i<cop><cond><p1><sg>/güzel<n><nom>+i<cop><cond><p1><sg>/güzel<adj><subst><nom>+i<cop><cond><p1><sg>$
+[/CiV_J6EoCXql]
+[E3Ep0HGWMdRf#0] ^gidiyordum/git<v><iv><prog>+i<cop><ifi><p1><sg>$
+[/E3Ep0HGWMdRf]
+[EPKM0SL3XENI#0] ^gidecekmiş miyim/git<v><iv><fut><dub>+mı<qst>+i<cop><aor><p1><sg>$
+[/EPKM0SL3XENI]
+[FiMS3qcTan-m#0] ^güzel/güzel<adj>/güzel<adv>/güzel<n><nom>/güzel<n><attr>/güzel<adj><advl>/güzel<adv><attr>/güzel<adj><subst><nom>/güzel<adj>+i<cop><aor><p3><sg>/güzel<adv>+i<cop><aor><p3><sg>/güzel<n><nom>+i<cop><aor><p3><sg>/güzel<adj><subst><nom>+i<cop><aor><p3><sg>$ ^değilim/değil<adj>+i<cop><aor><p1><sg>/değil<adj><subst><nom>+i<cop><aor><p1><sg>/değil<adj><subst><px1sg><nom>/değil<adj><subst><px1sg><nom>+i<cop><aor><p3><sg>$
+[/FiMS3qcTan-m]
+[G1QQ1NxkkDT7#0] ^güzel/güzel<adj>/güzel<adv>/güzel<n><nom>/güzel<n><attr>/güzel<adj><advl>/güzel<adv><attr>/güzel<adj><subst><nom>/güzel<adj>+i<cop><aor><p3><sg>/güzel<adv>+i<cop><aor><p3><sg>/güzel<n><nom>+i<cop><aor><p3><sg>/güzel<adj><subst><nom>+i<cop><aor><p3><sg>$ ^değil miysem/değil<adj>+mı<qst>+i<cop><cond><p1><sg>/değil<adj><subst><nom>+mı<qst>+i<cop><cond><p1><sg>$
+[/G1QQ1NxkkDT7]
+[HC-tS0oF9YAr#0] ^gitmişim/git<v><iv><past>+i<cop><aor><p1><sg>/git<v><iv><ger_pabs><nom>+i<cop><aor><p1><sg>/git<v><iv><ger_pabs><px1sg><nom>/git<v><iv><ger_pabs><px1sg><nom>+i<cop><aor><p3><sg>$
+[/HC-tS0oF9YAr]
+[HnVyeDSQJw_-#0] ^güzeldim/güzel<adv>+i<cop><ifi><p1><sg>/güzel<adj>+i<cop><ifi><p1><sg>/güzel<n><nom>+i<cop><ifi><p1><sg>/güzel<adj><subst><nom>+i<cop><ifi><p1><sg>$
+[/HnVyeDSQJw_-]
+[Kxezo-5Ikyt6#0] ^gidiyor/git<v><iv><prog>/git<v><iv><prog>+i<cop><aor><p3><sg>$ ^muysam/*muysam$
+[/Kxezo-5Ikyt6]
+[MFQ70RwqjgdO#0] ^gidersem/gider<v><tv><cond><p1><sg>/gider<v><tv><gna_cond><p1><sg>/git<v><iv><aor>+i<cop><cond><p1><sg>/git<v><iv><ger_aor><nom>+i<cop><cond><p1><sg>/gider<n><nom>+i<cop><cond><p1><sg>/git<v><iv><gpr_aor><subst><nom>+i<cop><cond><p1><sg>$
+[/MFQ70RwqjgdO]
+[P09jv_JVQmkd#0] ^güzelmiş/güzel<adj>+i<cop><dub><aor><p3><sg>/güzel<n><nom>+i<cop><dub><aor><p3><sg>/güzel<adj><subst><nom>+i<cop><dub><aor><p3><sg>$ ^miyim/mı<qst>+i<cop><aor><p1><sg>$
+[/P09jv_JVQmkd]
+[Qo7cmmLkb5uJ#0] ^gitmiş miyim/git<v><iv><past>+mı<qst>+i<cop><aor><p1><sg>/git<v><iv><ger_pabs><nom>+mı<qst>+i<cop><aor><p1><sg>$
+[/Qo7cmmLkb5uJ]
+[SQCXMHGwuKDs#0] ^gider miydim/git<v><iv><aor>+mı<qst>+i<cop><ifi><p1><sg>/git<v><iv><ger_aor><nom>+mı<qst>+i<cop><ifi><p1><sg>/gider<n><nom>+mı<qst>+i<cop><ifi><p1><sg>/git<v><iv><gpr_aor><subst><nom>+mı<qst>+i<cop><ifi><p1><sg>$
+[/SQCXMHGwuKDs]
+[THoprn0QcY_c#0] ^gitmiştim/git<v><iv><past>+i<cop><ifi><p1><sg>/git<v><iv><ger_pabs><nom>+i<cop><ifi><p1><sg>$
+[/THoprn0QcY_c]
+[TQjs3NFUV8yX#0] ^gidecektim/git<v><iv><fut>+i<cop><ifi><p1><sg>/git<v><iv><gpr_fut><subst><nom>+i<cop><ifi><p1><sg>$
+[/TQjs3NFUV8yX]
+[VwJGlA7Zi4qm#0] ^gider miyim/git<v><iv><aor>+mı<qst>+i<cop><aor><p1><sg>/git<v><iv><ger_aor><nom>+mı<qst>+i<cop><aor><p1><sg>/gider<n><nom>+mı<qst>+i<cop><aor><p1><sg>/git<v><iv><gpr_aor><subst><nom>+mı<qst>+i<cop><aor><p1><sg>$
+[/VwJGlA7Zi4qm]
+[ZHAKP49IwtAm#0] ^gider miysem/git<v><iv><ger_aor><nom>+mı<qst>+i<cop><cond><p1><sg>/gider<n><nom>+mı<qst>+i<cop><cond><p1><sg>/git<v><iv><gpr_aor><subst><nom>+mı<qst>+i<cop><cond><p1><sg>$
+[/ZHAKP49IwtAm]
+[ZXpUFyuoWJia#0] ^gidiyorum/git<v><iv><prog>+i<cop><aor><p1><sg>$
+[/ZXpUFyuoWJia]
+[_G0i-0MCfUVS#0] ^gitmiş miydim/git<v><iv><past>+mı<qst>+i<cop><ifi><p1><sg>/git<v><iv><ger_pabs><nom>+mı<qst>+i<cop><ifi><p1><sg>$
+[/_G0i-0MCfUVS]
+[cU88pXe52b3_#0] ^güzelmişim/güzel<adj>+i<cop><dub><aor><p1><sg>/güzel<n><nom>+i<cop><dub><aor><p1><sg>/güzel<adj><subst><nom>+i<cop><dub><aor><p1><sg>$
+[/cU88pXe52b3_]
+[cawIkcpdNVQt#0] ^güzel miyim/güzel<adj>+mı<qst>+i<cop><aor><p1><sg>/güzel<n><nom>+mı<qst>+i<cop><aor><p1><sg>/güzel<adj><subst><nom>+mı<qst>+i<cop><aor><p1><sg>$
+[/cawIkcpdNVQt]
+[ctisdhWREBbT#0] ^gitmişsem/git<v><iv><ger_pabs><nom>+i<cop><cond><p1><sg>/git<v><iv><past>+i<cop><cond><p1><sg>$
+[/ctisdhWREBbT]
+[etKmrQgLlU2K#0] ^gidiyorumuş/*gidiyorumuş$ ^muyum/mı<qst>+i<cop><aor><p1><sg>$
+[/etKmrQgLlU2K]
+[fXaZoDDzfX9B#0] ^gitmiyormuşum/git<v><iv><neg><prog><dub>+i<cop><aor><p1><sg>$
+[/fXaZoDDzfX9B]
+[ieQ-8AeYv0Im#0] ^güzel/güzel<adj>/güzel<adv>/güzel<n><nom>/güzel<n><attr>/güzel<adj><advl>/güzel<adv><attr>/güzel<adj><subst><nom>/güzel<adj>+i<cop><aor><p3><sg>/güzel<adv>+i<cop><aor><p3><sg>/güzel<n><nom>+i<cop><aor><p3><sg>/güzel<adj><subst><nom>+i<cop><aor><p3><sg>$ ^değil miyim/değil<adj>+mı<qst>+i<cop><aor><p1><sg>/değil<adj><subst><nom>+mı<qst>+i<cop><aor><p1><sg>$
+[/ieQ-8AeYv0Im]
+[jWkZ3V_YHTkA#0] ^gidiyor muydum/git<v><iv><prog>+mı<qst>+i<cop><ifi><p1><sg>$
+[/jWkZ3V_YHTkA]
+[kqqxPnJq_oXS#0] ^güzel/güzel<adj>/güzel<adv>/güzel<n><nom>/güzel<n><attr>/güzel<adj><advl>/güzel<adv><attr>/güzel<adj><subst><nom>/güzel<adj>+i<cop><aor><p3><sg>/güzel<adv>+i<cop><aor><p3><sg>/güzel<n><nom>+i<cop><aor><p3><sg>/güzel<adj><subst><nom>+i<cop><aor><p3><sg>$ ^değilmiş miyim/değ<v><iv><pass><past>+mı<qst>+i<cop><aor><p1><sg>/değ<v><iv><pass><ger_pabs><nom>+mı<qst>+i<cop><aor><p1><sg>$
+[/kqqxPnJq_oXS]
+[lrpORJ1MRHYm#0] ^güzel/güzel<adj>/güzel<adv>/güzel<n><nom>/güzel<n><attr>/güzel<adj><advl>/güzel<adv><attr>/güzel<adj><subst><nom>/güzel<adj>+i<cop><aor><p3><sg>/güzel<adv>+i<cop><aor><p3><sg>/güzel<n><nom>+i<cop><aor><p3><sg>/güzel<adj><subst><nom>+i<cop><aor><p3><sg>$ ^değil miydim/değil<adj>+mı<qst>+i<cop><ifi><p1><sg>/değil<adj><subst><nom>+mı<qst>+i<cop><ifi><p1><sg>$
+[/lrpORJ1MRHYm]
+[pMHlhmQWMvDj#0] ^giderim/git<v><iv><aor>+i<cop><aor><p1><sg>/git<v><iv><ger_aor><nom>+i<cop><aor><p1><sg>/gider<n><nom>+i<cop><aor><p1><sg>/git<v><iv><gpr_aor><subst><nom>+i<cop><aor><p1><sg>/git<v><iv><ger_aor><px1sg><nom>/gider<n><px1sg><nom>/git<v><iv><gpr_aor><subst><px1sg><nom>/git<v><iv><ger_aor><px1sg><nom>+i<cop><aor><p3><sg>/gider<n><px1sg><nom>+i<cop><aor><p3><sg>/git<v><iv><gpr_aor><subst><px1sg><nom>+i<cop><aor><p3><sg>$
+[/pMHlhmQWMvDj]
+[q4NwkJueUens#0] ^gitmişmişim/git<v><iv><ger_pabs><nom>+i<cop><dub><aor><p1><sg>/git<v><iv><past><dub>+i<cop><aor><p1><sg>$
+[/q4NwkJueUens]
+[qSLviDbN0-mg#0] ^gidecek miysem/git<v><iv><gpr_fut><subst><nom>+mı<qst>+i<cop><cond><p1><sg>$
+[/qSLviDbN0-mg]
+[uvdzOYJcqc_y#0] ^güzel/güzel<adj>/güzel<adv>/güzel<n><nom>/güzel<n><attr>/güzel<adj><advl>/güzel<adv><attr>/güzel<adj><subst><nom>/güzel<adj>+i<cop><aor><p3><sg>/güzel<adv>+i<cop><aor><p3><sg>/güzel<n><nom>+i<cop><aor><p3><sg>/güzel<adj><subst><nom>+i<cop><aor><p3><sg>$ ^değildim/değ<v><iv><pass><ifi><p1><sg>/değil<adj>+i<cop><ifi><p1><sg>/değil<adj><subst><nom>+i<cop><ifi><p1><sg>$
+[/uvdzOYJcqc_y]

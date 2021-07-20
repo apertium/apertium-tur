@@ -1,0 +1,20 @@
+# [lexc] Accusative
+^NATO<np><org><acc>$
+^PASOK<np><org><acc>$
+^BH<np><org><acc>$
+^Belgrad<np><top><acc>$
+# [lexc] Dative
+^NATO<np><org><dat>$
+^PASOK<np><org><dat>$
+^BH<np><top><dat>$
+^Belgrad<np><top><acc>$
+# [lexc] Locative
+^NATO<np><org><loc>$
+^PASOK<np><org><loc>$
+^BH<np><org><loc>$
+^Belgrad<np><top><loc>$
+# [lexc] Ablative
+^NATO<np><org><abl>$
+^PASOK<np><org><abl>$
+^BH<np><top><abl>$
+^Belgrad<np><top><dat>$

@@ -1,0 +1,53 @@
+# [lexc] after an adjective
+^güzel<adj>+i<cop><aor><p1><sg>$
+^güzel<adj>+i<cop><ifi><p1><sg>$
+^güzel<adj>+i<cop><past>+i<cop><aor><p1><sg>$
+^güzel<adj>+i<cop><cond><p1><sg>$
+^güzel<adj>+i<cop><aor><p1><sg>+mı<qst>$
+^güzel<adj>+i<cop><ifi><p1><sg>+mı<qst>$
+^güzel<adj>+i<cop><past>+i<cop><aor><p1><sg>+mı<qst>$
+^güzel<adj>+i<cop><cond><p1><sg>+mı<qst>$
+^güzel<adj>+i<cop><neg><aor><p1><sg>$
+^güzel<adj>+i<cop><neg><ifi><p1><sg>$
+^güzel<adj>+i<cop><neg><past><p1><sg>$
+^güzel<adj>+i<cop><neg><cond><p1><sg>$
+^güzel<adj>+i<cop><neg><aor><p1><sg>+mı<qst>$
+^güzel<adj>+i<cop><neg><ifi><p1><sg>+mı<qst>$
+^güzel<adj>+i<cop><neg><past><p1><sg>+mı<qst>$
+^güzel<adj>+i<cop><neg><cond><p1><sg>+mı<qst>$
+# [lexc] after aor
+^git<v><iv><aor>+i<cop><aor><p1><sg>$
+^git<v><iv><aor>+i<cop><ifi><p1><sg>$
+^git<v><iv><aor>+i<cop><past>+i<cop><aor><p1><sg>$
+^git<v><iv><aor>+i<cop><cond><p1><sg>$
+^git<v><iv><aor>+i<cop><aor><p1><sg>+mı<qst>$
+^git<v><iv><aor>+i<cop><ifi><p1><sg>+mı<qst>$
+^git<v><iv><aor>+i<cop><past>+i<cop><aor><p1><sg>+mı<qst>$
+^git<v><iv><aor>+i<cop><cond><p1><sg>+mı<qst>$
+# [lexc] after fut
+^git<v><iv><fut>+i<cop><aor><p1><sg>$
+^git<v><iv><fut>+i<cop><ifi><p1><sg>$
+^git<v><iv><fut>+i<cop><past>+i<cop><aor><p1><sg>$
+^git<v><iv><fut>+i<cop><cond><p1><sg>$
+^git<v><iv><fut>+i<cop><aor><p1><sg>+mı<qst>$
+^git<v><iv><fut>+i<cop><ifi><p1><sg>+mı<qst>$
+^git<v><iv><fut>+i<cop><past>+i<cop><aor><p1><sg>+mı<qst>$
+^git<v><iv><fut>+i<cop><cond><p1><sg>+mı<qst>$
+# [lexc] after past
+^git<v><iv><past>+i<cop><aor><p1><sg>$
+^git<v><iv><past>+i<cop><ifi><p1><sg>$
+^git<v><iv><past>+i<cop><past>+i<cop><aor><p1><sg>$
+^git<v><iv><past>+i<cop><cond><p1><sg>$
+^git<v><iv><past>+i<cop><aor><p1><sg>+mı<qst>$
+^git<v><iv><past>+i<cop><ifi><p1><sg>+mı<qst>$
+^git<v><iv><past>+i<cop><past>+i<cop><aor><p1><sg>+mı<qst>$
+^git<v><iv><past>+i<cop><cond><p1><sg>+mı<qst>$
+# [lexc] after progressive
+^git<v><iv><prog>+i<cop><aor><p1><sg>$
+^git<v><iv><prog>+i<cop><ifi><p1><sg>$
+^git<v><iv><prog>+i<cop><past>+i<cop><aor><p1><sg>$
+^git<v><iv><prog>+i<cop><cond><p1><sg>$
+^git<v><iv><prog>+i<cop><aor><p1><sg>+mı<qst>$
+^git<v><iv><prog>+i<cop><ifi><p1><sg>+mı<qst>$
+^git<v><iv><prog>+i<cop><past>+i<cop><aor><p1><sg>+mı<qst>$
+^git<v><iv><prog>+i<cop><cond><p1><sg>+mı<qst>$

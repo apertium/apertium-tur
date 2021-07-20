@@ -1,0 +1,32 @@
+# [twol] Prevocalic consonant voicing
+^kitap<n><nom>$
+^kitap<n><acc>$
+^kitap<n><px3sp><nom>$
+^tat<n><nom>$
+^tat<n><acc>$
+^tat<n><px3sp><nom>$
+# [twol] {A} harmony
+^kitap<n><pl><nom>$
+^ev<n><pl><nom>$
+^saat<n><pl><nom>$
+^kitap<n><nom>+i<cop><pres><p3><pl>$
+^ev<n><nom>+i<cop><pres><p3><pl>$
+^saat<n><nom>+i<cop><pres><p3><pl>$
+# [twol] {A} harmony in dative
+^kitap<n><dat>$
+^anne<n><dat>$
+^ev<n><dat>$
+^saat<n><dat>$
+# POSSESSIVES
+^ev<n><px1sg>$
+^ev<n><px2sg>$
+^ev<n><px3sg>$
+^ev<n><px1pl>$
+^ev<n><px2pl>$
+^ev<n><px3pl>$
+# f-f-f-f
+^festival<n><dat>$
+^festival<n><acc>$
+# f-f-f-2
+^petrol<n><dat>$
+^petrol<n><acc>$

@@ -1,0 +1,42 @@
+[-Kn9UItgpviv#0] ^evin/ev<n><gen>/ev<n><px2sg><nom>/evin<n><nom>/evin<n><attr>/ev<n><gen>+i<cop><aor><p3><sg>/ev<n><px2sg><nom>+i<cop><aor><p3><sg>/evin<n><nom>+i<cop><aor><p3><sg>$
+[/-Kn9UItgpviv]
+[0b4X43FPCTVr#0] ^evim/ev<n><nom>+i<cop><aor><p1><sg>/ev<n><px1sg><nom>/ev<n><px1sg><nom>+i<cop><aor><p3><sg>$
+[/0b4X43FPCTVr]
+[2NjHYIwvOj6L#0] ^kitaplar/kitap<n><nom>+i<cop><aor><p3><pl>/kitap<n><pl><nom>/kitap<n><pl><nom>+i<cop><aor><p3><sg>$
+[/2NjHYIwvOj6L]
+[4sRi4-HyYKkT#0] ^kitap/kitap<n><nom>/kitap<n><attr>/kitap<n><nom>+i<cop><aor><p3><sg>$
+[/4sRi4-HyYKkT]
+[6emcdQJCWjNf#0] ^festivale/festival<n><dat>/festival<n><dat>+i<cop><aor><p3><sg>$
+[/6emcdQJCWjNf]
+[D8LXq5RHfAjX#0] ^kitaba/kitap<n><dat>/kitap<n><dat>+i<cop><aor><p3><sg>$
+[/D8LXq5RHfAjX]
+[DDXfTM22a0Td#0] ^evleri/ev<n><px3pl><nom>/ev<n><pl><acc>/ev<n><pl><px3sp><nom>/ev<n><px3pl><nom>+i<cop><aor><p3><sg>/ev<n><pl><px3sp><nom>+i<cop><aor><p3><sg>$
+[/DDXfTM22a0Td]
+[GxSDl-LqNoie#0] ^evi/ev<n><acc>/ev<n><px3sp><nom>/ev<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/GxSDl-LqNoie]
+[JO5AvK3xBMDD#0] ^saatler/saat<n><nom>+i<cop><aor><p3><pl>/saat<n><pl><nom>/saat<n><pl><nom>+i<cop><aor><p3><sg>$
+[/JO5AvK3xBMDD]
+[LpzXzAHhGtlW#0] ^festivali/festival<n><acc>/festival<n><px3sp><nom>/festival<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/LpzXzAHhGtlW]
+[M3gENuD8iPEF#0] ^evler/ev<n><nom>+i<cop><aor><p3><pl>/ev<n><pl><nom>/ev<n><pl><nom>+i<cop><aor><p3><sg>$
+[/M3gENuD8iPEF]
+[Mf468lA8yreU#0] ^anneye/anne<n><dat>/anne<n><dat>+i<cop><aor><p3><sg>$
+[/Mf468lA8yreU]
+[VEWKTKcleeZu#0] ^evimiz/ev<n><px1sg><nom>+i<cop><aor><p1><pl>/ev<n><px1pl><nom>/ev<n><px1pl><nom>+i<cop><aor><p3><sg>$
+[/VEWKTKcleeZu]
+[VKAbSfKdSDz8#0] ^petrolü/*petrolü$
+[/VKAbSfKdSDz8]
+[ZUCaeqapOlx1#0] ^petrole/*petrole$
+[/ZUCaeqapOlx1]
+[_q7eHE1vxvzR#0] ^saate/saat<n><dat>/saat<n><dat>+i<cop><aor><p3><sg>$
+[/_q7eHE1vxvzR]
+[hSYq33RRi7tw#0] ^eve/ev<n><dat>/ev<n><dat>+i<cop><aor><p3><sg>$
+[/hSYq33RRi7tw]
+[lEk71eV0i9Uw#0] ^tadı/tat<n><acc>/tat<n><px3sp><nom>/tat<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/lEk71eV0i9Uw]
+[mq0lUMlL7fva#0] ^tat/tat<n><nom>/tat<n><attr>/tat<v><tv><imp><p2><sg>/tat<n><nom>+i<cop><aor><p3><sg>$
+[/mq0lUMlL7fva]
+[oUjcUSfFEUv-#0] ^eviniz/ev<n><gen>+i<cop><aor><p1><pl>/ev<n><px2sg><nom>+i<cop><aor><p1><pl>/evin<n><nom>+i<cop><aor><p1><pl>/ev<n><px2pl><nom>/ev<n><px2pl><nom>+i<cop><aor><p3><sg>$
+[/oUjcUSfFEUv-]
+[wOGJFdyugv0X#0] ^kitabı/kitap<n><acc>/kitap<n><px3sp><nom>/kitap<n><px3sp><nom>+i<cop><aor><p3><sg>$
+[/wOGJFdyugv0X]

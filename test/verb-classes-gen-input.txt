@@ -1,0 +1,36 @@
+# [lexc] Verbs ending in a vowel
+^ara<v><tv><aor><p1><sg>$
+^başla<v><tv><aor><p1><sg>$
+^bekle<v><tv><aor><p1><sg>$
+^de<v><tv><aor><p1><sg>$
+^hazırla<v><tv><aor><p1><sg>$
+^oyna<v><iv><aor><p1><sg>$
+# [lexc] Polysyllabic verbs stems
+^kullan<v><tv><aor><p1><sg>$
+^beğen<v><tv><aor><p1><sg>$
+^ayrıl<v><iv><aor><p1><sg>$
+^bit<v><iv><caus><aor><p1><sg>$
+^otur<v><iv><aor><p1><sg>$
+^götür<v><tv><aor><p1><sg>$
+# [lexc] Monosyllabic verb stems with A
+^aç<v><tv><aor><p1><sg>$
+^çık<v><iv><aor><p1><sg>$
+^dön<v><iv><aor><p1><sg>$
+^düş<v><iv><aor><p1><sg>$
+^et<v><tv><aor><p1><sg>$
+^git<v><iv><aor><p1><sg>$
+^gir<v><iv><aor><p1><sg>$
+# [lexc] Monosyllabic verb stems with I (closed class)
+^al<v><tv><aor><p1><sg>$
+^bil<v><tv><aor><p1><sg>$
+^bul<v><tv><aor><p1><sg>$
+^dur<v><iv><aor><p1><sg>$
+^gel<v><iv><aor><p1><sg>$
+^gör<v><tv><aor><p1><sg>$
+^kal<v><iv><aor><p1><sg>$
+^ol<v><iv><aor><p1><sg>$
+^öl<v><iv><aor><p1><sg>$
+^san<v><iv><aor><p1><sg>$
+^var<v><iv><aor><p1><sg>$
+^ver<v><tv><aor><p1><sg>$
+^vur<v><tv><aor><p1><sg>$

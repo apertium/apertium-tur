@@ -1,0 +1,106 @@
+{
+  "aor-phon": {
+    "input": "aor-phon-input.txt",
+    "mode": "tur-morph"
+  },
+  "aor-phon-gen": {
+    "input": "aor-phon-gen-input.txt",
+    "mode": "tur-gener"
+  },
+  "copulas": {
+    "input": "copulas-input.txt",
+    "mode": "tur-morph"
+  },
+  "copulas-gen": {
+    "input": "copulas-gen-input.txt",
+    "mode": "tur-gener"
+  },
+  "epenthesis": {
+    "input": "epenthesis-input.txt",
+    "mode": "tur-morph"
+  },
+  "epenthesis-gen": {
+    "input": "epenthesis-gen-input.txt",
+    "mode": "tur-gener"
+  },
+  "etmek": {
+    "input": "etmek-input.txt",
+    "mode": "tur-morph"
+  },
+  "etmek-gen": {
+    "input": "etmek-gen-input.txt",
+    "mode": "tur-gener"
+  },
+  "irreg-vowelharmony": {
+    "input": "irreg-vowelharmony-input.txt",
+    "mode": "tur-morph"
+  },
+  "irreg-vowelharmony-gen": {
+    "input": "irreg-vowelharmony-gen-input.txt",
+    "mode": "tur-gener"
+  },
+  "nouns-misc": {
+    "input": "nouns-misc-input.txt",
+    "mode": "tur-morph"
+  },
+  "nouns-misc-gen": {
+    "input": "nouns-misc-gen-input.txt",
+    "mode": "tur-gener"
+  },
+  "np-misc": {
+    "input": "np-misc-input.txt",
+    "mode": "tur-morph"
+  },
+  "np-misc-gen": {
+    "input": "np-misc-gen-input.txt",
+    "mode": "tur-gener"
+  },
+  "numeral-misc": {
+    "input": "numeral-misc-input.txt",
+    "mode": "tur-morph"
+  },
+  "numeral-misc-gen": {
+    "input": "numeral-misc-gen-input.txt",
+    "mode": "tur-gener"
+  },
+  "qst-position": {
+    "input": "qst-position-input.txt",
+    "mode": "tur-morph"
+  },
+  "qst-position-gen": {
+    "input": "qst-position-gen-input.txt",
+    "mode": "tur-gener"
+  },
+  "verb-classes": {
+    "input": "verb-classes-input.txt",
+    "mode": "tur-morph"
+  },
+  "verb-classes-gen": {
+    "input": "verb-classes-gen-input.txt",
+    "mode": "tur-gener"
+  },
+  "verbs-misc": {
+    "input": "verbs-misc-input.txt",
+    "mode": "tur-morph"
+  },
+  "verbs-misc-gen": {
+    "input": "verbs-misc-gen-input.txt",
+    "mode": "tur-gener"
+  },
+  "verbs-passive": {
+    "input": "verbs-passive-input.txt",
+    "mode": "tur-morph"
+  },
+  "verbs-passive-gen": {
+    "input": "verbs-passive-gen-input.txt",
+    "mode": "tur-gener"
+  },
+  "voicing": {
+    "input": "voicing-input.txt",
+    "mode": "tur-morph"
+  },
+  "voicing-gen": {
+    "input": "voicing-gen-input.txt",
+    "mode": "tur-gener"
+  }
+}
