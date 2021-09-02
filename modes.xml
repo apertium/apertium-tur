@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
 
-  <mode name="tur-twol" install="yes">
+  <mode name="tur-twol" install="no">
     <pipeline>
       <program name="hfst-strings2fst -S"/>
       <program name="hfst-compose-intersect">
@@ -19,7 +19,7 @@
     </pipeline>
   </mode>
 
-  <mode name="tur-lexc" install="yes">
+  <mode name="tur-lexc" install="no">
     <pipeline>
       <program name="hfst-proc -g">
         <file name=".deps/tur.lexc.hfst"/>
