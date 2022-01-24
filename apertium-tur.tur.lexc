@@ -12059,6 +12059,10 @@ tembellik:tembellik N1 ;
 ukalalık:ukalalık N1 ; ! Dir/RL ! Use/MT
 tolerans:tolerans N1 ;
 bağışçı:bağışçı N1 ;
+tape:tape N1 ;
+şike:şike N1 ;
+word:word N1 ;
+MSword:MSword N1 ;
 anonim:anonim N1 ; ! Dir/RL ! Use/MT
 yükseköğretim:yükseköğretim N1 ; ! Dir/RL ! Use/MT
 televizyon% programı:televizyon% program N2 ; ! Dir/RL ! Use/MT
@@ -12558,7 +12562,7 @@ Osmaniye:Osmaniye NP-TOP ;
 Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
 Kerç:Kerç NP-TOP ; ! ""
-Peker:Peker NP-TOP ;
+Peker:Peker NP-ANT-M ;
 Emre:Emre NP-ANT-M ; !
 Halit:Halit NP-ANT-M ;
 Robbie:Robbie NP-ANT-M ;
@@ -12658,9 +12662,16 @@ Alişer:Alişer NP-ANT-M ; !
 Nusret:Nusret NP-ANT-M ;
 Uluğbey:Uluğbey NP-ANT-M ; !
 Poyraz:Poyraz NP-COG-MF ;
+Özöğul:Özöğul NP-COG-MF ;
+Tolon:Tolon NP-COG-MF ;
+Akkurt:Akkurt NP-COG-MF ;
+Turanlı:Turanlı NP-COG-MF ;
+Bektaş:Bektaş NP-COG-MF ;
+İlsever:İlsever NP-COG-MF ;
 Ersoy:Ersoy NP-COG-MF ;
 Erkut:Erkut NP-COG-MF ;
 Yüksel:Yüksel NP-COG-MF ;
+Kıratlı:Kıratlı NP-COG-MF ;
 Alpaslan:Alpaslan NP-COG-MF ;
 Venatici:Venatici NP-COG-MF ; !
 Büyükçelebi:Büyükçelebi NP-COG-MF ;
@@ -12674,6 +12685,7 @@ Demirtaş:Demirtaş NP-COG-MF ;
 Kırca:Kırca NP-COG-MF ; !
 Rushiti:Rushiti NP-COG-MF ; !
 Edouard:Edouard NP-ANT-M ; !
+Hümâyûn:Hümâyûn NP-ANT-M ;
 Netanyahu:Netanyahu NP-COG-MF ; !
 Stephan:Stephan NP-ANT-M ; !
 Goethe:Goethe NP-COG-MF ; !
@@ -15395,6 +15407,7 @@ Yunanistan% Süper% Ligi:Yunanistan% Süper% Lig NP-ORG-COMPOUND-PX ; ! ""
 ! Other
 Southeast% European% Times:Southeast% European% Times NP-AL ; ! ""
 Reuters:Reuters NP-ORG ; ! ""
+Kuvayı:Kuvayı NP-ORG ;
 MKMİK:MKMİK NP-ORG;
 WikiLeaks:WikiLeaks NP-ORG;
 Tatar-İnform:Tatar-İnform NP-ORG;
@@ -15451,6 +15464,7 @@ Semih:Semih NP-ANT-M ;
 Ketmenbay:Ketmenbay NP-ANT-M ; !
 Erdem:Erdem NP-ANT-M ;
 Poe:Poe NP-COG-MF ; !
+Eruygur:Eruygur NP-COG-MF ;
 Warner:Warner NP-COG-MF ; !
 Rihanna:Rihanna NP-ANT-F ; !
 Jane:Jane NP-ANT-F ; !
@@ -16468,6 +16482,7 @@ Yakovlyeviç:Yakovlyeviç NP-COG-MF ; ! ""
 Yoviçeviç:Yoviçeviç NP-COG-MF ; ! ""
 Zeceviç:Zeceviç NP-COG-MF ; ! ""
 Zeçeviç:Zeçeviç NP-COG-MF ; ! ""
+Noyan:Noyan NP-COG-MF ;
 Zirojeviç:Zirojeviç NP-COG-MF ; ! ""
 Zrnoyeviç:Zrnoyeviç NP-COG-MF ; ! ""
 Zubceviç:Zubceviç NP-COG-MF ; ! ""
@@ -19982,6 +19997,8 @@ Topal:Topal NP-COG-MF ;
 Özbay:Özbay NP-COG-MF ;
 Ertuğrul:Ertuğrul NP-COG-MF ;
 Yücel:Yücel NP-COG-MF ;
+Perinçek:Perinçek NP-COG-MF ;
+Haberal:Haberal NP-COG-MF ;
 Kılıçdaroğlu:Kılıçdaroğlu NP-COG-MF ;
 Ünal:Ünal NP-COG-MF ;
 Aleksandrov:Aleksandrov NP-PAT-VICH ;
@@ -23353,7 +23370,9 @@ anında:anında ADV1 ; !
 lehine:lehine ADV1 ;
 tam:tam ADV1 ; !
 zira:zira ADV1 ; !
+yüzyüze:yüzyüze ADV1 ;
 sırf:sırf ADV1 ;
+hitapen:hitapen ADV1 ;
 kontrolü:kontrolü ADV1 ;
 işitince:işitince ADV1 ; !
 ruhen:ruhen ADV1 ; !
@@ -25136,6 +25155,7 @@ işle:işle V-IR-TV ; ! "commit" (T)
 ispatla:ispatla V-IR-TV ; ! "prove" (T)
 iste:İste V-IR-TV ; ! "want" ! Dir/LR (T)
 !iste:iste V-TV-T-IR ; ! "want"
+numarala:numarala V-IR-TV ;
 iste:iste V-IR-TV ; ! "want"
 istifle:istifle V-IR-TV ; ! "stow" (T)
 izle:izle V-IR-TV ; ! "watch" (T)
