@@ -10535,6 +10535,7 @@ taslak:taslak N1 ; ! "tracing"
 siyasetçi:siyasetçi N1 ; ! "policy-maker"
 aklama:aklama N1 ; ! "exoneration"
 yaşam:yaşam N1 ; ! "life"
+paylaşım:paylaşım N1 ; ! "sharing" Use/MT
 stand:stand N1 ; ! "stand"
 gemi:gemi N1 ; ! "boat"
 oğuz:Oğuz N1 ; ! "Oghuz"
@@ -12061,6 +12062,7 @@ tolerans:tolerans N1 ;
 bağışçı:bağışçı N1 ;
 tape:tape N1 ;
 şike:şike N1 ;
+trend:trend N1 ;
 word:word N1 ;
 MSword:MSword N1 ;
 anonim:anonim N1 ; ! Dir/RL ! Use/MT
@@ -12077,6 +12079,7 @@ LEXICON ProperNouns
 Venatica:Venatica NP-TOP ; !
 Navarra:Navarra NP-TOP ; !
 Hessen:Hessen NP-TOP ; !
+Uludağ:Uludağ NP-TOP ;
 Allier:Allier NP-TOP ; !
 Bastamlı:Bastamlı NP-TOP ;
 Ümraniye:Ümraniye NP-TOP ;
@@ -20105,6 +20108,7 @@ Turgut:Turgut NP-ANT-M ;
 Arsalan:Arsalan NP-ANT-M ;
 Rafet:Rafet NP-ANT-M ;
 Başak:Başak NP-ANT-F ;
+Başkır:Başkır NP-ANT-F ;
 Çin% Cumhuriyeti:Çin% Cumhuriyeti NP-TOP ;
 Gilgit-Baltistan:Gilgit-Baltistan NP-TOP ;
 Gaspıralı:Gaspıralı NP-TOP ;
@@ -20994,6 +20998,7 @@ genetik:genetik A1 ; !
 bekar:bekar A1 ; !
 kaynaklı:kaynaklı A1 ;
 aç:aç A1 ; !
+temsilen:temsilen A1 ;
 bedeli:bedeli A1 ;
 amiyane:amiyane A1 ; !
 iki:iki A1 ; !
@@ -23162,6 +23167,7 @@ komuta:komuta A1 ;  ! ""
 dağlık:dağlık A3 ;
 gereken:gereken A4 ;  ! ""
 kısa:kısa A1 ; ! "short"
+çevrimiçi:çevrimiçi A1 ;
 değerli:değerli A1 ; ! "different"
 kendi:kendi A1 ; !
 !! JNW Adjectives
@@ -23809,6 +23815,7 @@ kim:kim ADV1 ; !
 hele% ki:hele% ki ADV1 ; ! ! Use/MT
 hızla:hızla ADV1 ; !
 bayadır:bayadır ADV1 ; !
+birbirine:birbirine ADV1 ;
 beyhude:beyhude ADV1 ; !
 ara% sıra:ara% sıra ADV1 ; !
 ardından:ardından ADV1 ; !
