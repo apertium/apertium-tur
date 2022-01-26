@@ -5037,7 +5037,7 @@ vâsıl:vâsıl A1 ;
 adak:adak A1 ; !
 tayin:tayin A1 ; !
 istihbari:istihbari A1 ;
-
+zamanlı:zamanlı A1 ; ! Use/MT 
 hakir:hakir A1 ; !
 enerji:enerji A1 ; !
 aktarma:aktarma N1 ; !
@@ -10921,6 +10921,8 @@ takvim:takvim N1 ; ! ""
 talil:talil N1 ; ! ""
 tank:tank N1 ; ! ""
 tan:tan N1 ; ! ""
+önyargı:önyargı N1 ;
+pano:pano N1 ;
 tarak:tarak%{v%} N1 ; ! ""
 tarif:tarif N1 ; ! ""
 tarla:tarla N1 ; ! ""
@@ -20990,6 +20992,7 @@ celb:celb A1 ; !
 tektonik:tektonik A1 ; !
 kere:kere A1 ; !
 kurallı:kurallı A1 ; !
+lokal:lokal A1 ;
 katlı:katlı A1 ; !
 hemdert:hemdert%{v%} A1 ; !
 bertaraf:bertaraf A1 ; !
