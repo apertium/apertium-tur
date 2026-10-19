@@ -417,7 +417,7 @@ LEXICON V-GERUNDS
 %<ger%>:%>m%{A%} GER-SUBST ; 
 %<ger_past%>:%>%{D%}%{I%}k%{v%} GER-SUBST ;
 %<ger_abst%>:%>%{y%}%{I%}ş GER-SUBST ;
-%<ger_fut%>:%>%{y%}%{A%}c%{A%}غ%{v%} GER-SUBST ;
+%<ger_fut%>:%>%{y%}%{A%}c%{A%}k%{v%} GER-SUBST ;
 %<ger_impf%>:%>%{y%}%{A%}n GER-SUBST ;
 %<ger_inf%>:%>m%{A%}k%{v%} GER-SUBST ;  
 %<ger_pabs%>:%>m%{I%}ş GER-SUBST ;
@@ -12563,6 +12563,8 @@ Manay:Manay NP-TOP ; ! ""
 Çerkez:Çerkez NP-TOP ; ! ""
 Burhaniye:Burhaniye NP-TOP ; !
 Osmaniye:Osmaniye NP-TOP ;
+Dayton:Dayton NP-TOP ; ! "Dayton"
+Swarthmore:Swarthmore NP-TOP ; ! "Swarthmore"
 
 Vinnitsya:Vinnitsya NP-TOP ; ! ""
 Bahçesaray:Bahçesaray NP-TOP ; ! ""
